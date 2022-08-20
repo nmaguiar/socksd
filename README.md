@@ -68,7 +68,7 @@ To launch a separate clean Chrome browser configured to use a SOCKS proxy with p
 
 | OS | Command |
 |----|---------|
-| Windows | ````curl https://ojob.io/win/newChrome.bat -O newChrome.bat<br>newChrome.bat default localhost:1080```` |
+| Windows | curl https://ojob.io/win/newChrome.bat -O newChrome.bat<br>newChrome.bat default localhost:1080 |
 | Mac OS | ````curl https://ojob.io/mac/newChrome.sh \| sh -s default localhost:1080```` |
 | Linux | ````curl https://ojob.io/unix/newChrome.sh \| sh -s default localhost:1080```` |
 
