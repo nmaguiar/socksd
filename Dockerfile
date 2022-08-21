@@ -1,7 +1,9 @@
-FROM openaf/oaf:nightly
+FROM openaf/oaf:nightly as main
 
 RUN /openaf/opack install SocksServer
 
-EXPOSE 1080
+FROM scratch as final
 
+COPY --from=main / /
+EXPOSE 1080
 CMD [ "/openaf/oaf", "-c", "loadLib('socksServer.js');(new SocksServer()).start(1080);print('READY!');ow.loadServer().daemon();" ]
