@@ -1,4 +1,4 @@
-FROM openaf/oaf:nightly as main
+FROM openaf/oaf as main
 
 RUN /openaf/opack install SocksServer
 
