@@ -2,6 +2,7 @@ FROM openaf/oaf as main
 
 RUN /openaf/opack install SocksServer
 
+# -------------------
 FROM scratch as final
 
 COPY --from=main / /
