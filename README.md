@@ -39,6 +39,8 @@ You can control the behaviour with environment variables:
 | FILTERS | "192.168.1.0/16,fc00::/7" | Comma-delimited list of CIDRs to filter all traffic proxied. |
 | OJOB_JSONLOG | true/false | Ensures all output log to stdout is in JSON |
 
+> You can add these variables with the option '-e' on the ````docker run -d --rm -p 1080:1080 -e LOGS=true -e ONLY_LOCAL=true -e OJOB_JSONLOG=true --network mynet --name socksd nmaguiar/socksd```` command or with ````kubectl set env deploy socksd LOGS=true ONLY_LOCAL=true OJOB_JSONLOG=true```` in Kubernetes
+
 ## Examples
 
 ## Docker example
