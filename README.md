@@ -27,6 +27,18 @@ Build command:
 docker build -t socksd .
 ````
 
+## Options
+
+You can control the behaviour with environment variables:
+
+| Variable | Possible values | Description |
+|----------|-----------------|-------------|
+| ONLY_LOCAL | true/false | Filters all proxied traffic only to private network addresses |
+| LOGS | true/false | Enables basic connection logging |
+| LOGS_DETAIL | true/false | Enables more verbose logging (requires LOGS=true) |
+| FILTERS | "192.168.1.0/16,fc00::/7" | Comma-delimited list of CIDRs to filter all traffic proxied. |
+| OJOB_JSONLOG | true/false | Ensures all output log to stdout is in JSON |
+
 ## Examples
 
 ## Docker example
