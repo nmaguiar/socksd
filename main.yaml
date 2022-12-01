@@ -1,0 +1,54 @@
+# Author: Nuno Aguiar
+help:
+  text   : Starts a socks server 
+  expects: 
+  - name     : ONLY_LOCAL
+    desc     : If "true" filters by requests only for private IP addresses
+    example  : "true"
+    mandatory: false
+  - name     : LOGS
+    desc     : If "true" basic connection logging will be output
+    example  : "true"
+    mandatory: false
+  - name     : LOGS_DETAIL
+    desc     : If "true" and (LOGS=true) verbose logging will be output
+    example  : "true"
+    mandatory: false
+  - name     : FILTERS
+    desc     : A list of IP addressed CIDR separated by commas.
+    example  : "192.168.1.0/16,fc00::/7"
+    mandatory: false
+
+todo:
+- Socks Server
+
+ojob:
+  opacks      :
+  - openaf: 20211229
+  - SocksServer
+  catch       : printErrnl("[" + job.name + "] "); if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
+  logToConsole: false   # to change when finished
+  argsFromEnvs: true
+  daemon      : true
+  loadLibs    :
+  - socksServer.js
+
+jobs:
+# -------------------
+- name : Socks Server
+  check:
+    in:
+      ONLY_LOCAL : toBoolean.isBoolean.default(false)
+      LOGS       : toBoolean.isBoolean.default(false)
+      LOGS_DETAIL: toBoolean.isBoolean.default(false)
+      FILTERS    : isString.default(__)
+  exec : |
+    var s = new SocksServer()
+    s.start(1080, args.ONLY_LOCAL ? s.getLocalNetCallback(args.LOGS, args.LOGS_DETAIL)
+                                  : (isDef(args.FILTERS) 
+                                    ? s.getCallback( s.getNetFilter( args.FILTERS.split(',') ), args.LOGS, args.LOGS_DETAIL )
+                                    : s.getLogCallback( args.LOGS, args.LOGS_DETAIL )
+                                    )
+            )
+            
+    log('READY!')
