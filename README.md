@@ -19,6 +19,8 @@ kubectl port-forward deploy/socksd 1080:1080
 
 And then configure your SOCKS proxy to localhost:1080
 
+> You can avoid the port-forward by deploying a K8S NodePort service (e.g port 31080) to the socksd deployment. Please be aware that Istio will impact the connectinos to the socksd pod so it should be deployed in a non-Istio namespace.
+
 ## Building
 
 Build command: 
