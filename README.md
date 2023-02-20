@@ -2,6 +2,14 @@
 
 Very simple SOCKS proxy container. Allows you to proxy directly to a docker network or a Kubernetes cluster connecting a curl command, your Chrome or Firefox browser or even other applications like DBeaver to access a database.
 
+Main features:
+- IPv6 support
+- JSON logs output support
+- SOCKS 4, 5 and 5 with DNS resolution
+- Filter the network addresses allowed (e.g. 192.168.1.0/16,fc00::/7, etc...) 
+- Detailed connection log support
+- Scale capacity by increasing deploy replicas
+
 ## Run on Docker
 
 ````bash
