@@ -65,12 +65,16 @@ Launching a socksd deployment, a nginx deployment and exposing the nginx deploym
 ````bash
 kubectl create deployment socksd --image nmaguiar/socksd --port=1080
 kubectl create deployment nginx --image nginx
+
 kubectl expose deploy nginx --port=80
 kubectl port-forward deploy/socksd 1080:1080 &
+# OR JUST: kubectl expose deploy socks-server --port=31080 --type=NodePort
 
 # Curling inside the Kubernetes cluster
 curl http://nginx.default.svc --proxy socks5h://127.0.0.1:1080
 ````
+
+> Using the Kubernetes NodePort solution is faster than port-forward but requires that you have access to port 31080 on each node.
 
 ### Using browsers:
 
@@ -88,11 +92,15 @@ To launch a separate clean Chrome browser configured to use a SOCKS proxy with p
 | Mac OS | ````curl https://ojob.io/mac/newChrome.sh \| sh -s default localhost:1080```` |
 | Linux | ````curl https://ojob.io/unix/newChrome.sh \| sh -s default localhost:1080```` |
 
+> Use port 31080 instead of 1080 if you use the faster Kubernetes NodePort alternative
+
 __Firefox__
 
 Alternatively to Chrome based browsers you can configure Firefox by changing the connection settings for SOCKS proxy on a Firefox browser while also proxy DNS:
 
 ![Firefox](images/firefox.png)
+
+> Use port 31080 instead of 1080 if you use the faster Kubernetes NodePort alternative
 
 ## Kubernetes example with a database:
 
@@ -101,6 +109,7 @@ Launching a socksd deployment, a postgresql database deployment and then using D
 ````bash
 kubectl create deployment socksd --image nmaguiar/socksd --port=1080
 kubectl port-forward deploy/socksd 1080:1080 &
+# OR kubectl expose deploy socks-server --port=31080 --type=NodePort
 
 helm install postgresql bitnami/postgresql
 echo PASSWORD=$(kubectl get secret --namespace default postgresql -o jsonpath="{.data.postgres-password}" | base64 -d)
@@ -113,6 +122,8 @@ Then, using DBeaver, create a PostgreSQL connection like this:
 setting the proxy SOCKS like this:
 
 ![DBeaver_proxy](images/dbeaver_proxy.png)
+
+> Use port 31080 instead of 1080 if you use the faster Kubernetes NodePort alternative
 
 and you will be able to use the database directly as if you were running DBeaver inside the Kubernetes cluster:
 
