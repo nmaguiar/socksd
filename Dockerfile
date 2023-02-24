@@ -12,3 +12,5 @@ EXPOSE 1080
 ENV OJOB=/openaf/entrypoint.yaml
 ENV OJOB_CONFIG=/ojob/main.yaml
 ENTRYPOINT ["/openaf/.docker/entrypoint.sh"]
+
+USER 1000
