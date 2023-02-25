@@ -1,4 +1,4 @@
-FROM openaf/ojobrt as main
+FROM openaf/ojobrt:nightly as main
 
 RUN /openaf/opack install SocksServer
 COPY main.yaml /ojob/main.yaml
