@@ -76,7 +76,7 @@ kubectl create deployment nginx --image nginx
 
 kubectl expose deploy nginx --port=80
 kubectl port-forward deploy/socksd 1080:1080 &
-# OR JUST: kubectl expose deploy socks-server --port=31080 --type=NodePort
+# OR JUST:  kubectl create service nodeport socksd --tcp=31080:1080 --node-port=31080
 
 # Curling inside the Kubernetes cluster
 curl http://nginx.default.svc --proxy socks5h://127.0.0.1:1080
@@ -117,7 +117,7 @@ Launching a socksd deployment, a postgresql database deployment and then using D
 ````bash
 kubectl create deployment socksd --image nmaguiar/socksd --port=1080
 kubectl port-forward deploy/socksd 1080:1080 &
-# OR kubectl expose deploy socks-server --port=31080 --type=NodePort
+# OR kubectl create service nodeport socksd --tcp=31080:1080 --node-port=31080
 
 helm install postgresql bitnami/postgresql
 echo PASSWORD=$(kubectl get secret --namespace default postgresql -o jsonpath="{.data.postgres-password}" | base64 -d)
