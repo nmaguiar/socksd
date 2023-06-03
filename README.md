@@ -10,6 +10,10 @@ Main features:
 - Detailed connection log support
 - Scale capacity by increasing deploy replicas
 
+Security scans to latest and build container images:<br>
+![.github/sec-build.svg](.github/sec-build.svg)<br>
+![.github/sec-latest.svg](.github/sec-latest.svg)
+
 ## Run on Docker
 
 ````bash
