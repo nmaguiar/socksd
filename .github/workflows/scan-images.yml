@@ -1,0 +1,46 @@
+name: Scan Images
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '00 7 * * *'
+
+jobs:
+  Scan-Images:
+    runs-on    : ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    name       : Scan images
+    steps      :
+    - uses: actions/checkout@v3
+      name: Checkoout
+
+    - name: Cache OpenAF runtime
+      uses: actions/cache@v3
+      with:
+        key : oaf-t8
+        path: /tmp/oaf
+
+    - uses: openaf/ojob-action@v3
+      name: Check latest
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=nmaguiar/socksd:latest file=.github/sec-latest.svg'
+        dist: 't8'
+
+    - uses: openaf/ojob-action@v3
+      name: Check build
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=nmaguiar/socksd:build file=.github/sec-build.svg'
+        dist: 't8'
+
+    - uses: openaf/ojob-action@v3
+      name: Update badges
+      env :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        ojob: 'ojob.io/git/hub/contentIn'
+        args: 'message="update\ badge" paths=.github/sec-latest.svg,.github/sec-build.svg'
+        dist: 't8'
