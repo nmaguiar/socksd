@@ -26,14 +26,14 @@ jobs:
       name: Check latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=nmaguiar/socksd:latest file=.github/sec-latest.svg'
+        args: 'image=nmaguiar/socksd:latest file=.github/sec-latest.svg reportFile=.github/sec-latest.yaml'
         dist: 't8'
 
     - uses: openaf/ojob-action@v3
       name: Check build
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=nmaguiar/socksd:build file=.github/sec-build.svg'
+        args: 'image=nmaguiar/socksd:build file=.github/sec-build.svg reportFile=.github/sec-build.yaml'
         dist: 't8'
 
     - uses: openaf/ojob-action@v3
@@ -42,5 +42,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         ojob: 'ojob.io/git/hub/contentIn'
-        args: 'message="update\ badge" paths=.github/sec-latest.svg,.github/sec-build.svg'
+        args: 'message="update\ badge" paths=.github/sec-latest.svg,.github/sec-build.svg,.github/sec-latest.yaml,.github/sec-build.yaml'
         dist: 't8'
