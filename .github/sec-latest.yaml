@@ -38,6 +38,32 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-2804
     PublishedDate: '2023-05-25T22:15:00Z'
     LastModifiedDate: '2023-06-06T13:40:00Z'
+  - VulnerabilityID: CVE-2023-3138
+    PkgID: libx11@1.8.4-r3
+    PkgName: libx11
+    InstalledVersion: 1.8.4-r3
+    FixedVersion: 1.8.4-r4
+    Layer:
+      Digest: sha256:b4b3f0fa20fa4e0cb07c7db86a05a84b17b08bb15a3f687a920afbacded14a1f
+      DiffID: sha256:6c3cb33e6ffc67bd419366e5c4e467d0b50a3dd9878d4eda94840360684fe4fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3138
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: InitExt.c can overwrite unintended portions of the Display structure if the extension request leads to a buffer overflow
+    Description: A vulnerability was found in libX11. The security flaw occurs because the functions in src/InitExt.c in libX11 do not check that the values provided for the Request, Event, or Error IDs are within the bounds of the arrays that those functions write to, using those IDs as array indexes. They trust that they were called with values provided by an Xserver adhering to the bounds specified in the X11 protocol, as all X servers provided by X.Org do. As the protocol only specifies a single byte for these values, an out-of-bounds value provided by a malicious server (or a malicious proxy-in-the-middle) can only overwrite other portions of the Display structure and not write outside the bounds of the Display structure itself, possibly causing the client to crash with this memory corruption.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-3138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3138
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-3138
+    - https://ubuntu.com/security/notices/USN-6168-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-3138
 - Target: Java
   Class: lang-pkgs
   Type: jar
