@@ -11,8 +11,8 @@ Main features:
 - Scale capacity by increasing deploy replicas
 
 Security scans to latest and build container images:<br>
-[![.github/sec-build.svg](.github/sec-build.svg)](.github/sec-build.yaml)<br>
-[![.github/sec-latest.svg](.github/sec-latest.svg)](.github/sec-latest.yaml)
+[![.github/sec-build.svg](.github/sec-build.svg)](.github/sec-build.md)<br>
+[![.github/sec-latest.svg](.github/sec-latest.svg)](.github/sec-latest.md)
 
 ## Run on Docker
 
