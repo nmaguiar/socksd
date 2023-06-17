@@ -22,25 +22,39 @@ jobs:
         key : oaf-t8
         path: /tmp/oaf
 
-    - uses: openaf/ojob-action@v3
+    - uses: openaf/ojob-action@v4
       name: Check latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=nmaguiar/socksd:latest file=.github/sec-latest.svg reportFile=.github/sec-latest.yaml'
         dist: 't8'
 
-    - uses: openaf/ojob-action@v3
+    - uses: openaf/ojob-action@v4
+      name: Generate sec-latest.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-latest.yaml file=.github/sec-latest.md'
+        dist: 't8'
+
+    - uses: openaf/ojob-action@v4
       name: Check build
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=nmaguiar/socksd:build file=.github/sec-build.svg reportFile=.github/sec-build.yaml'
         dist: 't8'
 
-    - uses: openaf/ojob-action@v3
+    - uses: openaf/ojob-action@v4
+      name: Generate sec-build.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-build.yaml file=.github/sec-build.md'
+        dist: 't8'
+
+    - uses: openaf/ojob-action@v4
       name: Update badges
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         ojob: 'ojob.io/git/hub/contentIn'
-        args: 'message="update\ badge" paths=.github/sec-latest.svg,.github/sec-build.svg,.github/sec-latest.yaml,.github/sec-build.yaml'
+        args: 'message="update\ badge" paths=.github/'
         dist: 't8'
