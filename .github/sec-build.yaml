@@ -1,69 +1,6 @@
-- Target: nmaguiar/socksd:build (alpine 3.18.0)
+- Target: nmaguiar/socksd:build (alpine 3.18.2)
   Class: os-pkgs
   Type: alpine
-  Vulnerabilities:
-  - VulnerabilityID: CVE-2023-2804
-    PkgID: libjpeg-turbo@2.1.5.1-r2
-    PkgName: libjpeg-turbo
-    InstalledVersion: 2.1.5.1-r2
-    FixedVersion: 2.1.5.1-r3
-    Layer:
-      Digest: sha256:2e1d1e13b9e77331aaef134af2297086324d14ef01f50db2b63f0e1d76875da4
-      DiffID: sha256:b486b18866387457f2786d99bf4aab38c10b9a73b2965afad3304e5a7ea6f0a3
-    SeveritySource: nvd
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-2804
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Title: heap-buffer-overflow in h2v2_merged_upsample_internal() at /libjpeg-turbo/jdmrgext.c
-    Description: A heap-based buffer overflow issue was discovered in libjpeg-turbo in h2v2_merged_upsample_internal() function of jdmrgext.c file. The vulnerability can only be exploited with 12-bit data precision for which the range of the sample data type exceeds the valid sample range, hence, an attacker could craft a 12-bit lossless JPEG image that contains out-of-range 12-bit samples. An application attempting to decompress such image using merged upsampling would lead to segmentation fault or buffer overflows, causing an application to crash.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-2804
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2208447
-    - https://github.com/libjpeg-turbo/libjpeg-turbo/commit/9f756bc67a84d4566bf74a0c2432aa55da404021
-    - https://github.com/libjpeg-turbo/libjpeg-turbo/issues/668#issuecomment-1492586118
-    - https://github.com/libjpeg-turbo/libjpeg-turbo/issues/675
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-2804
-    - https://www.cve.org/CVERecord?id=CVE-2023-2804
-    PublishedDate: '2023-05-25T22:15:00Z'
-    LastModifiedDate: '2023-06-06T13:40:00Z'
-  - VulnerabilityID: CVE-2023-3138
-    PkgID: libx11@1.8.4-r3
-    PkgName: libx11
-    InstalledVersion: 1.8.4-r3
-    FixedVersion: 1.8.4-r4
-    Layer:
-      Digest: sha256:2e1d1e13b9e77331aaef134af2297086324d14ef01f50db2b63f0e1d76875da4
-      DiffID: sha256:b486b18866387457f2786d99bf4aab38c10b9a73b2965afad3304e5a7ea6f0a3
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3138
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Title: InitExt.c can overwrite unintended portions of the Display structure if the extension request leads to a buffer overflow
-    Description: A vulnerability was found in libX11. The security flaw occurs because the functions in src/InitExt.c in libX11 do not check that the values provided for the Request, Event, or Error IDs are within the bounds of the arrays that those functions write to, using those IDs as array indexes. They trust that they were called with values provided by an Xserver adhering to the bounds specified in the X11 protocol, as all X servers provided by X.Org do. As the protocol only specifies a single byte for these values, an out-of-bounds value provided by a malicious server (or a malicious proxy-in-the-middle) can only overwrite other portions of the Display structure and not write outside the bounds of the Display structure itself, possibly causing the client to crash with this memory corruption.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-3138
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3138
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-3138
-    - https://ubuntu.com/security/notices/USN-6168-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-3138
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -74,8 +11,8 @@
     InstalledVersion: 30.1.1-jre
     FixedVersion: 32.0.0
     Layer:
-      Digest: sha256:2e1d1e13b9e77331aaef134af2297086324d14ef01f50db2b63f0e1d76875da4
-      DiffID: sha256:b486b18866387457f2786d99bf4aab38c10b9a73b2965afad3304e5a7ea6f0a3
+      Digest: sha256:d1306b96bb5a4fba1e2d1f098a11c7fe6c2144d18329294d86840915ea8cca57
+      DiffID: sha256:6dab3e86a9d171634c8609c8e1fe1f804fa6db45be7d189632702cb8d8101109
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-2976
     DataSource:
