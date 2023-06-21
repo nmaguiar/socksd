@@ -87,7 +87,8 @@
 │                                                │      -2023-3138 
 │                                                ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-3138 
 │                                                ├ [3]: https://ubuntu.com/security/notices/USN-6168-1 
-│                                                ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-3138 
+│                                                ├ [4]: https://ubuntu.com/security/notices/USN-6168-2 
+│                                                ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3138 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
