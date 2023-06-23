@@ -20,7 +20,8 @@
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                               │                          ed+ecosystem%3Amaven 
-                              ├ Title           : Guava vulnerable to insecure use of temporary directory 
+                              ├ Title           : Use of Java's default temporary directory for file
+                              │                   creation in `FileBa ... 
                               ├ Description     : Use of Java's default temporary directory for file
                               │                   creation in `FileBackedOutputStream` in Google Guava versions
                               │                    1.0 to 31.1 on Unix systems and Android Ice Cream Sandwich
