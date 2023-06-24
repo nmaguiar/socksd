@@ -10,10 +10,10 @@
                               ├ PkgPath         : openaf/S3/minio-8.5.3-all.jar 
                               ├ InstalledVersion: 30.1.1-jre 
                               ├ FixedVersion    : 32.0.0 
-                              ├ Layer            ╭ Digest: sha256:f053436cb7f3a710cac84f2dd6dca6e5305c2bdd
-                              │                  │         199c4c5d76e1f3970dc49fb6 
-                              │                  ╰ DiffID: sha256:c8b64df136951d9dc88c9f75fbce24ef85d6c839
-                              │                            a7d726f881c15be94408ac21 
+                              ├ Layer            ╭ Digest: sha256:164b82e467f8a0ac83a099b963b3f5e51726bcb8
+                              │                  │         72ef7c88f8fa6347f963a78c 
+                              │                  ╰ DiffID: sha256:23528c286e4c48078b4bb1dc24a2f1aa8f9bbd7f
+                              │                            dba0773c234e87942fb14a24 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2976 
                               ├ DataSource       ╭ ID  : ghsa 
