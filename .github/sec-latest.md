@@ -82,13 +82,21 @@
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N
 │                             │                           │           /I:N/A:H 
 │                             │                           ╰ V3Score : 6.5 
-│                             ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3138 
-│                                                ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
-│                                                │      -2023-3138 
-│                                                ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-3138 
-│                                                ├ [3]: https://ubuntu.com/security/notices/USN-6168-1 
-│                                                ├ [4]: https://ubuntu.com/security/notices/USN-6168-2 
-│                                                ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3138 
+│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3138 
+│                             │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+│                             │                  │      -2023-3138 
+│                             │                  ├ [2]: https://gitlab.freedesktop.org/xorg/lib/libx11/-/c
+│                             │                  │      ommit/304a654a0d57bf0f00d8998185f0360332cfa36c 
+│                             │                  ├ [3]: https://lists.x.org/archives/xorg-announce/2023-Ju
+│                             │                  │      ne/003406.html 
+│                             │                  ├ [4]: https://lists.x.org/archives/xorg-announce/2023-Ju
+│                             │                  │      ne/003407.html 
+│                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-3138 
+│                             │                  ├ [6]: https://ubuntu.com/security/notices/USN-6168-1 
+│                             │                  ├ [7]: https://ubuntu.com/security/notices/USN-6168-2 
+│                             │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-3138 
+│                             ├ PublishedDate   : 2023-06-28T21:15:00Z 
+│                             ╰ LastModifiedDate: 2023-06-28T21:15:00Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -122,9 +130,13 @@
                               │                   
                               │                    
                               ├ Severity        : MEDIUM 
-                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I
-                              │                         │           :N/A:N 
-                              │                         ╰ V3Score : 5.5 
+                              ├ CweIDs           ─ [0]: CWE-552 
+                              ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I
+                              │                  │      │           :N/A:N 
+                              │                  │      ╰ V3Score : 5.5 
+                              │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I
+                              │                         │           :H/A:N 
+                              │                         ╰ V3Score : 7.1 
                               ├ References       ╭ [0]: https://github.com/advisories/GHSA-7g45-4rm6-3mm3 
                               │                  ├ [1]: https://github.com/google/guava/commit/feb83a1c8fd
                               │                  │      2e7670b244d5afd23cba5aca43284 
@@ -133,5 +145,5 @@
                               │                  ├ [4]: https://github.com/google/guava/releases/tag/v32.0.0 
                               │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-2976 
                               ├ PublishedDate   : 2023-06-14T18:15:00Z 
-                              ╰ LastModifiedDate: 2023-06-14T18:20:00Z 
+                              ╰ LastModifiedDate: 2023-06-28T18:56:00Z 
 ````
