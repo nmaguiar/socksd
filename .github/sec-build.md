@@ -35,9 +35,13 @@
                               │                   
                               │                    
                               ├ Severity        : MEDIUM 
-                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I
-                              │                         │           :N/A:N 
-                              │                         ╰ V3Score : 5.5 
+                              ├ CweIDs           ─ [0]: CWE-552 
+                              ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I
+                              │                  │      │           :N/A:N 
+                              │                  │      ╰ V3Score : 5.5 
+                              │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I
+                              │                         │           :H/A:N 
+                              │                         ╰ V3Score : 7.1 
                               ├ References       ╭ [0]: https://github.com/advisories/GHSA-7g45-4rm6-3mm3 
                               │                  ├ [1]: https://github.com/google/guava/commit/feb83a1c8fd
                               │                  │      2e7670b244d5afd23cba5aca43284 
@@ -46,5 +50,5 @@
                               │                  ├ [4]: https://github.com/google/guava/releases/tag/v32.0.0 
                               │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-2976 
                               ├ PublishedDate   : 2023-06-14T18:15:00Z 
-                              ╰ LastModifiedDate: 2023-06-14T18:20:00Z 
+                              ╰ LastModifiedDate: 2023-06-28T18:56:00Z 
 ````
