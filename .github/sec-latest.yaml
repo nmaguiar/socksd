@@ -61,10 +61,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2023-3138
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3138
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/commit/304a654a0d57bf0f00d8998185f0360332cfa36c
+    - https://lists.x.org/archives/xorg-announce/2023-June/003406.html
+    - https://lists.x.org/archives/xorg-announce/2023-June/003407.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3138
     - https://ubuntu.com/security/notices/USN-6168-1
     - https://ubuntu.com/security/notices/USN-6168-2
     - https://www.cve.org/CVERecord?id=CVE-2023-3138
+    PublishedDate: '2023-06-28T21:15:00Z'
+    LastModifiedDate: '2023-06-28T21:15:00Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -90,10 +95,15 @@
       Even though the security vulnerability is fixed in version 32.0.0, we recommend using version 32.0.1 as version 32.0.0 breaks some functionality under Windows.
 
     Severity: MEDIUM
+    CweIDs:
+    - CWE-552
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.1
     References:
     - https://github.com/advisories/GHSA-7g45-4rm6-3mm3
     - https://github.com/google/guava/commit/feb83a1c8fd2e7670b244d5afd23cba5aca43284
@@ -102,4 +112,4 @@
     - https://github.com/google/guava/releases/tag/v32.0.0
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2976
     PublishedDate: '2023-06-14T18:15:00Z'
-    LastModifiedDate: '2023-06-14T18:20:00Z'
+    LastModifiedDate: '2023-06-28T18:56:00Z'
