@@ -10,10 +10,10 @@
                               ├ PkgPath         : openaf/S3/minio-8.5.3-all.jar 
                               ├ InstalledVersion: 30.1.1-jre 
                               ├ FixedVersion    : 32.0.0 
-                              ├ Layer            ╭ Digest: sha256:164b82e467f8a0ac83a099b963b3f5e51726bcb8
-                              │                  │         72ef7c88f8fa6347f963a78c 
-                              │                  ╰ DiffID: sha256:23528c286e4c48078b4bb1dc24a2f1aa8f9bbd7f
-                              │                            dba0773c234e87942fb14a24 
+                              ├ Layer            ╭ Digest: sha256:bec608cc9436b0d163407117fdc1db6540ca95ae
+                              │                  │         2c9cba009a10fd2cde9053a7 
+                              │                  ╰ DiffID: sha256:49b0227baef47e5282811f4491c2a385db65c913
+                              │                            991345f8e6148fb4238e2fc5 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2976 
                               ├ DataSource       ╭ ID  : ghsa 
@@ -50,5 +50,5 @@
                               │                  ├ [4]: https://github.com/google/guava/releases/tag/v32.0.0 
                               │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-2976 
                               ├ PublishedDate   : 2023-06-14T18:15:00Z 
-                              ╰ LastModifiedDate: 2023-06-28T18:56:00Z 
+                              ╰ LastModifiedDate: 2023-06-29T18:22:00Z 
 ````
