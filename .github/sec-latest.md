@@ -96,7 +96,7 @@
 │                             │                  ├ [7]: https://ubuntu.com/security/notices/USN-6168-2 
 │                             │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-3138 
 │                             ├ PublishedDate   : 2023-06-28T21:15:00Z 
-│                             ╰ LastModifiedDate: 2023-06-28T21:15:00Z 
+│                             ╰ LastModifiedDate: 2023-06-29T15:35:00Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -145,5 +145,5 @@
                               │                  ├ [4]: https://github.com/google/guava/releases/tag/v32.0.0 
                               │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-2976 
                               ├ PublishedDate   : 2023-06-14T18:15:00Z 
-                              ╰ LastModifiedDate: 2023-06-28T18:56:00Z 
+                              ╰ LastModifiedDate: 2023-06-29T18:22:00Z 
 ````
