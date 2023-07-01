@@ -1,6 +1,7 @@
 FROM openaf/ojobrt:nightly as main
 
-RUN /openaf/opack install SocksServer
+RUN /openaf/opack install SocksServer\
+ && /openaf/opack erase S3
 COPY main.yaml /ojob/main.yaml
 
 # -------------------
