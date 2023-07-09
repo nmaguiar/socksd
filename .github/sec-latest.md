@@ -57,6 +57,7 @@
 │                             │                  │         5a3f687a920afbacded14a1f 
 │                             │                  ╰ DiffID: sha256:6c3cb33e6ffc67bd419366e5c4e467d0b50a3dd9
 │                             │                            878d4eda94840360684fe4fd 
+│                             ├ SeveritySource  : nvd 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3138 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
@@ -78,8 +79,12 @@
 │                             │                    Display structure and not write outside the bounds of the
 │                             │                   Display structure itself, possibly causing the client to
 │                             │                   crash with this memory corruption. 
-│                             ├ Severity        : MEDIUM 
-│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N
+│                             ├ Severity        : HIGH 
+│                             ├ CweIDs           ─ [0]: CWE-787 
+│                             ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                             │                  │        │           /I:N/A:H 
+│                             │                  │        ╰ V3Score : 7.5 
+│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N
 │                             │                           │           /I:N/A:H 
 │                             │                           ╰ V3Score : 6.5 
 │                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3138 
@@ -96,7 +101,7 @@
 │                             │                  ├ [7]: https://ubuntu.com/security/notices/USN-6168-2 
 │                             │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-3138 
 │                             ├ PublishedDate   : 2023-06-28T21:15:00Z 
-│                             ╰ LastModifiedDate: 2023-06-29T15:35:00Z 
+│                             ╰ LastModifiedDate: 2023-07-07T13:05:00Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
