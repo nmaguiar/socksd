@@ -1,5 +1,65 @@
 ````yaml
-─ [0] ╭ Target: nmaguiar/socksd:build (alpine 3.18.2) 
-      ├ Class : os-pkgs 
-      ╰ Type  : alpine 
+─ [0] ╭ Target         : nmaguiar/socksd:build (alpine 3.18.2) 
+      ├ Class          : os-pkgs 
+      ├ Type           : alpine 
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-2975 
+                        │     ├ PkgID           : libcrypto3@3.1.1-r1 
+                        │     ├ PkgName         : libcrypto3 
+                        │     ├ InstalledVersion: 3.1.1-r1 
+                        │     ├ FixedVersion    : 3.1.1-r2 
+                        │     ├ Layer            ╭ Digest: sha256:f5fba7ceab2088f1f59e74c2c9d211367769d726
+                        │     │                  │         67bc30ff4ced8f51373b8660 
+                        │     │                  ╰ DiffID: sha256:7d748c6316ecf38495a69a6a2c021fc2da09142c
+                        │     │                            7eabd9ff8e72ba23a22736da 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2975 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : Issue summary: The AES-SIV cipher implementation
+                        │     │                   contains a bug that c ... 
+                        │     ├ Description     : AES-SIV implementation ignores empty associated data entries 
+                        │     ├ Severity        : LOW 
+                        │     ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │                        │      -2023-2975 
+                        │                        ╰ [1]: https://www.openssl.org/news/secadv/20230714.txt 
+                        ├ [1] ╭ VulnerabilityID : CVE-2023-2975 
+                        │     ├ PkgID           : libssl3@3.1.1-r1 
+                        │     ├ PkgName         : libssl3 
+                        │     ├ InstalledVersion: 3.1.1-r1 
+                        │     ├ FixedVersion    : 3.1.1-r2 
+                        │     ├ Layer            ╭ Digest: sha256:f5fba7ceab2088f1f59e74c2c9d211367769d726
+                        │     │                  │         67bc30ff4ced8f51373b8660 
+                        │     │                  ╰ DiffID: sha256:7d748c6316ecf38495a69a6a2c021fc2da09142c
+                        │     │                            7eabd9ff8e72ba23a22736da 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2975 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : Issue summary: The AES-SIV cipher implementation
+                        │     │                   contains a bug that c ... 
+                        │     ├ Description     : AES-SIV implementation ignores empty associated data entries 
+                        │     ├ Severity        : LOW 
+                        │     ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │                        │      -2023-2975 
+                        │                        ╰ [1]: https://www.openssl.org/news/secadv/20230714.txt 
+                        ╰ [2] ╭ VulnerabilityID : CVE-2023-2975 
+                              ├ PkgID           : openssl@3.1.1-r1 
+                              ├ PkgName         : openssl 
+                              ├ InstalledVersion: 3.1.1-r1 
+                              ├ FixedVersion    : 3.1.1-r2 
+                              ├ Layer            ╭ Digest: sha256:f5fba7ceab2088f1f59e74c2c9d211367769d726
+                              │                  │         67bc30ff4ced8f51373b8660 
+                              │                  ╰ DiffID: sha256:7d748c6316ecf38495a69a6a2c021fc2da09142c
+                              │                            7eabd9ff8e72ba23a22736da 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2975 
+                              ├ DataSource       ╭ ID  : alpine 
+                              │                  ├ Name: Alpine Secdb 
+                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                              ├ Title           : Issue summary: The AES-SIV cipher implementation
+                              │                   contains a bug that c ... 
+                              ├ Description     : AES-SIV implementation ignores empty associated data entries 
+                              ├ Severity        : LOW 
+                              ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                                                 │      -2023-2975 
+                                                 ╰ [1]: https://www.openssl.org/news/secadv/20230714.txt 
 ````
