@@ -52,17 +52,18 @@
                         │     │                   associated data
                         │     │                   entries this is qualified as Low severity issue. 
                         │     ├ Severity        : LOW 
-                        │     ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/07/15/1 
+                        │     │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                         │     │                  │      -2023-2975 
-                        │     │                  ├ [1]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
+                        │     │                  ├ [2]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
                         │     │                  │      mmitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
                         │     │                  │      [m 
-                        │     │                  ├ [2]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
+                        │     │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
                         │     │                  │      mmitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
                         │     │                  │      [m 
-                        │     │                  ╰ [3]: https://www.openssl.org/news/secadv/20230714.txt 
+                        │     │                  ╰ [4]: https://www.openssl.org/news/secadv/20230714.txt 
                         │     ├ PublishedDate   : 2023-07-14T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-07-14T12:47:00Z 
+                        │     ╰ LastModifiedDate: 2023-07-15T13:15:00Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-2975 
                         │     ├ PkgID           : libssl3@3.1.1-r1 
                         │     ├ PkgName         : libssl3 
@@ -113,17 +114,18 @@
                         │     │                   associated data
                         │     │                   entries this is qualified as Low severity issue. 
                         │     ├ Severity        : LOW 
-                        │     ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/07/15/1 
+                        │     │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                         │     │                  │      -2023-2975 
-                        │     │                  ├ [1]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
+                        │     │                  ├ [2]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
                         │     │                  │      mmitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
                         │     │                  │      [m 
-                        │     │                  ├ [2]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
+                        │     │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
                         │     │                  │      mmitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
                         │     │                  │      [m 
-                        │     │                  ╰ [3]: https://www.openssl.org/news/secadv/20230714.txt 
+                        │     │                  ╰ [4]: https://www.openssl.org/news/secadv/20230714.txt 
                         │     ├ PublishedDate   : 2023-07-14T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-07-14T12:47:00Z 
+                        │     ╰ LastModifiedDate: 2023-07-15T13:15:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-2975 
                               ├ PkgID           : openssl@3.1.1-r1 
                               ├ PkgName         : openssl 
@@ -174,15 +176,16 @@
                               │                   associated data
                               │                   entries this is qualified as Low severity issue. 
                               ├ Severity        : LOW 
-                              ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/07/15/1 
+                              │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                               │                  │      -2023-2975 
-                              │                  ├ [1]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
+                              │                  ├ [2]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
                               │                  │      mmitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
                               │                  │      [m 
-                              │                  ├ [2]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
+                              │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
                               │                  │      mmitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
                               │                  │      [m 
-                              │                  ╰ [3]: https://www.openssl.org/news/secadv/20230714.txt 
+                              │                  ╰ [4]: https://www.openssl.org/news/secadv/20230714.txt 
                               ├ PublishedDate   : 2023-07-14T12:15:00Z 
-                              ╰ LastModifiedDate: 2023-07-14T12:47:00Z 
+                              ╰ LastModifiedDate: 2023-07-15T13:15:00Z 
 ````
