@@ -39,12 +39,13 @@
       entries this is qualified as Low severity issue.
     Severity: LOW
     References:
+    - http://www.openwall.com/lists/oss-security/2023/07/15/1
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2975
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
     - https://www.openssl.org/news/secadv/20230714.txt
     PublishedDate: '2023-07-14T12:15:00Z'
-    LastModifiedDate: '2023-07-14T12:47:00Z'
+    LastModifiedDate: '2023-07-15T13:15:00Z'
   - VulnerabilityID: CVE-2023-2975
     PkgID: libssl3@3.1.1-r1
     PkgName: libssl3
@@ -82,12 +83,13 @@
       entries this is qualified as Low severity issue.
     Severity: LOW
     References:
+    - http://www.openwall.com/lists/oss-security/2023/07/15/1
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2975
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
     - https://www.openssl.org/news/secadv/20230714.txt
     PublishedDate: '2023-07-14T12:15:00Z'
-    LastModifiedDate: '2023-07-14T12:47:00Z'
+    LastModifiedDate: '2023-07-15T13:15:00Z'
   - VulnerabilityID: CVE-2023-2975
     PkgID: openssl@3.1.1-r1
     PkgName: openssl
@@ -125,9 +127,10 @@
       entries this is qualified as Low severity issue.
     Severity: LOW
     References:
+    - http://www.openwall.com/lists/oss-security/2023/07/15/1
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2975
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
     - https://www.openssl.org/news/secadv/20230714.txt
     PublishedDate: '2023-07-14T12:15:00Z'
-    LastModifiedDate: '2023-07-14T12:47:00Z'
+    LastModifiedDate: '2023-07-15T13:15:00Z'
