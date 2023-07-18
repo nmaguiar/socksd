@@ -140,3 +140,20 @@ setting the proxy SOCKS like this:
 and you will be able to use the database directly as if you were running DBeaver inside the Kubernetes cluster:
 
 ![DBeaver](images/dbeaver.png)
+
+### Oracle
+
+To make it work with Oracle drivers follow these steps:
+
+1. Choose an Oracle connection and then edit the "Driver settings" to update the Oracle Driver to the latest (>= 23.2.0.0)
+2. On the connection, choose "Driver properties" and set:
+   
+| Name | Value |
+|------|-------|
+| oracle.net.socksProxyHost | 127.0.0.1 (or the host/ip of the K8S node if using NodePort) |
+| oracle.net.socksProxyPort | 1080 (or 31080 if using NodePort) |
+| oracle.net.socksRemoteDNS | true |
+
+Test the connection and connect to the Oracle database.
+
+> This was also tested with an Oracle's connection string
