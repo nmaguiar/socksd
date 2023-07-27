@@ -67,10 +67,12 @@
                         │     │                  │      mmitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
                         │     │                  │      [m 
                         │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
-                        │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
-                        │     │                  ╰ [8]: https://www.openssl.org/news/secadv/20230714.txt 
+                        │     │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230725
+                        │     │                  │      -0004/ 
+                        │     │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
+                        │     │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
                         │     ├ PublishedDate   : 2023-07-14T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-07-19T15:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-3446 
                         │     ├ PkgID           : libcrypto3@3.1.1-r1 
                         │     ├ PkgName         : libcrypto3 
@@ -226,10 +228,12 @@
                         │     │                  │      mmitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
                         │     │                  │      [m 
                         │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
-                        │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
-                        │     │                  ╰ [8]: https://www.openssl.org/news/secadv/20230714.txt 
+                        │     │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230725
+                        │     │                  │      -0004/ 
+                        │     │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
+                        │     │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
                         │     ├ PublishedDate   : 2023-07-14T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-07-19T15:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
                         ├ [3] ╭ VulnerabilityID : CVE-2023-3446 
                         │     ├ PkgID           : libssl3@3.1.1-r1 
                         │     ├ PkgName         : libssl3 
@@ -385,10 +389,12 @@
                         │     │                  │      mmitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
                         │     │                  │      [m 
                         │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
-                        │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
-                        │     │                  ╰ [8]: https://www.openssl.org/news/secadv/20230714.txt 
+                        │     │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230725
+                        │     │                  │      -0004/ 
+                        │     │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
+                        │     │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
                         │     ├ PublishedDate   : 2023-07-14T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-07-19T15:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
                         ╰ [5] ╭ VulnerabilityID : CVE-2023-3446 
                               ├ PkgID           : openssl@3.1.1-r1 
                               ├ PkgName         : openssl 
