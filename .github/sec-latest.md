@@ -11,6 +11,7 @@
                         │     │                  │         7602b23c1d74eef0bb6cd3d4 
                         │     │                  ╰ DiffID: sha256:44f14a4c083fde005e8ce6fb9b037ff4f184181d
                         │     │                            cea122b36ed73ea70f922e9c 
+                        │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2975 
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
@@ -52,7 +53,11 @@
                         │     │                   associated data
                         │     │                   entries this is qualified as Low severity issue. 
                         │     ├ Severity        : MEDIUM 
-                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
+                        │     ├ CweIDs           ─ [0]: CWE-287 
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                  │        │           /I:L/A:N 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
                         │     │                           │           /I:H/A:N 
                         │     │                           ╰ V3Score : 5.9 
                         │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/07/15/1 
@@ -72,7 +77,7 @@
                         │     │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
                         │     │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
                         │     ├ PublishedDate   : 2023-07-14T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-3446 
                         │     ├ PkgID           : libcrypto3@3.1.1-r1 
                         │     ├ PkgName         : libcrypto3 
@@ -172,6 +177,7 @@
                         │     │                  │         7602b23c1d74eef0bb6cd3d4 
                         │     │                  ╰ DiffID: sha256:44f14a4c083fde005e8ce6fb9b037ff4f184181d
                         │     │                            cea122b36ed73ea70f922e9c 
+                        │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2975 
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
@@ -213,7 +219,11 @@
                         │     │                   associated data
                         │     │                   entries this is qualified as Low severity issue. 
                         │     ├ Severity        : MEDIUM 
-                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
+                        │     ├ CweIDs           ─ [0]: CWE-287 
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                  │        │           /I:L/A:N 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
                         │     │                           │           /I:H/A:N 
                         │     │                           ╰ V3Score : 5.9 
                         │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/07/15/1 
@@ -233,7 +243,7 @@
                         │     │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
                         │     │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
                         │     ├ PublishedDate   : 2023-07-14T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
                         ├ [3] ╭ VulnerabilityID : CVE-2023-3446 
                         │     ├ PkgID           : libssl3@3.1.1-r1 
                         │     ├ PkgName         : libssl3 
@@ -333,6 +343,7 @@
                         │     │                  │         7602b23c1d74eef0bb6cd3d4 
                         │     │                  ╰ DiffID: sha256:44f14a4c083fde005e8ce6fb9b037ff4f184181d
                         │     │                            cea122b36ed73ea70f922e9c 
+                        │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2975 
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
@@ -374,7 +385,11 @@
                         │     │                   associated data
                         │     │                   entries this is qualified as Low severity issue. 
                         │     ├ Severity        : MEDIUM 
-                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
+                        │     ├ CweIDs           ─ [0]: CWE-287 
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                  │        │           /I:L/A:N 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
                         │     │                           │           /I:H/A:N 
                         │     │                           ╰ V3Score : 5.9 
                         │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/07/15/1 
@@ -394,7 +409,7 @@
                         │     │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
                         │     │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
                         │     ├ PublishedDate   : 2023-07-14T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
                         ╰ [5] ╭ VulnerabilityID : CVE-2023-3446 
                               ├ PkgID           : openssl@3.1.1-r1 
                               ├ PkgName         : openssl 
