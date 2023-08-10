@@ -12,6 +12,7 @@
                         │     │                  │         7bd422a3111b4fb0c50eaf2e 
                         │     │                  ╰ DiffID: sha256:a730b37b699f934188826f5931d86c616aa53485
                         │     │                            b54896f4517a8f52b0cb6dc0 
+                        │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3817 
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
@@ -61,7 +62,11 @@
                         │     │                   The OpenSSL 3.0 and 3.1 FIPS providers are not affected by
                         │     │                   this issue. 
                         │     ├ Severity        : MEDIUM 
-                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     ├ CweIDs           ─ [0]: CWE-834 
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                  │        │           /I:N/A:L 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
                         │     │                           │           /I:L/A:N 
                         │     │                           ╰ V3Score : 5.3 
                         │     ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/43 
@@ -86,7 +91,7 @@
                         │     │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-3817 
                         │     │                  ╰ [10]: https://www.openssl.org/news/secadv/20230731.txt 
                         │     ├ PublishedDate   : 2023-07-31T16:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-08-01T11:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-08-08T19:04:00Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-3817 
                         │     ├ PkgID           : libssl3@3.1.1-r3 
                         │     ├ PkgName         : libssl3 
@@ -97,6 +102,7 @@
                         │     │                  │         7bd422a3111b4fb0c50eaf2e 
                         │     │                  ╰ DiffID: sha256:a730b37b699f934188826f5931d86c616aa53485
                         │     │                            b54896f4517a8f52b0cb6dc0 
+                        │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3817 
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
@@ -146,7 +152,11 @@
                         │     │                   The OpenSSL 3.0 and 3.1 FIPS providers are not affected by
                         │     │                   this issue. 
                         │     ├ Severity        : MEDIUM 
-                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     ├ CweIDs           ─ [0]: CWE-834 
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                  │        │           /I:N/A:L 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
                         │     │                           │           /I:L/A:N 
                         │     │                           ╰ V3Score : 5.3 
                         │     ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/43 
@@ -171,7 +181,7 @@
                         │     │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-3817 
                         │     │                  ╰ [10]: https://www.openssl.org/news/secadv/20230731.txt 
                         │     ├ PublishedDate   : 2023-07-31T16:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-08-01T11:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-08-08T19:04:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-3817 
                               ├ PkgID           : openssl@3.1.1-r3 
                               ├ PkgName         : openssl 
@@ -182,6 +192,7 @@
                               │                  │         7bd422a3111b4fb0c50eaf2e 
                               │                  ╰ DiffID: sha256:a730b37b699f934188826f5931d86c616aa53485
                               │                            b54896f4517a8f52b0cb6dc0 
+                              ├ SeveritySource  : nvd 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3817 
                               ├ DataSource       ╭ ID  : alpine 
                               │                  ├ Name: Alpine Secdb 
@@ -231,7 +242,11 @@
                               │                   The OpenSSL 3.0 and 3.1 FIPS providers are not affected by
                               │                   this issue. 
                               ├ Severity        : MEDIUM 
-                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                              ├ CweIDs           ─ [0]: CWE-834 
+                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                              │                  │        │           /I:N/A:L 
+                              │                  │        ╰ V3Score : 5.3 
+                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
                               │                           │           /I:L/A:N 
                               │                           ╰ V3Score : 5.3 
                               ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/43 
@@ -256,5 +271,5 @@
                               │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-3817 
                               │                  ╰ [10]: https://www.openssl.org/news/secadv/20230731.txt 
                               ├ PublishedDate   : 2023-07-31T16:15:00Z 
-                              ╰ LastModifiedDate: 2023-08-01T11:15:00Z 
+                              ╰ LastModifiedDate: 2023-08-08T19:04:00Z 
 ````
