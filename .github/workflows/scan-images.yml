@@ -56,5 +56,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         ojob: 'ojob.io/git/hub/contentIn'
-        args: 'message="update\ badge" paths=.github/'
+        args: 'message="update\ badge\ {{date}}/{{time}}" title="Update\ badge" paths=.github/'
         dist: 't8'
