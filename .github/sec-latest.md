@@ -87,11 +87,13 @@
                         │     │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                         │     │                  │       ommitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5[
                         │     │                  │       m 
-                        │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
-                        │     │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-3817 
-                        │     │                  ╰ [10]: https://www.openssl.org/news/secadv/20230731.txt 
+                        │     │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2023
+                        │     │                  │       /08/msg00019.html 
+                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
+                        │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+                        │     │                  ╰ [11]: https://www.openssl.org/news/secadv/20230731.txt 
                         │     ├ PublishedDate   : 2023-07-31T16:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-08-08T19:04:00Z 
+                        │     ╰ LastModifiedDate: 2023-08-16T08:15:00Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-3817 
                         │     ├ PkgID           : libssl3@3.1.1-r3 
                         │     ├ PkgName         : libssl3 
@@ -177,11 +179,13 @@
                         │     │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                         │     │                  │       ommitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5[
                         │     │                  │       m 
-                        │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
-                        │     │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-3817 
-                        │     │                  ╰ [10]: https://www.openssl.org/news/secadv/20230731.txt 
+                        │     │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2023
+                        │     │                  │       /08/msg00019.html 
+                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
+                        │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+                        │     │                  ╰ [11]: https://www.openssl.org/news/secadv/20230731.txt 
                         │     ├ PublishedDate   : 2023-07-31T16:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-08-08T19:04:00Z 
+                        │     ╰ LastModifiedDate: 2023-08-16T08:15:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-3817 
                               ├ PkgID           : openssl@3.1.1-r3 
                               ├ PkgName         : openssl 
@@ -267,9 +271,11 @@
                               │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                               │                  │       ommitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5[
                               │                  │       m 
-                              │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
-                              │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-3817 
-                              │                  ╰ [10]: https://www.openssl.org/news/secadv/20230731.txt 
+                              │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2023
+                              │                  │       /08/msg00019.html 
+                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
+                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+                              │                  ╰ [11]: https://www.openssl.org/news/secadv/20230731.txt 
                               ├ PublishedDate   : 2023-07-31T16:15:00Z 
-                              ╰ LastModifiedDate: 2023-08-08T19:04:00Z 
+                              ╰ LastModifiedDate: 2023-08-16T08:15:00Z 
 ````
