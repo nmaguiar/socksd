@@ -65,11 +65,12 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5
+    - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
-    LastModifiedDate: '2023-08-08T19:04:00Z'
+    LastModifiedDate: '2023-08-16T08:15:00Z'
   - VulnerabilityID: CVE-2023-3817
     PkgID: libssl3@3.1.1-r3
     PkgName: libssl3
@@ -133,11 +134,12 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5
+    - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
-    LastModifiedDate: '2023-08-08T19:04:00Z'
+    LastModifiedDate: '2023-08-16T08:15:00Z'
   - VulnerabilityID: CVE-2023-3817
     PkgID: openssl@3.1.1-r3
     PkgName: openssl
@@ -201,8 +203,9 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5
+    - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
-    LastModifiedDate: '2023-08-08T19:04:00Z'
+    LastModifiedDate: '2023-08-16T08:15:00Z'
