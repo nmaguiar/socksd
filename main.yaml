@@ -24,7 +24,7 @@ todo:
 
 ojob:
   opacks      :
-  - openaf: 20221216
+  - openaf: 20230704
   - SocksServer
   catch       : printErrnl("[" + job.name + "] "); if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
   logToConsole: false   # to change when finished
