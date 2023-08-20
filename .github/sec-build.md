@@ -192,10 +192,12 @@
                         │     │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2023
                         │     │                  │       /08/msg00019.html 
                         │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
-                        │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
-                        │     │                  ╰ [11]: https://www.openssl.org/news/secadv/20230731.txt 
+                        │     │                  ├ [10]: https://security.netapp.com/advisory/ntap-2023081
+                        │     │                  │       8-0014/ 
+                        │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+                        │     │                  ╰ [12]: https://www.openssl.org/news/secadv/20230731.txt 
                         │     ├ PublishedDate   : 2023-07-31T16:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-08-16T08:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-08-18T14:15:00Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2023-3446 
                         │     ├ PkgID           : libssl3@3.1.1-r2 
                         │     ├ PkgName         : libssl3 
@@ -386,10 +388,12 @@
                         │     │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2023
                         │     │                  │       /08/msg00019.html 
                         │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
-                        │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
-                        │     │                  ╰ [11]: https://www.openssl.org/news/secadv/20230731.txt 
+                        │     │                  ├ [10]: https://security.netapp.com/advisory/ntap-2023081
+                        │     │                  │       8-0014/ 
+                        │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+                        │     │                  ╰ [12]: https://www.openssl.org/news/secadv/20230731.txt 
                         │     ├ PublishedDate   : 2023-07-31T16:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-08-16T08:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-08-18T14:15:00Z 
                         ├ [4] ╭ VulnerabilityID : CVE-2023-3446 
                         │     ├ PkgID           : openssl@3.1.1-r2 
                         │     ├ PkgName         : openssl 
@@ -580,8 +584,10 @@
                               │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2023
                               │                  │       /08/msg00019.html 
                               │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
-                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
-                              │                  ╰ [11]: https://www.openssl.org/news/secadv/20230731.txt 
+                              │                  ├ [10]: https://security.netapp.com/advisory/ntap-2023081
+                              │                  │       8-0014/ 
+                              │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+                              │                  ╰ [12]: https://www.openssl.org/news/secadv/20230731.txt 
                               ├ PublishedDate   : 2023-07-31T16:15:00Z 
-                              ╰ LastModifiedDate: 2023-08-16T08:15:00Z 
+                              ╰ LastModifiedDate: 2023-08-18T14:15:00Z 
 ````
