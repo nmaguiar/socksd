@@ -11,17 +11,18 @@
                         │     ├ InstalledVersion: 1.23.0 
                         │     ├ FixedVersion    : 1.24.0 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c103
-                        │     │                  │         09302125f0ab83cd580714dd 
-                        │     │                  ╰ DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1
-                        │     │                            fa70dd41d64a7be08c26ce0c 
+                        │     ├ Layer            ╭ Digest: sha256:084682dd6c970ed2ce61bfba80379a87e941651c
+                        │     │                  │         655ec6916126b5262257960e 
+                        │     │                  ╰ DiffID: sha256:a7164acd66e00f80e0e50f331cf3a21f342b3505
+                        │     │                            aefeac4722f607b9ac5a6def 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42503 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                         │     │                          ed+ecosystem%3Amaven 
-                        │     ├ Title           : Apache Commons Compress denial of service vulnerability 
+                        │     ├ Title           : Improper Input Validation, Uncontrolled Resource
+                        │     │                   Consumption vulnerabi ... 
                         │     ├ Description     : Improper Input Validation, Uncontrolled Resource
                         │     │                   Consumption vulnerability in Apache Commons Compress in TAR
                         │     │                   parsing.This issue affects Apache Commons Compress: from 1.22
@@ -77,22 +78,26 @@
                         │     │                   
                         │     │                    
                         │     ├ Severity        : MEDIUM 
-                        │     ╰ References       ╭ [0]: https://github.com/apache/commons-compress 
-                        │                        ├ [1]: https://github.com/apache/commons-compress/commit/
-                        │                        │      aae38bfb820159ae7a0b792e779571f6a46b3889 
-                        │                        ├ [2]: https://lists.apache.org/thread/5xwcyr600mn074vgxq
-                        │                        │      92tjssrchmc93c 
-                        │                        ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42503 
+                        │     ├ CweIDs           ╭ [0]: CWE-20 
+                        │     │                  ╰ [1]: CWE-400 
+                        │     ├ References       ╭ [0]: https://github.com/apache/commons-compress 
+                        │     │                  ├ [1]: https://github.com/apache/commons-compress/commit/
+                        │     │                  │      aae38bfb820159ae7a0b792e779571f6a46b3889 
+                        │     │                  ├ [2]: https://lists.apache.org/thread/5xwcyr600mn074vgxq
+                        │     │                  │      92tjssrchmc93c 
+                        │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42503 
+                        │     ├ PublishedDate   : 2023-09-14T08:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-09-14T13:01:00Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2023-40167 
                               ├ PkgName         : org.eclipse.jetty:jetty-http 
                               ├ PkgPath         : openaf/openaf.jar 
                               ├ InstalledVersion: 9.4.51.v20230217 
                               ├ FixedVersion    : 9.4.52, 10.0.16, 11.0.16, 12.0.1 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c103
-                              │                  │         09302125f0ab83cd580714dd 
-                              │                  ╰ DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1
-                              │                            fa70dd41d64a7be08c26ce0c 
+                              ├ Layer            ╭ Digest: sha256:084682dd6c970ed2ce61bfba80379a87e941651c
+                              │                  │         655ec6916126b5262257960e 
+                              │                  ╰ DiffID: sha256:a7164acd66e00f80e0e50f331cf3a21f342b3505
+                              │                            aefeac4722f607b9ac5a6def 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40167 
                               ├ DataSource       ╭ ID  : ghsa 
