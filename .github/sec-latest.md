@@ -21,7 +21,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                         │     │                          ed+ecosystem%3Amaven 
-                        │     ├ Title           : Apache Commons Compress denial of service vulnerability 
+                        │     ├ Title           : Improper Input Validation, Uncontrolled Resource
+                        │     │                   Consumption vulnerabi ... 
                         │     ├ Description     : Improper Input Validation, Uncontrolled Resource
                         │     │                   Consumption vulnerability in Apache Commons Compress in TAR
                         │     │                   parsing.This issue affects Apache Commons Compress: from 1.22
@@ -77,12 +78,16 @@
                         │     │                   
                         │     │                    
                         │     ├ Severity        : MEDIUM 
-                        │     ╰ References       ╭ [0]: https://github.com/apache/commons-compress 
-                        │                        ├ [1]: https://github.com/apache/commons-compress/commit/
-                        │                        │      aae38bfb820159ae7a0b792e779571f6a46b3889 
-                        │                        ├ [2]: https://lists.apache.org/thread/5xwcyr600mn074vgxq
-                        │                        │      92tjssrchmc93c 
-                        │                        ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42503 
+                        │     ├ CweIDs           ╭ [0]: CWE-20 
+                        │     │                  ╰ [1]: CWE-400 
+                        │     ├ References       ╭ [0]: https://github.com/apache/commons-compress 
+                        │     │                  ├ [1]: https://github.com/apache/commons-compress/commit/
+                        │     │                  │      aae38bfb820159ae7a0b792e779571f6a46b3889 
+                        │     │                  ├ [2]: https://lists.apache.org/thread/5xwcyr600mn074vgxq
+                        │     │                  │      92tjssrchmc93c 
+                        │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42503 
+                        │     ├ PublishedDate   : 2023-09-14T08:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-09-14T13:01:00Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2023-40167 
                               ├ PkgName         : org.eclipse.jetty:jetty-http 
                               ├ PkgPath         : openaf/openaf.jar 
