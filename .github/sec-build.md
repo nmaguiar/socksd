@@ -104,7 +104,8 @@
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                               │                          ed+ecosystem%3Amaven 
-                              ├ Title           : Jetty accepts "+" prefixed value in Content-Length 
+                              ├ Title           : Jetty is a Java based web server and servlet engine.
+                              │                   Prior to versions ... 
                               ├ Description     : ### Impact
                               │                   
                               │                   Jetty accepts the '+' character proceeding the content-length
