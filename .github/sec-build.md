@@ -88,74 +88,148 @@
                         │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42503 
                         │     ├ PublishedDate   : 2023-09-14T08:15:00Z 
                         │     ╰ LastModifiedDate: 2023-09-14T13:01:00Z 
-                        ╰ [1] ╭ VulnerabilityID : CVE-2023-40167 
-                              ├ PkgName         : org.eclipse.jetty:jetty-http 
+                        ├ [1] ╭ VulnerabilityID : CVE-2023-40167 
+                        │     ├ PkgName         : org.eclipse.jetty:jetty-http 
+                        │     ├ PkgPath         : openaf/openaf.jar 
+                        │     ├ InstalledVersion: 9.4.51.v20230217 
+                        │     ├ FixedVersion    : 9.4.52, 10.0.16, 11.0.16, 12.0.1 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:084682dd6c970ed2ce61bfba80379a87e941651c
+                        │     │                  │         655ec6916126b5262257960e 
+                        │     │                  ╰ DiffID: sha256:a7164acd66e00f80e0e50f331cf3a21f342b3505
+                        │     │                            aefeac4722f607b9ac5a6def 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40167 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Maven 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
+                        │     │                          ed+ecosystem%3Amaven 
+                        │     ├ Title           : Jetty is a Java based web server and servlet engine.
+                        │     │                   Prior to versions ... 
+                        │     ├ Description     : ### Impact
+                        │     │                   
+                        │     │                   Jetty accepts the '+' character proceeding the content-length
+                        │     │                    value in a HTTP/1 header field.  This is more permissive
+                        │     │                   than allowed by the RFC and other servers routinely reject
+                        │     │                   such requests with 400 responses.  There is no known exploit
+                        │     │                   scenario, but it is conceivable that request smuggling could
+                        │     │                   result if jetty is used in combination with a server that
+                        │     │                   does not close the connection after sending such a 400
+                        │     │                   response.
+                        │     │                   
+                        │     │                   ### Workarounds
+                        │     │                   
+                        │     │                   There is no workaround as there is no known exploit scenario.
+                        │     │                      
+                        │     │                   
+                        │     │                   ### Original Report 
+                        │     │                   
+                        │     │                   [RFC 9110 Secion
+                        │     │                   8.6](https://www.rfc-editor.org/rfc/rfc9110#section-8.6)
+                        │     │                   defined the value of Content-Length header should be a string
+                        │     │                    of 0-9 digits. However we found that Jetty accepts "+"
+                        │     │                   prefixed Content-Length, which could lead to potential HTTP
+                        │     │                   request smuggling.
+                        │     │                   
+                        │     │                   Payload:
+                        │     │                   
+                        │     │                   ```
+                        │     │                    POST / HTTP/1.1
+                        │     │                    Host: a.com
+                        │     │                    Content-Length: +16
+                        │     │                    Connection: close
+                        │     │                    ​
+                        │     │                    0123456789abcdef
+                        │     │                   ```
+                        │     │                   
+                        │     │                   When sending this payload to Jetty, it can successfully parse
+                        │     │                    and identify the length.
+                        │     │                   
+                        │     │                   When sending this payload to NGINX, Apache HTTPd or other
+                        │     │                   HTTP servers/parsers, they will return 400 bad request.
+                        │     │                   
+                        │     │                   This behavior can lead to HTTP request smuggling and can be
+                        │     │                   leveraged to bypass WAF or IDS. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+                        │     │                         │           :L/A:N 
+                        │     │                         ╰ V3Score : 5.3 
+                        │     ╰ References       ╭ [0]: https://github.com/eclipse/jetty.project 
+                        │                        ├ [1]: https://github.com/eclipse/jetty.project/security/
+                        │                        │      advisories/GHSA-hmr7-m48g-48f6 
+                        │                        ╰ [2]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+                        ╰ [2] ╭ VulnerabilityID : CVE-2023-4759 
+                              ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
                               ├ PkgPath         : openaf/openaf.jar 
-                              ├ InstalledVersion: 9.4.51.v20230217 
-                              ├ FixedVersion    : 9.4.52, 10.0.16, 11.0.16, 12.0.1 
+                              ├ InstalledVersion: 5.8.1.202007141445-r 
+                              ├ FixedVersion    : 6.6.1.202309021850-r 
                               ├ Status          : fixed 
                               ├ Layer            ╭ Digest: sha256:084682dd6c970ed2ce61bfba80379a87e941651c
                               │                  │         655ec6916126b5262257960e 
                               │                  ╰ DiffID: sha256:a7164acd66e00f80e0e50f331cf3a21f342b3505
                               │                            aefeac4722f607b9ac5a6def 
                               ├ SeveritySource  : ghsa 
-                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40167 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4759 
                               ├ DataSource       ╭ ID  : ghsa 
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                               │                          ed+ecosystem%3Amaven 
-                              ├ Title           : Jetty is a Java based web server and servlet engine.
-                              │                   Prior to versions ... 
-                              ├ Description     : ### Impact
+                              ├ Title           : arbitrary file overwrite 
+                              ├ Description     : Arbitrary File Overwrite in Eclipse JGit <= 6.6.0
                               │                   
-                              │                   Jetty accepts the '+' character proceeding the content-length
-                              │                    value in a HTTP/1 header field.  This is more permissive
-                              │                   than allowed by the RFC and other servers routinely reject
-                              │                   such requests with 400 responses.  There is no known exploit
-                              │                   scenario, but it is conceivable that request smuggling could
-                              │                   result if jetty is used in combination with a server that
-                              │                   does not close the connection after sending such a 400
-                              │                   response.
+                              │                   In Eclipse JGit, all versions <= 6.6.0.202305301015-r, a
+                              │                   symbolic link present in a specially crafted git repository
+                              │                   can be used to write a file to locations outside the working
+                              │                   tree when this repository is cloned with JGit to a
+                              │                   case-insensitive filesystem, or when a checkout from a clone
+                              │                   of such a repository is performed on a case-insensitive
+                              │                   filesystem.
                               │                   
-                              │                   ### Workarounds
+                              │                   This can happen on checkout (DirCacheCheckout), merge
+                              │                   (ResolveMerger via its WorkingTreeUpdater), pull (PullCommand
+                              │                    using merge), and when applying a patch (PatchApplier). This
+                              │                    can be exploited for remote code execution (RCE), for
+                              │                   instance if the file written outside the working tree is a
+                              │                   git filter that gets executed on a subsequent git command.
                               │                   
-                              │                   There is no workaround as there is no known exploit scenario.
-                              │                      
+                              │                   The issue occurs only on case-insensitive filesystems, like
+                              │                   the default filesystems on Windows and macOS. The user
+                              │                   performing the clone or checkout must have the rights to
+                              │                   create symbolic links for the problem to occur, and symbolic
+                              │                   links must be enabled in the git configuration.
                               │                   
-                              │                   ### Original Report 
+                              │                   Setting git configuration option core.symlinks = false before
+                              │                    checking out avoids the problem.
                               │                   
-                              │                   [RFC 9110 Secion
-                              │                   8.6](https://www.rfc-editor.org/rfc/rfc9110#section-8.6)
-                              │                   defined the value of Content-Length header should be a string
-                              │                    of 0-9 digits. However we found that Jetty accepts "+"
-                              │                   prefixed Content-Length, which could lead to potential HTTP
-                              │                   request smuggling.
+                              │                   The issue was fixed in Eclipse JGit version
+                              │                   6.6.1.202309021850-r and 6.7.0.202309050840-r, available via 
+                              │                    Maven Central
+                              │                   https://repo1.maven.org/maven2/org/eclipse/jgit/  and 
+                              │                   repo.eclipse.org
+                              │                   https://repo.eclipse.org/content/repositories/jgit-releases/
+                              │                   .
                               │                   
-                              │                   Payload:
                               │                   
-                              │                   ```
-                              │                    POST / HTTP/1.1
-                              │                    Host: a.com
-                              │                    Content-Length: +16
-                              │                    Connection: close
-                              │                    ​
-                              │                    0123456789abcdef
-                              │                   ```
+                              │                   The JGit maintainers would like to thank RyotaK for finding
+                              │                   and reporting this issue.
                               │                   
-                              │                   When sending this payload to Jetty, it can successfully parse
-                              │                    and identify the length.
                               │                   
-                              │                   When sending this payload to NGINX, Apache HTTPd or other
-                              │                   HTTP servers/parsers, they will return 400 bad request.
                               │                   
-                              │                   This behavior can lead to HTTP request smuggling and can be
-                              │                   leveraged to bypass WAF or IDS. 
-                              ├ Severity        : MEDIUM 
-                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-                              │                         │           :L/A:N 
-                              │                         ╰ V3Score : 5.3 
-                              ╰ References       ╭ [0]: https://github.com/eclipse/jetty.project 
-                                                 ├ [1]: https://github.com/eclipse/jetty.project/security/
-                                                 │      advisories/GHSA-hmr7-m48g-48f6 
-                                                 ╰ [2]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+                              │                    
+                              ├ Severity        : HIGH 
+                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
+                              │                         │           :H/A:H 
+                              │                         ╰ V3Score : 8.8 
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4759 
+                              │                  ├ [1]: https://git.eclipse.org/c/jgit/jgit.git 
+                              │                  ├ [2]: https://git.eclipse.org/c/jgit/jgit.git/commit/?id
+                              │                  │      =9072103f3b3cf64dd12ad2949836ab98f62dabf1 
+                              │                  ├ [3]: https://gitlab.eclipse.org/security/vulnerability-
+                              │                  │      reports/-/issues/11 
+                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4759 
+                              │                  ├ [5]: https://projects.eclipse.org/projects/technology.j
+                              │                  │      git/releases/6.6.1 
+                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4759 
+                              ├ PublishedDate   : 2023-09-12T10:15:00Z 
+                              ╰ LastModifiedDate: 2023-09-12T11:51:00Z 
 ````
