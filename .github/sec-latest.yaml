@@ -49,36 +49,10 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Title: Jetty is a Java based web server and servlet engine. Prior to versions ...
-    Description: |-
-      ### Impact
-
-      Jetty accepts the '+' character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response.
-
-      ### Workarounds
-
-      There is no workaround as there is no known exploit scenario.   
-
-      ### Original Report 
-
-      [RFC 9110 Secion 8.6](https://www.rfc-editor.org/rfc/rfc9110#section-8.6) defined the value of Content-Length header should be a string of 0-9 digits. However we found that Jetty accepts "+" prefixed Content-Length, which could lead to potential HTTP request smuggling.
-
-      Payload:
-
-      ```
-       POST / HTTP/1.1
-       Host: a.com
-       Content-Length: +16
-       Connection: close
-       ​
-       0123456789abcdef
-      ```
-
-      When sending this payload to Jetty, it can successfully parse and identify the length.
-
-      When sending this payload to NGINX, Apache HTTPd or other HTTP servers/parsers, they will return 400 bad request.
-
-      This behavior can lead to HTTP request smuggling and can be leveraged to bypass WAF or IDS.
+    Description: Jetty is a Java based web server and servlet engine. Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty accepts the `+` character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response. Versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1 contain a patch for this issue. There is no workaround as there is no known exploit scenario.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-130
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -87,6 +61,8 @@
     - https://github.com/eclipse/jetty.project
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-hmr7-m48g-48f6
     - https://www.rfc-editor.org/rfc/rfc9110#section-8.6
+    PublishedDate: '2023-09-15T20:15:00Z'
+    LastModifiedDate: '2023-09-17T12:01:00Z'
   - VulnerabilityID: CVE-2023-4759
     PkgName: org.eclipse.jgit:org.eclipse.jgit
     PkgPath: openaf/openaf.jar
@@ -105,8 +81,14 @@
     Title: arbitrary file overwrite
     Description: "Arbitrary File Overwrite in Eclipse JGit <= 6.6.0\n\nIn Eclipse JGit, all versions <= 6.6.0.202305301015-r, a symbolic link present in a specially crafted git repository can be used to write a file to locations outside the working tree when this repository is cloned with JGit to a case-insensitive filesystem, or when a checkout from a clone of such a repository is performed on a case-insensitive filesystem.\n\nThis can happen on checkout (DirCacheCheckout), merge (ResolveMerger\_via its WorkingTreeUpdater), pull (PullCommand\_using merge), and when applying a patch (PatchApplier). This can be exploited for remote code execution (RCE), for instance if the file written outside the working tree is a git filter that gets executed on a subsequent git command.\n\nThe issue occurs only on case-insensitive filesystems, like the default filesystems on Windows and macOS. The user performing the clone or checkout must have the rights to create symbolic links for the problem to occur, and symbolic links must be enabled in the git configuration.\n\nSetting git configuration option core.symlinks = false\_before checking out avoids the problem.\n\nThe issue was fixed in Eclipse JGit version 6.6.1.202309021850-r and 6.7.0.202309050840-r, available via  Maven Central https://repo1.maven.org/maven2/org/eclipse/jgit/ \_and  repo.eclipse.org https://repo.eclipse.org/content/repositories/jgit-releases/ .\n\n\nThe JGit maintainers would like to thank RyotaK for finding and reporting this issue.\n\n\n\n"
     Severity: HIGH
+    CweIDs:
+    - CWE-59
+    - CWE-178
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.8
     References:
@@ -118,4 +100,4 @@
     - https://projects.eclipse.org/projects/technology.jgit/releases/6.6.1
     - https://www.cve.org/CVERecord?id=CVE-2023-4759
     PublishedDate: '2023-09-12T10:15:00Z'
-    LastModifiedDate: '2023-09-12T11:51:00Z'
+    LastModifiedDate: '2023-09-18T13:54:00Z'
