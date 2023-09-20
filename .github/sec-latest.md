@@ -106,58 +106,29 @@
                         │     │                          ed+ecosystem%3Amaven 
                         │     ├ Title           : Jetty is a Java based web server and servlet engine.
                         │     │                   Prior to versions ... 
-                        │     ├ Description     : ### Impact
-                        │     │                   
-                        │     │                   Jetty accepts the '+' character proceeding the content-length
-                        │     │                    value in a HTTP/1 header field.  This is more permissive
-                        │     │                   than allowed by the RFC and other servers routinely reject
-                        │     │                   such requests with 400 responses.  There is no known exploit
+                        │     ├ Description     : Jetty is a Java based web server and servlet engine.
+                        │     │                   Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty
+                        │     │                    accepts the `+` character proceeding the content-length
+                        │     │                   value in a HTTP/1 header field.  This is more permissive than
+                        │     │                    allowed by the RFC and other servers routinely reject such
+                        │     │                   requests with 400 responses.  There is no known exploit
                         │     │                   scenario, but it is conceivable that request smuggling could
                         │     │                   result if jetty is used in combination with a server that
                         │     │                   does not close the connection after sending such a 400
-                        │     │                   response.
-                        │     │                   
-                        │     │                   ### Workarounds
-                        │     │                   
-                        │     │                   There is no workaround as there is no known exploit scenario.
-                        │     │                      
-                        │     │                   
-                        │     │                   ### Original Report 
-                        │     │                   
-                        │     │                   [RFC 9110 Secion
-                        │     │                   8.6](https://www.rfc-editor.org/rfc/rfc9110#section-8.6)
-                        │     │                   defined the value of Content-Length header should be a string
-                        │     │                    of 0-9 digits. However we found that Jetty accepts "+"
-                        │     │                   prefixed Content-Length, which could lead to potential HTTP
-                        │     │                   request smuggling.
-                        │     │                   
-                        │     │                   Payload:
-                        │     │                   
-                        │     │                   ```
-                        │     │                    POST / HTTP/1.1
-                        │     │                    Host: a.com
-                        │     │                    Content-Length: +16
-                        │     │                    Connection: close
-                        │     │                    ​
-                        │     │                    0123456789abcdef
-                        │     │                   ```
-                        │     │                   
-                        │     │                   When sending this payload to Jetty, it can successfully parse
-                        │     │                    and identify the length.
-                        │     │                   
-                        │     │                   When sending this payload to NGINX, Apache HTTPd or other
-                        │     │                   HTTP servers/parsers, they will return 400 bad request.
-                        │     │                   
-                        │     │                   This behavior can lead to HTTP request smuggling and can be
-                        │     │                   leveraged to bypass WAF or IDS. 
+                        │     │                   response. Versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1
+                        │     │                   contain a patch for this issue. There is no workaround as
+                        │     │                   there is no known exploit scenario. 
                         │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ─ [0]: CWE-130 
                         │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
                         │     │                         │           :L/A:N 
                         │     │                         ╰ V3Score : 5.3 
-                        │     ╰ References       ╭ [0]: https://github.com/eclipse/jetty.project 
-                        │                        ├ [1]: https://github.com/eclipse/jetty.project/security/
-                        │                        │      advisories/GHSA-hmr7-m48g-48f6 
-                        │                        ╰ [2]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+                        │     ├ References       ╭ [0]: https://github.com/eclipse/jetty.project 
+                        │     │                  ├ [1]: https://github.com/eclipse/jetty.project/security/
+                        │     │                  │      advisories/GHSA-hmr7-m48g-48f6 
+                        │     │                  ╰ [2]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+                        │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-09-17T12:01:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-4759 
                               ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
                               ├ PkgPath         : openaf/openaf.jar 
@@ -217,7 +188,12 @@
                               │                   
                               │                    
                               ├ Severity        : HIGH 
-                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
+                              ├ CweIDs           ╭ [0]: CWE-59 
+                              │                  ╰ [1]: CWE-178 
+                              ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
+                              │                  │      │           :H/A:H 
+                              │                  │      ╰ V3Score : 8.8 
+                              │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
                               │                         │           :H/A:H 
                               │                         ╰ V3Score : 8.8 
                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4759 
@@ -231,5 +207,5 @@
                               │                  │      git/releases/6.6.1 
                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4759 
                               ├ PublishedDate   : 2023-09-12T10:15:00Z 
-                              ╰ LastModifiedDate: 2023-09-12T11:51:00Z 
+                              ╰ LastModifiedDate: 2023-09-18T13:54:00Z 
 ````
