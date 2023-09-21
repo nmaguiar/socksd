@@ -80,6 +80,12 @@
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ╭ [0]: CWE-20 
                         │     │                  ╰ [1]: CWE-400 
+                        │     ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
+                        │     │                  │      │           :N/A:H 
+                        │     │                  │      ╰ V3Score : 5.5 
+                        │     │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
+                        │     │                         │           :N/A:H 
+                        │     │                         ╰ V3Score : 5.5 
                         │     ├ References       ╭ [0]: https://github.com/apache/commons-compress 
                         │     │                  ├ [1]: https://github.com/apache/commons-compress/commit/
                         │     │                  │      aae38bfb820159ae7a0b792e779571f6a46b3889 
@@ -87,7 +93,7 @@
                         │     │                  │      92tjssrchmc93c 
                         │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42503 
                         │     ├ PublishedDate   : 2023-09-14T08:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-09-14T13:01:00Z 
+                        │     ╰ LastModifiedDate: 2023-09-19T13:43:00Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-40167 
                         │     ├ PkgName         : org.eclipse.jetty:jetty-http 
                         │     ├ PkgPath         : openaf/openaf.jar 
@@ -126,7 +132,8 @@
                         │     ├ References       ╭ [0]: https://github.com/eclipse/jetty.project 
                         │     │                  ├ [1]: https://github.com/eclipse/jetty.project/security/
                         │     │                  │      advisories/GHSA-hmr7-m48g-48f6 
-                        │     │                  ╰ [2]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+                        │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
+                        │     │                  ╰ [3]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
                         │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
                         │     ╰ LastModifiedDate: 2023-09-17T12:01:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-4759 
