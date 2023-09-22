@@ -1,6 +1,95 @@
 - Target: nmaguiar/socksd:latest (alpine 3.18.3)
   Class: os-pkgs
   Type: alpine
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2023-38039
+    PkgID: curl@8.2.1-r0
+    PkgName: curl
+    InstalledVersion: 8.2.1-r0
+    FixedVersion: 8.3.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c10309302125f0ab83cd580714dd
+      DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1fa70dd41d64a7be08c26ce0c
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38039
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: out of heap memory issue due to missing limit on header quntity
+    Description: |-
+      When curl retrieves an HTTP response, it stores the incoming headers so that
+      they can be accessed later via the libcurl headers API.
+
+      However, curl did not have a limit in how many or how large headers it would
+      accept in a response, allowing a malicious server to stream an endless series
+      of headers and eventually cause curl to run out of heap memory.
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38039
+    - https://curl.se/docs/CVE-2023-38039.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38039
+    - https://hackerone.com/reports/2072338
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TEAWTYHC3RT6ZRS5OZRHLAIENVN6CCIS/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38039
+    - https://ubuntu.com/security/notices/USN-6363-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-38039
+    PublishedDate: '2023-09-15T04:15:00Z'
+    LastModifiedDate: '2023-09-20T15:08:00Z'
+  - VulnerabilityID: CVE-2023-38039
+    PkgID: libcurl@8.2.1-r0
+    PkgName: libcurl
+    InstalledVersion: 8.2.1-r0
+    FixedVersion: 8.3.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c10309302125f0ab83cd580714dd
+      DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1fa70dd41d64a7be08c26ce0c
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38039
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: out of heap memory issue due to missing limit on header quntity
+    Description: |-
+      When curl retrieves an HTTP response, it stores the incoming headers so that
+      they can be accessed later via the libcurl headers API.
+
+      However, curl did not have a limit in how many or how large headers it would
+      accept in a response, allowing a malicious server to stream an endless series
+      of headers and eventually cause curl to run out of heap memory.
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38039
+    - https://curl.se/docs/CVE-2023-38039.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38039
+    - https://hackerone.com/reports/2072338
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TEAWTYHC3RT6ZRS5OZRHLAIENVN6CCIS/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38039
+    - https://ubuntu.com/security/notices/USN-6363-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-38039
+    PublishedDate: '2023-09-15T04:15:00Z'
+    LastModifiedDate: '2023-09-20T15:08:00Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -58,10 +147,11 @@
     Title: Jetty is a Java based web server and servlet engine. Prior to versions ...
     Description: Jetty is a Java based web server and servlet engine. Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty accepts the `+` character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response. Versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1 contain a patch for this issue. There is no workaround as there is no known exploit scenario.
     Severity: MEDIUM
-    CweIDs:
-    - CWE-130
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
@@ -70,7 +160,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40167
     - https://www.rfc-editor.org/rfc/rfc9110#section-8.6
     PublishedDate: '2023-09-15T20:15:00Z'
-    LastModifiedDate: '2023-09-17T12:01:00Z'
+    LastModifiedDate: '2023-09-20T20:20:00Z'
   - VulnerabilityID: CVE-2023-4759
     PkgName: org.eclipse.jgit:org.eclipse.jgit
     PkgPath: openaf/openaf.jar
