@@ -1,7 +1,103 @@
 ````yaml
-╭ [0] ╭ Target: nmaguiar/socksd:build (alpine 3.18.3) 
-│     ├ Class : os-pkgs 
-│     ╰ Type  : alpine 
+╭ [0] ╭ Target         : nmaguiar/socksd:build (alpine 3.18.3) 
+│     ├ Class          : os-pkgs 
+│     ├ Type           : alpine 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-38039 
+│                       │     ├ PkgID           : curl@8.2.1-r0 
+│                       │     ├ PkgName         : curl 
+│                       │     ├ InstalledVersion: 8.2.1-r0 
+│                       │     ├ FixedVersion    : 8.3.0-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:084682dd6c970ed2ce61bfba80379a87e941651c
+│                       │     │                  │         655ec6916126b5262257960e 
+│                       │     │                  ╰ DiffID: sha256:a7164acd66e00f80e0e50f331cf3a21f342b3505
+│                       │     │                            aefeac4722f607b9ac5a6def 
+│                       │     ├ SeveritySource  : nvd 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38039 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : out of heap memory issue due to missing limit on header
+│                       │     │                   quntity 
+│                       │     ├ Description     : When curl retrieves an HTTP response, it stores the
+│                       │     │                   incoming headers so that
+│                       │     │                   they can be accessed later via the libcurl headers API.
+│                       │     │                   
+│                       │     │                   However, curl did not have a limit in how many or how large
+│                       │     │                   headers it would
+│                       │     │                   accept in a response, allowing a malicious server to stream
+│                       │     │                   an endless series
+│                       │     │                   of headers and eventually cause curl to run out of heap
+│                       │     │                   memory. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ─ [0]: CWE-770 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                       │     │                  │        │           /I:N/A:H 
+│                       │     │                  │        ╰ V3Score : 7.5 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                       │     │                           │           /I:N/A:H 
+│                       │     │                           ╰ V3Score : 7.5 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38039 
+│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2023-38039.html 
+│                       │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+│                       │     │                  │      -2023-38039 
+│                       │     │                  ├ [3]: https://hackerone.com/reports/2072338 
+│                       │     │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
+│                       │     │                  │      age-announce@lists.fedoraproject.org/message/TEAWTYHC3R
+│                       │     │                  │      T6ZRS5OZRHLAIENVN6CCIS/ 
+│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-38039 
+│                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6363-1 
+│                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-38039 
+│                       │     ├ PublishedDate   : 2023-09-15T04:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-09-20T15:08:00Z 
+│                       ╰ [1] ╭ VulnerabilityID : CVE-2023-38039 
+│                             ├ PkgID           : libcurl@8.2.1-r0 
+│                             ├ PkgName         : libcurl 
+│                             ├ InstalledVersion: 8.2.1-r0 
+│                             ├ FixedVersion    : 8.3.0-r0 
+│                             ├ Status          : fixed 
+│                             ├ Layer            ╭ Digest: sha256:084682dd6c970ed2ce61bfba80379a87e941651c
+│                             │                  │         655ec6916126b5262257960e 
+│                             │                  ╰ DiffID: sha256:a7164acd66e00f80e0e50f331cf3a21f342b3505
+│                             │                            aefeac4722f607b9ac5a6def 
+│                             ├ SeveritySource  : nvd 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38039 
+│                             ├ DataSource       ╭ ID  : alpine 
+│                             │                  ├ Name: Alpine Secdb 
+│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                             ├ Title           : out of heap memory issue due to missing limit on header
+│                             │                   quntity 
+│                             ├ Description     : When curl retrieves an HTTP response, it stores the
+│                             │                   incoming headers so that
+│                             │                   they can be accessed later via the libcurl headers API.
+│                             │                   
+│                             │                   However, curl did not have a limit in how many or how large
+│                             │                   headers it would
+│                             │                   accept in a response, allowing a malicious server to stream
+│                             │                   an endless series
+│                             │                   of headers and eventually cause curl to run out of heap
+│                             │                   memory. 
+│                             ├ Severity        : HIGH 
+│                             ├ CweIDs           ─ [0]: CWE-770 
+│                             ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                             │                  │        │           /I:N/A:H 
+│                             │                  │        ╰ V3Score : 7.5 
+│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                             │                           │           /I:N/A:H 
+│                             │                           ╰ V3Score : 7.5 
+│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38039 
+│                             │                  ├ [1]: https://curl.se/docs/CVE-2023-38039.html 
+│                             │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+│                             │                  │      -2023-38039 
+│                             │                  ├ [3]: https://hackerone.com/reports/2072338 
+│                             │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
+│                             │                  │      age-announce@lists.fedoraproject.org/message/TEAWTYHC3R
+│                             │                  │      T6ZRS5OZRHLAIENVN6CCIS/ 
+│                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-38039 
+│                             │                  ├ [6]: https://ubuntu.com/security/notices/USN-6363-1 
+│                             │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-38039 
+│                             ├ PublishedDate   : 2023-09-15T04:15:00Z 
+│                             ╰ LastModifiedDate: 2023-09-20T15:08:00Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -125,8 +221,10 @@
                         │     │                   contain a patch for this issue. There is no workaround as
                         │     │                   there is no known exploit scenario. 
                         │     ├ Severity        : MEDIUM 
-                        │     ├ CweIDs           ─ [0]: CWE-130 
-                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+                        │     ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+                        │     │                  │      │           :L/A:N 
+                        │     │                  │      ╰ V3Score : 5.3 
+                        │     │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
                         │     │                         │           :L/A:N 
                         │     │                         ╰ V3Score : 5.3 
                         │     ├ References       ╭ [0]: https://github.com/eclipse/jetty.project 
@@ -135,7 +233,7 @@
                         │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
                         │     │                  ╰ [3]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
                         │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-09-17T12:01:00Z 
+                        │     ╰ LastModifiedDate: 2023-09-20T20:20:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-4759 
                               ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
                               ├ PkgPath         : openaf/openaf.jar 
