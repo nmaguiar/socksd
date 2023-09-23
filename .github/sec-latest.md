@@ -206,8 +206,7 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                         │     │                          ed+ecosystem%3Amaven 
-                        │     ├ Title           : Jetty is a Java based web server and servlet engine.
-                        │     │                   Prior to versions ... 
+                        │     ├ Title           : Improper validation of HTTP/1 content-length 
                         │     ├ Description     : Jetty is a Java based web server and servlet engine.
                         │     │                   Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty
                         │     │                    accepts the `+` character proceeding the content-length
@@ -221,17 +220,22 @@
                         │     │                   contain a patch for this issue. There is no workaround as
                         │     │                   there is no known exploit scenario. 
                         │     ├ Severity        : MEDIUM 
-                        │     ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-                        │     │                  │      │           :L/A:N 
-                        │     │                  │      ╰ V3Score : 5.3 
-                        │     │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-                        │     │                         │           :L/A:N 
-                        │     │                         ╰ V3Score : 5.3 
-                        │     ├ References       ╭ [0]: https://github.com/eclipse/jetty.project 
-                        │     │                  ├ [1]: https://github.com/eclipse/jetty.project/security/
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                  │        │           /I:L/A:N 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                  │        │           /I:L/A:N 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                           │           /I:L/A:N 
+                        │     │                           ╰ V3Score : 5.3 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-40167 
+                        │     │                  ├ [1]: https://github.com/eclipse/jetty.project 
+                        │     │                  ├ [2]: https://github.com/eclipse/jetty.project/security/
                         │     │                  │      advisories/GHSA-hmr7-m48g-48f6 
-                        │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
-                        │     │                  ╰ [3]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
+                        │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-40167 
+                        │     │                  ╰ [5]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
                         │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
                         │     ╰ LastModifiedDate: 2023-09-20T20:20:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-4759 
