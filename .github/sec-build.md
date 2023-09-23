@@ -8,10 +8,10 @@
 │                       │     ├ InstalledVersion: 8.2.1-r0 
 │                       │     ├ FixedVersion    : 8.3.0-r0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:084682dd6c970ed2ce61bfba80379a87e941651c
-│                       │     │                  │         655ec6916126b5262257960e 
-│                       │     │                  ╰ DiffID: sha256:a7164acd66e00f80e0e50f331cf3a21f342b3505
-│                       │     │                            aefeac4722f607b9ac5a6def 
+│                       │     ├ Layer            ╭ Digest: sha256:8c966e59e59aa8eb4fb01b51b84563756a5a126d
+│                       │     │                  │         7b41fac49513715cf2406e91 
+│                       │     │                  ╰ DiffID: sha256:697ff069bb71f3d18b26d07eb6b575176eeef09b
+│                       │     │                            775c0e40d41c295f8f50aec4 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38039 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -56,10 +56,10 @@
 │                             ├ InstalledVersion: 8.2.1-r0 
 │                             ├ FixedVersion    : 8.3.0-r0 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:084682dd6c970ed2ce61bfba80379a87e941651c
-│                             │                  │         655ec6916126b5262257960e 
-│                             │                  ╰ DiffID: sha256:a7164acd66e00f80e0e50f331cf3a21f342b3505
-│                             │                            aefeac4722f607b9ac5a6def 
+│                             ├ Layer            ╭ Digest: sha256:8c966e59e59aa8eb4fb01b51b84563756a5a126d
+│                             │                  │         7b41fac49513715cf2406e91 
+│                             │                  ╰ DiffID: sha256:697ff069bb71f3d18b26d07eb6b575176eeef09b
+│                             │                            775c0e40d41c295f8f50aec4 
 │                             ├ SeveritySource  : nvd 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38039 
 │                             ├ DataSource       ╭ ID  : alpine 
@@ -107,10 +107,10 @@
                         │     ├ InstalledVersion: 1.23.0 
                         │     ├ FixedVersion    : 1.24.0 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:084682dd6c970ed2ce61bfba80379a87e941651c
-                        │     │                  │         655ec6916126b5262257960e 
-                        │     │                  ╰ DiffID: sha256:a7164acd66e00f80e0e50f331cf3a21f342b3505
-                        │     │                            aefeac4722f607b9ac5a6def 
+                        │     ├ Layer            ╭ Digest: sha256:8c966e59e59aa8eb4fb01b51b84563756a5a126d
+                        │     │                  │         7b41fac49513715cf2406e91 
+                        │     │                  ╰ DiffID: sha256:697ff069bb71f3d18b26d07eb6b575176eeef09b
+                        │     │                            775c0e40d41c295f8f50aec4 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42503 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -196,18 +196,17 @@
                         │     ├ InstalledVersion: 9.4.51.v20230217 
                         │     ├ FixedVersion    : 9.4.52, 10.0.16, 11.0.16, 12.0.1 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:084682dd6c970ed2ce61bfba80379a87e941651c
-                        │     │                  │         655ec6916126b5262257960e 
-                        │     │                  ╰ DiffID: sha256:a7164acd66e00f80e0e50f331cf3a21f342b3505
-                        │     │                            aefeac4722f607b9ac5a6def 
+                        │     ├ Layer            ╭ Digest: sha256:8c966e59e59aa8eb4fb01b51b84563756a5a126d
+                        │     │                  │         7b41fac49513715cf2406e91 
+                        │     │                  ╰ DiffID: sha256:697ff069bb71f3d18b26d07eb6b575176eeef09b
+                        │     │                            775c0e40d41c295f8f50aec4 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40167 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                         │     │                          ed+ecosystem%3Amaven 
-                        │     ├ Title           : Jetty is a Java based web server and servlet engine.
-                        │     │                   Prior to versions ... 
+                        │     ├ Title           : Improper validation of HTTP/1 content-length 
                         │     ├ Description     : Jetty is a Java based web server and servlet engine.
                         │     │                   Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty
                         │     │                    accepts the `+` character proceeding the content-length
@@ -221,17 +220,22 @@
                         │     │                   contain a patch for this issue. There is no workaround as
                         │     │                   there is no known exploit scenario. 
                         │     ├ Severity        : MEDIUM 
-                        │     ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-                        │     │                  │      │           :L/A:N 
-                        │     │                  │      ╰ V3Score : 5.3 
-                        │     │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-                        │     │                         │           :L/A:N 
-                        │     │                         ╰ V3Score : 5.3 
-                        │     ├ References       ╭ [0]: https://github.com/eclipse/jetty.project 
-                        │     │                  ├ [1]: https://github.com/eclipse/jetty.project/security/
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                  │        │           /I:L/A:N 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                  │        │           /I:L/A:N 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                           │           /I:L/A:N 
+                        │     │                           ╰ V3Score : 5.3 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-40167 
+                        │     │                  ├ [1]: https://github.com/eclipse/jetty.project 
+                        │     │                  ├ [2]: https://github.com/eclipse/jetty.project/security/
                         │     │                  │      advisories/GHSA-hmr7-m48g-48f6 
-                        │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
-                        │     │                  ╰ [3]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
+                        │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-40167 
+                        │     │                  ╰ [5]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
                         │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
                         │     ╰ LastModifiedDate: 2023-09-20T20:20:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-4759 
@@ -240,10 +244,10 @@
                               ├ InstalledVersion: 5.8.1.202007141445-r 
                               ├ FixedVersion    : 6.6.1.202309021850-r 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:084682dd6c970ed2ce61bfba80379a87e941651c
-                              │                  │         655ec6916126b5262257960e 
-                              │                  ╰ DiffID: sha256:a7164acd66e00f80e0e50f331cf3a21f342b3505
-                              │                            aefeac4722f607b9ac5a6def 
+                              ├ Layer            ╭ Digest: sha256:8c966e59e59aa8eb4fb01b51b84563756a5a126d
+                              │                  │         7b41fac49513715cf2406e91 
+                              │                  ╰ DiffID: sha256:697ff069bb71f3d18b26d07eb6b575176eeef09b
+                              │                            775c0e40d41c295f8f50aec4 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4759 
                               ├ DataSource       ╭ ID  : ghsa 
