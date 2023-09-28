@@ -18,7 +18,7 @@
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Title           : out of heap memory issue due to missing limit on header
-│                       │     │                   quntity 
+│                       │     │                   quantity 
 │                       │     ├ Description     : When curl retrieves an HTTP response, it stores the
 │                       │     │                   incoming headers so that
 │                       │     │                   they can be accessed later via the libcurl headers API.
@@ -66,7 +66,7 @@
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                             ├ Title           : out of heap memory issue due to missing limit on header
-│                             │                   quntity 
+│                             │                   quantity 
 │                             ├ Description     : When curl retrieves an HTTP response, it stores the
 │                             │                   incoming headers so that
 │                             │                   they can be accessed later via the libcurl headers API.
