@@ -43,13 +43,19 @@
 │                       │     │                  │      -2023-38039 
 │                       │     │                  ├ [3]: https://hackerone.com/reports/2072338 
 │                       │     │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
+│                       │     │                  │      age-announce@lists.fedoraproject.org/message/5DCZMYODAL
+│                       │     │                  │      BLVOXVJEN2LF2MLANEYL4F/ 
+│                       │     │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pack
+│                       │     │                  │      age-announce@lists.fedoraproject.org/message/M6KGKB2JNZ
+│                       │     │                  │      VT276JYSKI6FV2VFJUGDOJ/ 
+│                       │     │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pack
 │                       │     │                  │      age-announce@lists.fedoraproject.org/message/TEAWTYHC3R
 │                       │     │                  │      T6ZRS5OZRHLAIENVN6CCIS/ 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-38039 
-│                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6363-1 
-│                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-38039 
+│                       │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-38039 
+│                       │     │                  ├ [8]: https://ubuntu.com/security/notices/USN-6363-1 
+│                       │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-38039 
 │                       │     ├ PublishedDate   : 2023-09-15T04:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-09-20T15:08:00Z 
+│                       │     ╰ LastModifiedDate: 2023-09-27T15:18:00Z 
 │                       ╰ [1] ╭ VulnerabilityID : CVE-2023-38039 
 │                             ├ PkgID           : libcurl@8.2.1-r0 
 │                             ├ PkgName         : libcurl 
@@ -91,13 +97,19 @@
 │                             │                  │      -2023-38039 
 │                             │                  ├ [3]: https://hackerone.com/reports/2072338 
 │                             │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
+│                             │                  │      age-announce@lists.fedoraproject.org/message/5DCZMYODAL
+│                             │                  │      BLVOXVJEN2LF2MLANEYL4F/ 
+│                             │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pack
+│                             │                  │      age-announce@lists.fedoraproject.org/message/M6KGKB2JNZ
+│                             │                  │      VT276JYSKI6FV2VFJUGDOJ/ 
+│                             │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pack
 │                             │                  │      age-announce@lists.fedoraproject.org/message/TEAWTYHC3R
 │                             │                  │      T6ZRS5OZRHLAIENVN6CCIS/ 
-│                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-38039 
-│                             │                  ├ [6]: https://ubuntu.com/security/notices/USN-6363-1 
-│                             │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-38039 
+│                             │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-38039 
+│                             │                  ├ [8]: https://ubuntu.com/security/notices/USN-6363-1 
+│                             │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-38039 
 │                             ├ PublishedDate   : 2023-09-15T04:15:00Z 
-│                             ╰ LastModifiedDate: 2023-09-20T15:08:00Z 
+│                             ╰ LastModifiedDate: 2023-09-27T15:18:00Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
