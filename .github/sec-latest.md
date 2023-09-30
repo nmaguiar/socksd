@@ -247,7 +247,8 @@
                         │     │                  │      advisories/GHSA-hmr7-m48g-48f6 
                         │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
                         │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-40167 
-                        │     │                  ╰ [5]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+                        │     │                  ├ [5]: https://www.debian.org/security/2023/dsa-5507 
+                        │     │                  ╰ [6]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
                         │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
                         │     ╰ LastModifiedDate: 2023-09-20T20:20:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-4759 
