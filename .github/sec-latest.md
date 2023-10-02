@@ -246,12 +246,14 @@
                         │     │                  ├ [1]: https://github.com/eclipse/jetty.project 
                         │     │                  ├ [2]: https://github.com/eclipse/jetty.project/security/
                         │     │                  │      advisories/GHSA-hmr7-m48g-48f6 
-                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
-                        │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-40167 
-                        │     │                  ├ [5]: https://www.debian.org/security/2023/dsa-5507 
-                        │     │                  ╰ [6]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+                        │     │                  ├ [3]: https://lists.debian.org/debian-lts-announce/2023/
+                        │     │                  │      09/msg00039.html 
+                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
+                        │     │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-40167 
+                        │     │                  ├ [6]: https://www.debian.org/security/2023/dsa-5507 
+                        │     │                  ╰ [7]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
                         │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-09-29T12:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-09-30T15:15:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-4759 
                               ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
                               ├ PkgPath         : openaf/openaf.jar 
