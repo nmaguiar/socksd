@@ -18,6 +18,10 @@ help:
     desc     : A list of IP addressed CIDR separated by commas.
     example  : "192.168.1.0/16,fc00::/7"
     mandatory: false
+  - name     : DNSTIMEOUT
+    desc     : If defined sets a different DNS resolution timeout (in seconds) from the default (10 seconds)
+    example  : 10
+    mandatory: false
 
 todo:
 - Socks Server
@@ -42,7 +46,12 @@ jobs:
       LOGS       : toBoolean.isBoolean.default(false)
       LOGS_DETAIL: toBoolean.isBoolean.default(false)
       FILTERS    : isString.default(__)
+      DNSTIMEOUT : toNumber.isNumber.default(10000)
   exec : |
+    // Set DNS timeout
+    java.security.Security.setProperty("networkaddress.cache.ttl", args.DNSTIMEOUT)
+
+    // Start Socks server
     var s = new SocksServer()
     s.start(1080, args.ONLY_LOCAL ? s.getLocalNetCallback(args.LOGS, args.LOGS_DETAIL)
                                   : (isDef(args.FILTERS) 
