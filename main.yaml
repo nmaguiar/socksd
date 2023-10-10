@@ -49,6 +49,7 @@ jobs:
       DNSTIMEOUT : toNumber.isNumber.default(10000)
   exec : |
     // Set DNS timeout
+    log("Set DNS cache TTL: " + args.DNSTIMEOUT)
     java.security.Security.setProperty("networkaddress.cache.ttl", args.DNSTIMEOUT)
 
     // Start Socks server
