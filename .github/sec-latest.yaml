@@ -48,6 +48,63 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-38039
     PublishedDate: '2023-09-15T04:15:00Z'
     LastModifiedDate: '2023-09-27T15:18:00Z'
+  - VulnerabilityID: CVE-2023-38545
+    PkgID: curl@8.2.1-r0
+    PkgName: curl
+    InstalledVersion: 8.2.1-r0
+    FixedVersion: 8.4.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c10309302125f0ab83cd580714dd
+      DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1fa70dd41d64a7be08c26ce0c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38545
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: a heap based buffer overflow in the SOCKS5 proxy handshake
+    Description: A heap-based buffer overflow flaw was found in the SOCKS5 proxy handshake in the Curl package. If Curl is unable to resolve the address itself, it passes the hostname to the SOCKS5 proxy. However, the maximum length of the hostname that can be passed is 255 bytes. If the hostname is longer, then Curl switches to the local name resolving and passes the resolved address only to the proxy. The local variable that instructs Curl to "let the host resolve the name" could obtain the wrong value during a slow SOCKS5 handshake, resulting in the too-long hostname being copied to the target buffer instead of the resolved address, which was not the intended behavior.
+    Severity: HIGH
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38545
+    - https://curl.se/docs/CVE-2023-38545.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38545
+    - https://ubuntu.com/security/notices/USN-6429-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-38545
+  - VulnerabilityID: CVE-2023-38546
+    PkgID: curl@8.2.1-r0
+    PkgName: curl
+    InstalledVersion: 8.2.1-r0
+    FixedVersion: 8.4.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c10309302125f0ab83cd580714dd
+      DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1fa70dd41d64a7be08c26ce0c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38546
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: cookie injection with none file
+    Description: A flaw was found in the Curl package. This flaw allows an attacker to insert cookies into a running program using libcurl if the specific series of conditions are met.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38546
+    - https://curl.se/docs/CVE-2023-38546.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38546
+    - https://ubuntu.com/security/notices/USN-6429-1
+    - https://ubuntu.com/security/notices/USN-6429-2
+    - https://www.cve.org/CVERecord?id=CVE-2023-38546
   - VulnerabilityID: CVE-2023-38039
     PkgID: libcurl@8.2.1-r0
     PkgName: libcurl
@@ -94,6 +151,63 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-38039
     PublishedDate: '2023-09-15T04:15:00Z'
     LastModifiedDate: '2023-09-27T15:18:00Z'
+  - VulnerabilityID: CVE-2023-38545
+    PkgID: libcurl@8.2.1-r0
+    PkgName: libcurl
+    InstalledVersion: 8.2.1-r0
+    FixedVersion: 8.4.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c10309302125f0ab83cd580714dd
+      DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1fa70dd41d64a7be08c26ce0c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38545
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: a heap based buffer overflow in the SOCKS5 proxy handshake
+    Description: A heap-based buffer overflow flaw was found in the SOCKS5 proxy handshake in the Curl package. If Curl is unable to resolve the address itself, it passes the hostname to the SOCKS5 proxy. However, the maximum length of the hostname that can be passed is 255 bytes. If the hostname is longer, then Curl switches to the local name resolving and passes the resolved address only to the proxy. The local variable that instructs Curl to "let the host resolve the name" could obtain the wrong value during a slow SOCKS5 handshake, resulting in the too-long hostname being copied to the target buffer instead of the resolved address, which was not the intended behavior.
+    Severity: HIGH
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38545
+    - https://curl.se/docs/CVE-2023-38545.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38545
+    - https://ubuntu.com/security/notices/USN-6429-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-38545
+  - VulnerabilityID: CVE-2023-38546
+    PkgID: libcurl@8.2.1-r0
+    PkgName: libcurl
+    InstalledVersion: 8.2.1-r0
+    FixedVersion: 8.4.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c10309302125f0ab83cd580714dd
+      DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1fa70dd41d64a7be08c26ce0c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38546
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: cookie injection with none file
+    Description: A flaw was found in the Curl package. This flaw allows an attacker to insert cookies into a running program using libcurl if the specific series of conditions are met.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38546
+    - https://curl.se/docs/CVE-2023-38546.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38546
+    - https://ubuntu.com/security/notices/USN-6429-1
+    - https://ubuntu.com/security/notices/USN-6429-2
+    - https://www.cve.org/CVERecord?id=CVE-2023-38546
   - VulnerabilityID: CVE-2023-44487
     PkgID: nghttp2-libs@1.55.1-r0
     PkgName: nghttp2-libs
@@ -108,8 +222,8 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack
-    Description: No description is available for this CVE.
+    Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
+    Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: HIGH
     CVSS:
       ghsa:
@@ -123,6 +237,7 @@
     - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
     - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
     - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
+    - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
     - https://chaos.social/@icing/111210915918780532
@@ -136,6 +251,7 @@
     - https://github.com/advisories/GHSA-vx74-f528-fxqg
     - https://github.com/advisories/GHSA-xpw8-rcwv-8f8p
     - https://github.com/alibaba/tengine/issues/1872
+    - https://github.com/apache/httpd/blob/afcdbeebbff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mplx.c#L1101-L1113
     - https://github.com/apache/tomcat/tree/main/java/org/apache/coyote/http2
     - https://github.com/apache/trafficserver/pull/10564
     - https://github.com/apple/swift-nio-http2
@@ -154,6 +270,8 @@
     - https://github.com/haproxy/haproxy/issues/2312
     - https://github.com/hyperium/hyper/issues/3337
     - https://github.com/icing/mod_h2/blob/0a864782af0a942aa2ad4ed960a6b32cd35bcf0a/mod_http2/README.md?plain=1#L239-L244
+    - https://github.com/kazu-yamamoto/http2/commit/f61d41a502bd0f60eb24e1ce14edc7b6df6722a1
+    - https://github.com/kazu-yamamoto/http2/issues/93
     - https://github.com/kubernetes/kubernetes/pull/121120
     - https://github.com/micrictor/http2-rst-stream
     - https://github.com/microsoft/CBL-Mariner/pull/6381
@@ -166,6 +284,7 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
+    - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
     - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
     - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-44487
     - https://my.f5.com/manage/s/article/K000137106
@@ -173,18 +292,23 @@
     - https://news.ycombinator.com/item?id=37830987
     - https://news.ycombinator.com/item?id=37830998
     - https://news.ycombinator.com/item?id=37831062
+    - https://news.ycombinator.com/item?id=37837043
     - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
     - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
     - https://ubuntu.com/security/notices/USN-6427-1
     - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records/
+    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-44487
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.nginx.com/blog/http-2-rapid-reset-attack-impacting-f5-nginx-products/
     - https://www.openwall.com/lists/oss-security/2023/10/10/6
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
+    - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
+    PublishedDate: '2023-10-10T14:15:00Z'
+    LastModifiedDate: '2023-10-11T05:15:00Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -239,115 +363,24 @@
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Title: HTTP/2 HPACK integer overflow and buffer allocation
+    Title: hpack header values cause
     Description: |-
-      An integer overflow in `MetaDataBuilder.checkSize` allows for HTTP/2 HPACK header values to
-      exceed their size limit. 
-
-      In `MetaDataBuilder.java`, the following code determines if a header name or value
-      exceeds the size limit, and throws an exception if the limit is exceeded:
-
-      ```java
-      291 public void checkSize(int length, boolean huffman) throws SessionException
-      292 {
-      293 // Apply a huffman fudge factor
-      294 if (huffman)
-      295 length = (length * 4) / 3;
-      296 if ((_size + length) > _maxSize)
-      297 throw new HpackException.SessionException("Header too large %d > %d",
-      _size + length, _maxSize);
-      298 }
-      ```
-
-      However, when length is very large and huffman is true, the multiplication by 4 in line 295
-      will overflow, and length will become negative. (_size+length) will now be negative, and
-      the check on line 296 will not be triggered.
-
-      Furthermore, `MetaDataBuilder.checkSize` allows for user-entered HPACK header value sizes to be
-      negative, potentially leading to a very large buffer allocation later on when the
-      user-entered size is multiplied by 2.
-
-      In `MetaDataBuilder.java`, the following code determines if a header name or value
-      exceeds the size limit, and throws an exception if the limit is exceeded:
-
-      ```java
-      public void checkSize(int length, boolean huffman) throws SessionException
-      {
-      // Apply a huffman fudge factor
-      if (huffman)
-      length = (length * 4) / 3;
-      if ((_size + length) > _maxSize)
-      throw new HpackException.SessionException("Header too large %d > %d", _size
-      + length, _maxSize);
-      }
-      ```
-
-      However, no exception is thrown in the case of a negative size.
-      Later, in `Huffman.decode`, the user-entered length is multiplied by 2 before allocating a buffer:
-
-      ```java
-      public static String decode(ByteBuffer buffer, int length) throws
-      HpackException.CompressionException
-      {
-      Utf8StringBuilder utf8 = new Utf8StringBuilder(length * 2);
-      // ...
-      ```
-
-      This means that if a user provides a negative length value (or, more precisely, a length
-      value which, when multiplied by the 4/3 fudge factor, is negative), and this length value is a
-      very large positive number when multiplied by 2, then the user can cause a very large
-      buffer to be allocated on the server.
-
-
-      ### Exploit Scenario 1
-      An attacker repeatedly sends HTTP messages with the HPACK header 0x00ffffffffff02.
-      Each time this header is decoded:
-      + `HpackDecode.decode` will determine that a Huffman-coded value of length
-      805306494 needs to be decoded.
-      + `MetaDataBuilder.checkSize` will approve this length.
-      + Huffman.decode will allocate a 1.6 GB string array.
-      + Huffman.decode will have a buffer overflow error, and the array will be deallocated
-      the next time garbage collection happens. (Note: this can be delayed by appending
-      valid huffman-coded characters to the end of the header.)
-
-      Depending on the timing of garbage collection, the number of threads, and the amount of
-      memory available on the server, this may cause the server to run out of memory.
-
-
-      ### Exploit Scenario 2
-      An attacker repeatedly sends HTTP messages with the HPACK header 0x00ff8080ffff0b. Each
-      time this header is decoded:
-       + HpackDecode.decode will determine that a Huffman-coded value of length
-      -1073758081 needs to be decoded
-       +  MetaDataBuilder.checkSize will approve this length
-       + The number will be multiplied by 2 to get 2147451134, and Huffman.decode will
-      allocate a 2.1 GB string array
-       + Huffman.decode will have a buffer overflow error, and the array will be deallocated
-      the next time garbage collection happens (Note that this deallocation can be
-      delayed by adding valid Huffman-coded characters to the end of the header)
-
-      Depending on the timing of garbage collection, the number of threads, and the amount of
-      memory available on the server, this may cause the server to run out of memory.
-
-      ### Impact
-      Users of HTTP/2 can be impacted by a remote denial of service attack.
-
-      ### Patches
-      Fixed in Jetty 10.0.16 and Jetty 11.0.16
-      Fixed in Jetty 9.4.53
-      Jetty 12.x is unaffected.
-
-      ### Workarounds
-      No workarounds possible, only patched versions of Jetty.
-
-      ### References
-      * https://github.com/eclipse/jetty.project/pull/9634
+      Eclipse Jetty provides a web server and servlet container. In versions 11.0.0 through 11.0.15, 10.0.0 through 10.0.15, and 9.0.0 through 9.4.52, an integer overflow in `MetaDataBuilder.checkSize` allows for HTTP/2 HPACK header values to
+      exceed their size limit. `MetaDataBuilder.java` determines if a header name or value exceeds the size limit, and throws an exception if the limit is exceeded. However, when length is very large and huffman is true, the multiplication by 4 in line 295
+      will overflow, and length will become negative. `(_size+length)` will now be negative, and the check on line 296 will not be triggered. Furthermore, `MetaDataBuilder.checkSize` allows for user-entered HPACK header value sizes to be negative, potentially leading to a very large buffer allocation later on when the user-entered size is multiplied by 2. This means that if a user provides a negative length value (or, more precisely, a length value which, when multiplied by the 4/3 fudge factor, is negative), and this length value is a very large positive number when multiplied by 2, then the user can cause a very large buffer to be allocated on the server. Users of HTTP/2 can be impacted by a remote denial of service attack. The issue has been fixed in versions 11.0.16, 10.0.16, and 9.4.53. There are no known workarounds.
     Severity: HIGH
+    CweIDs:
+    - CWE-190
+    - CWE-400
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2023-36478
     - https://github.com/eclipse/jetty.project
     - https://github.com/eclipse/jetty.project/pull/9634
     - https://github.com/eclipse/jetty.project/releases/tag/jetty-10.0.16
@@ -355,6 +388,9 @@
     - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.53.v20231009
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-wgh7-54f2-x98r
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36478
+    - https://www.cve.org/CVERecord?id=CVE-2023-36478
+    PublishedDate: '2023-10-10T17:15:00Z'
+    LastModifiedDate: '2023-10-10T17:52:00Z'
   - VulnerabilityID: CVE-2023-40167
     PkgName: org.eclipse.jetty:jetty-http
     PkgPath: openaf/openaf.jar
