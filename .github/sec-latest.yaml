@@ -325,6 +325,7 @@
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
@@ -358,7 +359,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-14T01:15:00Z'
+    LastModifiedDate: '2023-10-15T04:15:00Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -370,14 +371,14 @@
     FixedVersion: 1.24.0
     Status: fixed
     Layer:
-      Digest: sha256:236a55b1d8fdc55a4a71106e1ea7fed1a690ec9b4666507167055a2ccdb2e4a2
-      DiffID: sha256:e835bbea4bf02af5abaf4bb5a3c3e40b48d569400e21356ea8347fff4cbe2392
-    SeveritySource: ghsa
+      Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c10309302125f0ab83cd580714dd
+      DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1fa70dd41d64a7be08c26ce0c
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42503
     DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Maven
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+      ID: glad
+      Name: GitLab Advisory Database Community
+      URL: https://gitlab.com/gitlab-org/advisories-community
     Title: Improper Input Validation, Uncontrolled Resource Consumption vulnerabi ...
     Description: "Improper Input Validation, Uncontrolled Resource Consumption vulnerability in Apache Commons Compress in TAR parsing.This issue affects Apache Commons Compress:\_from 1.22 before 1.24.0.\n\nUsers are recommended to upgrade to version 1.24.0, which fixes the issue.\n\nA third party can create a malformed TAR file by manipulating file modification times headers, which when parsed with Apache Commons Compress, will cause a denial of service issue via CPU consumption.\n\nIn version 1.22 of Apache Commons Compress, support was added for file modification times with higher precision (issue # COMPRESS-612 [1]). The format for the PAX extended headers carrying this data consists of two numbers separated by a period [2], indicating seconds and subsecond precision (for example “1647221103.5998539”). The impacted fields are “atime”, “ctime”, “mtime” and “LIBARCHIVE.creationtime”. No input validation is performed prior to the parsing of header values.\n\nParsing of these numbers uses the BigDecimal [3] class from the JDK which has a publicly known algorithmic complexity issue when doing operations on large numbers, causing denial of service (see issue # JDK-6560193 [4]). A third party can manipulate file time headers in a TAR file by placing a number with a very long fraction (300,000 digits) or a number with exponent notation (such as “9e9999999”) within a file modification time header, and the parsing of files with these headers will take hours instead of seconds, leading to a denial of service via exhaustion of CPU resources. This issue is similar to CVE-2012-2098 [5].\n\n[1]:  https://issues.apache.org/jira/browse/COMPRESS-612 \n[2]:  https://pubs.opengroup.org/onlinepubs/9699919799/utilities/pax.html#tag_20_92_13_05 \n[3]:  https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html \n[4]:  https://bugs.openjdk.org/browse/JDK-6560193 \n[5]:  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2098 \n\nOnly applications using CompressorStreamFactory class (with auto-detection of file types), TarArchiveInputStream and TarFile classes to parse TAR files are impacted. Since this code was introduced in v1.22, only that version and later versions are impacted.\n\n"
     Severity: MEDIUM
@@ -392,6 +393,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - https://github.com/advisories/GHSA-cgwf-w82q-5jrr
     - https://github.com/apache/commons-compress
     - https://github.com/apache/commons-compress/commit/aae38bfb820159ae7a0b792e779571f6a46b3889
     - https://lists.apache.org/thread/5xwcyr600mn074vgxq92tjssrchmc93c
@@ -405,8 +407,8 @@
     FixedVersion: 10.0.16, 11.0.16, 9.4.53
     Status: fixed
     Layer:
-      Digest: sha256:236a55b1d8fdc55a4a71106e1ea7fed1a690ec9b4666507167055a2ccdb2e4a2
-      DiffID: sha256:e835bbea4bf02af5abaf4bb5a3c3e40b48d569400e21356ea8347fff4cbe2392
+      Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c10309302125f0ab83cd580714dd
+      DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1fa70dd41d64a7be08c26ce0c
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36478
     DataSource:
@@ -448,8 +450,8 @@
     FixedVersion: 9.4.52, 10.0.16, 11.0.16, 12.0.1
     Status: fixed
     Layer:
-      Digest: sha256:236a55b1d8fdc55a4a71106e1ea7fed1a690ec9b4666507167055a2ccdb2e4a2
-      DiffID: sha256:e835bbea4bf02af5abaf4bb5a3c3e40b48d569400e21356ea8347fff4cbe2392
+      Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c10309302125f0ab83cd580714dd
+      DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1fa70dd41d64a7be08c26ce0c
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40167
     DataSource:
@@ -489,8 +491,8 @@
     FixedVersion: 6.6.1.202309021850-r
     Status: fixed
     Layer:
-      Digest: sha256:236a55b1d8fdc55a4a71106e1ea7fed1a690ec9b4666507167055a2ccdb2e4a2
-      DiffID: sha256:e835bbea4bf02af5abaf4bb5a3c3e40b48d569400e21356ea8347fff4cbe2392
+      Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c10309302125f0ab83cd580714dd
+      DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1fa70dd41d64a7be08c26ce0c
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4759
     DataSource:
