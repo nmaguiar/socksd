@@ -413,64 +413,67 @@
 │                             │                  │        y6o41xwhsjlsd87q 
 │                             │                  ├ [81] : https://lists.debian.org/debian-lts-announce/202
 │                             │                  │        3/10/msg00020.html 
-│                             │                  ├ [82] : https://lists.w3.org/Archives/Public/ietf-http-w
+│                             │                  ├ [82] : https://lists.fedoraproject.org/archives/list/pa
+│                             │                  │        ckage-announce@lists.fedoraproject.org/message/JMEXY2
+│                             │                  │        2BFG5Q64HQCM5CK2Q7KDKVV4TY/ 
+│                             │                  ├ [83] : https://lists.w3.org/Archives/Public/ietf-http-w
 │                             │                  │        g/2023OctDec/0025.html 
-│                             │                  ├ [83] : https://mailman.nginx.org/pipermail/nginx-devel/
+│                             │                  ├ [84] : https://mailman.nginx.org/pipermail/nginx-devel/
 │                             │                  │        2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
 │                             │                  │         
-│                             │                  ├ [84] : https://martinthomson.github.io/h2-stream-limits
+│                             │                  ├ [85] : https://martinthomson.github.io/h2-stream-limits
 │                             │                  │        /draft-thomson-httpbis-h2-stream-limits.html 
-│                             │                  ├ [85] : https://msrc.microsoft.com/blog/2023/10/microsof
+│                             │                  ├ [86] : https://msrc.microsoft.com/blog/2023/10/microsof
 │                             │                  │        t-response-to-distributed-denial-of-service-ddos-atta
 │                             │                  │        cks-against-http/2/ 
-│                             │                  ├ [86] : https://msrc.microsoft.com/update-guide/vulnerab
+│                             │                  ├ [87] : https://msrc.microsoft.com/update-guide/vulnerab
 │                             │                  │        ility/CVE-2023-44487 
-│                             │                  ├ [87] : https://my.f5.com/manage/s/article/K000137106 
-│                             │                  ├ [88] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
-│                             │                  ├ [89] : https://news.ycombinator.com/item?id=37830987 
-│                             │                  ├ [90] : https://news.ycombinator.com/item?id=37830998 
-│                             │                  ├ [91] : https://news.ycombinator.com/item?id=37831062 
-│                             │                  ├ [92] : https://news.ycombinator.com/item?id=37837043 
-│                             │                  ├ [93] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
-│                             │                  ├ [94] : https://openssf.org/blog/2023/10/10/http-2-rapid
+│                             │                  ├ [88] : https://my.f5.com/manage/s/article/K000137106 
+│                             │                  ├ [89] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
+│                             │                  ├ [90] : https://news.ycombinator.com/item?id=37830987 
+│                             │                  ├ [91] : https://news.ycombinator.com/item?id=37830998 
+│                             │                  ├ [92] : https://news.ycombinator.com/item?id=37831062 
+│                             │                  ├ [93] : https://news.ycombinator.com/item?id=37837043 
+│                             │                  ├ [94] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
+│                             │                  ├ [95] : https://openssf.org/blog/2023/10/10/http-2-rapid
 │                             │                  │        -reset-vulnerability-highlights-need-for-rapid-respon
 │                             │                  │        se/ 
-│                             │                  ├ [95] : https://pkg.go.dev/vuln/GO-2023-2102 
-│                             │                  ├ [96] : https://seanmonstar.com/post/730794151136935936/
+│                             │                  ├ [96] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                             │                  ├ [97] : https://seanmonstar.com/post/730794151136935936/
 │                             │                  │        hyper-http2-rapid-reset-unaffected 
-│                             │                  ├ [97] : https://security.paloaltonetworks.com/CVE-2023-44487 
-│                             │                  ├ [98] : https://tomcat.apache.org/security-10.html#Fixed
+│                             │                  ├ [98] : https://security.paloaltonetworks.com/CVE-2023-44487 
+│                             │                  ├ [99] : https://tomcat.apache.org/security-10.html#Fixed
 │                             │                  │        _in_Apache_Tomcat_10.1.14 
-│                             │                  ├ [99] : https://ubuntu.com/security/CVE-2023-44487 
-│                             │                  ├ [100]: https://ubuntu.com/security/notices/USN-6427-1 
-│                             │                  ├ [101]: https://www.bleepingcomputer.com/news/security/n
+│                             │                  ├ [100]: https://ubuntu.com/security/CVE-2023-44487 
+│                             │                  ├ [101]: https://ubuntu.com/security/notices/USN-6427-1 
+│                             │                  ├ [102]: https://www.bleepingcomputer.com/news/security/n
 │                             │                  │        ew-http-2-rapid-reset-zero-day-attack-breaks-ddos-rec
 │                             │                  │        ords/ 
-│                             │                  ├ [102]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                             │                  ├ [103]: https://www.cisa.gov/news-events/alerts/2023/10/
 │                             │                  │        10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                             │                  │        [m 
-│                             │                  ├ [103]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                             │                  ├ [104]: https://www.darkreading.com/cloud/internet-wide-
+│                             │                  ├ [104]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                             │                  ├ [105]: https://www.darkreading.com/cloud/internet-wide-
 │                             │                  │        zero-day-bug-fuels-largest-ever-ddos-event 
-│                             │                  ├ [105]: https://www.debian.org/security/2023/dsa-5521 
-│                             │                  ├ [106]: https://www.debian.org/security/2023/dsa-5522 
-│                             │                  ├ [107]: https://www.haproxy.com/blog/haproxy-is-not-affe
+│                             │                  ├ [106]: https://www.debian.org/security/2023/dsa-5521 
+│                             │                  ├ [107]: https://www.debian.org/security/2023/dsa-5522 
+│                             │                  ├ [108]: https://www.haproxy.com/blog/haproxy-is-not-affe
 │                             │                  │        cted-by-the-http-2-rapid-reset-attack-cve-2023-44487
 │                             │                  │        [m 
-│                             │                  ├ [108]: https://www.mail-archive.com/haproxy@formilux.or
+│                             │                  ├ [109]: https://www.mail-archive.com/haproxy@formilux.or
 │                             │                  │        g/msg44134.html 
-│                             │                  ├ [109]: https://www.netlify.com/blog/netlify-successfull
+│                             │                  ├ [110]: https://www.netlify.com/blog/netlify-successfull
 │                             │                  │        y-mitigates-cve-2023-44487/ 
-│                             │                  ├ [110]: https://www.nginx.com/blog/http-2-rapid-reset-at
+│                             │                  ├ [111]: https://www.nginx.com/blog/http-2-rapid-reset-at
 │                             │                  │        tack-impacting-f5-nginx-products/ 
-│                             │                  ├ [111]: https://www.openwall.com/lists/oss-security/2023
+│                             │                  ├ [112]: https://www.openwall.com/lists/oss-security/2023
 │                             │                  │        /10/10/6 
-│                             │                  ├ [112]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
+│                             │                  ├ [113]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
 │                             │                  │        Attack 
-│                             │                  ╰ [113]: https://www.theregister.com/2023/10/10/http2_rap
+│                             │                  ╰ [114]: https://www.theregister.com/2023/10/10/http2_rap
 │                             │                           id_reset_zeroday/ 
 │                             ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                             ╰ LastModifiedDate: 2023-10-14T01:15:00Z 
+│                             ╰ LastModifiedDate: 2023-10-15T04:15:00Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -480,16 +483,15 @@
                         │     ├ InstalledVersion: 1.23.0 
                         │     ├ FixedVersion    : 1.24.0 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:236a55b1d8fdc55a4a71106e1ea7fed1a690ec9b
-                        │     │                  │         4666507167055a2ccdb2e4a2 
-                        │     │                  ╰ DiffID: sha256:e835bbea4bf02af5abaf4bb5a3c3e40b48d56940
-                        │     │                            0e21356ea8347fff4cbe2392 
-                        │     ├ SeveritySource  : ghsa 
+                        │     ├ Layer            ╭ Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c103
+                        │     │                  │         09302125f0ab83cd580714dd 
+                        │     │                  ╰ DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1
+                        │     │                            fa70dd41d64a7be08c26ce0c 
+                        │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42503 
-                        │     ├ DataSource       ╭ ID  : ghsa 
-                        │     │                  ├ Name: GitHub Security Advisory Maven 
-                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
-                        │     │                          ed+ecosystem%3Amaven 
+                        │     ├ DataSource       ╭ ID  : glad 
+                        │     │                  ├ Name: GitLab Advisory Database Community 
+                        │     │                  ╰ URL : https://gitlab.com/gitlab-org/advisories-community 
                         │     ├ Title           : Improper Input Validation, Uncontrolled Resource
                         │     │                   Consumption vulnerabi ... 
                         │     ├ Description     : Improper Input Validation, Uncontrolled Resource
@@ -555,12 +557,13 @@
                         │     │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
                         │     │                         │           :N/A:H 
                         │     │                         ╰ V3Score : 5.5 
-                        │     ├ References       ╭ [0]: https://github.com/apache/commons-compress 
-                        │     │                  ├ [1]: https://github.com/apache/commons-compress/commit/
+                        │     ├ References       ╭ [0]: https://github.com/advisories/GHSA-cgwf-w82q-5jrr 
+                        │     │                  ├ [1]: https://github.com/apache/commons-compress 
+                        │     │                  ├ [2]: https://github.com/apache/commons-compress/commit/
                         │     │                  │      aae38bfb820159ae7a0b792e779571f6a46b3889 
-                        │     │                  ├ [2]: https://lists.apache.org/thread/5xwcyr600mn074vgxq
+                        │     │                  ├ [3]: https://lists.apache.org/thread/5xwcyr600mn074vgxq
                         │     │                  │      92tjssrchmc93c 
-                        │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42503 
+                        │     │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-42503 
                         │     ├ PublishedDate   : 2023-09-14T08:15:00Z 
                         │     ╰ LastModifiedDate: 2023-09-19T13:43:00Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-36478 
@@ -569,10 +572,10 @@
                         │     ├ InstalledVersion: 9.4.51.v20230217 
                         │     ├ FixedVersion    : 10.0.16, 11.0.16, 9.4.53 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:236a55b1d8fdc55a4a71106e1ea7fed1a690ec9b
-                        │     │                  │         4666507167055a2ccdb2e4a2 
-                        │     │                  ╰ DiffID: sha256:e835bbea4bf02af5abaf4bb5a3c3e40b48d56940
-                        │     │                            0e21356ea8347fff4cbe2392 
+                        │     ├ Layer            ╭ Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c103
+                        │     │                  │         09302125f0ab83cd580714dd 
+                        │     │                  ╰ DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1
+                        │     │                            fa70dd41d64a7be08c26ce0c 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36478 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -635,10 +638,10 @@
                         │     ├ InstalledVersion: 9.4.51.v20230217 
                         │     ├ FixedVersion    : 9.4.52, 10.0.16, 11.0.16, 12.0.1 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:236a55b1d8fdc55a4a71106e1ea7fed1a690ec9b
-                        │     │                  │         4666507167055a2ccdb2e4a2 
-                        │     │                  ╰ DiffID: sha256:e835bbea4bf02af5abaf4bb5a3c3e40b48d56940
-                        │     │                            0e21356ea8347fff4cbe2392 
+                        │     ├ Layer            ╭ Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c103
+                        │     │                  │         09302125f0ab83cd580714dd 
+                        │     │                  ╰ DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1
+                        │     │                            fa70dd41d64a7be08c26ce0c 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40167 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -687,10 +690,10 @@
                               ├ InstalledVersion: 5.8.1.202007141445-r 
                               ├ FixedVersion    : 6.6.1.202309021850-r 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:236a55b1d8fdc55a4a71106e1ea7fed1a690ec9b
-                              │                  │         4666507167055a2ccdb2e4a2 
-                              │                  ╰ DiffID: sha256:e835bbea4bf02af5abaf4bb5a3c3e40b48d56940
-                              │                            0e21356ea8347fff4cbe2392 
+                              ├ Layer            ╭ Digest: sha256:7e710951cd25a637bc4c0d6ec88d11bcd939c103
+                              │                  │         09302125f0ab83cd580714dd 
+                              │                  ╰ DiffID: sha256:38d3f9cdaaca13e171c0f8a1e47ca23d27e6fbd1
+                              │                            fa70dd41d64a7be08c26ce0c 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4759 
                               ├ DataSource       ╭ ID  : ghsa 
