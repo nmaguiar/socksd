@@ -22,6 +22,10 @@ help:
     desc     : If defined sets a different DNS resolution timeout (in seconds) from the default (10 seconds)
     example  : 10
     mandatory: false
+  - name     : INITOJOB
+    desc     : Run an oJob upon start of the pod
+    example  : setDNS.yaml
+    mandatory: false
 
 todo:
 - Socks Server
@@ -47,7 +51,13 @@ jobs:
       LOGS_DETAIL: toBoolean.isBoolean.default(false)
       FILTERS    : isString.default(__)
       DNSTIMEOUT : toNumber.isNumber.default(10000)
+      INITOJOB   : isString.default(__)
   exec : |
+    if (isDef(args.INITOJOB)) {
+      log("Running " + args.INITOJOB + "...")
+      $do(() => $sh([ getOpenAFPath() + "/ojob", args.INITOJOB ]).exec() )
+    }
+
     // Set DNS timeout
     log("Set DNS cache TTL: " + args.DNSTIMEOUT)
     java.security.Security.setProperty("networkaddress.cache.ttl", args.DNSTIMEOUT)
