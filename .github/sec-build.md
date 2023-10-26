@@ -16,17 +16,64 @@
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
                         │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │     ├ Title           : Issue summary: A bug has been identified in the
-                        │     │                   processing of key and  ... 
-                        │     ├ Description     : A bug has been identified in the processing of key and
-                        │     │                   initialisation vector (IV) lengths. This can lead to
-                        │     │                   potential truncation or overruns during the initialisation of
-                        │     │                    some symmetric ciphers. 
+                        │     ├ Title           : Incorrect cipher key and IV length processing 
+                        │     ├ Description     : Issue summary: A bug has been identified in the
+                        │     │                   processing of key and initialisation vector (IV) lengths.
+                        │     │                   This can lead to potential truncation or overruns during the
+                        │     │                   initialisation of some symmetric ciphers. Impact summary: A
+                        │     │                   truncation in the IV can result in non-uniqueness, which
+                        │     │                   could result in loss of confidentiality for some cipher
+                        │     │                   modes. When calling EVP_EncryptInit_ex2(),
+                        │     │                   EVP_DecryptInit_ex2() or EVP_CipherInit_ex2() the provided
+                        │     │                   OSSL_PARAM array is processed after the key and IV have been
+                        │     │                   established. Any alterations to the key length, via the
+                        │     │                   "keylen" parameter or the IV length, via the "ivlen"
+                        │     │                   parameter, within the OSSL_PARAM array will not take effect
+                        │     │                   as intended, potentially causing truncation or overreading of
+                        │     │                    these values. The following ciphers and cipher modes are
+                        │     │                   impacted: RC2, RC4, RC5, CCM, GCM and OCB. For the CCM, GCM
+                        │     │                   and OCB cipher modes, truncation of the IV can result in loss
+                        │     │                    of confidentiality. For example, when following NIST's SP
+                        │     │                   800-38D section 8.2.1 guidance for constructing a
+                        │     │                   deterministic IV for AES in GCM mode, truncation of the
+                        │     │                   counter portion could lead to IV reuse. Both truncations and
+                        │     │                   overruns of the key and overruns of the IV will produce
+                        │     │                   incorrect results and could, in some cases, trigger a memory
+                        │     │                   exception. However, these issues are not currently assessed
+                        │     │                   as security critical. Changing the key and/or IV lengths is
+                        │     │                   not considered to be a common operation and the vulnerable
+                        │     │                   API was recently introduced. Furthermore it is likely that
+                        │     │                   application developers will have spotted this problem during
+                        │     │                   testing since decryption would fail unless both peers in the
+                        │     │                   communication were similarly vulnerable. For these reasons we
+                        │     │                    expect the probability of an application being vulnerable to
+                        │     │                    this to be quite low. However if an application is
+                        │     │                   vulnerable then this issue is considered very serious. For
+                        │     │                   these reasons we have assessed this issue as Moderate
+                        │     │                   severity overall. The OpenSSL SSL/TLS implementation is not
+                        │     │                   affected by this issue. The OpenSSL 3.0 and 3.1 FIPS
+                        │     │                   providers are not affected by this because the issue lies
+                        │     │                   outside of the FIPS provider boundary. OpenSSL 3.1 and 3.0
+                        │     │                   are vulnerable to this issue.A flaw was found in OpenSSL in
+                        │     │                   how it processes key and initialization vector (IV) lengths.
+                        │     │                   This issue can lead to potential truncation or overruns
+                        │     │                   during the initialization of some symmetric ciphers. A
+                        │     │                   truncation in the IV can result in non-uniqueness, which
+                        │     │                   could result in loss of confidentiality for some cipher
+                        │     │                   modes. Both truncations and overruns of the key and the IV
+                        │     │                   will produce incorrect results and could, in some cases,
+                        │     │                   trigger a memory exception. 
                         │     ├ Severity        : MEDIUM 
-                        │     ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
+                        │     │                           │           /I:N/A:N 
+                        │     │                           ╰ V3Score : 5.3 
+                        │     ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5363 
+                        │                        ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                         │                        │      -2023-5363 
-                        │                        ├ [1]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │                        ╰ [2]: https://www.openssl.org/news/secadv/20231024.txt 
+                        │                        ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
+                        │                        ├ [3]: https://ubuntu.com/security/notices/USN-6450-1 
+                        │                        ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
+                        │                        ╰ [5]: https://www.openssl.org/news/secadv/20231024.txt 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-5363 
                         │     ├ PkgID           : libssl3@3.1.3-r0 
                         │     ├ PkgName         : libssl3 
@@ -41,17 +88,64 @@
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
                         │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │     ├ Title           : Issue summary: A bug has been identified in the
-                        │     │                   processing of key and  ... 
-                        │     ├ Description     : A bug has been identified in the processing of key and
-                        │     │                   initialisation vector (IV) lengths. This can lead to
-                        │     │                   potential truncation or overruns during the initialisation of
-                        │     │                    some symmetric ciphers. 
+                        │     ├ Title           : Incorrect cipher key and IV length processing 
+                        │     ├ Description     : Issue summary: A bug has been identified in the
+                        │     │                   processing of key and initialisation vector (IV) lengths.
+                        │     │                   This can lead to potential truncation or overruns during the
+                        │     │                   initialisation of some symmetric ciphers. Impact summary: A
+                        │     │                   truncation in the IV can result in non-uniqueness, which
+                        │     │                   could result in loss of confidentiality for some cipher
+                        │     │                   modes. When calling EVP_EncryptInit_ex2(),
+                        │     │                   EVP_DecryptInit_ex2() or EVP_CipherInit_ex2() the provided
+                        │     │                   OSSL_PARAM array is processed after the key and IV have been
+                        │     │                   established. Any alterations to the key length, via the
+                        │     │                   "keylen" parameter or the IV length, via the "ivlen"
+                        │     │                   parameter, within the OSSL_PARAM array will not take effect
+                        │     │                   as intended, potentially causing truncation or overreading of
+                        │     │                    these values. The following ciphers and cipher modes are
+                        │     │                   impacted: RC2, RC4, RC5, CCM, GCM and OCB. For the CCM, GCM
+                        │     │                   and OCB cipher modes, truncation of the IV can result in loss
+                        │     │                    of confidentiality. For example, when following NIST's SP
+                        │     │                   800-38D section 8.2.1 guidance for constructing a
+                        │     │                   deterministic IV for AES in GCM mode, truncation of the
+                        │     │                   counter portion could lead to IV reuse. Both truncations and
+                        │     │                   overruns of the key and overruns of the IV will produce
+                        │     │                   incorrect results and could, in some cases, trigger a memory
+                        │     │                   exception. However, these issues are not currently assessed
+                        │     │                   as security critical. Changing the key and/or IV lengths is
+                        │     │                   not considered to be a common operation and the vulnerable
+                        │     │                   API was recently introduced. Furthermore it is likely that
+                        │     │                   application developers will have spotted this problem during
+                        │     │                   testing since decryption would fail unless both peers in the
+                        │     │                   communication were similarly vulnerable. For these reasons we
+                        │     │                    expect the probability of an application being vulnerable to
+                        │     │                    this to be quite low. However if an application is
+                        │     │                   vulnerable then this issue is considered very serious. For
+                        │     │                   these reasons we have assessed this issue as Moderate
+                        │     │                   severity overall. The OpenSSL SSL/TLS implementation is not
+                        │     │                   affected by this issue. The OpenSSL 3.0 and 3.1 FIPS
+                        │     │                   providers are not affected by this because the issue lies
+                        │     │                   outside of the FIPS provider boundary. OpenSSL 3.1 and 3.0
+                        │     │                   are vulnerable to this issue.A flaw was found in OpenSSL in
+                        │     │                   how it processes key and initialization vector (IV) lengths.
+                        │     │                   This issue can lead to potential truncation or overruns
+                        │     │                   during the initialization of some symmetric ciphers. A
+                        │     │                   truncation in the IV can result in non-uniqueness, which
+                        │     │                   could result in loss of confidentiality for some cipher
+                        │     │                   modes. Both truncations and overruns of the key and the IV
+                        │     │                   will produce incorrect results and could, in some cases,
+                        │     │                   trigger a memory exception. 
                         │     ├ Severity        : MEDIUM 
-                        │     ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
+                        │     │                           │           /I:N/A:N 
+                        │     │                           ╰ V3Score : 5.3 
+                        │     ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5363 
+                        │                        ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                         │                        │      -2023-5363 
-                        │                        ├ [1]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │                        ╰ [2]: https://www.openssl.org/news/secadv/20231024.txt 
+                        │                        ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
+                        │                        ├ [3]: https://ubuntu.com/security/notices/USN-6450-1 
+                        │                        ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
+                        │                        ╰ [5]: https://www.openssl.org/news/secadv/20231024.txt 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-5363 
                               ├ PkgID           : openssl@3.1.3-r0 
                               ├ PkgName         : openssl 
@@ -66,15 +160,62 @@
                               ├ DataSource       ╭ ID  : alpine 
                               │                  ├ Name: Alpine Secdb 
                               │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                              ├ Title           : Issue summary: A bug has been identified in the
-                              │                   processing of key and  ... 
-                              ├ Description     : A bug has been identified in the processing of key and
-                              │                   initialisation vector (IV) lengths. This can lead to
-                              │                   potential truncation or overruns during the initialisation of
-                              │                    some symmetric ciphers. 
+                              ├ Title           : Incorrect cipher key and IV length processing 
+                              ├ Description     : Issue summary: A bug has been identified in the
+                              │                   processing of key and initialisation vector (IV) lengths.
+                              │                   This can lead to potential truncation or overruns during the
+                              │                   initialisation of some symmetric ciphers. Impact summary: A
+                              │                   truncation in the IV can result in non-uniqueness, which
+                              │                   could result in loss of confidentiality for some cipher
+                              │                   modes. When calling EVP_EncryptInit_ex2(),
+                              │                   EVP_DecryptInit_ex2() or EVP_CipherInit_ex2() the provided
+                              │                   OSSL_PARAM array is processed after the key and IV have been
+                              │                   established. Any alterations to the key length, via the
+                              │                   "keylen" parameter or the IV length, via the "ivlen"
+                              │                   parameter, within the OSSL_PARAM array will not take effect
+                              │                   as intended, potentially causing truncation or overreading of
+                              │                    these values. The following ciphers and cipher modes are
+                              │                   impacted: RC2, RC4, RC5, CCM, GCM and OCB. For the CCM, GCM
+                              │                   and OCB cipher modes, truncation of the IV can result in loss
+                              │                    of confidentiality. For example, when following NIST's SP
+                              │                   800-38D section 8.2.1 guidance for constructing a
+                              │                   deterministic IV for AES in GCM mode, truncation of the
+                              │                   counter portion could lead to IV reuse. Both truncations and
+                              │                   overruns of the key and overruns of the IV will produce
+                              │                   incorrect results and could, in some cases, trigger a memory
+                              │                   exception. However, these issues are not currently assessed
+                              │                   as security critical. Changing the key and/or IV lengths is
+                              │                   not considered to be a common operation and the vulnerable
+                              │                   API was recently introduced. Furthermore it is likely that
+                              │                   application developers will have spotted this problem during
+                              │                   testing since decryption would fail unless both peers in the
+                              │                   communication were similarly vulnerable. For these reasons we
+                              │                    expect the probability of an application being vulnerable to
+                              │                    this to be quite low. However if an application is
+                              │                   vulnerable then this issue is considered very serious. For
+                              │                   these reasons we have assessed this issue as Moderate
+                              │                   severity overall. The OpenSSL SSL/TLS implementation is not
+                              │                   affected by this issue. The OpenSSL 3.0 and 3.1 FIPS
+                              │                   providers are not affected by this because the issue lies
+                              │                   outside of the FIPS provider boundary. OpenSSL 3.1 and 3.0
+                              │                   are vulnerable to this issue.A flaw was found in OpenSSL in
+                              │                   how it processes key and initialization vector (IV) lengths.
+                              │                   This issue can lead to potential truncation or overruns
+                              │                   during the initialization of some symmetric ciphers. A
+                              │                   truncation in the IV can result in non-uniqueness, which
+                              │                   could result in loss of confidentiality for some cipher
+                              │                   modes. Both truncations and overruns of the key and the IV
+                              │                   will produce incorrect results and could, in some cases,
+                              │                   trigger a memory exception. 
                               ├ Severity        : MEDIUM 
-                              ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
+                              │                           │           /I:N/A:N 
+                              │                           ╰ V3Score : 5.3 
+                              ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5363 
+                                                 ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                                                  │      -2023-5363 
-                                                 ├ [1]: https://ubuntu.com/security/notices/USN-6450-1 
-                                                 ╰ [2]: https://www.openssl.org/news/secadv/20231024.txt 
+                                                 ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
+                                                 ├ [3]: https://ubuntu.com/security/notices/USN-6450-1 
+                                                 ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
+                                                 ╰ [5]: https://www.openssl.org/news/secadv/20231024.txt 
 ````
