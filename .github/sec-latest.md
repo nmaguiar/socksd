@@ -88,23 +88,26 @@
                         │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
                         │     │                           │           /I:N/A:N 
                         │     │                           ╰ V3Score : 5.3 
-                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/10/24/1 
-                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-5363 
-                        │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
-                        │     │                  │      -2023-5363 
-                        │     │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
-                        │     │                  │      mmitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d
-                        │     │                  │      [m 
-                        │     │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
-                        │     │                  │      mmitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
-                        │     │                  │      [m 
-                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
-                        │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
-                        │     │                  ├ [8]: https://www.debian.org/security/2023/dsa-5532 
-                        │     │                  ╰ [9]: https://www.openssl.org/news/secadv/20231024.txt 
+                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023/1
+                        │     │                  │       0/24/1 
+                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-5363 
+                        │     │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │     │                  │       E-2023-5363 
+                        │     │                  ├ [3] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                        │     │                  │       ommitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d[
+                        │     │                  │       m 
+                        │     │                  ├ [4] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                        │     │                  │       ommitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee[
+                        │     │                  │       m 
+                        │     │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
+                        │     │                  ├ [6] : https://security.netapp.com/advisory/ntap-2023102
+                        │     │                  │       7-0010/ 
+                        │     │                  ├ [7] : https://ubuntu.com/security/notices/USN-6450-1 
+                        │     │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2023-5363 
+                        │     │                  ├ [9] : https://www.debian.org/security/2023/dsa-5532 
+                        │     │                  ╰ [10]: https://www.openssl.org/news/secadv/20231024.txt 
                         │     ├ PublishedDate   : 2023-10-25T18:17:00Z 
-                        │     ╰ LastModifiedDate: 2023-10-25T20:31:00Z 
+                        │     ╰ LastModifiedDate: 2023-10-27T15:15:00Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-5363 
                         │     ├ PkgID           : libssl3@3.1.3-r0 
                         │     ├ PkgName         : libssl3 
@@ -191,23 +194,26 @@
                         │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
                         │     │                           │           /I:N/A:N 
                         │     │                           ╰ V3Score : 5.3 
-                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/10/24/1 
-                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-5363 
-                        │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
-                        │     │                  │      -2023-5363 
-                        │     │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
-                        │     │                  │      mmitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d
-                        │     │                  │      [m 
-                        │     │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
-                        │     │                  │      mmitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
-                        │     │                  │      [m 
-                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
-                        │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
-                        │     │                  ├ [8]: https://www.debian.org/security/2023/dsa-5532 
-                        │     │                  ╰ [9]: https://www.openssl.org/news/secadv/20231024.txt 
+                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023/1
+                        │     │                  │       0/24/1 
+                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-5363 
+                        │     │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │     │                  │       E-2023-5363 
+                        │     │                  ├ [3] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                        │     │                  │       ommitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d[
+                        │     │                  │       m 
+                        │     │                  ├ [4] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                        │     │                  │       ommitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee[
+                        │     │                  │       m 
+                        │     │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
+                        │     │                  ├ [6] : https://security.netapp.com/advisory/ntap-2023102
+                        │     │                  │       7-0010/ 
+                        │     │                  ├ [7] : https://ubuntu.com/security/notices/USN-6450-1 
+                        │     │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2023-5363 
+                        │     │                  ├ [9] : https://www.debian.org/security/2023/dsa-5532 
+                        │     │                  ╰ [10]: https://www.openssl.org/news/secadv/20231024.txt 
                         │     ├ PublishedDate   : 2023-10-25T18:17:00Z 
-                        │     ╰ LastModifiedDate: 2023-10-25T20:31:00Z 
+                        │     ╰ LastModifiedDate: 2023-10-27T15:15:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-5363 
                               ├ PkgID           : openssl@3.1.3-r0 
                               ├ PkgName         : openssl 
@@ -294,21 +300,24 @@
                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
                               │                           │           /I:N/A:N 
                               │                           ╰ V3Score : 5.3 
-                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/10/24/1 
-                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-5363 
-                              │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
-                              │                  │      -2023-5363 
-                              │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
-                              │                  │      mmitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d
-                              │                  │      [m 
-                              │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a=co
-                              │                  │      mmitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
-                              │                  │      [m 
-                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
-                              │                  ├ [6]: https://ubuntu.com/security/notices/USN-6450-1 
-                              │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
-                              │                  ├ [8]: https://www.debian.org/security/2023/dsa-5532 
-                              │                  ╰ [9]: https://www.openssl.org/news/secadv/20231024.txt 
+                              ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023/1
+                              │                  │       0/24/1 
+                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-5363 
+                              │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                              │                  │       E-2023-5363 
+                              │                  ├ [3] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                              │                  │       ommitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d[
+                              │                  │       m 
+                              │                  ├ [4] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                              │                  │       ommitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee[
+                              │                  │       m 
+                              │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
+                              │                  ├ [6] : https://security.netapp.com/advisory/ntap-2023102
+                              │                  │       7-0010/ 
+                              │                  ├ [7] : https://ubuntu.com/security/notices/USN-6450-1 
+                              │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2023-5363 
+                              │                  ├ [9] : https://www.debian.org/security/2023/dsa-5532 
+                              │                  ╰ [10]: https://www.openssl.org/news/secadv/20231024.txt 
                               ├ PublishedDate   : 2023-10-25T18:17:00Z 
-                              ╰ LastModifiedDate: 2023-10-25T20:31:00Z 
+                              ╰ LastModifiedDate: 2023-10-27T15:15:00Z 
 ````
