@@ -26,6 +26,10 @@ help:
     desc     : Run an oJob upon start of the pod
     example  : setDNS.yaml
     mandatory: false
+  - name     : INITOJOBARGS
+    desc     : The arguments to use with the defined INITOJOB (in slon format)
+    example  : "(abc:123,xyz:abc)"
+    mandatory: false
 
 todo:
 - Socks Server
@@ -46,16 +50,19 @@ jobs:
 - name : Socks Server
   check:
     in:
-      ONLY_LOCAL : toBoolean.isBoolean.default(false)
-      LOGS       : toBoolean.isBoolean.default(false)
-      LOGS_DETAIL: toBoolean.isBoolean.default(false)
-      FILTERS    : isString.default(__)
-      DNSTIMEOUT : toNumber.isNumber.default(10000)
-      INITOJOB   : isString.default(__)
+      ONLY_LOCAL  : toBoolean.isBoolean.default(false)
+      LOGS        : toBoolean.isBoolean.default(false)
+      LOGS_DETAIL : toBoolean.isBoolean.default(false)
+      FILTERS     : isString.default(__)
+      DNSTIMEOUT  : toNumber.isNumber.default(10000)
+      INITOJOB    : isString.default(__)
+      INITOJOBARGS: isString.default("{}")
   exec : |
     if (isDef(args.INITOJOB)) {
       log("Running " + args.INITOJOB + "...")
-      $do(() => $sh([ getOpenAFPath() + "/ojob", args.INITOJOB ]).exec() )
+      var _args = af.fromSLON(args.INITOJOBARGS)
+      var _txtArgs = Object.keys(_args).map(k => k + "=\"" + _args[k] + "\"")
+      $do(() => $sh([ getOpenAFPath() + "/ojob", args.INITOJOB ].concat(_txtArgs)).exec() )
     }
 
     // Set DNS timeout
