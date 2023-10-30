@@ -57,9 +57,9 @@ You can control the behaviour with environment variables:
 
 > You can add these variables with the option '-e' on the ````docker run -d --rm -p 1080:1080 -e LOGS=true -e ONLY_LOCAL=true -e OJOB_JSONLOG=true --network mynet --name socksd nmaguiar/socksd```` command or with ````kubectl set env deploy socksd LOGS=true ONLY_LOCAL=true OJOB_JSONLOG=true```` in Kubernetes
 
-## Examples of use
+## Deployment examples
 
-## Docker example
+### Docker example
 
 Creating a docker network, launching the socksd container and a nginx container and then "curl"ing directly the nginx container as if doing from another container:
 
@@ -72,7 +72,7 @@ docker run -d --rm -p 8888:80 --network test --name nginx nginx
 curl http://nginx --proxy socks5h://127.0.0.1:1080
 ````
 
-## Kubernetes example
+### Kubernetes example
 
 Launching a socksd deployment, a nginx deployment and exposing the nginx deployment. Then "curl"ing directly the nginx service as if it was running inside the Kubernetes cluster:
 
@@ -90,7 +90,13 @@ curl http://nginx.default.svc --proxy socks5h://127.0.0.1:1080
 
 > Using the Kubernetes NodePort solution is faster than port-forward but requires that you have access to port 31080 on each node.
 
-### Using browsers:
+### Other examples
+
+* [AWS EKS example with AWS Route 53](docs/AWS-EKS.md)
+
+## Usage examples:
+
+### Using browsers
 
 __Chrome__
 
@@ -116,7 +122,7 @@ Alternatively to Chrome based browsers you can configure Firefox by changing the
 
 > Use port 31080 instead of 1080 if you use the faster Kubernetes NodePort alternative
 
-## Kubernetes example with a database:
+### Using a database client:
 
 Launching a socksd deployment, a postgresql database deployment and then using DBeaver to access it:
 
@@ -143,7 +149,7 @@ and you will be able to use the database directly as if you were running DBeaver
 
 ![DBeaver](images/dbeaver.png)
 
-### Oracle
+#### Oracle
 
 To make it work with Oracle drivers follow these steps:
 
@@ -159,5 +165,3 @@ To make it work with Oracle drivers follow these steps:
 Test the connection and connect to the Oracle database.
 
 > This was also tested with an Oracle's connection string
-
-## [AWS EKS example with AWS Route 53](docs/AWS-EKS.md)
