@@ -35,13 +35,15 @@
                         │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                         │     │                  │      -2023-43787 
                         │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-43787 
-                        │     │                  ├ [4]: https://ubuntu.com/security/notices/USN-6407-1 
-                        │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6407-2 
-                        │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6408-1 
-                        │     │                  ├ [7]: https://ubuntu.com/security/notices/USN-6408-2 
-                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
+                        │     │                  ├ [4]: https://security.netapp.com/advisory/ntap-20231103
+                        │     │                  │      -0006/ 
+                        │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6407-1 
+                        │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6407-2 
+                        │     │                  ├ [7]: https://ubuntu.com/security/notices/USN-6408-1 
+                        │     │                  ├ [8]: https://ubuntu.com/security/notices/USN-6408-2 
+                        │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
                         │     ├ PublishedDate   : 2023-10-10T13:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-10-13T13:18:00Z 
+                        │     ╰ LastModifiedDate: 2023-11-04T06:15:00Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-43785 
                         │     ├ PkgID           : libx11@1.8.4-r4 
                         │     ├ PkgName         : libx11 
@@ -75,11 +77,13 @@
                         │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                         │     │                  │      -2023-43785 
                         │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-43785 
-                        │     │                  ├ [4]: https://ubuntu.com/security/notices/USN-6407-1 
-                        │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6407-2 
-                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-43785 
+                        │     │                  ├ [4]: https://security.netapp.com/advisory/ntap-20231103
+                        │     │                  │      -0006/ 
+                        │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6407-1 
+                        │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6407-2 
+                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-43785 
                         │     ├ PublishedDate   : 2023-10-10T13:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-10-12T19:03:00Z 
+                        │     ╰ LastModifiedDate: 2023-11-04T06:15:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-43786 
                               ├ PkgID           : libx11@1.8.4-r4 
                               ├ PkgName         : libx11 
@@ -108,16 +112,21 @@
                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
                               │                           │           /I:N/A:H 
                               │                           ╰ V3Score : 5.5 
-                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-43786 
-                              │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2242253 
-                              │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
-                              │                  │      -2023-43786 
-                              │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-43786 
-                              │                  ├ [4]: https://ubuntu.com/security/notices/USN-6407-1 
-                              │                  ├ [5]: https://ubuntu.com/security/notices/USN-6407-2 
-                              │                  ├ [6]: https://ubuntu.com/security/notices/USN-6408-1 
-                              │                  ├ [7]: https://ubuntu.com/security/notices/USN-6408-2 
-                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
+                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-43786 
+                              │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2242253 
+                              │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                              │                  │       E-2023-43786 
+                              │                  ├ [3] : https://lists.fedoraproject.org/archives/list/pac
+                              │                  │       kage-announce@lists.fedoraproject.org/message/63IBRFLQ
+                              │                  │       VZSMOAZBZOBKFWJP26ILRAGQ/ 
+                              │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2023-43786 
+                              │                  ├ [5] : https://security.netapp.com/advisory/ntap-2023110
+                              │                  │       3-0006/ 
+                              │                  ├ [6] : https://ubuntu.com/security/notices/USN-6407-1 
+                              │                  ├ [7] : https://ubuntu.com/security/notices/USN-6407-2 
+                              │                  ├ [8] : https://ubuntu.com/security/notices/USN-6408-1 
+                              │                  ├ [9] : https://ubuntu.com/security/notices/USN-6408-2 
+                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
                               ├ PublishedDate   : 2023-10-10T13:15:00Z 
-                              ╰ LastModifiedDate: 2023-10-13T13:26:00Z 
+                              ╰ LastModifiedDate: 2023-11-04T06:15:00Z 
 ````
