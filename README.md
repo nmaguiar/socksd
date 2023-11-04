@@ -27,6 +27,7 @@ And then configure your SOCKS proxy to localhost:1080
 ````bash
 kubectl create deployment socksd --image=nmaguiar/socksd --port=1080
 kubectl port-forward deploy/socksd 1080:1080
+# OR kubectl create service nodeport socksd --tcp=31080:1080 --node-port=31080
 ````
 
 And then configure your SOCKS proxy to localhost:1080
