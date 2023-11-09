@@ -18,18 +18,22 @@
                         │      │                  ├ Name: Alpine Secdb 
                         │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
                         │      ├ Title           : IOR deserialization issue in CORBA (8303384) 
-                        │      ├ Description     : Vulnerability in Oracle Java SE (component: CORBA). 
-                        │      │                   Supported versions that are affected are Oracle Java SE:
-                        │      │                   8u381 and  8u381-perf. Easily exploitable vulnerability
-                        │      │                   allows unauthenticated attacker with network access via
-                        │      │                   CORBA to compromise Oracle Java SE.  Successful attacks of
-                        │      │                   this vulnerability can result in  unauthorized update,
-                        │      │                   insert or delete access to some of Oracle Java SE accessible
-                        │      │                    data. Note: This vulnerability can only be exploited by
-                        │      │                   supplying data to APIs in the specified Component without
-                        │      │                   using Untrusted Java Web Start applications or Untrusted
-                        │      │                   Java applets, such as through a web service. CVSS 3.1 Base
-                        │      │                   Score 5.3 (Integrity impacts).  CVSS Vector:
+                        │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM
+                        │      │                   Enterprise Edition product of Oracle Java SE (component:
+                        │      │                   CORBA).  Supported versions that are affected are Oracle
+                        │      │                   Java SE: 8u381, 8u381-perf; Oracle GraalVM Enterprise
+                        │      │                   Edition: 20.3.11 and  21.3.7. Easily exploitable
+                        │      │                   vulnerability allows unauthenticated attacker with network
+                        │      │                   access via CORBA to compromise Oracle Java SE, Oracle
+                        │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+                        │      │                   vulnerability can result in  unauthorized update, insert or
+                        │      │                   delete access to some of Oracle Java SE, Oracle GraalVM
+                        │      │                   Enterprise Edition accessible data. Note: This vulnerability
+                        │      │                    can only be exploited by supplying data to APIs in the
+                        │      │                   specified Component without using Untrusted Java Web Start
+                        │      │                   applications or Untrusted Java applets, such as through a
+                        │      │                   web service. CVSS 3.1 Base Score 5.3 (Integrity impacts). 
+                        │      │                   CVSS Vector:
                         │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N). 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
@@ -54,7 +58,7 @@
                         │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuoct202
                         │      │                          3.html 
                         │      ├ PublishedDate   : 2023-10-17T22:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-10-28T03:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-11-08T05:15:00Z 
                         ├ [1]  ╭ VulnerabilityID : CVE-2023-22081 
                         │      ├ PkgID           : openjdk8-jre@8.372.07-r0 
                         │      ├ PkgName         : openjdk8-jre 
@@ -73,23 +77,26 @@
                         │      ├ Title           : certificate path validation issue during client
                         │      │                   authentication (8309966) 
                         │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for
-                        │      │                    JDK product of Oracle Java SE (component: JSSE).  Supported
-                        │      │                    versions that are affected are Oracle Java SE: 8u381,
-                        │      │                   8u381-perf, 11.0.20, 17.0.8, 21; Oracle GraalVM for JDK:
-                        │      │                   17.0.8 and  21. Easily exploitable vulnerability allows
-                        │      │                   unauthenticated attacker with network access via HTTPS to
-                        │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK. 
-                        │      │                   Successful attacks of this vulnerability can result in
-                        │      │                   unauthorized ability to cause a partial denial of service
-                        │      │                   (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK.
-                        │      │                   Note: This vulnerability applies to Java deployments,
-                        │      │                   typically in clients running sandboxed Java Web Start
-                        │      │                   applications or sandboxed Java applets, that load and run
-                        │      │                   untrusted code (e.g., code that comes from the internet) and
-                        │      │                    rely on the Java sandbox for security. This vulnerability
-                        │      │                   does not apply to Java deployments, typically in servers,
-                        │      │                   that load and run only trusted code (e.g., code installed by
-                        │      │                    an administrator). CVSS 3.1 Base Score 5.3 (Availability
+                        │      │                    JDK, Oracle GraalVM Enterprise Edition product of Oracle
+                        │      │                   Java SE (component: JSSE).  Supported versions that are
+                        │      │                   affected are Oracle Java SE: 8u381, 8u381-perf, 11.0.20,
+                        │      │                   17.0.8, 21; Oracle GraalVM for JDK: 17.0.8, 21; Oracle
+                        │      │                   GraalVM Enterprise Edition: 20.3.11, 21.3.7 and  22.3.3.
+                        │      │                   Easily exploitable vulnerability allows unauthenticated
+                        │      │                   attacker with network access via HTTPS to compromise Oracle
+                        │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+                        │      │                   Edition.  Successful attacks of this vulnerability can
+                        │      │                   result in unauthorized ability to cause a partial denial of
+                        │      │                   service (partial DOS) of Oracle Java SE, Oracle GraalVM for
+                        │      │                   JDK, Oracle GraalVM Enterprise Edition. Note: This
+                        │      │                   vulnerability applies to Java deployments, typically in
+                        │      │                   clients running sandboxed Java Web Start applications or
+                        │      │                   sandboxed Java applets, that load and run untrusted code
+                        │      │                   (e.g., code that comes from the internet) and rely on the
+                        │      │                   Java sandbox for security. This vulnerability does not apply
+                        │      │                    to Java deployments, typically in servers, that load and
+                        │      │                   run only trusted code (e.g., code installed by an
+                        │      │                   administrator). CVSS 3.1 Base Score 5.3 (Availability
                         │      │                   impacts).  CVSS Vector:
                         │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L). 
                         │      ├ Severity        : MEDIUM 
@@ -122,7 +129,7 @@
                         │      │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuoct202
                         │      │                          3.html 
                         │      ├ PublishedDate   : 2023-10-17T22:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-11-06T03:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-11-08T05:15:00Z 
                         ├ [2]  ╭ VulnerabilityID : CVE-2023-22045 
                         │      ├ PkgID           : openjdk8-jre@8.372.07-r0 
                         │      ├ PkgName         : openjdk8-jre 
@@ -288,18 +295,22 @@
                         │      │                  ├ Name: Alpine Secdb 
                         │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
                         │      ├ Title           : IOR deserialization issue in CORBA (8303384) 
-                        │      ├ Description     : Vulnerability in Oracle Java SE (component: CORBA). 
-                        │      │                   Supported versions that are affected are Oracle Java SE:
-                        │      │                   8u381 and  8u381-perf. Easily exploitable vulnerability
-                        │      │                   allows unauthenticated attacker with network access via
-                        │      │                   CORBA to compromise Oracle Java SE.  Successful attacks of
-                        │      │                   this vulnerability can result in  unauthorized update,
-                        │      │                   insert or delete access to some of Oracle Java SE accessible
-                        │      │                    data. Note: This vulnerability can only be exploited by
-                        │      │                   supplying data to APIs in the specified Component without
-                        │      │                   using Untrusted Java Web Start applications or Untrusted
-                        │      │                   Java applets, such as through a web service. CVSS 3.1 Base
-                        │      │                   Score 5.3 (Integrity impacts).  CVSS Vector:
+                        │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM
+                        │      │                   Enterprise Edition product of Oracle Java SE (component:
+                        │      │                   CORBA).  Supported versions that are affected are Oracle
+                        │      │                   Java SE: 8u381, 8u381-perf; Oracle GraalVM Enterprise
+                        │      │                   Edition: 20.3.11 and  21.3.7. Easily exploitable
+                        │      │                   vulnerability allows unauthenticated attacker with network
+                        │      │                   access via CORBA to compromise Oracle Java SE, Oracle
+                        │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+                        │      │                   vulnerability can result in  unauthorized update, insert or
+                        │      │                   delete access to some of Oracle Java SE, Oracle GraalVM
+                        │      │                   Enterprise Edition accessible data. Note: This vulnerability
+                        │      │                    can only be exploited by supplying data to APIs in the
+                        │      │                   specified Component without using Untrusted Java Web Start
+                        │      │                   applications or Untrusted Java applets, such as through a
+                        │      │                   web service. CVSS 3.1 Base Score 5.3 (Integrity impacts). 
+                        │      │                   CVSS Vector:
                         │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N). 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
@@ -324,7 +335,7 @@
                         │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuoct202
                         │      │                          3.html 
                         │      ├ PublishedDate   : 2023-10-17T22:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-10-28T03:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-11-08T05:15:00Z 
                         ├ [5]  ╭ VulnerabilityID : CVE-2023-22081 
                         │      ├ PkgID           : openjdk8-jre-base@8.372.07-r0 
                         │      ├ PkgName         : openjdk8-jre-base 
@@ -343,23 +354,26 @@
                         │      ├ Title           : certificate path validation issue during client
                         │      │                   authentication (8309966) 
                         │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for
-                        │      │                    JDK product of Oracle Java SE (component: JSSE).  Supported
-                        │      │                    versions that are affected are Oracle Java SE: 8u381,
-                        │      │                   8u381-perf, 11.0.20, 17.0.8, 21; Oracle GraalVM for JDK:
-                        │      │                   17.0.8 and  21. Easily exploitable vulnerability allows
-                        │      │                   unauthenticated attacker with network access via HTTPS to
-                        │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK. 
-                        │      │                   Successful attacks of this vulnerability can result in
-                        │      │                   unauthorized ability to cause a partial denial of service
-                        │      │                   (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK.
-                        │      │                   Note: This vulnerability applies to Java deployments,
-                        │      │                   typically in clients running sandboxed Java Web Start
-                        │      │                   applications or sandboxed Java applets, that load and run
-                        │      │                   untrusted code (e.g., code that comes from the internet) and
-                        │      │                    rely on the Java sandbox for security. This vulnerability
-                        │      │                   does not apply to Java deployments, typically in servers,
-                        │      │                   that load and run only trusted code (e.g., code installed by
-                        │      │                    an administrator). CVSS 3.1 Base Score 5.3 (Availability
+                        │      │                    JDK, Oracle GraalVM Enterprise Edition product of Oracle
+                        │      │                   Java SE (component: JSSE).  Supported versions that are
+                        │      │                   affected are Oracle Java SE: 8u381, 8u381-perf, 11.0.20,
+                        │      │                   17.0.8, 21; Oracle GraalVM for JDK: 17.0.8, 21; Oracle
+                        │      │                   GraalVM Enterprise Edition: 20.3.11, 21.3.7 and  22.3.3.
+                        │      │                   Easily exploitable vulnerability allows unauthenticated
+                        │      │                   attacker with network access via HTTPS to compromise Oracle
+                        │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+                        │      │                   Edition.  Successful attacks of this vulnerability can
+                        │      │                   result in unauthorized ability to cause a partial denial of
+                        │      │                   service (partial DOS) of Oracle Java SE, Oracle GraalVM for
+                        │      │                   JDK, Oracle GraalVM Enterprise Edition. Note: This
+                        │      │                   vulnerability applies to Java deployments, typically in
+                        │      │                   clients running sandboxed Java Web Start applications or
+                        │      │                   sandboxed Java applets, that load and run untrusted code
+                        │      │                   (e.g., code that comes from the internet) and rely on the
+                        │      │                   Java sandbox for security. This vulnerability does not apply
+                        │      │                    to Java deployments, typically in servers, that load and
+                        │      │                   run only trusted code (e.g., code installed by an
+                        │      │                   administrator). CVSS 3.1 Base Score 5.3 (Availability
                         │      │                   impacts).  CVSS Vector:
                         │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L). 
                         │      ├ Severity        : MEDIUM 
@@ -392,7 +406,7 @@
                         │      │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuoct202
                         │      │                          3.html 
                         │      ├ PublishedDate   : 2023-10-17T22:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-11-06T03:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-11-08T05:15:00Z 
                         ├ [6]  ╭ VulnerabilityID : CVE-2023-22045 
                         │      ├ PkgID           : openjdk8-jre-base@8.372.07-r0 
                         │      ├ PkgName         : openjdk8-jre-base 
@@ -558,18 +572,22 @@
                         │      │                  ├ Name: Alpine Secdb 
                         │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
                         │      ├ Title           : IOR deserialization issue in CORBA (8303384) 
-                        │      ├ Description     : Vulnerability in Oracle Java SE (component: CORBA). 
-                        │      │                   Supported versions that are affected are Oracle Java SE:
-                        │      │                   8u381 and  8u381-perf. Easily exploitable vulnerability
-                        │      │                   allows unauthenticated attacker with network access via
-                        │      │                   CORBA to compromise Oracle Java SE.  Successful attacks of
-                        │      │                   this vulnerability can result in  unauthorized update,
-                        │      │                   insert or delete access to some of Oracle Java SE accessible
-                        │      │                    data. Note: This vulnerability can only be exploited by
-                        │      │                   supplying data to APIs in the specified Component without
-                        │      │                   using Untrusted Java Web Start applications or Untrusted
-                        │      │                   Java applets, such as through a web service. CVSS 3.1 Base
-                        │      │                   Score 5.3 (Integrity impacts).  CVSS Vector:
+                        │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM
+                        │      │                   Enterprise Edition product of Oracle Java SE (component:
+                        │      │                   CORBA).  Supported versions that are affected are Oracle
+                        │      │                   Java SE: 8u381, 8u381-perf; Oracle GraalVM Enterprise
+                        │      │                   Edition: 20.3.11 and  21.3.7. Easily exploitable
+                        │      │                   vulnerability allows unauthenticated attacker with network
+                        │      │                   access via CORBA to compromise Oracle Java SE, Oracle
+                        │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+                        │      │                   vulnerability can result in  unauthorized update, insert or
+                        │      │                   delete access to some of Oracle Java SE, Oracle GraalVM
+                        │      │                   Enterprise Edition accessible data. Note: This vulnerability
+                        │      │                    can only be exploited by supplying data to APIs in the
+                        │      │                   specified Component without using Untrusted Java Web Start
+                        │      │                   applications or Untrusted Java applets, such as through a
+                        │      │                   web service. CVSS 3.1 Base Score 5.3 (Integrity impacts). 
+                        │      │                   CVSS Vector:
                         │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N). 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
@@ -594,7 +612,7 @@
                         │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuoct202
                         │      │                          3.html 
                         │      ├ PublishedDate   : 2023-10-17T22:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-10-28T03:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-11-08T05:15:00Z 
                         ├ [9]  ╭ VulnerabilityID : CVE-2023-22081 
                         │      ├ PkgID           : openjdk8-jre-lib@8.372.07-r0 
                         │      ├ PkgName         : openjdk8-jre-lib 
@@ -613,23 +631,26 @@
                         │      ├ Title           : certificate path validation issue during client
                         │      │                   authentication (8309966) 
                         │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for
-                        │      │                    JDK product of Oracle Java SE (component: JSSE).  Supported
-                        │      │                    versions that are affected are Oracle Java SE: 8u381,
-                        │      │                   8u381-perf, 11.0.20, 17.0.8, 21; Oracle GraalVM for JDK:
-                        │      │                   17.0.8 and  21. Easily exploitable vulnerability allows
-                        │      │                   unauthenticated attacker with network access via HTTPS to
-                        │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK. 
-                        │      │                   Successful attacks of this vulnerability can result in
-                        │      │                   unauthorized ability to cause a partial denial of service
-                        │      │                   (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK.
-                        │      │                   Note: This vulnerability applies to Java deployments,
-                        │      │                   typically in clients running sandboxed Java Web Start
-                        │      │                   applications or sandboxed Java applets, that load and run
-                        │      │                   untrusted code (e.g., code that comes from the internet) and
-                        │      │                    rely on the Java sandbox for security. This vulnerability
-                        │      │                   does not apply to Java deployments, typically in servers,
-                        │      │                   that load and run only trusted code (e.g., code installed by
-                        │      │                    an administrator). CVSS 3.1 Base Score 5.3 (Availability
+                        │      │                    JDK, Oracle GraalVM Enterprise Edition product of Oracle
+                        │      │                   Java SE (component: JSSE).  Supported versions that are
+                        │      │                   affected are Oracle Java SE: 8u381, 8u381-perf, 11.0.20,
+                        │      │                   17.0.8, 21; Oracle GraalVM for JDK: 17.0.8, 21; Oracle
+                        │      │                   GraalVM Enterprise Edition: 20.3.11, 21.3.7 and  22.3.3.
+                        │      │                   Easily exploitable vulnerability allows unauthenticated
+                        │      │                   attacker with network access via HTTPS to compromise Oracle
+                        │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+                        │      │                   Edition.  Successful attacks of this vulnerability can
+                        │      │                   result in unauthorized ability to cause a partial denial of
+                        │      │                   service (partial DOS) of Oracle Java SE, Oracle GraalVM for
+                        │      │                   JDK, Oracle GraalVM Enterprise Edition. Note: This
+                        │      │                   vulnerability applies to Java deployments, typically in
+                        │      │                   clients running sandboxed Java Web Start applications or
+                        │      │                   sandboxed Java applets, that load and run untrusted code
+                        │      │                   (e.g., code that comes from the internet) and rely on the
+                        │      │                   Java sandbox for security. This vulnerability does not apply
+                        │      │                    to Java deployments, typically in servers, that load and
+                        │      │                   run only trusted code (e.g., code installed by an
+                        │      │                   administrator). CVSS 3.1 Base Score 5.3 (Availability
                         │      │                   impacts).  CVSS Vector:
                         │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L). 
                         │      ├ Severity        : MEDIUM 
@@ -662,7 +683,7 @@
                         │      │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuoct202
                         │      │                          3.html 
                         │      ├ PublishedDate   : 2023-10-17T22:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-11-06T03:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-11-08T05:15:00Z 
                         ├ [10] ╭ VulnerabilityID : CVE-2023-22045 
                         │      ├ PkgID           : openjdk8-jre-lib@8.372.07-r0 
                         │      ├ PkgName         : openjdk8-jre-lib 
