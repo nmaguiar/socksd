@@ -264,8 +264,8 @@
                         │      ├ DataSource       ╭ ID  : alpine 
                         │      │                  ├ Name: Alpine Secdb 
                         │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : certificate path validation issue during client
-                        │      │                   authentication (8309966) 
+                        │      ├ Title           : OpenJDK: certificate path validation issue during
+                        │      │                   client authentication (8309966) 
                         │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for
                         │      │                    JDK, Oracle GraalVM Enterprise Edition product of Oracle
                         │      │                   Java SE (component: JSSE).  Supported versions that are
@@ -541,8 +541,8 @@
                         │      ├ DataSource       ╭ ID  : alpine 
                         │      │                  ├ Name: Alpine Secdb 
                         │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : certificate path validation issue during client
-                        │      │                   authentication (8309966) 
+                        │      ├ Title           : OpenJDK: certificate path validation issue during
+                        │      │                   client authentication (8309966) 
                         │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for
                         │      │                    JDK, Oracle GraalVM Enterprise Edition product of Oracle
                         │      │                   Java SE (component: JSSE).  Supported versions that are
@@ -818,8 +818,8 @@
                         │      ├ DataSource       ╭ ID  : alpine 
                         │      │                  ├ Name: Alpine Secdb 
                         │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : certificate path validation issue during client
-                        │      │                   authentication (8309966) 
+                        │      ├ Title           : OpenJDK: certificate path validation issue during
+                        │      │                   client authentication (8309966) 
                         │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for
                         │      │                    JDK, Oracle GraalVM Enterprise Edition product of Oracle
                         │      │                   Java SE (component: JSSE).  Supported versions that are
