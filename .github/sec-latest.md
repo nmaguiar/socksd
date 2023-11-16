@@ -12,6 +12,7 @@
                         │      │                  │         01d742dfc0f25ce5dacb545eb 
                         │      │                  ╰ DiffID: sha256:e6ca9137a03e3507cfd05a9f4274f6266202ced
                         │      │                            f46c3ab1c5f1bed47093ca219 
+                        │      ├ SeveritySource  : nvd 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-5678 
                         │      ├ DataSource       ╭ ID  : alpine 
                         │      │                  ├ Name: Alpine Secdb 
@@ -73,8 +74,12 @@
                         │      │                   this issue.
                         │      │                   
                         │      │                    
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      ├ Severity        : HIGH 
+                        │      ├ CweIDs           ─ [0]: CWE-754 
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      │                  │        │           N/I:N/A:H 
+                        │      │                  │        ╰ V3Score : 7.5 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 5.3 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5678 
@@ -96,7 +101,7 @@
                         │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
                         │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20231106.txt 
                         │      ├ PublishedDate   : 2023-11-06T16:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-11-07T14:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-11-14T17:46:00Z 
                         ├ [1]  ╭ VulnerabilityID : CVE-2023-5678 
                         │      ├ PkgID           : libssl3@3.1.4-r0 
                         │      ├ PkgName         : libssl3 
@@ -107,6 +112,7 @@
                         │      │                  │         01d742dfc0f25ce5dacb545eb 
                         │      │                  ╰ DiffID: sha256:e6ca9137a03e3507cfd05a9f4274f6266202ced
                         │      │                            f46c3ab1c5f1bed47093ca219 
+                        │      ├ SeveritySource  : nvd 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-5678 
                         │      ├ DataSource       ╭ ID  : alpine 
                         │      │                  ├ Name: Alpine Secdb 
@@ -168,8 +174,12 @@
                         │      │                   this issue.
                         │      │                   
                         │      │                    
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      ├ Severity        : HIGH 
+                        │      ├ CweIDs           ─ [0]: CWE-754 
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      │                  │        │           N/I:N/A:H 
+                        │      │                  │        ╰ V3Score : 7.5 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 5.3 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5678 
@@ -191,7 +201,7 @@
                         │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
                         │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20231106.txt 
                         │      ├ PublishedDate   : 2023-11-06T16:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-11-07T14:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-11-14T17:46:00Z 
                         ├ [2]  ╭ VulnerabilityID : CVE-2023-22067 
                         │      ├ PkgID           : openjdk8-jre@8.372.07-r0 
                         │      ├ PkgName         : openjdk8-jre 
@@ -296,7 +306,7 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5753 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6738 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-22081 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2243627 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2243805 
@@ -304,7 +314,7 @@
                         │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2243627 
                         │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-22081 
-                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-5753.html 
+                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-6738.html 
                         │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2023:5742 
                         │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2023-22081.html 
                         │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2023-5761.html 
@@ -573,7 +583,7 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5753 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6738 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-22081 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2243627 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2243805 
@@ -581,7 +591,7 @@
                         │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2243627 
                         │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-22081 
-                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-5753.html 
+                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-6738.html 
                         │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2023:5742 
                         │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2023-22081.html 
                         │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2023-5761.html 
@@ -850,7 +860,7 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5753 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6738 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-22081 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2243627 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2243805 
@@ -858,7 +868,7 @@
                         │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2243627 
                         │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-22081 
-                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-5753.html 
+                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-6738.html 
                         │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2023:5742 
                         │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2023-22081.html 
                         │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2023-5761.html 
@@ -1033,6 +1043,7 @@
                                │                  │         01d742dfc0f25ce5dacb545eb 
                                │                  ╰ DiffID: sha256:e6ca9137a03e3507cfd05a9f4274f6266202ced
                                │                            f46c3ab1c5f1bed47093ca219 
+                               ├ SeveritySource  : nvd 
                                ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-5678 
                                ├ DataSource       ╭ ID  : alpine 
                                │                  ├ Name: Alpine Secdb 
@@ -1094,8 +1105,12 @@
                                │                   this issue.
                                │                   
                                │                    
-                               ├ Severity        : MEDIUM 
-                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                               ├ Severity        : HIGH 
+                               ├ CweIDs           ─ [0]: CWE-754 
+                               ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                               │                  │        │           N/I:N/A:H 
+                               │                  │        ╰ V3Score : 7.5 
+                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                                │                           │           N/I:N/A:L 
                                │                           ╰ V3Score : 5.3 
                                ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5678 
@@ -1117,5 +1132,5 @@
                                │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
                                │                  ╰ [8]: https://www.openssl.org/news/secadv/20231106.txt 
                                ├ PublishedDate   : 2023-11-06T16:15:00Z 
-                               ╰ LastModifiedDate: 2023-11-07T14:15:00Z 
+                               ╰ LastModifiedDate: 2023-11-14T17:46:00Z 
 ````
