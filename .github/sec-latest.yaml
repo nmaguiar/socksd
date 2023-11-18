@@ -161,7 +161,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: IOR deserialization issue in CORBA (8303384)
+    Title: 'OpenJDK: IOR deserialization issue in CORBA (8303384)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: CORBA).  Supported versions that are affected are Oracle Java SE: 8u381, 8u381-perf; Oracle GraalVM Enterprise Edition: 20.3.11 and  21.3.7. Easily exploitable vulnerability allows unauthenticated attacker with network access via CORBA to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: MEDIUM
     CVSS:
@@ -172,12 +172,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:5731
+    - https://access.redhat.com/errata/RHSA-2023:5733
     - https://access.redhat.com/security/cve/CVE-2023-22067
     - https://bugzilla.redhat.com/2237709
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243637
-    - https://errata.almalinux.org/8/ALSA-2023-5731.html
+    - https://errata.almalinux.org/9/ALSA-2023-5733.html
     - https://linux.oracle.com/cve/CVE-2023-22067.html
     - https://linux.oracle.com/errata/ELSA-2023-5761.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22067
@@ -213,14 +213,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:5751
+    - https://access.redhat.com/errata/RHSA-2023:6738
     - https://access.redhat.com/security/cve/CVE-2023-22081
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243805
     - https://bugzilla.redhat.com/show_bug.cgi?id=2237170
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243627
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22081
-    - https://errata.almalinux.org/8/ALSA-2023-5751.html
+    - https://errata.almalinux.org/9/ALSA-2023-6738.html
     - https://errata.rockylinux.org/RLSA-2023:5742
     - https://linux.oracle.com/cve/CVE-2023-22081.html
     - https://linux.oracle.com/errata/ELSA-2023-6738.html
@@ -259,7 +259,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4176
+    - https://access.redhat.com/errata/RHSA-2023:4178
     - https://access.redhat.com/security/cve/CVE-2023-22045
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
@@ -268,7 +268,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.almalinux.org/9/ALSA-2023-4178.html
     - https://errata.rockylinux.org/RLSA-2023:4178
     - https://linux.oracle.com/cve/CVE-2023-22045.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
@@ -309,7 +309,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4176
+    - https://access.redhat.com/errata/RHSA-2023:4178
     - https://access.redhat.com/security/cve/CVE-2023-22049
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
@@ -318,7 +318,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.almalinux.org/9/ALSA-2023-4178.html
     - https://errata.rockylinux.org/RLSA-2023:4178
     - https://linux.oracle.com/cve/CVE-2023-22049.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
@@ -348,7 +348,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: IOR deserialization issue in CORBA (8303384)
+    Title: 'OpenJDK: IOR deserialization issue in CORBA (8303384)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: CORBA).  Supported versions that are affected are Oracle Java SE: 8u381, 8u381-perf; Oracle GraalVM Enterprise Edition: 20.3.11 and  21.3.7. Easily exploitable vulnerability allows unauthenticated attacker with network access via CORBA to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: MEDIUM
     CVSS:
@@ -359,12 +359,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:5731
+    - https://access.redhat.com/errata/RHSA-2023:5733
     - https://access.redhat.com/security/cve/CVE-2023-22067
     - https://bugzilla.redhat.com/2237709
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243637
-    - https://errata.almalinux.org/8/ALSA-2023-5731.html
+    - https://errata.almalinux.org/9/ALSA-2023-5733.html
     - https://linux.oracle.com/cve/CVE-2023-22067.html
     - https://linux.oracle.com/errata/ELSA-2023-5761.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22067
@@ -400,14 +400,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:5751
+    - https://access.redhat.com/errata/RHSA-2023:6738
     - https://access.redhat.com/security/cve/CVE-2023-22081
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243805
     - https://bugzilla.redhat.com/show_bug.cgi?id=2237170
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243627
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22081
-    - https://errata.almalinux.org/8/ALSA-2023-5751.html
+    - https://errata.almalinux.org/9/ALSA-2023-6738.html
     - https://errata.rockylinux.org/RLSA-2023:5742
     - https://linux.oracle.com/cve/CVE-2023-22081.html
     - https://linux.oracle.com/errata/ELSA-2023-6738.html
@@ -446,7 +446,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4176
+    - https://access.redhat.com/errata/RHSA-2023:4178
     - https://access.redhat.com/security/cve/CVE-2023-22045
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
@@ -455,7 +455,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.almalinux.org/9/ALSA-2023-4178.html
     - https://errata.rockylinux.org/RLSA-2023:4178
     - https://linux.oracle.com/cve/CVE-2023-22045.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
@@ -496,7 +496,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4176
+    - https://access.redhat.com/errata/RHSA-2023:4178
     - https://access.redhat.com/security/cve/CVE-2023-22049
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
@@ -505,7 +505,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.almalinux.org/9/ALSA-2023-4178.html
     - https://errata.rockylinux.org/RLSA-2023:4178
     - https://linux.oracle.com/cve/CVE-2023-22049.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
@@ -535,7 +535,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: IOR deserialization issue in CORBA (8303384)
+    Title: 'OpenJDK: IOR deserialization issue in CORBA (8303384)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: CORBA).  Supported versions that are affected are Oracle Java SE: 8u381, 8u381-perf; Oracle GraalVM Enterprise Edition: 20.3.11 and  21.3.7. Easily exploitable vulnerability allows unauthenticated attacker with network access via CORBA to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: MEDIUM
     CVSS:
@@ -546,12 +546,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:5731
+    - https://access.redhat.com/errata/RHSA-2023:5733
     - https://access.redhat.com/security/cve/CVE-2023-22067
     - https://bugzilla.redhat.com/2237709
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243637
-    - https://errata.almalinux.org/8/ALSA-2023-5731.html
+    - https://errata.almalinux.org/9/ALSA-2023-5733.html
     - https://linux.oracle.com/cve/CVE-2023-22067.html
     - https://linux.oracle.com/errata/ELSA-2023-5761.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22067
@@ -587,14 +587,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:5751
+    - https://access.redhat.com/errata/RHSA-2023:6738
     - https://access.redhat.com/security/cve/CVE-2023-22081
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243805
     - https://bugzilla.redhat.com/show_bug.cgi?id=2237170
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243627
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22081
-    - https://errata.almalinux.org/8/ALSA-2023-5751.html
+    - https://errata.almalinux.org/9/ALSA-2023-6738.html
     - https://errata.rockylinux.org/RLSA-2023:5742
     - https://linux.oracle.com/cve/CVE-2023-22081.html
     - https://linux.oracle.com/errata/ELSA-2023-6738.html
@@ -633,7 +633,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4176
+    - https://access.redhat.com/errata/RHSA-2023:4178
     - https://access.redhat.com/security/cve/CVE-2023-22045
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
@@ -642,7 +642,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.almalinux.org/9/ALSA-2023-4178.html
     - https://errata.rockylinux.org/RLSA-2023:4178
     - https://linux.oracle.com/cve/CVE-2023-22045.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
@@ -683,7 +683,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4176
+    - https://access.redhat.com/errata/RHSA-2023:4178
     - https://access.redhat.com/security/cve/CVE-2023-22049
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
@@ -692,7 +692,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.almalinux.org/9/ALSA-2023-4178.html
     - https://errata.rockylinux.org/RLSA-2023:4178
     - https://linux.oracle.com/cve/CVE-2023-22049.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
