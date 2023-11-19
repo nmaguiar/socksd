@@ -172,12 +172,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:5733
+    - https://access.redhat.com/errata/RHSA-2023:5731
     - https://access.redhat.com/security/cve/CVE-2023-22067
     - https://bugzilla.redhat.com/2237709
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243637
-    - https://errata.almalinux.org/9/ALSA-2023-5733.html
+    - https://errata.almalinux.org/8/ALSA-2023-5731.html
     - https://linux.oracle.com/cve/CVE-2023-22067.html
     - https://linux.oracle.com/errata/ELSA-2023-5761.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22067
@@ -213,14 +213,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6738
+    - https://access.redhat.com/errata/RHSA-2023:5751
     - https://access.redhat.com/security/cve/CVE-2023-22081
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243805
     - https://bugzilla.redhat.com/show_bug.cgi?id=2237170
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243627
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22081
-    - https://errata.almalinux.org/9/ALSA-2023-6738.html
+    - https://errata.almalinux.org/8/ALSA-2023-5751.html
     - https://errata.rockylinux.org/RLSA-2023:5742
     - https://linux.oracle.com/cve/CVE-2023-22081.html
     - https://linux.oracle.com/errata/ELSA-2023-6738.html
@@ -259,17 +259,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4178
+    - https://access.redhat.com/errata/RHSA-2023:4176
     - https://access.redhat.com/security/cve/CVE-2023-22045
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2220662
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2219727
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221645
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/9/ALSA-2023-4178.html
-    - https://errata.rockylinux.org/RLSA-2023:4178
+    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22045.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00018.html
@@ -309,17 +309,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4178
+    - https://access.redhat.com/errata/RHSA-2023:4176
     - https://access.redhat.com/security/cve/CVE-2023-22049
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2220662
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2219727
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221645
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/9/ALSA-2023-4178.html
-    - https://errata.rockylinux.org/RLSA-2023:4178
+    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22049.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00018.html
@@ -359,12 +359,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:5733
+    - https://access.redhat.com/errata/RHSA-2023:5731
     - https://access.redhat.com/security/cve/CVE-2023-22067
     - https://bugzilla.redhat.com/2237709
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243637
-    - https://errata.almalinux.org/9/ALSA-2023-5733.html
+    - https://errata.almalinux.org/8/ALSA-2023-5731.html
     - https://linux.oracle.com/cve/CVE-2023-22067.html
     - https://linux.oracle.com/errata/ELSA-2023-5761.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22067
@@ -400,14 +400,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6738
+    - https://access.redhat.com/errata/RHSA-2023:5751
     - https://access.redhat.com/security/cve/CVE-2023-22081
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243805
     - https://bugzilla.redhat.com/show_bug.cgi?id=2237170
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243627
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22081
-    - https://errata.almalinux.org/9/ALSA-2023-6738.html
+    - https://errata.almalinux.org/8/ALSA-2023-5751.html
     - https://errata.rockylinux.org/RLSA-2023:5742
     - https://linux.oracle.com/cve/CVE-2023-22081.html
     - https://linux.oracle.com/errata/ELSA-2023-6738.html
@@ -446,17 +446,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4178
+    - https://access.redhat.com/errata/RHSA-2023:4176
     - https://access.redhat.com/security/cve/CVE-2023-22045
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2220662
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2219727
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221645
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/9/ALSA-2023-4178.html
-    - https://errata.rockylinux.org/RLSA-2023:4178
+    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22045.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00018.html
@@ -496,17 +496,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4178
+    - https://access.redhat.com/errata/RHSA-2023:4176
     - https://access.redhat.com/security/cve/CVE-2023-22049
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2220662
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2219727
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221645
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/9/ALSA-2023-4178.html
-    - https://errata.rockylinux.org/RLSA-2023:4178
+    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22049.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00018.html
@@ -546,12 +546,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:5733
+    - https://access.redhat.com/errata/RHSA-2023:5731
     - https://access.redhat.com/security/cve/CVE-2023-22067
     - https://bugzilla.redhat.com/2237709
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243637
-    - https://errata.almalinux.org/9/ALSA-2023-5733.html
+    - https://errata.almalinux.org/8/ALSA-2023-5731.html
     - https://linux.oracle.com/cve/CVE-2023-22067.html
     - https://linux.oracle.com/errata/ELSA-2023-5761.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22067
@@ -587,14 +587,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6738
+    - https://access.redhat.com/errata/RHSA-2023:5751
     - https://access.redhat.com/security/cve/CVE-2023-22081
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243805
     - https://bugzilla.redhat.com/show_bug.cgi?id=2237170
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243627
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22081
-    - https://errata.almalinux.org/9/ALSA-2023-6738.html
+    - https://errata.almalinux.org/8/ALSA-2023-5751.html
     - https://errata.rockylinux.org/RLSA-2023:5742
     - https://linux.oracle.com/cve/CVE-2023-22081.html
     - https://linux.oracle.com/errata/ELSA-2023-6738.html
@@ -633,17 +633,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4178
+    - https://access.redhat.com/errata/RHSA-2023:4176
     - https://access.redhat.com/security/cve/CVE-2023-22045
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2220662
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2219727
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221645
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/9/ALSA-2023-4178.html
-    - https://errata.rockylinux.org/RLSA-2023:4178
+    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22045.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00018.html
@@ -683,17 +683,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4178
+    - https://access.redhat.com/errata/RHSA-2023:4176
     - https://access.redhat.com/security/cve/CVE-2023-22049
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2220662
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2219727
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221645
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/9/ALSA-2023-4178.html
-    - https://errata.rockylinux.org/RLSA-2023:4178
+    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22049.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00018.html
