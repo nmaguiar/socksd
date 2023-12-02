@@ -39,8 +39,9 @@
                         │     │                  │      e4abdafb7e17481e24e7354c2acd1eb 
                         │     │                  ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
                         │     │                  │      de9e05fb6d51160b3f46acd91af9731 
-                        │     │                  ├ [3]: https://logback.qos.ch/news.html#1.3.12 
-                        │     │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                        │     │                  ├ [3]: https://logback.qos.ch/manual/receivers.html 
+                        │     │                  ├ [4]: https://logback.qos.ch/news.html#1.3.12 
+                        │     │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
                         │     ├ PublishedDate   : 2023-11-29T12:15:00Z 
                         │     ╰ LastModifiedDate: 2023-11-29T14:18:00Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2023-6378 
@@ -77,8 +78,9 @@
                               │                  │      e4abdafb7e17481e24e7354c2acd1eb 
                               │                  ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
                               │                  │      de9e05fb6d51160b3f46acd91af9731 
-                              │                  ├ [3]: https://logback.qos.ch/news.html#1.3.12 
-                              │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                              │                  ├ [3]: https://logback.qos.ch/manual/receivers.html 
+                              │                  ├ [4]: https://logback.qos.ch/news.html#1.3.12 
+                              │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
                               ├ PublishedDate   : 2023-11-29T12:15:00Z 
                               ╰ LastModifiedDate: 2023-11-29T14:18:00Z 
 ````
