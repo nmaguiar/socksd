@@ -9,7 +9,7 @@
                         │     ├ PkgName         : ch.qos.logback:logback-classic 
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ InstalledVersion: 1.2.11 
-                        │     ├ FixedVersion    : 1.3.12, 1.4.12 
+                        │     ├ FixedVersion    : 1.3.12, 1.4.12, 1.2.13 
                         │     ├ Status          : fixed 
                         │     ├ Layer            ╭ Digest: sha256:b186c21e964785dd9f314535d3b9abba3693f892
                         │     │                  │         ebbd606ea7611052ecd1e396 
@@ -21,8 +21,7 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                         │     │                          ed+ecosystem%3Amaven 
-                        │     ├ Title           : A serialization vulnerability in logback receiver
-                        │     │                   component part of  l ... 
+                        │     ├ Title           : logback: serialization vulnerability in logback receiver 
                         │     ├ Description     : A serialization vulnerability in logback receiver
                         │     │                   component part of 
                         │     │                   logback version 1.4.11 allows an attacker to mount a
@@ -31,24 +30,34 @@
                         │     │                   
                         │     │                    
                         │     ├ Severity        : HIGH 
-                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
-                        │     │                         │           :N/A:H 
-                        │     │                         ╰ V3Score : 7.1 
-                        │     ├ References       ╭ [0]: https://github.com/qos-ch/logback 
-                        │     │                  ├ [1]: https://github.com/qos-ch/logback/commit/9c782b45b
-                        │     │                  │      e4abdafb7e17481e24e7354c2acd1eb 
-                        │     │                  ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
-                        │     │                  │      de9e05fb6d51160b3f46acd91af9731 
-                        │     │                  ├ [3]: https://logback.qos.ch/manual/receivers.html 
-                        │     │                  ├ [4]: https://logback.qos.ch/news.html#1.3.12 
-                        │     │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 7.1 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
+                        │     │                           │           /I:N/A:H 
+                        │     │                           ╰ V3Score : 7.1 
+                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-6378 
+                        │     │                  ├ [1] : https://github.com/qos-ch/logback 
+                        │     │                  ├ [2] : https://github.com/qos-ch/logback/commit/9c782b45
+                        │     │                  │       be4abdafb7e17481e24e7354c2acd1eb 
+                        │     │                  ├ [3] : https://github.com/qos-ch/logback/commit/b8eac23a
+                        │     │                  │       9de9e05fb6d51160b3f46acd91af9731 
+                        │     │                  ├ [4] : https://github.com/qos-ch/logback/commit/bb095154
+                        │     │                  │       be011267b64e37a1d401546e7cc2b7c3 
+                        │     │                  ├ [5] : https://github.com/qos-ch/logback/issues/745#issu
+                        │     │                  │       ecomment-1836227158 
+                        │     │                  ├ [6] : https://logback.qos.ch/manual/receivers.html 
+                        │     │                  ├ [7] : https://logback.qos.ch/news.html#1.2.13 
+                        │     │                  ├ [8] : https://logback.qos.ch/news.html#1.3.12 
+                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                        │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-6378 
                         │     ├ PublishedDate   : 2023-11-29T12:15:00Z 
                         │     ╰ LastModifiedDate: 2023-11-29T14:18:00Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2023-6378 
                               ├ PkgName         : ch.qos.logback:logback-core 
                               ├ PkgPath         : openaf/openaf.jar 
                               ├ InstalledVersion: 1.2.11 
-                              ├ FixedVersion    : 1.3.12, 1.4.12 
+                              ├ FixedVersion    : 1.3.12, 1.4.12, 1.2.13 
                               ├ Status          : fixed 
                               ├ Layer            ╭ Digest: sha256:b186c21e964785dd9f314535d3b9abba3693f892
                               │                  │         ebbd606ea7611052ecd1e396 
@@ -60,8 +69,7 @@
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                               │                          ed+ecosystem%3Amaven 
-                              ├ Title           : A serialization vulnerability in logback receiver
-                              │                   component part of  l ... 
+                              ├ Title           : logback: serialization vulnerability in logback receiver 
                               ├ Description     : A serialization vulnerability in logback receiver
                               │                   component part of 
                               │                   logback version 1.4.11 allows an attacker to mount a
@@ -70,17 +78,27 @@
                               │                   
                               │                    
                               ├ Severity        : HIGH 
-                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
-                              │                         │           :N/A:H 
-                              │                         ╰ V3Score : 7.1 
-                              ├ References       ╭ [0]: https://github.com/qos-ch/logback 
-                              │                  ├ [1]: https://github.com/qos-ch/logback/commit/9c782b45b
-                              │                  │      e4abdafb7e17481e24e7354c2acd1eb 
-                              │                  ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
-                              │                  │      de9e05fb6d51160b3f46acd91af9731 
-                              │                  ├ [3]: https://logback.qos.ch/manual/receivers.html 
-                              │                  ├ [4]: https://logback.qos.ch/news.html#1.3.12 
-                              │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
+                              │                  │        │           /I:N/A:H 
+                              │                  │        ╰ V3Score : 7.1 
+                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
+                              │                           │           /I:N/A:H 
+                              │                           ╰ V3Score : 7.1 
+                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-6378 
+                              │                  ├ [1] : https://github.com/qos-ch/logback 
+                              │                  ├ [2] : https://github.com/qos-ch/logback/commit/9c782b45
+                              │                  │       be4abdafb7e17481e24e7354c2acd1eb 
+                              │                  ├ [3] : https://github.com/qos-ch/logback/commit/b8eac23a
+                              │                  │       9de9e05fb6d51160b3f46acd91af9731 
+                              │                  ├ [4] : https://github.com/qos-ch/logback/commit/bb095154
+                              │                  │       be011267b64e37a1d401546e7cc2b7c3 
+                              │                  ├ [5] : https://github.com/qos-ch/logback/issues/745#issu
+                              │                  │       ecomment-1836227158 
+                              │                  ├ [6] : https://logback.qos.ch/manual/receivers.html 
+                              │                  ├ [7] : https://logback.qos.ch/news.html#1.2.13 
+                              │                  ├ [8] : https://logback.qos.ch/news.html#1.3.12 
+                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-6378 
                               ├ PublishedDate   : 2023-11-29T12:15:00Z 
                               ╰ LastModifiedDate: 2023-11-29T14:18:00Z 
 ````
