@@ -30,9 +30,13 @@
                         │     │                   
                         │     │                    
                         │     ├ Severity        : HIGH 
+                        │     ├ CweIDs           ─ [0]: CWE-502 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
                         │     │                  │        │           /I:N/A:H 
                         │     │                  │        ╰ V3Score : 7.1 
+                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 7.5 
                         │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
                         │     │                           │           /I:N/A:H 
                         │     │                           ╰ V3Score : 7.1 
@@ -52,7 +56,7 @@
                         │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
                         │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-6378 
                         │     ├ PublishedDate   : 2023-11-29T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-11-29T14:18:00Z 
+                        │     ╰ LastModifiedDate: 2023-12-05T21:00:00Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2023-6378 
                               ├ PkgName         : ch.qos.logback:logback-core 
                               ├ PkgPath         : openaf/openaf.jar 
@@ -78,9 +82,13 @@
                               │                   
                               │                    
                               ├ Severity        : HIGH 
+                              ├ CweIDs           ─ [0]: CWE-502 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
                               │                  │        │           /I:N/A:H 
                               │                  │        ╰ V3Score : 7.1 
+                              │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                              │                  │        │           /I:N/A:H 
+                              │                  │        ╰ V3Score : 7.5 
                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
                               │                           │           /I:N/A:H 
                               │                           ╰ V3Score : 7.1 
@@ -100,5 +108,5 @@
                               │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
                               │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-6378 
                               ├ PublishedDate   : 2023-11-29T12:15:00Z 
-                              ╰ LastModifiedDate: 2023-11-29T14:18:00Z 
+                              ╰ LastModifiedDate: 2023-12-05T21:00:00Z 
 ````
