@@ -47,7 +47,7 @@
 │                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │     ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-07T01:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-12-07T12:12:00Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-46219 
 │                       │     ├ PkgID           : curl@8.4.0-r0 
 │                       │     ├ PkgName         : curl 
@@ -118,7 +118,7 @@
 │                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │     ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-07T01:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-12-07T12:12:00Z 
 │                       ╰ [3] ╭ VulnerabilityID : CVE-2023-46219 
 │                             ├ PkgID           : libcurl@8.4.0-r0 
 │                             ├ PkgName         : libcurl 
