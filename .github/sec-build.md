@@ -8,10 +8,10 @@
 │                       │     ├ InstalledVersion: 8.4.0-r0 
 │                       │     ├ FixedVersion    : 8.5.0-r0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:c78c009fd8335981103add6d29fc35bb76b2da3a
-│                       │     │                  │         7e4904b8eb1fc60f39f54605 
-│                       │     │                  ╰ DiffID: sha256:521eb7800dab653da5d736e70114d9c24c6d603d
-│                       │     │                            89f6c5069c622fdce2ac6706 
+│                       │     ├ Layer            ╭ Digest: sha256:488f0b07509d02a094ef807d52d657b749e2dddf
+│                       │     │                  │         7c3dc1c52d5dc096c0aefa0e 
+│                       │     │                  ╰ DiffID: sha256:0f53fcd8f118f0b22703fd36f77cdf4c6a6bb521
+│                       │     │                            5782ef9bee8de0118fb4efd9 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46218 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
@@ -47,17 +47,17 @@
 │                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │     ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-07T01:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-12-07T12:12:00Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-46219 
 │                       │     ├ PkgID           : curl@8.4.0-r0 
 │                       │     ├ PkgName         : curl 
 │                       │     ├ InstalledVersion: 8.4.0-r0 
 │                       │     ├ FixedVersion    : 8.5.0-r0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:c78c009fd8335981103add6d29fc35bb76b2da3a
-│                       │     │                  │         7e4904b8eb1fc60f39f54605 
-│                       │     │                  ╰ DiffID: sha256:521eb7800dab653da5d736e70114d9c24c6d603d
-│                       │     │                            89f6c5069c622fdce2ac6706 
+│                       │     ├ Layer            ╭ Digest: sha256:488f0b07509d02a094ef807d52d657b749e2dddf
+│                       │     │                  │         7c3dc1c52d5dc096c0aefa0e 
+│                       │     │                  ╰ DiffID: sha256:0f53fcd8f118f0b22703fd36f77cdf4c6a6bb521
+│                       │     │                            5782ef9bee8de0118fb4efd9 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46219 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
@@ -79,10 +79,10 @@
 │                       │     ├ InstalledVersion: 8.4.0-r0 
 │                       │     ├ FixedVersion    : 8.5.0-r0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:c78c009fd8335981103add6d29fc35bb76b2da3a
-│                       │     │                  │         7e4904b8eb1fc60f39f54605 
-│                       │     │                  ╰ DiffID: sha256:521eb7800dab653da5d736e70114d9c24c6d603d
-│                       │     │                            89f6c5069c622fdce2ac6706 
+│                       │     ├ Layer            ╭ Digest: sha256:488f0b07509d02a094ef807d52d657b749e2dddf
+│                       │     │                  │         7c3dc1c52d5dc096c0aefa0e 
+│                       │     │                  ╰ DiffID: sha256:0f53fcd8f118f0b22703fd36f77cdf4c6a6bb521
+│                       │     │                            5782ef9bee8de0118fb4efd9 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46218 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
@@ -118,17 +118,17 @@
 │                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │     ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-07T01:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-12-07T12:12:00Z 
 │                       ╰ [3] ╭ VulnerabilityID : CVE-2023-46219 
 │                             ├ PkgID           : libcurl@8.4.0-r0 
 │                             ├ PkgName         : libcurl 
 │                             ├ InstalledVersion: 8.4.0-r0 
 │                             ├ FixedVersion    : 8.5.0-r0 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:c78c009fd8335981103add6d29fc35bb76b2da3a
-│                             │                  │         7e4904b8eb1fc60f39f54605 
-│                             │                  ╰ DiffID: sha256:521eb7800dab653da5d736e70114d9c24c6d603d
-│                             │                            89f6c5069c622fdce2ac6706 
+│                             ├ Layer            ╭ Digest: sha256:488f0b07509d02a094ef807d52d657b749e2dddf
+│                             │                  │         7c3dc1c52d5dc096c0aefa0e 
+│                             │                  ╰ DiffID: sha256:0f53fcd8f118f0b22703fd36f77cdf4c6a6bb521
+│                             │                            5782ef9bee8de0118fb4efd9 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46219 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
@@ -153,10 +153,10 @@
                         │     ├ InstalledVersion: 1.2.11 
                         │     ├ FixedVersion    : 1.3.12, 1.4.12, 1.2.13 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:c78c009fd8335981103add6d29fc35bb76b2da3a
-                        │     │                  │         7e4904b8eb1fc60f39f54605 
-                        │     │                  ╰ DiffID: sha256:521eb7800dab653da5d736e70114d9c24c6d603d
-                        │     │                            89f6c5069c622fdce2ac6706 
+                        │     ├ Layer            ╭ Digest: sha256:488f0b07509d02a094ef807d52d657b749e2dddf
+                        │     │                  │         7c3dc1c52d5dc096c0aefa0e 
+                        │     │                  ╰ DiffID: sha256:0f53fcd8f118f0b22703fd36f77cdf4c6a6bb521
+                        │     │                            5782ef9bee8de0118fb4efd9 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6378 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -205,10 +205,10 @@
                               ├ InstalledVersion: 1.2.11 
                               ├ FixedVersion    : 1.3.12, 1.4.12, 1.2.13 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:c78c009fd8335981103add6d29fc35bb76b2da3a
-                              │                  │         7e4904b8eb1fc60f39f54605 
-                              │                  ╰ DiffID: sha256:521eb7800dab653da5d736e70114d9c24c6d603d
-                              │                            89f6c5069c622fdce2ac6706 
+                              ├ Layer            ╭ Digest: sha256:488f0b07509d02a094ef807d52d657b749e2dddf
+                              │                  │         7c3dc1c52d5dc096c0aefa0e 
+                              │                  ╰ DiffID: sha256:0f53fcd8f118f0b22703fd36f77cdf4c6a6bb521
+                              │                            5782ef9bee8de0118fb4efd9 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6378 
                               ├ DataSource       ╭ ID  : ghsa 
