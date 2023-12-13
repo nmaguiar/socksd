@@ -67,15 +67,23 @@
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Title           : curl: excessively long file name may lead to unknown
 │                       │     │                   HSTS status 
-│                       │     ├ Description     : No description is available for this CVE. 
+│                       │     ├ Description     : When saving HSTS data to an excessively long file name,
+│                       │     │                   curl could end up
+│                       │     │                   removing all contents, making subsequent requests using that
+│                       │     │                   file unaware of
+│                       │     │                   the HSTS status they should otherwise use.
+│                       │     │                    
 │                       │     ├ Severity        : LOW 
-│                       │     ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46219 
-│                       │                        ├ [1]: https://curl.se/docs/CVE-2023-46219.html 
-│                       │                        ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
-│                       │                        │      -2023-46219 
-│                       │                        ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
-│                       │                        ├ [4]: https://ubuntu.com/security/notices/USN-6535-1 
-│                       │                        ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46219 
+│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2023-46219.html 
+│                       │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+│                       │     │                  │      -2023-46219 
+│                       │     │                  ├ [3]: https://hackerone.com/reports/2236133 
+│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
+│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
+│                       │     ├ PublishedDate   : 2023-12-12T02:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-12-12T02:15:00Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-46218 
 │                       │     ├ PkgID           : libcurl@8.4.0-r0 
 │                       │     ├ PkgName         : libcurl 
@@ -141,15 +149,23 @@
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                             ├ Title           : curl: excessively long file name may lead to unknown
 │                             │                   HSTS status 
-│                             ├ Description     : No description is available for this CVE. 
+│                             ├ Description     : When saving HSTS data to an excessively long file name,
+│                             │                   curl could end up
+│                             │                   removing all contents, making subsequent requests using that
+│                             │                   file unaware of
+│                             │                   the HSTS status they should otherwise use.
+│                             │                    
 │                             ├ Severity        : LOW 
-│                             ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46219 
-│                                                ├ [1]: https://curl.se/docs/CVE-2023-46219.html 
-│                                                ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
-│                                                │      -2023-46219 
-│                                                ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
-│                                                ├ [4]: https://ubuntu.com/security/notices/USN-6535-1 
-│                                                ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
+│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46219 
+│                             │                  ├ [1]: https://curl.se/docs/CVE-2023-46219.html 
+│                             │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+│                             │                  │      -2023-46219 
+│                             │                  ├ [3]: https://hackerone.com/reports/2236133 
+│                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
+│                             │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
+│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
+│                             ├ PublishedDate   : 2023-12-12T02:15:00Z 
+│                             ╰ LastModifiedDate: 2023-12-12T02:15:00Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
