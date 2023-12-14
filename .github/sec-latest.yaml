@@ -11,6 +11,7 @@
     Layer:
       Digest: sha256:b186c21e964785dd9f314535d3b9abba3693f892ebbd606ea7611052ecd1e396
       DiffID: sha256:b6717f72067520b7670ae30f3a71d32dc20f9bf4a891055499495d4bb5e2725a
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46218
     DataSource:
       ID: alpine
@@ -29,6 +30,9 @@
       case hostname `curl.co.uk`, even though `co.uk` is listed as a PSL domain.
     Severity: MEDIUM
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
@@ -42,7 +46,7 @@
     - https://ubuntu.com/security/notices/USN-6535-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46218
     PublishedDate: '2023-12-07T01:15:00Z'
-    LastModifiedDate: '2023-12-10T03:15:00Z'
+    LastModifiedDate: '2023-12-12T15:53:00Z'
   - VulnerabilityID: CVE-2023-46219
     PkgID: curl@8.4.0-r0
     PkgName: curl
@@ -72,7 +76,7 @@
     - https://ubuntu.com/security/notices/USN-6535-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46219
     PublishedDate: '2023-12-12T02:15:00Z'
-    LastModifiedDate: '2023-12-12T02:15:00Z'
+    LastModifiedDate: '2023-12-12T13:43:00Z'
   - VulnerabilityID: CVE-2023-46218
     PkgID: libcurl@8.4.0-r0
     PkgName: libcurl
@@ -82,6 +86,7 @@
     Layer:
       Digest: sha256:b186c21e964785dd9f314535d3b9abba3693f892ebbd606ea7611052ecd1e396
       DiffID: sha256:b6717f72067520b7670ae30f3a71d32dc20f9bf4a891055499495d4bb5e2725a
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46218
     DataSource:
       ID: alpine
@@ -100,6 +105,9 @@
       case hostname `curl.co.uk`, even though `co.uk` is listed as a PSL domain.
     Severity: MEDIUM
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
@@ -113,7 +121,7 @@
     - https://ubuntu.com/security/notices/USN-6535-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46218
     PublishedDate: '2023-12-07T01:15:00Z'
-    LastModifiedDate: '2023-12-10T03:15:00Z'
+    LastModifiedDate: '2023-12-12T15:53:00Z'
   - VulnerabilityID: CVE-2023-46219
     PkgID: libcurl@8.4.0-r0
     PkgName: libcurl
@@ -143,7 +151,7 @@
     - https://ubuntu.com/security/notices/USN-6535-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46219
     PublishedDate: '2023-12-12T02:15:00Z'
-    LastModifiedDate: '2023-12-12T02:15:00Z'
+    LastModifiedDate: '2023-12-12T13:43:00Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
