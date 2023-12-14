@@ -12,6 +12,7 @@
 │                       │     │                  │         7c3dc1c52d5dc096c0aefa0e 
 │                       │     │                  ╰ DiffID: sha256:0f53fcd8f118f0b22703fd36f77cdf4c6a6bb521
 │                       │     │                            5782ef9bee8de0118fb4efd9 
+│                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46218 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
@@ -35,7 +36,10 @@
 │                       │     │                   a PSL domain.
 │                       │     │                    
 │                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
+│                       │     │                  │        │           /I:L/A:N 
+│                       │     │                  │        ╰ V3Score : 6.5 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
 │                       │     │                           │           /I:N/A:N 
 │                       │     │                           ╰ V3Score : 5.3 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46218 
@@ -50,7 +54,7 @@
 │                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │     ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-10T03:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-12-12T15:53:00Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-46219 
 │                       │     ├ PkgID           : curl@8.4.0-r0 
 │                       │     ├ PkgName         : curl 
@@ -83,7 +87,7 @@
 │                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
 │                       │     ├ PublishedDate   : 2023-12-12T02:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-12T02:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-12-12T13:43:00Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-46218 
 │                       │     ├ PkgID           : libcurl@8.4.0-r0 
 │                       │     ├ PkgName         : libcurl 
@@ -94,6 +98,7 @@
 │                       │     │                  │         7c3dc1c52d5dc096c0aefa0e 
 │                       │     │                  ╰ DiffID: sha256:0f53fcd8f118f0b22703fd36f77cdf4c6a6bb521
 │                       │     │                            5782ef9bee8de0118fb4efd9 
+│                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46218 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
@@ -117,7 +122,10 @@
 │                       │     │                   a PSL domain.
 │                       │     │                    
 │                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
+│                       │     │                  │        │           /I:L/A:N 
+│                       │     │                  │        ╰ V3Score : 6.5 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
 │                       │     │                           │           /I:N/A:N 
 │                       │     │                           ╰ V3Score : 5.3 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46218 
@@ -132,7 +140,7 @@
 │                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │     ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-10T03:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-12-12T15:53:00Z 
 │                       ╰ [3] ╭ VulnerabilityID : CVE-2023-46219 
 │                             ├ PkgID           : libcurl@8.4.0-r0 
 │                             ├ PkgName         : libcurl 
@@ -165,7 +173,7 @@
 │                             │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
 │                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
 │                             ├ PublishedDate   : 2023-12-12T02:15:00Z 
-│                             ╰ LastModifiedDate: 2023-12-12T02:15:00Z 
+│                             ╰ LastModifiedDate: 2023-12-12T13:43:00Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
