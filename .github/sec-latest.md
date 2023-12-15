@@ -77,7 +77,10 @@
 │                       │     │                   file unaware of
 │                       │     │                   the HSTS status they should otherwise use.
 │                       │     │                    
-│                       │     ├ Severity        : LOW 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L
+│                       │     │                           │           /I:L/A:N 
+│                       │     │                           ╰ V3Score : 4.8 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46219 
 │                       │     │                  ├ [1]: https://curl.se/docs/CVE-2023-46219.html 
 │                       │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
@@ -163,7 +166,10 @@
 │                             │                   file unaware of
 │                             │                   the HSTS status they should otherwise use.
 │                             │                    
-│                             ├ Severity        : LOW 
+│                             ├ Severity        : MEDIUM 
+│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L
+│                             │                           │           /I:L/A:N 
+│                             │                           ╰ V3Score : 4.8 
 │                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46219 
 │                             │                  ├ [1]: https://curl.se/docs/CVE-2023-46219.html 
 │                             │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
