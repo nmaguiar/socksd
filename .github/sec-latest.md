@@ -50,11 +50,14 @@
 │                       │     │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
 │                       │     │                  │      age-announce@lists.fedoraproject.org/message/3ZX3VW67N4
 │                       │     │                  │      ACRAPMV2QS2LVYGD7H2MVE/ 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-│                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
-│                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+│                       │     │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pack
+│                       │     │                  │      age-announce@lists.fedoraproject.org/message/UOGXU25FMM
+│                       │     │                  │      T2X6UUITQ7EZZYMJ42YWWD/ 
+│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+│                       │     │                  ├ [7]: https://ubuntu.com/security/notices/USN-6535-1 
+│                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │     ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-12T15:53:00Z 
+│                       │     ╰ LastModifiedDate: 2023-12-15T03:15:00Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-46219 
 │                       │     ├ PkgID           : curl@8.4.0-r0 
 │                       │     ├ PkgName         : curl 
@@ -86,11 +89,14 @@
 │                       │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
 │                       │     │                  │      -2023-46219 
 │                       │     │                  ├ [3]: https://hackerone.com/reports/2236133 
-│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
-│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
-│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
+│                       │     │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
+│                       │     │                  │      age-announce@lists.fedoraproject.org/message/UOGXU25FMM
+│                       │     │                  │      T2X6UUITQ7EZZYMJ42YWWD/ 
+│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
+│                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
+│                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
 │                       │     ├ PublishedDate   : 2023-12-12T02:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-12T13:43:00Z 
+│                       │     ╰ LastModifiedDate: 2023-12-15T03:15:00Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-46218 
 │                       │     ├ PkgID           : libcurl@8.4.0-r0 
 │                       │     ├ PkgName         : libcurl 
@@ -139,11 +145,14 @@
 │                       │     │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
 │                       │     │                  │      age-announce@lists.fedoraproject.org/message/3ZX3VW67N4
 │                       │     │                  │      ACRAPMV2QS2LVYGD7H2MVE/ 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-│                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
-│                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+│                       │     │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pack
+│                       │     │                  │      age-announce@lists.fedoraproject.org/message/UOGXU25FMM
+│                       │     │                  │      T2X6UUITQ7EZZYMJ42YWWD/ 
+│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+│                       │     │                  ├ [7]: https://ubuntu.com/security/notices/USN-6535-1 
+│                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │     ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-12T15:53:00Z 
+│                       │     ╰ LastModifiedDate: 2023-12-15T03:15:00Z 
 │                       ╰ [3] ╭ VulnerabilityID : CVE-2023-46219 
 │                             ├ PkgID           : libcurl@8.4.0-r0 
 │                             ├ PkgName         : libcurl 
@@ -175,11 +184,14 @@
 │                             │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
 │                             │                  │      -2023-46219 
 │                             │                  ├ [3]: https://hackerone.com/reports/2236133 
-│                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
-│                             │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
-│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
+│                             │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
+│                             │                  │      age-announce@lists.fedoraproject.org/message/UOGXU25FMM
+│                             │                  │      T2X6UUITQ7EZZYMJ42YWWD/ 
+│                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
+│                             │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
+│                             │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
 │                             ├ PublishedDate   : 2023-12-12T02:15:00Z 
-│                             ╰ LastModifiedDate: 2023-12-12T13:43:00Z 
+│                             ╰ LastModifiedDate: 2023-12-15T03:15:00Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
