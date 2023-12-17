@@ -57,6 +57,7 @@
     Layer:
       Digest: sha256:f0411c1613508f37dda8d816c42a0643c7e640ed0494bfbba34fde621dc78d61
       DiffID: sha256:7701d775b3e0a1ef906340e66f83744931baf55932dc1441d0068b8063a923e9
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46219
     DataSource:
       ID: alpine
@@ -68,7 +69,12 @@
       removing all contents, making subsequent requests using that file unaware of
       the HSTS status they should otherwise use.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-311
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
@@ -82,7 +88,7 @@
     - https://ubuntu.com/security/notices/USN-6535-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46219
     PublishedDate: '2023-12-12T02:15:00Z'
-    LastModifiedDate: '2023-12-15T03:15:00Z'
+    LastModifiedDate: '2023-12-15T14:49:00Z'
   - VulnerabilityID: CVE-2023-46218
     PkgID: libcurl@8.4.0-r0
     PkgName: libcurl
@@ -138,6 +144,7 @@
     Layer:
       Digest: sha256:f0411c1613508f37dda8d816c42a0643c7e640ed0494bfbba34fde621dc78d61
       DiffID: sha256:7701d775b3e0a1ef906340e66f83744931baf55932dc1441d0068b8063a923e9
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46219
     DataSource:
       ID: alpine
@@ -149,7 +156,12 @@
       removing all contents, making subsequent requests using that file unaware of
       the HSTS status they should otherwise use.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-311
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
@@ -163,7 +175,7 @@
     - https://ubuntu.com/security/notices/USN-6535-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46219
     PublishedDate: '2023-12-12T02:15:00Z'
-    LastModifiedDate: '2023-12-15T03:15:00Z'
+    LastModifiedDate: '2023-12-15T14:49:00Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
