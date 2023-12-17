@@ -68,6 +68,7 @@
 │                       │     │                  │         ebbd606ea7611052ecd1e396 
 │                       │     │                  ╰ DiffID: sha256:b6717f72067520b7670ae30f3a71d32dc20f9bf4
 │                       │     │                            a891055499495d4bb5e2725a 
+│                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46219 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
@@ -81,7 +82,11 @@
 │                       │     │                   the HSTS status they should otherwise use.
 │                       │     │                    
 │                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L
+│                       │     ├ CweIDs           ─ [0]: CWE-311 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                       │     │                  │        │           /I:L/A:N 
+│                       │     │                  │        ╰ V3Score : 5.3 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L
 │                       │     │                           │           /I:L/A:N 
 │                       │     │                           ╰ V3Score : 4.8 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46219 
@@ -96,7 +101,7 @@
 │                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
 │                       │     ├ PublishedDate   : 2023-12-12T02:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-15T03:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-12-15T14:49:00Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-46218 
 │                       │     ├ PkgID           : libcurl@8.4.0-r0 
 │                       │     ├ PkgName         : libcurl 
@@ -163,6 +168,7 @@
 │                             │                  │         ebbd606ea7611052ecd1e396 
 │                             │                  ╰ DiffID: sha256:b6717f72067520b7670ae30f3a71d32dc20f9bf4
 │                             │                            a891055499495d4bb5e2725a 
+│                             ├ SeveritySource  : nvd 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46219 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
@@ -176,7 +182,11 @@
 │                             │                   the HSTS status they should otherwise use.
 │                             │                    
 │                             ├ Severity        : MEDIUM 
-│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L
+│                             ├ CweIDs           ─ [0]: CWE-311 
+│                             ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                             │                  │        │           /I:L/A:N 
+│                             │                  │        ╰ V3Score : 5.3 
+│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L
 │                             │                           │           /I:L/A:N 
 │                             │                           ╰ V3Score : 4.8 
 │                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46219 
@@ -191,7 +201,7 @@
 │                             │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
 │                             │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
 │                             ├ PublishedDate   : 2023-12-12T02:15:00Z 
-│                             ╰ LastModifiedDate: 2023-12-15T03:15:00Z 
+│                             ╰ LastModifiedDate: 2023-12-15T14:49:00Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
