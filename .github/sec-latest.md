@@ -36,6 +36,9 @@
 │                       │     │                   a PSL domain.
 │                       │     │                    
 │                       │     ├ Severity        : MEDIUM 
+│                       │     ├ VendorSeverity   ╭ nvd   : 2 
+│                       │     │                  ├ redhat: 2 
+│                       │     │                  ╰ ubuntu: 2 
 │                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
 │                       │     │                  │        │           /I:L/A:N 
 │                       │     │                  │        ╰ V3Score : 6.5 
@@ -56,8 +59,8 @@
 │                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
 │                       │     │                  ├ [7]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
-│                       │     ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-15T03:15:00Z 
+│                       │     ├ PublishedDate   : 2023-12-07T01:15:07.16Z 
+│                       │     ╰ LastModifiedDate: 2023-12-15T03:15:44.97Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-46219 
 │                       │     ├ PkgID           : curl@8.4.0-r0 
 │                       │     ├ PkgName         : curl 
@@ -83,6 +86,9 @@
 │                       │     │                    
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-311 
+│                       │     ├ VendorSeverity   ╭ nvd   : 2 
+│                       │     │                  ├ redhat: 1 
+│                       │     │                  ╰ ubuntu: 1 
 │                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
 │                       │     │                  │        │           /I:L/A:N 
 │                       │     │                  │        ╰ V3Score : 5.3 
@@ -100,8 +106,8 @@
 │                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
 │                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
-│                       │     ├ PublishedDate   : 2023-12-12T02:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-15T14:49:00Z 
+│                       │     ├ PublishedDate   : 2023-12-12T02:15:06.99Z 
+│                       │     ╰ LastModifiedDate: 2023-12-15T14:49:07.26Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-46218 
 │                       │     ├ PkgID           : libcurl@8.4.0-r0 
 │                       │     ├ PkgName         : libcurl 
@@ -136,6 +142,9 @@
 │                       │     │                   a PSL domain.
 │                       │     │                    
 │                       │     ├ Severity        : MEDIUM 
+│                       │     ├ VendorSeverity   ╭ nvd   : 2 
+│                       │     │                  ├ redhat: 2 
+│                       │     │                  ╰ ubuntu: 2 
 │                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
 │                       │     │                  │        │           /I:L/A:N 
 │                       │     │                  │        ╰ V3Score : 6.5 
@@ -156,8 +165,8 @@
 │                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
 │                       │     │                  ├ [7]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
-│                       │     ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-15T03:15:00Z 
+│                       │     ├ PublishedDate   : 2023-12-07T01:15:07.16Z 
+│                       │     ╰ LastModifiedDate: 2023-12-15T03:15:44.97Z 
 │                       ╰ [3] ╭ VulnerabilityID : CVE-2023-46219 
 │                             ├ PkgID           : libcurl@8.4.0-r0 
 │                             ├ PkgName         : libcurl 
@@ -183,6 +192,9 @@
 │                             │                    
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-311 
+│                             ├ VendorSeverity   ╭ nvd   : 2 
+│                             │                  ├ redhat: 1 
+│                             │                  ╰ ubuntu: 1 
 │                             ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
 │                             │                  │        │           /I:L/A:N 
 │                             │                  │        ╰ V3Score : 5.3 
@@ -200,8 +212,8 @@
 │                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
 │                             │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
 │                             │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
-│                             ├ PublishedDate   : 2023-12-12T02:15:00Z 
-│                             ╰ LastModifiedDate: 2023-12-15T14:49:00Z 
+│                             ├ PublishedDate   : 2023-12-12T02:15:06.99Z 
+│                             ╰ LastModifiedDate: 2023-12-15T14:49:07.26Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -231,6 +243,9 @@
                         │     │                    
                         │     ├ Severity        : HIGH 
                         │     ├ CweIDs           ─ [0]: CWE-502 
+                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ├ nvd   : 3 
+                        │     │                  ╰ redhat: 2 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
                         │     │                  │        │           /I:N/A:H 
                         │     │                  │        ╰ V3Score : 7.1 
@@ -255,8 +270,8 @@
                         │     │                  ├ [8] : https://logback.qos.ch/news.html#1.3.12 
                         │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
                         │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-6378 
-                        │     ├ PublishedDate   : 2023-11-29T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-12-05T21:00:00Z 
+                        │     ├ PublishedDate   : 2023-11-29T12:15:07.543Z 
+                        │     ╰ LastModifiedDate: 2023-12-05T21:00:10.557Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2023-6378 
                               ├ PkgName         : ch.qos.logback:logback-core 
                               ├ PkgPath         : openaf/openaf.jar 
@@ -283,6 +298,9 @@
                               │                    
                               ├ Severity        : HIGH 
                               ├ CweIDs           ─ [0]: CWE-502 
+                              ├ VendorSeverity   ╭ ghsa  : 3 
+                              │                  ├ nvd   : 3 
+                              │                  ╰ redhat: 2 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
                               │                  │        │           /I:N/A:H 
                               │                  │        ╰ V3Score : 7.1 
@@ -307,6 +325,6 @@
                               │                  ├ [8] : https://logback.qos.ch/news.html#1.3.12 
                               │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
                               │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-6378 
-                              ├ PublishedDate   : 2023-11-29T12:15:00Z 
-                              ╰ LastModifiedDate: 2023-12-05T21:00:00Z 
+                              ├ PublishedDate   : 2023-11-29T12:15:07.543Z 
+                              ╰ LastModifiedDate: 2023-12-05T21:00:10.557Z 
 ````
