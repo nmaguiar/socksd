@@ -18,16 +18,27 @@ jobs:
     steps:
     - name: Set up QEMU
       uses: docker/setup-qemu-action@v2
+
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v2
+
     - name: Login to DockerHub
       uses: docker/login-action@v2
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
+
     - uses: docker/build-push-action@v3
       name: Build and push
       with:
         platforms: linux/amd64,linux/arm64
         push: true
         tags: nmaguiar/socksd:build
+
+    - uses: docker/build-push-action@v3
+      name: Build and push ubi
+      with:
+        platforms: linux/amd64,linux/arm64
+        file: Dockerfile.ubi
+        push: true
+        tags: nmaguiar/socksd:ubi-build

@@ -37,6 +37,20 @@ jobs:
         dist: 't8'
 
     - uses: openaf/ojob-action@v4
+      name: Check latest ubi
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=nmaguiar/socksd:ubi file=.github/sec-ubi-latest.svg reportFile=.github/sec-ubi-latest.yaml'
+        dist: 't8'
+  
+    - uses: openaf/ojob-action@v4
+      name: Generate sec-ubi-latest.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-ubi-latest.yaml file=.github/sec-ubi-latest.md'
+        dist: 't8'
+
+    - uses: openaf/ojob-action@v4
       name: Check build
       with:
         ojob: 'ojob.io/sec/genSecBadge'
@@ -48,6 +62,20 @@ jobs:
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-build.yaml file=.github/sec-build.md'
+        dist: 't8'
+
+    - uses: openaf/ojob-action@v4
+      name: Check build ubi
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=nmaguiar/socksd:ubi-build file=.github/sec-ubi-build.svg reportFile=.github/sec-ubi-build.yaml'
+        dist: 't8'
+  
+    - uses: openaf/ojob-action@v4
+      name: Generate sec-ubi-build.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-ubi-build.yaml file=.github/sec-ubi-build.md'
         dist: 't8'
 
     - uses: openaf/ojob-action@v4
