@@ -8,10 +8,10 @@
 │                       │     ├ InstalledVersion: 8.4.0-r0 
 │                       │     ├ FixedVersion    : 8.5.0-r0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:f0411c1613508f37dda8d816c42a0643c7e640ed
-│                       │     │                  │         0494bfbba34fde621dc78d61 
-│                       │     │                  ╰ DiffID: sha256:7701d775b3e0a1ef906340e66f83744931baf559
-│                       │     │                            32dc1441d0068b8063a923e9 
+│                       │     ├ Layer            ╭ Digest: sha256:2071779fa112e46e8444b2bbba30f68b5ddd5785
+│                       │     │                  │         0341083d8a544586a629ae49 
+│                       │     │                  ╰ DiffID: sha256:d00b65bfdf4fada1d0cf82e12124f4adf5a7587f
+│                       │     │                            7b6776321324e8c387db15e9 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46218 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -67,10 +67,10 @@
 │                       │     ├ InstalledVersion: 8.4.0-r0 
 │                       │     ├ FixedVersion    : 8.5.0-r0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:f0411c1613508f37dda8d816c42a0643c7e640ed
-│                       │     │                  │         0494bfbba34fde621dc78d61 
-│                       │     │                  ╰ DiffID: sha256:7701d775b3e0a1ef906340e66f83744931baf559
-│                       │     │                            32dc1441d0068b8063a923e9 
+│                       │     ├ Layer            ╭ Digest: sha256:2071779fa112e46e8444b2bbba30f68b5ddd5785
+│                       │     │                  │         0341083d8a544586a629ae49 
+│                       │     │                  ╰ DiffID: sha256:d00b65bfdf4fada1d0cf82e12124f4adf5a7587f
+│                       │     │                            7b6776321324e8c387db15e9 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46219 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -114,10 +114,10 @@
 │                       │     ├ InstalledVersion: 8.4.0-r0 
 │                       │     ├ FixedVersion    : 8.5.0-r0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:f0411c1613508f37dda8d816c42a0643c7e640ed
-│                       │     │                  │         0494bfbba34fde621dc78d61 
-│                       │     │                  ╰ DiffID: sha256:7701d775b3e0a1ef906340e66f83744931baf559
-│                       │     │                            32dc1441d0068b8063a923e9 
+│                       │     ├ Layer            ╭ Digest: sha256:2071779fa112e46e8444b2bbba30f68b5ddd5785
+│                       │     │                  │         0341083d8a544586a629ae49 
+│                       │     │                  ╰ DiffID: sha256:d00b65bfdf4fada1d0cf82e12124f4adf5a7587f
+│                       │     │                            7b6776321324e8c387db15e9 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46218 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -173,10 +173,10 @@
 │                             ├ InstalledVersion: 8.4.0-r0 
 │                             ├ FixedVersion    : 8.5.0-r0 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:f0411c1613508f37dda8d816c42a0643c7e640ed
-│                             │                  │         0494bfbba34fde621dc78d61 
-│                             │                  ╰ DiffID: sha256:7701d775b3e0a1ef906340e66f83744931baf559
-│                             │                            32dc1441d0068b8063a923e9 
+│                             ├ Layer            ╭ Digest: sha256:2071779fa112e46e8444b2bbba30f68b5ddd5785
+│                             │                  │         0341083d8a544586a629ae49 
+│                             │                  ╰ DiffID: sha256:d00b65bfdf4fada1d0cf82e12124f4adf5a7587f
+│                             │                            7b6776321324e8c387db15e9 
 │                             ├ SeveritySource  : nvd 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46219 
 │                             ├ DataSource       ╭ ID  : alpine 
@@ -223,10 +223,10 @@
                         │     ├ InstalledVersion: 1.2.11 
                         │     ├ FixedVersion    : 1.3.12, 1.4.12, 1.2.13 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:f0411c1613508f37dda8d816c42a0643c7e640ed
-                        │     │                  │         0494bfbba34fde621dc78d61 
-                        │     │                  ╰ DiffID: sha256:7701d775b3e0a1ef906340e66f83744931baf559
-                        │     │                            32dc1441d0068b8063a923e9 
+                        │     ├ Layer            ╭ Digest: sha256:2071779fa112e46e8444b2bbba30f68b5ddd5785
+                        │     │                  │         0341083d8a544586a629ae49 
+                        │     │                  ╰ DiffID: sha256:d00b65bfdf4fada1d0cf82e12124f4adf5a7587f
+                        │     │                            7b6776321324e8c387db15e9 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6378 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -278,10 +278,10 @@
                               ├ InstalledVersion: 1.2.11 
                               ├ FixedVersion    : 1.3.12, 1.4.12, 1.2.13 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:f0411c1613508f37dda8d816c42a0643c7e640ed
-                              │                  │         0494bfbba34fde621dc78d61 
-                              │                  ╰ DiffID: sha256:7701d775b3e0a1ef906340e66f83744931baf559
-                              │                            32dc1441d0068b8063a923e9 
+                              ├ Layer            ╭ Digest: sha256:2071779fa112e46e8444b2bbba30f68b5ddd5785
+                              │                  │         0341083d8a544586a629ae49 
+                              │                  ╰ DiffID: sha256:d00b65bfdf4fada1d0cf82e12124f4adf5a7587f
+                              │                            7b6776321324e8c387db15e9 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6378 
                               ├ DataSource       ╭ ID  : ghsa 
