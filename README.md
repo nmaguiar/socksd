@@ -12,7 +12,9 @@ Main features:
 
 Security scans to latest and build container images:<br>
 [![.github/sec-build.svg](.github/sec-build.svg)](.github/sec-build.md)<br>
-[![.github/sec-latest.svg](.github/sec-latest.svg)](.github/sec-latest.md)
+[![.github/sec-latest.svg](.github/sec-latest.svg)](.github/sec-latest.md)<br><br>
+[![.github/sec-ubi-build.svg](.github/sec-ubi-build.svg)](.github/sec-ubi-build.md)<br>
+[![.github/sec-ubi-latest.svg](.github/sec-ubi-latest.svg)](.github/sec-ubi-latest.md)
 
 ## Run on Docker
 
