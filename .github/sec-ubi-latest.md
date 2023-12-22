@@ -4293,7 +4293,7 @@
 │                       │      │                   in log messages. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-116 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ photon     : 2 
@@ -4337,7 +4337,7 @@
 │                       │      │                   in sudoreplay output. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-116 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ photon     : 2 
@@ -4365,7 +4365,18 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
 │                       │      ├ PublishedDate   : 2023-03-16T01:15:47.067Z 
 │                       │      ╰ LastModifiedDate: 2023-11-02T01:58:22.777Z 
-│                       ├ [73] ╭ VulnerabilityID : CVE-2021-3997 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2023-42465 
+│                       │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
+│                       │      ├ PkgName         : sudo 
+│                       │      ├ InstalledVersion: 1.9.5p2-9.el9 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:3467c71f92adab6985fc086154892205b41ca17
+│                       │      │                  │         d475577ad51c14e4eafb75ef4 
+│                       │      │                  ╰ DiffID: sha256:0b0f58cb303b00b9b3c6dc435f2ce0e532a873f
+│                       │      │                            6faafc9f8452d478a2e608fb7 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ╰ Severity        : MEDIUM 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2021-3997 
 │                       │      ├ PkgID           : systemd-libs@252-18.el9.x86_64 
 │                       │      ├ PkgName         : systemd-libs 
 │                       │      ├ InstalledVersion: 252-18.el9 
@@ -4409,7 +4420,7 @@
 │                       │      │                         01/10/2 
 │                       │      ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:15.95Z 
-│                       ╰ [74] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ╰ [75] ╭ VulnerabilityID : CVE-2023-7008 
 │                              ├ PkgID           : systemd-libs@252-18.el9.x86_64 
 │                              ├ PkgName         : systemd-libs 
 │                              ├ InstalledVersion: 252-18.el9 
