@@ -522,17 +522,19 @@
 │                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-46218 
 │                       │      │                  ├ [3]: https://hackerone.com/reports/2212193 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  ├ [4]: https://lists.debian.org/debian-lts-announce/2023
+│                       │      │                  │      /12/msg00015.html 
+│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/3ZX3VW67
 │                       │      │                  │      N4ACRAPMV2QS2LVYGD7H2MVE/ 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/UOGXU25F
 │                       │      │                  │      MMT2X6UUITQ7EZZYMJ42YWWD/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6535-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6535-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │      ├ PublishedDate   : 2023-12-07T01:15:07.16Z 
-│                       │      ╰ LastModifiedDate: 2023-12-15T03:15:44.97Z 
+│                       │      ╰ LastModifiedDate: 2023-12-22T16:15:08.38Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2022-48554 
 │                       │      ├ PkgID           : file-libs@5.39-14.el9.x86_64 
 │                       │      ├ PkgName         : file-libs 
@@ -942,17 +944,19 @@
 │                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-46218 
 │                       │      │                  ├ [3]: https://hackerone.com/reports/2212193 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  ├ [4]: https://lists.debian.org/debian-lts-announce/2023
+│                       │      │                  │      /12/msg00015.html 
+│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/3ZX3VW67
 │                       │      │                  │      N4ACRAPMV2QS2LVYGD7H2MVE/ 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/UOGXU25F
 │                       │      │                  │      MMT2X6UUITQ7EZZYMJ42YWWD/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6535-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6535-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │      ├ PublishedDate   : 2023-12-07T01:15:07.16Z 
-│                       │      ╰ LastModifiedDate: 2023-12-15T03:15:44.97Z 
+│                       │      ╰ LastModifiedDate: 2023-12-22T16:15:08.38Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc@11.4.1-2.1.el9.x86_64 
 │                       │      ├ PkgName         : libgcc 
@@ -4293,7 +4297,7 @@
 │                       │      │                   in log messages. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-116 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ photon     : 2 
@@ -4337,7 +4341,7 @@
 │                       │      │                   in sudoreplay output. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-116 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ photon     : 2 
@@ -4375,7 +4379,33 @@
 │                       │      │                  ╰ DiffID: sha256:0b0f58cb303b00b9b3c6dc435f2ce0e532a873f
 │                       │      │                            6faafc9f8452d478a2e608fb7 
 │                       │      ├ SeveritySource  : redhat 
-│                       │      ╰ Severity        : MEDIUM 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42465 
+│                       │      ├ Title           : sudo: Targeted Corruption of Register and Stack Variables 
+│                       │      ├ Description     : Sudo before 1.9.15 might allow row hammer attacks (for
+│                       │      │                   authentication bypass or privilege escalation) because
+│                       │      │                   application logic sometimes is based on not equaling an
+│                       │      │                   error value (instead of equaling a success value), and
+│                       │      │                   because the values do not resist flips of a single
+│                       │      │                   bit. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
+│                       │      │                           │           H/I:H/A:H 
+│                       │      │                           ╰ V3Score : 7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42465 
+│                       │      │                  ├ [1]: https://arxiv.org/abs/2309.02545 
+│                       │      │                  ├ [2]: https://arxiv.org/pdf/2309.02545.pdf 
+│                       │      │                  ├ [3]: https://github.com/sudo-project/sudo/commit/7873f
+│                       │      │                  │      8334c8d31031f8cfa83bd97ac6029309e4f 
+│                       │      │                  ├ [4]: https://github.com/sudo-project/sudo/releases/tag
+│                       │      │                  │      /SUDO_1_9_15 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-42465 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-42465 
+│                       │      │                  ├ [7]: https://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │      12/21/9 
+│                       │      │                  ╰ [8]: https://www.sudo.ws/releases/changelog/ 
+│                       │      ├ PublishedDate   : 2023-12-22T16:15:08.057Z 
+│                       │      ╰ LastModifiedDate: 2023-12-22T16:15:08.057Z 
 │                       ├ [74] ╭ VulnerabilityID : CVE-2021-3997 
 │                       │      ├ PkgID           : systemd-libs@252-18.el9.x86_64 
 │                       │      ├ PkgName         : systemd-libs 
