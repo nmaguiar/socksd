@@ -45,13 +45,14 @@
     - https://curl.se/docs/CVE-2023-46218.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218
     - https://hackerone.com/reports/2212193
+    - https://lists.debian.org/debian-lts-announce/2023/12/msg00015.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3ZX3VW67N4ACRAPMV2QS2LVYGD7H2MVE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UOGXU25FMMT2X6UUITQ7EZZYMJ42YWWD/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46218
     - https://ubuntu.com/security/notices/USN-6535-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46218
     PublishedDate: '2023-12-07T01:15:07.16Z'
-    LastModifiedDate: '2023-12-15T03:15:44.97Z'
+    LastModifiedDate: '2023-12-22T16:15:08.38Z'
   - VulnerabilityID: CVE-2023-46219
     PkgID: curl@8.4.0-r0
     PkgName: curl
@@ -140,13 +141,14 @@
     - https://curl.se/docs/CVE-2023-46218.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218
     - https://hackerone.com/reports/2212193
+    - https://lists.debian.org/debian-lts-announce/2023/12/msg00015.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3ZX3VW67N4ACRAPMV2QS2LVYGD7H2MVE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UOGXU25FMMT2X6UUITQ7EZZYMJ42YWWD/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46218
     - https://ubuntu.com/security/notices/USN-6535-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46218
     PublishedDate: '2023-12-07T01:15:07.16Z'
-    LastModifiedDate: '2023-12-15T03:15:44.97Z'
+    LastModifiedDate: '2023-12-22T16:15:08.38Z'
   - VulnerabilityID: CVE-2023-46219
     PkgID: libcurl@8.4.0-r0
     PkgName: libcurl
