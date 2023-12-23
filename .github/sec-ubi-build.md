@@ -4359,7 +4359,7 @@
                         │      │                  │      12/21/9 
                         │      │                  ╰ [8]: https://www.sudo.ws/releases/changelog/ 
                         │      ├ PublishedDate   : 2023-12-22T16:15:08.057Z 
-                        │      ╰ LastModifiedDate: 2023-12-22T16:15:08.057Z 
+                        │      ╰ LastModifiedDate: 2023-12-22T20:32:41.017Z 
                         ├ [73] ╭ VulnerabilityID : CVE-2021-3997 
                         │      ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │      ├ PkgName         : systemd-libs 
