@@ -3601,6 +3601,8 @@
     Title: 'systemd-resolved: Unsigned name response in signed zone is not refused when DNSSEC=yes'
     Description: A vulnerability was found in systemd-resolved. This issue may allow systemd-resolved to accept records of DNSSEC-signed domains even when they have no signature, allowing man-in-the-middles (or the upstream DNS resolver) to manipulate records.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-300
     VendorSeverity:
       redhat: 2
     CVSS:
@@ -3610,9 +3612,12 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2023-7008
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://github.com/systemd/systemd/issues/25676
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
+    PublishedDate: '2023-12-23T13:15:07.573Z'
+    LastModifiedDate: '2023-12-23T13:15:07.573Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
