@@ -517,24 +517,25 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46218 
-                        │      │                  ├ [1]: https://curl.se/docs/CVE-2023-46218.html 
-                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-46218 
-                        │      │                  ├ [3]: https://hackerone.com/reports/2212193 
-                        │      │                  ├ [4]: https://lists.debian.org/debian-lts-announce/2023
-                        │      │                  │      /12/msg00015.html 
-                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce@lists.fedoraproject.org/message/3ZX3VW67
-                        │      │                  │      N4ACRAPMV2QS2LVYGD7H2MVE/ 
-                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce@lists.fedoraproject.org/message/UOGXU25F
-                        │      │                  │      MMT2X6UUITQ7EZZYMJ42YWWD/ 
-                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6535-1 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-46218 
+                        │      │                  ├ [1] : https://curl.se/docs/CVE-2023-46218.html 
+                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-46218 
+                        │      │                  ├ [3] : https://hackerone.com/reports/2212193 
+                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       3/12/msg00015.html 
+                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/3ZX3VW
+                        │      │                  │       67N4ACRAPMV2QS2LVYGD7H2MVE/ 
+                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/UOGXU2
+                        │      │                  │       5FMMT2X6UUITQ7EZZYMJ42YWWD/ 
+                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6535-1 
+                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-46218 
+                        │      │                  ╰ [10]: https://www.debian.org/security/2023/dsa-5587 
                         │      ├ PublishedDate   : 2023-12-07T01:15:07.16Z 
-                        │      ╰ LastModifiedDate: 2023-12-22T16:15:08.38Z 
+                        │      ╰ LastModifiedDate: 2023-12-24T13:15:08.1Z 
                         ├ [10] ╭ VulnerabilityID : CVE-2022-48554 
                         │      ├ PkgID           : file-libs@5.39-14.el9.x86_64 
                         │      ├ PkgName         : file-libs 
@@ -828,24 +829,25 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46218 
-                        │      │                  ├ [1]: https://curl.se/docs/CVE-2023-46218.html 
-                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-46218 
-                        │      │                  ├ [3]: https://hackerone.com/reports/2212193 
-                        │      │                  ├ [4]: https://lists.debian.org/debian-lts-announce/2023
-                        │      │                  │      /12/msg00015.html 
-                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce@lists.fedoraproject.org/message/3ZX3VW67
-                        │      │                  │      N4ACRAPMV2QS2LVYGD7H2MVE/ 
-                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce@lists.fedoraproject.org/message/UOGXU25F
-                        │      │                  │      MMT2X6UUITQ7EZZYMJ42YWWD/ 
-                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6535-1 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-46218 
+                        │      │                  ├ [1] : https://curl.se/docs/CVE-2023-46218.html 
+                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-46218 
+                        │      │                  ├ [3] : https://hackerone.com/reports/2212193 
+                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       3/12/msg00015.html 
+                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/3ZX3VW
+                        │      │                  │       67N4ACRAPMV2QS2LVYGD7H2MVE/ 
+                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/UOGXU2
+                        │      │                  │       5FMMT2X6UUITQ7EZZYMJ42YWWD/ 
+                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6535-1 
+                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-46218 
+                        │      │                  ╰ [10]: https://www.debian.org/security/2023/dsa-5587 
                         │      ├ PublishedDate   : 2023-12-07T01:15:07.16Z 
-                        │      ╰ LastModifiedDate: 2023-12-22T16:15:08.38Z 
+                        │      ╰ LastModifiedDate: 2023-12-24T13:15:08.1Z 
                         ├ [17] ╭ VulnerabilityID : CVE-2022-27943 
                         │      ├ PkgID           : libgcc@11.4.1-2.1.el9.x86_64 
                         │      ├ PkgName         : libgcc 
