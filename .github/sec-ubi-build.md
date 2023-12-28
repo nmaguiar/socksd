@@ -575,7 +575,7 @@
                         │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2022-48554 
                         │      │                  ╰ [7]: https://www.debian.org/security/2023/dsa-5489 
                         │      ├ PublishedDate   : 2023-08-22T19:16:31.757Z 
-                        │      ╰ LastModifiedDate: 2023-11-16T16:15:29.06Z 
+                        │      ╰ LastModifiedDate: 2023-12-27T22:04:16.397Z 
                         ├ [11] ╭ VulnerabilityID : CVE-2023-4156 
                         │      ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
                         │      ├ PkgName         : gawk 
@@ -3042,16 +3042,19 @@
                         │      │                  │       ckage-announce%40lists.fedoraproject.org/message/SINP
                         │      │                  │       4OVYNB2AGDYI2GS37EMW3H3F7XPZ/ 
                         │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce%40lists.fedoraproject.org/message/VZXC
+                        │      │                  │       32CJ7TWDPJO6GY2XIQRO7JZX5FLP/ 
+                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce%40lists.fedoraproject.org/message/XWMB
                         │      │                  │       D4LNHWEXRI6YVFWJMTJQUL5WOFTS/ 
-                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-                        │      │                  ├ [13]: https://python-security.readthedocs.io/vuln/emai
+                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+                        │      │                  ├ [14]: https://python-security.readthedocs.io/vuln/emai
                         │      │                  │       l-parseaddr-realname.html 
-                        │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-202306
+                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-202306
                         │      │                  │       01-0003/ 
-                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
                         │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
-                        │      ╰ LastModifiedDate: 2023-12-26T03:15:07.86Z 
+                        │      ╰ LastModifiedDate: 2023-12-27T02:15:42.47Z 
                         ├ [51] ╭ VulnerabilityID : CVE-2023-36632 
                         │      ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.noarch 
                         │      ├ PkgName         : python-unversioned-command 
@@ -3396,16 +3399,19 @@
                         │      │                  │       ckage-announce%40lists.fedoraproject.org/message/SINP
                         │      │                  │       4OVYNB2AGDYI2GS37EMW3H3F7XPZ/ 
                         │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce%40lists.fedoraproject.org/message/VZXC
+                        │      │                  │       32CJ7TWDPJO6GY2XIQRO7JZX5FLP/ 
+                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce%40lists.fedoraproject.org/message/XWMB
                         │      │                  │       D4LNHWEXRI6YVFWJMTJQUL5WOFTS/ 
-                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-                        │      │                  ├ [13]: https://python-security.readthedocs.io/vuln/emai
+                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+                        │      │                  ├ [14]: https://python-security.readthedocs.io/vuln/emai
                         │      │                  │       l-parseaddr-realname.html 
-                        │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-202306
+                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-202306
                         │      │                  │       01-0003/ 
-                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
                         │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
-                        │      ╰ LastModifiedDate: 2023-12-26T03:15:07.86Z 
+                        │      ╰ LastModifiedDate: 2023-12-27T02:15:42.47Z 
                         ├ [55] ╭ VulnerabilityID : CVE-2023-36632 
                         │      ├ PkgID           : python3@3.9.18-1.el9_3.x86_64 
                         │      ├ PkgName         : python3 
@@ -3750,16 +3756,19 @@
                         │      │                  │       ckage-announce%40lists.fedoraproject.org/message/SINP
                         │      │                  │       4OVYNB2AGDYI2GS37EMW3H3F7XPZ/ 
                         │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce%40lists.fedoraproject.org/message/VZXC
+                        │      │                  │       32CJ7TWDPJO6GY2XIQRO7JZX5FLP/ 
+                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce%40lists.fedoraproject.org/message/XWMB
                         │      │                  │       D4LNHWEXRI6YVFWJMTJQUL5WOFTS/ 
-                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-                        │      │                  ├ [13]: https://python-security.readthedocs.io/vuln/emai
+                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+                        │      │                  ├ [14]: https://python-security.readthedocs.io/vuln/emai
                         │      │                  │       l-parseaddr-realname.html 
-                        │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-202306
+                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-202306
                         │      │                  │       01-0003/ 
-                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
                         │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
-                        │      ╰ LastModifiedDate: 2023-12-26T03:15:07.86Z 
+                        │      ╰ LastModifiedDate: 2023-12-27T02:15:42.47Z 
                         ├ [59] ╭ VulnerabilityID : CVE-2023-36632 
                         │      ├ PkgID           : python3-libs@3.9.18-1.el9_3.x86_64 
                         │      ├ PkgName         : python3-libs 
@@ -4159,7 +4168,7 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -4203,7 +4212,7 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
