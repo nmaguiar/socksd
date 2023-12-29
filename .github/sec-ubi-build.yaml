@@ -2472,18 +2472,24 @@
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-12-27T02:15:42.47Z'
+    LastModifiedDate: '2023-12-28T02:15:54.543Z'
   - VulnerabilityID: CVE-2023-36632
     PkgID: python-unversioned-command@3.9.18-1.el9_3.noarch
     PkgName: python-unversioned-command
@@ -2709,18 +2715,24 @@
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-12-27T02:15:42.47Z'
+    LastModifiedDate: '2023-12-28T02:15:54.543Z'
   - VulnerabilityID: CVE-2023-36632
     PkgID: python3@3.9.18-1.el9_3.x86_64
     PkgName: python3
@@ -2946,18 +2958,24 @@
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-12-27T02:15:42.47Z'
+    LastModifiedDate: '2023-12-28T02:15:54.543Z'
   - VulnerabilityID: CVE-2023-36632
     PkgID: python3-libs@3.9.18-1.el9_3.x86_64
     PkgName: python3-libs
@@ -3298,7 +3316,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3340,7 +3358,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
