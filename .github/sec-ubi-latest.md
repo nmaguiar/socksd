@@ -4206,7 +4206,42 @@
                         │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2021-35939 
                         │      ├ PublishedDate   : 2022-08-26T16:15:08.683Z 
                         │      ╰ LastModifiedDate: 2023-02-04T01:16:51.737Z 
-                        ├ [67] ╭ VulnerabilityID : CVE-2023-28486 
+                        ├ [67] ╭ VulnerabilityID : CVE-2023-7104 
+                        │      ├ PkgID           : sqlite-libs@3.34.1-6.el9_1.x86_64 
+                        │      ├ PkgName         : sqlite-libs 
+                        │      ├ InstalledVersion: 3.34.1-6.el9_1 
+                        │      ├ Status          : under_investigation 
+                        │      ├ Layer            ╭ Digest: sha256:b9db5a6d2c19a374b5ef35a30828eaf4dc72146
+                        │      │                  │         8f49f94d2af355973ef5d0c29 
+                        │      │                  ╰ DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f23
+                        │      │                            5d44953397dcdb7acf36444fe 
+                        │      ├ SeveritySource  : redhat 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7104 
+                        │      ├ Title           : sqlite: heap-buffer-overflow at sessionfuzz 
+                        │      ├ Description     : A vulnerability was found in SQLite SQLite3 up to
+                        │      │                   3.43.0 and classified as critical. This issue affects the
+                        │      │                   function sessionReadRecord of the file
+                        │      │                   ext/session/sqlite3session.c of the component make alltest
+                        │      │                   Handler. The manipulation leads to heap-based buffer
+                        │      │                   overflow. It is recommended to apply a patch to fix this
+                        │      │                   issue. The associated identifier of this vulnerability is
+                        │      │                   VDB-248999. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-122 
+                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:
+                        │      │                           │           L/I:L/A:L 
+                        │      │                           ╰ V3Score : 5.5 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7104 
+                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-7104 
+                        │      │                  ├ [2]: https://sqlite.org/forum/forumpost/5bcbf4571c 
+                        │      │                  ├ [3]: https://sqlite.org/src/info/0e4e7a05c4204b47 
+                        │      │                  ├ [4]: https://vuldb.com/?ctiid.248999 
+                        │      │                  ├ [5]: https://vuldb.com/?id.248999 
+                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
+                        │      ├ PublishedDate   : 2023-12-29T10:15:13.89Z 
+                        │      ╰ LastModifiedDate: 2023-12-29T13:56:27.537Z 
+                        ├ [68] ╭ VulnerabilityID : CVE-2023-28486 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
                         │      ├ InstalledVersion: 1.9.5p2-9.el9 
@@ -4222,7 +4257,7 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -4250,7 +4285,7 @@
                         │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28486 
                         │      ├ PublishedDate   : 2023-03-16T01:15:47.003Z 
                         │      ╰ LastModifiedDate: 2023-11-02T01:59:06.177Z 
-                        ├ [68] ╭ VulnerabilityID : CVE-2023-28487 
+                        ├ [69] ╭ VulnerabilityID : CVE-2023-28487 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
                         │      ├ InstalledVersion: 1.9.5p2-9.el9 
@@ -4266,7 +4301,7 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -4294,7 +4329,7 @@
                         │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
                         │      ├ PublishedDate   : 2023-03-16T01:15:47.067Z 
                         │      ╰ LastModifiedDate: 2023-11-02T01:58:22.777Z 
-                        ├ [69] ╭ VulnerabilityID : CVE-2023-42465 
+                        ├ [70] ╭ VulnerabilityID : CVE-2023-42465 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
                         │      ├ InstalledVersion: 1.9.5p2-9.el9 
@@ -4331,7 +4366,7 @@
                         │      │                  ╰ [8]: https://www.sudo.ws/releases/changelog/ 
                         │      ├ PublishedDate   : 2023-12-22T16:15:08.057Z 
                         │      ╰ LastModifiedDate: 2023-12-22T20:32:41.017Z 
-                        ├ [70] ╭ VulnerabilityID : CVE-2021-3997 
+                        ├ [71] ╭ VulnerabilityID : CVE-2021-3997 
                         │      ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │      ├ PkgName         : systemd-libs 
                         │      ├ InstalledVersion: 252-18.el9 
@@ -4375,7 +4410,7 @@
                         │      │                         01/10/2 
                         │      ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
                         │      ╰ LastModifiedDate: 2023-05-03T12:15:15.95Z 
-                        ╰ [71] ╭ VulnerabilityID : CVE-2023-7008 
+                        ╰ [72] ╭ VulnerabilityID : CVE-2023-7008 
                                ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                                ├ PkgName         : systemd-libs 
                                ├ InstalledVersion: 252-18.el9 
