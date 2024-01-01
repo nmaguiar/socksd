@@ -524,7 +524,7 @@
       DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f235d44953397dcdb7acf36444fe
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4156
-    Title: heap out of bound read in builtin.c
+    Title: 'gawk: heap out of bound read in builtin.c'
     Description: A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.
     Severity: LOW
     CweIDs:
@@ -3347,7 +3347,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3389,7 +3389,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
