@@ -541,8 +541,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H
         V3Score: 7.1
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L
-        V3Score: 4.4
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 6.1
     References:
     - https://access.redhat.com/security/cve/CVE-2023-4156
     - https://bugzilla.redhat.com/show_bug.cgi?id=2215930
@@ -3304,7 +3304,7 @@
     PkgID: sqlite-libs@3.34.1-6.el9_1.x86_64
     PkgName: sqlite-libs
     InstalledVersion: 3.34.1-6.el9_1
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:b9db5a6d2c19a374b5ef35a30828eaf4dc721468f49f94d2af355973ef5d0c29
       DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f235d44953397dcdb7acf36444fe
@@ -3328,6 +3328,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7104
     - https://sqlite.org/forum/forumpost/5bcbf4571c
     - https://sqlite.org/src/info/0e4e7a05c4204b47
+    - https://ubuntu.com/security/notices/USN-6566-1
     - https://vuldb.com/?ctiid.248999
     - https://vuldb.com/?id.248999
     - https://www.cve.org/CVERecord?id=CVE-2023-7104
@@ -3431,8 +3432,12 @@
     Description: Sudo before 1.9.15 might allow row hammer attacks (for authentication bypass or privilege escalation) because application logic sometimes is based on not equaling an error value (instead of equaling a success value), and because the values do not resist flips of a single bit.
     Severity: MEDIUM
     VendorSeverity:
+      nvd: 3
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
@@ -3447,7 +3452,7 @@
     - https://www.openwall.com/lists/oss-security/2023/12/21/9
     - https://www.sudo.ws/releases/changelog/
     PublishedDate: '2023-12-22T16:15:08.057Z'
-    LastModifiedDate: '2023-12-22T20:32:41.017Z'
+    LastModifiedDate: '2024-01-03T17:40:23.54Z'
   - VulnerabilityID: CVE-2021-3997
     PkgID: systemd-libs@252-18.el9.x86_64
     PkgName: systemd-libs
