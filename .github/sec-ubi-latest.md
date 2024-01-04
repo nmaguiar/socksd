@@ -603,8 +603,8 @@
                         │      │                  │        │           H/I:N/A:H 
                         │      │                  │        ╰ V3Score : 7.1 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           L/I:N/A:L 
-                        │      │                           ╰ V3Score : 4.4 
+                        │      │                           │           L/I:N/A:H 
+                        │      │                           ╰ V3Score : 6.1 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4156 
                         │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2215930 
                         │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
@@ -4210,7 +4210,7 @@
                         │      ├ PkgID           : sqlite-libs@3.34.1-6.el9_1.x86_64 
                         │      ├ PkgName         : sqlite-libs 
                         │      ├ InstalledVersion: 3.34.1-6.el9_1 
-                        │      ├ Status          : under_investigation 
+                        │      ├ Status          : affected 
                         │      ├ Layer            ╭ Digest: sha256:b9db5a6d2c19a374b5ef35a30828eaf4dc72146
                         │      │                  │         8f49f94d2af355973ef5d0c29 
                         │      │                  ╰ DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f23
@@ -4239,9 +4239,10 @@
                         │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-7104 
                         │      │                  ├ [3]: https://sqlite.org/forum/forumpost/5bcbf4571c 
                         │      │                  ├ [4]: https://sqlite.org/src/info/0e4e7a05c4204b47 
-                        │      │                  ├ [5]: https://vuldb.com/?ctiid.248999 
-                        │      │                  ├ [6]: https://vuldb.com/?id.248999 
-                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
+                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6566-1 
+                        │      │                  ├ [6]: https://vuldb.com/?ctiid.248999 
+                        │      │                  ├ [7]: https://vuldb.com/?id.248999 
+                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
                         │      ├ PublishedDate   : 2023-12-29T10:15:13.89Z 
                         │      ╰ LastModifiedDate: 2023-12-29T13:56:27.537Z 
                         ├ [68] ╭ VulnerabilityID : CVE-2023-28486 
@@ -4351,8 +4352,12 @@
                         │      │                   because the values do not resist flips of a single
                         │      │                   bit. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ─ redhat: 2 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
+                        │      ├ VendorSeverity   ╭ nvd   : 3 
+                        │      │                  ╰ redhat: 2 
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
+                        │      │                  │        │           H/I:H/A:H 
+                        │      │                  │        ╰ V3Score : 7 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:H 
                         │      │                           ╰ V3Score : 7 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42465 
@@ -4368,7 +4373,7 @@
                         │      │                  │      12/21/9 
                         │      │                  ╰ [8]: https://www.sudo.ws/releases/changelog/ 
                         │      ├ PublishedDate   : 2023-12-22T16:15:08.057Z 
-                        │      ╰ LastModifiedDate: 2023-12-22T20:32:41.017Z 
+                        │      ╰ LastModifiedDate: 2024-01-03T17:40:23.54Z 
                         ├ [71] ╭ VulnerabilityID : CVE-2021-3997 
                         │      ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │      ├ PkgName         : systemd-libs 
