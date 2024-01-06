@@ -4294,24 +4294,32 @@
                         │      │                   issue. The associated identifier of this vulnerability is
                         │      │                   VDB-248999. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-122 
-                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      ├ CweIDs           ╭ [0]: CWE-119 
+                        │      │                  ╰ [1]: CWE-122 
+                        │      ├ VendorSeverity   ╭ nvd   : 4 
+                        │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      │                  │        │           H/I:H/A:H 
+                        │      │                  │        ╰ V3Score : 9.8 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           L/I:L/A:L 
                         │      │                           ╰ V3Score : 5.5 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7104 
                         │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │      │                  │      E-2023-7104 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-7104 
-                        │      │                  ├ [3]: https://sqlite.org/forum/forumpost/5bcbf4571c 
-                        │      │                  ├ [4]: https://sqlite.org/src/info/0e4e7a05c4204b47 
-                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6566-1 
-                        │      │                  ├ [6]: https://vuldb.com/?ctiid.248999 
-                        │      │                  ├ [7]: https://vuldb.com/?id.248999 
-                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
+                        │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/pac
+                        │      │                  │      kage-announce@lists.fedoraproject.org/message/D6C2HN4T
+                        │      │                  │      2S6GYNTAUXLH45LQZHK7QPHP/ 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-7104 
+                        │      │                  ├ [4]: https://sqlite.org/forum/forumpost/5bcbf4571c 
+                        │      │                  ├ [5]: https://sqlite.org/src/info/0e4e7a05c4204b47 
+                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6566-1 
+                        │      │                  ├ [7]: https://vuldb.com/?ctiid.248999 
+                        │      │                  ├ [8]: https://vuldb.com/?id.248999 
+                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
                         │      ├ PublishedDate   : 2023-12-29T10:15:13.89Z 
-                        │      ╰ LastModifiedDate: 2023-12-29T13:56:27.537Z 
+                        │      ╰ LastModifiedDate: 2024-01-05T19:43:46.343Z 
                         ├ [69] ╭ VulnerabilityID : CVE-2023-28486 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
@@ -4328,7 +4336,7 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -4372,7 +4380,7 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
