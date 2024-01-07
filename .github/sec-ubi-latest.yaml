@@ -3371,10 +3371,14 @@
     - CWE-119
     - CWE-122
     VendorSeverity:
+      bitnami: 4
       nvd: 4
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 9.8
@@ -3410,7 +3414,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3452,7 +3456,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
