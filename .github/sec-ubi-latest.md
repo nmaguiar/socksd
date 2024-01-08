@@ -4309,21 +4309,24 @@
                         │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C
                         │      │                            │           :L/I:L/A:L 
                         │      │                            ╰ V3Score : 5.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7104 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-7104 
-                        │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce@lists.fedoraproject.org/message/D6C2HN4T
-                        │      │                  │      2S6GYNTAUXLH45LQZHK7QPHP/ 
-                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-7104 
-                        │      │                  ├ [4]: https://sqlite.org/forum/forumpost/5bcbf4571c 
-                        │      │                  ├ [5]: https://sqlite.org/src/info/0e4e7a05c4204b47 
-                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6566-1 
-                        │      │                  ├ [7]: https://vuldb.com/?ctiid.248999 
-                        │      │                  ├ [8]: https://vuldb.com/?id.248999 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-7104 
+                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-7104 
+                        │      │                  ├ [2] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/AYONA2
+                        │      │                  │       XSNFMXLAW4IHLFI5UVV3QRNG5K/ 
+                        │      │                  ├ [3] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/D6C2HN
+                        │      │                  │       4T2S6GYNTAUXLH45LQZHK7QPHP/ 
+                        │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2023-7104 
+                        │      │                  ├ [5] : https://sqlite.org/forum/forumpost/5bcbf4571c 
+                        │      │                  ├ [6] : https://sqlite.org/src/info/0e4e7a05c4204b47 
+                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6566-1 
+                        │      │                  ├ [8] : https://vuldb.com/?ctiid.248999 
+                        │      │                  ├ [9] : https://vuldb.com/?id.248999 
+                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
                         │      ├ PublishedDate   : 2023-12-29T10:15:13.89Z 
-                        │      ╰ LastModifiedDate: 2024-01-05T19:43:46.343Z 
+                        │      ╰ LastModifiedDate: 2024-01-07T02:15:44.077Z 
                         ├ [69] ╭ VulnerabilityID : CVE-2023-28486 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
