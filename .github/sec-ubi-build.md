@@ -327,6 +327,7 @@
                         │      │                  ├ ghsa       : 3 
                         │      │                  ├ nvd        : 4 
                         │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ photon     : 4 
                         │      │                  ╰ redhat     : 1 
                         │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                  │        │           N/I:H/A:N 
@@ -508,7 +509,8 @@
                         │      │                    a PSL domain.
                         │      │                    
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ nvd   : 2 
                         │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
@@ -728,7 +730,9 @@
                         │      │                   padding. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ nvd   : 2 
+                        │      │                  ├ photon: 2 
                         │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
@@ -747,7 +751,8 @@
                         │      │                  │      3-November/004837.html 
                         │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-5981 
                         │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6499-1 
-                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
+                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6499-2 
+                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
                         │      ├ PublishedDate   : 2023-11-28T12:15:07.04Z 
                         │      ╰ LastModifiedDate: 2023-12-11T09:15:06.907Z 
                         ├ [15] ╭ VulnerabilityID : CVE-2023-30571 
@@ -820,7 +825,8 @@
                         │      │                    a PSL domain.
                         │      │                    
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ nvd   : 2 
                         │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
@@ -1063,7 +1069,8 @@
                         │      │                   segmentation fault via the component
                         │      │                   _nc_wrap_entry(). 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ nvd   : 2 
                         │      │                  ╰ redhat: 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           N/I:N/A:H 
@@ -1147,7 +1154,8 @@
                         │      │                   segmentation fault via the component
                         │      │                   _nc_wrap_entry(). 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ nvd   : 2 
                         │      │                  ╰ redhat: 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           N/I:N/A:H 
@@ -4297,18 +4305,18 @@
                         │      ├ CweIDs           ╭ [0]: CWE-119 
                         │      │                  ╰ [1]: CWE-122 
                         │      ├ VendorSeverity   ╭ bitnami: 4 
-                        │      │                  ├ nvd    : 4 
+                        │      │                  ├ nvd    : 3 
                         │      │                  ├ redhat : 2 
                         │      │                  ╰ ubuntu : 2 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │      │                  │         │           :H/I:H/A:H 
                         │      │                  │         ╰ V3Score : 9.8 
                         │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-                        │      │                  │         │           :H/I:H/A:H 
-                        │      │                  │         ╰ V3Score : 9.8 
-                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C
+                        │      │                  │         │           :L/I:L/A:L 
+                        │      │                  │         ╰ V3Score : 7.3 
+                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │      │                            │           :L/I:L/A:L 
-                        │      │                            ╰ V3Score : 5.5 
+                        │      │                            ╰ V3Score : 7.3 
                         │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-7104 
                         │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-7104 
@@ -4326,7 +4334,7 @@
                         │      │                  ├ [9] : https://vuldb.com/?id.248999 
                         │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
                         │      ├ PublishedDate   : 2023-12-29T10:15:13.89Z 
-                        │      ╰ LastModifiedDate: 2024-01-07T02:15:44.077Z 
+                        │      ╰ LastModifiedDate: 2024-01-08T17:46:29.51Z 
                         ├ [69] ╭ VulnerabilityID : CVE-2023-28486 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
@@ -4587,7 +4595,8 @@
                                │                    allow an attacker to cause an application crash, resulting
                                │                   in a denial of service. 
                                ├ Severity        : LOW 
-                               ├ VendorSeverity   ╭ redhat: 1 
+                               ├ VendorSeverity   ╭ amazon: 1 
+                               │                  ├ redhat: 1 
                                │                  ╰ ubuntu: 2 
                                ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
                                │                           │           N/I:N/A:L 
