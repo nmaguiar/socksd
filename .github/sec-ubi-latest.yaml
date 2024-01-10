@@ -789,7 +789,9 @@
     - https://access.redhat.com/security/cve/CVE-2022-27943
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
+    - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=1a770b01ef415e114164b6151d1e55acdee09371
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
+    - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=fc968115a742d9e4674d9725ce9c2106b91b6ead
     - https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-27943
@@ -830,7 +832,9 @@
     - https://access.redhat.com/security/cve/CVE-2022-27943
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
+    - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=1a770b01ef415e114164b6151d1e55acdee09371
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
+    - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=fc968115a742d9e4674d9725ce9c2106b91b6ead
     - https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-27943
@@ -926,38 +930,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-4899
     PublishedDate: '2023-03-31T20:15:07.213Z'
     LastModifiedDate: '2023-11-07T03:59:16.09Z'
-  - VulnerabilityID: CVE-2023-50495
-    PkgID: ncurses-base@6.2-10.20210508.el9.noarch
-    PkgName: ncurses-base
-    InstalledVersion: 6.2-10.20210508.el9
-    Status: affected
-    Layer:
-      Digest: sha256:b9db5a6d2c19a374b5ef35a30828eaf4dc721468f49f94d2af355973ef5d0c29
-      DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f235d44953397dcdb7acf36444fe
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
-    Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
-    Description: NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 2
-      nvd: 2
-      redhat: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-50495
-    - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
-    - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-50495
-    - https://www.cve.org/CVERecord?id=CVE-2023-50495
-    PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2023-12-18T18:30:24.743Z'
   - VulnerabilityID: CVE-2022-29458
     PkgID: ncurses-base@6.2-10.20210508.el9.noarch
     PkgName: ncurses-base
@@ -1006,8 +978,8 @@
     PublishedDate: '2022-04-18T21:15:07.6Z'
     LastModifiedDate: '2023-11-07T03:46:02.1Z'
   - VulnerabilityID: CVE-2023-50495
-    PkgID: ncurses-libs@6.2-10.20210508.el9.x86_64
-    PkgName: ncurses-libs
+    PkgID: ncurses-base@6.2-10.20210508.el9.noarch
+    PkgName: ncurses-base
     InstalledVersion: 6.2-10.20210508.el9
     Status: affected
     Layer:
@@ -1017,11 +989,11 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
     Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
     Description: NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().
-    Severity: MEDIUM
+    Severity: LOW
     VendorSeverity:
       amazon: 2
       nvd: 2
-      redhat: 2
+      redhat: 1
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -1084,6 +1056,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-29458
     PublishedDate: '2022-04-18T21:15:07.6Z'
     LastModifiedDate: '2023-11-07T03:46:02.1Z'
+  - VulnerabilityID: CVE-2023-50495
+    PkgID: ncurses-libs@6.2-10.20210508.el9.x86_64
+    PkgName: ncurses-libs
+    InstalledVersion: 6.2-10.20210508.el9
+    Status: affected
+    Layer:
+      Digest: sha256:b9db5a6d2c19a374b5ef35a30828eaf4dc721468f49f94d2af355973ef5d0c29
+      DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f235d44953397dcdb7acf36444fe
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
+    Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
+    Description: NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().
+    Severity: LOW
+    VendorSeverity:
+      amazon: 2
+      nvd: 2
+      redhat: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-50495
+    - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
+    - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-50495
+    - https://www.cve.org/CVERecord?id=CVE-2023-50495
+    PublishedDate: '2023-12-12T15:15:07.867Z'
+    LastModifiedDate: '2023-12-18T18:30:24.743Z'
   - VulnerabilityID: CVE-2023-5388
     PkgID: nspr@4.35.0-3.el9_2.x86_64
     PkgName: nspr
@@ -3379,14 +3383,14 @@
     - CWE-119
     - CWE-122
     VendorSeverity:
-      bitnami: 4
+      bitnami: 3
       nvd: 3
       redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 7.3
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 7.3
@@ -3423,7 +3427,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3465,7 +3469,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
