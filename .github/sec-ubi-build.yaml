@@ -663,6 +663,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:0155
     - https://access.redhat.com/security/cve/CVE-2023-5981
     - https://bugzilla.redhat.com/show_bug.cgi?id=2248445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5981
@@ -673,7 +674,7 @@
     - https://ubuntu.com/security/notices/USN-6499-2
     - https://www.cve.org/CVERecord?id=CVE-2023-5981
     PublishedDate: '2023-11-28T12:15:07.04Z'
-    LastModifiedDate: '2023-12-11T09:15:06.907Z'
+    LastModifiedDate: '2024-01-10T21:15:09.23Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1089,10 +1090,13 @@
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2023-12-18T18:30:24.743Z'
   - VulnerabilityID: CVE-2023-5388
+    VendorIDs:
+    - RHSA-2024:0108
     PkgID: nspr@4.35.0-3.el9_2.x86_64
     PkgName: nspr
     InstalledVersion: 4.35.0-3.el9_2
-    Status: affected
+    FixedVersion: 4.35.0-4.el9_3
+    Status: fixed
     Layer:
       Digest: sha256:3e87be94595595fc34771b99b5a042247c9157b674260130009a3adf755a2335
       DiffID: sha256:91af418e6ee04cb5e80a4ef6181d99a969a2165a3f0f5a887205cc3bccaa7471
@@ -1149,10 +1153,13 @@
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
   - VulnerabilityID: CVE-2023-5388
+    VendorIDs:
+    - RHSA-2024:0108
     PkgID: nss@3.90.0-3.el9_2.x86_64
     PkgName: nss
     InstalledVersion: 3.90.0-3.el9_2
-    Status: affected
+    FixedVersion: 3.90.0-4.el9_3
+    Status: fixed
     Layer:
       Digest: sha256:3e87be94595595fc34771b99b5a042247c9157b674260130009a3adf755a2335
       DiffID: sha256:91af418e6ee04cb5e80a4ef6181d99a969a2165a3f0f5a887205cc3bccaa7471
@@ -1209,10 +1216,13 @@
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
   - VulnerabilityID: CVE-2023-5388
+    VendorIDs:
+    - RHSA-2024:0108
     PkgID: nss-softokn@3.90.0-3.el9_2.x86_64
     PkgName: nss-softokn
     InstalledVersion: 3.90.0-3.el9_2
-    Status: affected
+    FixedVersion: 3.90.0-4.el9_3
+    Status: fixed
     Layer:
       Digest: sha256:3e87be94595595fc34771b99b5a042247c9157b674260130009a3adf755a2335
       DiffID: sha256:91af418e6ee04cb5e80a4ef6181d99a969a2165a3f0f5a887205cc3bccaa7471
@@ -1269,10 +1279,13 @@
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
   - VulnerabilityID: CVE-2023-5388
+    VendorIDs:
+    - RHSA-2024:0108
     PkgID: nss-softokn-freebl@3.90.0-3.el9_2.x86_64
     PkgName: nss-softokn-freebl
     InstalledVersion: 3.90.0-3.el9_2
-    Status: affected
+    FixedVersion: 3.90.0-4.el9_3
+    Status: fixed
     Layer:
       Digest: sha256:3e87be94595595fc34771b99b5a042247c9157b674260130009a3adf755a2335
       DiffID: sha256:91af418e6ee04cb5e80a4ef6181d99a969a2165a3f0f5a887205cc3bccaa7471
@@ -1329,10 +1342,13 @@
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
   - VulnerabilityID: CVE-2023-5388
+    VendorIDs:
+    - RHSA-2024:0108
     PkgID: nss-sysinit@3.90.0-3.el9_2.x86_64
     PkgName: nss-sysinit
     InstalledVersion: 3.90.0-3.el9_2
-    Status: affected
+    FixedVersion: 3.90.0-4.el9_3
+    Status: fixed
     Layer:
       Digest: sha256:3e87be94595595fc34771b99b5a042247c9157b674260130009a3adf755a2335
       DiffID: sha256:91af418e6ee04cb5e80a4ef6181d99a969a2165a3f0f5a887205cc3bccaa7471
@@ -1389,10 +1405,13 @@
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
   - VulnerabilityID: CVE-2023-5388
+    VendorIDs:
+    - RHSA-2024:0108
     PkgID: nss-util@3.90.0-3.el9_2.x86_64
     PkgName: nss-util
     InstalledVersion: 3.90.0-3.el9_2
-    Status: affected
+    FixedVersion: 3.90.0-4.el9_3
+    Status: fixed
     Layer:
       Digest: sha256:3e87be94595595fc34771b99b5a042247c9157b674260130009a3adf755a2335
       DiffID: sha256:91af418e6ee04cb5e80a4ef6181d99a969a2165a3f0f5a887205cc3bccaa7471
@@ -1897,6 +1916,70 @@
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:42.67Z'
     LastModifiedDate: '2023-11-30T22:15:09.723Z'
+  - VulnerabilityID: CVE-2023-6129
+    PkgID: openssl@3.0.7-24.el9.x86_64
+    PkgName: openssl
+    InstalledVersion: 1:3.0.7-24.el9
+    Status: affected
+    Layer:
+      Digest: sha256:3e87be94595595fc34771b99b5a042247c9157b674260130009a3adf755a2335
+      DiffID: sha256:91af418e6ee04cb5e80a4ef6181d99a969a2165a3f0f5a887205cc3bccaa7471
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6129
+    Title: 'openssl: POLY1305 MAC implementation corrupts vector registers on PowerPC'
+    Description: |-
+      Issue summary: The POLY1305 MAC (message authentication code) implementation
+      contains a bug that might corrupt the internal state of applications running
+      on PowerPC CPU based platforms if the CPU provides vector instructions.
+
+      Impact summary: If an attacker can influence whether the POLY1305 MAC
+      algorithm is used, the application state might be corrupted with various
+      application dependent consequences.
+
+      The POLY1305 MAC (message authentication code) implementation in OpenSSL for
+      PowerPC CPUs restores the contents of vector registers in a different order
+      than they are saved. Thus the contents of some of these vector registers
+      are corrupted when returning to the caller. The vulnerable code is used only
+      on newer PowerPC processors supporting the PowerISA 2.07 instructions.
+
+      The consequences of this kind of internal application state corruption can
+      be various - from no consequences, if the calling application does not
+      depend on the contents of non-volatile XMM registers at all, to the worst
+      consequences, where the attacker could get complete control of the application
+      process. However unless the compiler uses the vector registers for storing
+      pointers, the most likely consequence, if any, would be an incorrect result
+      of some application dependent calculations or a crash leading to a denial of
+      service.
+
+      The POLY1305 MAC algorithm is most frequently used as part of the
+      CHACHA20-POLY1305 AEAD (authenticated encryption with associated data)
+      algorithm. The most common usage of this AEAD cipher is with TLS protocol
+      versions 1.2 and 1.3. If this cipher is enabled on the server a malicious
+      client can influence whether this AEAD cipher is used. This implies that
+      TLS server applications using OpenSSL can be potentially impacted. However
+      we are currently not aware of any concrete application that would be affected
+      by this issue therefore we consider this a Low severity security issue.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/01/09/1
+    - https://access.redhat.com/security/cve/CVE-2023-6129
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
+    - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
+    - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
+    - https://github.com/openssl/openssl/commit/f3fc5808fe9ff74042d639839610d03b8fdcc015
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6129
+    - https://www.cve.org/CVERecord?id=CVE-2023-6129
+    - https://www.openssl.org/news/secadv/20240109.txt
+    - https://www.openwall.com/lists/oss-security/2024/01/09/1
+    PublishedDate: '2024-01-09T17:15:12.147Z'
+    LastModifiedDate: '2024-01-09T19:56:14.023Z'
   - VulnerabilityID: CVE-2023-5363
     PkgID: openssl-libs@3.0.7-24.el9.x86_64
     PkgName: openssl-libs
@@ -2298,6 +2381,70 @@
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:42.67Z'
     LastModifiedDate: '2023-11-30T22:15:09.723Z'
+  - VulnerabilityID: CVE-2023-6129
+    PkgID: openssl-libs@3.0.7-24.el9.x86_64
+    PkgName: openssl-libs
+    InstalledVersion: 1:3.0.7-24.el9
+    Status: affected
+    Layer:
+      Digest: sha256:3e87be94595595fc34771b99b5a042247c9157b674260130009a3adf755a2335
+      DiffID: sha256:91af418e6ee04cb5e80a4ef6181d99a969a2165a3f0f5a887205cc3bccaa7471
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6129
+    Title: 'openssl: POLY1305 MAC implementation corrupts vector registers on PowerPC'
+    Description: |-
+      Issue summary: The POLY1305 MAC (message authentication code) implementation
+      contains a bug that might corrupt the internal state of applications running
+      on PowerPC CPU based platforms if the CPU provides vector instructions.
+
+      Impact summary: If an attacker can influence whether the POLY1305 MAC
+      algorithm is used, the application state might be corrupted with various
+      application dependent consequences.
+
+      The POLY1305 MAC (message authentication code) implementation in OpenSSL for
+      PowerPC CPUs restores the contents of vector registers in a different order
+      than they are saved. Thus the contents of some of these vector registers
+      are corrupted when returning to the caller. The vulnerable code is used only
+      on newer PowerPC processors supporting the PowerISA 2.07 instructions.
+
+      The consequences of this kind of internal application state corruption can
+      be various - from no consequences, if the calling application does not
+      depend on the contents of non-volatile XMM registers at all, to the worst
+      consequences, where the attacker could get complete control of the application
+      process. However unless the compiler uses the vector registers for storing
+      pointers, the most likely consequence, if any, would be an incorrect result
+      of some application dependent calculations or a crash leading to a denial of
+      service.
+
+      The POLY1305 MAC algorithm is most frequently used as part of the
+      CHACHA20-POLY1305 AEAD (authenticated encryption with associated data)
+      algorithm. The most common usage of this AEAD cipher is with TLS protocol
+      versions 1.2 and 1.3. If this cipher is enabled on the server a malicious
+      client can influence whether this AEAD cipher is used. This implies that
+      TLS server applications using OpenSSL can be potentially impacted. However
+      we are currently not aware of any concrete application that would be affected
+      by this issue therefore we consider this a Low severity security issue.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/01/09/1
+    - https://access.redhat.com/security/cve/CVE-2023-6129
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
+    - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
+    - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
+    - https://github.com/openssl/openssl/commit/f3fc5808fe9ff74042d639839610d03b8fdcc015
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6129
+    - https://www.cve.org/CVERecord?id=CVE-2023-6129
+    - https://www.openssl.org/news/secadv/20240109.txt
+    - https://www.openwall.com/lists/oss-security/2024/01/09/1
+    PublishedDate: '2024-01-09T17:15:12.147Z'
+    LastModifiedDate: '2024-01-09T19:56:14.023Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python-unversioned-command@3.9.18-1.el9_3.noarch
     PkgName: python-unversioned-command
@@ -3427,7 +3574,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3469,7 +3616,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3586,6 +3733,7 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
+      cbl-mariner: 2
       nvd: 2
       redhat: 2
     CVSS:
