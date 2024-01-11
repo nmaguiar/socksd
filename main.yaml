@@ -61,7 +61,7 @@ jobs:
     if (isDef(args.INITOJOB)) {
       log("Running " + args.INITOJOB + "...")
       var _args = af.fromSLON(args.INITOJOBARGS)
-      var _txtArgs = Object.keys(_args).map(k => k + (isNumber(_args[k]) ? "=" + _args[k] : "=\"" + _args[k] + "\""))
+      var _txtArgs = Object.keys(_args).map(k => k + "=" + _args[k] )
       $do(() => $sh([ getOpenAFPath() + "/ojob", args.INITOJOB ].concat(_txtArgs)).exec() )
     }
 
