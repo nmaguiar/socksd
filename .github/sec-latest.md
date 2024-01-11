@@ -16,8 +16,8 @@
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
                         │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │     ├ Title           : Issue summary: The POLY1305 MAC (message authentication
-                        │     │                   code) implemen ... 
+                        │     ├ Title           : openssl: POLY1305 MAC implementation corrupts vector
+                        │     │                   registers on PowerPC 
                         │     ├ Description     : Issue summary: The POLY1305 MAC (message authentication
                         │     │                   code) implementation
                         │     │                   contains a bug that might corrupt the internal state of
@@ -74,18 +74,27 @@
                         │     │                   would be affected
                         │     │                   by this issue therefore we consider this a Low severity
                         │     │                   security issue. 
-                        │     ├ Severity        : LOW 
-                        │     ├ VendorSeverity   ─ ubuntu: 1 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ VendorSeverity   ╭ redhat: 1 
+                        │     │                  ╰ ubuntu: 1 
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
+                        │     │                           │           /I:N/A:H 
+                        │     │                           ╰ V3Score : 5.9 
                         │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/01/09/1 
-                        │     │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-6129 
+                        │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                         │     │                  │      -2023-6129 
-                        │     │                  ├ [2]: https://github.com/openssl/openssl/commit/050d2638
+                        │     │                  ├ [3]: https://github.com/openssl/openssl/commit/050d2638
                         │     │                  │      3d4e264966fb83428e72d5d48f402d35 
-                        │     │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f95
+                        │     │                  ├ [4]: https://github.com/openssl/openssl/commit/5b139f95
                         │     │                  │      c9a47a55a0c54100f3837b1eee942b04 
-                        │     │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc5808
+                        │     │                  ├ [5]: https://github.com/openssl/openssl/commit/f3fc5808
                         │     │                  │      fe9ff74042d639839610d03b8fdcc015 
-                        │     │                  ╰ [5]: https://www.openssl.org/news/secadv/20240109.txt 
+                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
+                        │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
+                        │     │                  ├ [8]: https://www.openssl.org/news/secadv/20240109.txt 
+                        │     │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/0
+                        │     │                         1/09/1 
                         │     ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
                         │     ╰ LastModifiedDate: 2024-01-09T19:56:14.023Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-6129 
@@ -102,8 +111,8 @@
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
                         │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │     ├ Title           : Issue summary: The POLY1305 MAC (message authentication
-                        │     │                   code) implemen ... 
+                        │     ├ Title           : openssl: POLY1305 MAC implementation corrupts vector
+                        │     │                   registers on PowerPC 
                         │     ├ Description     : Issue summary: The POLY1305 MAC (message authentication
                         │     │                   code) implementation
                         │     │                   contains a bug that might corrupt the internal state of
@@ -160,18 +169,27 @@
                         │     │                   would be affected
                         │     │                   by this issue therefore we consider this a Low severity
                         │     │                   security issue. 
-                        │     ├ Severity        : LOW 
-                        │     ├ VendorSeverity   ─ ubuntu: 1 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ VendorSeverity   ╭ redhat: 1 
+                        │     │                  ╰ ubuntu: 1 
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
+                        │     │                           │           /I:N/A:H 
+                        │     │                           ╰ V3Score : 5.9 
                         │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/01/09/1 
-                        │     │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-6129 
+                        │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                         │     │                  │      -2023-6129 
-                        │     │                  ├ [2]: https://github.com/openssl/openssl/commit/050d2638
+                        │     │                  ├ [3]: https://github.com/openssl/openssl/commit/050d2638
                         │     │                  │      3d4e264966fb83428e72d5d48f402d35 
-                        │     │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f95
+                        │     │                  ├ [4]: https://github.com/openssl/openssl/commit/5b139f95
                         │     │                  │      c9a47a55a0c54100f3837b1eee942b04 
-                        │     │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc5808
+                        │     │                  ├ [5]: https://github.com/openssl/openssl/commit/f3fc5808
                         │     │                  │      fe9ff74042d639839610d03b8fdcc015 
-                        │     │                  ╰ [5]: https://www.openssl.org/news/secadv/20240109.txt 
+                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
+                        │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
+                        │     │                  ├ [8]: https://www.openssl.org/news/secadv/20240109.txt 
+                        │     │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/0
+                        │     │                         1/09/1 
                         │     ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
                         │     ╰ LastModifiedDate: 2024-01-09T19:56:14.023Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-6129 
@@ -188,8 +206,8 @@
                               ├ DataSource       ╭ ID  : alpine 
                               │                  ├ Name: Alpine Secdb 
                               │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                              ├ Title           : Issue summary: The POLY1305 MAC (message authentication
-                              │                   code) implemen ... 
+                              ├ Title           : openssl: POLY1305 MAC implementation corrupts vector
+                              │                   registers on PowerPC 
                               ├ Description     : Issue summary: The POLY1305 MAC (message authentication
                               │                   code) implementation
                               │                   contains a bug that might corrupt the internal state of
@@ -246,18 +264,27 @@
                               │                   would be affected
                               │                   by this issue therefore we consider this a Low severity
                               │                   security issue. 
-                              ├ Severity        : LOW 
-                              ├ VendorSeverity   ─ ubuntu: 1 
+                              ├ Severity        : MEDIUM 
+                              ├ VendorSeverity   ╭ redhat: 1 
+                              │                  ╰ ubuntu: 1 
+                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
+                              │                           │           /I:N/A:H 
+                              │                           ╰ V3Score : 5.9 
                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/01/09/1 
-                              │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-6129 
+                              │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                               │                  │      -2023-6129 
-                              │                  ├ [2]: https://github.com/openssl/openssl/commit/050d2638
+                              │                  ├ [3]: https://github.com/openssl/openssl/commit/050d2638
                               │                  │      3d4e264966fb83428e72d5d48f402d35 
-                              │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f95
+                              │                  ├ [4]: https://github.com/openssl/openssl/commit/5b139f95
                               │                  │      c9a47a55a0c54100f3837b1eee942b04 
-                              │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc5808
+                              │                  ├ [5]: https://github.com/openssl/openssl/commit/f3fc5808
                               │                  │      fe9ff74042d639839610d03b8fdcc015 
-                              │                  ╰ [5]: https://www.openssl.org/news/secadv/20240109.txt 
+                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
+                              │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
+                              │                  ├ [8]: https://www.openssl.org/news/secadv/20240109.txt 
+                              │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/0
+                              │                         1/09/1 
                               ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
                               ╰ LastModifiedDate: 2024-01-09T19:56:14.023Z 
 ````
