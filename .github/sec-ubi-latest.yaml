@@ -3633,7 +3633,16 @@
       Digest: sha256:b9db5a6d2c19a374b5ef35a30828eaf4dc721468f49f94d2af355973ef5d0c29
       DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f235d44953397dcdb7acf36444fe
     SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0232
+    Title: 'sqlite: use-after-free bug in jsonParseAddNodeArray'
+    Description: No description is available for this CVE.
     Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-0232
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0232
+    - https://www.cve.org/CVERecord?id=CVE-2024-0232
   - VulnerabilityID: CVE-2023-28486
     PkgID: sudo@1.9.5p2-9.el9.x86_64
     PkgName: sudo
@@ -3650,7 +3659,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3692,7 +3701,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
