@@ -4655,7 +4655,14 @@
                         │      │                  ╰ DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f23
                         │      │                            5d44953397dcdb7acf36444fe 
                         │      ├ SeveritySource  : redhat 
-                        │      ╰ Severity        : LOW 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0232 
+                        │      ├ Title           : sqlite: use-after-free bug in jsonParseAddNodeArray 
+                        │      ├ Description     : No description is available for this CVE. 
+                        │      ├ Severity        : LOW 
+                        │      ├ VendorSeverity   ─ redhat: 1 
+                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-0232 
+                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-0232 
+                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
                         ├ [72] ╭ VulnerabilityID : CVE-2023-28486 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
@@ -4672,7 +4679,7 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -4716,7 +4723,7 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
