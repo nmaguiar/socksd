@@ -8,10 +8,10 @@
                         │     ├ InstalledVersion: 3.1.4-r2 
                         │     ├ FixedVersion    : 3.1.4-r3 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:f4510fc3539f02c79c9ff1756469464124dee231
-                        │     │                  │         8a4e6e4a0e2786634fecd1a8 
-                        │     │                  ╰ DiffID: sha256:ed7b02083d14dbef1d9bc259c37eeda50ae13a49
-                        │     │                            02561d8e5d817042550f006b 
+                        │     ├ Layer            ╭ Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26
+                        │     │                  │         cca38fbbecc519f15e626a4f 
+                        │     │                  ╰ DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a
+                        │     │                            1765978b60ecb776462bdcce 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6129 
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
@@ -103,10 +103,10 @@
                         │     ├ InstalledVersion: 3.1.4-r2 
                         │     ├ FixedVersion    : 3.1.4-r3 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:f4510fc3539f02c79c9ff1756469464124dee231
-                        │     │                  │         8a4e6e4a0e2786634fecd1a8 
-                        │     │                  ╰ DiffID: sha256:ed7b02083d14dbef1d9bc259c37eeda50ae13a49
-                        │     │                            02561d8e5d817042550f006b 
+                        │     ├ Layer            ╭ Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26
+                        │     │                  │         cca38fbbecc519f15e626a4f 
+                        │     │                  ╰ DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a
+                        │     │                            1765978b60ecb776462bdcce 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6129 
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
@@ -198,10 +198,10 @@
                               ├ InstalledVersion: 3.1.4-r2 
                               ├ FixedVersion    : 3.1.4-r3 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:f4510fc3539f02c79c9ff1756469464124dee231
-                              │                  │         8a4e6e4a0e2786634fecd1a8 
-                              │                  ╰ DiffID: sha256:ed7b02083d14dbef1d9bc259c37eeda50ae13a49
-                              │                            02561d8e5d817042550f006b 
+                              ├ Layer            ╭ Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26
+                              │                  │         cca38fbbecc519f15e626a4f 
+                              │                  ╰ DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a
+                              │                            1765978b60ecb776462bdcce 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6129 
                               ├ DataSource       ╭ ID  : alpine 
                               │                  ├ Name: Alpine Secdb 
