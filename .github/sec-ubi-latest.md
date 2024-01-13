@@ -438,7 +438,7 @@
                         │      │                  ├ [9] : https://groups.google.com/a/mozilla.org/g/dev-se
                         │      │                  │       curity-policy/c/C-HrP1SEq1A 
                         │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-37920.html 
-                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2023-7753.html 
+                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-0133.html 
                         │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/5EX6NG
                         │      │                  │       7WUFNUKGFHLM35KHHU3GAKXRTG/ 
@@ -729,7 +729,8 @@
                         │      │                   of glib developers to backport the initial fix for
                         │      │                   CVE-2023-29499. 
                         │      ├ Severity        : LOW 
-                        │      ├ CweIDs           ─ [0]: CWE-400 
+                        │      ├ CweIDs           ╭ [0]: CWE-502 
+                        │      │                  ╰ [1]: CWE-400 
                         │      ├ VendorSeverity   ╭ nvd   : 3 
                         │      │                  ├ photon: 3 
                         │      │                  ├ redhat: 1 
@@ -754,7 +755,7 @@
                         │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6165-2 
                         │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-32636 
                         │      ├ PublishedDate   : 2023-09-14T20:15:09.653Z 
-                        │      ╰ LastModifiedDate: 2023-11-10T18:15:07.903Z 
+                        │      ╰ LastModifiedDate: 2024-01-12T22:09:56.247Z 
                         ├ [13] ╭ VulnerabilityID : CVE-2022-3219 
                         │      ├ PkgID           : gnupg2@2.3.3-4.el9.x86_64 
                         │      ├ PkgName         : gnupg2 
@@ -815,7 +816,8 @@
                         │      │                   padding. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
-                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      ├ VendorSeverity   ╭ alma  : 2 
+                        │      │                  ├ amazon: 2 
                         │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
                         │      │                  ├ redhat: 2 
@@ -826,19 +828,21 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.9 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:0155 
-                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-5981 
-                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2248445 
-                        │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-5981 
-                        │      │                  ├ [4]: https://gnutls.org/security-new.html#GNUTLS-SA-20
-                        │      │                  │      23-10-23 
-                        │      │                  ├ [5]: https://lists.gnupg.org/pipermail/gnutls-help/202
-                        │      │                  │      3-November/004837.html 
-                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5981 
-                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6499-1 
-                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6499-2 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0155 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-5981 
+                        │      │                  ├ [2] : https://bugzilla.redhat.com/2248445 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2248445 
+                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-5981 
+                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0155.html 
+                        │      │                  ├ [6] : https://gnutls.org/security-new.html#GNUTLS-SA-2
+                        │      │                  │       023-10-23 
+                        │      │                  ├ [7] : https://lists.gnupg.org/pipermail/gnutls-help/20
+                        │      │                  │       23-November/004837.html 
+                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-5981 
+                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6499-1 
+                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6499-2 
+                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
                         │      ├ PublishedDate   : 2023-11-28T12:15:07.04Z 
                         │      ╰ LastModifiedDate: 2024-01-10T21:15:09.23Z 
                         ├ [15] ╭ VulnerabilityID : CVE-2023-30571 
@@ -1340,17 +1344,24 @@
                         │      │                   padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level
                         │      │                    calls and TLS server operation are affected. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5388 
-                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      ╰ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:0108 
+                        │                         ├ [1]: https://access.redhat.com/security/cve/CVE-2023-5388 
+                        │                         ├ [2]: https://bugzilla.redhat.com/2243644 
+                        │                         ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │                         │      E-2023-5388 
-                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
-                        │                         ├ [3]: https://people.redhat.com/~hkario/marvin/ 
-                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
+                        │                         ├ [4]: https://errata.almalinux.org/9/ALSA-2024-0108.html 
+                        │                         ├ [5]: https://linux.oracle.com/cve/CVE-2023-5388.html 
+                        │                         ├ [6]: https://linux.oracle.com/errata/ELSA-2024-0108.html 
+                        │                         ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
+                        │                         ├ [8]: https://people.redhat.com/~hkario/marvin/ 
+                        │                         ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
                         ├ [26] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nspr@4.35.0-3.el9_2.x86_64 
                         │      ├ PkgName         : nspr 
@@ -1410,17 +1421,24 @@
                         │      │                   padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level
                         │      │                    calls and TLS server operation are affected. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5388 
-                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      ╰ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:0108 
+                        │                         ├ [1]: https://access.redhat.com/security/cve/CVE-2023-5388 
+                        │                         ├ [2]: https://bugzilla.redhat.com/2243644 
+                        │                         ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │                         │      E-2023-5388 
-                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
-                        │                         ├ [3]: https://people.redhat.com/~hkario/marvin/ 
-                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
+                        │                         ├ [4]: https://errata.almalinux.org/9/ALSA-2024-0108.html 
+                        │                         ├ [5]: https://linux.oracle.com/cve/CVE-2023-5388.html 
+                        │                         ├ [6]: https://linux.oracle.com/errata/ELSA-2024-0108.html 
+                        │                         ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
+                        │                         ├ [8]: https://people.redhat.com/~hkario/marvin/ 
+                        │                         ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
                         ├ [28] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss@3.90.0-3.el9_2.x86_64 
                         │      ├ PkgName         : nss 
@@ -1480,17 +1498,24 @@
                         │      │                   padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level
                         │      │                    calls and TLS server operation are affected. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5388 
-                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      ╰ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:0108 
+                        │                         ├ [1]: https://access.redhat.com/security/cve/CVE-2023-5388 
+                        │                         ├ [2]: https://bugzilla.redhat.com/2243644 
+                        │                         ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │                         │      E-2023-5388 
-                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
-                        │                         ├ [3]: https://people.redhat.com/~hkario/marvin/ 
-                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
+                        │                         ├ [4]: https://errata.almalinux.org/9/ALSA-2024-0108.html 
+                        │                         ├ [5]: https://linux.oracle.com/cve/CVE-2023-5388.html 
+                        │                         ├ [6]: https://linux.oracle.com/errata/ELSA-2024-0108.html 
+                        │                         ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
+                        │                         ├ [8]: https://people.redhat.com/~hkario/marvin/ 
+                        │                         ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
                         ├ [30] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss-softokn@3.90.0-3.el9_2.x86_64 
                         │      ├ PkgName         : nss-softokn 
@@ -1550,17 +1575,24 @@
                         │      │                   padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level
                         │      │                    calls and TLS server operation are affected. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5388 
-                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      ╰ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:0108 
+                        │                         ├ [1]: https://access.redhat.com/security/cve/CVE-2023-5388 
+                        │                         ├ [2]: https://bugzilla.redhat.com/2243644 
+                        │                         ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │                         │      E-2023-5388 
-                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
-                        │                         ├ [3]: https://people.redhat.com/~hkario/marvin/ 
-                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
+                        │                         ├ [4]: https://errata.almalinux.org/9/ALSA-2024-0108.html 
+                        │                         ├ [5]: https://linux.oracle.com/cve/CVE-2023-5388.html 
+                        │                         ├ [6]: https://linux.oracle.com/errata/ELSA-2024-0108.html 
+                        │                         ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
+                        │                         ├ [8]: https://people.redhat.com/~hkario/marvin/ 
+                        │                         ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
                         ├ [32] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss-softokn-freebl@3.90.0-3.el9_2.x86_64 
                         │      ├ PkgName         : nss-softokn-freebl 
@@ -1620,17 +1652,24 @@
                         │      │                   padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level
                         │      │                    calls and TLS server operation are affected. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5388 
-                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      ╰ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:0108 
+                        │                         ├ [1]: https://access.redhat.com/security/cve/CVE-2023-5388 
+                        │                         ├ [2]: https://bugzilla.redhat.com/2243644 
+                        │                         ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │                         │      E-2023-5388 
-                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
-                        │                         ├ [3]: https://people.redhat.com/~hkario/marvin/ 
-                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
+                        │                         ├ [4]: https://errata.almalinux.org/9/ALSA-2024-0108.html 
+                        │                         ├ [5]: https://linux.oracle.com/cve/CVE-2023-5388.html 
+                        │                         ├ [6]: https://linux.oracle.com/errata/ELSA-2024-0108.html 
+                        │                         ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
+                        │                         ├ [8]: https://people.redhat.com/~hkario/marvin/ 
+                        │                         ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
                         ├ [34] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss-sysinit@3.90.0-3.el9_2.x86_64 
                         │      ├ PkgName         : nss-sysinit 
@@ -1690,17 +1729,24 @@
                         │      │                   padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level
                         │      │                    calls and TLS server operation are affected. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5388 
-                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      ╰ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:0108 
+                        │                         ├ [1]: https://access.redhat.com/security/cve/CVE-2023-5388 
+                        │                         ├ [2]: https://bugzilla.redhat.com/2243644 
+                        │                         ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │                         │      E-2023-5388 
-                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
-                        │                         ├ [3]: https://people.redhat.com/~hkario/marvin/ 
-                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
+                        │                         ├ [4]: https://errata.almalinux.org/9/ALSA-2024-0108.html 
+                        │                         ├ [5]: https://linux.oracle.com/cve/CVE-2023-5388.html 
+                        │                         ├ [6]: https://linux.oracle.com/errata/ELSA-2024-0108.html 
+                        │                         ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
+                        │                         ├ [8]: https://people.redhat.com/~hkario/marvin/ 
+                        │                         ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
                         ├ [36] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss-util@3.90.0-3.el9_2.x86_64 
                         │      ├ PkgName         : nss-util 
@@ -4637,14 +4683,16 @@
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/D6C2HN
                         │      │                  │       4T2S6GYNTAUXLH45LQZHK7QPHP/ 
                         │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2023-7104 
-                        │      │                  ├ [5] : https://sqlite.org/forum/forumpost/5bcbf4571c 
-                        │      │                  ├ [6] : https://sqlite.org/src/info/0e4e7a05c4204b47 
-                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6566-1 
-                        │      │                  ├ [8] : https://vuldb.com/?ctiid.248999 
-                        │      │                  ├ [9] : https://vuldb.com/?id.248999 
-                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
+                        │      │                  ├ [5] : https://security.netapp.com/advisory/ntap-202401
+                        │      │                  │       12-0008/ 
+                        │      │                  ├ [6] : https://sqlite.org/forum/forumpost/5bcbf4571c 
+                        │      │                  ├ [7] : https://sqlite.org/src/info/0e4e7a05c4204b47 
+                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6566-1 
+                        │      │                  ├ [9] : https://vuldb.com/?ctiid.248999 
+                        │      │                  ├ [10]: https://vuldb.com/?id.248999 
+                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
                         │      ├ PublishedDate   : 2023-12-29T10:15:13.89Z 
-                        │      ╰ LastModifiedDate: 2024-01-08T17:46:29.51Z 
+                        │      ╰ LastModifiedDate: 2024-01-12T14:15:49.607Z 
                         ├ [71] ╭ VulnerabilityID : CVE-2024-0232 
                         │      ├ PkgID           : sqlite-libs@3.34.1-6.el9_1.x86_64 
                         │      ├ PkgName         : sqlite-libs 
