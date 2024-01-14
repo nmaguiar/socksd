@@ -714,6 +714,7 @@
       alma: 2
       amazon: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -732,6 +733,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5981
     - https://errata.almalinux.org/8/ALSA-2024-0155.html
     - https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23
+    - https://linux.oracle.com/cve/CVE-2023-5981.html
+    - https://linux.oracle.com/errata/ELSA-2024-0155.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2023-November/004837.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5981
     - https://ubuntu.com/security/notices/USN-6499-1
@@ -1811,7 +1814,7 @@
       alma: 1
       amazon: 2
       nvd: 2
-      oracle-oval: 1
+      oracle-oval: 2
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -1839,7 +1842,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9a0a4d3c1e7138915563c0df4fe6a3f9377b839c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=fc9867c1e03c22ebf56943be205202e576aabf23
     - https://linux.oracle.com/cve/CVE-2023-3446.html
-    - https://linux.oracle.com/errata/ELSA-2023-7877.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
     - https://security.netapp.com/advisory/ntap-20230803-0011/
@@ -1897,7 +1900,7 @@
       amazon: 2
       cbl-mariner: 2
       nvd: 2
-      oracle-oval: 1
+      oracle-oval: 2
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -1926,7 +1929,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5
     - https://linux.oracle.com/cve/CVE-2023-3817.html
-    - https://linux.oracle.com/errata/ELSA-2023-7877.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
     - https://security.netapp.com/advisory/ntap-20230818-0014/
@@ -1991,7 +1994,7 @@
       amazon: 2
       cbl-mariner: 2
       nvd: 2
-      oracle-oval: 1
+      oracle-oval: 2
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -2015,7 +2018,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=ddeb4b6c6d527e54ce9a99cba785c0f7776e54b6
     - https://linux.oracle.com/cve/CVE-2023-5678.html
-    - https://linux.oracle.com/errata/ELSA-2023-7877.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5678
     - https://security.netapp.com/advisory/ntap-20231130-0010/
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
@@ -2276,7 +2279,7 @@
       alma: 1
       amazon: 2
       nvd: 2
-      oracle-oval: 1
+      oracle-oval: 2
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -2304,7 +2307,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9a0a4d3c1e7138915563c0df4fe6a3f9377b839c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=fc9867c1e03c22ebf56943be205202e576aabf23
     - https://linux.oracle.com/cve/CVE-2023-3446.html
-    - https://linux.oracle.com/errata/ELSA-2023-7877.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
     - https://security.netapp.com/advisory/ntap-20230803-0011/
@@ -2362,7 +2365,7 @@
       amazon: 2
       cbl-mariner: 2
       nvd: 2
-      oracle-oval: 1
+      oracle-oval: 2
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -2391,7 +2394,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5
     - https://linux.oracle.com/cve/CVE-2023-3817.html
-    - https://linux.oracle.com/errata/ELSA-2023-7877.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
     - https://security.netapp.com/advisory/ntap-20230818-0014/
@@ -2456,7 +2459,7 @@
       amazon: 2
       cbl-mariner: 2
       nvd: 2
-      oracle-oval: 1
+      oracle-oval: 2
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -2480,7 +2483,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=ddeb4b6c6d527e54ce9a99cba785c0f7776e54b6
     - https://linux.oracle.com/cve/CVE-2023-5678.html
-    - https://linux.oracle.com/errata/ELSA-2023-7877.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5678
     - https://security.netapp.com/advisory/ntap-20231130-0010/
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
