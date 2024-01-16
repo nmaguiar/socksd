@@ -58,7 +58,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - http://www.openwall.com/lists/oss-security/2024/01/09/1
     - https://access.redhat.com/security/cve/CVE-2023-6129
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
     - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
@@ -69,7 +68,7 @@
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-01-09T19:56:14.023Z'
+    LastModifiedDate: '2024-01-15T12:15:43.4Z'
   - VulnerabilityID: CVE-2023-6129
     PkgID: libssl3@3.1.4-r2
     PkgName: libssl3
@@ -126,7 +125,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - http://www.openwall.com/lists/oss-security/2024/01/09/1
     - https://access.redhat.com/security/cve/CVE-2023-6129
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
     - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
@@ -137,7 +135,7 @@
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-01-09T19:56:14.023Z'
+    LastModifiedDate: '2024-01-15T12:15:43.4Z'
   - VulnerabilityID: CVE-2023-6129
     PkgID: openssl@3.1.4-r2
     PkgName: openssl
@@ -194,7 +192,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - http://www.openwall.com/lists/oss-security/2024/01/09/1
     - https://access.redhat.com/security/cve/CVE-2023-6129
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
     - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
@@ -205,4 +202,4 @@
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-01-09T19:56:14.023Z'
+    LastModifiedDate: '2024-01-15T12:15:43.4Z'
