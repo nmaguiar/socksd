@@ -80,23 +80,22 @@
                         │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
                         │     │                           │           /I:N/A:H 
                         │     │                           ╰ V3Score : 5.9 
-                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/01/09/1 
-                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-6129 
-                        │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6129 
+                        │     │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                         │     │                  │      -2023-6129 
-                        │     │                  ├ [3]: https://github.com/openssl/openssl/commit/050d2638
+                        │     │                  ├ [2]: https://github.com/openssl/openssl/commit/050d2638
                         │     │                  │      3d4e264966fb83428e72d5d48f402d35 
-                        │     │                  ├ [4]: https://github.com/openssl/openssl/commit/5b139f95
+                        │     │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f95
                         │     │                  │      c9a47a55a0c54100f3837b1eee942b04 
-                        │     │                  ├ [5]: https://github.com/openssl/openssl/commit/f3fc5808
+                        │     │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc5808
                         │     │                  │      fe9ff74042d639839610d03b8fdcc015 
-                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
-                        │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
-                        │     │                  ├ [8]: https://www.openssl.org/news/secadv/20240109.txt 
-                        │     │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/0
+                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
+                        │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
+                        │     │                  ├ [7]: https://www.openssl.org/news/secadv/20240109.txt 
+                        │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024/0
                         │     │                         1/09/1 
                         │     ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
-                        │     ╰ LastModifiedDate: 2024-01-09T19:56:14.023Z 
+                        │     ╰ LastModifiedDate: 2024-01-15T12:15:43.4Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-6129 
                         │     ├ PkgID           : libssl3@3.1.4-r2 
                         │     ├ PkgName         : libssl3 
@@ -175,23 +174,22 @@
                         │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
                         │     │                           │           /I:N/A:H 
                         │     │                           ╰ V3Score : 5.9 
-                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/01/09/1 
-                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-6129 
-                        │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6129 
+                        │     │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                         │     │                  │      -2023-6129 
-                        │     │                  ├ [3]: https://github.com/openssl/openssl/commit/050d2638
+                        │     │                  ├ [2]: https://github.com/openssl/openssl/commit/050d2638
                         │     │                  │      3d4e264966fb83428e72d5d48f402d35 
-                        │     │                  ├ [4]: https://github.com/openssl/openssl/commit/5b139f95
+                        │     │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f95
                         │     │                  │      c9a47a55a0c54100f3837b1eee942b04 
-                        │     │                  ├ [5]: https://github.com/openssl/openssl/commit/f3fc5808
+                        │     │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc5808
                         │     │                  │      fe9ff74042d639839610d03b8fdcc015 
-                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
-                        │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
-                        │     │                  ├ [8]: https://www.openssl.org/news/secadv/20240109.txt 
-                        │     │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/0
+                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
+                        │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
+                        │     │                  ├ [7]: https://www.openssl.org/news/secadv/20240109.txt 
+                        │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024/0
                         │     │                         1/09/1 
                         │     ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
-                        │     ╰ LastModifiedDate: 2024-01-09T19:56:14.023Z 
+                        │     ╰ LastModifiedDate: 2024-01-15T12:15:43.4Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-6129 
                               ├ PkgID           : openssl@3.1.4-r2 
                               ├ PkgName         : openssl 
@@ -270,21 +268,20 @@
                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
                               │                           │           /I:N/A:H 
                               │                           ╰ V3Score : 5.9 
-                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/01/09/1 
-                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-6129 
-                              │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6129 
+                              │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
                               │                  │      -2023-6129 
-                              │                  ├ [3]: https://github.com/openssl/openssl/commit/050d2638
+                              │                  ├ [2]: https://github.com/openssl/openssl/commit/050d2638
                               │                  │      3d4e264966fb83428e72d5d48f402d35 
-                              │                  ├ [4]: https://github.com/openssl/openssl/commit/5b139f95
+                              │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f95
                               │                  │      c9a47a55a0c54100f3837b1eee942b04 
-                              │                  ├ [5]: https://github.com/openssl/openssl/commit/f3fc5808
+                              │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc5808
                               │                  │      fe9ff74042d639839610d03b8fdcc015 
-                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
-                              │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
-                              │                  ├ [8]: https://www.openssl.org/news/secadv/20240109.txt 
-                              │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/0
+                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
+                              │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
+                              │                  ├ [7]: https://www.openssl.org/news/secadv/20240109.txt 
+                              │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024/0
                               │                         1/09/1 
                               ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
-                              ╰ LastModifiedDate: 2024-01-09T19:56:14.023Z 
+                              ╰ LastModifiedDate: 2024-01-15T12:15:43.4Z 
 ````
