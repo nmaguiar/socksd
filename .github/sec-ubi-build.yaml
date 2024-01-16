@@ -2077,7 +2077,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - http://www.openwall.com/lists/oss-security/2024/01/09/1
     - https://access.redhat.com/security/cve/CVE-2023-6129
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
     - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
@@ -2088,7 +2087,34 @@
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-01-09T19:56:14.023Z'
+    LastModifiedDate: '2024-01-15T12:15:43.4Z'
+  - VulnerabilityID: CVE-2023-6237
+    PkgID: openssl@3.0.7-24.el9.x86_64
+    PkgName: openssl
+    InstalledVersion: 1:3.0.7-24.el9
+    Status: affected
+    Layer:
+      Digest: sha256:69a6e843e878674abf2d3adde5d3b50e676731e265c358d6b9cb5591a74f6eb1
+      DiffID: sha256:39a004baef0487cc067b109e88e27b63f29a643f184aa25164b606c26df92caa
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6237
+    Title: 'openssl: Excessive time spent checking invalid RSA public keys'
+    Description: A flaw was found in OpenSSL. When the EVP_PKEY_public_check() function is called in RSA public keys, a computation is done to confirm that the RSA modulus, n, is composite. For valid RSA keys, n is a product of two or more large primes and this computation completes quickly. However, if n is a large prime, this computation takes a long time. An application that calls EVP_PKEY_public_check() and supplies an RSA key obtained from an untrusted source could be vulnerable to a Denial of Service attack.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6237
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6237
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6237
+    - https://www.cve.org/CVERecord?id=CVE-2023-6237
+    - https://www.openssl.org/news/secadv/20240115.txt
+    - https://www.openwall.com/lists/oss-security/2024/01/15/2
   - VulnerabilityID: CVE-2023-5363
     PkgID: openssl-libs@3.0.7-24.el9.x86_64
     PkgName: openssl-libs
@@ -2542,7 +2568,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - http://www.openwall.com/lists/oss-security/2024/01/09/1
     - https://access.redhat.com/security/cve/CVE-2023-6129
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
     - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
@@ -2553,7 +2578,34 @@
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-01-09T19:56:14.023Z'
+    LastModifiedDate: '2024-01-15T12:15:43.4Z'
+  - VulnerabilityID: CVE-2023-6237
+    PkgID: openssl-libs@3.0.7-24.el9.x86_64
+    PkgName: openssl-libs
+    InstalledVersion: 1:3.0.7-24.el9
+    Status: affected
+    Layer:
+      Digest: sha256:69a6e843e878674abf2d3adde5d3b50e676731e265c358d6b9cb5591a74f6eb1
+      DiffID: sha256:39a004baef0487cc067b109e88e27b63f29a643f184aa25164b606c26df92caa
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6237
+    Title: 'openssl: Excessive time spent checking invalid RSA public keys'
+    Description: A flaw was found in OpenSSL. When the EVP_PKEY_public_check() function is called in RSA public keys, a computation is done to confirm that the RSA modulus, n, is composite. For valid RSA keys, n is a product of two or more large primes and this computation completes quickly. However, if n is a large prime, this computation takes a long time. An application that calls EVP_PKEY_public_check() and supplies an RSA key obtained from an untrusted source could be vulnerable to a Denial of Service attack.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6237
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6237
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6237
+    - https://www.cve.org/CVERecord?id=CVE-2023-6237
+    - https://www.openssl.org/news/secadv/20240115.txt
+    - https://www.openwall.com/lists/oss-security/2024/01/15/2
   - VulnerabilityID: CVE-2021-23336
     PkgID: python-unversioned-command@3.9.18-1.el9_3.noarch
     PkgName: python-unversioned-command
