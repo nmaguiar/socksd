@@ -96,7 +96,46 @@
                         │     │                         1/09/1 
                         │     ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
                         │     ╰ LastModifiedDate: 2024-01-15T12:15:43.4Z 
-                        ├ [1] ╭ VulnerabilityID : CVE-2023-6129 
+                        ├ [1] ╭ VulnerabilityID : CVE-2023-6237 
+                        │     ├ PkgID           : libcrypto3@3.1.4-r2 
+                        │     ├ PkgName         : libcrypto3 
+                        │     ├ InstalledVersion: 3.1.4-r2 
+                        │     ├ FixedVersion    : 3.1.4-r4 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:4fb22c864723489e4297f5d4cf4a5646a7aedefa
+                        │     │                  │         6a526c6ad7f4d467b5c4c511 
+                        │     │                  ╰ DiffID: sha256:a67997e850b621a0ade6ef4a773e653d41a06ef1
+                        │     │                            aabf8b62d838987c16921b5b 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6237 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : openssl: Excessive time spent checking invalid RSA
+                        │     │                   public keys 
+                        │     ├ Description     : A flaw was found in OpenSSL. When the
+                        │     │                   EVP_PKEY_public_check() function is called in RSA public
+                        │     │                   keys, a computation is done to confirm that the RSA modulus,
+                        │     │                   n, is composite. For valid RSA keys, n is a product of two or
+                        │     │                    more large primes and this computation completes quickly.
+                        │     │                   However, if n is a large prime, this computation takes a long
+                        │     │                    time. An application that calls EVP_PKEY_public_check() and
+                        │     │                   supplies an RSA key obtained from an untrusted source could
+                        │     │                   be vulnerable to a Denial of Service attack. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ VendorSeverity   ╭ redhat: 1 
+                        │     │                  ╰ ubuntu: 1 
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
+                        │     │                           │           /I:N/A:H 
+                        │     │                           ╰ V3Score : 5.9 
+                        │     ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6237 
+                        │                        ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │                        │      -2023-6237 
+                        │                        ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-6237 
+                        │                        ├ [3]: https://www.cve.org/CVERecord?id=CVE-2023-6237 
+                        │                        ├ [4]: https://www.openssl.org/news/secadv/20240115.txt 
+                        │                        ╰ [5]: https://www.openwall.com/lists/oss-security/2024/0
+                        │                               1/15/2 
+                        ├ [2] ╭ VulnerabilityID : CVE-2023-6129 
                         │     ├ PkgID           : libssl3@3.1.4-r2 
                         │     ├ PkgName         : libssl3 
                         │     ├ InstalledVersion: 3.1.4-r2 
@@ -190,98 +229,176 @@
                         │     │                         1/09/1 
                         │     ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
                         │     ╰ LastModifiedDate: 2024-01-15T12:15:43.4Z 
-                        ╰ [2] ╭ VulnerabilityID : CVE-2023-6129 
+                        ├ [3] ╭ VulnerabilityID : CVE-2023-6237 
+                        │     ├ PkgID           : libssl3@3.1.4-r2 
+                        │     ├ PkgName         : libssl3 
+                        │     ├ InstalledVersion: 3.1.4-r2 
+                        │     ├ FixedVersion    : 3.1.4-r4 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:4fb22c864723489e4297f5d4cf4a5646a7aedefa
+                        │     │                  │         6a526c6ad7f4d467b5c4c511 
+                        │     │                  ╰ DiffID: sha256:a67997e850b621a0ade6ef4a773e653d41a06ef1
+                        │     │                            aabf8b62d838987c16921b5b 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6237 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : openssl: Excessive time spent checking invalid RSA
+                        │     │                   public keys 
+                        │     ├ Description     : A flaw was found in OpenSSL. When the
+                        │     │                   EVP_PKEY_public_check() function is called in RSA public
+                        │     │                   keys, a computation is done to confirm that the RSA modulus,
+                        │     │                   n, is composite. For valid RSA keys, n is a product of two or
+                        │     │                    more large primes and this computation completes quickly.
+                        │     │                   However, if n is a large prime, this computation takes a long
+                        │     │                    time. An application that calls EVP_PKEY_public_check() and
+                        │     │                   supplies an RSA key obtained from an untrusted source could
+                        │     │                   be vulnerable to a Denial of Service attack. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ VendorSeverity   ╭ redhat: 1 
+                        │     │                  ╰ ubuntu: 1 
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
+                        │     │                           │           /I:N/A:H 
+                        │     │                           ╰ V3Score : 5.9 
+                        │     ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6237 
+                        │                        ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │                        │      -2023-6237 
+                        │                        ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-6237 
+                        │                        ├ [3]: https://www.cve.org/CVERecord?id=CVE-2023-6237 
+                        │                        ├ [4]: https://www.openssl.org/news/secadv/20240115.txt 
+                        │                        ╰ [5]: https://www.openwall.com/lists/oss-security/2024/0
+                        │                               1/15/2 
+                        ├ [4] ╭ VulnerabilityID : CVE-2023-6129 
+                        │     ├ PkgID           : openssl@3.1.4-r2 
+                        │     ├ PkgName         : openssl 
+                        │     ├ InstalledVersion: 3.1.4-r2 
+                        │     ├ FixedVersion    : 3.1.4-r3 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:4fb22c864723489e4297f5d4cf4a5646a7aedefa
+                        │     │                  │         6a526c6ad7f4d467b5c4c511 
+                        │     │                  ╰ DiffID: sha256:a67997e850b621a0ade6ef4a773e653d41a06ef1
+                        │     │                            aabf8b62d838987c16921b5b 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6129 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : openssl: POLY1305 MAC implementation corrupts vector
+                        │     │                   registers on PowerPC 
+                        │     ├ Description     : Issue summary: The POLY1305 MAC (message authentication
+                        │     │                   code) implementation
+                        │     │                   contains a bug that might corrupt the internal state of
+                        │     │                   applications running
+                        │     │                   on PowerPC CPU based platforms if the CPU provides vector
+                        │     │                   instructions.
+                        │     │                   
+                        │     │                   Impact summary: If an attacker can influence whether the
+                        │     │                   POLY1305 MAC
+                        │     │                   algorithm is used, the application state might be corrupted
+                        │     │                   with various
+                        │     │                   application dependent consequences.
+                        │     │                   
+                        │     │                   The POLY1305 MAC (message authentication code) implementation
+                        │     │                    in OpenSSL for
+                        │     │                   PowerPC CPUs restores the contents of vector registers in a
+                        │     │                   different order
+                        │     │                   than they are saved. Thus the contents of some of these
+                        │     │                   vector registers
+                        │     │                   are corrupted when returning to the caller. The vulnerable
+                        │     │                   code is used only
+                        │     │                   on newer PowerPC processors supporting the PowerISA 2.07
+                        │     │                   instructions.
+                        │     │                   
+                        │     │                   The consequences of this kind of internal application state
+                        │     │                   corruption can
+                        │     │                   be various - from no consequences, if the calling application
+                        │     │                    does not
+                        │     │                   depend on the contents of non-volatile XMM registers at all,
+                        │     │                   to the worst
+                        │     │                   consequences, where the attacker could get complete control
+                        │     │                   of the application
+                        │     │                   process. However unless the compiler uses the vector
+                        │     │                   registers for storing
+                        │     │                   pointers, the most likely consequence, if any, would be an
+                        │     │                   incorrect result
+                        │     │                   of some application dependent calculations or a crash leading
+                        │     │                    to a denial of
+                        │     │                   service.
+                        │     │                   
+                        │     │                   The POLY1305 MAC algorithm is most frequently used as part of
+                        │     │                    the
+                        │     │                   CHACHA20-POLY1305 AEAD (authenticated encryption with
+                        │     │                   associated data)
+                        │     │                   algorithm. The most common usage of this AEAD cipher is with
+                        │     │                   TLS protocol
+                        │     │                   versions 1.2 and 1.3. If this cipher is enabled on the server
+                        │     │                    a malicious
+                        │     │                   client can influence whether this AEAD cipher is used. This
+                        │     │                   implies that
+                        │     │                   TLS server applications using OpenSSL can be potentially
+                        │     │                   impacted. However
+                        │     │                   we are currently not aware of any concrete application that
+                        │     │                   would be affected
+                        │     │                   by this issue therefore we consider this a Low severity
+                        │     │                   security issue. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ VendorSeverity   ╭ redhat: 1 
+                        │     │                  ╰ ubuntu: 1 
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
+                        │     │                           │           /I:N/A:H 
+                        │     │                           ╰ V3Score : 5.9 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6129 
+                        │     │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │     │                  │      -2023-6129 
+                        │     │                  ├ [2]: https://github.com/openssl/openssl/commit/050d2638
+                        │     │                  │      3d4e264966fb83428e72d5d48f402d35 
+                        │     │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f95
+                        │     │                  │      c9a47a55a0c54100f3837b1eee942b04 
+                        │     │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc5808
+                        │     │                  │      fe9ff74042d639839610d03b8fdcc015 
+                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
+                        │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
+                        │     │                  ├ [7]: https://www.openssl.org/news/secadv/20240109.txt 
+                        │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024/0
+                        │     │                         1/09/1 
+                        │     ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
+                        │     ╰ LastModifiedDate: 2024-01-15T12:15:43.4Z 
+                        ╰ [5] ╭ VulnerabilityID : CVE-2023-6237 
                               ├ PkgID           : openssl@3.1.4-r2 
                               ├ PkgName         : openssl 
                               ├ InstalledVersion: 3.1.4-r2 
-                              ├ FixedVersion    : 3.1.4-r3 
+                              ├ FixedVersion    : 3.1.4-r4 
                               ├ Status          : fixed 
                               ├ Layer            ╭ Digest: sha256:4fb22c864723489e4297f5d4cf4a5646a7aedefa
                               │                  │         6a526c6ad7f4d467b5c4c511 
                               │                  ╰ DiffID: sha256:a67997e850b621a0ade6ef4a773e653d41a06ef1
                               │                            aabf8b62d838987c16921b5b 
-                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6129 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6237 
                               ├ DataSource       ╭ ID  : alpine 
                               │                  ├ Name: Alpine Secdb 
                               │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                              ├ Title           : openssl: POLY1305 MAC implementation corrupts vector
-                              │                   registers on PowerPC 
-                              ├ Description     : Issue summary: The POLY1305 MAC (message authentication
-                              │                   code) implementation
-                              │                   contains a bug that might corrupt the internal state of
-                              │                   applications running
-                              │                   on PowerPC CPU based platforms if the CPU provides vector
-                              │                   instructions.
-                              │                   
-                              │                   Impact summary: If an attacker can influence whether the
-                              │                   POLY1305 MAC
-                              │                   algorithm is used, the application state might be corrupted
-                              │                   with various
-                              │                   application dependent consequences.
-                              │                   
-                              │                   The POLY1305 MAC (message authentication code) implementation
-                              │                    in OpenSSL for
-                              │                   PowerPC CPUs restores the contents of vector registers in a
-                              │                   different order
-                              │                   than they are saved. Thus the contents of some of these
-                              │                   vector registers
-                              │                   are corrupted when returning to the caller. The vulnerable
-                              │                   code is used only
-                              │                   on newer PowerPC processors supporting the PowerISA 2.07
-                              │                   instructions.
-                              │                   
-                              │                   The consequences of this kind of internal application state
-                              │                   corruption can
-                              │                   be various - from no consequences, if the calling application
-                              │                    does not
-                              │                   depend on the contents of non-volatile XMM registers at all,
-                              │                   to the worst
-                              │                   consequences, where the attacker could get complete control
-                              │                   of the application
-                              │                   process. However unless the compiler uses the vector
-                              │                   registers for storing
-                              │                   pointers, the most likely consequence, if any, would be an
-                              │                   incorrect result
-                              │                   of some application dependent calculations or a crash leading
-                              │                    to a denial of
-                              │                   service.
-                              │                   
-                              │                   The POLY1305 MAC algorithm is most frequently used as part of
-                              │                    the
-                              │                   CHACHA20-POLY1305 AEAD (authenticated encryption with
-                              │                   associated data)
-                              │                   algorithm. The most common usage of this AEAD cipher is with
-                              │                   TLS protocol
-                              │                   versions 1.2 and 1.3. If this cipher is enabled on the server
-                              │                    a malicious
-                              │                   client can influence whether this AEAD cipher is used. This
-                              │                   implies that
-                              │                   TLS server applications using OpenSSL can be potentially
-                              │                   impacted. However
-                              │                   we are currently not aware of any concrete application that
-                              │                   would be affected
-                              │                   by this issue therefore we consider this a Low severity
-                              │                   security issue. 
+                              ├ Title           : openssl: Excessive time spent checking invalid RSA
+                              │                   public keys 
+                              ├ Description     : A flaw was found in OpenSSL. When the
+                              │                   EVP_PKEY_public_check() function is called in RSA public
+                              │                   keys, a computation is done to confirm that the RSA modulus,
+                              │                   n, is composite. For valid RSA keys, n is a product of two or
+                              │                    more large primes and this computation completes quickly.
+                              │                   However, if n is a large prime, this computation takes a long
+                              │                    time. An application that calls EVP_PKEY_public_check() and
+                              │                   supplies an RSA key obtained from an untrusted source could
+                              │                   be vulnerable to a Denial of Service attack. 
                               ├ Severity        : MEDIUM 
                               ├ VendorSeverity   ╭ redhat: 1 
                               │                  ╰ ubuntu: 1 
                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
                               │                           │           /I:N/A:H 
                               │                           ╰ V3Score : 5.9 
-                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6129 
-                              │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
-                              │                  │      -2023-6129 
-                              │                  ├ [2]: https://github.com/openssl/openssl/commit/050d2638
-                              │                  │      3d4e264966fb83428e72d5d48f402d35 
-                              │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f95
-                              │                  │      c9a47a55a0c54100f3837b1eee942b04 
-                              │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc5808
-                              │                  │      fe9ff74042d639839610d03b8fdcc015 
-                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
-                              │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
-                              │                  ├ [7]: https://www.openssl.org/news/secadv/20240109.txt 
-                              │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024/0
-                              │                         1/09/1 
-                              ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
-                              ╰ LastModifiedDate: 2024-01-15T12:15:43.4Z 
+                              ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6237 
+                                                 ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                                                 │      -2023-6237 
+                                                 ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-6237 
+                                                 ├ [3]: https://www.cve.org/CVERecord?id=CVE-2023-6237 
+                                                 ├ [4]: https://www.openssl.org/news/secadv/20240115.txt 
+                                                 ╰ [5]: https://www.openwall.com/lists/oss-security/2024/0
+                                                        1/15/2 
 ````
