@@ -514,6 +514,7 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -717,6 +718,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -732,6 +734,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2248445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5981
     - https://errata.almalinux.org/8/ALSA-2024-0155.html
+    - https://errata.rockylinux.org/RLSA-2024:0155
     - https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23
     - https://linux.oracle.com/cve/CVE-2023-5981.html
     - https://linux.oracle.com/errata/ELSA-2024-0155.html
@@ -742,6 +745,66 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-5981
     PublishedDate: '2023-11-28T12:15:07.04Z'
     LastModifiedDate: '2024-01-10T21:15:09.23Z'
+  - VulnerabilityID: CVE-2024-0553
+    PkgID: gnutls@3.7.6-23.el9.x86_64
+    PkgName: gnutls
+    InstalledVersion: 3.7.6-23.el9
+    Status: affected
+    Layer:
+      Digest: sha256:b9db5a6d2c19a374b5ef35a30828eaf4dc721468f49f94d2af355973ef5d0c29
+      DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f235d44953397dcdb7acf36444fe
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0553
+    Title: 'gnutls: incomplete fix for CVE-2023-5981'
+    Description: A vulnerability was found in GnuTLS. The response times to malformed ciphertexts in RSA-PSK ClientKeyExchange differ from response times of ciphertexts with correct PKCS#1 v1.5 padding. This issue may allow a remote attacker to perform a timing side-channel attack in the RSA-PSK key exchange, potentially leading to the leakage of sensitive data. CVE-2024-0553 is designated as an incomplete resolution for CVE-2023-5981.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-203
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-0553
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258412
+    - https://gitlab.com/gnutls/gnutls/-/issues/1522
+    - https://lists.gnupg.org/pipermail/gnutls-help/2024-January/004841.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0553
+    - https://www.cve.org/CVERecord?id=CVE-2024-0553
+    PublishedDate: '2024-01-16T12:15:45.557Z'
+    LastModifiedDate: '2024-01-16T13:56:05.467Z'
+  - VulnerabilityID: CVE-2024-0567
+    PkgID: gnutls@3.7.6-23.el9.x86_64
+    PkgName: gnutls
+    InstalledVersion: 3.7.6-23.el9
+    Status: affected
+    Layer:
+      Digest: sha256:b9db5a6d2c19a374b5ef35a30828eaf4dc721468f49f94d2af355973ef5d0c29
+      DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f235d44953397dcdb7acf36444fe
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0567
+    Title: 'gnutls: rejects certificate chain with distributed trust'
+    Description: A vulnerability was found in GnuTLS, where a cockpit (which uses gnuTLS) rejects a certificate chain with distributed trust. This issue occurs when validating a certificate chain with cockpit-certificate-ensure. This flaw allows an unauthenticated, remote client or attacker to initiate a denial of service attack.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-0567
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258544
+    - https://gitlab.com/gnutls/gnutls/-/issues/1521
+    - https://lists.gnupg.org/pipermail/gnutls-help/2024-January/004841.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0567
+    - https://www.cve.org/CVERecord?id=CVE-2024-0567
+    PublishedDate: '2024-01-16T14:15:48.527Z'
+    LastModifiedDate: '2024-01-16T23:12:38.473Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -800,6 +863,7 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -1176,6 +1240,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1185,8 +1250,10 @@
     - https://access.redhat.com/errata/RHSA-2024:0108
     - https://access.redhat.com/security/cve/CVE-2023-5388
     - https://bugzilla.redhat.com/2243644
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
     - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.rockylinux.org/RLSA-2024:0105
     - https://linux.oracle.com/cve/CVE-2023-5388.html
     - https://linux.oracle.com/errata/ELSA-2024-0108.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
@@ -1246,6 +1313,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1255,8 +1323,10 @@
     - https://access.redhat.com/errata/RHSA-2024:0108
     - https://access.redhat.com/security/cve/CVE-2023-5388
     - https://bugzilla.redhat.com/2243644
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
     - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.rockylinux.org/RLSA-2024:0105
     - https://linux.oracle.com/cve/CVE-2023-5388.html
     - https://linux.oracle.com/errata/ELSA-2024-0108.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
@@ -1316,6 +1386,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1325,8 +1396,10 @@
     - https://access.redhat.com/errata/RHSA-2024:0108
     - https://access.redhat.com/security/cve/CVE-2023-5388
     - https://bugzilla.redhat.com/2243644
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
     - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.rockylinux.org/RLSA-2024:0105
     - https://linux.oracle.com/cve/CVE-2023-5388.html
     - https://linux.oracle.com/errata/ELSA-2024-0108.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
@@ -1386,6 +1459,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1395,8 +1469,10 @@
     - https://access.redhat.com/errata/RHSA-2024:0108
     - https://access.redhat.com/security/cve/CVE-2023-5388
     - https://bugzilla.redhat.com/2243644
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
     - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.rockylinux.org/RLSA-2024:0105
     - https://linux.oracle.com/cve/CVE-2023-5388.html
     - https://linux.oracle.com/errata/ELSA-2024-0108.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
@@ -1456,6 +1532,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1465,8 +1542,10 @@
     - https://access.redhat.com/errata/RHSA-2024:0108
     - https://access.redhat.com/security/cve/CVE-2023-5388
     - https://bugzilla.redhat.com/2243644
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
     - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.rockylinux.org/RLSA-2024:0105
     - https://linux.oracle.com/cve/CVE-2023-5388.html
     - https://linux.oracle.com/errata/ELSA-2024-0108.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
@@ -1526,6 +1605,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1535,8 +1615,10 @@
     - https://access.redhat.com/errata/RHSA-2024:0108
     - https://access.redhat.com/security/cve/CVE-2023-5388
     - https://bugzilla.redhat.com/2243644
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
     - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.rockylinux.org/RLSA-2024:0105
     - https://linux.oracle.com/cve/CVE-2023-5388.html
     - https://linux.oracle.com/errata/ELSA-2024-0108.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
@@ -2771,6 +2853,7 @@
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -2791,6 +2874,8 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -3017,6 +3102,7 @@
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -3037,6 +3123,8 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -3263,6 +3351,7 @@
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -3283,6 +3372,8 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -3699,6 +3790,8 @@
     VendorSeverity:
       bitnami: 3
       nvd: 3
+      oracle-oval: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3714,6 +3807,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2023-7104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7104
+    - https://linux.oracle.com/cve/CVE-2023-7104.html
+    - https://linux.oracle.com/errata/ELSA-2024-0253.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AYONA2XSNFMXLAW4IHLFI5UVV3QRNG5K/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/D6C2HN4T2S6GYNTAUXLH45LQZHK7QPHP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7104
@@ -3737,14 +3832,23 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0232
     Title: 'sqlite: use-after-free bug in jsonParseAddNodeArray'
-    Description: No description is available for this CVE.
+    Description: A heap use-after-free issue has been identified in SQLite in the jsonParseAddNodeArray() function in sqlite3.c. This flaw allows a local attacker to leverage a victim to pass specially crafted malicious input to the application, potentially causing a crash and leading to a denial of service.
     Severity: LOW
+    CweIDs:
+    - CWE-416
     VendorSeverity:
       redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.7
     References:
     - https://access.redhat.com/security/cve/CVE-2024-0232
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243754
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0232
     - https://www.cve.org/CVERecord?id=CVE-2024-0232
+    PublishedDate: '2024-01-16T14:15:48.327Z'
+    LastModifiedDate: '2024-01-16T23:12:38.473Z'
   - VulnerabilityID: CVE-2023-28486
     PkgID: sudo@1.9.5p2-9.el9.x86_64
     PkgName: sudo
@@ -3755,7 +3859,7 @@
       DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f235d44953397dcdb7acf36444fe
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28486
-    Title: Sudo does not escape control characters in log messages
+    Title: 'sudo: Sudo does not escape control characters in log messages'
     Description: Sudo before 1.9.13 does not escape control characters in log messages.
     Severity: MEDIUM
     CweIDs:
@@ -3797,7 +3901,7 @@
       DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f235d44953397dcdb7acf36444fe
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28487
-    Title: Sudo does not escape control characters in sudoreplay output
+    Title: 'sudo: Sudo does not escape control characters in sudoreplay output'
     Description: Sudo before 1.9.13 does not escape control characters in sudoreplay output.
     Severity: MEDIUM
     CweIDs:
@@ -3844,6 +3948,7 @@
     Severity: MEDIUM
     VendorSeverity:
       nvd: 3
+      photon: 3
       redhat: 2
     CVSS:
       nvd:
