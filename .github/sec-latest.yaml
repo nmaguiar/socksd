@@ -198,6 +198,974 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-6237
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
+  - VulnerabilityID: CVE-2023-44487
+    PkgID: openjdk21-jre@21.0.1_p12-r0
+    PkgName: openjdk21-jre
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-44487
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
+    Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      cbl-mariner: 3
+      ghsa: 2
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/10/13/4
+    - http://www.openwall.com/lists/oss-security/2023/10/13/9
+    - http://www.openwall.com/lists/oss-security/2023/10/18/4
+    - http://www.openwall.com/lists/oss-security/2023/10/18/8
+    - http://www.openwall.com/lists/oss-security/2023/10/19/6
+    - http://www.openwall.com/lists/oss-security/2023/10/20/8
+    - https://access.redhat.com/errata/RHSA-2023:6746
+    - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
+    - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
+    - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
+    - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
+    - https://blog.litespeedtech.com/2023/10/11/rapid-reset-http-2-vulnerablilty/
+    - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
+    - https://blog.vespa.ai/cve-2023-44487/
+    - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
+    - https://bugzilla.suse.com/show_bug.cgi?id=1216123
+    - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
+    - https://chaos.social/@icing/111210915918780532
+    - https://cloud.google.com/blog/products/identity-security/google-cloud-mitigated-largest-ddos-attack-peaking-above-398-million-rps/
+    - https://cloud.google.com/blog/products/identity-security/how-it-works-the-novel-http2-rapid-reset-ddos-attack
+    - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
+    - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
+    - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
+    - https://errata.almalinux.org/9/ALSA-2023-6746.html
+    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
+    - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
+    - https://github.com/Azure/AKS/issues/3947
+    - https://github.com/Kong/kong/discussions/11741
+    - https://github.com/advisories/GHSA-qppj-fm5r-hxr3
+    - https://github.com/advisories/GHSA-vx74-f528-fxqg
+    - https://github.com/advisories/GHSA-xpw8-rcwv-8f8p
+    - https://github.com/akka/akka-http/issues/4323
+    - https://github.com/alibaba/tengine/issues/1872
+    - https://github.com/apache/apisix/issues/10320
+    - https://github.com/apache/httpd-site/pull/10
+    - https://github.com/apache/httpd/blob/afcdbeebbff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mplx.c#L1101-L1113
+    - https://github.com/apache/tomcat/tree/main/java/org/apache/coyote/http2
+    - https://github.com/apache/trafficserver/pull/10564
+    - https://github.com/apple/swift-nio-http2
+    - https://github.com/apple/swift-nio-http2/security/advisories/GHSA-qppj-fm5r-hxr3
+    - https://github.com/arkrwn/PoC/tree/main/CVE-2023-44487
+    - https://github.com/bcdannyboy/CVE-2023-44487
+    - https://github.com/caddyserver/caddy/issues/5877
+    - https://github.com/caddyserver/caddy/releases/tag/v2.7.5
+    - https://github.com/dotnet/announcements/issues/277
+    - https://github.com/dotnet/core/blob/e4613450ea0da7fd2fc6b61dfb2c1c1dec1ce9ec/release-notes/6.0/6.0.23/6.0.23.md?plain=1#L73
+    - https://github.com/eclipse/jetty.project/issues/10679
+    - https://github.com/envoyproxy/envoy/pull/30055
+    - https://github.com/etcd-io/etcd/issues/16740
+    - https://github.com/facebook/proxygen/pull/466
+    - https://github.com/golang/go/issues/63417
+    - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
+    - https://github.com/h2o/h2o/pull/3291
+    - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
+    - https://github.com/haproxy/haproxy/issues/2312
+    - https://github.com/hyperium/hyper/issues/3337
+    - https://github.com/icing/mod_h2/blob/0a864782af0a942aa2ad4ed960a6b32cd35bcf0a/mod_http2/README.md?plain=1#L239-L244
+    - https://github.com/junkurihara/rust-rpxy/issues/97
+    - https://github.com/kazu-yamamoto/http2/commit/f61d41a502bd0f60eb24e1ce14edc7b6df6722a1
+    - https://github.com/kazu-yamamoto/http2/issues/93
+    - https://github.com/kubernetes/kubernetes/pull/121120
+    - https://github.com/line/armeria/pull/5232
+    - https://github.com/linkerd/website/pull/1695/commits/4b9c6836471bc8270ab48aae6fd2181bc73fd632
+    - https://github.com/micrictor/http2-rst-stream
+    - https://github.com/microsoft/CBL-Mariner/pull/6381
+    - https://github.com/netty/netty/commit/58f75f665aa81a8cbcf6ffa74820042a285c5e61
+    - https://github.com/nghttp2/nghttp2/pull/1961
+    - https://github.com/nghttp2/nghttp2/releases/tag/v1.57.0
+    - https://github.com/ninenines/cowboy/issues/1615
+    - https://github.com/nodejs/node/pull/50121
+    - https://github.com/openresty/openresty/issues/930
+    - https://github.com/opensearch-project/data-prepper/issues/3474
+    - https://github.com/oqtane/oqtane.framework/discussions/3367
+    - https://github.com/projectcontour/contour/pull/5826
+    - https://github.com/tempesta-tech/tempesta/issues/1986
+    - https://github.com/varnishcache/varnish-cache/issues/3996
+    - https://go.dev/cl/534215
+    - https://go.dev/cl/534235
+    - https://go.dev/issue/63417
+    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
+    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
+    - https://istio.io/latest/news/security/istio-security-2023-004/
+    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
+    - https://linux.oracle.com/cve/CVE-2023-44487.html
+    - https://linux.oracle.com/errata/ELSA-2023-7205.html
+    - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00012.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
+    - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
+    - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
+    - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
+    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-44487
+    - https://my.f5.com/manage/s/article/K000137106
+    - https://netty.io/news/2023/10/10/4-1-100-Final.html
+    - https://news.ycombinator.com/item?id=37830987
+    - https://news.ycombinator.com/item?id=37830998
+    - https://news.ycombinator.com/item?id=37831062
+    - https://news.ycombinator.com/item?id=37837043
+    - https://nodejs.org/en/blog/vulnerability/october-2023-security-releases
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
+    - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
+    - https://pkg.go.dev/vuln/GO-2023-2102
+    - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
+    - https://security.gentoo.org/glsa/202311-09
+    - https://security.netapp.com/advisory/ntap-20231016-0001/
+    - https://security.paloaltonetworks.com/CVE-2023-44487
+    - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
+    - https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.0-M12
+    - https://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.5.94
+    - https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.81
+    - https://ubuntu.com/security/CVE-2023-44487
+    - https://ubuntu.com/security/notices/USN-6427-1
+    - https://ubuntu.com/security/notices/USN-6427-2
+    - https://ubuntu.com/security/notices/USN-6438-1
+    - https://ubuntu.com/security/notices/USN-6505-1
+    - https://ubuntu.com/security/notices/USN-6574-1
+    - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records/
+    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
+    - https://www.cve.org/CVERecord?id=CVE-2023-44487
+    - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
+    - https://www.debian.org/security/2023/dsa-5521
+    - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
+    - https://www.debian.org/security/2023/dsa-5558
+    - https://www.debian.org/security/2023/dsa-5570
+    - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
+    - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
+    - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
+    - https://www.nginx.com/blog/http-2-rapid-reset-attack-impacting-f5-nginx-products/
+    - https://www.openwall.com/lists/oss-security/2023/10/10/6
+    - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
+    - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
+    PublishedDate: '2023-10-10T14:15:10.883Z'
+    LastModifiedDate: '2023-12-20T17:55:36.74Z'
+  - VulnerabilityID: CVE-2023-5072
+    PkgID: openjdk21-jre@21.0.1_p12-r0
+    PkgName: openjdk21-jre
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5072
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'JSON-java: parser confusion leads to OOM'
+    Description: "Denial of Service  in JSON-Java versions up to and including 20230618. \_A bug in the parser means that an input string of modest size can lead to indefinite amounts of memory being used.\_\n"
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      ghsa: 3
+      nvd: 3
+      redhat: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/12/13/4
+    - https://access.redhat.com/security/cve/CVE-2023-5072
+    - https://github.com/google/security-research/security/advisories/GHSA-4jq9-2xhw-jpx7
+    - https://github.com/stleary/JSON-java
+    - https://github.com/stleary/JSON-java/commit/60662e2f8384d3449822a3a1179bfe8de67b55bb
+    - https://github.com/stleary/JSON-java/issues/758
+    - https://github.com/stleary/JSON-java/issues/771
+    - https://github.com/stleary/JSON-java/pull/759
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5072
+    - https://www.cve.org/CVERecord?id=CVE-2023-5072
+    PublishedDate: '2023-10-12T17:15:10.187Z'
+    LastModifiedDate: '2023-12-13T18:15:44.51Z'
+  - VulnerabilityID: CVE-2024-20918
+    PkgID: openjdk21-jre@21.0.1_p12-r0
+    PkgName: openjdk21-jre
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20918
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: array out-of-bounds access due to missing range check in C1 compiler (8314468)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u391, 8u391-perf, 11.0.21, 17.0.9, 21.0.1; Oracle GraalVM for JDK: 17.0.9, 21.0.1; Oracle GraalVM Enterprise Edition: 20.3.12, 21.3.8 and  22.3.4. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20918
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20918
+    - https://www.cve.org/CVERecord?id=CVE-2024-20918
+    - https://www.oracle.com/security-alerts/cpujan2024.html
+    PublishedDate: '2024-01-16T22:15:39.51Z'
+    LastModifiedDate: '2024-01-16T23:12:38.473Z'
+  - VulnerabilityID: CVE-2024-20952
+    PkgID: openjdk21-jre@21.0.1_p12-r0
+    PkgName: openjdk21-jre
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20952
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: RSA padding issue and timing side-channel attack against TLS (8317547)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u391, 8u391-perf, 11.0.21, 17.0.9, 21.0.1; Oracle GraalVM for JDK: 17.0.9, 21.0.1; Oracle GraalVM Enterprise Edition: 20.3.12, 21.3.8 and  22.3.4. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20952
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20952
+    - https://www.cve.org/CVERecord?id=CVE-2024-20952
+    - https://www.oracle.com/security-alerts/cpujan2024.html
+    PublishedDate: '2024-01-16T22:15:42.477Z'
+    LastModifiedDate: '2024-01-16T23:12:38.473Z'
+  - VulnerabilityID: CVE-2024-20919
+    PkgID: openjdk21-jre@21.0.1_p12-r0
+    PkgName: openjdk21-jre
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20919
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: JVM class file verifier flaw allows unverified bytecode execution (8314295)'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20919
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20919
+    - https://www.cve.org/CVERecord?id=CVE-2024-20919
+  - VulnerabilityID: CVE-2024-20921
+    PkgID: openjdk21-jre@21.0.1_p12-r0
+    PkgName: openjdk21-jre
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20921
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: range check loop optimization issue (8314307)'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20921
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20921
+    - https://www.cve.org/CVERecord?id=CVE-2024-20921
+  - VulnerabilityID: CVE-2024-20945
+    PkgID: openjdk21-jre@21.0.1_p12-r0
+    PkgName: openjdk21-jre
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20945
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: logging of digital signature private keys (8316976)'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20945
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20945
+    - https://www.cve.org/CVERecord?id=CVE-2024-20945
+  - VulnerabilityID: CVE-2023-45143
+    PkgID: openjdk21-jre@21.0.1_p12-r0
+    PkgName: openjdk21-jre
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45143
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'node-undici: cookie leakage'
+    Description: Undici is an HTTP/1.1 client written from scratch for Node.js. Prior to version 5.26.2, Undici already cleared Authorization headers on cross-origin redirects, but did not clear `Cookie` headers. By design, `cookie` headers are forbidden request headers, disallowing them to be set in RequestInit.headers in browser environments. Since undici handles headers more liberally than the spec, there was a disconnect from the assumptions the spec made, and undici's implementation of fetch. As such this may lead to accidental leakage of cookie to a third-party site or a malicious attacker who can control the redirection target (ie. an open redirector) to leak the cookie to the third party site. This was patched in version 5.26.2. There are no known workarounds.
+    Severity: LOW
+    CweIDs:
+    - CWE-200
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      cbl-mariner: 1
+      ghsa: 1
+      nvd: 1
+      oracle-oval: 3
+      redhat: 1
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 3.9
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 3.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:5849
+    - https://access.redhat.com/security/cve/CVE-2023-45143
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2244104
+    - https://bugzilla.redhat.com/2244415
+    - https://bugzilla.redhat.com/2244418
+    - https://errata.almalinux.org/9/ALSA-2023-5849.html
+    - https://github.com/nodejs/undici
+    - https://github.com/nodejs/undici/commit/e041de359221ebeae04c469e8aff4145764e6d76
+    - https://github.com/nodejs/undici/releases/tag/v5.26.2
+    - https://github.com/nodejs/undici/security/advisories/GHSA-q768-x9m6-m9qp
+    - https://github.com/nodejs/undici/security/advisories/GHSA-wqq4-5wpv-mx2g
+    - https://hackerone.com/reports/2166948
+    - https://linux.oracle.com/cve/CVE-2023-45143.html
+    - https://linux.oracle.com/errata/ELSA-2023-7205.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45143
+    - https://www.cve.org/CVERecord?id=CVE-2023-45143
+    PublishedDate: '2023-10-12T17:15:10.087Z'
+    LastModifiedDate: '2023-11-03T22:15:11.437Z'
+  - VulnerabilityID: CVE-2023-44487
+    PkgID: openjdk21-jre-headless@21.0.1_p12-r0
+    PkgName: openjdk21-jre-headless
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-44487
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
+    Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      cbl-mariner: 3
+      ghsa: 2
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/10/13/4
+    - http://www.openwall.com/lists/oss-security/2023/10/13/9
+    - http://www.openwall.com/lists/oss-security/2023/10/18/4
+    - http://www.openwall.com/lists/oss-security/2023/10/18/8
+    - http://www.openwall.com/lists/oss-security/2023/10/19/6
+    - http://www.openwall.com/lists/oss-security/2023/10/20/8
+    - https://access.redhat.com/errata/RHSA-2023:6746
+    - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
+    - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
+    - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
+    - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
+    - https://blog.litespeedtech.com/2023/10/11/rapid-reset-http-2-vulnerablilty/
+    - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
+    - https://blog.vespa.ai/cve-2023-44487/
+    - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
+    - https://bugzilla.suse.com/show_bug.cgi?id=1216123
+    - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
+    - https://chaos.social/@icing/111210915918780532
+    - https://cloud.google.com/blog/products/identity-security/google-cloud-mitigated-largest-ddos-attack-peaking-above-398-million-rps/
+    - https://cloud.google.com/blog/products/identity-security/how-it-works-the-novel-http2-rapid-reset-ddos-attack
+    - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
+    - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
+    - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
+    - https://errata.almalinux.org/9/ALSA-2023-6746.html
+    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
+    - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
+    - https://github.com/Azure/AKS/issues/3947
+    - https://github.com/Kong/kong/discussions/11741
+    - https://github.com/advisories/GHSA-qppj-fm5r-hxr3
+    - https://github.com/advisories/GHSA-vx74-f528-fxqg
+    - https://github.com/advisories/GHSA-xpw8-rcwv-8f8p
+    - https://github.com/akka/akka-http/issues/4323
+    - https://github.com/alibaba/tengine/issues/1872
+    - https://github.com/apache/apisix/issues/10320
+    - https://github.com/apache/httpd-site/pull/10
+    - https://github.com/apache/httpd/blob/afcdbeebbff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mplx.c#L1101-L1113
+    - https://github.com/apache/tomcat/tree/main/java/org/apache/coyote/http2
+    - https://github.com/apache/trafficserver/pull/10564
+    - https://github.com/apple/swift-nio-http2
+    - https://github.com/apple/swift-nio-http2/security/advisories/GHSA-qppj-fm5r-hxr3
+    - https://github.com/arkrwn/PoC/tree/main/CVE-2023-44487
+    - https://github.com/bcdannyboy/CVE-2023-44487
+    - https://github.com/caddyserver/caddy/issues/5877
+    - https://github.com/caddyserver/caddy/releases/tag/v2.7.5
+    - https://github.com/dotnet/announcements/issues/277
+    - https://github.com/dotnet/core/blob/e4613450ea0da7fd2fc6b61dfb2c1c1dec1ce9ec/release-notes/6.0/6.0.23/6.0.23.md?plain=1#L73
+    - https://github.com/eclipse/jetty.project/issues/10679
+    - https://github.com/envoyproxy/envoy/pull/30055
+    - https://github.com/etcd-io/etcd/issues/16740
+    - https://github.com/facebook/proxygen/pull/466
+    - https://github.com/golang/go/issues/63417
+    - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
+    - https://github.com/h2o/h2o/pull/3291
+    - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
+    - https://github.com/haproxy/haproxy/issues/2312
+    - https://github.com/hyperium/hyper/issues/3337
+    - https://github.com/icing/mod_h2/blob/0a864782af0a942aa2ad4ed960a6b32cd35bcf0a/mod_http2/README.md?plain=1#L239-L244
+    - https://github.com/junkurihara/rust-rpxy/issues/97
+    - https://github.com/kazu-yamamoto/http2/commit/f61d41a502bd0f60eb24e1ce14edc7b6df6722a1
+    - https://github.com/kazu-yamamoto/http2/issues/93
+    - https://github.com/kubernetes/kubernetes/pull/121120
+    - https://github.com/line/armeria/pull/5232
+    - https://github.com/linkerd/website/pull/1695/commits/4b9c6836471bc8270ab48aae6fd2181bc73fd632
+    - https://github.com/micrictor/http2-rst-stream
+    - https://github.com/microsoft/CBL-Mariner/pull/6381
+    - https://github.com/netty/netty/commit/58f75f665aa81a8cbcf6ffa74820042a285c5e61
+    - https://github.com/nghttp2/nghttp2/pull/1961
+    - https://github.com/nghttp2/nghttp2/releases/tag/v1.57.0
+    - https://github.com/ninenines/cowboy/issues/1615
+    - https://github.com/nodejs/node/pull/50121
+    - https://github.com/openresty/openresty/issues/930
+    - https://github.com/opensearch-project/data-prepper/issues/3474
+    - https://github.com/oqtane/oqtane.framework/discussions/3367
+    - https://github.com/projectcontour/contour/pull/5826
+    - https://github.com/tempesta-tech/tempesta/issues/1986
+    - https://github.com/varnishcache/varnish-cache/issues/3996
+    - https://go.dev/cl/534215
+    - https://go.dev/cl/534235
+    - https://go.dev/issue/63417
+    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
+    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
+    - https://istio.io/latest/news/security/istio-security-2023-004/
+    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
+    - https://linux.oracle.com/cve/CVE-2023-44487.html
+    - https://linux.oracle.com/errata/ELSA-2023-7205.html
+    - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00012.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
+    - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
+    - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
+    - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
+    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-44487
+    - https://my.f5.com/manage/s/article/K000137106
+    - https://netty.io/news/2023/10/10/4-1-100-Final.html
+    - https://news.ycombinator.com/item?id=37830987
+    - https://news.ycombinator.com/item?id=37830998
+    - https://news.ycombinator.com/item?id=37831062
+    - https://news.ycombinator.com/item?id=37837043
+    - https://nodejs.org/en/blog/vulnerability/october-2023-security-releases
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
+    - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
+    - https://pkg.go.dev/vuln/GO-2023-2102
+    - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
+    - https://security.gentoo.org/glsa/202311-09
+    - https://security.netapp.com/advisory/ntap-20231016-0001/
+    - https://security.paloaltonetworks.com/CVE-2023-44487
+    - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
+    - https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.0-M12
+    - https://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.5.94
+    - https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.81
+    - https://ubuntu.com/security/CVE-2023-44487
+    - https://ubuntu.com/security/notices/USN-6427-1
+    - https://ubuntu.com/security/notices/USN-6427-2
+    - https://ubuntu.com/security/notices/USN-6438-1
+    - https://ubuntu.com/security/notices/USN-6505-1
+    - https://ubuntu.com/security/notices/USN-6574-1
+    - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records/
+    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
+    - https://www.cve.org/CVERecord?id=CVE-2023-44487
+    - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
+    - https://www.debian.org/security/2023/dsa-5521
+    - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
+    - https://www.debian.org/security/2023/dsa-5558
+    - https://www.debian.org/security/2023/dsa-5570
+    - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
+    - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
+    - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
+    - https://www.nginx.com/blog/http-2-rapid-reset-attack-impacting-f5-nginx-products/
+    - https://www.openwall.com/lists/oss-security/2023/10/10/6
+    - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
+    - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
+    PublishedDate: '2023-10-10T14:15:10.883Z'
+    LastModifiedDate: '2023-12-20T17:55:36.74Z'
+  - VulnerabilityID: CVE-2023-5072
+    PkgID: openjdk21-jre-headless@21.0.1_p12-r0
+    PkgName: openjdk21-jre-headless
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5072
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'JSON-java: parser confusion leads to OOM'
+    Description: "Denial of Service  in JSON-Java versions up to and including 20230618. \_A bug in the parser means that an input string of modest size can lead to indefinite amounts of memory being used.\_\n"
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      ghsa: 3
+      nvd: 3
+      redhat: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/12/13/4
+    - https://access.redhat.com/security/cve/CVE-2023-5072
+    - https://github.com/google/security-research/security/advisories/GHSA-4jq9-2xhw-jpx7
+    - https://github.com/stleary/JSON-java
+    - https://github.com/stleary/JSON-java/commit/60662e2f8384d3449822a3a1179bfe8de67b55bb
+    - https://github.com/stleary/JSON-java/issues/758
+    - https://github.com/stleary/JSON-java/issues/771
+    - https://github.com/stleary/JSON-java/pull/759
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5072
+    - https://www.cve.org/CVERecord?id=CVE-2023-5072
+    PublishedDate: '2023-10-12T17:15:10.187Z'
+    LastModifiedDate: '2023-12-13T18:15:44.51Z'
+  - VulnerabilityID: CVE-2024-20918
+    PkgID: openjdk21-jre-headless@21.0.1_p12-r0
+    PkgName: openjdk21-jre-headless
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20918
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: array out-of-bounds access due to missing range check in C1 compiler (8314468)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u391, 8u391-perf, 11.0.21, 17.0.9, 21.0.1; Oracle GraalVM for JDK: 17.0.9, 21.0.1; Oracle GraalVM Enterprise Edition: 20.3.12, 21.3.8 and  22.3.4. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20918
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20918
+    - https://www.cve.org/CVERecord?id=CVE-2024-20918
+    - https://www.oracle.com/security-alerts/cpujan2024.html
+    PublishedDate: '2024-01-16T22:15:39.51Z'
+    LastModifiedDate: '2024-01-16T23:12:38.473Z'
+  - VulnerabilityID: CVE-2024-20952
+    PkgID: openjdk21-jre-headless@21.0.1_p12-r0
+    PkgName: openjdk21-jre-headless
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20952
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: RSA padding issue and timing side-channel attack against TLS (8317547)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u391, 8u391-perf, 11.0.21, 17.0.9, 21.0.1; Oracle GraalVM for JDK: 17.0.9, 21.0.1; Oracle GraalVM Enterprise Edition: 20.3.12, 21.3.8 and  22.3.4. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20952
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20952
+    - https://www.cve.org/CVERecord?id=CVE-2024-20952
+    - https://www.oracle.com/security-alerts/cpujan2024.html
+    PublishedDate: '2024-01-16T22:15:42.477Z'
+    LastModifiedDate: '2024-01-16T23:12:38.473Z'
+  - VulnerabilityID: CVE-2024-20919
+    PkgID: openjdk21-jre-headless@21.0.1_p12-r0
+    PkgName: openjdk21-jre-headless
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20919
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: JVM class file verifier flaw allows unverified bytecode execution (8314295)'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20919
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20919
+    - https://www.cve.org/CVERecord?id=CVE-2024-20919
+  - VulnerabilityID: CVE-2024-20921
+    PkgID: openjdk21-jre-headless@21.0.1_p12-r0
+    PkgName: openjdk21-jre-headless
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20921
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: range check loop optimization issue (8314307)'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20921
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20921
+    - https://www.cve.org/CVERecord?id=CVE-2024-20921
+  - VulnerabilityID: CVE-2024-20945
+    PkgID: openjdk21-jre-headless@21.0.1_p12-r0
+    PkgName: openjdk21-jre-headless
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20945
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: logging of digital signature private keys (8316976)'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20945
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20945
+    - https://www.cve.org/CVERecord?id=CVE-2024-20945
+  - VulnerabilityID: CVE-2023-45143
+    PkgID: openjdk21-jre-headless@21.0.1_p12-r0
+    PkgName: openjdk21-jre-headless
+    InstalledVersion: 21.0.1_p12-r0
+    FixedVersion: 21.0.2_p13-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e64acdc5c50f4bc86015a28ca2659345be21d26cca38fbbecc519f15e626a4f
+      DiffID: sha256:907443f858d410cc40e6b18996fded9b7cfc9b9a1765978b60ecb776462bdcce
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45143
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'node-undici: cookie leakage'
+    Description: Undici is an HTTP/1.1 client written from scratch for Node.js. Prior to version 5.26.2, Undici already cleared Authorization headers on cross-origin redirects, but did not clear `Cookie` headers. By design, `cookie` headers are forbidden request headers, disallowing them to be set in RequestInit.headers in browser environments. Since undici handles headers more liberally than the spec, there was a disconnect from the assumptions the spec made, and undici's implementation of fetch. As such this may lead to accidental leakage of cookie to a third-party site or a malicious attacker who can control the redirection target (ie. an open redirector) to leak the cookie to the third party site. This was patched in version 5.26.2. There are no known workarounds.
+    Severity: LOW
+    CweIDs:
+    - CWE-200
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      cbl-mariner: 1
+      ghsa: 1
+      nvd: 1
+      oracle-oval: 3
+      redhat: 1
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 3.9
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 3.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:5849
+    - https://access.redhat.com/security/cve/CVE-2023-45143
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2244104
+    - https://bugzilla.redhat.com/2244415
+    - https://bugzilla.redhat.com/2244418
+    - https://errata.almalinux.org/9/ALSA-2023-5849.html
+    - https://github.com/nodejs/undici
+    - https://github.com/nodejs/undici/commit/e041de359221ebeae04c469e8aff4145764e6d76
+    - https://github.com/nodejs/undici/releases/tag/v5.26.2
+    - https://github.com/nodejs/undici/security/advisories/GHSA-q768-x9m6-m9qp
+    - https://github.com/nodejs/undici/security/advisories/GHSA-wqq4-5wpv-mx2g
+    - https://hackerone.com/reports/2166948
+    - https://linux.oracle.com/cve/CVE-2023-45143.html
+    - https://linux.oracle.com/errata/ELSA-2023-7205.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45143
+    - https://www.cve.org/CVERecord?id=CVE-2023-45143
+    PublishedDate: '2023-10-12T17:15:10.087Z'
+    LastModifiedDate: '2023-11-03T22:15:11.437Z'
   - VulnerabilityID: CVE-2023-6129
     PkgID: openssl@3.1.4-r2
     PkgName: openssl
