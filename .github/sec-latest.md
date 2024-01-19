@@ -766,14 +766,18 @@
                         │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
                         │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
                         │      ├ Severity        : HIGH 
-                        │      ├ VendorSeverity   ─ redhat: 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 3 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:N 
                         │      │                           ╰ V3Score : 7.4 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20918 
-                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20918 
-                        │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20918 
-                        │      │                  ╰ [3]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ├ [1]: https://linux.oracle.com/cve/CVE-2024-20918.html 
+                        │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20918 
+                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20918 
+                        │      │                  ╰ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
                         │      ├ PublishedDate   : 2024-01-16T22:15:39.51Z 
                         │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
                         ├ [7]  ╭ VulnerabilityID : CVE-2024-20952 
@@ -819,14 +823,18 @@
                         │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
                         │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
                         │      ├ Severity        : HIGH 
-                        │      ├ VendorSeverity   ─ redhat: 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 3 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:N 
                         │      │                           ╰ V3Score : 7.4 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20952 
-                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20952 
-                        │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20952 
-                        │      │                  ╰ [3]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ├ [1]: https://linux.oracle.com/cve/CVE-2024-20952.html 
+                        │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20952 
+                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20952 
+                        │      │                  ╰ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
                         │      ├ PublishedDate   : 2024-01-16T22:15:42.477Z 
                         │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
                         ├ [8]  ╭ VulnerabilityID : CVE-2024-20919 
@@ -847,13 +855,17 @@
                         │      │                    bytecode execution (8314295) 
                         │      ├ Description     : No description is available for this CVE. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:H/A:N 
                         │      │                           ╰ V3Score : 5.9 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20919 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20919 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20919 
+                        │                         ├ [1]: https://linux.oracle.com/cve/CVE-2024-20919.html 
+                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20919 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20919 
                         ├ [9]  ╭ VulnerabilityID : CVE-2024-20921 
                         │      ├ PkgID           : openjdk21-jre@21.0.1_p12-r0 
                         │      ├ PkgName         : openjdk21-jre 
@@ -871,13 +883,17 @@
                         │      ├ Title           : OpenJDK: range check loop optimization issue (8314307) 
                         │      ├ Description     : No description is available for this CVE. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.9 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20921 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20921 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20921 
+                        │                         ├ [1]: https://linux.oracle.com/cve/CVE-2024-20921.html 
+                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20921 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20921 
                         ├ [10] ╭ VulnerabilityID : CVE-2024-20945 
                         │      ├ PkgID           : openjdk21-jre@21.0.1_p12-r0 
                         │      ├ PkgName         : openjdk21-jre 
@@ -895,13 +911,17 @@
                         │      ├ Title           : OpenJDK: logging of digital signature private keys (8316976) 
                         │      ├ Description     : No description is available for this CVE. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 4.7 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20945 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20945 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20945 
+                        │                         ├ [1]: https://linux.oracle.com/cve/CVE-2024-20945.html 
+                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20945 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20945 
                         ├ [11] ╭ VulnerabilityID : CVE-2023-45143 
                         │      ├ PkgID           : openjdk21-jre@21.0.1_p12-r0 
                         │      ├ PkgName         : openjdk21-jre 
@@ -1488,14 +1508,18 @@
                         │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
                         │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
                         │      ├ Severity        : HIGH 
-                        │      ├ VendorSeverity   ─ redhat: 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 3 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:N 
                         │      │                           ╰ V3Score : 7.4 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20918 
-                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20918 
-                        │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20918 
-                        │      │                  ╰ [3]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ├ [1]: https://linux.oracle.com/cve/CVE-2024-20918.html 
+                        │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20918 
+                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20918 
+                        │      │                  ╰ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
                         │      ├ PublishedDate   : 2024-01-16T22:15:39.51Z 
                         │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
                         ├ [15] ╭ VulnerabilityID : CVE-2024-20952 
@@ -1541,14 +1565,18 @@
                         │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
                         │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
                         │      ├ Severity        : HIGH 
-                        │      ├ VendorSeverity   ─ redhat: 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 3 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:N 
                         │      │                           ╰ V3Score : 7.4 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20952 
-                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20952 
-                        │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20952 
-                        │      │                  ╰ [3]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ├ [1]: https://linux.oracle.com/cve/CVE-2024-20952.html 
+                        │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20952 
+                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20952 
+                        │      │                  ╰ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
                         │      ├ PublishedDate   : 2024-01-16T22:15:42.477Z 
                         │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
                         ├ [16] ╭ VulnerabilityID : CVE-2024-20919 
@@ -1569,13 +1597,17 @@
                         │      │                    bytecode execution (8314295) 
                         │      ├ Description     : No description is available for this CVE. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:H/A:N 
                         │      │                           ╰ V3Score : 5.9 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20919 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20919 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20919 
+                        │                         ├ [1]: https://linux.oracle.com/cve/CVE-2024-20919.html 
+                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20919 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20919 
                         ├ [17] ╭ VulnerabilityID : CVE-2024-20921 
                         │      ├ PkgID           : openjdk21-jre-headless@21.0.1_p12-r0 
                         │      ├ PkgName         : openjdk21-jre-headless 
@@ -1593,13 +1625,17 @@
                         │      ├ Title           : OpenJDK: range check loop optimization issue (8314307) 
                         │      ├ Description     : No description is available for this CVE. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.9 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20921 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20921 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20921 
+                        │                         ├ [1]: https://linux.oracle.com/cve/CVE-2024-20921.html 
+                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20921 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20921 
                         ├ [18] ╭ VulnerabilityID : CVE-2024-20945 
                         │      ├ PkgID           : openjdk21-jre-headless@21.0.1_p12-r0 
                         │      ├ PkgName         : openjdk21-jre-headless 
@@ -1617,13 +1653,17 @@
                         │      ├ Title           : OpenJDK: logging of digital signature private keys (8316976) 
                         │      ├ Description     : No description is available for this CVE. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 4.7 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20945 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20945 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20945 
+                        │                         ├ [1]: https://linux.oracle.com/cve/CVE-2024-20945.html 
+                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20945 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20945 
                         ├ [19] ╭ VulnerabilityID : CVE-2023-45143 
                         │      ├ PkgID           : openjdk21-jre-headless@21.0.1_p12-r0 
                         │      ├ PkgName         : openjdk21-jre-headless 
