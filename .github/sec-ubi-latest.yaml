@@ -762,6 +762,7 @@
     - CWE-203
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
@@ -769,7 +770,9 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-0553
     - https://bugzilla.redhat.com/show_bug.cgi?id=2258412
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0553
     - https://gitlab.com/gnutls/gnutls/-/issues/1522
+    - https://gnutls.org/security-new.html#GNUTLS-SA-2024-01-14
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-January/004841.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0553
     - https://www.cve.org/CVERecord?id=CVE-2024-0553
@@ -792,6 +795,7 @@
     - CWE-347
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -799,7 +803,9 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-0567
     - https://bugzilla.redhat.com/show_bug.cgi?id=2258544
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0567
     - https://gitlab.com/gnutls/gnutls/-/issues/1521
+    - https://gnutls.org/security-new.html#GNUTLS-SA-2024-01-09
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-January/004841.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0567
     - https://www.cve.org/CVERecord?id=CVE-2024-0567
@@ -822,6 +828,8 @@
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u391, 8u391-perf, 11.0.21, 17.0.9, 21.0.1; Oracle GraalVM for JDK: 17.0.9, 21.0.1; Oracle GraalVM Enterprise Edition: 20.3.12, 21.3.8 and  22.3.4. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -829,6 +837,8 @@
         V3Score: 7.4
     References:
     - https://access.redhat.com/security/cve/CVE-2024-20918
+    - https://linux.oracle.com/cve/CVE-2024-20918.html
+    - https://linux.oracle.com/errata/ELSA-2024-0232.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20918
     - https://www.cve.org/CVERecord?id=CVE-2024-20918
     - https://www.oracle.com/security-alerts/cpujan2024.html
@@ -851,6 +861,8 @@
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u391, 8u391-perf, 11.0.21, 17.0.9, 21.0.1; Oracle GraalVM for JDK: 17.0.9, 21.0.1; Oracle GraalVM Enterprise Edition: 20.3.12, 21.3.8 and  22.3.4. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -858,6 +870,8 @@
         V3Score: 7.4
     References:
     - https://access.redhat.com/security/cve/CVE-2024-20952
+    - https://linux.oracle.com/cve/CVE-2024-20952.html
+    - https://linux.oracle.com/errata/ELSA-2024-0232.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20952
     - https://www.cve.org/CVERecord?id=CVE-2024-20952
     - https://www.oracle.com/security-alerts/cpujan2024.html
@@ -880,6 +894,8 @@
     Description: No description is available for this CVE.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -887,6 +903,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-20919
+    - https://linux.oracle.com/cve/CVE-2024-20919.html
+    - https://linux.oracle.com/errata/ELSA-2024-0232.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20919
     - https://www.cve.org/CVERecord?id=CVE-2024-20919
   - VulnerabilityID: CVE-2024-20921
@@ -906,6 +924,8 @@
     Description: No description is available for this CVE.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -913,6 +933,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-20921
+    - https://linux.oracle.com/cve/CVE-2024-20921.html
+    - https://linux.oracle.com/errata/ELSA-2024-0232.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20921
     - https://www.cve.org/CVERecord?id=CVE-2024-20921
   - VulnerabilityID: CVE-2024-20945
@@ -932,6 +954,8 @@
     Description: No description is available for this CVE.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -939,6 +963,8 @@
         V3Score: 4.7
     References:
     - https://access.redhat.com/security/cve/CVE-2024-20945
+    - https://linux.oracle.com/cve/CVE-2024-20945.html
+    - https://linux.oracle.com/errata/ELSA-2024-0232.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20945
     - https://www.cve.org/CVERecord?id=CVE-2024-20945
   - VulnerabilityID: CVE-2023-30571
@@ -4020,7 +4046,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -4062,7 +4088,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -4183,6 +4209,7 @@
       cbl-mariner: 2
       nvd: 2
       redhat: 2
+      ubuntu: 1
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -4194,6 +4221,7 @@
     - https://access.redhat.com/security/cve/CVE-2023-7008
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
