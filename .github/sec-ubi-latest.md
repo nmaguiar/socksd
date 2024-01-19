@@ -873,17 +873,22 @@
                         │      │                   resolution for CVE-2023-5981. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.9 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-0553 
                         │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2258412 
-                        │      │                  ├ [2]: https://gitlab.com/gnutls/gnutls/-/issues/1522 
-                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnutls-help/202
+                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2024-0553 
+                        │      │                  ├ [3]: https://gitlab.com/gnutls/gnutls/-/issues/1522 
+                        │      │                  ├ [4]: https://gnutls.org/security-new.html#GNUTLS-SA-20
+                        │      │                  │      24-01-14 
+                        │      │                  ├ [5]: https://lists.gnupg.org/pipermail/gnutls-help/202
                         │      │                  │      4-January/004841.html 
-                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
-                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
+                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
+                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
                         │      ├ PublishedDate   : 2024-01-16T12:15:45.557Z 
                         │      ╰ LastModifiedDate: 2024-01-16T13:56:05.467Z 
                         ├ [16] ╭ VulnerabilityID : CVE-2024-0567 
@@ -906,17 +911,22 @@
                         │      │                   initiate a denial of service attack. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-347 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.9 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-0567 
                         │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2258544 
-                        │      │                  ├ [2]: https://gitlab.com/gnutls/gnutls/-/issues/1521 
-                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnutls-help/202
+                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2024-0567 
+                        │      │                  ├ [3]: https://gitlab.com/gnutls/gnutls/-/issues/1521 
+                        │      │                  ├ [4]: https://gnutls.org/security-new.html#GNUTLS-SA-20
+                        │      │                  │      24-01-09 
+                        │      │                  ├ [5]: https://lists.gnupg.org/pipermail/gnutls-help/202
                         │      │                  │      4-January/004841.html 
-                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-0567 
-                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0567 
+                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-0567 
+                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-0567 
                         │      ├ PublishedDate   : 2024-01-16T14:15:48.527Z 
                         │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
                         ├ [17] ╭ VulnerabilityID : CVE-2024-20918 
@@ -961,14 +971,18 @@
                         │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
                         │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
                         │      ├ Severity        : HIGH 
-                        │      ├ VendorSeverity   ─ redhat: 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 3 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:N 
                         │      │                           ╰ V3Score : 7.4 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20918 
-                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20918 
-                        │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20918 
-                        │      │                  ╰ [3]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ├ [1]: https://linux.oracle.com/cve/CVE-2024-20918.html 
+                        │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20918 
+                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20918 
+                        │      │                  ╰ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
                         │      ├ PublishedDate   : 2024-01-16T22:15:39.51Z 
                         │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
                         ├ [18] ╭ VulnerabilityID : CVE-2024-20952 
@@ -1013,14 +1027,18 @@
                         │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
                         │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
                         │      ├ Severity        : HIGH 
-                        │      ├ VendorSeverity   ─ redhat: 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 3 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:N 
                         │      │                           ╰ V3Score : 7.4 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20952 
-                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20952 
-                        │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20952 
-                        │      │                  ╰ [3]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ├ [1]: https://linux.oracle.com/cve/CVE-2024-20952.html 
+                        │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20952 
+                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20952 
+                        │      │                  ╰ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
                         │      ├ PublishedDate   : 2024-01-16T22:15:42.477Z 
                         │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
                         ├ [19] ╭ VulnerabilityID : CVE-2024-20919 
@@ -1040,13 +1058,17 @@
                         │      │                    bytecode execution (8314295) 
                         │      ├ Description     : No description is available for this CVE. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:H/A:N 
                         │      │                           ╰ V3Score : 5.9 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20919 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20919 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20919 
+                        │                         ├ [1]: https://linux.oracle.com/cve/CVE-2024-20919.html 
+                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20919 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20919 
                         ├ [20] ╭ VulnerabilityID : CVE-2024-20921 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0249 
                         │      ├ PkgID           : java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64 
@@ -1063,13 +1085,17 @@
                         │      ├ Title           : OpenJDK: range check loop optimization issue (8314307) 
                         │      ├ Description     : No description is available for this CVE. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.9 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20921 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20921 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20921 
+                        │                         ├ [1]: https://linux.oracle.com/cve/CVE-2024-20921.html 
+                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20921 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20921 
                         ├ [21] ╭ VulnerabilityID : CVE-2024-20945 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0249 
                         │      ├ PkgID           : java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64 
@@ -1086,13 +1112,17 @@
                         │      ├ Title           : OpenJDK: logging of digital signature private keys (8316976) 
                         │      ├ Description     : No description is available for this CVE. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 4.7 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20945 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-20945 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-20945 
+                        │                         ├ [1]: https://linux.oracle.com/cve/CVE-2024-20945.html 
+                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20945 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20945 
                         ├ [22] ╭ VulnerabilityID : CVE-2023-30571 
                         │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
                         │      ├ PkgName         : libarchive 
@@ -5107,7 +5137,7 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -5152,7 +5182,7 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -5288,7 +5318,8 @@
                                ├ CweIDs           ─ [0]: CWE-300 
                                ├ VendorSeverity   ╭ cbl-mariner: 2 
                                │                  ├ nvd        : 2 
-                               │                  ╰ redhat     : 2 
+                               │                  ├ redhat     : 2 
+                               │                  ╰ ubuntu     : 1 
                                ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                                │                  │        │           N/I:H/A:N 
                                │                  │        ╰ V3Score : 5.9 
@@ -5298,9 +5329,11 @@
                                ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7008 
                                │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
                                │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
-                               │                  ├ [3]: https://github.com/systemd/systemd/issues/25676 
-                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-                               │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+                               │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                               │                  │      E-2023-7008 
+                               │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
+                               │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
                                ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
                                ╰ LastModifiedDate: 2024-01-04T19:14:33.99Z 
 ````
