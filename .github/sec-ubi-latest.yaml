@@ -728,6 +728,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
+    - http://www.openwall.com/lists/oss-security/2024/01/19/3
     - https://access.redhat.com/errata/RHSA-2024:0155
     - https://access.redhat.com/security/cve/CVE-2023-5981
     - https://bugzilla.redhat.com/2248445
@@ -744,7 +745,7 @@
     - https://ubuntu.com/security/notices/USN-6499-2
     - https://www.cve.org/CVERecord?id=CVE-2023-5981
     PublishedDate: '2023-11-28T12:15:07.04Z'
-    LastModifiedDate: '2024-01-10T21:15:09.23Z'
+    LastModifiedDate: '2024-01-19T21:15:08.4Z'
   - VulnerabilityID: CVE-2024-0553
     PkgID: gnutls@3.7.6-23.el9.x86_64
     PkgName: gnutls
@@ -768,6 +769,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
+    - http://www.openwall.com/lists/oss-security/2024/01/19/3
     - https://access.redhat.com/security/cve/CVE-2024-0553
     - https://bugzilla.redhat.com/show_bug.cgi?id=2258412
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0553
@@ -777,7 +779,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0553
     - https://www.cve.org/CVERecord?id=CVE-2024-0553
     PublishedDate: '2024-01-16T12:15:45.557Z'
-    LastModifiedDate: '2024-01-16T13:56:05.467Z'
+    LastModifiedDate: '2024-01-19T21:15:08.527Z'
   - VulnerabilityID: CVE-2024-0567
     PkgID: gnutls@3.7.6-23.el9.x86_64
     PkgName: gnutls
@@ -801,6 +803,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - http://www.openwall.com/lists/oss-security/2024/01/19/3
     - https://access.redhat.com/security/cve/CVE-2024-0567
     - https://bugzilla.redhat.com/show_bug.cgi?id=2258544
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0567
@@ -810,7 +813,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0567
     - https://www.cve.org/CVERecord?id=CVE-2024-0567
     PublishedDate: '2024-01-16T14:15:48.527Z'
-    LastModifiedDate: '2024-01-16T23:12:38.473Z'
+    LastModifiedDate: '2024-01-19T21:15:08.613Z'
   - VulnerabilityID: CVE-2024-20918
     VendorIDs:
     - RHSA-2024:0249
@@ -842,6 +845,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20918
     - https://www.cve.org/CVERecord?id=CVE-2024-20918
     - https://www.oracle.com/security-alerts/cpujan2024.html
+    - https://www.oracle.com/security-alerts/cpujan2024.html#AppendixJAVA
     PublishedDate: '2024-01-16T22:15:39.51Z'
     LastModifiedDate: '2024-01-16T23:12:38.473Z'
   - VulnerabilityID: CVE-2024-20952
@@ -875,6 +879,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20952
     - https://www.cve.org/CVERecord?id=CVE-2024-20952
     - https://www.oracle.com/security-alerts/cpujan2024.html
+    - https://www.oracle.com/security-alerts/cpujan2024.html#AppendixJAVA
     PublishedDate: '2024-01-16T22:15:42.477Z'
     LastModifiedDate: '2024-01-16T23:12:38.473Z'
   - VulnerabilityID: CVE-2024-20919
@@ -1300,9 +1305,10 @@
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-50495
+    - https://security.netapp.com/advisory/ntap-20240119-0008/
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2023-12-18T18:30:24.743Z'
+    LastModifiedDate: '2024-01-19T16:15:10.193Z'
   - VulnerabilityID: CVE-2022-29458
     PkgID: ncurses-libs@6.2-10.20210508.el9.x86_64
     PkgName: ncurses-libs
@@ -1379,9 +1385,10 @@
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-50495
+    - https://security.netapp.com/advisory/ntap-20240119-0008/
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2023-12-18T18:30:24.743Z'
+    LastModifiedDate: '2024-01-19T16:15:10.193Z'
   - VulnerabilityID: CVE-2023-5388
     VendorIDs:
     - RHSA-2024:0108
@@ -2850,6 +2857,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-6237
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
+  - VulnerabilityID: CVE-2024-22365
+    PkgID: pam@1.5.1-15.el9.x86_64
+    PkgName: pam
+    InstalledVersion: 1.5.1-15.el9
+    Status: affected
+    Layer:
+      Digest: sha256:b9db5a6d2c19a374b5ef35a30828eaf4dc721468f49f94d2af355973ef5d0c29
+      DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f235d44953397dcdb7acf36444fe
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-22365
+    Title: 'pam: allowing unpriledged user to block another user namespace'
+    Description: A vulnerability was found in Linux PAM. An unprivileged user that is not yet in a corresponding mount namespace with ~/tmp mounted as a polyinstantiated dir can place a FIFO there, and a subsequent attempt to login as this user with `pam_namespace` configured will cause the `openat()` in `protect_dir()` to block the attempt, causing a local denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-22365
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22365
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-22365
+    - https://ubuntu.com/security/notices/USN-6588-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-22365
+    - https://www.openwall.com/lists/oss-security/2024/01/18/3
   - VulnerabilityID: CVE-2021-23336
     PkgID: python-unversioned-command@3.9.18-1.el9_3.noarch
     PkgName: python-unversioned-command
@@ -3019,6 +3053,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -3036,8 +3071,10 @@
     - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
     - https://errata.almalinux.org/8/ALSA-2024-0256.html
+    - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
@@ -3273,6 +3310,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -3290,8 +3328,10 @@
     - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
     - https://errata.almalinux.org/8/ALSA-2024-0256.html
+    - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
@@ -3527,6 +3567,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -3544,8 +3585,10 @@
     - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
     - https://errata.almalinux.org/8/ALSA-2024-0256.html
+    - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
@@ -3971,6 +4014,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -3986,8 +4030,10 @@
     - https://access.redhat.com/errata/RHSA-2024:0253
     - https://access.redhat.com/security/cve/CVE-2023-7104
     - https://bugzilla.redhat.com/2256194
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2256194
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7104
     - https://errata.almalinux.org/8/ALSA-2024-0253.html
+    - https://errata.rockylinux.org/RLSA-2024:0253
     - https://linux.oracle.com/cve/CVE-2023-7104.html
     - https://linux.oracle.com/errata/ELSA-2024-0253.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AYONA2XSNFMXLAW4IHLFI5UVV3QRNG5K/
