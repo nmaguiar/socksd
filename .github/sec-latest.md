@@ -777,7 +777,9 @@
                         │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
                         │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20918 
                         │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20918 
-                        │      │                  ╰ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ├ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ╰ [6]: https://www.oracle.com/security-alerts/cpujan2024
+                        │      │                         .html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-01-16T22:15:39.51Z 
                         │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
                         ├ [7]  ╭ VulnerabilityID : CVE-2024-20952 
@@ -834,7 +836,9 @@
                         │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
                         │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20952 
                         │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20952 
-                        │      │                  ╰ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ├ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ╰ [6]: https://www.oracle.com/security-alerts/cpujan2024
+                        │      │                         .html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-01-16T22:15:42.477Z 
                         │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
                         ├ [8]  ╭ VulnerabilityID : CVE-2024-20919 
@@ -1519,7 +1523,9 @@
                         │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
                         │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20918 
                         │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20918 
-                        │      │                  ╰ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ├ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ╰ [6]: https://www.oracle.com/security-alerts/cpujan2024
+                        │      │                         .html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-01-16T22:15:39.51Z 
                         │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
                         ├ [15] ╭ VulnerabilityID : CVE-2024-20952 
@@ -1576,7 +1582,9 @@
                         │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
                         │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20952 
                         │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20952 
-                        │      │                  ╰ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ├ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
+                        │      │                  ╰ [6]: https://www.oracle.com/security-alerts/cpujan2024
+                        │      │                         .html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-01-16T22:15:42.477Z 
                         │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
                         ├ [16] ╭ VulnerabilityID : CVE-2024-20919 
