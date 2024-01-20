@@ -985,7 +985,7 @@
                         │      │                           ╰ V3Score : 7.4 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20918 
                         │      │                  ├ [1]: https://linux.oracle.com/cve/CVE-2024-20918.html 
-                        │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0249.html 
                         │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20918 
                         │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20918 
                         │      │                  ├ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
@@ -1043,7 +1043,7 @@
                         │      │                           ╰ V3Score : 7.4 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20952 
                         │      │                  ├ [1]: https://linux.oracle.com/cve/CVE-2024-20952.html 
-                        │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0249.html 
                         │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20952 
                         │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20952 
                         │      │                  ├ [5]: https://www.oracle.com/security-alerts/cpujan2024.html 
@@ -1076,7 +1076,7 @@
                         │      │                           ╰ V3Score : 5.9 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20919 
                         │                         ├ [1]: https://linux.oracle.com/cve/CVE-2024-20919.html 
-                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0249.html 
                         │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20919 
                         │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20919 
                         ├ [20] ╭ VulnerabilityID : CVE-2024-20921 
@@ -1103,7 +1103,7 @@
                         │      │                           ╰ V3Score : 5.9 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20921 
                         │                         ├ [1]: https://linux.oracle.com/cve/CVE-2024-20921.html 
-                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0249.html 
                         │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20921 
                         │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20921 
                         ├ [21] ╭ VulnerabilityID : CVE-2024-20945 
@@ -1130,7 +1130,7 @@
                         │      │                           ╰ V3Score : 4.7 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-20945 
                         │                         ├ [1]: https://linux.oracle.com/cve/CVE-2024-20945.html 
-                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0232.html 
+                        │                         ├ [2]: https://linux.oracle.com/errata/ELSA-2024-0249.html 
                         │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-20945 
                         │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-20945 
                         ├ [22] ╭ VulnerabilityID : CVE-2023-30571 
@@ -5197,7 +5197,7 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -5242,7 +5242,7 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
