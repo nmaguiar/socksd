@@ -509,6 +509,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20918
     - https://www.cve.org/CVERecord?id=CVE-2024-20918
     - https://www.oracle.com/security-alerts/cpujan2024.html
+    - https://www.oracle.com/security-alerts/cpujan2024.html#AppendixJAVA
     PublishedDate: '2024-01-16T22:15:39.51Z'
     LastModifiedDate: '2024-01-16T23:12:38.473Z'
   - VulnerabilityID: CVE-2024-20952
@@ -543,6 +544,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20952
     - https://www.cve.org/CVERecord?id=CVE-2024-20952
     - https://www.oracle.com/security-alerts/cpujan2024.html
+    - https://www.oracle.com/security-alerts/cpujan2024.html#AppendixJAVA
     PublishedDate: '2024-01-16T22:15:42.477Z'
     LastModifiedDate: '2024-01-16T23:12:38.473Z'
   - VulnerabilityID: CVE-2024-20919
@@ -1013,6 +1015,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20918
     - https://www.cve.org/CVERecord?id=CVE-2024-20918
     - https://www.oracle.com/security-alerts/cpujan2024.html
+    - https://www.oracle.com/security-alerts/cpujan2024.html#AppendixJAVA
     PublishedDate: '2024-01-16T22:15:39.51Z'
     LastModifiedDate: '2024-01-16T23:12:38.473Z'
   - VulnerabilityID: CVE-2024-20952
@@ -1047,6 +1050,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20952
     - https://www.cve.org/CVERecord?id=CVE-2024-20952
     - https://www.oracle.com/security-alerts/cpujan2024.html
+    - https://www.oracle.com/security-alerts/cpujan2024.html#AppendixJAVA
     PublishedDate: '2024-01-16T22:15:42.477Z'
     LastModifiedDate: '2024-01-16T23:12:38.473Z'
   - VulnerabilityID: CVE-2024-20919
