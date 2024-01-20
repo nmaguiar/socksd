@@ -841,7 +841,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-20918
     - https://linux.oracle.com/cve/CVE-2024-20918.html
-    - https://linux.oracle.com/errata/ELSA-2024-0232.html
+    - https://linux.oracle.com/errata/ELSA-2024-0249.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20918
     - https://www.cve.org/CVERecord?id=CVE-2024-20918
     - https://www.oracle.com/security-alerts/cpujan2024.html
@@ -875,7 +875,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-20952
     - https://linux.oracle.com/cve/CVE-2024-20952.html
-    - https://linux.oracle.com/errata/ELSA-2024-0232.html
+    - https://linux.oracle.com/errata/ELSA-2024-0249.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20952
     - https://www.cve.org/CVERecord?id=CVE-2024-20952
     - https://www.oracle.com/security-alerts/cpujan2024.html
@@ -909,7 +909,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-20919
     - https://linux.oracle.com/cve/CVE-2024-20919.html
-    - https://linux.oracle.com/errata/ELSA-2024-0232.html
+    - https://linux.oracle.com/errata/ELSA-2024-0249.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20919
     - https://www.cve.org/CVERecord?id=CVE-2024-20919
   - VulnerabilityID: CVE-2024-20921
@@ -939,7 +939,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-20921
     - https://linux.oracle.com/cve/CVE-2024-20921.html
-    - https://linux.oracle.com/errata/ELSA-2024-0232.html
+    - https://linux.oracle.com/errata/ELSA-2024-0249.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20921
     - https://www.cve.org/CVERecord?id=CVE-2024-20921
   - VulnerabilityID: CVE-2024-20945
@@ -969,7 +969,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-20945
     - https://linux.oracle.com/cve/CVE-2024-20945.html
-    - https://linux.oracle.com/errata/ELSA-2024-0232.html
+    - https://linux.oracle.com/errata/ELSA-2024-0249.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20945
     - https://www.cve.org/CVERecord?id=CVE-2024-20945
   - VulnerabilityID: CVE-2023-30571
@@ -4092,7 +4092,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -4134,7 +4134,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
