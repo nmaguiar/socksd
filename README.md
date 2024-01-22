@@ -50,10 +50,11 @@ You can control the behaviour with environment variables:
 
 | Variable | Possible values | Description |
 |----------|-----------------|-------------|
-| ONLY_LOCAL | true/false | Filters all proxied traffic only to private network addresses |
+| ONLY_LOCAL | true/false | Filters all proxied traffic only to private network addresses (DOMAINFILTERS and FILTERS are ignored) |
 | LOGS | true/false | Enables basic connection logging |
 | LOGS_DETAIL | true/false | Enables more verbose logging (requires LOGS=true) |
 | FILTERS | "192.168.1.0/16,fc00::/7" | Comma-delimited list of CIDRs to filter all traffic proxied. |
+| DOMAINFILTERS | "default.svc,default.svc.cluster.local" | Comma-delimited list of domains to filter all traffi proxied. |
 | INITOJOB | setDNS.yaml | (optional) Runs the indicated OpenAF's oJob to perform an initialization function. |
 | INITOJOBARGS | "(arg1: xyz, arg2: 123)" | (optional) The INITOJOB arguments to use in [SLON](https://github.com/nmaguiar/slon) format |
 | OJOB_JSONLOG | true/false | Ensures all output log to stdout is in JSON |

@@ -3,7 +3,7 @@ help:
   text   : Starts a socks server 
   expects: 
   - name     : ONLY_LOCAL
-    desc     : If "true" filters by requests only for private IP addresses
+    desc     : If "true" filters by requests only for private IP addresses (DOMAINFILTERS and FILTERS are ignored)
     example  : "true"
     mandatory: false
   - name     : LOGS
@@ -17,6 +17,10 @@ help:
   - name     : FILTERS
     desc     : A list of IP addressed CIDR separated by commas.
     example  : "192.168.1.0/16,fc00::/7"
+    mandatory: false
+  - name     : DOMAINFILTERS
+    desc     : A list of domains separated by commas.
+    example  : "mydomain.com,myotherdomain.com"
     mandatory: false
   - name     : DNSTIMEOUT
     desc     : If defined sets a different DNS resolution timeout (in seconds) from the default (10 seconds)
@@ -36,8 +40,8 @@ todo:
 
 ojob:
   opacks      :
-  - openaf: 20230704
-  - SocksServer
+  - openaf     : 20230704
+  - SocksServer: 20240120
   catch       : printErrnl("[" + job.name + "] "); if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
   logToConsole: false   # to change when finished
   argsFromEnvs: true
@@ -50,13 +54,14 @@ jobs:
 - name : Socks Server
   check:
     in:
-      ONLY_LOCAL  : toBoolean.isBoolean.default(false)
-      LOGS        : toBoolean.isBoolean.default(false)
-      LOGS_DETAIL : toBoolean.isBoolean.default(false)
-      FILTERS     : isString.default(__)
-      DNSTIMEOUT  : toNumber.isNumber.default(10000)
-      INITOJOB    : isString.default(__)
-      INITOJOBARGS: isString.default("{}")
+      ONLY_LOCAL   : toBoolean.isBoolean.default(false)
+      LOGS         : toBoolean.isBoolean.default(false)
+      LOGS_DETAIL  : toBoolean.isBoolean.default(false)
+      FILTERS      : isString.default(__)
+      DOMAINFILTERS: isString.default(__)
+      DNSTIMEOUT   : toNumber.isNumber.default(10000)
+      INITOJOB     : isString.default(__)
+      INITOJOBARGS : isString.default("{}")
   exec : |
     if (isDef(args.INITOJOB)) {
       log("Running " + args.INITOJOB + "...")
@@ -71,9 +76,10 @@ jobs:
 
     // Start Socks server
     var s = new SocksServer()
+
     s.start(1080, args.ONLY_LOCAL ? s.getLocalNetCallback(args.LOGS, args.LOGS_DETAIL)
-                                  : (isDef(args.FILTERS) 
-                                    ? s.getCallback( s.getNetFilter( args.FILTERS.split(',') ), args.LOGS, args.LOGS_DETAIL )
+                                  : ((isDef(args.FILTERS) || isDef(args.DOMAINFILTERS)) 
+                                    ? s.getCallback( s.getNetFilter( isDef(args.FILTERS) ? args.FILTERS.split(',').map(r=>r.trim()) : __, isDef(args.DOMAINFILTERS) ? args.DOMAINFILTERS.split(',').map(r=>r.trim()) : __ ), args.LOGS, args.LOGS_DETAIL )
                                     : s.getLogCallback( args.LOGS, args.LOGS_DETAIL )
                                     )
             )
