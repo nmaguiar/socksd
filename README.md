@@ -7,6 +7,7 @@ Main features:
 - JSON logs output support
 - SOCKS 4, 5 and 5 with DNS resolution
 - Filter the network addresses allowed (e.g. 192.168.1.0/16,fc00::/7, etc...) 
+- Filter the network domains allowed (e.g. default.svc,default.svc.cluster.local, etc...)
 - Detailed connection log support
 - Scale capacity by increasing deploy replicas
 
