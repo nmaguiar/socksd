@@ -423,11 +423,11 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:N 
                         │      │                           ╰ V3Score : 9.1 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0133 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7753 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-37920 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2226586 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2242493 
-                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-0133.html 
+                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-7753.html 
                         │      │                  ├ [5] : https://github.com/certifi/python-certifi 
                         │      │                  ├ [6] : https://github.com/certifi/python-certifi/commit
                         │      │                  │       /8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909 
@@ -984,21 +984,22 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:N 
                         │      │                           ╰ V3Score : 7.4 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0248 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0267 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-20918 
-                        │      │                  ├ [2] : https://bugzilla.redhat.com/2257728 
-                        │      │                  ├ [3] : https://bugzilla.redhat.com/2257837 
-                        │      │                  ├ [4] : https://bugzilla.redhat.com/2257853 
-                        │      │                  ├ [5] : https://bugzilla.redhat.com/2257859 
-                        │      │                  ├ [6] : https://bugzilla.redhat.com/2257874 
-                        │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-0248.html 
-                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-20918.html 
-                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-0249.html 
-                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-20918 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-20918 
-                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpujan202
+                        │      │                  ├ [2] : https://bugzilla.redhat.com/2257720 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2257728 
+                        │      │                  ├ [4] : https://bugzilla.redhat.com/2257837 
+                        │      │                  ├ [5] : https://bugzilla.redhat.com/2257853 
+                        │      │                  ├ [6] : https://bugzilla.redhat.com/2257859 
+                        │      │                  ├ [7] : https://bugzilla.redhat.com/2257874 
+                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-0267.html 
+                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-20918.html 
+                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-0249.html 
+                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-20918 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-20918 
+                        │      │                  ├ [13]: https://www.oracle.com/security-alerts/cpujan202
                         │      │                  │       4.html 
-                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpujan202
+                        │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpujan202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-01-16T22:15:39.51Z 
                         │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
@@ -1051,21 +1052,22 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:N 
                         │      │                           ╰ V3Score : 7.4 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0248 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0267 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-20952 
-                        │      │                  ├ [2] : https://bugzilla.redhat.com/2257728 
-                        │      │                  ├ [3] : https://bugzilla.redhat.com/2257837 
-                        │      │                  ├ [4] : https://bugzilla.redhat.com/2257853 
-                        │      │                  ├ [5] : https://bugzilla.redhat.com/2257859 
-                        │      │                  ├ [6] : https://bugzilla.redhat.com/2257874 
-                        │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-0248.html 
-                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-20952.html 
-                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-0249.html 
-                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-20952 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-20952 
-                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpujan202
+                        │      │                  ├ [2] : https://bugzilla.redhat.com/2257720 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2257728 
+                        │      │                  ├ [4] : https://bugzilla.redhat.com/2257837 
+                        │      │                  ├ [5] : https://bugzilla.redhat.com/2257853 
+                        │      │                  ├ [6] : https://bugzilla.redhat.com/2257859 
+                        │      │                  ├ [7] : https://bugzilla.redhat.com/2257874 
+                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-0267.html 
+                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-20952.html 
+                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-0249.html 
+                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-20952 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-20952 
+                        │      │                  ├ [13]: https://www.oracle.com/security-alerts/cpujan202
                         │      │                  │       4.html 
-                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpujan202
+                        │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpujan202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-01-16T22:15:42.477Z 
                         │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
@@ -1093,18 +1095,19 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:H/A:N 
                         │      │                           ╰ V3Score : 5.9 
-                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0248 
+                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0267 
                         │                         ├ [1] : https://access.redhat.com/security/cve/CVE-2024-20919 
-                        │                         ├ [2] : https://bugzilla.redhat.com/2257728 
-                        │                         ├ [3] : https://bugzilla.redhat.com/2257837 
-                        │                         ├ [4] : https://bugzilla.redhat.com/2257853 
-                        │                         ├ [5] : https://bugzilla.redhat.com/2257859 
-                        │                         ├ [6] : https://bugzilla.redhat.com/2257874 
-                        │                         ├ [7] : https://errata.almalinux.org/8/ALSA-2024-0248.html 
-                        │                         ├ [8] : https://linux.oracle.com/cve/CVE-2024-20919.html 
-                        │                         ├ [9] : https://linux.oracle.com/errata/ELSA-2024-0249.html 
-                        │                         ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-20919 
-                        │                         ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-20919 
+                        │                         ├ [2] : https://bugzilla.redhat.com/2257720 
+                        │                         ├ [3] : https://bugzilla.redhat.com/2257728 
+                        │                         ├ [4] : https://bugzilla.redhat.com/2257837 
+                        │                         ├ [5] : https://bugzilla.redhat.com/2257853 
+                        │                         ├ [6] : https://bugzilla.redhat.com/2257859 
+                        │                         ├ [7] : https://bugzilla.redhat.com/2257874 
+                        │                         ├ [8] : https://errata.almalinux.org/9/ALSA-2024-0267.html 
+                        │                         ├ [9] : https://linux.oracle.com/cve/CVE-2024-20919.html 
+                        │                         ├ [10]: https://linux.oracle.com/errata/ELSA-2024-0249.html 
+                        │                         ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-20919 
+                        │                         ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-20919 
                         ├ [20] ╭ VulnerabilityID : CVE-2024-20921 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0249 
                         │      ├ PkgID           : java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64 
@@ -1128,18 +1131,19 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.9 
-                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0248 
+                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0267 
                         │                         ├ [1] : https://access.redhat.com/security/cve/CVE-2024-20921 
-                        │                         ├ [2] : https://bugzilla.redhat.com/2257728 
-                        │                         ├ [3] : https://bugzilla.redhat.com/2257837 
-                        │                         ├ [4] : https://bugzilla.redhat.com/2257853 
-                        │                         ├ [5] : https://bugzilla.redhat.com/2257859 
-                        │                         ├ [6] : https://bugzilla.redhat.com/2257874 
-                        │                         ├ [7] : https://errata.almalinux.org/8/ALSA-2024-0248.html 
-                        │                         ├ [8] : https://linux.oracle.com/cve/CVE-2024-20921.html 
-                        │                         ├ [9] : https://linux.oracle.com/errata/ELSA-2024-0249.html 
-                        │                         ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-20921 
-                        │                         ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-20921 
+                        │                         ├ [2] : https://bugzilla.redhat.com/2257720 
+                        │                         ├ [3] : https://bugzilla.redhat.com/2257728 
+                        │                         ├ [4] : https://bugzilla.redhat.com/2257837 
+                        │                         ├ [5] : https://bugzilla.redhat.com/2257853 
+                        │                         ├ [6] : https://bugzilla.redhat.com/2257859 
+                        │                         ├ [7] : https://bugzilla.redhat.com/2257874 
+                        │                         ├ [8] : https://errata.almalinux.org/9/ALSA-2024-0267.html 
+                        │                         ├ [9] : https://linux.oracle.com/cve/CVE-2024-20921.html 
+                        │                         ├ [10]: https://linux.oracle.com/errata/ELSA-2024-0249.html 
+                        │                         ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-20921 
+                        │                         ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-20921 
                         ├ [21] ╭ VulnerabilityID : CVE-2024-20945 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0249 
                         │      ├ PkgID           : java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64 
@@ -1163,18 +1167,19 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 4.7 
-                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0248 
+                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0267 
                         │                         ├ [1] : https://access.redhat.com/security/cve/CVE-2024-20945 
-                        │                         ├ [2] : https://bugzilla.redhat.com/2257728 
-                        │                         ├ [3] : https://bugzilla.redhat.com/2257837 
-                        │                         ├ [4] : https://bugzilla.redhat.com/2257853 
-                        │                         ├ [5] : https://bugzilla.redhat.com/2257859 
-                        │                         ├ [6] : https://bugzilla.redhat.com/2257874 
-                        │                         ├ [7] : https://errata.almalinux.org/8/ALSA-2024-0248.html 
-                        │                         ├ [8] : https://linux.oracle.com/cve/CVE-2024-20945.html 
-                        │                         ├ [9] : https://linux.oracle.com/errata/ELSA-2024-0249.html 
-                        │                         ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-20945 
-                        │                         ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-20945 
+                        │                         ├ [2] : https://bugzilla.redhat.com/2257720 
+                        │                         ├ [3] : https://bugzilla.redhat.com/2257728 
+                        │                         ├ [4] : https://bugzilla.redhat.com/2257837 
+                        │                         ├ [5] : https://bugzilla.redhat.com/2257853 
+                        │                         ├ [6] : https://bugzilla.redhat.com/2257859 
+                        │                         ├ [7] : https://bugzilla.redhat.com/2257874 
+                        │                         ├ [8] : https://errata.almalinux.org/9/ALSA-2024-0267.html 
+                        │                         ├ [9] : https://linux.oracle.com/cve/CVE-2024-20945.html 
+                        │                         ├ [10]: https://linux.oracle.com/errata/ELSA-2024-0249.html 
+                        │                         ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-20945 
+                        │                         ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-20945 
                         ├ [22] ╭ VulnerabilityID : CVE-2023-30571 
                         │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
                         │      ├ PkgName         : libarchive 
@@ -1687,13 +1692,13 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0105 
+                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0108 
                         │                         ├ [1] : https://access.redhat.com/security/cve/CVE-2023-5388 
                         │                         ├ [2] : https://bugzilla.redhat.com/2243644 
                         │                         ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2243644 
                         │                         ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │                         │       VE-2023-5388 
-                        │                         ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0105.html 
+                        │                         ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0108.html 
                         │                         ├ [6] : https://errata.rockylinux.org/RLSA-2024:0105 
                         │                         ├ [7] : https://linux.oracle.com/cve/CVE-2023-5388.html 
                         │                         ├ [8] : https://linux.oracle.com/errata/ELSA-2024-0108.html 
@@ -1767,13 +1772,13 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0105 
+                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0108 
                         │                         ├ [1] : https://access.redhat.com/security/cve/CVE-2023-5388 
                         │                         ├ [2] : https://bugzilla.redhat.com/2243644 
                         │                         ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2243644 
                         │                         ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │                         │       VE-2023-5388 
-                        │                         ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0105.html 
+                        │                         ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0108.html 
                         │                         ├ [6] : https://errata.rockylinux.org/RLSA-2024:0105 
                         │                         ├ [7] : https://linux.oracle.com/cve/CVE-2023-5388.html 
                         │                         ├ [8] : https://linux.oracle.com/errata/ELSA-2024-0108.html 
@@ -1847,13 +1852,13 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0105 
+                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0108 
                         │                         ├ [1] : https://access.redhat.com/security/cve/CVE-2023-5388 
                         │                         ├ [2] : https://bugzilla.redhat.com/2243644 
                         │                         ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2243644 
                         │                         ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │                         │       VE-2023-5388 
-                        │                         ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0105.html 
+                        │                         ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0108.html 
                         │                         ├ [6] : https://errata.rockylinux.org/RLSA-2024:0105 
                         │                         ├ [7] : https://linux.oracle.com/cve/CVE-2023-5388.html 
                         │                         ├ [8] : https://linux.oracle.com/errata/ELSA-2024-0108.html 
@@ -1927,13 +1932,13 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0105 
+                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0108 
                         │                         ├ [1] : https://access.redhat.com/security/cve/CVE-2023-5388 
                         │                         ├ [2] : https://bugzilla.redhat.com/2243644 
                         │                         ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2243644 
                         │                         ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │                         │       VE-2023-5388 
-                        │                         ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0105.html 
+                        │                         ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0108.html 
                         │                         ├ [6] : https://errata.rockylinux.org/RLSA-2024:0105 
                         │                         ├ [7] : https://linux.oracle.com/cve/CVE-2023-5388.html 
                         │                         ├ [8] : https://linux.oracle.com/errata/ELSA-2024-0108.html 
@@ -2007,13 +2012,13 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0105 
+                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0108 
                         │                         ├ [1] : https://access.redhat.com/security/cve/CVE-2023-5388 
                         │                         ├ [2] : https://bugzilla.redhat.com/2243644 
                         │                         ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2243644 
                         │                         ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │                         │       VE-2023-5388 
-                        │                         ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0105.html 
+                        │                         ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0108.html 
                         │                         ├ [6] : https://errata.rockylinux.org/RLSA-2024:0105 
                         │                         ├ [7] : https://linux.oracle.com/cve/CVE-2023-5388.html 
                         │                         ├ [8] : https://linux.oracle.com/errata/ELSA-2024-0108.html 
@@ -2087,13 +2092,13 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0105 
+                        │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0108 
                         │                         ├ [1] : https://access.redhat.com/security/cve/CVE-2023-5388 
                         │                         ├ [2] : https://bugzilla.redhat.com/2243644 
                         │                         ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2243644 
                         │                         ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │                         │       VE-2023-5388 
-                        │                         ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0105.html 
+                        │                         ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0108.html 
                         │                         ├ [6] : https://errata.rockylinux.org/RLSA-2024:0105 
                         │                         ├ [7] : https://linux.oracle.com/cve/CVE-2023-5388.html 
                         │                         ├ [8] : https://linux.oracle.com/errata/ELSA-2024-0108.html 
@@ -5240,7 +5245,7 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -5285,7 +5290,7 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
