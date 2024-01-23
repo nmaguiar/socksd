@@ -386,11 +386,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:7753
+    - https://access.redhat.com/errata/RHSA-2024:0133
     - https://access.redhat.com/security/cve/CVE-2023-37920
     - https://bugzilla.redhat.com/2226586
     - https://bugzilla.redhat.com/2242493
-    - https://errata.almalinux.org/9/ALSA-2023-7753.html
+    - https://errata.almalinux.org/8/ALSA-2024-0133.html
     - https://github.com/certifi/python-certifi
     - https://github.com/certifi/python-certifi/commit/8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909
     - https://github.com/certifi/python-certifi/security/advisories/GHSA-xqr8-7jwr-rhp7
@@ -730,6 +730,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/01/19/3
     - https://access.redhat.com/errata/RHSA-2024:0155
+    - https://access.redhat.com/errata/RHSA-2024:0319
     - https://access.redhat.com/security/cve/CVE-2023-5981
     - https://bugzilla.redhat.com/2248445
     - https://bugzilla.redhat.com/show_bug.cgi?id=2248445
@@ -745,7 +746,7 @@
     - https://ubuntu.com/security/notices/USN-6499-2
     - https://www.cve.org/CVERecord?id=CVE-2023-5981
     PublishedDate: '2023-11-28T12:15:07.04Z'
-    LastModifiedDate: '2024-01-19T21:15:08.4Z'
+    LastModifiedDate: '2024-01-22T15:15:08.45Z'
   - VulnerabilityID: CVE-2024-0553
     PkgID: gnutls@3.7.6-23.el9.x86_64
     PkgName: gnutls
@@ -777,6 +778,7 @@
     - https://gnutls.org/security-new.html#GNUTLS-SA-2024-01-14
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-January/004841.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0553
+    - https://ubuntu.com/security/notices/USN-6593-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0553
     PublishedDate: '2024-01-16T12:15:45.557Z'
     LastModifiedDate: '2024-01-19T21:15:08.527Z'
@@ -811,6 +813,7 @@
     - https://gnutls.org/security-new.html#GNUTLS-SA-2024-01-09
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-January/004841.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0567
+    - https://ubuntu.com/security/notices/USN-6593-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0567
     PublishedDate: '2024-01-16T14:15:48.527Z'
     LastModifiedDate: '2024-01-19T21:15:08.613Z'
@@ -840,17 +843,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0267
+    - https://access.redhat.com/errata/RHSA-2024:0248
     - https://access.redhat.com/security/cve/CVE-2024-20918
-    - https://bugzilla.redhat.com/2257720
     - https://bugzilla.redhat.com/2257728
     - https://bugzilla.redhat.com/2257837
     - https://bugzilla.redhat.com/2257853
     - https://bugzilla.redhat.com/2257859
     - https://bugzilla.redhat.com/2257874
-    - https://errata.almalinux.org/9/ALSA-2024-0267.html
+    - https://errata.almalinux.org/8/ALSA-2024-0248.html
     - https://linux.oracle.com/cve/CVE-2024-20918.html
-    - https://linux.oracle.com/errata/ELSA-2024-0249.html
+    - https://linux.oracle.com/errata/ELSA-2024-0267.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20918
     - https://www.cve.org/CVERecord?id=CVE-2024-20918
     - https://www.oracle.com/security-alerts/cpujan2024.html
@@ -883,17 +885,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0267
+    - https://access.redhat.com/errata/RHSA-2024:0248
     - https://access.redhat.com/security/cve/CVE-2024-20952
-    - https://bugzilla.redhat.com/2257720
     - https://bugzilla.redhat.com/2257728
     - https://bugzilla.redhat.com/2257837
     - https://bugzilla.redhat.com/2257853
     - https://bugzilla.redhat.com/2257859
     - https://bugzilla.redhat.com/2257874
-    - https://errata.almalinux.org/9/ALSA-2024-0267.html
+    - https://errata.almalinux.org/8/ALSA-2024-0248.html
     - https://linux.oracle.com/cve/CVE-2024-20952.html
-    - https://linux.oracle.com/errata/ELSA-2024-0249.html
+    - https://linux.oracle.com/errata/ELSA-2024-0267.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20952
     - https://www.cve.org/CVERecord?id=CVE-2024-20952
     - https://www.oracle.com/security-alerts/cpujan2024.html
@@ -926,17 +927,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0267
+    - https://access.redhat.com/errata/RHSA-2024:0248
     - https://access.redhat.com/security/cve/CVE-2024-20919
-    - https://bugzilla.redhat.com/2257720
     - https://bugzilla.redhat.com/2257728
     - https://bugzilla.redhat.com/2257837
     - https://bugzilla.redhat.com/2257853
     - https://bugzilla.redhat.com/2257859
     - https://bugzilla.redhat.com/2257874
-    - https://errata.almalinux.org/9/ALSA-2024-0267.html
+    - https://errata.almalinux.org/8/ALSA-2024-0248.html
     - https://linux.oracle.com/cve/CVE-2024-20919.html
-    - https://linux.oracle.com/errata/ELSA-2024-0249.html
+    - https://linux.oracle.com/errata/ELSA-2024-0267.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20919
     - https://www.cve.org/CVERecord?id=CVE-2024-20919
   - VulnerabilityID: CVE-2024-20921
@@ -965,17 +965,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0267
+    - https://access.redhat.com/errata/RHSA-2024:0248
     - https://access.redhat.com/security/cve/CVE-2024-20921
-    - https://bugzilla.redhat.com/2257720
     - https://bugzilla.redhat.com/2257728
     - https://bugzilla.redhat.com/2257837
     - https://bugzilla.redhat.com/2257853
     - https://bugzilla.redhat.com/2257859
     - https://bugzilla.redhat.com/2257874
-    - https://errata.almalinux.org/9/ALSA-2024-0267.html
+    - https://errata.almalinux.org/8/ALSA-2024-0248.html
     - https://linux.oracle.com/cve/CVE-2024-20921.html
-    - https://linux.oracle.com/errata/ELSA-2024-0249.html
+    - https://linux.oracle.com/errata/ELSA-2024-0267.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20921
     - https://www.cve.org/CVERecord?id=CVE-2024-20921
   - VulnerabilityID: CVE-2024-20945
@@ -1004,17 +1003,16 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0267
+    - https://access.redhat.com/errata/RHSA-2024:0248
     - https://access.redhat.com/security/cve/CVE-2024-20945
-    - https://bugzilla.redhat.com/2257720
     - https://bugzilla.redhat.com/2257728
     - https://bugzilla.redhat.com/2257837
     - https://bugzilla.redhat.com/2257853
     - https://bugzilla.redhat.com/2257859
     - https://bugzilla.redhat.com/2257874
-    - https://errata.almalinux.org/9/ALSA-2024-0267.html
+    - https://errata.almalinux.org/8/ALSA-2024-0248.html
     - https://linux.oracle.com/cve/CVE-2024-20945.html
-    - https://linux.oracle.com/errata/ELSA-2024-0249.html
+    - https://linux.oracle.com/errata/ELSA-2024-0267.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-20945
     - https://www.cve.org/CVERecord?id=CVE-2024-20945
   - VulnerabilityID: CVE-2023-30571
@@ -1452,6 +1450,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1461,12 +1460,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0108
+    - https://access.redhat.com/errata/RHSA-2024:0105
     - https://access.redhat.com/security/cve/CVE-2023-5388
     - https://bugzilla.redhat.com/2243644
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
-    - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.almalinux.org/8/ALSA-2024-0105.html
     - https://errata.rockylinux.org/RLSA-2024:0105
     - https://linux.oracle.com/cve/CVE-2023-5388.html
     - https://linux.oracle.com/errata/ELSA-2024-0108.html
@@ -1525,6 +1524,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1534,12 +1534,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0108
+    - https://access.redhat.com/errata/RHSA-2024:0105
     - https://access.redhat.com/security/cve/CVE-2023-5388
     - https://bugzilla.redhat.com/2243644
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
-    - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.almalinux.org/8/ALSA-2024-0105.html
     - https://errata.rockylinux.org/RLSA-2024:0105
     - https://linux.oracle.com/cve/CVE-2023-5388.html
     - https://linux.oracle.com/errata/ELSA-2024-0108.html
@@ -1598,6 +1598,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1607,12 +1608,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0108
+    - https://access.redhat.com/errata/RHSA-2024:0105
     - https://access.redhat.com/security/cve/CVE-2023-5388
     - https://bugzilla.redhat.com/2243644
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
-    - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.almalinux.org/8/ALSA-2024-0105.html
     - https://errata.rockylinux.org/RLSA-2024:0105
     - https://linux.oracle.com/cve/CVE-2023-5388.html
     - https://linux.oracle.com/errata/ELSA-2024-0108.html
@@ -1671,6 +1672,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1680,12 +1682,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0108
+    - https://access.redhat.com/errata/RHSA-2024:0105
     - https://access.redhat.com/security/cve/CVE-2023-5388
     - https://bugzilla.redhat.com/2243644
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
-    - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.almalinux.org/8/ALSA-2024-0105.html
     - https://errata.rockylinux.org/RLSA-2024:0105
     - https://linux.oracle.com/cve/CVE-2023-5388.html
     - https://linux.oracle.com/errata/ELSA-2024-0108.html
@@ -1744,6 +1746,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1753,12 +1756,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0108
+    - https://access.redhat.com/errata/RHSA-2024:0105
     - https://access.redhat.com/security/cve/CVE-2023-5388
     - https://bugzilla.redhat.com/2243644
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
-    - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.almalinux.org/8/ALSA-2024-0105.html
     - https://errata.rockylinux.org/RLSA-2024:0105
     - https://linux.oracle.com/cve/CVE-2023-5388.html
     - https://linux.oracle.com/errata/ELSA-2024-0108.html
@@ -1817,6 +1820,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1826,12 +1830,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0108
+    - https://access.redhat.com/errata/RHSA-2024:0105
     - https://access.redhat.com/security/cve/CVE-2023-5388
     - https://bugzilla.redhat.com/2243644
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
-    - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.almalinux.org/8/ALSA-2024-0105.html
     - https://errata.rockylinux.org/RLSA-2024:0105
     - https://linux.oracle.com/cve/CVE-2023-5388.html
     - https://linux.oracle.com/errata/ELSA-2024-0108.html
@@ -1921,10 +1925,13 @@
     PublishedDate: '2023-05-30T22:15:10.613Z'
     LastModifiedDate: '2023-08-02T16:46:03.663Z'
   - VulnerabilityID: CVE-2023-5363
+    VendorIDs:
+    - RHSA-2024:0310
     PkgID: openssl@3.0.7-24.el9.x86_64
     PkgName: openssl
     InstalledVersion: 1:3.0.7-24.el9
-    Status: affected
+    FixedVersion: 1:3.0.7-25.el9_3
+    Status: fixed
     Layer:
       Digest: sha256:b9db5a6d2c19a374b5ef35a30828eaf4dc721468f49f94d2af355973ef5d0c29
       DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f235d44953397dcdb7acf36444fe
@@ -1974,6 +1981,7 @@
       OpenSSL 3.1 and 3.0 are vulnerable to this issue.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       nvd: 3
       photon: 3
@@ -1988,8 +1996,11 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/24/1
+    - https://access.redhat.com/errata/RHSA-2024:0310
     - https://access.redhat.com/security/cve/CVE-2023-5363
+    - https://bugzilla.redhat.com/2243839
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5363
+    - https://errata.almalinux.org/9/ALSA-2024-0310.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5363
@@ -2412,10 +2423,13 @@
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
   - VulnerabilityID: CVE-2023-5363
+    VendorIDs:
+    - RHSA-2024:0310
     PkgID: openssl-libs@3.0.7-24.el9.x86_64
     PkgName: openssl-libs
     InstalledVersion: 1:3.0.7-24.el9
-    Status: affected
+    FixedVersion: 1:3.0.7-25.el9_3
+    Status: fixed
     Layer:
       Digest: sha256:b9db5a6d2c19a374b5ef35a30828eaf4dc721468f49f94d2af355973ef5d0c29
       DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f235d44953397dcdb7acf36444fe
@@ -2465,6 +2479,7 @@
       OpenSSL 3.1 and 3.0 are vulnerable to this issue.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       nvd: 3
       photon: 3
@@ -2479,8 +2494,11 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/24/1
+    - https://access.redhat.com/errata/RHSA-2024:0310
     - https://access.redhat.com/security/cve/CVE-2023-5363
+    - https://bugzilla.redhat.com/2243839
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5363
+    - https://errata.almalinux.org/9/ALSA-2024-0310.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5363
@@ -4054,6 +4072,7 @@
     - CWE-122
     VendorSeverity:
       alma: 2
+      amazon: 3
       bitnami: 3
       cbl-mariner: 2
       nvd: 3
@@ -4138,7 +4157,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -4180,7 +4199,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
