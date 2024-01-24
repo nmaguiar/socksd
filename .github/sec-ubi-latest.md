@@ -1005,7 +1005,7 @@
                         │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpujan202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-01-16T22:15:39.51Z 
-                        │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
+                        │      ╰ LastModifiedDate: 2024-01-23T19:41:57.467Z 
                         ├ [18] ╭ VulnerabilityID : CVE-2024-20952 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0249 
                         │      ├ PkgID           : java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64 
@@ -1073,7 +1073,7 @@
                         │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpujan202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-01-16T22:15:42.477Z 
-                        │      ╰ LastModifiedDate: 2024-01-16T23:12:38.473Z 
+                        │      ╰ LastModifiedDate: 2024-01-23T19:42:52.877Z 
                         ├ [19] ╭ VulnerabilityID : CVE-2024-20919 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0249 
                         │      ├ PkgID           : java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64 
@@ -2282,12 +2282,13 @@
                         │      │                   
                         │      │                   OpenSSL 3.1 and 3.0 are vulnerable to this issue. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ alma  : 2 
-                        │      │                  ├ amazon: 3 
-                        │      │                  ├ nvd   : 3 
-                        │      │                  ├ photon: 3 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ nvd        : 3 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ photon     : 3 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                  │        │           H/I:N/A:N 
                         │      │                  │        ╰ V3Score : 7.5 
@@ -2308,13 +2309,15 @@
                         │      │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a=
                         │      │                  │       commitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
                         │      │                  │        
-                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
-                        │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-202310
+                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-5363.html 
+                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-0310.html 
+                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
+                        │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202310
                         │      │                  │       27-0010/ 
-                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
-                        │      │                  ├ [12]: https://www.debian.org/security/2023/dsa-5532 
-                        │      │                  ╰ [13]: https://www.openssl.org/news/secadv/20231024.txt 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6450-1 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
+                        │      │                  ├ [14]: https://www.debian.org/security/2023/dsa-5532 
+                        │      │                  ╰ [15]: https://www.openssl.org/news/secadv/20231024.txt 
                         │      ├ PublishedDate   : 2023-10-25T18:17:43.613Z 
                         │      ╰ LastModifiedDate: 2023-11-09T13:55:31.967Z 
                         ├ [46] ╭ VulnerabilityID : CVE-2023-2975 
@@ -2814,9 +2817,14 @@
                         │      │                   by this issue therefore we consider this a Low severity
                         │      │                   security issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ redhat: 1 
+                        │      ├ CweIDs           ─ [0]: CWE-787 
+                        │      ├ VendorSeverity   ╭ nvd   : 2 
+                        │      │                  ├ redhat: 1 
                         │      │                  ╰ ubuntu: 1 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+                        │      │                  │        │           N/I:L/A:H 
+                        │      │                  │        ╰ V3Score : 6.5 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.9 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6129 
@@ -2834,7 +2842,7 @@
                         │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024/
                         │      │                         01/09/1 
                         │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
-                        │      ╰ LastModifiedDate: 2024-01-15T12:15:43.4Z 
+                        │      ╰ LastModifiedDate: 2024-01-23T21:32:01.973Z 
                         ├ [51] ╭ VulnerabilityID : CVE-2023-6237 
                         │      ├ PkgID           : openssl@3.0.7-24.el9.x86_64 
                         │      ├ PkgName         : openssl 
@@ -2954,12 +2962,13 @@
                         │      │                   
                         │      │                   OpenSSL 3.1 and 3.0 are vulnerable to this issue. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ alma  : 2 
-                        │      │                  ├ amazon: 3 
-                        │      │                  ├ nvd   : 3 
-                        │      │                  ├ photon: 3 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ nvd        : 3 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ photon     : 3 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                  │        │           H/I:N/A:N 
                         │      │                  │        ╰ V3Score : 7.5 
@@ -2980,13 +2989,15 @@
                         │      │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a=
                         │      │                  │       commitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
                         │      │                  │        
-                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
-                        │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-202310
+                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-5363.html 
+                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-0310.html 
+                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
+                        │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202310
                         │      │                  │       27-0010/ 
-                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
-                        │      │                  ├ [12]: https://www.debian.org/security/2023/dsa-5532 
-                        │      │                  ╰ [13]: https://www.openssl.org/news/secadv/20231024.txt 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6450-1 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
+                        │      │                  ├ [14]: https://www.debian.org/security/2023/dsa-5532 
+                        │      │                  ╰ [15]: https://www.openssl.org/news/secadv/20231024.txt 
                         │      ├ PublishedDate   : 2023-10-25T18:17:43.613Z 
                         │      ╰ LastModifiedDate: 2023-11-09T13:55:31.967Z 
                         ├ [53] ╭ VulnerabilityID : CVE-2023-2975 
@@ -3486,9 +3497,14 @@
                         │      │                   by this issue therefore we consider this a Low severity
                         │      │                   security issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ redhat: 1 
+                        │      ├ CweIDs           ─ [0]: CWE-787 
+                        │      ├ VendorSeverity   ╭ nvd   : 2 
+                        │      │                  ├ redhat: 1 
                         │      │                  ╰ ubuntu: 1 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+                        │      │                  │        │           N/I:L/A:H 
+                        │      │                  │        ╰ V3Score : 6.5 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.9 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6129 
@@ -3506,7 +3522,7 @@
                         │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024/
                         │      │                         01/09/1 
                         │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
-                        │      ╰ LastModifiedDate: 2024-01-15T12:15:43.4Z 
+                        │      ╰ LastModifiedDate: 2024-01-23T21:32:01.973Z 
                         ├ [58] ╭ VulnerabilityID : CVE-2023-6237 
                         │      ├ PkgID           : openssl-libs@3.0.7-24.el9.x86_64 
                         │      ├ PkgName         : openssl-libs 
