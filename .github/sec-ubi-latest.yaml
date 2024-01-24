@@ -859,7 +859,7 @@
     - https://www.oracle.com/security-alerts/cpujan2024.html
     - https://www.oracle.com/security-alerts/cpujan2024.html#AppendixJAVA
     PublishedDate: '2024-01-16T22:15:39.51Z'
-    LastModifiedDate: '2024-01-16T23:12:38.473Z'
+    LastModifiedDate: '2024-01-23T19:41:57.467Z'
   - VulnerabilityID: CVE-2024-20952
     VendorIDs:
     - RHSA-2024:0249
@@ -902,7 +902,7 @@
     - https://www.oracle.com/security-alerts/cpujan2024.html
     - https://www.oracle.com/security-alerts/cpujan2024.html#AppendixJAVA
     PublishedDate: '2024-01-16T22:15:42.477Z'
-    LastModifiedDate: '2024-01-16T23:12:38.473Z'
+    LastModifiedDate: '2024-01-23T19:42:52.877Z'
   - VulnerabilityID: CVE-2024-20919
     VendorIDs:
     - RHSA-2024:0249
@@ -1989,6 +1989,7 @@
       alma: 2
       amazon: 3
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -2008,6 +2009,8 @@
     - https://errata.almalinux.org/9/ALSA-2024-0310.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
+    - https://linux.oracle.com/cve/CVE-2023-5363.html
+    - https://linux.oracle.com/errata/ELSA-2024-0310.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5363
     - https://security.netapp.com/advisory/ntap-20231027-0010/
     - https://ubuntu.com/security/notices/USN-6450-1
@@ -2381,10 +2384,16 @@
       we are currently not aware of any concrete application that would be affected
       by this issue therefore we consider this a Low severity security issue.
     Severity: LOW
+    CweIDs:
+    - CWE-787
     VendorSeverity:
+      nvd: 2
       redhat: 1
       ubuntu: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -2399,7 +2408,7 @@
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-01-15T12:15:43.4Z'
+    LastModifiedDate: '2024-01-23T21:32:01.973Z'
   - VulnerabilityID: CVE-2023-6237
     PkgID: openssl@3.0.7-24.el9.x86_64
     PkgName: openssl
@@ -2487,6 +2496,7 @@
       alma: 2
       amazon: 3
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -2506,6 +2516,8 @@
     - https://errata.almalinux.org/9/ALSA-2024-0310.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
+    - https://linux.oracle.com/cve/CVE-2023-5363.html
+    - https://linux.oracle.com/errata/ELSA-2024-0310.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5363
     - https://security.netapp.com/advisory/ntap-20231027-0010/
     - https://ubuntu.com/security/notices/USN-6450-1
@@ -2879,10 +2891,16 @@
       we are currently not aware of any concrete application that would be affected
       by this issue therefore we consider this a Low severity security issue.
     Severity: LOW
+    CweIDs:
+    - CWE-787
     VendorSeverity:
+      nvd: 2
       redhat: 1
       ubuntu: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -2897,7 +2915,7 @@
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-01-15T12:15:43.4Z'
+    LastModifiedDate: '2024-01-23T21:32:01.973Z'
   - VulnerabilityID: CVE-2023-6237
     PkgID: openssl-libs@3.0.7-24.el9.x86_64
     PkgName: openssl-libs
