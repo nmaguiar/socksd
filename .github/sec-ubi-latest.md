@@ -2346,7 +2346,7 @@
                         │      ├ VendorSeverity   ╭ alma       : 2 
                         │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 3 
-                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ oracle-oval: 3 
                         │      │                  ├ photon     : 3 
                         │      │                  ├ redhat     : 2 
                         │      │                  ╰ ubuntu     : 2 
@@ -2371,7 +2371,7 @@
                         │      │                  │       commitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
                         │      │                  │        
                         │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-5363.html 
-                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-0310.html 
+                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-12093.html 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
                         │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202310
                         │      │                  │       27-0010/ 
@@ -3054,7 +3054,7 @@
                         │      ├ VendorSeverity   ╭ alma       : 2 
                         │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 3 
-                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ oracle-oval: 3 
                         │      │                  ├ photon     : 3 
                         │      │                  ├ redhat     : 2 
                         │      │                  ╰ ubuntu     : 2 
@@ -3079,7 +3079,7 @@
                         │      │                  │       commitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
                         │      │                  │        
                         │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-5363.html 
-                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-0310.html 
+                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-12093.html 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
                         │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202310
                         │      │                  │       27-0010/ 
@@ -5390,7 +5390,7 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -5435,7 +5435,7 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
