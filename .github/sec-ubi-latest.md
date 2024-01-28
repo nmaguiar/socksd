@@ -5516,7 +5516,7 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -5561,7 +5561,7 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -5714,10 +5714,13 @@
                                │                  │      E-2023-7008 
                                │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
                                │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+                               │                  │      kage-announce@lists.fedoraproject.org/message/4GMDEG5P
+                               │                  │      KONWNHOEYSUDRT6JEOISRMN2/ 
+                               │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
                                │                  │      kage-announce@lists.fedoraproject.org/message/QHNBXGKJ
                                │                  │      WISJETTTDTZKTBFIBJUOSLKL/ 
-                               │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-                               │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+                               │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+                               │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
                                ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-                               ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
+                               ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
 ````
