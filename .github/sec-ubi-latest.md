@@ -5618,21 +5618,24 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:H 
                         │      │                           ╰ V3Score : 7 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42465 
-                        │      │                  ├ [1]: https://arxiv.org/abs/2309.02545 
-                        │      │                  ├ [2]: https://arxiv.org/pdf/2309.02545.pdf 
-                        │      │                  ├ [3]: https://github.com/sudo-project/sudo/commit/7873f
-                        │      │                  │      8334c8d31031f8cfa83bd97ac6029309e4f 
-                        │      │                  ├ [4]: https://github.com/sudo-project/sudo/releases/tag
-                        │      │                  │      /SUDO_1_9_15 
-                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-42465 
-                        │      │                  ├ [6]: https://security.gentoo.org/glsa/202401-29 
-                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-42465 
-                        │      │                  ├ [8]: https://www.openwall.com/lists/oss-security/2023/
-                        │      │                  │      12/21/9 
-                        │      │                  ╰ [9]: https://www.sudo.ws/releases/changelog/ 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-42465 
+                        │      │                  ├ [1] : https://arxiv.org/abs/2309.02545 
+                        │      │                  ├ [2] : https://arxiv.org/pdf/2309.02545.pdf 
+                        │      │                  ├ [3] : https://github.com/sudo-project/sudo/commit/7873
+                        │      │                  │       f8334c8d31031f8cfa83bd97ac6029309e4f 
+                        │      │                  ├ [4] : https://github.com/sudo-project/sudo/releases/ta
+                        │      │                  │       g/SUDO_1_9_15 
+                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce%40lists.fedoraproject.org/message/U6XM
+                        │      │                  │       RUJCPII4MPWG43HTYR76DGLEYEFZ/ 
+                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-42465 
+                        │      │                  ├ [7] : https://security.gentoo.org/glsa/202401-29 
+                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2023-42465 
+                        │      │                  ├ [9] : https://www.openwall.com/lists/oss-security/2023
+                        │      │                  │       /12/21/9 
+                        │      │                  ╰ [10]: https://www.sudo.ws/releases/changelog/ 
                         │      ├ PublishedDate   : 2023-12-22T16:15:08.057Z 
-                        │      ╰ LastModifiedDate: 2024-01-24T05:15:13.66Z 
+                        │      ╰ LastModifiedDate: 2024-01-28T04:15:07.59Z 
                         ├ [86] ╭ VulnerabilityID : CVE-2021-3997 
                         │      ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │      ├ PkgName         : systemd-libs 
