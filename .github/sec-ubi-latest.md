@@ -905,27 +905,28 @@
                         │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/
                         │      │                  │       01/19/3 
                         │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:0533 
-                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-0553 
-                        │      │                  ├ [3] : https://bugzilla.redhat.com/2248445 
-                        │      │                  ├ [4] : https://bugzilla.redhat.com/2258412 
-                        │      │                  ├ [5] : https://bugzilla.redhat.com/2258544 
-                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2258412 
-                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0627 
+                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-0553 
+                        │      │                  ├ [4] : https://bugzilla.redhat.com/2248445 
+                        │      │                  ├ [5] : https://bugzilla.redhat.com/2258412 
+                        │      │                  ├ [6] : https://bugzilla.redhat.com/2258544 
+                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2258412 
+                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2024-0553 
-                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-0533.html 
-                        │      │                  ├ [9] : https://gitlab.com/gnutls/gnutls/-/issues/1522 
-                        │      │                  ├ [10]: https://gnutls.org/security-new.html#GNUTLS-SA-2
+                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-0533.html 
+                        │      │                  ├ [10]: https://gitlab.com/gnutls/gnutls/-/issues/1522 
+                        │      │                  ├ [11]: https://gnutls.org/security-new.html#GNUTLS-SA-2
                         │      │                  │       024-01-14 
-                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/GNXKVR
                         │      │                  │       5YNUEBNHAHM5GSYKBZX4W2HMN2/ 
-                        │      │                  ├ [12]: https://lists.gnupg.org/pipermail/gnutls-help/20
+                        │      │                  ├ [13]: https://lists.gnupg.org/pipermail/gnutls-help/20
                         │      │                  │       24-January/004841.html 
-                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
-                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6593-1 
-                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
+                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
+                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6593-1 
+                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
                         │      ├ PublishedDate   : 2024-01-16T12:15:45.557Z 
-                        │      ╰ LastModifiedDate: 2024-01-29T17:15:09.36Z 
+                        │      ╰ LastModifiedDate: 2024-01-31T16:15:45.513Z 
                         ├ [16] ╭ VulnerabilityID : CVE-2024-0567 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0533 
                         │      ├ PkgID           : gnutls@3.7.6-23.el9.x86_64 
@@ -1042,14 +1043,16 @@
                         │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-0267.html 
                         │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-20918.html 
                         │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-0267.html 
-                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-20918 
-                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-20918 
-                        │      │                  ├ [13]: https://www.oracle.com/security-alerts/cpujan202
+                        │      │                  ├ [11]: https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       4/01/msg00023.html 
+                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-20918 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2024-20918 
+                        │      │                  ├ [14]: https://www.oracle.com/security-alerts/cpujan202
                         │      │                  │       4.html 
-                        │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpujan202
+                        │      │                  ╰ [15]: https://www.oracle.com/security-alerts/cpujan202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-01-16T22:15:39.51Z 
-                        │      ╰ LastModifiedDate: 2024-01-23T19:41:57.467Z 
+                        │      ╰ LastModifiedDate: 2024-01-31T17:15:32.58Z 
                         ├ [18] ╭ VulnerabilityID : CVE-2024-20952 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0249 
                         │      ├ PkgID           : java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64 
@@ -1110,14 +1113,16 @@
                         │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-0267.html 
                         │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-20952.html 
                         │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-0267.html 
-                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-20952 
-                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-20952 
-                        │      │                  ├ [13]: https://www.oracle.com/security-alerts/cpujan202
+                        │      │                  ├ [11]: https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       4/01/msg00023.html 
+                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-20952 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2024-20952 
+                        │      │                  ├ [14]: https://www.oracle.com/security-alerts/cpujan202
                         │      │                  │       4.html 
-                        │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpujan202
+                        │      │                  ╰ [15]: https://www.oracle.com/security-alerts/cpujan202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-01-16T22:15:42.477Z 
-                        │      ╰ LastModifiedDate: 2024-01-23T19:42:52.877Z 
+                        │      ╰ LastModifiedDate: 2024-01-31T17:15:33.773Z 
                         ├ [19] ╭ VulnerabilityID : CVE-2024-20919 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0249 
                         │      ├ PkgID           : java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64 
@@ -1660,16 +1665,19 @@
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 6.5 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
-                        │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
-                        │      │                  │      23-04/msg00020.html 
+                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/pac
+                        │      │                  │      kage-announce%40lists.fedoraproject.org/message/LU4MYM
+                        │      │                  │      KFEZQ5VSCVLRIZGDQOUW3T44GT/ 
                         │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/20
+                        │      │                  │      23-04/msg00020.html 
+                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/20
                         │      │                  │      23-04/msg00029.html 
-                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
-                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2024011
+                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-2024011
                         │      │                  │      9-0008/ 
-                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
                         │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
-                        │      ╰ LastModifiedDate: 2024-01-19T16:15:10.193Z 
+                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
                         ├ [30] ╭ VulnerabilityID : CVE-2022-29458 
                         │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
                         │      ├ PkgName         : ncurses-libs 
@@ -1747,16 +1755,19 @@
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 6.5 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
-                        │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
-                        │      │                  │      23-04/msg00020.html 
+                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/pac
+                        │      │                  │      kage-announce%40lists.fedoraproject.org/message/LU4MYM
+                        │      │                  │      KFEZQ5VSCVLRIZGDQOUW3T44GT/ 
                         │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/20
+                        │      │                  │      23-04/msg00020.html 
+                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/20
                         │      │                  │      23-04/msg00029.html 
-                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
-                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2024011
+                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-2024011
                         │      │                  │      9-0008/ 
-                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
                         │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
-                        │      ╰ LastModifiedDate: 2024-01-19T16:15:10.193Z 
+                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
                         ├ [32] ╭ VulnerabilityID : CVE-2023-5388 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0108 
                         │      ├ PkgID           : nspr@4.35.0-3.el9_2.x86_64 
