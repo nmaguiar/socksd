@@ -791,6 +791,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/01/19/3
     - https://access.redhat.com/errata/RHSA-2024:0533
+    - https://access.redhat.com/errata/RHSA-2024:0627
     - https://access.redhat.com/security/cve/CVE-2024-0553
     - https://bugzilla.redhat.com/2248445
     - https://bugzilla.redhat.com/2258412
@@ -806,7 +807,7 @@
     - https://ubuntu.com/security/notices/USN-6593-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0553
     PublishedDate: '2024-01-16T12:15:45.557Z'
-    LastModifiedDate: '2024-01-29T17:15:09.36Z'
+    LastModifiedDate: '2024-01-31T16:15:45.513Z'
   - VulnerabilityID: CVE-2024-0567
     VendorIDs:
     - RHSA-2024:0533
@@ -1187,13 +1188,14 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-50495
     - https://security.netapp.com/advisory/ntap-20240119-0008/
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-01-19T16:15:10.193Z'
+    LastModifiedDate: '2024-01-31T03:15:08.49Z'
   - VulnerabilityID: CVE-2022-29458
     PkgID: ncurses-libs@6.2-10.20210508.el9.x86_64
     PkgName: ncurses-libs
@@ -1267,13 +1269,14 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-50495
     - https://security.netapp.com/advisory/ntap-20240119-0008/
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-01-19T16:15:10.193Z'
+    LastModifiedDate: '2024-01-31T03:15:08.49Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nspr@4.35.0-4.el9_3.x86_64
     PkgName: nspr
