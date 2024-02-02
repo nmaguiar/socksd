@@ -5,6 +5,8 @@
       ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-0727 
                         │     ├ PkgID           : libcrypto3@3.1.4-r4 
                         │     ├ PkgName         : libcrypto3 
+                        │     ├ PkgIdentifier    ─ PURL: pkg:apk/alpine/libcrypto3@3.1.4-r4?arch=x86_64&di
+                        │     │                          stro=3.19.0 
                         │     ├ InstalledVersion: 3.1.4-r4 
                         │     ├ FixedVersion    : 3.1.4-r5 
                         │     ├ Status          : fixed 
@@ -80,6 +82,8 @@
                         ├ [1] ╭ VulnerabilityID : CVE-2024-0727 
                         │     ├ PkgID           : libssl3@3.1.4-r4 
                         │     ├ PkgName         : libssl3 
+                        │     ├ PkgIdentifier    ─ PURL: pkg:apk/alpine/libssl3@3.1.4-r4?arch=x86_64&distr
+                        │     │                          o=3.19.0 
                         │     ├ InstalledVersion: 3.1.4-r4 
                         │     ├ FixedVersion    : 3.1.4-r5 
                         │     ├ Status          : fixed 
@@ -155,6 +159,8 @@
                         ╰ [2] ╭ VulnerabilityID : CVE-2024-0727 
                               ├ PkgID           : openssl@3.1.4-r4 
                               ├ PkgName         : openssl 
+                              ├ PkgIdentifier    ─ PURL: pkg:apk/alpine/openssl@3.1.4-r4?arch=x86_64&distr
+                              │                          o=3.19.0 
                               ├ InstalledVersion: 3.1.4-r4 
                               ├ FixedVersion    : 3.1.4-r5 
                               ├ Status          : fixed 
