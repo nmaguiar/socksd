@@ -14,6 +14,7 @@
                         │     │                  │         b26ea494699db14abe3be204 
                         │     │                  ╰ DiffID: sha256:106b336f590e0e19b027e7329a64c5e037481ab6
                         │     │                            a2c6d3bcc1f9c7a953e9660a 
+                        │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0727 
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
@@ -52,10 +53,14 @@
                         │     │                   
                         │     │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this
                         │     │                    issue. 
-                        │     ├ Severity        : LOW 
-                        │     ├ VendorSeverity   ╭ redhat: 1 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ VendorSeverity   ╭ nvd   : 2 
+                        │     │                  ├ redhat: 1 
                         │     │                  ╰ ubuntu: 1 
-                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 5.5 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
                         │     │                           │           /I:N/A:L 
                         │     │                           ╰ V3Score : 3.3 
                         │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-0727 
@@ -78,7 +83,7 @@
                         │     │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2024-0727 
                         │     │                  ╰ [10]: https://www.openssl.org/news/secadv/20240125.txt 
                         │     ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
-                        │     ╰ LastModifiedDate: 2024-01-26T13:51:45.267Z 
+                        │     ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2024-0727 
                         │     ├ PkgID           : libssl3@3.1.4-r4 
                         │     ├ PkgName         : libssl3 
@@ -91,6 +96,7 @@
                         │     │                  │         b26ea494699db14abe3be204 
                         │     │                  ╰ DiffID: sha256:106b336f590e0e19b027e7329a64c5e037481ab6
                         │     │                            a2c6d3bcc1f9c7a953e9660a 
+                        │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0727 
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
@@ -129,10 +135,14 @@
                         │     │                   
                         │     │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this
                         │     │                    issue. 
-                        │     ├ Severity        : LOW 
-                        │     ├ VendorSeverity   ╭ redhat: 1 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ VendorSeverity   ╭ nvd   : 2 
+                        │     │                  ├ redhat: 1 
                         │     │                  ╰ ubuntu: 1 
-                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 5.5 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
                         │     │                           │           /I:N/A:L 
                         │     │                           ╰ V3Score : 3.3 
                         │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-0727 
@@ -155,7 +165,7 @@
                         │     │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2024-0727 
                         │     │                  ╰ [10]: https://www.openssl.org/news/secadv/20240125.txt 
                         │     ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
-                        │     ╰ LastModifiedDate: 2024-01-26T13:51:45.267Z 
+                        │     ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2024-0727 
                               ├ PkgID           : openssl@3.1.4-r4 
                               ├ PkgName         : openssl 
@@ -168,6 +178,7 @@
                               │                  │         b26ea494699db14abe3be204 
                               │                  ╰ DiffID: sha256:106b336f590e0e19b027e7329a64c5e037481ab6
                               │                            a2c6d3bcc1f9c7a953e9660a 
+                              ├ SeveritySource  : nvd 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0727 
                               ├ DataSource       ╭ ID  : alpine 
                               │                  ├ Name: Alpine Secdb 
@@ -206,10 +217,14 @@
                               │                   
                               │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this
                               │                    issue. 
-                              ├ Severity        : LOW 
-                              ├ VendorSeverity   ╭ redhat: 1 
+                              ├ Severity        : MEDIUM 
+                              ├ VendorSeverity   ╭ nvd   : 2 
+                              │                  ├ redhat: 1 
                               │                  ╰ ubuntu: 1 
-                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                              │                  │        │           /I:N/A:H 
+                              │                  │        ╰ V3Score : 5.5 
+                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
                               │                           │           /I:N/A:L 
                               │                           ╰ V3Score : 3.3 
                               ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-0727 
@@ -232,5 +247,5 @@
                               │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2024-0727 
                               │                  ╰ [10]: https://www.openssl.org/news/secadv/20240125.txt 
                               ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
-                              ╰ LastModifiedDate: 2024-01-26T13:51:45.267Z 
+                              ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
 ````
