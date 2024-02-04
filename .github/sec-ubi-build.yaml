@@ -812,6 +812,7 @@
       alma: 2
       nvd: 3
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -867,6 +868,7 @@
     VendorSeverity:
       alma: 2
       nvd: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2599,6 +2601,7 @@
     Description: A vulnerability was found in Linux PAM. An unprivileged user that is not yet in a corresponding mount namespace with ~/tmp mounted as a polyinstantiated dir can place a FIFO there, and a subsequent attempt to login as this user with `pam_namespace` configured will cause the `openat()` in `protect_dir()` to block the attempt, causing a local denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3400,6 +3403,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28486
     - https://github.com/sudo-project/sudo/commit/334daf92b31b79ce68ed75e2ee14fca265f029ca
     - https://github.com/sudo-project/sudo/releases/tag/SUDO_1_9_13
+    - https://lists.debian.org/debian-lts-announce/2024/02/msg00002.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28486
     - https://security.gentoo.org/glsa/202309-12
     - https://security.netapp.com/advisory/ntap-20230420-0002/
@@ -3407,7 +3411,7 @@
     - https://ubuntu.com/security/notices/USN-6005-2
     - https://www.cve.org/CVERecord?id=CVE-2023-28486
     PublishedDate: '2023-03-16T01:15:47.003Z'
-    LastModifiedDate: '2023-11-02T01:59:06.177Z'
+    LastModifiedDate: '2024-02-03T11:15:10.757Z'
   - VulnerabilityID: CVE-2023-28487
     PkgID: sudo@1.9.5p2-9.el9.x86_64
     PkgName: sudo
@@ -3444,6 +3448,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28487
     - https://github.com/sudo-project/sudo/commit/334daf92b31b79ce68ed75e2ee14fca265f029ca
     - https://github.com/sudo-project/sudo/releases/tag/SUDO_1_9_13
+    - https://lists.debian.org/debian-lts-announce/2024/02/msg00002.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28487
     - https://security.gentoo.org/glsa/202309-12
     - https://security.netapp.com/advisory/ntap-20230420-0002/
@@ -3451,7 +3456,7 @@
     - https://ubuntu.com/security/notices/USN-6005-2
     - https://www.cve.org/CVERecord?id=CVE-2023-28487
     PublishedDate: '2023-03-16T01:15:47.067Z'
-    LastModifiedDate: '2023-11-02T01:58:22.777Z'
+    LastModifiedDate: '2024-02-03T11:15:14.343Z'
   - VulnerabilityID: CVE-2023-42465
     PkgID: sudo@1.9.5p2-9.el9.x86_64
     PkgName: sudo
