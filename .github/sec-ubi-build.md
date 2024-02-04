@@ -927,6 +927,7 @@
                         │      ├ VendorSeverity   ╭ alma       : 2 
                         │      │                  ├ nvd        : 3 
                         │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 2 
                         │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
@@ -990,6 +991,7 @@
                         │      ├ CweIDs           ─ [0]: CWE-347 
                         │      ├ VendorSeverity   ╭ alma  : 2 
                         │      │                  ├ nvd   : 3 
+                        │      │                  ├ photon: 2 
                         │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
@@ -3134,7 +3136,8 @@
                         │      │                    `protect_dir()` to block the attempt, causing a local
                         │      │                   denial of service. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      ├ VendorSeverity   ╭ photon: 2 
+                        │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
@@ -4235,22 +4238,24 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-28486 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-28486 
-                        │      │                  ├ [2]: https://github.com/sudo-project/sudo/commit/334da
-                        │      │                  │      f92b31b79ce68ed75e2ee14fca265f029ca 
-                        │      │                  ├ [3]: https://github.com/sudo-project/sudo/releases/tag
-                        │      │                  │      /SUDO_1_9_13 
-                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-28486 
-                        │      │                  ├ [5]: https://security.gentoo.org/glsa/202309-12 
-                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2023042
-                        │      │                  │      0-0002/ 
-                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6005-1 
-                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6005-2 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28486 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-28486 
+                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-28486 
+                        │      │                  ├ [2] : https://github.com/sudo-project/sudo/commit/334d
+                        │      │                  │       af92b31b79ce68ed75e2ee14fca265f029ca 
+                        │      │                  ├ [3] : https://github.com/sudo-project/sudo/releases/ta
+                        │      │                  │       g/SUDO_1_9_13 
+                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       4/02/msg00002.html 
+                        │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-28486 
+                        │      │                  ├ [6] : https://security.gentoo.org/glsa/202309-12 
+                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202304
+                        │      │                  │       20-0002/ 
+                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6005-1 
+                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6005-2 
+                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-28486 
                         │      ├ PublishedDate   : 2023-03-16T01:15:47.003Z 
-                        │      ╰ LastModifiedDate: 2023-11-02T01:59:06.177Z 
+                        │      ╰ LastModifiedDate: 2024-02-03T11:15:10.757Z 
                         ├ [63] ╭ VulnerabilityID : CVE-2023-28487 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
@@ -4282,22 +4287,24 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-28487 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-28487 
-                        │      │                  ├ [2]: https://github.com/sudo-project/sudo/commit/334da
-                        │      │                  │      f92b31b79ce68ed75e2ee14fca265f029ca 
-                        │      │                  ├ [3]: https://github.com/sudo-project/sudo/releases/tag
-                        │      │                  │      /SUDO_1_9_13 
-                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-28487 
-                        │      │                  ├ [5]: https://security.gentoo.org/glsa/202309-12 
-                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2023042
-                        │      │                  │      0-0002/ 
-                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6005-1 
-                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6005-2 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-28487 
+                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-28487 
+                        │      │                  ├ [2] : https://github.com/sudo-project/sudo/commit/334d
+                        │      │                  │       af92b31b79ce68ed75e2ee14fca265f029ca 
+                        │      │                  ├ [3] : https://github.com/sudo-project/sudo/releases/ta
+                        │      │                  │       g/SUDO_1_9_13 
+                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       4/02/msg00002.html 
+                        │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-28487 
+                        │      │                  ├ [6] : https://security.gentoo.org/glsa/202309-12 
+                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202304
+                        │      │                  │       20-0002/ 
+                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6005-1 
+                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6005-2 
+                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
                         │      ├ PublishedDate   : 2023-03-16T01:15:47.067Z 
-                        │      ╰ LastModifiedDate: 2023-11-02T01:58:22.777Z 
+                        │      ╰ LastModifiedDate: 2024-02-03T11:15:14.343Z 
                         ├ [64] ╭ VulnerabilityID : CVE-2023-42465 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
