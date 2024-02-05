@@ -1663,12 +1663,13 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2975
+    - https://security.gentoo.org/glsa/202402-08
     - https://security.netapp.com/advisory/ntap-20230725-0004/
     - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2975
     - https://www.openssl.org/news/secadv/20230714.txt
     PublishedDate: '2023-07-14T12:15:09.023Z'
-    LastModifiedDate: '2023-07-27T13:02:02.013Z'
+    LastModifiedDate: '2024-02-04T09:15:09.773Z'
   - VulnerabilityID: CVE-2023-3446
     PkgID: openssl@3.0.7-25.el9_3.x86_64
     PkgName: openssl
@@ -1750,6 +1751,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
+    - https://security.gentoo.org/glsa/202402-08
     - https://security.netapp.com/advisory/ntap-20230803-0011/
     - https://ubuntu.com/security/notices/USN-6435-1
     - https://ubuntu.com/security/notices/USN-6435-2
@@ -1757,7 +1759,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:10.003Z'
-    LastModifiedDate: '2023-10-03T15:48:00.24Z'
+    LastModifiedDate: '2024-02-04T09:15:09.9Z'
   - VulnerabilityID: CVE-2023-3817
     PkgID: openssl@3.0.7-25.el9_3.x86_64
     PkgName: openssl
@@ -1839,6 +1841,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
+    - https://security.gentoo.org/glsa/202402-08
     - https://security.netapp.com/advisory/ntap-20230818-0014/
     - https://security.netapp.com/advisory/ntap-20231027-0008/
     - https://ubuntu.com/security/notices/USN-6435-1
@@ -1847,7 +1850,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:10.497Z'
-    LastModifiedDate: '2023-11-06T19:15:09.12Z'
+    LastModifiedDate: '2024-02-04T09:15:10.03Z'
   - VulnerabilityID: CVE-2023-5678
     PkgID: openssl@3.0.7-25.el9_3.x86_64
     PkgName: openssl
@@ -2153,12 +2156,13 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2975
+    - https://security.gentoo.org/glsa/202402-08
     - https://security.netapp.com/advisory/ntap-20230725-0004/
     - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2975
     - https://www.openssl.org/news/secadv/20230714.txt
     PublishedDate: '2023-07-14T12:15:09.023Z'
-    LastModifiedDate: '2023-07-27T13:02:02.013Z'
+    LastModifiedDate: '2024-02-04T09:15:09.773Z'
   - VulnerabilityID: CVE-2023-3446
     PkgID: openssl-libs@3.0.7-25.el9_3.x86_64
     PkgName: openssl-libs
@@ -2240,6 +2244,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
+    - https://security.gentoo.org/glsa/202402-08
     - https://security.netapp.com/advisory/ntap-20230803-0011/
     - https://ubuntu.com/security/notices/USN-6435-1
     - https://ubuntu.com/security/notices/USN-6435-2
@@ -2247,7 +2252,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:10.003Z'
-    LastModifiedDate: '2023-10-03T15:48:00.24Z'
+    LastModifiedDate: '2024-02-04T09:15:09.9Z'
   - VulnerabilityID: CVE-2023-3817
     PkgID: openssl-libs@3.0.7-25.el9_3.x86_64
     PkgName: openssl-libs
@@ -2329,6 +2334,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
+    - https://security.gentoo.org/glsa/202402-08
     - https://security.netapp.com/advisory/ntap-20230818-0014/
     - https://security.netapp.com/advisory/ntap-20231027-0008/
     - https://ubuntu.com/security/notices/USN-6435-1
@@ -2337,7 +2343,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:10.497Z'
-    LastModifiedDate: '2023-11-06T19:15:09.12Z'
+    LastModifiedDate: '2024-02-04T09:15:10.03Z'
   - VulnerabilityID: CVE-2023-5678
     PkgID: openssl-libs@3.0.7-25.el9_3.x86_64
     PkgName: openssl-libs
@@ -3385,7 +3391,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3430,7 +3436,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
