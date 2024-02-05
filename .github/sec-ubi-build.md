@@ -1892,13 +1892,14 @@
                         │      │                  │       commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
                         │      │                  │        
                         │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
-                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202307
+                        │      │                  ├ [7] : https://security.gentoo.org/glsa/202402-08 
+                        │      │                  ├ [8] : https://security.netapp.com/advisory/ntap-202307
                         │      │                  │       25-0004/ 
-                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6450-1 
-                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-2975 
-                        │      │                  ╰ [10]: https://www.openssl.org/news/secadv/20230714.txt 
+                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6450-1 
+                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
+                        │      │                  ╰ [11]: https://www.openssl.org/news/secadv/20230714.txt 
                         │      ├ PublishedDate   : 2023-07-14T12:15:09.023Z 
-                        │      ╰ LastModifiedDate: 2023-07-27T13:02:02.013Z 
+                        │      ╰ LastModifiedDate: 2024-02-04T09:15:09.773Z 
                         ├ [35] ╭ VulnerabilityID : CVE-2023-3446 
                         │      ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl 
@@ -2008,15 +2009,16 @@
                         │      │                  ├ [17]: https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       3/08/msg00019.html 
                         │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-3446 
-                        │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-202308
+                        │      │                  ├ [19]: https://security.gentoo.org/glsa/202402-08 
+                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-202308
                         │      │                  │       03-0011/ 
-                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6435-1 
-                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6435-2 
-                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
-                        │      │                  ╰ [24]: https://www.openssl.org/news/secadv/20230719.txt 
+                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6435-1 
+                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6435-2 
+                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6450-1 
+                        │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
+                        │      │                  ╰ [25]: https://www.openssl.org/news/secadv/20230719.txt 
                         │      ├ PublishedDate   : 2023-07-19T12:15:10.003Z 
-                        │      ╰ LastModifiedDate: 2023-10-03T15:48:00.24Z 
+                        │      ╰ LastModifiedDate: 2024-02-04T09:15:09.9Z 
                         ├ [36] ╭ VulnerabilityID : CVE-2023-3817 
                         │      ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl 
@@ -2124,17 +2126,18 @@
                         │      │                  ├ [18]: https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       3/08/msg00019.html 
                         │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
-                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-202308
+                        │      │                  ├ [20]: https://security.gentoo.org/glsa/202402-08 
+                        │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-202308
                         │      │                  │       18-0014/ 
-                        │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-202310
+                        │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-202310
                         │      │                  │       27-0008/ 
-                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6435-1 
-                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6435-2 
-                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
-                        │      │                  ╰ [26]: https://www.openssl.org/news/secadv/20230731.txt 
+                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6435-1 
+                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6435-2 
+                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6450-1 
+                        │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+                        │      │                  ╰ [27]: https://www.openssl.org/news/secadv/20230731.txt 
                         │      ├ PublishedDate   : 2023-07-31T16:15:10.497Z 
-                        │      ╰ LastModifiedDate: 2023-11-06T19:15:09.12Z 
+                        │      ╰ LastModifiedDate: 2024-02-04T09:15:10.03Z 
                         ├ [37] ╭ VulnerabilityID : CVE-2023-5678 
                         │      ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl 
@@ -2541,13 +2544,14 @@
                         │      │                  │       commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
                         │      │                  │        
                         │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
-                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202307
+                        │      │                  ├ [7] : https://security.gentoo.org/glsa/202402-08 
+                        │      │                  ├ [8] : https://security.netapp.com/advisory/ntap-202307
                         │      │                  │       25-0004/ 
-                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6450-1 
-                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-2975 
-                        │      │                  ╰ [10]: https://www.openssl.org/news/secadv/20230714.txt 
+                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6450-1 
+                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
+                        │      │                  ╰ [11]: https://www.openssl.org/news/secadv/20230714.txt 
                         │      ├ PublishedDate   : 2023-07-14T12:15:09.023Z 
-                        │      ╰ LastModifiedDate: 2023-07-27T13:02:02.013Z 
+                        │      ╰ LastModifiedDate: 2024-02-04T09:15:09.773Z 
                         ├ [42] ╭ VulnerabilityID : CVE-2023-3446 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
@@ -2657,15 +2661,16 @@
                         │      │                  ├ [17]: https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       3/08/msg00019.html 
                         │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-3446 
-                        │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-202308
+                        │      │                  ├ [19]: https://security.gentoo.org/glsa/202402-08 
+                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-202308
                         │      │                  │       03-0011/ 
-                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6435-1 
-                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6435-2 
-                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
-                        │      │                  ╰ [24]: https://www.openssl.org/news/secadv/20230719.txt 
+                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6435-1 
+                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6435-2 
+                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6450-1 
+                        │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
+                        │      │                  ╰ [25]: https://www.openssl.org/news/secadv/20230719.txt 
                         │      ├ PublishedDate   : 2023-07-19T12:15:10.003Z 
-                        │      ╰ LastModifiedDate: 2023-10-03T15:48:00.24Z 
+                        │      ╰ LastModifiedDate: 2024-02-04T09:15:09.9Z 
                         ├ [43] ╭ VulnerabilityID : CVE-2023-3817 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
@@ -2773,17 +2778,18 @@
                         │      │                  ├ [18]: https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       3/08/msg00019.html 
                         │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
-                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-202308
+                        │      │                  ├ [20]: https://security.gentoo.org/glsa/202402-08 
+                        │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-202308
                         │      │                  │       18-0014/ 
-                        │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-202310
+                        │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-202310
                         │      │                  │       27-0008/ 
-                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6435-1 
-                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6435-2 
-                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
-                        │      │                  ╰ [26]: https://www.openssl.org/news/secadv/20230731.txt 
+                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6435-1 
+                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6435-2 
+                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6450-1 
+                        │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+                        │      │                  ╰ [27]: https://www.openssl.org/news/secadv/20230731.txt 
                         │      ├ PublishedDate   : 2023-07-31T16:15:10.497Z 
-                        │      ╰ LastModifiedDate: 2023-11-06T19:15:09.12Z 
+                        │      ╰ LastModifiedDate: 2024-02-04T09:15:10.03Z 
                         ├ [44] ╭ VulnerabilityID : CVE-2023-5678 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
@@ -4226,7 +4232,7 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -4275,7 +4281,7 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
