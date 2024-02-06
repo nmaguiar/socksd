@@ -45,6 +45,7 @@
     Severity: MEDIUM
     VendorSeverity:
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -64,6 +65,7 @@
     - https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
     - https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0727
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
@@ -111,6 +113,7 @@
     Severity: MEDIUM
     VendorSeverity:
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -130,6 +133,7 @@
     - https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
     - https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0727
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
@@ -177,6 +181,7 @@
     Severity: MEDIUM
     VendorSeverity:
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -196,6 +201,7 @@
     - https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
     - https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0727
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
