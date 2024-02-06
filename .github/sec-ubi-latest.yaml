@@ -779,7 +779,7 @@
     - https://errata.rockylinux.org/RLSA-2024:0155
     - https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23
     - https://linux.oracle.com/cve/CVE-2023-5981.html
-    - https://linux.oracle.com/errata/ELSA-2024-0155.html
+    - https://linux.oracle.com/errata/ELSA-2024-0533.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GNXKVR5YNUEBNHAHM5GSYKBZX4W2HMN2/
     - https://lists.gnupg.org/pipermail/gnutls-help/2023-November/004837.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5981
@@ -836,7 +836,7 @@
     - https://gitlab.com/gnutls/gnutls/-/issues/1522
     - https://gnutls.org/security-new.html#GNUTLS-SA-2024-01-14
     - https://linux.oracle.com/cve/CVE-2024-0553.html
-    - https://linux.oracle.com/errata/ELSA-2024-0627.html
+    - https://linux.oracle.com/errata/ELSA-2024-12135.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GNXKVR5YNUEBNHAHM5GSYKBZX4W2HMN2/
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-January/004841.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0553
@@ -868,6 +868,7 @@
     VendorSeverity:
       alma: 2
       nvd: 3
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -890,6 +891,8 @@
     - https://errata.almalinux.org/9/ALSA-2024-0533.html
     - https://gitlab.com/gnutls/gnutls/-/issues/1521
     - https://gnutls.org/security-new.html#GNUTLS-SA-2024-01-09
+    - https://linux.oracle.com/cve/CVE-2024-0567.html
+    - https://linux.oracle.com/errata/ELSA-2024-0533.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GNXKVR5YNUEBNHAHM5GSYKBZX4W2HMN2/
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-January/004841.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0567
@@ -1296,6 +1299,35 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2023-11-07T03:45:32.64Z'
+  - VulnerabilityID: CVE-2024-25062
+    PkgID: libxml2@2.9.13-5.el9_3.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-5.el9_3?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 2.9.13-5.el9_3
+    Status: under_investigation
+    Layer:
+      Digest: sha256:b9db5a6d2c19a374b5ef35a30828eaf4dc721468f49f94d2af355973ef5d0c29
+      DiffID: sha256:251b6e2af0519bafa0922c26c4d2937d82c0f235d44953397dcdb7acf36444fe
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-25062
+    Title: 'libxml2: use-after-free in XMLReader'
+    Description: An issue was discovered in libxml2 before 2.11.7 and 2.12.x before 2.12.5. When using the XML Reader interface with DTD validation and XInclude expansion enabled, processing crafted XML documents can lead to an xmlValidatePopElement use-after-free.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-25062
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/604
+    - https://gitlab.gnome.org/GNOME/libxml2/-/tags
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-25062
+    - https://www.cve.org/CVERecord?id=CVE-2024-25062
+    PublishedDate: '2024-02-04T16:15:45.12Z'
+    LastModifiedDate: '2024-02-05T02:09:37.42Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-5.el9_3.x86_64
     PkgName: libxml2
@@ -2499,6 +2531,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5678
     - https://security.netapp.com/advisory/ntap-20231130-0010/
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:42.67Z'
@@ -2569,6 +2602,7 @@
     - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
     - https://github.com/openssl/openssl/commit/f3fc5808fe9ff74042d639839610d03b8fdcc015
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6129
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-6129
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
@@ -2600,6 +2634,7 @@
     - https://access.redhat.com/security/cve/CVE-2023-6237
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6237
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6237
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-6237
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
@@ -2641,6 +2676,7 @@
     Severity: LOW
     VendorSeverity:
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2660,6 +2696,7 @@
     - https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
     - https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0727
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
@@ -3086,6 +3123,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5678
     - https://security.netapp.com/advisory/ntap-20231130-0010/
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:42.67Z'
@@ -3156,6 +3194,7 @@
     - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
     - https://github.com/openssl/openssl/commit/f3fc5808fe9ff74042d639839610d03b8fdcc015
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6129
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-6129
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
@@ -3187,6 +3226,7 @@
     - https://access.redhat.com/security/cve/CVE-2023-6237
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6237
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6237
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-6237
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
@@ -3228,6 +3268,7 @@
     Severity: LOW
     VendorSeverity:
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3247,6 +3288,7 @@
     - https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
     - https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0727
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
@@ -3267,6 +3309,7 @@
     Description: A vulnerability was found in Linux PAM. An unprivileged user that is not yet in a corresponding mount namespace with ~/tmp mounted as a polyinstantiated dir can place a FIFO there, and a subsequent attempt to login as this user with `pam_namespace` configured will cause the `openat()` in `protect_dir()` to block the attempt, causing a local denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 1
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -3567,6 +3610,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HXYVPEZUA3465AEFX5JVFVP7KIFZMF3N/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N6M5I6OQHJABNEYY555HUMMKX3Y4P25Z/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
@@ -3585,7 +3629,7 @@
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2024-01-11T03:15:09.307Z'
+    LastModifiedDate: '2024-02-05T07:15:07.72Z'
   - VulnerabilityID: CVE-2023-36632
     PkgID: python-unversioned-command@3.9.18-1.el9_3.noarch
     PkgName: python-unversioned-command
@@ -3835,6 +3879,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HXYVPEZUA3465AEFX5JVFVP7KIFZMF3N/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N6M5I6OQHJABNEYY555HUMMKX3Y4P25Z/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
@@ -3853,7 +3898,7 @@
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2024-01-11T03:15:09.307Z'
+    LastModifiedDate: '2024-02-05T07:15:07.72Z'
   - VulnerabilityID: CVE-2023-36632
     PkgID: python3@3.9.18-1.el9_3.x86_64
     PkgName: python3
@@ -4103,6 +4148,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HXYVPEZUA3465AEFX5JVFVP7KIFZMF3N/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N6M5I6OQHJABNEYY555HUMMKX3Y4P25Z/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
@@ -4121,7 +4167,7 @@
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2024-01-11T03:15:09.307Z'
+    LastModifiedDate: '2024-02-05T07:15:07.72Z'
   - VulnerabilityID: CVE-2023-36632
     PkgID: python3-libs@3.9.18-1.el9_3.x86_64
     PkgName: python3-libs
@@ -4742,6 +4788,7 @@
     Description: Sudo before 1.9.15 might allow row hammer attacks (for authentication bypass or privilege escalation) because application logic sometimes is based on not equaling an error value (instead of equaling a success value), and because the values do not resist flips of a single bit.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       cbl-mariner: 3
       nvd: 3
       photon: 3
