@@ -55,6 +55,7 @@
                         │     │                    issue. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ VendorSeverity   ╭ nvd   : 2 
+                        │     │                  ├ photon: 2 
                         │     │                  ├ redhat: 1 
                         │     │                  ╰ ubuntu: 1 
                         │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
@@ -80,8 +81,9 @@
                         │     │                  │       ses/commit/aebaa5883e31122b404e450732dc833dc9dee539
                         │     │                  │        
                         │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
-                        │     │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                        │     │                  ╰ [10]: https://www.openssl.org/news/secadv/20240125.txt 
+                        │     │                  ├ [9] : https://ubuntu.com/security/notices/USN-6622-1 
+                        │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                        │     │                  ╰ [11]: https://www.openssl.org/news/secadv/20240125.txt 
                         │     ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
                         │     ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2024-0727 
@@ -137,6 +139,7 @@
                         │     │                    issue. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ VendorSeverity   ╭ nvd   : 2 
+                        │     │                  ├ photon: 2 
                         │     │                  ├ redhat: 1 
                         │     │                  ╰ ubuntu: 1 
                         │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
@@ -162,8 +165,9 @@
                         │     │                  │       ses/commit/aebaa5883e31122b404e450732dc833dc9dee539
                         │     │                  │        
                         │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
-                        │     │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                        │     │                  ╰ [10]: https://www.openssl.org/news/secadv/20240125.txt 
+                        │     │                  ├ [9] : https://ubuntu.com/security/notices/USN-6622-1 
+                        │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                        │     │                  ╰ [11]: https://www.openssl.org/news/secadv/20240125.txt 
                         │     ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
                         │     ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2024-0727 
@@ -219,6 +223,7 @@
                               │                    issue. 
                               ├ Severity        : MEDIUM 
                               ├ VendorSeverity   ╭ nvd   : 2 
+                              │                  ├ photon: 2 
                               │                  ├ redhat: 1 
                               │                  ╰ ubuntu: 1 
                               ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
@@ -244,8 +249,9 @@
                               │                  │       ses/commit/aebaa5883e31122b404e450732dc833dc9dee539
                               │                  │        
                               │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
-                              │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                              │                  ╰ [10]: https://www.openssl.org/news/secadv/20240125.txt 
+                              │                  ├ [9] : https://ubuntu.com/security/notices/USN-6622-1 
+                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                              │                  ╰ [11]: https://www.openssl.org/news/secadv/20240125.txt 
                               ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
                               ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
 ````
