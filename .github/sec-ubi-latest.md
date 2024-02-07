@@ -1769,7 +1769,8 @@
                         │      ├ Severity        : LOW 
                         │      ├ VendorSeverity   ╭ amazon: 2 
                         │      │                  ├ nvd   : 2 
-                        │      │                  ╰ redhat: 1 
+                        │      │                  ├ redhat: 1 
+                        │      │                  ╰ ubuntu: 1 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           N/I:N/A:H 
                         │      │                  │        ╰ V3Score : 6.5 
@@ -1777,17 +1778,19 @@
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 6.5 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
-                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/pac
+                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2023-50495 
+                        │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/pac
                         │      │                  │      kage-announce%40lists.fedoraproject.org/message/LU4MYM
                         │      │                  │      KFEZQ5VSCVLRIZGDQOUW3T44GT/ 
-                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/20
-                        │      │                  │      23-04/msg00020.html 
                         │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/20
+                        │      │                  │      23-04/msg00020.html 
+                        │      │                  ├ [4]: https://lists.gnu.org/archive/html/bug-ncurses/20
                         │      │                  │      23-04/msg00029.html 
-                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
-                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-2024011
+                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2024011
                         │      │                  │      9-0008/ 
-                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
                         │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
                         │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
                         ├ [31] ╭ VulnerabilityID : CVE-2022-29458 
@@ -1863,7 +1866,8 @@
                         │      ├ Severity        : LOW 
                         │      ├ VendorSeverity   ╭ amazon: 2 
                         │      │                  ├ nvd   : 2 
-                        │      │                  ╰ redhat: 1 
+                        │      │                  ├ redhat: 1 
+                        │      │                  ╰ ubuntu: 1 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           N/I:N/A:H 
                         │      │                  │        ╰ V3Score : 6.5 
@@ -1871,17 +1875,19 @@
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 6.5 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
-                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/pac
+                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2023-50495 
+                        │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/pac
                         │      │                  │      kage-announce%40lists.fedoraproject.org/message/LU4MYM
                         │      │                  │      KFEZQ5VSCVLRIZGDQOUW3T44GT/ 
-                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/20
-                        │      │                  │      23-04/msg00020.html 
                         │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/20
+                        │      │                  │      23-04/msg00020.html 
+                        │      │                  ├ [4]: https://lists.gnu.org/archive/html/bug-ncurses/20
                         │      │                  │      23-04/msg00029.html 
-                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
-                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-2024011
+                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2024011
                         │      │                  │      9-0008/ 
-                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
                         │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
                         │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
                         ├ [33] ╭ VulnerabilityID : CVE-2023-5388 
@@ -4029,13 +4035,10 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-22365 
                         │      ├ Title           : pam: allowing unpriledged user to block another user
                         │      │                   namespace 
-                        │      ├ Description     : A vulnerability was found in Linux PAM. An unprivileged
-                        │      │                    user that is not yet in a corresponding mount namespace
-                        │      │                   with ~/tmp mounted as a polyinstantiated dir can place a
-                        │      │                   FIFO there, and a subsequent attempt to login as this user
-                        │      │                   with `pam_namespace` configured will cause the `openat()` in
-                        │      │                    `protect_dir()` to block the attempt, causing a local
-                        │      │                   denial of service. 
+                        │      ├ Description     : linux-pam (aka Linux PAM) before 1.6.0 allows attackers
+                        │      │                    to cause a denial of service (blocked login process) via
+                        │      │                   mkfifo because the openat call (for protect_dir) lacks
+                        │      │                   O_DIRECTORY. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ VendorSeverity   ╭ amazon: 1 
                         │      │                  ├ photon: 2 
@@ -4044,14 +4047,23 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.5 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-22365 
-                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │                         │      E-2024-22365 
-                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-22365 
-                        │                         ├ [3]: https://ubuntu.com/security/notices/USN-6588-1 
-                        │                         ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-22365 
-                        │                         ╰ [5]: https://www.openwall.com/lists/oss-security/2024/
-                        │                                01/18/3 
+                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+                        │      │                  │      1/18/3 
+                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-22365 
+                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2024-22365 
+                        │      │                  ├ [3]: https://github.com/linux-pam/linux-pam 
+                        │      │                  ├ [4]: https://github.com/linux-pam/linux-pam/commit/031
+                        │      │                  │      bb5a5d0d950253b68138b498dc93be69a64cb 
+                        │      │                  ├ [5]: https://github.com/linux-pam/linux-pam/releases/t
+                        │      │                  │      ag/v1.6.0 
+                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-22365 
+                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6588-1 
+                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-22365 
+                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/
+                        │      │                         01/18/3 
+                        │      ├ PublishedDate   : 2024-02-06T08:15:52.203Z 
+                        │      ╰ LastModifiedDate: 2024-02-06T13:53:38.513Z 
                         ├ [63] ╭ VulnerabilityID : CVE-2022-41409 
                         │      ├ PkgID           : pcre2@10.40-2.el9.x86_64 
                         │      ├ PkgName         : pcre2 
@@ -5903,7 +5915,7 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -5952,7 +5964,7 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -6100,7 +6112,8 @@
                                │                   to manipulate records. 
                                ├ Severity        : MEDIUM 
                                ├ CweIDs           ─ [0]: CWE-300 
-                               ├ VendorSeverity   ╭ cbl-mariner: 2 
+                               ├ VendorSeverity   ╭ amazon     : 2 
+                               │                  ├ cbl-mariner: 2 
                                │                  ├ nvd        : 2 
                                │                  ├ redhat     : 2 
                                │                  ╰ ubuntu     : 1 
