@@ -3231,11 +3231,13 @@
                         │      │                  │       ases/commit/aebaa5883e31122b404e450732dc833dc9dee539
                         │      │                  │       [m 
                         │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
-                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6622-1 
-                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                        │      │                  ╰ [11]: https://www.openssl.org/news/secadv/20240125.txt 
+                        │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-202402
+                        │      │                  │       08-0006/ 
+                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6622-1 
+                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                        │      │                  ╰ [12]: https://www.openssl.org/news/secadv/20240125.txt 
                         │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
-                        │      ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
+                        │      ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
                         ├ [54] ╭ VulnerabilityID : CVE-2023-5363 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0310 
                         │      ├ PkgID           : openssl-libs@3.0.7-24.el9.x86_64 
@@ -4015,11 +4017,13 @@
                         │      │                  │       ases/commit/aebaa5883e31122b404e450732dc833dc9dee539
                         │      │                  │       [m 
                         │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
-                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6622-1 
-                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                        │      │                  ╰ [11]: https://www.openssl.org/news/secadv/20240125.txt 
+                        │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-202402
+                        │      │                  │       08-0006/ 
+                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6622-1 
+                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                        │      │                  ╰ [12]: https://www.openssl.org/news/secadv/20240125.txt 
                         │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
-                        │      ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
+                        │      ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
                         ├ [62] ╭ VulnerabilityID : CVE-2024-22365 
                         │      ├ PkgID           : pam@1.5.1-15.el9.x86_64 
                         │      ├ PkgName         : pam 
@@ -6038,12 +6042,14 @@
                         │      │                  │       RUJCPII4MPWG43HTYR76DGLEYEFZ/ 
                         │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-42465 
                         │      │                  ├ [7] : https://security.gentoo.org/glsa/202401-29 
-                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2023-42465 
-                        │      │                  ├ [9] : https://www.openwall.com/lists/oss-security/2023
+                        │      │                  ├ [8] : https://security.netapp.com/advisory/ntap-202402
+                        │      │                  │       08-0002/ 
+                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-42465 
+                        │      │                  ├ [10]: https://www.openwall.com/lists/oss-security/2023
                         │      │                  │       /12/21/9 
-                        │      │                  ╰ [10]: https://www.sudo.ws/releases/changelog/ 
+                        │      │                  ╰ [11]: https://www.sudo.ws/releases/changelog/ 
                         │      ├ PublishedDate   : 2023-12-22T16:15:08.057Z 
-                        │      ╰ LastModifiedDate: 2024-01-28T04:15:07.59Z 
+                        │      ╰ LastModifiedDate: 2024-02-08T10:15:09.24Z 
                         ├ [89] ╭ VulnerabilityID : CVE-2021-3997 
                         │      ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │      ├ PkgName         : systemd-libs 
