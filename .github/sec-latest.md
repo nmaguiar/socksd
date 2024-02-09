@@ -81,11 +81,13 @@
                         │     │                  │       ses/commit/aebaa5883e31122b404e450732dc833dc9dee539
                         │     │                  │        
                         │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
-                        │     │                  ├ [9] : https://ubuntu.com/security/notices/USN-6622-1 
-                        │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                        │     │                  ╰ [11]: https://www.openssl.org/news/secadv/20240125.txt 
+                        │     │                  ├ [9] : https://security.netapp.com/advisory/ntap-2024020
+                        │     │                  │       8-0006/ 
+                        │     │                  ├ [10]: https://ubuntu.com/security/notices/USN-6622-1 
+                        │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                        │     │                  ╰ [12]: https://www.openssl.org/news/secadv/20240125.txt 
                         │     ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
-                        │     ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
+                        │     ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2024-0727 
                         │     ├ PkgID           : libssl3@3.1.4-r4 
                         │     ├ PkgName         : libssl3 
@@ -165,11 +167,13 @@
                         │     │                  │       ses/commit/aebaa5883e31122b404e450732dc833dc9dee539
                         │     │                  │        
                         │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
-                        │     │                  ├ [9] : https://ubuntu.com/security/notices/USN-6622-1 
-                        │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                        │     │                  ╰ [11]: https://www.openssl.org/news/secadv/20240125.txt 
+                        │     │                  ├ [9] : https://security.netapp.com/advisory/ntap-2024020
+                        │     │                  │       8-0006/ 
+                        │     │                  ├ [10]: https://ubuntu.com/security/notices/USN-6622-1 
+                        │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                        │     │                  ╰ [12]: https://www.openssl.org/news/secadv/20240125.txt 
                         │     ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
-                        │     ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
+                        │     ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2024-0727 
                               ├ PkgID           : openssl@3.1.4-r4 
                               ├ PkgName         : openssl 
@@ -249,9 +253,11 @@
                               │                  │       ses/commit/aebaa5883e31122b404e450732dc833dc9dee539
                               │                  │        
                               │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
-                              │                  ├ [9] : https://ubuntu.com/security/notices/USN-6622-1 
-                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                              │                  ╰ [11]: https://www.openssl.org/news/secadv/20240125.txt 
+                              │                  ├ [9] : https://security.netapp.com/advisory/ntap-2024020
+                              │                  │       8-0006/ 
+                              │                  ├ [10]: https://ubuntu.com/security/notices/USN-6622-1 
+                              │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                              │                  ╰ [12]: https://www.openssl.org/news/secadv/20240125.txt 
                               ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
-                              ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
+                              ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
 ````
