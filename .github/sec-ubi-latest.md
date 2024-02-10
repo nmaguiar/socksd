@@ -888,16 +888,19 @@
                         │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-5981.html 
                         │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-0533.html 
                         │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/7ZEIOL
+                        │      │                  │       ORQ7N6WRPFXZSYDL2MC4LP7VFV/ 
+                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/GNXKVR
                         │      │                  │       5YNUEBNHAHM5GSYKBZX4W2HMN2/ 
-                        │      │                  ├ [18]: https://lists.gnupg.org/pipermail/gnutls-help/20
+                        │      │                  ├ [19]: https://lists.gnupg.org/pipermail/gnutls-help/20
                         │      │                  │       23-November/004837.html 
-                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-5981 
-                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6499-1 
-                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6499-2 
-                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
+                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-5981 
+                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6499-1 
+                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6499-2 
+                        │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
                         │      ├ PublishedDate   : 2023-11-28T12:15:07.04Z 
-                        │      ╰ LastModifiedDate: 2024-01-29T16:15:08.063Z 
+                        │      ╰ LastModifiedDate: 2024-02-09T03:15:09.133Z 
                         ├ [15] ╭ VulnerabilityID : CVE-2024-0553 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0533 
                         │      ├ PkgID           : gnutls@3.7.6-23.el9.x86_64 
@@ -954,17 +957,20 @@
                         │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-0553.html 
                         │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-12135.html 
                         │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/7ZEIOL
+                        │      │                  │       ORQ7N6WRPFXZSYDL2MC4LP7VFV/ 
+                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/GNXKVR
                         │      │                  │       5YNUEBNHAHM5GSYKBZX4W2HMN2/ 
-                        │      │                  ├ [15]: https://lists.gnupg.org/pipermail/gnutls-help/20
+                        │      │                  ├ [16]: https://lists.gnupg.org/pipermail/gnutls-help/20
                         │      │                  │       24-January/004841.html 
-                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
-                        │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-202402
+                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
+                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-202402
                         │      │                  │       02-0011/ 
-                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6593-1 
-                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
+                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6593-1 
+                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
                         │      ├ PublishedDate   : 2024-01-16T12:15:45.557Z 
-                        │      ╰ LastModifiedDate: 2024-02-02T14:15:54.243Z 
+                        │      ╰ LastModifiedDate: 2024-02-09T03:15:09.317Z 
                         ├ [16] ╭ VulnerabilityID : CVE-2024-0567 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0533 
                         │      ├ PkgID           : gnutls@3.7.6-23.el9.x86_64 
@@ -1018,17 +1024,20 @@
                         │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-0567.html 
                         │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-0533.html 
                         │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/7ZEIOL
+                        │      │                  │       ORQ7N6WRPFXZSYDL2MC4LP7VFV/ 
+                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/GNXKVR
                         │      │                  │       5YNUEBNHAHM5GSYKBZX4W2HMN2/ 
-                        │      │                  ├ [14]: https://lists.gnupg.org/pipermail/gnutls-help/20
+                        │      │                  ├ [15]: https://lists.gnupg.org/pipermail/gnutls-help/20
                         │      │                  │       24-January/004841.html 
-                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-0567 
-                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-202402
+                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-0567 
+                        │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-202402
                         │      │                  │       02-0011/ 
-                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6593-1 
-                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-0567 
+                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6593-1 
+                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-0567 
                         │      ├ PublishedDate   : 2024-01-16T14:15:48.527Z 
-                        │      ╰ LastModifiedDate: 2024-02-02T14:15:54.373Z 
+                        │      ╰ LastModifiedDate: 2024-02-09T03:15:09.447Z 
                         ├ [17] ╭ VulnerabilityID : CVE-2024-20918 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0249 
                         │      ├ PkgID           : java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64 
@@ -1574,15 +1583,24 @@
                         │      │                   processing crafted XML documents can lead to an
                         │      │                   xmlValidatePopElement use-after-free. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.9 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-25062 
-                        │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/604 
-                        │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/tags 
-                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-25062 
-                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-25062 
+                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2024-25062 
+                        │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/commit/2
+                        │      │                  │      b0aac140d739905c7848a42efc60bfe783a39b7
+                        │      │                  │      (v2.11.7) 
+                        │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/libxml2/-/commit/9
+                        │      │                  │      2721970884fcc13305cb8e23cdc5f0dd7667c2c
+                        │      │                  │      (v2.12.5) 
+                        │      │                  ├ [4]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/604 
+                        │      │                  ├ [5]: https://gitlab.gnome.org/GNOME/libxml2/-/tags 
+                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-25062 
+                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-25062 
                         │      ├ PublishedDate   : 2024-02-04T16:15:45.12Z 
                         │      ╰ LastModifiedDate: 2024-02-05T02:09:37.42Z 
                         ├ [27] ╭ VulnerabilityID : CVE-2023-45322 
