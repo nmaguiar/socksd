@@ -2369,12 +2369,13 @@
     - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
     - https://github.com/openssl/openssl/commit/f3fc5808fe9ff74042d639839610d03b8fdcc015
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6129
+    - https://security.netapp.com/advisory/ntap-20240216-0009/
     - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-6129
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-01-23T21:32:01.973Z'
+    LastModifiedDate: '2024-02-16T13:15:09.91Z'
   - VulnerabilityID: CVE-2023-6237
     PkgID: openssl@3.0.7-25.el9_3.x86_64
     PkgName: openssl
@@ -2442,11 +2443,15 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
+      ghsa: 2
       nvd: 2
       photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -2456,13 +2461,17 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-0727
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0727
+    - https://github.com/alexcrichton/openssl-src-rs/commit/add20f73b6b42be7451af2e1044d4e0e778992b2
+    - https://github.com/github/advisory-database/pull/3472
     - https://github.com/openssl/openssl/commit/09df4395b5071217b76dc7d3d2e630eb8c5a79c2
     - https://github.com/openssl/openssl/commit/775acfdbd0c6af9ac855f34969cdab0c0c90844a
     - https://github.com/openssl/openssl/commit/d135eeab8a5dbf72b3da5240bab9ddb7678dbd2c
     - https://github.com/openssl/openssl/pull/23362
+    - https://github.com/pyca/cryptography/commit/3519591d255d4506fbcd0d04037d45271903c64d
     - https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
     - https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://security.netapp.com/advisory/ntap-20240208-0006
     - https://security.netapp.com/advisory/ntap-20240208-0006/
     - https://ubuntu.com/security/notices/USN-6622-1
     - https://ubuntu.com/security/notices/USN-6632-1
@@ -2870,12 +2879,13 @@
     - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
     - https://github.com/openssl/openssl/commit/f3fc5808fe9ff74042d639839610d03b8fdcc015
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6129
+    - https://security.netapp.com/advisory/ntap-20240216-0009/
     - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-6129
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-01-23T21:32:01.973Z'
+    LastModifiedDate: '2024-02-16T13:15:09.91Z'
   - VulnerabilityID: CVE-2023-6237
     PkgID: openssl-libs@3.0.7-25.el9_3.x86_64
     PkgName: openssl-libs
@@ -2943,11 +2953,15 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
+      ghsa: 2
       nvd: 2
       photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -2957,13 +2971,17 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-0727
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0727
+    - https://github.com/alexcrichton/openssl-src-rs/commit/add20f73b6b42be7451af2e1044d4e0e778992b2
+    - https://github.com/github/advisory-database/pull/3472
     - https://github.com/openssl/openssl/commit/09df4395b5071217b76dc7d3d2e630eb8c5a79c2
     - https://github.com/openssl/openssl/commit/775acfdbd0c6af9ac855f34969cdab0c0c90844a
     - https://github.com/openssl/openssl/commit/d135eeab8a5dbf72b3da5240bab9ddb7678dbd2c
     - https://github.com/openssl/openssl/pull/23362
+    - https://github.com/pyca/cryptography/commit/3519591d255d4506fbcd0d04037d45271903c64d
     - https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
     - https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://security.netapp.com/advisory/ntap-20240208-0006
     - https://security.netapp.com/advisory/ntap-20240208-0006/
     - https://ubuntu.com/security/notices/USN-6622-1
     - https://ubuntu.com/security/notices/USN-6632-1
