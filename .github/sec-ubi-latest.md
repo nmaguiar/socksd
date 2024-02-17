@@ -2726,23 +2726,25 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:L/A:H 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6129 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-6129 
-                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/050d263
-                        │      │                  │      83d4e264966fb83428e72d5d48f402d35 
-                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f9
-                        │      │                  │      5c9a47a55a0c54100f3837b1eee942b04 
-                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc580
-                        │      │                  │      8fe9ff74042d639839610d03b8fdcc015 
-                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
-                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6622-1 
-                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
-                        │      │                  ├ [8]: https://www.openssl.org/news/secadv/20240109.txt 
-                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/
-                        │      │                         01/09/1 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-6129 
+                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-6129 
+                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/050d26
+                        │      │                  │       383d4e264966fb83428e72d5d48f402d35 
+                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/5b139f
+                        │      │                  │       95c9a47a55a0c54100f3837b1eee942b04 
+                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/f3fc58
+                        │      │                  │       08fe9ff74042d639839610d03b8fdcc015 
+                        │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
+                        │      │                  ├ [6] : https://security.netapp.com/advisory/ntap-202402
+                        │      │                  │       16-0009/ 
+                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6622-1 
+                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2023-6129 
+                        │      │                  ├ [9] : https://www.openssl.org/news/secadv/20240109.txt 
+                        │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2024
+                        │      │                          /01/09/1 
                         │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
-                        │      ╰ LastModifiedDate: 2024-01-23T21:32:01.973Z 
+                        │      ╰ LastModifiedDate: 2024-02-16T13:15:09.91Z 
                         ├ [46] ╭ VulnerabilityID : CVE-2023-6237 
                         │      ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl 
@@ -2830,11 +2832,15 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
+                        │      ├ VendorSeverity   ╭ ghsa  : 2 
+                        │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
                         │      │                  ├ redhat: 1 
                         │      │                  ╰ ubuntu: 1 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
+                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
+                        │      │                  │        │           N/I:N/A:H 
+                        │      │                  │        ╰ V3Score : 5.5 
+                        │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           N/I:N/A:H 
                         │      │                  │        ╰ V3Score : 5.5 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
@@ -2843,26 +2849,34 @@
                         │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-0727 
                         │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2024-0727 
-                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/09df43
+                        │      │                  ├ [2] : https://github.com/alexcrichton/openssl-src-rs/c
+                        │      │                  │       ommit/add20f73b6b42be7451af2e1044d4e0e778992b2
+                        │      │                  │       [m 
+                        │      │                  ├ [3] : https://github.com/github/advisory-database/pull/3472 
+                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/09df43
                         │      │                  │       95b5071217b76dc7d3d2e630eb8c5a79c2 
-                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/775acf
+                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/775acf
                         │      │                  │       dbd0c6af9ac855f34969cdab0c0c90844a 
-                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/d135ee
+                        │      │                  ├ [6] : https://github.com/openssl/openssl/commit/d135ee
                         │      │                  │       ab8a5dbf72b3da5240bab9ddb7678dbd2c 
-                        │      │                  ├ [5] : https://github.com/openssl/openssl/pull/23362 
-                        │      │                  ├ [6] : https://github.openssl.org/openssl/extended-rele
+                        │      │                  ├ [7] : https://github.com/openssl/openssl/pull/23362 
+                        │      │                  ├ [8] : https://github.com/pyca/cryptography/commit/3519
+                        │      │                  │       591d255d4506fbcd0d04037d45271903c64d 
+                        │      │                  ├ [9] : https://github.openssl.org/openssl/extended-rele
                         │      │                  │       ases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
                         │      │                  │       [m 
-                        │      │                  ├ [7] : https://github.openssl.org/openssl/extended-rele
+                        │      │                  ├ [10]: https://github.openssl.org/openssl/extended-rele
                         │      │                  │       ases/commit/aebaa5883e31122b404e450732dc833dc9dee539
                         │      │                  │       [m 
-                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
-                        │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-202402
+                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
+                        │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-202402
+                        │      │                  │       08-0006 
+                        │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-202402
                         │      │                  │       08-0006/ 
-                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6622-1 
-                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6632-1 
-                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                        │      │                  ╰ [13]: https://www.openssl.org/news/secadv/20240125.txt 
+                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6622-1 
+                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6632-1 
+                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                        │      │                  ╰ [17]: https://www.openssl.org/news/secadv/20240125.txt 
                         │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
                         │      ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
                         ├ [48] ╭ VulnerabilityID : CVE-2023-2975 
@@ -3387,23 +3401,25 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:L/A:H 
                         │      │                           ╰ V3Score : 6.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6129 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-6129 
-                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/050d263
-                        │      │                  │      83d4e264966fb83428e72d5d48f402d35 
-                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f9
-                        │      │                  │      5c9a47a55a0c54100f3837b1eee942b04 
-                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc580
-                        │      │                  │      8fe9ff74042d639839610d03b8fdcc015 
-                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
-                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6622-1 
-                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
-                        │      │                  ├ [8]: https://www.openssl.org/news/secadv/20240109.txt 
-                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/
-                        │      │                         01/09/1 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-6129 
+                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-6129 
+                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/050d26
+                        │      │                  │       383d4e264966fb83428e72d5d48f402d35 
+                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/5b139f
+                        │      │                  │       95c9a47a55a0c54100f3837b1eee942b04 
+                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/f3fc58
+                        │      │                  │       08fe9ff74042d639839610d03b8fdcc015 
+                        │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
+                        │      │                  ├ [6] : https://security.netapp.com/advisory/ntap-202402
+                        │      │                  │       16-0009/ 
+                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6622-1 
+                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2023-6129 
+                        │      │                  ├ [9] : https://www.openssl.org/news/secadv/20240109.txt 
+                        │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2024
+                        │      │                          /01/09/1 
                         │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
-                        │      ╰ LastModifiedDate: 2024-01-23T21:32:01.973Z 
+                        │      ╰ LastModifiedDate: 2024-02-16T13:15:09.91Z 
                         ├ [53] ╭ VulnerabilityID : CVE-2023-6237 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
@@ -3491,11 +3507,15 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
+                        │      ├ VendorSeverity   ╭ ghsa  : 2 
+                        │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
                         │      │                  ├ redhat: 1 
                         │      │                  ╰ ubuntu: 1 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
+                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
+                        │      │                  │        │           N/I:N/A:H 
+                        │      │                  │        ╰ V3Score : 5.5 
+                        │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           N/I:N/A:H 
                         │      │                  │        ╰ V3Score : 5.5 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
@@ -3504,26 +3524,34 @@
                         │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-0727 
                         │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2024-0727 
-                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/09df43
+                        │      │                  ├ [2] : https://github.com/alexcrichton/openssl-src-rs/c
+                        │      │                  │       ommit/add20f73b6b42be7451af2e1044d4e0e778992b2
+                        │      │                  │       [m 
+                        │      │                  ├ [3] : https://github.com/github/advisory-database/pull/3472 
+                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/09df43
                         │      │                  │       95b5071217b76dc7d3d2e630eb8c5a79c2 
-                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/775acf
+                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/775acf
                         │      │                  │       dbd0c6af9ac855f34969cdab0c0c90844a 
-                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/d135ee
+                        │      │                  ├ [6] : https://github.com/openssl/openssl/commit/d135ee
                         │      │                  │       ab8a5dbf72b3da5240bab9ddb7678dbd2c 
-                        │      │                  ├ [5] : https://github.com/openssl/openssl/pull/23362 
-                        │      │                  ├ [6] : https://github.openssl.org/openssl/extended-rele
+                        │      │                  ├ [7] : https://github.com/openssl/openssl/pull/23362 
+                        │      │                  ├ [8] : https://github.com/pyca/cryptography/commit/3519
+                        │      │                  │       591d255d4506fbcd0d04037d45271903c64d 
+                        │      │                  ├ [9] : https://github.openssl.org/openssl/extended-rele
                         │      │                  │       ases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
                         │      │                  │       [m 
-                        │      │                  ├ [7] : https://github.openssl.org/openssl/extended-rele
+                        │      │                  ├ [10]: https://github.openssl.org/openssl/extended-rele
                         │      │                  │       ases/commit/aebaa5883e31122b404e450732dc833dc9dee539
                         │      │                  │       [m 
-                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
-                        │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-202402
+                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
+                        │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-202402
+                        │      │                  │       08-0006 
+                        │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-202402
                         │      │                  │       08-0006/ 
-                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6622-1 
-                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6632-1 
-                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                        │      │                  ╰ [13]: https://www.openssl.org/news/secadv/20240125.txt 
+                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6622-1 
+                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6632-1 
+                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                        │      │                  ╰ [17]: https://www.openssl.org/news/secadv/20240125.txt 
                         │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
                         │      ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
                         ├ [55] ╭ VulnerabilityID : CVE-2024-22365 
