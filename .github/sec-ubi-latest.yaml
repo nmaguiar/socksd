@@ -557,6 +557,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46218
     - https://security.netapp.com/advisory/ntap-20240125-0007/
     - https://ubuntu.com/security/notices/USN-6535-1
+    - https://ubuntu.com/security/notices/USN-6641-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46218
     - https://www.debian.org/security/2023/dsa-5587
     PublishedDate: '2023-12-07T01:15:07.16Z'
@@ -873,6 +874,7 @@
     - CWE-347
     VendorSeverity:
       alma: 2
+      amazon: 2
       nvd: 3
       oracle-oval: 2
       photon: 2
@@ -992,6 +994,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46218
     - https://security.netapp.com/advisory/ntap-20240125-0007/
     - https://ubuntu.com/security/notices/USN-6535-1
+    - https://ubuntu.com/security/notices/USN-6641-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46218
     - https://www.debian.org/security/2023/dsa-5587
     PublishedDate: '2023-12-07T01:15:07.16Z'
@@ -1412,6 +1415,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
+      amazon: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -1500,6 +1504,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
+      amazon: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -1588,6 +1593,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
+      amazon: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -1676,6 +1682,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
+      amazon: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -1764,6 +1771,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
+      amazon: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -1852,6 +1860,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
+      amazon: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -2392,6 +2401,7 @@
     Description: A flaw was found in OpenSSL. When the EVP_PKEY_public_check() function is called in RSA public keys, a computation is done to confirm that the RSA modulus, n, is composite. For valid RSA keys, n is a product of two or more large primes and this computation completes quickly. However, if n is a large prime, this computation takes a long time. An application that calls EVP_PKEY_public_check() and supplies an RSA key obtained from an untrusted source could be vulnerable to a Denial of Service attack.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2443,6 +2453,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ghsa: 2
       nvd: 2
       photon: 2
@@ -2902,6 +2913,7 @@
     Description: A flaw was found in OpenSSL. When the EVP_PKEY_public_check() function is called in RSA public keys, a computation is done to confirm that the RSA modulus, n, is composite. For valid RSA keys, n is a product of two or more large primes and this computation completes quickly. However, if n is a large prime, this computation takes a long time. An application that calls EVP_PKEY_public_check() and supplies an RSA key obtained from an untrusted source could be vulnerable to a Denial of Service attack.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2953,6 +2965,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ghsa: 2
       nvd: 2
       photon: 2
