@@ -437,11 +437,11 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           H/I:H/A:N 
 │                       │      │                           ╰ V3Score : 9.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7753 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0133 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-37920 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2226586 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2242493 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-7753.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-0133.html 
 │                       │      │                  ├ [5] : https://github.com/certifi/python-certifi 
 │                       │      │                  ├ [6] : https://github.com/certifi/python-certifi/commit
 │                       │      │                  │       /8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909 
@@ -880,29 +880,27 @@
 │                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:0533 
 │                       │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2023-5981 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/2248445 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2258412 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2258544 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2248445 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2248445 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-5981 
-│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-0533.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:0155 
-│                       │      │                  ├ [14]: https://gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2024-0155.html 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:0155 
+│                       │      │                  ├ [12]: https://gnutls.org/security-new.html#GNUTLS-SA-2
 │                       │      │                  │       023-10-23 
-│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-5981.html 
-│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-0533.html 
-│                       │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2023-5981.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-0533.html 
+│                       │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/7ZEIOL
 │                       │      │                  │       ORQ7N6WRPFXZSYDL2MC4LP7VFV/ 
-│                       │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/GNXKVR
 │                       │      │                  │       5YNUEBNHAHM5GSYKBZX4W2HMN2/ 
-│                       │      │                  ├ [19]: https://lists.gnupg.org/pipermail/gnutls-help/20
+│                       │      │                  ├ [17]: https://lists.gnupg.org/pipermail/gnutls-help/20
 │                       │      │                  │       23-November/004837.html 
-│                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-5981 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6499-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6499-2 
-│                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
+│                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-5981 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6499-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6499-2 
+│                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
 │                       │      ├ PublishedDate   : 2023-11-28T12:15:07.04Z 
 │                       │      ╰ LastModifiedDate: 2024-02-09T03:15:09.133Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2024-0553 
@@ -950,32 +948,30 @@
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0627 
 │                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:0796 
 │                       │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-0553 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2248445 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2258412 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2258544 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2258412 
-│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2258412 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2258412 
+│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2024-0553 
-│                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-0533.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:0627 
-│                       │      │                  ├ [12]: https://gitlab.com/gnutls/gnutls/-/issues/1522 
-│                       │      │                  ├ [13]: https://gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-0627.html 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:0627 
+│                       │      │                  ├ [10]: https://gitlab.com/gnutls/gnutls/-/issues/1522 
+│                       │      │                  ├ [11]: https://gnutls.org/security-new.html#GNUTLS-SA-2
 │                       │      │                  │       024-01-14 
-│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-0553.html 
-│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-12135.html 
-│                       │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-0553.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-12135.html 
+│                       │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/7ZEIOL
 │                       │      │                  │       ORQ7N6WRPFXZSYDL2MC4LP7VFV/ 
-│                       │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/GNXKVR
 │                       │      │                  │       5YNUEBNHAHM5GSYKBZX4W2HMN2/ 
-│                       │      │                  ├ [18]: https://lists.gnupg.org/pipermail/gnutls-help/20
+│                       │      │                  ├ [16]: https://lists.gnupg.org/pipermail/gnutls-help/20
 │                       │      │                  │       24-January/004841.html 
-│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
-│                       │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-202402
+│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
+│                       │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-202402
 │                       │      │                  │       02-0011/ 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6593-1 
-│                       │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6593-1 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
 │                       │      ├ PublishedDate   : 2024-01-16T12:15:45.557Z 
 │                       │      ╰ LastModifiedDate: 2024-02-13T09:15:47.017Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2024-0567 
@@ -1637,13 +1633,13 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           L/I:N/A:N 
 │                       │      │                           ╰ V3Score : 4.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0790 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0786 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6135 
 │                       │      │                  ├ [2] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2249906 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-6135 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0790.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0786.html 
 │                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-6135.html 
 │                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-0790.html 
 │                       │      │                  ├ [8] : https://minerva.crocs.fi.muni.cz/ 
@@ -1730,13 +1726,13 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           L/I:N/A:N 
 │                       │      │                           ╰ V3Score : 4.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0790 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0786 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6135 
 │                       │      │                  ├ [2] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2249906 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-6135 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0790.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0786.html 
 │                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-6135.html 
 │                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-0790.html 
 │                       │      │                  ├ [8] : https://minerva.crocs.fi.muni.cz/ 
@@ -1823,13 +1819,13 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           L/I:N/A:N 
 │                       │      │                           ╰ V3Score : 4.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0790 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0786 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6135 
 │                       │      │                  ├ [2] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2249906 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-6135 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0790.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0786.html 
 │                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-6135.html 
 │                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-0790.html 
 │                       │      │                  ├ [8] : https://minerva.crocs.fi.muni.cz/ 
@@ -1916,13 +1912,13 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           L/I:N/A:N 
 │                       │      │                           ╰ V3Score : 4.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0790 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0786 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6135 
 │                       │      │                  ├ [2] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2249906 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-6135 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0790.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0786.html 
 │                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-6135.html 
 │                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-0790.html 
 │                       │      │                  ├ [8] : https://minerva.crocs.fi.muni.cz/ 
@@ -2009,13 +2005,13 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           L/I:N/A:N 
 │                       │      │                           ╰ V3Score : 4.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0790 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0786 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6135 
 │                       │      │                  ├ [2] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2249906 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-6135 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0790.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0786.html 
 │                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-6135.html 
 │                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-0790.html 
 │                       │      │                  ├ [8] : https://minerva.crocs.fi.muni.cz/ 
@@ -2102,13 +2098,13 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           L/I:N/A:N 
 │                       │      │                           ╰ V3Score : 4.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0790 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0786 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6135 
 │                       │      │                  ├ [2] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2249906 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-6135 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0790.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0786.html 
 │                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-6135.html 
 │                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-0790.html 
 │                       │      │                  ├ [8] : https://minerva.crocs.fi.muni.cz/ 
@@ -4694,7 +4690,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-116 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -4754,7 +4750,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-116 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 2 
