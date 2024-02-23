@@ -1353,12 +1353,13 @@
 │                       │      │                   command line tool to cause buffer overrun. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-400 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ ghsa  : 3 
-│                       │      │                  ├ nvd   : 3 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ ghsa       : 3 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
@@ -1379,30 +1380,32 @@
 │                       │      │                  ├ [6] : https://github.com/sergey-dryabzhinsky/python-zs
 │                       │      │                  │       td/commit/c8a619aebdbd6b838fbfef6e19325a70f631a4c6
 │                       │      │                  │        
-│                       │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2022-4899.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-0894.html 
+│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/C63H
 │                       │      │                  │       AGVLQA6FJNDCHR7CNZZL6VSLILB2/ 
-│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/JEHR
 │                       │      │                  │       BBYYTPA4DETOM5XAKGCP37NUTLOA/ 
-│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/QYLD
 │                       │      │                  │       K6ODVC4LJSDULLX6Q2YHTFOWABCN/ 
-│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/C63HAG
 │                       │      │                  │       VLQA6FJNDCHR7CNZZL6VSLILB2 
-│                       │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/JEHRBB
 │                       │      │                  │       YYTPA4DETOM5XAKGCP37NUTLOA 
-│                       │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/QYLDK6
 │                       │      │                  │       ODVC4LJSDULLX6Q2YHTFOWABCN 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2022-4899 
-│                       │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-202307
+│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2022-4899 
+│                       │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-202307
 │                       │      │                  │       25-0005 
-│                       │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-202307
+│                       │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-202307
 │                       │      │                  │       25-0005/ 
-│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
+│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2022-29458 
@@ -5052,10 +5055,14 @@
                         │     ├ Severity        : HIGH 
                         │     ├ CweIDs           ─ [0]: CWE-835 
                         │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ├ nvd   : 2 
                         │     │                  ╰ redhat: 3 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H
                         │     │                  │        │           /I:H/A:H 
                         │     │                  │        ╰ V3Score : 8.1 
+                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 5.5 
                         │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H
                         │     │                           │           /I:H/A:H 
                         │     │                           ╰ V3Score : 8.1 
@@ -5067,7 +5074,7 @@
                         │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-25710 
                         │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-25710 
                         │     ├ PublishedDate   : 2024-02-19T09:15:37.943Z 
-                        │     ╰ LastModifiedDate: 2024-02-20T19:50:53.96Z 
+                        │     ╰ LastModifiedDate: 2024-02-22T15:24:45.24Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2024-26308 
                               ├ PkgName         : org.apache.commons:commons-compress 
                               ├ PkgPath         : openaf/openaf.jar 
@@ -5098,10 +5105,14 @@
                               ├ Severity        : HIGH 
                               ├ CweIDs           ─ [0]: CWE-770 
                               ├ VendorSeverity   ╭ ghsa  : 3 
+                              │                  ├ nvd   : 2 
                               │                  ╰ redhat: 2 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
                               │                  │        │           /I:N/A:H 
                               │                  │        ╰ V3Score : 7.5 
+                              │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                              │                  │        │           /I:N/A:H 
+                              │                  │        ╰ V3Score : 5.5 
                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
                               │                           │           /I:N/A:H 
                               │                           ╰ V3Score : 5.9 
@@ -5115,5 +5126,5 @@
                               │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024/0
                               │                         2/19/2 
                               ├ PublishedDate   : 2024-02-19T09:15:38.277Z 
-                              ╰ LastModifiedDate: 2024-02-20T19:50:53.96Z 
+                              ╰ LastModifiedDate: 2024-02-22T15:21:36.213Z 
 ````
