@@ -963,21 +963,23 @@
 │                       │      │                  │       024-01-14 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-0553.html 
 │                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-12135.html 
-│                       │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  │       4/02/msg00010.html 
+│                       │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/7ZEIOL
 │                       │      │                  │       ORQ7N6WRPFXZSYDL2MC4LP7VFV/ 
-│                       │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/GNXKVR
 │                       │      │                  │       5YNUEBNHAHM5GSYKBZX4W2HMN2/ 
-│                       │      │                  ├ [18]: https://lists.gnupg.org/pipermail/gnutls-help/20
+│                       │      │                  ├ [19]: https://lists.gnupg.org/pipermail/gnutls-help/20
 │                       │      │                  │       24-January/004841.html 
-│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
-│                       │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-202402
+│                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
+│                       │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-202402
 │                       │      │                  │       02-0011/ 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6593-1 
-│                       │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6593-1 
+│                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
 │                       │      ├ PublishedDate   : 2024-01-16T12:15:45.557Z 
-│                       │      ╰ LastModifiedDate: 2024-02-13T09:15:47.017Z 
+│                       │      ╰ LastModifiedDate: 2024-02-26T16:27:51.353Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2024-0567 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:0533 
 │                       │      ├ PkgID           : gnutls@3.7.6-23.el9.x86_64 
@@ -1263,7 +1265,7 @@
 │                       │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/libxml2@2.9.13-5.el9_3?arch=x86_6
 │                       │      │                          4&distro=redhat-9.3 
 │                       │      ├ InstalledVersion: 2.9.13-5.el9_3 
-│                       │      ├ Status          : under_investigation 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:f7d7ae84a0ac4c196d0a717d8cd9bdd5ce2579c
 │                       │      │                  │         7605a73936d5fec1689f79e7e 
 │                       │      │                  ╰ DiffID: sha256:a17ca4f3d12814232cc6c148c722c0dbf4de785
@@ -1285,16 +1287,17 @@
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 5.9 
+│                       │      │                           ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-25062 
 │                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2024-25062 
 │                       │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/604 
 │                       │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/libxml2/-/tags 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-25062 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-25062 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6658-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-25062 
 │                       │      ├ PublishedDate   : 2024-02-04T16:15:45.12Z 
 │                       │      ╰ LastModifiedDate: 2024-02-13T00:40:40.503Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2023-45322 
@@ -2857,8 +2860,8 @@
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           N/I:N/A:L 
-│                       │      │                           ╰ V3Score : 3.3 
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 5.5 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-0727 
 │                       │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2024-0727 
@@ -3532,8 +3535,8 @@
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           N/I:N/A:L 
-│                       │      │                           ╰ V3Score : 3.3 
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 5.5 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-0727 
 │                       │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2024-0727 
@@ -3621,7 +3624,7 @@
 │                       │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/pcre2@10.40-2.el9?arch=x86_64&dis
 │                       │      │                          tro=redhat-9.3 
 │                       │      ├ InstalledVersion: 10.40-2.el9 
-│                       │      ├ Status          : under_investigation 
+│                       │      ├ Status          : will_not_fix 
 │                       │      ├ Layer            ╭ Digest: sha256:f7d7ae84a0ac4c196d0a717d8cd9bdd5ce2579c
 │                       │      │                  │         7605a73936d5fec1689f79e7e 
 │                       │      │                  ╰ DiffID: sha256:a17ca4f3d12814232cc6c148c722c0dbf4de785
@@ -3661,7 +3664,7 @@
 │                       │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-2.el9?arch=noa
 │                       │      │                          rch&distro=redhat-9.3 
 │                       │      ├ InstalledVersion: 10.40-2.el9 
-│                       │      ├ Status          : under_investigation 
+│                       │      ├ Status          : will_not_fix 
 │                       │      ├ Layer            ╭ Digest: sha256:f7d7ae84a0ac4c196d0a717d8cd9bdd5ce2579c
 │                       │      │                  │         7605a73936d5fec1689f79e7e 
 │                       │      │                  ╰ DiffID: sha256:a17ca4f3d12814232cc6c148c722c0dbf4de785
