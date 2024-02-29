@@ -621,7 +621,7 @@
     - CWE-125
     VendorSeverity:
       amazon: 1
-      cbl-mariner: 2
+      cbl-mariner: 3
       nvd: 3
       photon: 3
       redhat: 1
@@ -911,6 +911,90 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-0567
     PublishedDate: '2024-01-16T14:15:48.527Z'
     LastModifiedDate: '2024-02-09T03:15:09.447Z'
+  - VulnerabilityID: CVE-2024-26458
+    PkgID: krb5-libs@1.21.1-1.el9.x86_64
+    PkgName: krb5-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 1.21.1-1.el9
+    Status: under_investigation
+    Layer:
+      Digest: sha256:f7d7ae84a0ac4c196d0a717d8cd9bdd5ce2579c7605a73936d5fec1689f79e7e
+      DiffID: sha256:a17ca4f3d12814232cc6c148c722c0dbf4de78559a788655eb9a4fd20cf52eb7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
+    Title: 'krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c'
+    Description: A memory leak flaw was found in krb5 in /krb5/src/lib/rpc/pmap_rmt.c. This issue can lead to a denial of service through memory exhaustion.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-26458
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
+    - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
+    - https://www.cve.org/CVERecord?id=CVE-2024-26458
+  - VulnerabilityID: CVE-2024-26461
+    PkgID: krb5-libs@1.21.1-1.el9.x86_64
+    PkgName: krb5-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 1.21.1-1.el9
+    Status: under_investigation
+    Layer:
+      Digest: sha256:f7d7ae84a0ac4c196d0a717d8cd9bdd5ce2579c7605a73936d5fec1689f79e7e
+      DiffID: sha256:a17ca4f3d12814232cc6c148c722c0dbf4de78559a788655eb9a4fd20cf52eb7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
+    Title: 'krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c'
+    Description: A memory leak flaw was found in krb5 in /krb5/src/lib/gssapi/krb5/k5sealv3.c. This issue can lead to a denial of service through memory exhaustion.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-26461
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
+    - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
+    - https://www.cve.org/CVERecord?id=CVE-2024-26461
+  - VulnerabilityID: CVE-2024-26462
+    PkgID: krb5-libs@1.21.1-1.el9.x86_64
+    PkgName: krb5-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 1.21.1-1.el9
+    Status: under_investigation
+    Layer:
+      Digest: sha256:f7d7ae84a0ac4c196d0a717d8cd9bdd5ce2579c7605a73936d5fec1689f79e7e
+      DiffID: sha256:a17ca4f3d12814232cc6c148c722c0dbf4de78559a788655eb9a4fd20cf52eb7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
+    Title: 'krb5: Memory leak at /krb5/src/kdc/ndr.c'
+    Description: A memory leak flaw was found in krb5 in /krb5/src/kdc/ndr.c. This issue can lead to a denial of service through memory exhaustion.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-26462
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26462
+    - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
+    - https://www.cve.org/CVERecord?id=CVE-2024-26462
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1186,6 +1270,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      alma: 2
       amazon: 2
       ghsa: 3
       nvd: 3
@@ -1204,8 +1289,85 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
+    - https://bugzilla.redhat.com/2179864
+    - https://bugzilla.redhat.com/2188109
+    - https://bugzilla.redhat.com/2188113
+    - https://bugzilla.redhat.com/2188115
+    - https://bugzilla.redhat.com/2188116
+    - https://bugzilla.redhat.com/2188117
+    - https://bugzilla.redhat.com/2188118
+    - https://bugzilla.redhat.com/2188119
+    - https://bugzilla.redhat.com/2188120
+    - https://bugzilla.redhat.com/2188121
+    - https://bugzilla.redhat.com/2188122
+    - https://bugzilla.redhat.com/2188123
+    - https://bugzilla.redhat.com/2188124
+    - https://bugzilla.redhat.com/2188125
+    - https://bugzilla.redhat.com/2188127
+    - https://bugzilla.redhat.com/2188128
+    - https://bugzilla.redhat.com/2188129
+    - https://bugzilla.redhat.com/2188130
+    - https://bugzilla.redhat.com/2188131
+    - https://bugzilla.redhat.com/2188132
+    - https://bugzilla.redhat.com/2224211
+    - https://bugzilla.redhat.com/2224212
+    - https://bugzilla.redhat.com/2224213
+    - https://bugzilla.redhat.com/2224214
+    - https://bugzilla.redhat.com/2224215
+    - https://bugzilla.redhat.com/2224216
+    - https://bugzilla.redhat.com/2224217
+    - https://bugzilla.redhat.com/2224218
+    - https://bugzilla.redhat.com/2224219
+    - https://bugzilla.redhat.com/2224220
+    - https://bugzilla.redhat.com/2224221
+    - https://bugzilla.redhat.com/2224222
+    - https://bugzilla.redhat.com/2245014
+    - https://bugzilla.redhat.com/2245015
+    - https://bugzilla.redhat.com/2245016
+    - https://bugzilla.redhat.com/2245017
+    - https://bugzilla.redhat.com/2245018
+    - https://bugzilla.redhat.com/2245019
+    - https://bugzilla.redhat.com/2245020
+    - https://bugzilla.redhat.com/2245021
+    - https://bugzilla.redhat.com/2245022
+    - https://bugzilla.redhat.com/2245023
+    - https://bugzilla.redhat.com/2245024
+    - https://bugzilla.redhat.com/2245026
+    - https://bugzilla.redhat.com/2245027
+    - https://bugzilla.redhat.com/2245028
+    - https://bugzilla.redhat.com/2245029
+    - https://bugzilla.redhat.com/2245030
+    - https://bugzilla.redhat.com/2245031
+    - https://bugzilla.redhat.com/2245032
+    - https://bugzilla.redhat.com/2245033
+    - https://bugzilla.redhat.com/2245034
+    - https://bugzilla.redhat.com/2258771
+    - https://bugzilla.redhat.com/2258772
+    - https://bugzilla.redhat.com/2258773
+    - https://bugzilla.redhat.com/2258774
+    - https://bugzilla.redhat.com/2258775
+    - https://bugzilla.redhat.com/2258776
+    - https://bugzilla.redhat.com/2258777
+    - https://bugzilla.redhat.com/2258778
+    - https://bugzilla.redhat.com/2258779
+    - https://bugzilla.redhat.com/2258780
+    - https://bugzilla.redhat.com/2258781
+    - https://bugzilla.redhat.com/2258782
+    - https://bugzilla.redhat.com/2258783
+    - https://bugzilla.redhat.com/2258784
+    - https://bugzilla.redhat.com/2258785
+    - https://bugzilla.redhat.com/2258787
+    - https://bugzilla.redhat.com/2258788
+    - https://bugzilla.redhat.com/2258789
+    - https://bugzilla.redhat.com/2258790
+    - https://bugzilla.redhat.com/2258791
+    - https://bugzilla.redhat.com/2258792
+    - https://bugzilla.redhat.com/2258793
+    - https://bugzilla.redhat.com/2258794
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4899
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -1280,7 +1442,7 @@
     PkgIdentifier:
       PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?arch=noarch&distro=redhat-9.3
     InstalledVersion: 6.2-10.20210508.el9
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:f7d7ae84a0ac4c196d0a717d8cd9bdd5ce2579c7605a73936d5fec1689f79e7e
       DiffID: sha256:a17ca4f3d12814232cc6c148c722c0dbf4de78559a788655eb9a4fd20cf52eb7
@@ -1367,7 +1529,7 @@
     PkgIdentifier:
       PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?arch=x86_64&distro=redhat-9.3
     InstalledVersion: 6.2-10.20210508.el9
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:f7d7ae84a0ac4c196d0a717d8cd9bdd5ce2579c7605a73936d5fec1689f79e7e
       DiffID: sha256:a17ca4f3d12814232cc6c148c722c0dbf4de78559a788655eb9a4fd20cf52eb7
@@ -1440,6 +1602,7 @@
     - https://bugzilla.redhat.com/2249906
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
     - https://errata.almalinux.org/9/ALSA-2024-0790.html
+    - https://firefox-source-docs.mozilla.org/security/nss/releases/nss_3_95.html
     - https://linux.oracle.com/cve/CVE-2023-6135.html
     - https://linux.oracle.com/errata/ELSA-2024-0790.html
     - https://minerva.crocs.fi.muni.cz/
@@ -1529,6 +1692,7 @@
     - https://bugzilla.redhat.com/2249906
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
     - https://errata.almalinux.org/9/ALSA-2024-0790.html
+    - https://firefox-source-docs.mozilla.org/security/nss/releases/nss_3_95.html
     - https://linux.oracle.com/cve/CVE-2023-6135.html
     - https://linux.oracle.com/errata/ELSA-2024-0790.html
     - https://minerva.crocs.fi.muni.cz/
@@ -1618,6 +1782,7 @@
     - https://bugzilla.redhat.com/2249906
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
     - https://errata.almalinux.org/9/ALSA-2024-0790.html
+    - https://firefox-source-docs.mozilla.org/security/nss/releases/nss_3_95.html
     - https://linux.oracle.com/cve/CVE-2023-6135.html
     - https://linux.oracle.com/errata/ELSA-2024-0790.html
     - https://minerva.crocs.fi.muni.cz/
@@ -1707,6 +1872,7 @@
     - https://bugzilla.redhat.com/2249906
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
     - https://errata.almalinux.org/9/ALSA-2024-0790.html
+    - https://firefox-source-docs.mozilla.org/security/nss/releases/nss_3_95.html
     - https://linux.oracle.com/cve/CVE-2023-6135.html
     - https://linux.oracle.com/errata/ELSA-2024-0790.html
     - https://minerva.crocs.fi.muni.cz/
@@ -1796,6 +1962,7 @@
     - https://bugzilla.redhat.com/2249906
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
     - https://errata.almalinux.org/9/ALSA-2024-0790.html
+    - https://firefox-source-docs.mozilla.org/security/nss/releases/nss_3_95.html
     - https://linux.oracle.com/cve/CVE-2023-6135.html
     - https://linux.oracle.com/errata/ELSA-2024-0790.html
     - https://minerva.crocs.fi.muni.cz/
@@ -1885,6 +2052,7 @@
     - https://bugzilla.redhat.com/2249906
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
     - https://errata.almalinux.org/9/ALSA-2024-0790.html
+    - https://firefox-source-docs.mozilla.org/security/nss/releases/nss_3_95.html
     - https://linux.oracle.com/cve/CVE-2023-6135.html
     - https://linux.oracle.com/errata/ELSA-2024-0790.html
     - https://minerva.crocs.fi.muni.cz/
@@ -2458,6 +2626,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       ghsa: 2
       nvd: 2
       photon: 2
@@ -2968,6 +3137,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       ghsa: 2
       nvd: 2
       photon: 2
@@ -3820,7 +3990,7 @@
     - CWE-116
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -3877,7 +4047,7 @@
     - CWE-116
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
