@@ -1062,22 +1062,23 @@
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26458 
 │                       │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
-│                       │      ├ Description     : A memory leak flaw was found in krb5 in
-│                       │      │                   /krb5/src/lib/rpc/pmap_rmt.c. This issue can lead to a
-│                       │      │                   denial of service through memory exhaustion. 
+│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
+│                       │      │                   /krb5/src/lib/rpc/pmap_rmt.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2024-26458 
-│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                         │      lob/main/krb5_detect_1.md 
-│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
+│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2024-26458 
+│                       │      │                  ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │      │                  │      lob/main/krb5_detect_1.md 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                       │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
+│                       │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : krb5-libs@1.21.1-1.el9.x86_64 
 │                       │      ├ PkgName         : krb5-libs 
@@ -1092,22 +1093,24 @@
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26461 
 │                       │      ├ Title           : krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c 
-│                       │      ├ Description     : A memory leak flaw was found in krb5 in
-│                       │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. This issue can lead to
-│                       │      │                    a denial of service through memory exhaustion. 
+│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
+│                       │      │                   vulnerability in
+│                       │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2024-26461 
-│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                         │      lob/main/krb5_detect_2.md 
-│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
+│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2024-26461 
+│                       │      │                  ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │      │                  │      lob/main/krb5_detect_2.md 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
+│                       │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : krb5-libs@1.21.1-1.el9.x86_64 
 │                       │      ├ PkgName         : krb5-libs 
@@ -1122,22 +1125,23 @@
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26462 
 │                       │      ├ Title           : krb5: Memory leak at /krb5/src/kdc/ndr.c 
-│                       │      ├ Description     : A memory leak flaw was found in krb5 in
-│                       │      │                   /krb5/src/kdc/ndr.c. This issue can lead to a denial of
-│                       │      │                   service through memory exhaustion. 
+│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
+│                       │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2024-26462 
-│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                         │      lob/main/krb5_detect_3.md 
-│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
-│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
+│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2024-26462 
+│                       │      │                  ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │      │                  │      lob/main/krb5_detect_3.md 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+│                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
+│                       │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │      ├ PkgName         : libarchive 
