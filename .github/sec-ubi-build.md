@@ -586,12 +586,14 @@
                         │      ├ PublishedDate   : 2021-05-05T10:15:08.133Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:31:27.377Z 
                         ├ [9]  ╭ VulnerabilityID : CVE-2023-46218 
+                        │      ├ VendorIDs        ─ [0]: RHSA-2024:1129 
                         │      ├ PkgID           : curl-minimal@7.76.1-26.el9_3.2.x86_64 
                         │      ├ PkgName         : curl-minimal 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/curl-minimal@7.76.1-26.el9_3.2?ar
                         │      │                          ch=x86_64&distro=redhat-9.3 
                         │      ├ InstalledVersion: 7.76.1-26.el9_3.2 
-                        │      ├ Status          : affected 
+                        │      ├ FixedVersion    : 7.76.1-26.el9_3.3 
+                        │      ├ Status          : fixed 
                         │      ├ Layer            ╭ Digest: sha256:618a12cda2192c7ea079d856c09223e1a115636
                         │      │                  │         4b5a89f38d8882f9dc45b7170 
                         │      │                  ╰ DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed90
@@ -972,12 +974,14 @@
                         │      ├ PublishedDate   : 2023-05-29T20:15:09.513Z 
                         │      ╰ LastModifiedDate: 2023-06-05T16:40:57.93Z 
                         ├ [18] ╭ VulnerabilityID : CVE-2023-46218 
+                        │      ├ VendorIDs        ─ [0]: RHSA-2024:1129 
                         │      ├ PkgID           : libcurl-minimal@7.76.1-26.el9_3.2.x86_64 
                         │      ├ PkgName         : libcurl-minimal 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-26.el9_3.2
                         │      │                          ?arch=x86_64&distro=redhat-9.3 
                         │      ├ InstalledVersion: 7.76.1-26.el9_3.2 
-                        │      ├ Status          : affected 
+                        │      ├ FixedVersion    : 7.76.1-26.el9_3.3 
+                        │      ├ Status          : fixed 
                         │      ├ Layer            ╭ Digest: sha256:618a12cda2192c7ea079d856c09223e1a115636
                         │      │                  │         4b5a89f38d8882f9dc45b7170 
                         │      │                  ╰ DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed90
