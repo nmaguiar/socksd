@@ -2,6 +2,33 @@
   Class: os-pkgs
   Type: redhat
   Vulnerabilities:
+  - VulnerabilityID: CVE-2021-36217
+    PkgID: avahi-libs@0.8-15.el9.x86_64
+    PkgName: avahi-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/avahi-libs@0.8-15.el9?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 0.8-15.el9
+    Status: under_investigation
+    Layer:
+      Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
+      DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-36217
+    Title: 'avahi: local DoS against avahi-daemon via D-Bus interface'
+    Description: 'Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2021-3502. Reason: This candidate is a duplicate of CVE-2021-3502. Notes: All CVE users should reference CVE-2021-3502 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2021-36217
+    - https://nvd.nist.gov/vuln/detail/CVE-2021-36217
+    - https://www.cve.org/CVERecord?id=CVE-2021-36217
+    PublishedDate: '2021-07-07T18:15:12.85Z'
+    LastModifiedDate: '2023-11-07T03:36:44.057Z'
   - VulnerabilityID: CVE-2023-38469
     PkgID: avahi-libs@0.8-15.el9.x86_64
     PkgName: avahi-libs
@@ -958,6 +985,36 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2023-11-07T03:45:32.64Z'
+  - VulnerabilityID: CVE-2024-2236
+    PkgID: libgcrypt@1.10.0-10.el9_2.x86_64
+    PkgName: libgcrypt
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libgcrypt@1.10.0-10.el9_2?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 1.10.0-10.el9_2
+    Status: under_investigation
+    Layer:
+      Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
+      DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
+    Title: 'libgcrypt: timing based side-channel in RSA implementation'
+    Description: A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-style attack, which can lead to the decryption of RSA ciphertexts.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-208
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-2236
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2268268
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
+    - https://www.cve.org/CVERecord?id=CVE-2024-2236
+    PublishedDate: '2024-03-06T22:15:57.977Z'
+    LastModifiedDate: '2024-03-06T22:15:57.977Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++@11.4.1-2.1.el9.x86_64
     PkgName: libstdc++
@@ -3434,6 +3491,36 @@
     - https://www.oracle.com/security-alerts/cpujul2022.html
     PublishedDate: '2021-11-10T18:15:09.51Z'
     LastModifiedDate: '2022-10-05T02:14:39.75Z'
+  - VulnerabilityID: CVE-2023-36191
+    PkgID: sqlite-libs@3.34.1-7.el9_3.x86_64
+    PkgName: sqlite-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 3.34.1-7.el9_3
+    Status: will_not_fix
+    Layer:
+      Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
+      DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36191
+    Title: 'sqlite: CLI fault on missing -nonce'
+    Description: 'Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.'
+    Severity: LOW
+    VendorSeverity:
+      amazon: 2
+      photon: 2
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-36191
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-36191
+    - https://www.cve.org/CVERecord?id=CVE-2023-36191
+    - https://www.sqlite.org/forum/forumpost/19f55ef73b
+    PublishedDate: '2023-06-23T02:15:09.597Z'
+    LastModifiedDate: '2023-11-07T04:16:25.153Z'
   - VulnerabilityID: CVE-2024-0232
     PkgID: sqlite-libs@3.34.1-7.el9_3.x86_64
     PkgName: sqlite-libs
