@@ -649,9 +649,11 @@
                         │      │                    a PSL domain.
                         │      │                    
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
+                        │      │                  ├ oracle-oval: 2 
                         │      │                  ├ redhat     : 2 
                         │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
@@ -660,26 +662,31 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-46218 
-                        │      │                  ├ [1] : https://curl.se/docs/CVE-2023-46218.html 
-                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1129 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-46218 
+                        │      │                  ├ [2] : https://bugzilla.redhat.com/2252030 
+                        │      │                  ├ [3] : https://curl.se/docs/CVE-2023-46218.html 
+                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-46218 
-                        │      │                  ├ [3] : https://hackerone.com/reports/2212193 
-                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-1129.html 
+                        │      │                  ├ [6] : https://hackerone.com/reports/2212193 
+                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-46218.html 
+                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1129.html 
+                        │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       3/12/msg00015.html 
-                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/3ZX3VW
                         │      │                  │       67N4ACRAPMV2QS2LVYGD7H2MVE/ 
-                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/UOGXU2
                         │      │                  │       5FMMT2X6UUITQ7EZZYMJ42YWWD/ 
-                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-                        │      │                  ├ [8] : https://security.netapp.com/advisory/ntap-202401
+                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+                        │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-202401
                         │      │                  │       25-0007/ 
-                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6535-1 
-                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6641-1 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
-                        │      │                  ╰ [12]: https://www.debian.org/security/2023/dsa-5587 
+                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6535-1 
+                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6641-1 
+                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+                        │      │                  ╰ [17]: https://www.debian.org/security/2023/dsa-5587 
                         │      ├ PublishedDate   : 2023-12-07T01:15:07.16Z 
                         │      ╰ LastModifiedDate: 2024-01-25T14:15:26.117Z 
                         ├ [11] ╭ VulnerabilityID : CVE-2022-48554 
@@ -712,18 +719,22 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-48554 
-                        │      │                  ├ [1]: https://bugs.astron.com/view.php?id=310 
-                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2022-48554 
-                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2022-48554 
-                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2023111
-                        │      │                  │      6-0002/ 
-                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6359-1 
-                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2022-48554 
-                        │      │                  ╰ [7]: https://www.debian.org/security/2023/dsa-5489 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-48554 
+                        │      │                  ├ [1] : https://bugs.astron.com/view.php?id=310 
+                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2022-48554 
+                        │      │                  ├ [3] : https://nvd.nist.gov/vuln/detail/CVE-2022-48554 
+                        │      │                  ├ [4] : https://security.netapp.com/advisory/ntap-202311
+                        │      │                  │       16-0002/ 
+                        │      │                  ├ [5] : https://support.apple.com/kb/HT214081 
+                        │      │                  ├ [6] : https://support.apple.com/kb/HT214084 
+                        │      │                  ├ [7] : https://support.apple.com/kb/HT214086 
+                        │      │                  ├ [8] : https://support.apple.com/kb/HT214088 
+                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6359-1 
+                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2022-48554 
+                        │      │                  ╰ [11]: https://www.debian.org/security/2023/dsa-5489 
                         │      ├ PublishedDate   : 2023-08-22T19:16:31.757Z 
-                        │      ╰ LastModifiedDate: 2024-03-04T22:57:50.017Z 
+                        │      ╰ LastModifiedDate: 2024-03-07T19:15:09.993Z 
                         ├ [12] ╭ VulnerabilityID : CVE-2023-4156 
                         │      ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
                         │      ├ PkgName         : gawk 
@@ -1037,9 +1048,11 @@
                         │      │                    a PSL domain.
                         │      │                    
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
+                        │      │                  ├ oracle-oval: 2 
                         │      │                  ├ redhat     : 2 
                         │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
@@ -1048,26 +1061,31 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-46218 
-                        │      │                  ├ [1] : https://curl.se/docs/CVE-2023-46218.html 
-                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1129 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-46218 
+                        │      │                  ├ [2] : https://bugzilla.redhat.com/2252030 
+                        │      │                  ├ [3] : https://curl.se/docs/CVE-2023-46218.html 
+                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-46218 
-                        │      │                  ├ [3] : https://hackerone.com/reports/2212193 
-                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-1129.html 
+                        │      │                  ├ [6] : https://hackerone.com/reports/2212193 
+                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-46218.html 
+                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1129.html 
+                        │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       3/12/msg00015.html 
-                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/3ZX3VW
                         │      │                  │       67N4ACRAPMV2QS2LVYGD7H2MVE/ 
-                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/UOGXU2
                         │      │                  │       5FMMT2X6UUITQ7EZZYMJ42YWWD/ 
-                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-                        │      │                  ├ [8] : https://security.netapp.com/advisory/ntap-202401
+                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+                        │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-202401
                         │      │                  │       25-0007/ 
-                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6535-1 
-                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6641-1 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
-                        │      │                  ╰ [12]: https://www.debian.org/security/2023/dsa-5587 
+                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6535-1 
+                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6641-1 
+                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+                        │      │                  ╰ [17]: https://www.debian.org/security/2023/dsa-5587 
                         │      ├ PublishedDate   : 2023-12-07T01:15:07.16Z 
                         │      ╰ LastModifiedDate: 2024-01-25T14:15:26.117Z 
                         ├ [20] ╭ VulnerabilityID : CVE-2022-27943 
@@ -1152,7 +1170,7 @@
                         │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
                         │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
                         │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
-                        │      ╰ LastModifiedDate: 2024-03-06T22:15:57.977Z 
+                        │      ╰ LastModifiedDate: 2024-03-07T13:52:27.11Z 
                         ├ [22] ╭ VulnerabilityID : CVE-2022-27943 
                         │      ├ PkgID           : libstdc++@11.4.1-2.1.el9.x86_64 
                         │      ├ PkgName         : libstdc++ 
@@ -1324,7 +1342,7 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 7.5 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0894 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1141 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-4899 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2179864 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2188109 
@@ -1403,7 +1421,7 @@
                         │      │                  ├ [76]: https://bugzilla.redhat.com/2258794 
                         │      │                  ├ [77]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2022-4899 
-                        │      │                  ├ [78]: https://errata.almalinux.org/8/ALSA-2024-0894.html 
+                        │      │                  ├ [78]: https://errata.almalinux.org/9/ALSA-2024-1141.html 
                         │      │                  ├ [79]: https://github.com/facebook/zstd 
                         │      │                  ├ [80]: https://github.com/facebook/zstd/issues/3200 
                         │      │                  ├ [81]: https://github.com/facebook/zstd/pull/3220 
@@ -1413,7 +1431,7 @@
                         │      │                  │       td/commit/c8a619aebdbd6b838fbfef6e19325a70f631a4c6
                         │      │                  │        
                         │      │                  ├ [84]: https://linux.oracle.com/cve/CVE-2022-4899.html 
-                        │      │                  ├ [85]: https://linux.oracle.com/errata/ELSA-2024-0894.html 
+                        │      │                  ├ [85]: https://linux.oracle.com/errata/ELSA-2024-1141.html 
                         │      │                  ├ [86]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce%40lists.fedoraproject.org/message/C63H
                         │      │                  │       AGVLQA6FJNDCHR7CNZZL6VSLILB2/ 
@@ -1534,7 +1552,8 @@
                         │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
                         │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2024011
                         │      │                  │      9-0008/ 
-                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6684-1 
+                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
                         │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
                         │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
                         ├ [28] ╭ VulnerabilityID : CVE-2022-29458 
@@ -1631,7 +1650,8 @@
                         │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
                         │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2024011
                         │      │                  │      9-0008/ 
-                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6684-1 
+                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
                         │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
                         │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
                         ├ [30] ╭ VulnerabilityID : CVE-2020-12413 
