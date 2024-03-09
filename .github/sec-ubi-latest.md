@@ -1146,14 +1146,14 @@
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/libgcrypt@1.10.0-10.el9_2?arch=x8
                         │      │                          6_64&distro=redhat-9.3 
                         │      ├ InstalledVersion: 1.10.0-10.el9_2 
-                        │      ├ Status          : under_investigation 
+                        │      ├ Status          : affected 
                         │      ├ Layer            ╭ Digest: sha256:618a12cda2192c7ea079d856c09223e1a115636
                         │      │                  │         4b5a89f38d8882f9dc45b7170 
                         │      │                  ╰ DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed90
                         │      │                            0a6260132e786605605725b3f 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-2236 
-                        │      ├ Title           : libgcrypt: timing based side-channel in RSA implementation 
+                        │      ├ Title           : libgcrypt: vulnerable to Marvin Attack 
                         │      ├ Description     : A timing-based side-channel flaw was found in
                         │      │                   libgcrypt's RSA implementation. This issue may allow a
                         │      │                   remote attacker to initiate a Bleichenbacher-style attack,
