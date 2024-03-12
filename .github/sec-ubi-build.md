@@ -707,17 +707,20 @@
                         │      │                   attack when there is isolated use of external parsers
                         │      │                   (created via XML_ExternalEntityParserCreate). 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 7.5 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28757 
-                        │      │                  ├ [1]: https://github.com/libexpat/libexpat/issues/839 
-                        │      │                  ├ [2]: https://github.com/libexpat/libexpat/pull/842 
-                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-28757 
-                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-28757 
+                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2024-28757 
+                        │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/839 
+                        │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/842 
+                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-28757 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-28757 
                         │      ├ PublishedDate   : 2024-03-10T05:15:06.57Z 
-                        │      ╰ LastModifiedDate: 2024-03-10T05:15:06.57Z 
+                        │      ╰ LastModifiedDate: 2024-03-11T01:32:29.61Z 
                         ├ [12] ╭ VulnerabilityID : CVE-2022-48554 
                         │      ├ PkgID           : file-libs@5.39-14.el9.x86_64 
                         │      ├ PkgName         : file-libs 
@@ -1290,7 +1293,8 @@
                         │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/libxml2/-/tags 
                         │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-25062 
                         │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6658-1 
-                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-25062 
+                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6658-2 
+                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-25062 
                         │      ├ PublishedDate   : 2024-02-04T16:15:45.12Z 
                         │      ╰ LastModifiedDate: 2024-02-13T00:40:40.503Z 
                         ├ [25] ╭ VulnerabilityID : CVE-2023-45322 
@@ -1356,6 +1360,7 @@
                         │      ├ CweIDs           ─ [0]: CWE-400 
                         │      ├ VendorSeverity   ╭ alma       : 2 
                         │      │                  ├ amazon     : 2 
+                        │      │                  ├ cbl-mariner: 3 
                         │      │                  ├ ghsa       : 3 
                         │      │                  ├ nvd        : 3 
                         │      │                  ├ oracle-oval: 2 
