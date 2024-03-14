@@ -695,14 +695,14 @@
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/expat@2.5.0-1.el9?arch=x86_64&dis
                         │      │                          tro=redhat-9.3 
                         │      ├ InstalledVersion: 2.5.0-1.el9 
-                        │      ├ Status          : under_investigation 
+                        │      ├ Status          : affected 
                         │      ├ Layer            ╭ Digest: sha256:618a12cda2192c7ea079d856c09223e1a115636
                         │      │                  │         4b5a89f38d8882f9dc45b7170 
                         │      │                  ╰ DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed90
                         │      │                            0a6260132e786605605725b3f 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-28757 
-                        │      ├ Title           : libexpat: XML Entity Expansion 
+                        │      ├ Title           : expat: XML Entity Expansion 
                         │      ├ Description     : libexpat through 2.6.1 allows an XML Entity Expansion
                         │      │                   attack when there is isolated use of external parsers
                         │      │                   (created via XML_ExternalEntityParserCreate). 
@@ -751,22 +751,25 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.5 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-48554 
-                        │      │                  ├ [1] : https://bugs.astron.com/view.php?id=310 
-                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2024/Mar/21 
+                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2024/Mar/24 
+                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2024/Mar/25 
+                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2022-48554 
+                        │      │                  ├ [4] : https://bugs.astron.com/view.php?id=310 
+                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2022-48554 
-                        │      │                  ├ [3] : https://nvd.nist.gov/vuln/detail/CVE-2022-48554 
-                        │      │                  ├ [4] : https://security.netapp.com/advisory/ntap-202311
+                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2022-48554 
+                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202311
                         │      │                  │       16-0002/ 
-                        │      │                  ├ [5] : https://support.apple.com/kb/HT214081 
-                        │      │                  ├ [6] : https://support.apple.com/kb/HT214084 
-                        │      │                  ├ [7] : https://support.apple.com/kb/HT214086 
-                        │      │                  ├ [8] : https://support.apple.com/kb/HT214088 
-                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6359-1 
-                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2022-48554 
-                        │      │                  ╰ [11]: https://www.debian.org/security/2023/dsa-5489 
+                        │      │                  ├ [8] : https://support.apple.com/kb/HT214081 
+                        │      │                  ├ [9] : https://support.apple.com/kb/HT214084 
+                        │      │                  ├ [10]: https://support.apple.com/kb/HT214086 
+                        │      │                  ├ [11]: https://support.apple.com/kb/HT214088 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6359-1 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2022-48554 
+                        │      │                  ╰ [14]: https://www.debian.org/security/2023/dsa-5489 
                         │      ├ PublishedDate   : 2023-08-22T19:16:31.757Z 
-                        │      ╰ LastModifiedDate: 2024-03-07T19:15:09.993Z 
+                        │      ╰ LastModifiedDate: 2024-03-13T22:15:07.93Z 
                         ├ [13] ╭ VulnerabilityID : CVE-2023-4156 
                         │      ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
                         │      ├ PkgName         : gawk 
@@ -1193,14 +1196,21 @@
                         │      │                   m 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-208 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.9 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-2236 
                         │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2268268 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
-                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
+                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2024-2236 
+                        │      │                  ├ [3]: https://github.com/tomato42/marvin-toolkit/tree/m
+                        │      │                  │      aster/example/libgcrypt 
+                        │      │                  ├ [4]: https://lists.gnupg.org/pipermail/gcrypt-devel/20
+                        │      │                  │      24-March/005607.html 
+                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
+                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
                         │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
                         │      ╰ LastModifiedDate: 2024-03-07T13:52:27.11Z 
                         ├ [23] ╭ VulnerabilityID : CVE-2022-27943 
@@ -2595,7 +2605,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
@@ -3271,7 +3281,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
