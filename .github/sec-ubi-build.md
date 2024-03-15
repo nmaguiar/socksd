@@ -718,7 +718,8 @@
                         │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/839 
                         │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/842 
                         │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-28757 
-                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-28757 
+                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6694-1 
+                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-28757 
                         │      ├ PublishedDate   : 2024-03-10T05:15:06.57Z 
                         │      ╰ LastModifiedDate: 2024-03-11T01:32:29.61Z 
                         ├ [12] ╭ VulnerabilityID : CVE-2022-48554 
@@ -2605,7 +2606,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
@@ -3281,7 +3282,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
