@@ -4467,9 +4467,11 @@
                         │      │                  │      kage-announce@lists.fedoraproject.org/message/QDCMYQ3J
                         │      │                  │      45NHQ4EJREM3BJNNKB5BK4Y7/ 
                         │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-0232 
-                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
+                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2024031
+                        │      │                  │      5-0007/ 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
                         │      ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
-                        │      ╰ LastModifiedDate: 2024-02-23T02:15:44.76Z 
+                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.56Z 
                         ├ [67] ╭ VulnerabilityID : CVE-2021-3997 
                         │      ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │      ├ PkgName         : systemd-libs 
