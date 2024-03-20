@@ -717,11 +717,17 @@
                         │      │                  │      E-2024-28757 
                         │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/839 
                         │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/842 
-                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-28757 
-                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6694-1 
-                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-28757 
+                        │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
+                        │      │                  │      kage-announce%40lists.fedoraproject.org/message/FPLC6W
+                        │      │                  │      DSRDUYS7F7JWAOVOHFNOUQ43DD/ 
+                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+                        │      │                  │      kage-announce%40lists.fedoraproject.org/message/LKJ7V5
+                        │      │                  │      F6LJCEQJXDBWGT27J7NAP3E3N7/ 
+                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-28757 
+                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6694-1 
+                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28757 
                         │      ├ PublishedDate   : 2024-03-10T05:15:06.57Z 
-                        │      ╰ LastModifiedDate: 2024-03-11T01:32:29.61Z 
+                        │      ╰ LastModifiedDate: 2024-03-19T03:15:06.893Z 
                         ├ [12] ╭ VulnerabilityID : CVE-2022-48554 
                         │      ├ PkgID           : file-libs@5.39-14.el9.x86_64 
                         │      ├ PkgName         : file-libs 
