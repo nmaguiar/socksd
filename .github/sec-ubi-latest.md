@@ -467,11 +467,11 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:N 
                         │      │                           ╰ V3Score : 9.1 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0133 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7753 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-37920 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2226586 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2242493 
-                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-0133.html 
+                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-7753.html 
                         │      │                  ├ [5] : https://github.com/certifi/python-certifi 
                         │      │                  ├ [6] : https://github.com/certifi/python-certifi/commit
                         │      │                  │       /8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909 
@@ -724,10 +724,12 @@
                         │      │                  │      kage-announce%40lists.fedoraproject.org/message/LKJ7V5
                         │      │                  │      F6LJCEQJXDBWGT27J7NAP3E3N7/ 
                         │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-28757 
-                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6694-1 
-                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28757 
+                        │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2024032
+                        │      │                  │      2-0001/ 
+                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6694-1 
+                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-28757 
                         │      ├ PublishedDate   : 2024-03-10T05:15:06.57Z 
-                        │      ╰ LastModifiedDate: 2024-03-19T03:15:06.893Z 
+                        │      ╰ LastModifiedDate: 2024-03-22T19:15:08.663Z 
                         ├ [12] ╭ VulnerabilityID : CVE-2022-48554 
                         │      ├ PkgID           : file-libs@5.39-14.el9.x86_64 
                         │      ├ PkgName         : file-libs 
@@ -943,17 +945,23 @@
                         │      │                    a potential timing side-channel. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-200 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.3 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28834 
                         │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
-                        │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/202
+                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2024-28834 
+                        │      │                  ├ [3]: https://gitlab.com/gnutls/gnutls/-/issues/1516 
+                        │      │                  ├ [4]: https://lists.gnupg.org/pipermail/gnutls-help/202
                         │      │                  │      4-March/004845.html 
-                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
-                        │      │                  ├ [4]: https://people.redhat.com/~hkario/marvin/ 
-                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
+                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
+                        │      │                  ├ [6]: https://people.redhat.com/~hkario/marvin/ 
+                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
+                        │      │                  ╰ [8]: https://www.gnutls.org/security-new.html#GNUTLS-S
+                        │      │                         A-2023-12-04 
                         │      ├ PublishedDate   : 2024-03-21T14:15:07.547Z 
                         │      ╰ LastModifiedDate: 2024-03-21T15:24:35.093Z 
                         ├ [17] ╭ VulnerabilityID : CVE-2024-28835 
@@ -976,16 +984,23 @@
                         │      │                   --verify-chain" command. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-248 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28835 
                         │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2269084 
-                        │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/202
+                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2024-28835 
+                        │      │                  ├ [3]: https://gitlab.com/gnutls/gnutls/-/issues/1525 
+                        │      │                  ├ [4]: https://gitlab.com/gnutls/gnutls/-/issues/1527 
+                        │      │                  ├ [5]: https://lists.gnupg.org/pipermail/gnutls-help/202
                         │      │                  │      4-March/004845.html 
-                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-28835 
-                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-28835 
+                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-28835 
+                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-28835 
+                        │      │                  ╰ [8]: https://www.gnutls.org/security-new.html#GNUTLS-S
+                        │      │                         A-2024-01-23 
                         │      ├ PublishedDate   : 2024-03-21T06:15:45.113Z 
                         │      ╰ LastModifiedDate: 2024-03-21T12:58:51.093Z 
                         ├ [18] ╭ VulnerabilityID : CVE-2024-26458 
@@ -1461,7 +1476,7 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 7.5 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0894 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1141 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-4899 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2179864 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2188109 
@@ -1540,7 +1555,7 @@
                         │      │                  ├ [76]: https://bugzilla.redhat.com/2258794 
                         │      │                  ├ [77]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2022-4899 
-                        │      │                  ├ [78]: https://errata.almalinux.org/8/ALSA-2024-0894.html 
+                        │      │                  ├ [78]: https://errata.almalinux.org/9/ALSA-2024-1141.html 
                         │      │                  ├ [79]: https://github.com/facebook/zstd 
                         │      │                  ├ [80]: https://github.com/facebook/zstd/issues/3200 
                         │      │                  ├ [81]: https://github.com/facebook/zstd/pull/3220 
