@@ -467,11 +467,11 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:N 
                         │      │                           ╰ V3Score : 9.1 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7753 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0133 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-37920 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2226586 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2242493 
-                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-7753.html 
+                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-0133.html 
                         │      │                  ├ [5] : https://github.com/certifi/python-certifi 
                         │      │                  ├ [6] : https://github.com/certifi/python-certifi/commit
                         │      │                  │       /8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909 
@@ -638,24 +638,27 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 7.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28757 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2024-28757 
-                        │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/839 
-                        │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/842 
-                        │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce%40lists.fedoraproject.org/message/FPLC6W
-                        │      │                  │      DSRDUYS7F7JWAOVOHFNOUQ43DD/ 
-                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce%40lists.fedoraproject.org/message/LKJ7V5
-                        │      │                  │      F6LJCEQJXDBWGT27J7NAP3E3N7/ 
-                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-28757 
-                        │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2024032
-                        │      │                  │      2-0001/ 
-                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6694-1 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-28757 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-28757 
+                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2024-28757 
+                        │      │                  ├ [2] : https://github.com/libexpat/libexpat/issues/839 
+                        │      │                  ├ [3] : https://github.com/libexpat/libexpat/pull/842 
+                        │      │                  ├ [4] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce%40lists.fedoraproject.org/message/FPLC
+                        │      │                  │       6WDSRDUYS7F7JWAOVOHFNOUQ43DD/ 
+                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce%40lists.fedoraproject.org/message/LKJ7
+                        │      │                  │       V5F6LJCEQJXDBWGT27J7NAP3E3N7/ 
+                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce%40lists.fedoraproject.org/message/VK2O
+                        │      │                  │       34GH43NTHBZBN7G5Y6YKJKPUCTBE/ 
+                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-28757 
+                        │      │                  ├ [8] : https://security.netapp.com/advisory/ntap-202403
+                        │      │                  │       22-0001/ 
+                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6694-1 
+                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-28757 
                         │      ├ PublishedDate   : 2024-03-10T05:15:06.57Z 
-                        │      ╰ LastModifiedDate: 2024-03-22T19:15:08.663Z 
+                        │      ╰ LastModifiedDate: 2024-03-23T03:15:11.92Z 
                         ├ [11] ╭ VulnerabilityID : CVE-2022-48554 
                         │      ├ PkgID           : file-libs@5.39-14.el9.x86_64 
                         │      ├ PkgName         : file-libs 
@@ -1328,7 +1331,7 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 7.5 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1141 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0894 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-4899 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2179864 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2188109 
@@ -1407,7 +1410,7 @@
                         │      │                  ├ [76]: https://bugzilla.redhat.com/2258794 
                         │      │                  ├ [77]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2022-4899 
-                        │      │                  ├ [78]: https://errata.almalinux.org/9/ALSA-2024-1141.html 
+                        │      │                  ├ [78]: https://errata.almalinux.org/8/ALSA-2024-0894.html 
                         │      │                  ├ [79]: https://github.com/facebook/zstd 
                         │      │                  ├ [80]: https://github.com/facebook/zstd/issues/3200 
                         │      │                  ├ [81]: https://github.com/facebook/zstd/pull/3220 
@@ -2069,7 +2072,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -2183,7 +2186,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2316,7 +2319,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2550,7 +2553,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
@@ -2749,7 +2752,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -2863,7 +2866,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2996,7 +2999,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3230,7 +3233,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
