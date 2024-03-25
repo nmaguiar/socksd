@@ -467,11 +467,11 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:N 
                         │      │                           ╰ V3Score : 9.1 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0133 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7753 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-37920 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2226586 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2242493 
-                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-0133.html 
+                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-7753.html 
                         │      │                  ├ [5] : https://github.com/certifi/python-certifi 
                         │      │                  ├ [6] : https://github.com/certifi/python-certifi/commit
                         │      │                  │       /8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909 
@@ -633,7 +633,8 @@
                         │      │                   attack when there is isolated use of external parsers
                         │      │                   (created via XML_ExternalEntityParserCreate). 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      ├ VendorSeverity   ╭ photon: 3 
+                        │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
@@ -1331,7 +1332,7 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 7.5 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0894 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1141 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-4899 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2179864 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2188109 
@@ -1410,7 +1411,7 @@
                         │      │                  ├ [76]: https://bugzilla.redhat.com/2258794 
                         │      │                  ├ [77]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2022-4899 
-                        │      │                  ├ [78]: https://errata.almalinux.org/8/ALSA-2024-0894.html 
+                        │      │                  ├ [78]: https://errata.almalinux.org/9/ALSA-2024-1141.html 
                         │      │                  ├ [79]: https://github.com/facebook/zstd 
                         │      │                  ├ [80]: https://github.com/facebook/zstd/issues/3200 
                         │      │                  ├ [81]: https://github.com/facebook/zstd/pull/3220 
@@ -2072,7 +2073,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -2186,7 +2187,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2319,7 +2320,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2553,7 +2554,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
@@ -2752,7 +2753,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -2866,7 +2867,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2999,7 +3000,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3233,7 +3234,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
