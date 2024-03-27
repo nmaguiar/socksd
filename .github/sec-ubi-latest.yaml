@@ -599,13 +599,59 @@
     - https://www.debian.org/security/2023/dsa-5587
     PublishedDate: '2023-12-07T01:15:07.16Z'
     LastModifiedDate: '2024-01-25T14:15:26.117Z'
-  - VulnerabilityID: CVE-2024-28757
+  - VulnerabilityID: CVE-2023-52425
+    VendorIDs:
+    - RHSA-2024:1530
     PkgID: expat@2.5.0-1.el9.x86_64
     PkgName: expat
     PkgIdentifier:
       PURL: pkg:rpm/redhat/expat@2.5.0-1.el9?arch=x86_64&distro=redhat-9.3
     InstalledVersion: 2.5.0-1.el9
-    Status: affected
+    FixedVersion: 2.5.0-1.el9_3.1
+    Status: fixed
+    Layer:
+      Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
+      DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-52425
+    Title: 'expat: parsing large tokens can trigger a denial of service'
+    Description: libexpat through 2.5.0 allows a denial of service (resource consumption) because many full reparsings are required in the case of a large token for which multiple buffer fills are needed.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-52425
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52425
+    - https://github.com/libexpat/libexpat/pull/789
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PNRIHC7DVVRAIWFRGV23Y6UZXFBXSQDB/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WNUBSGZFEZOBHJFTAD42SAN4ATW2VEMV/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-52425
+    - https://ubuntu.com/security/notices/USN-6694-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-52425
+    PublishedDate: '2024-02-04T20:15:46.063Z'
+    LastModifiedDate: '2024-02-26T16:27:48.367Z'
+  - VulnerabilityID: CVE-2024-28757
+    VendorIDs:
+    - RHSA-2024:1530
+    PkgID: expat@2.5.0-1.el9.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-1.el9?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 2.5.0-1.el9
+    FixedVersion: 2.5.0-1.el9_3.1
+    Status: fixed
     Layer:
       Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
       DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
@@ -2919,6 +2965,7 @@
     - https://github.com/linux-pam/linux-pam/releases/tag/v1.6.0
     - https://nvd.nist.gov/vuln/detail/CVE-2024-22365
     - https://ubuntu.com/security/notices/USN-6588-1
+    - https://ubuntu.com/security/notices/USN-6588-2
     - https://www.cve.org/CVERecord?id=CVE-2024-22365
     - https://www.openwall.com/lists/oss-security/2024/01/18/3
     PublishedDate: '2024-02-06T08:15:52.203Z'
