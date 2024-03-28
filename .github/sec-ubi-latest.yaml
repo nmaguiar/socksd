@@ -599,6 +599,39 @@
     - https://www.debian.org/security/2023/dsa-5587
     PublishedDate: '2023-12-07T01:15:07.16Z'
     LastModifiedDate: '2024-01-25T14:15:26.117Z'
+  - VulnerabilityID: CVE-2024-2398
+    PkgID: curl-minimal@7.76.1-26.el9_3.2.x86_64
+    PkgName: curl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-26.el9_3.2?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 7.76.1-26.el9_3.2
+    Status: affected
+    Layer:
+      Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
+      DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2398
+    Title: 'curl: HTTP/2 push headers memory-leak'
+    Description: When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-2398
+    - https://curl.se/docs/CVE-2024-2398.html
+    - https://curl.se/docs/CVE-2024-2398.json
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2398
+    - https://hackerone.com/reports/2402845
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2398
+    - https://ubuntu.com/security/notices/USN-6718-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-2398
+    PublishedDate: '2024-03-27T08:15:41.283Z'
+    LastModifiedDate: '2024-03-27T12:29:30.307Z'
   - VulnerabilityID: CVE-2023-52425
     VendorIDs:
     - RHSA-2024:1530
@@ -621,6 +654,7 @@
     - CWE-400
     VendorSeverity:
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -635,6 +669,8 @@
     - https://access.redhat.com/security/cve/CVE-2023-52425
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52425
     - https://github.com/libexpat/libexpat/pull/789
+    - https://linux.oracle.com/cve/CVE-2023-52425.html
+    - https://linux.oracle.com/errata/ELSA-2024-1530.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PNRIHC7DVVRAIWFRGV23Y6UZXFBXSQDB/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WNUBSGZFEZOBHJFTAD42SAN4ATW2VEMV/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-52425
@@ -661,6 +697,7 @@
     Description: libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via XML_ExternalEntityParserCreate).
     Severity: MEDIUM
     VendorSeverity:
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -673,6 +710,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28757
     - https://github.com/libexpat/libexpat/issues/839
     - https://github.com/libexpat/libexpat/pull/842
+    - https://linux.oracle.com/cve/CVE-2024-28757.html
+    - https://linux.oracle.com/errata/ELSA-2024-1530.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FPLC6WDSRDUYS7F7JWAOVOHFNOUQ43DD/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKJ7V5F6LJCEQJXDBWGT27J7NAP3E3N7/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VK2O34GH43NTHBZBN7G5Y6YKJKPUCTBE/
@@ -933,7 +972,7 @@
     PkgIdentifier:
       PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_64&distro=redhat-9.3
     InstalledVersion: 1.21.1-1.el9
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
       DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
@@ -1116,6 +1155,39 @@
     - https://www.debian.org/security/2023/dsa-5587
     PublishedDate: '2023-12-07T01:15:07.16Z'
     LastModifiedDate: '2024-01-25T14:15:26.117Z'
+  - VulnerabilityID: CVE-2024-2398
+    PkgID: libcurl-minimal@7.76.1-26.el9_3.2.x86_64
+    PkgName: libcurl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-26.el9_3.2?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 7.76.1-26.el9_3.2
+    Status: affected
+    Layer:
+      Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
+      DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2398
+    Title: 'curl: HTTP/2 push headers memory-leak'
+    Description: When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-2398
+    - https://curl.se/docs/CVE-2024-2398.html
+    - https://curl.se/docs/CVE-2024-2398.json
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2398
+    - https://hackerone.com/reports/2402845
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2398
+    - https://ubuntu.com/security/notices/USN-6718-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-2398
+    PublishedDate: '2024-03-27T08:15:41.283Z'
+    LastModifiedDate: '2024-03-27T12:29:30.307Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.4.1-2.1.el9.x86_64
     PkgName: libgcc
@@ -2011,7 +2083,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2098,7 +2170,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2196,7 +2268,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2374,7 +2446,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -2526,7 +2598,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2613,7 +2685,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2711,7 +2783,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2889,7 +2961,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -3884,7 +3956,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39804
     Title: 'tar: Incorrectly handled extension attributes in PAX archives can lead to a crash'
-    Description: A flaw was found in tar. This issue occurs when extended attributes are processed in PAX archives, and could allow an attacker to cause an application crash, resulting in a denial of service.
+    Description: In GNU tar before 1.35, mishandled extension attributes in a PAX archive can lead to an application crash in xheader.c.
     Severity: LOW
     VendorSeverity:
       amazon: 1
@@ -3897,8 +3969,12 @@
         V3Score: 3.3
     References:
     - https://access.redhat.com/security/cve/CVE-2023-39804
+    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1058079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39804
     - https://git.savannah.gnu.org/cgit/tar.git/commit/?id=a339f05cd269013fa133d2f148d73f6f7d4247e4
+    - https://git.savannah.gnu.org/cgit/tar.git/tree/src/xheader.c?h=release_1_34#n1723
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39804
     - https://ubuntu.com/security/notices/USN-6543-1
     - https://www.cve.org/CVERecord?id=CVE-2023-39804
+    PublishedDate: '2024-03-27T04:15:08.897Z'
+    LastModifiedDate: '2024-03-27T12:29:30.307Z'
