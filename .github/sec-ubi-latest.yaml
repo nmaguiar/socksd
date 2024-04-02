@@ -1933,7 +1933,7 @@
       DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-2953
-    Title: null pointer dereference in  ber_memalloc_x  function
+    Title: 'openldap: null pointer dereference in  ber_memalloc_x  function'
     Description: A vulnerability was found in openldap. This security flaw causes a null pointer dereference in ber_memalloc_x() function.
     Severity: LOW
     CweIDs:
@@ -3980,3 +3980,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-39804
     PublishedDate: '2024-03-27T04:15:08.897Z'
     LastModifiedDate: '2024-03-27T12:29:30.307Z'
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2024-31033
+    PkgName: io.jsonwebtoken:jjwt-impl
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/io.jsonwebtoken/jjwt-impl@0.12.3
+    InstalledVersion: 0.12.3
+    Status: affected
+    Layer:
+      Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
+      DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-31033
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Title: JJWT improperly generates signing keys
+    Description: JJWT (aka Java JWT) through 0.12.5 ignores certain characters and thus a user might falsely conclude that they have a strong key. The impacted code is the setSigningKey() method within the DefaultJwtParser class and the signWith() method within the DefaultJwtBuilder class.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://github.com/2308652512/JJWT_BUG
+    - https://github.com/jwtk/jjwt
+    - https://github.com/jwtk/jjwt/blob/26948610fbef81eba867cbaad54b516d1874c70a/impl/src/main/java/io/jsonwebtoken/impl/DefaultJwtParserBuilder.java#L242
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-31033
+    - https://www.viralpatel.net/java-create-validate-jwt-token
+    - https://www.viralpatel.net/java-create-validate-jwt-token/
+    PublishedDate: '2024-04-01T02:15:07.85Z'
+    LastModifiedDate: '2024-04-01T12:49:09.583Z'
