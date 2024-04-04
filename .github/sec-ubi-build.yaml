@@ -591,6 +591,8 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      alma: 2
+      cbl-mariner: 3
       nvd: 3
       oracle-oval: 2
       photon: 3
@@ -604,11 +606,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:1530
     - https://access.redhat.com/security/cve/CVE-2023-52425
+    - https://bugzilla.redhat.com/2262877
+    - https://bugzilla.redhat.com/2268766
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52425
+    - https://errata.almalinux.org/9/ALSA-2024-1530.html
     - https://github.com/libexpat/libexpat/pull/789
     - https://linux.oracle.com/cve/CVE-2023-52425.html
-    - https://linux.oracle.com/errata/ELSA-2024-1530.html
+    - https://linux.oracle.com/errata/ELSA-2024-1615.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PNRIHC7DVVRAIWFRGV23Y6UZXFBXSQDB/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WNUBSGZFEZOBHJFTAD42SAN4ATW2VEMV/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-52425
@@ -635,7 +641,9 @@
     Description: libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via XML_ExternalEntityParserCreate).
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
+      cbl-mariner: 3
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -645,8 +653,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:1530
     - https://access.redhat.com/security/cve/CVE-2024-28757
+    - https://bugzilla.redhat.com/2262877
+    - https://bugzilla.redhat.com/2268766
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28757
+    - https://errata.almalinux.org/9/ALSA-2024-1530.html
     - https://github.com/libexpat/libexpat/issues/839
     - https://github.com/libexpat/libexpat/pull/842
     - https://linux.oracle.com/cve/CVE-2024-28757.html
@@ -1144,6 +1156,32 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2024-03-07T13:52:27.11Z'
+  - VulnerabilityID: CVE-2024-27316
+    PkgID: libnghttp2@1.43.0-5.el9_3.1.x86_64
+    PkgName: libnghttp2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libnghttp2@1.43.0-5.el9_3.1?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 1.43.0-5.el9_3.1
+    Status: affected
+    Layer:
+      Digest: sha256:7de685ec1b36a7d99e1ab8ee8b094800837f4716184de2a90502829bf99a64a8
+      DiffID: sha256:6d65effd45fa34fc2ffbcce178d1776ef0d267bf3c322bfc79f2dba4f059cbb1
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-27316
+    Title: 'httpd: CONTINUATION frames DoS'
+    Description: A vulnerability was found in how Apache httpd implements the HTTP/2 protocol. There are insufficient limitations placed on the amount of CONTINUATION frames that can be sent within a single stream. This issue could allow an unauthenticated remote attacker to send packets to vulnerable servers, which could use up compute or memory resources to cause a Denial of Service.
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-27316
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-27316
+    - https://www.cve.org/CVERecord?id=CVE-2024-27316
+    - https://www.kb.cert.org/vuls/id/421644
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++@11.4.1-2.1.el9.x86_64
     PkgName: libstdc++
@@ -1268,6 +1306,39 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45322
     PublishedDate: '2023-10-06T22:15:11.66Z'
     LastModifiedDate: '2024-03-21T02:49:16.44Z'
+  - VulnerabilityID: CVE-2024-3205
+    PkgID: libyaml@0.2.5-7.el9.x86_64
+    PkgName: libyaml
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 0.2.5-7.el9
+    Status: under_investigation
+    Layer:
+      Digest: sha256:7de685ec1b36a7d99e1ab8ee8b094800837f4716184de2a90502829bf99a64a8
+      DiffID: sha256:6d65effd45fa34fc2ffbcce178d1776ef0d267bf3c322bfc79f2dba4f059cbb1
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-3205
+    Title: 'libyaml: Heap-Based Buffer Overflow'
+    Description: 'A vulnerability was found in yaml libyaml up to 0.2.5 and classified as critical. Affected by this issue is the function yaml_emitter_emit_flow_sequence_item of the file /src/libyaml/src/emitter.c. The manipulation leads to heap-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-259052. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-3205
+    - https://drive.google.com/drive/folders/1lwNEs8wqwkUV52f3uQNYMPrxRuXPtGQs?usp=sharing
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-3205
+    - https://vuldb.com/?ctiid.259052
+    - https://vuldb.com/?id.259052
+    - https://vuldb.com/?submit.304561
+    - https://www.cve.org/CVERecord?id=CVE-2024-3205
+    PublishedDate: '2024-04-02T23:15:54.627Z'
+    LastModifiedDate: '2024-04-02T23:15:54.627Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd@1.5.1-2.el9.x86_64
     PkgName: libzstd
@@ -2889,7 +2960,7 @@
       DiffID: sha256:6d65effd45fa34fc2ffbcce178d1776ef0d267bf3c322bfc79f2dba4f059cbb1
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-22365
-    Title: 'pam: allowing unpriledged user to block another user namespace'
+    Title: 'pam: allowing unprivileged user to block another user namespace'
     Description: linux-pam (aka Linux PAM) before 1.6.0 allows attackers to cause a denial of service (blocked login process) via mkfifo because the openat call (for protect_dir) lacks O_DIRECTORY.
     Severity: MEDIUM
     VendorSeverity:
@@ -3855,41 +3926,3 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-39804
     PublishedDate: '2024-03-27T04:15:08.897Z'
     LastModifiedDate: '2024-03-27T12:29:30.307Z'
-- Target: Java
-  Class: lang-pkgs
-  Type: jar
-  Vulnerabilities:
-  - VulnerabilityID: CVE-2024-31033
-    PkgName: io.jsonwebtoken:jjwt-impl
-    PkgPath: openaf/openaf.jar
-    PkgIdentifier:
-      PURL: pkg:maven/io.jsonwebtoken/jjwt-impl@0.12.5
-    InstalledVersion: 0.12.5
-    Status: affected
-    Layer:
-      Digest: sha256:7de685ec1b36a7d99e1ab8ee8b094800837f4716184de2a90502829bf99a64a8
-      DiffID: sha256:6d65effd45fa34fc2ffbcce178d1776ef0d267bf3c322bfc79f2dba4f059cbb1
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-31033
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Maven
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Title: JJWT improperly generates signing keys
-    Description: JJWT (aka Java JWT) through 0.12.5 ignores certain characters and thus a user might falsely conclude that they have a strong key. The impacted code is the setSigningKey() method within the DefaultJwtParser class and the signWith() method within the DefaultJwtBuilder class.
-    Severity: MEDIUM
-    VendorSeverity:
-      ghsa: 2
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
-        V3Score: 6.8
-    References:
-    - https://github.com/2308652512/JJWT_BUG
-    - https://github.com/jwtk/jjwt
-    - https://github.com/jwtk/jjwt/blob/26948610fbef81eba867cbaad54b516d1874c70a/impl/src/main/java/io/jsonwebtoken/impl/DefaultJwtParserBuilder.java#L242
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-31033
-    - https://www.viralpatel.net/java-create-validate-jwt-token
-    - https://www.viralpatel.net/java-create-validate-jwt-token/
-    PublishedDate: '2024-04-01T02:15:07.85Z'
-    LastModifiedDate: '2024-04-01T12:49:09.583Z'
