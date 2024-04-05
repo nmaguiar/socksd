@@ -638,7 +638,8 @@
                         │      │                   condition fails silently and is therefore not easily
                         │      │                   detected by an application. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      ├ VendorSeverity   ╭ photon: 3 
+                        │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
@@ -790,6 +791,7 @@
                         │      ├ CweIDs           ─ [0]: CWE-125 
                         │      ├ VendorSeverity   ╭ amazon: 1 
                         │      │                  ├ nvd   : 2 
+                        │      │                  ├ photon: 2 
                         │      │                  ├ redhat: 1 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
@@ -1200,7 +1202,8 @@
                         │      │                   condition fails silently and is therefore not easily
                         │      │                   detected by an application. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      ├ VendorSeverity   ╭ photon: 3 
+                        │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
