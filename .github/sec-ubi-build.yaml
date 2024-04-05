@@ -552,6 +552,7 @@
     Description: When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -692,6 +693,7 @@
     VendorSeverity:
       amazon: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1059,6 +1061,7 @@
     Description: When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
