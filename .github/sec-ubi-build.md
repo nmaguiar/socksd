@@ -684,6 +684,7 @@
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 3 
                         │      │                  ├ redhat     : 2 
+                        │      │                  ├ rocky      : 2 
                         │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                  │        │           N/I:N/A:H 
@@ -695,21 +696,23 @@
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-52425 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2262877 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2268766 
-                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2262877 
+                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-52425 
-                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-1530.html 
-                        │      │                  ├ [6] : https://github.com/libexpat/libexpat/pull/789 
-                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-52425.html 
-                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1615.html 
-                        │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-1530.html 
+                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2024:1615 
+                        │      │                  ├ [8] : https://github.com/libexpat/libexpat/pull/789 
+                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2023-52425.html 
+                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-1615.html 
+                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce%40lists.fedoraproject.org/message/PNRI
                         │      │                  │       HC7DVVRAIWFRGV23Y6UZXFBXSQDB/ 
-                        │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce%40lists.fedoraproject.org/message/WNUB
                         │      │                  │       SGZFEZOBHJFTAD42SAN4ATW2VEMV/ 
-                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-52425 
-                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6694-1 
-                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-52425 
+                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-52425 
+                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6694-1 
+                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-52425 
                         │      ├ PublishedDate   : 2024-02-04T20:15:46.063Z 
                         │      ╰ LastModifiedDate: 2024-02-26T16:27:48.367Z 
                         ├ [12] ╭ VulnerabilityID : CVE-2024-28757 
@@ -2296,7 +2299,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -2410,7 +2413,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2543,7 +2546,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2777,7 +2780,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
@@ -2976,7 +2979,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -3090,7 +3093,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3223,7 +3226,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3457,7 +3460,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
