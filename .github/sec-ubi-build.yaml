@@ -598,6 +598,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -611,8 +612,10 @@
     - https://access.redhat.com/security/cve/CVE-2023-52425
     - https://bugzilla.redhat.com/2262877
     - https://bugzilla.redhat.com/2268766
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262877
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52425
     - https://errata.almalinux.org/9/ALSA-2024-1530.html
+    - https://errata.rockylinux.org/RLSA-2024:1615
     - https://github.com/libexpat/libexpat/pull/789
     - https://linux.oracle.com/cve/CVE-2023-52425.html
     - https://linux.oracle.com/errata/ELSA-2024-1615.html
@@ -2036,7 +2039,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2123,7 +2126,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2221,7 +2224,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2399,7 +2402,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -2551,7 +2554,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2638,7 +2641,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2736,7 +2739,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2914,7 +2917,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
