@@ -690,13 +690,14 @@
     - https://github.com/libexpat/libexpat/pull/789
     - https://linux.oracle.com/cve/CVE-2023-52425.html
     - https://linux.oracle.com/errata/ELSA-2024-1615.html
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00006.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PNRIHC7DVVRAIWFRGV23Y6UZXFBXSQDB/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WNUBSGZFEZOBHJFTAD42SAN4ATW2VEMV/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-52425
     - https://ubuntu.com/security/notices/USN-6694-1
     - https://www.cve.org/CVERecord?id=CVE-2023-52425
     PublishedDate: '2024-02-04T20:15:46.063Z'
-    LastModifiedDate: '2024-02-26T16:27:48.367Z'
+    LastModifiedDate: '2024-04-09T06:15:07.55Z'
   - VulnerabilityID: CVE-2024-28757
     VendorIDs:
     - RHSA-2024:1530
@@ -1031,7 +1032,7 @@
     PkgIdentifier:
       PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_64&distro=redhat-9.3
     InstalledVersion: 1.21.1-1.el9
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
       DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
@@ -1061,7 +1062,7 @@
     PkgIdentifier:
       PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_64&distro=redhat-9.3
     InstalledVersion: 1.21.1-1.el9
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
       DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
@@ -1319,8 +1320,10 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-27316
     Title: 'httpd: CONTINUATION frames DoS'
-    Description: A vulnerability was found in how Apache httpd implements the HTTP/2 protocol. There are insufficient limitations placed on the amount of CONTINUATION frames that can be sent within a single stream. This issue could allow an unauthenticated remote attacker to send packets to vulnerable servers, which could use up compute or memory resources to cause a Denial of Service.
+    Description: HTTP/2 incoming headers exceeding the limit are temporarily buffered in nghttp2 in order to generate an informative HTTP 413 response. If a client does not stop sending headers, this leads to memory exhaustion.
     Severity: HIGH
+    CweIDs:
+    - CWE-400
     VendorSeverity:
       redhat: 3
     CVSS:
@@ -1329,9 +1332,13 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2024-27316
+    - https://httpd.apache.org/security/vulnerabilities_24.html
+    - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-27316
     - https://www.cve.org/CVERecord?id=CVE-2024-27316
     - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T20:15:08.72Z'
+    LastModifiedDate: '2024-04-05T12:40:52.763Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++@11.4.1-2.1.el9.x86_64
     PkgName: libstdc++
@@ -1462,7 +1469,7 @@
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&distro=redhat-9.3
     InstalledVersion: 0.2.5-7.el9
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
       DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
@@ -1477,8 +1484,8 @@
       redhat: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 7.3
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2024-3205
     - https://drive.google.com/drive/folders/1lwNEs8wqwkUV52f3uQNYMPrxRuXPtGQs?usp=sharing
@@ -1488,7 +1495,7 @@
     - https://vuldb.com/?submit.304561
     - https://www.cve.org/CVERecord?id=CVE-2024-3205
     PublishedDate: '2024-04-02T23:15:54.627Z'
-    LastModifiedDate: '2024-04-02T23:15:54.627Z'
+    LastModifiedDate: '2024-04-03T12:38:04.84Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd@1.5.1-2.el9.x86_64
     PkgName: libzstd
@@ -2181,7 +2188,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2268,7 +2275,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2366,7 +2373,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2544,7 +2551,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -2583,6 +2590,63 @@
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
     LastModifiedDate: '2024-02-08T10:15:13.91Z'
+  - VulnerabilityID: CVE-2024-2511
+    PkgID: openssl@3.0.7-25.el9_3.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_64&distro=redhat-9.3&epoch=1
+    InstalledVersion: 1:3.0.7-25.el9_3
+    Status: affected
+    Layer:
+      Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
+      DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2511
+    Title: 'openssl: Unbounded memory growth with session handling in TLSv1.3'
+    Description: |-
+      Issue summary: Some non-default TLS server configurations can cause unbounded
+      memory growth when processing TLSv1.3 sessions
+
+      Impact summary: An attacker may exploit certain server configurations to trigger
+      unbounded memory growth that would lead to a Denial of Service
+
+      This problem can occur in TLSv1.3 if the non-default SSL_OP_NO_TICKET option is
+      being used (but not if early_data support is also configured and the default
+      anti-replay protection is in use). In this case, under certain conditions, the
+      session cache can get into an incorrect state and it will fail to flush properly
+      as it fills. The session cache will continue to grow in an unbounded manner. A
+      malicious client could deliberately create the scenario for this failure to
+      force a Denial of Service. It may also happen by accident in normal operation.
+
+      This issue only affects TLS servers supporting TLSv1.3. It does not affect TLS
+      clients.
+
+      The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue. OpenSSL
+      1.0.2 is also not affected by this issue.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-2511
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2511
+    - https://github.com/openssl/openssl/commit/7e4d731b1c07201ad9374c1cd9ac5263bdf35bce
+    - https://github.com/openssl/openssl/commit/7e4d731b1c07201ad9374c1cd9ac5263bdf35bce (openssl-3.1.y)
+    - https://github.com/openssl/openssl/commit/b52867a9f618bb955bed2a3ce3db4d4f97ed8e5d
+    - https://github.com/openssl/openssl/commit/b52867a9f618bb955bed2a3ce3db4d4f97ed8e5d (openssl-3.0.y)
+    - https://github.com/openssl/openssl/commit/e9d7083e241670332e0443da0f0d4ffb52829f08
+    - https://github.com/openssl/openssl/commit/e9d7083e241670332e0443da0f0d4ffb52829f08 (openssl-3.2.y)
+    - https://github.openssl.org/openssl/extended-releases/commit/5f8d25770ae6437db119dfc951e207271a326640
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2511
+    - https://www.cve.org/CVERecord?id=CVE-2024-2511
+    - https://www.openssl.org/news/secadv/20240408.txt
+    - https://www.openssl.org/news/vulnerabilities.html
+    PublishedDate: '2024-04-08T14:15:07.66Z'
+    LastModifiedDate: '2024-04-08T18:48:40.217Z'
   - VulnerabilityID: CVE-2023-2975
     PkgID: openssl-libs@3.0.7-25.el9_3.x86_64
     PkgName: openssl-libs
@@ -2696,7 +2760,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2783,7 +2847,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2881,7 +2945,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -3059,7 +3123,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -3098,6 +3162,63 @@
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
     LastModifiedDate: '2024-02-08T10:15:13.91Z'
+  - VulnerabilityID: CVE-2024-2511
+    PkgID: openssl-libs@3.0.7-25.el9_3.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=x86_64&distro=redhat-9.3&epoch=1
+    InstalledVersion: 1:3.0.7-25.el9_3
+    Status: affected
+    Layer:
+      Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
+      DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2511
+    Title: 'openssl: Unbounded memory growth with session handling in TLSv1.3'
+    Description: |-
+      Issue summary: Some non-default TLS server configurations can cause unbounded
+      memory growth when processing TLSv1.3 sessions
+
+      Impact summary: An attacker may exploit certain server configurations to trigger
+      unbounded memory growth that would lead to a Denial of Service
+
+      This problem can occur in TLSv1.3 if the non-default SSL_OP_NO_TICKET option is
+      being used (but not if early_data support is also configured and the default
+      anti-replay protection is in use). In this case, under certain conditions, the
+      session cache can get into an incorrect state and it will fail to flush properly
+      as it fills. The session cache will continue to grow in an unbounded manner. A
+      malicious client could deliberately create the scenario for this failure to
+      force a Denial of Service. It may also happen by accident in normal operation.
+
+      This issue only affects TLS servers supporting TLSv1.3. It does not affect TLS
+      clients.
+
+      The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue. OpenSSL
+      1.0.2 is also not affected by this issue.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-2511
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2511
+    - https://github.com/openssl/openssl/commit/7e4d731b1c07201ad9374c1cd9ac5263bdf35bce
+    - https://github.com/openssl/openssl/commit/7e4d731b1c07201ad9374c1cd9ac5263bdf35bce (openssl-3.1.y)
+    - https://github.com/openssl/openssl/commit/b52867a9f618bb955bed2a3ce3db4d4f97ed8e5d
+    - https://github.com/openssl/openssl/commit/b52867a9f618bb955bed2a3ce3db4d4f97ed8e5d (openssl-3.0.y)
+    - https://github.com/openssl/openssl/commit/e9d7083e241670332e0443da0f0d4ffb52829f08
+    - https://github.com/openssl/openssl/commit/e9d7083e241670332e0443da0f0d4ffb52829f08 (openssl-3.2.y)
+    - https://github.openssl.org/openssl/extended-releases/commit/5f8d25770ae6437db119dfc951e207271a326640
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2511
+    - https://www.cve.org/CVERecord?id=CVE-2024-2511
+    - https://www.openssl.org/news/secadv/20240408.txt
+    - https://www.openssl.org/news/vulnerabilities.html
+    PublishedDate: '2024-04-08T14:15:07.66Z'
+    LastModifiedDate: '2024-04-08T18:48:40.217Z'
   - VulnerabilityID: CVE-2024-22365
     PkgID: pam@1.5.1-15.el9.x86_64
     PkgName: pam
@@ -3115,6 +3236,7 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 1
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 2
