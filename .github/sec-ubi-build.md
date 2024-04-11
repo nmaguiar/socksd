@@ -704,17 +704,19 @@
                         │      │                  ├ [8] : https://github.com/libexpat/libexpat/pull/789 
                         │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2023-52425.html 
                         │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-1615.html 
-                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [11]: https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       4/04/msg00006.html 
+                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce%40lists.fedoraproject.org/message/PNRI
                         │      │                  │       HC7DVVRAIWFRGV23Y6UZXFBXSQDB/ 
-                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce%40lists.fedoraproject.org/message/WNUB
                         │      │                  │       SGZFEZOBHJFTAD42SAN4ATW2VEMV/ 
-                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-52425 
-                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6694-1 
-                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-52425 
+                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-52425 
+                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6694-1 
+                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-52425 
                         │      ├ PublishedDate   : 2024-02-04T20:15:46.063Z 
-                        │      ╰ LastModifiedDate: 2024-02-26T16:27:48.367Z 
+                        │      ╰ LastModifiedDate: 2024-04-09T06:15:07.55Z 
                         ├ [12] ╭ VulnerabilityID : CVE-2024-28757 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:1530 
                         │      ├ PkgID           : expat@2.5.0-1.el9.x86_64 
@@ -1085,7 +1087,7 @@
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_6
                         │      │                          4&distro=redhat-9.3 
                         │      ├ InstalledVersion: 1.21.1-1.el9 
-                        │      ├ Status          : under_investigation 
+                        │      ├ Status          : affected 
                         │      ├ Layer            ╭ Digest: sha256:f5294f7871463967a22a963cc17da7606f49fd9
                         │      │                  │         d25136d5f4f5fd207f569ad2b 
                         │      │                  ╰ DiffID: sha256:1879365bc0766845e2175bcd50fbbf6d85c60f1
@@ -1117,7 +1119,7 @@
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_6
                         │      │                          4&distro=redhat-9.3 
                         │      ├ InstalledVersion: 1.21.1-1.el9 
-                        │      ├ Status          : under_investigation 
+                        │      ├ Status          : affected 
                         │      ├ Layer            ╭ Digest: sha256:f5294f7871463967a22a963cc17da7606f49fd9
                         │      │                  │         d25136d5f4f5fd207f569ad2b 
                         │      │                  ╰ DiffID: sha256:1879365bc0766845e2175bcd50fbbf6d85c60f1
@@ -1329,22 +1331,25 @@
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-27316 
                         │      ├ Title           : httpd: CONTINUATION frames DoS 
-                        │      ├ Description     : A vulnerability was found in how Apache httpd
-                        │      │                   implements the HTTP/2 protocol. There are insufficient
-                        │      │                   limitations placed on the amount of CONTINUATION frames that
-                        │      │                    can be sent within a single stream. This issue could allow
-                        │      │                   an unauthenticated remote attacker to send packets to
-                        │      │                   vulnerable servers, which could use up compute or memory
-                        │      │                   resources to cause a Denial of Service. 
+                        │      ├ Description     : HTTP/2 incoming headers exceeding the limit are
+                        │      │                   temporarily buffered in nghttp2 in order to generate an
+                        │      │                   informative HTTP 413 response. If a client does not stop
+                        │      │                   sending headers, this leads to memory exhaustion. 
                         │      ├ Severity        : HIGH 
+                        │      ├ CweIDs           ─ [0]: CWE-400 
                         │      ├ VendorSeverity   ─ redhat: 3 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 7.5 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-27316 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-27316 
-                        │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-27316 
-                        │                         ╰ [3]: https://www.kb.cert.org/vuls/id/421644 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-27316 
+                        │      │                  ├ [1]: https://httpd.apache.org/security/vulnerabilities
+                        │      │                  │      _24.html 
+                        │      │                  ├ [2]: https://nowotarski.info/http2-continuation-flood/ 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-27316 
+                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-27316 
+                        │      │                  ╰ [5]: https://www.kb.cert.org/vuls/id/421644 
+                        │      ├ PublishedDate   : 2024-04-04T20:15:08.72Z 
+                        │      ╰ LastModifiedDate: 2024-04-05T12:40:52.763Z 
                         ├ [27] ╭ VulnerabilityID : CVE-2022-27943 
                         │      ├ PkgID           : libstdc++@11.4.1-2.1.el9.x86_64 
                         │      ├ PkgName         : libstdc++ 
@@ -1487,7 +1492,7 @@
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&d
                         │      │                          istro=redhat-9.3 
                         │      ├ InstalledVersion: 0.2.5-7.el9 
-                        │      ├ Status          : under_investigation 
+                        │      ├ Status          : affected 
                         │      ├ Layer            ╭ Digest: sha256:f5294f7871463967a22a963cc17da7606f49fd9
                         │      │                  │         d25136d5f4f5fd207f569ad2b 
                         │      │                  ╰ DiffID: sha256:1879365bc0766845e2175bcd50fbbf6d85c60f1
@@ -1508,8 +1513,8 @@
                         │      ├ CweIDs           ─ [0]: CWE-122 
                         │      ├ VendorSeverity   ─ redhat: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-                        │      │                           │           L/I:L/A:L 
-                        │      │                           ╰ V3Score : 7.3 
+                        │      │                           │           N/I:N/A:H 
+                        │      │                           ╰ V3Score : 7.5 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-3205 
                         │      │                  ├ [1]: https://drive.google.com/drive/folders/1lwNEs8wqw
                         │      │                  │      kUV52f3uQNYMPrxRuXPtGQs?usp=sharing 
@@ -1519,7 +1524,7 @@
                         │      │                  ├ [5]: https://vuldb.com/?submit.304561 
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-3205 
                         │      ├ PublishedDate   : 2024-04-02T23:15:54.627Z 
-                        │      ╰ LastModifiedDate: 2024-04-02T23:15:54.627Z 
+                        │      ╰ LastModifiedDate: 2024-04-03T12:38:04.84Z 
                         ├ [31] ╭ VulnerabilityID : CVE-2022-4899 
                         │      ├ PkgID           : libzstd@1.5.1-2.el9.x86_64 
                         │      ├ PkgName         : libzstd 
@@ -2299,7 +2304,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -2413,7 +2418,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2546,7 +2551,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2780,7 +2785,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
@@ -2830,7 +2835,86 @@
                         │      │                  ╰ [18]: https://www.openssl.org/news/secadv/20240125.txt 
                         │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
                         │      ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
-                        ├ [50] ╭ VulnerabilityID : CVE-2023-2975 
+                        ├ [50] ╭ VulnerabilityID : CVE-2024-2511 
+                        │      ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
+                        │      ├ PkgName         : openssl 
+                        │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_6
+                        │      │                          4&distro=redhat-9.3&epoch=1 
+                        │      ├ InstalledVersion: 1:3.0.7-25.el9_3 
+                        │      ├ Status          : affected 
+                        │      ├ Layer            ╭ Digest: sha256:f5294f7871463967a22a963cc17da7606f49fd9
+                        │      │                  │         d25136d5f4f5fd207f569ad2b 
+                        │      │                  ╰ DiffID: sha256:1879365bc0766845e2175bcd50fbbf6d85c60f1
+                        │      │                            d74e729cfbf3989fe6fbdde17 
+                        │      ├ SeveritySource  : redhat 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-2511 
+                        │      ├ Title           : openssl: Unbounded memory growth with session handling
+                        │      │                   in TLSv1.3 
+                        │      ├ Description     : Issue summary: Some non-default TLS server
+                        │      │                   configurations can cause unbounded
+                        │      │                   memory growth when processing TLSv1.3 sessions
+                        │      │                   
+                        │      │                   Impact summary: An attacker may exploit certain server
+                        │      │                   configurations to trigger
+                        │      │                   unbounded memory growth that would lead to a Denial of
+                        │      │                   Service
+                        │      │                   
+                        │      │                   This problem can occur in TLSv1.3 if the non-default
+                        │      │                   SSL_OP_NO_TICKET option is
+                        │      │                   being used (but not if early_data support is also configured
+                        │      │                    and the default
+                        │      │                   anti-replay protection is in use). In this case, under
+                        │      │                   certain conditions, the
+                        │      │                   session cache can get into an incorrect state and it will
+                        │      │                   fail to flush properly
+                        │      │                   as it fills. The session cache will continue to grow in an
+                        │      │                   unbounded manner. A
+                        │      │                   malicious client could deliberately create the scenario for
+                        │      │                   this failure to
+                        │      │                   force a Denial of Service. It may also happen by accident in
+                        │      │                    normal operation.
+                        │      │                   
+                        │      │                   This issue only affects TLS servers supporting TLSv1.3. It
+                        │      │                   does not affect TLS
+                        │      │                   clients.
+                        │      │                   
+                        │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
+                        │      │                   this issue. OpenSSL
+                        │      │                   1.0.2 is also not affected by this issue. 
+                        │      ├ Severity        : LOW 
+                        │      ├ VendorSeverity   ╭ redhat: 1 
+                        │      │                  ╰ ubuntu: 2 
+                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+                        │      │                           │           N/I:N/A:L 
+                        │      │                           ╰ V3Score : 3.7 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-2511 
+                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2024-2511 
+                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/7e4d73
+                        │      │                  │       1b1c07201ad9374c1cd9ac5263bdf35bce 
+                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/7e4d73
+                        │      │                  │       1b1c07201ad9374c1cd9ac5263bdf35bce
+                        │      │                  │       (openssl-3.1.y) 
+                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/b52867
+                        │      │                  │       a9f618bb955bed2a3ce3db4d4f97ed8e5d 
+                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/b52867
+                        │      │                  │       a9f618bb955bed2a3ce3db4d4f97ed8e5d
+                        │      │                  │       (openssl-3.0.y) 
+                        │      │                  ├ [6] : https://github.com/openssl/openssl/commit/e9d708
+                        │      │                  │       3e241670332e0443da0f0d4ffb52829f08 
+                        │      │                  ├ [7] : https://github.com/openssl/openssl/commit/e9d708
+                        │      │                  │       3e241670332e0443da0f0d4ffb52829f08
+                        │      │                  │       (openssl-3.2.y) 
+                        │      │                  ├ [8] : https://github.openssl.org/openssl/extended-rele
+                        │      │                  │       ases/commit/5f8d25770ae6437db119dfc951e207271a326640
+                        │      │                  │       [m 
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-2511 
+                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-2511 
+                        │      │                  ├ [11]: https://www.openssl.org/news/secadv/20240408.txt 
+                        │      │                  ╰ [12]: https://www.openssl.org/news/vulnerabilities.html 
+                        │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
+                        │      ╰ LastModifiedDate: 2024-04-08T18:48:40.217Z 
+                        ├ [51] ╭ VulnerabilityID : CVE-2023-2975 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -2915,7 +2999,7 @@
                         │      │                  ╰ [11]: https://www.openssl.org/news/secadv/20230714.txt 
                         │      ├ PublishedDate   : 2023-07-14T12:15:09.023Z 
                         │      ╰ LastModifiedDate: 2024-02-04T09:15:09.773Z 
-                        ├ [51] ╭ VulnerabilityID : CVE-2023-3446 
+                        ├ [52] ╭ VulnerabilityID : CVE-2023-3446 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -2979,7 +3063,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -3033,7 +3117,7 @@
                         │      │                  ╰ [24]: https://www.openssl.org/news/secadv/20230719.txt 
                         │      ├ PublishedDate   : 2023-07-19T12:15:10.003Z 
                         │      ╰ LastModifiedDate: 2024-02-04T09:15:09.9Z 
-                        ├ [52] ╭ VulnerabilityID : CVE-2023-3817 
+                        ├ [53] ╭ VulnerabilityID : CVE-2023-3817 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -3093,7 +3177,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3153,7 +3237,7 @@
                         │      │                  ╰ [28]: https://www.openssl.org/news/secadv/20230731.txt 
                         │      ├ PublishedDate   : 2023-07-31T16:15:10.497Z 
                         │      ╰ LastModifiedDate: 2024-02-04T09:15:10.03Z 
-                        ├ [53] ╭ VulnerabilityID : CVE-2023-5678 
+                        ├ [54] ╭ VulnerabilityID : CVE-2023-5678 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -3226,7 +3310,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3271,7 +3355,7 @@
                         │      │                  ╰ [19]: https://www.openssl.org/news/secadv/20231106.txt 
                         │      ├ PublishedDate   : 2023-11-06T16:15:42.67Z 
                         │      ╰ LastModifiedDate: 2023-11-30T22:15:09.723Z 
-                        ├ [54] ╭ VulnerabilityID : CVE-2023-6129 
+                        ├ [55] ╭ VulnerabilityID : CVE-2023-6129 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -3372,7 +3456,7 @@
                         │      │                          /01/09/1 
                         │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
                         │      ╰ LastModifiedDate: 2024-02-16T13:15:09.91Z 
-                        ├ [55] ╭ VulnerabilityID : CVE-2023-6237 
+                        ├ [56] ╭ VulnerabilityID : CVE-2023-6237 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -3412,7 +3496,7 @@
                         │                         ├ [5]: https://www.openssl.org/news/secadv/20240115.txt 
                         │                         ╰ [6]: https://www.openwall.com/lists/oss-security/2024/
                         │                                01/15/2 
-                        ├ [56] ╭ VulnerabilityID : CVE-2024-0727 
+                        ├ [57] ╭ VulnerabilityID : CVE-2024-0727 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -3460,7 +3544,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
@@ -3510,7 +3594,86 @@
                         │      │                  ╰ [18]: https://www.openssl.org/news/secadv/20240125.txt 
                         │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
                         │      ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
-                        ├ [57] ╭ VulnerabilityID : CVE-2024-22365 
+                        ├ [58] ╭ VulnerabilityID : CVE-2024-2511 
+                        │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
+                        │      ├ PkgName         : openssl-libs 
+                        │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
+                        │      │                          x86_64&distro=redhat-9.3&epoch=1 
+                        │      ├ InstalledVersion: 1:3.0.7-25.el9_3 
+                        │      ├ Status          : affected 
+                        │      ├ Layer            ╭ Digest: sha256:f5294f7871463967a22a963cc17da7606f49fd9
+                        │      │                  │         d25136d5f4f5fd207f569ad2b 
+                        │      │                  ╰ DiffID: sha256:1879365bc0766845e2175bcd50fbbf6d85c60f1
+                        │      │                            d74e729cfbf3989fe6fbdde17 
+                        │      ├ SeveritySource  : redhat 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-2511 
+                        │      ├ Title           : openssl: Unbounded memory growth with session handling
+                        │      │                   in TLSv1.3 
+                        │      ├ Description     : Issue summary: Some non-default TLS server
+                        │      │                   configurations can cause unbounded
+                        │      │                   memory growth when processing TLSv1.3 sessions
+                        │      │                   
+                        │      │                   Impact summary: An attacker may exploit certain server
+                        │      │                   configurations to trigger
+                        │      │                   unbounded memory growth that would lead to a Denial of
+                        │      │                   Service
+                        │      │                   
+                        │      │                   This problem can occur in TLSv1.3 if the non-default
+                        │      │                   SSL_OP_NO_TICKET option is
+                        │      │                   being used (but not if early_data support is also configured
+                        │      │                    and the default
+                        │      │                   anti-replay protection is in use). In this case, under
+                        │      │                   certain conditions, the
+                        │      │                   session cache can get into an incorrect state and it will
+                        │      │                   fail to flush properly
+                        │      │                   as it fills. The session cache will continue to grow in an
+                        │      │                   unbounded manner. A
+                        │      │                   malicious client could deliberately create the scenario for
+                        │      │                   this failure to
+                        │      │                   force a Denial of Service. It may also happen by accident in
+                        │      │                    normal operation.
+                        │      │                   
+                        │      │                   This issue only affects TLS servers supporting TLSv1.3. It
+                        │      │                   does not affect TLS
+                        │      │                   clients.
+                        │      │                   
+                        │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
+                        │      │                   this issue. OpenSSL
+                        │      │                   1.0.2 is also not affected by this issue. 
+                        │      ├ Severity        : LOW 
+                        │      ├ VendorSeverity   ╭ redhat: 1 
+                        │      │                  ╰ ubuntu: 2 
+                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+                        │      │                           │           N/I:N/A:L 
+                        │      │                           ╰ V3Score : 3.7 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-2511 
+                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2024-2511 
+                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/7e4d73
+                        │      │                  │       1b1c07201ad9374c1cd9ac5263bdf35bce 
+                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/7e4d73
+                        │      │                  │       1b1c07201ad9374c1cd9ac5263bdf35bce
+                        │      │                  │       (openssl-3.1.y) 
+                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/b52867
+                        │      │                  │       a9f618bb955bed2a3ce3db4d4f97ed8e5d 
+                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/b52867
+                        │      │                  │       a9f618bb955bed2a3ce3db4d4f97ed8e5d
+                        │      │                  │       (openssl-3.0.y) 
+                        │      │                  ├ [6] : https://github.com/openssl/openssl/commit/e9d708
+                        │      │                  │       3e241670332e0443da0f0d4ffb52829f08 
+                        │      │                  ├ [7] : https://github.com/openssl/openssl/commit/e9d708
+                        │      │                  │       3e241670332e0443da0f0d4ffb52829f08
+                        │      │                  │       (openssl-3.2.y) 
+                        │      │                  ├ [8] : https://github.openssl.org/openssl/extended-rele
+                        │      │                  │       ases/commit/5f8d25770ae6437db119dfc951e207271a326640
+                        │      │                  │       [m 
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-2511 
+                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-2511 
+                        │      │                  ├ [11]: https://www.openssl.org/news/secadv/20240408.txt 
+                        │      │                  ╰ [12]: https://www.openssl.org/news/vulnerabilities.html 
+                        │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
+                        │      ╰ LastModifiedDate: 2024-04-08T18:48:40.217Z 
+                        ├ [59] ╭ VulnerabilityID : CVE-2024-22365 
                         │      ├ PkgID           : pam@1.5.1-15.el9.x86_64 
                         │      ├ PkgName         : pam 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/pam@1.5.1-15.el9?arch=x86_64&dist
@@ -3530,11 +3693,12 @@
                         │      │                   mkfifo because the openat call (for protect_dir) lacks
                         │      │                   O_DIRECTORY. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ amazon: 1 
-                        │      │                  ├ nvd   : 2 
-                        │      │                  ├ photon: 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 1 
+                        │      │                  ├ cbl-mariner: 2 
+                        │      │                  ├ nvd        : 2 
+                        │      │                  ├ photon     : 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
                         │      │                  │        │           N/I:N/A:H 
                         │      │                  │        ╰ V3Score : 5.5 
@@ -3559,7 +3723,7 @@
                         │      │                          /01/18/3 
                         │      ├ PublishedDate   : 2024-02-06T08:15:52.203Z 
                         │      ╰ LastModifiedDate: 2024-02-14T00:27:40.143Z 
-                        ├ [58] ╭ VulnerabilityID : CVE-2022-41409 
+                        ├ [60] ╭ VulnerabilityID : CVE-2022-41409 
                         │      ├ PkgID           : pcre2@10.40-2.el9.x86_64 
                         │      ├ PkgName         : pcre2 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/pcre2@10.40-2.el9?arch=x86_64&dis
@@ -3599,7 +3763,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
                         │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
                         │      ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
-                        ├ [59] ╭ VulnerabilityID : CVE-2022-41409 
+                        ├ [61] ╭ VulnerabilityID : CVE-2022-41409 
                         │      ├ PkgID           : pcre2-syntax@10.40-2.el9.noarch 
                         │      ├ PkgName         : pcre2-syntax 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-2.el9?arch=noa
@@ -3639,7 +3803,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
                         │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
                         │      ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
-                        ├ [60] ╭ VulnerabilityID : CVE-2021-23336 
+                        ├ [62] ╭ VulnerabilityID : CVE-2021-23336 
                         │      ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.1.noarch 
                         │      ├ PkgName         : python-unversioned-command 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
@@ -3799,7 +3963,7 @@
                         │      │                          1.html 
                         │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-                        ├ [61] ╭ VulnerabilityID : CVE-2022-0391 
+                        ├ [63] ╭ VulnerabilityID : CVE-2022-0391 
                         │      ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.1.noarch 
                         │      ├ PkgName         : python-unversioned-command 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
@@ -3873,7 +4037,7 @@
                         │      │                          2.html 
                         │      ├ PublishedDate   : 2022-02-09T23:15:16.58Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:41:13.75Z 
-                        ├ [62] ╭ VulnerabilityID : CVE-2023-36632 
+                        ├ [64] ╭ VulnerabilityID : CVE-2023-36632 
                         │      ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.1.noarch 
                         │      ├ PkgName         : python-unversioned-command 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
@@ -3927,7 +4091,7 @@
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
                         │      ╰ LastModifiedDate: 2024-03-21T02:48:03.197Z 
-                        ├ [63] ╭ VulnerabilityID : CVE-2021-23336 
+                        ├ [65] ╭ VulnerabilityID : CVE-2021-23336 
                         │      ├ PkgID           : python3@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3@3.9.18-1.el9_3.1?arch=x86
@@ -4087,7 +4251,7 @@
                         │      │                          1.html 
                         │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-                        ├ [64] ╭ VulnerabilityID : CVE-2022-0391 
+                        ├ [66] ╭ VulnerabilityID : CVE-2022-0391 
                         │      ├ PkgID           : python3@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3@3.9.18-1.el9_3.1?arch=x86
@@ -4161,7 +4325,7 @@
                         │      │                          2.html 
                         │      ├ PublishedDate   : 2022-02-09T23:15:16.58Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:41:13.75Z 
-                        ├ [65] ╭ VulnerabilityID : CVE-2023-36632 
+                        ├ [67] ╭ VulnerabilityID : CVE-2023-36632 
                         │      ├ PkgID           : python3@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3@3.9.18-1.el9_3.1?arch=x86
@@ -4215,7 +4379,7 @@
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
                         │      ╰ LastModifiedDate: 2024-03-21T02:48:03.197Z 
-                        ├ [66] ╭ VulnerabilityID : CVE-2021-23336 
+                        ├ [68] ╭ VulnerabilityID : CVE-2021-23336 
                         │      ├ PkgID           : python3-libs@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3-libs@3.9.18-1.el9_3.1?arc
@@ -4375,7 +4539,7 @@
                         │      │                          1.html 
                         │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-                        ├ [67] ╭ VulnerabilityID : CVE-2022-0391 
+                        ├ [69] ╭ VulnerabilityID : CVE-2022-0391 
                         │      ├ PkgID           : python3-libs@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3-libs@3.9.18-1.el9_3.1?arc
@@ -4449,7 +4613,7 @@
                         │      │                          2.html 
                         │      ├ PublishedDate   : 2022-02-09T23:15:16.58Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:41:13.75Z 
-                        ├ [68] ╭ VulnerabilityID : CVE-2023-36632 
+                        ├ [70] ╭ VulnerabilityID : CVE-2023-36632 
                         │      ├ PkgID           : python3-libs@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3-libs@3.9.18-1.el9_3.1?arc
@@ -4503,7 +4667,7 @@
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
                         │      ╰ LastModifiedDate: 2024-03-21T02:48:03.197Z 
-                        ├ [69] ╭ VulnerabilityID : CVE-2021-3572 
+                        ├ [71] ╭ VulnerabilityID : CVE-2021-3572 
                         │      ├ PkgID           : python3-pip-wheel@21.2.3-7.el9_3.1.noarch 
                         │      ├ PkgName         : python3-pip-wheel 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-7.el9_3.
@@ -4576,7 +4740,7 @@
                         │      │                          2.html 
                         │      ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
                         │      ╰ LastModifiedDate: 2022-10-05T02:14:39.75Z 
-                        ├ [70] ╭ VulnerabilityID : CVE-2023-36191 
+                        ├ [72] ╭ VulnerabilityID : CVE-2023-36191 
                         │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
                         │      ├ PkgName         : sqlite-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x
@@ -4607,7 +4771,7 @@
                         │      │                  ╰ [3]: https://www.sqlite.org/forum/forumpost/19f55ef73b 
                         │      ├ PublishedDate   : 2023-06-23T02:15:09.597Z 
                         │      ╰ LastModifiedDate: 2023-11-07T04:16:25.153Z 
-                        ├ [71] ╭ VulnerabilityID : CVE-2024-0232 
+                        ├ [73] ╭ VulnerabilityID : CVE-2024-0232 
                         │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
                         │      ├ PkgName         : sqlite-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x
@@ -4652,7 +4816,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
                         │      ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
                         │      ╰ LastModifiedDate: 2024-03-15T11:15:08.56Z 
-                        ├ [72] ╭ VulnerabilityID : CVE-2021-3997 
+                        ├ [74] ╭ VulnerabilityID : CVE-2021-3997 
                         │      ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │      ├ PkgName         : systemd-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/systemd-libs@252-18.el9?arch=x86_
@@ -4698,7 +4862,7 @@
                         │      │                         01/10/2 
                         │      ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
                         │      ╰ LastModifiedDate: 2023-05-03T12:15:15.95Z 
-                        ├ [73] ╭ VulnerabilityID : CVE-2023-7008 
+                        ├ [75] ╭ VulnerabilityID : CVE-2023-7008 
                         │      ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │      ├ PkgName         : systemd-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/systemd-libs@252-18.el9?arch=x86_
@@ -4747,7 +4911,7 @@
                         │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
                         │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
                         │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-                        ├ [74] ╭ VulnerabilityID : CVE-2005-2541 
+                        ├ [76] ╭ VulnerabilityID : CVE-2005-2541 
                         │      ├ PkgID           : tar@1.34-6.el9_1.x86_64 
                         │      ├ PkgName         : tar 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dist
@@ -4782,7 +4946,7 @@
                         │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
                         │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
                         │      ╰ LastModifiedDate: 2023-11-07T01:57:39.453Z 
-                        ╰ [75] ╭ VulnerabilityID : CVE-2023-39804 
+                        ╰ [77] ╭ VulnerabilityID : CVE-2023-39804 
                                ├ PkgID           : tar@1.34-6.el9_1.x86_64 
                                ├ PkgName         : tar 
                                ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dist
