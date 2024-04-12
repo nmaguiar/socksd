@@ -1080,20 +1080,21 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28834 
-                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
-                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:1784 
+                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-28834 
+                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
+                        │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │      │                  │      E-2024-28834 
-                        │      │                  ├ [3]: https://gitlab.com/gnutls/gnutls/-/issues/1516 
-                        │      │                  ├ [4]: https://lists.gnupg.org/pipermail/gnutls-help/202
+                        │      │                  ├ [4]: https://gitlab.com/gnutls/gnutls/-/issues/1516 
+                        │      │                  ├ [5]: https://lists.gnupg.org/pipermail/gnutls-help/202
                         │      │                  │      4-March/004845.html 
-                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
-                        │      │                  ├ [6]: https://people.redhat.com/~hkario/marvin/ 
-                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
-                        │      │                  ╰ [8]: https://www.gnutls.org/security-new.html#GNUTLS-S
+                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
+                        │      │                  ├ [7]: https://people.redhat.com/~hkario/marvin/ 
+                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
+                        │      │                  ╰ [9]: https://www.gnutls.org/security-new.html#GNUTLS-S
                         │      │                         A-2023-12-04 
                         │      ├ PublishedDate   : 2024-03-21T14:15:07.547Z 
-                        │      ╰ LastModifiedDate: 2024-03-21T15:24:35.093Z 
+                        │      ╰ LastModifiedDate: 2024-04-11T23:15:09.37Z 
                         ├ [19] ╭ VulnerabilityID : CVE-2024-28835 
                         │      ├ PkgID           : gnutls@3.7.6-23.el9_3.3.x86_64 
                         │      ├ PkgName         : gnutls 
@@ -1505,17 +1506,23 @@
                         │      │                   sending headers, this leads to memory exhaustion. 
                         │      ├ Severity        : HIGH 
                         │      ├ CweIDs           ─ [0]: CWE-400 
-                        │      ├ VendorSeverity   ─ redhat: 3 
+                        │      ├ VendorSeverity   ╭ photon: 3 
+                        │      │                  ├ redhat: 3 
+                        │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 7.5 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-27316 
-                        │      │                  ├ [1]: https://httpd.apache.org/security/vulnerabilities
+                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2024-27316 
+                        │      │                  ├ [2]: https://httpd.apache.org/security/vulnerabilities
                         │      │                  │      _24.html 
-                        │      │                  ├ [2]: https://nowotarski.info/http2-continuation-flood/ 
-                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-27316 
-                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-27316 
-                        │      │                  ╰ [5]: https://www.kb.cert.org/vuls/id/421644 
+                        │      │                  ├ [3]: https://kb.cert.org/vuls/id/421644 
+                        │      │                  ├ [4]: https://nowotarski.info/http2-continuation-flood/ 
+                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-27316 
+                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6729-1 
+                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-27316 
+                        │      │                  ╰ [8]: https://www.kb.cert.org/vuls/id/421644 
                         │      ├ PublishedDate   : 2024-04-04T20:15:08.72Z 
                         │      ╰ LastModifiedDate: 2024-04-05T12:40:52.763Z 
                         ├ [29] ╭ VulnerabilityID : CVE-2022-27943 
@@ -1653,7 +1660,7 @@
                         │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-45322 
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45322 
                         │      ├ PublishedDate   : 2023-10-06T22:15:11.66Z 
-                        │      ╰ LastModifiedDate: 2024-03-21T02:49:16.44Z 
+                        │      ╰ LastModifiedDate: 2024-04-11T01:21:55.82Z 
                         ├ [32] ╭ VulnerabilityID : CVE-2024-3205 
                         │      ├ PkgID           : libyaml@0.2.5-7.el9.x86_64 
                         │      ├ PkgName         : libyaml 
@@ -1692,7 +1699,7 @@
                         │      │                  ├ [5]: https://vuldb.com/?submit.304561 
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-3205 
                         │      ├ PublishedDate   : 2024-04-02T23:15:54.627Z 
-                        │      ╰ LastModifiedDate: 2024-04-03T12:38:04.84Z 
+                        │      ╰ LastModifiedDate: 2024-04-11T01:25:56.01Z 
                         ├ [33] ╭ VulnerabilityID : CVE-2022-4899 
                         │      ├ PkgID           : libzstd@1.5.1-2.el9.x86_64 
                         │      ├ PkgName         : libzstd 
@@ -2472,7 +2479,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -2586,7 +2593,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2719,7 +2726,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2953,13 +2960,12 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
-                        │      │                  ├ cbl-mariner: 2 
-                        │      │                  ├ ghsa       : 2 
-                        │      │                  ├ nvd        : 2 
-                        │      │                  ├ photon     : 2 
-                        │      │                  ├ redhat     : 1 
-                        │      │                  ╰ ubuntu     : 1 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ ghsa  : 2 
+                        │      │                  ├ nvd   : 2 
+                        │      │                  ├ photon: 2 
+                        │      │                  ├ redhat: 1 
+                        │      │                  ╰ ubuntu: 1 
                         │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           N/I:N/A:H 
                         │      │                  │        ╰ V3Score : 5.5 
@@ -3050,7 +3056,8 @@
                         │      │                   this issue. OpenSSL
                         │      │                   1.0.2 is also not affected by this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ redhat: 1 
+                        │      ├ VendorSeverity   ╭ photon: 3 
+                        │      │                  ├ redhat: 1 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
@@ -3231,7 +3238,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -3345,7 +3352,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3478,7 +3485,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3712,13 +3719,12 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
-                        │      │                  ├ cbl-mariner: 2 
-                        │      │                  ├ ghsa       : 2 
-                        │      │                  ├ nvd        : 2 
-                        │      │                  ├ photon     : 2 
-                        │      │                  ├ redhat     : 1 
-                        │      │                  ╰ ubuntu     : 1 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ ghsa  : 2 
+                        │      │                  ├ nvd   : 2 
+                        │      │                  ├ photon: 2 
+                        │      │                  ├ redhat: 1 
+                        │      │                  ╰ ubuntu: 1 
                         │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           N/I:N/A:H 
                         │      │                  │        ╰ V3Score : 5.5 
@@ -3809,7 +3815,8 @@
                         │      │                   this issue. OpenSSL
                         │      │                   1.0.2 is also not affected by this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ redhat: 1 
+                        │      ├ VendorSeverity   ╭ photon: 3 
+                        │      │                  ├ redhat: 1 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
@@ -4258,7 +4265,7 @@
                         │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36632 
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
-                        │      ╰ LastModifiedDate: 2024-03-21T02:48:03.197Z 
+                        │      ╰ LastModifiedDate: 2024-04-11T01:20:41.153Z 
                         ├ [67] ╭ VulnerabilityID : CVE-2021-23336 
                         │      ├ PkgID           : python3@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3 
@@ -4546,7 +4553,7 @@
                         │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36632 
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
-                        │      ╰ LastModifiedDate: 2024-03-21T02:48:03.197Z 
+                        │      ╰ LastModifiedDate: 2024-04-11T01:20:41.153Z 
                         ├ [70] ╭ VulnerabilityID : CVE-2021-23336 
                         │      ├ PkgID           : python3-libs@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3-libs 
@@ -4834,7 +4841,7 @@
                         │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36632 
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
-                        │      ╰ LastModifiedDate: 2024-03-21T02:48:03.197Z 
+                        │      ╰ LastModifiedDate: 2024-04-11T01:20:41.153Z 
                         ├ [73] ╭ VulnerabilityID : CVE-2021-3572 
                         │      ├ PkgID           : python3-pip-wheel@21.2.3-7.el9.noarch 
                         │      ├ PkgName         : python3-pip-wheel 
