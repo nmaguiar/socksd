@@ -52,7 +52,8 @@
                         │     │                    issue. OpenSSL
                         │     │                   1.0.2 is also not affected by this issue. 
                         │     ├ Severity        : LOW 
-                        │     ├ VendorSeverity   ╭ redhat: 1 
+                        │     ├ VendorSeverity   ╭ photon: 3 
+                        │     │                  ├ redhat: 1 
                         │     │                  ╰ ubuntu: 2 
                         │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
                         │     │                           │           /I:N/A:L 
@@ -134,7 +135,8 @@
                         │     │                    issue. OpenSSL
                         │     │                   1.0.2 is also not affected by this issue. 
                         │     ├ Severity        : LOW 
-                        │     ├ VendorSeverity   ╭ redhat: 1 
+                        │     ├ VendorSeverity   ╭ photon: 3 
+                        │     │                  ├ redhat: 1 
                         │     │                  ╰ ubuntu: 2 
                         │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
                         │     │                           │           /I:N/A:L 
@@ -216,7 +218,8 @@
                               │                    issue. OpenSSL
                               │                   1.0.2 is also not affected by this issue. 
                               ├ Severity        : LOW 
-                              ├ VendorSeverity   ╭ redhat: 1 
+                              ├ VendorSeverity   ╭ photon: 3 
+                              │                  ├ redhat: 1 
                               │                  ╰ ubuntu: 2 
                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
                               │                           │           /I:N/A:L 
