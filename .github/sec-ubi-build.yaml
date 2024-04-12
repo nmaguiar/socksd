@@ -877,6 +877,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2024:1784
     - https://access.redhat.com/security/cve/CVE-2024-28834
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269228
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28834
@@ -887,7 +888,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-28834
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2023-12-04
     PublishedDate: '2024-03-21T14:15:07.547Z'
-    LastModifiedDate: '2024-03-21T15:24:35.093Z'
+    LastModifiedDate: '2024-04-11T23:15:09.37Z'
   - VulnerabilityID: CVE-2024-28835
     PkgID: gnutls@3.7.6-23.el9_3.3.x86_64
     PkgName: gnutls
@@ -1183,16 +1184,21 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      photon: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2024-27316
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27316
     - https://httpd.apache.org/security/vulnerabilities_24.html
+    - https://kb.cert.org/vuls/id/421644
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-27316
+    - https://ubuntu.com/security/notices/USN-6729-1
     - https://www.cve.org/CVERecord?id=CVE-2024-27316
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T20:15:08.72Z'
@@ -1320,7 +1326,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45322
     - https://www.cve.org/CVERecord?id=CVE-2023-45322
     PublishedDate: '2023-10-06T22:15:11.66Z'
-    LastModifiedDate: '2024-03-21T02:49:16.44Z'
+    LastModifiedDate: '2024-04-11T01:21:55.82Z'
   - VulnerabilityID: CVE-2024-3205
     PkgID: libyaml@0.2.5-7.el9.x86_64
     PkgName: libyaml
@@ -1353,7 +1359,7 @@
     - https://vuldb.com/?submit.304561
     - https://www.cve.org/CVERecord?id=CVE-2024-3205
     PublishedDate: '2024-04-02T23:15:54.627Z'
-    LastModifiedDate: '2024-04-03T12:38:04.84Z'
+    LastModifiedDate: '2024-04-11T01:25:56.01Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd@1.5.1-2.el9.x86_64
     PkgName: libzstd
@@ -2046,7 +2052,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2133,7 +2139,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2231,7 +2237,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2409,8 +2415,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 3
-      cbl-mariner: 2
+      amazon: 2
       ghsa: 2
       nvd: 2
       photon: 2
@@ -2483,6 +2488,7 @@
       1.0.2 is also not affected by this issue.
     Severity: LOW
     VendorSeverity:
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -2618,7 +2624,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2705,7 +2711,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2803,7 +2809,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2981,8 +2987,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 3
-      cbl-mariner: 2
+      amazon: 2
       ghsa: 2
       nvd: 2
       photon: 2
@@ -3055,6 +3060,7 @@
       1.0.2 is also not affected by this issue.
     Severity: LOW
     VendorSeverity:
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -3388,7 +3394,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
-    LastModifiedDate: '2024-03-21T02:48:03.197Z'
+    LastModifiedDate: '2024-04-11T01:20:41.153Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3@3.9.18-1.el9_3.1.x86_64
     PkgName: python3
@@ -3579,7 +3585,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
-    LastModifiedDate: '2024-03-21T02:48:03.197Z'
+    LastModifiedDate: '2024-04-11T01:20:41.153Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3-libs@3.9.18-1.el9_3.1.x86_64
     PkgName: python3-libs
@@ -3770,7 +3776,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
-    LastModifiedDate: '2024-03-21T02:48:03.197Z'
+    LastModifiedDate: '2024-04-11T01:20:41.153Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.2.3-7.el9_3.1.noarch
     PkgName: python3-pip-wheel
