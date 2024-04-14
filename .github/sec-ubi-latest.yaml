@@ -465,6 +465,7 @@
     - CWE-122
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 3
       nvd: 3
       photon: 3
       redhat: 2
@@ -987,6 +988,35 @@
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2024-01-23
     PublishedDate: '2024-03-21T06:15:45.113Z'
     LastModifiedDate: '2024-03-21T12:58:51.093Z'
+  - VulnerabilityID: CVE-2024-26462
+    PkgID: krb5-libs@1.21.1-1.el9.x86_64
+    PkgName: krb5-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 1.21.1-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
+      DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
+    Title: 'krb5: Memory leak at /krb5/src/kdc/ndr.c'
+    Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-26462
+    - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
+    - https://www.cve.org/CVERecord?id=CVE-2024-26462
+    PublishedDate: '2024-02-29T01:44:18.857Z'
+    LastModifiedDate: '2024-02-29T13:49:29.39Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: krb5-libs@1.21.1-1.el9.x86_64
     PkgName: krb5-libs
@@ -1007,8 +1037,8 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26458
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
@@ -1036,43 +1066,14 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26461
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
-    LastModifiedDate: '2024-02-29T13:49:29.39Z'
-  - VulnerabilityID: CVE-2024-26462
-    PkgID: krb5-libs@1.21.1-1.el9.x86_64
-    PkgName: krb5-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_64&distro=redhat-9.3
-    InstalledVersion: 1.21.1-1.el9
-    Status: affected
-    Layer:
-      Digest: sha256:618a12cda2192c7ea079d856c09223e1a1156364b5a89f38d8882f9dc45b7170
-      DiffID: sha256:3486901c4fa377460b77292ecd6b2d19cb9ed900a6260132e786605605725b3f
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
-    Title: 'krb5: Memory leak at /krb5/src/kdc/ndr.c'
-    Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
-    Severity: LOW
-    VendorSeverity:
-      redhat: 1
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-26462
-    - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
-    - https://www.cve.org/CVERecord?id=CVE-2024-26462
-    PublishedDate: '2024-02-29T01:44:18.857Z'
     LastModifiedDate: '2024-02-29T13:49:29.39Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
@@ -1306,13 +1307,14 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-27316
     Title: 'httpd: CONTINUATION frames DoS'
     Description: HTTP/2 incoming headers exceeding the limit are temporarily buffered in nghttp2 in order to generate an informative HTTP 413 response. If a client does not stop sending headers, this leads to memory exhaustion.
-    Severity: HIGH
+    Severity: MEDIUM
     CweIDs:
     - CWE-400
     VendorSeverity:
       alma: 3
+      oracle-oval: 3
       photon: 3
-      redhat: 3
+      redhat: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1325,6 +1327,8 @@
     - https://errata.almalinux.org/8/ALSA-2024-1786.html
     - https://httpd.apache.org/security/vulnerabilities_24.html
     - https://kb.cert.org/vuls/id/421644
+    - https://linux.oracle.com/cve/CVE-2024-27316.html
+    - https://linux.oracle.com/errata/ELSA-2024-1786.html
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-27316
     - https://ubuntu.com/security/notices/USN-6729-1
@@ -2172,7 +2176,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2258,7 +2262,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2355,7 +2359,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2530,7 +2534,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       ghsa: 2
       nvd: 2
       photon: 2
@@ -2733,7 +2737,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2819,7 +2823,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2916,7 +2920,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -3091,7 +3095,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       ghsa: 2
       nvd: 2
       photon: 2
