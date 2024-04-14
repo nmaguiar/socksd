@@ -514,11 +514,12 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ╭ [0]: CWE-787 
                         │      │                  ╰ [1]: CWE-122 
-                        │      ├ VendorSeverity   ╭ amazon: 2 
-                        │      │                  ├ nvd   : 3 
-                        │      │                  ├ photon: 3 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      │                  ├ cbl-mariner: 3 
+                        │      │                  ├ nvd        : 3 
+                        │      │                  ├ photon     : 3 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:
                         │      │                  │        │           H/I:H/A:H 
                         │      │                  │        ╰ V3Score : 7 
@@ -1031,7 +1032,36 @@
                         │      │                         A-2024-01-23 
                         │      ├ PublishedDate   : 2024-03-21T06:15:45.113Z 
                         │      ╰ LastModifiedDate: 2024-03-21T12:58:51.093Z 
-                        ├ [19] ╭ VulnerabilityID : CVE-2024-26458 
+                        ├ [19] ╭ VulnerabilityID : CVE-2024-26462 
+                        │      ├ PkgID           : krb5-libs@1.21.1-1.el9.x86_64 
+                        │      ├ PkgName         : krb5-libs 
+                        │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_6
+                        │      │                          4&distro=redhat-9.3 
+                        │      ├ InstalledVersion: 1.21.1-1.el9 
+                        │      ├ Status          : affected 
+                        │      ├ Layer            ╭ Digest: sha256:8d6ba4df85a3b4c2bc4dde3739f0fa937332fb2
+                        │      │                  │         de0e5935ed8591e0d6b5875d3 
+                        │      │                  ╰ DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a
+                        │      │                            1f5d1efbeee13333b17c620fa 
+                        │      ├ SeveritySource  : redhat 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26462 
+                        │      ├ Title           : krb5: Memory leak at /krb5/src/kdc/ndr.c 
+                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
+                        │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      │                  ╰ ubuntu: 2 
+                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      │                           │           N/I:N/A:H 
+                        │      │                           ╰ V3Score : 7.5 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
+                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
+                        │      │                  │      lob/main/krb5_detect_3.md 
+                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
+                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
+                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
+                        ├ [20] ╭ VulnerabilityID : CVE-2024-26458 
                         │      ├ PkgID           : krb5-libs@1.21.1-1.el9.x86_64 
                         │      ├ PkgName         : krb5-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_6
@@ -1050,9 +1080,9 @@
                         │      ├ Severity        : LOW 
                         │      ├ VendorSeverity   ╭ redhat: 1 
                         │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
-                        │      │                           ╰ V3Score : 7.5 
+                        │      │                           ╰ V3Score : 5.9 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
                         │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
                         │      │                  │      lob/main/krb5_detect_1.md 
@@ -1060,7 +1090,7 @@
                         │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
                         │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
                         │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-                        ├ [20] ╭ VulnerabilityID : CVE-2024-26461 
+                        ├ [21] ╭ VulnerabilityID : CVE-2024-26461 
                         │      ├ PkgID           : krb5-libs@1.21.1-1.el9.x86_64 
                         │      ├ PkgName         : krb5-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_6
@@ -1080,44 +1110,15 @@
                         │      ├ Severity        : LOW 
                         │      ├ VendorSeverity   ╭ redhat: 1 
                         │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
-                        │      │                           ╰ V3Score : 7.5 
+                        │      │                           ╰ V3Score : 5.9 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
                         │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
                         │      │                  │      lob/main/krb5_detect_2.md 
                         │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
                         │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
                         │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-                        ├ [21] ╭ VulnerabilityID : CVE-2024-26462 
-                        │      ├ PkgID           : krb5-libs@1.21.1-1.el9.x86_64 
-                        │      ├ PkgName         : krb5-libs 
-                        │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_6
-                        │      │                          4&distro=redhat-9.3 
-                        │      ├ InstalledVersion: 1.21.1-1.el9 
-                        │      ├ Status          : affected 
-                        │      ├ Layer            ╭ Digest: sha256:8d6ba4df85a3b4c2bc4dde3739f0fa937332fb2
-                        │      │                  │         de0e5935ed8591e0d6b5875d3 
-                        │      │                  ╰ DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a
-                        │      │                            1f5d1efbeee13333b17c620fa 
-                        │      ├ SeveritySource  : redhat 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26462 
-                        │      ├ Title           : krb5: Memory leak at /krb5/src/kdc/ndr.c 
-                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-                        │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
-                        │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ redhat: 1 
-                        │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-                        │      │                           │           N/I:N/A:H 
-                        │      │                           ╰ V3Score : 7.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
-                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
-                        │      │                  │      lob/main/krb5_detect_3.md 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
-                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
-                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
                         │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
                         ├ [22] ╭ VulnerabilityID : CVE-2023-30571 
                         │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
@@ -1304,12 +1305,13 @@
                         │      │                   temporarily buffered in nghttp2 in order to generate an
                         │      │                   informative HTTP 413 response. If a client does not stop
                         │      │                   sending headers, this leads to memory exhaustion. 
-                        │      ├ Severity        : HIGH 
+                        │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-400 
-                        │      ├ VendorSeverity   ╭ alma  : 3 
-                        │      │                  ├ photon: 3 
-                        │      │                  ├ redhat: 3 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ├ photon     : 3 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 7.5 
@@ -1320,11 +1322,13 @@
                         │      │                  ├ [4] : https://httpd.apache.org/security/vulnerabilitie
                         │      │                  │       s_24.html 
                         │      │                  ├ [5] : https://kb.cert.org/vuls/id/421644 
-                        │      │                  ├ [6] : https://nowotarski.info/http2-continuation-flood/ 
-                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-27316 
-                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6729-1 
-                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2024-27316 
-                        │      │                  ╰ [10]: https://www.kb.cert.org/vuls/id/421644 
+                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-27316.html 
+                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-1786.html 
+                        │      │                  ├ [8] : https://nowotarski.info/http2-continuation-flood/ 
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-27316 
+                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6729-1 
+                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-27316 
+                        │      │                  ╰ [12]: https://www.kb.cert.org/vuls/id/421644 
                         │      ├ PublishedDate   : 2024-04-04T20:15:08.72Z 
                         │      ╰ LastModifiedDate: 2024-04-05T12:40:52.763Z 
                         ├ [27] ╭ VulnerabilityID : CVE-2022-27943 
@@ -2263,7 +2267,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -2375,7 +2379,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2506,7 +2510,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2734,7 +2738,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      ├ VendorSeverity   ╭ amazon: 3 
                         │      │                  ├ ghsa  : 2 
                         │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
@@ -2997,7 +3001,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -3109,7 +3113,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3240,7 +3244,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3468,7 +3472,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      ├ VendorSeverity   ╭ amazon: 3 
                         │      │                  ├ ghsa  : 2 
                         │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
