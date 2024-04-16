@@ -934,6 +934,7 @@
     - CWE-200
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -947,9 +948,12 @@
     - https://bugzilla.redhat.com/2269228
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269228
     - https://errata.almalinux.org/8/ALSA-2024-1784.html
+    - https://linux.oracle.com/cve/CVE-2024-28834.html
+    - https://linux.oracle.com/errata/ELSA-2024-1784.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28834
     - https://people.redhat.com/~hkario/marvin/
+    - https://ubuntu.com/security/notices/USN-6733-1
     - https://www.cve.org/CVERecord?id=CVE-2024-28834
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2023-12-04
     PublishedDate: '2024-03-21T14:15:07.547Z'
@@ -984,6 +988,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269084
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28835
+    - https://ubuntu.com/security/notices/USN-6733-1
     - https://www.cve.org/CVERecord?id=CVE-2024-28835
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2024-01-23
     PublishedDate: '2024-03-21T06:15:45.113Z'
@@ -1477,6 +1482,7 @@
     - CWE-122
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
