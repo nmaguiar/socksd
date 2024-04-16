@@ -1059,25 +1059,29 @@
                         │      │                    a potential timing side-channel. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-200 
-                        │      ├ VendorSeverity   ╭ alma  : 2 
-                        │      │                  ├ photon: 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ photon     : 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:1784 
-                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-28834 
-                        │      │                  ├ [2]: https://bugzilla.redhat.com/2269228 
-                        │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
-                        │      │                  ├ [4]: https://errata.almalinux.org/8/ALSA-2024-1784.html 
-                        │      │                  ├ [5]: https://lists.gnupg.org/pipermail/gnutls-help/202
-                        │      │                  │      4-March/004845.html 
-                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
-                        │      │                  ├ [7]: https://people.redhat.com/~hkario/marvin/ 
-                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
-                        │      │                  ╰ [9]: https://www.gnutls.org/security-new.html#GNUTLS-S
-                        │      │                         A-2023-12-04 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1784 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-28834 
+                        │      │                  ├ [2] : https://bugzilla.redhat.com/2269228 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
+                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-1784.html 
+                        │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-28834.html 
+                        │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2024-1784.html 
+                        │      │                  ├ [7] : https://lists.gnupg.org/pipermail/gnutls-help/20
+                        │      │                  │       24-March/004845.html 
+                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
+                        │      │                  ├ [9] : https://people.redhat.com/~hkario/marvin/ 
+                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6733-1 
+                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
+                        │      │                  ╰ [12]: https://www.gnutls.org/security-new.html#GNUTLS-
+                        │      │                          SA-2023-12-04 
                         │      ├ PublishedDate   : 2024-03-21T14:15:07.547Z 
                         │      ╰ LastModifiedDate: 2024-04-11T23:15:09.37Z 
                         ├ [19] ╭ VulnerabilityID : CVE-2024-28835 
@@ -1111,8 +1115,9 @@
                         │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/202
                         │      │                  │      4-March/004845.html 
                         │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-28835 
-                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-28835 
-                        │      │                  ╰ [5]: https://www.gnutls.org/security-new.html#GNUTLS-S
+                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6733-1 
+                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2024-28835 
+                        │      │                  ╰ [6]: https://www.gnutls.org/security-new.html#GNUTLS-S
                         │      │                         A-2024-01-23 
                         │      ├ PublishedDate   : 2024-03-21T06:15:45.113Z 
                         │      ╰ LastModifiedDate: 2024-03-21T12:58:51.093Z 
@@ -1656,7 +1661,8 @@
                         │      │                   disclosure but did not respond in any way. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-122 
-                        │      ├ VendorSeverity   ─ redhat: 2 
+                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 7.5 
