@@ -992,14 +992,15 @@
                         │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2024-1784.html 
                         │      │                  ├ [7] : https://lists.gnupg.org/pipermail/gnutls-help/20
                         │      │                  │       24-March/004845.html 
-                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
-                        │      │                  ├ [9] : https://people.redhat.com/~hkario/marvin/ 
-                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6733-1 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
-                        │      │                  ╰ [12]: https://www.gnutls.org/security-new.html#GNUTLS-
+                        │      │                  ├ [8] : https://minerva.crocs.fi.muni.cz/ 
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
+                        │      │                  ├ [10]: https://people.redhat.com/~hkario/marvin/ 
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6733-1 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
+                        │      │                  ╰ [13]: https://www.gnutls.org/security-new.html#GNUTLS-
                         │      │                          SA-2023-12-04 
                         │      ├ PublishedDate   : 2024-03-21T14:15:07.547Z 
-                        │      ╰ LastModifiedDate: 2024-04-11T23:15:09.37Z 
+                        │      ╰ LastModifiedDate: 2024-04-16T10:15:08.023Z 
                         ├ [18] ╭ VulnerabilityID : CVE-2024-28835 
                         │      ├ PkgID           : gnutls@3.7.6-23.el9_3.3.x86_64 
                         │      ├ PkgName         : gnutls 
@@ -2273,7 +2274,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -2385,7 +2386,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2516,7 +2517,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2744,7 +2745,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      ├ VendorSeverity   ╭ amazon: 3 
                         │      │                  ├ ghsa  : 2 
                         │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
@@ -3007,7 +3008,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -3119,7 +3120,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3250,7 +3251,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3478,7 +3479,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      ├ VendorSeverity   ╭ amazon: 3 
                         │      │                  ├ ghsa  : 2 
                         │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
