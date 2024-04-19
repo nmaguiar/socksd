@@ -805,6 +805,108 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-32636
     PublishedDate: '2023-09-14T20:15:09.653Z'
     LastModifiedDate: '2024-01-12T22:09:56.247Z'
+  - VulnerabilityID: CVE-2024-2961
+    PkgID: glibc@2.34-83.el9_3.12.x86_64
+    PkgName: glibc
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc@2.34-83.el9_3.12?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 2.34-83.el9_3.12
+    Status: affected
+    Layer:
+      Digest: sha256:8d6ba4df85a3b4c2bc4dde3739f0fa937332fb2de0e5935ed8591e0d6b5875d3
+      DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a1f5d1efbeee13333b17c620fa
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2961
+    Title: 'glibc: Out of bounds write in iconv may lead to remote code execution'
+    Description: |
+      The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
+    - https://ubuntu.com/security/notices/USN-6737-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-2961
+    - https://www.openwall.com/lists/oss-security/2024/04/17/9
+    PublishedDate: '2024-04-17T18:15:15.833Z'
+    LastModifiedDate: '2024-04-17T20:08:21.887Z'
+  - VulnerabilityID: CVE-2024-2961
+    PkgID: glibc-common@2.34-83.el9_3.12.x86_64
+    PkgName: glibc-common
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-common@2.34-83.el9_3.12?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 2.34-83.el9_3.12
+    Status: affected
+    Layer:
+      Digest: sha256:8d6ba4df85a3b4c2bc4dde3739f0fa937332fb2de0e5935ed8591e0d6b5875d3
+      DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a1f5d1efbeee13333b17c620fa
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2961
+    Title: 'glibc: Out of bounds write in iconv may lead to remote code execution'
+    Description: |
+      The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
+    - https://ubuntu.com/security/notices/USN-6737-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-2961
+    - https://www.openwall.com/lists/oss-security/2024/04/17/9
+    PublishedDate: '2024-04-17T18:15:15.833Z'
+    LastModifiedDate: '2024-04-17T20:08:21.887Z'
+  - VulnerabilityID: CVE-2024-2961
+    PkgID: glibc-minimal-langpack@2.34-83.el9_3.12.x86_64
+    PkgName: glibc-minimal-langpack
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-83.el9_3.12?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 2.34-83.el9_3.12
+    Status: affected
+    Layer:
+      Digest: sha256:8d6ba4df85a3b4c2bc4dde3739f0fa937332fb2de0e5935ed8591e0d6b5875d3
+      DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a1f5d1efbeee13333b17c620fa
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2961
+    Title: 'glibc: Out of bounds write in iconv may lead to remote code execution'
+    Description: |
+      The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
+    - https://ubuntu.com/security/notices/USN-6737-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-2961
+    - https://www.openwall.com/lists/oss-security/2024/04/17/9
+    PublishedDate: '2024-04-17T18:15:15.833Z'
+    LastModifiedDate: '2024-04-17T20:08:21.887Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -817,7 +919,7 @@
       DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a1f5d1efbeee13333b17c620fa
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
-    Title: denial of service issue (resource consumption) using compressed packets
+    Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
     CweIDs:
@@ -845,12 +947,15 @@
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2023-05-26T16:31:34.07Z'
   - VulnerabilityID: CVE-2024-28834
+    VendorIDs:
+    - RHSA-2024:1879
     PkgID: gnutls@3.7.6-23.el9_3.3.x86_64
     PkgName: gnutls
     PkgIdentifier:
       PURL: pkg:rpm/redhat/gnutls@3.7.6-23.el9_3.3?arch=x86_64&distro=redhat-9.3
     InstalledVersion: 3.7.6-23.el9_3.3
-    Status: affected
+    FixedVersion: 3.7.6-23.el9_3.4
+    Status: fixed
     Layer:
       Digest: sha256:8d6ba4df85a3b4c2bc4dde3739f0fa937332fb2de0e5935ed8591e0d6b5875d3
       DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a1f5d1efbeee13333b17c620fa
@@ -873,12 +978,14 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/errata/RHSA-2024:1784
+    - https://access.redhat.com/errata/RHSA-2024:1879
     - https://access.redhat.com/security/cve/CVE-2024-28834
+    - https://bugzilla.redhat.com/2269084
     - https://bugzilla.redhat.com/2269228
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269228
-    - https://errata.almalinux.org/8/ALSA-2024-1784.html
+    - https://errata.almalinux.org/9/ALSA-2024-1879.html
     - https://linux.oracle.com/cve/CVE-2024-28834.html
-    - https://linux.oracle.com/errata/ELSA-2024-1784.html
+    - https://linux.oracle.com/errata/ELSA-2024-1879.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
     - https://minerva.crocs.fi.muni.cz/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28834
@@ -887,14 +994,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-28834
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2023-12-04
     PublishedDate: '2024-03-21T14:15:07.547Z'
-    LastModifiedDate: '2024-04-16T10:15:08.023Z'
+    LastModifiedDate: '2024-04-18T05:15:48.167Z'
   - VulnerabilityID: CVE-2024-28835
+    VendorIDs:
+    - RHSA-2024:1879
     PkgID: gnutls@3.7.6-23.el9_3.3.x86_64
     PkgName: gnutls
     PkgIdentifier:
       PURL: pkg:rpm/redhat/gnutls@3.7.6-23.el9_3.3?arch=x86_64&distro=redhat-9.3
     InstalledVersion: 3.7.6-23.el9_3.3
-    Status: affected
+    FixedVersion: 3.7.6-23.el9_3.4
+    Status: fixed
     Layer:
       Digest: sha256:8d6ba4df85a3b4c2bc4dde3739f0fa937332fb2de0e5935ed8591e0d6b5875d3
       DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a1f5d1efbeee13333b17c620fa
@@ -906,6 +1016,8 @@
     CweIDs:
     - CWE-248
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -914,15 +1026,21 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:1879
     - https://access.redhat.com/security/cve/CVE-2024-28835
+    - https://bugzilla.redhat.com/2269084
+    - https://bugzilla.redhat.com/2269228
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269084
+    - https://errata.almalinux.org/9/ALSA-2024-1879.html
+    - https://linux.oracle.com/cve/CVE-2024-28835.html
+    - https://linux.oracle.com/errata/ELSA-2024-1879.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28835
     - https://ubuntu.com/security/notices/USN-6733-1
     - https://www.cve.org/CVERecord?id=CVE-2024-28835
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2024-01-23
     PublishedDate: '2024-03-21T06:15:45.113Z'
-    LastModifiedDate: '2024-03-21T12:58:51.093Z'
+    LastModifiedDate: '2024-04-18T05:15:48.263Z'
   - VulnerabilityID: CVE-2024-21011
     PkgID: java-21-openjdk-headless@21.0.2.0.13-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -939,6 +1057,7 @@
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u401, 8u401-perf, 11.0.22, 17.0.10, 21.0.2, 22; Oracle GraalVM for JDK: 17.0.10, 21.0.2, 22;   Oracle GraalVM Enterprise Edition: 20.3.13 and  21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
     CVSS:
@@ -946,7 +1065,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2024:1825
     - https://access.redhat.com/security/cve/CVE-2024-21011
+    - https://bugzilla.redhat.com/2274975
+    - https://bugzilla.redhat.com/2274977
+    - https://bugzilla.redhat.com/2275003
+    - https://bugzilla.redhat.com/2275005
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://linux.oracle.com/cve/CVE-2024-21011.html
     - https://linux.oracle.com/errata/ELSA-2024-1817.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21011
@@ -971,6 +1096,7 @@
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u401-perf, 11.0.22, 17.0.10, 21.0.2, 22; Oracle GraalVM for JDK: 17.0.10, 21.0.2 and  22; Oracle GraalVM Enterprise Edition: 21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
     CVSS:
@@ -978,7 +1104,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2024:1825
     - https://access.redhat.com/security/cve/CVE-2024-21068
+    - https://bugzilla.redhat.com/2274975
+    - https://bugzilla.redhat.com/2274977
+    - https://bugzilla.redhat.com/2275003
+    - https://bugzilla.redhat.com/2275005
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://linux.oracle.com/cve/CVE-2024-21068.html
     - https://linux.oracle.com/errata/ELSA-2024-1817.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21068
@@ -1003,6 +1135,7 @@
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u401, 8u401-perf, 11.0.22, 17.0.10, 21.0.2, 22; Oracle GraalVM for JDK: 17.0.10, 21.0.2, 22; Oracle GraalVM Enterprise Edition: 20.3.13 and  21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
     CVSS:
@@ -1010,7 +1143,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2024:1825
     - https://access.redhat.com/security/cve/CVE-2024-21094
+    - https://bugzilla.redhat.com/2274975
+    - https://bugzilla.redhat.com/2274977
+    - https://bugzilla.redhat.com/2275003
+    - https://bugzilla.redhat.com/2275005
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1817.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21094
@@ -1035,13 +1174,20 @@
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 11.0.22, 17.0.10, 21.0.2, 22; Oracle GraalVM for JDK: 17.0.10, 21.0.2, 22; Oracle GraalVM Enterprise Edition: 20.3.13 and  21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: LOW
     VendorSeverity:
+      alma: 2
       redhat: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2024:1825
     - https://access.redhat.com/security/cve/CVE-2024-21012
+    - https://bugzilla.redhat.com/2274975
+    - https://bugzilla.redhat.com/2274977
+    - https://bugzilla.redhat.com/2275003
+    - https://bugzilla.redhat.com/2275005
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21012
     - https://www.cve.org/CVERecord?id=CVE-2024-21012
     - https://www.oracle.com/security-alerts/cpuapr2024.html
@@ -1220,7 +1366,7 @@
       DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a1f5d1efbeee13333b17c620fa
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
-    Title: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const
+    Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
     CweIDs:
@@ -1313,14 +1459,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1786
+    - https://access.redhat.com/errata/RHSA-2024:1872
     - https://access.redhat.com/security/cve/CVE-2024-27316
     - https://bugzilla.redhat.com/2268277
-    - https://errata.almalinux.org/8/ALSA-2024-1786.html
+    - https://errata.almalinux.org/9/ALSA-2024-1872.html
     - https://httpd.apache.org/security/vulnerabilities_24.html
     - https://kb.cert.org/vuls/id/421644
     - https://linux.oracle.com/cve/CVE-2024-27316.html
-    - https://linux.oracle.com/errata/ELSA-2024-1786.html
+    - https://linux.oracle.com/errata/ELSA-2024-1872.html
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-27316
     - https://ubuntu.com/security/notices/USN-6729-1
@@ -1341,7 +1487,7 @@
       DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a1f5d1efbeee13333b17c620fa
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
-    Title: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const
+    Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
     CweIDs:
@@ -1632,7 +1778,7 @@
       DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a1f5d1efbeee13333b17c620fa
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-29458
-    Title: segfaulting OOB read
+    Title: 'ncurses: segfaulting OOB read'
     Description: ncurses 6.3 before patch 20220416 has an out-of-bounds read and segmentation violation in convert_strings in tinfo/read_entry.c in the terminfo library.
     Severity: LOW
     CweIDs:
@@ -1718,7 +1864,7 @@
       DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a1f5d1efbeee13333b17c620fa
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-29458
-    Title: segfaulting OOB read
+    Title: 'ncurses: segfaulting OOB read'
     Description: ncurses 6.3 before patch 20220416 has an out-of-bounds read and segmentation violation in convert_strings in tinfo/read_entry.c in the terminfo library.
     Severity: LOW
     CweIDs:
@@ -2170,7 +2316,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2256,7 +2402,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2353,7 +2499,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2528,7 +2674,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       ghsa: 2
       nvd: 2
       photon: 2
@@ -2571,7 +2717,7 @@
     PkgIdentifier:
       PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_64&distro=redhat-9.3&epoch=1
     InstalledVersion: 1:3.0.7-25.el9_3
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:8d6ba4df85a3b4c2bc4dde3739f0fa937332fb2de0e5935ed8591e0d6b5875d3
       DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a1f5d1efbeee13333b17c620fa
@@ -2731,7 +2877,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2817,7 +2963,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2914,7 +3060,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -3089,7 +3235,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       ghsa: 2
       nvd: 2
       photon: 2
@@ -3132,7 +3278,7 @@
     PkgIdentifier:
       PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=x86_64&distro=redhat-9.3&epoch=1
     InstalledVersion: 1:3.0.7-25.el9_3
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:8d6ba4df85a3b4c2bc4dde3739f0fa937332fb2de0e5935ed8591e0d6b5875d3
       DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a1f5d1efbeee13333b17c620fa
@@ -4011,7 +4157,7 @@
       DiffID: sha256:db8963476c4769245027a0a113f8209948ce23a1f5d1efbeee13333b17c620fa
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-3997
-    Title: Uncontrolled recursion in systemd-tmpfiles when removing files
+    Title: 'systemd: Uncontrolled recursion in systemd-tmpfiles when removing files'
     Description: A flaw was found in systemd. An uncontrolled recursion in systemd-tmpfiles may lead to a denial of service at boot time when too many nested directories are created in /tmp.
     Severity: MEDIUM
     CweIDs:
