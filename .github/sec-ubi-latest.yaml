@@ -634,12 +634,13 @@
     - https://curl.se/docs/CVE-2024-2398.html
     - https://curl.se/docs/CVE-2024-2398.json
     - https://hackerone.com/reports/2402845
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GMD6UYKCCRCYETWQZUJ65ZRFULT6SHLI/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2398
     - https://ubuntu.com/security/notices/USN-6718-1
     - https://ubuntu.com/security/notices/USN-6718-2
     - https://www.cve.org/CVERecord?id=CVE-2024-2398
     PublishedDate: '2024-03-27T08:15:41.283Z'
-    LastModifiedDate: '2024-03-27T12:29:30.307Z'
+    LastModifiedDate: '2024-04-19T23:15:10.867Z'
   - VulnerabilityID: CVE-2023-52425
     VendorIDs:
     - RHSA-2024:1530
@@ -903,13 +904,14 @@
         V3Score: 8.8
     References:
     - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
-    LastModifiedDate: '2024-04-17T20:08:21.887Z'
+    LastModifiedDate: '2024-04-19T23:15:10.99Z'
   - VulnerabilityID: CVE-2024-2961
     PkgID: glibc-common@2.34-83.el9_3.7.x86_64
     PkgName: glibc-common
@@ -937,13 +939,14 @@
         V3Score: 8.8
     References:
     - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
-    LastModifiedDate: '2024-04-17T20:08:21.887Z'
+    LastModifiedDate: '2024-04-19T23:15:10.99Z'
   - VulnerabilityID: CVE-2024-2961
     PkgID: glibc-minimal-langpack@2.34-83.el9_3.7.x86_64
     PkgName: glibc-minimal-langpack
@@ -971,13 +974,14 @@
         V3Score: 8.8
     References:
     - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
-    LastModifiedDate: '2024-04-17T20:08:21.887Z'
+    LastModifiedDate: '2024-04-19T23:15:10.99Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -1144,7 +1148,7 @@
     - https://bugzilla.redhat.com/2275005
     - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://linux.oracle.com/cve/CVE-2024-21011.html
-    - https://linux.oracle.com/errata/ELSA-2024-1817.html
+    - https://linux.oracle.com/errata/ELSA-2024-1825.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21011
     - https://www.cve.org/CVERecord?id=CVE-2024-21011
     - https://www.oracle.com/security-alerts/cpuapr2024.html
@@ -1183,7 +1187,7 @@
     - https://bugzilla.redhat.com/2275005
     - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://linux.oracle.com/cve/CVE-2024-21068.html
-    - https://linux.oracle.com/errata/ELSA-2024-1817.html
+    - https://linux.oracle.com/errata/ELSA-2024-1825.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21068
     - https://www.cve.org/CVERecord?id=CVE-2024-21068
     - https://www.oracle.com/security-alerts/cpuapr2024.html
@@ -1222,7 +1226,7 @@
     - https://bugzilla.redhat.com/2275005
     - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://linux.oracle.com/cve/CVE-2024-21094.html
-    - https://linux.oracle.com/errata/ELSA-2024-1817.html
+    - https://linux.oracle.com/errata/ELSA-2024-1825.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21094
     - https://www.cve.org/CVERecord?id=CVE-2024-21094
     - https://www.oracle.com/security-alerts/cpuapr2024.html
@@ -1246,6 +1250,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 1
     CVSS:
       redhat:
@@ -1259,6 +1264,8 @@
     - https://bugzilla.redhat.com/2275003
     - https://bugzilla.redhat.com/2275005
     - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://linux.oracle.com/cve/CVE-2024-21012.html
+    - https://linux.oracle.com/errata/ELSA-2024-1825.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21012
     - https://www.cve.org/CVERecord?id=CVE-2024-21012
     - https://www.oracle.com/security-alerts/cpuapr2024.html
@@ -1490,12 +1497,13 @@
     - https://curl.se/docs/CVE-2024-2398.html
     - https://curl.se/docs/CVE-2024-2398.json
     - https://hackerone.com/reports/2402845
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GMD6UYKCCRCYETWQZUJ65ZRFULT6SHLI/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2398
     - https://ubuntu.com/security/notices/USN-6718-1
     - https://ubuntu.com/security/notices/USN-6718-2
     - https://www.cve.org/CVERecord?id=CVE-2024-2398
     PublishedDate: '2024-03-27T08:15:41.283Z'
-    LastModifiedDate: '2024-03-27T12:29:30.307Z'
+    LastModifiedDate: '2024-04-19T23:15:10.867Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.4.1-2.1.el9.x86_64
     PkgName: libgcc
