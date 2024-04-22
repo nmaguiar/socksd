@@ -426,11 +426,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0133
+    - https://access.redhat.com/errata/RHSA-2023:7753
     - https://access.redhat.com/security/cve/CVE-2023-37920
     - https://bugzilla.redhat.com/2226586
     - https://bugzilla.redhat.com/2242493
-    - https://errata.almalinux.org/8/ALSA-2024-0133.html
+    - https://errata.almalinux.org/9/ALSA-2023-7753.html
     - https://github.com/certifi/python-certifi
     - https://github.com/certifi/python-certifi/commit/8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909
     - https://github.com/certifi/python-certifi/security/advisories/GHSA-xqr8-7jwr-rhp7
@@ -607,12 +607,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1615
+    - https://access.redhat.com/errata/RHSA-2024:1530
     - https://access.redhat.com/security/cve/CVE-2023-52425
     - https://bugzilla.redhat.com/2262877
+    - https://bugzilla.redhat.com/2268766
     - https://bugzilla.redhat.com/show_bug.cgi?id=2262877
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52425
-    - https://errata.almalinux.org/8/ALSA-2024-1615.html
+    - https://errata.almalinux.org/9/ALSA-2024-1530.html
     - https://errata.rockylinux.org/RLSA-2024:1615
     - https://github.com/libexpat/libexpat/pull/789
     - https://linux.oracle.com/cve/CVE-2023-52425.html
@@ -989,9 +990,10 @@
     - https://access.redhat.com/errata/RHSA-2024:1784
     - https://access.redhat.com/errata/RHSA-2024:1879
     - https://access.redhat.com/security/cve/CVE-2024-28834
+    - https://bugzilla.redhat.com/2269084
     - https://bugzilla.redhat.com/2269228
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269228
-    - https://errata.almalinux.org/8/ALSA-2024-1784.html
+    - https://errata.almalinux.org/9/ALSA-2024-1879.html
     - https://linux.oracle.com/cve/CVE-2024-28834.html
     - https://linux.oracle.com/errata/ELSA-2024-1879.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
@@ -1079,7 +1081,7 @@
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275003
     - https://bugzilla.redhat.com/2275005
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://linux.oracle.com/cve/CVE-2024-21011.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21011
@@ -1118,7 +1120,7 @@
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275003
     - https://bugzilla.redhat.com/2275005
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://linux.oracle.com/cve/CVE-2024-21068.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21068
@@ -1157,7 +1159,7 @@
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275003
     - https://bugzilla.redhat.com/2275005
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21094
@@ -1196,7 +1198,7 @@
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275003
     - https://bugzilla.redhat.com/2275005
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://linux.oracle.com/cve/CVE-2024-21012.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21012
@@ -1471,22 +1473,26 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1786
+    - https://access.redhat.com/errata/RHSA-2024:1872
     - https://access.redhat.com/security/cve/CVE-2024-27316
     - https://bugzilla.redhat.com/2268277
-    - https://errata.almalinux.org/8/ALSA-2024-1786.html
+    - https://errata.almalinux.org/9/ALSA-2024-1872.html
     - https://httpd.apache.org/security/vulnerabilities_24.html
     - https://kb.cert.org/vuls/id/421644
     - https://linux.oracle.com/cve/CVE-2024-27316.html
     - https://linux.oracle.com/errata/ELSA-2024-1872.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FO73U3SLBYFGIW2YKXOK7RI4D6DJSZ2B/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MIUBKSCJGPJ6M2U63V6BKFDF725ODLG7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QKKDVFWBKIHCC3WXNH3W75WWY4NW42OB/
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-27316
+    - https://security.netapp.com/advisory/ntap-20240415-0013/
     - https://ubuntu.com/security/notices/USN-6729-1
     - https://ubuntu.com/security/notices/USN-6729-2
     - https://www.cve.org/CVERecord?id=CVE-2024-27316
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T20:15:08.72Z'
-    LastModifiedDate: '2024-04-05T12:40:52.763Z'
+    LastModifiedDate: '2024-04-21T04:15:08.147Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++@11.4.1-2.1.el9.x86_64
     PkgName: libstdc++
@@ -1681,7 +1687,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0894
+    - https://access.redhat.com/errata/RHSA-2024:1141
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -1758,7 +1764,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/8/ALSA-2024-0894.html
+    - https://errata.almalinux.org/9/ALSA-2024-1141.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
