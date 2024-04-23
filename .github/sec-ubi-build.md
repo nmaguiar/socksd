@@ -1250,14 +1250,16 @@
                         │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-1825.html 
                         │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-21011.html 
                         │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1825.html 
-                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-21011 
-                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-21011 
-                        │      │                  ├ [11]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       4/04/msg00014.html 
+                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21011 
+                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21011 
+                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                  │       4.html 
-                        │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-04-16T22:15:15.437Z 
-                        │      ╰ LastModifiedDate: 2024-04-17T12:48:31.863Z 
+                        │      ╰ LastModifiedDate: 2024-04-22T15:15:47.38Z 
                         ├ [23] ╭ VulnerabilityID : CVE-2024-21068 
                         │      ├ PkgID           : java-21-openjdk-headless@21.0.2.0.13-1.el9.x86_64 
                         │      ├ PkgName         : java-21-openjdk-headless 
@@ -1312,14 +1314,16 @@
                         │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-1825.html 
                         │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-21068.html 
                         │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1825.html 
-                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-21068 
-                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-21068 
-                        │      │                  ├ [11]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       4/04/msg00014.html 
+                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21068 
+                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21068 
+                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                  │       4.html 
-                        │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
-                        │      ╰ LastModifiedDate: 2024-04-17T12:48:31.863Z 
+                        │      ╰ LastModifiedDate: 2024-04-22T15:15:47.54Z 
                         ├ [24] ╭ VulnerabilityID : CVE-2024-21094 
                         │      ├ PkgID           : java-21-openjdk-headless@21.0.2.0.13-1.el9.x86_64 
                         │      ├ PkgName         : java-21-openjdk-headless 
@@ -1375,14 +1379,16 @@
                         │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-1825.html 
                         │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-21094.html 
                         │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1825.html 
-                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-21094 
-                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-21094 
-                        │      │                  ├ [11]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       4/04/msg00014.html 
+                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21094 
+                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21094 
+                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                  │       4.html 
-                        │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
-                        │      ╰ LastModifiedDate: 2024-04-17T12:48:31.863Z 
+                        │      ╰ LastModifiedDate: 2024-04-22T15:15:47.683Z 
                         ├ [25] ╭ VulnerabilityID : CVE-2024-21012 
                         │      ├ PkgID           : java-21-openjdk-headless@21.0.2.0.13-1.el9.x86_64 
                         │      ├ PkgName         : java-21-openjdk-headless 
@@ -1437,14 +1443,16 @@
                         │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-1825.html 
                         │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-21012.html 
                         │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1825.html 
-                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-21012 
-                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-21012 
-                        │      │                  ├ [11]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       4/04/msg00014.html 
+                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21012 
+                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21012 
+                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                  │       4.html 
-                        │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-04-16T22:15:15.617Z 
-                        │      ╰ LastModifiedDate: 2024-04-17T12:48:31.863Z 
+                        │      ╰ LastModifiedDate: 2024-04-22T15:15:47.473Z 
                         ├ [26] ╭ VulnerabilityID : CVE-2024-26462 
                         │      ├ PkgID           : krb5-libs@1.21.1-1.el9.x86_64 
                         │      ├ PkgName         : krb5-libs 
