@@ -838,6 +838,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
+    - https://sourceware.org/git?p=glibc.git;a=commit;h=f9dc609e06b1136bb0408be9605ce7973a767ada
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
@@ -875,6 +876,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
+    - https://sourceware.org/git?p=glibc.git;a=commit;h=f9dc609e06b1136bb0408be9605ce7973a767ada
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
@@ -912,6 +914,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
+    - https://sourceware.org/git?p=glibc.git;a=commit;h=f9dc609e06b1136bb0408be9605ce7973a767ada
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
@@ -1083,7 +1086,7 @@
     - https://bugzilla.redhat.com/2275005
     - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://linux.oracle.com/cve/CVE-2024-21011.html
-    - https://linux.oracle.com/errata/ELSA-2024-1825.html
+    - https://linux.oracle.com/errata/ELSA-2024-1828.html
     - https://lists.debian.org/debian-lts-announce/2024/04/msg00014.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21011
     - https://www.cve.org/CVERecord?id=CVE-2024-21011
@@ -1123,7 +1126,7 @@
     - https://bugzilla.redhat.com/2275005
     - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://linux.oracle.com/cve/CVE-2024-21068.html
-    - https://linux.oracle.com/errata/ELSA-2024-1825.html
+    - https://linux.oracle.com/errata/ELSA-2024-1828.html
     - https://lists.debian.org/debian-lts-announce/2024/04/msg00014.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21068
     - https://www.cve.org/CVERecord?id=CVE-2024-21068
@@ -1203,7 +1206,7 @@
     - https://bugzilla.redhat.com/2275005
     - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://linux.oracle.com/cve/CVE-2024-21012.html
-    - https://linux.oracle.com/errata/ELSA-2024-1825.html
+    - https://linux.oracle.com/errata/ELSA-2024-1828.html
     - https://lists.debian.org/debian-lts-announce/2024/04/msg00014.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21012
     - https://www.cve.org/CVERecord?id=CVE-2024-21012
@@ -2338,7 +2341,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2424,7 +2427,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2521,7 +2524,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2696,7 +2699,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       ghsa: 2
       nvd: 2
       photon: 2
@@ -2899,7 +2902,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2985,7 +2988,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -3082,7 +3085,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -3257,7 +3260,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       ghsa: 2
       nvd: 2
       photon: 2
