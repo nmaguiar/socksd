@@ -118,6 +118,548 @@
     - https://www.openssl.org/news/vulnerabilities.html
     PublishedDate: '2024-04-08T14:15:07.66Z'
     LastModifiedDate: '2024-04-08T18:48:40.217Z'
+  - VulnerabilityID: CVE-2024-21892
+    PkgID: openjdk21-jre@21.0.2_p13-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21892
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'nodejs: code injection and privilege escalation through Linux capabilities'
+    Description: |-
+      On Linux, Node.js ignores certain environment variables if those may have been set by an unprivileged user while the process is running with elevated privileges with the only exception of CAP_NET_BIND_SERVICE.
+      Due to a bug in the implementation of this exception, Node.js incorrectly applies this exception even when certain other capabilities have been set.
+      This allows unprivileged users to inject code that inherits the process's elevated privileges.
+    Severity: HIGH
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:1688
+    - https://access.redhat.com/security/cve/CVE-2024-21892
+    - https://bugzilla.redhat.com/2264569
+    - https://bugzilla.redhat.com/2264574
+    - https://bugzilla.redhat.com/2264582
+    - https://bugzilla.redhat.com/2265717
+    - https://bugzilla.redhat.com/2265720
+    - https://bugzilla.redhat.com/2265722
+    - https://bugzilla.redhat.com/2265727
+    - https://errata.almalinux.org/9/ALSA-2024-1688.html
+    - https://hackerone.com/reports/2237545
+    - https://linux.oracle.com/cve/CVE-2024-21892.html
+    - https://linux.oracle.com/errata/ELSA-2024-1688.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21892
+    - https://security.netapp.com/advisory/ntap-20240322-0003/
+    - https://www.cve.org/CVERecord?id=CVE-2024-21892
+    PublishedDate: '2024-02-20T02:15:50.567Z'
+    LastModifiedDate: '2024-03-22T19:15:08.477Z'
+  - VulnerabilityID: CVE-2024-21011
+    PkgID: openjdk21-jre@21.0.2_p13-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21011
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: long Exception message leading to crash (8319851)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u401, 8u401-perf, 11.0.22, 17.0.10, 21.0.2, 22; Oracle GraalVM for JDK: 17.0.10, 21.0.2, 22;   Oracle GraalVM Enterprise Edition: 20.3.13 and  21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: LOW
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/security/cve/CVE-2024-21011
+    - https://bugzilla.redhat.com/2274975
+    - https://bugzilla.redhat.com/2274977
+    - https://bugzilla.redhat.com/2275003
+    - https://bugzilla.redhat.com/2275005
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://linux.oracle.com/cve/CVE-2024-21011.html
+    - https://linux.oracle.com/errata/ELSA-2024-1828.html
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00014.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21011
+    - https://www.cve.org/CVERecord?id=CVE-2024-21011
+    - https://www.oracle.com/security-alerts/cpuapr2024.html
+    - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
+    PublishedDate: '2024-04-16T22:15:15.437Z'
+    LastModifiedDate: '2024-04-22T15:15:47.38Z'
+  - VulnerabilityID: CVE-2024-21012
+    PkgID: openjdk21-jre@21.0.2_p13-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21012
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: HTTP/2 client improper reverse DNS lookup (8315708)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 11.0.22, 17.0.10, 21.0.2, 22; Oracle GraalVM for JDK: 17.0.10, 21.0.2, 22; Oracle GraalVM Enterprise Edition: 20.3.13 and  21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/security/cve/CVE-2024-21012
+    - https://bugzilla.redhat.com/2274975
+    - https://bugzilla.redhat.com/2274977
+    - https://bugzilla.redhat.com/2275003
+    - https://bugzilla.redhat.com/2275005
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://linux.oracle.com/cve/CVE-2024-21012.html
+    - https://linux.oracle.com/errata/ELSA-2024-1828.html
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00014.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21012
+    - https://www.cve.org/CVERecord?id=CVE-2024-21012
+    - https://www.oracle.com/security-alerts/cpuapr2024.html
+    - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
+    PublishedDate: '2024-04-16T22:15:15.617Z'
+    LastModifiedDate: '2024-04-22T15:15:47.473Z'
+  - VulnerabilityID: CVE-2024-21068
+    PkgID: openjdk21-jre@21.0.2_p13-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21068
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: integer overflow in C1 compiler address generation (8322122)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u401-perf, 11.0.22, 17.0.10, 21.0.2, 22; Oracle GraalVM for JDK: 17.0.10, 21.0.2 and  22; Oracle GraalVM Enterprise Edition: 21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/security/cve/CVE-2024-21068
+    - https://bugzilla.redhat.com/2274975
+    - https://bugzilla.redhat.com/2274977
+    - https://bugzilla.redhat.com/2275003
+    - https://bugzilla.redhat.com/2275005
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://linux.oracle.com/cve/CVE-2024-21068.html
+    - https://linux.oracle.com/errata/ELSA-2024-1828.html
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00014.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21068
+    - https://www.cve.org/CVERecord?id=CVE-2024-21068
+    - https://www.oracle.com/security-alerts/cpuapr2024.html
+    - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
+    PublishedDate: '2024-04-16T22:15:25.307Z'
+    LastModifiedDate: '2024-04-22T15:15:47.54Z'
+  - VulnerabilityID: CVE-2024-21094
+    PkgID: openjdk21-jre@21.0.2_p13-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21094
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: C2 compilation fails with "Exceeded _node_regs array" (8317507)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u401, 8u401-perf, 11.0.22, 17.0.10, 21.0.2, 22; Oracle GraalVM for JDK: 17.0.10, 21.0.2, 22; Oracle GraalVM Enterprise Edition: 20.3.13 and  21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/security/cve/CVE-2024-21094
+    - https://bugzilla.redhat.com/2274975
+    - https://bugzilla.redhat.com/2274977
+    - https://bugzilla.redhat.com/2275003
+    - https://bugzilla.redhat.com/2275005
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://linux.oracle.com/cve/CVE-2024-21094.html
+    - https://linux.oracle.com/errata/ELSA-2024-1825.html
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00014.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21094
+    - https://www.cve.org/CVERecord?id=CVE-2024-21094
+    - https://www.oracle.com/security-alerts/cpuapr2024.html
+    - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
+    PublishedDate: '2024-04-16T22:15:29.857Z'
+    LastModifiedDate: '2024-04-22T15:15:47.683Z'
+  - VulnerabilityID: CVE-2024-20954
+    PkgID: openjdk21-jre@21.0.2_p13-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20954
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Description: 'Vulnerability in the Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle GraalVM for JDK: 17.0.10, 21.0.2, 22; Oracle GraalVM Enterprise Edition: 20.3.13 and  21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. CVSS 3.1 Base Score 3.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N).'
+    Severity: UNKNOWN
+    References:
+    - https://www.oracle.com/security-alerts/cpuapr2024.html
+    PublishedDate: '2024-04-16T22:15:11.57Z'
+    LastModifiedDate: '2024-04-17T12:48:31.863Z'
+  - VulnerabilityID: CVE-2024-21098
+    PkgID: openjdk21-jre@21.0.2_p13-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21098
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Description: 'Vulnerability in the Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle GraalVM for JDK: 17.0.10, 21.0.2, 22; Oracle GraalVM Enterprise Edition: 20.3.13 and  21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: UNKNOWN
+    References:
+    - https://www.oracle.com/security-alerts/cpuapr2024.html
+    PublishedDate: '2024-04-16T22:15:30.55Z'
+    LastModifiedDate: '2024-04-17T12:48:31.863Z'
+  - VulnerabilityID: CVE-2024-21892
+    PkgID: openjdk21-jre-headless@21.0.2_p13-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21892
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'nodejs: code injection and privilege escalation through Linux capabilities'
+    Description: |-
+      On Linux, Node.js ignores certain environment variables if those may have been set by an unprivileged user while the process is running with elevated privileges with the only exception of CAP_NET_BIND_SERVICE.
+      Due to a bug in the implementation of this exception, Node.js incorrectly applies this exception even when certain other capabilities have been set.
+      This allows unprivileged users to inject code that inherits the process's elevated privileges.
+    Severity: HIGH
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:1688
+    - https://access.redhat.com/security/cve/CVE-2024-21892
+    - https://bugzilla.redhat.com/2264569
+    - https://bugzilla.redhat.com/2264574
+    - https://bugzilla.redhat.com/2264582
+    - https://bugzilla.redhat.com/2265717
+    - https://bugzilla.redhat.com/2265720
+    - https://bugzilla.redhat.com/2265722
+    - https://bugzilla.redhat.com/2265727
+    - https://errata.almalinux.org/9/ALSA-2024-1688.html
+    - https://hackerone.com/reports/2237545
+    - https://linux.oracle.com/cve/CVE-2024-21892.html
+    - https://linux.oracle.com/errata/ELSA-2024-1688.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21892
+    - https://security.netapp.com/advisory/ntap-20240322-0003/
+    - https://www.cve.org/CVERecord?id=CVE-2024-21892
+    PublishedDate: '2024-02-20T02:15:50.567Z'
+    LastModifiedDate: '2024-03-22T19:15:08.477Z'
+  - VulnerabilityID: CVE-2024-21011
+    PkgID: openjdk21-jre-headless@21.0.2_p13-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21011
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: long Exception message leading to crash (8319851)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u401, 8u401-perf, 11.0.22, 17.0.10, 21.0.2, 22; Oracle GraalVM for JDK: 17.0.10, 21.0.2, 22;   Oracle GraalVM Enterprise Edition: 20.3.13 and  21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: LOW
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/security/cve/CVE-2024-21011
+    - https://bugzilla.redhat.com/2274975
+    - https://bugzilla.redhat.com/2274977
+    - https://bugzilla.redhat.com/2275003
+    - https://bugzilla.redhat.com/2275005
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://linux.oracle.com/cve/CVE-2024-21011.html
+    - https://linux.oracle.com/errata/ELSA-2024-1828.html
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00014.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21011
+    - https://www.cve.org/CVERecord?id=CVE-2024-21011
+    - https://www.oracle.com/security-alerts/cpuapr2024.html
+    - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
+    PublishedDate: '2024-04-16T22:15:15.437Z'
+    LastModifiedDate: '2024-04-22T15:15:47.38Z'
+  - VulnerabilityID: CVE-2024-21012
+    PkgID: openjdk21-jre-headless@21.0.2_p13-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21012
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: HTTP/2 client improper reverse DNS lookup (8315708)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 11.0.22, 17.0.10, 21.0.2, 22; Oracle GraalVM for JDK: 17.0.10, 21.0.2, 22; Oracle GraalVM Enterprise Edition: 20.3.13 and  21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/security/cve/CVE-2024-21012
+    - https://bugzilla.redhat.com/2274975
+    - https://bugzilla.redhat.com/2274977
+    - https://bugzilla.redhat.com/2275003
+    - https://bugzilla.redhat.com/2275005
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://linux.oracle.com/cve/CVE-2024-21012.html
+    - https://linux.oracle.com/errata/ELSA-2024-1828.html
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00014.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21012
+    - https://www.cve.org/CVERecord?id=CVE-2024-21012
+    - https://www.oracle.com/security-alerts/cpuapr2024.html
+    - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
+    PublishedDate: '2024-04-16T22:15:15.617Z'
+    LastModifiedDate: '2024-04-22T15:15:47.473Z'
+  - VulnerabilityID: CVE-2024-21068
+    PkgID: openjdk21-jre-headless@21.0.2_p13-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21068
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: integer overflow in C1 compiler address generation (8322122)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u401-perf, 11.0.22, 17.0.10, 21.0.2, 22; Oracle GraalVM for JDK: 17.0.10, 21.0.2 and  22; Oracle GraalVM Enterprise Edition: 21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/security/cve/CVE-2024-21068
+    - https://bugzilla.redhat.com/2274975
+    - https://bugzilla.redhat.com/2274977
+    - https://bugzilla.redhat.com/2275003
+    - https://bugzilla.redhat.com/2275005
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://linux.oracle.com/cve/CVE-2024-21068.html
+    - https://linux.oracle.com/errata/ELSA-2024-1828.html
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00014.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21068
+    - https://www.cve.org/CVERecord?id=CVE-2024-21068
+    - https://www.oracle.com/security-alerts/cpuapr2024.html
+    - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
+    PublishedDate: '2024-04-16T22:15:25.307Z'
+    LastModifiedDate: '2024-04-22T15:15:47.54Z'
+  - VulnerabilityID: CVE-2024-21094
+    PkgID: openjdk21-jre-headless@21.0.2_p13-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21094
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'OpenJDK: C2 compilation fails with "Exceeded _node_regs array" (8317507)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u401, 8u401-perf, 11.0.22, 17.0.10, 21.0.2, 22; Oracle GraalVM for JDK: 17.0.10, 21.0.2, 22; Oracle GraalVM Enterprise Edition: 20.3.13 and  21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/security/cve/CVE-2024-21094
+    - https://bugzilla.redhat.com/2274975
+    - https://bugzilla.redhat.com/2274977
+    - https://bugzilla.redhat.com/2275003
+    - https://bugzilla.redhat.com/2275005
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://linux.oracle.com/cve/CVE-2024-21094.html
+    - https://linux.oracle.com/errata/ELSA-2024-1825.html
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00014.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21094
+    - https://www.cve.org/CVERecord?id=CVE-2024-21094
+    - https://www.oracle.com/security-alerts/cpuapr2024.html
+    - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
+    PublishedDate: '2024-04-16T22:15:29.857Z'
+    LastModifiedDate: '2024-04-22T15:15:47.683Z'
+  - VulnerabilityID: CVE-2024-20954
+    PkgID: openjdk21-jre-headless@21.0.2_p13-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20954
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Description: 'Vulnerability in the Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle GraalVM for JDK: 17.0.10, 21.0.2, 22; Oracle GraalVM Enterprise Edition: 20.3.13 and  21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. CVSS 3.1 Base Score 3.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N).'
+    Severity: UNKNOWN
+    References:
+    - https://www.oracle.com/security-alerts/cpuapr2024.html
+    PublishedDate: '2024-04-16T22:15:11.57Z'
+    LastModifiedDate: '2024-04-17T12:48:31.863Z'
+  - VulnerabilityID: CVE-2024-21098
+    PkgID: openjdk21-jre-headless@21.0.2_p13-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.2_p13-r0?arch=x86_64&distro=3.19.1
+    InstalledVersion: 21.0.2_p13-r0
+    FixedVersion: 21.0.3_p9-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dec719cf0fa53c2726aab0d15773013daa2d2f6650c6de4fbcd07f9c92cccf8e
+      DiffID: sha256:1475a042f07822ec14ca66de932c95e79410fad666fe2727bdc0693de87c1f6e
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21098
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Description: 'Vulnerability in the Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle GraalVM for JDK: 17.0.10, 21.0.2, 22; Oracle GraalVM Enterprise Edition: 20.3.13 and  21.3.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: UNKNOWN
+    References:
+    - https://www.oracle.com/security-alerts/cpuapr2024.html
+    PublishedDate: '2024-04-16T22:15:30.55Z'
+    LastModifiedDate: '2024-04-17T12:48:31.863Z'
   - VulnerabilityID: CVE-2024-2511
     PkgID: openssl@3.1.4-r5
     PkgName: openssl
