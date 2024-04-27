@@ -260,13 +260,15 @@
                         │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/04/msg00014.html 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21011 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21011 
-                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
+                        │      │                  │       26-0004/ 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21011 
+                        │      │                  ├ [13]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                  │       4.html 
-                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-04-16T22:15:15.437Z 
-                        │      ╰ LastModifiedDate: 2024-04-22T15:15:47.38Z 
+                        │      ╰ LastModifiedDate: 2024-04-26T09:15:10.24Z 
                         ├ [4]  ╭ VulnerabilityID : CVE-2024-21012 
                         │      ├ PkgID           : openjdk21-jre@21.0.2_p13-r0 
                         │      ├ PkgName         : openjdk21-jre 
@@ -326,13 +328,15 @@
                         │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/04/msg00014.html 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21012 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21012 
-                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
+                        │      │                  │       26-0004/ 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21012 
+                        │      │                  ├ [13]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                  │       4.html 
-                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-04-16T22:15:15.617Z 
-                        │      ╰ LastModifiedDate: 2024-04-22T15:15:47.473Z 
+                        │      ╰ LastModifiedDate: 2024-04-26T09:15:10.307Z 
                         ├ [5]  ╭ VulnerabilityID : CVE-2024-21068 
                         │      ├ PkgID           : openjdk21-jre@21.0.2_p13-r0 
                         │      ├ PkgName         : openjdk21-jre 
@@ -392,13 +396,15 @@
                         │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/04/msg00014.html 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21068 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21068 
-                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
+                        │      │                  │       26-0004/ 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21068 
+                        │      │                  ├ [13]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                  │       4.html 
-                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
-                        │      ╰ LastModifiedDate: 2024-04-22T15:15:47.54Z 
+                        │      ╰ LastModifiedDate: 2024-04-26T09:15:11.273Z 
                         ├ [6]  ╭ VulnerabilityID : CVE-2024-21094 
                         │      ├ PkgID           : openjdk21-jre@21.0.2_p13-r0 
                         │      ├ PkgName         : openjdk21-jre 
@@ -459,13 +465,15 @@
                         │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/04/msg00014.html 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21094 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21094 
-                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
+                        │      │                  │       26-0004/ 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21094 
+                        │      │                  ├ [13]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                  │       4.html 
-                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
-                        │      ╰ LastModifiedDate: 2024-04-22T15:15:47.683Z 
+                        │      ╰ LastModifiedDate: 2024-04-26T09:15:11.613Z 
                         ├ [7]  ╭ VulnerabilityID : CVE-2024-20954 
                         │      ├ PkgID           : openjdk21-jre@21.0.2_p13-r0 
                         │      ├ PkgName         : openjdk21-jre 
@@ -647,13 +655,15 @@
                         │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/04/msg00014.html 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21011 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21011 
-                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
+                        │      │                  │       26-0004/ 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21011 
+                        │      │                  ├ [13]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                  │       4.html 
-                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-04-16T22:15:15.437Z 
-                        │      ╰ LastModifiedDate: 2024-04-22T15:15:47.38Z 
+                        │      ╰ LastModifiedDate: 2024-04-26T09:15:10.24Z 
                         ├ [11] ╭ VulnerabilityID : CVE-2024-21012 
                         │      ├ PkgID           : openjdk21-jre-headless@21.0.2_p13-r0 
                         │      ├ PkgName         : openjdk21-jre-headless 
@@ -713,13 +723,15 @@
                         │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/04/msg00014.html 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21012 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21012 
-                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
+                        │      │                  │       26-0004/ 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21012 
+                        │      │                  ├ [13]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                  │       4.html 
-                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-04-16T22:15:15.617Z 
-                        │      ╰ LastModifiedDate: 2024-04-22T15:15:47.473Z 
+                        │      ╰ LastModifiedDate: 2024-04-26T09:15:10.307Z 
                         ├ [12] ╭ VulnerabilityID : CVE-2024-21068 
                         │      ├ PkgID           : openjdk21-jre-headless@21.0.2_p13-r0 
                         │      ├ PkgName         : openjdk21-jre-headless 
@@ -779,13 +791,15 @@
                         │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/04/msg00014.html 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21068 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21068 
-                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
+                        │      │                  │       26-0004/ 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21068 
+                        │      │                  ├ [13]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                  │       4.html 
-                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
-                        │      ╰ LastModifiedDate: 2024-04-22T15:15:47.54Z 
+                        │      ╰ LastModifiedDate: 2024-04-26T09:15:11.273Z 
                         ├ [13] ╭ VulnerabilityID : CVE-2024-21094 
                         │      ├ PkgID           : openjdk21-jre-headless@21.0.2_p13-r0 
                         │      ├ PkgName         : openjdk21-jre-headless 
@@ -846,13 +860,15 @@
                         │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/04/msg00014.html 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21094 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21094 
-                        │      │                  ├ [12]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
+                        │      │                  │       26-0004/ 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21094 
+                        │      │                  ├ [13]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                  │       4.html 
-                        │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
-                        │      ╰ LastModifiedDate: 2024-04-22T15:15:47.683Z 
+                        │      ╰ LastModifiedDate: 2024-04-26T09:15:11.613Z 
                         ├ [14] ╭ VulnerabilityID : CVE-2024-20954 
                         │      ├ PkgID           : openjdk21-jre-headless@21.0.2_p13-r0 
                         │      ├ PkgName         : openjdk21-jre-headless 
