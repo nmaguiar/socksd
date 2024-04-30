@@ -635,26 +635,28 @@
                         │      │                   condition fails silently and is therefore not easily
                         │      │                   detected by an application. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ photon: 3 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ photon: 3 
                         │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 7.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-2398 
-                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-2398.html 
-                        │      │                  ├ [2]: https://curl.se/docs/CVE-2024-2398.json 
-                        │      │                  ├ [3]: https://hackerone.com/reports/2402845 
-                        │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce@lists.fedoraproject.org/message/2D44YLAU
-                        │      │                  │      FJU6BZ4XFG2FYV7SBKXB5IZ6/ 
-                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce@lists.fedoraproject.org/message/GMD6UYKC
-                        │      │                  │      CRCYETWQZUJ65ZRFULT6SHLI/ 
-                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
-                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6718-1 
-                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6718-2 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-2398 
+                        │      │                  ├ [1] : https://curl.se/docs/CVE-2024-2398.html 
+                        │      │                  ├ [2] : https://curl.se/docs/CVE-2024-2398.json 
+                        │      │                  ├ [3] : https://hackerone.com/reports/2402845 
+                        │      │                  ├ [4] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/2D44YL
+                        │      │                  │       AUFJU6BZ4XFG2FYV7SBKXB5IZ6/ 
+                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/GMD6UY
+                        │      │                  │       KCCRCYETWQZUJ65ZRFULT6SHLI/ 
+                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
+                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6718-1 
+                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6718-2 
+                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6718-3 
+                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
                         │      ├ PublishedDate   : 2024-03-27T08:15:41.283Z 
                         │      ╰ LastModifiedDate: 2024-04-25T06:15:58.64Z 
                         ├ [11] ╭ VulnerabilityID : CVE-2022-48554 
@@ -823,7 +825,8 @@
                         │      │                    
                         │      ├ Severity        : HIGH 
                         │      ├ CweIDs           ─ [0]: CWE-787 
-                        │      ├ VendorSeverity   ╭ photon: 3 
+                        │      ├ VendorSeverity   ╭ amazon: 3 
+                        │      │                  ├ photon: 3 
                         │      │                  ├ redhat: 3 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
@@ -843,8 +846,9 @@
                         │      │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
                         │      │                  │      advisories/GLIBC-SA-2024-0004 
                         │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6737-1 
-                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024/
+                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6737-2 
+                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/
                         │      │                         04/17/9 
                         │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │      ╰ LastModifiedDate: 2024-04-20T03:15:07.047Z 
@@ -980,7 +984,8 @@
                         │      │                    
                         │      ├ Severity        : HIGH 
                         │      ├ CweIDs           ─ [0]: CWE-787 
-                        │      ├ VendorSeverity   ╭ photon: 3 
+                        │      ├ VendorSeverity   ╭ amazon: 3 
+                        │      │                  ├ photon: 3 
                         │      │                  ├ redhat: 3 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
@@ -1000,8 +1005,9 @@
                         │      │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
                         │      │                  │      advisories/GLIBC-SA-2024-0004 
                         │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6737-1 
-                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024/
+                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6737-2 
+                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/
                         │      │                         04/17/9 
                         │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │      ╰ LastModifiedDate: 2024-04-20T03:15:07.047Z 
@@ -1137,7 +1143,8 @@
                         │      │                    
                         │      ├ Severity        : HIGH 
                         │      ├ CweIDs           ─ [0]: CWE-787 
-                        │      ├ VendorSeverity   ╭ photon: 3 
+                        │      ├ VendorSeverity   ╭ amazon: 3 
+                        │      │                  ├ photon: 3 
                         │      │                  ├ redhat: 3 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
@@ -1157,8 +1164,9 @@
                         │      │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
                         │      │                  │      advisories/GLIBC-SA-2024-0004 
                         │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6737-1 
-                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024/
+                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6737-2 
+                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/
                         │      │                         04/17/9 
                         │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │      ╰ LastModifiedDate: 2024-04-20T03:15:07.047Z 
@@ -1354,6 +1362,7 @@
                         │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N). 
                         │      ├ Severity        : MEDIUM 
                         │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 1 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ╰ redhat     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
@@ -1536,26 +1545,28 @@
                         │      │                   condition fails silently and is therefore not easily
                         │      │                   detected by an application. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ photon: 3 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ photon: 3 
                         │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 7.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-2398 
-                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-2398.html 
-                        │      │                  ├ [2]: https://curl.se/docs/CVE-2024-2398.json 
-                        │      │                  ├ [3]: https://hackerone.com/reports/2402845 
-                        │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce@lists.fedoraproject.org/message/2D44YLAU
-                        │      │                  │      FJU6BZ4XFG2FYV7SBKXB5IZ6/ 
-                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce@lists.fedoraproject.org/message/GMD6UYKC
-                        │      │                  │      CRCYETWQZUJ65ZRFULT6SHLI/ 
-                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
-                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6718-1 
-                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6718-2 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-2398 
+                        │      │                  ├ [1] : https://curl.se/docs/CVE-2024-2398.html 
+                        │      │                  ├ [2] : https://curl.se/docs/CVE-2024-2398.json 
+                        │      │                  ├ [3] : https://hackerone.com/reports/2402845 
+                        │      │                  ├ [4] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/2D44YL
+                        │      │                  │       AUFJU6BZ4XFG2FYV7SBKXB5IZ6/ 
+                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/GMD6UY
+                        │      │                  │       KCCRCYETWQZUJ65ZRFULT6SHLI/ 
+                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
+                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6718-1 
+                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6718-2 
+                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6718-3 
+                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
                         │      ├ PublishedDate   : 2024-03-27T08:15:41.283Z 
                         │      ╰ LastModifiedDate: 2024-04-25T06:15:58.64Z 
                         ├ [36] ╭ VulnerabilityID : CVE-2022-27943 
@@ -1666,6 +1677,7 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-400 
                         │      ├ VendorSeverity   ╭ alma       : 3 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ oracle-oval: 3 
                         │      │                  ├ photon     : 3 
                         │      │                  ├ redhat     : 2 
@@ -1697,8 +1709,9 @@
                         │      │                  │       15-0013/ 
                         │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6729-1 
                         │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6729-2 
-                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2024-27316 
-                        │      │                  ╰ [17]: https://www.kb.cert.org/vuls/id/421644 
+                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6729-3 
+                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2024-27316 
+                        │      │                  ╰ [18]: https://www.kb.cert.org/vuls/id/421644 
                         │      ├ PublishedDate   : 2024-04-04T20:15:08.72Z 
                         │      ╰ LastModifiedDate: 2024-04-21T04:15:08.147Z 
                         ├ [39] ╭ VulnerabilityID : CVE-2022-27943 
@@ -2638,7 +2651,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -2750,7 +2763,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2881,7 +2894,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3153,7 +3166,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      ├ VendorSeverity   ╭ amazon: 3 
                         │      │                  ├ ghsa  : 2 
                         │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
@@ -3416,7 +3429,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -3528,7 +3541,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3659,7 +3672,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3931,7 +3944,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      ├ VendorSeverity   ╭ amazon: 3 
                         │      │                  ├ ghsa  : 2 
                         │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
