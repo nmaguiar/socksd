@@ -817,8 +817,9 @@
                         │      │                  │       =advisories/GLIBC-SA-2024-0004 
                         │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6737-1 
                         │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6737-2 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2024
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6762-1 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │      │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2024
                         │      │                          /04/17/9 
                         │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │      ╰ LastModifiedDate: 2024-05-01T18:15:19.437Z 
@@ -982,8 +983,9 @@
                         │      │                  │       =advisories/GLIBC-SA-2024-0004 
                         │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6737-1 
                         │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6737-2 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2024
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6762-1 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │      │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2024
                         │      │                          /04/17/9 
                         │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │      ╰ LastModifiedDate: 2024-05-01T18:15:19.437Z 
@@ -1147,8 +1149,9 @@
                         │      │                  │       =advisories/GLIBC-SA-2024-0004 
                         │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6737-1 
                         │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6737-2 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2024
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6762-1 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │      │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2024
                         │      │                          /04/17/9 
                         │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │      ╰ LastModifiedDate: 2024-05-01T18:15:19.437Z 
