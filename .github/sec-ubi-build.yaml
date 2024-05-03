@@ -720,6 +720,7 @@
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://ubuntu.com/security/notices/USN-6737-2
+    - https://ubuntu.com/security/notices/USN-6762-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
@@ -863,6 +864,7 @@
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://ubuntu.com/security/notices/USN-6737-2
+    - https://ubuntu.com/security/notices/USN-6762-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
@@ -1006,6 +1008,7 @@
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://ubuntu.com/security/notices/USN-6737-2
+    - https://ubuntu.com/security/notices/USN-6762-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
