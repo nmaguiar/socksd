@@ -728,6 +728,7 @@
     - http://www.openwall.com/lists/oss-security/2024/04/18/4
     - http://www.openwall.com/lists/oss-security/2024/04/24/2
     - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/
@@ -739,7 +740,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
-    LastModifiedDate: '2024-05-01T18:15:19.437Z'
+    LastModifiedDate: '2024-05-04T01:15:06.243Z'
   - VulnerabilityID: CVE-2024-33599
     PkgID: glibc@2.34-83.el9_3.12.x86_64
     PkgName: glibc
@@ -877,6 +878,7 @@
     - http://www.openwall.com/lists/oss-security/2024/04/18/4
     - http://www.openwall.com/lists/oss-security/2024/04/24/2
     - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/
@@ -888,7 +890,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
-    LastModifiedDate: '2024-05-01T18:15:19.437Z'
+    LastModifiedDate: '2024-05-04T01:15:06.243Z'
   - VulnerabilityID: CVE-2024-33599
     PkgID: glibc-common@2.34-83.el9_3.12.x86_64
     PkgName: glibc-common
@@ -1026,6 +1028,7 @@
     - http://www.openwall.com/lists/oss-security/2024/04/18/4
     - http://www.openwall.com/lists/oss-security/2024/04/24/2
     - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/
@@ -1037,7 +1040,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
-    LastModifiedDate: '2024-05-01T18:15:19.437Z'
+    LastModifiedDate: '2024-05-04T01:15:06.243Z'
   - VulnerabilityID: CVE-2024-33599
     PkgID: glibc-minimal-langpack@2.34-83.el9_3.12.x86_64
     PkgName: glibc-minimal-langpack
