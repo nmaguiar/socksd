@@ -819,26 +819,28 @@
                         │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2024/
                         │      │                  │       04/24/2 
                         │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-2961 
-                        │      │                  ├ [4] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       4/05/msg00001.html 
+                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/BTJFBG
                         │      │                  │       HDYG5PEIFD5WSSSKSFZ2AZWC5N/ 
-                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/P3I4KY
                         │      │                  │       S6EU6S7QZ47WFNTPVAHFIUQNEL/ 
-                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/YAMJQI
                         │      │                  │       3Y6BHWV3CUTYBXOZONCUJNOB2Z/ 
-                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
-                        │      │                  ├ [8] : https://sourceware.org/git/?p=glibc.git;a=blob;f
+                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
+                        │      │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;f
                         │      │                  │       =advisories/GLIBC-SA-2024-0004 
-                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6737-1 
-                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6737-2 
-                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6762-1 
-                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │      │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2024
+                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6737-1 
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6737-2 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6762-1 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │      │                  ╰ [14]: https://www.openwall.com/lists/oss-security/2024
                         │      │                          /04/17/9 
                         │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
-                        │      ╰ LastModifiedDate: 2024-05-01T18:15:19.437Z 
+                        │      ╰ LastModifiedDate: 2024-05-04T01:15:06.243Z 
                         ├ [14] ╭ VulnerabilityID : CVE-2024-33599 
                         │      ├ PkgID           : glibc@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc 
@@ -990,26 +992,28 @@
                         │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2024/
                         │      │                  │       04/24/2 
                         │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-2961 
-                        │      │                  ├ [4] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       4/05/msg00001.html 
+                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/BTJFBG
                         │      │                  │       HDYG5PEIFD5WSSSKSFZ2AZWC5N/ 
-                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/P3I4KY
                         │      │                  │       S6EU6S7QZ47WFNTPVAHFIUQNEL/ 
-                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/YAMJQI
                         │      │                  │       3Y6BHWV3CUTYBXOZONCUJNOB2Z/ 
-                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
-                        │      │                  ├ [8] : https://sourceware.org/git/?p=glibc.git;a=blob;f
+                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
+                        │      │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;f
                         │      │                  │       =advisories/GLIBC-SA-2024-0004 
-                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6737-1 
-                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6737-2 
-                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6762-1 
-                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │      │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2024
+                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6737-1 
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6737-2 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6762-1 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │      │                  ╰ [14]: https://www.openwall.com/lists/oss-security/2024
                         │      │                          /04/17/9 
                         │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
-                        │      ╰ LastModifiedDate: 2024-05-01T18:15:19.437Z 
+                        │      ╰ LastModifiedDate: 2024-05-04T01:15:06.243Z 
                         ├ [19] ╭ VulnerabilityID : CVE-2024-33599 
                         │      ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc-common 
@@ -1161,26 +1165,28 @@
                         │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2024/
                         │      │                  │       04/24/2 
                         │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-2961 
-                        │      │                  ├ [4] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       4/05/msg00001.html 
+                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/BTJFBG
                         │      │                  │       HDYG5PEIFD5WSSSKSFZ2AZWC5N/ 
-                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/P3I4KY
                         │      │                  │       S6EU6S7QZ47WFNTPVAHFIUQNEL/ 
-                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/YAMJQI
                         │      │                  │       3Y6BHWV3CUTYBXOZONCUJNOB2Z/ 
-                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
-                        │      │                  ├ [8] : https://sourceware.org/git/?p=glibc.git;a=blob;f
+                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
+                        │      │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;f
                         │      │                  │       =advisories/GLIBC-SA-2024-0004 
-                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6737-1 
-                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6737-2 
-                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6762-1 
-                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │      │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2024
+                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6737-1 
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6737-2 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6762-1 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │      │                  ╰ [14]: https://www.openwall.com/lists/oss-security/2024
                         │      │                          /04/17/9 
                         │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
-                        │      ╰ LastModifiedDate: 2024-05-01T18:15:19.437Z 
+                        │      ╰ LastModifiedDate: 2024-05-04T01:15:06.243Z 
                         ├ [24] ╭ VulnerabilityID : CVE-2024-33599 
                         │      ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc-minimal-langpack 
