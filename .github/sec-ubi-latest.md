@@ -856,19 +856,31 @@
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-33599 
                         │      ├ Title           : glibc: stack-based buffer overflow in netgroup cache 
-                        │      ├ Description     : A stack-based buffer overflow flaw was found in the
-                        │      │                   glibc netgroup cache. In certain conditions, its possible to
-                        │      │                    trigger a stack-based buffer overflow condition that can
-                        │      │                   lead to a denial of service and potentially other malicious
-                        │      │                   actions that impact confidentiality and integrity. 
+                        │      ├ Description     : nscd: Stack-based buffer overflow in netgroup cache
+                        │      │                   
+                        │      │                   If the Name Service Cache Daemon's (nscd) fixed size cache
+                        │      │                   is exhausted
+                        │      │                   by client requests then a subsequent client request for
+                        │      │                   netgroup data
+                        │      │                   may result in a stack-based buffer overflow.  This flaw was
+                        │      │                   introduced
+                        │      │                   in glibc 2.15 when the cache was added to nscd.
+                        │      │                   
+                        │      │                   This vulnerability is only present in the nscd binary.
+                        │      │                    
                         │      ├ Severity        : HIGH 
+                        │      ├ CweIDs           ─ [0]: CWE-121 
                         │      ├ VendorSeverity   ─ redhat: 3 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           L/I:L/A:H 
                         │      │                           ╰ V3Score : 7.6 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33599 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33599 
+                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
+                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
+                        │      │                  │      advisories/GLIBC-SA-2024-0005 
+                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+                        │      ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
+                        │      ╰ LastModifiedDate: 2024-05-06T20:15:11.437Z 
                         ├ [15] ╭ VulnerabilityID : CVE-2024-33600 
                         │      ├ PkgID           : glibc@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc 
@@ -885,19 +897,32 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-33600 
                         │      ├ Title           : glibc: null pointer dereferences after failed netgroup
                         │      │                   cache insertion 
-                        │      ├ Description     : A flaw was found in the glibc netgroup cache. After a
-                        │      │                   failed cache insertion, addgetnetgrentX tries to send the
-                        │      │                   non-existing response after the not-found header. This can
-                        │      │                   lead to a null pointer dereference that causes a crash or
-                        │      │                   exit. 
+                        │      ├ Description     : nscd: Null pointer crashes after notfound response
+                        │      │                   
+                        │      │                   If the Name Service Cache Daemon's (nscd) cache fails to add
+                        │      │                    a not-found
+                        │      │                   netgroup response to the cache, the client request can
+                        │      │                   result in a null
+                        │      │                   pointer dereference.  This flaw was introduced in glibc 2.15
+                        │      │                    when the
+                        │      │                   cache was added to nscd.
+                        │      │                   
+                        │      │                   This vulnerability is only present in the nscd binary.
+                        │      │                   
+                        │      │                    
                         │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-476 
                         │      ├ VendorSeverity   ─ redhat: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33600 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33600 
+                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
+                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
+                        │      │                  │      advisories/GLIBC-SA-2024-0006 
+                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+                        │      ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
+                        │      ╰ LastModifiedDate: 2024-05-06T20:15:11.523Z 
                         ├ [16] ╭ VulnerabilityID : CVE-2024-33601 
                         │      ├ PkgID           : glibc@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc 
@@ -914,17 +939,34 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-33601 
                         │      ├ Title           : glibc: netgroup cache may terminate daemon on memory
                         │      │                   allocation failure 
-                        │      ├ Description     : A flaw was found in the glibc netgroup cache. The
-                        │      │                   netgroup cache uses xmalloc/xrealloc and may terminate the
-                        │      │                   process due to a memory allocation failure. 
+                        │      ├ Description     : nscd: netgroup cache may terminate daemon on memory
+                        │      │                   allocation failure
+                        │      │                   
+                        │      │                   The Name Service Cache Daemon's (nscd) netgroup cache uses
+                        │      │                   xmalloc or
+                        │      │                   xrealloc and these functions may terminate the process due
+                        │      │                   to a memory
+                        │      │                   allocation failure resulting in a denial of service to the
+                        │      │                   clients.  The
+                        │      │                   flaw was introduced in glibc 2.15 when the cache was added
+                        │      │                   to nscd.
+                        │      │                   
+                        │      │                   This vulnerability is only present in the nscd binary.
+                        │      │                   
+                        │      │                    
                         │      ├ Severity        : LOW 
+                        │      ├ CweIDs           ─ [0]: CWE-617 
                         │      ├ VendorSeverity   ─ redhat: 1 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 4 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33601 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33601 
+                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
+                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
+                        │      │                  │      advisories/GLIBC-SA-2024-0007 
+                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+                        │      ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
+                        │      ╰ LastModifiedDate: 2024-05-06T20:15:11.603Z 
                         ├ [17] ╭ VulnerabilityID : CVE-2024-33602 
                         │      ├ PkgID           : glibc@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc 
@@ -941,19 +983,32 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-33602 
                         │      ├ Title           : glibc: netgroup cache assumes NSS callback uses
                         │      │                   in-buffer strings 
-                        │      ├ Description     : A flaw was found in the glibc netgroup cache. The
-                        │      │                   buffer-resizing code in addgetnetgrentX assumes that all
-                        │      │                   string pointers point into the supplied buffer. This can
-                        │      │                   potentially lead to memory corruption and cause a
-                        │      │                   crash. 
+                        │      ├ Description     : nscd: netgroup cache assumes NSS callback uses
+                        │      │                   in-buffer strings
+                        │      │                   
+                        │      │                   The Name Service Cache Daemon's (nscd) netgroup cache can
+                        │      │                   corrupt memory
+                        │      │                   when the NSS callback does not store all strings in the
+                        │      │                   provided buffer.
+                        │      │                   The flaw was introduced in glibc 2.15 when the cache was
+                        │      │                   added to nscd.
+                        │      │                   
+                        │      │                   This vulnerability is only present in the nscd binary.
+                        │      │                   
+                        │      │                    
                         │      ├ Severity        : LOW 
+                        │      ├ CweIDs           ─ [0]: CWE-466 
                         │      ├ VendorSeverity   ─ redhat: 1 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 4 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33602 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33602 
+                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
+                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
+                        │      │                  │      advisories/GLIBC-SA-2024-0008 
+                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+                        │      ├ PublishedDate   : 2024-05-06T20:15:11.68Z 
+                        │      ╰ LastModifiedDate: 2024-05-06T20:15:11.68Z 
                         ├ [18] ╭ VulnerabilityID : CVE-2024-2961 
                         │      ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc-common 
@@ -1029,19 +1084,31 @@
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-33599 
                         │      ├ Title           : glibc: stack-based buffer overflow in netgroup cache 
-                        │      ├ Description     : A stack-based buffer overflow flaw was found in the
-                        │      │                   glibc netgroup cache. In certain conditions, its possible to
-                        │      │                    trigger a stack-based buffer overflow condition that can
-                        │      │                   lead to a denial of service and potentially other malicious
-                        │      │                   actions that impact confidentiality and integrity. 
+                        │      ├ Description     : nscd: Stack-based buffer overflow in netgroup cache
+                        │      │                   
+                        │      │                   If the Name Service Cache Daemon's (nscd) fixed size cache
+                        │      │                   is exhausted
+                        │      │                   by client requests then a subsequent client request for
+                        │      │                   netgroup data
+                        │      │                   may result in a stack-based buffer overflow.  This flaw was
+                        │      │                   introduced
+                        │      │                   in glibc 2.15 when the cache was added to nscd.
+                        │      │                   
+                        │      │                   This vulnerability is only present in the nscd binary.
+                        │      │                    
                         │      ├ Severity        : HIGH 
+                        │      ├ CweIDs           ─ [0]: CWE-121 
                         │      ├ VendorSeverity   ─ redhat: 3 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           L/I:L/A:H 
                         │      │                           ╰ V3Score : 7.6 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33599 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33599 
+                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
+                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
+                        │      │                  │      advisories/GLIBC-SA-2024-0005 
+                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+                        │      ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
+                        │      ╰ LastModifiedDate: 2024-05-06T20:15:11.437Z 
                         ├ [20] ╭ VulnerabilityID : CVE-2024-33600 
                         │      ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc-common 
@@ -1058,19 +1125,32 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-33600 
                         │      ├ Title           : glibc: null pointer dereferences after failed netgroup
                         │      │                   cache insertion 
-                        │      ├ Description     : A flaw was found in the glibc netgroup cache. After a
-                        │      │                   failed cache insertion, addgetnetgrentX tries to send the
-                        │      │                   non-existing response after the not-found header. This can
-                        │      │                   lead to a null pointer dereference that causes a crash or
-                        │      │                   exit. 
+                        │      ├ Description     : nscd: Null pointer crashes after notfound response
+                        │      │                   
+                        │      │                   If the Name Service Cache Daemon's (nscd) cache fails to add
+                        │      │                    a not-found
+                        │      │                   netgroup response to the cache, the client request can
+                        │      │                   result in a null
+                        │      │                   pointer dereference.  This flaw was introduced in glibc 2.15
+                        │      │                    when the
+                        │      │                   cache was added to nscd.
+                        │      │                   
+                        │      │                   This vulnerability is only present in the nscd binary.
+                        │      │                   
+                        │      │                    
                         │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-476 
                         │      ├ VendorSeverity   ─ redhat: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33600 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33600 
+                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
+                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
+                        │      │                  │      advisories/GLIBC-SA-2024-0006 
+                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+                        │      ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
+                        │      ╰ LastModifiedDate: 2024-05-06T20:15:11.523Z 
                         ├ [21] ╭ VulnerabilityID : CVE-2024-33601 
                         │      ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc-common 
@@ -1087,17 +1167,34 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-33601 
                         │      ├ Title           : glibc: netgroup cache may terminate daemon on memory
                         │      │                   allocation failure 
-                        │      ├ Description     : A flaw was found in the glibc netgroup cache. The
-                        │      │                   netgroup cache uses xmalloc/xrealloc and may terminate the
-                        │      │                   process due to a memory allocation failure. 
+                        │      ├ Description     : nscd: netgroup cache may terminate daemon on memory
+                        │      │                   allocation failure
+                        │      │                   
+                        │      │                   The Name Service Cache Daemon's (nscd) netgroup cache uses
+                        │      │                   xmalloc or
+                        │      │                   xrealloc and these functions may terminate the process due
+                        │      │                   to a memory
+                        │      │                   allocation failure resulting in a denial of service to the
+                        │      │                   clients.  The
+                        │      │                   flaw was introduced in glibc 2.15 when the cache was added
+                        │      │                   to nscd.
+                        │      │                   
+                        │      │                   This vulnerability is only present in the nscd binary.
+                        │      │                   
+                        │      │                    
                         │      ├ Severity        : LOW 
+                        │      ├ CweIDs           ─ [0]: CWE-617 
                         │      ├ VendorSeverity   ─ redhat: 1 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 4 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33601 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33601 
+                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
+                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
+                        │      │                  │      advisories/GLIBC-SA-2024-0007 
+                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+                        │      ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
+                        │      ╰ LastModifiedDate: 2024-05-06T20:15:11.603Z 
                         ├ [22] ╭ VulnerabilityID : CVE-2024-33602 
                         │      ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc-common 
@@ -1114,19 +1211,32 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-33602 
                         │      ├ Title           : glibc: netgroup cache assumes NSS callback uses
                         │      │                   in-buffer strings 
-                        │      ├ Description     : A flaw was found in the glibc netgroup cache. The
-                        │      │                   buffer-resizing code in addgetnetgrentX assumes that all
-                        │      │                   string pointers point into the supplied buffer. This can
-                        │      │                   potentially lead to memory corruption and cause a
-                        │      │                   crash. 
+                        │      ├ Description     : nscd: netgroup cache assumes NSS callback uses
+                        │      │                   in-buffer strings
+                        │      │                   
+                        │      │                   The Name Service Cache Daemon's (nscd) netgroup cache can
+                        │      │                   corrupt memory
+                        │      │                   when the NSS callback does not store all strings in the
+                        │      │                   provided buffer.
+                        │      │                   The flaw was introduced in glibc 2.15 when the cache was
+                        │      │                   added to nscd.
+                        │      │                   
+                        │      │                   This vulnerability is only present in the nscd binary.
+                        │      │                   
+                        │      │                    
                         │      ├ Severity        : LOW 
+                        │      ├ CweIDs           ─ [0]: CWE-466 
                         │      ├ VendorSeverity   ─ redhat: 1 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 4 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33602 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33602 
+                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
+                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
+                        │      │                  │      advisories/GLIBC-SA-2024-0008 
+                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+                        │      ├ PublishedDate   : 2024-05-06T20:15:11.68Z 
+                        │      ╰ LastModifiedDate: 2024-05-06T20:15:11.68Z 
                         ├ [23] ╭ VulnerabilityID : CVE-2024-2961 
                         │      ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc-minimal-langpack 
@@ -1202,19 +1312,31 @@
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-33599 
                         │      ├ Title           : glibc: stack-based buffer overflow in netgroup cache 
-                        │      ├ Description     : A stack-based buffer overflow flaw was found in the
-                        │      │                   glibc netgroup cache. In certain conditions, its possible to
-                        │      │                    trigger a stack-based buffer overflow condition that can
-                        │      │                   lead to a denial of service and potentially other malicious
-                        │      │                   actions that impact confidentiality and integrity. 
+                        │      ├ Description     : nscd: Stack-based buffer overflow in netgroup cache
+                        │      │                   
+                        │      │                   If the Name Service Cache Daemon's (nscd) fixed size cache
+                        │      │                   is exhausted
+                        │      │                   by client requests then a subsequent client request for
+                        │      │                   netgroup data
+                        │      │                   may result in a stack-based buffer overflow.  This flaw was
+                        │      │                   introduced
+                        │      │                   in glibc 2.15 when the cache was added to nscd.
+                        │      │                   
+                        │      │                   This vulnerability is only present in the nscd binary.
+                        │      │                    
                         │      ├ Severity        : HIGH 
+                        │      ├ CweIDs           ─ [0]: CWE-121 
                         │      ├ VendorSeverity   ─ redhat: 3 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           L/I:L/A:H 
                         │      │                           ╰ V3Score : 7.6 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33599 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33599 
+                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
+                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
+                        │      │                  │      advisories/GLIBC-SA-2024-0005 
+                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+                        │      ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
+                        │      ╰ LastModifiedDate: 2024-05-06T20:15:11.437Z 
                         ├ [25] ╭ VulnerabilityID : CVE-2024-33600 
                         │      ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc-minimal-langpack 
@@ -1231,19 +1353,32 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-33600 
                         │      ├ Title           : glibc: null pointer dereferences after failed netgroup
                         │      │                   cache insertion 
-                        │      ├ Description     : A flaw was found in the glibc netgroup cache. After a
-                        │      │                   failed cache insertion, addgetnetgrentX tries to send the
-                        │      │                   non-existing response after the not-found header. This can
-                        │      │                   lead to a null pointer dereference that causes a crash or
-                        │      │                   exit. 
+                        │      ├ Description     : nscd: Null pointer crashes after notfound response
+                        │      │                   
+                        │      │                   If the Name Service Cache Daemon's (nscd) cache fails to add
+                        │      │                    a not-found
+                        │      │                   netgroup response to the cache, the client request can
+                        │      │                   result in a null
+                        │      │                   pointer dereference.  This flaw was introduced in glibc 2.15
+                        │      │                    when the
+                        │      │                   cache was added to nscd.
+                        │      │                   
+                        │      │                   This vulnerability is only present in the nscd binary.
+                        │      │                   
+                        │      │                    
                         │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-476 
                         │      ├ VendorSeverity   ─ redhat: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33600 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33600 
+                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
+                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
+                        │      │                  │      advisories/GLIBC-SA-2024-0006 
+                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+                        │      ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
+                        │      ╰ LastModifiedDate: 2024-05-06T20:15:11.523Z 
                         ├ [26] ╭ VulnerabilityID : CVE-2024-33601 
                         │      ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc-minimal-langpack 
@@ -1260,17 +1395,34 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-33601 
                         │      ├ Title           : glibc: netgroup cache may terminate daemon on memory
                         │      │                   allocation failure 
-                        │      ├ Description     : A flaw was found in the glibc netgroup cache. The
-                        │      │                   netgroup cache uses xmalloc/xrealloc and may terminate the
-                        │      │                   process due to a memory allocation failure. 
+                        │      ├ Description     : nscd: netgroup cache may terminate daemon on memory
+                        │      │                   allocation failure
+                        │      │                   
+                        │      │                   The Name Service Cache Daemon's (nscd) netgroup cache uses
+                        │      │                   xmalloc or
+                        │      │                   xrealloc and these functions may terminate the process due
+                        │      │                   to a memory
+                        │      │                   allocation failure resulting in a denial of service to the
+                        │      │                   clients.  The
+                        │      │                   flaw was introduced in glibc 2.15 when the cache was added
+                        │      │                   to nscd.
+                        │      │                   
+                        │      │                   This vulnerability is only present in the nscd binary.
+                        │      │                   
+                        │      │                    
                         │      ├ Severity        : LOW 
+                        │      ├ CweIDs           ─ [0]: CWE-617 
                         │      ├ VendorSeverity   ─ redhat: 1 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 4 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33601 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33601 
+                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
+                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
+                        │      │                  │      advisories/GLIBC-SA-2024-0007 
+                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+                        │      ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
+                        │      ╰ LastModifiedDate: 2024-05-06T20:15:11.603Z 
                         ├ [27] ╭ VulnerabilityID : CVE-2024-33602 
                         │      ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
                         │      ├ PkgName         : glibc-minimal-langpack 
@@ -1287,19 +1439,32 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-33602 
                         │      ├ Title           : glibc: netgroup cache assumes NSS callback uses
                         │      │                   in-buffer strings 
-                        │      ├ Description     : A flaw was found in the glibc netgroup cache. The
-                        │      │                   buffer-resizing code in addgetnetgrentX assumes that all
-                        │      │                   string pointers point into the supplied buffer. This can
-                        │      │                   potentially lead to memory corruption and cause a
-                        │      │                   crash. 
+                        │      ├ Description     : nscd: netgroup cache assumes NSS callback uses
+                        │      │                   in-buffer strings
+                        │      │                   
+                        │      │                   The Name Service Cache Daemon's (nscd) netgroup cache can
+                        │      │                   corrupt memory
+                        │      │                   when the NSS callback does not store all strings in the
+                        │      │                   provided buffer.
+                        │      │                   The flaw was introduced in glibc 2.15 when the cache was
+                        │      │                   added to nscd.
+                        │      │                   
+                        │      │                   This vulnerability is only present in the nscd binary.
+                        │      │                   
+                        │      │                    
                         │      ├ Severity        : LOW 
+                        │      ├ CweIDs           ─ [0]: CWE-466 
                         │      ├ VendorSeverity   ─ redhat: 1 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 4 
-                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33602 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33602 
+                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
+                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
+                        │      │                  │      advisories/GLIBC-SA-2024-0008 
+                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+                        │      ├ PublishedDate   : 2024-05-06T20:15:11.68Z 
+                        │      ╰ LastModifiedDate: 2024-05-06T20:15:11.68Z 
                         ├ [28] ╭ VulnerabilityID : CVE-2022-3219 
                         │      ├ PkgID           : gnupg2@2.3.3-4.el9.x86_64 
                         │      ├ PkgName         : gnupg2 
@@ -1374,6 +1539,7 @@
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 2 
+                        │      │                  ├ rocky      : 2 
                         │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
@@ -1391,18 +1557,21 @@
                         │      │                  ├ [8] : https://bugzilla.redhat.com/2269084 
                         │      │                  ├ [9] : https://bugzilla.redhat.com/2269228 
                         │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
-                        │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-1879.html 
-                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-28834.html 
-                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-1879.html 
-                        │      │                  ├ [14]: https://lists.gnupg.org/pipermail/gnutls-help/20
+                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2024-28834 
+                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-1879.html 
+                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:1784 
+                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-28834.html 
+                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-1879.html 
+                        │      │                  ├ [16]: https://lists.gnupg.org/pipermail/gnutls-help/20
                         │      │                  │       24-March/004845.html 
-                        │      │                  ├ [15]: https://minerva.crocs.fi.muni.cz/ 
-                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
-                        │      │                  ├ [17]: https://people.redhat.com/~hkario/marvin/ 
-                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6733-1 
-                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6733-2 
-                        │      │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
-                        │      │                  ╰ [21]: https://www.gnutls.org/security-new.html#GNUTLS-
+                        │      │                  ├ [17]: https://minerva.crocs.fi.muni.cz/ 
+                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
+                        │      │                  ├ [19]: https://people.redhat.com/~hkario/marvin/ 
+                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6733-1 
+                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6733-2 
+                        │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
+                        │      │                  ╰ [23]: https://www.gnutls.org/security-new.html#GNUTLS-
                         │      │                          SA-2023-12-04 
                         │      ├ PublishedDate   : 2024-03-21T14:15:07.547Z 
                         │      ╰ LastModifiedDate: 2024-05-01T18:15:17.683Z 
@@ -1505,7 +1674,8 @@
                         │      ├ VendorSeverity   ╭ alma       : 2 
                         │      │                  ├ amazon     : 1 
                         │      │                  ├ oracle-oval: 2 
-                        │      │                  ╰ redhat     : 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ rocky      : 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:L/A:N 
                         │      │                           ╰ V3Score : 3.7 
@@ -1515,18 +1685,34 @@
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2274977 
                         │      │                  ├ [4] : https://bugzilla.redhat.com/2275003 
                         │      │                  ├ [5] : https://bugzilla.redhat.com/2275005 
-                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-1825.html 
-                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-21094.html 
-                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1825.html 
-                        │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
+                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
+                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2275001 
+                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
+                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2275005 
+                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2024-21011 
+                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2024-21012 
+                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2024-21068 
+                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2024-21085 
+                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2024-21094 
+                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-1825.html 
+                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:1822 
+                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-21094.html 
+                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-1825.html 
+                        │      │                  ├ [20]: https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/04/msg00014.html 
-                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21094 
-                        │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
+                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21094 
+                        │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-202404
                         │      │                  │       26-0004/ 
-                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21094 
-                        │      │                  ├ [13]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2024-21094 
+                        │      │                  ├ [24]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                  │       4.html 
-                        │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuapr202
+                        │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpuapr202
                         │      │                          4.html#AppendixJAVA 
                         │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
                         │      ╰ LastModifiedDate: 2024-04-26T09:15:11.613Z 
