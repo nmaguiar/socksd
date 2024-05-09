@@ -697,6 +697,36 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-4156
     PublishedDate: '2023-09-25T18:15:11.013Z'
     LastModifiedDate: '2023-11-07T04:22:11.937Z'
+  - VulnerabilityID: CVE-2024-34397
+    PkgID: glib2@2.68.4-11.el9.x86_64
+    PkgName: glib2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glib2@2.68.4-11.el9?arch=x86_64&distro=redhat-9.3
+      UID: 32b08b43a58892d2
+    InstalledVersion: 2.68.4-11.el9
+    Status: under_investigation
+    Layer:
+      Digest: sha256:68d3d017746d21a2bec71a89c6d4f82b9dace2df3b013dce2ae681e110e13804
+      DiffID: sha256:2c169622501d738f2212103d2ab9be90c7762e4867f23ceeecee03aa5b831344
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34397
+    Title: 'glib2: Signal subscription vulnerabilities'
+    Description: An issue was discovered in GNOME GLib before 2.78.5, and 2.79.x and 2.80.x before 2.80.1. When a GDBus-based client subscribes to signals from a trusted system service such as NetworkManager on a shared computer, other users of the same computer can send spoofed D-Bus signals that the GDBus-based client will wrongly interpret as having been sent by the trusted system service. This could lead to the GDBus-based client behaving incorrectly, with an application-dependent impact.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N
+        V3Score: 3.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-34397
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3268
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34397
+    - https://www.cve.org/CVERecord?id=CVE-2024-34397
+    - https://www.openwall.com/lists/oss-security/2024/05/07/5
+    PublishedDate: '2024-05-07T18:15:08.35Z'
+    LastModifiedDate: '2024-05-07T20:07:58.737Z'
   - VulnerabilityID: CVE-2024-2961
     PkgID: glibc@2.34-83.el9_3.12.x86_64
     PkgName: glibc
@@ -1398,7 +1428,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-2570.html
     - https://errata.rockylinux.org/RLSA-2024:1784
     - https://linux.oracle.com/cve/CVE-2024-28834.html
-    - https://linux.oracle.com/errata/ELSA-2024-1879.html
+    - https://linux.oracle.com/errata/ELSA-2024-2570.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
     - https://minerva.crocs.fi.muni.cz/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28834
@@ -1452,7 +1482,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269084
     - https://errata.almalinux.org/9/ALSA-2024-2570.html
     - https://linux.oracle.com/cve/CVE-2024-28835.html
-    - https://linux.oracle.com/errata/ELSA-2024-1879.html
+    - https://linux.oracle.com/errata/ELSA-2024-2570.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28835
     - https://ubuntu.com/security/notices/USN-6733-1
@@ -1789,7 +1819,7 @@
       alma: 2
       amazon: 3
       cbl-mariner: 3
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -1807,7 +1837,7 @@
     - https://httpd.apache.org/security/vulnerabilities_24.html
     - https://kb.cert.org/vuls/id/421644
     - https://linux.oracle.com/cve/CVE-2024-27316.html
-    - https://linux.oracle.com/errata/ELSA-2024-1872.html
+    - https://linux.oracle.com/errata/ELSA-2024-2564.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FO73U3SLBYFGIW2YKXOK7RI4D6DJSZ2B/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MIUBKSCJGPJ6M2U63V6BKFDF725ODLG7/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QKKDVFWBKIHCC3WXNH3W75WWY4NW42OB/
@@ -1867,13 +1897,16 @@
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2023-11-07T03:45:32.64Z'
   - VulnerabilityID: CVE-2024-25062
+    VendorIDs:
+    - RHSA-2024:2679
     PkgID: libxml2@2.9.13-5.el9_3.x86_64
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-5.el9_3?arch=x86_64&distro=redhat-9.3
       UID: 36c42ff3b679c7b5
     InstalledVersion: 2.9.13-5.el9_3
-    Status: affected
+    FixedVersion: 2.9.13-6.el9_4
+    Status: fixed
     Layer:
       Digest: sha256:68d3d017746d21a2bec71a89c6d4f82b9dace2df3b013dce2ae681e110e13804
       DiffID: sha256:2c169622501d738f2212103d2ab9be90c7762e4867f23ceeecee03aa5b831344
