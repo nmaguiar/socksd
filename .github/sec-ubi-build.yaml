@@ -715,14 +715,17 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N
         V3Score: 3.8
     References:
     - https://access.redhat.com/security/cve/CVE-2024-34397
+    - https://discourse.gnome.org/t/security-fixes-for-signal-handling-in-gdbus-in-glib/20882/1
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3268
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34397
+    - https://ubuntu.com/security/notices/USN-6768-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34397
     - https://www.openwall.com/lists/oss-security/2024/05/07/5
     PublishedDate: '2024-05-07T18:15:08.35Z'
@@ -747,7 +750,9 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -759,7 +764,12 @@
     - http://www.openwall.com/lists/oss-security/2024/04/17/9
     - http://www.openwall.com/lists/oss-security/2024/04/18/4
     - http://www.openwall.com/lists/oss-security/2024/04/24/2
+    - https://access.redhat.com/errata/RHSA-2024:2722
     - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://bugzilla.redhat.com/2273404
+    - https://errata.almalinux.org/8/ALSA-2024-2722.html
+    - https://linux.oracle.com/cve/CVE-2024-2961.html
+    - https://linux.oracle.com/errata/ELSA-2024-2722.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -951,7 +961,9 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -963,7 +975,12 @@
     - http://www.openwall.com/lists/oss-security/2024/04/17/9
     - http://www.openwall.com/lists/oss-security/2024/04/18/4
     - http://www.openwall.com/lists/oss-security/2024/04/24/2
+    - https://access.redhat.com/errata/RHSA-2024:2722
     - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://bugzilla.redhat.com/2273404
+    - https://errata.almalinux.org/8/ALSA-2024-2722.html
+    - https://linux.oracle.com/cve/CVE-2024-2961.html
+    - https://linux.oracle.com/errata/ELSA-2024-2722.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -1155,7 +1172,9 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -1167,7 +1186,12 @@
     - http://www.openwall.com/lists/oss-security/2024/04/17/9
     - http://www.openwall.com/lists/oss-security/2024/04/18/4
     - http://www.openwall.com/lists/oss-security/2024/04/24/2
+    - https://access.redhat.com/errata/RHSA-2024:2722
     - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://bugzilla.redhat.com/2273404
+    - https://errata.almalinux.org/8/ALSA-2024-2722.html
+    - https://linux.oracle.com/cve/CVE-2024-2961.html
+    - https://linux.oracle.com/errata/ELSA-2024-2722.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -1797,60 +1821,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2024-04-25T17:15:49.467Z'
-  - VulnerabilityID: CVE-2024-27316
-    PkgID: libnghttp2@1.43.0-5.el9_3.1.x86_64
-    PkgName: libnghttp2
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libnghttp2@1.43.0-5.el9_3.1?arch=x86_64&distro=redhat-9.3
-      UID: a6d41021a4e8bb63
-    InstalledVersion: 1.43.0-5.el9_3.1
-    Status: affected
-    Layer:
-      Digest: sha256:68d3d017746d21a2bec71a89c6d4f82b9dace2df3b013dce2ae681e110e13804
-      DiffID: sha256:2c169622501d738f2212103d2ab9be90c7762e4867f23ceeecee03aa5b831344
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-27316
-    Title: 'httpd: CONTINUATION frames DoS'
-    Description: HTTP/2 incoming headers exceeding the limit are temporarily buffered in nghttp2 in order to generate an informative HTTP 413 response. If a client does not stop sending headers, this leads to memory exhaustion.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-400
-    VendorSeverity:
-      alma: 2
-      amazon: 3
-      cbl-mariner: 3
-      oracle-oval: 2
-      photon: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/04/03/16
-    - http://www.openwall.com/lists/oss-security/2024/04/04/4
-    - https://access.redhat.com/errata/RHSA-2024:2564
-    - https://access.redhat.com/security/cve/CVE-2024-27316
-    - https://bugzilla.redhat.com/2268277
-    - https://errata.almalinux.org/9/ALSA-2024-2564.html
-    - https://httpd.apache.org/security/vulnerabilities_24.html
-    - https://kb.cert.org/vuls/id/421644
-    - https://linux.oracle.com/cve/CVE-2024-27316.html
-    - https://linux.oracle.com/errata/ELSA-2024-2564.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FO73U3SLBYFGIW2YKXOK7RI4D6DJSZ2B/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MIUBKSCJGPJ6M2U63V6BKFDF725ODLG7/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QKKDVFWBKIHCC3WXNH3W75WWY4NW42OB/
-    - https://nowotarski.info/http2-continuation-flood/
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-27316
-    - https://security.netapp.com/advisory/ntap-20240415-0013/
-    - https://ubuntu.com/security/notices/USN-6729-1
-    - https://ubuntu.com/security/notices/USN-6729-2
-    - https://ubuntu.com/security/notices/USN-6729-3
-    - https://www.cve.org/CVERecord?id=CVE-2024-27316
-    - https://www.kb.cert.org/vuls/id/421644
-    PublishedDate: '2024-04-04T20:15:08.72Z'
-    LastModifiedDate: '2024-05-01T18:15:16.023Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++@11.4.1-2.1.el9.x86_64
     PkgName: libstdc++
@@ -1918,6 +1888,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 2
       nvd: 3
       oracle-oval: 2
       photon: 3
@@ -1931,7 +1902,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:2679
     - https://access.redhat.com/security/cve/CVE-2024-25062
+    - https://bugzilla.redhat.com/2262726
+    - https://errata.almalinux.org/9/ALSA-2024-2679.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/604
     - https://gitlab.gnome.org/GNOME/libxml2/-/tags
     - https://linux.oracle.com/cve/CVE-2024-25062.html
