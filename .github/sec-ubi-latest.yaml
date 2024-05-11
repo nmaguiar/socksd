@@ -624,6 +624,7 @@
       oracle-oval: 1
       photon: 2
       redhat: 1
+      rocky: 1
       ubuntu: 2
     CVSS:
       nvd:
@@ -640,7 +641,10 @@
     - https://access.redhat.com/security/cve/CVE-2022-48554
     - https://bugs.astron.com/view.php?id=310
     - https://bugzilla.redhat.com/2235714
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2235714
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48554
     - https://errata.almalinux.org/9/ALSA-2024-2512.html
+    - https://errata.rockylinux.org/RLSA-2024:2512
     - https://linux.oracle.com/cve/CVE-2022-48554.html
     - https://linux.oracle.com/errata/ELSA-2024-2512.html
     - https://nvd.nist.gov/vuln/detail/CVE-2022-48554
@@ -1447,10 +1451,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-28834
     - https://bugzilla.redhat.com/2269084
     - https://bugzilla.redhat.com/2269228
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2269084
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269228
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28834
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28835
     - https://errata.almalinux.org/9/ALSA-2024-2570.html
-    - https://errata.rockylinux.org/RLSA-2024:1784
+    - https://errata.rockylinux.org/RLSA-2024:2570
     - https://linux.oracle.com/cve/CVE-2024-28834.html
     - https://linux.oracle.com/errata/ELSA-2024-2570.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
@@ -1490,6 +1496,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1504,7 +1511,10 @@
     - https://bugzilla.redhat.com/2269084
     - https://bugzilla.redhat.com/2269228
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269084
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28834
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28835
     - https://errata.almalinux.org/9/ALSA-2024-2570.html
+    - https://errata.rockylinux.org/RLSA-2024:2570
     - https://linux.oracle.com/cve/CVE-2024-28835.html
     - https://linux.oracle.com/errata/ELSA-2024-2570.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
@@ -1893,6 +1903,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -1905,7 +1916,10 @@
     - https://access.redhat.com/errata/RHSA-2024:2679
     - https://access.redhat.com/security/cve/CVE-2024-25062
     - https://bugzilla.redhat.com/2262726
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262726
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25062
     - https://errata.almalinux.org/9/ALSA-2024-2679.html
+    - https://errata.rockylinux.org/RLSA-2024:2679
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/604
     - https://gitlab.gnome.org/GNOME/libxml2/-/tags
     - https://linux.oracle.com/cve/CVE-2024-25062.html
@@ -2714,6 +2728,7 @@
       oracle-oval: 1
       photon: 2
       redhat: 1
+      rocky: 3
       ubuntu: 1
     CVSS:
       nvd:
@@ -2736,7 +2751,24 @@
     - https://bugzilla.redhat.com/2257571
     - https://bugzilla.redhat.com/2258502
     - https://bugzilla.redhat.com/2259944
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2224962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2257582
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2257583
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258677
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258688
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258694
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258700
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36763
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36764
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3446
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45229
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45231
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45233
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45235
     - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.rockylinux.org/RLSA-2024:2264
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9a0a4d3c1e7138915563c0df4fe6a3f9377b839c
@@ -3411,6 +3443,7 @@
       oracle-oval: 1
       photon: 2
       redhat: 1
+      rocky: 3
       ubuntu: 1
     CVSS:
       nvd:
@@ -3433,7 +3466,24 @@
     - https://bugzilla.redhat.com/2257571
     - https://bugzilla.redhat.com/2258502
     - https://bugzilla.redhat.com/2259944
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2224962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2257582
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2257583
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258677
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258688
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258694
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258700
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36763
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36764
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3446
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45229
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45231
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45233
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45235
     - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.rockylinux.org/RLSA-2024:2264
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9a0a4d3c1e7138915563c0df4fe6a3f9377b839c
@@ -5250,6 +5300,7 @@
       nvd: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 1
     CVSS:
       nvd:
@@ -5264,7 +5315,9 @@
     - https://bugzilla.redhat.com/2222672
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-2463.html
