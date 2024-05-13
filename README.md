@@ -59,6 +59,7 @@ You can control the behaviour with environment variables:
 | INITOJOB | setDNS.yaml | (optional) Runs the indicated OpenAF's oJob to perform an initialization function. |
 | INITOJOBARGS | "(arg1: xyz, arg2: 123)" | (optional) The INITOJOB arguments to use in [SLON](https://github.com/nmaguiar/slon) format |
 | OJOB_JSONLOG | true/false | Ensures all output log to stdout is in JSON |
+| HTTPPROXY | true/false | (optional) Starts a http/https proxy to relay requests to the socks proxy on port 8888 (to support applications that don't support connecting to a socks proxy) |
 
 > You can add these variables with the option '-e' on the ````docker run -d --rm -p 1080:1080 -e LOGS=true -e ONLY_LOCAL=true -e OJOB_JSONLOG=true --network mynet --name socksd nmaguiar/socksd```` command or with ````kubectl set env deploy socksd LOGS=true ONLY_LOCAL=true OJOB_JSONLOG=true```` in Kubernetes
 

@@ -1,11 +1,16 @@
 FROM openaf/ojobrt as main
 
+USER root
+RUN apk --no-cache add tinyproxy 
+
+USER openaf
 RUN /openaf/opack install SocksServer\
  && /openaf/opack erase S3\
  && sed -i '/^- s3.yaml$/d' /openaf/entrypoint.yaml\
  && sed -i '/- S3$/d' /openaf/entrypoint.yaml
  
 COPY main.yaml /ojob/main.yaml
+COPY tinyproxy.conf /etc/tinyproxy/tinyproxy.conf
 
 # -------------------
 FROM scratch as final
