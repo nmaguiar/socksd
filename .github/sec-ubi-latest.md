@@ -1634,31 +1634,32 @@
                         │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:1997 
                         │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:2044 
                         │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2024:2570 
-                        │      │                  ├ [7] : https://access.redhat.com/security/cve/CVE-2024-28834 
-                        │      │                  ├ [8] : https://bugzilla.redhat.com/2269084 
-                        │      │                  ├ [9] : https://bugzilla.redhat.com/2269228 
-                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2269084 
-                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
-                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │      │                  │       VE-2024-28834 
+                        │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2024:2889 
+                        │      │                  ├ [8] : https://access.redhat.com/security/cve/CVE-2024-28834 
+                        │      │                  ├ [9] : https://bugzilla.redhat.com/2269084 
+                        │      │                  ├ [10]: https://bugzilla.redhat.com/2269228 
+                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2269084 
+                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
                         │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2024-28834 
+                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2024-28835 
-                        │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-2570.html 
-                        │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:2570 
-                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2024-28834.html 
-                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2024-2570.html 
-                        │      │                  ├ [18]: https://lists.gnupg.org/pipermail/gnutls-help/20
+                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2570.html 
+                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2570 
+                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2024-28834.html 
+                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2024-2570.html 
+                        │      │                  ├ [19]: https://lists.gnupg.org/pipermail/gnutls-help/20
                         │      │                  │       24-March/004845.html 
-                        │      │                  ├ [19]: https://minerva.crocs.fi.muni.cz/ 
-                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
-                        │      │                  ├ [21]: https://people.redhat.com/~hkario/marvin/ 
-                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6733-1 
-                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6733-2 
-                        │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
-                        │      │                  ╰ [25]: https://www.gnutls.org/security-new.html#GNUTLS-
+                        │      │                  ├ [20]: https://minerva.crocs.fi.muni.cz/ 
+                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
+                        │      │                  ├ [22]: https://people.redhat.com/~hkario/marvin/ 
+                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6733-1 
+                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6733-2 
+                        │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
+                        │      │                  ╰ [26]: https://www.gnutls.org/security-new.html#GNUTLS-
                         │      │                          SA-2023-12-04 
                         │      ├ PublishedDate   : 2024-03-21T14:15:07.547Z 
-                        │      ╰ LastModifiedDate: 2024-05-01T18:15:17.683Z 
+                        │      ╰ LastModifiedDate: 2024-05-16T23:15:47.753Z 
                         ├ [31] ╭ VulnerabilityID : CVE-2024-28835 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:2570 
                         │      ├ PkgID           : gnutls@3.7.6-23.el9_3.4.x86_64 
@@ -1698,28 +1699,29 @@
                         │      │                  │       03/22/2 
                         │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:1879 
                         │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:2570 
-                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-28835 
-                        │      │                  ├ [5] : https://bugzilla.redhat.com/2269084 
-                        │      │                  ├ [6] : https://bugzilla.redhat.com/2269228 
-                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2269084 
-                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │      │                  │       VE-2024-28834 
+                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:2889 
+                        │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2024-28835 
+                        │      │                  ├ [6] : https://bugzilla.redhat.com/2269084 
+                        │      │                  ├ [7] : https://bugzilla.redhat.com/2269228 
+                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2269084 
                         │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2024-28834 
+                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2024-28835 
-                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-2570.html 
-                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:2570 
-                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-28835.html 
-                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2570.html 
-                        │      │                  ├ [14]: https://lists.gnupg.org/pipermail/gnutls-help/20
+                        │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-2570.html 
+                        │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:2570 
+                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-28835.html 
+                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-2570.html 
+                        │      │                  ├ [15]: https://lists.gnupg.org/pipermail/gnutls-help/20
                         │      │                  │       24-March/004845.html 
-                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-28835 
-                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6733-1 
-                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6733-2 
-                        │      │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2024-28835 
-                        │      │                  ╰ [19]: https://www.gnutls.org/security-new.html#GNUTLS-
+                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-28835 
+                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6733-1 
+                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6733-2 
+                        │      │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2024-28835 
+                        │      │                  ╰ [20]: https://www.gnutls.org/security-new.html#GNUTLS-
                         │      │                          SA-2024-01-23 
                         │      ├ PublishedDate   : 2024-03-21T06:15:45.113Z 
-                        │      ╰ LastModifiedDate: 2024-05-01T18:15:17.79Z 
+                        │      ╰ LastModifiedDate: 2024-05-16T23:15:47.883Z 
                         ├ [32] ╭ VulnerabilityID : CVE-2024-21094 
                         │      ├ PkgID           : java-21-openjdk-headless@21.0.3.0.9-1.el9.x86_64 
                         │      ├ PkgName         : java-21-openjdk-headless 
@@ -1833,10 +1835,12 @@
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
                         │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
                         │      │                  │      lob/main/krb5_detect_3.md 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
-                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-2024041
+                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-M
+                        │      │                  │      arch/023095.html 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
+                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2024041
                         │      │                  │      5-0012/ 
-                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
                         │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
                         │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
                         ├ [34] ╭ VulnerabilityID : CVE-2024-26458 
@@ -1859,17 +1863,19 @@
                         │      ├ Severity        : LOW 
                         │      ├ VendorSeverity   ╭ amazon: 2 
                         │      │                  ├ redhat: 1 
-                        │      │                  ╰ ubuntu: 2 
+                        │      │                  ╰ ubuntu: 1 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.9 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
                         │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
                         │      │                  │      lob/main/krb5_detect_1.md 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-2024041
+                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-M
+                        │      │                  │      arch/023095.html 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2024041
                         │      │                  │      5-0010/ 
-                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
                         │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
                         │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
                         ├ [35] ╭ VulnerabilityID : CVE-2024-26461 
@@ -1893,17 +1899,19 @@
                         │      ├ Severity        : LOW 
                         │      ├ VendorSeverity   ╭ amazon: 2 
                         │      │                  ├ redhat: 1 
-                        │      │                  ╰ ubuntu: 2 
+                        │      │                  ╰ ubuntu: 1 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.9 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
                         │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
                         │      │                  │      lob/main/krb5_detect_2.md 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-2024041
+                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-M
+                        │      │                  │      arch/023095.html 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2024041
                         │      │                  │      5-0011/ 
-                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
                         │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
                         │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
                         ├ [36] ╭ VulnerabilityID : CVE-2023-30571 
@@ -2127,14 +2135,14 @@
                         │      │                           ╰ V3Score : 5.3 
                         │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/
                         │      │                  │       04/03/16 
-                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2779 
+                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2853 
                         │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-28182 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2265713 
                         │      │                  ├ [4] : https://bugzilla.redhat.com/2268639 
                         │      │                  ├ [5] : https://bugzilla.redhat.com/2270559 
                         │      │                  ├ [6] : https://bugzilla.redhat.com/2272764 
                         │      │                  ├ [7] : https://bugzilla.redhat.com/2275392 
-                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-2779.html 
+                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-2853.html 
                         │      │                  ├ [9] : https://github.com/nghttp2/nghttp2/commit/00201e
                         │      │                  │       cd8f982da3b67d4f6868af72a1b03b14e0 
                         │      │                  ├ [10]: https://github.com/nghttp2/nghttp2/commit/d71a46
@@ -2373,8 +2381,7 @@
                         │      │                   disclosure but did not respond in any way. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-122 
-                        │      ├ VendorSeverity   ╭ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ─ redhat: 2 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 7.5 
