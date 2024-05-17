@@ -1460,6 +1460,7 @@
     - https://access.redhat.com/errata/RHSA-2024:1997
     - https://access.redhat.com/errata/RHSA-2024:2044
     - https://access.redhat.com/errata/RHSA-2024:2570
+    - https://access.redhat.com/errata/RHSA-2024:2889
     - https://access.redhat.com/security/cve/CVE-2024-28834
     - https://bugzilla.redhat.com/2269084
     - https://bugzilla.redhat.com/2269228
@@ -1480,7 +1481,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-28834
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2023-12-04
     PublishedDate: '2024-03-21T14:15:07.547Z'
-    LastModifiedDate: '2024-05-01T18:15:17.683Z'
+    LastModifiedDate: '2024-05-16T23:15:47.753Z'
   - VulnerabilityID: CVE-2024-28835
     VendorIDs:
     - RHSA-2024:2570
@@ -1519,6 +1520,7 @@
     - http://www.openwall.com/lists/oss-security/2024/03/22/2
     - https://access.redhat.com/errata/RHSA-2024:1879
     - https://access.redhat.com/errata/RHSA-2024:2570
+    - https://access.redhat.com/errata/RHSA-2024:2889
     - https://access.redhat.com/security/cve/CVE-2024-28835
     - https://bugzilla.redhat.com/2269084
     - https://bugzilla.redhat.com/2269228
@@ -1536,7 +1538,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-28835
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2024-01-23
     PublishedDate: '2024-03-21T06:15:45.113Z'
-    LastModifiedDate: '2024-05-01T18:15:17.79Z'
+    LastModifiedDate: '2024-05-16T23:15:47.883Z'
   - VulnerabilityID: CVE-2024-21094
     PkgID: java-21-openjdk-headless@21.0.3.0.9-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -1619,6 +1621,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26462
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
+    - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
     - https://security.netapp.com/advisory/ntap-20240415-0012/
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
@@ -1643,7 +1646,7 @@
     VendorSeverity:
       amazon: 2
       redhat: 1
-      ubuntu: 2
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -1651,6 +1654,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26458
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
+    - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
@@ -1675,7 +1679,7 @@
     VendorSeverity:
       amazon: 2
       redhat: 1
-      ubuntu: 2
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -1683,6 +1687,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26461
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
+    - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
@@ -1877,14 +1882,14 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
-    - https://access.redhat.com/errata/RHSA-2024:2779
+    - https://access.redhat.com/errata/RHSA-2024:2853
     - https://access.redhat.com/security/cve/CVE-2024-28182
     - https://bugzilla.redhat.com/2265713
     - https://bugzilla.redhat.com/2268639
     - https://bugzilla.redhat.com/2270559
     - https://bugzilla.redhat.com/2272764
     - https://bugzilla.redhat.com/2275392
-    - https://errata.almalinux.org/9/ALSA-2024-2779.html
+    - https://errata.almalinux.org/9/ALSA-2024-2853.html
     - https://github.com/nghttp2/nghttp2/commit/00201ecd8f982da3b67d4f6868af72a1b03b14e0
     - https://github.com/nghttp2/nghttp2/commit/d71a4668c6bead55805d18810d633fbb98315af9
     - https://github.com/nghttp2/nghttp2/security/advisories/GHSA-x6x3-gv8h-m57q
@@ -2093,7 +2098,6 @@
     - CWE-122
     VendorSeverity:
       redhat: 2
-      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
