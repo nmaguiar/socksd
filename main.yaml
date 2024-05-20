@@ -34,6 +34,10 @@ help:
     desc     : The arguments to use with the defined INITOJOB (in slon format)
     example  : "(abc:123,xyz:abc)"
     mandatory: false
+  - name     : HTTPPROXY
+    desc     : Boolean flag to start a tinyproxy server for http/https proxy support
+    example  : "true"
+    mandatory: false
 
 todo:
 - Socks Server
@@ -62,6 +66,7 @@ jobs:
       DNSTIMEOUT   : toNumber.isNumber.default(10000)
       INITOJOB     : isString.default(__)
       INITOJOBARGS : isString.default("{}")
+      HTTPPROXY    : toBoolean.isBoolean.default(false)
   exec : |
     if (isDef(args.INITOJOB)) {
       log("Running " + args.INITOJOB + "...")
@@ -84,4 +89,9 @@ jobs:
                                     )
             )
             
+    if (toBoolean(args.HTTPPROXY)) {
+      log("Starting http proxy (tinyproxy)...")
+      $sh("tinyproxy").prefix("tinyproxy").get()
+    }
+
     log('READY!')
