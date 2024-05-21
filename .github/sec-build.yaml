@@ -2,6 +2,129 @@
   Class: os-pkgs
   Type: alpine
   Vulnerabilities:
+  - VulnerabilityID: CVE-2023-42363
+    PkgID: busybox@1.36.1-r15
+    PkgName: busybox
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/busybox@1.36.1-r15?arch=x86_64&distro=3.19.1
+      UID: a71bca140ff5726b
+    InstalledVersion: 1.36.1-r15
+    FixedVersion: 1.36.1-r17
+    Status: fixed
+    Layer:
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42363
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'busybox: use-after-free in awk'
+    Description: A use-after-free vulnerability was discovered in xasprintf function in xfuncs_printf.c:344 in BusyBox v.1.36.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-42363
+    - https://bugs.busybox.net/show_bug.cgi?id=15865
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-42363
+    - https://www.cve.org/CVERecord?id=CVE-2023-42363
+    PublishedDate: '2023-11-27T22:15:07.94Z'
+    LastModifiedDate: '2023-11-30T05:06:49.523Z'
+  - VulnerabilityID: CVE-2023-42364
+    PkgID: busybox@1.36.1-r15
+    PkgName: busybox
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/busybox@1.36.1-r15?arch=x86_64&distro=3.19.1
+      UID: a71bca140ff5726b
+    InstalledVersion: 1.36.1-r15
+    FixedVersion: 1.36.1-r17
+    Status: fixed
+    Layer:
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42364
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'busybox: use-after-free'
+    Description: A use-after-free vulnerability in BusyBox v.1.36.1 allows attackers to cause a denial of service via a crafted awk pattern in the awk.c evaluate function.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-42364
+    - https://bugs.busybox.net/show_bug.cgi?id=15868
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-42364
+    - https://www.cve.org/CVERecord?id=CVE-2023-42364
+    PublishedDate: '2023-11-27T23:15:07.313Z'
+    LastModifiedDate: '2023-11-30T05:07:10.827Z'
+  - VulnerabilityID: CVE-2023-42365
+    PkgID: busybox@1.36.1-r15
+    PkgName: busybox
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/busybox@1.36.1-r15?arch=x86_64&distro=3.19.1
+      UID: a71bca140ff5726b
+    InstalledVersion: 1.36.1-r15
+    FixedVersion: 1.36.1-r17
+    Status: fixed
+    Layer:
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42365
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'busybox:  use-after-free'
+    Description: A use-after-free vulnerability was discovered in BusyBox v.1.36.1 via a crafted awk pattern in the awk.c copyvar function.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-42365
+    - https://bugs.busybox.net/show_bug.cgi?id=15871
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-42365
+    - https://www.cve.org/CVERecord?id=CVE-2023-42365
+    PublishedDate: '2023-11-27T23:15:07.373Z'
+    LastModifiedDate: '2023-11-30T05:08:08.77Z'
   - VulnerabilityID: CVE-2023-42366
     PkgID: busybox@1.36.1-r15
     PkgName: busybox
@@ -12,8 +135,8 @@
     FixedVersion: 1.36.1-r16
     Status: fixed
     Layer:
-      Digest: sha256:6573841e7552d819410e7673b8e02138f4159022593e40112126d99433fbfc79
-      DiffID: sha256:390e72f6be6680bc1cb119e5bcfe99f2a09ac33a6db3da60cc52b524756156a0
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42366
     DataSource:
@@ -43,6 +166,129 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-42366
     PublishedDate: '2023-11-27T23:15:07.42Z'
     LastModifiedDate: '2023-11-30T05:08:23.197Z'
+  - VulnerabilityID: CVE-2023-42363
+    PkgID: busybox-binsh@1.36.1-r15
+    PkgName: busybox-binsh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/busybox-binsh@1.36.1-r15?arch=x86_64&distro=3.19.1
+      UID: 3c2acc699fbc7b01
+    InstalledVersion: 1.36.1-r15
+    FixedVersion: 1.36.1-r17
+    Status: fixed
+    Layer:
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42363
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'busybox: use-after-free in awk'
+    Description: A use-after-free vulnerability was discovered in xasprintf function in xfuncs_printf.c:344 in BusyBox v.1.36.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-42363
+    - https://bugs.busybox.net/show_bug.cgi?id=15865
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-42363
+    - https://www.cve.org/CVERecord?id=CVE-2023-42363
+    PublishedDate: '2023-11-27T22:15:07.94Z'
+    LastModifiedDate: '2023-11-30T05:06:49.523Z'
+  - VulnerabilityID: CVE-2023-42364
+    PkgID: busybox-binsh@1.36.1-r15
+    PkgName: busybox-binsh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/busybox-binsh@1.36.1-r15?arch=x86_64&distro=3.19.1
+      UID: 3c2acc699fbc7b01
+    InstalledVersion: 1.36.1-r15
+    FixedVersion: 1.36.1-r17
+    Status: fixed
+    Layer:
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42364
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'busybox: use-after-free'
+    Description: A use-after-free vulnerability in BusyBox v.1.36.1 allows attackers to cause a denial of service via a crafted awk pattern in the awk.c evaluate function.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-42364
+    - https://bugs.busybox.net/show_bug.cgi?id=15868
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-42364
+    - https://www.cve.org/CVERecord?id=CVE-2023-42364
+    PublishedDate: '2023-11-27T23:15:07.313Z'
+    LastModifiedDate: '2023-11-30T05:07:10.827Z'
+  - VulnerabilityID: CVE-2023-42365
+    PkgID: busybox-binsh@1.36.1-r15
+    PkgName: busybox-binsh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/busybox-binsh@1.36.1-r15?arch=x86_64&distro=3.19.1
+      UID: 3c2acc699fbc7b01
+    InstalledVersion: 1.36.1-r15
+    FixedVersion: 1.36.1-r17
+    Status: fixed
+    Layer:
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42365
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'busybox:  use-after-free'
+    Description: A use-after-free vulnerability was discovered in BusyBox v.1.36.1 via a crafted awk pattern in the awk.c copyvar function.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-42365
+    - https://bugs.busybox.net/show_bug.cgi?id=15871
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-42365
+    - https://www.cve.org/CVERecord?id=CVE-2023-42365
+    PublishedDate: '2023-11-27T23:15:07.373Z'
+    LastModifiedDate: '2023-11-30T05:08:08.77Z'
   - VulnerabilityID: CVE-2023-42366
     PkgID: busybox-binsh@1.36.1-r15
     PkgName: busybox-binsh
@@ -53,8 +299,8 @@
     FixedVersion: 1.36.1-r16
     Status: fixed
     Layer:
-      Digest: sha256:6573841e7552d819410e7673b8e02138f4159022593e40112126d99433fbfc79
-      DiffID: sha256:390e72f6be6680bc1cb119e5bcfe99f2a09ac33a6db3da60cc52b524756156a0
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42366
     DataSource:
@@ -84,6 +330,336 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-42366
     PublishedDate: '2023-11-27T23:15:07.42Z'
     LastModifiedDate: '2023-11-30T05:08:23.197Z'
+  - VulnerabilityID: CVE-2024-4603
+    PkgID: libcrypto3@3.1.4-r6
+    PkgName: libcrypto3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcrypto3@3.1.4-r6?arch=x86_64&distro=3.19.1
+      UID: d75afcc924a4f8f3
+    InstalledVersion: 3.1.4-r6
+    FixedVersion: 3.1.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-4603
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openssl: Excessive time spent checking DSA keys and parameters'
+    Description: |-
+      Issue summary: Checking excessively long DSA keys or parameters may be very
+      slow.
+
+      Impact summary: Applications that use the functions EVP_PKEY_param_check()
+      or EVP_PKEY_public_check() to check a DSA public key or DSA parameters may
+      experience long delays. Where the key or parameters that are being checked
+      have been obtained from an untrusted source this may lead to a Denial of
+      Service.
+
+      The functions EVP_PKEY_param_check() or EVP_PKEY_public_check() perform
+      various checks on DSA parameters. Some of those computations take a long time
+      if the modulus (`p` parameter) is too large.
+
+      Trying to use a very large modulus is slow and OpenSSL will not allow using
+      public keys with a modulus which is over 10,000 bits in length for signature
+      verification. However the key and parameter check functions do not limit
+      the modulus size when performing the checks.
+
+      An application that calls EVP_PKEY_param_check() or EVP_PKEY_public_check()
+      and supplies a key or parameters obtained from an untrusted source could be
+      vulnerable to a Denial of Service attack.
+
+      These functions are not called by OpenSSL itself on untrusted DSA keys so
+      only applications that directly call these functions may be vulnerable.
+
+      Also vulnerable are the OpenSSL pkey and pkeyparam command line applications
+      when using the `-check` option.
+
+      The OpenSSL SSL/TLS implementation is not affected by this issue.
+
+      The OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-4603
+    - https://github.com/openssl/openssl/commit/3559e868e58005d15c6013a0c1fd832e51c73397
+    - https://github.com/openssl/openssl/commit/53ea06486d296b890d565fb971b2764fcd826e7e
+    - https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d
+    - https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-4603
+    - https://www.cve.org/CVERecord?id=CVE-2024-4603
+    - https://www.openssl.org/news/secadv/20240516.txt
+    PublishedDate: '2024-05-16T16:15:10.643Z'
+    LastModifiedDate: '2024-05-17T18:36:31.297Z'
+  - VulnerabilityID: CVE-2024-4603
+    PkgID: libssl3@3.1.4-r6
+    PkgName: libssl3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssl3@3.1.4-r6?arch=x86_64&distro=3.19.1
+      UID: fd3d4dc5a0e89054
+    InstalledVersion: 3.1.4-r6
+    FixedVersion: 3.1.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-4603
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openssl: Excessive time spent checking DSA keys and parameters'
+    Description: |-
+      Issue summary: Checking excessively long DSA keys or parameters may be very
+      slow.
+
+      Impact summary: Applications that use the functions EVP_PKEY_param_check()
+      or EVP_PKEY_public_check() to check a DSA public key or DSA parameters may
+      experience long delays. Where the key or parameters that are being checked
+      have been obtained from an untrusted source this may lead to a Denial of
+      Service.
+
+      The functions EVP_PKEY_param_check() or EVP_PKEY_public_check() perform
+      various checks on DSA parameters. Some of those computations take a long time
+      if the modulus (`p` parameter) is too large.
+
+      Trying to use a very large modulus is slow and OpenSSL will not allow using
+      public keys with a modulus which is over 10,000 bits in length for signature
+      verification. However the key and parameter check functions do not limit
+      the modulus size when performing the checks.
+
+      An application that calls EVP_PKEY_param_check() or EVP_PKEY_public_check()
+      and supplies a key or parameters obtained from an untrusted source could be
+      vulnerable to a Denial of Service attack.
+
+      These functions are not called by OpenSSL itself on untrusted DSA keys so
+      only applications that directly call these functions may be vulnerable.
+
+      Also vulnerable are the OpenSSL pkey and pkeyparam command line applications
+      when using the `-check` option.
+
+      The OpenSSL SSL/TLS implementation is not affected by this issue.
+
+      The OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-4603
+    - https://github.com/openssl/openssl/commit/3559e868e58005d15c6013a0c1fd832e51c73397
+    - https://github.com/openssl/openssl/commit/53ea06486d296b890d565fb971b2764fcd826e7e
+    - https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d
+    - https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-4603
+    - https://www.cve.org/CVERecord?id=CVE-2024-4603
+    - https://www.openssl.org/news/secadv/20240516.txt
+    PublishedDate: '2024-05-16T16:15:10.643Z'
+    LastModifiedDate: '2024-05-17T18:36:31.297Z'
+  - VulnerabilityID: CVE-2024-4603
+    PkgID: openssl@3.1.4-r6
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openssl@3.1.4-r6?arch=x86_64&distro=3.19.1
+      UID: fb72c97c5159c020
+    InstalledVersion: 3.1.4-r6
+    FixedVersion: 3.1.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-4603
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openssl: Excessive time spent checking DSA keys and parameters'
+    Description: |-
+      Issue summary: Checking excessively long DSA keys or parameters may be very
+      slow.
+
+      Impact summary: Applications that use the functions EVP_PKEY_param_check()
+      or EVP_PKEY_public_check() to check a DSA public key or DSA parameters may
+      experience long delays. Where the key or parameters that are being checked
+      have been obtained from an untrusted source this may lead to a Denial of
+      Service.
+
+      The functions EVP_PKEY_param_check() or EVP_PKEY_public_check() perform
+      various checks on DSA parameters. Some of those computations take a long time
+      if the modulus (`p` parameter) is too large.
+
+      Trying to use a very large modulus is slow and OpenSSL will not allow using
+      public keys with a modulus which is over 10,000 bits in length for signature
+      verification. However the key and parameter check functions do not limit
+      the modulus size when performing the checks.
+
+      An application that calls EVP_PKEY_param_check() or EVP_PKEY_public_check()
+      and supplies a key or parameters obtained from an untrusted source could be
+      vulnerable to a Denial of Service attack.
+
+      These functions are not called by OpenSSL itself on untrusted DSA keys so
+      only applications that directly call these functions may be vulnerable.
+
+      Also vulnerable are the OpenSSL pkey and pkeyparam command line applications
+      when using the `-check` option.
+
+      The OpenSSL SSL/TLS implementation is not affected by this issue.
+
+      The OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-4603
+    - https://github.com/openssl/openssl/commit/3559e868e58005d15c6013a0c1fd832e51c73397
+    - https://github.com/openssl/openssl/commit/53ea06486d296b890d565fb971b2764fcd826e7e
+    - https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d
+    - https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-4603
+    - https://www.cve.org/CVERecord?id=CVE-2024-4603
+    - https://www.openssl.org/news/secadv/20240516.txt
+    PublishedDate: '2024-05-16T16:15:10.643Z'
+    LastModifiedDate: '2024-05-17T18:36:31.297Z'
+  - VulnerabilityID: CVE-2023-42363
+    PkgID: ssl_client@1.36.1-r15
+    PkgName: ssl_client
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/ssl_client@1.36.1-r15?arch=x86_64&distro=3.19.1
+      UID: 3a57d387f26109e5
+    InstalledVersion: 1.36.1-r15
+    FixedVersion: 1.36.1-r17
+    Status: fixed
+    Layer:
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42363
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'busybox: use-after-free in awk'
+    Description: A use-after-free vulnerability was discovered in xasprintf function in xfuncs_printf.c:344 in BusyBox v.1.36.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-42363
+    - https://bugs.busybox.net/show_bug.cgi?id=15865
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-42363
+    - https://www.cve.org/CVERecord?id=CVE-2023-42363
+    PublishedDate: '2023-11-27T22:15:07.94Z'
+    LastModifiedDate: '2023-11-30T05:06:49.523Z'
+  - VulnerabilityID: CVE-2023-42364
+    PkgID: ssl_client@1.36.1-r15
+    PkgName: ssl_client
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/ssl_client@1.36.1-r15?arch=x86_64&distro=3.19.1
+      UID: 3a57d387f26109e5
+    InstalledVersion: 1.36.1-r15
+    FixedVersion: 1.36.1-r17
+    Status: fixed
+    Layer:
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42364
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'busybox: use-after-free'
+    Description: A use-after-free vulnerability in BusyBox v.1.36.1 allows attackers to cause a denial of service via a crafted awk pattern in the awk.c evaluate function.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-42364
+    - https://bugs.busybox.net/show_bug.cgi?id=15868
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-42364
+    - https://www.cve.org/CVERecord?id=CVE-2023-42364
+    PublishedDate: '2023-11-27T23:15:07.313Z'
+    LastModifiedDate: '2023-11-30T05:07:10.827Z'
+  - VulnerabilityID: CVE-2023-42365
+    PkgID: ssl_client@1.36.1-r15
+    PkgName: ssl_client
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/ssl_client@1.36.1-r15?arch=x86_64&distro=3.19.1
+      UID: 3a57d387f26109e5
+    InstalledVersion: 1.36.1-r15
+    FixedVersion: 1.36.1-r17
+    Status: fixed
+    Layer:
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42365
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'busybox:  use-after-free'
+    Description: A use-after-free vulnerability was discovered in BusyBox v.1.36.1 via a crafted awk pattern in the awk.c copyvar function.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-42365
+    - https://bugs.busybox.net/show_bug.cgi?id=15871
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-42365
+    - https://www.cve.org/CVERecord?id=CVE-2023-42365
+    PublishedDate: '2023-11-27T23:15:07.373Z'
+    LastModifiedDate: '2023-11-30T05:08:08.77Z'
   - VulnerabilityID: CVE-2023-42366
     PkgID: ssl_client@1.36.1-r15
     PkgName: ssl_client
@@ -94,8 +670,8 @@
     FixedVersion: 1.36.1-r16
     Status: fixed
     Layer:
-      Digest: sha256:6573841e7552d819410e7673b8e02138f4159022593e40112126d99433fbfc79
-      DiffID: sha256:390e72f6be6680bc1cb119e5bcfe99f2a09ac33a6db3da60cc52b524756156a0
+      Digest: sha256:5d707a453462e3e094df0a9ea878b3b6542149a8a704a70886b1080fb9feebe7
+      DiffID: sha256:1474706c97de957ea4846c3fa2b819763a5787e335dd52af593721665d4dd930
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42366
     DataSource:
