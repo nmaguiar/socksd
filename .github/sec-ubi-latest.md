@@ -2292,42 +2292,7 @@
                         │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-25062 
                         │       ├ PublishedDate   : 2024-02-04T16:15:45.12Z 
                         │       ╰ LastModifiedDate: 2024-02-13T00:40:40.503Z 
-                        ├ [43]  ╭ VulnerabilityID : CVE-2024-34459 
-                        │       ├ PkgID           : libxml2@2.9.13-5.el9_3.x86_64 
-                        │       ├ PkgName         : libxml2 
-                        │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-5.el9_3?arch=x86_
-                        │       │                  │       64&distro=redhat-9.3 
-                        │       │                  ╰ UID : 36c42ff3b679c7b5 
-                        │       ├ InstalledVersion: 2.9.13-5.el9_3 
-                        │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:499f0b843452f61ff1ad96dd22d0df363eeb3d
-                        │       │                  │         b8506aa020a34dcfa1f472f1d2 
-                        │       │                  ╰ DiffID: sha256:85cd58c1a931b477c57a8bd089449515fd6e09
-                        │       │                            a34a044315041850e58aba0e41 
-                        │       ├ SeveritySource  : redhat 
-                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34459 
-                        │       ├ Title           : libxml2: buffer over-read in xmlHTMLPrintFileContext
-                        │       │                   in xmllint.c 
-                        │       ├ Description     : An issue was discovered in xmllint (from libxml2)
-                        │       │                   before 2.11.8 and 2.12.x before 2.12.7. Formatting error
-                        │       │                   messages with xmllint --htmlout can result in a buffer
-                        │       │                   over-read in xmlHTMLPrintFileContext in xmllint.c. 
-                        │       ├ Severity        : MEDIUM 
-                        │       ├ VendorSeverity   ─ redhat: 2 
-                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
-                        │       │                           │           :N/I:N/A:H 
-                        │       │                           ╰ V3Score : 5.5 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34459 
-                        │       │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/720 
-                        │       │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/release
-                        │       │                  │      s/v2.11.8 
-                        │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/libxml2/-/release
-                        │       │                  │      s/v2.12.7 
-                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34459 
-                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-34459 
-                        │       ├ PublishedDate   : 2024-05-14T15:39:11.917Z 
-                        │       ╰ LastModifiedDate: 2024-05-14T16:12:23.49Z 
-                        ├ [44]  ╭ VulnerabilityID : CVE-2023-45322 
+                        ├ [43]  ╭ VulnerabilityID : CVE-2023-45322 
                         │       ├ PkgID           : libxml2@2.9.13-5.el9_3.x86_64 
                         │       ├ PkgName         : libxml2 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-5.el9_3?arch=x86_
@@ -2370,6 +2335,41 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45322 
                         │       ├ PublishedDate   : 2023-10-06T22:15:11.66Z 
                         │       ╰ LastModifiedDate: 2024-05-17T02:29:45.487Z 
+                        ├ [44]  ╭ VulnerabilityID : CVE-2024-34459 
+                        │       ├ PkgID           : libxml2@2.9.13-5.el9_3.x86_64 
+                        │       ├ PkgName         : libxml2 
+                        │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-5.el9_3?arch=x86_
+                        │       │                  │       64&distro=redhat-9.3 
+                        │       │                  ╰ UID : 36c42ff3b679c7b5 
+                        │       ├ InstalledVersion: 2.9.13-5.el9_3 
+                        │       ├ Status          : affected 
+                        │       ├ Layer            ╭ Digest: sha256:499f0b843452f61ff1ad96dd22d0df363eeb3d
+                        │       │                  │         b8506aa020a34dcfa1f472f1d2 
+                        │       │                  ╰ DiffID: sha256:85cd58c1a931b477c57a8bd089449515fd6e09
+                        │       │                            a34a044315041850e58aba0e41 
+                        │       ├ SeveritySource  : redhat 
+                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34459 
+                        │       ├ Title           : libxml2: buffer over-read in xmlHTMLPrintFileContext
+                        │       │                   in xmllint.c 
+                        │       ├ Description     : An issue was discovered in xmllint (from libxml2)
+                        │       │                   before 2.11.8 and 2.12.x before 2.12.7. Formatting error
+                        │       │                   messages with xmllint --htmlout can result in a buffer
+                        │       │                   over-read in xmlHTMLPrintFileContext in xmllint.c. 
+                        │       ├ Severity        : LOW 
+                        │       ├ VendorSeverity   ─ redhat: 1 
+                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+                        │       │                           │           :N/I:N/A:H 
+                        │       │                           ╰ V3Score : 5.5 
+                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34459 
+                        │       │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/720 
+                        │       │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/release
+                        │       │                  │      s/v2.11.8 
+                        │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/libxml2/-/release
+                        │       │                  │      s/v2.12.7 
+                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34459 
+                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-34459 
+                        │       ├ PublishedDate   : 2024-05-14T15:39:11.917Z 
+                        │       ╰ LastModifiedDate: 2024-05-14T16:12:23.49Z 
                         ├ [45]  ╭ VulnerabilityID : CVE-2024-3205 
                         │       ├ PkgID           : libyaml@0.2.5-7.el9.x86_64 
                         │       ├ PkgName         : libyaml 
