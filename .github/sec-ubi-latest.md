@@ -2001,7 +2001,38 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-30571 
                         │       ├ PublishedDate   : 2023-05-29T20:15:09.513Z 
                         │       ╰ LastModifiedDate: 2023-06-05T16:40:57.93Z 
-                        ├ [37]  ╭ VulnerabilityID : CVE-2024-2398 
+                        ├ [37]  ╭ VulnerabilityID : CVE-2024-26256 
+                        │       ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
+                        │       ├ PkgName         : libarchive 
+                        │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_
+                        │       │                  │       64&distro=redhat-9.3 
+                        │       │                  ╰ UID : cfa8103201bda50b 
+                        │       ├ InstalledVersion: 3.5.3-4.el9 
+                        │       ├ Status          : affected 
+                        │       ├ Layer            ╭ Digest: sha256:499f0b843452f61ff1ad96dd22d0df363eeb3d
+                        │       │                  │         b8506aa020a34dcfa1f472f1d2 
+                        │       │                  ╰ DiffID: sha256:85cd58c1a931b477c57a8bd089449515fd6e09
+                        │       │                            a34a044315041850e58aba0e41 
+                        │       ├ SeveritySource  : redhat 
+                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26256 
+                        │       ├ Title           : libarchive: Heap based buffer overflow in rar e8 filter 
+                        │       ├ Description     : libarchive Remote Code Execution Vulnerability 
+                        │       ├ Severity        : MEDIUM 
+                        │       ├ CweIDs           ─ [0]: CWE-122 
+                        │       ├ VendorSeverity   ╭ redhat: 2 
+                        │       │                  ╰ ubuntu: 2 
+                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+                        │       │                           │           :H/I:H/A:H 
+                        │       │                           ╰ V3Score : 7.8 
+                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26256 
+                        │       │                  ├ [1]: https://github.com/advisories/GHSA-2jc9-36w4-pmqw 
+                        │       │                  ├ [2]: https://msrc.microsoft.com/update-guide/vulnerab
+                        │       │                  │      ility/CVE-2024-26256 
+                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26256 
+                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26256 
+                        │       ├ PublishedDate   : 2024-04-09T17:15:47.507Z 
+                        │       ╰ LastModifiedDate: 2024-04-10T13:24:00.07Z 
+                        ├ [38]  ╭ VulnerabilityID : CVE-2024-2398 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-26.el9_3.3.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-26.el9_3.
@@ -2053,7 +2084,7 @@
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
                         │       ├ PublishedDate   : 2024-03-27T08:15:41.283Z 
                         │       ╰ LastModifiedDate: 2024-05-03T13:15:21.64Z 
-                        ├ [38]  ╭ VulnerabilityID : CVE-2022-27943 
+                        ├ [39]  ╭ VulnerabilityID : CVE-2022-27943 
                         │       ├ PkgID           : libgcc@11.4.1-2.1.el9.x86_64 
                         │       ├ PkgName         : libgcc 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libgcc@11.4.1-2.1.el9?arch=x86_6
@@ -2104,7 +2135,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
                         │       ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-                        ├ [39]  ╭ VulnerabilityID : CVE-2024-2236 
+                        ├ [40]  ╭ VulnerabilityID : CVE-2024-2236 
                         │       ├ PkgID           : libgcrypt@1.10.0-10.el9_2.x86_64 
                         │       ├ PkgName         : libgcrypt 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libgcrypt@1.10.0-10.el9_2?arch=x
@@ -2142,7 +2173,7 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
                         │       ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
                         │       ╰ LastModifiedDate: 2024-04-25T17:15:49.467Z 
-                        ├ [40]  ╭ VulnerabilityID : CVE-2024-28182 
+                        ├ [41]  ╭ VulnerabilityID : CVE-2024-28182 
                         │       ├ PkgID           : libnghttp2@1.43.0-5.el9_3.1.x86_64 
                         │       ├ PkgName         : libnghttp2 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libnghttp2@1.43.0-5.el9_3.1?arch
@@ -2215,7 +2246,7 @@
                         │       │                  ╰ [23]: https://www.kb.cert.org/vuls/id/421644 
                         │       ├ PublishedDate   : 2024-04-04T15:15:38.427Z 
                         │       ╰ LastModifiedDate: 2024-05-01T18:15:17.267Z 
-                        ├ [41]  ╭ VulnerabilityID : CVE-2022-27943 
+                        ├ [42]  ╭ VulnerabilityID : CVE-2022-27943 
                         │       ├ PkgID           : libstdc++@11.4.1-2.1.el9.x86_64 
                         │       ├ PkgName         : libstdc++ 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libstdc%2B%2B@11.4.1-2.1.el9?arc
@@ -2266,7 +2297,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
                         │       ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-                        ├ [42]  ╭ VulnerabilityID : CVE-2024-25062 
+                        ├ [43]  ╭ VulnerabilityID : CVE-2024-25062 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2679 
                         │       ├ PkgID           : libxml2@2.9.13-5.el9_3.x86_64 
                         │       ├ PkgName         : libxml2 
@@ -2322,7 +2353,7 @@
                         │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-25062 
                         │       ├ PublishedDate   : 2024-02-04T16:15:45.12Z 
                         │       ╰ LastModifiedDate: 2024-02-13T00:40:40.503Z 
-                        ├ [43]  ╭ VulnerabilityID : CVE-2023-45322 
+                        ├ [44]  ╭ VulnerabilityID : CVE-2023-45322 
                         │       ├ PkgID           : libxml2@2.9.13-5.el9_3.x86_64 
                         │       ├ PkgName         : libxml2 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-5.el9_3?arch=x86_
@@ -2365,7 +2396,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45322 
                         │       ├ PublishedDate   : 2023-10-06T22:15:11.66Z 
                         │       ╰ LastModifiedDate: 2024-05-17T02:29:45.487Z 
-                        ├ [44]  ╭ VulnerabilityID : CVE-2024-34459 
+                        ├ [45]  ╭ VulnerabilityID : CVE-2024-34459 
                         │       ├ PkgID           : libxml2@2.9.13-5.el9_3.x86_64 
                         │       ├ PkgName         : libxml2 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-5.el9_3?arch=x86_
@@ -2400,46 +2431,6 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-34459 
                         │       ├ PublishedDate   : 2024-05-14T15:39:11.917Z 
                         │       ╰ LastModifiedDate: 2024-05-14T16:12:23.49Z 
-                        ├ [45]  ╭ VulnerabilityID : CVE-2024-3205 
-                        │       ├ PkgID           : libyaml@0.2.5-7.el9.x86_64 
-                        │       ├ PkgName         : libyaml 
-                        │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&
-                        │       │                  │       distro=redhat-9.3 
-                        │       │                  ╰ UID : e85136d18d3afe9f 
-                        │       ├ InstalledVersion: 0.2.5-7.el9 
-                        │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:499f0b843452f61ff1ad96dd22d0df363eeb3d
-                        │       │                  │         b8506aa020a34dcfa1f472f1d2 
-                        │       │                  ╰ DiffID: sha256:85cd58c1a931b477c57a8bd089449515fd6e09
-                        │       │                            a34a044315041850e58aba0e41 
-                        │       ├ SeveritySource  : redhat 
-                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-3205 
-                        │       ├ Title           : libyaml: Heap-Based Buffer Overflow 
-                        │       ├ Description     : A vulnerability was found in yaml libyaml up to 0.2.5
-                        │       │                   and classified as critical. Affected by this issue is the
-                        │       │                   function yaml_emitter_emit_flow_sequence_item of the file
-                        │       │                   /src/libyaml/src/emitter.c. The manipulation leads to
-                        │       │                   heap-based buffer overflow. The attack may be launched
-                        │       │                   remotely. The exploit has been disclosed to the public and
-                        │       │                   may be used. The identifier of this vulnerability is
-                        │       │                   VDB-259052. NOTE: The vendor was contacted early about this
-                        │       │                    disclosure but did not respond in any way. 
-                        │       ├ Severity        : MEDIUM 
-                        │       ├ CweIDs           ─ [0]: CWE-122 
-                        │       ├ VendorSeverity   ─ redhat: 2 
-                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-                        │       │                           │           :N/I:N/A:H 
-                        │       │                           ╰ V3Score : 7.5 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-3205 
-                        │       │                  ├ [1]: https://drive.google.com/drive/folders/1lwNEs8wq
-                        │       │                  │      wkUV52f3uQNYMPrxRuXPtGQs?usp=sharing 
-                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-3205 
-                        │       │                  ├ [3]: https://vuldb.com/?ctiid.259052 
-                        │       │                  ├ [4]: https://vuldb.com/?id.259052 
-                        │       │                  ├ [5]: https://vuldb.com/?submit.304561 
-                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-3205 
-                        │       ├ PublishedDate   : 2024-04-02T23:15:54.627Z 
-                        │       ╰ LastModifiedDate: 2024-05-17T02:39:46.847Z 
                         ├ [46]  ╭ VulnerabilityID : CVE-2022-4899 
                         │       ├ PkgID           : libzstd@1.5.1-2.el9.x86_64 
                         │       ├ PkgName         : libzstd 
@@ -3238,7 +3229,7 @@
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-1333 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 2 
+                        │       │                  ├ amazon     : 3 
                         │       │                  ├ nvd        : 2 
                         │       │                  ├ oracle-oval: 1 
                         │       │                  ├ photon     : 2 
@@ -3385,7 +3376,7 @@
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-834 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 2 
+                        │       │                  ├ amazon     : 3 
                         │       │                  ├ cbl-mariner: 2 
                         │       │                  ├ nvd        : 2 
                         │       │                  ├ oracle-oval: 1 
@@ -3523,7 +3514,7 @@
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-754 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 2 
+                        │       │                  ├ amazon     : 3 
                         │       │                  ├ cbl-mariner: 2 
                         │       │                  ├ nvd        : 2 
                         │       │                  ├ oracle-oval: 1 
@@ -3844,7 +3835,7 @@
                         │       │                   this issue. 
                         │       ├ Severity        : LOW 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 2 
+                        │       │                  ├ amazon     : 3 
                         │       │                  ├ cbl-mariner: 2 
                         │       │                  ├ ghsa       : 2 
                         │       │                  ├ nvd        : 2 
@@ -4232,7 +4223,7 @@
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-1333 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 2 
+                        │       │                  ├ amazon     : 3 
                         │       │                  ├ nvd        : 2 
                         │       │                  ├ oracle-oval: 1 
                         │       │                  ├ photon     : 2 
@@ -4379,7 +4370,7 @@
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-834 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 2 
+                        │       │                  ├ amazon     : 3 
                         │       │                  ├ cbl-mariner: 2 
                         │       │                  ├ nvd        : 2 
                         │       │                  ├ oracle-oval: 1 
@@ -4517,7 +4508,7 @@
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-754 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 2 
+                        │       │                  ├ amazon     : 3 
                         │       │                  ├ cbl-mariner: 2 
                         │       │                  ├ nvd        : 2 
                         │       │                  ├ oracle-oval: 1 
@@ -4838,7 +4829,7 @@
                         │       │                   this issue. 
                         │       ├ Severity        : LOW 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 2 
+                        │       │                  ├ amazon     : 3 
                         │       │                  ├ cbl-mariner: 2 
                         │       │                  ├ ghsa       : 2 
                         │       │                  ├ nvd        : 2 
