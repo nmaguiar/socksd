@@ -771,10 +771,14 @@
     - http://www.openwall.com/lists/oss-security/2024/04/17/9
     - http://www.openwall.com/lists/oss-security/2024/04/18/4
     - http://www.openwall.com/lists/oss-security/2024/04/24/2
-    - https://access.redhat.com/errata/RHSA-2024:2722
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-2961
     - https://bugzilla.redhat.com/2273404
-    - https://errata.almalinux.org/8/ALSA-2024-2722.html
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://linux.oracle.com/cve/CVE-2024-2961.html
     - https://linux.oracle.com/errata/ELSA-2024-2722.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
@@ -820,6 +824,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      alma: 3
       cbl-mariner: 3
       redhat: 3
     CVSS:
@@ -827,7 +832,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7.6
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-33599
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
     - https://www.cve.org/CVERecord?id=CVE-2024-33599
@@ -864,6 +876,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
       cbl-mariner: 3
       redhat: 2
     CVSS:
@@ -871,7 +884,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-33600
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
     - https://www.cve.org/CVERecord?id=CVE-2024-33600
@@ -908,6 +928,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
       redhat: 1
     CVSS:
@@ -915,7 +936,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-33601
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
     - https://www.cve.org/CVERecord?id=CVE-2024-33601
@@ -951,6 +979,7 @@
     CweIDs:
     - CWE-466
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
       redhat: 1
     CVSS:
@@ -958,7 +987,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-33602
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008
     - https://www.cve.org/CVERecord?id=CVE-2024-33602
@@ -1001,10 +1037,14 @@
     - http://www.openwall.com/lists/oss-security/2024/04/17/9
     - http://www.openwall.com/lists/oss-security/2024/04/18/4
     - http://www.openwall.com/lists/oss-security/2024/04/24/2
-    - https://access.redhat.com/errata/RHSA-2024:2722
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-2961
     - https://bugzilla.redhat.com/2273404
-    - https://errata.almalinux.org/8/ALSA-2024-2722.html
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://linux.oracle.com/cve/CVE-2024-2961.html
     - https://linux.oracle.com/errata/ELSA-2024-2722.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
@@ -1050,6 +1090,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      alma: 3
       cbl-mariner: 3
       redhat: 3
     CVSS:
@@ -1057,7 +1098,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7.6
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-33599
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
     - https://www.cve.org/CVERecord?id=CVE-2024-33599
@@ -1094,6 +1142,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
       cbl-mariner: 3
       redhat: 2
     CVSS:
@@ -1101,7 +1150,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-33600
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
     - https://www.cve.org/CVERecord?id=CVE-2024-33600
@@ -1138,6 +1194,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
       redhat: 1
     CVSS:
@@ -1145,7 +1202,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-33601
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
     - https://www.cve.org/CVERecord?id=CVE-2024-33601
@@ -1181,6 +1245,7 @@
     CweIDs:
     - CWE-466
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
       redhat: 1
     CVSS:
@@ -1188,7 +1253,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-33602
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008
     - https://www.cve.org/CVERecord?id=CVE-2024-33602
@@ -1231,10 +1303,14 @@
     - http://www.openwall.com/lists/oss-security/2024/04/17/9
     - http://www.openwall.com/lists/oss-security/2024/04/18/4
     - http://www.openwall.com/lists/oss-security/2024/04/24/2
-    - https://access.redhat.com/errata/RHSA-2024:2722
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-2961
     - https://bugzilla.redhat.com/2273404
-    - https://errata.almalinux.org/8/ALSA-2024-2722.html
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://linux.oracle.com/cve/CVE-2024-2961.html
     - https://linux.oracle.com/errata/ELSA-2024-2722.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
@@ -1280,6 +1356,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      alma: 3
       cbl-mariner: 3
       redhat: 3
     CVSS:
@@ -1287,7 +1364,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7.6
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-33599
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
     - https://www.cve.org/CVERecord?id=CVE-2024-33599
@@ -1324,6 +1408,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
       cbl-mariner: 3
       redhat: 2
     CVSS:
@@ -1331,7 +1416,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-33600
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
     - https://www.cve.org/CVERecord?id=CVE-2024-33600
@@ -1368,6 +1460,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
       redhat: 1
     CVSS:
@@ -1375,7 +1468,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-33601
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
     - https://www.cve.org/CVERecord?id=CVE-2024-33601
@@ -1411,6 +1511,7 @@
     CweIDs:
     - CWE-466
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
       redhat: 1
     CVSS:
@@ -1418,7 +1519,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
     - https://access.redhat.com/security/cve/CVE-2024-33602
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008
     - https://www.cve.org/CVERecord?id=CVE-2024-33602
@@ -1775,39 +1883,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-30571
     PublishedDate: '2023-05-29T20:15:09.513Z'
     LastModifiedDate: '2023-06-05T16:40:57.93Z'
-  - VulnerabilityID: CVE-2024-26256
-    PkgID: libarchive@3.5.3-4.el9.x86_64
-    PkgName: libarchive
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.3
-      UID: cfa8103201bda50b
-    InstalledVersion: 3.5.3-4.el9
-    Status: affected
-    Layer:
-      Digest: sha256:499f0b843452f61ff1ad96dd22d0df363eeb3db8506aa020a34dcfa1f472f1d2
-      DiffID: sha256:85cd58c1a931b477c57a8bd089449515fd6e09a34a044315041850e58aba0e41
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26256
-    Title: 'libarchive: Heap based buffer overflow in rar e8 filter'
-    Description: libarchive Remote Code Execution Vulnerability
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    VendorSeverity:
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-26256
-    - https://github.com/advisories/GHSA-2jc9-36w4-pmqw
-    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26256
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-26256
-    - https://www.cve.org/CVERecord?id=CVE-2024-26256
-    PublishedDate: '2024-04-09T17:15:47.507Z'
-    LastModifiedDate: '2024-04-10T13:24:00.07Z'
   - VulnerabilityID: CVE-2024-2398
     PkgID: libcurl-minimal@7.76.1-26.el9_3.3.x86_64
     PkgName: libcurl-minimal
@@ -2873,7 +2948,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -2987,7 +3062,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3092,7 +3167,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3348,7 +3423,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -3655,7 +3730,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -3769,7 +3844,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3874,7 +3949,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -4130,7 +4205,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
