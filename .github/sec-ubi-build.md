@@ -879,31 +879,35 @@
                         │       │                  │       /04/18/4 
                         │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2024
                         │       │                  │       /04/24/2 
-                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:2722 
+                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:3339 
                         │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-2961 
                         │       │                  ├ [5] : https://bugzilla.redhat.com/2273404 
-                        │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-2722.html 
-                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-2961.html 
-                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-2722.html 
-                        │       │                  ├ [9] : https://lists.debian.org/debian-lts-announce/20
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [7] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [8] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [9] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-2961.html 
+                        │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-2722.html 
+                        │       │                  ├ [13]: https://lists.debian.org/debian-lts-announce/20
                         │       │                  │       24/05/msg00001.html 
-                        │       │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/BTJF
                         │       │                  │       BGHDYG5PEIFD5WSSSKSFZ2AZWC5N/ 
-                        │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/P3I4
                         │       │                  │       KYS6EU6S7QZ47WFNTPVAHFIUQNEL/ 
-                        │       │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/YAMJ
                         │       │                  │       QI3Y6BHWV3CUTYBXOZONCUJNOB2Z/ 
-                        │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
-                        │       │                  ├ [14]: https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
+                        │       │                  ├ [18]: https://sourceware.org/git/?p=glibc.git;a=blob;
                         │       │                  │       f=advisories/GLIBC-SA-2024-0004 
-                        │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-6737-1 
-                        │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-6737-2 
-                        │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-6762-1 
-                        │       │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │       │                  ╰ [19]: https://www.openwall.com/lists/oss-security/202
+                        │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-6737-1 
+                        │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6737-2 
+                        │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6762-1 
+                        │       │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │       │                  ╰ [23]: https://www.openwall.com/lists/oss-security/202
                         │       │                          4/04/17/9 
                         │       ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │       ╰ LastModifiedDate: 2024-05-04T01:15:06.243Z 
@@ -938,16 +942,25 @@
                         │       │                    
                         │       ├ Severity        : HIGH 
                         │       ├ CweIDs           ─ [0]: CWE-121 
-                        │       ├ VendorSeverity   ╭ cbl-mariner: 3 
+                        │       ├ VendorSeverity   ╭ alma       : 3 
+                        │       │                  ├ cbl-mariner: 3 
                         │       │                  ╰ redhat     : 3 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
                         │       │                           │           :L/I:L/A:H 
                         │       │                           ╰ V3Score : 7.6 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33599 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
-                        │       │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
-                        │       │                  │      =advisories/GLIBC-SA-2024-0005 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3339 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+                        │       │                  │       -33599 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2273404 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
+                        │       │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  │       f=advisories/GLIBC-SA-2024-0005 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [16]  ╭ VulnerabilityID : CVE-2024-33600 
@@ -983,16 +996,25 @@
                         │       │                    
                         │       ├ Severity        : MEDIUM 
                         │       ├ CweIDs           ─ [0]: CWE-476 
-                        │       ├ VendorSeverity   ╭ cbl-mariner: 3 
+                        │       ├ VendorSeverity   ╭ alma       : 3 
+                        │       │                  ├ cbl-mariner: 3 
                         │       │                  ╰ redhat     : 2 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 5.3 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33600 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
-                        │       │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
-                        │       │                  │      =advisories/GLIBC-SA-2024-0006 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3339 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+                        │       │                  │       -33600 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2273404 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
+                        │       │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  │       f=advisories/GLIBC-SA-2024-0006 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [17]  ╭ VulnerabilityID : CVE-2024-33601 
@@ -1030,16 +1052,25 @@
                         │       │                    
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-617 
-                        │       ├ VendorSeverity   ╭ cbl-mariner: 2 
+                        │       ├ VendorSeverity   ╭ alma       : 3 
+                        │       │                  ├ cbl-mariner: 2 
                         │       │                  ╰ redhat     : 1 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 4 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33601 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
-                        │       │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
-                        │       │                  │      =advisories/GLIBC-SA-2024-0007 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3339 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+                        │       │                  │       -33601 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2273404 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
+                        │       │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  │       f=advisories/GLIBC-SA-2024-0007 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [18]  ╭ VulnerabilityID : CVE-2024-33602 
@@ -1075,16 +1106,25 @@
                         │       │                    
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-466 
-                        │       ├ VendorSeverity   ╭ cbl-mariner: 2 
+                        │       ├ VendorSeverity   ╭ alma       : 3 
+                        │       │                  ├ cbl-mariner: 2 
                         │       │                  ╰ redhat     : 1 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 4 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33602 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
-                        │       │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
-                        │       │                  │      =advisories/GLIBC-SA-2024-0008 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3339 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+                        │       │                  │       -33602 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2273404 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
+                        │       │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  │       f=advisories/GLIBC-SA-2024-0008 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.68Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [19]  ╭ VulnerabilityID : CVE-2024-2961 
@@ -1128,31 +1168,35 @@
                         │       │                  │       /04/18/4 
                         │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2024
                         │       │                  │       /04/24/2 
-                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:2722 
+                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:3339 
                         │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-2961 
                         │       │                  ├ [5] : https://bugzilla.redhat.com/2273404 
-                        │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-2722.html 
-                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-2961.html 
-                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-2722.html 
-                        │       │                  ├ [9] : https://lists.debian.org/debian-lts-announce/20
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [7] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [8] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [9] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-2961.html 
+                        │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-2722.html 
+                        │       │                  ├ [13]: https://lists.debian.org/debian-lts-announce/20
                         │       │                  │       24/05/msg00001.html 
-                        │       │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/BTJF
                         │       │                  │       BGHDYG5PEIFD5WSSSKSFZ2AZWC5N/ 
-                        │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/P3I4
                         │       │                  │       KYS6EU6S7QZ47WFNTPVAHFIUQNEL/ 
-                        │       │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/YAMJ
                         │       │                  │       QI3Y6BHWV3CUTYBXOZONCUJNOB2Z/ 
-                        │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
-                        │       │                  ├ [14]: https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
+                        │       │                  ├ [18]: https://sourceware.org/git/?p=glibc.git;a=blob;
                         │       │                  │       f=advisories/GLIBC-SA-2024-0004 
-                        │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-6737-1 
-                        │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-6737-2 
-                        │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-6762-1 
-                        │       │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │       │                  ╰ [19]: https://www.openwall.com/lists/oss-security/202
+                        │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-6737-1 
+                        │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6737-2 
+                        │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6762-1 
+                        │       │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │       │                  ╰ [23]: https://www.openwall.com/lists/oss-security/202
                         │       │                          4/04/17/9 
                         │       ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │       ╰ LastModifiedDate: 2024-05-04T01:15:06.243Z 
@@ -1187,16 +1231,25 @@
                         │       │                    
                         │       ├ Severity        : HIGH 
                         │       ├ CweIDs           ─ [0]: CWE-121 
-                        │       ├ VendorSeverity   ╭ cbl-mariner: 3 
+                        │       ├ VendorSeverity   ╭ alma       : 3 
+                        │       │                  ├ cbl-mariner: 3 
                         │       │                  ╰ redhat     : 3 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
                         │       │                           │           :L/I:L/A:H 
                         │       │                           ╰ V3Score : 7.6 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33599 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
-                        │       │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
-                        │       │                  │      =advisories/GLIBC-SA-2024-0005 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3339 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+                        │       │                  │       -33599 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2273404 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
+                        │       │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  │       f=advisories/GLIBC-SA-2024-0005 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [21]  ╭ VulnerabilityID : CVE-2024-33600 
@@ -1232,16 +1285,25 @@
                         │       │                    
                         │       ├ Severity        : MEDIUM 
                         │       ├ CweIDs           ─ [0]: CWE-476 
-                        │       ├ VendorSeverity   ╭ cbl-mariner: 3 
+                        │       ├ VendorSeverity   ╭ alma       : 3 
+                        │       │                  ├ cbl-mariner: 3 
                         │       │                  ╰ redhat     : 2 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 5.3 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33600 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
-                        │       │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
-                        │       │                  │      =advisories/GLIBC-SA-2024-0006 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3339 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+                        │       │                  │       -33600 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2273404 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
+                        │       │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  │       f=advisories/GLIBC-SA-2024-0006 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [22]  ╭ VulnerabilityID : CVE-2024-33601 
@@ -1279,16 +1341,25 @@
                         │       │                    
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-617 
-                        │       ├ VendorSeverity   ╭ cbl-mariner: 2 
+                        │       ├ VendorSeverity   ╭ alma       : 3 
+                        │       │                  ├ cbl-mariner: 2 
                         │       │                  ╰ redhat     : 1 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 4 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33601 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
-                        │       │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
-                        │       │                  │      =advisories/GLIBC-SA-2024-0007 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3339 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+                        │       │                  │       -33601 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2273404 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
+                        │       │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  │       f=advisories/GLIBC-SA-2024-0007 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [23]  ╭ VulnerabilityID : CVE-2024-33602 
@@ -1324,16 +1395,25 @@
                         │       │                    
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-466 
-                        │       ├ VendorSeverity   ╭ cbl-mariner: 2 
+                        │       ├ VendorSeverity   ╭ alma       : 3 
+                        │       │                  ├ cbl-mariner: 2 
                         │       │                  ╰ redhat     : 1 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 4 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33602 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
-                        │       │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
-                        │       │                  │      =advisories/GLIBC-SA-2024-0008 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3339 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+                        │       │                  │       -33602 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2273404 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
+                        │       │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  │       f=advisories/GLIBC-SA-2024-0008 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.68Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [24]  ╭ VulnerabilityID : CVE-2024-2961 
@@ -1377,31 +1457,35 @@
                         │       │                  │       /04/18/4 
                         │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2024
                         │       │                  │       /04/24/2 
-                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:2722 
+                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:3339 
                         │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-2961 
                         │       │                  ├ [5] : https://bugzilla.redhat.com/2273404 
-                        │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-2722.html 
-                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-2961.html 
-                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-2722.html 
-                        │       │                  ├ [9] : https://lists.debian.org/debian-lts-announce/20
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [7] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [8] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [9] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-2961.html 
+                        │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-2722.html 
+                        │       │                  ├ [13]: https://lists.debian.org/debian-lts-announce/20
                         │       │                  │       24/05/msg00001.html 
-                        │       │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/BTJF
                         │       │                  │       BGHDYG5PEIFD5WSSSKSFZ2AZWC5N/ 
-                        │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/P3I4
                         │       │                  │       KYS6EU6S7QZ47WFNTPVAHFIUQNEL/ 
-                        │       │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/YAMJ
                         │       │                  │       QI3Y6BHWV3CUTYBXOZONCUJNOB2Z/ 
-                        │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
-                        │       │                  ├ [14]: https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
+                        │       │                  ├ [18]: https://sourceware.org/git/?p=glibc.git;a=blob;
                         │       │                  │       f=advisories/GLIBC-SA-2024-0004 
-                        │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-6737-1 
-                        │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-6737-2 
-                        │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-6762-1 
-                        │       │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │       │                  ╰ [19]: https://www.openwall.com/lists/oss-security/202
+                        │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-6737-1 
+                        │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6737-2 
+                        │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6762-1 
+                        │       │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │       │                  ╰ [23]: https://www.openwall.com/lists/oss-security/202
                         │       │                          4/04/17/9 
                         │       ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │       ╰ LastModifiedDate: 2024-05-04T01:15:06.243Z 
@@ -1436,16 +1520,25 @@
                         │       │                    
                         │       ├ Severity        : HIGH 
                         │       ├ CweIDs           ─ [0]: CWE-121 
-                        │       ├ VendorSeverity   ╭ cbl-mariner: 3 
+                        │       ├ VendorSeverity   ╭ alma       : 3 
+                        │       │                  ├ cbl-mariner: 3 
                         │       │                  ╰ redhat     : 3 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
                         │       │                           │           :L/I:L/A:H 
                         │       │                           ╰ V3Score : 7.6 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33599 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
-                        │       │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
-                        │       │                  │      =advisories/GLIBC-SA-2024-0005 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3339 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+                        │       │                  │       -33599 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2273404 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
+                        │       │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  │       f=advisories/GLIBC-SA-2024-0005 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [26]  ╭ VulnerabilityID : CVE-2024-33600 
@@ -1481,16 +1574,25 @@
                         │       │                    
                         │       ├ Severity        : MEDIUM 
                         │       ├ CweIDs           ─ [0]: CWE-476 
-                        │       ├ VendorSeverity   ╭ cbl-mariner: 3 
+                        │       ├ VendorSeverity   ╭ alma       : 3 
+                        │       │                  ├ cbl-mariner: 3 
                         │       │                  ╰ redhat     : 2 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 5.3 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33600 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
-                        │       │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
-                        │       │                  │      =advisories/GLIBC-SA-2024-0006 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3339 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+                        │       │                  │       -33600 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2273404 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
+                        │       │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  │       f=advisories/GLIBC-SA-2024-0006 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [27]  ╭ VulnerabilityID : CVE-2024-33601 
@@ -1528,16 +1630,25 @@
                         │       │                    
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-617 
-                        │       ├ VendorSeverity   ╭ cbl-mariner: 2 
+                        │       ├ VendorSeverity   ╭ alma       : 3 
+                        │       │                  ├ cbl-mariner: 2 
                         │       │                  ╰ redhat     : 1 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 4 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33601 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
-                        │       │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
-                        │       │                  │      =advisories/GLIBC-SA-2024-0007 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3339 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+                        │       │                  │       -33601 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2273404 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
+                        │       │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  │       f=advisories/GLIBC-SA-2024-0007 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [28]  ╭ VulnerabilityID : CVE-2024-33602 
@@ -1573,16 +1684,25 @@
                         │       │                    
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-466 
-                        │       ├ VendorSeverity   ╭ cbl-mariner: 2 
+                        │       ├ VendorSeverity   ╭ alma       : 3 
+                        │       │                  ├ cbl-mariner: 2 
                         │       │                  ╰ redhat     : 1 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 4 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-33602 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
-                        │       │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
-                        │       │                  │      =advisories/GLIBC-SA-2024-0008 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3339 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+                        │       │                  │       -33602 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2273404 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2277202 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2277204 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2277205 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2277206 
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-3339.html 
+                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
+                        │       │                  ├ [9] : https://sourceware.org/git/?p=glibc.git;a=blob;
+                        │       │                  │       f=advisories/GLIBC-SA-2024-0008 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.68Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [29]  ╭ VulnerabilityID : CVE-2022-3219 
@@ -2001,38 +2121,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-30571 
                         │       ├ PublishedDate   : 2023-05-29T20:15:09.513Z 
                         │       ╰ LastModifiedDate: 2023-06-05T16:40:57.93Z 
-                        ├ [37]  ╭ VulnerabilityID : CVE-2024-26256 
-                        │       ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
-                        │       ├ PkgName         : libarchive 
-                        │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_
-                        │       │                  │       64&distro=redhat-9.3 
-                        │       │                  ╰ UID : cfa8103201bda50b 
-                        │       ├ InstalledVersion: 3.5.3-4.el9 
-                        │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:6a6198c56cc858e293056077acb0708c94858e
-                        │       │                  │         8b48075f0b0b06a4278185fb15 
-                        │       │                  ╰ DiffID: sha256:0b03b2f22f5eec97834bc189d3e62885b0719d
-                        │       │                            e30c871a3e592632f667d33338 
-                        │       ├ SeveritySource  : redhat 
-                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26256 
-                        │       ├ Title           : libarchive: Heap based buffer overflow in rar e8 filter 
-                        │       ├ Description     : libarchive Remote Code Execution Vulnerability 
-                        │       ├ Severity        : MEDIUM 
-                        │       ├ CweIDs           ─ [0]: CWE-122 
-                        │       ├ VendorSeverity   ╭ redhat: 2 
-                        │       │                  ╰ ubuntu: 2 
-                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
-                        │       │                           │           :H/I:H/A:H 
-                        │       │                           ╰ V3Score : 7.8 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26256 
-                        │       │                  ├ [1]: https://github.com/advisories/GHSA-2jc9-36w4-pmqw 
-                        │       │                  ├ [2]: https://msrc.microsoft.com/update-guide/vulnerab
-                        │       │                  │      ility/CVE-2024-26256 
-                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26256 
-                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26256 
-                        │       ├ PublishedDate   : 2024-04-09T17:15:47.507Z 
-                        │       ╰ LastModifiedDate: 2024-04-10T13:24:00.07Z 
-                        ├ [38]  ╭ VulnerabilityID : CVE-2024-2398 
+                        ├ [37]  ╭ VulnerabilityID : CVE-2024-2398 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-26.el9_3.3.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-26.el9_3.
@@ -2084,7 +2173,7 @@
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
                         │       ├ PublishedDate   : 2024-03-27T08:15:41.283Z 
                         │       ╰ LastModifiedDate: 2024-05-03T13:15:21.64Z 
-                        ├ [39]  ╭ VulnerabilityID : CVE-2022-27943 
+                        ├ [38]  ╭ VulnerabilityID : CVE-2022-27943 
                         │       ├ PkgID           : libgcc@11.4.1-2.1.el9.x86_64 
                         │       ├ PkgName         : libgcc 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libgcc@11.4.1-2.1.el9?arch=x86_6
@@ -2135,7 +2224,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
                         │       ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-                        ├ [40]  ╭ VulnerabilityID : CVE-2024-2236 
+                        ├ [39]  ╭ VulnerabilityID : CVE-2024-2236 
                         │       ├ PkgID           : libgcrypt@1.10.0-10.el9_2.x86_64 
                         │       ├ PkgName         : libgcrypt 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libgcrypt@1.10.0-10.el9_2?arch=x
@@ -2173,7 +2262,7 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
                         │       ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
                         │       ╰ LastModifiedDate: 2024-04-25T17:15:49.467Z 
-                        ├ [41]  ╭ VulnerabilityID : CVE-2024-28182 
+                        ├ [40]  ╭ VulnerabilityID : CVE-2024-28182 
                         │       ├ PkgID           : libnghttp2@1.43.0-5.el9_3.1.x86_64 
                         │       ├ PkgName         : libnghttp2 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libnghttp2@1.43.0-5.el9_3.1?arch
@@ -2246,7 +2335,7 @@
                         │       │                  ╰ [23]: https://www.kb.cert.org/vuls/id/421644 
                         │       ├ PublishedDate   : 2024-04-04T15:15:38.427Z 
                         │       ╰ LastModifiedDate: 2024-05-01T18:15:17.267Z 
-                        ├ [42]  ╭ VulnerabilityID : CVE-2022-27943 
+                        ├ [41]  ╭ VulnerabilityID : CVE-2022-27943 
                         │       ├ PkgID           : libstdc++@11.4.1-2.1.el9.x86_64 
                         │       ├ PkgName         : libstdc++ 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libstdc%2B%2B@11.4.1-2.1.el9?arc
@@ -2297,7 +2386,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
                         │       ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-                        ├ [43]  ╭ VulnerabilityID : CVE-2024-25062 
+                        ├ [42]  ╭ VulnerabilityID : CVE-2024-25062 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2679 
                         │       ├ PkgID           : libxml2@2.9.13-5.el9_3.x86_64 
                         │       ├ PkgName         : libxml2 
@@ -2353,7 +2442,7 @@
                         │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-25062 
                         │       ├ PublishedDate   : 2024-02-04T16:15:45.12Z 
                         │       ╰ LastModifiedDate: 2024-02-13T00:40:40.503Z 
-                        ├ [44]  ╭ VulnerabilityID : CVE-2023-45322 
+                        ├ [43]  ╭ VulnerabilityID : CVE-2023-45322 
                         │       ├ PkgID           : libxml2@2.9.13-5.el9_3.x86_64 
                         │       ├ PkgName         : libxml2 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-5.el9_3?arch=x86_
@@ -2396,7 +2485,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45322 
                         │       ├ PublishedDate   : 2023-10-06T22:15:11.66Z 
                         │       ╰ LastModifiedDate: 2024-05-17T02:29:45.487Z 
-                        ├ [45]  ╭ VulnerabilityID : CVE-2024-34459 
+                        ├ [44]  ╭ VulnerabilityID : CVE-2024-34459 
                         │       ├ PkgID           : libxml2@2.9.13-5.el9_3.x86_64 
                         │       ├ PkgName         : libxml2 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-5.el9_3?arch=x86_
@@ -2431,7 +2520,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-34459 
                         │       ├ PublishedDate   : 2024-05-14T15:39:11.917Z 
                         │       ╰ LastModifiedDate: 2024-05-14T16:12:23.49Z 
-                        ├ [46]  ╭ VulnerabilityID : CVE-2022-4899 
+                        ├ [45]  ╭ VulnerabilityID : CVE-2022-4899 
                         │       ├ PkgID           : libzstd@1.5.1-2.el9.x86_64 
                         │       ├ PkgName         : libzstd 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libzstd@1.5.1-2.el9?arch=x86_64&
@@ -2583,7 +2672,7 @@
                         │       │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
                         │       ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-                        ├ [47]  ╭ VulnerabilityID : CVE-2022-29458 
+                        ├ [46]  ╭ VulnerabilityID : CVE-2022-29458 
                         │       ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
                         │       ├ PkgName         : ncurses-base 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9
@@ -2636,7 +2725,7 @@
                         │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
                         │       ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:46:02.1Z 
-                        ├ [48]  ╭ VulnerabilityID : CVE-2023-50495 
+                        ├ [47]  ╭ VulnerabilityID : CVE-2023-50495 
                         │       ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
                         │       ├ PkgName         : ncurses-base 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9
@@ -2680,7 +2769,7 @@
                         │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
                         │       ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
                         │       ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-                        ├ [49]  ╭ VulnerabilityID : CVE-2022-29458 
+                        ├ [48]  ╭ VulnerabilityID : CVE-2022-29458 
                         │       ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
                         │       ├ PkgName         : ncurses-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9
@@ -2733,7 +2822,7 @@
                         │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
                         │       ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:46:02.1Z 
-                        ├ [50]  ╭ VulnerabilityID : CVE-2023-50495 
+                        ├ [49]  ╭ VulnerabilityID : CVE-2023-50495 
                         │       ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
                         │       ├ PkgName         : ncurses-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9
@@ -2777,7 +2866,7 @@
                         │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
                         │       ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
                         │       ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-                        ├ [51]  ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [50]  ╭ VulnerabilityID : CVE-2020-12413 
                         │       ├ PkgID           : nspr@4.35.0-7.el9_3.x86_64 
                         │       ├ PkgName         : nspr 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nspr@4.35.0-7.el9_3?arch=x86_64&
@@ -2816,7 +2905,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
                         │       ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-                        ├ [52]  ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [51]  ╭ VulnerabilityID : CVE-2020-12413 
                         │       ├ PkgID           : nss@3.90.0-7.el9_3.x86_64 
                         │       ├ PkgName         : nss 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss@3.90.0-7.el9_3?arch=x86_64&d
@@ -2855,7 +2944,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
                         │       ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-                        ├ [53]  ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [52]  ╭ VulnerabilityID : CVE-2020-12413 
                         │       ├ PkgID           : nss-softokn@3.90.0-7.el9_3.x86_64 
                         │       ├ PkgName         : nss-softokn 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn@3.90.0-7.el9_3?arch=
@@ -2894,7 +2983,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
                         │       ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-                        ├ [54]  ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [53]  ╭ VulnerabilityID : CVE-2020-12413 
                         │       ├ PkgID           : nss-softokn-freebl@3.90.0-7.el9_3.x86_64 
                         │       ├ PkgName         : nss-softokn-freebl 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn-freebl@3.90.0-7.el9_
@@ -2933,7 +3022,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
                         │       ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-                        ├ [55]  ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [54]  ╭ VulnerabilityID : CVE-2020-12413 
                         │       ├ PkgID           : nss-sysinit@3.90.0-7.el9_3.x86_64 
                         │       ├ PkgName         : nss-sysinit 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-sysinit@3.90.0-7.el9_3?arch=
@@ -2972,7 +3061,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
                         │       ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-                        ├ [56]  ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [55]  ╭ VulnerabilityID : CVE-2020-12413 
                         │       ├ PkgID           : nss-util@3.90.0-7.el9_3.x86_64 
                         │       ├ PkgName         : nss-util 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-util@3.90.0-7.el9_3?arch=x86
@@ -3011,7 +3100,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
                         │       ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-                        ├ [57]  ╭ VulnerabilityID : CVE-2023-2953 
+                        ├ [56]  ╭ VulnerabilityID : CVE-2023-2953 
                         │       ├ PkgID           : openldap@2.6.3-1.el9.x86_64 
                         │       ├ PkgName         : openldap 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openldap@2.6.3-1.el9?arch=x86_64
@@ -3063,7 +3152,7 @@
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
                         │       ├ PublishedDate   : 2023-05-30T22:15:10.613Z 
                         │       ╰ LastModifiedDate: 2023-08-02T16:46:03.663Z 
-                        ├ [58]  ╭ VulnerabilityID : CVE-2023-2975 
+                        ├ [57]  ╭ VulnerabilityID : CVE-2023-2975 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl 
@@ -3162,7 +3251,7 @@
                         │       │                  ╰ [21]: https://www.openssl.org/news/secadv/20230714.txt 
                         │       ├ PublishedDate   : 2023-07-14T12:15:09.023Z 
                         │       ╰ LastModifiedDate: 2024-02-04T09:15:09.773Z 
-                        ├ [59]  ╭ VulnerabilityID : CVE-2023-3446 
+                        ├ [58]  ╭ VulnerabilityID : CVE-2023-3446 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl 
@@ -3229,7 +3318,7 @@
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-1333 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 3 
+                        │       │                  ├ amazon     : 2 
                         │       │                  ├ nvd        : 2 
                         │       │                  ├ oracle-oval: 1 
                         │       │                  ├ photon     : 2 
@@ -3313,7 +3402,7 @@
                         │       │                  ╰ [46]: https://www.openssl.org/news/secadv/20230719.txt 
                         │       ├ PublishedDate   : 2023-07-19T12:15:10.003Z 
                         │       ╰ LastModifiedDate: 2024-02-04T09:15:09.9Z 
-                        ├ [60]  ╭ VulnerabilityID : CVE-2023-3817 
+                        ├ [59]  ╭ VulnerabilityID : CVE-2023-3817 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl 
@@ -3376,7 +3465,7 @@
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-834 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 3 
+                        │       │                  ├ amazon     : 2 
                         │       │                  ├ cbl-mariner: 2 
                         │       │                  ├ nvd        : 2 
                         │       │                  ├ oracle-oval: 1 
@@ -3438,7 +3527,7 @@
                         │       │                  ╰ [31]: https://www.openssl.org/news/secadv/20230731.txt 
                         │       ├ PublishedDate   : 2023-07-31T16:15:10.497Z 
                         │       ╰ LastModifiedDate: 2024-02-04T09:15:10.03Z 
-                        ├ [61]  ╭ VulnerabilityID : CVE-2023-5678 
+                        ├ [60]  ╭ VulnerabilityID : CVE-2023-5678 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl 
@@ -3514,7 +3603,7 @@
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-754 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 3 
+                        │       │                  ├ amazon     : 2 
                         │       │                  ├ cbl-mariner: 2 
                         │       │                  ├ nvd        : 2 
                         │       │                  ├ oracle-oval: 1 
@@ -3563,7 +3652,7 @@
                         │       │                  ╰ [23]: https://www.openssl.org/news/secadv/20231106.txt 
                         │       ├ PublishedDate   : 2023-11-06T16:15:42.67Z 
                         │       ╰ LastModifiedDate: 2024-05-01T18:15:12.393Z 
-                        ├ [62]  ╭ VulnerabilityID : CVE-2023-6129 
+                        ├ [61]  ╭ VulnerabilityID : CVE-2023-6129 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl 
@@ -3686,7 +3775,7 @@
                         │       │                          4/01/09/1 
                         │       ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
                         │       ╰ LastModifiedDate: 2024-05-03T13:15:21.163Z 
-                        ├ [63]  ╭ VulnerabilityID : CVE-2023-6237 
+                        ├ [62]  ╭ VulnerabilityID : CVE-2023-6237 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl 
@@ -3783,7 +3872,7 @@
                         │       │                          4/01/15/2 
                         │       ├ PublishedDate   : 2024-04-25T07:15:45.27Z 
                         │       ╰ LastModifiedDate: 2024-05-01T18:15:12.59Z 
-                        ├ [64]  ╭ VulnerabilityID : CVE-2024-0727 
+                        ├ [63]  ╭ VulnerabilityID : CVE-2024-0727 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl 
@@ -3835,7 +3924,7 @@
                         │       │                   this issue. 
                         │       ├ Severity        : LOW 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 3 
+                        │       │                  ├ amazon     : 2 
                         │       │                  ├ cbl-mariner: 2 
                         │       │                  ├ ghsa       : 2 
                         │       │                  ├ nvd        : 2 
@@ -3898,7 +3987,7 @@
                         │       │                  ╰ [29]: https://www.openssl.org/news/secadv/20240125.txt 
                         │       ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
                         │       ╰ LastModifiedDate: 2024-05-01T18:15:13.057Z 
-                        ├ [65]  ╭ VulnerabilityID : CVE-2024-2511 
+                        ├ [64]  ╭ VulnerabilityID : CVE-2024-2511 
                         │       ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_
@@ -3973,7 +4062,7 @@
                         │       │                  ╰ [10]: https://www.openssl.org/news/vulnerabilities.html 
                         │       ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
                         │       ╰ LastModifiedDate: 2024-05-03T13:15:21.93Z 
-                        ├ [66]  ╭ VulnerabilityID : CVE-2024-4603 
+                        ├ [65]  ╭ VulnerabilityID : CVE-2024-4603 
                         │       ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_
@@ -4057,7 +4146,7 @@
                         │       │                  ╰ [7]: https://www.openssl.org/news/secadv/20240516.txt 
                         │       ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
                         │       ╰ LastModifiedDate: 2024-05-17T18:36:31.297Z 
-                        ├ [67]  ╭ VulnerabilityID : CVE-2023-2975 
+                        ├ [66]  ╭ VulnerabilityID : CVE-2023-2975 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl-libs 
@@ -4156,7 +4245,7 @@
                         │       │                  ╰ [21]: https://www.openssl.org/news/secadv/20230714.txt 
                         │       ├ PublishedDate   : 2023-07-14T12:15:09.023Z 
                         │       ╰ LastModifiedDate: 2024-02-04T09:15:09.773Z 
-                        ├ [68]  ╭ VulnerabilityID : CVE-2023-3446 
+                        ├ [67]  ╭ VulnerabilityID : CVE-2023-3446 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl-libs 
@@ -4223,7 +4312,7 @@
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-1333 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 3 
+                        │       │                  ├ amazon     : 2 
                         │       │                  ├ nvd        : 2 
                         │       │                  ├ oracle-oval: 1 
                         │       │                  ├ photon     : 2 
@@ -4307,7 +4396,7 @@
                         │       │                  ╰ [46]: https://www.openssl.org/news/secadv/20230719.txt 
                         │       ├ PublishedDate   : 2023-07-19T12:15:10.003Z 
                         │       ╰ LastModifiedDate: 2024-02-04T09:15:09.9Z 
-                        ├ [69]  ╭ VulnerabilityID : CVE-2023-3817 
+                        ├ [68]  ╭ VulnerabilityID : CVE-2023-3817 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl-libs 
@@ -4370,7 +4459,7 @@
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-834 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 3 
+                        │       │                  ├ amazon     : 2 
                         │       │                  ├ cbl-mariner: 2 
                         │       │                  ├ nvd        : 2 
                         │       │                  ├ oracle-oval: 1 
@@ -4432,7 +4521,7 @@
                         │       │                  ╰ [31]: https://www.openssl.org/news/secadv/20230731.txt 
                         │       ├ PublishedDate   : 2023-07-31T16:15:10.497Z 
                         │       ╰ LastModifiedDate: 2024-02-04T09:15:10.03Z 
-                        ├ [70]  ╭ VulnerabilityID : CVE-2023-5678 
+                        ├ [69]  ╭ VulnerabilityID : CVE-2023-5678 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl-libs 
@@ -4508,7 +4597,7 @@
                         │       ├ Severity        : LOW 
                         │       ├ CweIDs           ─ [0]: CWE-754 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 3 
+                        │       │                  ├ amazon     : 2 
                         │       │                  ├ cbl-mariner: 2 
                         │       │                  ├ nvd        : 2 
                         │       │                  ├ oracle-oval: 1 
@@ -4557,7 +4646,7 @@
                         │       │                  ╰ [23]: https://www.openssl.org/news/secadv/20231106.txt 
                         │       ├ PublishedDate   : 2023-11-06T16:15:42.67Z 
                         │       ╰ LastModifiedDate: 2024-05-01T18:15:12.393Z 
-                        ├ [71]  ╭ VulnerabilityID : CVE-2023-6129 
+                        ├ [70]  ╭ VulnerabilityID : CVE-2023-6129 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl-libs 
@@ -4680,7 +4769,7 @@
                         │       │                          4/01/09/1 
                         │       ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
                         │       ╰ LastModifiedDate: 2024-05-03T13:15:21.163Z 
-                        ├ [72]  ╭ VulnerabilityID : CVE-2023-6237 
+                        ├ [71]  ╭ VulnerabilityID : CVE-2023-6237 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl-libs 
@@ -4777,7 +4866,7 @@
                         │       │                          4/01/15/2 
                         │       ├ PublishedDate   : 2024-04-25T07:15:45.27Z 
                         │       ╰ LastModifiedDate: 2024-05-01T18:15:12.59Z 
-                        ├ [73]  ╭ VulnerabilityID : CVE-2024-0727 
+                        ├ [72]  ╭ VulnerabilityID : CVE-2024-0727 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2447 
                         │       ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl-libs 
@@ -4829,7 +4918,7 @@
                         │       │                   this issue. 
                         │       ├ Severity        : LOW 
                         │       ├ VendorSeverity   ╭ alma       : 1 
-                        │       │                  ├ amazon     : 3 
+                        │       │                  ├ amazon     : 2 
                         │       │                  ├ cbl-mariner: 2 
                         │       │                  ├ ghsa       : 2 
                         │       │                  ├ nvd        : 2 
@@ -4892,7 +4981,7 @@
                         │       │                  ╰ [29]: https://www.openssl.org/news/secadv/20240125.txt 
                         │       ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
                         │       ╰ LastModifiedDate: 2024-05-01T18:15:13.057Z 
-                        ├ [74]  ╭ VulnerabilityID : CVE-2024-2511 
+                        ├ [73]  ╭ VulnerabilityID : CVE-2024-2511 
                         │       ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch
@@ -4967,7 +5056,7 @@
                         │       │                  ╰ [10]: https://www.openssl.org/news/vulnerabilities.html 
                         │       ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
                         │       ╰ LastModifiedDate: 2024-05-03T13:15:21.93Z 
-                        ├ [75]  ╭ VulnerabilityID : CVE-2024-4603 
+                        ├ [74]  ╭ VulnerabilityID : CVE-2024-4603 
                         │       ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │       ├ PkgName         : openssl-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch
@@ -5051,7 +5140,7 @@
                         │       │                  ╰ [7]: https://www.openssl.org/news/secadv/20240516.txt 
                         │       ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
                         │       ╰ LastModifiedDate: 2024-05-17T18:36:31.297Z 
-                        ├ [76]  ╭ VulnerabilityID : CVE-2024-22365 
+                        ├ [75]  ╭ VulnerabilityID : CVE-2024-22365 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2438 
                         │       ├ PkgID           : pam@1.5.1-15.el9.x86_64 
                         │       ├ PkgName         : pam 
@@ -5110,7 +5199,7 @@
                         │       │                          4/01/18/3 
                         │       ├ PublishedDate   : 2024-02-06T08:15:52.203Z 
                         │       ╰ LastModifiedDate: 2024-02-14T00:27:40.143Z 
-                        ├ [77]  ╭ VulnerabilityID : CVE-2022-41409 
+                        ├ [76]  ╭ VulnerabilityID : CVE-2022-41409 
                         │       ├ PkgID           : pcre2@10.40-2.el9.x86_64 
                         │       ├ PkgName         : pcre2 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2@10.40-2.el9?arch=x86_64&di
@@ -5151,7 +5240,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
                         │       ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
                         │       ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
-                        ├ [78]  ╭ VulnerabilityID : CVE-2022-41409 
+                        ├ [77]  ╭ VulnerabilityID : CVE-2022-41409 
                         │       ├ PkgID           : pcre2-syntax@10.40-2.el9.noarch 
                         │       ├ PkgName         : pcre2-syntax 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-2.el9?arch=no
@@ -5192,7 +5281,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
                         │       ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
                         │       ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
-                        ├ [79]  ╭ VulnerabilityID : CVE-2023-6597 
+                        ├ [78]  ╭ VulnerabilityID : CVE-2023-6597 
                         │       ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.1.noarch 
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.1
@@ -5253,7 +5342,7 @@
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-6597 
                         │       ├ PublishedDate   : 2024-03-19T16:15:08.743Z 
                         │       ╰ LastModifiedDate: 2024-05-01T18:15:12.78Z 
-                        ├ [80]  ╭ VulnerabilityID : CVE-2021-23336 
+                        ├ [79]  ╭ VulnerabilityID : CVE-2021-23336 
                         │       ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.1.noarch 
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.1
@@ -5413,7 +5502,7 @@
                         │       │                          21.html 
                         │       ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-                        ├ [81]  ╭ VulnerabilityID : CVE-2022-0391 
+                        ├ [80]  ╭ VulnerabilityID : CVE-2022-0391 
                         │       ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.1.noarch 
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.1
@@ -5487,7 +5576,7 @@
                         │       │                          22.html 
                         │       ├ PublishedDate   : 2022-02-09T23:15:16.58Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:41:13.75Z 
-                        ├ [82]  ╭ VulnerabilityID : CVE-2023-36632 
+                        ├ [81]  ╭ VulnerabilityID : CVE-2023-36632 
                         │       ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.1.noarch 
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.1
@@ -5542,7 +5631,7 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │       ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
                         │       ╰ LastModifiedDate: 2024-05-17T02:25:48.66Z 
-                        ├ [83]  ╭ VulnerabilityID : CVE-2024-0450 
+                        ├ [82]  ╭ VulnerabilityID : CVE-2024-0450 
                         │       ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.1.noarch 
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.1
@@ -5611,7 +5700,7 @@
                         │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0450 
                         │       ├ PublishedDate   : 2024-03-19T16:15:09.18Z 
                         │       ╰ LastModifiedDate: 2024-05-07T22:15:07.43Z 
-                        ├ [84]  ╭ VulnerabilityID : CVE-2023-6597 
+                        ├ [83]  ╭ VulnerabilityID : CVE-2023-6597 
                         │       ├ PkgID           : python3@3.9.18-1.el9_3.1.x86_64 
                         │       ├ PkgName         : python3 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-1.el9_3.1?arch=x8
@@ -5672,7 +5761,7 @@
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-6597 
                         │       ├ PublishedDate   : 2024-03-19T16:15:08.743Z 
                         │       ╰ LastModifiedDate: 2024-05-01T18:15:12.78Z 
-                        ├ [85]  ╭ VulnerabilityID : CVE-2021-23336 
+                        ├ [84]  ╭ VulnerabilityID : CVE-2021-23336 
                         │       ├ PkgID           : python3@3.9.18-1.el9_3.1.x86_64 
                         │       ├ PkgName         : python3 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-1.el9_3.1?arch=x8
@@ -5832,7 +5921,7 @@
                         │       │                          21.html 
                         │       ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-                        ├ [86]  ╭ VulnerabilityID : CVE-2022-0391 
+                        ├ [85]  ╭ VulnerabilityID : CVE-2022-0391 
                         │       ├ PkgID           : python3@3.9.18-1.el9_3.1.x86_64 
                         │       ├ PkgName         : python3 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-1.el9_3.1?arch=x8
@@ -5906,7 +5995,7 @@
                         │       │                          22.html 
                         │       ├ PublishedDate   : 2022-02-09T23:15:16.58Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:41:13.75Z 
-                        ├ [87]  ╭ VulnerabilityID : CVE-2023-36632 
+                        ├ [86]  ╭ VulnerabilityID : CVE-2023-36632 
                         │       ├ PkgID           : python3@3.9.18-1.el9_3.1.x86_64 
                         │       ├ PkgName         : python3 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-1.el9_3.1?arch=x8
@@ -5961,7 +6050,7 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │       ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
                         │       ╰ LastModifiedDate: 2024-05-17T02:25:48.66Z 
-                        ├ [88]  ╭ VulnerabilityID : CVE-2024-0450 
+                        ├ [87]  ╭ VulnerabilityID : CVE-2024-0450 
                         │       ├ PkgID           : python3@3.9.18-1.el9_3.1.x86_64 
                         │       ├ PkgName         : python3 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-1.el9_3.1?arch=x8
@@ -6030,7 +6119,7 @@
                         │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0450 
                         │       ├ PublishedDate   : 2024-03-19T16:15:09.18Z 
                         │       ╰ LastModifiedDate: 2024-05-07T22:15:07.43Z 
-                        ├ [89]  ╭ VulnerabilityID : CVE-2023-6597 
+                        ├ [88]  ╭ VulnerabilityID : CVE-2023-6597 
                         │       ├ PkgID           : python3-libs@3.9.18-1.el9_3.1.x86_64 
                         │       ├ PkgName         : python3-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-1.el9_3.1?ar
@@ -6091,7 +6180,7 @@
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-6597 
                         │       ├ PublishedDate   : 2024-03-19T16:15:08.743Z 
                         │       ╰ LastModifiedDate: 2024-05-01T18:15:12.78Z 
-                        ├ [90]  ╭ VulnerabilityID : CVE-2021-23336 
+                        ├ [89]  ╭ VulnerabilityID : CVE-2021-23336 
                         │       ├ PkgID           : python3-libs@3.9.18-1.el9_3.1.x86_64 
                         │       ├ PkgName         : python3-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-1.el9_3.1?ar
@@ -6251,7 +6340,7 @@
                         │       │                          21.html 
                         │       ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-                        ├ [91]  ╭ VulnerabilityID : CVE-2022-0391 
+                        ├ [90]  ╭ VulnerabilityID : CVE-2022-0391 
                         │       ├ PkgID           : python3-libs@3.9.18-1.el9_3.1.x86_64 
                         │       ├ PkgName         : python3-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-1.el9_3.1?ar
@@ -6325,7 +6414,7 @@
                         │       │                          22.html 
                         │       ├ PublishedDate   : 2022-02-09T23:15:16.58Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:41:13.75Z 
-                        ├ [92]  ╭ VulnerabilityID : CVE-2023-36632 
+                        ├ [91]  ╭ VulnerabilityID : CVE-2023-36632 
                         │       ├ PkgID           : python3-libs@3.9.18-1.el9_3.1.x86_64 
                         │       ├ PkgName         : python3-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-1.el9_3.1?ar
@@ -6380,7 +6469,7 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │       ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
                         │       ╰ LastModifiedDate: 2024-05-17T02:25:48.66Z 
-                        ├ [93]  ╭ VulnerabilityID : CVE-2024-0450 
+                        ├ [92]  ╭ VulnerabilityID : CVE-2024-0450 
                         │       ├ PkgID           : python3-libs@3.9.18-1.el9_3.1.x86_64 
                         │       ├ PkgName         : python3-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-1.el9_3.1?ar
@@ -6449,7 +6538,7 @@
                         │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0450 
                         │       ├ PublishedDate   : 2024-03-19T16:15:09.18Z 
                         │       ╰ LastModifiedDate: 2024-05-07T22:15:07.43Z 
-                        ├ [94]  ╭ VulnerabilityID : CVE-2024-35195 
+                        ├ [93]  ╭ VulnerabilityID : CVE-2024-35195 
                         │       ├ PkgID           : python3-pip-wheel@21.2.3-7.el9_3.1.noarch 
                         │       ├ PkgName         : python3-pip-wheel 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-7.el9_3
@@ -6495,7 +6584,7 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-35195 
                         │       ├ PublishedDate   : 2024-05-20T21:15:09.99Z 
                         │       ╰ LastModifiedDate: 2024-05-21T12:37:59.687Z 
-                        ├ [95]  ╭ VulnerabilityID : CVE-2021-3572 
+                        ├ [94]  ╭ VulnerabilityID : CVE-2021-3572 
                         │       ├ PkgID           : python3-pip-wheel@21.2.3-7.el9_3.1.noarch 
                         │       ├ PkgName         : python3-pip-wheel 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-7.el9_3
@@ -6567,7 +6656,7 @@
                         │       │                          22.html 
                         │       ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
                         │       ╰ LastModifiedDate: 2022-10-05T02:14:39.75Z 
-                        ├ [96]  ╭ VulnerabilityID : CVE-2023-36191 
+                        ├ [95]  ╭ VulnerabilityID : CVE-2023-36191 
                         │       ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
                         │       ├ PkgName         : sqlite-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=
@@ -6599,7 +6688,7 @@
                         │       │                  ╰ [3]: https://www.sqlite.org/forum/forumpost/19f55ef73b 
                         │       ├ PublishedDate   : 2023-06-23T02:15:09.597Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:16:25.153Z 
-                        ├ [97]  ╭ VulnerabilityID : CVE-2024-0232 
+                        ├ [96]  ╭ VulnerabilityID : CVE-2024-0232 
                         │       ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
                         │       ├ PkgName         : sqlite-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=
@@ -6645,7 +6734,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
                         │       ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
                         │       ╰ LastModifiedDate: 2024-03-15T11:15:08.56Z 
-                        ├ [98]  ╭ VulnerabilityID : CVE-2021-3997 
+                        ├ [97]  ╭ VulnerabilityID : CVE-2021-3997 
                         │       ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │       ├ PkgName         : systemd-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-18.el9?arch=x86
@@ -6690,7 +6779,7 @@
                         │       │                         /01/10/2 
                         │       ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
                         │       ╰ LastModifiedDate: 2023-05-03T12:15:15.95Z 
-                        ├ [99]  ╭ VulnerabilityID : CVE-2023-7008 
+                        ├ [98]  ╭ VulnerabilityID : CVE-2023-7008 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2463 
                         │       ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │       ├ PkgName         : systemd-libs 
@@ -6752,7 +6841,7 @@
                         │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
                         │       ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
                         │       ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-                        ├ [100] ╭ VulnerabilityID : CVE-2005-2541 
+                        ├ [99]  ╭ VulnerabilityID : CVE-2005-2541 
                         │       ├ PkgID           : tar@1.34-6.el9_1.x86_64 
                         │       ├ PkgName         : tar 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dis
@@ -6788,7 +6877,7 @@
                         │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
                         │       ├ PublishedDate   : 2005-08-10T04:00:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T01:57:39.453Z 
-                        ╰ [101] ╭ VulnerabilityID : CVE-2023-39804 
+                        ╰ [100] ╭ VulnerabilityID : CVE-2023-39804 
                                 ├ PkgID           : tar@1.34-6.el9_1.x86_64 
                                 ├ PkgName         : tar 
                                 ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dis
