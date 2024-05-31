@@ -780,7 +780,7 @@
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://linux.oracle.com/cve/CVE-2024-2961.html
-    - https://linux.oracle.com/errata/ELSA-2024-2722.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -826,6 +826,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -840,6 +841,8 @@
     - https://bugzilla.redhat.com/2277205
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://linux.oracle.com/cve/CVE-2024-33599.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
     - https://www.cve.org/CVERecord?id=CVE-2024-33599
@@ -878,6 +881,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 3
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -892,6 +896,8 @@
     - https://bugzilla.redhat.com/2277205
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://linux.oracle.com/cve/CVE-2024-33600.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
     - https://www.cve.org/CVERecord?id=CVE-2024-33600
@@ -930,6 +936,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 1
     CVSS:
       redhat:
@@ -944,6 +951,8 @@
     - https://bugzilla.redhat.com/2277205
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://linux.oracle.com/cve/CVE-2024-33601.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
     - https://www.cve.org/CVERecord?id=CVE-2024-33601
@@ -981,6 +990,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 1
     CVSS:
       redhat:
@@ -995,6 +1005,8 @@
     - https://bugzilla.redhat.com/2277205
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://linux.oracle.com/cve/CVE-2024-33602.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008
     - https://www.cve.org/CVERecord?id=CVE-2024-33602
@@ -1046,7 +1058,7 @@
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://linux.oracle.com/cve/CVE-2024-2961.html
-    - https://linux.oracle.com/errata/ELSA-2024-2722.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -1092,6 +1104,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -1106,6 +1119,8 @@
     - https://bugzilla.redhat.com/2277205
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://linux.oracle.com/cve/CVE-2024-33599.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
     - https://www.cve.org/CVERecord?id=CVE-2024-33599
@@ -1144,6 +1159,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 3
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -1158,6 +1174,8 @@
     - https://bugzilla.redhat.com/2277205
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://linux.oracle.com/cve/CVE-2024-33600.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
     - https://www.cve.org/CVERecord?id=CVE-2024-33600
@@ -1196,6 +1214,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 1
     CVSS:
       redhat:
@@ -1210,6 +1229,8 @@
     - https://bugzilla.redhat.com/2277205
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://linux.oracle.com/cve/CVE-2024-33601.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
     - https://www.cve.org/CVERecord?id=CVE-2024-33601
@@ -1247,6 +1268,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 1
     CVSS:
       redhat:
@@ -1261,6 +1283,8 @@
     - https://bugzilla.redhat.com/2277205
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://linux.oracle.com/cve/CVE-2024-33602.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008
     - https://www.cve.org/CVERecord?id=CVE-2024-33602
@@ -1312,7 +1336,7 @@
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://linux.oracle.com/cve/CVE-2024-2961.html
-    - https://linux.oracle.com/errata/ELSA-2024-2722.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -1358,6 +1382,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -1372,6 +1397,8 @@
     - https://bugzilla.redhat.com/2277205
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://linux.oracle.com/cve/CVE-2024-33599.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
     - https://www.cve.org/CVERecord?id=CVE-2024-33599
@@ -1410,6 +1437,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 3
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -1424,6 +1452,8 @@
     - https://bugzilla.redhat.com/2277205
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://linux.oracle.com/cve/CVE-2024-33600.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
     - https://www.cve.org/CVERecord?id=CVE-2024-33600
@@ -1462,6 +1492,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 1
     CVSS:
       redhat:
@@ -1476,6 +1507,8 @@
     - https://bugzilla.redhat.com/2277205
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://linux.oracle.com/cve/CVE-2024-33601.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
     - https://www.cve.org/CVERecord?id=CVE-2024-33601
@@ -1513,6 +1546,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 1
     CVSS:
       redhat:
@@ -1527,6 +1561,8 @@
     - https://bugzilla.redhat.com/2277205
     - https://bugzilla.redhat.com/2277206
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://linux.oracle.com/cve/CVE-2024-33602.html
+    - https://linux.oracle.com/errata/ELSA-2024-3339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008
     - https://www.cve.org/CVERecord?id=CVE-2024-33602
@@ -1797,7 +1833,9 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: LOW
     VendorSeverity:
+      alma: 1
       amazon: 2
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1805,8 +1843,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3268
     - https://access.redhat.com/security/cve/CVE-2024-26458
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://errata.almalinux.org/8/ALSA-2024-3268.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
+    - https://linux.oracle.com/cve/CVE-2024-26458.html
+    - https://linux.oracle.com/errata/ELSA-2024-3268.html
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
@@ -1830,7 +1874,9 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: LOW
     VendorSeverity:
+      alma: 1
       amazon: 2
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1838,8 +1884,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3268
     - https://access.redhat.com/security/cve/CVE-2024-26461
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://errata.almalinux.org/8/ALSA-2024-3268.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
+    - https://linux.oracle.com/cve/CVE-2024-26461.html
+    - https://linux.oracle.com/errata/ELSA-2024-3268.html
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
@@ -2005,13 +2057,16 @@
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2024-04-25T17:15:49.467Z'
   - VulnerabilityID: CVE-2024-28182
+    VendorIDs:
+    - RHSA-2024:3501
     PkgID: libnghttp2@1.43.0-5.el9_3.1.x86_64
     PkgName: libnghttp2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libnghttp2@1.43.0-5.el9_3.1?arch=x86_64&distro=redhat-9.3
       UID: a6d41021a4e8bb63
     InstalledVersion: 1.43.0-5.el9_3.1
-    Status: affected
+    FixedVersion: 1.43.0-5.el9_4.3
+    Status: fixed
     Layer:
       Digest: sha256:499f0b843452f61ff1ad96dd22d0df363eeb3db8506aa020a34dcfa1f472f1d2
       DiffID: sha256:85cd58c1a931b477c57a8bd089449515fd6e09a34a044315041850e58aba0e41
@@ -2023,7 +2078,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 3
       oracle-oval: 3
       photon: 2
@@ -2035,14 +2090,10 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
-    - https://access.redhat.com/errata/RHSA-2024:2910
+    - https://access.redhat.com/errata/RHSA-2024:3501
     - https://access.redhat.com/security/cve/CVE-2024-28182
-    - https://bugzilla.redhat.com/2265713
     - https://bugzilla.redhat.com/2268639
-    - https://bugzilla.redhat.com/2270559
-    - https://bugzilla.redhat.com/2272764
-    - https://bugzilla.redhat.com/2275392
-    - https://errata.almalinux.org/9/ALSA-2024-2910.html
+    - https://errata.almalinux.org/9/ALSA-2024-3501.html
     - https://github.com/nghttp2/nghttp2/commit/00201ecd8f982da3b67d4f6868af72a1b03b14e0
     - https://github.com/nghttp2/nghttp2/commit/d71a4668c6bead55805d18810d633fbb98315af9
     - https://github.com/nghttp2/nghttp2/security/advisories/GHSA-x6x3-gv8h-m57q
@@ -2815,34 +2866,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-2953
     PublishedDate: '2023-05-30T22:15:10.613Z'
     LastModifiedDate: '2023-08-02T16:46:03.663Z'
-  - VulnerabilityID: CVE-2024-4741
-    PkgID: openssl@3.0.7-25.el9_3.x86_64
-    PkgName: openssl
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_64&distro=redhat-9.3&epoch=1
-      UID: 435f4bb4b91c58dd
-    InstalledVersion: 1:3.0.7-25.el9_3
-    Status: under_investigation
-    Layer:
-      Digest: sha256:499f0b843452f61ff1ad96dd22d0df363eeb3db8506aa020a34dcfa1f472f1d2
-      DiffID: sha256:85cd58c1a931b477c57a8bd089449515fd6e09a34a044315041850e58aba0e41
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-4741
-    Title: 'openssl: Use After Free with SSL_free_buffers'
-    Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
-    Severity: HIGH
-    VendorSeverity:
-      redhat: 3
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-4741
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-4741
-    - https://www.cve.org/CVERecord?id=CVE-2024-4741
-    - https://www.openssl.org/news/secadv/20240528.txt
   - VulnerabilityID: CVE-2023-2975
     VendorIDs:
     - RHSA-2024:2447
@@ -3626,11 +3649,11 @@
     PublishedDate: '2024-05-16T16:15:10.643Z'
     LastModifiedDate: '2024-05-17T18:36:31.297Z'
   - VulnerabilityID: CVE-2024-4741
-    PkgID: openssl-libs@3.0.7-25.el9_3.x86_64
-    PkgName: openssl-libs
+    PkgID: openssl@3.0.7-25.el9_3.x86_64
+    PkgName: openssl
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=x86_64&distro=redhat-9.3&epoch=1
-      UID: 95a0fe8b4667129f
+      PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_64&distro=redhat-9.3&epoch=1
+      UID: 435f4bb4b91c58dd
     InstalledVersion: 1:3.0.7-25.el9_3
     Status: under_investigation
     Layer:
@@ -3640,14 +3663,14 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-4741
     Title: 'openssl: Use After Free with SSL_free_buffers'
     Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
-    Severity: HIGH
+    Severity: LOW
     VendorSeverity:
-      redhat: 3
+      redhat: 1
       ubuntu: 1
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
     References:
     - https://access.redhat.com/security/cve/CVE-2024-4741
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4741
@@ -4435,6 +4458,34 @@
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
     LastModifiedDate: '2024-05-17T18:36:31.297Z'
+  - VulnerabilityID: CVE-2024-4741
+    PkgID: openssl-libs@3.0.7-25.el9_3.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=x86_64&distro=redhat-9.3&epoch=1
+      UID: 95a0fe8b4667129f
+    InstalledVersion: 1:3.0.7-25.el9_3
+    Status: under_investigation
+    Layer:
+      Digest: sha256:499f0b843452f61ff1ad96dd22d0df363eeb3db8506aa020a34dcfa1f472f1d2
+      DiffID: sha256:85cd58c1a931b477c57a8bd089449515fd6e09a34a044315041850e58aba0e41
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-4741
+    Title: 'openssl: Use After Free with SSL_free_buffers'
+    Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-4741
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-4741
+    - https://www.cve.org/CVERecord?id=CVE-2024-4741
+    - https://www.openssl.org/news/secadv/20240528.txt
   - VulnerabilityID: CVE-2024-22365
     VendorIDs:
     - RHSA-2024:2438
@@ -4480,7 +4531,7 @@
     - https://github.com/linux-pam/linux-pam/commit/031bb5a5d0d950253b68138b498dc93be69a64cb
     - https://github.com/linux-pam/linux-pam/releases/tag/v1.6.0
     - https://linux.oracle.com/cve/CVE-2024-22365.html
-    - https://linux.oracle.com/errata/ELSA-2024-2438.html
+    - https://linux.oracle.com/errata/ELSA-2024-3163.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-22365
     - https://ubuntu.com/security/notices/USN-6588-1
     - https://ubuntu.com/security/notices/USN-6588-2
@@ -4588,9 +4639,11 @@
       The tempfile.TemporaryDirectory class would dereference symlinks during cleanup of permissions-related errors. This means users which can run privileged programs are potentially able to modify permissions of files referenced by symlinks in some circumstances.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
       cbl-mariner: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -4601,7 +4654,11 @@
         V3Score: 7.8
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/20/5
+    - https://access.redhat.com/errata/RHSA-2024:3347
     - https://access.redhat.com/security/cve/CVE-2023-6597
+    - https://bugzilla.redhat.com/2276518
+    - https://bugzilla.redhat.com/2276525
+    - https://errata.almalinux.org/8/ALSA-2024-3347.html
     - https://github.com/python/cpython/commit/02a9259c717738dfe6b463c44d7e17f2b6d2cb3a
     - https://github.com/python/cpython/commit/5585334d772b253a01a6730e8202ffb1607c3d25
     - https://github.com/python/cpython/commit/6ceb8aeda504b079fef7a57b8d81472f15cdd9a5
@@ -4609,6 +4666,8 @@
     - https://github.com/python/cpython/commit/8eaeefe49d179ca4908d052745e3bb8b6f238f82
     - https://github.com/python/cpython/commit/d54e22a669ae6e987199bb5d2c69bb5a46b0083b
     - https://github.com/python/cpython/issues/91133
+    - https://linux.oracle.com/cve/CVE-2023-6597.html
+    - https://linux.oracle.com/errata/ELSA-2024-3347.html
     - https://lists.debian.org/debian-lts-announce/2024/03/msg00025.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/Q5C6ATFC67K53XFV4KE45325S7NS62LD/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6597
@@ -4830,9 +4889,11 @@
     CweIDs:
     - CWE-405
     VendorSeverity:
+      alma: 3
       amazon: 2
       bitnami: 2
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -4843,7 +4904,11 @@
         V3Score: 6.2
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/20/5
+    - https://access.redhat.com/errata/RHSA-2024:3347
     - https://access.redhat.com/security/cve/CVE-2024-0450
+    - https://bugzilla.redhat.com/2276518
+    - https://bugzilla.redhat.com/2276525
+    - https://errata.almalinux.org/8/ALSA-2024-3347.html
     - https://github.com/python/cpython/commit/30fe5d853b56138dbec62432d370a1f99409fc85
     - https://github.com/python/cpython/commit/66363b9a7b9fe7c99eba3a185b74c5fdbf842eba
     - https://github.com/python/cpython/commit/70497218351ba44bffc8b571201ecb5652d84675
@@ -4852,6 +4917,8 @@
     - https://github.com/python/cpython/commit/d05bac0b74153beb541b88b4fca33bf053990183
     - https://github.com/python/cpython/commit/fa181fcf2156f703347b03a3b1966ce47be8ab3b
     - https://github.com/python/cpython/issues/109858
+    - https://linux.oracle.com/cve/CVE-2024-0450.html
+    - https://linux.oracle.com/errata/ELSA-2024-3347.html
     - https://lists.debian.org/debian-lts-announce/2024/03/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2024/03/msg00025.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XELNUX2L3IOHBTFU7RQHCY6OUVEWZ2FG/
@@ -4880,9 +4947,11 @@
       The tempfile.TemporaryDirectory class would dereference symlinks during cleanup of permissions-related errors. This means users which can run privileged programs are potentially able to modify permissions of files referenced by symlinks in some circumstances.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
       cbl-mariner: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -4893,7 +4962,11 @@
         V3Score: 7.8
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/20/5
+    - https://access.redhat.com/errata/RHSA-2024:3347
     - https://access.redhat.com/security/cve/CVE-2023-6597
+    - https://bugzilla.redhat.com/2276518
+    - https://bugzilla.redhat.com/2276525
+    - https://errata.almalinux.org/8/ALSA-2024-3347.html
     - https://github.com/python/cpython/commit/02a9259c717738dfe6b463c44d7e17f2b6d2cb3a
     - https://github.com/python/cpython/commit/5585334d772b253a01a6730e8202ffb1607c3d25
     - https://github.com/python/cpython/commit/6ceb8aeda504b079fef7a57b8d81472f15cdd9a5
@@ -4901,6 +4974,8 @@
     - https://github.com/python/cpython/commit/8eaeefe49d179ca4908d052745e3bb8b6f238f82
     - https://github.com/python/cpython/commit/d54e22a669ae6e987199bb5d2c69bb5a46b0083b
     - https://github.com/python/cpython/issues/91133
+    - https://linux.oracle.com/cve/CVE-2023-6597.html
+    - https://linux.oracle.com/errata/ELSA-2024-3347.html
     - https://lists.debian.org/debian-lts-announce/2024/03/msg00025.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/Q5C6ATFC67K53XFV4KE45325S7NS62LD/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6597
@@ -5122,9 +5197,11 @@
     CweIDs:
     - CWE-405
     VendorSeverity:
+      alma: 3
       amazon: 2
       bitnami: 2
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -5135,7 +5212,11 @@
         V3Score: 6.2
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/20/5
+    - https://access.redhat.com/errata/RHSA-2024:3347
     - https://access.redhat.com/security/cve/CVE-2024-0450
+    - https://bugzilla.redhat.com/2276518
+    - https://bugzilla.redhat.com/2276525
+    - https://errata.almalinux.org/8/ALSA-2024-3347.html
     - https://github.com/python/cpython/commit/30fe5d853b56138dbec62432d370a1f99409fc85
     - https://github.com/python/cpython/commit/66363b9a7b9fe7c99eba3a185b74c5fdbf842eba
     - https://github.com/python/cpython/commit/70497218351ba44bffc8b571201ecb5652d84675
@@ -5144,6 +5225,8 @@
     - https://github.com/python/cpython/commit/d05bac0b74153beb541b88b4fca33bf053990183
     - https://github.com/python/cpython/commit/fa181fcf2156f703347b03a3b1966ce47be8ab3b
     - https://github.com/python/cpython/issues/109858
+    - https://linux.oracle.com/cve/CVE-2024-0450.html
+    - https://linux.oracle.com/errata/ELSA-2024-3347.html
     - https://lists.debian.org/debian-lts-announce/2024/03/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2024/03/msg00025.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XELNUX2L3IOHBTFU7RQHCY6OUVEWZ2FG/
@@ -5172,9 +5255,11 @@
       The tempfile.TemporaryDirectory class would dereference symlinks during cleanup of permissions-related errors. This means users which can run privileged programs are potentially able to modify permissions of files referenced by symlinks in some circumstances.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
       cbl-mariner: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -5185,7 +5270,11 @@
         V3Score: 7.8
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/20/5
+    - https://access.redhat.com/errata/RHSA-2024:3347
     - https://access.redhat.com/security/cve/CVE-2023-6597
+    - https://bugzilla.redhat.com/2276518
+    - https://bugzilla.redhat.com/2276525
+    - https://errata.almalinux.org/8/ALSA-2024-3347.html
     - https://github.com/python/cpython/commit/02a9259c717738dfe6b463c44d7e17f2b6d2cb3a
     - https://github.com/python/cpython/commit/5585334d772b253a01a6730e8202ffb1607c3d25
     - https://github.com/python/cpython/commit/6ceb8aeda504b079fef7a57b8d81472f15cdd9a5
@@ -5193,6 +5282,8 @@
     - https://github.com/python/cpython/commit/8eaeefe49d179ca4908d052745e3bb8b6f238f82
     - https://github.com/python/cpython/commit/d54e22a669ae6e987199bb5d2c69bb5a46b0083b
     - https://github.com/python/cpython/issues/91133
+    - https://linux.oracle.com/cve/CVE-2023-6597.html
+    - https://linux.oracle.com/errata/ELSA-2024-3347.html
     - https://lists.debian.org/debian-lts-announce/2024/03/msg00025.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/Q5C6ATFC67K53XFV4KE45325S7NS62LD/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6597
@@ -5414,9 +5505,11 @@
     CweIDs:
     - CWE-405
     VendorSeverity:
+      alma: 3
       amazon: 2
       bitnami: 2
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -5427,7 +5520,11 @@
         V3Score: 6.2
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/20/5
+    - https://access.redhat.com/errata/RHSA-2024:3347
     - https://access.redhat.com/security/cve/CVE-2024-0450
+    - https://bugzilla.redhat.com/2276518
+    - https://bugzilla.redhat.com/2276525
+    - https://errata.almalinux.org/8/ALSA-2024-3347.html
     - https://github.com/python/cpython/commit/30fe5d853b56138dbec62432d370a1f99409fc85
     - https://github.com/python/cpython/commit/66363b9a7b9fe7c99eba3a185b74c5fdbf842eba
     - https://github.com/python/cpython/commit/70497218351ba44bffc8b571201ecb5652d84675
@@ -5436,6 +5533,8 @@
     - https://github.com/python/cpython/commit/d05bac0b74153beb541b88b4fca33bf053990183
     - https://github.com/python/cpython/commit/fa181fcf2156f703347b03a3b1966ce47be8ab3b
     - https://github.com/python/cpython/issues/109858
+    - https://linux.oracle.com/cve/CVE-2024-0450.html
+    - https://linux.oracle.com/errata/ELSA-2024-3347.html
     - https://lists.debian.org/debian-lts-announce/2024/03/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2024/03/msg00025.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XELNUX2L3IOHBTFU7RQHCY6OUVEWZ2FG/
@@ -5709,7 +5808,7 @@
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
-    - https://linux.oracle.com/errata/ELSA-2024-2463.html
+    - https://linux.oracle.com/errata/ELSA-2024-3203.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
