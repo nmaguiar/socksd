@@ -455,3 +455,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-42366
     PublishedDate: '2023-11-27T23:15:07.42Z'
     LastModifiedDate: '2023-11-30T05:08:23.197Z'
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
