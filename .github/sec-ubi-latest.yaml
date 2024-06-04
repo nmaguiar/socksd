@@ -1811,6 +1811,7 @@
       oracle-oval: 2
       redhat: 2
       rocky: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -1818,6 +1819,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2024:1825
     - https://access.redhat.com/security/cve/CVE-2024-21094
+    - https://bugs.openjdk.org/browse/JDK-8317507
     - https://bugzilla.redhat.com/2274975
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275003
@@ -5951,3 +5953,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-39804
     PublishedDate: '2024-03-27T04:15:08.897Z'
     LastModifiedDate: '2024-03-27T12:29:30.307Z'
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
