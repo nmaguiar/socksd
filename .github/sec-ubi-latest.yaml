@@ -1998,6 +1998,68 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-30571
     PublishedDate: '2023-05-29T20:15:09.513Z'
     LastModifiedDate: '2023-06-05T16:40:57.93Z'
+  - VulnerabilityID: CVE-2024-20696
+    PkgID: libarchive@3.5.3-4.el9.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.3
+      UID: cfa8103201bda50b
+    InstalledVersion: 3.5.3-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:499f0b843452f61ff1ad96dd22d0df363eeb3db8506aa020a34dcfa1f472f1d2
+      DiffID: sha256:85cd58c1a931b477c57a8bd089449515fd6e09a34a044315041850e58aba0e41
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20696
+    Title: 'libarchive: heap based out-of-bounds write'
+    Description: Windows Libarchive Remote Code Execution Vulnerability
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20696
+    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20696
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20696
+    - https://www.cve.org/CVERecord?id=CVE-2024-20696
+    PublishedDate: '2024-01-09T18:15:52.927Z'
+    LastModifiedDate: '2024-05-29T00:15:16.003Z'
+  - VulnerabilityID: CVE-2024-20697
+    PkgID: libarchive@3.5.3-4.el9.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.3
+      UID: cfa8103201bda50b
+    InstalledVersion: 3.5.3-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:499f0b843452f61ff1ad96dd22d0df363eeb3db8506aa020a34dcfa1f472f1d2
+      DiffID: sha256:85cd58c1a931b477c57a8bd089449515fd6e09a34a044315041850e58aba0e41
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20697
+    Title: 'libarchive: Out of bounds'
+    Description: Windows Libarchive Remote Code Execution Vulnerability
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20697
+    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20697
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20697
+    - https://www.cve.org/CVERecord?id=CVE-2024-20697
+    PublishedDate: '2024-01-09T18:15:53.13Z'
+    LastModifiedDate: '2024-05-29T00:15:16.127Z'
   - VulnerabilityID: CVE-2024-2398
     PkgID: libcurl-minimal@7.76.1-26.el9_3.3.x86_64
     PkgName: libcurl-minimal
