@@ -784,7 +784,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://errata.rockylinux.org/RLSA-2024:2722
     - https://linux.oracle.com/cve/CVE-2024-2961.html
-    - https://linux.oracle.com/errata/ELSA-2024-3339.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -848,7 +848,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33599.html
-    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
     - https://ubuntu.com/security/notices/USN-6804-1
@@ -907,7 +907,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33600.html
-    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
     - https://ubuntu.com/security/notices/USN-6804-1
@@ -966,7 +966,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33601.html
-    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
     - https://ubuntu.com/security/notices/USN-6804-1
@@ -1024,7 +1024,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33602.html
-    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31680
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008
@@ -1083,7 +1083,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://errata.rockylinux.org/RLSA-2024:2722
     - https://linux.oracle.com/cve/CVE-2024-2961.html
-    - https://linux.oracle.com/errata/ELSA-2024-3339.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -1147,7 +1147,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33599.html
-    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
     - https://ubuntu.com/security/notices/USN-6804-1
@@ -1206,7 +1206,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33600.html
-    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
     - https://ubuntu.com/security/notices/USN-6804-1
@@ -1265,7 +1265,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33601.html
-    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
     - https://ubuntu.com/security/notices/USN-6804-1
@@ -1323,7 +1323,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33602.html
-    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31680
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008
@@ -1382,7 +1382,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://errata.rockylinux.org/RLSA-2024:2722
     - https://linux.oracle.com/cve/CVE-2024-2961.html
-    - https://linux.oracle.com/errata/ELSA-2024-3339.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -1446,7 +1446,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33599.html
-    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
     - https://ubuntu.com/security/notices/USN-6804-1
@@ -1505,7 +1505,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33600.html
-    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
     - https://ubuntu.com/security/notices/USN-6804-1
@@ -1564,7 +1564,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33601.html
-    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
     - https://ubuntu.com/security/notices/USN-6804-1
@@ -1622,7 +1622,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-3339.html
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33602.html
-    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31680
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008
@@ -1716,10 +1716,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-28834
     - https://bugzilla.redhat.com/2269084
     - https://bugzilla.redhat.com/2269228
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2269084
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269228
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28834
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28835
     - https://errata.almalinux.org/9/ALSA-2024-2570.html
-    - https://errata.rockylinux.org/RLSA-2024:1784
+    - https://errata.rockylinux.org/RLSA-2024:2570
     - https://linux.oracle.com/cve/CVE-2024-28834.html
     - https://linux.oracle.com/errata/ELSA-2024-2570.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
@@ -1998,37 +2000,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-30571
     PublishedDate: '2023-05-29T20:15:09.513Z'
     LastModifiedDate: '2023-06-05T16:40:57.93Z'
-  - VulnerabilityID: CVE-2024-20696
-    PkgID: libarchive@3.5.3-4.el9.x86_64
-    PkgName: libarchive
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.3
-      UID: cfa8103201bda50b
-    InstalledVersion: 3.5.3-4.el9
-    Status: affected
-    Layer:
-      Digest: sha256:2dfab4dc6cf3f5e639567ef7b3aa1e6b5f5c6cda03cbcffe6b0f413dc0097281
-      DiffID: sha256:64932df5d9a2b5b6b27647030e935e70f35353f9a0659b0b70f33dd5521c537c
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20696
-    Title: 'libarchive: heap based out-of-bounds write'
-    Description: Windows Libarchive Remote Code Execution Vulnerability
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    VendorSeverity:
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-20696
-    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20696
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-20696
-    - https://www.cve.org/CVERecord?id=CVE-2024-20696
-    PublishedDate: '2024-01-09T18:15:52.927Z'
-    LastModifiedDate: '2024-05-29T00:15:16.003Z'
   - VulnerabilityID: CVE-2024-20697
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -2328,7 +2299,7 @@
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/604
     - https://gitlab.gnome.org/GNOME/libxml2/-/tags
     - https://linux.oracle.com/cve/CVE-2024-25062.html
-    - https://linux.oracle.com/errata/ELSA-2024-2679.html
+    - https://linux.oracle.com/errata/ELSA-2024-3626.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-25062
     - https://ubuntu.com/security/notices/USN-6658-1
     - https://ubuntu.com/security/notices/USN-6658-2
@@ -3124,7 +3095,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -3238,7 +3209,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3343,7 +3314,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3599,7 +3570,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -3934,7 +3905,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -4048,7 +4019,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -4153,7 +4124,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -4409,7 +4380,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
