@@ -1930,22 +1930,25 @@
 │                       │       │                  │       -28834 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2269084 
 │                       │       │                  ├ [10]: https://bugzilla.redhat.com/2269228 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
-│                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2269084 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
+│                       │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2024-28834 
-│                       │       │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2024-2570.html 
-│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2024:1784 
-│                       │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-28834.html 
-│                       │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-2570.html 
-│                       │       │                  ├ [17]: https://lists.gnupg.org/pipermail/gnutls-help/2
+│                       │       │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2024-28835 
+│                       │       │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2570.html 
+│                       │       │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2570 
+│                       │       │                  ├ [17]: https://linux.oracle.com/cve/CVE-2024-28834.html 
+│                       │       │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2024-2570.html 
+│                       │       │                  ├ [19]: https://lists.gnupg.org/pipermail/gnutls-help/2
 │                       │       │                  │       024-March/004845.html 
-│                       │       │                  ├ [18]: https://minerva.crocs.fi.muni.cz/ 
-│                       │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
-│                       │       │                  ├ [20]: https://people.redhat.com/~hkario/marvin/ 
-│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6733-1 
-│                       │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-6733-2 
-│                       │       │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
-│                       │       │                  ╰ [24]: https://www.gnutls.org/security-new.html#GNUTLS
+│                       │       │                  ├ [20]: https://minerva.crocs.fi.muni.cz/ 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
+│                       │       │                  ├ [22]: https://people.redhat.com/~hkario/marvin/ 
+│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6733-1 
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6733-2 
+│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
+│                       │       │                  ╰ [26]: https://www.gnutls.org/security-new.html#GNUTLS
 │                       │       │                          -SA-2023-12-04 
 │                       │       ├ PublishedDate   : 2024-03-21T14:15:07.547Z 
 │                       │       ╰ LastModifiedDate: 2024-05-16T23:15:47.753Z 
@@ -3472,7 +3475,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-1333 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 1 
 │                       │       │                  ├ photon     : 2 
@@ -3619,7 +3622,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-834 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 1 
@@ -3757,7 +3760,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-754 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 1 
@@ -4078,7 +4081,7 @@
 │                       │       │                   this issue. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ ghsa       : 2 
 │                       │       │                  ├ nvd        : 2 
@@ -4495,7 +4498,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-1333 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 1 
 │                       │       │                  ├ photon     : 2 
@@ -4642,7 +4645,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-834 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 1 
@@ -4780,7 +4783,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-754 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 1 
@@ -5101,7 +5104,7 @@
 │                       │       │                   this issue. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ ghsa       : 2 
 │                       │       │                  ├ nvd        : 2 
