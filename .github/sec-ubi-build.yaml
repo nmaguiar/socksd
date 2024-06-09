@@ -1719,10 +1719,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-28834
     - https://bugzilla.redhat.com/2269084
     - https://bugzilla.redhat.com/2269228
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2269084
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269228
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28834
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28835
     - https://errata.almalinux.org/9/ALSA-2024-2570.html
-    - https://errata.rockylinux.org/RLSA-2024:1784
+    - https://errata.rockylinux.org/RLSA-2024:2570
     - https://linux.oracle.com/cve/CVE-2024-28834.html
     - https://linux.oracle.com/errata/ELSA-2024-2570.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
@@ -3072,7 +3074,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -3186,7 +3188,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3291,7 +3293,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3547,7 +3549,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -3882,7 +3884,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -3996,7 +3998,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -4101,7 +4103,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -4357,7 +4359,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
