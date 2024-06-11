@@ -229,20 +229,21 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
 │                       │     │                           │           /I:N/A:L 
 │                       │     │                           ╰ V3Score : 5.3 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4603 
-│                       │     │                  ├ [1]: https://github.com/openssl/openssl/commit/3559e868
+│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/05/16/2 
+│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-4603 
+│                       │     │                  ├ [2]: https://github.com/openssl/openssl/commit/3559e868
 │                       │     │                  │      e58005d15c6013a0c1fd832e51c73397 
-│                       │     │                  ├ [2]: https://github.com/openssl/openssl/commit/53ea0648
+│                       │     │                  ├ [3]: https://github.com/openssl/openssl/commit/53ea0648
 │                       │     │                  │      6d296b890d565fb971b2764fcd826e7e 
-│                       │     │                  ├ [3]: https://github.com/openssl/openssl/commit/9c39b385
+│                       │     │                  ├ [4]: https://github.com/openssl/openssl/commit/9c39b385
 │                       │     │                  │      8091c152f52513c066ff2c5a47969f0d 
-│                       │     │                  ├ [4]: https://github.com/openssl/openssl/commit/da343d06
+│                       │     │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d06
 │                       │     │                  │      05c826ef197aceedc67e8e04f065f740 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                       │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                       │     │                  ╰ [7]: https://www.openssl.org/news/secadv/20240516.txt 
+│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
+│                       │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                       │     │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │     ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                       │     ╰ LastModifiedDate: 2024-05-17T18:36:31.297Z 
+│                       │     ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
 │                       ├ [5] ╭ VulnerabilityID : CVE-2024-4603 
 │                       │     ├ PkgID           : libssl3@3.1.4-r6 
 │                       │     ├ PkgName         : libssl3 
@@ -316,20 +317,21 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
 │                       │     │                           │           /I:N/A:L 
 │                       │     │                           ╰ V3Score : 5.3 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4603 
-│                       │     │                  ├ [1]: https://github.com/openssl/openssl/commit/3559e868
+│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/05/16/2 
+│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-4603 
+│                       │     │                  ├ [2]: https://github.com/openssl/openssl/commit/3559e868
 │                       │     │                  │      e58005d15c6013a0c1fd832e51c73397 
-│                       │     │                  ├ [2]: https://github.com/openssl/openssl/commit/53ea0648
+│                       │     │                  ├ [3]: https://github.com/openssl/openssl/commit/53ea0648
 │                       │     │                  │      6d296b890d565fb971b2764fcd826e7e 
-│                       │     │                  ├ [3]: https://github.com/openssl/openssl/commit/9c39b385
+│                       │     │                  ├ [4]: https://github.com/openssl/openssl/commit/9c39b385
 │                       │     │                  │      8091c152f52513c066ff2c5a47969f0d 
-│                       │     │                  ├ [4]: https://github.com/openssl/openssl/commit/da343d06
+│                       │     │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d06
 │                       │     │                  │      05c826ef197aceedc67e8e04f065f740 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                       │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                       │     │                  ╰ [7]: https://www.openssl.org/news/secadv/20240516.txt 
+│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
+│                       │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                       │     │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │     ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                       │     ╰ LastModifiedDate: 2024-05-17T18:36:31.297Z 
+│                       │     ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
 │                       ├ [6] ╭ VulnerabilityID : CVE-2024-4603 
 │                       │     ├ PkgID           : openssl@3.1.4-r6 
 │                       │     ├ PkgName         : openssl 
@@ -403,20 +405,21 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
 │                       │     │                           │           /I:N/A:L 
 │                       │     │                           ╰ V3Score : 5.3 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4603 
-│                       │     │                  ├ [1]: https://github.com/openssl/openssl/commit/3559e868
+│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/05/16/2 
+│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-4603 
+│                       │     │                  ├ [2]: https://github.com/openssl/openssl/commit/3559e868
 │                       │     │                  │      e58005d15c6013a0c1fd832e51c73397 
-│                       │     │                  ├ [2]: https://github.com/openssl/openssl/commit/53ea0648
+│                       │     │                  ├ [3]: https://github.com/openssl/openssl/commit/53ea0648
 │                       │     │                  │      6d296b890d565fb971b2764fcd826e7e 
-│                       │     │                  ├ [3]: https://github.com/openssl/openssl/commit/9c39b385
+│                       │     │                  ├ [4]: https://github.com/openssl/openssl/commit/9c39b385
 │                       │     │                  │      8091c152f52513c066ff2c5a47969f0d 
-│                       │     │                  ├ [4]: https://github.com/openssl/openssl/commit/da343d06
+│                       │     │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d06
 │                       │     │                  │      05c826ef197aceedc67e8e04f065f740 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                       │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                       │     │                  ╰ [7]: https://www.openssl.org/news/secadv/20240516.txt 
+│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
+│                       │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                       │     │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │     ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                       │     ╰ LastModifiedDate: 2024-05-17T18:36:31.297Z 
+│                       │     ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
 │                       ├ [7] ╭ VulnerabilityID : CVE-2023-42363 
 │                       │     ├ PkgID           : ssl_client@1.36.1-r15 
 │                       │     ├ PkgName         : ssl_client 
