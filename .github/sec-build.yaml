@@ -225,6 +225,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/16/2
     - https://access.redhat.com/security/cve/CVE-2024-4603
     - https://github.com/openssl/openssl/commit/3559e868e58005d15c6013a0c1fd832e51c73397
     - https://github.com/openssl/openssl/commit/53ea06486d296b890d565fb971b2764fcd826e7e
@@ -234,7 +235,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
-    LastModifiedDate: '2024-05-17T18:36:31.297Z'
+    LastModifiedDate: '2024-06-10T17:16:33.69Z'
   - VulnerabilityID: CVE-2024-4603
     PkgID: libssl3@3.1.4-r6
     PkgName: libssl3
@@ -294,6 +295,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/16/2
     - https://access.redhat.com/security/cve/CVE-2024-4603
     - https://github.com/openssl/openssl/commit/3559e868e58005d15c6013a0c1fd832e51c73397
     - https://github.com/openssl/openssl/commit/53ea06486d296b890d565fb971b2764fcd826e7e
@@ -303,7 +305,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
-    LastModifiedDate: '2024-05-17T18:36:31.297Z'
+    LastModifiedDate: '2024-06-10T17:16:33.69Z'
   - VulnerabilityID: CVE-2024-4603
     PkgID: openssl@3.1.4-r6
     PkgName: openssl
@@ -363,6 +365,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/16/2
     - https://access.redhat.com/security/cve/CVE-2024-4603
     - https://github.com/openssl/openssl/commit/3559e868e58005d15c6013a0c1fd832e51c73397
     - https://github.com/openssl/openssl/commit/53ea06486d296b890d565fb971b2764fcd826e7e
@@ -372,7 +375,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
-    LastModifiedDate: '2024-05-17T18:36:31.297Z'
+    LastModifiedDate: '2024-06-10T17:16:33.69Z'
   - VulnerabilityID: CVE-2023-42363
     PkgID: ssl_client@1.36.1-r15
     PkgName: ssl_client
