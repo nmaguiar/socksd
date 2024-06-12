@@ -515,6 +515,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-4504
     PublishedDate: '2023-09-21T23:15:12.293Z'
     LastModifiedDate: '2023-11-09T20:58:00.163Z'
+  - VulnerabilityID: CVE-2024-35235
+    PkgID: cups-libs@2.3.3op2-21.el9.x86_64
+    PkgName: cups-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-21.el9?arch=x86_64&distro=redhat-9.3&epoch=1
+      UID: 3fb2ebf43d6d5e4b
+    InstalledVersion: 1:2.3.3op2-21.el9
+    Status: affected
+    Layer:
+      Digest: sha256:05b9131c53c2bb758bbdb6816b8cb0944af8c5f6be12b2c2363ac2984d7d4a54
+      DiffID: sha256:5bfe658734cb0f1a50430f3216026482d031bcd55be750c65f54daf5880b7f67
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-35235
+    Title: 'cups: Cupsd Listen arbitrary chmod 0140777'
+    Description: |
+      OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.8 and earlier, when starting the cupsd server with a Listen configuration item pointing to a symbolic link, the cupsd process can be caused to perform an arbitrary chmod of the provided argument, providing world-writable access to the target. Given that cupsd is often running as root, this can result in the change of permission of any user or system files to be world writable. Given the aforementioned Ubuntu AppArmor context, on such systems this vulnerability is limited to those files modifiable by the cupsd process. In that specific case it was found to be possible to turn the configuration of the Listen argument into full control over the cupsd.conf and cups-files.conf configuration files. By later setting the User and Group arguments in cups-files.conf, and printing with a printer configured by PPD with a `FoomaticRIPCommandLine` argument, arbitrary user and group (not root) command execution could be achieved, which can further be used on Ubuntu systems to achieve full root command execution. Commit ff1f8a623e090dee8a8aadf12a6a4b25efac143d contains a patch for the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-252
+    - CWE-59
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/06/11/1
+    - https://access.redhat.com/security/cve/CVE-2024-35235
+    - https://git.launchpad.net/ubuntu/+source/apparmor/tree/profiles/apparmor.d/abstractions/user-tmp#n21
+    - https://github.com/OpenPrinting/cups/blob/aba917003c8de55e5bf85010f0ecf1f1ddd1408e/cups/http-addr.c#L229-L240
+    - https://github.com/OpenPrinting/cups/commit/ff1f8a623e090dee8a8aadf12a6a4b25efac143d
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-vvwp-mv6j-hw6f
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-35235
+    - https://seclists.org/oss-sec/2024/q2/277
+    - https://www.cve.org/CVERecord?id=CVE-2024-35235
+    PublishedDate: '2024-06-11T15:16:07.473Z'
+    LastModifiedDate: '2024-06-11T15:16:07.473Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-21.el9.x86_64
     PkgName: cups-libs
@@ -2399,6 +2437,36 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-34459
     PublishedDate: '2024-05-14T15:39:11.917Z'
     LastModifiedDate: '2024-06-10T18:15:34.93Z'
+  - VulnerabilityID: CVE-2024-35329
+    PkgID: libyaml@0.2.5-7.el9.x86_64
+    PkgName: libyaml
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&distro=redhat-9.3
+      UID: e85136d18d3afe9f
+    InstalledVersion: 0.2.5-7.el9
+    Status: affected
+    Layer:
+      Digest: sha256:05b9131c53c2bb758bbdb6816b8cb0944af8c5f6be12b2c2363ac2984d7d4a54
+      DiffID: sha256:5bfe658734cb0f1a50430f3216026482d031bcd55be750c65f54daf5880b7f67
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-35329
+    Title: 'libyaml: vulnerable to a heap-based Buffer Overflow in yaml_document_add_sequence in api.c'
+    Description: libyaml 0.2.5 is vulnerable to a heap-based Buffer Overflow in yaml_document_add_sequence in api.c.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-35329
+    - https://drive.google.com/file/d/1xgQ9hJ7Sn5RVEsdMGvIy0s3b_bg3Wyk-/view?usp=sharing
+    - https://github.com/yaml/libyaml/releases/tag/0.2.5
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-35329
+    - https://www.cve.org/CVERecord?id=CVE-2024-35329
+    PublishedDate: '2024-06-11T05:15:53.533Z'
+    LastModifiedDate: '2024-06-11T13:54:12.057Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd@1.5.1-2.el9.x86_64
     PkgName: libzstd
@@ -3117,7 +3185,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -3232,7 +3300,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3337,7 +3405,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3594,7 +3662,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -3930,7 +3998,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -4045,7 +4113,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -4150,7 +4218,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -4407,7 +4475,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
