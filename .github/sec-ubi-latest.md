@@ -2852,9 +2852,15 @@
 │                       │       ├ Title           : libyaml: vulnerable to a heap-based Buffer Overflow in
 │                       │       │                    yaml_document_add_sequence in api.c 
 │                       │       ├ Description     : libyaml 0.2.5 is vulnerable to a heap-based Buffer
-│                       │       │                   Overflow in yaml_document_add_sequence in api.c. 
+│                       │       │                   Overflow in yaml_document_add_sequence in api.c. NOTE: the
+│                       │       │                   supplier disputes this because the finding represents a
+│                       │       │                   user error. The problem is that the application, which was
+│                       │       │                   making use of the libyaml library, omitted the required
+│                       │       │                   calls to the yaml_document_initialize and
+│                       │       │                   yaml_document_delete functions. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
 │                       │       │                           │           :N/I:L/A:L 
 │                       │       │                           ╰ V3Score : 5.4 
@@ -2865,7 +2871,7 @@
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-35329 
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-35329 
 │                       │       ├ PublishedDate   : 2024-06-11T05:15:53.533Z 
-│                       │       ╰ LastModifiedDate: 2024-06-11T13:54:12.057Z 
+│                       │       ╰ LastModifiedDate: 2024-06-12T22:15:18.4Z 
 │                       ├ [47]  ╭ VulnerabilityID : CVE-2022-4899 
 │                       │       ├ PkgID           : libzstd@1.5.1-2.el9.x86_64 
 │                       │       ├ PkgName         : libzstd 
