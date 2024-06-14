@@ -543,6 +543,8 @@
         V3Score: 4.4
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/11/1
+    - http://www.openwall.com/lists/oss-security/2024/06/12/4
+    - http://www.openwall.com/lists/oss-security/2024/06/12/5
     - https://access.redhat.com/security/cve/CVE-2024-35235
     - https://git.launchpad.net/ubuntu/+source/apparmor/tree/profiles/apparmor.d/abstractions/user-tmp#n21
     - https://github.com/OpenPrinting/cups/blob/aba917003c8de55e5bf85010f0ecf1f1ddd1408e/cups/http-addr.c#L229-L240
@@ -552,7 +554,7 @@
     - https://seclists.org/oss-sec/2024/q2/277
     - https://www.cve.org/CVERecord?id=CVE-2024-35235
     PublishedDate: '2024-06-11T15:16:07.473Z'
-    LastModifiedDate: '2024-06-11T15:16:07.473Z'
+    LastModifiedDate: '2024-06-13T18:36:45.417Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-21.el9.x86_64
     PkgName: cups-libs
@@ -756,6 +758,7 @@
     Description: An issue was discovered in GNOME GLib before 2.78.5, and 2.79.x and 2.80.x before 2.80.1. When a GDBus-based client subscribes to signals from a trusted system service such as NetworkManager on a shared computer, other users of the same computer can send spoofed D-Bus signals that the GDBus-based client will wrongly interpret as having been sent by the trusted system service. This could lead to the GDBus-based client behaving incorrectly, with an application-dependent impact.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 1
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5952,6 +5955,7 @@
     - CWE-674
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 2
