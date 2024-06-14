@@ -626,24 +626,29 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C
 │                       │       │                           │           :H/I:N/A:N 
 │                       │       │                           ╰ V3Score : 4.4 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                       │       │                  │      06/11/1 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-35235 
-│                       │       │                  ├ [2]: https://git.launchpad.net/ubuntu/+source/apparmo
-│                       │       │                  │      r/tree/profiles/apparmor.d/abstractions/user-tmp#n21
-│                       │       │                  │      [m 
-│                       │       │                  ├ [3]: https://github.com/OpenPrinting/cups/blob/aba917
-│                       │       │                  │      003c8de55e5bf85010f0ecf1f1ddd1408e/cups/http-addr.c#L
-│                       │       │                  │      229-L240 
-│                       │       │                  ├ [4]: https://github.com/OpenPrinting/cups/commit/ff1f
-│                       │       │                  │      8a623e090dee8a8aadf12a6a4b25efac143d 
-│                       │       │                  ├ [5]: https://github.com/OpenPrinting/cups/security/ad
-│                       │       │                  │      visories/GHSA-vvwp-mv6j-hw6f 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-35235 
-│                       │       │                  ├ [7]: https://seclists.org/oss-sec/2024/q2/277 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-35235 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                       │       │                  │       /06/11/1 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
+│                       │       │                  │       /06/12/4 
+│                       │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2024
+│                       │       │                  │       /06/12/5 
+│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024
+│                       │       │                  │       -35235 
+│                       │       │                  ├ [4] : https://git.launchpad.net/ubuntu/+source/apparm
+│                       │       │                  │       or/tree/profiles/apparmor.d/abstractions/user-tmp#n2
+│                       │       │                  │       1 
+│                       │       │                  ├ [5] : https://github.com/OpenPrinting/cups/blob/aba91
+│                       │       │                  │       7003c8de55e5bf85010f0ecf1f1ddd1408e/cups/http-addr.c
+│                       │       │                  │       #L229-L240 
+│                       │       │                  ├ [6] : https://github.com/OpenPrinting/cups/commit/ff1
+│                       │       │                  │       f8a623e090dee8a8aadf12a6a4b25efac143d 
+│                       │       │                  ├ [7] : https://github.com/OpenPrinting/cups/security/a
+│                       │       │                  │       dvisories/GHSA-vvwp-mv6j-hw6f 
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-35235 
+│                       │       │                  ├ [9] : https://seclists.org/oss-sec/2024/q2/277 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-35235 
 │                       │       ├ PublishedDate   : 2024-06-11T15:16:07.473Z 
-│                       │       ╰ LastModifiedDate: 2024-06-11T15:16:07.473Z 
+│                       │       ╰ LastModifiedDate: 2024-06-13T18:36:45.417Z 
 │                       ├ [10]  ╭ VulnerabilityID : CVE-2021-25317 
 │                       │       ├ PkgID           : cups-libs@2.3.3op2-21.el9.x86_64 
 │                       │       ├ PkgName         : cups-libs 
@@ -886,7 +891,8 @@
 │                       │       │                   GDBus-based client behaving incorrectly, with an
 │                       │       │                   application-dependent impact. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ photon: 1 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
 │                       │       │                           │           :N/I:L/A:N 
@@ -7281,11 +7287,12 @@
 │                       │       │                   /tmp. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
-│                       │       ├ VendorSeverity   ╭ amazon: 2 
-│                       │       │                  ├ nvd   : 2 
-│                       │       │                  ├ photon: 2 
-│                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ amazon     : 2 
+│                       │       │                  ├ cbl-mariner: 2 
+│                       │       │                  ├ nvd        : 2 
+│                       │       │                  ├ photon     : 2 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
 │                       │       │                  │        │           :N/I:N/A:H 
 │                       │       │                  │        ╰ V3Score : 5.5 
