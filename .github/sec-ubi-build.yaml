@@ -552,6 +552,7 @@
       oracle-oval: 1
       photon: 2
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -562,7 +563,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-26458
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://linux.oracle.com/cve/CVE-2024-26458.html
     - https://linux.oracle.com/errata/ELSA-2024-3268.html
@@ -594,6 +600,7 @@
       oracle-oval: 1
       photon: 2
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -604,7 +611,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-26461
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://linux.oracle.com/cve/CVE-2024-26461.html
     - https://linux.oracle.com/errata/ELSA-2024-3268.html
@@ -1557,7 +1569,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -1669,7 +1681,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -1771,7 +1783,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2181,7 +2193,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -2293,7 +2305,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2395,7 +2407,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2862,6 +2874,7 @@
       cbl-mariner: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
@@ -2876,7 +2889,12 @@
     - https://bugzilla.redhat.com/2274779
     - https://bugzilla.redhat.com/2276518
     - https://bugzilla.redhat.com/2276525
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2276518
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2276525
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6597
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0450
     - https://errata.almalinux.org/8/ALSA-2024-3466.html
+    - https://errata.rockylinux.org/RLSA-2024:3347
     - https://github.com/python/cpython/commit/02a9259c717738dfe6b463c44d7e17f2b6d2cb3a
     - https://github.com/python/cpython/commit/5585334d772b253a01a6730e8202ffb1607c3d25
     - https://github.com/python/cpython/commit/6ceb8aeda504b079fef7a57b8d81472f15cdd9a5
@@ -3115,6 +3133,7 @@
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -3129,7 +3148,12 @@
     - https://bugzilla.redhat.com/2274779
     - https://bugzilla.redhat.com/2276518
     - https://bugzilla.redhat.com/2276525
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2276518
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2276525
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6597
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0450
     - https://errata.almalinux.org/8/ALSA-2024-3466.html
+    - https://errata.rockylinux.org/RLSA-2024:3347
     - https://github.com/python/cpython/commit/30fe5d853b56138dbec62432d370a1f99409fc85
     - https://github.com/python/cpython/commit/66363b9a7b9fe7c99eba3a185b74c5fdbf842eba
     - https://github.com/python/cpython/commit/70497218351ba44bffc8b571201ecb5652d84675
@@ -3176,6 +3200,7 @@
       cbl-mariner: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
@@ -3190,7 +3215,12 @@
     - https://bugzilla.redhat.com/2274779
     - https://bugzilla.redhat.com/2276518
     - https://bugzilla.redhat.com/2276525
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2276518
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2276525
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6597
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0450
     - https://errata.almalinux.org/8/ALSA-2024-3466.html
+    - https://errata.rockylinux.org/RLSA-2024:3347
     - https://github.com/python/cpython/commit/02a9259c717738dfe6b463c44d7e17f2b6d2cb3a
     - https://github.com/python/cpython/commit/5585334d772b253a01a6730e8202ffb1607c3d25
     - https://github.com/python/cpython/commit/6ceb8aeda504b079fef7a57b8d81472f15cdd9a5
@@ -3429,6 +3459,7 @@
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -3443,7 +3474,12 @@
     - https://bugzilla.redhat.com/2274779
     - https://bugzilla.redhat.com/2276518
     - https://bugzilla.redhat.com/2276525
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2276518
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2276525
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6597
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0450
     - https://errata.almalinux.org/8/ALSA-2024-3466.html
+    - https://errata.rockylinux.org/RLSA-2024:3347
     - https://github.com/python/cpython/commit/30fe5d853b56138dbec62432d370a1f99409fc85
     - https://github.com/python/cpython/commit/66363b9a7b9fe7c99eba3a185b74c5fdbf842eba
     - https://github.com/python/cpython/commit/70497218351ba44bffc8b571201ecb5652d84675
@@ -3490,6 +3526,7 @@
       cbl-mariner: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
@@ -3504,7 +3541,12 @@
     - https://bugzilla.redhat.com/2274779
     - https://bugzilla.redhat.com/2276518
     - https://bugzilla.redhat.com/2276525
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2276518
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2276525
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6597
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0450
     - https://errata.almalinux.org/8/ALSA-2024-3466.html
+    - https://errata.rockylinux.org/RLSA-2024:3347
     - https://github.com/python/cpython/commit/02a9259c717738dfe6b463c44d7e17f2b6d2cb3a
     - https://github.com/python/cpython/commit/5585334d772b253a01a6730e8202ffb1607c3d25
     - https://github.com/python/cpython/commit/6ceb8aeda504b079fef7a57b8d81472f15cdd9a5
@@ -3743,6 +3785,7 @@
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -3757,7 +3800,12 @@
     - https://bugzilla.redhat.com/2274779
     - https://bugzilla.redhat.com/2276518
     - https://bugzilla.redhat.com/2276525
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2276518
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2276525
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6597
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0450
     - https://errata.almalinux.org/8/ALSA-2024-3466.html
+    - https://errata.rockylinux.org/RLSA-2024:3347
     - https://github.com/python/cpython/commit/30fe5d853b56138dbec62432d370a1f99409fc85
     - https://github.com/python/cpython/commit/66363b9a7b9fe7c99eba3a185b74c5fdbf842eba
     - https://github.com/python/cpython/commit/70497218351ba44bffc8b571201ecb5652d84675
