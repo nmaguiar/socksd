@@ -35,10 +35,12 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42363 
-│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15865 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42363 
+│                       │      ├ References       ╭ [0]: http://lists.busybox.net/pipermail/busybox/2024-M
+│                       │      │                  │      ay/090762.html 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-42363 
+│                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=15865 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-42363 
 │                       │      ├ PublishedDate   : 2023-11-27T22:15:07.94Z 
 │                       │      ╰ LastModifiedDate: 2023-11-30T05:06:49.523Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2023-42364 
@@ -66,8 +68,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      │                  ╰ redhat: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
@@ -105,8 +106,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      │                  ╰ redhat: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
@@ -190,10 +190,12 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42363 
-│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15865 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42363 
+│                       │      ├ References       ╭ [0]: http://lists.busybox.net/pipermail/busybox/2024-M
+│                       │      │                  │      ay/090762.html 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-42363 
+│                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=15865 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-42363 
 │                       │      ├ PublishedDate   : 2023-11-27T22:15:07.94Z 
 │                       │      ╰ LastModifiedDate: 2023-11-30T05:06:49.523Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2023-42364 
@@ -221,8 +223,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      │                  ╰ redhat: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
@@ -260,8 +261,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      │                  ╰ redhat: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
@@ -612,10 +612,12 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42363 
-│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15865 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42363 
+│                       │      ├ References       ╭ [0]: http://lists.busybox.net/pipermail/busybox/2024-M
+│                       │      │                  │      ay/090762.html 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-42363 
+│                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=15865 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-42363 
 │                       │      ├ PublishedDate   : 2023-11-27T22:15:07.94Z 
 │                       │      ╰ LastModifiedDate: 2023-11-30T05:06:49.523Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2023-42364 
@@ -643,8 +645,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      │                  ╰ redhat: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
@@ -682,8 +683,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      │                  ╰ redhat: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
