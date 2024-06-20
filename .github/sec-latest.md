@@ -36,7 +36,7 @@
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
 │                       │      ├ References       ╭ [0]: http://lists.busybox.net/pipermail/busybox/2024-M
-│                       │      │                  │      ay/090762.html 
+│                       │      │                  │      ay/090760.html 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-42363 
 │                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=15865 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
@@ -68,17 +68,23 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ╰ redhat: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42364 
-│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15868 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42364 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42364 
+│                       │      ├ References       ╭ [0]: http://lists.busybox.net/pipermail/busybox/2024-M
+│                       │      │                  │      ay/090762.html 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-42364 
+│                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=15868 
+│                       │      │                  ├ [3]: https://gitlab.alpinelinux.org/alpine/aports/-/bl
+│                       │      │                  │      ob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.p
+│                       │      │                  │      atch 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-42364 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-42364 
 │                       │      ├ PublishedDate   : 2023-11-27T23:15:07.313Z 
 │                       │      ╰ LastModifiedDate: 2023-11-30T05:07:10.827Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2023-42365 
@@ -106,17 +112,23 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ╰ redhat: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42365 
-│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15871 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42365 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42365 
+│                       │      ├ References       ╭ [0]: http://lists.busybox.net/pipermail/busybox/2024-M
+│                       │      │                  │      ay/090762.html 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-42365 
+│                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=15871 
+│                       │      │                  ├ [3]: https://gitlab.alpinelinux.org/alpine/aports/-/bl
+│                       │      │                  │      ob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.p
+│                       │      │                  │      atch 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-42365 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-42365 
 │                       │      ├ PublishedDate   : 2023-11-27T23:15:07.373Z 
 │                       │      ╰ LastModifiedDate: 2023-11-30T05:08:08.77Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2023-42366 
@@ -191,7 +203,7 @@
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
 │                       │      ├ References       ╭ [0]: http://lists.busybox.net/pipermail/busybox/2024-M
-│                       │      │                  │      ay/090762.html 
+│                       │      │                  │      ay/090760.html 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-42363 
 │                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=15865 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
@@ -223,17 +235,23 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ╰ redhat: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42364 
-│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15868 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42364 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42364 
+│                       │      ├ References       ╭ [0]: http://lists.busybox.net/pipermail/busybox/2024-M
+│                       │      │                  │      ay/090762.html 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-42364 
+│                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=15868 
+│                       │      │                  ├ [3]: https://gitlab.alpinelinux.org/alpine/aports/-/bl
+│                       │      │                  │      ob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.p
+│                       │      │                  │      atch 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-42364 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-42364 
 │                       │      ├ PublishedDate   : 2023-11-27T23:15:07.313Z 
 │                       │      ╰ LastModifiedDate: 2023-11-30T05:07:10.827Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2023-42365 
@@ -261,17 +279,23 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ╰ redhat: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42365 
-│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15871 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42365 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42365 
+│                       │      ├ References       ╭ [0]: http://lists.busybox.net/pipermail/busybox/2024-M
+│                       │      │                  │      ay/090762.html 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-42365 
+│                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=15871 
+│                       │      │                  ├ [3]: https://gitlab.alpinelinux.org/alpine/aports/-/bl
+│                       │      │                  │      ob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.p
+│                       │      │                  │      atch 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-42365 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-42365 
 │                       │      ├ PublishedDate   : 2023-11-27T23:15:07.373Z 
 │                       │      ╰ LastModifiedDate: 2023-11-30T05:08:08.77Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2023-42366 
@@ -613,7 +637,7 @@
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
 │                       │      ├ References       ╭ [0]: http://lists.busybox.net/pipermail/busybox/2024-M
-│                       │      │                  │      ay/090762.html 
+│                       │      │                  │      ay/090760.html 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-42363 
 │                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=15865 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
@@ -645,17 +669,23 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ╰ redhat: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42364 
-│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15868 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42364 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42364 
+│                       │      ├ References       ╭ [0]: http://lists.busybox.net/pipermail/busybox/2024-M
+│                       │      │                  │      ay/090762.html 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-42364 
+│                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=15868 
+│                       │      │                  ├ [3]: https://gitlab.alpinelinux.org/alpine/aports/-/bl
+│                       │      │                  │      ob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.p
+│                       │      │                  │      atch 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-42364 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-42364 
 │                       │      ├ PublishedDate   : 2023-11-27T23:15:07.313Z 
 │                       │      ╰ LastModifiedDate: 2023-11-30T05:07:10.827Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2023-42365 
@@ -683,17 +713,23 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ╰ redhat: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42365 
-│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15871 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42365 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42365 
+│                       │      ├ References       ╭ [0]: http://lists.busybox.net/pipermail/busybox/2024-M
+│                       │      │                  │      ay/090762.html 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-42365 
+│                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=15871 
+│                       │      │                  ├ [3]: https://gitlab.alpinelinux.org/alpine/aports/-/bl
+│                       │      │                  │      ob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.p
+│                       │      │                  │      atch 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-42365 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-42365 
 │                       │      ├ PublishedDate   : 2023-11-27T23:15:07.373Z 
 │                       │      ╰ LastModifiedDate: 2023-11-30T05:08:08.77Z 
 │                       ╰ [14] ╭ VulnerabilityID : CVE-2023-42366 
