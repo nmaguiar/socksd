@@ -37,7 +37,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
-    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090760.html
     - https://access.redhat.com/security/cve/CVE-2023-42363
     - https://bugs.busybox.net/show_bug.cgi?id=15865
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42363
@@ -70,6 +70,7 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -78,8 +79,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
     - https://access.redhat.com/security/cve/CVE-2023-42364
     - https://bugs.busybox.net/show_bug.cgi?id=15868
+    - https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42364
     - https://www.cve.org/CVERecord?id=CVE-2023-42364
     PublishedDate: '2023-11-27T23:15:07.313Z'
@@ -110,6 +113,7 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -118,8 +122,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
     - https://access.redhat.com/security/cve/CVE-2023-42365
     - https://bugs.busybox.net/show_bug.cgi?id=15871
+    - https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42365
     - https://www.cve.org/CVERecord?id=CVE-2023-42365
     PublishedDate: '2023-11-27T23:15:07.373Z'
@@ -200,7 +206,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
-    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090760.html
     - https://access.redhat.com/security/cve/CVE-2023-42363
     - https://bugs.busybox.net/show_bug.cgi?id=15865
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42363
@@ -233,6 +239,7 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -241,8 +248,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
     - https://access.redhat.com/security/cve/CVE-2023-42364
     - https://bugs.busybox.net/show_bug.cgi?id=15868
+    - https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42364
     - https://www.cve.org/CVERecord?id=CVE-2023-42364
     PublishedDate: '2023-11-27T23:15:07.313Z'
@@ -273,6 +282,7 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -281,8 +291,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
     - https://access.redhat.com/security/cve/CVE-2023-42365
     - https://bugs.busybox.net/show_bug.cgi?id=15871
+    - https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42365
     - https://www.cve.org/CVERecord?id=CVE-2023-42365
     PublishedDate: '2023-11-27T23:15:07.373Z'
@@ -573,7 +585,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
-    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090760.html
     - https://access.redhat.com/security/cve/CVE-2023-42363
     - https://bugs.busybox.net/show_bug.cgi?id=15865
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42363
@@ -606,6 +618,7 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -614,8 +627,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
     - https://access.redhat.com/security/cve/CVE-2023-42364
     - https://bugs.busybox.net/show_bug.cgi?id=15868
+    - https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42364
     - https://www.cve.org/CVERecord?id=CVE-2023-42364
     PublishedDate: '2023-11-27T23:15:07.313Z'
@@ -646,6 +661,7 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -654,8 +670,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
     - https://access.redhat.com/security/cve/CVE-2023-42365
     - https://bugs.busybox.net/show_bug.cgi?id=15871
+    - https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42365
     - https://www.cve.org/CVERecord?id=CVE-2023-42365
     PublishedDate: '2023-11-27T23:15:07.373Z'
