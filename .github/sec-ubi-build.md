@@ -1937,7 +1937,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 2 
@@ -2084,7 +2084,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2220,7 +2220,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2742,7 +2742,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 2 
@@ -2889,7 +2889,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -3025,7 +3025,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -4014,7 +4014,7 @@
 │                       │      │                  ╰ [14]: https://www.iana.org/assignments/iana-ipv6-speci
 │                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
-│                       │      ╰ LastModifiedDate: 2024-06-17T18:15:18.047Z 
+│                       │      ╰ LastModifiedDate: 2024-06-20T12:44:22.977Z 
 │                       ├ [60] ╭ VulnerabilityID : CVE-2023-6597 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -4465,7 +4465,7 @@
 │                       │      │                  ╰ [14]: https://www.iana.org/assignments/iana-ipv6-speci
 │                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
-│                       │      ╰ LastModifiedDate: 2024-06-17T18:15:18.047Z 
+│                       │      ╰ LastModifiedDate: 2024-06-20T12:44:22.977Z 
 │                       ├ [65] ╭ VulnerabilityID : CVE-2023-6597 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9.x86_64 
 │                       │      ├ PkgName         : python3-libs 
@@ -4916,7 +4916,7 @@
 │                       │      │                  ╰ [14]: https://www.iana.org/assignments/iana-ipv6-speci
 │                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
-│                       │      ╰ LastModifiedDate: 2024-06-17T18:15:18.047Z 
+│                       │      ╰ LastModifiedDate: 2024-06-20T12:44:22.977Z 
 │                       ├ [70] ╭ VulnerabilityID : CVE-2024-35195 
 │                       │      ├ PkgID           : python3-pip-wheel@21.2.3-8.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
@@ -4976,79 +4976,7 @@
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-35195 
 │                       │      ├ PublishedDate   : 2024-05-20T21:15:09.99Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T17:16:29.563Z 
-│                       ├ [71] ╭ VulnerabilityID : CVE-2024-37891 
-│                       │      ├ PkgID           : python3-pip-wheel@21.2.3-8.el9.noarch 
-│                       │      ├ PkgName         : python3-pip-wheel 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-8.el9?ar
-│                       │      │                  │       ch=noarch&distro=redhat-9.4 
-│                       │      │                  ╰ UID : 32dd6dd0dd08a5b6 
-│                       │      ├ InstalledVersion: 21.2.3-8.el9 
-│                       │      ├ Status          : under_investigation 
-│                       │      ├ Layer            ╭ Digest: sha256:20d474f4eae27bd77593c68a2e19233b5a8fd5f
-│                       │      │                  │         b69c8ca06a11acd5615bce94a 
-│                       │      │                  ╰ DiffID: sha256:76f0b1bb3fb521ae9485278c40a034b590f9e3d
-│                       │      │                            0ed1fbc72fc189c620f2ceb42 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37891 
-│                       │      ├ Title           : urllib3: proxy-authorization request header is not
-│                       │      │                   stripped during cross-origin redirects 
-│                       │      ├ Description     :  urllib3 is a user-friendly HTTP client library for
-│                       │      │                   Python. When using urllib3's proxy support with
-│                       │      │                   `ProxyManager`, the `Proxy-Authorization` header is only
-│                       │      │                   sent to the configured proxy, as expected. However, when
-│                       │      │                   sending HTTP requests *without* using urllib3's proxy
-│                       │      │                   support, it's possible to accidentally configure the
-│                       │      │                   `Proxy-Authorization` header even though it won't have any
-│                       │      │                   effect as the request is not using a forwarding proxy or a
-│                       │      │                   tunneling proxy. In those cases, urllib3 doesn't treat the
-│                       │      │                   `Proxy-Authorization` HTTP header as one carrying
-│                       │      │                   authentication material and thus doesn't strip the header on
-│                       │      │                    cross-origin redirects. Because this is a highly unlikely
-│                       │      │                   scenario, we believe the severity of this vulnerability is
-│                       │      │                   low for almost all users. Out of an abundance of caution
-│                       │      │                   urllib3 will automatically strip the `Proxy-Authorization`
-│                       │      │                   header during cross-origin redirects to avoid the small
-│                       │      │                   chance that users are doing this on accident. Users should
-│                       │      │                   use urllib3's proxy support or disable automatic redirects
-│                       │      │                   to achieve safe processing of the `Proxy-Authorization`
-│                       │      │                   header, but we still decided to strip the header by default
-│                       │      │                   in order to further protect users who aren't using the
-│                       │      │                   correct approach. We believe the number of usages affected
-│                       │      │                   by this advisory is low. It requires all of the following to
-│                       │      │                    be true to be exploited: 1. Setting the
-│                       │      │                   `Proxy-Authorization` header without using urllib3's
-│                       │      │                   built-in proxy support. 2. Not disabling HTTP redirects. 3.
-│                       │      │                   Either not using an HTTPS origin server or for the proxy or
-│                       │      │                   target origin to redirect to a malicious origin. Users are
-│                       │      │                   advised to update to either version 1.26.19 or version
-│                       │      │                   2.2.2. Users unable to upgrade may use the
-│                       │      │                   `Proxy-Authorization` header with urllib3's `ProxyManager`,
-│                       │      │                   disable HTTP redirects using `redirects=False` when sending
-│                       │      │                   requests, or not user the `Proxy-Authorization` header as
-│                       │      │                   mitigations. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-669 
-│                       │      ├ VendorSeverity   ╭ ghsa  : 2 
-│                       │      │                  ╰ redhat: 2 
-│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:
-│                       │      │                  │        │           H/I:N/A:N 
-│                       │      │                  │        ╰ V3Score : 4.4 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:
-│                       │      │                           │           H/I:N/A:N 
-│                       │      │                           ╰ V3Score : 4.4 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37891 
-│                       │      │                  ├ [1]: https://github.com/urllib3/urllib3 
-│                       │      │                  ├ [2]: https://github.com/urllib3/urllib3/commit/40b6d16
-│                       │      │                  │      05814dd1db0a46e202d6e56f2e4c9a468 
-│                       │      │                  ├ [3]: https://github.com/urllib3/urllib3/commit/accff72
-│                       │      │                  │      ecc2f6cf5a76d9570198a93ac7c90270e 
-│                       │      │                  ├ [4]: https://github.com/urllib3/urllib3/security/advis
-│                       │      │                  │      ories/GHSA-34jh-p97f-mpxf 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-37891 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37891 
-│                       │      ├ PublishedDate   : 2024-06-17T20:15:13.45Z 
-│                       │      ╰ LastModifiedDate: 2024-06-17T20:15:13.45Z 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2021-3572 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │      ├ PkgID           : python3-pip-wheel@21.2.3-8.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-8.el9?ar
@@ -5120,7 +5048,7 @@
 │                       │      │                          2.html 
 │                       │      ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │      ╰ LastModifiedDate: 2022-10-05T02:14:39.75Z 
-│                       ├ [73] ╭ VulnerabilityID : CVE-2023-36191 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2023-36191 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x
@@ -5152,7 +5080,7 @@
 │                       │      │                  ╰ [3]: https://www.sqlite.org/forum/forumpost/19f55ef73b 
 │                       │      ├ PublishedDate   : 2023-06-23T02:15:09.597Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T04:16:25.153Z 
-│                       ├ [74] ╭ VulnerabilityID : CVE-2024-0232 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2024-0232 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x
@@ -5198,7 +5126,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
 │                       │      ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.56Z 
-│                       ├ [75] ╭ VulnerabilityID : CVE-2021-3997 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2021-3997 
 │                       │      ├ PkgID           : systemd-libs@252-32.el9_4.x86_64 
 │                       │      ├ PkgName         : systemd-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-32.el9_4?arch=x8
@@ -5244,7 +5172,7 @@
 │                       │      │                         01/10/2 
 │                       │      ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:15.95Z 
-│                       ├ [76] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │      ├ PkgID           : tar@1.34-6.el9_1.x86_64 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dist
@@ -5280,7 +5208,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T01:57:39.453Z 
-│                       ╰ [77] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ╰ [76] ╭ VulnerabilityID : CVE-2023-39804 
 │                              ├ PkgID           : tar@1.34-6.el9_1.x86_64 
 │                              ├ PkgName         : tar 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dist
