@@ -2378,7 +2378,7 @@
     VendorSeverity:
       alma: 2
       amazon: 3
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -2396,7 +2396,7 @@
     - https://github.com/nghttp2/nghttp2/commit/d71a4668c6bead55805d18810d633fbb98315af9
     - https://github.com/nghttp2/nghttp2/security/advisories/GHSA-x6x3-gv8h-m57q
     - https://linux.oracle.com/cve/CVE-2024-28182.html
-    - https://linux.oracle.com/errata/ELSA-2024-2910.html
+    - https://linux.oracle.com/errata/ELSA-2024-3501.html
     - https://lists.debian.org/debian-lts-announce/2024/04/msg00026.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AGOME6ZXJG7664IPQNVE3DL67E3YP3HY/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/J6ZMXUGB66VAXDW5J6QSTHM5ET25FGSA/
@@ -3578,6 +3578,7 @@
     - https://security.gentoo.org/glsa/202402-08
     - https://security.netapp.com/advisory/ntap-20230818-0014/
     - https://security.netapp.com/advisory/ntap-20231027-0008/
+    - https://security.netapp.com/advisory/ntap-20240621-0006/
     - https://ubuntu.com/security/notices/USN-6435-1
     - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
@@ -3585,7 +3586,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:10.497Z'
-    LastModifiedDate: '2024-02-04T09:15:10.03Z'
+    LastModifiedDate: '2024-06-21T19:15:28.01Z'
   - VulnerabilityID: CVE-2023-5678
     VendorIDs:
     - RHSA-2024:2447
@@ -4070,10 +4071,11 @@
     - https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d
     - https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4603
+    - https://security.netapp.com/advisory/ntap-20240621-0001/
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
-    LastModifiedDate: '2024-06-10T17:16:33.69Z'
+    LastModifiedDate: '2024-06-21T19:15:30.783Z'
   - VulnerabilityID: CVE-2024-4741
     PkgID: openssl@3.0.7-25.el9_3.x86_64
     PkgName: openssl
@@ -4391,6 +4393,7 @@
     - https://security.gentoo.org/glsa/202402-08
     - https://security.netapp.com/advisory/ntap-20230818-0014/
     - https://security.netapp.com/advisory/ntap-20231027-0008/
+    - https://security.netapp.com/advisory/ntap-20240621-0006/
     - https://ubuntu.com/security/notices/USN-6435-1
     - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
@@ -4398,7 +4401,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:10.497Z'
-    LastModifiedDate: '2024-02-04T09:15:10.03Z'
+    LastModifiedDate: '2024-06-21T19:15:28.01Z'
   - VulnerabilityID: CVE-2023-5678
     VendorIDs:
     - RHSA-2024:2447
@@ -4883,10 +4886,11 @@
     - https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d
     - https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4603
+    - https://security.netapp.com/advisory/ntap-20240621-0001/
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
-    LastModifiedDate: '2024-06-10T17:16:33.69Z'
+    LastModifiedDate: '2024-06-21T19:15:30.783Z'
   - VulnerabilityID: CVE-2024-4741
     PkgID: openssl-libs@3.0.7-25.el9_3.x86_64
     PkgName: openssl-libs
@@ -6077,12 +6081,14 @@
     - https://linux.oracle.com/errata/ELSA-2023-12349.html
     - https://nvd.nist.gov/vuln/detail/CVE-2021-3572
     - https://packetstormsecurity.com/files/162712/USN-4961-1.txt
+    - https://security.netapp.com/advisory/ntap-20240621-0006
+    - https://security.netapp.com/advisory/ntap-20240621-0006/
     - https://ubuntu.com/security/notices/USN-4961-2
     - https://www.cve.org/CVERecord?id=CVE-2021-3572
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     - https://www.oracle.com/security-alerts/cpujul2022.html
     PublishedDate: '2021-11-10T18:15:09.51Z'
-    LastModifiedDate: '2022-10-05T02:14:39.75Z'
+    LastModifiedDate: '2024-06-21T19:15:20.04Z'
   - VulnerabilityID: CVE-2023-36191
     PkgID: sqlite-libs@3.34.1-7.el9_3.x86_64
     PkgName: sqlite-libs
