@@ -406,10 +406,11 @@
     - https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d
     - https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4603
+    - https://security.netapp.com/advisory/ntap-20240621-0001/
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
-    LastModifiedDate: '2024-06-10T17:16:33.69Z'
+    LastModifiedDate: '2024-06-21T19:15:30.783Z'
   - VulnerabilityID: CVE-2024-4603
     PkgID: libssl3@3.1.4-r6
     PkgName: libssl3
@@ -476,10 +477,11 @@
     - https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d
     - https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4603
+    - https://security.netapp.com/advisory/ntap-20240621-0001/
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
-    LastModifiedDate: '2024-06-10T17:16:33.69Z'
+    LastModifiedDate: '2024-06-21T19:15:30.783Z'
   - VulnerabilityID: CVE-2024-4603
     PkgID: openssl@3.1.4-r6
     PkgName: openssl
@@ -546,10 +548,11 @@
     - https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d
     - https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4603
+    - https://security.netapp.com/advisory/ntap-20240621-0001/
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
-    LastModifiedDate: '2024-06-10T17:16:33.69Z'
+    LastModifiedDate: '2024-06-21T19:15:30.783Z'
   - VulnerabilityID: CVE-2023-42363
     PkgID: ssl_client@1.36.1-r15
     PkgName: ssl_client
