@@ -421,10 +421,12 @@
 │                       │      │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d0
 │                       │      │                  │      605c826ef197aceedc67e8e04f065f740 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
+│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2024062
+│                       │      │                  │      1-0001/ 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                       │      ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
+│                       │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2024-4603 
 │                       │      ├ PkgID           : libssl3@3.1.4-r6 
 │                       │      ├ PkgName         : libssl3 
@@ -510,10 +512,12 @@
 │                       │      │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d0
 │                       │      │                  │      605c826ef197aceedc67e8e04f065f740 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
+│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2024062
+│                       │      │                  │      1-0001/ 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                       │      ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
+│                       │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2024-4603 
 │                       │      ├ PkgID           : openssl@3.1.4-r6 
 │                       │      ├ PkgName         : openssl 
@@ -599,10 +603,12 @@
 │                       │      │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d0
 │                       │      │                  │      605c826ef197aceedc67e8e04f065f740 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
+│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2024062
+│                       │      │                  │      1-0001/ 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                       │      ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
+│                       │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2023-42363 
 │                       │      ├ PkgID           : ssl_client@1.36.1-r15 
 │                       │      ├ PkgName         : ssl_client 
