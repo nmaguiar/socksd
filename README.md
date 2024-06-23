@@ -10,6 +10,7 @@ Main features:
 - Filter the network domains allowed (e.g. default.svc,default.svc.cluster.local, etc...)
 - Detailed connection log support
 - Scale capacity by increasing deploy replicas
+- Optional extra HTTP proxy for clients that don't support SOCKS proxy
 
 Security scans to latest and build container images:<br>
 [![.github/sec-build.svg](.github/sec-build.svg)](.github/sec-build.md)<br>
