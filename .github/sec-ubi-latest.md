@@ -1089,17 +1089,19 @@
 │                       │       │                  │       713974801.git.fweimer@redhat.com/ 
 │                       │       │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-33599.html 
 │                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
-│                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
-│                       │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                       │       │                  ├ [20]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       24/06/msg00026.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
+│                       │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
 │                       │       │                  │       524-0011/ 
-│                       │       │                  ├ [22]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                       │       │                  ├ [23]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                       │       │                  │       f=advisories/GLIBC-SA-2024-0005 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6804-1 
-│                       │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
-│                       │       │                  ╰ [25]: https://www.openwall.com/lists/oss-security/202
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6804-1 
+│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+│                       │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/202
 │                       │       │                          4/04/24/2 
 │                       │       ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
-│                       │       ╰ LastModifiedDate: 2024-06-10T17:16:27.94Z 
+│                       │       ╰ LastModifiedDate: 2024-06-30T15:15:09.713Z 
 │                       ├ [17]  ╭ VulnerabilityID : CVE-2024-33600 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
 │                       │       ├ PkgID           : glibc@2.34-83.el9_3.12.x86_64 
@@ -1169,17 +1171,19 @@
 │                       │       │                  │       713974801.git.fweimer@redhat.com/ 
 │                       │       │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-33600.html 
 │                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
-│                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
-│                       │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                       │       │                  ├ [20]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       24/06/msg00026.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
+│                       │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
 │                       │       │                  │       524-0013/ 
-│                       │       │                  ├ [22]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                       │       │                  ├ [23]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                       │       │                  │       f=advisories/GLIBC-SA-2024-0006 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6804-1 
-│                       │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
-│                       │       │                  ╰ [25]: https://www.openwall.com/lists/oss-security/202
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6804-1 
+│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+│                       │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/202
 │                       │       │                          4/04/24/2 
 │                       │       ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
-│                       │       ╰ LastModifiedDate: 2024-06-10T17:16:28.037Z 
+│                       │       ╰ LastModifiedDate: 2024-06-30T15:15:09.827Z 
 │                       ├ [18]  ╭ VulnerabilityID : CVE-2024-33601 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
 │                       │       ├ PkgID           : glibc@2.34-83.el9_3.12.x86_64 
@@ -1251,17 +1255,19 @@
 │                       │       │                  │       713974801.git.fweimer@redhat.com/ 
 │                       │       │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-33601.html 
 │                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
-│                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
-│                       │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                       │       │                  ├ [20]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       24/06/msg00026.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
+│                       │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
 │                       │       │                  │       524-0014/ 
-│                       │       │                  ├ [22]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                       │       │                  ├ [23]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                       │       │                  │       f=advisories/GLIBC-SA-2024-0007 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6804-1 
-│                       │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
-│                       │       │                  ╰ [25]: https://www.openwall.com/lists/oss-security/202
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6804-1 
+│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+│                       │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/202
 │                       │       │                          4/04/24/2 
 │                       │       ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
-│                       │       ╰ LastModifiedDate: 2024-06-10T18:15:34.353Z 
+│                       │       ╰ LastModifiedDate: 2024-06-30T15:15:09.9Z 
 │                       ├ [19]  ╭ VulnerabilityID : CVE-2024-33602 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
 │                       │       ├ PkgID           : glibc@2.34-83.el9_3.12.x86_64 
@@ -1331,19 +1337,21 @@
 │                       │       │                  │       713974801.git.fweimer@redhat.com/ 
 │                       │       │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-33602.html 
 │                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
-│                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
-│                       │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                       │       │                  ├ [20]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       24/06/msg00026.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
+│                       │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
 │                       │       │                  │       524-0012/ 
-│                       │       │                  ├ [22]: https://sourceware.org/bugzilla/show_bug.cgi?id
+│                       │       │                  ├ [23]: https://sourceware.org/bugzilla/show_bug.cgi?id
 │                       │       │                  │       =31680 
-│                       │       │                  ├ [23]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                       │       │                  ├ [24]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                       │       │                  │       f=advisories/GLIBC-SA-2024-0008 
-│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6804-1 
-│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
-│                       │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/202
+│                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-6804-1 
+│                       │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+│                       │       │                  ╰ [27]: https://www.openwall.com/lists/oss-security/202
 │                       │       │                          4/04/24/2 
 │                       │       ├ PublishedDate   : 2024-05-06T20:15:11.68Z 
-│                       │       ╰ LastModifiedDate: 2024-06-10T18:15:34.443Z 
+│                       │       ╰ LastModifiedDate: 2024-06-30T15:15:09.973Z 
 │                       ├ [20]  ╭ VulnerabilityID : CVE-2024-2961 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
 │                       │       ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
@@ -1503,17 +1511,19 @@
 │                       │       │                  │       713974801.git.fweimer@redhat.com/ 
 │                       │       │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-33599.html 
 │                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
-│                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
-│                       │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                       │       │                  ├ [20]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       24/06/msg00026.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
+│                       │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
 │                       │       │                  │       524-0011/ 
-│                       │       │                  ├ [22]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                       │       │                  ├ [23]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                       │       │                  │       f=advisories/GLIBC-SA-2024-0005 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6804-1 
-│                       │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
-│                       │       │                  ╰ [25]: https://www.openwall.com/lists/oss-security/202
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6804-1 
+│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+│                       │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/202
 │                       │       │                          4/04/24/2 
 │                       │       ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
-│                       │       ╰ LastModifiedDate: 2024-06-10T17:16:27.94Z 
+│                       │       ╰ LastModifiedDate: 2024-06-30T15:15:09.713Z 
 │                       ├ [22]  ╭ VulnerabilityID : CVE-2024-33600 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
 │                       │       ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
@@ -1583,17 +1593,19 @@
 │                       │       │                  │       713974801.git.fweimer@redhat.com/ 
 │                       │       │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-33600.html 
 │                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
-│                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
-│                       │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                       │       │                  ├ [20]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       24/06/msg00026.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
+│                       │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
 │                       │       │                  │       524-0013/ 
-│                       │       │                  ├ [22]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                       │       │                  ├ [23]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                       │       │                  │       f=advisories/GLIBC-SA-2024-0006 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6804-1 
-│                       │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
-│                       │       │                  ╰ [25]: https://www.openwall.com/lists/oss-security/202
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6804-1 
+│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+│                       │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/202
 │                       │       │                          4/04/24/2 
 │                       │       ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
-│                       │       ╰ LastModifiedDate: 2024-06-10T17:16:28.037Z 
+│                       │       ╰ LastModifiedDate: 2024-06-30T15:15:09.827Z 
 │                       ├ [23]  ╭ VulnerabilityID : CVE-2024-33601 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
 │                       │       ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
@@ -1665,17 +1677,19 @@
 │                       │       │                  │       713974801.git.fweimer@redhat.com/ 
 │                       │       │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-33601.html 
 │                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
-│                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
-│                       │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                       │       │                  ├ [20]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       24/06/msg00026.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
+│                       │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
 │                       │       │                  │       524-0014/ 
-│                       │       │                  ├ [22]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                       │       │                  ├ [23]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                       │       │                  │       f=advisories/GLIBC-SA-2024-0007 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6804-1 
-│                       │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
-│                       │       │                  ╰ [25]: https://www.openwall.com/lists/oss-security/202
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6804-1 
+│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+│                       │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/202
 │                       │       │                          4/04/24/2 
 │                       │       ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
-│                       │       ╰ LastModifiedDate: 2024-06-10T18:15:34.353Z 
+│                       │       ╰ LastModifiedDate: 2024-06-30T15:15:09.9Z 
 │                       ├ [24]  ╭ VulnerabilityID : CVE-2024-33602 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
 │                       │       ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
@@ -1745,19 +1759,21 @@
 │                       │       │                  │       713974801.git.fweimer@redhat.com/ 
 │                       │       │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-33602.html 
 │                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
-│                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
-│                       │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                       │       │                  ├ [20]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       24/06/msg00026.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
+│                       │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
 │                       │       │                  │       524-0012/ 
-│                       │       │                  ├ [22]: https://sourceware.org/bugzilla/show_bug.cgi?id
+│                       │       │                  ├ [23]: https://sourceware.org/bugzilla/show_bug.cgi?id
 │                       │       │                  │       =31680 
-│                       │       │                  ├ [23]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                       │       │                  ├ [24]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                       │       │                  │       f=advisories/GLIBC-SA-2024-0008 
-│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6804-1 
-│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
-│                       │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/202
+│                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-6804-1 
+│                       │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+│                       │       │                  ╰ [27]: https://www.openwall.com/lists/oss-security/202
 │                       │       │                          4/04/24/2 
 │                       │       ├ PublishedDate   : 2024-05-06T20:15:11.68Z 
-│                       │       ╰ LastModifiedDate: 2024-06-10T18:15:34.443Z 
+│                       │       ╰ LastModifiedDate: 2024-06-30T15:15:09.973Z 
 │                       ├ [25]  ╭ VulnerabilityID : CVE-2024-2961 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
@@ -1917,17 +1933,19 @@
 │                       │       │                  │       713974801.git.fweimer@redhat.com/ 
 │                       │       │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-33599.html 
 │                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
-│                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
-│                       │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                       │       │                  ├ [20]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       24/06/msg00026.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
+│                       │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
 │                       │       │                  │       524-0011/ 
-│                       │       │                  ├ [22]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                       │       │                  ├ [23]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                       │       │                  │       f=advisories/GLIBC-SA-2024-0005 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6804-1 
-│                       │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
-│                       │       │                  ╰ [25]: https://www.openwall.com/lists/oss-security/202
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6804-1 
+│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+│                       │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/202
 │                       │       │                          4/04/24/2 
 │                       │       ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
-│                       │       ╰ LastModifiedDate: 2024-06-10T17:16:27.94Z 
+│                       │       ╰ LastModifiedDate: 2024-06-30T15:15:09.713Z 
 │                       ├ [27]  ╭ VulnerabilityID : CVE-2024-33600 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
@@ -1997,17 +2015,19 @@
 │                       │       │                  │       713974801.git.fweimer@redhat.com/ 
 │                       │       │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-33600.html 
 │                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
-│                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
-│                       │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                       │       │                  ├ [20]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       24/06/msg00026.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
+│                       │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
 │                       │       │                  │       524-0013/ 
-│                       │       │                  ├ [22]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                       │       │                  ├ [23]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                       │       │                  │       f=advisories/GLIBC-SA-2024-0006 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6804-1 
-│                       │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
-│                       │       │                  ╰ [25]: https://www.openwall.com/lists/oss-security/202
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6804-1 
+│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+│                       │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/202
 │                       │       │                          4/04/24/2 
 │                       │       ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
-│                       │       ╰ LastModifiedDate: 2024-06-10T17:16:28.037Z 
+│                       │       ╰ LastModifiedDate: 2024-06-30T15:15:09.827Z 
 │                       ├ [28]  ╭ VulnerabilityID : CVE-2024-33601 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
@@ -2079,17 +2099,19 @@
 │                       │       │                  │       713974801.git.fweimer@redhat.com/ 
 │                       │       │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-33601.html 
 │                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
-│                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
-│                       │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                       │       │                  ├ [20]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       24/06/msg00026.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
+│                       │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
 │                       │       │                  │       524-0014/ 
-│                       │       │                  ├ [22]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                       │       │                  ├ [23]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                       │       │                  │       f=advisories/GLIBC-SA-2024-0007 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6804-1 
-│                       │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
-│                       │       │                  ╰ [25]: https://www.openwall.com/lists/oss-security/202
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6804-1 
+│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+│                       │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/202
 │                       │       │                          4/04/24/2 
 │                       │       ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
-│                       │       ╰ LastModifiedDate: 2024-06-10T18:15:34.353Z 
+│                       │       ╰ LastModifiedDate: 2024-06-30T15:15:09.9Z 
 │                       ├ [29]  ╭ VulnerabilityID : CVE-2024-33602 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
@@ -2159,19 +2181,21 @@
 │                       │       │                  │       713974801.git.fweimer@redhat.com/ 
 │                       │       │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-33602.html 
 │                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
-│                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
-│                       │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                       │       │                  ├ [20]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       24/06/msg00026.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
+│                       │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
 │                       │       │                  │       524-0012/ 
-│                       │       │                  ├ [22]: https://sourceware.org/bugzilla/show_bug.cgi?id
+│                       │       │                  ├ [23]: https://sourceware.org/bugzilla/show_bug.cgi?id
 │                       │       │                  │       =31680 
-│                       │       │                  ├ [23]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                       │       │                  ├ [24]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                       │       │                  │       f=advisories/GLIBC-SA-2024-0008 
-│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6804-1 
-│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
-│                       │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/202
+│                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-6804-1 
+│                       │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+│                       │       │                  ╰ [27]: https://www.openwall.com/lists/oss-security/202
 │                       │       │                          4/04/24/2 
 │                       │       ├ PublishedDate   : 2024-05-06T20:15:11.68Z 
-│                       │       ╰ LastModifiedDate: 2024-06-10T18:15:34.443Z 
+│                       │       ╰ LastModifiedDate: 2024-06-30T15:15:09.973Z 
 │                       ├ [30]  ╭ VulnerabilityID : CVE-2022-3219 
 │                       │       ├ PkgID           : gnupg2@2.3.3-4.el9.x86_64 
 │                       │       ├ PkgName         : gnupg2 
@@ -4035,6 +4059,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-1333 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
 │                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 1 
 │                       │       │                  ├ photon     : 2 
@@ -4757,10 +4782,11 @@
 │                       │       │                   this issue. OpenSSL
 │                       │       │                   1.0.2 is also not affected by this issue. 
 │                       │       ├ Severity        : LOW 
-│                       │       ├ VendorSeverity   ╭ amazon: 2 
-│                       │       │                  ├ photon: 3 
-│                       │       │                  ├ redhat: 1 
-│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ VendorSeverity   ╭ amazon     : 2 
+│                       │       │                  ├ cbl-mariner: 3 
+│                       │       │                  ├ photon     : 3 
+│                       │       │                  ├ redhat     : 1 
+│                       │       │                  ╰ ubuntu     : 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
 │                       │       │                           ╰ V3Score : 3.7 
@@ -4892,9 +4918,10 @@
 │                       │       │                    memory to be accessed that was previously freed in some
 │                       │       │                   situations. 
 │                       │       ├ Severity        : LOW 
-│                       │       ├ VendorSeverity   ╭ photon: 2 
-│                       │       │                  ├ redhat: 1 
-│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │       │                  ├ photon     : 2 
+│                       │       │                  ├ redhat     : 1 
+│                       │       │                  ╰ ubuntu     : 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
@@ -5069,6 +5096,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-1333 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
 │                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 1 
 │                       │       │                  ├ photon     : 2 
@@ -5791,10 +5819,11 @@
 │                       │       │                   this issue. OpenSSL
 │                       │       │                   1.0.2 is also not affected by this issue. 
 │                       │       ├ Severity        : LOW 
-│                       │       ├ VendorSeverity   ╭ amazon: 2 
-│                       │       │                  ├ photon: 3 
-│                       │       │                  ├ redhat: 1 
-│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ VendorSeverity   ╭ amazon     : 2 
+│                       │       │                  ├ cbl-mariner: 3 
+│                       │       │                  ├ photon     : 3 
+│                       │       │                  ├ redhat     : 1 
+│                       │       │                  ╰ ubuntu     : 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
 │                       │       │                           ╰ V3Score : 3.7 
@@ -5926,9 +5955,10 @@
 │                       │       │                    memory to be accessed that was previously freed in some
 │                       │       │                   situations. 
 │                       │       ├ Severity        : LOW 
-│                       │       ├ VendorSeverity   ╭ photon: 2 
-│                       │       │                  ├ redhat: 1 
-│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │       │                  ├ photon     : 2 
+│                       │       │                  ├ redhat     : 1 
+│                       │       │                  ╰ ubuntu     : 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
