@@ -450,9 +450,10 @@
 │                       │      │                   memory to be accessed that was previously freed in some
 │                       │      │                   situations. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           L/I:L/A:L 
 │                       │      │                           ╰ V3Score : 5.6 
@@ -734,9 +735,10 @@
 │                       │      │                   memory to be accessed that was previously freed in some
 │                       │      │                   situations. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           L/I:L/A:L 
 │                       │      │                           ╰ V3Score : 5.6 
@@ -1018,9 +1020,10 @@
 │                       │      │                   memory to be accessed that was previously freed in some
 │                       │      │                   situations. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           L/I:L/A:L 
 │                       │      │                           ╰ V3Score : 5.6 
