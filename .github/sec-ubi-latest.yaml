@@ -918,6 +918,7 @@
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33599.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
+    - https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
     - https://security.netapp.com/advisory/ntap-20240524-0011/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
@@ -925,7 +926,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-33599
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.437Z'
-    LastModifiedDate: '2024-06-10T17:16:27.94Z'
+    LastModifiedDate: '2024-06-30T15:15:09.713Z'
   - VulnerabilityID: CVE-2024-33600
     VendorIDs:
     - RHSA-2024:3339
@@ -989,6 +990,7 @@
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33600.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
+    - https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
     - https://security.netapp.com/advisory/ntap-20240524-0013/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
@@ -996,7 +998,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-33600
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.523Z'
-    LastModifiedDate: '2024-06-10T17:16:28.037Z'
+    LastModifiedDate: '2024-06-30T15:15:09.827Z'
   - VulnerabilityID: CVE-2024-33601
     VendorIDs:
     - RHSA-2024:3339
@@ -1060,6 +1062,7 @@
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33601.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
+    - https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
     - https://security.netapp.com/advisory/ntap-20240524-0014/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
@@ -1067,7 +1070,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-33601
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.603Z'
-    LastModifiedDate: '2024-06-10T18:15:34.353Z'
+    LastModifiedDate: '2024-06-30T15:15:09.9Z'
   - VulnerabilityID: CVE-2024-33602
     VendorIDs:
     - RHSA-2024:3339
@@ -1130,6 +1133,7 @@
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33602.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
+    - https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
     - https://security.netapp.com/advisory/ntap-20240524-0012/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31680
@@ -1138,7 +1142,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-33602
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.68Z'
-    LastModifiedDate: '2024-06-10T18:15:34.443Z'
+    LastModifiedDate: '2024-06-30T15:15:09.973Z'
   - VulnerabilityID: CVE-2024-2961
     VendorIDs:
     - RHSA-2024:3339
@@ -1272,6 +1276,7 @@
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33599.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
+    - https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
     - https://security.netapp.com/advisory/ntap-20240524-0011/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
@@ -1279,7 +1284,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-33599
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.437Z'
-    LastModifiedDate: '2024-06-10T17:16:27.94Z'
+    LastModifiedDate: '2024-06-30T15:15:09.713Z'
   - VulnerabilityID: CVE-2024-33600
     VendorIDs:
     - RHSA-2024:3339
@@ -1343,6 +1348,7 @@
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33600.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
+    - https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
     - https://security.netapp.com/advisory/ntap-20240524-0013/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
@@ -1350,7 +1356,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-33600
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.523Z'
-    LastModifiedDate: '2024-06-10T17:16:28.037Z'
+    LastModifiedDate: '2024-06-30T15:15:09.827Z'
   - VulnerabilityID: CVE-2024-33601
     VendorIDs:
     - RHSA-2024:3339
@@ -1414,6 +1420,7 @@
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33601.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
+    - https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
     - https://security.netapp.com/advisory/ntap-20240524-0014/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
@@ -1421,7 +1428,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-33601
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.603Z'
-    LastModifiedDate: '2024-06-10T18:15:34.353Z'
+    LastModifiedDate: '2024-06-30T15:15:09.9Z'
   - VulnerabilityID: CVE-2024-33602
     VendorIDs:
     - RHSA-2024:3339
@@ -1484,6 +1491,7 @@
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33602.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
+    - https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
     - https://security.netapp.com/advisory/ntap-20240524-0012/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31680
@@ -1492,7 +1500,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-33602
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.68Z'
-    LastModifiedDate: '2024-06-10T18:15:34.443Z'
+    LastModifiedDate: '2024-06-30T15:15:09.973Z'
   - VulnerabilityID: CVE-2024-2961
     VendorIDs:
     - RHSA-2024:3339
@@ -1626,6 +1634,7 @@
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33599.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
+    - https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
     - https://security.netapp.com/advisory/ntap-20240524-0011/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
@@ -1633,7 +1642,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-33599
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.437Z'
-    LastModifiedDate: '2024-06-10T17:16:27.94Z'
+    LastModifiedDate: '2024-06-30T15:15:09.713Z'
   - VulnerabilityID: CVE-2024-33600
     VendorIDs:
     - RHSA-2024:3339
@@ -1697,6 +1706,7 @@
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33600.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
+    - https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
     - https://security.netapp.com/advisory/ntap-20240524-0013/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
@@ -1704,7 +1714,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-33600
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.523Z'
-    LastModifiedDate: '2024-06-10T17:16:28.037Z'
+    LastModifiedDate: '2024-06-30T15:15:09.827Z'
   - VulnerabilityID: CVE-2024-33601
     VendorIDs:
     - RHSA-2024:3339
@@ -1768,6 +1778,7 @@
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33601.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
+    - https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
     - https://security.netapp.com/advisory/ntap-20240524-0014/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
@@ -1775,7 +1786,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-33601
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.603Z'
-    LastModifiedDate: '2024-06-10T18:15:34.353Z'
+    LastModifiedDate: '2024-06-30T15:15:09.9Z'
   - VulnerabilityID: CVE-2024-33602
     VendorIDs:
     - RHSA-2024:3339
@@ -1838,6 +1849,7 @@
     - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
     - https://linux.oracle.com/cve/CVE-2024-33602.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
+    - https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
     - https://security.netapp.com/advisory/ntap-20240524-0012/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31680
@@ -1846,7 +1858,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-33602
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.68Z'
-    LastModifiedDate: '2024-06-10T18:15:34.443Z'
+    LastModifiedDate: '2024-06-30T15:15:09.973Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -3481,6 +3493,7 @@
     VendorSeverity:
       alma: 1
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -4046,6 +4059,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 3
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -4151,6 +4165,7 @@
     Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
     Severity: LOW
     VendorSeverity:
+      cbl-mariner: 3
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -4297,6 +4312,7 @@
     VendorSeverity:
       alma: 1
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -4862,6 +4878,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 3
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -4967,6 +4984,7 @@
     Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
     Severity: LOW
     VendorSeverity:
+      cbl-mariner: 3
       photon: 2
       redhat: 1
       ubuntu: 1
