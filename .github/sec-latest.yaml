@@ -432,6 +432,7 @@
     Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 3
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -643,6 +644,7 @@
     Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 3
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -854,6 +856,7 @@
     Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 3
       photon: 2
       redhat: 1
       ubuntu: 1
