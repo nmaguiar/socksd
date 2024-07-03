@@ -119,11 +119,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:7753
+    - https://access.redhat.com/errata/RHSA-2024:0133
     - https://access.redhat.com/security/cve/CVE-2023-37920
     - https://bugzilla.redhat.com/2226586
     - https://bugzilla.redhat.com/2242493
-    - https://errata.almalinux.org/9/ALSA-2023-7753.html
+    - https://errata.almalinux.org/8/ALSA-2024-0133.html
     - https://github.com/certifi/python-certifi
     - https://github.com/certifi/python-certifi/commit/8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909
     - https://github.com/certifi/python-certifi/security/advisories/GHSA-xqr8-7jwr-rhp7
@@ -483,7 +483,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://errata.almalinux.org/8/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1052,37 +1052,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-35328
     PublishedDate: '2024-06-13T16:15:11.037Z'
     LastModifiedDate: '2024-06-13T18:35:19.777Z'
-  - VulnerabilityID: CVE-2024-35329
-    PkgID: libyaml@0.2.5-7.el9.x86_64
-    PkgName: libyaml
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&distro=redhat-9.4
-      UID: b069be4420870139
-    InstalledVersion: 0.2.5-7.el9
-    Status: affected
-    Layer:
-      Digest: sha256:2967cd99898a1bf77805bf72ce30abfdeef1340f4653f684e501f652721a2a85
-      DiffID: sha256:84f9506d27d8d786d039e20c98b78b6618a8296bd38dd2781fc8ef3de60c8cce
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-35329
-    Title: 'libyaml: vulnerable to a heap-based Buffer Overflow in yaml_document_add_sequence in api.c'
-    Description: 'libyaml 0.2.5 is vulnerable to a heap-based Buffer Overflow in yaml_document_add_sequence in api.c. NOTE: the supplier disputes this because the finding represents a user error. The problem is that the application, which was making use of the libyaml library, omitted the required calls to the yaml_document_initialize and yaml_document_delete functions.'
-    Severity: MEDIUM
-    VendorSeverity:
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L
-        V3Score: 5.4
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-35329
-    - https://drive.google.com/file/d/1xgQ9hJ7Sn5RVEsdMGvIy0s3b_bg3Wyk-/view?usp=sharing
-    - https://github.com/yaml/libyaml/releases/tag/0.2.5
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-35329
-    - https://www.cve.org/CVERecord?id=CVE-2024-35329
-    PublishedDate: '2024-06-11T05:15:53.533Z'
-    LastModifiedDate: '2024-06-12T22:15:18.4Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd@1.5.1-2.el9.x86_64
     PkgName: libzstd
@@ -1122,7 +1091,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -1199,7 +1168,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -1717,7 +1686,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -1738,15 +1707,9 @@
     - http://www.openwall.com/lists/oss-security/2023/07/19/6
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - http://www.openwall.com/lists/oss-security/2024/05/16/1
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2024:0888
     - https://access.redhat.com/security/cve/CVE-2023-3446
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
-    - https://bugzilla.redhat.com/2227852
-    - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
     - https://bugzilla.redhat.com/show_bug.cgi?id=2224962
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257582
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257583
@@ -1763,7 +1726,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45233
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45235
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2024-0888.html
     - https://errata.rockylinux.org/RLSA-2024:2264
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
@@ -1830,7 +1793,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -1850,16 +1813,12 @@
     - http://www.openwall.com/lists/oss-security/2023/09/22/11
     - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - http://www.openwall.com/lists/oss-security/2023/11/06/2
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-3817
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
@@ -1933,7 +1892,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -1949,16 +1908,12 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/11/1
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-5678
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=34efaef6c103d636ab507a0cc34dca4d3aecc055
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=710fee740904b6290fef0dd5536fbcedbc38ff0c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
@@ -2450,7 +2405,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2471,15 +2426,9 @@
     - http://www.openwall.com/lists/oss-security/2023/07/19/6
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - http://www.openwall.com/lists/oss-security/2024/05/16/1
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2024:0888
     - https://access.redhat.com/security/cve/CVE-2023-3446
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
-    - https://bugzilla.redhat.com/2227852
-    - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
     - https://bugzilla.redhat.com/show_bug.cgi?id=2224962
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257582
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257583
@@ -2496,7 +2445,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45233
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45235
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2024-0888.html
     - https://errata.rockylinux.org/RLSA-2024:2264
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
@@ -2563,7 +2512,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2583,16 +2532,12 @@
     - http://www.openwall.com/lists/oss-security/2023/09/22/11
     - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - http://www.openwall.com/lists/oss-security/2023/11/06/2
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-3817
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
@@ -2666,7 +2611,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2682,16 +2627,12 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/11/1
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-5678
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=34efaef6c103d636ab507a0cc34dca4d3aecc055
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=710fee740904b6290fef0dd5536fbcedbc38ff0c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
@@ -3388,40 +3329,6 @@
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
     PublishedDate: '2024-06-17T15:15:52.517Z'
     LastModifiedDate: '2024-06-20T12:44:22.977Z'
-  - VulnerabilityID: CVE-2024-5642
-    PkgID: python-unversioned-command@3.9.18-3.el9_4.1.noarch
-    PkgName: python-unversioned-command
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18-3.el9_4.1?arch=noarch&distro=redhat-9.4
-      UID: 7f37e71c310352b8
-    InstalledVersion: 3.9.18-3.el9_4.1
-    Status: affected
-    Layer:
-      Digest: sha256:2967cd99898a1bf77805bf72ce30abfdeef1340f4653f684e501f652721a2a85
-      DiffID: sha256:84f9506d27d8d786d039e20c98b78b6618a8296bd38dd2781fc8ef3de60c8cce
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-5642
-    Title: 'python: Invalid value for OpenSSL API may cause Buffer over-read when NPN is used'
-    Description: CPython 3.9 and earlier doesn't disallow configuring an empty list ("[]") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured).
-    Severity: LOW
-    VendorSeverity:
-      redhat: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 2.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/06/28/4
-    - https://access.redhat.com/security/cve/CVE-2024-5642
-    - https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e
-    - https://github.com/python/cpython/issues/121227
-    - https://github.com/python/cpython/pull/23014
-    - https://jbp.io/2024/06/27/cve-2024-5535-openssl-memory-safety.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/PLP2JI3PJY33YG6P5BZYSSNU66HASXBQ/
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-5642
-    - https://www.cve.org/CVERecord?id=CVE-2024-5642
-    PublishedDate: '2024-06-27T21:15:16.07Z'
-    LastModifiedDate: '2024-07-01T14:15:05.807Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3@3.9.18-3.el9_4.1.x86_64
     PkgName: python3
@@ -3596,40 +3503,6 @@
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
     PublishedDate: '2024-06-17T15:15:52.517Z'
     LastModifiedDate: '2024-06-20T12:44:22.977Z'
-  - VulnerabilityID: CVE-2024-5642
-    PkgID: python3@3.9.18-3.el9_4.1.x86_64
-    PkgName: python3
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.1?arch=x86_64&distro=redhat-9.4
-      UID: 645273e9b2ac0eeb
-    InstalledVersion: 3.9.18-3.el9_4.1
-    Status: affected
-    Layer:
-      Digest: sha256:2967cd99898a1bf77805bf72ce30abfdeef1340f4653f684e501f652721a2a85
-      DiffID: sha256:84f9506d27d8d786d039e20c98b78b6618a8296bd38dd2781fc8ef3de60c8cce
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-5642
-    Title: 'python: Invalid value for OpenSSL API may cause Buffer over-read when NPN is used'
-    Description: CPython 3.9 and earlier doesn't disallow configuring an empty list ("[]") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured).
-    Severity: LOW
-    VendorSeverity:
-      redhat: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 2.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/06/28/4
-    - https://access.redhat.com/security/cve/CVE-2024-5642
-    - https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e
-    - https://github.com/python/cpython/issues/121227
-    - https://github.com/python/cpython/pull/23014
-    - https://jbp.io/2024/06/27/cve-2024-5535-openssl-memory-safety.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/PLP2JI3PJY33YG6P5BZYSSNU66HASXBQ/
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-5642
-    - https://www.cve.org/CVERecord?id=CVE-2024-5642
-    PublishedDate: '2024-06-27T21:15:16.07Z'
-    LastModifiedDate: '2024-07-01T14:15:05.807Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3-libs@3.9.18-3.el9_4.1.x86_64
     PkgName: python3-libs
@@ -3804,40 +3677,6 @@
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
     PublishedDate: '2024-06-17T15:15:52.517Z'
     LastModifiedDate: '2024-06-20T12:44:22.977Z'
-  - VulnerabilityID: CVE-2024-5642
-    PkgID: python3-libs@3.9.18-3.el9_4.1.x86_64
-    PkgName: python3-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.1?arch=x86_64&distro=redhat-9.4
-      UID: ce0a20b793e1921e
-    InstalledVersion: 3.9.18-3.el9_4.1
-    Status: affected
-    Layer:
-      Digest: sha256:2967cd99898a1bf77805bf72ce30abfdeef1340f4653f684e501f652721a2a85
-      DiffID: sha256:84f9506d27d8d786d039e20c98b78b6618a8296bd38dd2781fc8ef3de60c8cce
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-5642
-    Title: 'python: Invalid value for OpenSSL API may cause Buffer over-read when NPN is used'
-    Description: CPython 3.9 and earlier doesn't disallow configuring an empty list ("[]") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured).
-    Severity: LOW
-    VendorSeverity:
-      redhat: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 2.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/06/28/4
-    - https://access.redhat.com/security/cve/CVE-2024-5642
-    - https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e
-    - https://github.com/python/cpython/issues/121227
-    - https://github.com/python/cpython/pull/23014
-    - https://jbp.io/2024/06/27/cve-2024-5535-openssl-memory-safety.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/PLP2JI3PJY33YG6P5BZYSSNU66HASXBQ/
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-5642
-    - https://www.cve.org/CVERecord?id=CVE-2024-5642
-    PublishedDate: '2024-06-27T21:15:16.07Z'
-    LastModifiedDate: '2024-07-01T14:15:05.807Z'
   - VulnerabilityID: CVE-2024-35195
     PkgID: python3-pip-wheel@21.2.3-8.el9.noarch
     PkgName: python3-pip-wheel
