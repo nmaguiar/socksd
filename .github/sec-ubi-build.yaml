@@ -1702,7 +1702,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -1815,7 +1815,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -1918,7 +1918,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2010,6 +2010,7 @@
     - CWE-787
     VendorSeverity:
       alma: 1
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
       redhat: 1
@@ -2234,6 +2235,7 @@
       The OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.
     Severity: LOW
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2437,7 +2439,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2550,7 +2552,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2653,7 +2655,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2745,6 +2747,7 @@
     - CWE-787
     VendorSeverity:
       alma: 1
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
       redhat: 1
@@ -2969,6 +2972,7 @@
       The OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.
     Severity: LOW
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
