@@ -119,11 +119,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0133
+    - https://access.redhat.com/errata/RHSA-2023:7753
     - https://access.redhat.com/security/cve/CVE-2023-37920
     - https://bugzilla.redhat.com/2226586
     - https://bugzilla.redhat.com/2242493
-    - https://errata.almalinux.org/8/ALSA-2024-0133.html
+    - https://errata.almalinux.org/9/ALSA-2023-7753.html
     - https://github.com/certifi/python-certifi
     - https://github.com/certifi/python-certifi/commit/8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909
     - https://github.com/certifi/python-certifi/security/advisories/GHSA-xqr8-7jwr-rhp7
@@ -492,7 +492,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -508,6 +508,93 @@
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
     PublishedDate: '2024-04-16T22:15:29.857Z'
     LastModifiedDate: '2024-07-03T01:46:32.57Z'
+  - VulnerabilityID: CVE-2024-21131
+    PkgID: java-21-openjdk-headless@21.0.3.0.9-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.3.0.9-1.el9?arch=x86_64&distro=redhat-9.4&epoch=1
+      UID: f28c3796f54a6242
+    InstalledVersion: 1:21.0.3.0.9-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:2967cd99898a1bf77805bf72ce30abfdeef1340f4653f684e501f652721a2a85
+      DiffID: sha256:84f9506d27d8d786d039e20c98b78b6618a8296bd38dd2781fc8ef3de60c8cce
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21131
+    Title: 'OpenJDK: potential UTF8 size overflow (8314794)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u411, 8u411-perf, 11.0.23, 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM for JDK: 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM Enterprise Edition: 20.3.14 and  21.3.10. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-21131
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21131
+    - https://www.cve.org/CVERecord?id=CVE-2024-21131
+    - https://www.oracle.com/security-alerts/cpujul2024.html
+    PublishedDate: '2024-07-16T23:15:13.21Z'
+    LastModifiedDate: '2024-07-16T23:15:13.21Z'
+  - VulnerabilityID: CVE-2024-21138
+    PkgID: java-21-openjdk-headless@21.0.3.0.9-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.3.0.9-1.el9?arch=x86_64&distro=redhat-9.4&epoch=1
+      UID: f28c3796f54a6242
+    InstalledVersion: 1:21.0.3.0.9-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:2967cd99898a1bf77805bf72ce30abfdeef1340f4653f684e501f652721a2a85
+      DiffID: sha256:84f9506d27d8d786d039e20c98b78b6618a8296bd38dd2781fc8ef3de60c8cce
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21138
+    Title: 'OpenJDK: Excessive symbol length can lead to infinite loop (8319859)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u411, 8u411-perf, 11.0.23, 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM for JDK: 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM Enterprise Edition: 20.3.14 and  21.3.10. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-21138
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21138
+    - https://www.cve.org/CVERecord?id=CVE-2024-21138
+    - https://www.oracle.com/security-alerts/cpujul2024.html
+    PublishedDate: '2024-07-16T23:15:14.62Z'
+    LastModifiedDate: '2024-07-16T23:15:14.62Z'
+  - VulnerabilityID: CVE-2024-21145
+    PkgID: java-21-openjdk-headless@21.0.3.0.9-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.3.0.9-1.el9?arch=x86_64&distro=redhat-9.4&epoch=1
+      UID: f28c3796f54a6242
+    InstalledVersion: 1:21.0.3.0.9-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:2967cd99898a1bf77805bf72ce30abfdeef1340f4653f684e501f652721a2a85
+      DiffID: sha256:84f9506d27d8d786d039e20c98b78b6618a8296bd38dd2781fc8ef3de60c8cce
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21145
+    Title: 'OpenJDK: Out-of-bounds access in 2D image handling (8324559)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u411, 8u411-perf, 11.0.23, 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM for JDK: 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM Enterprise Edition: 20.3.14 and  21.3.10. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-21145
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21145
+    - https://www.cve.org/CVERecord?id=CVE-2024-21145
+    - https://www.oracle.com/security-alerts/cpujul2024.html
+    PublishedDate: '2024-07-16T23:15:15.993Z'
+    LastModifiedDate: '2024-07-16T23:15:15.993Z'
   - VulnerabilityID: CVE-2024-26462
     PkgID: krb5-libs@1.21.1-1.el9.x86_64
     PkgName: krb5-libs
@@ -1100,7 +1187,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0894
+    - https://access.redhat.com/errata/RHSA-2024:1141
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -1177,7 +1264,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/8/ALSA-2024-0894.html
+    - https://errata.almalinux.org/9/ALSA-2024-1141.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -1387,7 +1474,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6602
     Title: 'Mozilla: Memory corruption in NSS'
-    Description: A mismatch between allocator and deallocator could have lead to memory corruption. This vulnerability affects Firefox < 128 and Firefox ESR < 115.13.
+    Description: A mismatch between allocator and deallocator could have lead to memory corruption. This vulnerability affects Firefox < 128, Firefox ESR < 115.13, Thunderbird < 115.13, and Thunderbird < 128.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
@@ -1406,8 +1493,10 @@
     - https://www.mozilla.org/en-US/security/advisories/mfsa2024-30/#CVE-2024-6602
     - https://www.mozilla.org/security/advisories/mfsa2024-29/
     - https://www.mozilla.org/security/advisories/mfsa2024-30/
+    - https://www.mozilla.org/security/advisories/mfsa2024-31/
+    - https://www.mozilla.org/security/advisories/mfsa2024-32/
     PublishedDate: '2024-07-09T15:15:12.473Z'
-    LastModifiedDate: '2024-07-11T15:06:37.333Z'
+    LastModifiedDate: '2024-07-16T18:15:08.9Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nspr@4.35.0-7.el9_4.x86_64
     PkgName: nspr
@@ -1459,7 +1548,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6602
     Title: 'Mozilla: Memory corruption in NSS'
-    Description: A mismatch between allocator and deallocator could have lead to memory corruption. This vulnerability affects Firefox < 128 and Firefox ESR < 115.13.
+    Description: A mismatch between allocator and deallocator could have lead to memory corruption. This vulnerability affects Firefox < 128, Firefox ESR < 115.13, Thunderbird < 115.13, and Thunderbird < 128.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
@@ -1478,8 +1567,10 @@
     - https://www.mozilla.org/en-US/security/advisories/mfsa2024-30/#CVE-2024-6602
     - https://www.mozilla.org/security/advisories/mfsa2024-29/
     - https://www.mozilla.org/security/advisories/mfsa2024-30/
+    - https://www.mozilla.org/security/advisories/mfsa2024-31/
+    - https://www.mozilla.org/security/advisories/mfsa2024-32/
     PublishedDate: '2024-07-09T15:15:12.473Z'
-    LastModifiedDate: '2024-07-11T15:06:37.333Z'
+    LastModifiedDate: '2024-07-16T18:15:08.9Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss@3.90.0-7.el9_4.x86_64
     PkgName: nss
@@ -1531,7 +1622,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6602
     Title: 'Mozilla: Memory corruption in NSS'
-    Description: A mismatch between allocator and deallocator could have lead to memory corruption. This vulnerability affects Firefox < 128 and Firefox ESR < 115.13.
+    Description: A mismatch between allocator and deallocator could have lead to memory corruption. This vulnerability affects Firefox < 128, Firefox ESR < 115.13, Thunderbird < 115.13, and Thunderbird < 128.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
@@ -1550,8 +1641,10 @@
     - https://www.mozilla.org/en-US/security/advisories/mfsa2024-30/#CVE-2024-6602
     - https://www.mozilla.org/security/advisories/mfsa2024-29/
     - https://www.mozilla.org/security/advisories/mfsa2024-30/
+    - https://www.mozilla.org/security/advisories/mfsa2024-31/
+    - https://www.mozilla.org/security/advisories/mfsa2024-32/
     PublishedDate: '2024-07-09T15:15:12.473Z'
-    LastModifiedDate: '2024-07-11T15:06:37.333Z'
+    LastModifiedDate: '2024-07-16T18:15:08.9Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn@3.90.0-7.el9_4.x86_64
     PkgName: nss-softokn
@@ -1603,7 +1696,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6602
     Title: 'Mozilla: Memory corruption in NSS'
-    Description: A mismatch between allocator and deallocator could have lead to memory corruption. This vulnerability affects Firefox < 128 and Firefox ESR < 115.13.
+    Description: A mismatch between allocator and deallocator could have lead to memory corruption. This vulnerability affects Firefox < 128, Firefox ESR < 115.13, Thunderbird < 115.13, and Thunderbird < 128.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
@@ -1622,8 +1715,10 @@
     - https://www.mozilla.org/en-US/security/advisories/mfsa2024-30/#CVE-2024-6602
     - https://www.mozilla.org/security/advisories/mfsa2024-29/
     - https://www.mozilla.org/security/advisories/mfsa2024-30/
+    - https://www.mozilla.org/security/advisories/mfsa2024-31/
+    - https://www.mozilla.org/security/advisories/mfsa2024-32/
     PublishedDate: '2024-07-09T15:15:12.473Z'
-    LastModifiedDate: '2024-07-11T15:06:37.333Z'
+    LastModifiedDate: '2024-07-16T18:15:08.9Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn-freebl@3.90.0-7.el9_4.x86_64
     PkgName: nss-softokn-freebl
@@ -1675,7 +1770,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6602
     Title: 'Mozilla: Memory corruption in NSS'
-    Description: A mismatch between allocator and deallocator could have lead to memory corruption. This vulnerability affects Firefox < 128 and Firefox ESR < 115.13.
+    Description: A mismatch between allocator and deallocator could have lead to memory corruption. This vulnerability affects Firefox < 128, Firefox ESR < 115.13, Thunderbird < 115.13, and Thunderbird < 128.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
@@ -1694,8 +1789,10 @@
     - https://www.mozilla.org/en-US/security/advisories/mfsa2024-30/#CVE-2024-6602
     - https://www.mozilla.org/security/advisories/mfsa2024-29/
     - https://www.mozilla.org/security/advisories/mfsa2024-30/
+    - https://www.mozilla.org/security/advisories/mfsa2024-31/
+    - https://www.mozilla.org/security/advisories/mfsa2024-32/
     PublishedDate: '2024-07-09T15:15:12.473Z'
-    LastModifiedDate: '2024-07-11T15:06:37.333Z'
+    LastModifiedDate: '2024-07-16T18:15:08.9Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-sysinit@3.90.0-7.el9_4.x86_64
     PkgName: nss-sysinit
@@ -1747,7 +1844,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6602
     Title: 'Mozilla: Memory corruption in NSS'
-    Description: A mismatch between allocator and deallocator could have lead to memory corruption. This vulnerability affects Firefox < 128 and Firefox ESR < 115.13.
+    Description: A mismatch between allocator and deallocator could have lead to memory corruption. This vulnerability affects Firefox < 128, Firefox ESR < 115.13, Thunderbird < 115.13, and Thunderbird < 128.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
@@ -1766,8 +1863,10 @@
     - https://www.mozilla.org/en-US/security/advisories/mfsa2024-30/#CVE-2024-6602
     - https://www.mozilla.org/security/advisories/mfsa2024-29/
     - https://www.mozilla.org/security/advisories/mfsa2024-30/
+    - https://www.mozilla.org/security/advisories/mfsa2024-31/
+    - https://www.mozilla.org/security/advisories/mfsa2024-32/
     PublishedDate: '2024-07-09T15:15:12.473Z'
-    LastModifiedDate: '2024-07-11T15:06:37.333Z'
+    LastModifiedDate: '2024-07-16T18:15:08.9Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-util@3.90.0-7.el9_4.x86_64
     PkgName: nss-util
@@ -1933,9 +2032,15 @@
     - http://www.openwall.com/lists/oss-security/2023/07/19/6
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - http://www.openwall.com/lists/oss-security/2024/05/16/1
-    - https://access.redhat.com/errata/RHSA-2024:0888
+    - https://access.redhat.com/errata/RHSA-2024:2447
     - https://access.redhat.com/security/cve/CVE-2023-3446
+    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
+    - https://bugzilla.redhat.com/2227852
+    - https://bugzilla.redhat.com/2248616
+    - https://bugzilla.redhat.com/2257571
+    - https://bugzilla.redhat.com/2258502
+    - https://bugzilla.redhat.com/2259944
     - https://bugzilla.redhat.com/show_bug.cgi?id=2224962
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257582
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257583
@@ -1952,7 +2057,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45233
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45235
-    - https://errata.almalinux.org/8/ALSA-2024-0888.html
+    - https://errata.almalinux.org/9/ALSA-2024-2447.html
     - https://errata.rockylinux.org/RLSA-2024:2264
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
@@ -2039,12 +2144,16 @@
     - http://www.openwall.com/lists/oss-security/2023/09/22/11
     - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - http://www.openwall.com/lists/oss-security/2023/11/06/2
-    - https://access.redhat.com/errata/RHSA-2023:7877
+    - https://access.redhat.com/errata/RHSA-2024:2447
     - https://access.redhat.com/security/cve/CVE-2023-3817
+    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://errata.almalinux.org/8/ALSA-2023-7877.html
+    - https://bugzilla.redhat.com/2257571
+    - https://bugzilla.redhat.com/2258502
+    - https://bugzilla.redhat.com/2259944
+    - https://errata.almalinux.org/9/ALSA-2024-2447.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
@@ -2134,12 +2243,16 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/11/1
-    - https://access.redhat.com/errata/RHSA-2023:7877
+    - https://access.redhat.com/errata/RHSA-2024:2447
     - https://access.redhat.com/security/cve/CVE-2023-5678
+    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://errata.almalinux.org/8/ALSA-2023-7877.html
+    - https://bugzilla.redhat.com/2257571
+    - https://bugzilla.redhat.com/2258502
+    - https://bugzilla.redhat.com/2259944
+    - https://errata.almalinux.org/9/ALSA-2024-2447.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=34efaef6c103d636ab507a0cc34dca4d3aecc055
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=710fee740904b6290fef0dd5536fbcedbc38ff0c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
@@ -2656,9 +2769,15 @@
     - http://www.openwall.com/lists/oss-security/2023/07/19/6
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - http://www.openwall.com/lists/oss-security/2024/05/16/1
-    - https://access.redhat.com/errata/RHSA-2024:0888
+    - https://access.redhat.com/errata/RHSA-2024:2447
     - https://access.redhat.com/security/cve/CVE-2023-3446
+    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
+    - https://bugzilla.redhat.com/2227852
+    - https://bugzilla.redhat.com/2248616
+    - https://bugzilla.redhat.com/2257571
+    - https://bugzilla.redhat.com/2258502
+    - https://bugzilla.redhat.com/2259944
     - https://bugzilla.redhat.com/show_bug.cgi?id=2224962
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257582
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257583
@@ -2675,7 +2794,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45233
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45235
-    - https://errata.almalinux.org/8/ALSA-2024-0888.html
+    - https://errata.almalinux.org/9/ALSA-2024-2447.html
     - https://errata.rockylinux.org/RLSA-2024:2264
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
@@ -2762,12 +2881,16 @@
     - http://www.openwall.com/lists/oss-security/2023/09/22/11
     - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - http://www.openwall.com/lists/oss-security/2023/11/06/2
-    - https://access.redhat.com/errata/RHSA-2023:7877
+    - https://access.redhat.com/errata/RHSA-2024:2447
     - https://access.redhat.com/security/cve/CVE-2023-3817
+    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://errata.almalinux.org/8/ALSA-2023-7877.html
+    - https://bugzilla.redhat.com/2257571
+    - https://bugzilla.redhat.com/2258502
+    - https://bugzilla.redhat.com/2259944
+    - https://errata.almalinux.org/9/ALSA-2024-2447.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
@@ -2857,12 +2980,16 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/11/1
-    - https://access.redhat.com/errata/RHSA-2023:7877
+    - https://access.redhat.com/errata/RHSA-2024:2447
     - https://access.redhat.com/security/cve/CVE-2023-5678
+    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://errata.almalinux.org/8/ALSA-2023-7877.html
+    - https://bugzilla.redhat.com/2257571
+    - https://bugzilla.redhat.com/2258502
+    - https://bugzilla.redhat.com/2259944
+    - https://errata.almalinux.org/9/ALSA-2024-2447.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=34efaef6c103d636ab507a0cc34dca4d3aecc055
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=710fee740904b6290fef0dd5536fbcedbc38ff0c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
