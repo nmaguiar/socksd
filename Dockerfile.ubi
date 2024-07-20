@@ -10,7 +10,9 @@ RUN curl https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm 
  && microdnf clean all
 
 USER 1000
-RUN /openaf/opack install SocksServer\
+RUN cd /openaf\
+ && java -jar openaf.jar --install\
+ && /openaf/opack install SocksServer\
  && /openaf/opack erase S3\
  && sed -i '/^- s3.yaml$/d' /openaf/entrypoint.yaml\
  && sed -i '/- S3$/d' /openaf/entrypoint.yaml
