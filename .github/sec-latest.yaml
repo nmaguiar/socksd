@@ -38,14 +38,15 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://linux.oracle.com/cve/CVE-2024-21147.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21147
+    - https://security.netapp.com/advisory/ntap-20240719-0008/
     - https://www.cve.org/CVERecord?id=CVE-2024-21147
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:16.377Z'
-    LastModifiedDate: '2024-07-17T13:34:20.52Z'
+    LastModifiedDate: '2024-07-19T14:15:05.667Z'
   - VulnerabilityID: CVE-2024-21140
     PkgID: openjdk21-jre@21.0.3_p9-r0
     PkgName: openjdk21-jre
@@ -82,14 +83,15 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://linux.oracle.com/cve/CVE-2024-21140.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21140
+    - https://security.netapp.com/advisory/ntap-20240719-0008/
     - https://www.cve.org/CVERecord?id=CVE-2024-21140
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:15.043Z'
-    LastModifiedDate: '2024-07-17T13:34:20.52Z'
+    LastModifiedDate: '2024-07-19T14:15:05.4Z'
   - VulnerabilityID: CVE-2024-21145
     PkgID: openjdk21-jre@21.0.3_p9-r0
     PkgName: openjdk21-jre
@@ -126,14 +128,15 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://linux.oracle.com/cve/CVE-2024-21145.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21145
+    - https://security.netapp.com/advisory/ntap-20240719-0008/
     - https://www.cve.org/CVERecord?id=CVE-2024-21145
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:15.993Z'
-    LastModifiedDate: '2024-07-17T13:34:20.52Z'
+    LastModifiedDate: '2024-07-19T14:15:05.58Z'
   - VulnerabilityID: CVE-2024-21131
     PkgID: openjdk21-jre@21.0.3_p9-r0
     PkgName: openjdk21-jre
@@ -170,14 +173,15 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://linux.oracle.com/cve/CVE-2024-21131.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21131
+    - https://security.netapp.com/advisory/ntap-20240719-0008/
     - https://www.cve.org/CVERecord?id=CVE-2024-21131
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:13.21Z'
-    LastModifiedDate: '2024-07-17T13:34:20.52Z'
+    LastModifiedDate: '2024-07-19T14:15:05.18Z'
   - VulnerabilityID: CVE-2024-21138
     PkgID: openjdk21-jre@21.0.3_p9-r0
     PkgName: openjdk21-jre
@@ -214,14 +218,15 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://linux.oracle.com/cve/CVE-2024-21138.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21138
+    - https://security.netapp.com/advisory/ntap-20240719-0008/
     - https://www.cve.org/CVERecord?id=CVE-2024-21138
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:14.62Z'
-    LastModifiedDate: '2024-07-17T13:34:20.52Z'
+    LastModifiedDate: '2024-07-19T14:15:05.29Z'
   - VulnerabilityID: CVE-2024-21147
     PkgID: openjdk21-jre-headless@21.0.3_p9-r0
     PkgName: openjdk21-jre-headless
@@ -258,14 +263,15 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://linux.oracle.com/cve/CVE-2024-21147.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21147
+    - https://security.netapp.com/advisory/ntap-20240719-0008/
     - https://www.cve.org/CVERecord?id=CVE-2024-21147
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:16.377Z'
-    LastModifiedDate: '2024-07-17T13:34:20.52Z'
+    LastModifiedDate: '2024-07-19T14:15:05.667Z'
   - VulnerabilityID: CVE-2024-21140
     PkgID: openjdk21-jre-headless@21.0.3_p9-r0
     PkgName: openjdk21-jre-headless
@@ -302,14 +308,15 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://linux.oracle.com/cve/CVE-2024-21140.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21140
+    - https://security.netapp.com/advisory/ntap-20240719-0008/
     - https://www.cve.org/CVERecord?id=CVE-2024-21140
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:15.043Z'
-    LastModifiedDate: '2024-07-17T13:34:20.52Z'
+    LastModifiedDate: '2024-07-19T14:15:05.4Z'
   - VulnerabilityID: CVE-2024-21145
     PkgID: openjdk21-jre-headless@21.0.3_p9-r0
     PkgName: openjdk21-jre-headless
@@ -346,14 +353,15 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://linux.oracle.com/cve/CVE-2024-21145.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21145
+    - https://security.netapp.com/advisory/ntap-20240719-0008/
     - https://www.cve.org/CVERecord?id=CVE-2024-21145
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:15.993Z'
-    LastModifiedDate: '2024-07-17T13:34:20.52Z'
+    LastModifiedDate: '2024-07-19T14:15:05.58Z'
   - VulnerabilityID: CVE-2024-21131
     PkgID: openjdk21-jre-headless@21.0.3_p9-r0
     PkgName: openjdk21-jre-headless
@@ -390,14 +398,15 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://linux.oracle.com/cve/CVE-2024-21131.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21131
+    - https://security.netapp.com/advisory/ntap-20240719-0008/
     - https://www.cve.org/CVERecord?id=CVE-2024-21131
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:13.21Z'
-    LastModifiedDate: '2024-07-17T13:34:20.52Z'
+    LastModifiedDate: '2024-07-19T14:15:05.18Z'
   - VulnerabilityID: CVE-2024-21138
     PkgID: openjdk21-jre-headless@21.0.3_p9-r0
     PkgName: openjdk21-jre-headless
@@ -434,14 +443,15 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://linux.oracle.com/cve/CVE-2024-21138.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21138
+    - https://security.netapp.com/advisory/ntap-20240719-0008/
     - https://www.cve.org/CVERecord?id=CVE-2024-21138
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:14.62Z'
-    LastModifiedDate: '2024-07-17T13:34:20.52Z'
+    LastModifiedDate: '2024-07-19T14:15:05.29Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
