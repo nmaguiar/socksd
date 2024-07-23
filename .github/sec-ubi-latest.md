@@ -267,6 +267,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-252 
 │                       │      │                  ╰ [1]: CWE-59 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
@@ -695,7 +696,8 @@
 │                       │      │                    krb5 wrap token, causing the unwrapped token to appear
 │                       │      │                   truncated to the application. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ redhat: 2 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37370 
 │                       │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd
 │                       │      │                  │      8101669b1ce7144bc96fef 
@@ -724,7 +726,8 @@
 │                       │      │                   cause invalid memory reads during GSS message token handling
 │                       │      │                    by sending message tokens with invalid length fields. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ redhat: 2 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37371 
 │                       │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd
 │                       │      │                  │      8101669b1ce7144bc96fef 
@@ -1627,20 +1630,21 @@
 │                       │      │                  ├ [1] : https://bugzilla.mozilla.org/show_bug.cgi?id=1895032 
 │                       │      │                  ├ [2] : https://nvd.nist.gov/vuln/detail/CVE-2024-6602 
 │                       │      │                  ├ [3] : https://ubuntu.com/security/notices/USN-6890-1 
-│                       │      │                  ├ [4] : https://www.cve.org/CVERecord?id=CVE-2024-6602 
-│                       │      │                  ├ [5] : https://www.mozilla.org/en-US/security/advisories/mfs
-│                       │      │                  │       a2024-29/#CVE-2024-6602 
+│                       │      │                  ├ [4] : https://ubuntu.com/security/notices/USN-6903-1 
+│                       │      │                  ├ [5] : https://www.cve.org/CVERecord?id=CVE-2024-6602 
 │                       │      │                  ├ [6] : https://www.mozilla.org/en-US/security/advisories/mfs
-│                       │      │                  │       a2024-30/#CVE-2024-6602 
+│                       │      │                  │       a2024-29/#CVE-2024-6602 
 │                       │      │                  ├ [7] : https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │      │                  │       a2024-30/#CVE-2024-6602 
+│                       │      │                  ├ [8] : https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │      │                  │       a2024-31/#CVE-2024-6602 
-│                       │      │                  ├ [8] : https://www.mozilla.org/security/advisories/mfsa2024-
-│                       │      │                  │       29/ 
 │                       │      │                  ├ [9] : https://www.mozilla.org/security/advisories/mfsa2024-
-│                       │      │                  │       30/ 
+│                       │      │                  │       29/ 
 │                       │      │                  ├ [10]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │      │                  │       30/ 
+│                       │      │                  ├ [11]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │      │                  │       31/ 
-│                       │      │                  ╰ [11]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │      │                  ╰ [12]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │      │                          32/ 
 │                       │      ├ PublishedDate   : 2024-07-09T15:15:12.473Z 
 │                       │      ╰ LastModifiedDate: 2024-07-16T18:15:08.9Z 
@@ -1712,20 +1716,21 @@
 │                       │      │                  ├ [1] : https://bugzilla.mozilla.org/show_bug.cgi?id=1895032 
 │                       │      │                  ├ [2] : https://nvd.nist.gov/vuln/detail/CVE-2024-6602 
 │                       │      │                  ├ [3] : https://ubuntu.com/security/notices/USN-6890-1 
-│                       │      │                  ├ [4] : https://www.cve.org/CVERecord?id=CVE-2024-6602 
-│                       │      │                  ├ [5] : https://www.mozilla.org/en-US/security/advisories/mfs
-│                       │      │                  │       a2024-29/#CVE-2024-6602 
+│                       │      │                  ├ [4] : https://ubuntu.com/security/notices/USN-6903-1 
+│                       │      │                  ├ [5] : https://www.cve.org/CVERecord?id=CVE-2024-6602 
 │                       │      │                  ├ [6] : https://www.mozilla.org/en-US/security/advisories/mfs
-│                       │      │                  │       a2024-30/#CVE-2024-6602 
+│                       │      │                  │       a2024-29/#CVE-2024-6602 
 │                       │      │                  ├ [7] : https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │      │                  │       a2024-30/#CVE-2024-6602 
+│                       │      │                  ├ [8] : https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │      │                  │       a2024-31/#CVE-2024-6602 
-│                       │      │                  ├ [8] : https://www.mozilla.org/security/advisories/mfsa2024-
-│                       │      │                  │       29/ 
 │                       │      │                  ├ [9] : https://www.mozilla.org/security/advisories/mfsa2024-
-│                       │      │                  │       30/ 
+│                       │      │                  │       29/ 
 │                       │      │                  ├ [10]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │      │                  │       30/ 
+│                       │      │                  ├ [11]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │      │                  │       31/ 
-│                       │      │                  ╰ [11]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │      │                  ╰ [12]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │      │                          32/ 
 │                       │      ├ PublishedDate   : 2024-07-09T15:15:12.473Z 
 │                       │      ╰ LastModifiedDate: 2024-07-16T18:15:08.9Z 
@@ -1797,20 +1802,21 @@
 │                       │      │                  ├ [1] : https://bugzilla.mozilla.org/show_bug.cgi?id=1895032 
 │                       │      │                  ├ [2] : https://nvd.nist.gov/vuln/detail/CVE-2024-6602 
 │                       │      │                  ├ [3] : https://ubuntu.com/security/notices/USN-6890-1 
-│                       │      │                  ├ [4] : https://www.cve.org/CVERecord?id=CVE-2024-6602 
-│                       │      │                  ├ [5] : https://www.mozilla.org/en-US/security/advisories/mfs
-│                       │      │                  │       a2024-29/#CVE-2024-6602 
+│                       │      │                  ├ [4] : https://ubuntu.com/security/notices/USN-6903-1 
+│                       │      │                  ├ [5] : https://www.cve.org/CVERecord?id=CVE-2024-6602 
 │                       │      │                  ├ [6] : https://www.mozilla.org/en-US/security/advisories/mfs
-│                       │      │                  │       a2024-30/#CVE-2024-6602 
+│                       │      │                  │       a2024-29/#CVE-2024-6602 
 │                       │      │                  ├ [7] : https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │      │                  │       a2024-30/#CVE-2024-6602 
+│                       │      │                  ├ [8] : https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │      │                  │       a2024-31/#CVE-2024-6602 
-│                       │      │                  ├ [8] : https://www.mozilla.org/security/advisories/mfsa2024-
-│                       │      │                  │       29/ 
 │                       │      │                  ├ [9] : https://www.mozilla.org/security/advisories/mfsa2024-
-│                       │      │                  │       30/ 
+│                       │      │                  │       29/ 
 │                       │      │                  ├ [10]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │      │                  │       30/ 
+│                       │      │                  ├ [11]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │      │                  │       31/ 
-│                       │      │                  ╰ [11]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │      │                  ╰ [12]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │      │                          32/ 
 │                       │      ├ PublishedDate   : 2024-07-09T15:15:12.473Z 
 │                       │      ╰ LastModifiedDate: 2024-07-16T18:15:08.9Z 
@@ -1882,20 +1888,21 @@
 │                       │      │                  ├ [1] : https://bugzilla.mozilla.org/show_bug.cgi?id=1895032 
 │                       │      │                  ├ [2] : https://nvd.nist.gov/vuln/detail/CVE-2024-6602 
 │                       │      │                  ├ [3] : https://ubuntu.com/security/notices/USN-6890-1 
-│                       │      │                  ├ [4] : https://www.cve.org/CVERecord?id=CVE-2024-6602 
-│                       │      │                  ├ [5] : https://www.mozilla.org/en-US/security/advisories/mfs
-│                       │      │                  │       a2024-29/#CVE-2024-6602 
+│                       │      │                  ├ [4] : https://ubuntu.com/security/notices/USN-6903-1 
+│                       │      │                  ├ [5] : https://www.cve.org/CVERecord?id=CVE-2024-6602 
 │                       │      │                  ├ [6] : https://www.mozilla.org/en-US/security/advisories/mfs
-│                       │      │                  │       a2024-30/#CVE-2024-6602 
+│                       │      │                  │       a2024-29/#CVE-2024-6602 
 │                       │      │                  ├ [7] : https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │      │                  │       a2024-30/#CVE-2024-6602 
+│                       │      │                  ├ [8] : https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │      │                  │       a2024-31/#CVE-2024-6602 
-│                       │      │                  ├ [8] : https://www.mozilla.org/security/advisories/mfsa2024-
-│                       │      │                  │       29/ 
 │                       │      │                  ├ [9] : https://www.mozilla.org/security/advisories/mfsa2024-
-│                       │      │                  │       30/ 
+│                       │      │                  │       29/ 
 │                       │      │                  ├ [10]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │      │                  │       30/ 
+│                       │      │                  ├ [11]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │      │                  │       31/ 
-│                       │      │                  ╰ [11]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │      │                  ╰ [12]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │      │                          32/ 
 │                       │      ├ PublishedDate   : 2024-07-09T15:15:12.473Z 
 │                       │      ╰ LastModifiedDate: 2024-07-16T18:15:08.9Z 
@@ -1967,20 +1974,21 @@
 │                       │      │                  ├ [1] : https://bugzilla.mozilla.org/show_bug.cgi?id=1895032 
 │                       │      │                  ├ [2] : https://nvd.nist.gov/vuln/detail/CVE-2024-6602 
 │                       │      │                  ├ [3] : https://ubuntu.com/security/notices/USN-6890-1 
-│                       │      │                  ├ [4] : https://www.cve.org/CVERecord?id=CVE-2024-6602 
-│                       │      │                  ├ [5] : https://www.mozilla.org/en-US/security/advisories/mfs
-│                       │      │                  │       a2024-29/#CVE-2024-6602 
+│                       │      │                  ├ [4] : https://ubuntu.com/security/notices/USN-6903-1 
+│                       │      │                  ├ [5] : https://www.cve.org/CVERecord?id=CVE-2024-6602 
 │                       │      │                  ├ [6] : https://www.mozilla.org/en-US/security/advisories/mfs
-│                       │      │                  │       a2024-30/#CVE-2024-6602 
+│                       │      │                  │       a2024-29/#CVE-2024-6602 
 │                       │      │                  ├ [7] : https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │      │                  │       a2024-30/#CVE-2024-6602 
+│                       │      │                  ├ [8] : https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │      │                  │       a2024-31/#CVE-2024-6602 
-│                       │      │                  ├ [8] : https://www.mozilla.org/security/advisories/mfsa2024-
-│                       │      │                  │       29/ 
 │                       │      │                  ├ [9] : https://www.mozilla.org/security/advisories/mfsa2024-
-│                       │      │                  │       30/ 
+│                       │      │                  │       29/ 
 │                       │      │                  ├ [10]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │      │                  │       30/ 
+│                       │      │                  ├ [11]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │      │                  │       31/ 
-│                       │      │                  ╰ [11]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │      │                  ╰ [12]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │      │                          32/ 
 │                       │      ├ PublishedDate   : 2024-07-09T15:15:12.473Z 
 │                       │      ╰ LastModifiedDate: 2024-07-16T18:15:08.9Z 
@@ -2052,20 +2060,21 @@
 │                       │      │                  ├ [1] : https://bugzilla.mozilla.org/show_bug.cgi?id=1895032 
 │                       │      │                  ├ [2] : https://nvd.nist.gov/vuln/detail/CVE-2024-6602 
 │                       │      │                  ├ [3] : https://ubuntu.com/security/notices/USN-6890-1 
-│                       │      │                  ├ [4] : https://www.cve.org/CVERecord?id=CVE-2024-6602 
-│                       │      │                  ├ [5] : https://www.mozilla.org/en-US/security/advisories/mfs
-│                       │      │                  │       a2024-29/#CVE-2024-6602 
+│                       │      │                  ├ [4] : https://ubuntu.com/security/notices/USN-6903-1 
+│                       │      │                  ├ [5] : https://www.cve.org/CVERecord?id=CVE-2024-6602 
 │                       │      │                  ├ [6] : https://www.mozilla.org/en-US/security/advisories/mfs
-│                       │      │                  │       a2024-30/#CVE-2024-6602 
+│                       │      │                  │       a2024-29/#CVE-2024-6602 
 │                       │      │                  ├ [7] : https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │      │                  │       a2024-30/#CVE-2024-6602 
+│                       │      │                  ├ [8] : https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │      │                  │       a2024-31/#CVE-2024-6602 
-│                       │      │                  ├ [8] : https://www.mozilla.org/security/advisories/mfsa2024-
-│                       │      │                  │       29/ 
 │                       │      │                  ├ [9] : https://www.mozilla.org/security/advisories/mfsa2024-
-│                       │      │                  │       30/ 
+│                       │      │                  │       29/ 
 │                       │      │                  ├ [10]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │      │                  │       30/ 
+│                       │      │                  ├ [11]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │      │                  │       31/ 
-│                       │      │                  ╰ [11]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │      │                  ╰ [12]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │      │                          32/ 
 │                       │      ├ PublishedDate   : 2024-07-09T15:15:12.473Z 
 │                       │      ╰ LastModifiedDate: 2024-07-16T18:15:08.9Z 
@@ -2231,7 +2240,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2370,7 +2379,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -2501,7 +2510,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3083,7 +3092,8 @@
 │                       │      │                   become available. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-200 
-│                       │      ├ VendorSeverity   ╭ photon: 4 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ photon: 4 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
@@ -3176,7 +3186,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -3315,7 +3325,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3446,7 +3456,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -4028,7 +4038,8 @@
 │                       │      │                   become available. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-200 
-│                       │      ├ VendorSeverity   ╭ photon: 4 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ photon: 4 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
@@ -5006,7 +5017,53 @@
 │                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujul2022.html 
 │                       │      ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │      ╰ LastModifiedDate: 2024-06-21T19:15:20.04Z 
-│                       ├ [74] ╭ VulnerabilityID : CVE-2023-36191 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2024-6345 
+│                       │      ├ PkgID           : python3-setuptools-wheel@53.0.0-12.el9.noarch 
+│                       │      ├ PkgName         : python3-setuptools-wheel 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-setuptools-wheel@53.0.0-12.el9
+│                       │      │                  │       ?arch=noarch&distro=redhat-9.4 
+│                       │      │                  ╰ UID : 786cafda3d5b3a32 
+│                       │      ├ InstalledVersion: 53.0.0-12.el9 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db4
+│                       │      │                  │         47109f2d8554529c60ac 
+│                       │      │                  ╰ DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac
+│                       │      │                            9a1f3349406ccf0981e9 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6345 
+│                       │      ├ Title           : pypa/setuptools: Remote code execution via download
+│                       │      │                   functions in the package_index module in pypa/setuptools 
+│                       │      ├ Description     : A vulnerability in the package_index module of
+│                       │      │                   pypa/setuptools versions up to 69.1.1 allows for remote code
+│                       │      │                    execution via its download functions. These functions,
+│                       │      │                   which are used to download packages from URLs provided by
+│                       │      │                   users or retrieved from package index servers, are
+│                       │      │                   susceptible to code injection. If these functions are
+│                       │      │                   exposed to user-controlled inputs, such as package URLs,
+│                       │      │                   they can execute arbitrary commands on the system. The issue
+│                       │      │                    is fixed in version 70.0. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-94 
+│                       │      ├ VendorSeverity   ╭ ghsa  : 3 
+│                       │      │                  ╰ redhat: 3 
+│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 8.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 8.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6345 
+│                       │      │                  ├ [1]: https://github.com/pypa/setuptools 
+│                       │      │                  ├ [2]: https://github.com/pypa/setuptools/commit/88807c706278
+│                       │      │                  │      8254f654ea8c03427adc859321f0 
+│                       │      │                  ├ [3]: https://github.com/pypa/setuptools/pull/4332 
+│                       │      │                  ├ [4]: https://huntr.com/bounties/d6362117-ad57-4e83-951f-b81
+│                       │      │                  │      41c6e7ca5 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6345 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6345 
+│                       │      ├ PublishedDate   : 2024-07-15T01:15:01.73Z 
+│                       │      ╰ LastModifiedDate: 2024-07-15T13:00:34.853Z 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2023-36191 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_64
@@ -5038,7 +5095,7 @@
 │                       │      │                  ╰ [3]: https://www.sqlite.org/forum/forumpost/19f55ef73b 
 │                       │      ├ PublishedDate   : 2023-06-23T02:15:09.597Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T04:16:25.153Z 
-│                       ├ [75] ╭ VulnerabilityID : CVE-2024-0232 
+│                       ├ [76] ╭ VulnerabilityID : CVE-2024-0232 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_64
@@ -5083,7 +5140,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
 │                       │      ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.56Z 
-│                       ├ [76] ╭ VulnerabilityID : CVE-2021-3997 
+│                       ├ [77] ╭ VulnerabilityID : CVE-2021-3997 
 │                       │      ├ PkgID           : systemd-libs@252-32.el9_4.x86_64 
 │                       │      ├ PkgName         : systemd-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-32.el9_4?arch=x86_64&
@@ -5127,7 +5184,7 @@
 │                       │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2022/01/10/2 
 │                       │      ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:15.95Z 
-│                       ├ [77] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [78] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │      ├ PkgID           : tar@1.34-6.el9_1.x86_64 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&distro=re
@@ -5163,7 +5220,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T01:57:39.453Z 
-│                       ╰ [78] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ╰ [79] ╭ VulnerabilityID : CVE-2023-39804 
 │                              ├ PkgID           : tar@1.34-6.el9_1.x86_64 
 │                              ├ PkgName         : tar 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&distro=re
@@ -5201,7 +5258,139 @@
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-39804 
 │                              ├ PublishedDate   : 2024-03-27T04:15:08.897Z 
 │                              ╰ LastModifiedDate: 2024-03-27T12:29:30.307Z 
-╰ [1] ╭ Target: Java 
-      ├ Class : lang-pkgs 
-      ╰ Type  : jar 
+╰ [1] ╭ Target         : Java 
+      ├ Class          : lang-pkgs 
+      ├ Type           : jar 
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-25638 
+                        │     ├ PkgName         : dnsjava:dnsjava 
+                        │     ├ PkgPath         : openaf/openaf.jar 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/dnsjava/dnsjava@3.5.3 
+                        │     │                  ╰ UID : fcd3d0c2bf50859 
+                        │     ├ InstalledVersion: 3.5.3 
+                        │     ├ FixedVersion    : 3.6.0 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db44
+                        │     │                  │         7109f2d8554529c60ac 
+                        │     │                  ╰ DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac9
+                        │     │                            a1f3349406ccf0981e9 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-25638 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Maven 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                        │     │                          osystem%3Amaven 
+                        │     ├ Title           : dnsjava: Improper response validation allowing DNSSEC bypass 
+                        │     ├ Description     : dnsjava is an implementation of DNS in Java. Records in DNS
+                        │     │                   replies are not checked for their relevance to the query,
+                        │     │                   allowing an attacker to respond with RRs from different
+                        │     │                   zones. This vulnerability is fixed in 3.6.0. 
+                        │     ├ Severity        : HIGH 
+                        │     ├ CweIDs           ╭ [0]: CWE-345 
+                        │     │                  ╰ [1]: CWE-349 
+                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ╰ redhat: 3 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/
+                        │     │                  │        │           A:L 
+                        │     │                  │        ╰ V3Score : 8.9 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/
+                        │     │                           │           A:L 
+                        │     │                           ╰ V3Score : 8.9 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-25638 
+                        │     │                  ├ [1]: https://github.com/dnsjava/dnsjava 
+                        │     │                  ├ [2]: https://github.com/dnsjava/dnsjava/commit/bc51df1c455e6
+                        │     │                  │      c9fb7cbd42fcb6d62d16047818d 
+                        │     │                  ├ [3]: https://github.com/dnsjava/dnsjava/security/advisories/
+                        │     │                  │      GHSA-cfxw-4h78-h7fw 
+                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-25638 
+                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-25638 
+                        │     ├ PublishedDate   : 2024-07-22T14:15:04.593Z 
+                        │     ╰ LastModifiedDate: 2024-07-22T14:15:04.593Z 
+                        ├ [1] ╭ VulnerabilityID : GHSA-crjg-w57m-rqqf 
+                        │     ├ PkgName         : dnsjava:dnsjava 
+                        │     ├ PkgPath         : openaf/openaf.jar 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/dnsjava/dnsjava@3.5.3 
+                        │     │                  ╰ UID : fcd3d0c2bf50859 
+                        │     ├ InstalledVersion: 3.5.3 
+                        │     ├ FixedVersion    : 3.6.0 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db44
+                        │     │                  │         7109f2d8554529c60ac 
+                        │     │                  ╰ DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac9
+                        │     │                            a1f3349406ccf0981e9 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://github.com/advisories/GHSA-crjg-w57m-rqqf 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Maven 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                        │     │                          osystem%3Amaven 
+                        │     ├ Title           : DNSJava vulnerable to KeyTrap - Denial-of-Service Algorithmic
+                        │     │                    Complexity Attacks 
+                        │     ├ Description     : ### Impact
+                        │     │                   Users using the `ValidatingResolver` for DNSSEC validation
+                        │     │                   can run into CPU exhaustion with specially crafted
+                        │     │                   DNSSEC-signed zones.
+                        │     │                   
+                        │     │                   ### Patches
+                        │     │                   Users should upgrade to dnsjava v3.6.0
+                        │     │                   
+                        │     │                   ### Workarounds
+                        │     │                   Although not recommended, only using a non-validating
+                        │     │                   resolver, will remove the vulnerability. 
+                        │     │                   
+                        │     │                   ### References
+                        │     │                   https://www.athene-center.de/en/keytrap 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ VendorSeverity   ─ ghsa: 2 
+                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+                        │     │                         ╰ V3Score : 6.5 
+                        │     ╰ References       ╭ [0]: https://github.com/dnsjava/dnsjava 
+                        │                        ├ [1]: https://github.com/dnsjava/dnsjava/commit/07ac36a11578c
+                        │                        │      c1bce0cd8ddf2fe568f062aee78 
+                        │                        ├ [2]: https://github.com/dnsjava/dnsjava/commit/3ddc45ce8cdb5
+                        │                        │      c2274e10b7401416f497694e1cf 
+                        │                        ╰ [3]: https://github.com/dnsjava/dnsjava/security/advisories/
+                        │                               GHSA-crjg-w57m-rqqf 
+                        ╰ [2] ╭ VulnerabilityID : GHSA-mmwx-rj87-vfgr 
+                              ├ PkgName         : dnsjava:dnsjava 
+                              ├ PkgPath         : openaf/openaf.jar 
+                              ├ PkgIdentifier    ╭ PURL: pkg:maven/dnsjava/dnsjava@3.5.3 
+                              │                  ╰ UID : fcd3d0c2bf50859 
+                              ├ InstalledVersion: 3.5.3 
+                              ├ FixedVersion    : 3.6.0 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db44
+                              │                  │         7109f2d8554529c60ac 
+                              │                  ╰ DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac9
+                              │                            a1f3349406ccf0981e9 
+                              ├ SeveritySource  : ghsa 
+                              ├ PrimaryURL      : https://github.com/advisories/GHSA-mmwx-rj87-vfgr 
+                              ├ DataSource       ╭ ID  : ghsa 
+                              │                  ├ Name: GitHub Security Advisory Maven 
+                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                              │                          osystem%3Amaven 
+                              ├ Title           : DNSJava affected by KeyTrap - NSEC3 closest encloser proof
+                              │                   can exhaust CPU resources 
+                              ├ Description     : ### Impact
+                              │                   Users using the `ValidatingResolver` for DNSSEC validation
+                              │                   can run into CPU exhaustion with specially crafted
+                              │                   DNSSEC-signed zones.
+                              │                   
+                              │                   ### Patches
+                              │                   Users should upgrade to dnsjava v3.6.0
+                              │                   
+                              │                   ### Workarounds
+                              │                   Although not recommended, only using a non-validating
+                              │                   resolver, will remove the vulnerability.
+                              │                   
+                              │                   ### References
+                              │                   https://www.athene-center.de/en/keytrap 
+                              ├ Severity        : MEDIUM 
+                              ├ VendorSeverity   ─ ghsa: 2 
+                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+                              │                         ╰ V3Score : 6.5 
+                              ╰ References       ╭ [0]: https://github.com/dnsjava/dnsjava 
+                                                 ├ [1]: https://github.com/dnsjava/dnsjava/commit/711af79be3214
+                                                 │      f52daa5c846b95766dc0a075116 
+                                                 ╰ [2]: https://github.com/dnsjava/dnsjava/security/advisories/
+                                                        GHSA-mmwx-rj87-vfgr 
 ````
