@@ -227,13 +227,15 @@
 │                       │      ├ PublishedDate   : 2023-09-21T23:15:12.293Z 
 │                       │      ╰ LastModifiedDate: 2023-11-09T20:58:00.163Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2024-35235 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:4776 
 │                       │      ├ PkgID           : cups-libs@2.3.3op2-24.el9.x86_64 
 │                       │      ├ PkgName         : cups-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-24.el9?arch=x86_64&
 │                       │      │                  │       distro=redhat-9.4&epoch=1 
 │                       │      │                  ╰ UID : c53c19c5d9e05b92 
 │                       │      ├ InstalledVersion: 1:2.3.3op2-24.el9 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 1:2.3.3op2-27.el9_4 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db4
 │                       │      │                  │         47109f2d8554529c60ac 
 │                       │      │                  ╰ DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac
@@ -2240,7 +2242,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2379,7 +2381,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -2510,7 +2512,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3186,7 +3188,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -3325,7 +3327,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3456,7 +3458,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -4357,13 +4359,15 @@
 │                       │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
 │                       │      ╰ LastModifiedDate: 2024-05-17T02:25:48.66Z 
 │                       ├ [66] ╭ VulnerabilityID : CVE-2024-4032 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:4779 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9_4.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18-3.el
 │                       │      │                  │       9_4.1?arch=noarch&distro=redhat-9.4 
 │                       │      │                  ╰ UID : 7f37e71c310352b8 
 │                       │      ├ InstalledVersion: 3.9.18-3.el9_4.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.9.18-3.el9_4.3 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db4
 │                       │      │                  │         47109f2d8554529c60ac 
 │                       │      │                  ╰ DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac
@@ -4622,13 +4626,15 @@
 │                       │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
 │                       │      ╰ LastModifiedDate: 2024-05-17T02:25:48.66Z 
 │                       ├ [69] ╭ VulnerabilityID : CVE-2024-4032 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:4779 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9_4.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.1?arch=x86_64&d
 │                       │      │                  │       istro=redhat-9.4 
 │                       │      │                  ╰ UID : 645273e9b2ac0eeb 
 │                       │      ├ InstalledVersion: 3.9.18-3.el9_4.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.9.18-3.el9_4.3 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db4
 │                       │      │                  │         47109f2d8554529c60ac 
 │                       │      │                  ╰ DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac
@@ -4887,13 +4893,15 @@
 │                       │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
 │                       │      ╰ LastModifiedDate: 2024-05-17T02:25:48.66Z 
 │                       ├ [72] ╭ VulnerabilityID : CVE-2024-4032 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:4779 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.1?arch=x86
 │                       │      │                  │       _64&distro=redhat-9.4 
 │                       │      │                  ╰ UID : ce0a20b793e1921e 
 │                       │      ├ InstalledVersion: 3.9.18-3.el9_4.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.9.18-3.el9_4.3 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db4
 │                       │      │                  │         47109f2d8554529c60ac 
 │                       │      │                  ╰ DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac
