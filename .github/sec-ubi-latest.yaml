@@ -228,16 +228,16 @@
     - http://www.openwall.com/lists/oss-security/2024/06/11/1
     - http://www.openwall.com/lists/oss-security/2024/06/12/4
     - http://www.openwall.com/lists/oss-security/2024/06/12/5
-    - https://access.redhat.com/errata/RHSA-2024:4265
+    - https://access.redhat.com/errata/RHSA-2024:4776
     - https://access.redhat.com/security/cve/CVE-2024-35235
     - https://bugzilla.redhat.com/2290318
-    - https://errata.almalinux.org/8/ALSA-2024-4265.html
+    - https://errata.almalinux.org/9/ALSA-2024-4776.html
     - https://git.launchpad.net/ubuntu/+source/apparmor/tree/profiles/apparmor.d/abstractions/user-tmp#n21
     - https://github.com/OpenPrinting/cups/blob/aba917003c8de55e5bf85010f0ecf1f1ddd1408e/cups/http-addr.c#L229-L240
     - https://github.com/OpenPrinting/cups/commit/ff1f8a623e090dee8a8aadf12a6a4b25efac143d
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-vvwp-mv6j-hw6f
     - https://linux.oracle.com/cve/CVE-2024-35235.html
-    - https://linux.oracle.com/errata/ELSA-2024-4265.html
+    - https://linux.oracle.com/errata/ELSA-2024-4776.html
     - https://lists.debian.org/debian-lts-announce/2024/06/msg00001.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-35235
     - https://seclists.org/oss-sec/2024/q2/277
@@ -1069,6 +1069,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-35328
     - https://github.com/idhyt/pocs/blob/main/libyaml/CVE-2024-35328.c
+    - https://github.com/yaml/libyaml/issues/298#issuecomment-2167684233
+    - https://github.com/yaml/libyaml/issues/302
     - https://nvd.nist.gov/vuln/detail/CVE-2024-35328
     - https://www.cve.org/CVERecord?id=CVE-2024-35328
     PublishedDate: '2024-06-13T16:15:11.037Z'
@@ -3621,6 +3623,8 @@
       CPython 3.12.4 and 3.13.0a6 contain updated information from these registries and thus have the intended behavior.
     Severity: LOW
     VendorSeverity:
+      alma: 1
+      oracle-oval: 1
       redhat: 1
     CVSS:
       redhat:
@@ -3628,7 +3632,10 @@
         V3Score: 3.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/17/3
+    - https://access.redhat.com/errata/RHSA-2024:4779
     - https://access.redhat.com/security/cve/CVE-2024-4032
+    - https://bugzilla.redhat.com/2292921
+    - https://errata.almalinux.org/9/ALSA-2024-4779.html
     - https://github.com/python/cpython/commit/22adf29da8d99933ffed8647d3e0726edd16f7f8
     - https://github.com/python/cpython/commit/40d75c2b7f5c67e254d0a025e0f2e2c7ada7f69f
     - https://github.com/python/cpython/commit/895f7e2ac23eff4743143beef0f0c5ac71ea27d3
@@ -3637,6 +3644,8 @@
     - https://github.com/python/cpython/commit/f86b17ac511e68192ba71f27e752321a3252cee3
     - https://github.com/python/cpython/issues/113171
     - https://github.com/python/cpython/pull/113179
+    - https://linux.oracle.com/cve/CVE-2024-4032.html
+    - https://linux.oracle.com/errata/ELSA-2024-4779.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
     - https://www.cve.org/CVERecord?id=CVE-2024-4032
@@ -3798,6 +3807,8 @@
       CPython 3.12.4 and 3.13.0a6 contain updated information from these registries and thus have the intended behavior.
     Severity: LOW
     VendorSeverity:
+      alma: 1
+      oracle-oval: 1
       redhat: 1
     CVSS:
       redhat:
@@ -3805,7 +3816,10 @@
         V3Score: 3.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/17/3
+    - https://access.redhat.com/errata/RHSA-2024:4779
     - https://access.redhat.com/security/cve/CVE-2024-4032
+    - https://bugzilla.redhat.com/2292921
+    - https://errata.almalinux.org/9/ALSA-2024-4779.html
     - https://github.com/python/cpython/commit/22adf29da8d99933ffed8647d3e0726edd16f7f8
     - https://github.com/python/cpython/commit/40d75c2b7f5c67e254d0a025e0f2e2c7ada7f69f
     - https://github.com/python/cpython/commit/895f7e2ac23eff4743143beef0f0c5ac71ea27d3
@@ -3814,6 +3828,8 @@
     - https://github.com/python/cpython/commit/f86b17ac511e68192ba71f27e752321a3252cee3
     - https://github.com/python/cpython/issues/113171
     - https://github.com/python/cpython/pull/113179
+    - https://linux.oracle.com/cve/CVE-2024-4032.html
+    - https://linux.oracle.com/errata/ELSA-2024-4779.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
     - https://www.cve.org/CVERecord?id=CVE-2024-4032
@@ -3975,6 +3991,8 @@
       CPython 3.12.4 and 3.13.0a6 contain updated information from these registries and thus have the intended behavior.
     Severity: LOW
     VendorSeverity:
+      alma: 1
+      oracle-oval: 1
       redhat: 1
     CVSS:
       redhat:
@@ -3982,7 +4000,10 @@
         V3Score: 3.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/17/3
+    - https://access.redhat.com/errata/RHSA-2024:4779
     - https://access.redhat.com/security/cve/CVE-2024-4032
+    - https://bugzilla.redhat.com/2292921
+    - https://errata.almalinux.org/9/ALSA-2024-4779.html
     - https://github.com/python/cpython/commit/22adf29da8d99933ffed8647d3e0726edd16f7f8
     - https://github.com/python/cpython/commit/40d75c2b7f5c67e254d0a025e0f2e2c7ada7f69f
     - https://github.com/python/cpython/commit/895f7e2ac23eff4743143beef0f0c5ac71ea27d3
@@ -3991,6 +4012,8 @@
     - https://github.com/python/cpython/commit/f86b17ac511e68192ba71f27e752321a3252cee3
     - https://github.com/python/cpython/issues/113171
     - https://github.com/python/cpython/pull/113179
+    - https://linux.oracle.com/cve/CVE-2024-4032.html
+    - https://linux.oracle.com/errata/ELSA-2024-4779.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
     - https://www.cve.org/CVERecord?id=CVE-2024-4032
@@ -4331,7 +4354,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-25638
     - https://www.cve.org/CVERecord?id=CVE-2024-25638
     PublishedDate: '2024-07-22T14:15:04.593Z'
-    LastModifiedDate: '2024-07-22T14:15:04.593Z'
+    LastModifiedDate: '2024-07-24T12:55:13.223Z'
   - VulnerabilityID: GHSA-crjg-w57m-rqqf
     PkgName: dnsjava:dnsjava
     PkgPath: openaf/openaf.jar
