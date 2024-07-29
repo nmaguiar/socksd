@@ -1950,7 +1950,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2063,7 +2063,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2167,7 +2167,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2695,7 +2695,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2808,7 +2808,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2912,7 +2912,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -3650,11 +3650,12 @@
     - https://linux.oracle.com/errata/ELSA-2024-4779.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
+    - https://security.netapp.com/advisory/ntap-20240726-0004/
     - https://www.cve.org/CVERecord?id=CVE-2024-4032
     - https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
     PublishedDate: '2024-06-17T15:15:52.517Z'
-    LastModifiedDate: '2024-06-20T12:44:22.977Z'
+    LastModifiedDate: '2024-07-28T14:15:10.783Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3@3.9.18-3.el9_4.1.x86_64
     PkgName: python3
@@ -3834,11 +3835,12 @@
     - https://linux.oracle.com/errata/ELSA-2024-4779.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
+    - https://security.netapp.com/advisory/ntap-20240726-0004/
     - https://www.cve.org/CVERecord?id=CVE-2024-4032
     - https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
     PublishedDate: '2024-06-17T15:15:52.517Z'
-    LastModifiedDate: '2024-06-20T12:44:22.977Z'
+    LastModifiedDate: '2024-07-28T14:15:10.783Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3-libs@3.9.18-3.el9_4.1.x86_64
     PkgName: python3-libs
@@ -4018,11 +4020,12 @@
     - https://linux.oracle.com/errata/ELSA-2024-4779.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
+    - https://security.netapp.com/advisory/ntap-20240726-0004/
     - https://www.cve.org/CVERecord?id=CVE-2024-4032
     - https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
     PublishedDate: '2024-06-17T15:15:52.517Z'
-    LastModifiedDate: '2024-06-20T12:44:22.977Z'
+    LastModifiedDate: '2024-07-28T14:15:10.783Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.2.3-8.el9.noarch
     PkgName: python3-pip-wheel
