@@ -119,11 +119,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:7753
+    - https://access.redhat.com/errata/RHSA-2024:0133
     - https://access.redhat.com/security/cve/CVE-2023-37920
     - https://bugzilla.redhat.com/2226586
     - https://bugzilla.redhat.com/2242493
-    - https://errata.almalinux.org/9/ALSA-2023-7753.html
+    - https://errata.almalinux.org/8/ALSA-2024-0133.html
     - https://github.com/certifi/python-certifi
     - https://github.com/certifi/python-certifi/commit/8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909
     - https://github.com/certifi/python-certifi/security/advisories/GHSA-xqr8-7jwr-rhp7
@@ -265,12 +265,15 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GMD6UYKCCRCYETWQZUJ65ZRFULT6SHLI/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2398
     - https://security.netapp.com/advisory/ntap-20240503-0009/
+    - https://support.apple.com/kb/HT214118
+    - https://support.apple.com/kb/HT214119
+    - https://support.apple.com/kb/HT214120
     - https://ubuntu.com/security/notices/USN-6718-1
     - https://ubuntu.com/security/notices/USN-6718-2
     - https://ubuntu.com/security/notices/USN-6718-3
     - https://www.cve.org/CVERecord?id=CVE-2024-2398
     PublishedDate: '2024-03-27T08:15:41.283Z'
-    LastModifiedDate: '2024-07-03T01:53:12.523Z'
+    LastModifiedDate: '2024-07-29T22:15:04.563Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -441,7 +444,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://errata.almalinux.org/8/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -715,12 +718,15 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GMD6UYKCCRCYETWQZUJ65ZRFULT6SHLI/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2398
     - https://security.netapp.com/advisory/ntap-20240503-0009/
+    - https://support.apple.com/kb/HT214118
+    - https://support.apple.com/kb/HT214119
+    - https://support.apple.com/kb/HT214120
     - https://ubuntu.com/security/notices/USN-6718-1
     - https://ubuntu.com/security/notices/USN-6718-2
     - https://ubuntu.com/security/notices/USN-6718-3
     - https://www.cve.org/CVERecord?id=CVE-2024-2398
     PublishedDate: '2024-03-27T08:15:41.283Z'
-    LastModifiedDate: '2024-07-03T01:53:12.523Z'
+    LastModifiedDate: '2024-07-29T22:15:04.563Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.4.1-3.el9.x86_64
     PkgName: libgcc
@@ -1059,7 +1065,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -1136,7 +1142,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -1205,6 +1211,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-29458
     PublishedDate: '2022-04-18T21:15:07.6Z'
     LastModifiedDate: '2023-11-07T03:46:02.1Z'
+  - VulnerabilityID: CVE-2023-45918
+    PkgID: ncurses-base@6.2-10.20210508.el9.noarch
+    PkgName: ncurses-base
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?arch=noarch&distro=redhat-9.4
+      UID: 5359c71bf0d7b07
+    InstalledVersion: 6.2-10.20210508.el9
+    Status: affected
+    Layer:
+      Digest: sha256:9fc60bcc2d83e355e3c4a7869f86c984e94462c7768ec2f405362ae3425427d4
+      DiffID: sha256:59360e33b5900092c2c6d9b18218de0c966690ce431b4b67afd5cf2ce62ecc9d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
+    Title: 'ncurses: NULL pointer dereference in tgetstr in tinfo/lib_termcap.c'
+    Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
+    Severity: LOW
+    VendorSeverity:
+      amazon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-45918
+    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45918
+    - https://security.netapp.com/advisory/ntap-20240315-0006/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45918
+    PublishedDate: '2024-02-16T22:15:07.88Z'
+    LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-base@6.2-10.20210508.el9.noarch
     PkgName: ncurses-base
@@ -1293,6 +1331,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-29458
     PublishedDate: '2022-04-18T21:15:07.6Z'
     LastModifiedDate: '2023-11-07T03:46:02.1Z'
+  - VulnerabilityID: CVE-2023-45918
+    PkgID: ncurses-libs@6.2-10.20210508.el9.x86_64
+    PkgName: ncurses-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?arch=x86_64&distro=redhat-9.4
+      UID: 1560f1ab17beeca6
+    InstalledVersion: 6.2-10.20210508.el9
+    Status: affected
+    Layer:
+      Digest: sha256:9fc60bcc2d83e355e3c4a7869f86c984e94462c7768ec2f405362ae3425427d4
+      DiffID: sha256:59360e33b5900092c2c6d9b18218de0c966690ce431b4b67afd5cf2ce62ecc9d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
+    Title: 'ncurses: NULL pointer dereference in tgetstr in tinfo/lib_termcap.c'
+    Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
+    Severity: LOW
+    VendorSeverity:
+      amazon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-45918
+    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45918
+    - https://security.netapp.com/advisory/ntap-20240315-0006/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45918
+    PublishedDate: '2024-02-16T22:15:07.88Z'
+    LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-libs@6.2-10.20210508.el9.x86_64
     PkgName: ncurses-libs
@@ -1895,7 +1965,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -1916,15 +1986,9 @@
     - http://www.openwall.com/lists/oss-security/2023/07/19/6
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - http://www.openwall.com/lists/oss-security/2024/05/16/1
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2024:0888
     - https://access.redhat.com/security/cve/CVE-2023-3446
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
-    - https://bugzilla.redhat.com/2227852
-    - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
     - https://bugzilla.redhat.com/show_bug.cgi?id=2224962
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257582
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257583
@@ -1941,7 +2005,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45233
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45235
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2024-0888.html
     - https://errata.rockylinux.org/RLSA-2024:2264
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
@@ -2008,7 +2072,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2029,16 +2093,12 @@
     - http://www.openwall.com/lists/oss-security/2023/09/22/11
     - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - http://www.openwall.com/lists/oss-security/2023/11/06/2
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-3817
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
@@ -2112,7 +2172,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2129,16 +2189,12 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/11/1
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-5678
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=34efaef6c103d636ab507a0cc34dca4d3aecc055
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=710fee740904b6290fef0dd5536fbcedbc38ff0c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
@@ -2640,7 +2696,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2661,15 +2717,9 @@
     - http://www.openwall.com/lists/oss-security/2023/07/19/6
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - http://www.openwall.com/lists/oss-security/2024/05/16/1
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2024:0888
     - https://access.redhat.com/security/cve/CVE-2023-3446
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
-    - https://bugzilla.redhat.com/2227852
-    - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
     - https://bugzilla.redhat.com/show_bug.cgi?id=2224962
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257582
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257583
@@ -2686,7 +2736,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45233
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45235
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2024-0888.html
     - https://errata.rockylinux.org/RLSA-2024:2264
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
@@ -2753,7 +2803,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2774,16 +2824,12 @@
     - http://www.openwall.com/lists/oss-security/2023/09/22/11
     - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - http://www.openwall.com/lists/oss-security/2023/11/06/2
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-3817
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
@@ -2857,7 +2903,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2874,16 +2920,12 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/11/1
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-5678
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=34efaef6c103d636ab507a0cc34dca4d3aecc055
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=710fee740904b6290fef0dd5536fbcedbc38ff0c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
