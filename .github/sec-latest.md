@@ -247,7 +247,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21147.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21147 
@@ -317,7 +317,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21140.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21140 
@@ -385,7 +385,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21145.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21145 
@@ -451,7 +451,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21131.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21131 
@@ -517,7 +517,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21138.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21138 
@@ -586,7 +586,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21147.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21147 
@@ -656,7 +656,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21140.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21140 
@@ -724,7 +724,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21145.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21145 
@@ -790,7 +790,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21131.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21131 
@@ -856,7 +856,7 @@
 │                              │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                              │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                              │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                              │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                              │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
 │                              │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21138.html 
 │                              │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
 │                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21138 
