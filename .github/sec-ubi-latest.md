@@ -389,29 +389,32 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/03/27/3 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-2398 
-│                       │      │                  ├ [2] : https://curl.se/docs/CVE-2024-2398.html 
-│                       │      │                  ├ [3] : https://curl.se/docs/CVE-2024-2398.json 
-│                       │      │                  ├ [4] : https://hackerone.com/reports/2402845 
-│                       │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/package
+│                       │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2024/Jul/18 
+│                       │      │                  ├ [1] : http://seclists.org/fulldisclosure/2024/Jul/19 
+│                       │      │                  ├ [2] : http://seclists.org/fulldisclosure/2024/Jul/20 
+│                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2024/03/27/3 
+│                       │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-2398 
+│                       │      │                  ├ [5] : https://curl.se/docs/CVE-2024-2398.html 
+│                       │      │                  ├ [6] : https://curl.se/docs/CVE-2024-2398.json 
+│                       │      │                  ├ [7] : https://hackerone.com/reports/2402845 
+│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce@lists.fedoraproject.org/message/2D44YLAUFJU
 │                       │      │                  │       6BZ4XFG2FYV7SBKXB5IZ6/ 
-│                       │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce@lists.fedoraproject.org/message/GMD6UYKCCRC
 │                       │      │                  │       YETWQZUJ65ZRFULT6SHLI/ 
-│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
-│                       │      │                  ├ [8] : https://security.netapp.com/advisory/ntap-20240503-00
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20240503-00
 │                       │      │                  │       09/ 
-│                       │      │                  ├ [9] : https://support.apple.com/kb/HT214118 
-│                       │      │                  ├ [10]: https://support.apple.com/kb/HT214119 
-│                       │      │                  ├ [11]: https://support.apple.com/kb/HT214120 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6718-1 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6718-2 
-│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6718-3 
-│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
+│                       │      │                  ├ [12]: https://support.apple.com/kb/HT214118 
+│                       │      │                  ├ [13]: https://support.apple.com/kb/HT214119 
+│                       │      │                  ├ [14]: https://support.apple.com/kb/HT214120 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6718-1 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6718-2 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6718-3 
+│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
 │                       │      ├ PublishedDate   : 2024-03-27T08:15:41.283Z 
-│                       │      ╰ LastModifiedDate: 2024-07-29T22:15:04.563Z 
+│                       │      ╰ LastModifiedDate: 2024-07-30T02:15:05.45Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2023-4156 
 │                       │      ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
 │                       │      ├ PkgName         : gawk 
@@ -920,29 +923,32 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/03/27/3 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-2398 
-│                       │      │                  ├ [2] : https://curl.se/docs/CVE-2024-2398.html 
-│                       │      │                  ├ [3] : https://curl.se/docs/CVE-2024-2398.json 
-│                       │      │                  ├ [4] : https://hackerone.com/reports/2402845 
-│                       │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/package
+│                       │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2024/Jul/18 
+│                       │      │                  ├ [1] : http://seclists.org/fulldisclosure/2024/Jul/19 
+│                       │      │                  ├ [2] : http://seclists.org/fulldisclosure/2024/Jul/20 
+│                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2024/03/27/3 
+│                       │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-2398 
+│                       │      │                  ├ [5] : https://curl.se/docs/CVE-2024-2398.html 
+│                       │      │                  ├ [6] : https://curl.se/docs/CVE-2024-2398.json 
+│                       │      │                  ├ [7] : https://hackerone.com/reports/2402845 
+│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce@lists.fedoraproject.org/message/2D44YLAUFJU
 │                       │      │                  │       6BZ4XFG2FYV7SBKXB5IZ6/ 
-│                       │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce@lists.fedoraproject.org/message/GMD6UYKCCRC
 │                       │      │                  │       YETWQZUJ65ZRFULT6SHLI/ 
-│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
-│                       │      │                  ├ [8] : https://security.netapp.com/advisory/ntap-20240503-00
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20240503-00
 │                       │      │                  │       09/ 
-│                       │      │                  ├ [9] : https://support.apple.com/kb/HT214118 
-│                       │      │                  ├ [10]: https://support.apple.com/kb/HT214119 
-│                       │      │                  ├ [11]: https://support.apple.com/kb/HT214120 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6718-1 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6718-2 
-│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6718-3 
-│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
+│                       │      │                  ├ [12]: https://support.apple.com/kb/HT214118 
+│                       │      │                  ├ [13]: https://support.apple.com/kb/HT214119 
+│                       │      │                  ├ [14]: https://support.apple.com/kb/HT214120 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6718-1 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6718-2 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6718-3 
+│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
 │                       │      ├ PublishedDate   : 2024-03-27T08:15:41.283Z 
-│                       │      ╰ LastModifiedDate: 2024-07-29T22:15:04.563Z 
+│                       │      ╰ LastModifiedDate: 2024-07-30T02:15:05.45Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc@11.4.1-3.el9.x86_64 
 │                       │      ├ PkgName         : libgcc 
@@ -2317,7 +2323,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2450,7 +2456,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -2577,7 +2583,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3250,7 +3256,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -3383,7 +3389,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3510,7 +3516,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -4439,6 +4445,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
 │                       │      │                  ├ oracle-oval: 1 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
@@ -4474,10 +4481,11 @@
 │                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
 │                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20240726-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [21]: https://www.iana.org/assignments/iana-ipv4-special-re
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6928-1 
+│                       │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [22]: https://www.iana.org/assignments/iana-ipv4-special-re
 │                       │      │                  │       gistry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [22]: https://www.iana.org/assignments/iana-ipv6-special-re
+│                       │      │                  ╰ [23]: https://www.iana.org/assignments/iana-ipv6-special-re
 │                       │      │                          gistry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
@@ -4719,6 +4727,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
 │                       │      │                  ├ oracle-oval: 1 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
@@ -4754,10 +4763,11 @@
 │                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
 │                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20240726-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [21]: https://www.iana.org/assignments/iana-ipv4-special-re
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6928-1 
+│                       │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [22]: https://www.iana.org/assignments/iana-ipv4-special-re
 │                       │      │                  │       gistry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [22]: https://www.iana.org/assignments/iana-ipv6-special-re
+│                       │      │                  ╰ [23]: https://www.iana.org/assignments/iana-ipv6-special-re
 │                       │      │                          gistry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
@@ -4999,6 +5009,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
 │                       │      │                  ├ oracle-oval: 1 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
@@ -5034,10 +5045,11 @@
 │                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
 │                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20240726-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [21]: https://www.iana.org/assignments/iana-ipv4-special-re
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6928-1 
+│                       │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [22]: https://www.iana.org/assignments/iana-ipv4-special-re
 │                       │      │                  │       gistry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [22]: https://www.iana.org/assignments/iana-ipv6-special-re
+│                       │      │                  ╰ [23]: https://www.iana.org/assignments/iana-ipv6-special-re
 │                       │      │                          gistry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
