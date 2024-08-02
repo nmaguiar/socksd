@@ -39,7 +39,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6197
     - https://www.cve.org/CVERecord?id=CVE-2024-6197
     PublishedDate: '2024-07-24T08:15:03.34Z'
-    LastModifiedDate: '2024-07-24T21:15:12.6Z'
+    LastModifiedDate: '2024-08-01T14:00:14.76Z'
   - VulnerabilityID: CVE-2024-6874
     PkgID: curl@8.8.0-r0
     PkgName: curl
@@ -84,7 +84,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6874
     - https://www.cve.org/CVERecord?id=CVE-2024-6874
     PublishedDate: '2024-07-24T08:15:03.413Z'
-    LastModifiedDate: '2024-07-24T12:55:13.223Z'
+    LastModifiedDate: '2024-08-01T14:00:45.683Z'
   - VulnerabilityID: CVE-2024-6197
     PkgID: libcurl@8.8.0-r0
     PkgName: libcurl
@@ -122,7 +122,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6197
     - https://www.cve.org/CVERecord?id=CVE-2024-6197
     PublishedDate: '2024-07-24T08:15:03.34Z'
-    LastModifiedDate: '2024-07-24T21:15:12.6Z'
+    LastModifiedDate: '2024-08-01T14:00:14.76Z'
   - VulnerabilityID: CVE-2024-6874
     PkgID: libcurl@8.8.0-r0
     PkgName: libcurl
@@ -167,7 +167,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6874
     - https://www.cve.org/CVERecord?id=CVE-2024-6874
     PublishedDate: '2024-07-24T08:15:03.413Z'
-    LastModifiedDate: '2024-07-24T12:55:13.223Z'
+    LastModifiedDate: '2024-08-01T14:00:45.683Z'
   - VulnerabilityID: CVE-2024-21147
     PkgID: openjdk21-jre@21.0.3_p9-r0
     PkgName: openjdk21-jre
@@ -193,6 +193,7 @@
       amazon: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -206,7 +207,18 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
     - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21147.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21147
@@ -239,11 +251,14 @@
     Title: 'OpenJDK: Range Check Elimination (RCE) pre-loop limit overflow (8320548)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u411, 8u411-perf, 11.0.23, 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM for JDK: 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM Enterprise Edition: 20.3.14 and  21.3.10. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-200
     VendorSeverity:
       alma: 3
       amazon: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -257,7 +272,18 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
     - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21140.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21140
@@ -269,7 +295,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-21140
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:15.043Z'
-    LastModifiedDate: '2024-07-19T14:15:05.4Z'
+    LastModifiedDate: '2024-08-01T13:46:27.193Z'
   - VulnerabilityID: CVE-2024-21145
     PkgID: openjdk21-jre@21.0.3_p9-r0
     PkgName: openjdk21-jre
@@ -295,6 +321,7 @@
       amazon: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -308,7 +335,18 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
     - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21145.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21145
@@ -346,6 +384,7 @@
       amazon: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -359,7 +398,18 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
     - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21131.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21131
@@ -397,6 +447,7 @@
       amazon: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -410,7 +461,18 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
     - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21138.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21138
@@ -448,6 +510,7 @@
       amazon: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -461,7 +524,18 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
     - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21147.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21147
@@ -494,11 +568,14 @@
     Title: 'OpenJDK: Range Check Elimination (RCE) pre-loop limit overflow (8320548)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u411, 8u411-perf, 11.0.23, 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM for JDK: 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM Enterprise Edition: 20.3.14 and  21.3.10. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-200
     VendorSeverity:
       alma: 3
       amazon: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -512,7 +589,18 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
     - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21140.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21140
@@ -524,7 +612,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-21140
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:15.043Z'
-    LastModifiedDate: '2024-07-19T14:15:05.4Z'
+    LastModifiedDate: '2024-08-01T13:46:27.193Z'
   - VulnerabilityID: CVE-2024-21145
     PkgID: openjdk21-jre-headless@21.0.3_p9-r0
     PkgName: openjdk21-jre-headless
@@ -550,6 +638,7 @@
       amazon: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -563,7 +652,18 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
     - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21145.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21145
@@ -601,6 +701,7 @@
       amazon: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -614,7 +715,18 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
     - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21131.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21131
@@ -652,6 +764,7 @@
       amazon: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -665,7 +778,18 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
     - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21138.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21138
