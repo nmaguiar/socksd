@@ -2325,7 +2325,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2464,7 +2464,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -2595,7 +2595,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3275,7 +3275,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -3414,7 +3414,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3545,7 +3545,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -4518,10 +4518,11 @@
 │                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20240726-00
 │                       │      │                  │       04/ 
 │                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6928-1 
-│                       │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [22]: https://www.iana.org/assignments/iana-ipv4-special-re
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6941-1 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [23]: https://www.iana.org/assignments/iana-ipv4-special-re
 │                       │      │                  │       gistry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [23]: https://www.iana.org/assignments/iana-ipv6-special-re
+│                       │      │                  ╰ [24]: https://www.iana.org/assignments/iana-ipv6-special-re
 │                       │      │                          gistry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
@@ -4800,10 +4801,11 @@
 │                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20240726-00
 │                       │      │                  │       04/ 
 │                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6928-1 
-│                       │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [22]: https://www.iana.org/assignments/iana-ipv4-special-re
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6941-1 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [23]: https://www.iana.org/assignments/iana-ipv4-special-re
 │                       │      │                  │       gistry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [23]: https://www.iana.org/assignments/iana-ipv6-special-re
+│                       │      │                  ╰ [24]: https://www.iana.org/assignments/iana-ipv6-special-re
 │                       │      │                          gistry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
@@ -5082,10 +5084,11 @@
 │                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20240726-00
 │                       │      │                  │       04/ 
 │                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6928-1 
-│                       │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [22]: https://www.iana.org/assignments/iana-ipv4-special-re
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6941-1 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [23]: https://www.iana.org/assignments/iana-ipv4-special-re
 │                       │      │                  │       gistry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [23]: https://www.iana.org/assignments/iana-ipv6-special-re
+│                       │      │                  ╰ [24]: https://www.iana.org/assignments/iana-ipv6-special-re
 │                       │      │                          gistry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
