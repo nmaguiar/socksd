@@ -173,7 +173,7 @@
 │                       │      │                            9a1f3349406ccf0981e9 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4504 
-│                       │      ├ Title           : cups, libppd: Postscript Parsing Heap Overflow 
+│                       │      ├ Title           : Postscript Parsing Heap Overflow 
 │                       │      ├ Description     : Due to failure in validating the length provided by an
 │                       │      │                   attacker-crafted PPD PostScript document, CUPS and libppd
 │                       │      │                   are susceptible to a heap-based buffer overflow and possibly
@@ -1135,7 +1135,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-45322 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45322 
 │                       │      ├ PublishedDate   : 2023-10-06T22:15:11.66Z 
-│                       │      ╰ LastModifiedDate: 2024-05-17T02:29:45.487Z 
+│                       │      ╰ LastModifiedDate: 2024-08-02T21:15:32.323Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2024-34459 
 │                       │      ├ PkgID           : libxml2@2.9.13-6.el9_4.x86_64 
 │                       │      ├ PkgName         : libxml2 
@@ -5197,15 +5197,19 @@
 │                       │      │                    is fixed in version 70.0. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-94 
-│                       │      ├ VendorSeverity   ╭ ghsa  : 3 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ╰ redhat: 3 
-│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H
-│                       │      │                  │        │           /A:H 
-│                       │      │                  │        ╰ V3Score : 8.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H
-│                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 8.8 
+│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      │                  ├ ghsa   : 3 
+│                       │      │                  ├ photon : 3 
+│                       │      │                  ╰ redhat : 3 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │      │                  │         │           H/A:H 
+│                       │      │                  │         ╰ V3Score : 8.8 
+│                       │      │                  ├ ghsa    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │      │                  │         │           H/A:H 
+│                       │      │                  │         ╰ V3Score : 8.8 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │      │                            │           H/A:H 
+│                       │      │                            ╰ V3Score : 8.8 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6345 
 │                       │      │                  ├ [1]: https://github.com/pypa/setuptools 
 │                       │      │                  ├ [2]: https://github.com/pypa/setuptools/commit/88807c706278
