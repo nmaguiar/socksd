@@ -173,7 +173,7 @@
 │                       │      │                            9a1f3349406ccf0981e9 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4504 
-│                       │      ├ Title           : Postscript Parsing Heap Overflow 
+│                       │      ├ Title           : libppd: Postscript Parsing Heap Overflow 
 │                       │      ├ Description     : Due to failure in validating the length provided by an
 │                       │      │                   attacker-crafted PPD PostScript document, CUPS and libppd
 │                       │      │                   are susceptible to a heap-based buffer overflow and possibly
