@@ -1029,36 +1029,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-35325
     PublishedDate: '2024-06-13T17:15:50.39Z'
     LastModifiedDate: '2024-06-13T18:35:19.777Z'
-  - VulnerabilityID: CVE-2024-35326
-    PkgID: libyaml@0.2.5-7.el9.x86_64
-    PkgName: libyaml
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&distro=redhat-9.4
-      UID: b069be4420870139
-    InstalledVersion: 0.2.5-7.el9
-    Status: affected
-    Layer:
-      Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db447109f2d8554529c60ac
-      DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac9a1f3349406ccf0981e9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-35326
-    Title: 'libyaml: double-free in yaml_emitter_emit in /src/libyaml/src/emitter.c'
-    Description: libyaml v0.2.5 is vulnerable to Buffer Overflow. Affected by this issue is the function yaml_emitter_emit of the file /src/libyaml/src/emitter.c. The manipulation leads to a double-free.
-    Severity: MEDIUM
-    VendorSeverity:
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-35326
-    - https://github.com/idhyt/pocs/blob/main/libyaml/CVE-2024-35326.c
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-35326
-    - https://www.cve.org/CVERecord?id=CVE-2024-35326
-    PublishedDate: '2024-06-13T17:15:50.49Z'
-    LastModifiedDate: '2024-06-13T18:35:19.777Z'
   - VulnerabilityID: CVE-2024-35328
     PkgID: libyaml@0.2.5-7.el9.x86_64
     PkgName: libyaml
@@ -3696,6 +3666,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
     LastModifiedDate: '2024-08-02T17:16:13.363Z'
+  - VulnerabilityID: CVE-2024-0397
+    PkgID: python-unversioned-command@3.9.18-3.el9_4.1.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18-3.el9_4.1?arch=noarch&distro=redhat-9.4
+      UID: 7f37e71c310352b8
+    InstalledVersion: 3.9.18-3.el9_4.1
+    Status: under_investigation
+    Layer:
+      Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db447109f2d8554529c60ac
+      DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac9a1f3349406ccf0981e9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0397
+    Title: 'cpython: python: Memory race condition in ssl.SSLContext certificate store methods'
+    Description: |-
+      A defect was discovered in the Python “ssl” module where there is a memory
+      race condition with the ssl.SSLContext methods “cert_store_stats()” and
+      “get_ca_certs()”. The race condition can be triggered if the methods are
+      called at the same time as certificates are loaded into the SSLContext,
+      such as during the TLS handshake with a certificate directory configured.
+      This issue is fixed in CPython 3.10.14, 3.11.9, 3.12.3, and 3.13.0a5.
+    Severity: LOW
+    CweIDs:
+    - CWE-362
+    VendorSeverity:
+      bitnami: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 7.4
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/06/17/2
+    - https://access.redhat.com/security/cve/CVE-2024-0397
+    - https://github.com/python/cpython/commit/01c37f1d0714f5822d34063ca7180b595abf589d
+    - https://github.com/python/cpython/commit/29c97287d205bf2f410f4895ebce3f43b5160524
+    - https://github.com/python/cpython/commit/37324b421b72b7bc9934e27aba85d48d4773002e
+    - https://github.com/python/cpython/commit/542f3272f56f31ed04e74c40635a913fbc12d286
+    - https://github.com/python/cpython/commit/b228655c227b2ca298a8ffac44d14ce3d22f6faa
+    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab
+    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab (3.13)
+    - https://github.com/python/cpython/issues/114572
+    - https://github.com/python/cpython/pull/114573
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
+    - https://ubuntu.com/security/notices/USN-6928-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-0397
+    PublishedDate: '2024-06-17T16:15:10.217Z'
+    LastModifiedDate: '2024-07-03T01:44:41.987Z'
   - VulnerabilityID: CVE-2024-4032
     VendorIDs:
     - RHSA-2024:4779
@@ -3887,6 +3910,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
     LastModifiedDate: '2024-08-02T17:16:13.363Z'
+  - VulnerabilityID: CVE-2024-0397
+    PkgID: python3@3.9.18-3.el9_4.1.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.1?arch=x86_64&distro=redhat-9.4
+      UID: 645273e9b2ac0eeb
+    InstalledVersion: 3.9.18-3.el9_4.1
+    Status: under_investigation
+    Layer:
+      Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db447109f2d8554529c60ac
+      DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac9a1f3349406ccf0981e9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0397
+    Title: 'cpython: python: Memory race condition in ssl.SSLContext certificate store methods'
+    Description: |-
+      A defect was discovered in the Python “ssl” module where there is a memory
+      race condition with the ssl.SSLContext methods “cert_store_stats()” and
+      “get_ca_certs()”. The race condition can be triggered if the methods are
+      called at the same time as certificates are loaded into the SSLContext,
+      such as during the TLS handshake with a certificate directory configured.
+      This issue is fixed in CPython 3.10.14, 3.11.9, 3.12.3, and 3.13.0a5.
+    Severity: LOW
+    CweIDs:
+    - CWE-362
+    VendorSeverity:
+      bitnami: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 7.4
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/06/17/2
+    - https://access.redhat.com/security/cve/CVE-2024-0397
+    - https://github.com/python/cpython/commit/01c37f1d0714f5822d34063ca7180b595abf589d
+    - https://github.com/python/cpython/commit/29c97287d205bf2f410f4895ebce3f43b5160524
+    - https://github.com/python/cpython/commit/37324b421b72b7bc9934e27aba85d48d4773002e
+    - https://github.com/python/cpython/commit/542f3272f56f31ed04e74c40635a913fbc12d286
+    - https://github.com/python/cpython/commit/b228655c227b2ca298a8ffac44d14ce3d22f6faa
+    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab
+    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab (3.13)
+    - https://github.com/python/cpython/issues/114572
+    - https://github.com/python/cpython/pull/114573
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
+    - https://ubuntu.com/security/notices/USN-6928-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-0397
+    PublishedDate: '2024-06-17T16:15:10.217Z'
+    LastModifiedDate: '2024-07-03T01:44:41.987Z'
   - VulnerabilityID: CVE-2024-4032
     VendorIDs:
     - RHSA-2024:4779
@@ -4078,6 +4154,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
     LastModifiedDate: '2024-08-02T17:16:13.363Z'
+  - VulnerabilityID: CVE-2024-0397
+    PkgID: python3-libs@3.9.18-3.el9_4.1.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.1?arch=x86_64&distro=redhat-9.4
+      UID: ce0a20b793e1921e
+    InstalledVersion: 3.9.18-3.el9_4.1
+    Status: under_investigation
+    Layer:
+      Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db447109f2d8554529c60ac
+      DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac9a1f3349406ccf0981e9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0397
+    Title: 'cpython: python: Memory race condition in ssl.SSLContext certificate store methods'
+    Description: |-
+      A defect was discovered in the Python “ssl” module where there is a memory
+      race condition with the ssl.SSLContext methods “cert_store_stats()” and
+      “get_ca_certs()”. The race condition can be triggered if the methods are
+      called at the same time as certificates are loaded into the SSLContext,
+      such as during the TLS handshake with a certificate directory configured.
+      This issue is fixed in CPython 3.10.14, 3.11.9, 3.12.3, and 3.13.0a5.
+    Severity: LOW
+    CweIDs:
+    - CWE-362
+    VendorSeverity:
+      bitnami: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 7.4
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/06/17/2
+    - https://access.redhat.com/security/cve/CVE-2024-0397
+    - https://github.com/python/cpython/commit/01c37f1d0714f5822d34063ca7180b595abf589d
+    - https://github.com/python/cpython/commit/29c97287d205bf2f410f4895ebce3f43b5160524
+    - https://github.com/python/cpython/commit/37324b421b72b7bc9934e27aba85d48d4773002e
+    - https://github.com/python/cpython/commit/542f3272f56f31ed04e74c40635a913fbc12d286
+    - https://github.com/python/cpython/commit/b228655c227b2ca298a8ffac44d14ce3d22f6faa
+    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab
+    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab (3.13)
+    - https://github.com/python/cpython/issues/114572
+    - https://github.com/python/cpython/pull/114573
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
+    - https://ubuntu.com/security/notices/USN-6928-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-0397
+    PublishedDate: '2024-06-17T16:15:10.217Z'
+    LastModifiedDate: '2024-07-03T01:44:41.987Z'
   - VulnerabilityID: CVE-2024-4032
     VendorIDs:
     - RHSA-2024:4779
