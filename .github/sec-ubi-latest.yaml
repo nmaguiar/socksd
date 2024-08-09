@@ -625,6 +625,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-37370
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37370
+    - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
     - https://web.mit.edu/kerberos/www/krb5-1.21/
     - https://www.cve.org/CVERecord?id=CVE-2024-37370
@@ -659,6 +660,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-37371
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37371
+    - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
     - https://web.mit.edu/kerberos/www/krb5-1.21/
     - https://www.cve.org/CVERecord?id=CVE-2024-37371
@@ -1572,6 +1574,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
+  - VulnerabilityID: CVE-2024-7531
+    PkgID: nspr@4.35.0-7.el9_4.x86_64
+    PkgName: nspr
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/nspr@4.35.0-7.el9_4?arch=x86_64&distro=redhat-9.4
+      UID: 30ec07f7ad08e539
+    InstalledVersion: 4.35.0-7.el9_4
+    Status: affected
+    Layer:
+      Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db447109f2d8554529c60ac
+      DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac9a1f3349406ccf0981e9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
+    Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
+    Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7531
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1905691
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7531
+    - https://www.cve.org/CVERecord?id=CVE-2024-7531
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-33/#CVE-2024-7531
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-34/#CVE-2024-7531
+    - https://www.mozilla.org/security/advisories/mfsa2024-33/
+    - https://www.mozilla.org/security/advisories/mfsa2024-34/
+    - https://www.mozilla.org/security/advisories/mfsa2024-35/
+    PublishedDate: '2024-08-06T13:15:57.787Z'
+    LastModifiedDate: '2024-08-06T16:30:24.547Z'
   - VulnerabilityID: CVE-2024-6602
     PkgID: nss@3.90.0-7.el9_4.x86_64
     PkgName: nss
@@ -1648,6 +1685,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
+  - VulnerabilityID: CVE-2024-7531
+    PkgID: nss@3.90.0-7.el9_4.x86_64
+    PkgName: nss
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/nss@3.90.0-7.el9_4?arch=x86_64&distro=redhat-9.4
+      UID: dc3fa937027e26f4
+    InstalledVersion: 3.90.0-7.el9_4
+    Status: affected
+    Layer:
+      Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db447109f2d8554529c60ac
+      DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac9a1f3349406ccf0981e9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
+    Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
+    Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7531
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1905691
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7531
+    - https://www.cve.org/CVERecord?id=CVE-2024-7531
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-33/#CVE-2024-7531
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-34/#CVE-2024-7531
+    - https://www.mozilla.org/security/advisories/mfsa2024-33/
+    - https://www.mozilla.org/security/advisories/mfsa2024-34/
+    - https://www.mozilla.org/security/advisories/mfsa2024-35/
+    PublishedDate: '2024-08-06T13:15:57.787Z'
+    LastModifiedDate: '2024-08-06T16:30:24.547Z'
   - VulnerabilityID: CVE-2024-6602
     PkgID: nss-softokn@3.90.0-7.el9_4.x86_64
     PkgName: nss-softokn
@@ -1724,6 +1796,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
+  - VulnerabilityID: CVE-2024-7531
+    PkgID: nss-softokn@3.90.0-7.el9_4.x86_64
+    PkgName: nss-softokn
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/nss-softokn@3.90.0-7.el9_4?arch=x86_64&distro=redhat-9.4
+      UID: f597233cafe72707
+    InstalledVersion: 3.90.0-7.el9_4
+    Status: affected
+    Layer:
+      Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db447109f2d8554529c60ac
+      DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac9a1f3349406ccf0981e9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
+    Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
+    Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7531
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1905691
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7531
+    - https://www.cve.org/CVERecord?id=CVE-2024-7531
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-33/#CVE-2024-7531
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-34/#CVE-2024-7531
+    - https://www.mozilla.org/security/advisories/mfsa2024-33/
+    - https://www.mozilla.org/security/advisories/mfsa2024-34/
+    - https://www.mozilla.org/security/advisories/mfsa2024-35/
+    PublishedDate: '2024-08-06T13:15:57.787Z'
+    LastModifiedDate: '2024-08-06T16:30:24.547Z'
   - VulnerabilityID: CVE-2024-6602
     PkgID: nss-softokn-freebl@3.90.0-7.el9_4.x86_64
     PkgName: nss-softokn-freebl
@@ -1800,6 +1907,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
+  - VulnerabilityID: CVE-2024-7531
+    PkgID: nss-softokn-freebl@3.90.0-7.el9_4.x86_64
+    PkgName: nss-softokn-freebl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/nss-softokn-freebl@3.90.0-7.el9_4?arch=x86_64&distro=redhat-9.4
+      UID: 8137a0e54786798
+    InstalledVersion: 3.90.0-7.el9_4
+    Status: affected
+    Layer:
+      Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db447109f2d8554529c60ac
+      DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac9a1f3349406ccf0981e9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
+    Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
+    Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7531
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1905691
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7531
+    - https://www.cve.org/CVERecord?id=CVE-2024-7531
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-33/#CVE-2024-7531
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-34/#CVE-2024-7531
+    - https://www.mozilla.org/security/advisories/mfsa2024-33/
+    - https://www.mozilla.org/security/advisories/mfsa2024-34/
+    - https://www.mozilla.org/security/advisories/mfsa2024-35/
+    PublishedDate: '2024-08-06T13:15:57.787Z'
+    LastModifiedDate: '2024-08-06T16:30:24.547Z'
   - VulnerabilityID: CVE-2024-6602
     PkgID: nss-sysinit@3.90.0-7.el9_4.x86_64
     PkgName: nss-sysinit
@@ -1876,6 +2018,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
+  - VulnerabilityID: CVE-2024-7531
+    PkgID: nss-sysinit@3.90.0-7.el9_4.x86_64
+    PkgName: nss-sysinit
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/nss-sysinit@3.90.0-7.el9_4?arch=x86_64&distro=redhat-9.4
+      UID: f71fb40834cbaf07
+    InstalledVersion: 3.90.0-7.el9_4
+    Status: affected
+    Layer:
+      Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db447109f2d8554529c60ac
+      DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac9a1f3349406ccf0981e9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
+    Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
+    Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7531
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1905691
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7531
+    - https://www.cve.org/CVERecord?id=CVE-2024-7531
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-33/#CVE-2024-7531
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-34/#CVE-2024-7531
+    - https://www.mozilla.org/security/advisories/mfsa2024-33/
+    - https://www.mozilla.org/security/advisories/mfsa2024-34/
+    - https://www.mozilla.org/security/advisories/mfsa2024-35/
+    PublishedDate: '2024-08-06T13:15:57.787Z'
+    LastModifiedDate: '2024-08-06T16:30:24.547Z'
   - VulnerabilityID: CVE-2024-6602
     PkgID: nss-util@3.90.0-7.el9_4.x86_64
     PkgName: nss-util
@@ -1952,6 +2129,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
+  - VulnerabilityID: CVE-2024-7531
+    PkgID: nss-util@3.90.0-7.el9_4.x86_64
+    PkgName: nss-util
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/nss-util@3.90.0-7.el9_4?arch=x86_64&distro=redhat-9.4
+      UID: 5be20dcd7d013f20
+    InstalledVersion: 3.90.0-7.el9_4
+    Status: affected
+    Layer:
+      Digest: sha256:35b5fa8e34ed91a31a8ec10d702ca0414287d1688db447109f2d8554529c60ac
+      DiffID: sha256:bd10f6745b8a07db7a52e35f2a77f6e6d07dd078f9ac9a1f3349406ccf0981e9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
+    Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
+    Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7531
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1905691
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7531
+    - https://www.cve.org/CVERecord?id=CVE-2024-7531
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-33/#CVE-2024-7531
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-34/#CVE-2024-7531
+    - https://www.mozilla.org/security/advisories/mfsa2024-33/
+    - https://www.mozilla.org/security/advisories/mfsa2024-34/
+    - https://www.mozilla.org/security/advisories/mfsa2024-35/
+    PublishedDate: '2024-08-06T13:15:57.787Z'
+    LastModifiedDate: '2024-08-06T16:30:24.547Z'
   - VulnerabilityID: CVE-2023-2953
     PkgID: openldap@2.6.6-3.el9.x86_64
     PkgName: openldap
@@ -3791,7 +4003,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4078,7 +4290,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4365,7 +4577,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
