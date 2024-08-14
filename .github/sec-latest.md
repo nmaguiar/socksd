@@ -233,6 +233,7 @@
 │                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
 │                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-200 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
@@ -278,7 +279,7 @@
 │                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21147 
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:16.377Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.667Z 
+│                       │      ╰ LastModifiedDate: 2024-08-13T00:49:47.367Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2024-21140 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.3_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -683,6 +684,7 @@
 │                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
 │                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-200 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
@@ -728,7 +730,7 @@
 │                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21147 
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:16.377Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.667Z 
+│                       │      ╰ LastModifiedDate: 2024-08-13T00:49:47.367Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2024-21140 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.3_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
