@@ -188,6 +188,8 @@
     Title: 'OpenJDK: RangeCheckElimination array index overflow (8323231)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u411, 8u411-perf, 11.0.23, 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM for JDK: 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM Enterprise Edition: 20.3.14 and  21.3.10. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
     Severity: HIGH
+    CweIDs:
+    - CWE-200
     VendorSeverity:
       alma: 3
       amazon: 3
@@ -230,7 +232,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-21147
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:16.377Z'
-    LastModifiedDate: '2024-07-19T14:15:05.667Z'
+    LastModifiedDate: '2024-08-13T00:49:47.367Z'
   - VulnerabilityID: CVE-2024-21140
     PkgID: openjdk21-jre@21.0.3_p9-r0
     PkgName: openjdk21-jre
@@ -505,6 +507,8 @@
     Title: 'OpenJDK: RangeCheckElimination array index overflow (8323231)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u411, 8u411-perf, 11.0.23, 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM for JDK: 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM Enterprise Edition: 20.3.14 and  21.3.10. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
     Severity: HIGH
+    CweIDs:
+    - CWE-200
     VendorSeverity:
       alma: 3
       amazon: 3
@@ -547,7 +551,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-21147
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:16.377Z'
-    LastModifiedDate: '2024-07-19T14:15:05.667Z'
+    LastModifiedDate: '2024-08-13T00:49:47.367Z'
   - VulnerabilityID: CVE-2024-21140
     PkgID: openjdk21-jre-headless@21.0.3_p9-r0
     PkgName: openjdk21-jre-headless
