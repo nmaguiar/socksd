@@ -682,6 +682,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
@@ -690,11 +691,13 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37370 
 │                       │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd
 │                       │      │                  │      8101669b1ce7144bc96fef 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
-│                       │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                       │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                       │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37370.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
+│                       │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                       │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                       │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                       │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2024-37371 
@@ -718,6 +721,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N
@@ -726,11 +730,13 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37371 
 │                       │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd
 │                       │      │                  │      8101669b1ce7144bc96fef 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
-│                       │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                       │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                       │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37371.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
+│                       │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                       │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                       │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                       │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2024-26458 
@@ -803,6 +809,7 @@
 │                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
 │                       │      │                   vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-770 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 3 
@@ -837,7 +844,7 @@
 │                       │      │                  │       11/ 
 │                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-│                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
+│                       │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │      ├ PkgName         : libarchive 
@@ -5567,11 +5574,12 @@
 │                       │      │                    is fixed in version 70.0. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-94 
-│                       │      ├ VendorSeverity   ╭ amazon : 3 
-│                       │      │                  ├ bitnami: 3 
-│                       │      │                  ├ ghsa   : 3 
-│                       │      │                  ├ photon : 3 
-│                       │      │                  ╰ redhat : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ ghsa       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ╰ redhat     : 3 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
 │                       │      │                  │         │           H/A:H 
 │                       │      │                  │         ╰ V3Score : 8.8 
@@ -5588,8 +5596,10 @@
 │                       │      │                  ├ [3]: https://github.com/pypa/setuptools/pull/4332 
 │                       │      │                  ├ [4]: https://huntr.com/bounties/d6362117-ad57-4e83-951f-b81
 │                       │      │                  │      41c6e7ca5 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6345 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6345 
+│                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2024-6345.html 
+│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2024-5279.html 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-6345 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-6345 
 │                       │      ├ PublishedDate   : 2024-07-15T01:15:01.73Z 
 │                       │      ╰ LastModifiedDate: 2024-07-15T13:00:34.853Z 
 │                       ├ [85] ╭ VulnerabilityID : CVE-2023-36191 
