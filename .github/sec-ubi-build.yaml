@@ -567,6 +567,7 @@
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -576,6 +577,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37370
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
+    - https://linux.oracle.com/cve/CVE-2024-37370.html
+    - https://linux.oracle.com/errata/ELSA-2024-5312.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37370
     - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
@@ -602,6 +605,7 @@
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -611,6 +615,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37371
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
+    - https://linux.oracle.com/cve/CVE-2024-37371.html
+    - https://linux.oracle.com/errata/ELSA-2024-5312.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37371
     - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
@@ -682,6 +688,8 @@
     Title: 'krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c'
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: LOW
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       alma: 1
       amazon: 2
@@ -714,7 +722,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0011/
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
-    LastModifiedDate: '2024-05-14T15:09:00.787Z'
+    LastModifiedDate: '2024-08-14T16:35:10.207Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -4559,6 +4567,7 @@
       amazon: 3
       bitnami: 3
       ghsa: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -4577,6 +4586,8 @@
     - https://github.com/pypa/setuptools/commit/88807c7062788254f654ea8c03427adc859321f0
     - https://github.com/pypa/setuptools/pull/4332
     - https://huntr.com/bounties/d6362117-ad57-4e83-951f-b8141c6e7ca5
+    - https://linux.oracle.com/cve/CVE-2024-6345.html
+    - https://linux.oracle.com/errata/ELSA-2024-5279.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6345
     - https://www.cve.org/CVERecord?id=CVE-2024-6345
     PublishedDate: '2024-07-15T01:15:01.73Z'
