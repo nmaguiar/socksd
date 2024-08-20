@@ -307,6 +307,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -321,22 +322,24 @@
 │                       │      │                  ├ [5] : https://curl.se/docs/CVE-2024-2398.html 
 │                       │      │                  ├ [6] : https://curl.se/docs/CVE-2024-2398.json 
 │                       │      │                  ├ [7] : https://hackerone.com/reports/2402845 
-│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-2398.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-5529.html 
+│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce@lists.fedoraproject.org/message/2D44YLAUFJU
 │                       │      │                  │       6BZ4XFG2FYV7SBKXB5IZ6/ 
-│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce@lists.fedoraproject.org/message/GMD6UYKCCRC
 │                       │      │                  │       YETWQZUJ65ZRFULT6SHLI/ 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20240503-00
+│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
+│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20240503-00
 │                       │      │                  │       09/ 
-│                       │      │                  ├ [12]: https://support.apple.com/kb/HT214118 
-│                       │      │                  ├ [13]: https://support.apple.com/kb/HT214119 
-│                       │      │                  ├ [14]: https://support.apple.com/kb/HT214120 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6718-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6718-2 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6718-3 
-│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
+│                       │      │                  ├ [14]: https://support.apple.com/kb/HT214118 
+│                       │      │                  ├ [15]: https://support.apple.com/kb/HT214119 
+│                       │      │                  ├ [16]: https://support.apple.com/kb/HT214120 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6718-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6718-2 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6718-3 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
 │                       │      ├ PublishedDate   : 2024-03-27T08:15:41.283Z 
 │                       │      ╰ LastModifiedDate: 2024-07-30T02:15:05.45Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2024-7264 
@@ -918,6 +921,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -932,22 +936,24 @@
 │                       │      │                  ├ [5] : https://curl.se/docs/CVE-2024-2398.html 
 │                       │      │                  ├ [6] : https://curl.se/docs/CVE-2024-2398.json 
 │                       │      │                  ├ [7] : https://hackerone.com/reports/2402845 
-│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-2398.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-5529.html 
+│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce@lists.fedoraproject.org/message/2D44YLAUFJU
 │                       │      │                  │       6BZ4XFG2FYV7SBKXB5IZ6/ 
-│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce@lists.fedoraproject.org/message/GMD6UYKCCRC
 │                       │      │                  │       YETWQZUJ65ZRFULT6SHLI/ 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20240503-00
+│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
+│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20240503-00
 │                       │      │                  │       09/ 
-│                       │      │                  ├ [12]: https://support.apple.com/kb/HT214118 
-│                       │      │                  ├ [13]: https://support.apple.com/kb/HT214119 
-│                       │      │                  ├ [14]: https://support.apple.com/kb/HT214120 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6718-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6718-2 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6718-3 
-│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
+│                       │      │                  ├ [14]: https://support.apple.com/kb/HT214118 
+│                       │      │                  ├ [15]: https://support.apple.com/kb/HT214119 
+│                       │      │                  ├ [16]: https://support.apple.com/kb/HT214120 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6718-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6718-2 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6718-3 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
 │                       │      ├ PublishedDate   : 2024-03-27T08:15:41.283Z 
 │                       │      ╰ LastModifiedDate: 2024-07-30T02:15:05.45Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2024-7264 
@@ -1083,10 +1089,12 @@
 │                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2268268 
 │                       │      │                  ├ [3]: https://github.com/tomato42/marvin-toolkit/tree/master
 │                       │      │                  │      /example/libgcrypt 
-│                       │      │                  ├ [4]: https://lists.gnupg.org/pipermail/gcrypt-devel/2024-Ma
+│                       │      │                  ├ [4]: https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt-m
+│                       │      │                  │      irror/-/merge_requests/17 
+│                       │      │                  ├ [5]: https://lists.gnupg.org/pipermail/gcrypt-devel/2024-Ma
 │                       │      │                  │      rch/005607.html 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2024-04-25T17:15:49.467Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2022-27943 
@@ -1790,14 +1798,15 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-7531 
 │                       │      │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-7531 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
-│                       │      │                  ├ [4]: https://www.mozilla.org/en-US/security/advisories/mfsa
-│                       │      │                  │      2024-33/#CVE-2024-7531 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6966-1 
+│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
 │                       │      │                  ├ [5]: https://www.mozilla.org/en-US/security/advisories/mfsa
+│                       │      │                  │      2024-33/#CVE-2024-7531 
+│                       │      │                  ├ [6]: https://www.mozilla.org/en-US/security/advisories/mfsa
 │                       │      │                  │      2024-34/#CVE-2024-7531 
-│                       │      │                  ├ [6]: https://www.mozilla.org/security/advisories/mfsa2024-33/ 
-│                       │      │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
-│                       │      │                  ╰ [8]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
+│                       │      │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-33/ 
+│                       │      │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
+│                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │      ╰ LastModifiedDate: 2024-08-12T16:10:47.12Z 
 │                       ├ [35] ╭ VulnerabilityID : CVE-2024-6602 
@@ -1926,14 +1935,15 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-7531 
 │                       │      │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-7531 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
-│                       │      │                  ├ [4]: https://www.mozilla.org/en-US/security/advisories/mfsa
-│                       │      │                  │      2024-33/#CVE-2024-7531 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6966-1 
+│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
 │                       │      │                  ├ [5]: https://www.mozilla.org/en-US/security/advisories/mfsa
+│                       │      │                  │      2024-33/#CVE-2024-7531 
+│                       │      │                  ├ [6]: https://www.mozilla.org/en-US/security/advisories/mfsa
 │                       │      │                  │      2024-34/#CVE-2024-7531 
-│                       │      │                  ├ [6]: https://www.mozilla.org/security/advisories/mfsa2024-33/ 
-│                       │      │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
-│                       │      │                  ╰ [8]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
+│                       │      │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-33/ 
+│                       │      │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
+│                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │      ╰ LastModifiedDate: 2024-08-12T16:10:47.12Z 
 │                       ├ [38] ╭ VulnerabilityID : CVE-2024-6602 
@@ -2062,14 +2072,15 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-7531 
 │                       │      │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-7531 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
-│                       │      │                  ├ [4]: https://www.mozilla.org/en-US/security/advisories/mfsa
-│                       │      │                  │      2024-33/#CVE-2024-7531 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6966-1 
+│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
 │                       │      │                  ├ [5]: https://www.mozilla.org/en-US/security/advisories/mfsa
+│                       │      │                  │      2024-33/#CVE-2024-7531 
+│                       │      │                  ├ [6]: https://www.mozilla.org/en-US/security/advisories/mfsa
 │                       │      │                  │      2024-34/#CVE-2024-7531 
-│                       │      │                  ├ [6]: https://www.mozilla.org/security/advisories/mfsa2024-33/ 
-│                       │      │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
-│                       │      │                  ╰ [8]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
+│                       │      │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-33/ 
+│                       │      │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
+│                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │      ╰ LastModifiedDate: 2024-08-12T16:10:47.12Z 
 │                       ├ [41] ╭ VulnerabilityID : CVE-2024-6602 
@@ -2198,14 +2209,15 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-7531 
 │                       │      │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-7531 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
-│                       │      │                  ├ [4]: https://www.mozilla.org/en-US/security/advisories/mfsa
-│                       │      │                  │      2024-33/#CVE-2024-7531 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6966-1 
+│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
 │                       │      │                  ├ [5]: https://www.mozilla.org/en-US/security/advisories/mfsa
+│                       │      │                  │      2024-33/#CVE-2024-7531 
+│                       │      │                  ├ [6]: https://www.mozilla.org/en-US/security/advisories/mfsa
 │                       │      │                  │      2024-34/#CVE-2024-7531 
-│                       │      │                  ├ [6]: https://www.mozilla.org/security/advisories/mfsa2024-33/ 
-│                       │      │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
-│                       │      │                  ╰ [8]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
+│                       │      │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-33/ 
+│                       │      │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
+│                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │      ╰ LastModifiedDate: 2024-08-12T16:10:47.12Z 
 │                       ├ [44] ╭ VulnerabilityID : CVE-2024-6602 
@@ -2334,14 +2346,15 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-7531 
 │                       │      │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-7531 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
-│                       │      │                  ├ [4]: https://www.mozilla.org/en-US/security/advisories/mfsa
-│                       │      │                  │      2024-33/#CVE-2024-7531 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6966-1 
+│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
 │                       │      │                  ├ [5]: https://www.mozilla.org/en-US/security/advisories/mfsa
+│                       │      │                  │      2024-33/#CVE-2024-7531 
+│                       │      │                  ├ [6]: https://www.mozilla.org/en-US/security/advisories/mfsa
 │                       │      │                  │      2024-34/#CVE-2024-7531 
-│                       │      │                  ├ [6]: https://www.mozilla.org/security/advisories/mfsa2024-33/ 
-│                       │      │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
-│                       │      │                  ╰ [8]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
+│                       │      │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-33/ 
+│                       │      │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
+│                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │      ╰ LastModifiedDate: 2024-08-12T16:10:47.12Z 
 │                       ├ [47] ╭ VulnerabilityID : CVE-2024-6602 
@@ -2470,14 +2483,15 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-7531 
 │                       │      │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-7531 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
-│                       │      │                  ├ [4]: https://www.mozilla.org/en-US/security/advisories/mfsa
-│                       │      │                  │      2024-33/#CVE-2024-7531 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6966-1 
+│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
 │                       │      │                  ├ [5]: https://www.mozilla.org/en-US/security/advisories/mfsa
+│                       │      │                  │      2024-33/#CVE-2024-7531 
+│                       │      │                  ├ [6]: https://www.mozilla.org/en-US/security/advisories/mfsa
 │                       │      │                  │      2024-34/#CVE-2024-7531 
-│                       │      │                  ├ [6]: https://www.mozilla.org/security/advisories/mfsa2024-33/ 
-│                       │      │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
-│                       │      │                  ╰ [8]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
+│                       │      │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-33/ 
+│                       │      │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
+│                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │      ╰ LastModifiedDate: 2024-08-12T16:10:47.12Z 
 │                       ├ [50] ╭ VulnerabilityID : CVE-2023-2953 
@@ -4763,10 +4777,14 @@
 │                       │      │                    is serialized. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-94 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ VendorSeverity   ╭ bitnami: 2 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:
+│                       │      │                  │         │           L/A:L 
+│                       │      │                  │         ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:
+│                       │      │                            │           H/A:N 
+│                       │      │                            ╰ V3Score : 6.8 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6923 
 │                       │      │                  ├ [1]: https://github.com/python/cpython/commit/4766d1200fdf8
 │                       │      │                  │      b6728137aa2927a297e224d5fa7 
@@ -5079,10 +5097,14 @@
 │                       │      │                    is serialized. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-94 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ VendorSeverity   ╭ bitnami: 2 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:
+│                       │      │                  │         │           L/A:L 
+│                       │      │                  │         ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:
+│                       │      │                            │           H/A:N 
+│                       │      │                            ╰ V3Score : 6.8 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6923 
 │                       │      │                  ├ [1]: https://github.com/python/cpython/commit/4766d1200fdf8
 │                       │      │                  │      b6728137aa2927a297e224d5fa7 
@@ -5395,10 +5417,14 @@
 │                       │      │                    is serialized. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-94 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ VendorSeverity   ╭ bitnami: 2 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:
+│                       │      │                  │         │           L/A:L 
+│                       │      │                  │         ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:
+│                       │      │                            │           H/A:N 
+│                       │      │                            ╰ V3Score : 6.8 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6923 
 │                       │      │                  ├ [1]: https://github.com/python/cpython/commit/4766d1200fdf8
 │                       │      │                  │      b6728137aa2927a297e224d5fa7 
@@ -5601,7 +5627,7 @@
 │                       │      │                  ├ [4]: https://huntr.com/bounties/d6362117-ad57-4e83-951f-b81
 │                       │      │                  │      41c6e7ca5 
 │                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2024-6345.html 
-│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2024-5279.html 
+│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2024-5534.html 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-6345 
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-6345 
 │                       │      ├ PublishedDate   : 2024-07-15T01:15:01.73Z 
