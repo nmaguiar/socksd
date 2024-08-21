@@ -256,7 +256,8 @@
 │                       │      │                   version 2.3.3op2-2.1 and prior versions. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-276 
-│                       │      ├ VendorSeverity   ╭ nvd   : 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 1 
+│                       │      │                  ├ nvd   : 1 
 │                       │      │                  ╰ redhat: 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:L/AC:L/Au:N/C:N/I:P/A:N 
 │                       │      │                  │        ├ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L
@@ -391,7 +392,8 @@
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2629968 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6944-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6944-2 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
 │                       │      ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
 │                       │      ╰ LastModifiedDate: 2024-08-12T17:30:51.88Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2023-4156 
@@ -1005,7 +1007,8 @@
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2629968 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6944-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6944-2 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
 │                       │      ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
 │                       │      ╰ LastModifiedDate: 2024-08-12T17:30:51.88Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
