@@ -283,13 +283,15 @@
 │                       │      ├ PublishedDate   : 2021-05-05T10:15:08.133Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:31:27.377Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2024-2398 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:5529 
 │                       │      ├ PkgID           : curl-minimal@7.76.1-29.el9_4.x86_64 
 │                       │      ├ PkgName         : curl-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/curl-minimal@7.76.1-29.el9_4?arch=x86_
 │                       │      │                  │       64&distro=redhat-9.4 
 │                       │      │                  ╰ UID : f42f871c2bc4da29 
 │                       │      ├ InstalledVersion: 7.76.1-29.el9_4 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 7.76.1-29.el9_4.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:6e93ff2d792436edded4f28d1fdabb3ea5c76a14e134
 │                       │      │                  │         e29333cceaf33043c0da 
 │                       │      │                  ╰ DiffID: sha256:b374ae41048fb47ca205c1983bee2d3587597efc7348
@@ -306,7 +308,8 @@
 │                       │      │                   silently and is therefore not easily detected by an
 │                       │      │                   application. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
@@ -319,28 +322,31 @@
 │                       │      │                  ├ [1] : http://seclists.org/fulldisclosure/2024/Jul/19 
 │                       │      │                  ├ [2] : http://seclists.org/fulldisclosure/2024/Jul/20 
 │                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2024/03/27/3 
-│                       │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-2398 
-│                       │      │                  ├ [5] : https://curl.se/docs/CVE-2024-2398.html 
-│                       │      │                  ├ [6] : https://curl.se/docs/CVE-2024-2398.json 
-│                       │      │                  ├ [7] : https://hackerone.com/reports/2402845 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-2398.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-5529.html 
-│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:5529 
+│                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2024-2398 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2270498 
+│                       │      │                  ├ [7] : https://curl.se/docs/CVE-2024-2398.html 
+│                       │      │                  ├ [8] : https://curl.se/docs/CVE-2024-2398.json 
+│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-5529.html 
+│                       │      │                  ├ [10]: https://hackerone.com/reports/2402845 
+│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-2398.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-5654.html 
+│                       │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce@lists.fedoraproject.org/message/2D44YLAUFJU
 │                       │      │                  │       6BZ4XFG2FYV7SBKXB5IZ6/ 
-│                       │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce@lists.fedoraproject.org/message/GMD6UYKCCRC
 │                       │      │                  │       YETWQZUJ65ZRFULT6SHLI/ 
-│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
-│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20240503-00
+│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
+│                       │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20240503-00
 │                       │      │                  │       09/ 
-│                       │      │                  ├ [14]: https://support.apple.com/kb/HT214118 
-│                       │      │                  ├ [15]: https://support.apple.com/kb/HT214119 
-│                       │      │                  ├ [16]: https://support.apple.com/kb/HT214120 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6718-1 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6718-2 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6718-3 
-│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
+│                       │      │                  ├ [17]: https://support.apple.com/kb/HT214118 
+│                       │      │                  ├ [18]: https://support.apple.com/kb/HT214119 
+│                       │      │                  ├ [19]: https://support.apple.com/kb/HT214120 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6718-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6718-2 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6718-3 
+│                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
 │                       │      ├ PublishedDate   : 2024-03-27T08:15:41.283Z 
 │                       │      ╰ LastModifiedDate: 2024-07-30T02:15:05.45Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2024-7264 
@@ -686,7 +692,8 @@
 │                       │      │                    krb5 wrap token, causing the unwrapped token to appear
 │                       │      │                   truncated to the application. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -695,16 +702,20 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.4 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37370 
-│                       │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd
-│                       │      │                  │      8101669b1ce7144bc96fef 
-│                       │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37370.html 
-│                       │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
-│                       │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                       │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:5312 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-37370 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2294676 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294677 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-5312.html 
+│                       │      │                  ├ [5] : https://github.com/krb5/krb5/commit/55fbf435edbe2e92d
+│                       │      │                  │       d8101669b1ce7144bc96fef 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-37370.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6947-1 
+│                       │      │                  ├ [10]: https://web.mit.edu/kerberos/www/advisories/ 
+│                       │      │                  ├ [11]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                       │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                       │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2024-37371 
@@ -726,7 +737,8 @@
 │                       │      │                   cause invalid memory reads during GSS message token handling
 │                       │      │                    by sending message tokens with invalid length fields. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -735,16 +747,20 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37371 
-│                       │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd
-│                       │      │                  │      8101669b1ce7144bc96fef 
-│                       │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37371.html 
-│                       │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
-│                       │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                       │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:5312 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-37371 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2294676 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294677 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-5312.html 
+│                       │      │                  ├ [5] : https://github.com/krb5/krb5/commit/55fbf435edbe2e92d
+│                       │      │                  │       d8101669b1ce7144bc96fef 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-37371.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6947-1 
+│                       │      │                  ├ [10]: https://web.mit.edu/kerberos/www/advisories/ 
+│                       │      │                  ├ [11]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                       │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                       │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2024-26458 
@@ -898,13 +914,15 @@
 │                       │      ├ PublishedDate   : 2023-05-29T20:15:09.513Z 
 │                       │      ╰ LastModifiedDate: 2023-06-05T16:40:57.93Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2024-2398 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:5529 
 │                       │      ├ PkgID           : libcurl-minimal@7.76.1-29.el9_4.x86_64 
 │                       │      ├ PkgName         : libcurl-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-29.el9_4?arch=x
 │                       │      │                  │       86_64&distro=redhat-9.4 
 │                       │      │                  ╰ UID : 9a263590e4ae580a 
 │                       │      ├ InstalledVersion: 7.76.1-29.el9_4 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 7.76.1-29.el9_4.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:6e93ff2d792436edded4f28d1fdabb3ea5c76a14e134
 │                       │      │                  │         e29333cceaf33043c0da 
 │                       │      │                  ╰ DiffID: sha256:b374ae41048fb47ca205c1983bee2d3587597efc7348
@@ -921,7 +939,8 @@
 │                       │      │                   silently and is therefore not easily detected by an
 │                       │      │                   application. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
@@ -934,28 +953,31 @@
 │                       │      │                  ├ [1] : http://seclists.org/fulldisclosure/2024/Jul/19 
 │                       │      │                  ├ [2] : http://seclists.org/fulldisclosure/2024/Jul/20 
 │                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2024/03/27/3 
-│                       │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-2398 
-│                       │      │                  ├ [5] : https://curl.se/docs/CVE-2024-2398.html 
-│                       │      │                  ├ [6] : https://curl.se/docs/CVE-2024-2398.json 
-│                       │      │                  ├ [7] : https://hackerone.com/reports/2402845 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-2398.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-5529.html 
-│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:5529 
+│                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2024-2398 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2270498 
+│                       │      │                  ├ [7] : https://curl.se/docs/CVE-2024-2398.html 
+│                       │      │                  ├ [8] : https://curl.se/docs/CVE-2024-2398.json 
+│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-5529.html 
+│                       │      │                  ├ [10]: https://hackerone.com/reports/2402845 
+│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-2398.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-5654.html 
+│                       │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce@lists.fedoraproject.org/message/2D44YLAUFJU
 │                       │      │                  │       6BZ4XFG2FYV7SBKXB5IZ6/ 
-│                       │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce@lists.fedoraproject.org/message/GMD6UYKCCRC
 │                       │      │                  │       YETWQZUJ65ZRFULT6SHLI/ 
-│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
-│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20240503-00
+│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
+│                       │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20240503-00
 │                       │      │                  │       09/ 
-│                       │      │                  ├ [14]: https://support.apple.com/kb/HT214118 
-│                       │      │                  ├ [15]: https://support.apple.com/kb/HT214119 
-│                       │      │                  ├ [16]: https://support.apple.com/kb/HT214120 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6718-1 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6718-2 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6718-3 
-│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
+│                       │      │                  ├ [17]: https://support.apple.com/kb/HT214118 
+│                       │      │                  ├ [18]: https://support.apple.com/kb/HT214119 
+│                       │      │                  ├ [19]: https://support.apple.com/kb/HT214120 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6718-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6718-2 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6718-3 
+│                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
 │                       │      ├ PublishedDate   : 2024-03-27T08:15:41.283Z 
 │                       │      ╰ LastModifiedDate: 2024-07-30T02:15:05.45Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2024-7264 
@@ -4833,7 +4855,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-362 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5153,7 +5175,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-362 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5473,7 +5495,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-362 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5581,13 +5603,15 @@
 │                       │      ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │      ╰ LastModifiedDate: 2024-06-21T19:15:20.04Z 
 │                       ├ [84] ╭ VulnerabilityID : CVE-2024-6345 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:5534 
 │                       │      ├ PkgID           : python3-setuptools-wheel@53.0.0-12.el9.noarch 
 │                       │      ├ PkgName         : python3-setuptools-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-setuptools-wheel@53.0.0-12.el9
 │                       │      │                  │       ?arch=noarch&distro=redhat-9.4 
 │                       │      │                  ╰ UID : 786cafda3d5b3a32 
 │                       │      ├ InstalledVersion: 53.0.0-12.el9 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 53.0.0-12.el9_4.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:6e93ff2d792436edded4f28d1fdabb3ea5c76a14e134
 │                       │      │                  │         e29333cceaf33043c0da 
 │                       │      │                  ╰ DiffID: sha256:b374ae41048fb47ca205c1983bee2d3587597efc7348
@@ -5607,12 +5631,14 @@
 │                       │      │                    is fixed in version 70.0. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-94 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ ghsa       : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
-│                       │      │                  ╰ redhat     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
 │                       │      │                  │         │           H/A:H 
 │                       │      │                  │         ╰ V3Score : 8.8 
@@ -5622,17 +5648,24 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
 │                       │      │                            │           H/A:H 
 │                       │      │                            ╰ V3Score : 8.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6345 
-│                       │      │                  ├ [1]: https://github.com/pypa/setuptools 
-│                       │      │                  ├ [2]: https://github.com/pypa/setuptools/commit/88807c706278
-│                       │      │                  │      8254f654ea8c03427adc859321f0 
-│                       │      │                  ├ [3]: https://github.com/pypa/setuptools/pull/4332 
-│                       │      │                  ├ [4]: https://huntr.com/bounties/d6362117-ad57-4e83-951f-b81
-│                       │      │                  │      41c6e7ca5 
-│                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2024-6345.html 
-│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2024-5534.html 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-6345 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-6345 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:5534 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-6345 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2297771 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2297771 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-6345 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-5534.html 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2024:5530 
+│                       │      │                  ├ [7] : https://github.com/pypa/setuptools 
+│                       │      │                  ├ [8] : https://github.com/pypa/setuptools/commit/88807c70627
+│                       │      │                  │       88254f654ea8c03427adc859321f0 
+│                       │      │                  ├ [9] : https://github.com/pypa/setuptools/pull/4332 
+│                       │      │                  ├ [10]: https://huntr.com/bounties/d6362117-ad57-4e83-951f-b8
+│                       │      │                  │       141c6e7ca5 
+│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-6345.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-5534.html 
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-6345 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-6345 
 │                       │      ├ PublishedDate   : 2024-07-15T01:15:01.73Z 
 │                       │      ╰ LastModifiedDate: 2024-07-15T13:00:34.853Z 
 │                       ├ [85] ╭ VulnerabilityID : CVE-2023-36191 
