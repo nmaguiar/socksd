@@ -232,13 +232,16 @@
     PublishedDate: '2021-05-05T10:15:08.133Z'
     LastModifiedDate: '2023-11-07T03:31:27.377Z'
   - VulnerabilityID: CVE-2024-2398
+    VendorIDs:
+    - RHSA-2024:5529
     PkgID: curl-minimal@7.76.1-29.el9_4.x86_64
     PkgName: curl-minimal
     PkgIdentifier:
       PURL: pkg:rpm/redhat/curl-minimal@7.76.1-29.el9_4?arch=x86_64&distro=redhat-9.4
       UID: f42f871c2bc4da29
     InstalledVersion: 7.76.1-29.el9_4
-    Status: affected
+    FixedVersion: 7.76.1-29.el9_4.1
+    Status: fixed
     Layer:
       Digest: sha256:2ec82cc24c241a0c4e501a6bf2b903ed8e298571e9d8ac875a51f4f9e2e5e288
       DiffID: sha256:93b6bd2f2197318d72e21112ff6990f7d07643c3431b91cc621ba66d4202a330
@@ -248,6 +251,7 @@
     Description: When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
       cbl-mariner: 3
       oracle-oval: 2
@@ -263,12 +267,15 @@
     - http://seclists.org/fulldisclosure/2024/Jul/19
     - http://seclists.org/fulldisclosure/2024/Jul/20
     - http://www.openwall.com/lists/oss-security/2024/03/27/3
+    - https://access.redhat.com/errata/RHSA-2024:5529
     - https://access.redhat.com/security/cve/CVE-2024-2398
+    - https://bugzilla.redhat.com/2270498
     - https://curl.se/docs/CVE-2024-2398.html
     - https://curl.se/docs/CVE-2024-2398.json
+    - https://errata.almalinux.org/9/ALSA-2024-5529.html
     - https://hackerone.com/reports/2402845
     - https://linux.oracle.com/cve/CVE-2024-2398.html
-    - https://linux.oracle.com/errata/ELSA-2024-5529.html
+    - https://linux.oracle.com/errata/ELSA-2024-5654.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/2D44YLAUFJU6BZ4XFG2FYV7SBKXB5IZ6/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GMD6UYKCCRCYETWQZUJ65ZRFULT6SHLI/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2398
@@ -571,6 +578,7 @@
     Description: In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -582,7 +590,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2024:5312
     - https://access.redhat.com/security/cve/CVE-2024-37370
+    - https://bugzilla.redhat.com/2294676
+    - https://bugzilla.redhat.com/2294677
+    - https://errata.almalinux.org/8/ALSA-2024-5312.html
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://linux.oracle.com/cve/CVE-2024-37370.html
     - https://linux.oracle.com/errata/ELSA-2024-5312.html
@@ -610,6 +622,7 @@
     Description: In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -621,7 +634,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:5312
     - https://access.redhat.com/security/cve/CVE-2024-37371
+    - https://bugzilla.redhat.com/2294676
+    - https://bugzilla.redhat.com/2294677
+    - https://errata.almalinux.org/8/ALSA-2024-5312.html
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://linux.oracle.com/cve/CVE-2024-37371.html
     - https://linux.oracle.com/errata/ELSA-2024-5312.html
@@ -770,13 +787,16 @@
     PublishedDate: '2023-05-29T20:15:09.513Z'
     LastModifiedDate: '2023-06-05T16:40:57.93Z'
   - VulnerabilityID: CVE-2024-2398
+    VendorIDs:
+    - RHSA-2024:5529
     PkgID: libcurl-minimal@7.76.1-29.el9_4.x86_64
     PkgName: libcurl-minimal
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-29.el9_4?arch=x86_64&distro=redhat-9.4
       UID: 9a263590e4ae580a
     InstalledVersion: 7.76.1-29.el9_4
-    Status: affected
+    FixedVersion: 7.76.1-29.el9_4.1
+    Status: fixed
     Layer:
       Digest: sha256:2ec82cc24c241a0c4e501a6bf2b903ed8e298571e9d8ac875a51f4f9e2e5e288
       DiffID: sha256:93b6bd2f2197318d72e21112ff6990f7d07643c3431b91cc621ba66d4202a330
@@ -786,6 +806,7 @@
     Description: When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
       cbl-mariner: 3
       oracle-oval: 2
@@ -801,12 +822,15 @@
     - http://seclists.org/fulldisclosure/2024/Jul/19
     - http://seclists.org/fulldisclosure/2024/Jul/20
     - http://www.openwall.com/lists/oss-security/2024/03/27/3
+    - https://access.redhat.com/errata/RHSA-2024:5529
     - https://access.redhat.com/security/cve/CVE-2024-2398
+    - https://bugzilla.redhat.com/2270498
     - https://curl.se/docs/CVE-2024-2398.html
     - https://curl.se/docs/CVE-2024-2398.json
+    - https://errata.almalinux.org/9/ALSA-2024-5529.html
     - https://hackerone.com/reports/2402845
     - https://linux.oracle.com/cve/CVE-2024-2398.html
-    - https://linux.oracle.com/errata/ELSA-2024-5529.html
+    - https://linux.oracle.com/errata/ELSA-2024-5654.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/2D44YLAUFJU6BZ4XFG2FYV7SBKXB5IZ6/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GMD6UYKCCRCYETWQZUJ65ZRFULT6SHLI/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2398
@@ -4022,7 +4046,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4253,7 +4277,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4484,7 +4508,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4578,13 +4602,16 @@
     PublishedDate: '2021-11-10T18:15:09.51Z'
     LastModifiedDate: '2024-06-21T19:15:20.04Z'
   - VulnerabilityID: CVE-2024-6345
+    VendorIDs:
+    - RHSA-2024:5534
     PkgID: python3-setuptools-wheel@53.0.0-12.el9.noarch
     PkgName: python3-setuptools-wheel
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3-setuptools-wheel@53.0.0-12.el9?arch=noarch&distro=redhat-9.4
       UID: 786cafda3d5b3a32
     InstalledVersion: 53.0.0-12.el9
-    Status: affected
+    FixedVersion: 53.0.0-12.el9_4.1
+    Status: fixed
     Layer:
       Digest: sha256:2ec82cc24c241a0c4e501a6bf2b903ed8e298571e9d8ac875a51f4f9e2e5e288
       DiffID: sha256:93b6bd2f2197318d72e21112ff6990f7d07643c3431b91cc621ba66d4202a330
@@ -4596,12 +4623,14 @@
     CweIDs:
     - CWE-94
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
       ghsa: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
@@ -4613,7 +4642,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 8.8
     References:
+    - https://access.redhat.com/errata/RHSA-2024:5534
     - https://access.redhat.com/security/cve/CVE-2024-6345
+    - https://bugzilla.redhat.com/2297771
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297771
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6345
+    - https://errata.almalinux.org/9/ALSA-2024-5534.html
+    - https://errata.rockylinux.org/RLSA-2024:5530
     - https://github.com/pypa/setuptools
     - https://github.com/pypa/setuptools/commit/88807c7062788254f654ea8c03427adc859321f0
     - https://github.com/pypa/setuptools/pull/4332
