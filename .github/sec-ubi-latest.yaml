@@ -1077,6 +1077,8 @@
     Title: 'libxml2: buffer over-read in xmlHTMLPrintFileContext in xmllint.c'
     Description: An issue was discovered in xmllint (from libxml2) before 2.11.8 and 2.12.x before 2.12.7. Formatting error messages with xmllint --htmlout can result in a buffer over-read in xmlHTMLPrintFileContext in xmllint.c.
     Severity: LOW
+    CweIDs:
+    - CWE-122
     VendorSeverity:
       cbl-mariner: 2
       photon: 2
@@ -1096,7 +1098,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34459
     - https://www.cve.org/CVERecord?id=CVE-2024-34459
     PublishedDate: '2024-05-14T15:39:11.917Z'
-    LastModifiedDate: '2024-06-10T18:15:34.93Z'
+    LastModifiedDate: '2024-08-22T18:35:08.623Z'
   - VulnerabilityID: CVE-2024-35325
     PkgID: libyaml@0.2.5-7.el9.x86_64
     PkgName: libyaml
@@ -4019,6 +4021,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-6923
     PublishedDate: '2024-08-01T14:15:03.647Z'
     LastModifiedDate: '2024-08-07T15:15:56.337Z'
+  - VulnerabilityID: CVE-2024-8088
+    PkgID: python-unversioned-command@3.9.18-3.el9_4.3.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18-3.el9_4.3?arch=noarch&distro=redhat-9.4
+      UID: f1238ad906244e69
+    InstalledVersion: 3.9.18-3.el9_4.3
+    Status: affected
+    Layer:
+      Digest: sha256:6e93ff2d792436edded4f28d1fdabb3ea5c76a14e134e29333cceaf33043c0da
+      DiffID: sha256:b374ae41048fb47ca205c1983bee2d3587597efc7348f3b5fff0a4774f41648b
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
+    Title: 'python: cpython: From NVD collector'
+    Description: |-
+      There is a HIGH severity vulnerability affecting the CPython "zipfile"
+      module.
+
+
+
+
+
+      When iterating over names of entries in a zip archive (for example, methods
+      of "zipfile.ZipFile" like "namelist()", "iterdir()", "extractall()", etc)
+      the process can be put into an infinite loop with a maliciously crafted
+      zip archive. This defect applies when reading only metadata or extracting
+      the contents of the zip archive. Programs that are not handling
+      user-controlled zip archives are not affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-8088
+    - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
+    - https://github.com/python/cpython/commit/8c7348939d8a3ecd79d630075f6be1b0c5b41f64
+    - https://github.com/python/cpython/commit/dcc5182f27c1500006a1ef78e10613bb45788dea
+    - https://github.com/python/cpython/issues/122905
+    - https://github.com/python/cpython/pull/122906
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
+    - https://www.cve.org/CVERecord?id=CVE-2024-8088
+    PublishedDate: '2024-08-22T19:15:09.72Z'
+    LastModifiedDate: '2024-08-22T19:15:09.72Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python-unversioned-command@3.9.18-3.el9_4.3.noarch
     PkgName: python-unversioned-command
@@ -4250,6 +4301,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-6923
     PublishedDate: '2024-08-01T14:15:03.647Z'
     LastModifiedDate: '2024-08-07T15:15:56.337Z'
+  - VulnerabilityID: CVE-2024-8088
+    PkgID: python3@3.9.18-3.el9_4.3.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.3?arch=x86_64&distro=redhat-9.4
+      UID: 6e17d74623f1d90a
+    InstalledVersion: 3.9.18-3.el9_4.3
+    Status: affected
+    Layer:
+      Digest: sha256:6e93ff2d792436edded4f28d1fdabb3ea5c76a14e134e29333cceaf33043c0da
+      DiffID: sha256:b374ae41048fb47ca205c1983bee2d3587597efc7348f3b5fff0a4774f41648b
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
+    Title: 'python: cpython: From NVD collector'
+    Description: |-
+      There is a HIGH severity vulnerability affecting the CPython "zipfile"
+      module.
+
+
+
+
+
+      When iterating over names of entries in a zip archive (for example, methods
+      of "zipfile.ZipFile" like "namelist()", "iterdir()", "extractall()", etc)
+      the process can be put into an infinite loop with a maliciously crafted
+      zip archive. This defect applies when reading only metadata or extracting
+      the contents of the zip archive. Programs that are not handling
+      user-controlled zip archives are not affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-8088
+    - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
+    - https://github.com/python/cpython/commit/8c7348939d8a3ecd79d630075f6be1b0c5b41f64
+    - https://github.com/python/cpython/commit/dcc5182f27c1500006a1ef78e10613bb45788dea
+    - https://github.com/python/cpython/issues/122905
+    - https://github.com/python/cpython/pull/122906
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
+    - https://www.cve.org/CVERecord?id=CVE-2024-8088
+    PublishedDate: '2024-08-22T19:15:09.72Z'
+    LastModifiedDate: '2024-08-22T19:15:09.72Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3@3.9.18-3.el9_4.3.x86_64
     PkgName: python3
@@ -4481,6 +4581,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-6923
     PublishedDate: '2024-08-01T14:15:03.647Z'
     LastModifiedDate: '2024-08-07T15:15:56.337Z'
+  - VulnerabilityID: CVE-2024-8088
+    PkgID: python3-libs@3.9.18-3.el9_4.3.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.3?arch=x86_64&distro=redhat-9.4
+      UID: 14c0acf882e4dd82
+    InstalledVersion: 3.9.18-3.el9_4.3
+    Status: affected
+    Layer:
+      Digest: sha256:6e93ff2d792436edded4f28d1fdabb3ea5c76a14e134e29333cceaf33043c0da
+      DiffID: sha256:b374ae41048fb47ca205c1983bee2d3587597efc7348f3b5fff0a4774f41648b
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
+    Title: 'python: cpython: From NVD collector'
+    Description: |-
+      There is a HIGH severity vulnerability affecting the CPython "zipfile"
+      module.
+
+
+
+
+
+      When iterating over names of entries in a zip archive (for example, methods
+      of "zipfile.ZipFile" like "namelist()", "iterdir()", "extractall()", etc)
+      the process can be put into an infinite loop with a maliciously crafted
+      zip archive. This defect applies when reading only metadata or extracting
+      the contents of the zip archive. Programs that are not handling
+      user-controlled zip archives are not affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-8088
+    - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
+    - https://github.com/python/cpython/commit/8c7348939d8a3ecd79d630075f6be1b0c5b41f64
+    - https://github.com/python/cpython/commit/dcc5182f27c1500006a1ef78e10613bb45788dea
+    - https://github.com/python/cpython/issues/122905
+    - https://github.com/python/cpython/pull/122906
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
+    - https://www.cve.org/CVERecord?id=CVE-2024-8088
+    PublishedDate: '2024-08-22T19:15:09.72Z'
+    LastModifiedDate: '2024-08-22T19:15:09.72Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3-libs@3.9.18-3.el9_4.3.x86_64
     PkgName: python3-libs
