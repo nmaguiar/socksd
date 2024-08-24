@@ -1236,7 +1236,7 @@
 │                       │      │                   xmlHTMLPrintFileContext in xmllint.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -1282,9 +1282,14 @@
 │                       │      │                   /src/libyaml/src/api.c. The manipulation leads to a
 │                       │      │                   double-free. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ CweIDs           ─ [0]: CWE-415 
+│                       │      ├ VendorSeverity   ╭ nvd   : 4 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 9.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-35325 
@@ -1293,7 +1298,7 @@
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-35325 
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-35325 
 │                       │      ├ PublishedDate   : 2024-06-13T17:15:50.39Z 
-│                       │      ╰ LastModifiedDate: 2024-06-13T18:35:19.777Z 
+│                       │      ╰ LastModifiedDate: 2024-08-23T15:43:02.65Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2022-4899 
 │                       │      ├ PkgID           : libzstd@1.5.1-2.el9.x86_64 
 │                       │      ├ PkgName         : libzstd 
@@ -4871,14 +4876,16 @@
 │                       │      │                  │      ecd79d630075f6be1b0c5b41f64 
 │                       │      │                  ├ [3]: https://github.com/python/cpython/commit/dcc5182f27c15
 │                       │      │                  │      00006a1ef78e10613bb45788dea 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/122905 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/122906 
-│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e0264a61119d5
+│                       │      │                  │      51658d9445af38323ba94fc16db 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/issues/122905 
+│                       │      │                  ├ [6]: https://github.com/python/cpython/pull/122906 
+│                       │      │                  ├ [7]: https://mail.python.org/archives/list/security-announc
 │                       │      │                  │      e@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-8088 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-8088 
+│                       │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-8088 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-8088 
 │                       │      ├ PublishedDate   : 2024-08-22T19:15:09.72Z 
-│                       │      ╰ LastModifiedDate: 2024-08-22T19:15:09.72Z 
+│                       │      ╰ LastModifiedDate: 2024-08-23T18:15:08.02Z 
 │                       ├ [75] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9_4.3.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -5246,14 +5253,16 @@
 │                       │      │                  │      ecd79d630075f6be1b0c5b41f64 
 │                       │      │                  ├ [3]: https://github.com/python/cpython/commit/dcc5182f27c15
 │                       │      │                  │      00006a1ef78e10613bb45788dea 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/122905 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/122906 
-│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e0264a61119d5
+│                       │      │                  │      51658d9445af38323ba94fc16db 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/issues/122905 
+│                       │      │                  ├ [6]: https://github.com/python/cpython/pull/122906 
+│                       │      │                  ├ [7]: https://mail.python.org/archives/list/security-announc
 │                       │      │                  │      e@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-8088 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-8088 
+│                       │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-8088 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-8088 
 │                       │      ├ PublishedDate   : 2024-08-22T19:15:09.72Z 
-│                       │      ╰ LastModifiedDate: 2024-08-22T19:15:09.72Z 
+│                       │      ╰ LastModifiedDate: 2024-08-23T18:15:08.02Z 
 │                       ├ [80] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9_4.3.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -5621,14 +5630,16 @@
 │                       │      │                  │      ecd79d630075f6be1b0c5b41f64 
 │                       │      │                  ├ [3]: https://github.com/python/cpython/commit/dcc5182f27c15
 │                       │      │                  │      00006a1ef78e10613bb45788dea 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/122905 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/122906 
-│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e0264a61119d5
+│                       │      │                  │      51658d9445af38323ba94fc16db 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/issues/122905 
+│                       │      │                  ├ [6]: https://github.com/python/cpython/pull/122906 
+│                       │      │                  ├ [7]: https://mail.python.org/archives/list/security-announc
 │                       │      │                  │      e@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-8088 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-8088 
+│                       │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-8088 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-8088 
 │                       │      ├ PublishedDate   : 2024-08-22T19:15:09.72Z 
-│                       │      ╰ LastModifiedDate: 2024-08-22T19:15:09.72Z 
+│                       │      ╰ LastModifiedDate: 2024-08-23T18:15:08.02Z 
 │                       ├ [85] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.3.x86_64 
 │                       │      ├ PkgName         : python3-libs 
