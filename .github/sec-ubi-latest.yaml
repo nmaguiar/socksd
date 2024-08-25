@@ -1080,7 +1080,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 3
+      cbl-mariner: 2
       photon: 2
       redhat: 1
     CVSS:
