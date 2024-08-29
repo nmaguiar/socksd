@@ -1,6 +1,10 @@
-- Target: nmaguiar/socksd:latest (alpine 3.20.2)
-  Class: os-pkgs
-  Type: alpine
-- Target: Java
-  Class: lang-pkgs
-  Type: jar
+ojob.io/sec/genSecBadge: ''
+image: nmaguiar/socksd:latest
+file: .github/sec-latest.svg
+reportFile: .github/sec-latest.yaml
+init: {}
+msg: Producing a summary of the results...
+__key: report
+level: info
+options: {}
+__format: pm
