@@ -39,6 +39,7 @@
 │                       │     ├ CweIDs           ─ [0]: CWE-125 
 │                       │     ├ VendorSeverity   ╭ cbl-mariner: 2 
 │                       │     │                  ├ nvd        : 2 
+│                       │     │                  ├ photon     : 2 
 │                       │     │                  ├ redhat     : 1 
 │                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/
@@ -177,6 +178,7 @@
 │                       │     ├ CweIDs           ─ [0]: CWE-125 
 │                       │     ├ VendorSeverity   ╭ cbl-mariner: 2 
 │                       │     │                  ├ nvd        : 2 
+│                       │     │                  ├ photon     : 2 
 │                       │     │                  ├ redhat     : 1 
 │                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/
