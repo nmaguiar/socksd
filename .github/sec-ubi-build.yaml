@@ -119,11 +119,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:7753
+    - https://access.redhat.com/errata/RHSA-2024:0133
     - https://access.redhat.com/security/cve/CVE-2023-37920
     - https://bugzilla.redhat.com/2226586
     - https://bugzilla.redhat.com/2242493
-    - https://errata.almalinux.org/9/ALSA-2023-7753.html
+    - https://errata.almalinux.org/8/ALSA-2024-0133.html
     - https://github.com/certifi/python-certifi
     - https://github.com/certifi/python-certifi/commit/8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909
     - https://github.com/certifi/python-certifi/security/advisories/GHSA-xqr8-7jwr-rhp7
@@ -262,6 +262,7 @@
     VendorSeverity:
       cbl-mariner: 2
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -290,7 +291,7 @@
       PURL: pkg:rpm/redhat/expat@2.5.0-2.el9_4?arch=x86_64&distro=redhat-9.4
       UID: bac40d6c4b0e1564
     InstalledVersion: 2.5.0-2.el9_4
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:7b42c4486fb78d802a62fcd108a343122664b1fe5d12b44ebed999e5151a505f
       DiffID: sha256:7b8407a78cdfac5d21fdfb2e131330024a09b16f6298811b9dc92e7e77c7b09c
@@ -303,6 +304,7 @@
     - CWE-611
     VendorSeverity:
       nvd: 4
+      photon: 4
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -314,12 +316,91 @@
         V3Score: 5.1
     References:
     - https://access.redhat.com/security/cve/CVE-2024-45490
+    - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/887
     - https://github.com/libexpat/libexpat/pull/890
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45490
     - https://www.cve.org/CVERecord?id=CVE-2024-45490
     PublishedDate: '2024-08-30T03:15:03.757Z'
     LastModifiedDate: '2024-09-04T14:28:19.313Z'
+  - VulnerabilityID: CVE-2024-45491
+    PkgID: expat@2.5.0-2.el9_4.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-2.el9_4?arch=x86_64&distro=redhat-9.4
+      UID: bac40d6c4b0e1564
+    InstalledVersion: 2.5.0-2.el9_4
+    Status: will_not_fix
+    Layer:
+      Digest: sha256:7b42c4486fb78d802a62fcd108a343122664b1fe5d12b44ebed999e5151a505f
+      DiffID: sha256:7b8407a78cdfac5d21fdfb2e131330024a09b16f6298811b9dc92e7e77c7b09c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45491
+    Title: 'libexpat: Integer Overflow or Wraparound'
+    Description: An issue was discovered in libexpat before 2.6.3. dtdCopy in xmlparse.c can have an integer overflow for nDefaultAtts on 32-bit platforms (where UINT_MAX equals SIZE_MAX).
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      nvd: 4
+      photon: 4
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-45491
+    - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
+    - https://github.com/libexpat/libexpat/issues/888
+    - https://github.com/libexpat/libexpat/pull/891
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-45491
+    - https://www.cve.org/CVERecord?id=CVE-2024-45491
+    PublishedDate: '2024-08-30T03:15:03.85Z'
+    LastModifiedDate: '2024-09-04T14:28:33.953Z'
+  - VulnerabilityID: CVE-2024-45492
+    PkgID: expat@2.5.0-2.el9_4.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-2.el9_4?arch=x86_64&distro=redhat-9.4
+      UID: bac40d6c4b0e1564
+    InstalledVersion: 2.5.0-2.el9_4
+    Status: will_not_fix
+    Layer:
+      Digest: sha256:7b42c4486fb78d802a62fcd108a343122664b1fe5d12b44ebed999e5151a505f
+      DiffID: sha256:7b8407a78cdfac5d21fdfb2e131330024a09b16f6298811b9dc92e7e77c7b09c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45492
+    Title: 'libexpat: integer overflow'
+    Description: An issue was discovered in libexpat before 2.6.3. nextScaffoldPart in xmlparse.c can have an integer overflow for m_groupSize on 32-bit platforms (where UINT_MAX equals SIZE_MAX).
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      nvd: 4
+      photon: 4
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-45492
+    - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
+    - https://github.com/libexpat/libexpat/issues/889
+    - https://github.com/libexpat/libexpat/pull/892
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-45492
+    - https://www.cve.org/CVERecord?id=CVE-2024-45492
+    PublishedDate: '2024-08-30T03:15:03.93Z'
+    LastModifiedDate: '2024-09-04T14:28:41.76Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -490,7 +571,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://errata.almalinux.org/8/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -578,11 +659,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6166
+    - https://access.redhat.com/errata/RHSA-2024:5312
     - https://access.redhat.com/security/cve/CVE-2024-37370
     - https://bugzilla.redhat.com/2294676
     - https://bugzilla.redhat.com/2294677
-    - https://errata.almalinux.org/9/ALSA-2024-6166.html
+    - https://errata.almalinux.org/8/ALSA-2024-5312.html
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://linux.oracle.com/cve/CVE-2024-37370.html
     - https://linux.oracle.com/errata/ELSA-2024-6166.html
@@ -630,11 +711,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6166
+    - https://access.redhat.com/errata/RHSA-2024:5312
     - https://access.redhat.com/security/cve/CVE-2024-37371
     - https://bugzilla.redhat.com/2294676
     - https://bugzilla.redhat.com/2294677
-    - https://errata.almalinux.org/9/ALSA-2024-6166.html
+    - https://errata.almalinux.org/8/ALSA-2024-5312.html
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://linux.oracle.com/cve/CVE-2024-37371.html
     - https://linux.oracle.com/errata/ELSA-2024-6166.html
@@ -814,38 +895,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7256
     PublishedDate: '2024-08-31T00:15:05.24Z'
     LastModifiedDate: '2024-09-03T12:59:02.453Z'
-  - VulnerabilityID: CVE-2024-8006
-    PkgID: libcap@2.48-9.el9_2.x86_64
-    PkgName: libcap
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libcap@2.48-9.el9_2?arch=x86_64&distro=redhat-9.4
-      UID: 26d18e291d591f5d
-    InstalledVersion: 2.48-9.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:7b42c4486fb78d802a62fcd108a343122664b1fe5d12b44ebed999e5151a505f
-      DiffID: sha256:7b8407a78cdfac5d21fdfb2e131330024a09b16f6298811b9dc92e7e77c7b09c
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8006
-    Title: 'libpcap: NULL pointer derefence in pcap_findalldevs_ex() in pcap-new.c'
-    Description: Remote packet capture support is disabled by default in libpcap.  When a user builds libpcap with remote packet capture support enabled, one of the functions that become available is pcap_findalldevs_ex().  One of the function arguments can be a filesystem path, which normally means a directory with input data files.  When the specified path cannot be used as a directory, the function receives NULL from opendir(), but does not check the return value and passes the NULL value to readdir(), which causes a NULL pointer derefence.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-476
-    VendorSeverity:
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 4.4
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-8006
-    - https://github.com/the-tcpdump-group/libpcap/commit/0f8a103469ce87d2b8d68c5130a46ddb7fb5eb29
-    - https://github.com/the-tcpdump-group/libpcap/commit/8a633ee5b9ecd9d38a587ac9b204e2380713b0d6
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-8006
-    - https://www.cve.org/CVERecord?id=CVE-2024-8006
-    PublishedDate: '2024-08-31T00:15:05.743Z'
-    LastModifiedDate: '2024-09-03T12:59:02.453Z'
   - VulnerabilityID: CVE-2024-7264
     PkgID: libcurl-minimal@7.76.1-29.el9_4.1.x86_64
     PkgName: libcurl-minimal
@@ -876,6 +925,7 @@
     VendorSeverity:
       cbl-mariner: 2
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1083,7 +1133,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 3
+      cbl-mariner: 2
       photon: 2
       redhat: 1
     CVSS:
@@ -1171,7 +1221,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -1248,7 +1298,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -2395,15 +2445,9 @@
     - http://www.openwall.com/lists/oss-security/2023/07/19/6
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - http://www.openwall.com/lists/oss-security/2024/05/16/1
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2024:0888
     - https://access.redhat.com/security/cve/CVE-2023-3446
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
-    - https://bugzilla.redhat.com/2227852
-    - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
     - https://bugzilla.redhat.com/show_bug.cgi?id=2224962
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257582
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257583
@@ -2420,7 +2464,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45233
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45235
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2024-0888.html
     - https://errata.rockylinux.org/RLSA-2024:2264
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
@@ -2508,16 +2552,12 @@
     - http://www.openwall.com/lists/oss-security/2023/09/22/11
     - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - http://www.openwall.com/lists/oss-security/2023/11/06/2
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-3817
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
@@ -2608,16 +2648,12 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/11/1
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-5678
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=34efaef6c103d636ab507a0cc34dca4d3aecc055
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=710fee740904b6290fef0dd5536fbcedbc38ff0c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
@@ -3052,7 +3088,7 @@
     - CWE-200
     VendorSeverity:
       amazon: 2
-      azure: 2
+      azure: 4
       cbl-mariner: 4
       photon: 4
       redhat: 1
@@ -3211,15 +3247,9 @@
     - http://www.openwall.com/lists/oss-security/2023/07/19/6
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - http://www.openwall.com/lists/oss-security/2024/05/16/1
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2024:0888
     - https://access.redhat.com/security/cve/CVE-2023-3446
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
-    - https://bugzilla.redhat.com/2227852
-    - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
     - https://bugzilla.redhat.com/show_bug.cgi?id=2224962
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257582
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257583
@@ -3236,7 +3266,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45233
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45235
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2024-0888.html
     - https://errata.rockylinux.org/RLSA-2024:2264
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
@@ -3324,16 +3354,12 @@
     - http://www.openwall.com/lists/oss-security/2023/09/22/11
     - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - http://www.openwall.com/lists/oss-security/2023/11/06/2
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-3817
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
@@ -3424,16 +3450,12 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/11/1
-    - https://access.redhat.com/errata/RHSA-2024:2447
+    - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-5678
-    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://bugzilla.redhat.com/2257571
-    - https://bugzilla.redhat.com/2258502
-    - https://bugzilla.redhat.com/2259944
-    - https://errata.almalinux.org/9/ALSA-2024-2447.html
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=34efaef6c103d636ab507a0cc34dca4d3aecc055
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=710fee740904b6290fef0dd5536fbcedbc38ff0c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
@@ -3868,7 +3890,7 @@
     - CWE-200
     VendorSeverity:
       amazon: 2
-      azure: 2
+      azure: 4
       cbl-mariner: 4
       photon: 4
       redhat: 1
@@ -4139,8 +4161,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2024-6232
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
@@ -4197,10 +4219,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6179
+    - https://access.redhat.com/errata/RHSA-2024:5962
     - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2297771
     - https://bugzilla.redhat.com/2302255
-    - https://errata.almalinux.org/9/ALSA-2024-6179.html
+    - https://bugzilla.redhat.com/2307370
+    - https://errata.almalinux.org/8/ALSA-2024-5962.html
     - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
     - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
     - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
@@ -4312,7 +4337,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4504,8 +4529,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2024-6232
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
@@ -4562,10 +4587,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6179
+    - https://access.redhat.com/errata/RHSA-2024:5962
     - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2297771
     - https://bugzilla.redhat.com/2302255
-    - https://errata.almalinux.org/9/ALSA-2024-6179.html
+    - https://bugzilla.redhat.com/2307370
+    - https://errata.almalinux.org/8/ALSA-2024-5962.html
     - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
     - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
     - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
@@ -4677,7 +4705,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4869,8 +4897,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2024-6232
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
@@ -4927,10 +4955,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6179
+    - https://access.redhat.com/errata/RHSA-2024:5962
     - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2297771
     - https://bugzilla.redhat.com/2302255
-    - https://errata.almalinux.org/9/ALSA-2024-6179.html
+    - https://bugzilla.redhat.com/2307370
+    - https://errata.almalinux.org/8/ALSA-2024-5962.html
     - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
     - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
     - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
@@ -5042,7 +5073,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
