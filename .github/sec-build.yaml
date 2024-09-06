@@ -37,6 +37,7 @@
     VendorSeverity:
       cbl-mariner: 2
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -159,6 +160,7 @@
     VendorSeverity:
       cbl-mariner: 2
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
