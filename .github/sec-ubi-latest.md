@@ -501,13 +501,15 @@
 │                       │      ├ PublishedDate   : 2023-09-25T18:15:11.013Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T04:22:11.937Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2024-34397 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:6464 
 │                       │      ├ PkgID           : glib2@2.68.4-14.el9.x86_64 
 │                       │      ├ PkgName         : glib2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-14.el9?arch=x86_64&distro
 │                       │      │                  │       =redhat-9.4 
 │                       │      │                  ╰ UID : ebe51c98a8833ba4 
 │                       │      ├ InstalledVersion: 2.68.4-14.el9 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.68.4-14.el9_4.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae9
 │                       │      │                  │         88f3216d47b01169f8a2 
 │                       │      │                  ╰ DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45e
@@ -525,9 +527,10 @@
 │                       │      │                   GDBus-based client behaving incorrectly, with an
 │                       │      │                   application-dependent impact. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ photon: 1 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │      │                  ├ photon     : 1 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.8 
@@ -535,26 +538,28 @@
 │                       │      │                  ├ [1] : https://discourse.gnome.org/t/security-fixes-for-sign
 │                       │      │                  │       al-handling-in-gdbus-in-glib/20882/1 
 │                       │      │                  ├ [2] : https://gitlab.gnome.org/GNOME/glib/-/issues/3268 
-│                       │      │                  ├ [3] : https://lists.debian.org/debian-lts-announce/2024/05/
+│                       │      │                  ├ [3] : https://linux.oracle.com/cve/CVE-2024-34397.html 
+│                       │      │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2024-6464.html 
+│                       │      │                  ├ [5] : https://lists.debian.org/debian-lts-announce/2024/05/
 │                       │      │                  │       msg00008.html 
-│                       │      │                  ├ [4] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce%40lists.fedoraproject.org/message/IRSFYAE5X
 │                       │      │                  │       23TNRWX7ZWEJOMISLCDSYNS/ 
-│                       │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce%40lists.fedoraproject.org/message/LCDY3KA7G
 │                       │      │                  │       7D3DRXYTT46K6LFHS2KHWBH/ 
-│                       │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce%40lists.fedoraproject.org/message/LL6HSJDXC
 │                       │      │                  │       XMLEIJBYV6CPOR4K2NTCTXW/ 
-│                       │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce%40lists.fedoraproject.org/message/UNFJHISR4
 │                       │      │                  │       O6VFOHBFWH5I5WWMG37H63A/ 
-│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-34397 
-│                       │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-20240531-00
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-34397 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20240531-00
 │                       │      │                  │       08/ 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6768-1 
-│                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-34397 
-│                       │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2024/05/0
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6768-1 
+│                       │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2024-34397 
+│                       │      │                  ╰ [14]: https://www.openwall.com/lists/oss-security/2024/05/0
 │                       │      │                          7/5 
 │                       │      ├ PublishedDate   : 2024-05-07T18:15:08.35Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T18:15:34.863Z 
@@ -2660,7 +2665,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2799,7 +2804,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -2930,7 +2935,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3520,7 +3525,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-200 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ azure      : 4 
 │                       │      │                  ├ cbl-mariner: 4 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 1 
@@ -3695,7 +3700,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -3834,7 +3839,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3965,7 +3970,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -4555,7 +4560,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-200 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ azure      : 4 
 │                       │      │                  ├ cbl-mariner: 4 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 1 
@@ -4946,7 +4951,8 @@
 │                       │      │                            fe0dad68f4f5eea697e3 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8088 
-│                       │      ├ Title           : python: cpython: From NVD collector 
+│                       │      ├ Title           : python: cpython: Iterating over a malicious ZIP file may
+│                       │      │                   lead to Denial of Service 
 │                       │      ├ Description     : There is a HIGH severity vulnerability affecting the CPython
 │                       │      │                    "zipfile"
 │                       │      │                   module affecting "zipfile.Path". Note that the more common
@@ -5048,7 +5054,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5360,7 +5366,8 @@
 │                       │      │                            fe0dad68f4f5eea697e3 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8088 
-│                       │      ├ Title           : python: cpython: From NVD collector 
+│                       │      ├ Title           : python: cpython: Iterating over a malicious ZIP file may
+│                       │      │                   lead to Denial of Service 
 │                       │      ├ Description     : There is a HIGH severity vulnerability affecting the CPython
 │                       │      │                    "zipfile"
 │                       │      │                   module affecting "zipfile.Path". Note that the more common
@@ -5462,7 +5469,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5774,7 +5781,8 @@
 │                       │      │                            fe0dad68f4f5eea697e3 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8088 
-│                       │      ├ Title           : python: cpython: From NVD collector 
+│                       │      ├ Title           : python: cpython: Iterating over a malicious ZIP file may
+│                       │      │                   lead to Denial of Service 
 │                       │      ├ Description     : There is a HIGH severity vulnerability affecting the CPython
 │                       │      │                    "zipfile"
 │                       │      │                   module affecting "zipfile.Path". Note that the more common
@@ -5876,7 +5884,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
