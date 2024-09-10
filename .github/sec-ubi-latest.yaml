@@ -445,13 +445,16 @@
     PublishedDate: '2023-09-25T18:15:11.013Z'
     LastModifiedDate: '2023-11-07T04:22:11.937Z'
   - VulnerabilityID: CVE-2024-34397
+    VendorIDs:
+    - RHSA-2024:6464
     PkgID: glib2@2.68.4-14.el9.x86_64
     PkgName: glib2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glib2@2.68.4-14.el9?arch=x86_64&distro=redhat-9.4
       UID: ebe51c98a8833ba4
     InstalledVersion: 2.68.4-14.el9
-    Status: affected
+    FixedVersion: 2.68.4-14.el9_4.1
+    Status: fixed
     Layer:
       Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae988f3216d47b01169f8a2
       DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
@@ -461,6 +464,7 @@
     Description: An issue was discovered in GNOME GLib before 2.78.5, and 2.79.x and 2.80.x before 2.80.1. When a GDBus-based client subscribes to signals from a trusted system service such as NetworkManager on a shared computer, other users of the same computer can send spoofed D-Bus signals that the GDBus-based client will wrongly interpret as having been sent by the trusted system service. This could lead to the GDBus-based client behaving incorrectly, with an application-dependent impact.
     Severity: MEDIUM
     VendorSeverity:
+      oracle-oval: 2
       photon: 1
       redhat: 2
       ubuntu: 2
@@ -472,6 +476,8 @@
     - https://access.redhat.com/security/cve/CVE-2024-34397
     - https://discourse.gnome.org/t/security-fixes-for-signal-handling-in-gdbus-in-glib/20882/1
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3268
+    - https://linux.oracle.com/cve/CVE-2024-34397.html
+    - https://linux.oracle.com/errata/ELSA-2024-6464.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00008.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IRSFYAE5X23TNRWX7ZWEJOMISLCDSYNS/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LCDY3KA7G7D3DRXYTT46K6LFHS2KHWBH/
@@ -2321,7 +2327,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2434,7 +2440,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2538,7 +2544,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2999,7 +3005,7 @@
     - CWE-200
     VendorSeverity:
       amazon: 2
-      azure: 2
+      azure: 4
       cbl-mariner: 4
       photon: 4
       redhat: 1
@@ -3137,7 +3143,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3250,7 +3256,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -3354,7 +3360,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -3815,7 +3821,7 @@
     - CWE-200
     VendorSeverity:
       amazon: 2
-      azure: 2
+      azure: 4
       cbl-mariner: 4
       photon: 4
       redhat: 1
@@ -4116,7 +4122,7 @@
       DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
-    Title: 'python: cpython: From NVD collector'
+    Title: 'python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service'
     Description: |-
       There is a HIGH severity vulnerability affecting the CPython "zipfile"
       module affecting "zipfile.Path". Note that the more common API "zipfile.ZipFile" class is unaffected.
@@ -4199,7 +4205,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4421,7 +4427,7 @@
       DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
-    Title: 'python: cpython: From NVD collector'
+    Title: 'python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service'
     Description: |-
       There is a HIGH severity vulnerability affecting the CPython "zipfile"
       module affecting "zipfile.Path". Note that the more common API "zipfile.ZipFile" class is unaffected.
@@ -4504,7 +4510,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4726,7 +4732,7 @@
       DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
-    Title: 'python: cpython: From NVD collector'
+    Title: 'python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service'
     Description: |-
       There is a HIGH severity vulnerability affecting the CPython "zipfile"
       module affecting "zipfile.Path". Note that the more common API "zipfile.ZipFile" class is unaffected.
@@ -4809,7 +4815,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
