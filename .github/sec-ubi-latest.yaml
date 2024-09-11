@@ -766,38 +766,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-30571
     PublishedDate: '2023-05-29T20:15:09.513Z'
     LastModifiedDate: '2023-06-05T16:40:57.93Z'
-  - VulnerabilityID: CVE-2023-7256
-    PkgID: libcap@2.48-9.el9_2.x86_64
-    PkgName: libcap
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libcap@2.48-9.el9_2?arch=x86_64&distro=redhat-9.4
-      UID: 26d18e291d591f5d
-    InstalledVersion: 2.48-9.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae988f3216d47b01169f8a2
-      DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-7256
-    Title: 'libcap: Double Free in libcap'
-    Description: In affected libpcap versions during the setup of a remote packet capture the internal function sock_initaddress() calls getaddrinfo() and possibly freeaddrinfo(), but does not clearly indicate to the caller function whether freeaddrinfo() still remains to be called after the function returns.  This makes it possible in some scenarios that both the function and its caller call freeaddrinfo() for the same allocated memory block.  A similar problem was reported in Apple libpcap, to which Apple assigned CVE-2023-40400.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-415
-    VendorSeverity:
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 4.4
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-7256
-    - https://github.com/the-tcpdump-group/libpcap/commit/262e4f34979872d822ccedf9f318ed89c4d31c03
-    - https://github.com/the-tcpdump-group/libpcap/commit/2aa69b04d8173b18a0e3492e0c8f2f7fabdf642d
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-7256
-    - https://www.cve.org/CVERecord?id=CVE-2023-7256
-    PublishedDate: '2024-08-31T00:15:05.24Z'
-    LastModifiedDate: '2024-09-03T12:59:02.453Z'
   - VulnerabilityID: CVE-2024-7264
     PkgID: libcurl-minimal@7.76.1-29.el9_4.1.x86_64
     PkgName: libcurl-minimal
@@ -4233,6 +4201,60 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-0397
     PublishedDate: '2024-06-17T16:15:10.217Z'
     LastModifiedDate: '2024-07-03T01:44:41.987Z'
+  - VulnerabilityID: CVE-2024-7592
+    PkgID: python-unversioned-command@3.9.18-3.el9_4.5.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18-3.el9_4.5?arch=noarch&distro=redhat-9.4
+      UID: 5f30d4e96656b167
+    InstalledVersion: 3.9.18-3.el9_4.5
+    Status: affected
+    Layer:
+      Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae988f3216d47b01169f8a2
+      DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
+    Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
+    Description: |-
+      There is a LOW severity vulnerability affecting CPython, specifically the
+      'http.cookies' standard library module.
+
+
+      When parsing cookies that contained backslashes for quoted characters in
+      the cookie value, the parser would use an algorithm with quadratic
+      complexity, resulting in excess CPU resources being used while parsing the
+      value.
+    Severity: LOW
+    CweIDs:
+    - CWE-1333
+    - CWE-400
+    VendorSeverity:
+      azure: 3
+      cbl-mariner: 3
+      nvd: 3
+      redhat: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
+    - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
+    - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
+    - https://github.com/python/cpython/commit/d662e2db2605515a767f88ad48096b8ac623c774
+    - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
+    - https://github.com/python/cpython/issues/123067
+    - https://github.com/python/cpython/pull/123075
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
+    - https://www.cve.org/CVERecord?id=CVE-2024-7592
+    PublishedDate: '2024-08-19T19:15:08.18Z'
+    LastModifiedDate: '2024-09-04T21:15:14.643Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3@3.9.18-3.el9_4.5.x86_64
     PkgName: python3
@@ -4538,6 +4560,60 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-0397
     PublishedDate: '2024-06-17T16:15:10.217Z'
     LastModifiedDate: '2024-07-03T01:44:41.987Z'
+  - VulnerabilityID: CVE-2024-7592
+    PkgID: python3@3.9.18-3.el9_4.5.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.5?arch=x86_64&distro=redhat-9.4
+      UID: 7339d7062aaa26d8
+    InstalledVersion: 3.9.18-3.el9_4.5
+    Status: affected
+    Layer:
+      Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae988f3216d47b01169f8a2
+      DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
+    Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
+    Description: |-
+      There is a LOW severity vulnerability affecting CPython, specifically the
+      'http.cookies' standard library module.
+
+
+      When parsing cookies that contained backslashes for quoted characters in
+      the cookie value, the parser would use an algorithm with quadratic
+      complexity, resulting in excess CPU resources being used while parsing the
+      value.
+    Severity: LOW
+    CweIDs:
+    - CWE-1333
+    - CWE-400
+    VendorSeverity:
+      azure: 3
+      cbl-mariner: 3
+      nvd: 3
+      redhat: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
+    - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
+    - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
+    - https://github.com/python/cpython/commit/d662e2db2605515a767f88ad48096b8ac623c774
+    - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
+    - https://github.com/python/cpython/issues/123067
+    - https://github.com/python/cpython/pull/123075
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
+    - https://www.cve.org/CVERecord?id=CVE-2024-7592
+    PublishedDate: '2024-08-19T19:15:08.18Z'
+    LastModifiedDate: '2024-09-04T21:15:14.643Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3-libs@3.9.18-3.el9_4.5.x86_64
     PkgName: python3-libs
@@ -4843,6 +4919,60 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-0397
     PublishedDate: '2024-06-17T16:15:10.217Z'
     LastModifiedDate: '2024-07-03T01:44:41.987Z'
+  - VulnerabilityID: CVE-2024-7592
+    PkgID: python3-libs@3.9.18-3.el9_4.5.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.5?arch=x86_64&distro=redhat-9.4
+      UID: 8712c1443f3a9fe7
+    InstalledVersion: 3.9.18-3.el9_4.5
+    Status: affected
+    Layer:
+      Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae988f3216d47b01169f8a2
+      DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
+    Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
+    Description: |-
+      There is a LOW severity vulnerability affecting CPython, specifically the
+      'http.cookies' standard library module.
+
+
+      When parsing cookies that contained backslashes for quoted characters in
+      the cookie value, the parser would use an algorithm with quadratic
+      complexity, resulting in excess CPU resources being used while parsing the
+      value.
+    Severity: LOW
+    CweIDs:
+    - CWE-1333
+    - CWE-400
+    VendorSeverity:
+      azure: 3
+      cbl-mariner: 3
+      nvd: 3
+      redhat: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
+    - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
+    - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
+    - https://github.com/python/cpython/commit/d662e2db2605515a767f88ad48096b8ac623c774
+    - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
+    - https://github.com/python/cpython/issues/123067
+    - https://github.com/python/cpython/pull/123075
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
+    - https://www.cve.org/CVERecord?id=CVE-2024-7592
+    PublishedDate: '2024-08-19T19:15:08.18Z'
+    LastModifiedDate: '2024-09-04T21:15:14.643Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.2.3-8.el9.noarch
     PkgName: python3-pip-wheel
