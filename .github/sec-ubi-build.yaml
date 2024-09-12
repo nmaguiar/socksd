@@ -464,6 +464,7 @@
     Description: An issue was discovered in GNOME GLib before 2.78.5, and 2.79.x and 2.80.x before 2.80.1. When a GDBus-based client subscribes to signals from a trusted system service such as NetworkManager on a shared computer, other users of the same computer can send spoofed D-Bus signals that the GDBus-based client will wrongly interpret as having been sent by the trusted system service. This could lead to the GDBus-based client behaving incorrectly, with an application-dependent impact.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -473,8 +474,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N
         V3Score: 3.8
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6464
     - https://access.redhat.com/security/cve/CVE-2024-34397
+    - https://bugzilla.redhat.com/2279632
     - https://discourse.gnome.org/t/security-fixes-for-signal-handling-in-gdbus-in-glib/20882/1
+    - https://errata.almalinux.org/9/ALSA-2024-6464.html
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3268
     - https://linux.oracle.com/cve/CVE-2024-34397.html
     - https://linux.oracle.com/errata/ELSA-2024-6464.html
@@ -2227,6 +2231,7 @@
     CweIDs:
     - CWE-843
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2295,7 +2300,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2408,7 +2413,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2512,7 +2517,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -3043,6 +3048,7 @@
     CweIDs:
     - CWE-843
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3111,7 +3117,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3224,7 +3230,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -3328,7 +3334,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -4173,7 +4179,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4532,7 +4538,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4891,7 +4897,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
