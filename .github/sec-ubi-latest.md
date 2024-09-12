@@ -527,39 +527,43 @@
 │                       │      │                   GDBus-based client behaving incorrectly, with an
 │                       │      │                   application-dependent impact. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.8 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-34397 
-│                       │      │                  ├ [1] : https://discourse.gnome.org/t/security-fixes-for-sign
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:6464 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34397 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2279632 
+│                       │      │                  ├ [3] : https://discourse.gnome.org/t/security-fixes-for-sign
 │                       │      │                  │       al-handling-in-gdbus-in-glib/20882/1 
-│                       │      │                  ├ [2] : https://gitlab.gnome.org/GNOME/glib/-/issues/3268 
-│                       │      │                  ├ [3] : https://linux.oracle.com/cve/CVE-2024-34397.html 
-│                       │      │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2024-6464.html 
-│                       │      │                  ├ [5] : https://lists.debian.org/debian-lts-announce/2024/05/
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2024-6464.html 
+│                       │      │                  ├ [5] : https://gitlab.gnome.org/GNOME/glib/-/issues/3268 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-34397.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-6464.html 
+│                       │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2024/05/
 │                       │      │                  │       msg00008.html 
-│                       │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce%40lists.fedoraproject.org/message/IRSFYAE5X
 │                       │      │                  │       23TNRWX7ZWEJOMISLCDSYNS/ 
-│                       │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce%40lists.fedoraproject.org/message/LCDY3KA7G
 │                       │      │                  │       7D3DRXYTT46K6LFHS2KHWBH/ 
-│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce%40lists.fedoraproject.org/message/LL6HSJDXC
 │                       │      │                  │       XMLEIJBYV6CPOR4K2NTCTXW/ 
-│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/package
 │                       │      │                  │       -announce%40lists.fedoraproject.org/message/UNFJHISR4
 │                       │      │                  │       O6VFOHBFWH5I5WWMG37H63A/ 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-34397 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20240531-00
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-34397 
+│                       │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-20240531-00
 │                       │      │                  │       08/ 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6768-1 
-│                       │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2024-34397 
-│                       │      │                  ╰ [14]: https://www.openwall.com/lists/oss-security/2024/05/0
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6768-1 
+│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2024-34397 
+│                       │      │                  ╰ [17]: https://www.openwall.com/lists/oss-security/2024/05/0
 │                       │      │                          7/5 
 │                       │      ├ PublishedDate   : 2024-05-07T18:15:08.35Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T18:15:34.863Z 
@@ -2539,7 +2543,8 @@
 │                       │      │                   by this issue. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-843 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -2625,7 +2630,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2764,7 +2769,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -2895,7 +2900,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3574,7 +3579,8 @@
 │                       │      │                   by this issue. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-843 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -3660,7 +3666,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -3799,7 +3805,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3930,7 +3936,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -5014,7 +5020,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5492,7 +5498,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5970,7 +5976,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
