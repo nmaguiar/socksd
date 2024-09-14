@@ -12,8 +12,8 @@
     FixedVersion: 8.10.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:629e1e27e02f2fe547738e47cb87a5b72d6875f49f803fdd8a60bb94d6ce2020
-      DiffID: sha256:85e6cfd08eee13d7cc9885ca33a8ed9c95a9404abb572a15ff70de021cdf8d6e
+      Digest: sha256:1953c84b311a4dac447fe309817399cd0364fe81bc7c6d1b4566f0475640d062
+      DiffID: sha256:71bf68f1c615ec98ae8ff96351102899312e5bfcf8e24af5e49579584d9cc582
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8096
     DataSource:
       ID: alpine
@@ -50,8 +50,8 @@
     FixedVersion: 8.10.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:629e1e27e02f2fe547738e47cb87a5b72d6875f49f803fdd8a60bb94d6ce2020
-      DiffID: sha256:85e6cfd08eee13d7cc9885ca33a8ed9c95a9404abb572a15ff70de021cdf8d6e
+      Digest: sha256:1953c84b311a4dac447fe309817399cd0364fe81bc7c6d1b4566f0475640d062
+      DiffID: sha256:71bf68f1c615ec98ae8ff96351102899312e5bfcf8e24af5e49579584d9cc582
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8096
     DataSource:
       ID: alpine
