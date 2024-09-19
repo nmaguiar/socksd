@@ -338,13 +338,15 @@
 │                       │      ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
 │                       │      ╰ LastModifiedDate: 2024-08-12T17:30:51.88Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2024-45490 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:6754 
 │                       │      ├ PkgID           : expat@2.5.0-2.el9_4.x86_64 
 │                       │      ├ PkgName         : expat 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-2.el9_4?arch=x86_64&distro
 │                       │      │                  │       =redhat-9.4 
 │                       │      │                  ╰ UID : bac40d6c4b0e1564 
 │                       │      ├ InstalledVersion: 2.5.0-2.el9_4 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ FixedVersion    : 2.5.0-2.el9_4.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae9
 │                       │      │                  │         88f3216d47b01169f8a2 
 │                       │      │                  ╰ DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45e
@@ -381,13 +383,15 @@
 │                       │      ├ PublishedDate   : 2024-08-30T03:15:03.757Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T14:28:19.313Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2024-45491 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:6754 
 │                       │      ├ PkgID           : expat@2.5.0-2.el9_4.x86_64 
 │                       │      ├ PkgName         : expat 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-2.el9_4?arch=x86_64&distro
 │                       │      │                  │       =redhat-9.4 
 │                       │      │                  ╰ UID : bac40d6c4b0e1564 
 │                       │      ├ InstalledVersion: 2.5.0-2.el9_4 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ FixedVersion    : 2.5.0-2.el9_4.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae9
 │                       │      │                  │         88f3216d47b01169f8a2 
 │                       │      │                  ╰ DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45e
@@ -425,13 +429,15 @@
 │                       │      ├ PublishedDate   : 2024-08-30T03:15:03.85Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T14:28:33.953Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-45492 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:6754 
 │                       │      ├ PkgID           : expat@2.5.0-2.el9_4.x86_64 
 │                       │      ├ PkgName         : expat 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-2.el9_4?arch=x86_64&distro
 │                       │      │                  │       =redhat-9.4 
 │                       │      │                  ╰ UID : bac40d6c4b0e1564 
 │                       │      ├ InstalledVersion: 2.5.0-2.el9_4 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ FixedVersion    : 2.5.0-2.el9_4.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae9
 │                       │      │                  │         88f3216d47b01169f8a2 
 │                       │      │                  ╰ DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45e
@@ -445,7 +451,7 @@
 │                       │      │                   SIZE_MAX). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 4 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 4 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 2 
@@ -1213,7 +1219,7 @@
 │                       │      │                   xmlHTMLPrintFileContext in xmllint.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -2701,7 +2707,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2775,8 +2781,9 @@
 │                       │      │                  ├ [43]: https://ubuntu.com/security/notices/USN-6435-2 
 │                       │      │                  ├ [44]: https://ubuntu.com/security/notices/USN-6450-1 
 │                       │      │                  ├ [45]: https://ubuntu.com/security/notices/USN-6709-1 
-│                       │      │                  ├ [46]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
-│                       │      │                  ╰ [47]: https://www.openssl.org/news/secadv/20230719.txt 
+│                       │      │                  ├ [46]: https://ubuntu.com/security/notices/USN-7018-1 
+│                       │      │                  ├ [47]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
+│                       │      │                  ╰ [48]: https://www.openssl.org/news/secadv/20230719.txt 
 │                       │      ├ PublishedDate   : 2023-07-19T12:15:10.003Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T17:16:12.867Z 
 │                       ├ [53] ╭ VulnerabilityID : CVE-2023-3817 
@@ -2840,7 +2847,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -2971,7 +2978,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3737,7 +3744,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -3811,8 +3818,9 @@
 │                       │      │                  ├ [43]: https://ubuntu.com/security/notices/USN-6435-2 
 │                       │      │                  ├ [44]: https://ubuntu.com/security/notices/USN-6450-1 
 │                       │      │                  ├ [45]: https://ubuntu.com/security/notices/USN-6709-1 
-│                       │      │                  ├ [46]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
-│                       │      │                  ╰ [47]: https://www.openssl.org/news/secadv/20230719.txt 
+│                       │      │                  ├ [46]: https://ubuntu.com/security/notices/USN-7018-1 
+│                       │      │                  ├ [47]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
+│                       │      │                  ╰ [48]: https://www.openssl.org/news/secadv/20230719.txt 
 │                       │      ├ PublishedDate   : 2023-07-19T12:15:10.003Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T17:16:12.867Z 
 │                       ├ [63] ╭ VulnerabilityID : CVE-2023-3817 
@@ -3876,7 +3884,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -4007,7 +4015,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -5099,7 +5107,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5591,7 +5599,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -6083,7 +6091,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
