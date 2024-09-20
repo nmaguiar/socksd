@@ -308,6 +308,7 @@
     VendorSeverity:
       cbl-mariner: 4
       nvd: 4
+      oracle-oval: 2
       photon: 4
       redhat: 2
       ubuntu: 2
@@ -323,6 +324,8 @@
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/887
     - https://github.com/libexpat/libexpat/pull/890
+    - https://linux.oracle.com/cve/CVE-2024-45490.html
+    - https://linux.oracle.com/errata/ELSA-2024-6754.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45490
     - https://ubuntu.com/security/notices/USN-7000-1
     - https://ubuntu.com/security/notices/USN-7000-2
@@ -355,6 +358,7 @@
     VendorSeverity:
       cbl-mariner: 4
       nvd: 4
+      oracle-oval: 2
       photon: 4
       redhat: 2
       ubuntu: 2
@@ -370,6 +374,8 @@
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/888
     - https://github.com/libexpat/libexpat/pull/891
+    - https://linux.oracle.com/cve/CVE-2024-45491.html
+    - https://linux.oracle.com/errata/ELSA-2024-6754.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45491
     - https://ubuntu.com/security/notices/USN-7000-1
     - https://ubuntu.com/security/notices/USN-7000-2
@@ -402,6 +408,7 @@
     VendorSeverity:
       cbl-mariner: 3
       nvd: 4
+      oracle-oval: 2
       photon: 4
       redhat: 2
       ubuntu: 2
@@ -417,6 +424,8 @@
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/889
     - https://github.com/libexpat/libexpat/pull/892
+    - https://linux.oracle.com/cve/CVE-2024-45492.html
+    - https://linux.oracle.com/errata/ELSA-2024-6754.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45492
     - https://ubuntu.com/security/notices/USN-7000-1
     - https://ubuntu.com/security/notices/USN-7000-2
@@ -1082,7 +1091,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 2
+      cbl-mariner: 3
       photon: 2
       redhat: 1
     CVSS:
@@ -2263,13 +2272,16 @@
     PublishedDate: '2023-05-30T22:15:10.613Z'
     LastModifiedDate: '2023-08-02T16:46:03.663Z'
   - VulnerabilityID: CVE-2024-6119
+    VendorIDs:
+    - RHSA-2024:6783
     PkgID: openssl@3.0.7-27.el9.x86_64
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:rpm/redhat/openssl@3.0.7-27.el9?arch=x86_64&distro=redhat-9.4&epoch=1
       UID: ede51852670fed6e
     InstalledVersion: 1:3.0.7-27.el9
-    Status: affected
+    FixedVersion: 1:3.0.7-28.el9_4
+    Status: fixed
     Layer:
       Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae988f3216d47b01169f8a2
       DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
@@ -2305,6 +2317,7 @@
     CweIDs:
     - CWE-843
     VendorSeverity:
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -2319,6 +2332,8 @@
     - https://github.com/openssl/openssl/commit/621f3729831b05ee828a3203eddb621d014ff2b2
     - https://github.com/openssl/openssl/commit/7dfcee2cd2a63b2c64b9b4b0850be64cb695b0a0
     - https://github.com/openssl/openssl/security/advisories/GHSA-5qrj-vq78-58fj
+    - https://linux.oracle.com/cve/CVE-2024-6119.html
+    - https://linux.oracle.com/errata/ELSA-2024-6783.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6119
     - https://openssl-library.org/news/secadv/20240903.txt
     - https://ubuntu.com/security/notices/USN-6986-1
@@ -3081,13 +3096,16 @@
     PublishedDate: '2024-06-27T11:15:24.447Z'
     LastModifiedDate: '2024-07-12T14:15:16.79Z'
   - VulnerabilityID: CVE-2024-6119
+    VendorIDs:
+    - RHSA-2024:6783
     PkgID: openssl-libs@3.0.7-27.el9.x86_64
     PkgName: openssl-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/openssl-libs@3.0.7-27.el9?arch=x86_64&distro=redhat-9.4&epoch=1
       UID: ea03b6774eafceaf
     InstalledVersion: 1:3.0.7-27.el9
-    Status: affected
+    FixedVersion: 1:3.0.7-28.el9_4
+    Status: fixed
     Layer:
       Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae988f3216d47b01169f8a2
       DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
@@ -3123,6 +3141,7 @@
     CweIDs:
     - CWE-843
     VendorSeverity:
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -3137,6 +3156,8 @@
     - https://github.com/openssl/openssl/commit/621f3729831b05ee828a3203eddb621d014ff2b2
     - https://github.com/openssl/openssl/commit/7dfcee2cd2a63b2c64b9b4b0850be64cb695b0a0
     - https://github.com/openssl/openssl/security/advisories/GHSA-5qrj-vq78-58fj
+    - https://linux.oracle.com/cve/CVE-2024-6119.html
+    - https://linux.oracle.com/errata/ELSA-2024-6783.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6119
     - https://openssl-library.org/news/secadv/20240903.txt
     - https://ubuntu.com/security/notices/USN-6986-1
@@ -4162,6 +4183,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-6232
     PublishedDate: '2024-09-03T13:15:05.363Z'
     LastModifiedDate: '2024-09-04T21:15:14.48Z'
@@ -4263,7 +4285,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4348,6 +4370,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2024-09-04T21:15:14.643Z'
@@ -4535,6 +4558,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-6232
     PublishedDate: '2024-09-03T13:15:05.363Z'
     LastModifiedDate: '2024-09-04T21:15:14.48Z'
@@ -4636,7 +4660,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4721,6 +4745,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2024-09-04T21:15:14.643Z'
@@ -4908,6 +4933,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-6232
     PublishedDate: '2024-09-03T13:15:05.363Z'
     LastModifiedDate: '2024-09-04T21:15:14.48Z'
@@ -5009,7 +5035,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -5094,6 +5120,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2024-09-04T21:15:14.643Z'
