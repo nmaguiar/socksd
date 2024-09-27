@@ -1,4 +1,6 @@
-stdout: {}
-stderr: "latest: Pulling from aquasec/trivy\n43c4264eed91: Already exists\n22126857a555: Pulling fs layer\n1e4db3f86ba5: Pulling fs layer\nf5a907a27a4a: Pulling fs layer\nf5a907a27a4a: Download complete\n22126857a555: Verifying Checksum\n22126857a555: Download complete\n1e4db3f86ba5: Verifying Checksum\n1e4db3f86ba5: Download complete\n22126857a555: Pull complete\n1e4db3f86ba5: Pull complete\nf5a907a27a4a: Pull complete\nDigest: sha256:addfb8fd6b9e520c25b22c61d8aa5d58ecd7879177aa959f952bf4734f4e3f60\nStatus: Downloaded newer image for aquasec/trivy:latest\n2024-09-26T07:02:06Z\tINFO\t[db] Need to update DB\n2024-09-26T07:02:06Z\tINFO\t[db] Downloading DB...\trepository=\"ghcr.io/aquasecurity/trivy-db:2\"\n2024-09-26T07:02:06Z\tFATAL\tFatal error\tinit error: DB error: failed to download vulnerability DB: database download error: OCI repository error: 1 error occurred:\n\t* GET https://ghcr.io/v2/aquasecurity/trivy-db/manifests/2: TOOMANYREQUESTS: retry-after: 13.202µs, allowed: 44000/minute\n\n\n"
-exitcode: 1
-cmd: docker run --pull always --rm  aquasec/trivy -f json  image nmaguiar/socksd:latest
+- Target: nmaguiar/socksd:latest (alpine 3.20.2)
+  Class: os-pkgs
+  Type: alpine
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
