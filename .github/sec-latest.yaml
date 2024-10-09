@@ -1,4 +1,89 @@
-stdout: {}
-stderr: "latest: Pulling from aquasec/trivy\n43c4264eed91: Already exists\n958beee14847: Pulling fs layer\nadc406921242: Pulling fs layer\ne1d9543056a1: Pulling fs layer\ne1d9543056a1: Verifying Checksum\ne1d9543056a1: Download complete\n958beee14847: Verifying Checksum\n958beee14847: Download complete\nadc406921242: Verifying Checksum\nadc406921242: Download complete\n958beee14847: Pull complete\nadc406921242: Pull complete\ne1d9543056a1: Pull complete\nDigest: sha256:c42bb3221509b0a9fa2291cd79a3a818b30a172ab87e9aac8a43997a5b56f293\nStatus: Downloaded newer image for aquasec/trivy:latest\n2024-10-08T07:02:13Z\tINFO\t[vulndb] Need to update DB\n2024-10-08T07:02:13Z\tINFO\t[vulndb] Downloading vulnerability DB...\n2024-10-08T07:02:13Z\tINFO\t[vulndb] Downloading artifact...\trepo=\"ghcr.io/aquasecurity/trivy-db:2\"\n2024-10-08T07:02:13Z\tERROR\t[vulndb] Failed to download artifact\trepo=\"ghcr.io/aquasecurity/trivy-db:2\" err=\"oci download error: failed to fetch the layer: GET https://ghcr.io/v2/aquasecurity/trivy-db/blobs/sha256:95d05be1e5cf9431ddaa617d84af4d0526511a39984d7a709f4043339931da6a: TOOMANYREQUESTS: retry-after: 797.003µs, allowed: 44000/minute\"\n2024-10-08T07:02:13Z\tFATAL\tFatal error\tinit error: DB error: failed to download vulnerability DB: OCI artifact error: failed to download vulnerability DB: failed to download artifact from any source\n"
-exitcode: 1
-cmd: docker run --pull always --rm  aquasec/trivy -f json  image nmaguiar/socksd:latest
+- Target: nmaguiar/socksd:latest (alpine 3.20.2)
+  Class: os-pkgs
+  Type: alpine
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2024-8096
+    PkgID: curl@8.9.1-r1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.9.1-r1?arch=x86_64&distro=3.20.2
+      UID: 7f16e72adebffd84
+    InstalledVersion: 8.9.1-r1
+    FixedVersion: 8.10.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:30fda29308c80e4b7c23c583e7bfff86ace198b2ec93c7680b0e3656aa3f9ab1
+      DiffID: sha256:bba6efe865a5b0fec9f8f20d370bdde67b585006cc8e49cdf4eb30b60360ed6c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8096
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: OCSP stapling bypass with GnuTLS'
+    Description: When curl is told to use the Certificate Status Request TLS extension, often referred to as OCSP stapling, to verify that the server certificate is valid, it might fail to detect some OCSP problems and instead wrongly consider the response as fine.  If the returned status reports another error than 'revoked' (like for example 'unauthorized') it is not treated as a bad certficate.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-8096
+    - https://curl.se/docs/CVE-2024-8096.html
+    - https://curl.se/docs/CVE-2024-8096.json
+    - https://hackerone.com/reports/2669852
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8096
+    - https://ubuntu.com/security/notices/USN-7012-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8096
+    PublishedDate: '2024-09-11T10:15:02.883Z'
+    LastModifiedDate: '2024-09-11T16:26:11.92Z'
+  - VulnerabilityID: CVE-2024-8096
+    PkgID: libcurl@8.9.1-r1
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.9.1-r1?arch=x86_64&distro=3.20.2
+      UID: 9a1ec08cf3c33746
+    InstalledVersion: 8.9.1-r1
+    FixedVersion: 8.10.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:30fda29308c80e4b7c23c583e7bfff86ace198b2ec93c7680b0e3656aa3f9ab1
+      DiffID: sha256:bba6efe865a5b0fec9f8f20d370bdde67b585006cc8e49cdf4eb30b60360ed6c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8096
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: OCSP stapling bypass with GnuTLS'
+    Description: When curl is told to use the Certificate Status Request TLS extension, often referred to as OCSP stapling, to verify that the server certificate is valid, it might fail to detect some OCSP problems and instead wrongly consider the response as fine.  If the returned status reports another error than 'revoked' (like for example 'unauthorized') it is not treated as a bad certficate.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-8096
+    - https://curl.se/docs/CVE-2024-8096.html
+    - https://curl.se/docs/CVE-2024-8096.json
+    - https://hackerone.com/reports/2669852
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8096
+    - https://ubuntu.com/security/notices/USN-7012-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8096
+    PublishedDate: '2024-09-11T10:15:02.883Z'
+    LastModifiedDate: '2024-09-11T16:26:11.92Z'
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
