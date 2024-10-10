@@ -1,43 +1,93 @@
 ````yaml
-╭ stdout   
-├ stderr  : latest: Pulling from aquasec/trivy
-│           Digest: sha256:c42bb3221509b0a9fa2291cd79a3a818b30a172ab87e9aac8a43997a5b56f293
-│           Status: Image is up to date for aquasec/trivy:latest
-│           2024-10-09T07:03:11Z	INFO	[vulndb] Need to update DB
-│           2024-10-09T07:03:11Z	INFO	[vulndb] Downloading vulnerability DB...
-│           2024-10-09T07:03:11Z	INFO	[vulndb] Downloading artifact...	repo="ghcr.io/aquasecurity/trivy-db:2"
-│           54.07 MiB / 54.07 MiB [----------------------------------------------------------->] 100.00% ? p/s
-│           ?54.07 MiB / 54.07 MiB [----------------------------------------------------------->] 100.00% ? p/s
-│            ?54.07 MiB / 54.07 MiB [----------------------------------------------------------->] 100.00% ?
-│           p/s ?54.07 MiB / 54.07 MiB [----------------------------------------------------------->] 100.00% ?
-│            p/s ?54.07 MiB / 54.07 MiB [----------------------------------------------------------->] 100.00%
-│           ? p/s ?54.07 MiB / 54.07 MiB [----------------------------------------------------------->] 100.00%
-│            ? p/s ?54.07 MiB / 54.07 MiB [----------------------------------------------------------->]
-│           100.00% ? p/s ?54.07 MiB / 54.07 MiB [----------------------------------------------------------->]
-│            100.00% ? p/s ?54.07 MiB / 54.07 MiB
-│           [----------------------------------------------------------->] 100.00% ? p/s ?54.07 MiB / 54.07 MiB
-│            [-------------------------------------------------] 100.00% 30.55 MiB p/s
-│           2.0s2024-10-09T07:03:13Z	INFO	[vulndb] Artifact successfully
-│           downloaded	repo="ghcr.io/aquasecurity/trivy-db:2"
-│           2024-10-09T07:03:13Z	INFO	[vuln] Vulnerability scanning is enabled
-│           2024-10-09T07:03:13Z	INFO	[secret] Secret scanning is enabled
-│           2024-10-09T07:03:13Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to
-│           disable secret scanning
-│           2024-10-09T07:03:13Z	INFO	[secret] Please see also
-│           https://aquasecurity.github.io/trivy/v0.56/docs/scanner/secret#recommendation for faster secret
-│           detection
-│           2024-10-09T07:03:14Z	INFO	[javadb] Downloading Java DB...
-│           2024-10-09T07:03:14Z	INFO	[javadb] Downloading
-│           artifact...	repo="ghcr.io/aquasecurity/trivy-java-db:1"
-│           2024-10-09T07:03:14Z	ERROR	[javadb] Failed to download
-│           artifact	repo="ghcr.io/aquasecurity/trivy-java-db:1" err="OCI repository error: 1 error
-│           occurred:\n\t* GET https://ghcr.io/v2/aquasecurity/trivy-java-db/manifests/1: TOOMANYREQUESTS:
-│           retry-after: 870.496µs, allowed: 44000/minute\n\n"
-│           2024-10-09T07:03:14Z	FATAL	Fatal error	image scan error: scan error: scan failed: failed analysis:
-│           analyze error: pipeline error: failed to analyze layer
-│           (sha256:71d1fff501157004da9861581e7eabf529cc23842a54f8f7a0fc23e39ce60c06): post analysis error:
-│           post analysis error: Unable to initialize the Java DB: Java DB update failed: OCI artifact error:
-│           failed to download Java DB: failed to download artifact from any source 
-├ exitcode: 1 
-╰ cmd     : docker run --pull always --rm  aquasec/trivy -f json  image nmaguiar/socksd:build 
+╭ [0] ╭ Target         : nmaguiar/socksd:build (alpine 3.20.2) 
+│     ├ Class          : os-pkgs 
+│     ├ Type           : alpine 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-8096 
+│                       │     ├ PkgID           : curl@8.9.1-r1 
+│                       │     ├ PkgName         : curl 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.9.1-r1?arch=x86_64&distro=3.20.2 
+│                       │     │                  ╰ UID : 7f16e72adebffd84 
+│                       │     ├ InstalledVersion: 8.9.1-r1 
+│                       │     ├ FixedVersion    : 8.10.0-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:46d977cb80bd95abdac7d8a87702b2418ae1847e8f4a7
+│                       │     │                  │         fe0d396170c88f5ce35 
+│                       │     │                  ╰ DiffID: sha256:210f5959963a0d8a2f1a04965a5f75662f22eb17b76f1
+│                       │     │                            4df08edd5bfb55f3307 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8096 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : curl: OCSP stapling bypass with GnuTLS 
+│                       │     ├ Description     : When curl is told to use the Certificate Status Request TLS
+│                       │     │                   extension, often referred to as OCSP stapling, to verify that
+│                       │     │                    the server certificate is valid, it might fail to detect
+│                       │     │                   some OCSP problems and instead wrongly consider the response
+│                       │     │                   as fine.  If the returned status reports another error than
+│                       │     │                   'revoked' (like for example 'unauthorized') it is not treated
+│                       │     │                    as a bad certficate. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs           ─ [0]: CWE-295 
+│                       │     ├ VendorSeverity   ╭ azure      : 2 
+│                       │     │                  ├ cbl-mariner: 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
+│                       │     │                           │           A:N 
+│                       │     │                           ╰ V3Score : 6.5 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8096 
+│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2024-8096.html 
+│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-8096.json 
+│                       │     │                  ├ [3]: https://hackerone.com/reports/2669852 
+│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-8096 
+│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-7012-1 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-8096 
+│                       │     ├ PublishedDate   : 2024-09-11T10:15:02.883Z 
+│                       │     ╰ LastModifiedDate: 2024-09-11T16:26:11.92Z 
+│                       ╰ [1] ╭ VulnerabilityID : CVE-2024-8096 
+│                             ├ PkgID           : libcurl@8.9.1-r1 
+│                             ├ PkgName         : libcurl 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.9.1-r1?arch=x86_64&distro=3.2
+│                             │                  │       0.2 
+│                             │                  ╰ UID : 9a1ec08cf3c33746 
+│                             ├ InstalledVersion: 8.9.1-r1 
+│                             ├ FixedVersion    : 8.10.0-r0 
+│                             ├ Status          : fixed 
+│                             ├ Layer            ╭ Digest: sha256:46d977cb80bd95abdac7d8a87702b2418ae1847e8f4a7
+│                             │                  │         fe0d396170c88f5ce35 
+│                             │                  ╰ DiffID: sha256:210f5959963a0d8a2f1a04965a5f75662f22eb17b76f1
+│                             │                            4df08edd5bfb55f3307 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8096 
+│                             ├ DataSource       ╭ ID  : alpine 
+│                             │                  ├ Name: Alpine Secdb 
+│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                             ├ Title           : curl: OCSP stapling bypass with GnuTLS 
+│                             ├ Description     : When curl is told to use the Certificate Status Request TLS
+│                             │                   extension, often referred to as OCSP stapling, to verify that
+│                             │                    the server certificate is valid, it might fail to detect
+│                             │                   some OCSP problems and instead wrongly consider the response
+│                             │                   as fine.  If the returned status reports another error than
+│                             │                   'revoked' (like for example 'unauthorized') it is not treated
+│                             │                    as a bad certficate. 
+│                             ├ Severity        : MEDIUM 
+│                             ├ CweIDs           ─ [0]: CWE-295 
+│                             ├ VendorSeverity   ╭ azure      : 2 
+│                             │                  ├ cbl-mariner: 2 
+│                             │                  ├ redhat     : 2 
+│                             │                  ╰ ubuntu     : 2 
+│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
+│                             │                           │           A:N 
+│                             │                           ╰ V3Score : 6.5 
+│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8096 
+│                             │                  ├ [1]: https://curl.se/docs/CVE-2024-8096.html 
+│                             │                  ├ [2]: https://curl.se/docs/CVE-2024-8096.json 
+│                             │                  ├ [3]: https://hackerone.com/reports/2669852 
+│                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-8096 
+│                             │                  ├ [5]: https://ubuntu.com/security/notices/USN-7012-1 
+│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-8096 
+│                             ├ PublishedDate   : 2024-09-11T10:15:02.883Z 
+│                             ╰ LastModifiedDate: 2024-09-11T16:26:11.92Z 
+╰ [1] ╭ Target: Java 
+      ├ Class : lang-pkgs 
+      ╰ Type  : jar 
 ````
