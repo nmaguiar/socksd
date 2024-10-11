@@ -924,6 +924,66 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-08-14T16:35:10.207Z'
+  - VulnerabilityID: CVE-2024-48957
+    PkgID: libarchive@3.5.3-4.el9.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.4
+      UID: 18dfccca7d587d25
+    InstalledVersion: 3.5.3-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae988f3216d47b01169f8a2
+      DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-48957
+    Title: 'libarchive: Out-of-bounds access in libarchive''s archive file handling'
+    Description: execute_filter_audio in archive_read_support_format_rar.c in libarchive before 3.7.5 allows out-of-bounds access via a crafted archive file because src can move beyond dst.
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-48957
+    - https://github.com/libarchive/libarchive/compare/v3.7.4...v3.7.5
+    - https://github.com/libarchive/libarchive/pull/2149
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-48957
+    - https://www.cve.org/CVERecord?id=CVE-2024-48957
+    PublishedDate: '2024-10-10T02:15:02.99Z'
+    LastModifiedDate: '2024-10-10T12:51:56.987Z'
+  - VulnerabilityID: CVE-2024-48958
+    PkgID: libarchive@3.5.3-4.el9.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.4
+      UID: 18dfccca7d587d25
+    InstalledVersion: 3.5.3-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae988f3216d47b01169f8a2
+      DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-48958
+    Title: 'libarchive: From CVEorg collector'
+    Description: execute_filter_delta in archive_read_support_format_rar.c in libarchive before 3.7.5 allows out-of-bounds access via a crafted archive file because src can move beyond dst.
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-48958
+    - https://github.com/libarchive/libarchive/compare/v3.7.4...v3.7.5
+    - https://github.com/libarchive/libarchive/pull/2148
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-48958
+    - https://www.cve.org/CVERecord?id=CVE-2024-48958
+    PublishedDate: '2024-10-10T02:15:03.057Z'
+    LastModifiedDate: '2024-10-10T12:51:56.987Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1198,7 +1258,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 3
+      cbl-mariner: 2
       photon: 2
       redhat: 1
     CVSS:
@@ -1235,7 +1295,6 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
-      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -3221,9 +3280,11 @@
     CweIDs:
     - CWE-200
     VendorSeverity:
+      alma: 1
       amazon: 2
       azure: 2
       cbl-mariner: 4
+      oracle-oval: 1
       photon: 4
       redhat: 1
       ubuntu: 1
@@ -3234,13 +3295,18 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/27/1
     - http://www.openwall.com/lists/oss-security/2024/06/28/4
+    - https://access.redhat.com/errata/RHSA-2024:7848
     - https://access.redhat.com/security/cve/CVE-2024-5535
+    - https://bugzilla.redhat.com/2294581
+    - https://errata.almalinux.org/8/ALSA-2024-7848.html
     - https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37
     - https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e
     - https://github.com/openssl/openssl/commit/cf6f91f6121f4db167405db2f0de410a456f260c
     - https://github.com/openssl/openssl/commit/e86ac436f0bd54d4517745483e2315650fae7b2c
     - https://github.openssl.org/openssl/extended-releases/commit/9947251413065a05189a63c9b7a6c1d4e224c21c
     - https://github.openssl.org/openssl/extended-releases/commit/b78ec0824da857223486660177d3b1f255c65d87
+    - https://linux.oracle.com/cve/CVE-2024-5535.html
+    - https://linux.oracle.com/errata/ELSA-2024-7848.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-5535
     - https://openssl.org/news/secadv/20240627.txt
     - https://security.netapp.com/advisory/ntap-20240712-0005/
@@ -4092,9 +4158,11 @@
     CweIDs:
     - CWE-200
     VendorSeverity:
+      alma: 1
       amazon: 2
       azure: 2
       cbl-mariner: 4
+      oracle-oval: 1
       photon: 4
       redhat: 1
       ubuntu: 1
@@ -4105,13 +4173,18 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/27/1
     - http://www.openwall.com/lists/oss-security/2024/06/28/4
+    - https://access.redhat.com/errata/RHSA-2024:7848
     - https://access.redhat.com/security/cve/CVE-2024-5535
+    - https://bugzilla.redhat.com/2294581
+    - https://errata.almalinux.org/8/ALSA-2024-7848.html
     - https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37
     - https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e
     - https://github.com/openssl/openssl/commit/cf6f91f6121f4db167405db2f0de410a456f260c
     - https://github.com/openssl/openssl/commit/e86ac436f0bd54d4517745483e2315650fae7b2c
     - https://github.openssl.org/openssl/extended-releases/commit/9947251413065a05189a63c9b7a6c1d4e224c21c
     - https://github.openssl.org/openssl/extended-releases/commit/b78ec0824da857223486660177d3b1f255c65d87
+    - https://linux.oracle.com/cve/CVE-2024-5535.html
+    - https://linux.oracle.com/errata/ELSA-2024-7848.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-5535
     - https://openssl.org/news/secadv/20240627.txt
     - https://security.netapp.com/advisory/ntap-20240712-0005/
@@ -5405,84 +5478,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2024-09-04T21:15:14.643Z'
-  - VulnerabilityID: CVE-2023-45803
-    PkgID: python3-pip-wheel@21.2.3-8.el9.noarch
-    PkgName: python3-pip-wheel
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-8.el9?arch=noarch&distro=redhat-9.4
-      UID: 95205c2cec6896bf
-    InstalledVersion: 21.2.3-8.el9
-    Status: affected
-    Layer:
-      Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae988f3216d47b01169f8a2
-      DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45803
-    Title: 'urllib3: Request body not stripped after redirect from 303 status changes request method to GET'
-    Description: |
-      urllib3 is a user-friendly HTTP client library for Python. urllib3 previously wouldn't remove the HTTP request body when an HTTP redirect response using status 301, 302, or 303 after the request had its method changed from one that could accept a request body (like `POST`) to `GET` as is required by HTTP RFCs. Although this behavior is not specified in the section for redirects, it can be inferred by piecing together information from different sections and we have observed the behavior in other major HTTP client implementations like curl and web browsers. Because the vulnerability requires a previously trusted service to become compromised in order to have an impact on confidentiality we believe the exploitability of this vulnerability is low. Additionally, many users aren't putting sensitive data in HTTP request bodies, if this is the case then this vulnerability isn't exploitable. Both of the following conditions must be true to be affected by this vulnerability: 1. Using urllib3 and submitting sensitive information in the HTTP request body (such as form data or JSON) and 2. The origin service is compromised and starts redirecting using 301, 302, or 303 to a malicious peer or the redirected-to service becomes compromised. This issue has been addressed in versions 1.26.18 and 2.0.7 and users are advised to update to resolve this issue. Users unable to update should disable redirects for services that aren't expecting to respond with redirects with `redirects=False` and disable automatic redirects with `redirects=False` and handle 301, 302, and 303 redirects manually by stripping the HTTP request body.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-200
-    VendorSeverity:
-      alma: 2
-      amazon: 2
-      azure: 2
-      cbl-mariner: 2
-      ghsa: 2
-      nvd: 2
-      oracle-oval: 2
-      photon: 2
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.2
-      nvd:
-        V3Vector: CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.2
-      redhat:
-        V3Vector: CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.2
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:2132
-    - https://access.redhat.com/security/cve/CVE-2023-45803
-    - https://bugzilla.redhat.com/2246840
-    - https://bugzilla.redhat.com/2257028
-    - https://bugzilla.redhat.com/2257854
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2246840
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2257028
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2257854
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45803
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52323
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22195
-    - https://errata.almalinux.org/9/ALSA-2024-2132.html
-    - https://errata.rockylinux.org/RLSA-2024:2968
-    - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-212.yaml
-    - https://github.com/urllib3/urllib3
-    - https://github.com/urllib3/urllib3/commit/4e50fbc5db74e32cabd5ccc1ab81fc103adfe0b3
-    - https://github.com/urllib3/urllib3/commit/4e98d57809dacab1cbe625fddeec1a290c478ea9
-    - https://github.com/urllib3/urllib3/commit/b594c5ceaca38e1ac215f916538fb128e3526a36
-    - https://github.com/urllib3/urllib3/releases/tag/1.26.18
-    - https://github.com/urllib3/urllib3/releases/tag/2.0.7
-    - https://github.com/urllib3/urllib3/security/advisories/GHSA-g4mx-q9vg-27p4
-    - https://linux.oracle.com/cve/CVE-2023-45803.html
-    - https://linux.oracle.com/errata/ELSA-2024-2988.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4R2Y5XK3WALSR3FNAGN7JBYV2B343ZKB
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4R2Y5XK3WALSR3FNAGN7JBYV2B343ZKB/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5F5CUBAN5XMEBVBZPHFITBLMJV5FIJJ5
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5F5CUBAN5XMEBVBZPHFITBLMJV5FIJJ5/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PPDPLM6UUMN55ESPQWJFLLIZY4ZKCNRX
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PPDPLM6UUMN55ESPQWJFLLIZY4ZKCNRX/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-45803
-    - https://ubuntu.com/security/notices/USN-6473-1
-    - https://ubuntu.com/security/notices/USN-6473-2
-    - https://www.cve.org/CVERecord?id=CVE-2023-45803
-    - https://www.rfc-editor.org/rfc/rfc9110.html#name-get
-    PublishedDate: '2023-10-17T20:15:10.07Z'
-    LastModifiedDate: '2023-11-03T22:15:11.693Z'
   - VulnerabilityID: CVE-2024-37891
     PkgID: python3-pip-wheel@21.2.3-8.el9.noarch
     PkgName: python3-pip-wheel
