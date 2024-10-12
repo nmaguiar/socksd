@@ -1087,8 +1087,13 @@
 │                       │       │                   in libarchive before 3.7.5 allows out-of-bounds access via
 │                       │       │                   a crafted archive file because src can move beyond dst. 
 │                       │       ├ Severity        : HIGH 
-│                       │       ├ VendorSeverity   ─ redhat: 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       │                  ╰ redhat: 3 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
 │                       │       │                           │           H/A:H 
 │                       │       │                           ╰ V3Score : 7.8 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-48957 
@@ -1098,7 +1103,7 @@
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-48957 
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-48957 
 │                       │       ├ PublishedDate   : 2024-10-10T02:15:02.99Z 
-│                       │       ╰ LastModifiedDate: 2024-10-10T12:51:56.987Z 
+│                       │       ╰ LastModifiedDate: 2024-10-11T21:36:47.93Z 
 │                       ├ [19]  ╭ VulnerabilityID : CVE-2024-48958 
 │                       │       ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │       ├ PkgName         : libarchive 
@@ -1118,8 +1123,13 @@
 │                       │       │                   in libarchive before 3.7.5 allows out-of-bounds access via
 │                       │       │                   a crafted archive file because src can move beyond dst. 
 │                       │       ├ Severity        : HIGH 
-│                       │       ├ VendorSeverity   ─ redhat: 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       │                  ╰ redhat: 3 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
 │                       │       │                           │           H/A:H 
 │                       │       │                           ╰ V3Score : 7.8 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-48958 
@@ -1129,7 +1139,7 @@
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-48958 
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-48958 
 │                       │       ├ PublishedDate   : 2024-10-10T02:15:03.057Z 
-│                       │       ╰ LastModifiedDate: 2024-10-10T12:51:56.987Z 
+│                       │       ╰ LastModifiedDate: 2024-10-11T21:36:48.687Z 
 │                       ├ [20]  ╭ VulnerabilityID : CVE-2023-30571 
 │                       │       ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │       ├ PkgName         : libarchive 
@@ -1430,7 +1440,7 @@
 │                       │       │                   xmlHTMLPrintFileContext in xmllint.c. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-122 
-│                       │       ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │       ├ VendorSeverity   ╭ cbl-mariner: 3 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ╰ redhat     : 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
@@ -5448,7 +5458,7 @@
 │                       │       ├ VendorSeverity   ╭ amazon     : 2 
 │                       │       │                  ├ azure      : 3 
 │                       │       │                  ├ bitnami    : 3 
-│                       │       │                  ├ cbl-mariner: 2 
+│                       │       │                  ├ cbl-mariner: 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
@@ -5971,7 +5981,7 @@
 │                       │       ├ VendorSeverity   ╭ amazon     : 2 
 │                       │       │                  ├ azure      : 3 
 │                       │       │                  ├ bitnami    : 3 
-│                       │       │                  ├ cbl-mariner: 2 
+│                       │       │                  ├ cbl-mariner: 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
@@ -6494,7 +6504,7 @@
 │                       │       ├ VendorSeverity   ╭ amazon     : 2 
 │                       │       │                  ├ azure      : 3 
 │                       │       │                  ├ bitnami    : 3 
-│                       │       │                  ├ cbl-mariner: 2 
+│                       │       │                  ├ cbl-mariner: 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
@@ -6708,7 +6718,7 @@
 │                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
-│                       │       │                  ├ ghsa       : 2 
+│                       │       │                  ├ ghsa       : 3 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 1 
@@ -6730,28 +6740,31 @@
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2021:3254 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2021-3572 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=1962856 
-│                       │       │                  ├ [3] : https://github.com/pypa/pip 
-│                       │       │                  ├ [4] : https://github.com/pypa/pip/commit/e46bdda9711392fec
+│                       │       │                  ├ [3] : https://github.com/advisories/GHSA-5xp3-jfq3-5q8x 
+│                       │       │                  ├ [4] : https://github.com/pypa/advisory-database/tree/main/
+│                       │       │                  │       vulns/pip/PYSEC-2021-437.yaml 
+│                       │       │                  ├ [5] : https://github.com/pypa/pip 
+│                       │       │                  ├ [6] : https://github.com/pypa/pip/commit/e46bdda9711392fec
 │                       │       │                  │       0c45c1175bae6db847cb30b 
-│                       │       │                  ├ [5] : https://github.com/pypa/pip/issues/10042 
-│                       │       │                  ├ [6] : https://github.com/pypa/pip/issues/10042#issuecommen
+│                       │       │                  ├ [7] : https://github.com/pypa/pip/issues/10042 
+│                       │       │                  ├ [8] : https://github.com/pypa/pip/issues/10042#issuecommen
 │                       │       │                  │       t-857452480 
-│                       │       │                  ├ [7] : https://github.com/pypa/pip/pull/9827 
-│                       │       │                  ├ [8] : https://github.com/skazi0/CVE-2021-3572/blob/master/
+│                       │       │                  ├ [9] : https://github.com/pypa/pip/pull/9827 
+│                       │       │                  ├ [10]: https://github.com/skazi0/CVE-2021-3572/blob/master/
 │                       │       │                  │       CVE-2021-3572-v9.0.1.patch 
-│                       │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2021-3572.html 
-│                       │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2023-12349.html 
-│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2021-3572 
-│                       │       │                  ├ [12]: https://packetstormsecurity.com/files/162712/USN-496
+│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2021-3572.html 
+│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-12349.html 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2021-3572 
+│                       │       │                  ├ [14]: https://packetstormsecurity.com/files/162712/USN-496
 │                       │       │                  │       1-1.txt 
-│                       │       │                  ├ [13]: https://security.netapp.com/advisory/ntap-20240621-0
+│                       │       │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240621-0
 │                       │       │                  │       006 
-│                       │       │                  ├ [14]: https://security.netapp.com/advisory/ntap-20240621-0
+│                       │       │                  ├ [16]: https://security.netapp.com/advisory/ntap-20240621-0
 │                       │       │                  │       006/ 
-│                       │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-4961-2 
-│                       │       │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2021-3572 
-│                       │       │                  ├ [17]: https://www.oracle.com/security-alerts/cpuapr2022.html 
-│                       │       │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujul2022.html 
+│                       │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-4961-2 
+│                       │       │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2021-3572 
+│                       │       │                  ├ [19]: https://www.oracle.com/security-alerts/cpuapr2022.html 
+│                       │       │                  ╰ [20]: https://www.oracle.com/security-alerts/cpujul2022.html 
 │                       │       ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │       ╰ LastModifiedDate: 2024-06-21T19:15:20.04Z 
 │                       ├ [98]  ╭ VulnerabilityID : CVE-2023-36191 
