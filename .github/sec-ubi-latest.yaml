@@ -940,9 +940,15 @@
     Title: 'libarchive: Out-of-bounds access in libarchive''s archive file handling'
     Description: execute_filter_audio in archive_read_support_format_rar.c in libarchive before 3.7.5 allows out-of-bounds access via a crafted archive file because src can move beyond dst.
     Severity: HIGH
+    CweIDs:
+    - CWE-125
     VendorSeverity:
+      nvd: 3
       redhat: 3
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
@@ -953,7 +959,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-48957
     - https://www.cve.org/CVERecord?id=CVE-2024-48957
     PublishedDate: '2024-10-10T02:15:02.99Z'
-    LastModifiedDate: '2024-10-10T12:51:56.987Z'
+    LastModifiedDate: '2024-10-11T21:36:47.93Z'
   - VulnerabilityID: CVE-2024-48958
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -970,9 +976,15 @@
     Title: 'libarchive: From CVEorg collector'
     Description: execute_filter_delta in archive_read_support_format_rar.c in libarchive before 3.7.5 allows out-of-bounds access via a crafted archive file because src can move beyond dst.
     Severity: HIGH
+    CweIDs:
+    - CWE-125
     VendorSeverity:
+      nvd: 3
       redhat: 3
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
@@ -983,7 +995,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-48958
     - https://www.cve.org/CVERecord?id=CVE-2024-48958
     PublishedDate: '2024-10-10T02:15:03.057Z'
-    LastModifiedDate: '2024-10-10T12:51:56.987Z'
+    LastModifiedDate: '2024-10-11T21:36:48.687Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1258,7 +1270,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 2
+      cbl-mariner: 3
       photon: 2
       redhat: 1
     CVSS:
@@ -4587,7 +4599,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4988,7 +5000,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -5389,7 +5401,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -5548,7 +5560,7 @@
       amazon: 2
       bitnami: 2
       cbl-mariner: 2
-      ghsa: 2
+      ghsa: 3
       nvd: 2
       oracle-oval: 3
       redhat: 1
@@ -5572,6 +5584,8 @@
     - https://access.redhat.com/errata/RHSA-2021:3254
     - https://access.redhat.com/security/cve/CVE-2021-3572
     - https://bugzilla.redhat.com/show_bug.cgi?id=1962856
+    - https://github.com/advisories/GHSA-5xp3-jfq3-5q8x
+    - https://github.com/pypa/advisory-database/tree/main/vulns/pip/PYSEC-2021-437.yaml
     - https://github.com/pypa/pip
     - https://github.com/pypa/pip/commit/e46bdda9711392fec0c45c1175bae6db847cb30b
     - https://github.com/pypa/pip/issues/10042
