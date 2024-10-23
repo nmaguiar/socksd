@@ -3,16 +3,41 @@
 ├ stderr  : latest: Pulling from aquasec/trivy
 │           Digest: sha256:26245f364b6f5d223003dc344ec1eb5eb8439052bfecb31d79aeba0c74344b3a
 │           Status: Image is up to date for aquasec/trivy:latest
-│           2024-10-23T02:03:00Z	INFO	[vulndb] Need to update DB
-│           2024-10-23T02:03:00Z	INFO	[vulndb] Downloading vulnerability DB...
-│           2024-10-23T02:03:00Z	INFO	[vulndb] Downloading artifact...	repo="ghcr.io/aquasecurity/trivy-db:2"
-│           2024-10-23T02:03:00Z	ERROR	[vulndb] Failed to download
-│           artifact	repo="ghcr.io/aquasecurity/trivy-db:2" err="OCI repository error: 1 error occurred:\n\t*
-│           GET https://ghcr.io/v2/aquasecurity/trivy-db/manifests/2: TOOMANYREQUESTS: retry-after: 640.541µs,
-│           allowed: 44000/minute\n\n"
-│           2024-10-23T02:03:00Z	FATAL	Fatal error	init error: DB error: failed to download vulnerability DB:
-│           OCI artifact error: failed to download vulnerability DB: failed to download artifact from any
-│           source 
+│           2024-10-23T07:02:31Z	INFO	[vulndb] Need to update DB
+│           2024-10-23T07:02:31Z	INFO	[vulndb] Downloading vulnerability DB...
+│           2024-10-23T07:02:31Z	INFO	[vulndb] Downloading artifact...	repo="ghcr.io/aquasecurity/trivy-db:2"
+│           54.72 MiB / 54.72 MiB [----------------------------------------------------------->] 100.00% ? p/s
+│           ?54.72 MiB / 54.72 MiB [----------------------------------------------------------->] 100.00% ? p/s
+│            ?54.72 MiB / 54.72 MiB [----------------------------------------------------------->] 100.00% ?
+│           p/s ?54.72 MiB / 54.72 MiB [----------------------------------------------------------->] 100.00% ?
+│            p/s ?54.72 MiB / 54.72 MiB [----------------------------------------------------------->] 100.00%
+│           ? p/s ?54.72 MiB / 54.72 MiB [----------------------------------------------------------->] 100.00%
+│            ? p/s ?54.72 MiB / 54.72 MiB [----------------------------------------------------------->]
+│           100.00% ? p/s ?54.72 MiB / 54.72 MiB [----------------------------------------------------------->]
+│            100.00% ? p/s ?54.72 MiB / 54.72 MiB
+│           [----------------------------------------------------------->] 100.00% ? p/s ?54.72 MiB / 54.72 MiB
+│            [-------------------------------------------------] 100.00% 30.58 MiB p/s
+│           2.0s2024-10-23T07:02:33Z	INFO	[vulndb] Artifact successfully
+│           downloaded	repo="ghcr.io/aquasecurity/trivy-db:2"
+│           2024-10-23T07:02:33Z	INFO	[vuln] Vulnerability scanning is enabled
+│           2024-10-23T07:02:33Z	INFO	[secret] Secret scanning is enabled
+│           2024-10-23T07:02:33Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to
+│           disable secret scanning
+│           2024-10-23T07:02:33Z	INFO	[secret] Please see also
+│           https://aquasecurity.github.io/trivy/v0.56/docs/scanner/secret#recommendation for faster secret
+│           detection
+│           2024-10-23T07:02:34Z	INFO	[javadb] Downloading Java DB...
+│           2024-10-23T07:02:34Z	INFO	[javadb] Downloading
+│           artifact...	repo="ghcr.io/aquasecurity/trivy-java-db:1"
+│           2024-10-23T07:02:35Z	ERROR	[javadb] Failed to download
+│           artifact	repo="ghcr.io/aquasecurity/trivy-java-db:1" err="OCI repository error: 1 error
+│           occurred:\n\t* GET https://ghcr.io/v2/aquasecurity/trivy-java-db/manifests/1: TOOMANYREQUESTS:
+│           retry-after: 519.245µs, allowed: 44000/minute\n\n"
+│           2024-10-23T07:02:35Z	FATAL	Fatal error	image scan error: scan error: scan failed: failed analysis:
+│           analyze error: pipeline error: failed to analyze layer
+│           (sha256:8ee243546efe8c4d6ee0664cccadfe9414dd31e7ac8f0cad88ef857b0c356980): post analysis error:
+│           post analysis error: Unable to initialize the Java DB: Java DB update failed: OCI artifact error:
+│           failed to download Java DB: failed to download artifact from any source 
 ├ exitcode: 1 
 ╰ cmd     : docker run --pull always --rm  aquasec/trivy -f json  image nmaguiar/socksd:ubi-build 
 ````
