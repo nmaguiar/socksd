@@ -207,7 +207,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
         V3Score: 7.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:7346
+    - https://access.redhat.com/errata/RHSA-2024:7463
     - https://access.redhat.com/security/cve/CVE-2024-47175
     - https://bugzilla.redhat.com/2314252
     - https://bugzilla.redhat.com/2314253
@@ -218,7 +218,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47076
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47175
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47176
-    - https://errata.almalinux.org/9/ALSA-2024-7346.html
+    - https://errata.almalinux.org/8/ALSA-2024-7463.html
     - https://errata.rockylinux.org/RLSA-2024:7346
     - https://github.com/OpenPrinting/cups-browsed/security/advisories/GHSA-rj88-6mr5-rcw8
     - https://github.com/OpenPrinting/cups-filters/security/advisories/GHSA-p9rh-jxmq-gq47
@@ -327,7 +327,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6754
+    - https://access.redhat.com/errata/RHSA-2024:6989
     - https://access.redhat.com/security/cve/CVE-2024-45491
     - https://bugzilla.redhat.com/2308615
     - https://bugzilla.redhat.com/2308616
@@ -338,7 +338,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45490
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
-    - https://errata.almalinux.org/9/ALSA-2024-6754.html
+    - https://errata.almalinux.org/8/ALSA-2024-6989.html
     - https://errata.rockylinux.org/RLSA-2024:6754
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/888
@@ -587,7 +587,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://errata.almalinux.org/8/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1103,7 +1103,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -1180,7 +1180,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -3236,13 +3236,16 @@
     PublishedDate: '2023-06-25T18:15:09.313Z'
     LastModifiedDate: '2024-08-02T17:16:13.363Z'
   - VulnerabilityID: CVE-2024-6232
+    VendorIDs:
+    - RHSA-2024:8446
     PkgID: python-unversioned-command@3.9.18-3.el9_4.5.noarch
     PkgName: python-unversioned-command
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18-3.el9_4.5?arch=noarch&distro=redhat-9.4
       UID: 5f30d4e96656b167
     InstalledVersion: 3.9.18-3.el9_4.5
-    Status: affected
+    FixedVersion: 3.9.18-3.el9_4.6
+    Status: fixed
     Layer:
       Digest: sha256:0ae2c8920c0d080c7f20907d95fba72c74ec763875331c12995ddf3827a98229
       DiffID: sha256:54230f30a02528f511cf75086b212d74be960067925d908f5cfe4c303dab8a32
@@ -3281,10 +3284,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6975
+    - https://access.redhat.com/errata/RHSA-2024:8359
     - https://access.redhat.com/security/cve/CVE-2024-6232
-    - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2309426
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
@@ -3292,7 +3293,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
-    - https://errata.almalinux.org/8/ALSA-2024-6975.html
+    - https://errata.almalinux.org/8/ALSA-2024-8359.html
     - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
@@ -3303,7 +3304,7 @@
     - https://github.com/python/cpython/issues/121285
     - https://github.com/python/cpython/pull/121286
     - https://linux.oracle.com/cve/CVE-2024-6232.html
-    - https://linux.oracle.com/errata/ELSA-2024-8374.html
+    - https://linux.oracle.com/errata/ELSA-2024-8446.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -3639,13 +3640,16 @@
     PublishedDate: '2023-06-25T18:15:09.313Z'
     LastModifiedDate: '2024-08-02T17:16:13.363Z'
   - VulnerabilityID: CVE-2024-6232
+    VendorIDs:
+    - RHSA-2024:8446
     PkgID: python3@3.9.18-3.el9_4.5.x86_64
     PkgName: python3
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.5?arch=x86_64&distro=redhat-9.4
       UID: 666c94d98b2247f3
     InstalledVersion: 3.9.18-3.el9_4.5
-    Status: affected
+    FixedVersion: 3.9.18-3.el9_4.6
+    Status: fixed
     Layer:
       Digest: sha256:0ae2c8920c0d080c7f20907d95fba72c74ec763875331c12995ddf3827a98229
       DiffID: sha256:54230f30a02528f511cf75086b212d74be960067925d908f5cfe4c303dab8a32
@@ -3684,10 +3688,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6975
+    - https://access.redhat.com/errata/RHSA-2024:8359
     - https://access.redhat.com/security/cve/CVE-2024-6232
-    - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2309426
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
@@ -3695,7 +3697,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
-    - https://errata.almalinux.org/8/ALSA-2024-6975.html
+    - https://errata.almalinux.org/8/ALSA-2024-8359.html
     - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
@@ -3706,7 +3708,7 @@
     - https://github.com/python/cpython/issues/121285
     - https://github.com/python/cpython/pull/121286
     - https://linux.oracle.com/cve/CVE-2024-6232.html
-    - https://linux.oracle.com/errata/ELSA-2024-8374.html
+    - https://linux.oracle.com/errata/ELSA-2024-8446.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -4042,13 +4044,16 @@
     PublishedDate: '2023-06-25T18:15:09.313Z'
     LastModifiedDate: '2024-08-02T17:16:13.363Z'
   - VulnerabilityID: CVE-2024-6232
+    VendorIDs:
+    - RHSA-2024:8446
     PkgID: python3-libs@3.9.18-3.el9_4.5.x86_64
     PkgName: python3-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.5?arch=x86_64&distro=redhat-9.4
       UID: fc3bc4a2b26476c4
     InstalledVersion: 3.9.18-3.el9_4.5
-    Status: affected
+    FixedVersion: 3.9.18-3.el9_4.6
+    Status: fixed
     Layer:
       Digest: sha256:0ae2c8920c0d080c7f20907d95fba72c74ec763875331c12995ddf3827a98229
       DiffID: sha256:54230f30a02528f511cf75086b212d74be960067925d908f5cfe4c303dab8a32
@@ -4087,10 +4092,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6975
+    - https://access.redhat.com/errata/RHSA-2024:8359
     - https://access.redhat.com/security/cve/CVE-2024-6232
-    - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2309426
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
@@ -4098,7 +4101,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
-    - https://errata.almalinux.org/8/ALSA-2024-6975.html
+    - https://errata.almalinux.org/8/ALSA-2024-8359.html
     - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
@@ -4109,7 +4112,7 @@
     - https://github.com/python/cpython/issues/121285
     - https://github.com/python/cpython/pull/121286
     - https://linux.oracle.com/cve/CVE-2024-6232.html
-    - https://linux.oracle.com/errata/ELSA-2024-8374.html
+    - https://linux.oracle.com/errata/ELSA-2024-8446.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -4348,10 +4351,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.4
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6162
+    - https://access.redhat.com/errata/RHSA-2024:6311
     - https://access.redhat.com/security/cve/CVE-2024-37891
     - https://bugzilla.redhat.com/2292788
-    - https://errata.almalinux.org/9/ALSA-2024-6162.html
+    - https://bugzilla.redhat.com/2297771
+    - https://errata.almalinux.org/8/ALSA-2024-6311.html
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/40b6d1605814dd1db0a46e202d6e56f2e4c9a468
     - https://github.com/urllib3/urllib3/commit/accff72ecc2f6cf5a76d9570198a93ac7c90270e
