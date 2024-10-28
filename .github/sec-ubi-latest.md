@@ -400,7 +400,7 @@
 │                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-45492 
 │                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-6754.html 
-│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:6989 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:6754 
 │                       │      │                  ├ [13]: https://github.com/libexpat/libexpat/blob/R_2_6_3/exp
 │                       │      │                  │       at/Changes 
 │                       │      │                  ├ [14]: https://github.com/libexpat/libexpat/issues/887 
@@ -467,7 +467,7 @@
 │                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-45492 
 │                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-6754.html 
-│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:6989 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:6754 
 │                       │      │                  ├ [13]: https://github.com/libexpat/libexpat/blob/R_2_6_3/exp
 │                       │      │                  │       at/Changes 
 │                       │      │                  ├ [14]: https://github.com/libexpat/libexpat/issues/888 
@@ -535,7 +535,7 @@
 │                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-45492 
 │                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-6754.html 
-│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:6989 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:6754 
 │                       │      │                  ├ [13]: https://github.com/libexpat/libexpat/blob/R_2_6_3/exp
 │                       │      │                  │       at/Changes 
 │                       │      │                  ├ [14]: https://github.com/libexpat/libexpat/issues/889 
@@ -4625,7 +4625,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5141,7 +5141,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5657,7 +5657,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
