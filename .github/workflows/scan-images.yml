@@ -22,6 +22,11 @@ jobs:
         key : oaf-t8
         path: /tmp/oaf
 
+    - name: Restore the trivy databases from cache
+      run : |
+        wget https://openaf.io/trivy-db.tgz
+        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+
     - uses: openaf/ojob-action@v4
       name: Check latest
       with:
