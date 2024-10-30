@@ -1167,7 +1167,7 @@
 │                       │      │                   xmlHTMLPrintFileContext in xmllint.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -1443,7 +1443,9 @@
 │                       │      ├ Title           : ncurses: NULL pointer dereference in tgetstr in
 │                       │      │                   tinfo/lib_termcap.c 
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
-│                       │      │                   tgetstr in tinfo/lib_termcap.c. 
+│                       │      │                   tgetstr in tinfo/lib_termcap.c. NOTE: Multiple third parties
+│                       │      │                    have disputed this indicating upstream does not regard it
+│                       │      │                   as a security issue. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ redhat: 1 
@@ -1452,13 +1454,14 @@
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.3 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-45918 
-│                       │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2023-06
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2300290#c1 
+│                       │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/2023-06
 │                       │      │                  │      /msg00005.html 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-45918 
-│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-20240315-0006/ 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-45918 
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20240315-0006/ 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
-│                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
+│                       │      ╰ LastModifiedDate: 2024-10-28T21:15:03.937Z 
 │                       ├ [26] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
@@ -1570,7 +1573,9 @@
 │                       │      ├ Title           : ncurses: NULL pointer dereference in tgetstr in
 │                       │      │                   tinfo/lib_termcap.c 
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
-│                       │      │                   tgetstr in tinfo/lib_termcap.c. 
+│                       │      │                   tgetstr in tinfo/lib_termcap.c. NOTE: Multiple third parties
+│                       │      │                    have disputed this indicating upstream does not regard it
+│                       │      │                   as a security issue. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ redhat: 1 
@@ -1579,13 +1584,14 @@
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.3 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-45918 
-│                       │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2023-06
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2300290#c1 
+│                       │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/2023-06
 │                       │      │                  │      /msg00005.html 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-45918 
-│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-20240315-0006/ 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-45918 
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20240315-0006/ 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
-│                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
+│                       │      ╰ LastModifiedDate: 2024-10-28T21:15:03.937Z 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │      ├ PkgName         : ncurses-libs 
@@ -5212,7 +5218,8 @@
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-37891.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-6311.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-37891 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-37891 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7084-1 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-37891 
 │                       │      ├ PublishedDate   : 2024-06-17T20:15:13.45Z 
 │                       │      ╰ LastModifiedDate: 2024-06-20T12:44:22.977Z 
 │                       ├ [83] ╭ VulnerabilityID : CVE-2021-3572 
