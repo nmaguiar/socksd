@@ -277,7 +277,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
         V3Score: 7.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:7463
+    - https://access.redhat.com/errata/RHSA-2024:7346
     - https://access.redhat.com/security/cve/CVE-2024-47175
     - https://bugzilla.redhat.com/2314252
     - https://bugzilla.redhat.com/2314253
@@ -288,7 +288,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47076
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47175
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47176
-    - https://errata.almalinux.org/8/ALSA-2024-7463.html
+    - https://errata.almalinux.org/9/ALSA-2024-7346.html
     - https://errata.rockylinux.org/RLSA-2024:7346
     - https://github.com/OpenPrinting/cups-browsed/security/advisories/GHSA-rj88-6mr5-rcw8
     - https://github.com/OpenPrinting/cups-filters/security/advisories/GHSA-p9rh-jxmq-gq47
@@ -397,7 +397,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6989
+    - https://access.redhat.com/errata/RHSA-2024:6754
     - https://access.redhat.com/security/cve/CVE-2024-45491
     - https://bugzilla.redhat.com/2308615
     - https://bugzilla.redhat.com/2308616
@@ -408,7 +408,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45490
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
-    - https://errata.almalinux.org/8/ALSA-2024-6989.html
+    - https://errata.almalinux.org/9/ALSA-2024-6754.html
     - https://errata.rockylinux.org/RLSA-2024:6754
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/888
@@ -688,7 +688,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1204,7 +1204,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0894
+    - https://access.redhat.com/errata/RHSA-2024:1141
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -1281,7 +1281,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/8/ALSA-2024-0894.html
+    - https://errata.almalinux.org/9/ALSA-2024-1141.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -3116,6 +3116,8 @@
     Title: 'pam: libpam: Libpam vulnerable to read hashed password'
     Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-922
     VendorSeverity:
       redhat: 2
     CVSS:
@@ -3128,7 +3130,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-10-23T15:12:34.673Z'
+    LastModifiedDate: '2024-11-04T22:27:02.877Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-5.el9.x86_64
     PkgName: pcre2
@@ -3405,6 +3407,10 @@
         V3Score: 6.3
     References:
     - https://access.redhat.com/security/cve/CVE-2024-9287
+    - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
+    - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
+    - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
+    - https://github.com/python/cpython/commit/ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97
     - https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483
     - https://github.com/python/cpython/issues/124651
     - https://github.com/python/cpython/pull/124712
@@ -3412,7 +3418,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
     PublishedDate: '2024-10-22T17:15:06.697Z'
-    LastModifiedDate: '2024-10-30T16:15:05.1Z'
+    LastModifiedDate: '2024-11-04T18:15:05.627Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python-unversioned-command@3.9.18-3.el9_4.6.noarch
     PkgName: python-unversioned-command
@@ -3724,6 +3730,10 @@
         V3Score: 6.3
     References:
     - https://access.redhat.com/security/cve/CVE-2024-9287
+    - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
+    - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
+    - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
+    - https://github.com/python/cpython/commit/ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97
     - https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483
     - https://github.com/python/cpython/issues/124651
     - https://github.com/python/cpython/pull/124712
@@ -3731,7 +3741,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
     PublishedDate: '2024-10-22T17:15:06.697Z'
-    LastModifiedDate: '2024-10-30T16:15:05.1Z'
+    LastModifiedDate: '2024-11-04T18:15:05.627Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3@3.9.18-3.el9_4.6.x86_64
     PkgName: python3
@@ -4043,6 +4053,10 @@
         V3Score: 6.3
     References:
     - https://access.redhat.com/security/cve/CVE-2024-9287
+    - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
+    - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
+    - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
+    - https://github.com/python/cpython/commit/ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97
     - https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483
     - https://github.com/python/cpython/issues/124651
     - https://github.com/python/cpython/pull/124712
@@ -4050,7 +4064,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
     PublishedDate: '2024-10-22T17:15:06.697Z'
-    LastModifiedDate: '2024-10-30T16:15:05.1Z'
+    LastModifiedDate: '2024-11-04T18:15:05.627Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3-libs@3.9.18-3.el9_4.6.x86_64
     PkgName: python3-libs
@@ -4203,11 +4217,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.4
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6311
+    - https://access.redhat.com/errata/RHSA-2024:6162
     - https://access.redhat.com/security/cve/CVE-2024-37891
     - https://bugzilla.redhat.com/2292788
-    - https://bugzilla.redhat.com/2297771
-    - https://errata.almalinux.org/8/ALSA-2024-6311.html
+    - https://errata.almalinux.org/9/ALSA-2024-6162.html
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/40b6d1605814dd1db0a46e202d6e56f2e4c9a468
     - https://github.com/urllib3/urllib3/commit/accff72ecc2f6cf5a76d9570198a93ac7c90270e
