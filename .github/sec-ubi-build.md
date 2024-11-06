@@ -355,7 +355,7 @@
 │                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-47176 
 │                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-7346.html 
-│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:7346 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:7463 
 │                       │      │                  ├ [13]: https://github.com/OpenPrinting/cups-browsed/security
 │                       │      │                  │       /advisories/GHSA-rj88-6mr5-rcw8 
 │                       │      │                  ├ [14]: https://github.com/OpenPrinting/cups-filters/security
@@ -487,7 +487,7 @@
 │                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-45492 
 │                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-6754.html 
-│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:6754 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:6989 
 │                       │      │                  ├ [13]: https://github.com/libexpat/libexpat/blob/R_2_6_3/exp
 │                       │      │                  │       at/Changes 
 │                       │      │                  ├ [14]: https://github.com/libexpat/libexpat/issues/888 
@@ -3083,6 +3083,7 @@
 │                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -3092,29 +3093,33 @@
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:7848 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-5535 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294581 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2024-7848.html 
-│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/4ada436a194
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2294581 
+│                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-5535 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-7848.html 
+│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:7848 
+│                       │      │                  ├ [9] : https://github.com/openssl/openssl/commit/4ada436a194
 │                       │      │                  │       6cbb24db5ab4ca082b69c1bc10f37 
-│                       │      │                  ├ [7] : https://github.com/openssl/openssl/commit/99fb785a5f8
+│                       │      │                  ├ [10]: https://github.com/openssl/openssl/commit/99fb785a5f8
 │                       │      │                  │       5315b95288921a321a935ea29a51e 
-│                       │      │                  ├ [8] : https://github.com/openssl/openssl/commit/cf6f91f6121
+│                       │      │                  ├ [11]: https://github.com/openssl/openssl/commit/cf6f91f6121
 │                       │      │                  │       f4db167405db2f0de410a456f260c 
-│                       │      │                  ├ [9] : https://github.com/openssl/openssl/commit/e86ac436f0b
+│                       │      │                  ├ [12]: https://github.com/openssl/openssl/commit/e86ac436f0b
 │                       │      │                  │       d54d4517745483e2315650fae7b2c 
-│                       │      │                  ├ [10]: https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  ├ [13]: https://github.openssl.org/openssl/extended-releases/
 │                       │      │                  │       commit/9947251413065a05189a63c9b7a6c1d4e224c21c 
-│                       │      │                  ├ [11]: https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  ├ [14]: https://github.openssl.org/openssl/extended-releases/
 │                       │      │                  │       commit/b78ec0824da857223486660177d3b1f255c65d87 
-│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-5535.html 
-│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-7848.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-5535 
-│                       │      │                  ├ [15]: https://openssl.org/news/secadv/20240627.txt 
-│                       │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20240712-00
+│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-5535.html 
+│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-7848.html 
+│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-5535 
+│                       │      │                  ├ [18]: https://openssl.org/news/secadv/20240627.txt 
+│                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20240712-00
 │                       │      │                  │       05/ 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6937-1 
-│                       │      │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2024-5535 
-│                       │      │                  ├ [19]: https://www.openssl.org/news/secadv/20240627.txt 
-│                       │      │                  ╰ [20]: https://www.oracle.com/security-alerts/cpuoct2024.htm
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6937-1 
+│                       │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2024-5535 
+│                       │      │                  ├ [22]: https://www.openssl.org/news/secadv/20240627.txt 
+│                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.htm
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-06-27T11:15:24.447Z 
 │                       │      ╰ LastModifiedDate: 2024-07-12T14:15:16.79Z 
@@ -3565,6 +3570,7 @@
 │                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -3574,29 +3580,33 @@
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:7848 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-5535 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294581 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2024-7848.html 
-│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/4ada436a194
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2294581 
+│                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-5535 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-7848.html 
+│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:7848 
+│                       │      │                  ├ [9] : https://github.com/openssl/openssl/commit/4ada436a194
 │                       │      │                  │       6cbb24db5ab4ca082b69c1bc10f37 
-│                       │      │                  ├ [7] : https://github.com/openssl/openssl/commit/99fb785a5f8
+│                       │      │                  ├ [10]: https://github.com/openssl/openssl/commit/99fb785a5f8
 │                       │      │                  │       5315b95288921a321a935ea29a51e 
-│                       │      │                  ├ [8] : https://github.com/openssl/openssl/commit/cf6f91f6121
+│                       │      │                  ├ [11]: https://github.com/openssl/openssl/commit/cf6f91f6121
 │                       │      │                  │       f4db167405db2f0de410a456f260c 
-│                       │      │                  ├ [9] : https://github.com/openssl/openssl/commit/e86ac436f0b
+│                       │      │                  ├ [12]: https://github.com/openssl/openssl/commit/e86ac436f0b
 │                       │      │                  │       d54d4517745483e2315650fae7b2c 
-│                       │      │                  ├ [10]: https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  ├ [13]: https://github.openssl.org/openssl/extended-releases/
 │                       │      │                  │       commit/9947251413065a05189a63c9b7a6c1d4e224c21c 
-│                       │      │                  ├ [11]: https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  ├ [14]: https://github.openssl.org/openssl/extended-releases/
 │                       │      │                  │       commit/b78ec0824da857223486660177d3b1f255c65d87 
-│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-5535.html 
-│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-7848.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-5535 
-│                       │      │                  ├ [15]: https://openssl.org/news/secadv/20240627.txt 
-│                       │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20240712-00
+│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-5535.html 
+│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-7848.html 
+│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-5535 
+│                       │      │                  ├ [18]: https://openssl.org/news/secadv/20240627.txt 
+│                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20240712-00
 │                       │      │                  │       05/ 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6937-1 
-│                       │      │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2024-5535 
-│                       │      │                  ├ [19]: https://www.openssl.org/news/secadv/20240627.txt 
-│                       │      │                  ╰ [20]: https://www.oracle.com/security-alerts/cpuoct2024.htm
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6937-1 
+│                       │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2024-5535 
+│                       │      │                  ├ [22]: https://www.openssl.org/news/secadv/20240627.txt 
+│                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.htm
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-06-27T11:15:24.447Z 
 │                       │      ╰ LastModifiedDate: 2024-07-12T14:15:16.79Z 
@@ -4049,7 +4059,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -4484,7 +4494,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -4919,7 +4929,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
