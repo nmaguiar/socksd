@@ -101,6 +101,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 1
       amazon: 1
       cbl-mariner: 4
       nvd: 4
@@ -123,8 +124,11 @@
     - http://lists.opensuse.org/opensuse-security-announce/2019-12/msg00000.html
     - http://packetstormsecurity.com/files/153644/Slackware-Security-Advisory-bzip2-Updates.html
     - http://packetstormsecurity.com/files/153957/FreeBSD-Security-Advisory-FreeBSD-SA-19-18.bzip2.html
+    - https://access.redhat.com/errata/RHSA-2024:8922
     - https://access.redhat.com/security/cve/CVE-2019-12900
     - https://bugs.launchpad.net/ubuntu/+source/bzip2/+bug/1834494
+    - https://bugzilla.redhat.com/1724459
+    - https://errata.almalinux.org/8/ALSA-2024-8922.html
     - https://gitlab.com/federicomenaquintero/bzip2/commit/74de1e2e6ffc9d51ef9824db71a8ffee5962cdbc
     - https://lists.apache.org/thread.html/ra0adb9653c7de9539b93cc8434143b655f753b9f60580ff260becb2b%40%3Cusers.kafka.apache.org%3E
     - https://lists.apache.org/thread.html/rce8cd8c30f60604b580ea01bebda8a671a25c9a1629f409fc24e7774%40%3Cuser.flink.apache.org%3E
@@ -289,7 +293,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47175
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47176
     - https://errata.almalinux.org/9/ALSA-2024-7346.html
-    - https://errata.rockylinux.org/RLSA-2024:7463
+    - https://errata.rockylinux.org/RLSA-2024:7346
     - https://github.com/OpenPrinting/cups-browsed/security/advisories/GHSA-rj88-6mr5-rcw8
     - https://github.com/OpenPrinting/cups-filters/security/advisories/GHSA-p9rh-jxmq-gq47
     - https://github.com/OpenPrinting/libcupsfilters/security/advisories/GHSA-w63j-6g73-wmg5
@@ -409,12 +413,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
     - https://errata.almalinux.org/9/ALSA-2024-6754.html
-    - https://errata.rockylinux.org/RLSA-2024:6989
+    - https://errata.rockylinux.org/RLSA-2024:6754
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/888
     - https://github.com/libexpat/libexpat/pull/891
     - https://linux.oracle.com/cve/CVE-2024-45491.html
-    - https://linux.oracle.com/errata/ELSA-2024-6989.html
+    - https://linux.oracle.com/errata/ELSA-2024-8859.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45491
     - https://ubuntu.com/security/notices/USN-7000-1
     - https://ubuntu.com/security/notices/USN-7000-2
@@ -3455,7 +3459,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -3778,7 +3782,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4101,7 +4105,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4234,7 +4238,7 @@
     - https://github.com/urllib3/urllib3/commit/accff72ecc2f6cf5a76d9570198a93ac7c90270e
     - https://github.com/urllib3/urllib3/security/advisories/GHSA-34jh-p97f-mpxf
     - https://linux.oracle.com/cve/CVE-2024-37891.html
-    - https://linux.oracle.com/errata/ELSA-2024-6311.html
+    - https://linux.oracle.com/errata/ELSA-2024-8843.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37891
     - https://ubuntu.com/security/notices/USN-7084-1
     - https://ubuntu.com/security/notices/USN-7084-2
