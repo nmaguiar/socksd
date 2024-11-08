@@ -2,7 +2,69 @@
 ╭ [0] ╭ Target         : nmaguiar/socksd:build (alpine 3.20.3) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-9143 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-9681 
+│                       │      ├ PkgID           : curl@8.10.1-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
+│                       │      │                  ╰ UID : f07e06b001c6f80a 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.11.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4a3d0d039e96e00d761adf57b7264bf4c10ac73b43ca
+│                       │      │                  │         ed58a258bf886c041421 
+│                       │      │                  ╰ DiffID: sha256:cf616b96db3fb39bc55370c8090b65847a28364d6f18
+│                       │      │                            7254969bb37dfb8e6656 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : When curl is asked to use HSTS, the expiry time for a
+│                       │      │                   subdomain might  ... 
+│                       │      ├ Description     : When curl is asked to use HSTS, the expiry time for a
+│                       │      │                   subdomain might
+│                       │      │                   overwrite a parent domain's cache entry, making it end
+│                       │      │                   sooner or later than
+│                       │      │                   otherwise intended.
+│                       │      │                   
+│                       │      │                   This affects curl using applications that enable HSTS and
+│                       │      │                   use URLs with the
+│                       │      │                   insecure `HTTP://` scheme and perform transfers with hosts
+│                       │      │                   like
+│                       │      │                   `x.example.com` as well as `example.com` where the first
+│                       │      │                   host is a subdomain
+│                       │      │                   of the second host.
+│                       │      │                   (The HSTS cache either needs to have been populated manually
+│                       │      │                    or there needs to
+│                       │      │                   have been previous HTTPS accesses done as the cache needs to
+│                       │      │                    have entries for
+│                       │      │                   the domains involved to trigger this problem.)
+│                       │      │                   When `x.example.com` responds with
+│                       │      │                   `Strict-Transport-Security:` headers, this
+│                       │      │                   bug can make the subdomain's expiry timeout *bleed over* and
+│                       │      │                    get set for the
+│                       │      │                   parent domain `example.com` in curl's HSTS cache.
+│                       │      │                   The result of a triggered bug is that HTTP accesses to
+│                       │      │                   `example.com` get
+│                       │      │                   converted to HTTPS for a different period of time than what
+│                       │      │                   was asked for by
+│                       │      │                   the origin server. If `example.com` for example stops
+│                       │      │                   supporting HTTPS at its
+│                       │      │                   expiry time, curl might then fail to access
+│                       │      │                   `http://example.com` until the
+│                       │      │                   (wrongly set) timeout expires. This bug can also expire the
+│                       │      │                   parent's entry
+│                       │      │                   *earlier*, thus making curl inadvertently switch back to
+│                       │      │                   insecure HTTP earlier
+│                       │      │                   than otherwise intended. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/2764830 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
+│                       │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2024-9143 
 │                       │      ├ PkgID           : libcrypto3@3.3.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.3.2-r0?arch=x86_64&distro
@@ -86,7 +148,70 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
 │                       │      ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T12:53:04.627Z 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2024-9143 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2024-9681 
+│                       │      ├ PkgID           : libcurl@8.10.1-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
+│                       │      │                  │       .20.3 
+│                       │      │                  ╰ UID : 49f1e7608626c36e 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.11.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4a3d0d039e96e00d761adf57b7264bf4c10ac73b43ca
+│                       │      │                  │         ed58a258bf886c041421 
+│                       │      │                  ╰ DiffID: sha256:cf616b96db3fb39bc55370c8090b65847a28364d6f18
+│                       │      │                            7254969bb37dfb8e6656 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : When curl is asked to use HSTS, the expiry time for a
+│                       │      │                   subdomain might  ... 
+│                       │      ├ Description     : When curl is asked to use HSTS, the expiry time for a
+│                       │      │                   subdomain might
+│                       │      │                   overwrite a parent domain's cache entry, making it end
+│                       │      │                   sooner or later than
+│                       │      │                   otherwise intended.
+│                       │      │                   
+│                       │      │                   This affects curl using applications that enable HSTS and
+│                       │      │                   use URLs with the
+│                       │      │                   insecure `HTTP://` scheme and perform transfers with hosts
+│                       │      │                   like
+│                       │      │                   `x.example.com` as well as `example.com` where the first
+│                       │      │                   host is a subdomain
+│                       │      │                   of the second host.
+│                       │      │                   (The HSTS cache either needs to have been populated manually
+│                       │      │                    or there needs to
+│                       │      │                   have been previous HTTPS accesses done as the cache needs to
+│                       │      │                    have entries for
+│                       │      │                   the domains involved to trigger this problem.)
+│                       │      │                   When `x.example.com` responds with
+│                       │      │                   `Strict-Transport-Security:` headers, this
+│                       │      │                   bug can make the subdomain's expiry timeout *bleed over* and
+│                       │      │                    get set for the
+│                       │      │                   parent domain `example.com` in curl's HSTS cache.
+│                       │      │                   The result of a triggered bug is that HTTP accesses to
+│                       │      │                   `example.com` get
+│                       │      │                   converted to HTTPS for a different period of time than what
+│                       │      │                   was asked for by
+│                       │      │                   the origin server. If `example.com` for example stops
+│                       │      │                   supporting HTTPS at its
+│                       │      │                   expiry time, curl might then fail to access
+│                       │      │                   `http://example.com` until the
+│                       │      │                   (wrongly set) timeout expires. This bug can also expire the
+│                       │      │                   parent's entry
+│                       │      │                   *earlier*, thus making curl inadvertently switch back to
+│                       │      │                   insecure HTTP earlier
+│                       │      │                   than otherwise intended. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/2764830 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
+│                       │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2024-9143 
 │                       │      ├ PkgID           : libssl3@3.3.2-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.3.2-r0?arch=x86_64&distro=3.
@@ -170,7 +295,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
 │                       │      ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T12:53:04.627Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2024-21235 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.4_p7-r0?arch=x86_64
@@ -255,7 +380,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2024-21208 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2024-21208 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.4_p7-r0?arch=x86_64
@@ -338,7 +463,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2024-21210 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2024-21210 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.4_p7-r0?arch=x86_64
@@ -415,7 +540,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2024-21211 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-21211 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.4_p7-r0?arch=x86_64
@@ -469,7 +594,7 @@
 │                       │      │                         #AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:10.05Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.843Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2024-21217 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2024-21217 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.4_p7-r0?arch=x86_64
@@ -551,7 +676,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-21235 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
@@ -636,7 +761,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2024-21208 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2024-21208 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
@@ -719,7 +844,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-21210 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2024-21210 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
@@ -796,7 +921,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2024-21211 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2024-21211 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
@@ -850,7 +975,7 @@
 │                       │      │                         #AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:10.05Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.843Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2024-21217 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2024-21217 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
@@ -932,7 +1057,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
-│                       ╰ [12] ╭ VulnerabilityID : CVE-2024-9143 
+│                       ╰ [14] ╭ VulnerabilityID : CVE-2024-9143 
 │                              ├ PkgID           : openssl@3.3.2-r0 
 │                              ├ PkgName         : openssl 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.2-r0?arch=x86_64&distro=3.
