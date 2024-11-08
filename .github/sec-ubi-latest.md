@@ -115,6 +115,7 @@
 │                       │      │                  ├ amazon     : 1 
 │                       │      │                  ├ cbl-mariner: 4 
 │                       │      │                  ├ nvd        : 4 
+│                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -146,42 +147,44 @@
 │                       │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2024-8922.html 
 │                       │      │                  ├ [11]: https://gitlab.com/federicomenaquintero/bzip2/commit/
 │                       │      │                  │       74de1e2e6ffc9d51ef9824db71a8ffee5962cdbc 
-│                       │      │                  ├ [12]: https://lists.apache.org/thread.html/ra0adb9653c7de95
+│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2019-12900.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-8922.html 
+│                       │      │                  ├ [14]: https://lists.apache.org/thread.html/ra0adb9653c7de95
 │                       │      │                  │       39b93cc8434143b655f753b9f60580ff260becb2b%40%3Cusers.
 │                       │      │                  │       kafka.apache.org%3E 
-│                       │      │                  ├ [13]: https://lists.apache.org/thread.html/rce8cd8c30f60604
+│                       │      │                  ├ [15]: https://lists.apache.org/thread.html/rce8cd8c30f60604
 │                       │      │                  │       b580ea01bebda8a671a25c9a1629f409fc24e7774%40%3Cuser.f
 │                       │      │                  │       link.apache.org%3E 
-│                       │      │                  ├ [14]: https://lists.apache.org/thread.html/rda98305669476c4
+│                       │      │                  ├ [16]: https://lists.apache.org/thread.html/rda98305669476c4
 │                       │      │                  │       d90cc8527c4deda7e449019dd1fe9936b56671dd4%40%3Cuser.f
 │                       │      │                  │       link.apache.org%3E 
-│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2019/06/
+│                       │      │                  ├ [17]: https://lists.debian.org/debian-lts-announce/2019/06/
 │                       │      │                  │       msg00021.html 
-│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/2019/07/
+│                       │      │                  ├ [18]: https://lists.debian.org/debian-lts-announce/2019/07/
 │                       │      │                  │       msg00014.html 
-│                       │      │                  ├ [17]: https://lists.debian.org/debian-lts-announce/2019/10/
+│                       │      │                  ├ [19]: https://lists.debian.org/debian-lts-announce/2019/10/
 │                       │      │                  │       msg00012.html 
-│                       │      │                  ├ [18]: https://lists.debian.org/debian-lts-announce/2019/10/
+│                       │      │                  ├ [20]: https://lists.debian.org/debian-lts-announce/2019/10/
 │                       │      │                  │       msg00018.html 
-│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2019-12900 
-│                       │      │                  ├ [20]: https://seclists.org/bugtraq/2019/Aug/4 
-│                       │      │                  ├ [21]: https://seclists.org/bugtraq/2019/Jul/22 
-│                       │      │                  ├ [22]: https://security.FreeBSD.org/advisories/FreeBSD-SA-19
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2019-12900 
+│                       │      │                  ├ [22]: https://seclists.org/bugtraq/2019/Aug/4 
+│                       │      │                  ├ [23]: https://seclists.org/bugtraq/2019/Jul/22 
+│                       │      │                  ├ [24]: https://security.FreeBSD.org/advisories/FreeBSD-SA-19
 │                       │      │                  │       :18.bzip2.asc 
-│                       │      │                  ├ [23]: https://support.f5.com/csp/article/K68713584?utm_sour
+│                       │      │                  ├ [25]: https://support.f5.com/csp/article/K68713584?utm_sour
 │                       │      │                  │       ce=f5support&amp%3Butm_medium=RSS 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-4038-1 
-│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-4038-2 
-│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-4038-3 
-│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-4038-4 
-│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-4146-1 
-│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-4146-2 
-│                       │      │                  ├ [30]: https://usn.ubuntu.com/4038-1/ 
-│                       │      │                  ├ [31]: https://usn.ubuntu.com/4038-2/ 
-│                       │      │                  ├ [32]: https://usn.ubuntu.com/4146-1/ 
-│                       │      │                  ├ [33]: https://usn.ubuntu.com/4146-2/ 
-│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2019-12900 
-│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpuoct2020.html 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-4038-1 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-4038-2 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-4038-3 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-4038-4 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-4146-1 
+│                       │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-4146-2 
+│                       │      │                  ├ [32]: https://usn.ubuntu.com/4038-1/ 
+│                       │      │                  ├ [33]: https://usn.ubuntu.com/4038-2/ 
+│                       │      │                  ├ [34]: https://usn.ubuntu.com/4146-1/ 
+│                       │      │                  ├ [35]: https://usn.ubuntu.com/4146-2/ 
+│                       │      │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2019-12900 
+│                       │      │                  ╰ [37]: https://www.oracle.com/security-alerts/cpuoct2020.html 
 │                       │      ├ PublishedDate   : 2019-06-19T23:15:09.91Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:03:43.19Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2023-4504 
@@ -1816,7 +1819,7 @@
 │                       │      │                   xmlHTMLPrintFileContext in xmllint.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -3253,7 +3256,7 @@
 │                       │      │                  ├ [11]: https://github.com/openssl/openssl/security/advisorie
 │                       │      │                  │       s/GHSA-5qrj-vq78-58fj 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-6119.html 
-│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-6783.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-8935.html 
 │                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-6119 
 │                       │      │                  ├ [15]: https://openssl-library.org/news/secadv/20240903.txt 
 │                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6986-1 
@@ -3833,7 +3836,7 @@
 │                       │      │                  ├ [11]: https://github.com/openssl/openssl/security/advisorie
 │                       │      │                  │       s/GHSA-5qrj-vq78-58fj 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-6119.html 
-│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-6783.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-8935.html 
 │                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-6119 
 │                       │      │                  ├ [15]: https://openssl-library.org/news/secadv/20240903.txt 
 │                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6986-1 
