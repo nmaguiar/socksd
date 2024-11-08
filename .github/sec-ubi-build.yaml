@@ -105,6 +105,7 @@
       amazon: 1
       cbl-mariner: 4
       nvd: 4
+      oracle-oval: 1
       photon: 4
       redhat: 1
       ubuntu: 2
@@ -130,6 +131,8 @@
     - https://bugzilla.redhat.com/1724459
     - https://errata.almalinux.org/8/ALSA-2024-8922.html
     - https://gitlab.com/federicomenaquintero/bzip2/commit/74de1e2e6ffc9d51ef9824db71a8ffee5962cdbc
+    - https://linux.oracle.com/cve/CVE-2019-12900.html
+    - https://linux.oracle.com/errata/ELSA-2024-8922.html
     - https://lists.apache.org/thread.html/ra0adb9653c7de9539b93cc8434143b655f753b9f60580ff260becb2b%40%3Cusers.kafka.apache.org%3E
     - https://lists.apache.org/thread.html/rce8cd8c30f60604b580ea01bebda8a671a25c9a1629f409fc24e7774%40%3Cuser.flink.apache.org%3E
     - https://lists.apache.org/thread.html/rda98305669476c4d90cc8527c4deda7e449019dd1fe9936b56671dd4%40%3Cuser.flink.apache.org%3E
@@ -1121,7 +1124,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 3
+      cbl-mariner: 2
       photon: 2
       redhat: 1
     CVSS:
