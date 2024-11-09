@@ -1554,7 +1554,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 2
+      cbl-mariner: 3
       photon: 2
       redhat: 1
     CVSS:
@@ -2799,12 +2799,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6783
+    - https://access.redhat.com/errata/RHSA-2024:8935
     - https://access.redhat.com/security/cve/CVE-2024-6119
     - https://bugzilla.redhat.com/2306158
     - https://bugzilla.redhat.com/show_bug.cgi?id=2306158
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6119
-    - https://errata.almalinux.org/9/ALSA-2024-6783.html
+    - https://errata.almalinux.org/9/ALSA-2024-8935.html
     - https://errata.rockylinux.org/RLSA-2024:6783
     - https://github.com/openssl/openssl/commit/05f360d9e849a1b277db628f1f13083a7f8dd04f
     - https://github.com/openssl/openssl/commit/06d1dc3fa96a2ba5a3e22735a033012aadc9f0d6
@@ -3282,12 +3282,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6783
+    - https://access.redhat.com/errata/RHSA-2024:8935
     - https://access.redhat.com/security/cve/CVE-2024-6119
     - https://bugzilla.redhat.com/2306158
     - https://bugzilla.redhat.com/show_bug.cgi?id=2306158
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6119
-    - https://errata.almalinux.org/9/ALSA-2024-6783.html
+    - https://errata.almalinux.org/9/ALSA-2024-8935.html
     - https://errata.rockylinux.org/RLSA-2024:6783
     - https://github.com/openssl/openssl/commit/05f360d9e849a1b277db628f1f13083a7f8dd04f
     - https://github.com/openssl/openssl/commit/06d1dc3fa96a2ba5a3e22735a033012aadc9f0d6
@@ -3736,6 +3736,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
     LastModifiedDate: '2024-11-04T22:27:02.877Z'
+  - VulnerabilityID: CVE-2024-10963
+    PkgID: pam@1.5.1-19.el9.x86_64
+    PkgName: pam
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/pam@1.5.1-19.el9?arch=x86_64&distro=redhat-9.4
+      UID: 43ad07149873ea03
+    InstalledVersion: 1.5.1-19.el9
+    Status: affected
+    Layer:
+      Digest: sha256:d571ec6cf1c91588e4545236eee2dcd183f0b0c5eae988f3216d47b01169f8a2
+      DiffID: sha256:ffab84221a78a2806ecb0ff9828d8a0169a907b8a45efe0dad68f4f5eea697e3
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
+    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
+    Description: A vulnerability was found in pam_access due to the improper handling of tokens in access.conf, interpreted as hostnames. This flaw allows attackers to bypass access restrictions by spoofing hostnames, undermining configurations designed to limit access to specific TTYs or services. The flaw poses a risk in environments relying on these configurations for local access control.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
+    - https://www.cve.org/CVERecord?id=CVE-2024-10963
+    PublishedDate: '2024-11-07T16:15:17.15Z'
+    LastModifiedDate: '2024-11-08T07:15:06.5Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-5.el9.x86_64
     PkgName: pcre2
