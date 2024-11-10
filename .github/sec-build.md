@@ -43,13 +43,17 @@
                               │                    be vulnerable to a open redirect attack or to a SSRF attack
                               │                   if the URI 
                               │                   is used after passing validation checks. 
-                              ├ Severity        : LOW 
+                              ├ Severity        : MEDIUM 
                               ├ CweIDs           ─ [0]: CWE-1286 
-                              ├ VendorSeverity   ╭ ghsa  : 1 
+                              ├ VendorSeverity   ╭ ghsa  : 2 
+                              │                  ├ nvd   : 2 
                               │                  ╰ redhat: 1 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
                               │                  │        │           A:N 
                               │                  │        ╰ V3Score : 3.7 
+                              │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
+                              │                  │        │           A:N 
+                              │                  │        ╰ V3Score : 5.3 
                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
                               │                           │           A:N 
                               │                           ╰ V3Score : 3.7 
@@ -63,5 +67,5 @@
                               │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6763 
                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6763 
                               ├ PublishedDate   : 2024-10-14T16:15:04.163Z 
-                              ╰ LastModifiedDate: 2024-10-15T12:57:46.88Z 
+                              ╰ LastModifiedDate: 2024-11-08T21:15:57.677Z 
 ````
