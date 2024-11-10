@@ -529,7 +529,9 @@
 │                       │      │                   XML_StopParser can stop/suspend an unstarted parser. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
@@ -1292,7 +1294,7 @@
 │                       │      │                   xmlHTMLPrintFileContext in xmllint.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -3677,15 +3679,15 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-287 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 6.5 
+│                       │      │                           ╰ V3Score : 7.4 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-10963 
 │                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
-│                       │      ╰ LastModifiedDate: 2024-11-08T07:15:06.5Z 
+│                       │      ╰ LastModifiedDate: 2024-11-08T19:01:03.88Z 
 │                       ├ [65] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │      ├ PkgID           : pcre2@10.40-5.el9.x86_64 
 │                       │      ├ PkgName         : pcre2 
@@ -4101,7 +4103,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -4536,7 +4538,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -4971,7 +4973,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5466,13 +5468,17 @@
                               │                    be vulnerable to a open redirect attack or to a SSRF attack
                               │                   if the URI 
                               │                   is used after passing validation checks. 
-                              ├ Severity        : LOW 
+                              ├ Severity        : MEDIUM 
                               ├ CweIDs           ─ [0]: CWE-1286 
-                              ├ VendorSeverity   ╭ ghsa  : 1 
+                              ├ VendorSeverity   ╭ ghsa  : 2 
+                              │                  ├ nvd   : 2 
                               │                  ╰ redhat: 1 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
                               │                  │        │           A:N 
                               │                  │        ╰ V3Score : 3.7 
+                              │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
+                              │                  │        │           A:N 
+                              │                  │        ╰ V3Score : 5.3 
                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
                               │                           │           A:N 
                               │                           ╰ V3Score : 3.7 
@@ -5486,5 +5492,5 @@
                               │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6763 
                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6763 
                               ├ PublishedDate   : 2024-10-14T16:15:04.163Z 
-                              ╰ LastModifiedDate: 2024-10-15T12:57:46.88Z 
+                              ╰ LastModifiedDate: 2024-11-08T21:15:57.677Z 
 ````
