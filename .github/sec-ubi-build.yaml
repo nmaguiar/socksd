@@ -449,7 +449,7 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
-      azure: 3
+      azure: 2
       cbl-mariner: 3
       redhat: 2
     CVSS:
@@ -708,6 +708,7 @@
     - https://ubuntu.com/security/notices/USN-6811-1
     - https://ubuntu.com/security/notices/USN-6812-1
     - https://ubuntu.com/security/notices/USN-6813-1
+    - https://ubuntu.com/security/notices/USN-7096-1
     - https://www.cve.org/CVERecord?id=CVE-2024-21094
     - https://www.oracle.com/security-alerts/cpuapr2024.html
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
@@ -1126,7 +1127,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 3
+      cbl-mariner: 2
       photon: 2
       redhat: 1
     CVSS:
