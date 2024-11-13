@@ -108,6 +108,7 @@
       oracle-oval: 1
       photon: 4
       redhat: 1
+      rocky: 1
       ubuntu: 2
     CVSS:
       nvd:
@@ -129,7 +130,10 @@
     - https://access.redhat.com/security/cve/CVE-2019-12900
     - https://bugs.launchpad.net/ubuntu/+source/bzip2/+bug/1834494
     - https://bugzilla.redhat.com/1724459
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1724459
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12900
     - https://errata.almalinux.org/8/ALSA-2024-8922.html
+    - https://errata.rockylinux.org/RLSA-2024:8922
     - https://gitlab.com/federicomenaquintero/bzip2/commit/74de1e2e6ffc9d51ef9824db71a8ffee5962cdbc
     - https://linux.oracle.com/cve/CVE-2019-12900.html
     - https://linux.oracle.com/errata/ELSA-2024-8922.html
@@ -449,8 +453,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
-      azure: 2
-      cbl-mariner: 3
+      azure: 3
+      cbl-mariner: 2
       redhat: 2
     CVSS:
       redhat:
@@ -1127,7 +1131,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 2
+      cbl-mariner: 3
       photon: 2
       redhat: 1
     CVSS:
@@ -3163,7 +3167,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
-    Description: A vulnerability was found in pam_access due to the improper handling of tokens in access.conf, interpreted as hostnames. This flaw allows attackers to bypass access restrictions by spoofing hostnames, undermining configurations designed to limit access to specific TTYs or services. The flaw poses a risk in environments relying on these configurations for local access control.
+    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
     Severity: MEDIUM
     CweIDs:
     - CWE-287
@@ -3179,7 +3183,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
-    LastModifiedDate: '2024-11-08T19:01:03.88Z'
+    LastModifiedDate: '2024-11-11T18:15:14.487Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-5.el9.x86_64
     PkgName: pcre2
@@ -4257,6 +4261,7 @@
       ghsa: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 1
     CVSS:
       ghsa:
@@ -4269,7 +4274,10 @@
     - https://access.redhat.com/errata/RHSA-2024:6162
     - https://access.redhat.com/security/cve/CVE-2024-37891
     - https://bugzilla.redhat.com/2292788
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292788
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-37891
     - https://errata.almalinux.org/9/ALSA-2024-6162.html
+    - https://errata.rockylinux.org/RLSA-2024:8843
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/40b6d1605814dd1db0a46e202d6e56f2e4c9a468
     - https://github.com/urllib3/urllib3/commit/accff72ecc2f6cf5a76d9570198a93ac7c90270e
