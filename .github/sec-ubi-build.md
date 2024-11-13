@@ -118,6 +118,7 @@
 │                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:P/I:P/A:P 
 │                       │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
@@ -144,47 +145,51 @@
 │                       │      │                  ├ [8] : https://bugs.launchpad.net/ubuntu/+source/bzip2/+bug/
 │                       │      │                  │       1834494 
 │                       │      │                  ├ [9] : https://bugzilla.redhat.com/1724459 
-│                       │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2024-8922.html 
-│                       │      │                  ├ [11]: https://gitlab.com/federicomenaquintero/bzip2/commit/
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=1724459 
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       19-12900 
+│                       │      │                  ├ [12]: https://errata.almalinux.org/8/ALSA-2024-8922.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:8922 
+│                       │      │                  ├ [14]: https://gitlab.com/federicomenaquintero/bzip2/commit/
 │                       │      │                  │       74de1e2e6ffc9d51ef9824db71a8ffee5962cdbc 
-│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2019-12900.html 
-│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-8922.html 
-│                       │      │                  ├ [14]: https://lists.apache.org/thread.html/ra0adb9653c7de95
+│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2019-12900.html 
+│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-8922.html 
+│                       │      │                  ├ [17]: https://lists.apache.org/thread.html/ra0adb9653c7de95
 │                       │      │                  │       39b93cc8434143b655f753b9f60580ff260becb2b%40%3Cusers.
 │                       │      │                  │       kafka.apache.org%3E 
-│                       │      │                  ├ [15]: https://lists.apache.org/thread.html/rce8cd8c30f60604
+│                       │      │                  ├ [18]: https://lists.apache.org/thread.html/rce8cd8c30f60604
 │                       │      │                  │       b580ea01bebda8a671a25c9a1629f409fc24e7774%40%3Cuser.f
 │                       │      │                  │       link.apache.org%3E 
-│                       │      │                  ├ [16]: https://lists.apache.org/thread.html/rda98305669476c4
+│                       │      │                  ├ [19]: https://lists.apache.org/thread.html/rda98305669476c4
 │                       │      │                  │       d90cc8527c4deda7e449019dd1fe9936b56671dd4%40%3Cuser.f
 │                       │      │                  │       link.apache.org%3E 
-│                       │      │                  ├ [17]: https://lists.debian.org/debian-lts-announce/2019/06/
+│                       │      │                  ├ [20]: https://lists.debian.org/debian-lts-announce/2019/06/
 │                       │      │                  │       msg00021.html 
-│                       │      │                  ├ [18]: https://lists.debian.org/debian-lts-announce/2019/07/
+│                       │      │                  ├ [21]: https://lists.debian.org/debian-lts-announce/2019/07/
 │                       │      │                  │       msg00014.html 
-│                       │      │                  ├ [19]: https://lists.debian.org/debian-lts-announce/2019/10/
+│                       │      │                  ├ [22]: https://lists.debian.org/debian-lts-announce/2019/10/
 │                       │      │                  │       msg00012.html 
-│                       │      │                  ├ [20]: https://lists.debian.org/debian-lts-announce/2019/10/
+│                       │      │                  ├ [23]: https://lists.debian.org/debian-lts-announce/2019/10/
 │                       │      │                  │       msg00018.html 
-│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2019-12900 
-│                       │      │                  ├ [22]: https://seclists.org/bugtraq/2019/Aug/4 
-│                       │      │                  ├ [23]: https://seclists.org/bugtraq/2019/Jul/22 
-│                       │      │                  ├ [24]: https://security.FreeBSD.org/advisories/FreeBSD-SA-19
+│                       │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2019-12900 
+│                       │      │                  ├ [25]: https://seclists.org/bugtraq/2019/Aug/4 
+│                       │      │                  ├ [26]: https://seclists.org/bugtraq/2019/Jul/22 
+│                       │      │                  ├ [27]: https://security.FreeBSD.org/advisories/FreeBSD-SA-19
 │                       │      │                  │       :18.bzip2.asc 
-│                       │      │                  ├ [25]: https://support.f5.com/csp/article/K68713584?utm_sour
+│                       │      │                  ├ [28]: https://support.f5.com/csp/article/K68713584?utm_sour
 │                       │      │                  │       ce=f5support&amp%3Butm_medium=RSS 
-│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-4038-1 
-│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-4038-2 
-│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-4038-3 
-│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-4038-4 
-│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-4146-1 
-│                       │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-4146-2 
-│                       │      │                  ├ [32]: https://usn.ubuntu.com/4038-1/ 
-│                       │      │                  ├ [33]: https://usn.ubuntu.com/4038-2/ 
-│                       │      │                  ├ [34]: https://usn.ubuntu.com/4146-1/ 
-│                       │      │                  ├ [35]: https://usn.ubuntu.com/4146-2/ 
-│                       │      │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2019-12900 
-│                       │      │                  ╰ [37]: https://www.oracle.com/security-alerts/cpuoct2020.html 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-4038-1 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-4038-2 
+│                       │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-4038-3 
+│                       │      │                  ├ [32]: https://ubuntu.com/security/notices/USN-4038-4 
+│                       │      │                  ├ [33]: https://ubuntu.com/security/notices/USN-4146-1 
+│                       │      │                  ├ [34]: https://ubuntu.com/security/notices/USN-4146-2 
+│                       │      │                  ├ [35]: https://usn.ubuntu.com/4038-1/ 
+│                       │      │                  ├ [36]: https://usn.ubuntu.com/4038-2/ 
+│                       │      │                  ├ [37]: https://usn.ubuntu.com/4146-1/ 
+│                       │      │                  ├ [38]: https://usn.ubuntu.com/4146-2/ 
+│                       │      │                  ├ [39]: https://www.cve.org/CVERecord?id=CVE-2019-12900 
+│                       │      │                  ╰ [40]: https://www.oracle.com/security-alerts/cpuoct2020.html 
 │                       │      ├ PublishedDate   : 2019-06-19T23:15:09.91Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:03:43.19Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2023-4504 
@@ -529,8 +534,8 @@
 │                       │      │                   XML_StopParser can stop/suspend an unstarted parser. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -1295,7 +1300,7 @@
 │                       │      │                   xmlHTMLPrintFileContext in xmllint.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -3670,13 +3675,13 @@
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                       │      ├ Title           : pam: Improper Hostname Interpretation in pam_access Leads to
 │                       │      │                    Access Control Bypass 
-│                       │      ├ Description     : A vulnerability was found in pam_access due to the improper
-│                       │      │                   handling of tokens in access.conf, interpreted as hostnames.
-│                       │      │                    This flaw allows attackers to bypass access restrictions by
-│                       │      │                    spoofing hostnames, undermining configurations designed to
-│                       │      │                   limit access to specific TTYs or services. The flaw poses a
-│                       │      │                   risk in environments relying on these configurations for
-│                       │      │                   local access control. 
+│                       │      ├ Description     : A flaw was found in pam_access, where certain rules in its
+│                       │      │                   configuration file are mistakenly treated as hostnames. This
+│                       │      │                    vulnerability allows attackers to trick the system by
+│                       │      │                   pretending to be a trusted hostname, gaining unauthorized
+│                       │      │                   access. This issue poses a risk for systems that rely on
+│                       │      │                   this feature to control who can access certain services or
+│                       │      │                   terminals. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-287 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
@@ -3688,7 +3693,7 @@
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
-│                       │      ╰ LastModifiedDate: 2024-11-08T19:01:03.88Z 
+│                       │      ╰ LastModifiedDate: 2024-11-11T18:15:14.487Z 
 │                       ├ [65] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │      ├ PkgID           : pcre2@10.40-5.el9.x86_64 
 │                       │      ├ PkgName         : pcre2 
@@ -5136,6 +5141,7 @@
 │                       │      │                  ├ ghsa       : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N
 │                       │      │                  │        │           /A:N 
@@ -5146,20 +5152,24 @@
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:6162 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-37891 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2292788 
-│                       │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2024-6162.html 
-│                       │      │                  ├ [4] : https://github.com/urllib3/urllib3 
-│                       │      │                  ├ [5] : https://github.com/urllib3/urllib3/commit/40b6d160581
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2292788 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-37891 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-6162.html 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2024:8843 
+│                       │      │                  ├ [7] : https://github.com/urllib3/urllib3 
+│                       │      │                  ├ [8] : https://github.com/urllib3/urllib3/commit/40b6d160581
 │                       │      │                  │       4dd1db0a46e202d6e56f2e4c9a468 
-│                       │      │                  ├ [6] : https://github.com/urllib3/urllib3/commit/accff72ecc2
+│                       │      │                  ├ [9] : https://github.com/urllib3/urllib3/commit/accff72ecc2
 │                       │      │                  │       f6cf5a76d9570198a93ac7c90270e 
-│                       │      │                  ├ [7] : https://github.com/urllib3/urllib3/security/advisorie
+│                       │      │                  ├ [10]: https://github.com/urllib3/urllib3/security/advisorie
 │                       │      │                  │       s/GHSA-34jh-p97f-mpxf 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-37891.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8843.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-37891 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7084-1 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7084-2 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-37891 
+│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-37891.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-8843.html 
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-37891 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7084-1 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7084-2 
+│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-37891 
 │                       │      ├ PublishedDate   : 2024-06-17T20:15:13.45Z 
 │                       │      ╰ LastModifiedDate: 2024-06-20T12:44:22.977Z 
 │                       ├ [83] ╭ VulnerabilityID : CVE-2021-3572 
