@@ -766,6 +766,7 @@
 │                       │       │                   GDBus-based client behaving incorrectly, with an
 │                       │       │                   application-dependent impact. 
 │                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-290 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 1 
@@ -810,7 +811,7 @@
 │                       │       │                  ╰ [20]: https://www.openwall.com/lists/oss-security/2024/05/
 │                       │       │                          07/5 
 │                       │       ├ PublishedDate   : 2024-05-07T18:15:08.35Z 
-│                       │       ╰ LastModifiedDate: 2024-06-10T18:15:34.863Z 
+│                       │       ╰ LastModifiedDate: 2024-11-15T18:35:32.76Z 
 │                       ├ [13]  ╭ VulnerabilityID : CVE-2024-52533 
 │                       │       ├ PkgID           : glib2@2.68.4-14.el9.x86_64 
 │                       │       ├ PkgName         : glib2 
