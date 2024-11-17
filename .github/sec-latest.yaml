@@ -60,7 +60,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: When curl is asked to use HSTS, the expiry time for a subdomain might  ...
+    Title: 'curl: HSTS subdomain overwrites parent cache entry'
     Description: |-
       When curl is asked to use HSTS, the expiry time for a subdomain might
       overwrite a parent domain's cache entry, making it end sooner or later than
@@ -89,11 +89,18 @@
     Severity: LOW
     VendorSeverity:
       photon: 2
+      redhat: 1
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 2.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-9681
     - https://curl.se/docs/CVE-2024-9681.html
     - https://curl.se/docs/CVE-2024-9681.json
     - https://hackerone.com/reports/2764830
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-9681
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-11-06T18:17:17.287Z'
@@ -224,7 +231,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: When curl is asked to use HSTS, the expiry time for a subdomain might  ...
+    Title: 'curl: HSTS subdomain overwrites parent cache entry'
     Description: |-
       When curl is asked to use HSTS, the expiry time for a subdomain might
       overwrite a parent domain's cache entry, making it end sooner or later than
@@ -253,11 +260,18 @@
     Severity: LOW
     VendorSeverity:
       photon: 2
+      redhat: 1
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 2.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-9681
     - https://curl.se/docs/CVE-2024-9681.html
     - https://curl.se/docs/CVE-2024-9681.json
     - https://hackerone.com/reports/2764830
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-9681
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-11-06T18:17:17.287Z'
