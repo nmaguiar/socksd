@@ -728,6 +728,7 @@
     CweIDs:
     - CWE-120
     VendorSeverity:
+      cbl-mariner: 4
       redhat: 2
       ubuntu: 2
     CVSS:
