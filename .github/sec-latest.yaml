@@ -101,6 +101,7 @@
     - https://curl.se/docs/CVE-2024-9681.json
     - https://hackerone.com/reports/2764830
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9681
+    - https://ubuntu.com/security/notices/USN-7104-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-11-06T18:17:17.287Z'
@@ -272,6 +273,7 @@
     - https://curl.se/docs/CVE-2024-9681.json
     - https://hackerone.com/reports/2764830
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9681
+    - https://ubuntu.com/security/notices/USN-7104-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-11-06T18:17:17.287Z'
