@@ -109,7 +109,8 @@
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
 │                       │      │                  ├ [3]: https://hackerone.com/reports/2764830 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2024-9143 
@@ -305,7 +306,8 @@
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
 │                       │      │                  ├ [3]: https://hackerone.com/reports/2764830 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2024-9143 
