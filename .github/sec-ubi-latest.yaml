@@ -280,7 +280,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
-      alma: 3
+      alma: 1
       amazon: 3
       oracle-oval: 3
       redhat: 1
@@ -291,10 +291,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
         V3Score: 7.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:7346
+    - https://access.redhat.com/errata/RHSA-2024:9470
     - https://access.redhat.com/security/cve/CVE-2024-47175
-    - https://bugzilla.redhat.com/2314252
-    - https://bugzilla.redhat.com/2314253
     - https://bugzilla.redhat.com/2314256
     - https://bugzilla.redhat.com/show_bug.cgi?id=2314252
     - https://bugzilla.redhat.com/show_bug.cgi?id=2314253
@@ -302,7 +300,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47076
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47175
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47176
-    - https://errata.almalinux.org/9/ALSA-2024-7346.html
+    - https://errata.almalinux.org/9/ALSA-2024-9470.html
     - https://errata.rockylinux.org/RLSA-2024:7346
     - https://github.com/OpenPrinting/cups-browsed/security/advisories/GHSA-rj88-6mr5-rcw8
     - https://github.com/OpenPrinting/cups-filters/security/advisories/GHSA-p9rh-jxmq-gq47
@@ -599,10 +597,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:9502
+    - https://access.redhat.com/errata/RHSA-2024:9541
     - https://access.redhat.com/security/cve/CVE-2024-50602
     - https://bugzilla.redhat.com/2321987
-    - https://errata.almalinux.org/8/ALSA-2024-9502.html
+    - https://errata.almalinux.org/9/ALSA-2024-9541.html
     - https://github.com/libexpat/libexpat/pull/915
     - https://linux.oracle.com/cve/CVE-2024-50602.html
     - https://linux.oracle.com/errata/ELSA-2024-9502.html
@@ -686,13 +684,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N
         V3Score: 3.8
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6464
+    - https://access.redhat.com/errata/RHSA-2024:9442
     - https://access.redhat.com/security/cve/CVE-2024-34397
     - https://bugzilla.redhat.com/2279632
     - https://bugzilla.redhat.com/show_bug.cgi?id=2279632
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34397
     - https://discourse.gnome.org/t/security-fixes-for-signal-handling-in-gdbus-in-glib/20882/1
-    - https://errata.almalinux.org/9/ALSA-2024-6464.html
+    - https://errata.almalinux.org/9/ALSA-2024-9442.html
     - https://errata.rockylinux.org/RLSA-2024:6464
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3268
     - https://linux.oracle.com/cve/CVE-2024-34397.html
@@ -741,6 +739,7 @@
     - https://gitlab.gnome.org/GNOME/glib/-/releases/2.82.1
     - https://gitlab.gnome.org/Teams/Releng/security/-/wikis/home
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52533
+    - https://ubuntu.com/security/notices/USN-7114-1
     - https://www.cve.org/CVERecord?id=CVE-2024-52533
     PublishedDate: '2024-11-11T23:15:05.967Z'
     LastModifiedDate: '2024-11-12T16:35:24.297Z'
@@ -1246,14 +1245,14 @@
         V3Score: 9
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/09/4
-    - https://access.redhat.com/errata/RHSA-2024:4935
+    - https://access.redhat.com/errata/RHSA-2024:9474
     - https://access.redhat.com/security/cve/CVE-2024-3596
     - https://bugzilla.redhat.com/2263240
     - https://bugzilla.redhat.com/show_bug.cgi?id=2263240
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-3596
     - https://datatracker.ietf.org/doc/draft-ietf-radext-deprecating-radius/
     - https://datatracker.ietf.org/doc/html/rfc2865
-    - https://errata.almalinux.org/9/ALSA-2024-4935.html
+    - https://errata.almalinux.org/9/ALSA-2024-9474.html
     - https://errata.rockylinux.org/RLSA-2024:4935
     - https://kb.cert.org/vince/comm/case/1515/
     - https://linux.oracle.com/cve/CVE-2024-3596.html
@@ -1288,6 +1287,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 3
       photon: 2
@@ -1298,7 +1298,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26462
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
@@ -1326,7 +1331,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: LOW
     VendorSeverity:
-      alma: 1
+      alma: 2
       amazon: 2
       azure: 3
       cbl-mariner: 3
@@ -1340,15 +1345,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:3268
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26458
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
-    - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://linux.oracle.com/cve/CVE-2024-26458.html
@@ -1381,7 +1387,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
-      alma: 1
+      alma: 2
       amazon: 2
       azure: 3
       cbl-mariner: 3
@@ -1395,15 +1401,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:3268
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26461
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
-    - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://linux.oracle.com/cve/CVE-2024-26461.html
@@ -1572,6 +1579,7 @@
     CweIDs:
     - CWE-208
     VendorSeverity:
+      alma: 2
       amazon: 2
       redhat: 2
       ubuntu: 2
@@ -1582,8 +1590,10 @@
     References:
     - https://access.redhat.com/errata/RHSA-2024:9404
     - https://access.redhat.com/security/cve/CVE-2024-2236
+    - https://bugzilla.redhat.com/2245218
     - https://bugzilla.redhat.com/show_bug.cgi?id=2245218
     - https://dev.gnupg.org/T7136
+    - https://errata.almalinux.org/9/ALSA-2024-9404.html
     - https://github.com/tomato42/marvin-toolkit/tree/master/example/libgcrypt
     - https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt-mirror/-/merge_requests/17
     - https://lists.gnupg.org/pipermail/gcrypt-devel/2024-March/005607.html
@@ -4043,6 +4053,7 @@
     - CWE-918
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -4109,7 +4120,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:8447
+    - https://access.redhat.com/errata/RHSA-2024:9468
     - https://access.redhat.com/security/cve/CVE-2024-6232
     - https://bugzilla.redhat.com/2309426
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
@@ -4118,7 +4129,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
-    - https://errata.almalinux.org/9/ALSA-2024-8447.html
+    - https://errata.almalinux.org/9/ALSA-2024-9468.html
     - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
@@ -4184,10 +4195,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6962
+    - https://access.redhat.com/errata/RHSA-2024:9371
     - https://access.redhat.com/security/cve/CVE-2024-8088
-    - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2307370
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
@@ -4195,7 +4204,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8088
-    - https://errata.almalinux.org/8/ALSA-2024-6962.html
+    - https://errata.almalinux.org/9/ALSA-2024-9371.html
     - https://errata.rockylinux.org/RLSA-2024:6962
     - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
     - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
@@ -4239,6 +4248,7 @@
     - CWE-428
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
@@ -4252,6 +4262,7 @@
     - https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483
     - https://github.com/python/cpython/issues/124651
     - https://github.com/python/cpython/pull/124712
+    - https://github.com/python/cpython/pull/124712/commits/b6a3bbd155c558cdcda482629073e492437db3d0
     - https://mail.python.org/archives/list/security-announce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
@@ -4285,7 +4296,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4483,6 +4494,7 @@
     - CWE-918
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -4549,7 +4561,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:8447
+    - https://access.redhat.com/errata/RHSA-2024:9468
     - https://access.redhat.com/security/cve/CVE-2024-6232
     - https://bugzilla.redhat.com/2309426
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
@@ -4558,7 +4570,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
-    - https://errata.almalinux.org/9/ALSA-2024-8447.html
+    - https://errata.almalinux.org/9/ALSA-2024-9468.html
     - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
@@ -4624,10 +4636,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6962
+    - https://access.redhat.com/errata/RHSA-2024:9371
     - https://access.redhat.com/security/cve/CVE-2024-8088
-    - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2307370
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
@@ -4635,7 +4645,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8088
-    - https://errata.almalinux.org/8/ALSA-2024-6962.html
+    - https://errata.almalinux.org/9/ALSA-2024-9371.html
     - https://errata.rockylinux.org/RLSA-2024:6962
     - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
     - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
@@ -4679,6 +4689,7 @@
     - CWE-428
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
@@ -4692,6 +4703,7 @@
     - https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483
     - https://github.com/python/cpython/issues/124651
     - https://github.com/python/cpython/pull/124712
+    - https://github.com/python/cpython/pull/124712/commits/b6a3bbd155c558cdcda482629073e492437db3d0
     - https://mail.python.org/archives/list/security-announce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
@@ -4725,7 +4737,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4923,6 +4935,7 @@
     - CWE-918
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -4989,7 +5002,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:8447
+    - https://access.redhat.com/errata/RHSA-2024:9468
     - https://access.redhat.com/security/cve/CVE-2024-6232
     - https://bugzilla.redhat.com/2309426
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
@@ -4998,7 +5011,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
-    - https://errata.almalinux.org/9/ALSA-2024-8447.html
+    - https://errata.almalinux.org/9/ALSA-2024-9468.html
     - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
@@ -5064,10 +5077,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6962
+    - https://access.redhat.com/errata/RHSA-2024:9371
     - https://access.redhat.com/security/cve/CVE-2024-8088
-    - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2307370
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
@@ -5075,7 +5086,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8088
-    - https://errata.almalinux.org/8/ALSA-2024-6962.html
+    - https://errata.almalinux.org/9/ALSA-2024-9371.html
     - https://errata.rockylinux.org/RLSA-2024:6962
     - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
     - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
@@ -5119,6 +5130,7 @@
     - CWE-428
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
@@ -5132,6 +5144,7 @@
     - https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483
     - https://github.com/python/cpython/issues/124651
     - https://github.com/python/cpython/pull/124712
+    - https://github.com/python/cpython/pull/124712/commits/b6a3bbd155c558cdcda482629073e492437db3d0
     - https://mail.python.org/archives/list/security-announce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
@@ -5165,7 +5178,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
