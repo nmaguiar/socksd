@@ -466,10 +466,10 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9502 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9541 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-50602 
 │                       │      │                  ├ [2]: https://bugzilla.redhat.com/2321987 
-│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2024-9502.html 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2024-9541.html 
 │                       │      │                  ├ [4]: https://github.com/libexpat/libexpat/pull/915 
 │                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2024-50602.html 
 │                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2024-9502.html 
@@ -556,7 +556,8 @@
 │                       │      │                  ├ [3]: https://gitlab.gnome.org/Teams/Releng/security/-/wikis
 │                       │      │                  │      /home 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-52533 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7114-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
 │                       │      ├ PublishedDate   : 2024-11-11T23:15:05.967Z 
 │                       │      ╰ LastModifiedDate: 2024-11-12T16:35:24.297Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2023-32636 
@@ -3437,7 +3438,8 @@
 │                       │      │                    is processed by more than one URL parser. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-918 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -3482,7 +3484,8 @@
 │                       │      │                   are not affected. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-428 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
@@ -3499,11 +3502,13 @@
 │                       │      │                  │       5a87eed2276af7a1f2f66e2b6483 
 │                       │      │                  ├ [6] : https://github.com/python/cpython/issues/124651 
 │                       │      │                  ├ [7] : https://github.com/python/cpython/pull/124712 
-│                       │      │                  ├ [8] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/124712/commits
+│                       │      │                  │       /b6a3bbd155c558cdcda482629073e492437db3d0 
+│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL
 │                       │      │                  │       / 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                       │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
 │                       │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
 │                       ├ [61] ╭ VulnerabilityID : CVE-2024-0397 
@@ -3539,7 +3544,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -3817,7 +3822,8 @@
 │                       │      │                    is processed by more than one URL parser. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-918 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -3862,7 +3868,8 @@
 │                       │      │                   are not affected. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-428 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
@@ -3879,11 +3886,13 @@
 │                       │      │                  │       5a87eed2276af7a1f2f66e2b6483 
 │                       │      │                  ├ [6] : https://github.com/python/cpython/issues/124651 
 │                       │      │                  ├ [7] : https://github.com/python/cpython/pull/124712 
-│                       │      │                  ├ [8] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/124712/commits
+│                       │      │                  │       /b6a3bbd155c558cdcda482629073e492437db3d0 
+│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL
 │                       │      │                  │       / 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                       │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
 │                       │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
 │                       ├ [66] ╭ VulnerabilityID : CVE-2024-0397 
@@ -3919,7 +3928,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -4197,7 +4206,8 @@
 │                       │      │                    is processed by more than one URL parser. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-918 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -4242,7 +4252,8 @@
 │                       │      │                   are not affected. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-428 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
@@ -4259,11 +4270,13 @@
 │                       │      │                  │       5a87eed2276af7a1f2f66e2b6483 
 │                       │      │                  ├ [6] : https://github.com/python/cpython/issues/124651 
 │                       │      │                  ├ [7] : https://github.com/python/cpython/pull/124712 
-│                       │      │                  ├ [8] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/124712/commits
+│                       │      │                  │       /b6a3bbd155c558cdcda482629073e492437db3d0 
+│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL
 │                       │      │                  │       / 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                       │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
 │                       │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
 │                       ├ [71] ╭ VulnerabilityID : CVE-2024-0397 
@@ -4299,7 +4312,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
