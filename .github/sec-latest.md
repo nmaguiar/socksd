@@ -470,7 +470,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21235.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -557,7 +557,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21208.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -638,7 +638,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21210.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -778,7 +778,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21217.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -867,7 +867,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21235.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -954,7 +954,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21208.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -1035,7 +1035,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21210.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -1175,7 +1175,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21217.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
