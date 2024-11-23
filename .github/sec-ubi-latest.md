@@ -2265,12 +2265,11 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45918 
 │                       │       ├ Title           : ncurses: NULL pointer dereference in tgetstr in
 │                       │       │                   tinfo/lib_termcap.c 
-│                       │       ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
-│                       │       │                   tgetstr in tinfo/lib_termcap.c. NOTE: Multiple third
-│                       │       │                   parties have disputed this indicating upstream does not
-│                       │       │                   regard it as a security issue. 
+│                       │       ├ Description     : Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.
+│                       │       │                   ConsultIDs: none. Reason: This candidate was withdrawn by
+│                       │       │                   its CNA. Further investigation showed that it was not a
+│                       │       │                   security issue. Notes: none. 
 │                       │       ├ Severity        : LOW 
-│                       │       ├ CweIDs           ─ [0]: CWE-476 
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
@@ -2278,15 +2277,14 @@
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-45918 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2300290#c1 
-│                       │       │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
+│                       │       │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
 │                       │       │                  │      6/msg00005.html 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-45918 
-│                       │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-20240315-00
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-45918 
+│                       │       │                  ├ [3]: https://security.netapp.com/advisory/ntap-20240315-00
 │                       │       │                  │      06/ 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │       ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
-│                       │       ╰ LastModifiedDate: 2024-10-31T18:35:03.08Z 
+│                       │       ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
 │                       ├ [37]  ╭ VulnerabilityID : CVE-2023-50495 
 │                       │       ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │       ├ PkgName         : ncurses-base 
@@ -2398,12 +2396,11 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45918 
 │                       │       ├ Title           : ncurses: NULL pointer dereference in tgetstr in
 │                       │       │                   tinfo/lib_termcap.c 
-│                       │       ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
-│                       │       │                   tgetstr in tinfo/lib_termcap.c. NOTE: Multiple third
-│                       │       │                   parties have disputed this indicating upstream does not
-│                       │       │                   regard it as a security issue. 
+│                       │       ├ Description     : Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.
+│                       │       │                   ConsultIDs: none. Reason: This candidate was withdrawn by
+│                       │       │                   its CNA. Further investigation showed that it was not a
+│                       │       │                   security issue. Notes: none. 
 │                       │       ├ Severity        : LOW 
-│                       │       ├ CweIDs           ─ [0]: CWE-476 
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
@@ -2411,15 +2408,14 @@
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-45918 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2300290#c1 
-│                       │       │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
+│                       │       │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
 │                       │       │                  │      6/msg00005.html 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-45918 
-│                       │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-20240315-00
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-45918 
+│                       │       │                  ├ [3]: https://security.netapp.com/advisory/ntap-20240315-00
 │                       │       │                  │      06/ 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │       ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
-│                       │       ╰ LastModifiedDate: 2024-10-31T18:35:03.08Z 
+│                       │       ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
 │                       ├ [40]  ╭ VulnerabilityID : CVE-2023-50495 
 │                       │       ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │       ├ PkgName         : ncurses-libs 
