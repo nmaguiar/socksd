@@ -705,7 +705,93 @@
 │                       │      │                         #AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:10.05Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.843Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2024-21235 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2024-21217 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.4_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.4_p7-r0?arch=x86_64
+│                       │      │                  │       &distro=3.20.2 
+│                       │      │                  ╰ UID : 46db80094686a36 
+│                       │      ├ InstalledVersion: 21.0.4_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.5_p11-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:30fda29308c80e4b7c23c583e7bfff86ace198b2ec93
+│                       │      │                  │         c7680b0e3656aa3f9ab1 
+│                       │      │                  ╰ DiffID: sha256:bba6efe865a5b0fec9f8f20d370bdde67b585006cc8e
+│                       │      │                            49cdf4eb30b60360ed6c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21217 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : JDK: Unbounded allocation leads to out-of-memory error
+│                       │      │                   (8331446) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Serialization).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24,
+│                       │      │                   17.0.12, 21.0.4, 23; Oracle GraalVM for JDK: 17.0.12,
+│                       │      │                   21.0.4, 23; Oracle GraalVM Enterprise Edition: 20.3.15 and 
+│                       │      │                   21.3.11. Difficult to exploit vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition.  Successful attacks
+│                       │      │                   of this vulnerability can result in unauthorized ability to
+│                       │      │                   cause a partial denial of service (partial DOS) of Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition. Note: This vulnerability can be exploited by using
+│                       │      │                   APIs in the specified Component, e.g., through a web service
+│                       │      │                    which supplies data to the APIs. This vulnerability also
+│                       │      │                   applies to Java deployments, typically in clients running
+│                       │      │                   sandboxed Java Web Start applications or sandboxed Java
+│                       │      │                   applets, that load and run untrusted code (e.g., code that
+│                       │      │                   comes from the internet) and rely on the Java sandbox for
+│                       │      │                   security. CVSS 3.1 Base Score 3.7 (Availability impacts). 
+│                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8127 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21217 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2251025 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2318524 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2251025 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2318524 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2318526 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2318530 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2318534 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       23-48161 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21208 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21210 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21217 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21235 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21217.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21217 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7096-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
+│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
+│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
+│                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
@@ -794,7 +880,7 @@
 │                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2024-21208 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2024-21208 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
@@ -881,7 +967,7 @@
 │                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2024-21210 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2024-21210 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
@@ -962,7 +1048,7 @@
 │                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2024-21211 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2024-21211 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
@@ -1016,7 +1102,93 @@
 │                       │      │                         #AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:10.05Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.843Z 
-│                       ╰ [14] ╭ VulnerabilityID : CVE-2024-9143 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2024-21217 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
+│                       │      │                  │       ch=x86_64&distro=3.20.2 
+│                       │      │                  ╰ UID : b59ac143cd5df538 
+│                       │      ├ InstalledVersion: 21.0.4_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.5_p11-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:30fda29308c80e4b7c23c583e7bfff86ace198b2ec93
+│                       │      │                  │         c7680b0e3656aa3f9ab1 
+│                       │      │                  ╰ DiffID: sha256:bba6efe865a5b0fec9f8f20d370bdde67b585006cc8e
+│                       │      │                            49cdf4eb30b60360ed6c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21217 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : JDK: Unbounded allocation leads to out-of-memory error
+│                       │      │                   (8331446) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Serialization).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24,
+│                       │      │                   17.0.12, 21.0.4, 23; Oracle GraalVM for JDK: 17.0.12,
+│                       │      │                   21.0.4, 23; Oracle GraalVM Enterprise Edition: 20.3.15 and 
+│                       │      │                   21.3.11. Difficult to exploit vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition.  Successful attacks
+│                       │      │                   of this vulnerability can result in unauthorized ability to
+│                       │      │                   cause a partial denial of service (partial DOS) of Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition. Note: This vulnerability can be exploited by using
+│                       │      │                   APIs in the specified Component, e.g., through a web service
+│                       │      │                    which supplies data to the APIs. This vulnerability also
+│                       │      │                   applies to Java deployments, typically in clients running
+│                       │      │                   sandboxed Java Web Start applications or sandboxed Java
+│                       │      │                   applets, that load and run untrusted code (e.g., code that
+│                       │      │                   comes from the internet) and rely on the Java sandbox for
+│                       │      │                   security. CVSS 3.1 Base Score 3.7 (Availability impacts). 
+│                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8127 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21217 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2251025 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2318524 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2251025 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2318524 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2318526 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2318530 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2318534 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       23-48161 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21208 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21210 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21217 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21235 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21217.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21217 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7096-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
+│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
+│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
+│                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
+│                       ╰ [16] ╭ VulnerabilityID : CVE-2024-9143 
 │                              ├ PkgID           : openssl@3.3.2-r0 
 │                              ├ PkgName         : openssl 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.2-r0?arch=x86_64&distro=3.
