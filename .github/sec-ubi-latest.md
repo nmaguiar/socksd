@@ -831,7 +831,8 @@
 │                       │       │                   character. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-120 
-│                       │       ├ VendorSeverity   ╭ cbl-mariner: 4 
+│                       │       ├ VendorSeverity   ╭ azure      : 4 
+│                       │       │                  ├ cbl-mariner: 4 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
@@ -6666,10 +6667,11 @@
 │                               │                   a PAX archive can lead to an application crash in xheader.c
 │                               │                   . 
 │                               ├ Severity        : LOW 
-│                               ├ VendorSeverity   ╭ amazon: 1 
-│                               │                  ├ photon: 1 
-│                               │                  ├ redhat: 1 
-│                               │                  ╰ ubuntu: 2 
+│                               ├ VendorSeverity   ╭ amazon     : 1 
+│                               │                  ├ cbl-mariner: 2 
+│                               │                  ├ photon     : 1 
+│                               │                  ├ redhat     : 1 
+│                               │                  ╰ ubuntu     : 2 
 │                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
 │                               │                           │           N/A:L 
 │                               │                           ╰ V3Score : 3.3 
