@@ -726,6 +726,7 @@
     CweIDs:
     - CWE-120
     VendorSeverity:
+      azure: 4
       cbl-mariner: 4
       redhat: 2
       ubuntu: 2
@@ -5576,6 +5577,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 1
+      cbl-mariner: 2
       photon: 1
       redhat: 1
       ubuntu: 2
