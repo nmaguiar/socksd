@@ -485,15 +485,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7
     References:
+    - http://www.openwall.com/lists/oss-security/2024/11/12/11
     - https://access.redhat.com/security/cve/CVE-2024-52533
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3461
     - https://gitlab.gnome.org/GNOME/glib/-/releases/2.82.1
     - https://gitlab.gnome.org/Teams/Releng/security/-/wikis/home
+    - https://lists.debian.org/debian-lts-announce/2024/11/msg00020.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52533
     - https://ubuntu.com/security/notices/USN-7114-1
     - https://www.cve.org/CVERecord?id=CVE-2024-52533
     PublishedDate: '2024-11-11T23:15:05.967Z'
-    LastModifiedDate: '2024-11-12T16:35:24.297Z'
+    LastModifiedDate: '2024-11-23T21:15:15.09Z'
   - VulnerabilityID: CVE-2023-32636
     PkgID: glib2@2.68.4-14.el9_4.1.x86_64
     PkgName: glib2
