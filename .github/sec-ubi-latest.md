@@ -838,16 +838,20 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:H 
 │                       │       │                           ╰ V3Score : 7 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-52533 
-│                       │       │                  ├ [1]: https://gitlab.gnome.org/GNOME/glib/-/issues/3461 
-│                       │       │                  ├ [2]: https://gitlab.gnome.org/GNOME/glib/-/releases/2.82.1 
-│                       │       │                  ├ [3]: https://gitlab.gnome.org/Teams/Releng/security/-/wiki
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/11/12
+│                       │       │                  │      /11 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52533 
+│                       │       │                  ├ [2]: https://gitlab.gnome.org/GNOME/glib/-/issues/3461 
+│                       │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/releases/2.82.1 
+│                       │       │                  ├ [4]: https://gitlab.gnome.org/Teams/Releng/security/-/wiki
 │                       │       │                  │      s/home 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-52533 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7114-1 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
+│                       │       │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2024/11/
+│                       │       │                  │      msg00020.html 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-52533 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-7114-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
 │                       │       ├ PublishedDate   : 2024-11-11T23:15:05.967Z 
-│                       │       ╰ LastModifiedDate: 2024-11-12T16:35:24.297Z 
+│                       │       ╰ LastModifiedDate: 2024-11-23T21:15:15.09Z 
 │                       ├ [14]  ╭ VulnerabilityID : CVE-2023-32636 
 │                       │       ├ PkgID           : glib2@2.68.4-14.el9.x86_64 
 │                       │       ├ PkgName         : glib2 
