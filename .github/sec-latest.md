@@ -479,8 +479,9 @@
 │                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
-│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
-│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2024-21208 
@@ -566,8 +567,9 @@
 │                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
-│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
-│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-21210 
@@ -647,8 +649,9 @@
 │                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
-│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
-│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2024-21211 
@@ -787,8 +790,9 @@
 │                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
-│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
-│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2024-21235 
@@ -876,8 +880,9 @@
 │                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
-│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
-│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2024-21208 
@@ -963,8 +968,9 @@
 │                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
-│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
-│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2024-21210 
@@ -1044,8 +1050,9 @@
 │                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
-│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
-│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2024-21211 
@@ -1184,8 +1191,9 @@
 │                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
-│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
-│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
 │                       ╰ [16] ╭ VulnerabilityID : CVE-2024-9143 
