@@ -1196,8 +1196,9 @@
 │                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
 │                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
-│                       │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
-│                       │       │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │       │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
+│                       │       │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
+│                       │       │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │       ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │       ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
 │                       ├ [19]  ╭ VulnerabilityID : CVE-2024-21210 
@@ -1277,8 +1278,9 @@
 │                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
 │                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
-│                       │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
-│                       │       │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │       │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
+│                       │       │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
+│                       │       │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │       ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │       ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
 │                       ├ [20]  ╭ VulnerabilityID : CVE-2024-21217 
@@ -1363,8 +1365,9 @@
 │                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
 │                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
-│                       │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
-│                       │       │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │       │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
+│                       │       │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
+│                       │       │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │       ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │       ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
 │                       ├ [21]  ╭ VulnerabilityID : CVE-2024-21235 
@@ -1452,8 +1455,9 @@
 │                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-7097-1 
 │                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
-│                       │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
-│                       │       │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │       │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
+│                       │       │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
+│                       │       │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │       ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │       ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
 │                       ├ [22]  ╭ VulnerabilityID : CVE-2024-3596 
@@ -4614,12 +4618,13 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-10041 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9941 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-10041 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │       ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                       │       ╰ LastModifiedDate: 2024-11-12T21:15:10.467Z 
+│                       │       ╰ LastModifiedDate: 2024-11-25T00:15:03.593Z 
 │                       ├ [74]  ╭ VulnerabilityID : CVE-2022-41409 
 │                       │       ├ PkgID           : pcre2@10.40-5.el9.x86_64 
 │                       │       ├ PkgName         : pcre2 
