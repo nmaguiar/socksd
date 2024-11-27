@@ -56,6 +56,7 @@
 │                       │      │                  │         c7680b0e3656aa3f9ab1 
 │                       │      │                  ╰ DiffID: sha256:bba6efe865a5b0fec9f8f20d370bdde67b585006cc8e
 │                       │      │                            49cdf4eb30b60360ed6c 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -97,22 +98,28 @@
 │                       │      │                   *earlier*, thus making curl inadvertently switch back to
 │                       │      │                   insecure HTTP earlier
 │                       │      │                   than otherwise intended. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-697 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
+│                       │      │                  │        │           /A:L 
+│                       │      │                  │        ╰ V3Score : 6.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 2.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9681 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/2764830 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7104-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/11/06/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-9681 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-9681.json 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/2764830 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
-│                       │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
+│                       │      ╰ LastModifiedDate: 2024-11-25T19:52:56.417Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2024-9143 
 │                       │      ├ PkgID           : libcrypto3@3.3.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
@@ -253,6 +260,7 @@
 │                       │      │                  │         c7680b0e3656aa3f9ab1 
 │                       │      │                  ╰ DiffID: sha256:bba6efe865a5b0fec9f8f20d370bdde67b585006cc8e
 │                       │      │                            49cdf4eb30b60360ed6c 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -294,22 +302,28 @@
 │                       │      │                   *earlier*, thus making curl inadvertently switch back to
 │                       │      │                   insecure HTTP earlier
 │                       │      │                   than otherwise intended. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-697 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
+│                       │      │                  │        │           /A:L 
+│                       │      │                  │        ╰ V3Score : 6.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 2.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9681 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/2764830 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7104-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/11/06/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-9681 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-9681.json 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/2764830 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
-│                       │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
+│                       │      ╰ LastModifiedDate: 2024-11-25T19:52:56.417Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2024-9143 
 │                       │      ├ PkgID           : libssl3@3.3.2-r0 
 │                       │      ├ PkgName         : libssl3 
