@@ -462,19 +462,24 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9541 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-50602 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2321987 
-│                       │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2024-9541.html 
-│                       │      │                  ├ [4]: https://github.com/libexpat/libexpat/pull/915 
-│                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2024-50602.html 
-│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2024-9541.html 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-50602 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-50602 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:9541 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-50602 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2321987 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2321987 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-50602 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-9541.html 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2024:9502 
+│                       │      │                  ├ [7] : https://github.com/libexpat/libexpat/pull/915 
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-50602.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-9541.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-50602 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-50602 
 │                       │      ├ PublishedDate   : 2024-10-27T05:15:04.09Z 
 │                       │      ╰ LastModifiedDate: 2024-10-30T18:35:16.237Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2023-4156 
