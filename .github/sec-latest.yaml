@@ -55,6 +55,7 @@
     Layer:
       Digest: sha256:30fda29308c80e4b7c23c583e7bfff86ace198b2ec93c7680b0e3656aa3f9ab1
       DiffID: sha256:bba6efe865a5b0fec9f8f20d370bdde67b585006cc8e49cdf4eb30b60360ed6c
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9681
     DataSource:
       ID: alpine
@@ -86,16 +87,23 @@
       (wrongly set) timeout expires. This bug can also expire the parent's entry
       *earlier*, thus making curl inadvertently switch back to insecure HTTP earlier
       than otherwise intended.
-    Severity: LOW
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-697
     VendorSeverity:
+      nvd: 2
       photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
         V3Score: 2.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/11/06/2
     - https://access.redhat.com/security/cve/CVE-2024-9681
     - https://curl.se/docs/CVE-2024-9681.html
     - https://curl.se/docs/CVE-2024-9681.json
@@ -104,7 +112,7 @@
     - https://ubuntu.com/security/notices/USN-7104-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
-    LastModifiedDate: '2024-11-06T18:17:17.287Z'
+    LastModifiedDate: '2024-11-25T19:52:56.417Z'
   - VulnerabilityID: CVE-2024-9143
     PkgID: libcrypto3@3.3.2-r0
     PkgName: libcrypto3
@@ -227,6 +235,7 @@
     Layer:
       Digest: sha256:30fda29308c80e4b7c23c583e7bfff86ace198b2ec93c7680b0e3656aa3f9ab1
       DiffID: sha256:bba6efe865a5b0fec9f8f20d370bdde67b585006cc8e49cdf4eb30b60360ed6c
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9681
     DataSource:
       ID: alpine
@@ -258,16 +267,23 @@
       (wrongly set) timeout expires. This bug can also expire the parent's entry
       *earlier*, thus making curl inadvertently switch back to insecure HTTP earlier
       than otherwise intended.
-    Severity: LOW
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-697
     VendorSeverity:
+      nvd: 2
       photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
         V3Score: 2.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/11/06/2
     - https://access.redhat.com/security/cve/CVE-2024-9681
     - https://curl.se/docs/CVE-2024-9681.html
     - https://curl.se/docs/CVE-2024-9681.json
@@ -276,7 +292,7 @@
     - https://ubuntu.com/security/notices/USN-7104-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
-    LastModifiedDate: '2024-11-06T18:17:17.287Z'
+    LastModifiedDate: '2024-11-25T19:52:56.417Z'
   - VulnerabilityID: CVE-2024-9143
     PkgID: libssl3@3.3.2-r0
     PkgName: libssl3
