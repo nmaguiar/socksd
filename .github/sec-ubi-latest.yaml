@@ -369,7 +369,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47175
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47176
     - https://errata.almalinux.org/9/ALSA-2024-9470.html
-    - https://errata.rockylinux.org/RLSA-2024:7346
+    - https://errata.rockylinux.org/RLSA-2024:7463
     - https://github.com/OpenPrinting/cups-browsed/security/advisories/GHSA-rj88-6mr5-rcw8
     - https://github.com/OpenPrinting/cups-filters/security/advisories/GHSA-p9rh-jxmq-gq47
     - https://github.com/OpenPrinting/libcupsfilters/security/advisories/GHSA-w63j-6g73-wmg5
@@ -559,7 +559,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
     - https://errata.almalinux.org/9/ALSA-2024-6754.html
-    - https://errata.rockylinux.org/RLSA-2024:6754
+    - https://errata.rockylinux.org/RLSA-2024:6989
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/887
     - https://github.com/libexpat/libexpat/pull/890
@@ -617,14 +617,10 @@
     - https://bugzilla.redhat.com/2308615
     - https://bugzilla.redhat.com/2308616
     - https://bugzilla.redhat.com/2308617
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2308615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2308616
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2308617
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45490
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
     - https://errata.almalinux.org/9/ALSA-2024-6754.html
-    - https://errata.rockylinux.org/RLSA-2024:6754
+    - https://errata.rockylinux.org/RLSA-2024:8859
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/888
     - https://github.com/libexpat/libexpat/pull/891
@@ -689,7 +685,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
     - https://errata.almalinux.org/9/ALSA-2024-6754.html
-    - https://errata.rockylinux.org/RLSA-2024:6754
+    - https://errata.rockylinux.org/RLSA-2024:6989
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/889
     - https://github.com/libexpat/libexpat/pull/892
@@ -1400,7 +1396,7 @@
     - https://datatracker.ietf.org/doc/draft-ietf-radext-deprecating-radius/
     - https://datatracker.ietf.org/doc/html/rfc2865
     - https://errata.almalinux.org/9/ALSA-2024-9474.html
-    - https://errata.rockylinux.org/RLSA-2024:4935
+    - https://errata.rockylinux.org/RLSA-2024:8860
     - https://kb.cert.org/vince/comm/case/1515/
     - https://linux.oracle.com/cve/CVE-2024-3596.html
     - https://linux.oracle.com/errata/ELSA-2024-9474.html
