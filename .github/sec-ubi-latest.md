@@ -499,11 +499,12 @@
 │                       │       │                   INFO.html) is used. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ amazon: 2 
-│                       │       │                  ├ nvd   : 2 
-│                       │       │                  ├ photon: 2 
-│                       │       │                  ├ redhat: 1 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ amazon     : 2 
+│                       │       │                  ├ cbl-mariner: 2 
+│                       │       │                  ├ nvd        : 2 
+│                       │       │                  ├ photon     : 2 
+│                       │       │                  ├ redhat     : 1 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
 │                       │       │                  │        │           N/A:H 
 │                       │       │                  │        ╰ V3Score : 6.5 
@@ -687,8 +688,8 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ cbl-mariner: 3 
+│                       │       │                  ├ azure      : 4 
+│                       │       │                  ├ cbl-mariner: 4 
 │                       │       │                  ├ nvd        : 4 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 4 
@@ -755,8 +756,8 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ cbl-mariner: 3 
+│                       │       │                  ├ azure      : 4 
+│                       │       │                  ├ cbl-mariner: 4 
 │                       │       │                  ├ nvd        : 4 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 4 
@@ -1912,11 +1913,12 @@
 │                       │       │                   INFO.html) is used. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ amazon: 2 
-│                       │       │                  ├ nvd   : 2 
-│                       │       │                  ├ photon: 2 
-│                       │       │                  ├ redhat: 1 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ amazon     : 2 
+│                       │       │                  ├ cbl-mariner: 2 
+│                       │       │                  ├ nvd        : 2 
+│                       │       │                  ├ photon     : 2 
+│                       │       │                  ├ redhat     : 1 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
 │                       │       │                  │        │           N/A:H 
 │                       │       │                  │        ╰ V3Score : 6.5 
@@ -4134,7 +4136,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-200 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
 │                       │       │                  ├ amazon     : 2 
-│                       │       │                  ├ azure      : 2 
+│                       │       │                  ├ azure      : 4 
 │                       │       │                  ├ cbl-mariner: 4 
 │                       │       │                  ├ oracle-oval: 1 
 │                       │       │                  ├ photon     : 4 
@@ -4726,7 +4728,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-200 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
 │                       │       │                  ├ amazon     : 2 
-│                       │       │                  ├ azure      : 2 
+│                       │       │                  ├ azure      : 4 
 │                       │       │                  ├ cbl-mariner: 4 
 │                       │       │                  ├ oracle-oval: 1 
 │                       │       │                  ├ photon     : 4 
@@ -4803,18 +4805,22 @@
 │                       │       │                   terminals. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-287 
-│                       │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │       ├ VendorSeverity   ╭ alma       : 3 
+│                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 7.4 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-10963 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                       │       │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                       │       │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:10244 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-10963 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2324291 
+│                       │       │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
+│                       │       │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
+│                       │       │                  ├ [5]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                       │       │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │       ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │       ╰ LastModifiedDate: 2024-11-11T18:15:14.487Z 
 │                       ├ [77]  ╭ VulnerabilityID : CVE-2024-10041 
@@ -4842,20 +4848,24 @@
 │                       │       │                   authentications. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-922 
-│                       │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │       ├ VendorSeverity   ╭ alma       : 3 
+│                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:10379 
-│                       │       │                  ├ [1]: https://access.redhat.com/errata/RHSA-2024:9941 
-│                       │       │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2024-10041 
-│                       │       │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10379 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:9941 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-10041 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2319212 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2324291 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                       │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │       ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │       ╰ LastModifiedDate: 2024-11-26T16:15:09.23Z 
 │                       ├ [78]  ╭ VulnerabilityID : CVE-2022-41409 
