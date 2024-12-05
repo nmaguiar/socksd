@@ -5139,17 +5139,21 @@
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
 │                       │       │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e8
 │                       │       │                  │      2938ba2165843c448c2b291504c5 
-│                       │       │                  ├ [2]: https://github.com/python/cpython/commit/b2171a2fd414
+│                       │       │                  ├ [2]: https://github.com/python/cpython/commit/634ded45545c
+│                       │       │                  │      e8cbd6fd5d49785613dd7fa9b89e 
+│                       │       │                  ├ [3]: https://github.com/python/cpython/commit/b2171a2fd414
 │                       │       │                  │      16cf68afd67460578631d755a550 
-│                       │       │                  ├ [3]: https://github.com/python/cpython/issues/103848 
-│                       │       │                  ├ [4]: https://github.com/python/cpython/pull/103849 
-│                       │       │                  ├ [5]: https://mail.python.org/archives/list/security-announ
+│                       │       │                  ├ [4]: https://github.com/python/cpython/commit/ddca2953191c
+│                       │       │                  │      67a12b1f19d6bca41016c6ae7132 
+│                       │       │                  ├ [5]: https://github.com/python/cpython/issues/103848 
+│                       │       │                  ├ [6]: https://github.com/python/cpython/pull/103849 
+│                       │       │                  ├ [7]: https://mail.python.org/archives/list/security-announ
 │                       │       │                  │      ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
 │                       │       │                  │      / 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                       │       │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                       │       ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
-│                       │       ╰ LastModifiedDate: 2024-11-13T17:01:16.85Z 
+│                       │       ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
 │                       ├ [82]  ╭ VulnerabilityID : CVE-2024-6232 
 │                       │       ├ VendorIDs        ╭ [0]: RHSA-2024:8446 
 │                       │       │                  ╰ [1]: RHSA-2024:9468 
@@ -5711,17 +5715,21 @@
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
 │                       │       │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e8
 │                       │       │                  │      2938ba2165843c448c2b291504c5 
-│                       │       │                  ├ [2]: https://github.com/python/cpython/commit/b2171a2fd414
+│                       │       │                  ├ [2]: https://github.com/python/cpython/commit/634ded45545c
+│                       │       │                  │      e8cbd6fd5d49785613dd7fa9b89e 
+│                       │       │                  ├ [3]: https://github.com/python/cpython/commit/b2171a2fd414
 │                       │       │                  │      16cf68afd67460578631d755a550 
-│                       │       │                  ├ [3]: https://github.com/python/cpython/issues/103848 
-│                       │       │                  ├ [4]: https://github.com/python/cpython/pull/103849 
-│                       │       │                  ├ [5]: https://mail.python.org/archives/list/security-announ
+│                       │       │                  ├ [4]: https://github.com/python/cpython/commit/ddca2953191c
+│                       │       │                  │      67a12b1f19d6bca41016c6ae7132 
+│                       │       │                  ├ [5]: https://github.com/python/cpython/issues/103848 
+│                       │       │                  ├ [6]: https://github.com/python/cpython/pull/103849 
+│                       │       │                  ├ [7]: https://mail.python.org/archives/list/security-announ
 │                       │       │                  │      ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
 │                       │       │                  │      / 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                       │       │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                       │       ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
-│                       │       ╰ LastModifiedDate: 2024-11-13T17:01:16.85Z 
+│                       │       ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
 │                       ├ [89]  ╭ VulnerabilityID : CVE-2024-6232 
 │                       │       ├ VendorIDs        ╭ [0]: RHSA-2024:8446 
 │                       │       │                  ╰ [1]: RHSA-2024:9468 
@@ -6283,17 +6291,21 @@
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
 │                       │       │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e8
 │                       │       │                  │      2938ba2165843c448c2b291504c5 
-│                       │       │                  ├ [2]: https://github.com/python/cpython/commit/b2171a2fd414
+│                       │       │                  ├ [2]: https://github.com/python/cpython/commit/634ded45545c
+│                       │       │                  │      e8cbd6fd5d49785613dd7fa9b89e 
+│                       │       │                  ├ [3]: https://github.com/python/cpython/commit/b2171a2fd414
 │                       │       │                  │      16cf68afd67460578631d755a550 
-│                       │       │                  ├ [3]: https://github.com/python/cpython/issues/103848 
-│                       │       │                  ├ [4]: https://github.com/python/cpython/pull/103849 
-│                       │       │                  ├ [5]: https://mail.python.org/archives/list/security-announ
+│                       │       │                  ├ [4]: https://github.com/python/cpython/commit/ddca2953191c
+│                       │       │                  │      67a12b1f19d6bca41016c6ae7132 
+│                       │       │                  ├ [5]: https://github.com/python/cpython/issues/103848 
+│                       │       │                  ├ [6]: https://github.com/python/cpython/pull/103849 
+│                       │       │                  ├ [7]: https://mail.python.org/archives/list/security-announ
 │                       │       │                  │      ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
 │                       │       │                  │      / 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                       │       │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                       │       ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
-│                       │       ╰ LastModifiedDate: 2024-11-13T17:01:16.85Z 
+│                       │       ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
 │                       ├ [96]  ╭ VulnerabilityID : CVE-2024-6232 
 │                       │       ├ VendorIDs        ╭ [0]: RHSA-2024:8446 
 │                       │       │                  ╰ [1]: RHSA-2024:9468 
