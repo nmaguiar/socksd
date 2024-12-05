@@ -3648,16 +3648,20 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
 │                       │      │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e82
 │                       │      │                  │      938ba2165843c448c2b291504c5 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/b2171a2fd4141
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/634ded45545ce
+│                       │      │                  │      8cbd6fd5d49785613dd7fa9b89e 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/b2171a2fd4141
 │                       │      │                  │      6cf68afd67460578631d755a550 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/issues/103848 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/pull/103849 
-│                       │      │                  ├ [5]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/ddca2953191c6
+│                       │      │                  │      7a12b1f19d6bca41016c6ae7132 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/issues/103848 
+│                       │      │                  ├ [6]: https://github.com/python/cpython/pull/103849 
+│                       │      │                  ├ [7]: https://mail.python.org/archives/list/security-announc
 │                       │      │                  │      e@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                       │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                       │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
-│                       │      ╰ LastModifiedDate: 2024-11-13T17:01:16.85Z 
+│                       │      ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
 │                       ├ [62] ╭ VulnerabilityID : CVE-2024-9287 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.19-8.el9_5.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -4034,16 +4038,20 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
 │                       │      │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e82
 │                       │      │                  │      938ba2165843c448c2b291504c5 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/b2171a2fd4141
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/634ded45545ce
+│                       │      │                  │      8cbd6fd5d49785613dd7fa9b89e 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/b2171a2fd4141
 │                       │      │                  │      6cf68afd67460578631d755a550 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/issues/103848 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/pull/103849 
-│                       │      │                  ├ [5]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/ddca2953191c6
+│                       │      │                  │      7a12b1f19d6bca41016c6ae7132 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/issues/103848 
+│                       │      │                  ├ [6]: https://github.com/python/cpython/pull/103849 
+│                       │      │                  ├ [7]: https://mail.python.org/archives/list/security-announc
 │                       │      │                  │      e@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                       │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                       │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
-│                       │      ╰ LastModifiedDate: 2024-11-13T17:01:16.85Z 
+│                       │      ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
 │                       ├ [67] ╭ VulnerabilityID : CVE-2024-9287 
 │                       │      ├ PkgID           : python3@3.9.19-8.el9_5.1.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -4420,16 +4428,20 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
 │                       │      │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e82
 │                       │      │                  │      938ba2165843c448c2b291504c5 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/b2171a2fd4141
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/634ded45545ce
+│                       │      │                  │      8cbd6fd5d49785613dd7fa9b89e 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/b2171a2fd4141
 │                       │      │                  │      6cf68afd67460578631d755a550 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/issues/103848 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/pull/103849 
-│                       │      │                  ├ [5]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/ddca2953191c6
+│                       │      │                  │      7a12b1f19d6bca41016c6ae7132 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/issues/103848 
+│                       │      │                  ├ [6]: https://github.com/python/cpython/pull/103849 
+│                       │      │                  ├ [7]: https://mail.python.org/archives/list/security-announc
 │                       │      │                  │      e@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                       │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                       │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
-│                       │      ╰ LastModifiedDate: 2024-11-13T17:01:16.85Z 
+│                       │      ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
 │                       ├ [72] ╭ VulnerabilityID : CVE-2024-9287 
 │                       │      ├ PkgID           : python3-libs@3.9.19-8.el9_5.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
