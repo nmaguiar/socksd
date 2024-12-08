@@ -1005,10 +1005,12 @@
 │                       │       │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2024/11/
 │                       │       │                  │      msg00020.html 
 │                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-52533 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-7114-1 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-20241206-00
+│                       │       │                  │      09/ 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-7114-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
 │                       │       ├ PublishedDate   : 2024-11-11T23:15:05.967Z 
-│                       │       ╰ LastModifiedDate: 2024-11-23T21:15:15.09Z 
+│                       │       ╰ LastModifiedDate: 2024-12-06T14:15:21.4Z 
 │                       ├ [17]  ╭ VulnerabilityID : CVE-2023-32636 
 │                       │       ├ PkgID           : glib2@2.68.4-14.el9.x86_64 
 │                       │       ├ PkgName         : glib2 
@@ -1783,7 +1785,7 @@
 │                       │       │                  │       010/ 
 │                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       │       ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
-│                       │       ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
+│                       │       ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
 │                       ├ [28]  ╭ VulnerabilityID : CVE-2024-26461 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2024:9331 
 │                       │       ├ PkgID           : krb5-libs@1.21.1-2.el9_4.x86_64 
