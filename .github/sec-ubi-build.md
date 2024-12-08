@@ -667,10 +667,11 @@
 │                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2024/11/m
 │                       │      │                  │      sg00020.html 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-52533 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7114-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
+│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-20241206-0009/ 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7114-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
 │                       │      ├ PublishedDate   : 2024-11-11T23:15:05.967Z 
-│                       │      ╰ LastModifiedDate: 2024-11-23T21:15:15.09Z 
+│                       │      ╰ LastModifiedDate: 2024-12-06T14:15:21.4Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2023-32636 
 │                       │      ├ PkgID           : glib2@2.68.4-14.el9_4.1.x86_64 
 │                       │      ├ PkgName         : glib2 
