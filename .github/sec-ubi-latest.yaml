@@ -481,16 +481,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:8859
+    - https://access.redhat.com/errata/RHSA-2024:6754
     - https://access.redhat.com/security/cve/CVE-2024-45491
+    - https://bugzilla.redhat.com/2308615
     - https://bugzilla.redhat.com/2308616
+    - https://bugzilla.redhat.com/2308617
     - https://bugzilla.redhat.com/show_bug.cgi?id=2308615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2308616
     - https://bugzilla.redhat.com/show_bug.cgi?id=2308617
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45490
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
-    - https://errata.almalinux.org/8/ALSA-2024-8859.html
+    - https://errata.almalinux.org/9/ALSA-2024-6754.html
     - https://errata.rockylinux.org/RLSA-2024:6754
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/888
@@ -728,7 +730,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1137,7 +1139,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0894
+    - https://access.redhat.com/errata/RHSA-2024:1141
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -1214,7 +1216,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/8/ALSA-2024-0894.html
+    - https://errata.almalinux.org/9/ALSA-2024-1141.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -2518,12 +2520,15 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/27/1
     - http://www.openwall.com/lists/oss-security/2024/06/28/4
-    - https://access.redhat.com/errata/RHSA-2024:7848
+    - https://access.redhat.com/errata/RHSA-2024:9333
     - https://access.redhat.com/security/cve/CVE-2024-5535
+    - https://bugzilla.redhat.com/2274020
+    - https://bugzilla.redhat.com/2281029
+    - https://bugzilla.redhat.com/2283757
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294581
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5535
-    - https://errata.almalinux.org/8/ALSA-2024-7848.html
+    - https://errata.almalinux.org/9/ALSA-2024-9333.html
     - https://errata.rockylinux.org/RLSA-2024:7848
     - https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37
     - https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e
@@ -2829,12 +2834,15 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/27/1
     - http://www.openwall.com/lists/oss-security/2024/06/28/4
-    - https://access.redhat.com/errata/RHSA-2024:7848
+    - https://access.redhat.com/errata/RHSA-2024:9333
     - https://access.redhat.com/security/cve/CVE-2024-5535
+    - https://bugzilla.redhat.com/2274020
+    - https://bugzilla.redhat.com/2281029
+    - https://bugzilla.redhat.com/2283757
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294581
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5535
-    - https://errata.almalinux.org/8/ALSA-2024-7848.html
+    - https://errata.almalinux.org/9/ALSA-2024-9333.html
     - https://errata.rockylinux.org/RLSA-2024:7848
     - https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37
     - https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e
