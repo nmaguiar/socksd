@@ -49,6 +49,7 @@
     CweIDs:
     - CWE-330
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -83,6 +84,7 @@
     CweIDs:
     - CWE-334
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -557,7 +559,7 @@
       PURL: pkg:rpm/redhat/glib2@2.68.4-14.el9_4.1?arch=x86_64&distro=redhat-9.5
       UID: 78944302b9fb73af
     InstalledVersion: 2.68.4-14.el9_4.1
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
       DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
@@ -1052,6 +1054,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      amazon: 2
       cbl-mariner: 3
       photon: 2
       redhat: 1
