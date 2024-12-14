@@ -443,10 +443,11 @@
     - https://curl.se/docs/CVE-2024-9681.json
     - https://hackerone.com/reports/2764830
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9681
+    - https://security.netapp.com/advisory/ntap-20241213-0006/
     - https://ubuntu.com/security/notices/USN-7104-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
-    LastModifiedDate: '2024-11-25T19:52:56.417Z'
+    LastModifiedDate: '2024-12-13T14:15:22.953Z'
   - VulnerabilityID: CVE-2024-45491
     PkgID: expat@2.5.0-3.el9_5.1.x86_64
     PkgName: expat
@@ -902,10 +903,11 @@
     - https://curl.se/docs/CVE-2024-9681.json
     - https://hackerone.com/reports/2764830
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9681
+    - https://security.netapp.com/advisory/ntap-20241213-0006/
     - https://ubuntu.com/security/notices/USN-7104-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
-    LastModifiedDate: '2024-11-25T19:52:56.417Z'
+    LastModifiedDate: '2024-12-13T14:15:22.953Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.5.0-2.el9.x86_64
     PkgName: libgcc
@@ -3118,7 +3120,7 @@
     - https://github.com/python/cpython/issues/103848
     - https://github.com/python/cpython/pull/103849
     - https://linux.oracle.com/cve/CVE-2024-11168.html
-    - https://linux.oracle.com/errata/ELSA-2024-10779.html
+    - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
     - https://www.cve.org/CVERecord?id=CVE-2024-11168
@@ -3166,7 +3168,7 @@
     - https://github.com/python/cpython/pull/124712
     - https://github.com/python/cpython/pull/124712/commits/b6a3bbd155c558cdcda482629073e492437db3d0
     - https://linux.oracle.com/cve/CVE-2024-9287.html
-    - https://linux.oracle.com/errata/ELSA-2024-10779.html
+    - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://ubuntu.com/security/notices/USN-7116-1
@@ -3420,7 +3422,7 @@
     - https://github.com/python/cpython/issues/103848
     - https://github.com/python/cpython/pull/103849
     - https://linux.oracle.com/cve/CVE-2024-11168.html
-    - https://linux.oracle.com/errata/ELSA-2024-10779.html
+    - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
     - https://www.cve.org/CVERecord?id=CVE-2024-11168
@@ -3468,7 +3470,7 @@
     - https://github.com/python/cpython/pull/124712
     - https://github.com/python/cpython/pull/124712/commits/b6a3bbd155c558cdcda482629073e492437db3d0
     - https://linux.oracle.com/cve/CVE-2024-9287.html
-    - https://linux.oracle.com/errata/ELSA-2024-10779.html
+    - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://ubuntu.com/security/notices/USN-7116-1
@@ -3722,7 +3724,7 @@
     - https://github.com/python/cpython/issues/103848
     - https://github.com/python/cpython/pull/103849
     - https://linux.oracle.com/cve/CVE-2024-11168.html
-    - https://linux.oracle.com/errata/ELSA-2024-10779.html
+    - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
     - https://www.cve.org/CVERecord?id=CVE-2024-11168
@@ -3770,7 +3772,7 @@
     - https://github.com/python/cpython/pull/124712
     - https://github.com/python/cpython/pull/124712/commits/b6a3bbd155c558cdcda482629073e492437db3d0
     - https://linux.oracle.com/cve/CVE-2024-9287.html
-    - https://linux.oracle.com/errata/ELSA-2024-10779.html
+    - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://ubuntu.com/security/notices/USN-7116-1
