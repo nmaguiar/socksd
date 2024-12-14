@@ -18,8 +18,7 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : When asked to both use a `.netrc` file for credentials and to
-│                       │     │                    follow H ... 
+│                       │     ├ Title           : curl: curl netrc password leak 
 │                       │     ├ Description     : When asked to both use a `.netrc` file for credentials and to
 │                       │     │                    follow HTTP
 │                       │     │                   redirects, curl could leak the password used for the first
@@ -31,11 +30,18 @@
 │                       │     │                   the redirect target hostname but the entry either omits just
 │                       │     │                   the password or
 │                       │     │                   omits both login and password. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ VendorSeverity   ─ redhat: 1 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/
+│                       │     │                           │           A:N 
+│                       │     │                           ╰ V3Score : 5.9 
 │                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2024-11053.html 
-│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │     │                  ╰ [3]: https://hackerone.com/reports/2829063 
+│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-11053 
+│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-11053.html 
+│                       │     │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
+│                       │     │                  ├ [4]: https://hackerone.com/reports/2829063 
+│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
 │                       │     ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                       │     ╰ LastModifiedDate: 2024-12-11T15:15:07.783Z 
 │                       ╰ [1] ╭ VulnerabilityID : CVE-2024-11053 
@@ -55,8 +61,7 @@
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Title           : When asked to both use a `.netrc` file for credentials and to
-│                             │                    follow H ... 
+│                             ├ Title           : curl: curl netrc password leak 
 │                             ├ Description     : When asked to both use a `.netrc` file for credentials and to
 │                             │                    follow HTTP
 │                             │                   redirects, curl could leak the password used for the first
@@ -68,11 +73,18 @@
 │                             │                   the redirect target hostname but the entry either omits just
 │                             │                   the password or
 │                             │                   omits both login and password. 
-│                             ├ Severity        : UNKNOWN 
+│                             ├ Severity        : MEDIUM 
+│                             ├ VendorSeverity   ─ redhat: 1 
+│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/
+│                             │                           │           A:N 
+│                             │                           ╰ V3Score : 5.9 
 │                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                             │                  ├ [1]: https://curl.se/docs/CVE-2024-11053.html 
-│                             │                  ├ [2]: https://curl.se/docs/CVE-2024-11053.json 
-│                             │                  ╰ [3]: https://hackerone.com/reports/2829063 
+│                             │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-11053 
+│                             │                  ├ [2]: https://curl.se/docs/CVE-2024-11053.html 
+│                             │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
+│                             │                  ├ [4]: https://hackerone.com/reports/2829063 
+│                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
+│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
 │                             ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                             ╰ LastModifiedDate: 2024-12-11T15:15:07.783Z 
 ╰ [1] ╭ Target: Java 
