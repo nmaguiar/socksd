@@ -43,7 +43,7 @@
 │                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
 │                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
 │                       │     ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
-│                       │     ╰ LastModifiedDate: 2024-12-11T15:15:07.783Z 
+│                       │     ╰ LastModifiedDate: 2024-12-15T17:15:05.273Z 
 │                       ╰ [1] ╭ VulnerabilityID : CVE-2024-11053 
 │                             ├ PkgID           : libcurl@8.11.0-r2 
 │                             ├ PkgName         : libcurl 
@@ -86,7 +86,7 @@
 │                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
 │                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
 │                             ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
-│                             ╰ LastModifiedDate: 2024-12-11T15:15:07.783Z 
+│                             ╰ LastModifiedDate: 2024-12-15T17:15:05.273Z 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 
