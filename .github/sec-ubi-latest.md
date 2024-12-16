@@ -562,29 +562,23 @@
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2308615 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2308616 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2308617 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2308615 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2308616 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2308617 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-45490 
-│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2308616 
+│                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-45491 
-│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-45492 
-│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-6754.html 
-│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:6754 
-│                       │      │                  ├ [13]: https://github.com/libexpat/libexpat/blob/R_2_6_3/exp
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-6754.html 
+│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:8859 
+│                       │      │                  ├ [9] : https://github.com/libexpat/libexpat/blob/R_2_6_3/exp
 │                       │      │                  │       at/Changes 
-│                       │      │                  ├ [14]: https://github.com/libexpat/libexpat/issues/888 
-│                       │      │                  ├ [15]: https://github.com/libexpat/libexpat/pull/891 
-│                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2024-45491.html 
-│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2024-8859.html 
-│                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-45491 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7000-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7000-2 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7001-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7001-2 
-│                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-45491 
+│                       │      │                  ├ [10]: https://github.com/libexpat/libexpat/issues/888 
+│                       │      │                  ├ [11]: https://github.com/libexpat/libexpat/pull/891 
+│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-45491.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-8859.html 
+│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-45491 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7000-1 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7000-2 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7001-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7001-2 
+│                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-45491 
 │                       │      ├ PublishedDate   : 2024-08-30T03:15:03.85Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T14:28:33.953Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2023-4156 
