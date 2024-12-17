@@ -489,10 +489,14 @@
     - https://bugzilla.redhat.com/2308615
     - https://bugzilla.redhat.com/2308616
     - https://bugzilla.redhat.com/2308617
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2308616
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308617
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45490
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
     - https://errata.almalinux.org/9/ALSA-2024-6754.html
-    - https://errata.rockylinux.org/RLSA-2024:8859
+    - https://errata.rockylinux.org/RLSA-2024:6754
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/888
     - https://github.com/libexpat/libexpat/pull/891
