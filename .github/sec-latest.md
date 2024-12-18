@@ -31,7 +31,8 @@
 │                       │     │                   the password or
 │                       │     │                   omits both login and password. 
 │                       │     ├ Severity        : MEDIUM 
-│                       │     ├ VendorSeverity   ─ redhat: 1 
+│                       │     ├ VendorSeverity   ╭ redhat: 1 
+│                       │     │                  ╰ ubuntu: 1 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 5.9 
@@ -41,7 +42,8 @@
 │                       │     │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
 │                       │     │                  ├ [4]: https://hackerone.com/reports/2829063 
 │                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
-│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-7162-1 
+│                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
 │                       │     ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                       │     ╰ LastModifiedDate: 2024-12-15T17:15:05.273Z 
 │                       ╰ [1] ╭ VulnerabilityID : CVE-2024-11053 
@@ -74,7 +76,8 @@
 │                             │                   the password or
 │                             │                   omits both login and password. 
 │                             ├ Severity        : MEDIUM 
-│                             ├ VendorSeverity   ─ redhat: 1 
+│                             ├ VendorSeverity   ╭ redhat: 1 
+│                             │                  ╰ ubuntu: 1 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/
 │                             │                           │           A:N 
 │                             │                           ╰ V3Score : 5.9 
@@ -84,7 +87,8 @@
 │                             │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
 │                             │                  ├ [4]: https://hackerone.com/reports/2829063 
 │                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
-│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                             │                  ├ [6]: https://ubuntu.com/security/notices/USN-7162-1 
+│                             │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
 │                             ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                             ╰ LastModifiedDate: 2024-12-15T17:15:05.273Z 
 ╰ [1] ╭ Target: Java 
