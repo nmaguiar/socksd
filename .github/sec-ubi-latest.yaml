@@ -2892,6 +2892,7 @@
         V3Score: 4.7
     References:
     - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:11250
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
@@ -2903,7 +2904,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-11-26T16:15:09.23Z'
+    LastModifiedDate: '2024-12-18T10:15:05.85Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
