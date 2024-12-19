@@ -3372,18 +3372,19 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.7 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10379 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:9941 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-10041 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2319212 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2324291 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-10379.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:11250 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2324291 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                       │      ╰ LastModifiedDate: 2024-11-26T16:15:09.23Z 
+│                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
 │                       ├ [58] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │      ├ PkgID           : pcre2@10.40-6.el9.x86_64 
 │                       │      ├ PkgName         : pcre2 
