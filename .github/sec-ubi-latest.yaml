@@ -167,7 +167,7 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2019-12900
     Title: 'bzip2: bzip2: Data integrity error when decompressing (with data integrity tests fail).'
     Description: BZ2_decompress in decompress.c in bzip2 through 1.0.6 has an out-of-bounds write when there are many selectors.
-    Severity: LOW
+    Severity: MEDIUM
     CweIDs:
     - CWE-787
     VendorSeverity:
@@ -177,7 +177,7 @@
       nvd: 4
       oracle-oval: 1
       photon: 4
-      redhat: 1
+      redhat: 2
       rocky: 1
       ubuntu: 2
     CVSS:
@@ -328,6 +328,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-25317
     PublishedDate: '2021-05-05T10:15:08.133Z'
     LastModifiedDate: '2023-11-07T03:31:27.377Z'
+  - VulnerabilityID: CVE-2024-11053
+    PkgID: curl-minimal@7.76.1-31.el9.x86_64
+    PkgName: curl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.5
+      UID: 2862c6a46aaa958b
+    InstalledVersion: 7.76.1-31.el9
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11053
+    Title: 'curl: curl netrc password leak'
+    Description: |-
+      When asked to both use a `.netrc` file for credentials and to follow HTTP
+      redirects, curl could leak the password used for the first host to the
+      followed-to host under certain circumstances.
+
+      This flaw only manifests itself if the netrc file has an entry that matches
+      the redirect target hostname but the entry either omits just the password or
+      omits both login and password.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/11/1
+    - https://access.redhat.com/security/cve/CVE-2024-11053
+    - https://curl.se/docs/CVE-2024-11053.html
+    - https://curl.se/docs/CVE-2024-11053.json
+    - https://hackerone.com/reports/2829063
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
+    - https://ubuntu.com/security/notices/USN-7162-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-11053
+    PublishedDate: '2024-12-11T08:15:05.307Z'
+    LastModifiedDate: '2024-12-15T17:15:05.273Z'
   - VulnerabilityID: CVE-2024-7264
     PkgID: curl-minimal@7.76.1-31.el9.x86_64
     PkgName: curl-minimal
@@ -788,6 +829,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-30571
     PublishedDate: '2023-05-29T20:15:09.513Z'
     LastModifiedDate: '2023-06-05T16:40:57.93Z'
+  - VulnerabilityID: CVE-2024-11053
+    PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
+    PkgName: libcurl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.5
+      UID: 633a8284cdf6907b
+    InstalledVersion: 7.76.1-31.el9
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11053
+    Title: 'curl: curl netrc password leak'
+    Description: |-
+      When asked to both use a `.netrc` file for credentials and to follow HTTP
+      redirects, curl could leak the password used for the first host to the
+      followed-to host under certain circumstances.
+
+      This flaw only manifests itself if the netrc file has an entry that matches
+      the redirect target hostname but the entry either omits just the password or
+      omits both login and password.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/11/1
+    - https://access.redhat.com/security/cve/CVE-2024-11053
+    - https://curl.se/docs/CVE-2024-11053.html
+    - https://curl.se/docs/CVE-2024-11053.json
+    - https://hackerone.com/reports/2829063
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
+    - https://ubuntu.com/security/notices/USN-7162-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-11053
+    PublishedDate: '2024-12-11T08:15:05.307Z'
+    LastModifiedDate: '2024-12-15T17:15:05.273Z'
   - VulnerabilityID: CVE-2024-7264
     PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
     PkgName: libcurl-minimal
@@ -2867,53 +2949,6 @@
     - https://www.oracle.com/security-alerts/cpuoct2024.html#AppendixMSQL
     PublishedDate: '2024-06-27T11:15:24.447Z'
     LastModifiedDate: '2024-07-12T14:15:16.79Z'
-  - VulnerabilityID: CVE-2024-10041
-    PkgID: pam@1.5.1-22.el9_5.x86_64
-    PkgName: pam
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/pam@1.5.1-22.el9_5?arch=x86_64&distro=redhat-9.5
-      UID: 1061be8b25057ed8
-    InstalledVersion: 1.5.1-22.el9_5
-    Status: affected
-    Layer:
-      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
-      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
-    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
-    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-922
-    VendorSeverity:
-      alma: 3
-      oracle-oval: 3
-      redhat: 2
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:11250
-    - https://access.redhat.com/errata/RHSA-2024:9941
-    - https://access.redhat.com/security/cve/CVE-2024-10041
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10041.html
-    - https://linux.oracle.com/errata/ELSA-2024-10379.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
-    - https://www.cve.org/CVERecord?id=CVE-2024-10041
-    PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-12-18T10:15:05.85Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
@@ -3086,13 +3121,16 @@
     PublishedDate: '2021-02-15T13:15:12.433Z'
     LastModifiedDate: '2023-11-07T03:30:51.953Z'
   - VulnerabilityID: CVE-2024-11168
+    VendorIDs:
+    - RHSA-2024:10983
     PkgID: python-unversioned-command@3.9.19-8.el9_5.1.noarch
     PkgName: python-unversioned-command
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python-unversioned-command@3.9.19-8.el9_5.1?arch=noarch&distro=redhat-9.5
       UID: 34ae7b2cc490e796
     InstalledVersion: 3.9.19-8.el9_5.1
-    Status: affected
+    FixedVersion: 3.9.21-1.el9_5
+    Status: fixed
     Layer:
       Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
       DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
@@ -3139,13 +3177,16 @@
     PublishedDate: '2024-11-12T22:15:14.92Z'
     LastModifiedDate: '2024-12-03T21:15:05.47Z'
   - VulnerabilityID: CVE-2024-9287
+    VendorIDs:
+    - RHSA-2024:10983
     PkgID: python-unversioned-command@3.9.19-8.el9_5.1.noarch
     PkgName: python-unversioned-command
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python-unversioned-command@3.9.19-8.el9_5.1?arch=noarch&distro=redhat-9.5
       UID: 34ae7b2cc490e796
     InstalledVersion: 3.9.19-8.el9_5.1
-    Status: under_investigation
+    FixedVersion: 3.9.21-1.el9_5
+    Status: fixed
     Layer:
       Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
       DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
@@ -3401,13 +3442,16 @@
     PublishedDate: '2021-02-15T13:15:12.433Z'
     LastModifiedDate: '2023-11-07T03:30:51.953Z'
   - VulnerabilityID: CVE-2024-11168
+    VendorIDs:
+    - RHSA-2024:10983
     PkgID: python3@3.9.19-8.el9_5.1.x86_64
     PkgName: python3
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3@3.9.19-8.el9_5.1?arch=x86_64&distro=redhat-9.5
       UID: 1b97ff431bd8767e
     InstalledVersion: 3.9.19-8.el9_5.1
-    Status: affected
+    FixedVersion: 3.9.21-1.el9_5
+    Status: fixed
     Layer:
       Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
       DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
@@ -3454,13 +3498,16 @@
     PublishedDate: '2024-11-12T22:15:14.92Z'
     LastModifiedDate: '2024-12-03T21:15:05.47Z'
   - VulnerabilityID: CVE-2024-9287
+    VendorIDs:
+    - RHSA-2024:10983
     PkgID: python3@3.9.19-8.el9_5.1.x86_64
     PkgName: python3
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3@3.9.19-8.el9_5.1?arch=x86_64&distro=redhat-9.5
       UID: 1b97ff431bd8767e
     InstalledVersion: 3.9.19-8.el9_5.1
-    Status: under_investigation
+    FixedVersion: 3.9.21-1.el9_5
+    Status: fixed
     Layer:
       Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
       DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
@@ -3716,13 +3763,16 @@
     PublishedDate: '2021-02-15T13:15:12.433Z'
     LastModifiedDate: '2023-11-07T03:30:51.953Z'
   - VulnerabilityID: CVE-2024-11168
+    VendorIDs:
+    - RHSA-2024:10983
     PkgID: python3-libs@3.9.19-8.el9_5.1.x86_64
     PkgName: python3-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3-libs@3.9.19-8.el9_5.1?arch=x86_64&distro=redhat-9.5
       UID: 39b3fb94e34299e0
     InstalledVersion: 3.9.19-8.el9_5.1
-    Status: affected
+    FixedVersion: 3.9.21-1.el9_5
+    Status: fixed
     Layer:
       Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
       DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
@@ -3769,13 +3819,16 @@
     PublishedDate: '2024-11-12T22:15:14.92Z'
     LastModifiedDate: '2024-12-03T21:15:05.47Z'
   - VulnerabilityID: CVE-2024-9287
+    VendorIDs:
+    - RHSA-2024:10983
     PkgID: python3-libs@3.9.19-8.el9_5.1.x86_64
     PkgName: python3-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3-libs@3.9.19-8.el9_5.1?arch=x86_64&distro=redhat-9.5
       UID: 39b3fb94e34299e0
     InstalledVersion: 3.9.19-8.el9_5.1
-    Status: under_investigation
+    FixedVersion: 3.9.21-1.el9_5
+    Status: fixed
     Layer:
       Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
       DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
