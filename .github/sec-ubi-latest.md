@@ -2929,14 +2929,18 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-918 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ bitnami    : 1 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           L/A:N 
+│                       │      │                  │         ╰ V3Score : 3.7 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                            │           L/A:N 
+│                       │      │                            ╰ V3Score : 3.7 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10983 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-11168 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2321440 
@@ -2967,7 +2971,7 @@
 │                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
 │                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                       │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
-│                       │      ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
+│                       │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
 │                       ├ [56] ╭ VulnerabilityID : CVE-2024-9287 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:10983 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.19-8.el9_5.1.noarch 
@@ -3356,14 +3360,18 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-918 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ bitnami    : 1 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           L/A:N 
+│                       │      │                  │         ╰ V3Score : 3.7 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                            │           L/A:N 
+│                       │      │                            ╰ V3Score : 3.7 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10983 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-11168 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2321440 
@@ -3394,7 +3402,7 @@
 │                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
 │                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                       │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
-│                       │      ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
+│                       │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
 │                       ├ [61] ╭ VulnerabilityID : CVE-2024-9287 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:10983 
 │                       │      ├ PkgID           : python3@3.9.19-8.el9_5.1.x86_64 
@@ -3783,14 +3791,18 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-918 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ bitnami    : 1 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           L/A:N 
+│                       │      │                  │         ╰ V3Score : 3.7 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                            │           L/A:N 
+│                       │      │                            ╰ V3Score : 3.7 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10983 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-11168 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2321440 
@@ -3821,7 +3833,7 @@
 │                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
 │                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                       │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
-│                       │      ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
+│                       │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
 │                       ├ [66] ╭ VulnerabilityID : CVE-2024-9287 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:10983 
 │                       │      ├ PkgID           : python3-libs@3.9.19-8.el9_5.1.x86_64 
