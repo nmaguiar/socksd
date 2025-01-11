@@ -466,6 +466,7 @@
     CweIDs:
     - CWE-697
     VendorSeverity:
+      amazon: 2
       nvd: 2
       photon: 2
       redhat: 1
@@ -905,6 +906,7 @@
     CweIDs:
     - CWE-697
     VendorSeverity:
+      amazon: 2
       nvd: 2
       photon: 2
       redhat: 1
