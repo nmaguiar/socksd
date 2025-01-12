@@ -2616,7 +2616,7 @@
 │                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6616-1 
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
 │                       │      ├ PublishedDate   : 2023-05-30T22:15:10.613Z 
-│                       │      ╰ LastModifiedDate: 2023-08-02T16:46:03.663Z 
+│                       │      ╰ LastModifiedDate: 2025-01-10T22:15:23.557Z 
 │                       ├ [51] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : openssl@3.2.2-6.el9_5.x86_64 
 │                       │      ├ PkgName         : openssl 
