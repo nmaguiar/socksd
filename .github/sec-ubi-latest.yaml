@@ -352,6 +352,8 @@
       omits both login and password.
     Severity: LOW
     VendorSeverity:
+      azure: 3
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -792,6 +794,8 @@
       omits both login and password.
     Severity: LOW
     VendorSeverity:
+      azure: 3
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 1
     CVSS:
