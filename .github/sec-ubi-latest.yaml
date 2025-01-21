@@ -2569,6 +2569,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
+    - https://ubuntu.com/security/notices/USN-7218-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11168
     PublishedDate: '2024-11-12T22:15:14.92Z'
     LastModifiedDate: '2025-01-06T18:15:17.9Z'
@@ -2893,6 +2894,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
+    - https://ubuntu.com/security/notices/USN-7218-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11168
     PublishedDate: '2024-11-12T22:15:14.92Z'
     LastModifiedDate: '2025-01-06T18:15:17.9Z'
@@ -3217,6 +3219,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
+    - https://ubuntu.com/security/notices/USN-7218-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11168
     PublishedDate: '2024-11-12T22:15:14.92Z'
     LastModifiedDate: '2025-01-06T18:15:17.9Z'
