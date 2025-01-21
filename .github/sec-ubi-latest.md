@@ -2975,7 +2975,8 @@
 │                       │      │                  │       ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
 │                       │      │                  │       / 
 │                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7218-1 
+│                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                       │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                       │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
 │                       ├ [56] ╭ VulnerabilityID : CVE-2024-9287 
@@ -3406,7 +3407,8 @@
 │                       │      │                  │       ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
 │                       │      │                  │       / 
 │                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7218-1 
+│                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                       │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                       │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
 │                       ├ [61] ╭ VulnerabilityID : CVE-2024-9287 
@@ -3837,7 +3839,8 @@
 │                       │      │                  │       ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
 │                       │      │                  │       / 
 │                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7218-1 
+│                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                       │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                       │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
 │                       ├ [66] ╭ VulnerabilityID : CVE-2024-9287 
