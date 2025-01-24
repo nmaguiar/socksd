@@ -733,6 +733,44 @@
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
     PublishedDate: '2024-04-16T22:15:29.857Z'
     LastModifiedDate: '2024-07-03T01:46:32.57Z'
+  - VulnerabilityID: CVE-2025-21502
+    VendorIDs:
+    - RHSA-2025:0426
+    PkgID: java-21-openjdk-headless@21.0.5.0.11-2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.5.0.11-2.el9?arch=x86_64&distro=redhat-9.5&epoch=1
+      UID: 36e349fd789af6d0
+    InstalledVersion: 1:21.0.5.0.11-2.el9
+    FixedVersion: 1:21.0.6.0.7-1.el9
+    Status: fixed
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-21502
+    Title: 'JDK: Enhance array handling (Oracle CPU 2025-01)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u431-perf, 11.0.25, 17.0.13, 21.0.5, 23.0.1; Oracle GraalVM for JDK: 17.0.13, 21.0.5, 23.0.1; Oracle GraalVM Enterprise Edition: 20.3.16 and  21.3.12. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-863
+    VendorSeverity:
+      oracle-oval: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-21502
+    - https://linux.oracle.com/cve/CVE-2025-21502.html
+    - https://linux.oracle.com/errata/ELSA-2025-0422.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-21502
+    - https://www.cve.org/CVERecord?id=CVE-2025-21502
+    - https://www.oracle.com/security-alerts/cpujan2025.html
+    - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixJAVA
+    PublishedDate: '2025-01-21T21:15:15.18Z'
+    LastModifiedDate: '2025-01-23T17:15:23.83Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
