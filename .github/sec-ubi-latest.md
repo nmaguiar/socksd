@@ -433,7 +433,9 @@
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7162-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujan2025.html
+│                       │      │                         #AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                       │      ╰ LastModifiedDate: 2024-12-15T17:15:05.273Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-7264 
@@ -898,7 +900,7 @@
 │                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-21502 
 │                       │      │                  ├ [1]: https://linux.oracle.com/cve/CVE-2025-21502.html 
-│                       │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2025-0422.html 
+│                       │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2025-0426.html 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-21502 
 │                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-21502 
 │                       │      │                  ├ [5]: https://www.oracle.com/security-alerts/cpujan2025.html 
@@ -990,7 +992,9 @@
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7162-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujan2025.html
+│                       │      │                         #AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                       │      ╰ LastModifiedDate: 2024-12-15T17:15:05.273Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2024-7264 
@@ -3244,9 +3248,11 @@
 │                       │      │                  │       ce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK
 │                       │      │                  │       / 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-7592 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7015-1 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7015-2 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20241018-00
+│                       │      │                  │       06/ 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7015-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-2 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T21:15:14.643Z 
 │                       ├ [60] ╭ VulnerabilityID : CVE-2021-23336 
@@ -3676,9 +3682,11 @@
 │                       │      │                  │       ce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK
 │                       │      │                  │       / 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-7592 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7015-1 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7015-2 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20241018-00
+│                       │      │                  │       06/ 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7015-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-2 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T21:15:14.643Z 
 │                       ├ [65] ╭ VulnerabilityID : CVE-2021-23336 
@@ -4108,9 +4116,11 @@
 │                       │      │                  │       ce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK
 │                       │      │                  │       / 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-7592 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7015-1 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7015-2 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20241018-00
+│                       │      │                  │       06/ 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7015-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-2 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T21:15:14.643Z 
 │                       ├ [70] ╭ VulnerabilityID : CVE-2021-3572 
@@ -4257,8 +4267,12 @@
 │                       │      │                            ╰ V3Score : 4.7 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-0232 
 │                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2243754 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-0232 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
+│                       │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/package-
+│                       │      │                  │      announce@lists.fedoraproject.org/message/QDCMYQ3J45NHQ
+│                       │      │                  │      4EJREM3BJNNKB5BK4Y7/ 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-0232 
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20240315-0007/ 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
 │                       │      ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │      ╰ LastModifiedDate: 2024-09-28T04:15:07.23Z 
 │                       ├ [73] ╭ VulnerabilityID : CVE-2021-3997 
