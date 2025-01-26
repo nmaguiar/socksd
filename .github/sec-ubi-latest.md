@@ -432,12 +432,13 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7162-1 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
-│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujan2025.html
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250124-0012/ 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7162-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpujan2025.html
 │                       │      │                         #AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
-│                       │      ╰ LastModifiedDate: 2024-12-15T17:15:05.273Z 
+│                       │      ╰ LastModifiedDate: 2025-01-24T20:15:31.92Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-7264 
 │                       │      ├ PkgID           : curl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : curl-minimal 
@@ -902,12 +903,13 @@
 │                       │      │                  ├ [1]: https://linux.oracle.com/cve/CVE-2025-21502.html 
 │                       │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2025-0426.html 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-21502 
-│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-21502 
-│                       │      │                  ├ [5]: https://www.oracle.com/security-alerts/cpujan2025.html 
-│                       │      │                  ╰ [6]: https://www.oracle.com/security-alerts/cpujan2025.html
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250124-0009/ 
+│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-21502 
+│                       │      │                  ├ [6]: https://www.oracle.com/security-alerts/cpujan2025.html 
+│                       │      │                  ╰ [7]: https://www.oracle.com/security-alerts/cpujan2025.html
 │                       │      │                         #AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-01-21T21:15:15.18Z 
-│                       │      ╰ LastModifiedDate: 2025-01-23T17:15:23.83Z 
+│                       │      ╰ LastModifiedDate: 2025-01-24T20:15:34.5Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │      ├ PkgName         : libarchive 
@@ -991,12 +993,13 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7162-1 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
-│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujan2025.html
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250124-0012/ 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7162-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpujan2025.html
 │                       │      │                         #AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
-│                       │      ╰ LastModifiedDate: 2024-12-15T17:15:05.273Z 
+│                       │      ╰ LastModifiedDate: 2025-01-24T20:15:31.92Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2024-7264 
 │                       │      ├ PkgID           : libcurl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : libcurl-minimal 
@@ -2998,6 +3001,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-918 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 1 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -3073,6 +3077,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-428 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -3432,6 +3437,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-918 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 1 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -3507,6 +3513,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-428 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -3866,6 +3873,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-918 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 1 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -3941,6 +3949,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-428 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
