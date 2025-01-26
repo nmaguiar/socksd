@@ -367,11 +367,12 @@
     - https://curl.se/docs/CVE-2024-11053.json
     - https://hackerone.com/reports/2829063
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
+    - https://security.netapp.com/advisory/ntap-20250124-0012/
     - https://ubuntu.com/security/notices/USN-7162-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
-    LastModifiedDate: '2024-12-15T17:15:05.273Z'
+    LastModifiedDate: '2025-01-24T20:15:31.92Z'
   - VulnerabilityID: CVE-2024-7264
     PkgID: curl-minimal@7.76.1-31.el9.x86_64
     PkgName: curl-minimal
@@ -767,11 +768,12 @@
     - https://linux.oracle.com/cve/CVE-2025-21502.html
     - https://linux.oracle.com/errata/ELSA-2025-0426.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-21502
+    - https://security.netapp.com/advisory/ntap-20250124-0009/
     - https://www.cve.org/CVERecord?id=CVE-2025-21502
     - https://www.oracle.com/security-alerts/cpujan2025.html
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixJAVA
     PublishedDate: '2025-01-21T21:15:15.18Z'
-    LastModifiedDate: '2025-01-23T17:15:23.83Z'
+    LastModifiedDate: '2025-01-24T20:15:34.5Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -848,11 +850,12 @@
     - https://curl.se/docs/CVE-2024-11053.json
     - https://hackerone.com/reports/2829063
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
+    - https://security.netapp.com/advisory/ntap-20250124-0012/
     - https://ubuntu.com/security/notices/USN-7162-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
-    LastModifiedDate: '2024-12-15T17:15:05.273Z'
+    LastModifiedDate: '2025-01-24T20:15:31.92Z'
   - VulnerabilityID: CVE-2024-7264
     PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
     PkgName: libcurl-minimal
@@ -2575,6 +2578,7 @@
     - CWE-918
     VendorSeverity:
       alma: 2
+      amazon: 2
       bitnami: 1
       cbl-mariner: 2
       oracle-oval: 2
@@ -2636,6 +2640,7 @@
     - CWE-428
     VendorSeverity:
       alma: 2
+      amazon: 3
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -2901,6 +2906,7 @@
     - CWE-918
     VendorSeverity:
       alma: 2
+      amazon: 2
       bitnami: 1
       cbl-mariner: 2
       oracle-oval: 2
@@ -2962,6 +2968,7 @@
     - CWE-428
     VendorSeverity:
       alma: 2
+      amazon: 3
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -3227,6 +3234,7 @@
     - CWE-918
     VendorSeverity:
       alma: 2
+      amazon: 2
       bitnami: 1
       cbl-mariner: 2
       oracle-oval: 2
@@ -3288,6 +3296,7 @@
     - CWE-428
     VendorSeverity:
       alma: 2
+      amazon: 3
       oracle-oval: 2
       redhat: 2
       rocky: 2
