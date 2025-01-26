@@ -432,12 +432,13 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7162-1 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
-│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujan2025.html
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250124-0012/ 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7162-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpujan2025.html
 │                       │      │                         #AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
-│                       │      ╰ LastModifiedDate: 2024-12-15T17:15:05.273Z 
+│                       │      ╰ LastModifiedDate: 2025-01-24T20:15:31.92Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-7264 
 │                       │      ├ PkgID           : curl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : curl-minimal 
@@ -932,12 +933,13 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7162-1 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
-│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujan2025.html
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250124-0012/ 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7162-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpujan2025.html
 │                       │      │                         #AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
-│                       │      ╰ LastModifiedDate: 2024-12-15T17:15:05.273Z 
+│                       │      ╰ LastModifiedDate: 2025-01-24T20:15:31.92Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2024-7264 
 │                       │      ├ PkgID           : libcurl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : libcurl-minimal 
