@@ -894,22 +894,27 @@
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-863 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-21502 
-│                       │      │                  ├ [1]: https://linux.oracle.com/cve/CVE-2025-21502.html 
-│                       │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2025-0426.html 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-21502 
-│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250124-0009/ 
-│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-21502 
-│                       │      │                  ├ [6]: https://www.oracle.com/security-alerts/cpujan2025.html 
-│                       │      │                  ╰ [7]: https://www.oracle.com/security-alerts/cpujan2025.html
-│                       │      │                         #AppendixJAVA 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/01/25/6 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:0426 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-21502 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-0426.html 
+│                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-21502.html 
+│                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-0426.html 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-21502 
+│                       │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-20250124-00
+│                       │      │                  │       09/ 
+│                       │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-21502 
+│                       │      │                  ├ [9] : https://www.oracle.com/security-alerts/cpujan2025.html 
+│                       │      │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujan2025.htm
+│                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-01-21T21:15:15.18Z 
-│                       │      ╰ LastModifiedDate: 2025-01-24T20:15:34.5Z 
+│                       │      ╰ LastModifiedDate: 2025-01-25T18:15:26.79Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │      ├ PkgName         : libarchive 
