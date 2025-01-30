@@ -171,7 +171,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      alma: 1
+      alma: 2
       amazon: 1
       cbl-mariner: 4
       nvd: 4
@@ -196,13 +196,13 @@
     - http://lists.opensuse.org/opensuse-security-announce/2019-12/msg00000.html
     - http://packetstormsecurity.com/files/153644/Slackware-Security-Advisory-bzip2-Updates.html
     - http://packetstormsecurity.com/files/153957/FreeBSD-Security-Advisory-FreeBSD-SA-19-18.bzip2.html
-    - https://access.redhat.com/errata/RHSA-2024:8922
+    - https://access.redhat.com/errata/RHSA-2025:0733
     - https://access.redhat.com/security/cve/CVE-2019-12900
     - https://bugs.launchpad.net/ubuntu/+source/bzip2/+bug/1834494
-    - https://bugzilla.redhat.com/1724459
+    - https://bugzilla.redhat.com/2332075
     - https://bugzilla.redhat.com/show_bug.cgi?id=1724459
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12900
-    - https://errata.almalinux.org/8/ALSA-2024-8922.html
+    - https://errata.almalinux.org/8/ALSA-2025-0733.html
     - https://errata.rockylinux.org/RLSA-2024:8922
     - https://gitlab.com/federicomenaquintero/bzip2/commit/74de1e2e6ffc9d51ef9824db71a8ffee5962cdbc
     - https://linux.oracle.com/cve/CVE-2019-12900.html
@@ -471,6 +471,7 @@
     - CWE-697
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 1
@@ -494,6 +495,474 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-12-13T14:15:22.953Z'
+  - VulnerabilityID: CVE-2022-22822
+    PkgID: expat@2.5.0-3.el9_5.1.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-3.el9_5.1?arch=x86_64&distro=redhat-9.5
+      UID: 3c62e9e8bc338adf
+    InstalledVersion: 2.5.0-3.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-22822
+    Title: 'expat: Integer overflow in addBinding in xmlparse.c'
+    Description: addBinding in xmlparse.c in Expat (aka libexpat) before 2.4.3 has an integer overflow.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      alma: 2
+      amazon: 4
+      cbl-mariner: 4
+      nvd: 4
+      oracle-oval: 2
+      photon: 4
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:L/Au:N/C:P/I:P/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V2Score: 7.5
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2022/01/17/3
+    - https://access.redhat.com/errata/RHSA-2022:7692
+    - https://access.redhat.com/security/cve/CVE-2022-22822
+    - https://bugzilla.redhat.com/2044455
+    - https://bugzilla.redhat.com/2044457
+    - https://bugzilla.redhat.com/2044464
+    - https://bugzilla.redhat.com/2044467
+    - https://bugzilla.redhat.com/2044479
+    - https://bugzilla.redhat.com/2044484
+    - https://bugzilla.redhat.com/2044488
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044455
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044457
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044464
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044467
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044479
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044484
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044488
+    - https://cert-portal.siemens.com/productcert/pdf/ssa-484086.pdf
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22822
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22823
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22824
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22825
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22826
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22827
+    - https://errata.almalinux.org/8/ALSA-2022-7692.html
+    - https://errata.rockylinux.org/RLSA-2022:7692
+    - https://github.com/libexpat/libexpat/pull/539
+    - https://linux.oracle.com/cve/CVE-2022-22822.html
+    - https://linux.oracle.com/errata/ELSA-2022-7692.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-22822
+    - https://security.gentoo.org/glsa/202209-24
+    - https://ubuntu.com/security/notices/USN-5288-1
+    - https://ubuntu.com/security/notices/USN-5455-1
+    - https://ubuntu.com/security/notices/USN-7199-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-22822
+    - https://www.debian.org/security/2022/dsa-5073
+    - https://www.tenable.com/security/tns-2022-05
+    PublishedDate: '2022-01-10T14:12:56.047Z'
+    LastModifiedDate: '2022-10-06T15:29:48.27Z'
+  - VulnerabilityID: CVE-2022-22823
+    PkgID: expat@2.5.0-3.el9_5.1.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-3.el9_5.1?arch=x86_64&distro=redhat-9.5
+      UID: 3c62e9e8bc338adf
+    InstalledVersion: 2.5.0-3.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-22823
+    Title: 'expat: Integer overflow in build_model in xmlparse.c'
+    Description: build_model in xmlparse.c in Expat (aka libexpat) before 2.4.3 has an integer overflow.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      alma: 2
+      amazon: 4
+      cbl-mariner: 4
+      nvd: 4
+      oracle-oval: 2
+      photon: 4
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:L/Au:N/C:P/I:P/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V2Score: 7.5
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2022/01/17/3
+    - https://access.redhat.com/errata/RHSA-2022:7692
+    - https://access.redhat.com/security/cve/CVE-2022-22823
+    - https://bugzilla.redhat.com/2044455
+    - https://bugzilla.redhat.com/2044457
+    - https://bugzilla.redhat.com/2044464
+    - https://bugzilla.redhat.com/2044467
+    - https://bugzilla.redhat.com/2044479
+    - https://bugzilla.redhat.com/2044484
+    - https://bugzilla.redhat.com/2044488
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044455
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044457
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044464
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044467
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044479
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044484
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044488
+    - https://cert-portal.siemens.com/productcert/pdf/ssa-484086.pdf
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22822
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22823
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22824
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22825
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22826
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22827
+    - https://errata.almalinux.org/8/ALSA-2022-7692.html
+    - https://errata.rockylinux.org/RLSA-2022:7692
+    - https://github.com/libexpat/libexpat/pull/539
+    - https://linux.oracle.com/cve/CVE-2022-22823.html
+    - https://linux.oracle.com/errata/ELSA-2022-7692.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-22823
+    - https://security.gentoo.org/glsa/202209-24
+    - https://ubuntu.com/security/notices/USN-5288-1
+    - https://ubuntu.com/security/notices/USN-5455-1
+    - https://ubuntu.com/security/notices/USN-7199-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-22823
+    - https://www.debian.org/security/2022/dsa-5073
+    - https://www.tenable.com/security/tns-2022-05
+    PublishedDate: '2022-01-10T14:12:56.27Z'
+    LastModifiedDate: '2022-10-06T14:47:42.973Z'
+  - VulnerabilityID: CVE-2022-22824
+    PkgID: expat@2.5.0-3.el9_5.1.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-3.el9_5.1?arch=x86_64&distro=redhat-9.5
+      UID: 3c62e9e8bc338adf
+    InstalledVersion: 2.5.0-3.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-22824
+    Title: 'expat: Integer overflow in defineAttribute in xmlparse.c'
+    Description: defineAttribute in xmlparse.c in Expat (aka libexpat) before 2.4.3 has an integer overflow.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      alma: 2
+      amazon: 4
+      cbl-mariner: 4
+      nvd: 4
+      oracle-oval: 2
+      photon: 4
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:L/Au:N/C:P/I:P/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V2Score: 7.5
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2022/01/17/3
+    - https://access.redhat.com/errata/RHSA-2022:7692
+    - https://access.redhat.com/security/cve/CVE-2022-22824
+    - https://bugzilla.redhat.com/2044455
+    - https://bugzilla.redhat.com/2044457
+    - https://bugzilla.redhat.com/2044464
+    - https://bugzilla.redhat.com/2044467
+    - https://bugzilla.redhat.com/2044479
+    - https://bugzilla.redhat.com/2044484
+    - https://bugzilla.redhat.com/2044488
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044455
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044457
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044464
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044467
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044479
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044484
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044488
+    - https://cert-portal.siemens.com/productcert/pdf/ssa-484086.pdf
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22822
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22823
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22824
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22825
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22826
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22827
+    - https://errata.almalinux.org/8/ALSA-2022-7692.html
+    - https://errata.rockylinux.org/RLSA-2022:7692
+    - https://github.com/libexpat/libexpat/pull/539
+    - https://linux.oracle.com/cve/CVE-2022-22824.html
+    - https://linux.oracle.com/errata/ELSA-2022-7692.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-22824
+    - https://security.gentoo.org/glsa/202209-24
+    - https://ubuntu.com/security/notices/USN-5288-1
+    - https://ubuntu.com/security/notices/USN-5455-1
+    - https://ubuntu.com/security/notices/USN-7199-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-22824
+    - https://www.debian.org/security/2022/dsa-5073
+    - https://www.tenable.com/security/tns-2022-05
+    PublishedDate: '2022-01-10T14:12:56.567Z'
+    LastModifiedDate: '2022-10-06T14:47:33.437Z'
+  - VulnerabilityID: CVE-2022-22825
+    PkgID: expat@2.5.0-3.el9_5.1.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-3.el9_5.1?arch=x86_64&distro=redhat-9.5
+      UID: 3c62e9e8bc338adf
+    InstalledVersion: 2.5.0-3.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-22825
+    Title: 'expat: Integer overflow in lookup in xmlparse.c'
+    Description: lookup in xmlparse.c in Expat (aka libexpat) before 2.4.3 has an integer overflow.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      alma: 2
+      amazon: 4
+      cbl-mariner: 3
+      nvd: 3
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V2Score: 6.8
+        V3Score: 8.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2022/01/17/3
+    - https://access.redhat.com/errata/RHSA-2022:7692
+    - https://access.redhat.com/security/cve/CVE-2022-22825
+    - https://bugzilla.redhat.com/2044455
+    - https://bugzilla.redhat.com/2044457
+    - https://bugzilla.redhat.com/2044464
+    - https://bugzilla.redhat.com/2044467
+    - https://bugzilla.redhat.com/2044479
+    - https://bugzilla.redhat.com/2044484
+    - https://bugzilla.redhat.com/2044488
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044455
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044457
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044464
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044467
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044479
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044484
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044488
+    - https://cert-portal.siemens.com/productcert/pdf/ssa-484086.pdf
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22822
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22823
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22824
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22825
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22826
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22827
+    - https://errata.almalinux.org/8/ALSA-2022-7692.html
+    - https://errata.rockylinux.org/RLSA-2022:7692
+    - https://github.com/libexpat/libexpat/pull/539
+    - https://linux.oracle.com/cve/CVE-2022-22825.html
+    - https://linux.oracle.com/errata/ELSA-2022-7692.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-22825
+    - https://security.gentoo.org/glsa/202209-24
+    - https://ubuntu.com/security/notices/USN-5288-1
+    - https://ubuntu.com/security/notices/USN-5455-1
+    - https://ubuntu.com/security/notices/USN-7199-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-22825
+    - https://www.debian.org/security/2022/dsa-5073
+    - https://www.tenable.com/security/tns-2022-05
+    PublishedDate: '2022-01-10T14:12:56.847Z'
+    LastModifiedDate: '2022-10-06T14:47:18.037Z'
+  - VulnerabilityID: CVE-2022-22826
+    PkgID: expat@2.5.0-3.el9_5.1.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-3.el9_5.1?arch=x86_64&distro=redhat-9.5
+      UID: 3c62e9e8bc338adf
+    InstalledVersion: 2.5.0-3.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-22826
+    Title: 'expat: Integer overflow in nextScaffoldPart in xmlparse.c'
+    Description: nextScaffoldPart in xmlparse.c in Expat (aka libexpat) before 2.4.3 has an integer overflow.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      alma: 2
+      amazon: 4
+      cbl-mariner: 3
+      nvd: 3
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V2Score: 6.8
+        V3Score: 8.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2022/01/17/3
+    - https://access.redhat.com/errata/RHSA-2022:7692
+    - https://access.redhat.com/security/cve/CVE-2022-22826
+    - https://bugzilla.redhat.com/2044455
+    - https://bugzilla.redhat.com/2044457
+    - https://bugzilla.redhat.com/2044464
+    - https://bugzilla.redhat.com/2044467
+    - https://bugzilla.redhat.com/2044479
+    - https://bugzilla.redhat.com/2044484
+    - https://bugzilla.redhat.com/2044488
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044455
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044457
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044464
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044467
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044479
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044484
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044488
+    - https://cert-portal.siemens.com/productcert/pdf/ssa-484086.pdf
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22822
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22823
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22824
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22825
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22826
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22827
+    - https://errata.almalinux.org/8/ALSA-2022-7692.html
+    - https://errata.rockylinux.org/RLSA-2022:7692
+    - https://github.com/libexpat/libexpat/pull/539
+    - https://linux.oracle.com/cve/CVE-2022-22826.html
+    - https://linux.oracle.com/errata/ELSA-2022-7692.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-22826
+    - https://security.gentoo.org/glsa/202209-24
+    - https://ubuntu.com/security/notices/USN-5288-1
+    - https://ubuntu.com/security/notices/USN-5455-1
+    - https://ubuntu.com/security/notices/USN-7199-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-22826
+    - https://www.debian.org/security/2022/dsa-5073
+    - https://www.tenable.com/security/tns-2022-05
+    PublishedDate: '2022-01-10T14:12:57.113Z'
+    LastModifiedDate: '2022-10-06T12:44:28.107Z'
+  - VulnerabilityID: CVE-2022-22827
+    PkgID: expat@2.5.0-3.el9_5.1.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-3.el9_5.1?arch=x86_64&distro=redhat-9.5
+      UID: 3c62e9e8bc338adf
+    InstalledVersion: 2.5.0-3.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-22827
+    Title: 'expat: Integer overflow in storeAtts in xmlparse.c'
+    Description: storeAtts in xmlparse.c in Expat (aka libexpat) before 2.4.3 has an integer overflow.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      alma: 2
+      amazon: 4
+      cbl-mariner: 3
+      nvd: 3
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V2Score: 6.8
+        V3Score: 8.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2022/01/17/3
+    - https://access.redhat.com/errata/RHSA-2022:7692
+    - https://access.redhat.com/security/cve/CVE-2022-22827
+    - https://bugzilla.redhat.com/2044455
+    - https://bugzilla.redhat.com/2044457
+    - https://bugzilla.redhat.com/2044464
+    - https://bugzilla.redhat.com/2044467
+    - https://bugzilla.redhat.com/2044479
+    - https://bugzilla.redhat.com/2044484
+    - https://bugzilla.redhat.com/2044488
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044455
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044457
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044464
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044467
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044479
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044484
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2044488
+    - https://cert-portal.siemens.com/productcert/pdf/ssa-484086.pdf
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22822
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22823
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22824
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22825
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22826
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22827
+    - https://errata.almalinux.org/8/ALSA-2022-7692.html
+    - https://errata.rockylinux.org/RLSA-2022:7692
+    - https://github.com/libexpat/libexpat/pull/539
+    - https://linux.oracle.com/cve/CVE-2022-22827.html
+    - https://linux.oracle.com/errata/ELSA-2022-7692.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-22827
+    - https://security.gentoo.org/glsa/202209-24
+    - https://ubuntu.com/security/notices/USN-5288-1
+    - https://ubuntu.com/security/notices/USN-5455-1
+    - https://ubuntu.com/security/notices/USN-7199-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-22827
+    - https://www.debian.org/security/2022/dsa-5073
+    - https://www.tenable.com/security/tns-2022-05
+    PublishedDate: '2022-01-10T14:12:57.363Z'
+    LastModifiedDate: '2022-10-06T12:52:17.23Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -631,6 +1100,114 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-32636
     PublishedDate: '2023-09-14T20:15:09.653Z'
     LastModifiedDate: '2024-01-12T22:09:56.247Z'
+  - VulnerabilityID: CVE-2025-0395
+    PkgID: glibc@2.34-125.el9_5.1.x86_64
+    PkgName: glibc
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc@2.34-125.el9_5.1?arch=x86_64&distro=redhat-9.5
+      UID: 6f2a007a5c942092
+    InstalledVersion: 2.34-125.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0395
+    Title: 'glibc: buffer overflow in the GNU C Library''s assert()'
+    Description: When the assert() function in the GNU C Library versions 2.13 to 2.40 fails, it does not allocate enough space for the assertion failure message string and size information, which may lead to a buffer overflow if the message string size aligns to page size.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-131
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/22/4
+    - http://www.openwall.com/lists/oss-security/2025/01/23/2
+    - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2025-0001
+    - https://sourceware.org/pipermail/libc-announce/2025/000044.html
+    - https://www.cve.org/CVERecord?id=CVE-2025-0395
+    - https://www.openwall.com/lists/oss-security/2025/01/22/4
+    PublishedDate: '2025-01-22T13:15:20.933Z'
+    LastModifiedDate: '2025-01-23T18:15:32.983Z'
+  - VulnerabilityID: CVE-2025-0395
+    PkgID: glibc-common@2.34-125.el9_5.1.x86_64
+    PkgName: glibc-common
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-common@2.34-125.el9_5.1?arch=x86_64&distro=redhat-9.5
+      UID: e5247c6f477e75ab
+    InstalledVersion: 2.34-125.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0395
+    Title: 'glibc: buffer overflow in the GNU C Library''s assert()'
+    Description: When the assert() function in the GNU C Library versions 2.13 to 2.40 fails, it does not allocate enough space for the assertion failure message string and size information, which may lead to a buffer overflow if the message string size aligns to page size.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-131
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/22/4
+    - http://www.openwall.com/lists/oss-security/2025/01/23/2
+    - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2025-0001
+    - https://sourceware.org/pipermail/libc-announce/2025/000044.html
+    - https://www.cve.org/CVERecord?id=CVE-2025-0395
+    - https://www.openwall.com/lists/oss-security/2025/01/22/4
+    PublishedDate: '2025-01-22T13:15:20.933Z'
+    LastModifiedDate: '2025-01-23T18:15:32.983Z'
+  - VulnerabilityID: CVE-2025-0395
+    PkgID: glibc-minimal-langpack@2.34-125.el9_5.1.x86_64
+    PkgName: glibc-minimal-langpack
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-125.el9_5.1?arch=x86_64&distro=redhat-9.5
+      UID: f4ee4b48cd4b4aa3
+    InstalledVersion: 2.34-125.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0395
+    Title: 'glibc: buffer overflow in the GNU C Library''s assert()'
+    Description: When the assert() function in the GNU C Library versions 2.13 to 2.40 fails, it does not allocate enough space for the assertion failure message string and size information, which may lead to a buffer overflow if the message string size aligns to page size.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-131
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/22/4
+    - http://www.openwall.com/lists/oss-security/2025/01/23/2
+    - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2025-0001
+    - https://sourceware.org/pipermail/libc-announce/2025/000044.html
+    - https://www.cve.org/CVERecord?id=CVE-2025-0395
+    - https://www.openwall.com/lists/oss-security/2025/01/22/4
+    PublishedDate: '2025-01-22T13:15:20.933Z'
+    LastModifiedDate: '2025-01-23T18:15:32.983Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -958,6 +1535,7 @@
     - CWE-697
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 1
@@ -988,7 +1566,7 @@
       PURL: pkg:rpm/redhat/libgcc@11.5.0-2.el9?arch=x86_64&distro=redhat-9.5
       UID: ce859a6e06e9cb00
     InstalledVersion: 11.5.0-2.el9
-    Status: will_not_fix
+    Status: affected
     Layer:
       Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
       DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
@@ -1033,7 +1611,7 @@
       PURL: pkg:rpm/redhat/libstdc%2B%2B@11.5.0-2.el9?arch=x86_64&distro=redhat-9.5
       UID: 2defde911a3a950b
     InstalledVersion: 11.5.0-2.el9
-    Status: will_not_fix
+    Status: affected
     Layer:
       Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
       DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
@@ -1071,6 +1649,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2023-11-07T03:45:32.64Z'
+  - VulnerabilityID: CVE-2022-49043
+    PkgID: libxml2@2.9.13-6.el9_4.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_4?arch=x86_64&distro=redhat-9.5
+      UID: e8beeb5c70b72452
+    InstalledVersion: 2.9.13-6.el9_4
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-49043
+    Title: 'libxml: use-after-free in xmlXIncludeAddNode'
+    Description: xmlXIncludeAddNode in xinclude.c in libxml2 before 2.11.0 has a use-after-free.
+    Severity: HIGH
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-49043
+    - https://github.com/php/php-src/issues/17467
+    - https://gitlab.gnome.org/GNOME/libxml2/-/commit/5a19e21605398cef6a8b1452477a8705cb41562b
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-49043
+    - https://www.cve.org/CVERecord?id=CVE-2022-49043
+    PublishedDate: '2025-01-26T06:15:21Z'
+    LastModifiedDate: '2025-01-26T06:15:21Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-6.el9_4.x86_64
     PkgName: libxml2
@@ -2312,6 +2922,62 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-2953
     PublishedDate: '2023-05-30T22:15:10.613Z'
     LastModifiedDate: '2025-01-10T22:15:23.557Z'
+  - VulnerabilityID: CVE-2024-13176
+    PkgID: openssl@3.2.2-6.el9_5.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.2.2-6.el9_5?arch=x86_64&distro=redhat-9.5&epoch=1
+      UID: d5e411bc767b0cf7
+    InstalledVersion: 1:3.2.2-6.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-13176
+    Title: 'openssl: Timing side-channel in ECDSA signature computation'
+    Description: |-
+      Issue summary: A timing side-channel which could potentially allow recovering
+      the private key exists in the ECDSA signature computation.
+
+      Impact summary: A timing side-channel in ECDSA signature computations
+      could allow recovering the private key by an attacker. However, measuring
+      the timing would require either local access to the signing application or
+      a very fast network connection with low latency.
+
+      There is a timing signal of around 300 nanoseconds when the top word of
+      the inverted ECDSA nonce value is zero. This can happen with significant
+      probability only for some of the supported elliptic curves. In particular
+      the NIST P-521 curve is affected. To be able to measure this leak, the attacker
+      process must either be located in the same physical computer or must
+      have a very fast network connection with low latency. For that reason
+      the severity of this vulnerability is Low.
+    Severity: LOW
+    CweIDs:
+    - CWE-385
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/20/2
+    - https://access.redhat.com/security/cve/CVE-2024-13176
+    - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
+    - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
+    - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
+    - https://github.com/openssl/openssl/commit/4b1cb94a734a7d4ec363ac0a215a25c181e11f65
+    - https://github.com/openssl/openssl/commit/77c608f4c8857e63e98e66444e2e761c9627916f
+    - https://github.openssl.org/openssl/extended-releases/commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded
+    - https://github.openssl.org/openssl/extended-releases/commit/a2639000db19878d5d89586ae7b725080592ae86
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
+    - https://openssl-library.org/news/secadv/20250120.txt
+    - https://security.netapp.com/advisory/ntap-20250124-0005/
+    - https://www.cve.org/CVERecord?id=CVE-2024-13176
+    PublishedDate: '2025-01-20T14:15:26.247Z'
+    LastModifiedDate: '2025-01-27T21:15:11.907Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: openssl@3.2.2-6.el9_5.x86_64
     PkgName: openssl
@@ -2350,6 +3016,62 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
+  - VulnerabilityID: CVE-2024-13176
+    PkgID: openssl-libs@3.2.2-6.el9_5.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5?arch=x86_64&distro=redhat-9.5&epoch=1
+      UID: 7fb933d045d8068d
+    InstalledVersion: 1:3.2.2-6.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-13176
+    Title: 'openssl: Timing side-channel in ECDSA signature computation'
+    Description: |-
+      Issue summary: A timing side-channel which could potentially allow recovering
+      the private key exists in the ECDSA signature computation.
+
+      Impact summary: A timing side-channel in ECDSA signature computations
+      could allow recovering the private key by an attacker. However, measuring
+      the timing would require either local access to the signing application or
+      a very fast network connection with low latency.
+
+      There is a timing signal of around 300 nanoseconds when the top word of
+      the inverted ECDSA nonce value is zero. This can happen with significant
+      probability only for some of the supported elliptic curves. In particular
+      the NIST P-521 curve is affected. To be able to measure this leak, the attacker
+      process must either be located in the same physical computer or must
+      have a very fast network connection with low latency. For that reason
+      the severity of this vulnerability is Low.
+    Severity: LOW
+    CweIDs:
+    - CWE-385
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/20/2
+    - https://access.redhat.com/security/cve/CVE-2024-13176
+    - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
+    - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
+    - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
+    - https://github.com/openssl/openssl/commit/4b1cb94a734a7d4ec363ac0a215a25c181e11f65
+    - https://github.com/openssl/openssl/commit/77c608f4c8857e63e98e66444e2e761c9627916f
+    - https://github.openssl.org/openssl/extended-releases/commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded
+    - https://github.openssl.org/openssl/extended-releases/commit/a2639000db19878d5d89586ae7b725080592ae86
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
+    - https://openssl-library.org/news/secadv/20250120.txt
+    - https://security.netapp.com/advisory/ntap-20250124-0005/
+    - https://www.cve.org/CVERecord?id=CVE-2024-13176
+    PublishedDate: '2025-01-20T14:15:26.247Z'
+    LastModifiedDate: '2025-01-27T21:15:11.907Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: openssl-libs@3.2.2-6.el9_5.x86_64
     PkgName: openssl-libs
