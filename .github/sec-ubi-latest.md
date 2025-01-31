@@ -166,7 +166,7 @@
 │                       │      │                  ├ [13]: https://www.kb.cert.org/vuls/id/550620 
 │                       │      │                  ╰ [14]: https://www.secfu.net/advisories 
 │                       │      ├ PublishedDate   : 2017-05-01T01:59:00.297Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T02:49:56.39Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T03:29:56.8Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2019-12900 
 │                       │      ├ PkgID           : bzip2-libs@1.0.8-8.el9.x86_64 
 │                       │      ├ PkgName         : bzip2-libs 
@@ -191,7 +191,7 @@
 │                       │      │                  ├ amazon     : 1 
 │                       │      │                  ├ cbl-mariner: 4 
 │                       │      │                  ├ nvd        : 4 
-│                       │      │                  ├ oracle-oval: 1 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 1 
@@ -229,7 +229,7 @@
 │                       │      │                  ├ [14]: https://gitlab.com/federicomenaquintero/bzip2/commit/
 │                       │      │                  │       74de1e2e6ffc9d51ef9824db71a8ffee5962cdbc 
 │                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2019-12900.html 
-│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-8922.html 
+│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2025-0733.html 
 │                       │      │                  ├ [17]: https://lists.apache.org/thread.html/ra0adb9653c7de95
 │                       │      │                  │       39b93cc8434143b655f753b9f60580ff260becb2b%40%3Cusers.
 │                       │      │                  │       kafka.apache.org%3E 
@@ -267,7 +267,7 @@
 │                       │      │                  ├ [39]: https://www.cve.org/CVERecord?id=CVE-2019-12900 
 │                       │      │                  ╰ [40]: https://www.oracle.com/security-alerts/cpuoct2020.html 
 │                       │      ├ PublishedDate   : 2019-06-19T23:15:09.91Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T03:03:43.19Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T04:23:47.333Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2023-4504 
 │                       │      ├ PkgID           : cups-libs@2.3.3op2-31.el9_5.x86_64 
 │                       │      ├ PkgName         : cups-libs 
@@ -289,8 +289,8 @@
 │                       │      │                    code execution. This issue has been fixed in CUPS version
 │                       │      │                   2.4.7, released in September of 2023. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ╭ [0]: CWE-787 
-│                       │      │                  ╰ [1]: CWE-122 
+│                       │      ├ CweIDs           ╭ [0]: CWE-122 
+│                       │      │                  ╰ [1]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
@@ -335,7 +335,7 @@
 │                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6392-1 
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-4504 
 │                       │      ├ PublishedDate   : 2023-09-21T23:15:12.293Z 
-│                       │      ╰ LastModifiedDate: 2023-11-09T20:58:00.163Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T08:35:18.487Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2021-25317 
 │                       │      ├ PkgID           : cups-libs@2.3.3op2-31.el9_5.x86_64 
 │                       │      ├ PkgName         : cups-libs 
@@ -391,7 +391,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2021-25317 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-25317 
 │                       │      ├ PublishedDate   : 2021-05-05T10:15:08.133Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T03:31:27.377Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T05:54:44.187Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2024-11053 
 │                       │      ├ PkgID           : curl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : curl-minimal 
@@ -483,19 +483,23 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/07/31/1 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-7264 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-7264.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │      │                  ├ [4]: https://hackerone.com/reports/2629968 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6944-1 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6944-2 
-│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
-│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2024.html
-│                       │      │                         #AppendixMSQL 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/31/1 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-7264 
+│                       │      │                  ├ [2] : https://curl.se/docs/CVE-2024-7264.html 
+│                       │      │                  ├ [3] : https://curl.se/docs/CVE-2024-7264.json 
+│                       │      │                  ├ [4] : https://github.com/curl/curl/commit/27959ecce75cdb280
+│                       │      │                  │       9c0bdb3286e60e08fadb519 
+│                       │      │                  ├ [5] : https://hackerone.com/reports/2629968 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
+│                       │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-20240828-00
+│                       │      │                  │       08/ 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6944-1 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6944-2 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
+│                       │      │                  ╰ [11]: https://www.oracle.com/security-alerts/cpuoct2024.htm
+│                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
-│                       │      ╰ LastModifiedDate: 2024-10-30T20:35:40.303Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T09:51:10.36Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2024-9681 
 │                       │      ├ PkgID           : curl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : curl-minimal 
@@ -550,6 +554,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-697 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ photon     : 2 
@@ -655,7 +660,7 @@
 │                       │      │                  ├ [36]: https://www.debian.org/security/2022/dsa-5073 
 │                       │      │                  ╰ [37]: https://www.tenable.com/security/tns-2022-05 
 │                       │      ├ PublishedDate   : 2022-01-10T14:12:56.047Z 
-│                       │      ╰ LastModifiedDate: 2022-10-06T15:29:48.27Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:47:31.28Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2022-22823 
 │                       │      ├ PkgID           : expat@2.5.0-3.el9_5.1.x86_64 
 │                       │      ├ PkgName         : expat 
@@ -739,7 +744,7 @@
 │                       │      │                  ├ [36]: https://www.debian.org/security/2022/dsa-5073 
 │                       │      │                  ╰ [37]: https://www.tenable.com/security/tns-2022-05 
 │                       │      ├ PublishedDate   : 2022-01-10T14:12:56.27Z 
-│                       │      ╰ LastModifiedDate: 2022-10-06T14:47:42.973Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:47:31.467Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2022-22824 
 │                       │      ├ PkgID           : expat@2.5.0-3.el9_5.1.x86_64 
 │                       │      ├ PkgName         : expat 
@@ -823,7 +828,7 @@
 │                       │      │                  ├ [36]: https://www.debian.org/security/2022/dsa-5073 
 │                       │      │                  ╰ [37]: https://www.tenable.com/security/tns-2022-05 
 │                       │      ├ PublishedDate   : 2022-01-10T14:12:56.567Z 
-│                       │      ╰ LastModifiedDate: 2022-10-06T14:47:33.437Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:47:31.64Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2022-22825 
 │                       │      ├ PkgID           : expat@2.5.0-3.el9_5.1.x86_64 
 │                       │      ├ PkgName         : expat 
@@ -907,7 +912,7 @@
 │                       │      │                  ├ [36]: https://www.debian.org/security/2022/dsa-5073 
 │                       │      │                  ╰ [37]: https://www.tenable.com/security/tns-2022-05 
 │                       │      ├ PublishedDate   : 2022-01-10T14:12:56.847Z 
-│                       │      ╰ LastModifiedDate: 2022-10-06T14:47:18.037Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:47:31.79Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2022-22826 
 │                       │      ├ PkgID           : expat@2.5.0-3.el9_5.1.x86_64 
 │                       │      ├ PkgName         : expat 
@@ -991,7 +996,7 @@
 │                       │      │                  ├ [36]: https://www.debian.org/security/2022/dsa-5073 
 │                       │      │                  ╰ [37]: https://www.tenable.com/security/tns-2022-05 
 │                       │      ├ PublishedDate   : 2022-01-10T14:12:57.113Z 
-│                       │      ╰ LastModifiedDate: 2022-10-06T12:44:28.107Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:47:31.95Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2022-22827 
 │                       │      ├ PkgID           : expat@2.5.0-3.el9_5.1.x86_64 
 │                       │      ├ PkgName         : expat 
@@ -1075,7 +1080,7 @@
 │                       │      │                  ├ [36]: https://www.debian.org/security/2022/dsa-5073 
 │                       │      │                  ╰ [37]: https://www.tenable.com/security/tns-2022-05 
 │                       │      ├ PublishedDate   : 2022-01-10T14:12:57.363Z 
-│                       │      ╰ LastModifiedDate: 2022-10-06T12:52:17.23Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:47:32.107Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2023-4156 
 │                       │      ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
 │                       │      ├ PkgName         : gawk 
@@ -1121,7 +1126,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6373-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-4156 
 │                       │      ├ PublishedDate   : 2023-09-25T18:15:11.013Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T04:22:11.937Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T08:34:30.16Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2024-52533 
 │                       │      ├ PkgID           : glib2@2.68.4-14.el9_4.1.x86_64 
 │                       │      ├ PkgName         : glib2 
@@ -1188,8 +1193,8 @@
 │                       │      │                   glib distributors who followed the guidance of glib
 │                       │      │                   developers to backport the initial fix for CVE-2023-29499. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ╭ [0]: CWE-502 
-│                       │      │                  ╰ [1]: CWE-400 
+│                       │      ├ CweIDs           ╭ [0]: CWE-400 
+│                       │      │                  ╰ [1]: CWE-502 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 1 
@@ -1223,7 +1228,7 @@
 │                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6165-2 
 │                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-32636 
 │                       │      ├ PublishedDate   : 2023-09-14T20:15:09.653Z 
-│                       │      ╰ LastModifiedDate: 2024-01-12T22:09:56.247Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T08:03:44.8Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2025-0395 
 │                       │      ├ PkgID           : glibc@2.34-125.el9_5.1.x86_64 
 │                       │      ├ PkgName         : glibc 
@@ -1380,7 +1385,7 @@
 │                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20230324-0001/ 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
-│                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T07:19:04.727Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : java-21-openjdk-headless@21.0.5.0.11-2.el9.x86_64 
 │                       │      ├ PkgName         : java-21-openjdk-headless 
@@ -1471,7 +1476,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
-│                       │      ╰ LastModifiedDate: 2024-07-03T01:46:32.57Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T08:53:46.35Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2025-21502 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2025:0426 
 │                       │      ├ PkgID           : java-21-openjdk-headless@21.0.5.0.11-2.el9.x86_64 
@@ -1671,19 +1676,23 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/07/31/1 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-7264 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-7264.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │      │                  ├ [4]: https://hackerone.com/reports/2629968 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6944-1 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6944-2 
-│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
-│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2024.html
-│                       │      │                         #AppendixMSQL 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/31/1 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-7264 
+│                       │      │                  ├ [2] : https://curl.se/docs/CVE-2024-7264.html 
+│                       │      │                  ├ [3] : https://curl.se/docs/CVE-2024-7264.json 
+│                       │      │                  ├ [4] : https://github.com/curl/curl/commit/27959ecce75cdb280
+│                       │      │                  │       9c0bdb3286e60e08fadb519 
+│                       │      │                  ├ [5] : https://hackerone.com/reports/2629968 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
+│                       │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-20240828-00
+│                       │      │                  │       08/ 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6944-1 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6944-2 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
+│                       │      │                  ╰ [11]: https://www.oracle.com/security-alerts/cpuoct2024.htm
+│                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
-│                       │      ╰ LastModifiedDate: 2024-10-30T20:35:40.303Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T09:51:10.36Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2024-9681 
 │                       │      ├ PkgID           : libcurl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : libcurl-minimal 
@@ -1738,6 +1747,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-697 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ photon     : 2 
@@ -1809,7 +1819,7 @@
 │                       │      │                  ├ [8]: https://sourceware.org/bugzilla/show_bug.cgi?id=28995 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
 │                       ├ [30] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libstdc++@11.5.0-2.el9.x86_64 
 │                       │      ├ PkgName         : libstdc++ 
@@ -1859,7 +1869,7 @@
 │                       │      │                  ├ [8]: https://sourceware.org/bugzilla/show_bug.cgi?id=28995 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
 │                       ├ [31] ╭ VulnerabilityID : CVE-2022-49043 
 │                       │      ├ PkgID           : libxml2@2.9.13-6.el9_4.x86_64 
 │                       │      ├ PkgName         : libxml2 
@@ -1879,7 +1889,8 @@
 │                       │      │                   has a use-after-free. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 8.1 
@@ -1888,7 +1899,8 @@
 │                       │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/commit/5a19e2
 │                       │      │                  │      1605398cef6a8b1452477a8705cb41562b 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2022-49043 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2022-49043 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7240-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-49043 
 │                       │      ├ PublishedDate   : 2025-01-26T06:15:21Z 
 │                       │      ╰ LastModifiedDate: 2025-01-26T06:15:21Z 
 │                       ├ [32] ╭ VulnerabilityID : CVE-2023-45322 
@@ -1915,6 +1927,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ photon     : 2 
@@ -1932,7 +1945,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-45322 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45322 
 │                       │      ├ PublishedDate   : 2023-10-06T22:15:11.66Z 
-│                       │      ╰ LastModifiedDate: 2024-08-02T21:15:32.323Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T08:26:44.78Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2024-34459 
 │                       │      ├ PkgID           : libxml2@2.9.13-6.el9_4.x86_64 
 │                       │      ├ PkgName         : libxml2 
@@ -1956,9 +1969,11 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 2 
-│                       │      │                  ╰ redhat     : 1 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.5 
@@ -1978,9 +1993,10 @@
 │                       │      │                  │      announce%40lists.fedoraproject.org/message/VRDJCNQP32L
 │                       │      │                  │      V56KESUQ5SNZKAJWSZZRI/ 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-34459 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-34459 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7240-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-34459 
 │                       │      ├ PublishedDate   : 2024-05-14T15:39:11.917Z 
-│                       │      ╰ LastModifiedDate: 2024-08-22T18:35:08.623Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T09:18:43.59Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2024-35325 
 │                       │      ├ PkgID           : libyaml@0.2.5-7.el9.x86_64 
 │                       │      ├ PkgName         : libyaml 
@@ -2162,7 +2178,7 @@
 │                       │      │                  │       05/ 
 │                       │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T07:36:12.31Z 
 │                       ├ [36] ╭ VulnerabilityID : CVE-2022-29458 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
@@ -2214,7 +2230,7 @@
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6099-1 
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
 │                       │      ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T03:46:02.1Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:59:07.65Z 
 │                       ├ [37] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
@@ -2292,7 +2308,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6684-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
-│                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
 │                       ├ [39] ╭ VulnerabilityID : CVE-2022-29458 
 │                       │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │      ├ PkgName         : ncurses-libs 
@@ -2344,7 +2360,7 @@
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6099-1 
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
 │                       │      ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T03:46:02.1Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:59:07.65Z 
 │                       ├ [40] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │      ├ PkgName         : ncurses-libs 
@@ -2422,7 +2438,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6684-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
-│                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
 │                       ├ [42] ╭ VulnerabilityID : CVE-2024-6602 
 │                       │      ├ PkgID           : nspr@4.35.0-14.el9_2.x86_64 
 │                       │      ├ PkgName         : nspr 
@@ -2508,7 +2524,7 @@
 │                       │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
-│                       │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
 │                       ├ [44] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nspr@4.35.0-14.el9_2.x86_64 
 │                       │      ├ PkgName         : nspr 
@@ -2645,7 +2661,7 @@
 │                       │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
-│                       │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
 │                       ├ [47] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss@3.101.0-7.el9_2.x86_64 
 │                       │      ├ PkgName         : nss 
@@ -2782,7 +2798,7 @@
 │                       │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
-│                       │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
 │                       ├ [50] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss-softokn@3.101.0-7.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-softokn 
@@ -2919,7 +2935,7 @@
 │                       │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
-│                       │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
 │                       ├ [53] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss-softokn-freebl@3.101.0-7.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-softokn-freebl 
@@ -3056,7 +3072,7 @@
 │                       │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
-│                       │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
 │                       ├ [56] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss-sysinit@3.101.0-7.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-sysinit 
@@ -3193,7 +3209,7 @@
 │                       │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
-│                       │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
 │                       ├ [59] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss-util@3.101.0-7.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-util 
@@ -3578,7 +3594,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2022-41409 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                       │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
-│                       │      ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T07:23:10.577Z 
 │                       ├ [66] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │      ├ PkgID           : pcre2-syntax@10.40-6.el9.noarch 
 │                       │      ├ PkgName         : pcre2-syntax 
@@ -3620,7 +3636,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2022-41409 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                       │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
-│                       │      ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T07:23:10.577Z 
 │                       ├ [67] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.19-8.el9_5.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -3772,7 +3788,7 @@
 │                       │      │                  ├ [44]: https://www.oracle.com/security-alerts/cpujan2022.html 
 │                       │      │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
 │                       ├ [68] ╭ VulnerabilityID : CVE-2024-11168 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:10983 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.19-8.el9_5.1.noarch 
@@ -3984,7 +4000,7 @@
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6928-1 
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
-│                       │      ╰ LastModifiedDate: 2024-07-03T01:44:41.987Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T08:46:29.733Z 
 │                       ├ [71] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.19-8.el9_5.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -4013,8 +4029,8 @@
 │                       │      │                   while parsing the
 │                       │      │                   value. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ╭ [0]: CWE-1333 
-│                       │      │                  ╰ [1]: CWE-400 
+│                       │      ├ CweIDs           ╭ [0]: CWE-400 
+│                       │      │                  ╰ [1]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
@@ -4056,7 +4072,7 @@
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-2 
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
-│                       │      ╰ LastModifiedDate: 2024-09-04T21:15:14.643Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T09:51:46.75Z 
 │                       ├ [72] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3@3.9.19-8.el9_5.1.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -4208,7 +4224,7 @@
 │                       │      │                  ├ [44]: https://www.oracle.com/security-alerts/cpujan2022.html 
 │                       │      │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
 │                       ├ [73] ╭ VulnerabilityID : CVE-2024-11168 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:10983 
 │                       │      ├ PkgID           : python3@3.9.19-8.el9_5.1.x86_64 
@@ -4420,7 +4436,7 @@
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6928-1 
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
-│                       │      ╰ LastModifiedDate: 2024-07-03T01:44:41.987Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T08:46:29.733Z 
 │                       ├ [76] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python3@3.9.19-8.el9_5.1.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -4449,8 +4465,8 @@
 │                       │      │                   while parsing the
 │                       │      │                   value. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ╭ [0]: CWE-1333 
-│                       │      │                  ╰ [1]: CWE-400 
+│                       │      ├ CweIDs           ╭ [0]: CWE-400 
+│                       │      │                  ╰ [1]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
@@ -4492,7 +4508,7 @@
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-2 
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
-│                       │      ╰ LastModifiedDate: 2024-09-04T21:15:14.643Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T09:51:46.75Z 
 │                       ├ [77] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3-libs@3.9.19-8.el9_5.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
@@ -4644,7 +4660,7 @@
 │                       │      │                  ├ [44]: https://www.oracle.com/security-alerts/cpujan2022.html 
 │                       │      │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
 │                       ├ [78] ╭ VulnerabilityID : CVE-2024-11168 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:10983 
 │                       │      ├ PkgID           : python3-libs@3.9.19-8.el9_5.1.x86_64 
@@ -4856,7 +4872,7 @@
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6928-1 
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
-│                       │      ╰ LastModifiedDate: 2024-07-03T01:44:41.987Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T08:46:29.733Z 
 │                       ├ [81] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python3-libs@3.9.19-8.el9_5.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
@@ -4885,8 +4901,8 @@
 │                       │      │                   while parsing the
 │                       │      │                   value. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ╭ [0]: CWE-1333 
-│                       │      │                  ╰ [1]: CWE-400 
+│                       │      ├ CweIDs           ╭ [0]: CWE-400 
+│                       │      │                  ╰ [1]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
@@ -4928,7 +4944,7 @@
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-2 
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
-│                       │      ╰ LastModifiedDate: 2024-09-04T21:15:14.643Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T09:51:46.75Z 
 │                       ├ [82] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │      ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
@@ -5003,7 +5019,7 @@
 │                       │      │                  ├ [19]: https://www.oracle.com/security-alerts/cpuapr2022.html 
 │                       │      │                  ╰ [20]: https://www.oracle.com/security-alerts/cpujul2022.html 
 │                       │      ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
-│                       │      ╰ LastModifiedDate: 2024-06-21T19:15:20.04Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:21:52.473Z 
 │                       ├ [83] ╭ VulnerabilityID : CVE-2023-36191 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
@@ -5080,7 +5096,7 @@
 │                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20240315-0007/ 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
 │                       │      ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
-│                       │      ╰ LastModifiedDate: 2024-09-28T04:15:07.23Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T08:46:06.907Z 
 │                       ├ [85] ╭ VulnerabilityID : CVE-2021-3997 
 │                       │      ├ PkgID           : systemd-libs@252-46.el9_5.2.x86_64 
 │                       │      ├ PkgName         : systemd-libs 
@@ -5124,7 +5140,7 @@
 │                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2021-3997 
 │                       │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2022/01/10/2 
 │                       │      ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:15:15.95Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:23:20.623Z 
 │                       ├ [86] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │      ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                       │      ├ PkgName         : tar 
@@ -5160,7 +5176,7 @@
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2005-2541 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T01:57:39.453Z 
+│                       │      ╰ LastModifiedDate: 2024-11-20T23:59:47.53Z 
 │                       ╰ [87] ╭ VulnerabilityID : CVE-2023-39804 
 │                              ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                              ├ PkgName         : tar 
@@ -5199,7 +5215,7 @@
 │                              │                  ├ [5]: https://ubuntu.com/security/notices/USN-6543-1 
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-39804 
 │                              ├ PublishedDate   : 2024-03-27T04:15:08.897Z 
-│                              ╰ LastModifiedDate: 2024-11-12T19:35:01.96Z 
+│                              ╰ LastModifiedDate: 2024-11-21T08:15:56.95Z 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 
