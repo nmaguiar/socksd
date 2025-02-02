@@ -475,6 +475,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ photon     : 2 
@@ -1460,7 +1461,7 @@
 │                       │      │                  │       24-21085 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21094 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-1825.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:1822 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21094.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-1825.html 
@@ -1533,7 +1534,7 @@
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/01/25/6 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:0426 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-21502 
-│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-0426.html 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-0426.html 
 │                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-21502.html 
 │                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-0426.html 
 │                       │      │                  ├ [6] : https://lists.debian.org/debian-lts-announce/2025/01/
@@ -1703,6 +1704,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ photon     : 2 
@@ -2106,7 +2108,7 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0894 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1141 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-4899 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2179864 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2188109 
@@ -2183,7 +2185,7 @@
 │                       │      │                  ├ [74]: https://bugzilla.redhat.com/2258792 
 │                       │      │                  ├ [75]: https://bugzilla.redhat.com/2258793 
 │                       │      │                  ├ [76]: https://bugzilla.redhat.com/2258794 
-│                       │      │                  ├ [77]: https://errata.almalinux.org/8/ALSA-2024-0894.html 
+│                       │      │                  ├ [77]: https://errata.almalinux.org/9/ALSA-2024-1141.html 
 │                       │      │                  ├ [78]: https://github.com/facebook/zstd 
 │                       │      │                  ├ [79]: https://github.com/facebook/zstd/issues/3200 
 │                       │      │                  ├ [80]: https://github.com/facebook/zstd/pull/3220 
@@ -3866,7 +3868,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           L/A:N 
 │                       │      │                            ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10779 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10983 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-11168 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2321440 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2325776 
@@ -3876,7 +3878,7 @@
 │                       │      │                  │       24-11168 
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-9287 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-10779.html 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-10983.html 
 │                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:10779 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/29f348e232e8
 │                       │      │                  │       2938ba2165843c448c2b291504c5 
@@ -3928,7 +3930,7 @@
 │                       │      │                   are not affected. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-428 
-│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3937,26 +3939,27 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10980 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:11111 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-9287 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2321440 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2330804 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2325776 
-│                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2325776 
+│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-11168 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-9287 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-10980.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:10779 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/633555735a02
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-11111.html 
+│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:10779 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/633555735a02
 │                       │      │                  │       3d3e4d92ba31da35b1205f9ecbd7 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/8450b2482586
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/8450b2482586
 │                       │      │                  │       857d689b6658f08de9c8179af7db 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/9286ab3a107e
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/9286ab3a107e
 │                       │      │                  │       a41bd3f3c3682ce2512692bdded8 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/ae961ae94bf1
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/ae961ae94bf1
 │                       │      │                  │       9c8f8c7fbea3d1c25cc55ce8ae97 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/d48cc82ed25e
+│                       │      │                  │       26b02eb97c6263d95dcaa1e9111b 
 │                       │      │                  ├ [14]: https://github.com/python/cpython/commit/e52095a0c100
 │                       │      │                  │       5a87eed2276af7a1f2f66e2b6483 
 │                       │      │                  ├ [15]: https://github.com/python/cpython/issues/124651 
@@ -3972,7 +3975,7 @@
 │                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7116-1 
 │                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                       │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
-│                       │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
+│                       │      ╰ LastModifiedDate: 2025-01-31T20:15:32.58Z 
 │                       ├ [71] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.19-8.el9_5.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -4090,29 +4093,31 @@
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-7592 
 │                       │      │                  ├ [1] : https://github.com/python/cpython/commit/391e5626e3ee
 │                       │      │                  │       5af267b97e37abc7475732e67621 
-│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/a77ab24427a1
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/44e458357fca
+│                       │      │                  │       05ca0ae2658d62c8c595b048b5ef 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/a77ab24427a1
 │                       │      │                  │       8bff817025adb03ca920dc3f1a06 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/b2f11ca7667e
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/b2f11ca7667e
 │                       │      │                  │       4d57c71c1c88b255115f16042d9a 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/d4ac921a4b08
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/d4ac921a4b08
 │                       │      │                  │       1f7f996a5d2b101684b67ba0ed7f 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/d662e2db2605
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/d662e2db2605
 │                       │      │                  │       515a767f88ad48096b8ac623c774 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/dcc3eaef98cd
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/dcc3eaef98cd
 │                       │      │                  │       94d6cb6cb0f44bd1c903d04f33b1 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/issues/123067 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/123075 
-│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [8] : https://github.com/python/cpython/issues/123067 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/pull/123075 
+│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK
 │                       │      │                  │       / 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-7592 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20241018-00
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-7592 
+│                       │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20241018-00
 │                       │      │                  │       06/ 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7015-1 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-2 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7015-2 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T09:51:46.75Z 
+│                       │      ╰ LastModifiedDate: 2025-01-31T20:15:32.37Z 
 │                       ├ [73] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3@3.9.19-8.el9_5.1.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -4303,7 +4308,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           L/A:N 
 │                       │      │                            ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10779 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10983 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-11168 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2321440 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2325776 
@@ -4313,7 +4318,7 @@
 │                       │      │                  │       24-11168 
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-9287 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-10779.html 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-10983.html 
 │                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:10779 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/29f348e232e8
 │                       │      │                  │       2938ba2165843c448c2b291504c5 
@@ -4365,7 +4370,7 @@
 │                       │      │                   are not affected. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-428 
-│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -4374,26 +4379,27 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10980 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:11111 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-9287 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2321440 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2330804 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2325776 
-│                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2325776 
+│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-11168 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-9287 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-10980.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:10779 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/633555735a02
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-11111.html 
+│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:10779 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/633555735a02
 │                       │      │                  │       3d3e4d92ba31da35b1205f9ecbd7 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/8450b2482586
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/8450b2482586
 │                       │      │                  │       857d689b6658f08de9c8179af7db 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/9286ab3a107e
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/9286ab3a107e
 │                       │      │                  │       a41bd3f3c3682ce2512692bdded8 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/ae961ae94bf1
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/ae961ae94bf1
 │                       │      │                  │       9c8f8c7fbea3d1c25cc55ce8ae97 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/d48cc82ed25e
+│                       │      │                  │       26b02eb97c6263d95dcaa1e9111b 
 │                       │      │                  ├ [14]: https://github.com/python/cpython/commit/e52095a0c100
 │                       │      │                  │       5a87eed2276af7a1f2f66e2b6483 
 │                       │      │                  ├ [15]: https://github.com/python/cpython/issues/124651 
@@ -4409,7 +4415,7 @@
 │                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7116-1 
 │                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                       │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
-│                       │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
+│                       │      ╰ LastModifiedDate: 2025-01-31T20:15:32.58Z 
 │                       ├ [76] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3@3.9.19-8.el9_5.1.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -4527,29 +4533,31 @@
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-7592 
 │                       │      │                  ├ [1] : https://github.com/python/cpython/commit/391e5626e3ee
 │                       │      │                  │       5af267b97e37abc7475732e67621 
-│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/a77ab24427a1
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/44e458357fca
+│                       │      │                  │       05ca0ae2658d62c8c595b048b5ef 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/a77ab24427a1
 │                       │      │                  │       8bff817025adb03ca920dc3f1a06 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/b2f11ca7667e
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/b2f11ca7667e
 │                       │      │                  │       4d57c71c1c88b255115f16042d9a 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/d4ac921a4b08
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/d4ac921a4b08
 │                       │      │                  │       1f7f996a5d2b101684b67ba0ed7f 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/d662e2db2605
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/d662e2db2605
 │                       │      │                  │       515a767f88ad48096b8ac623c774 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/dcc3eaef98cd
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/dcc3eaef98cd
 │                       │      │                  │       94d6cb6cb0f44bd1c903d04f33b1 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/issues/123067 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/123075 
-│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [8] : https://github.com/python/cpython/issues/123067 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/pull/123075 
+│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK
 │                       │      │                  │       / 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-7592 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20241018-00
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-7592 
+│                       │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20241018-00
 │                       │      │                  │       06/ 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7015-1 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-2 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7015-2 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T09:51:46.75Z 
+│                       │      ╰ LastModifiedDate: 2025-01-31T20:15:32.37Z 
 │                       ├ [78] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3-libs@3.9.19-8.el9_5.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
@@ -4740,7 +4748,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           L/A:N 
 │                       │      │                            ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10779 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10983 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-11168 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2321440 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2325776 
@@ -4750,7 +4758,7 @@
 │                       │      │                  │       24-11168 
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-9287 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-10779.html 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-10983.html 
 │                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:10779 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/29f348e232e8
 │                       │      │                  │       2938ba2165843c448c2b291504c5 
@@ -4802,7 +4810,7 @@
 │                       │      │                   are not affected. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-428 
-│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -4811,26 +4819,27 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10980 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:11111 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-9287 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2321440 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2330804 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2325776 
-│                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2325776 
+│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-11168 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-9287 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-10980.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:10779 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/633555735a02
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-11111.html 
+│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:10779 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/633555735a02
 │                       │      │                  │       3d3e4d92ba31da35b1205f9ecbd7 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/8450b2482586
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/8450b2482586
 │                       │      │                  │       857d689b6658f08de9c8179af7db 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/9286ab3a107e
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/9286ab3a107e
 │                       │      │                  │       a41bd3f3c3682ce2512692bdded8 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/ae961ae94bf1
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/ae961ae94bf1
 │                       │      │                  │       9c8f8c7fbea3d1c25cc55ce8ae97 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/d48cc82ed25e
+│                       │      │                  │       26b02eb97c6263d95dcaa1e9111b 
 │                       │      │                  ├ [14]: https://github.com/python/cpython/commit/e52095a0c100
 │                       │      │                  │       5a87eed2276af7a1f2f66e2b6483 
 │                       │      │                  ├ [15]: https://github.com/python/cpython/issues/124651 
@@ -4846,7 +4855,7 @@
 │                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7116-1 
 │                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                       │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
-│                       │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
+│                       │      ╰ LastModifiedDate: 2025-01-31T20:15:32.58Z 
 │                       ├ [81] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3-libs@3.9.19-8.el9_5.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
@@ -4964,29 +4973,31 @@
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-7592 
 │                       │      │                  ├ [1] : https://github.com/python/cpython/commit/391e5626e3ee
 │                       │      │                  │       5af267b97e37abc7475732e67621 
-│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/a77ab24427a1
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/44e458357fca
+│                       │      │                  │       05ca0ae2658d62c8c595b048b5ef 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/a77ab24427a1
 │                       │      │                  │       8bff817025adb03ca920dc3f1a06 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/b2f11ca7667e
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/b2f11ca7667e
 │                       │      │                  │       4d57c71c1c88b255115f16042d9a 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/d4ac921a4b08
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/d4ac921a4b08
 │                       │      │                  │       1f7f996a5d2b101684b67ba0ed7f 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/d662e2db2605
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/d662e2db2605
 │                       │      │                  │       515a767f88ad48096b8ac623c774 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/dcc3eaef98cd
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/dcc3eaef98cd
 │                       │      │                  │       94d6cb6cb0f44bd1c903d04f33b1 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/issues/123067 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/123075 
-│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [8] : https://github.com/python/cpython/issues/123067 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/pull/123075 
+│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK
 │                       │      │                  │       / 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-7592 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20241018-00
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-7592 
+│                       │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20241018-00
 │                       │      │                  │       06/ 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7015-1 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-2 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7015-2 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T09:51:46.75Z 
+│                       │      ╰ LastModifiedDate: 2025-01-31T20:15:32.37Z 
 │                       ├ [83] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │      ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
