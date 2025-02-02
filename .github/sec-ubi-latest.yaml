@@ -403,6 +403,7 @@
     - CWE-125
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -1299,7 +1300,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1349,7 +1350,7 @@
     - http://www.openwall.com/lists/oss-security/2025/01/25/6
     - https://access.redhat.com/errata/RHSA-2025:0426
     - https://access.redhat.com/security/cve/CVE-2025-21502
-    - https://errata.almalinux.org/8/ALSA-2025-0426.html
+    - https://errata.almalinux.org/9/ALSA-2025-0426.html
     - https://linux.oracle.com/cve/CVE-2025-21502.html
     - https://linux.oracle.com/errata/ELSA-2025-0426.html
     - https://lists.debian.org/debian-lts-announce/2025/01/msg00031.html
@@ -1499,6 +1500,7 @@
     - CWE-125
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -1871,7 +1873,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0894
+    - https://access.redhat.com/errata/RHSA-2024:1141
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -1948,7 +1950,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/8/ALSA-2024-0894.html
+    - https://errata.almalinux.org/9/ALSA-2024-1141.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -3362,7 +3364,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10779
+    - https://access.redhat.com/errata/RHSA-2024:10983
     - https://access.redhat.com/security/cve/CVE-2024-11168
     - https://bugzilla.redhat.com/2321440
     - https://bugzilla.redhat.com/2325776
@@ -3370,7 +3372,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/8/ALSA-2024-10779.html
+    - https://errata.almalinux.org/9/ALSA-2024-10983.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
@@ -3408,7 +3410,7 @@
     CweIDs:
     - CWE-428
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 3
       oracle-oval: 2
       redhat: 2
@@ -3419,20 +3421,20 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
         V3Score: 6.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10980
+    - https://access.redhat.com/errata/RHSA-2024:11111
     - https://access.redhat.com/security/cve/CVE-2024-9287
     - https://bugzilla.redhat.com/2321440
-    - https://bugzilla.redhat.com/2330804
     - https://bugzilla.redhat.com/show_bug.cgi?id=2321440
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/8/ALSA-2024-10980.html
+    - https://errata.almalinux.org/9/ALSA-2024-11111.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
     - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
     - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
     - https://github.com/python/cpython/commit/ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97
+    - https://github.com/python/cpython/commit/d48cc82ed25e26b02eb97c6263d95dcaa1e9111b
     - https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483
     - https://github.com/python/cpython/issues/124651
     - https://github.com/python/cpython/pull/124712
@@ -3444,7 +3446,7 @@
     - https://ubuntu.com/security/notices/USN-7116-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
     PublishedDate: '2024-10-22T17:15:06.697Z'
-    LastModifiedDate: '2024-11-04T18:15:05.627Z'
+    LastModifiedDate: '2025-01-31T20:15:32.58Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python-unversioned-command@3.9.19-8.el9_5.1.noarch
     PkgName: python-unversioned-command
@@ -3549,6 +3551,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-7592
     - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/44e458357fca05ca0ae2658d62c8c595b048b5ef
     - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
     - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
     - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
@@ -3563,7 +3566,7 @@
     - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
-    LastModifiedDate: '2024-11-21T09:51:46.75Z'
+    LastModifiedDate: '2025-01-31T20:15:32.37Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3@3.9.19-8.el9_5.1.x86_64
     PkgName: python3
@@ -3691,7 +3694,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10779
+    - https://access.redhat.com/errata/RHSA-2024:10983
     - https://access.redhat.com/security/cve/CVE-2024-11168
     - https://bugzilla.redhat.com/2321440
     - https://bugzilla.redhat.com/2325776
@@ -3699,7 +3702,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/8/ALSA-2024-10779.html
+    - https://errata.almalinux.org/9/ALSA-2024-10983.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
@@ -3737,7 +3740,7 @@
     CweIDs:
     - CWE-428
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 3
       oracle-oval: 2
       redhat: 2
@@ -3748,20 +3751,20 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
         V3Score: 6.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10980
+    - https://access.redhat.com/errata/RHSA-2024:11111
     - https://access.redhat.com/security/cve/CVE-2024-9287
     - https://bugzilla.redhat.com/2321440
-    - https://bugzilla.redhat.com/2330804
     - https://bugzilla.redhat.com/show_bug.cgi?id=2321440
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/8/ALSA-2024-10980.html
+    - https://errata.almalinux.org/9/ALSA-2024-11111.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
     - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
     - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
     - https://github.com/python/cpython/commit/ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97
+    - https://github.com/python/cpython/commit/d48cc82ed25e26b02eb97c6263d95dcaa1e9111b
     - https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483
     - https://github.com/python/cpython/issues/124651
     - https://github.com/python/cpython/pull/124712
@@ -3773,7 +3776,7 @@
     - https://ubuntu.com/security/notices/USN-7116-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
     PublishedDate: '2024-10-22T17:15:06.697Z'
-    LastModifiedDate: '2024-11-04T18:15:05.627Z'
+    LastModifiedDate: '2025-01-31T20:15:32.58Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3@3.9.19-8.el9_5.1.x86_64
     PkgName: python3
@@ -3878,6 +3881,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-7592
     - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/44e458357fca05ca0ae2658d62c8c595b048b5ef
     - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
     - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
     - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
@@ -3892,7 +3896,7 @@
     - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
-    LastModifiedDate: '2024-11-21T09:51:46.75Z'
+    LastModifiedDate: '2025-01-31T20:15:32.37Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3-libs@3.9.19-8.el9_5.1.x86_64
     PkgName: python3-libs
@@ -4020,7 +4024,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10779
+    - https://access.redhat.com/errata/RHSA-2024:10983
     - https://access.redhat.com/security/cve/CVE-2024-11168
     - https://bugzilla.redhat.com/2321440
     - https://bugzilla.redhat.com/2325776
@@ -4028,7 +4032,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/8/ALSA-2024-10779.html
+    - https://errata.almalinux.org/9/ALSA-2024-10983.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
@@ -4066,7 +4070,7 @@
     CweIDs:
     - CWE-428
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 3
       oracle-oval: 2
       redhat: 2
@@ -4077,20 +4081,20 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
         V3Score: 6.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10980
+    - https://access.redhat.com/errata/RHSA-2024:11111
     - https://access.redhat.com/security/cve/CVE-2024-9287
     - https://bugzilla.redhat.com/2321440
-    - https://bugzilla.redhat.com/2330804
     - https://bugzilla.redhat.com/show_bug.cgi?id=2321440
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/8/ALSA-2024-10980.html
+    - https://errata.almalinux.org/9/ALSA-2024-11111.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
     - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
     - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
     - https://github.com/python/cpython/commit/ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97
+    - https://github.com/python/cpython/commit/d48cc82ed25e26b02eb97c6263d95dcaa1e9111b
     - https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483
     - https://github.com/python/cpython/issues/124651
     - https://github.com/python/cpython/pull/124712
@@ -4102,7 +4106,7 @@
     - https://ubuntu.com/security/notices/USN-7116-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
     PublishedDate: '2024-10-22T17:15:06.697Z'
-    LastModifiedDate: '2024-11-04T18:15:05.627Z'
+    LastModifiedDate: '2025-01-31T20:15:32.58Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3-libs@3.9.19-8.el9_5.1.x86_64
     PkgName: python3-libs
@@ -4207,6 +4211,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-7592
     - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/44e458357fca05ca0ae2658d62c8c595b048b5ef
     - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
     - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
     - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
@@ -4221,7 +4226,7 @@
     - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
-    LastModifiedDate: '2024-11-21T09:51:46.75Z'
+    LastModifiedDate: '2025-01-31T20:15:32.37Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
