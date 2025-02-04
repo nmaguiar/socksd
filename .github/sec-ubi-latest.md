@@ -601,7 +601,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 4 
 │                       │      │                  ├ cbl-mariner: 4 
 │                       │      │                  ├ nvd        : 4 
 │                       │      │                  ├ oracle-oval: 2 
@@ -685,7 +685,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 4 
 │                       │      │                  ├ cbl-mariner: 4 
 │                       │      │                  ├ nvd        : 4 
 │                       │      │                  ├ oracle-oval: 2 
@@ -769,7 +769,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 4 
 │                       │      │                  ├ cbl-mariner: 4 
 │                       │      │                  ├ nvd        : 4 
 │                       │      │                  ├ oracle-oval: 2 
@@ -853,7 +853,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 4 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 2 
@@ -937,7 +937,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 4 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 2 
@@ -1021,7 +1021,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 4 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 2 
@@ -1527,7 +1527,8 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-863 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
