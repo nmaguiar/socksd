@@ -3624,7 +3624,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ╭ [0]: CWE-400 
 │                       │      │                  ╰ [1]: CWE-1333 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ cbl-mariner: 3 
@@ -3667,7 +3667,7 @@
 │                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7015-2 
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
-│                       │      ╰ LastModifiedDate: 2025-01-31T20:15:32.37Z 
+│                       │      ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
 │                       ├ [68] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3@3.9.19-8.el9_5.1.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -4108,7 +4108,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ╭ [0]: CWE-400 
 │                       │      │                  ╰ [1]: CWE-1333 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ cbl-mariner: 3 
@@ -4151,7 +4151,7 @@
 │                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7015-2 
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
-│                       │      ╰ LastModifiedDate: 2025-01-31T20:15:32.37Z 
+│                       │      ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
 │                       ├ [74] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3-libs@3.9.19-8.el9_5.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
@@ -4592,7 +4592,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ╭ [0]: CWE-400 
 │                       │      │                  ╰ [1]: CWE-1333 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ cbl-mariner: 3 
@@ -4635,7 +4635,7 @@
 │                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7015-2 
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
-│                       │      ╰ LastModifiedDate: 2025-01-31T20:15:32.37Z 
+│                       │      ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
 │                       ├ [80] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │      ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
