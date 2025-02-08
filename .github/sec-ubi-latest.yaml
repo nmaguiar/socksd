@@ -199,13 +199,13 @@
     - http://lists.opensuse.org/opensuse-security-announce/2019-12/msg00000.html
     - http://packetstormsecurity.com/files/153644/Slackware-Security-Advisory-bzip2-Updates.html
     - http://packetstormsecurity.com/files/153957/FreeBSD-Security-Advisory-FreeBSD-SA-19-18.bzip2.html
-    - https://access.redhat.com/errata/RHSA-2025:0733
+    - https://access.redhat.com/errata/RHSA-2025:0925
     - https://access.redhat.com/security/cve/CVE-2019-12900
     - https://bugs.launchpad.net/ubuntu/+source/bzip2/+bug/1834494
     - https://bugzilla.redhat.com/2332075
     - https://bugzilla.redhat.com/show_bug.cgi?id=1724459
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12900
-    - https://errata.almalinux.org/8/ALSA-2025-0733.html
+    - https://errata.almalinux.org/9/ALSA-2025-0925.html
     - https://errata.rockylinux.org/RLSA-2024:8922
     - https://gitlab.com/federicomenaquintero/bzip2/commit/74de1e2e6ffc9d51ef9824db71a8ffee5962cdbc
     - https://linux.oracle.com/cve/CVE-2019-12900.html
@@ -565,6 +565,7 @@
     CweIDs:
     - CWE-120
     VendorSeverity:
+      alma: 2
       azure: 4
       cbl-mariner: 4
       photon: 4
@@ -576,7 +577,10 @@
         V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2024/11/12/11
+    - https://access.redhat.com/errata/RHSA-2025:0936
     - https://access.redhat.com/security/cve/CVE-2024-52533
+    - https://bugzilla.redhat.com/2325340
+    - https://errata.almalinux.org/9/ALSA-2025-0936.html
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3461
     - https://gitlab.gnome.org/GNOME/glib/-/releases/2.82.1
     - https://gitlab.gnome.org/Teams/Releng/security/-/wikis/home
@@ -660,6 +664,7 @@
     - CWE-131
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
@@ -672,6 +677,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2025-0001
     - https://sourceware.org/pipermail/libc-announce/2025/000044.html
+    - https://ubuntu.com/security/notices/USN-7259-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0395
     - https://www.openwall.com/lists/oss-security/2025/01/22/4
     PublishedDate: '2025-01-22T13:15:20.933Z'
@@ -696,6 +702,7 @@
     - CWE-131
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
@@ -708,6 +715,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2025-0001
     - https://sourceware.org/pipermail/libc-announce/2025/000044.html
+    - https://ubuntu.com/security/notices/USN-7259-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0395
     - https://www.openwall.com/lists/oss-security/2025/01/22/4
     PublishedDate: '2025-01-22T13:15:20.933Z'
@@ -732,6 +740,7 @@
     - CWE-131
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
@@ -744,6 +753,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2025-0001
     - https://sourceware.org/pipermail/libc-announce/2025/000044.html
+    - https://ubuntu.com/security/notices/USN-7259-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0395
     - https://www.openwall.com/lists/oss-security/2025/01/22/4
     PublishedDate: '2025-01-22T13:15:20.933Z'
@@ -891,6 +901,7 @@
     - https://linux.oracle.com/cve/CVE-2025-21502.html
     - https://linux.oracle.com/errata/ELSA-2025-0426.html
     - https://lists.debian.org/debian-lts-announce/2025/01/msg00031.html
+    - https://lists.debian.org/debian-lts-announce/2025/02/msg00004.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-21502
     - https://security.netapp.com/advisory/ntap-20250124-0009/
     - https://ubuntu.com/security/notices/USN-7252-1
@@ -901,7 +912,7 @@
     - https://www.oracle.com/security-alerts/cpujan2025.html
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixJAVA
     PublishedDate: '2025-01-21T21:15:15.18Z'
-    LastModifiedDate: '2025-01-31T16:15:35.437Z'
+    LastModifiedDate: '2025-02-07T11:15:10.717Z'
   - VulnerabilityID: CVE-2025-24528
     PkgID: krb5-libs@1.21.1-4.el9_5.x86_64
     PkgName: krb5-libs
