@@ -480,14 +480,52 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │      ╰ LastModifiedDate: 2024-12-13T14:15:22.953Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2023-4156 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-0725 
+│                       │      ├ PkgID           : curl-minimal@7.76.1-31.el9.x86_64 
+│                       │      ├ PkgName         : curl-minimal 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/curl-minimal@7.76.1-31.el9?arch=x86_64
+│                       │      │                  │       &distro=redhat-9.5 
+│                       │      │                  ╰ UID : 2862c6a46aaa958b 
+│                       │      ├ InstalledVersion: 7.76.1-31.el9 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
+│                       │      │                  │         ae272d438fb2dec05671 
+│                       │      │                  ╰ DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaeb
+│                       │      │                            ef016a493bcd823cb4c4 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
+│                       │      ├ Title           : libcurl: Buffer Overflow in libcurl via zlib Integer Overflow 
+│                       │      ├ Description     : When libcurl is asked to perform automatic gzip
+│                       │      │                   decompression of
+│                       │      │                   content-encoded HTTP responses with the
+│                       │      │                   `CURLOPT_ACCEPT_ENCODING` option,
+│                       │      │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
+│                       │      │                   integer overflow would
+│                       │      │                   make libcurl perform a buffer overflow. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/06/4 
+│                       │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-0725 
+│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2025-0725.html 
+│                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-0725.json 
+│                       │      │                  ├ [6]: https://hackerone.com/reports/2956023 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0725 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T19:15:19.733Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2023-4156 
 │                       │      ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
 │                       │      ├ PkgName         : gawk 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gawk@5.1.0-6.el9?arch=x86_64&distro=re
 │                       │      │                  │       dhat-9.5 
 │                       │      │                  ╰ UID : f9046b6b1c04dc38 
 │                       │      ├ InstalledVersion: 5.1.0-6.el9 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
 │                       │      │                  │         ae272d438fb2dec05671 
 │                       │      │                  ╰ DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaeb
@@ -526,7 +564,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-4156 
 │                       │      ├ PublishedDate   : 2023-09-25T18:15:11.013Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:34:30.16Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2024-52533 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2024-52533 
 │                       │      ├ PkgID           : glib2@2.68.4-14.el9_4.1.x86_64 
 │                       │      ├ PkgName         : glib2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-14.el9_4.1?arch=x86_64&di
@@ -575,7 +613,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
 │                       │      ├ PublishedDate   : 2024-11-11T23:15:05.967Z 
 │                       │      ╰ LastModifiedDate: 2024-12-06T14:15:21.4Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2023-32636 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2023-32636 
 │                       │      ├ PkgID           : glib2@2.68.4-14.el9_4.1.x86_64 
 │                       │      ├ PkgName         : glib2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-14.el9_4.1?arch=x86_64&di
@@ -634,7 +672,7 @@
 │                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-32636 
 │                       │      ├ PublishedDate   : 2023-09-14T20:15:09.653Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:03:44.8Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2025-0395 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2025-0395 
 │                       │      ├ PkgID           : glibc@2.34-125.el9_5.1.x86_64 
 │                       │      ├ PkgName         : glibc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-125.el9_5.1?arch=x86_64&dis
@@ -675,7 +713,7 @@
 │                       │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2025/01/22/4 
 │                       │      ├ PublishedDate   : 2025-01-22T13:15:20.933Z 
 │                       │      ╰ LastModifiedDate: 2025-02-04T20:15:49.587Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2025-0395 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2025-0395 
 │                       │      ├ PkgID           : glibc-common@2.34-125.el9_5.1.x86_64 
 │                       │      ├ PkgName         : glibc-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-125.el9_5.1?arch=x86
@@ -716,7 +754,7 @@
 │                       │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2025/01/22/4 
 │                       │      ├ PublishedDate   : 2025-01-22T13:15:20.933Z 
 │                       │      ╰ LastModifiedDate: 2025-02-04T20:15:49.587Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2025-0395 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2025-0395 
 │                       │      ├ PkgID           : glibc-minimal-langpack@2.34-125.el9_5.1.x86_64 
 │                       │      ├ PkgName         : glibc-minimal-langpack 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-125.el9_5.
@@ -757,7 +795,7 @@
 │                       │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2025/01/22/4 
 │                       │      ├ PublishedDate   : 2025-01-22T13:15:20.933Z 
 │                       │      ╰ LastModifiedDate: 2025-02-04T20:15:49.587Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gnupg2@2.3.3-4.el9.x86_64 
 │                       │      ├ PkgName         : gnupg2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnupg2@2.3.3-4.el9?arch=x86_64&distro=
@@ -797,7 +835,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T07:19:04.727Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2024-21094 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : java-21-openjdk-headless@21.0.6.0.7-1.el9.x86_64 
 │                       │      ├ PkgName         : java-21-openjdk-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.6.0.7-1.
@@ -888,7 +926,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:46.35Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2025-24528 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2025-24528 
 │                       │      ├ PkgID           : krb5-libs@1.21.1-4.el9_5.x86_64 
 │                       │      ├ PkgName         : krb5-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/krb5-libs@1.21.1-4.el9_5?arch=x86_64&d
@@ -918,7 +956,7 @@
 │                       │                         │      375be4a12d1c066b0bfbd0 
 │                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
 │                       │                         ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2023-30571 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │      ├ PkgName         : libarchive 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&dis
@@ -961,7 +999,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-30571 
 │                       │      ├ PublishedDate   : 2023-05-29T20:15:09.513Z 
 │                       │      ╰ LastModifiedDate: 2025-01-14T17:15:11.673Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2024-11053 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2024-11053 
 │                       │      ├ PkgID           : libcurl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : libcurl-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9?arch=x86
@@ -1011,7 +1049,7 @@
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                       │      ╰ LastModifiedDate: 2025-01-31T15:15:12.4Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2024-7264 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2024-7264 
 │                       │      ├ PkgID           : libcurl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : libcurl-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9?arch=x86
@@ -1073,7 +1111,7 @@
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:51:10.36Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2024-9681 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2024-9681 
 │                       │      ├ PkgID           : libcurl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : libcurl-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9?arch=x86
@@ -1150,7 +1188,424 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │      ╰ LastModifiedDate: 2024-12-13T14:15:22.953Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2025-0725 
+│                       │      ├ PkgID           : libcurl-minimal@7.76.1-31.el9.x86_64 
+│                       │      ├ PkgName         : libcurl-minimal 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9?arch=x86
+│                       │      │                  │       _64&distro=redhat-9.5 
+│                       │      │                  ╰ UID : 633a8284cdf6907b 
+│                       │      ├ InstalledVersion: 7.76.1-31.el9 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
+│                       │      │                  │         ae272d438fb2dec05671 
+│                       │      │                  ╰ DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaeb
+│                       │      │                            ef016a493bcd823cb4c4 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
+│                       │      ├ Title           : libcurl: Buffer Overflow in libcurl via zlib Integer Overflow 
+│                       │      ├ Description     : When libcurl is asked to perform automatic gzip
+│                       │      │                   decompression of
+│                       │      │                   content-encoded HTTP responses with the
+│                       │      │                   `CURLOPT_ACCEPT_ENCODING` option,
+│                       │      │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
+│                       │      │                   integer overflow would
+│                       │      │                   make libcurl perform a buffer overflow. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/06/4 
+│                       │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-0725 
+│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2025-0725.html 
+│                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-0725.json 
+│                       │      │                  ├ [6]: https://hackerone.com/reports/2956023 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0725 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T19:15:19.733Z 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2020-11023 
+│                       │      ├ PkgID           : libgcc@11.5.0-2.el9.x86_64 
+│                       │      ├ PkgName         : libgcc 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libgcc@11.5.0-2.el9?arch=x86_64&distro
+│                       │      │                  │       =redhat-9.5 
+│                       │      │                  ╰ UID : ce859a6e06e9cb00 
+│                       │      ├ InstalledVersion: 11.5.0-2.el9 
+│                       │      ├ Status          : under_investigation 
+│                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
+│                       │      │                  │         ae272d438fb2dec05671 
+│                       │      │                  ╰ DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaeb
+│                       │      │                            ef016a493bcd823cb4c4 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-11023 
+│                       │      ├ Title           : jquery: Untrusted code execution via <option> tag in HTML
+│                       │      │                   passed to DOM manipulation methods 
+│                       │      ├ Description     : In jQuery versions greater than or equal to 1.0.3 and before
+│                       │      │                    3.5.0, passing HTML containing <option> elements from
+│                       │      │                   untrusted sources - even after sanitizing it - to one of
+│                       │      │                   jQuery's DOM manipulation methods (i.e. .html(), .append(),
+│                       │      │                   and others) may execute untrusted code. This problem is
+│                       │      │                   patched in jQuery 3.5.0. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-79 
+│                       │      ├ VendorSeverity   ╭ alma            : 1 
+│                       │      │                  ├ amazon          : 2 
+│                       │      │                  ├ bitnami         : 2 
+│                       │      │                  ├ ghsa            : 2 
+│                       │      │                  ├ nvd             : 2 
+│                       │      │                  ├ oracle-oval     : 3 
+│                       │      │                  ├ redhat          : 2 
+│                       │      │                  ├ ruby-advisory-db: 2 
+│                       │      │                  ╰ ubuntu          : 3 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:
+│                       │      │                  │         │           L/A:N 
+│                       │      │                  │         ╰ V3Score : 6.9 
+│                       │      │                  ├ ghsa    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:
+│                       │      │                  │         │           L/A:N 
+│                       │      │                  │         ╰ V3Score : 6.9 
+│                       │      │                  ├ nvd     ╭ V2Vector: AV:N/AC:M/Au:N/C:N/I:P/A:N 
+│                       │      │                  │         ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:
+│                       │      │                  │         │           L/A:N 
+│                       │      │                  │         ├ V2Score : 4.3 
+│                       │      │                  │         ╰ V3Score : 6.1 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:
+│                       │      │                            │           L/A:N 
+│                       │      │                            ╰ V3Score : 6.1 
+│                       │      ├ References       ╭ [0]  : http://lists.opensuse.org/opensuse-security-announce
+│                       │      │                  │        /2020-07/msg00067.html 
+│                       │      │                  ├ [1]  : http://lists.opensuse.org/opensuse-security-announce
+│                       │      │                  │        /2020-07/msg00085.html 
+│                       │      │                  ├ [2]  : http://lists.opensuse.org/opensuse-security-announce
+│                       │      │                  │        /2020-11/msg00039.html 
+│                       │      │                  ├ [3]  : http://packetstormsecurity.com/files/162160/jQuery-1
+│                       │      │                  │        .0.3-Cross-Site-Scripting.html 
+│                       │      │                  ├ [4]  : https://access.redhat.com/security/cve/CVE-2020-11023 
+│                       │      │                  ├ [5]  : https://blog.jquery.com/2020/04/10/jquery-3-5-0-rele
+│                       │      │                  │        ased 
+│                       │      │                  ├ [6]  : https://blog.jquery.com/2020/04/10/jquery-3-5-0-rele
+│                       │      │                  │        ased/ 
+│                       │      │                  ├ [7]  : https://github.com/github/advisory-database/blob/99a
+│                       │      │                  │        fa6fdeaf5d1d23e1021ff915a5e5dbc82c1f1/advisories/git
+│                       │      │                  │        hub-reviewed/2020/04/GHSA-jpcq-cgw6-v4j6/GHSA-jpcq-c
+│                       │      │                  │        gw6-v4j6.json#L20-L37 
+│                       │      │                  ├ [8]  : https://github.com/jquery/jquery 
+│                       │      │                  ├ [9]  : https://github.com/jquery/jquery/commit/1d61fd9407e6
+│                       │      │                  │        fbe82fe55cb0b938307aa0791f77 
+│                       │      │                  ├ [10] : https://github.com/jquery/jquery/releases/tag/3.5.0 
+│                       │      │                  ├ [11] : https://github.com/jquery/jquery/security/advisories
+│                       │      │                  │        /GHSA-jpcq-cgw6-v4j6 
+│                       │      │                  ├ [12] : https://github.com/rails/jquery-rails/blob/master/CH
+│                       │      │                  │        ANGELOG.md#410 
+│                       │      │                  ├ [13] : https://github.com/rails/jquery-rails/blob/master/CH
+│                       │      │                  │        ANGELOG.md#440 
+│                       │      │                  ├ [14] : https://github.com/rails/jquery-rails/blob/v4.3.5/ve
+│                       │      │                  │        ndor/assets/javascripts/jquery3.js#L5979 
+│                       │      │                  ├ [15] : https://github.com/rails/jquery-rails/blob/v4.4.0/ve
+│                       │      │                  │        ndor/assets/javascripts/jquery3.js#L6162 
+│                       │      │                  ├ [16] : https://github.com/rubysec/ruby-advisory-db/blob/mas
+│                       │      │                  │        ter/gems/jquery-rails/CVE-2020-11023.yml 
+│                       │      │                  ├ [17] : https://github.com/rubysec/ruby-advisory-db/blob/mas
+│                       │      │                  │        ter/gems/jquery-rails/CVE-2020-23064.yml 
+│                       │      │                  ├ [18] : https://jquery.com/upgrade-guide/3.5 
+│                       │      │                  ├ [19] : https://jquery.com/upgrade-guide/3.5/ 
+│                       │      │                  ├ [20] : https://linux.oracle.com/cve/CVE-2020-11023.html 
+│                       │      │                  ├ [21] : https://linux.oracle.com/errata/ELSA-2022-9177.html 
+│                       │      │                  ├ [22] : https://lists.apache.org/thread.html/r0483ba0072783c
+│                       │      │                  │        2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [23] : https://lists.apache.org/thread.html/r0483ba0072783c
+│                       │      │                  │        2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [24] : https://lists.apache.org/thread.html/r0593393ca1e97b
+│                       │      │                  │        1e7e098fe69d414d6bd0a467148e9138d07e86ebbb%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [25] : https://lists.apache.org/thread.html/r0593393ca1e97b
+│                       │      │                  │        1e7e098fe69d414d6bd0a467148e9138d07e86ebbb@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [26] : https://lists.apache.org/thread.html/r07ab379471fb15
+│                       │      │                  │        644bf7a92e4a98cbc7df3cf4e736abae0cc7625fe6%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [27] : https://lists.apache.org/thread.html/r07ab379471fb15
+│                       │      │                  │        644bf7a92e4a98cbc7df3cf4e736abae0cc7625fe6@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [28] : https://lists.apache.org/thread.html/r094f435595582f
+│                       │      │                  │        6b5b24b66fedf80543aa8b1d57a3688fbcc21f06ec%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [29] : https://lists.apache.org/thread.html/r094f435595582f
+│                       │      │                  │        6b5b24b66fedf80543aa8b1d57a3688fbcc21f06ec@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [30] : https://lists.apache.org/thread.html/r1fed19c860a0d4
+│                       │      │                  │        70f2a3eded12795772c8651ff583ef951ddac4918c%40%3Cgitb
+│                       │      │                  │        ox.hive.apache.org%3E 
+│                       │      │                  ├ [31] : https://lists.apache.org/thread.html/r1fed19c860a0d4
+│                       │      │                  │        70f2a3eded12795772c8651ff583ef951ddac4918c@%3Cgitbox
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [32] : https://lists.apache.org/thread.html/r2c85121a474420
+│                       │      │                  │        36c7f8353a3724aa04f8ecdfda1819d311ba4f5330%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [33] : https://lists.apache.org/thread.html/r2c85121a474420
+│                       │      │                  │        36c7f8353a3724aa04f8ecdfda1819d311ba4f5330@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [34] : https://lists.apache.org/thread.html/r3702ede0ff83a2
+│                       │      │                  │        9ba3eb418f6f11c473d6e3736baba981a8dbd9c9ef%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [35] : https://lists.apache.org/thread.html/r3702ede0ff83a2
+│                       │      │                  │        9ba3eb418f6f11c473d6e3736baba981a8dbd9c9ef@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [36] : https://lists.apache.org/thread.html/r49ce4243b4738d
+│                       │      │                  │        d763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [37] : https://lists.apache.org/thread.html/r49ce4243b4738d
+│                       │      │                  │        d763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [38] : https://lists.apache.org/thread.html/r4aadb98086ca72
+│                       │      │                  │        ed75391f54167522d91489a0d0ae25b12baa8fc7c5%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [39] : https://lists.apache.org/thread.html/r4aadb98086ca72
+│                       │      │                  │        ed75391f54167522d91489a0d0ae25b12baa8fc7c5@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [40] : https://lists.apache.org/thread.html/r4dba67be3239b3
+│                       │      │                  │        4861f1b9cfdf9dfb3a90272585dcce374112ed6e16%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [41] : https://lists.apache.org/thread.html/r4dba67be3239b3
+│                       │      │                  │        4861f1b9cfdf9dfb3a90272585dcce374112ed6e16@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [42] : https://lists.apache.org/thread.html/r54565a8f025c7c
+│                       │      │                  │        4f305355fdfd75b68eca442eebdb5f31c2e7d977ae%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [43] : https://lists.apache.org/thread.html/r54565a8f025c7c
+│                       │      │                  │        4f305355fdfd75b68eca442eebdb5f31c2e7d977ae@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [44] : https://lists.apache.org/thread.html/r55f5e066cc7301
+│                       │      │                  │        e3630ce90bbbf8d28c82212ae1f2d4871012141494%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [45] : https://lists.apache.org/thread.html/r55f5e066cc7301
+│                       │      │                  │        e3630ce90bbbf8d28c82212ae1f2d4871012141494@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [46] : https://lists.apache.org/thread.html/r564585d97bc069
+│                       │      │                  │        137e64f521e68ba490c7c9c5b342df5d73c49a0760%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [47] : https://lists.apache.org/thread.html/r564585d97bc069
+│                       │      │                  │        137e64f521e68ba490c7c9c5b342df5d73c49a0760@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [48] : https://lists.apache.org/thread.html/r6c4df3b33e625a
+│                       │      │                  │        44471009a172dabe6865faec8d8f21cac2303463b1%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [49] : https://lists.apache.org/thread.html/r6c4df3b33e625a
+│                       │      │                  │        44471009a172dabe6865faec8d8f21cac2303463b1@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [50] : https://lists.apache.org/thread.html/r6e97b37963926f
+│                       │      │                  │        6059ecc1e417721608723a807a76af41d4e9dbed49%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [51] : https://lists.apache.org/thread.html/r6e97b37963926f
+│                       │      │                  │        6059ecc1e417721608723a807a76af41d4e9dbed49@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [52] : https://lists.apache.org/thread.html/r706cfbc098420f
+│                       │      │                  │        7113968cc377247ec3d1439bce42e679c11c609e2d%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [53] : https://lists.apache.org/thread.html/r706cfbc098420f
+│                       │      │                  │        7113968cc377247ec3d1439bce42e679c11c609e2d@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [54] : https://lists.apache.org/thread.html/r8f70b0f65d6bed
+│                       │      │                  │        f316ecd899371fd89e65333bc988f6326d2956735c%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [55] : https://lists.apache.org/thread.html/r8f70b0f65d6bed
+│                       │      │                  │        f316ecd899371fd89e65333bc988f6326d2956735c@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [56] : https://lists.apache.org/thread.html/r9006ad2abf81d0
+│                       │      │                  │        2a0ef2126bab5177987e59095b7194a487c4ea247c%40%3Ccomm
+│                       │      │                  │        its.felix.apache.org%3E 
+│                       │      │                  ├ [57] : https://lists.apache.org/thread.html/r9006ad2abf81d0
+│                       │      │                  │        2a0ef2126bab5177987e59095b7194a487c4ea247c@%3Ccommit
+│                       │      │                  │        s.felix.apache.org%3E 
+│                       │      │                  ├ [58] : https://lists.apache.org/thread.html/r9c5fda81e4bca8
+│                       │      │                  │        daee305b4c03283dddb383ab8428a151d4cb0b3b15%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [59] : https://lists.apache.org/thread.html/r9c5fda81e4bca8
+│                       │      │                  │        daee305b4c03283dddb383ab8428a151d4cb0b3b15@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [60] : https://lists.apache.org/thread.html/r9e0bd31b7da9e7
+│                       │      │                  │        403478d22652b8760c946861f8ebd7bd750844898e%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [61] : https://lists.apache.org/thread.html/r9e0bd31b7da9e7
+│                       │      │                  │        403478d22652b8760c946861f8ebd7bd750844898e@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [62] : https://lists.apache.org/thread.html/ra32c7103ded904
+│                       │      │                  │        1c7c1cb8c12c8d125a6b2f3f3270e2937ef8417fac%40%3Cgitb
+│                       │      │                  │        ox.hive.apache.org%3E 
+│                       │      │                  ├ [63] : https://lists.apache.org/thread.html/ra32c7103ded904
+│                       │      │                  │        1c7c1cb8c12c8d125a6b2f3f3270e2937ef8417fac@%3Cgitbox
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [64] : https://lists.apache.org/thread.html/ra374bb0299b4aa
+│                       │      │                  │        3e04edde01ebc03ed6f90cf614dad40dd428ce8f72%40%3Cgitb
+│                       │      │                  │        ox.hive.apache.org%3E 
+│                       │      │                  ├ [65] : https://lists.apache.org/thread.html/ra374bb0299b4aa
+│                       │      │                  │        3e04edde01ebc03ed6f90cf614dad40dd428ce8f72@%3Cgitbox
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [66] : https://lists.apache.org/thread.html/ra3c9219fcb0b28
+│                       │      │                  │        9e18e9ec5a5ebeaa5c17d6b79a201667675af6721c%40%3Cgitb
+│                       │      │                  │        ox.hive.apache.org%3E 
+│                       │      │                  ├ [67] : https://lists.apache.org/thread.html/ra3c9219fcb0b28
+│                       │      │                  │        9e18e9ec5a5ebeaa5c17d6b79a201667675af6721c@%3Cgitbox
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [68] : https://lists.apache.org/thread.html/ra406b3adfcffcb
+│                       │      │                  │        5ce8707013bdb7c35e3ffc2776a8a99022f15274c6%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [69] : https://lists.apache.org/thread.html/ra406b3adfcffcb
+│                       │      │                  │        5ce8707013bdb7c35e3ffc2776a8a99022f15274c6@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [70] : https://lists.apache.org/thread.html/rab82dd040f3020
+│                       │      │                  │        18c85bd07d33f5604113573514895ada523c3401d9%40%3Ccomm
+│                       │      │                  │        its.hive.apache.org%3E 
+│                       │      │                  ├ [71] : https://lists.apache.org/thread.html/rab82dd040f3020
+│                       │      │                  │        18c85bd07d33f5604113573514895ada523c3401d9@%3Ccommit
+│                       │      │                  │        s.hive.apache.org%3E 
+│                       │      │                  ├ [72] : https://lists.apache.org/thread.html/radcb2aa874a796
+│                       │      │                  │        47789f3563fcbbceaf1045a029ee8806b59812a8ea%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [73] : https://lists.apache.org/thread.html/radcb2aa874a796
+│                       │      │                  │        47789f3563fcbbceaf1045a029ee8806b59812a8ea@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [74] : https://lists.apache.org/thread.html/rb25c3bc7418ae7
+│                       │      │                  │        5cba07988dafe1b6912f76a9dd7d94757878320d61%40%3Cgitb
+│                       │      │                  │        ox.hive.apache.org%3E 
+│                       │      │                  ├ [75] : https://lists.apache.org/thread.html/rb25c3bc7418ae7
+│                       │      │                  │        5cba07988dafe1b6912f76a9dd7d94757878320d61@%3Cgitbox
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [76] : https://lists.apache.org/thread.html/rb69b7d8217c1a6
+│                       │      │                  │        a2100247a5d06ce610836b31e3f5d73fc113ded8e7%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [77] : https://lists.apache.org/thread.html/rb69b7d8217c1a6
+│                       │      │                  │        a2100247a5d06ce610836b31e3f5d73fc113ded8e7@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [78] : https://lists.apache.org/thread.html/rbb448222ba62c4
+│                       │      │                  │        30e21e13f940be4cb5cfc373cd3bce56b48c0ffa67%40%3Cdev.
+│                       │      │                  │        flink.apache.org%3E 
+│                       │      │                  ├ [79] : https://lists.apache.org/thread.html/rbb448222ba62c4
+│                       │      │                  │        30e21e13f940be4cb5cfc373cd3bce56b48c0ffa67@%3Cdev.fl
+│                       │      │                  │        ink.apache.org%3E 
+│                       │      │                  ├ [80] : https://lists.apache.org/thread.html/rd38b4185a797b3
+│                       │      │                  │        24c8dd940d9213cf99fcdc2dbf1fc5a63ba7dee8c9%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [81] : https://lists.apache.org/thread.html/rd38b4185a797b3
+│                       │      │                  │        24c8dd940d9213cf99fcdc2dbf1fc5a63ba7dee8c9@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [82] : https://lists.apache.org/thread.html/rda99599896c366
+│                       │      │                  │        7f2cc9e9d34c7b6ef5d2bbed1f4801e1d75a2b0679%40%3Ccomm
+│                       │      │                  │        its.nifi.apache.org%3E 
+│                       │      │                  ├ [83] : https://lists.apache.org/thread.html/rda99599896c366
+│                       │      │                  │        7f2cc9e9d34c7b6ef5d2bbed1f4801e1d75a2b0679@%3Ccommit
+│                       │      │                  │        s.nifi.apache.org%3E 
+│                       │      │                  ├ [84] : https://lists.apache.org/thread.html/re4ae96fa5c1a2f
+│                       │      │                  │        e71ccbb7b7ac1538bd0cb677be270a2bf6e2f8d108%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [85] : https://lists.apache.org/thread.html/re4ae96fa5c1a2f
+│                       │      │                  │        e71ccbb7b7ac1538bd0cb677be270a2bf6e2f8d108@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [86] : https://lists.apache.org/thread.html/rede9cfaa756e05
+│                       │      │                  │        0a3d83045008f84a62802fc68c17f2b4eabeaae5e4%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [87] : https://lists.apache.org/thread.html/rede9cfaa756e05
+│                       │      │                  │        0a3d83045008f84a62802fc68c17f2b4eabeaae5e4@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [88] : https://lists.apache.org/thread.html/ree3bd8ddb23df5
+│                       │      │                  │        fa4e372d11c226830ea3650056b1059f3965b3fce2%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [89] : https://lists.apache.org/thread.html/ree3bd8ddb23df5
+│                       │      │                  │        fa4e372d11c226830ea3650056b1059f3965b3fce2@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [90] : https://lists.apache.org/thread.html/rf0f8939596081d
+│                       │      │                  │        84be1ae6a91d6248b96a02d8388898c372ac807817%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [91] : https://lists.apache.org/thread.html/rf0f8939596081d
+│                       │      │                  │        84be1ae6a91d6248b96a02d8388898c372ac807817@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [92] : https://lists.apache.org/thread.html/rf1ba79e564fe7e
+│                       │      │                  │        fc56aef7c986106f1cf67a3427d08e997e088e7a93%40%3Cgitb
+│                       │      │                  │        ox.hive.apache.org%3E 
+│                       │      │                  ├ [93] : https://lists.apache.org/thread.html/rf1ba79e564fe7e
+│                       │      │                  │        fc56aef7c986106f1cf67a3427d08e997e088e7a93@%3Cgitbox
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [94] : https://lists.apache.org/thread.html/rf661a90a15da8d
+│                       │      │                  │        a5922ba6127b3f5f8194d4ebec8855d60a0dd13248%40%3Cdev.
+│                       │      │                  │        hive.apache.org%3E 
+│                       │      │                  ├ [95] : https://lists.apache.org/thread.html/rf661a90a15da8d
+│                       │      │                  │        a5922ba6127b3f5f8194d4ebec8855d60a0dd13248@%3Cdev.hi
+│                       │      │                  │        ve.apache.org%3E 
+│                       │      │                  ├ [96] : https://lists.debian.org/debian-lts-announce/2021/03
+│                       │      │                  │        /msg00033.html 
+│                       │      │                  ├ [97] : https://lists.debian.org/debian-lts-announce/2023/08
+│                       │      │                  │        /msg00040.html 
+│                       │      │                  ├ [98] : https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/AVKYXLW
+│                       │      │                  │        CLZBV2N7M46KYK4LVA5OXWPBY 
+│                       │      │                  ├ [99] : https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/AVKYXLW
+│                       │      │                  │        CLZBV2N7M46KYK4LVA5OXWPBY/ 
+│                       │      │                  ├ [100]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/QPN2L2X
+│                       │      │                  │        VQGUA2V5HNQJWHK3APSK3VN7K 
+│                       │      │                  ├ [101]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/QPN2L2X
+│                       │      │                  │        VQGUA2V5HNQJWHK3APSK3VN7K/ 
+│                       │      │                  ├ [102]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/SAPQVX3
+│                       │      │                  │        XDNPGFT26QAQ6AJIXZZBZ4CD4 
+│                       │      │                  ├ [103]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/SAPQVX3
+│                       │      │                  │        XDNPGFT26QAQ6AJIXZZBZ4CD4/ 
+│                       │      │                  ├ [104]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/SFP4UK4
+│                       │      │                  │        EGP4AFH2MWYJ5A5Z4I7XVFQ6B 
+│                       │      │                  ├ [105]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/SFP4UK4
+│                       │      │                  │        EGP4AFH2MWYJ5A5Z4I7XVFQ6B/ 
+│                       │      │                  ├ [106]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce@lists.fedoraproject.org/message/AVKYXLWCL
+│                       │      │                  │        ZBV2N7M46KYK4LVA5OXWPBY 
+│                       │      │                  ├ [107]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce@lists.fedoraproject.org/message/QPN2L2XVQ
+│                       │      │                  │        GUA2V5HNQJWHK3APSK3VN7K 
+│                       │      │                  ├ [108]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce@lists.fedoraproject.org/message/SAPQVX3XD
+│                       │      │                  │        NPGFT26QAQ6AJIXZZBZ4CD4 
+│                       │      │                  ├ [109]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce@lists.fedoraproject.org/message/SFP4UK4EG
+│                       │      │                  │        P4AFH2MWYJ5A5Z4I7XVFQ6B 
+│                       │      │                  ├ [110]: https://nvd.nist.gov/vuln/detail/CVE-2020-11023 
+│                       │      │                  ├ [111]: https://security.gentoo.org/glsa/202007-03 
+│                       │      │                  ├ [112]: https://security.netapp.com/advisory/ntap-20200511-0
+│                       │      │                  │        006 
+│                       │      │                  ├ [113]: https://security.netapp.com/advisory/ntap-20200511-0
+│                       │      │                  │        006/ 
+│                       │      │                  ├ [114]: https://security.netapp.com/advisory/ntap-20230725-0
+│                       │      │                  │        003 
+│                       │      │                  ├ [115]: https://security.snyk.io/vuln/SNYK-DOTNET-JQUERY-565
+│                       │      │                  │        440 
+│                       │      │                  ├ [116]: https://snyk.io/vuln/SNYK-JS-JQUERY-565129 
+│                       │      │                  ├ [117]: https://ubuntu.com/security/notices/USN-7246-1 
+│                       │      │                  ├ [118]: https://www.cisa.gov/known-exploited-vulnerabilities
+│                       │      │                  │        -catalog 
+│                       │      │                  ├ [119]: https://www.cve.org/CVERecord?id=CVE-2020-11023 
+│                       │      │                  ├ [120]: https://www.debian.org/security/2020/dsa-4693 
+│                       │      │                  ├ [121]: https://www.drupal.org/sa-core-2020-002 
+│                       │      │                  ├ [122]: https://www.oracle.com//security-alerts/cpujul2021.h
+│                       │      │                  │        tml 
+│                       │      │                  ├ [123]: https://www.oracle.com/security-alerts/cpuApr2021.html 
+│                       │      │                  ├ [124]: https://www.oracle.com/security-alerts/cpuapr2022.html 
+│                       │      │                  ├ [125]: https://www.oracle.com/security-alerts/cpujan2021.html 
+│                       │      │                  ├ [126]: https://www.oracle.com/security-alerts/cpujan2022.html 
+│                       │      │                  ├ [127]: https://www.oracle.com/security-alerts/cpujul2020.html 
+│                       │      │                  ├ [128]: https://www.oracle.com/security-alerts/cpujul2022.html 
+│                       │      │                  ├ [129]: https://www.oracle.com/security-alerts/cpuoct2020.html 
+│                       │      │                  ├ [130]: https://www.oracle.com/security-alerts/cpuoct2021.html 
+│                       │      │                  ├ [131]: https://www.tenable.com/security/tns-2021-02 
+│                       │      │                  ╰ [132]: https://www.tenable.com/security/tns-2021-10 
+│                       │      ├ PublishedDate   : 2020-04-29T21:15:11.743Z 
+│                       │      ╰ LastModifiedDate: 2025-01-24T02:00:02.453Z 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc@11.5.0-2.el9.x86_64 
 │                       │      ├ PkgName         : libgcc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libgcc@11.5.0-2.el9?arch=x86_64&distro
@@ -1200,7 +1655,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2023-24056 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2023-24056 
 │                       │      ├ PkgID           : libpkgconf@1.7.3-10.el9.x86_64 
 │                       │      ├ PkgName         : libpkgconf 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libpkgconf@1.7.3-10.el9?arch=x86_64&di
@@ -1241,7 +1696,386 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-24056 
 │                       │      ├ PublishedDate   : 2023-01-22T04:15:11.617Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T07:47:20.703Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2020-11023 
+│                       │      ├ PkgID           : libstdc++@11.5.0-2.el9.x86_64 
+│                       │      ├ PkgName         : libstdc++ 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libstdc%2B%2B@11.5.0-2.el9?arch=x86_64
+│                       │      │                  │       &distro=redhat-9.5 
+│                       │      │                  ╰ UID : 2defde911a3a950b 
+│                       │      ├ InstalledVersion: 11.5.0-2.el9 
+│                       │      ├ Status          : under_investigation 
+│                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
+│                       │      │                  │         ae272d438fb2dec05671 
+│                       │      │                  ╰ DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaeb
+│                       │      │                            ef016a493bcd823cb4c4 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-11023 
+│                       │      ├ Title           : jquery: Untrusted code execution via <option> tag in HTML
+│                       │      │                   passed to DOM manipulation methods 
+│                       │      ├ Description     : In jQuery versions greater than or equal to 1.0.3 and before
+│                       │      │                    3.5.0, passing HTML containing <option> elements from
+│                       │      │                   untrusted sources - even after sanitizing it - to one of
+│                       │      │                   jQuery's DOM manipulation methods (i.e. .html(), .append(),
+│                       │      │                   and others) may execute untrusted code. This problem is
+│                       │      │                   patched in jQuery 3.5.0. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-79 
+│                       │      ├ VendorSeverity   ╭ alma            : 1 
+│                       │      │                  ├ amazon          : 2 
+│                       │      │                  ├ bitnami         : 2 
+│                       │      │                  ├ ghsa            : 2 
+│                       │      │                  ├ nvd             : 2 
+│                       │      │                  ├ oracle-oval     : 3 
+│                       │      │                  ├ redhat          : 2 
+│                       │      │                  ├ ruby-advisory-db: 2 
+│                       │      │                  ╰ ubuntu          : 3 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:
+│                       │      │                  │         │           L/A:N 
+│                       │      │                  │         ╰ V3Score : 6.9 
+│                       │      │                  ├ ghsa    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:
+│                       │      │                  │         │           L/A:N 
+│                       │      │                  │         ╰ V3Score : 6.9 
+│                       │      │                  ├ nvd     ╭ V2Vector: AV:N/AC:M/Au:N/C:N/I:P/A:N 
+│                       │      │                  │         ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:
+│                       │      │                  │         │           L/A:N 
+│                       │      │                  │         ├ V2Score : 4.3 
+│                       │      │                  │         ╰ V3Score : 6.1 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:
+│                       │      │                            │           L/A:N 
+│                       │      │                            ╰ V3Score : 6.1 
+│                       │      ├ References       ╭ [0]  : http://lists.opensuse.org/opensuse-security-announce
+│                       │      │                  │        /2020-07/msg00067.html 
+│                       │      │                  ├ [1]  : http://lists.opensuse.org/opensuse-security-announce
+│                       │      │                  │        /2020-07/msg00085.html 
+│                       │      │                  ├ [2]  : http://lists.opensuse.org/opensuse-security-announce
+│                       │      │                  │        /2020-11/msg00039.html 
+│                       │      │                  ├ [3]  : http://packetstormsecurity.com/files/162160/jQuery-1
+│                       │      │                  │        .0.3-Cross-Site-Scripting.html 
+│                       │      │                  ├ [4]  : https://access.redhat.com/security/cve/CVE-2020-11023 
+│                       │      │                  ├ [5]  : https://blog.jquery.com/2020/04/10/jquery-3-5-0-rele
+│                       │      │                  │        ased 
+│                       │      │                  ├ [6]  : https://blog.jquery.com/2020/04/10/jquery-3-5-0-rele
+│                       │      │                  │        ased/ 
+│                       │      │                  ├ [7]  : https://github.com/github/advisory-database/blob/99a
+│                       │      │                  │        fa6fdeaf5d1d23e1021ff915a5e5dbc82c1f1/advisories/git
+│                       │      │                  │        hub-reviewed/2020/04/GHSA-jpcq-cgw6-v4j6/GHSA-jpcq-c
+│                       │      │                  │        gw6-v4j6.json#L20-L37 
+│                       │      │                  ├ [8]  : https://github.com/jquery/jquery 
+│                       │      │                  ├ [9]  : https://github.com/jquery/jquery/commit/1d61fd9407e6
+│                       │      │                  │        fbe82fe55cb0b938307aa0791f77 
+│                       │      │                  ├ [10] : https://github.com/jquery/jquery/releases/tag/3.5.0 
+│                       │      │                  ├ [11] : https://github.com/jquery/jquery/security/advisories
+│                       │      │                  │        /GHSA-jpcq-cgw6-v4j6 
+│                       │      │                  ├ [12] : https://github.com/rails/jquery-rails/blob/master/CH
+│                       │      │                  │        ANGELOG.md#410 
+│                       │      │                  ├ [13] : https://github.com/rails/jquery-rails/blob/master/CH
+│                       │      │                  │        ANGELOG.md#440 
+│                       │      │                  ├ [14] : https://github.com/rails/jquery-rails/blob/v4.3.5/ve
+│                       │      │                  │        ndor/assets/javascripts/jquery3.js#L5979 
+│                       │      │                  ├ [15] : https://github.com/rails/jquery-rails/blob/v4.4.0/ve
+│                       │      │                  │        ndor/assets/javascripts/jquery3.js#L6162 
+│                       │      │                  ├ [16] : https://github.com/rubysec/ruby-advisory-db/blob/mas
+│                       │      │                  │        ter/gems/jquery-rails/CVE-2020-11023.yml 
+│                       │      │                  ├ [17] : https://github.com/rubysec/ruby-advisory-db/blob/mas
+│                       │      │                  │        ter/gems/jquery-rails/CVE-2020-23064.yml 
+│                       │      │                  ├ [18] : https://jquery.com/upgrade-guide/3.5 
+│                       │      │                  ├ [19] : https://jquery.com/upgrade-guide/3.5/ 
+│                       │      │                  ├ [20] : https://linux.oracle.com/cve/CVE-2020-11023.html 
+│                       │      │                  ├ [21] : https://linux.oracle.com/errata/ELSA-2022-9177.html 
+│                       │      │                  ├ [22] : https://lists.apache.org/thread.html/r0483ba0072783c
+│                       │      │                  │        2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [23] : https://lists.apache.org/thread.html/r0483ba0072783c
+│                       │      │                  │        2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [24] : https://lists.apache.org/thread.html/r0593393ca1e97b
+│                       │      │                  │        1e7e098fe69d414d6bd0a467148e9138d07e86ebbb%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [25] : https://lists.apache.org/thread.html/r0593393ca1e97b
+│                       │      │                  │        1e7e098fe69d414d6bd0a467148e9138d07e86ebbb@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [26] : https://lists.apache.org/thread.html/r07ab379471fb15
+│                       │      │                  │        644bf7a92e4a98cbc7df3cf4e736abae0cc7625fe6%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [27] : https://lists.apache.org/thread.html/r07ab379471fb15
+│                       │      │                  │        644bf7a92e4a98cbc7df3cf4e736abae0cc7625fe6@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [28] : https://lists.apache.org/thread.html/r094f435595582f
+│                       │      │                  │        6b5b24b66fedf80543aa8b1d57a3688fbcc21f06ec%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [29] : https://lists.apache.org/thread.html/r094f435595582f
+│                       │      │                  │        6b5b24b66fedf80543aa8b1d57a3688fbcc21f06ec@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [30] : https://lists.apache.org/thread.html/r1fed19c860a0d4
+│                       │      │                  │        70f2a3eded12795772c8651ff583ef951ddac4918c%40%3Cgitb
+│                       │      │                  │        ox.hive.apache.org%3E 
+│                       │      │                  ├ [31] : https://lists.apache.org/thread.html/r1fed19c860a0d4
+│                       │      │                  │        70f2a3eded12795772c8651ff583ef951ddac4918c@%3Cgitbox
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [32] : https://lists.apache.org/thread.html/r2c85121a474420
+│                       │      │                  │        36c7f8353a3724aa04f8ecdfda1819d311ba4f5330%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [33] : https://lists.apache.org/thread.html/r2c85121a474420
+│                       │      │                  │        36c7f8353a3724aa04f8ecdfda1819d311ba4f5330@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [34] : https://lists.apache.org/thread.html/r3702ede0ff83a2
+│                       │      │                  │        9ba3eb418f6f11c473d6e3736baba981a8dbd9c9ef%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [35] : https://lists.apache.org/thread.html/r3702ede0ff83a2
+│                       │      │                  │        9ba3eb418f6f11c473d6e3736baba981a8dbd9c9ef@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [36] : https://lists.apache.org/thread.html/r49ce4243b4738d
+│                       │      │                  │        d763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [37] : https://lists.apache.org/thread.html/r49ce4243b4738d
+│                       │      │                  │        d763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [38] : https://lists.apache.org/thread.html/r4aadb98086ca72
+│                       │      │                  │        ed75391f54167522d91489a0d0ae25b12baa8fc7c5%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [39] : https://lists.apache.org/thread.html/r4aadb98086ca72
+│                       │      │                  │        ed75391f54167522d91489a0d0ae25b12baa8fc7c5@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [40] : https://lists.apache.org/thread.html/r4dba67be3239b3
+│                       │      │                  │        4861f1b9cfdf9dfb3a90272585dcce374112ed6e16%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [41] : https://lists.apache.org/thread.html/r4dba67be3239b3
+│                       │      │                  │        4861f1b9cfdf9dfb3a90272585dcce374112ed6e16@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [42] : https://lists.apache.org/thread.html/r54565a8f025c7c
+│                       │      │                  │        4f305355fdfd75b68eca442eebdb5f31c2e7d977ae%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [43] : https://lists.apache.org/thread.html/r54565a8f025c7c
+│                       │      │                  │        4f305355fdfd75b68eca442eebdb5f31c2e7d977ae@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [44] : https://lists.apache.org/thread.html/r55f5e066cc7301
+│                       │      │                  │        e3630ce90bbbf8d28c82212ae1f2d4871012141494%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [45] : https://lists.apache.org/thread.html/r55f5e066cc7301
+│                       │      │                  │        e3630ce90bbbf8d28c82212ae1f2d4871012141494@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [46] : https://lists.apache.org/thread.html/r564585d97bc069
+│                       │      │                  │        137e64f521e68ba490c7c9c5b342df5d73c49a0760%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [47] : https://lists.apache.org/thread.html/r564585d97bc069
+│                       │      │                  │        137e64f521e68ba490c7c9c5b342df5d73c49a0760@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [48] : https://lists.apache.org/thread.html/r6c4df3b33e625a
+│                       │      │                  │        44471009a172dabe6865faec8d8f21cac2303463b1%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [49] : https://lists.apache.org/thread.html/r6c4df3b33e625a
+│                       │      │                  │        44471009a172dabe6865faec8d8f21cac2303463b1@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [50] : https://lists.apache.org/thread.html/r6e97b37963926f
+│                       │      │                  │        6059ecc1e417721608723a807a76af41d4e9dbed49%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [51] : https://lists.apache.org/thread.html/r6e97b37963926f
+│                       │      │                  │        6059ecc1e417721608723a807a76af41d4e9dbed49@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [52] : https://lists.apache.org/thread.html/r706cfbc098420f
+│                       │      │                  │        7113968cc377247ec3d1439bce42e679c11c609e2d%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [53] : https://lists.apache.org/thread.html/r706cfbc098420f
+│                       │      │                  │        7113968cc377247ec3d1439bce42e679c11c609e2d@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [54] : https://lists.apache.org/thread.html/r8f70b0f65d6bed
+│                       │      │                  │        f316ecd899371fd89e65333bc988f6326d2956735c%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [55] : https://lists.apache.org/thread.html/r8f70b0f65d6bed
+│                       │      │                  │        f316ecd899371fd89e65333bc988f6326d2956735c@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [56] : https://lists.apache.org/thread.html/r9006ad2abf81d0
+│                       │      │                  │        2a0ef2126bab5177987e59095b7194a487c4ea247c%40%3Ccomm
+│                       │      │                  │        its.felix.apache.org%3E 
+│                       │      │                  ├ [57] : https://lists.apache.org/thread.html/r9006ad2abf81d0
+│                       │      │                  │        2a0ef2126bab5177987e59095b7194a487c4ea247c@%3Ccommit
+│                       │      │                  │        s.felix.apache.org%3E 
+│                       │      │                  ├ [58] : https://lists.apache.org/thread.html/r9c5fda81e4bca8
+│                       │      │                  │        daee305b4c03283dddb383ab8428a151d4cb0b3b15%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [59] : https://lists.apache.org/thread.html/r9c5fda81e4bca8
+│                       │      │                  │        daee305b4c03283dddb383ab8428a151d4cb0b3b15@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [60] : https://lists.apache.org/thread.html/r9e0bd31b7da9e7
+│                       │      │                  │        403478d22652b8760c946861f8ebd7bd750844898e%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [61] : https://lists.apache.org/thread.html/r9e0bd31b7da9e7
+│                       │      │                  │        403478d22652b8760c946861f8ebd7bd750844898e@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [62] : https://lists.apache.org/thread.html/ra32c7103ded904
+│                       │      │                  │        1c7c1cb8c12c8d125a6b2f3f3270e2937ef8417fac%40%3Cgitb
+│                       │      │                  │        ox.hive.apache.org%3E 
+│                       │      │                  ├ [63] : https://lists.apache.org/thread.html/ra32c7103ded904
+│                       │      │                  │        1c7c1cb8c12c8d125a6b2f3f3270e2937ef8417fac@%3Cgitbox
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [64] : https://lists.apache.org/thread.html/ra374bb0299b4aa
+│                       │      │                  │        3e04edde01ebc03ed6f90cf614dad40dd428ce8f72%40%3Cgitb
+│                       │      │                  │        ox.hive.apache.org%3E 
+│                       │      │                  ├ [65] : https://lists.apache.org/thread.html/ra374bb0299b4aa
+│                       │      │                  │        3e04edde01ebc03ed6f90cf614dad40dd428ce8f72@%3Cgitbox
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [66] : https://lists.apache.org/thread.html/ra3c9219fcb0b28
+│                       │      │                  │        9e18e9ec5a5ebeaa5c17d6b79a201667675af6721c%40%3Cgitb
+│                       │      │                  │        ox.hive.apache.org%3E 
+│                       │      │                  ├ [67] : https://lists.apache.org/thread.html/ra3c9219fcb0b28
+│                       │      │                  │        9e18e9ec5a5ebeaa5c17d6b79a201667675af6721c@%3Cgitbox
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [68] : https://lists.apache.org/thread.html/ra406b3adfcffcb
+│                       │      │                  │        5ce8707013bdb7c35e3ffc2776a8a99022f15274c6%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [69] : https://lists.apache.org/thread.html/ra406b3adfcffcb
+│                       │      │                  │        5ce8707013bdb7c35e3ffc2776a8a99022f15274c6@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [70] : https://lists.apache.org/thread.html/rab82dd040f3020
+│                       │      │                  │        18c85bd07d33f5604113573514895ada523c3401d9%40%3Ccomm
+│                       │      │                  │        its.hive.apache.org%3E 
+│                       │      │                  ├ [71] : https://lists.apache.org/thread.html/rab82dd040f3020
+│                       │      │                  │        18c85bd07d33f5604113573514895ada523c3401d9@%3Ccommit
+│                       │      │                  │        s.hive.apache.org%3E 
+│                       │      │                  ├ [72] : https://lists.apache.org/thread.html/radcb2aa874a796
+│                       │      │                  │        47789f3563fcbbceaf1045a029ee8806b59812a8ea%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [73] : https://lists.apache.org/thread.html/radcb2aa874a796
+│                       │      │                  │        47789f3563fcbbceaf1045a029ee8806b59812a8ea@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [74] : https://lists.apache.org/thread.html/rb25c3bc7418ae7
+│                       │      │                  │        5cba07988dafe1b6912f76a9dd7d94757878320d61%40%3Cgitb
+│                       │      │                  │        ox.hive.apache.org%3E 
+│                       │      │                  ├ [75] : https://lists.apache.org/thread.html/rb25c3bc7418ae7
+│                       │      │                  │        5cba07988dafe1b6912f76a9dd7d94757878320d61@%3Cgitbox
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [76] : https://lists.apache.org/thread.html/rb69b7d8217c1a6
+│                       │      │                  │        a2100247a5d06ce610836b31e3f5d73fc113ded8e7%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [77] : https://lists.apache.org/thread.html/rb69b7d8217c1a6
+│                       │      │                  │        a2100247a5d06ce610836b31e3f5d73fc113ded8e7@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [78] : https://lists.apache.org/thread.html/rbb448222ba62c4
+│                       │      │                  │        30e21e13f940be4cb5cfc373cd3bce56b48c0ffa67%40%3Cdev.
+│                       │      │                  │        flink.apache.org%3E 
+│                       │      │                  ├ [79] : https://lists.apache.org/thread.html/rbb448222ba62c4
+│                       │      │                  │        30e21e13f940be4cb5cfc373cd3bce56b48c0ffa67@%3Cdev.fl
+│                       │      │                  │        ink.apache.org%3E 
+│                       │      │                  ├ [80] : https://lists.apache.org/thread.html/rd38b4185a797b3
+│                       │      │                  │        24c8dd940d9213cf99fcdc2dbf1fc5a63ba7dee8c9%40%3Cissu
+│                       │      │                  │        es.hive.apache.org%3E 
+│                       │      │                  ├ [81] : https://lists.apache.org/thread.html/rd38b4185a797b3
+│                       │      │                  │        24c8dd940d9213cf99fcdc2dbf1fc5a63ba7dee8c9@%3Cissues
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [82] : https://lists.apache.org/thread.html/rda99599896c366
+│                       │      │                  │        7f2cc9e9d34c7b6ef5d2bbed1f4801e1d75a2b0679%40%3Ccomm
+│                       │      │                  │        its.nifi.apache.org%3E 
+│                       │      │                  ├ [83] : https://lists.apache.org/thread.html/rda99599896c366
+│                       │      │                  │        7f2cc9e9d34c7b6ef5d2bbed1f4801e1d75a2b0679@%3Ccommit
+│                       │      │                  │        s.nifi.apache.org%3E 
+│                       │      │                  ├ [84] : https://lists.apache.org/thread.html/re4ae96fa5c1a2f
+│                       │      │                  │        e71ccbb7b7ac1538bd0cb677be270a2bf6e2f8d108%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [85] : https://lists.apache.org/thread.html/re4ae96fa5c1a2f
+│                       │      │                  │        e71ccbb7b7ac1538bd0cb677be270a2bf6e2f8d108@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [86] : https://lists.apache.org/thread.html/rede9cfaa756e05
+│                       │      │                  │        0a3d83045008f84a62802fc68c17f2b4eabeaae5e4%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [87] : https://lists.apache.org/thread.html/rede9cfaa756e05
+│                       │      │                  │        0a3d83045008f84a62802fc68c17f2b4eabeaae5e4@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [88] : https://lists.apache.org/thread.html/ree3bd8ddb23df5
+│                       │      │                  │        fa4e372d11c226830ea3650056b1059f3965b3fce2%40%3Cissu
+│                       │      │                  │        es.flink.apache.org%3E 
+│                       │      │                  ├ [89] : https://lists.apache.org/thread.html/ree3bd8ddb23df5
+│                       │      │                  │        fa4e372d11c226830ea3650056b1059f3965b3fce2@%3Cissues
+│                       │      │                  │        .flink.apache.org%3E 
+│                       │      │                  ├ [90] : https://lists.apache.org/thread.html/rf0f8939596081d
+│                       │      │                  │        84be1ae6a91d6248b96a02d8388898c372ac807817%40%3Cdev.
+│                       │      │                  │        felix.apache.org%3E 
+│                       │      │                  ├ [91] : https://lists.apache.org/thread.html/rf0f8939596081d
+│                       │      │                  │        84be1ae6a91d6248b96a02d8388898c372ac807817@%3Cdev.fe
+│                       │      │                  │        lix.apache.org%3E 
+│                       │      │                  ├ [92] : https://lists.apache.org/thread.html/rf1ba79e564fe7e
+│                       │      │                  │        fc56aef7c986106f1cf67a3427d08e997e088e7a93%40%3Cgitb
+│                       │      │                  │        ox.hive.apache.org%3E 
+│                       │      │                  ├ [93] : https://lists.apache.org/thread.html/rf1ba79e564fe7e
+│                       │      │                  │        fc56aef7c986106f1cf67a3427d08e997e088e7a93@%3Cgitbox
+│                       │      │                  │        .hive.apache.org%3E 
+│                       │      │                  ├ [94] : https://lists.apache.org/thread.html/rf661a90a15da8d
+│                       │      │                  │        a5922ba6127b3f5f8194d4ebec8855d60a0dd13248%40%3Cdev.
+│                       │      │                  │        hive.apache.org%3E 
+│                       │      │                  ├ [95] : https://lists.apache.org/thread.html/rf661a90a15da8d
+│                       │      │                  │        a5922ba6127b3f5f8194d4ebec8855d60a0dd13248@%3Cdev.hi
+│                       │      │                  │        ve.apache.org%3E 
+│                       │      │                  ├ [96] : https://lists.debian.org/debian-lts-announce/2021/03
+│                       │      │                  │        /msg00033.html 
+│                       │      │                  ├ [97] : https://lists.debian.org/debian-lts-announce/2023/08
+│                       │      │                  │        /msg00040.html 
+│                       │      │                  ├ [98] : https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/AVKYXLW
+│                       │      │                  │        CLZBV2N7M46KYK4LVA5OXWPBY 
+│                       │      │                  ├ [99] : https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/AVKYXLW
+│                       │      │                  │        CLZBV2N7M46KYK4LVA5OXWPBY/ 
+│                       │      │                  ├ [100]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/QPN2L2X
+│                       │      │                  │        VQGUA2V5HNQJWHK3APSK3VN7K 
+│                       │      │                  ├ [101]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/QPN2L2X
+│                       │      │                  │        VQGUA2V5HNQJWHK3APSK3VN7K/ 
+│                       │      │                  ├ [102]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/SAPQVX3
+│                       │      │                  │        XDNPGFT26QAQ6AJIXZZBZ4CD4 
+│                       │      │                  ├ [103]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/SAPQVX3
+│                       │      │                  │        XDNPGFT26QAQ6AJIXZZBZ4CD4/ 
+│                       │      │                  ├ [104]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/SFP4UK4
+│                       │      │                  │        EGP4AFH2MWYJ5A5Z4I7XVFQ6B 
+│                       │      │                  ├ [105]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce%40lists.fedoraproject.org/message/SFP4UK4
+│                       │      │                  │        EGP4AFH2MWYJ5A5Z4I7XVFQ6B/ 
+│                       │      │                  ├ [106]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce@lists.fedoraproject.org/message/AVKYXLWCL
+│                       │      │                  │        ZBV2N7M46KYK4LVA5OXWPBY 
+│                       │      │                  ├ [107]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce@lists.fedoraproject.org/message/QPN2L2XVQ
+│                       │      │                  │        GUA2V5HNQJWHK3APSK3VN7K 
+│                       │      │                  ├ [108]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce@lists.fedoraproject.org/message/SAPQVX3XD
+│                       │      │                  │        NPGFT26QAQ6AJIXZZBZ4CD4 
+│                       │      │                  ├ [109]: https://lists.fedoraproject.org/archives/list/packag
+│                       │      │                  │        e-announce@lists.fedoraproject.org/message/SFP4UK4EG
+│                       │      │                  │        P4AFH2MWYJ5A5Z4I7XVFQ6B 
+│                       │      │                  ├ [110]: https://nvd.nist.gov/vuln/detail/CVE-2020-11023 
+│                       │      │                  ├ [111]: https://security.gentoo.org/glsa/202007-03 
+│                       │      │                  ├ [112]: https://security.netapp.com/advisory/ntap-20200511-0
+│                       │      │                  │        006 
+│                       │      │                  ├ [113]: https://security.netapp.com/advisory/ntap-20200511-0
+│                       │      │                  │        006/ 
+│                       │      │                  ├ [114]: https://security.netapp.com/advisory/ntap-20230725-0
+│                       │      │                  │        003 
+│                       │      │                  ├ [115]: https://security.snyk.io/vuln/SNYK-DOTNET-JQUERY-565
+│                       │      │                  │        440 
+│                       │      │                  ├ [116]: https://snyk.io/vuln/SNYK-JS-JQUERY-565129 
+│                       │      │                  ├ [117]: https://ubuntu.com/security/notices/USN-7246-1 
+│                       │      │                  ├ [118]: https://www.cisa.gov/known-exploited-vulnerabilities
+│                       │      │                  │        -catalog 
+│                       │      │                  ├ [119]: https://www.cve.org/CVERecord?id=CVE-2020-11023 
+│                       │      │                  ├ [120]: https://www.debian.org/security/2020/dsa-4693 
+│                       │      │                  ├ [121]: https://www.drupal.org/sa-core-2020-002 
+│                       │      │                  ├ [122]: https://www.oracle.com//security-alerts/cpujul2021.h
+│                       │      │                  │        tml 
+│                       │      │                  ├ [123]: https://www.oracle.com/security-alerts/cpuApr2021.html 
+│                       │      │                  ├ [124]: https://www.oracle.com/security-alerts/cpuapr2022.html 
+│                       │      │                  ├ [125]: https://www.oracle.com/security-alerts/cpujan2021.html 
+│                       │      │                  ├ [126]: https://www.oracle.com/security-alerts/cpujan2022.html 
+│                       │      │                  ├ [127]: https://www.oracle.com/security-alerts/cpujul2020.html 
+│                       │      │                  ├ [128]: https://www.oracle.com/security-alerts/cpujul2022.html 
+│                       │      │                  ├ [129]: https://www.oracle.com/security-alerts/cpuoct2020.html 
+│                       │      │                  ├ [130]: https://www.oracle.com/security-alerts/cpuoct2021.html 
+│                       │      │                  ├ [131]: https://www.tenable.com/security/tns-2021-02 
+│                       │      │                  ╰ [132]: https://www.tenable.com/security/tns-2021-10 
+│                       │      ├ PublishedDate   : 2020-04-29T21:15:11.743Z 
+│                       │      ╰ LastModifiedDate: 2025-01-24T02:00:02.453Z 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libstdc++@11.5.0-2.el9.x86_64 
 │                       │      ├ PkgName         : libstdc++ 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libstdc%2B%2B@11.5.0-2.el9?arch=x86_64
@@ -1291,7 +2125,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2022-49043 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2022-49043 
 │                       │      ├ PkgID           : libxml2@2.9.13-6.el9_4.x86_64 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_4?arch=x86_64&dis
@@ -1325,7 +2159,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-49043 
 │                       │      ├ PublishedDate   : 2025-01-26T06:15:21Z 
 │                       │      ╰ LastModifiedDate: 2025-01-26T06:15:21Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2023-45322 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2023-45322 
 │                       │      ├ PkgID           : libxml2@2.9.13-6.el9_4.x86_64 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_4?arch=x86_64&dis
@@ -1368,7 +2202,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45322 
 │                       │      ├ PublishedDate   : 2023-10-06T22:15:11.66Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:26:44.78Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2024-34459 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2024-34459 
 │                       │      ├ PkgID           : libxml2@2.9.13-6.el9_4.x86_64 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_4?arch=x86_64&dis
@@ -1419,7 +2253,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-34459 
 │                       │      ├ PublishedDate   : 2024-05-14T15:39:11.917Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:18:43.59Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2024-35325 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2024-35325 
 │                       │      ├ PkgID           : libyaml@0.2.5-7.el9.x86_64 
 │                       │      ├ PkgName         : libyaml 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&distro
@@ -1451,7 +2285,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-35325 
 │                       │      ├ PublishedDate   : 2024-06-13T17:15:50.39Z 
 │                       │      ╰ LastModifiedDate: 2024-08-28T16:15:08.417Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2022-4899 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2022-4899 
 │                       │      ├ PkgID           : libzstd@1.5.1-2.el9.x86_64 
 │                       │      ├ PkgName         : libzstd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libzstd@1.5.1-2.el9?arch=x86_64&distro
@@ -1601,7 +2435,7 @@
 │                       │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T07:36:12.31Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2022-29458 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2022-29458 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?arch=
@@ -1653,7 +2487,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
 │                       │      ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:59:07.65Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?arch=
@@ -1688,7 +2522,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?arch=
@@ -1731,7 +2565,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2022-29458 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2022-29458 
 │                       │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │      ├ PkgName         : ncurses-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?arch=
@@ -1783,7 +2617,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
 │                       │      ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:59:07.65Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │      ├ PkgName         : ncurses-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?arch=
@@ -1818,7 +2652,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │      ├ PkgName         : ncurses-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?arch=
@@ -1861,7 +2695,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2024-6602 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2024-6602 
 │                       │      ├ PkgID           : nspr@4.35.0-17.el9_2.x86_64 
 │                       │      ├ PkgName         : nspr 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nspr@4.35.0-17.el9_2?arch=x86_64&distr
@@ -1908,7 +2742,7 @@
 │                       │      │                          32/ 
 │                       │      ├ PublishedDate   : 2024-07-09T15:15:12.473Z 
 │                       │      ╰ LastModifiedDate: 2024-11-26T14:15:21.74Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nspr@4.35.0-17.el9_2.x86_64 
 │                       │      ├ PkgName         : nspr 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nspr@4.35.0-17.el9_2?arch=x86_64&distr
@@ -1947,7 +2781,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nspr@4.35.0-17.el9_2.x86_64 
 │                       │      ├ PkgName         : nspr 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nspr@4.35.0-17.el9_2?arch=x86_64&distr
@@ -1998,7 +2832,7 @@
 │                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │      ╰ LastModifiedDate: 2024-10-30T21:35:13.07Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2024-6602 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2024-6602 
 │                       │      ├ PkgID           : nss@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss@3.101.0-10.el9_2?arch=x86_64&distr
@@ -2045,7 +2879,7 @@
 │                       │      │                          32/ 
 │                       │      ├ PublishedDate   : 2024-07-09T15:15:12.473Z 
 │                       │      ╰ LastModifiedDate: 2024-11-26T14:15:21.74Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss@3.101.0-10.el9_2?arch=x86_64&distr
@@ -2084,7 +2918,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss@3.101.0-10.el9_2?arch=x86_64&distr
@@ -2135,7 +2969,7 @@
 │                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │      ╰ LastModifiedDate: 2024-10-30T21:35:13.07Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2024-6602 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2024-6602 
 │                       │      ├ PkgID           : nss-softokn@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-softokn 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn@3.101.0-10.el9_2?arch=x86_
@@ -2182,7 +3016,7 @@
 │                       │      │                          32/ 
 │                       │      ├ PublishedDate   : 2024-07-09T15:15:12.473Z 
 │                       │      ╰ LastModifiedDate: 2024-11-26T14:15:21.74Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss-softokn@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-softokn 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn@3.101.0-10.el9_2?arch=x86_
@@ -2221,7 +3055,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss-softokn@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-softokn 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn@3.101.0-10.el9_2?arch=x86_
@@ -2272,7 +3106,7 @@
 │                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │      ╰ LastModifiedDate: 2024-10-30T21:35:13.07Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2024-6602 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2024-6602 
 │                       │      ├ PkgID           : nss-softokn-freebl@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-softokn-freebl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn-freebl@3.101.0-10.el9_2?ar
@@ -2319,7 +3153,7 @@
 │                       │      │                          32/ 
 │                       │      ├ PublishedDate   : 2024-07-09T15:15:12.473Z 
 │                       │      ╰ LastModifiedDate: 2024-11-26T14:15:21.74Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss-softokn-freebl@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-softokn-freebl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn-freebl@3.101.0-10.el9_2?ar
@@ -2358,7 +3192,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss-softokn-freebl@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-softokn-freebl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn-freebl@3.101.0-10.el9_2?ar
@@ -2409,7 +3243,7 @@
 │                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │      ╰ LastModifiedDate: 2024-10-30T21:35:13.07Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2024-6602 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2024-6602 
 │                       │      ├ PkgID           : nss-sysinit@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-sysinit 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-sysinit@3.101.0-10.el9_2?arch=x86_
@@ -2456,7 +3290,7 @@
 │                       │      │                          32/ 
 │                       │      ├ PublishedDate   : 2024-07-09T15:15:12.473Z 
 │                       │      ╰ LastModifiedDate: 2024-11-26T14:15:21.74Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss-sysinit@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-sysinit 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-sysinit@3.101.0-10.el9_2?arch=x86_
@@ -2495,7 +3329,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss-sysinit@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-sysinit 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-sysinit@3.101.0-10.el9_2?arch=x86_
@@ -2546,7 +3380,7 @@
 │                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │      ╰ LastModifiedDate: 2024-10-30T21:35:13.07Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2024-6602 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2024-6602 
 │                       │      ├ PkgID           : nss-util@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-util 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-util@3.101.0-10.el9_2?arch=x86_64&
@@ -2593,7 +3427,7 @@
 │                       │      │                          32/ 
 │                       │      ├ PublishedDate   : 2024-07-09T15:15:12.473Z 
 │                       │      ╰ LastModifiedDate: 2024-11-26T14:15:21.74Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss-util@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-util 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-util@3.101.0-10.el9_2?arch=x86_64&
@@ -2632,7 +3466,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss-util@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-util 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-util@3.101.0-10.el9_2?arch=x86_64&
@@ -2683,7 +3517,7 @@
 │                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │      ╰ LastModifiedDate: 2024-10-30T21:35:13.07Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2023-2953 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2023-2953 
 │                       │      ├ PkgID           : openldap@2.6.6-3.el9.x86_64 
 │                       │      ├ PkgName         : openldap 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openldap@2.6.6-3.el9?arch=x86_64&distr
@@ -2743,7 +3577,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
 │                       │      ├ PublishedDate   : 2023-05-30T22:15:10.613Z 
 │                       │      ╰ LastModifiedDate: 2025-01-10T22:15:23.557Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2024-13176 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : openssl@3.2.2-6.el9_5.x86_64 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.2.2-6.el9_5?arch=x86_64&dist
@@ -2813,7 +3647,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : openssl@3.2.2-6.el9_5.x86_64 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.2.2-6.el9_5?arch=x86_64&dist
@@ -2860,7 +3694,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2024-13176 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : openssl-libs@3.2.2-6.el9_5.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5?arch=x86_64
@@ -2930,7 +3764,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : openssl-libs@3.2.2-6.el9_5.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5?arch=x86_64
@@ -2977,7 +3811,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2022-41409 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │      ├ PkgID           : pcre2@10.40-6.el9.x86_64 
 │                       │      ├ PkgName         : pcre2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2@10.40-6.el9?arch=x86_64&distro=r
@@ -3019,7 +3853,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                       │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T07:23:10.577Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2022-41409 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │      ├ PkgID           : pcre2-syntax@10.40-6.el9.noarch 
 │                       │      ├ PkgName         : pcre2-syntax 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-6.el9?arch=noarch&d
@@ -3061,7 +3895,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                       │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T07:23:10.577Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2023-24056 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2023-24056 
 │                       │      ├ PkgID           : pkgconf@1.7.3-10.el9.x86_64 
 │                       │      ├ PkgName         : pkgconf 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pkgconf@1.7.3-10.el9?arch=x86_64&distr
@@ -3102,7 +3936,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-24056 
 │                       │      ├ PublishedDate   : 2023-01-22T04:15:11.617Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T07:47:20.703Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2023-24056 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2023-24056 
 │                       │      ├ PkgID           : pkgconf-m4@1.7.3-10.el9.noarch 
 │                       │      ├ PkgName         : pkgconf-m4 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pkgconf-m4@1.7.3-10.el9?arch=noarch&di
@@ -3143,7 +3977,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-24056 
 │                       │      ├ PublishedDate   : 2023-01-22T04:15:11.617Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T07:47:20.703Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2023-24056 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2023-24056 
 │                       │      ├ PkgID           : pkgconf-pkg-config@1.7.3-10.el9.x86_64 
 │                       │      ├ PkgName         : pkgconf-pkg-config 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pkgconf-pkg-config@1.7.3-10.el9?arch=x
@@ -3184,350 +4018,12 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-24056 
 │                       │      ├ PublishedDate   : 2023-01-22T04:15:11.617Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T07:47:20.703Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2021-23336 
-│                       │      ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
-│                       │      ├ PkgName         : python-unversioned-command 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el
-│                       │      │                  │       9_5?arch=noarch&distro=redhat-9.5 
-│                       │      │                  ╰ UID : 608b68b025ced14b 
-│                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
-│                       │      │                  │         ae272d438fb2dec05671 
-│                       │      │                  ╰ DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaeb
-│                       │      │                            ef016a493bcd823cb4c4 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-23336 
-│                       │      ├ Title           : python: Web cache poisoning via urllib.parse.parse_qsl and
-│                       │      │                   urllib.parse.parse_qs by using a semicolon in query
-│                       │      │                   parameters 
-│                       │      ├ Description     : The package python/cpython from 0 and before 3.6.13, from
-│                       │      │                   3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from
-│                       │      │                   3.9.0 and before 3.9.2 are vulnerable to Web Cache Poisoning
-│                       │      │                    via urllib.parse.parse_qsl and urllib.parse.parse_qs by
-│                       │      │                   using a vector called parameter cloaking. When the attacker
-│                       │      │                   can separate query parameters using a semicolon (;), they
-│                       │      │                   can cause a difference in the interpretation of the request
-│                       │      │                   between the proxy (running with default configuration) and
-│                       │      │                   the server. This can result in malicious requests being
-│                       │      │                   cached as completely safe ones, as the proxy would usually
-│                       │      │                   not see the semicolon as a separator, and therefore would
-│                       │      │                   not include it in a cache key of an unkeyed parameter. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-444 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ bitnami    : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ nvd        : 2 
-│                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ├ photon     : 2 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ ubuntu     : 1 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:
-│                       │      │                  │         │           L/A:H 
-│                       │      │                  │         ╰ V3Score : 5.9 
-│                       │      │                  ├ nvd     ╭ V2Vector: AV:N/AC:H/Au:N/C:N/I:P/A:P 
-│                       │      │                  │         ├ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:
-│                       │      │                  │         │           L/A:H 
-│                       │      │                  │         ├ V2Score : 4 
-│                       │      │                  │         ╰ V3Score : 5.9 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:
-│                       │      │                            │           L/A:H 
-│                       │      │                            ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2021/02/19/4 
-│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2021/05/01/2 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2021-23336 
-│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2021-4162.html 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/fcbe0cb04d35
-│                       │      │                  │       189401c0c880ebfb4311e952d776 (master) 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/pull/24297 
-│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2021-23336.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2021-4162.html 
-│                       │      │                  ├ [8] : https://lists.apache.org/thread.html/ra8ce70088ba291f
-│                       │      │                  │       358e077cafdb14d174b7a1ce9a9d86d1b332d6367%40%3Cusers.
-│                       │      │                  │       airflow.apache.org%3E 
-│                       │      │                  ├ [9] : https://lists.apache.org/thread.html/rc005f4de9d9b0ba
-│                       │      │                  │       943ceb8ff5a21a5c6ff8a9df52632476698d99432%40%3Cannoun
-│                       │      │                  │       ce.apache.org%3E 
-│                       │      │                  ├ [10]: https://lists.apache.org/thread.html/rf9fa47ab66495c7
-│                       │      │                  │       8bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mi
-│                       │      │                  │       na.apache.org%3E 
-│                       │      │                  ├ [11]: https://lists.debian.org/debian-lts-announce/2021/02/
-│                       │      │                  │       msg00030.html 
-│                       │      │                  ├ [12]: https://lists.debian.org/debian-lts-announce/2021/04/
-│                       │      │                  │       msg00005.html 
-│                       │      │                  ├ [13]: https://lists.debian.org/debian-lts-announce/2021/04/
-│                       │      │                  │       msg00015.html 
-│                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2023/09/
-│                       │      │                  │       msg00022.html 
-│                       │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/3EPYWWFDV
-│                       │      │                  │       22CJ5AOH5VCE72DOASZZ255/ 
-│                       │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/3YKKDLXL3
-│                       │      │                  │       UEZ3J426C2XTBS63AHE46SM/ 
-│                       │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/46N6A52EG
-│                       │      │                  │       SXHJYCZWVMBJJIH4NWIV2B5/ 
-│                       │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/FONHJIOZO
-│                       │      │                  │       FD7CD35KZL6SVBUTMBPGZGA/ 
-│                       │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/HCQTCSP6S
-│                       │      │                  │       CVIYNIRUJC5X7YBVUHPLSC4/ 
-│                       │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/HZTM7KLHF
-│                       │      │                  │       CE3LWSEVO2NAFLUHMGYMCRY/ 
-│                       │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/IHQDU7NXA
-│                       │      │                  │       7EWAE4W7VO6MURVJIULEPPR/ 
-│                       │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/KJXCMHLY7
-│                       │      │                  │       H3FIYLE4OKDYUILU2CCRUCZ/ 
-│                       │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/LVNH6Z24I
-│                       │      │                  │       G3E67ZCQGGJ46FZB4XFLQNZ/ 
-│                       │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/MNUN5SOMF
-│                       │      │                  │       L2BBKP6ZAICIIUPQKZDMGYO/ 
-│                       │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/MP572OLHM
-│                       │      │                  │       S7MZO4KUPSCIMSZIA5IZZ62/ 
-│                       │      │                  ├ [26]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/N6VXJZSZ6
-│                       │      │                  │       N64AILJX4CTMACYGQGHHD5C/ 
-│                       │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/NJSCSN722
-│                       │      │                  │       JO2E2AGPWD4NTGVELVRPB4R/ 
-│                       │      │                  ├ [28]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/NODWHDIFB
-│                       │      │                  │       QE5RU5PUWUVE47JOT5VCMJ2/ 
-│                       │      │                  ├ [29]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/OAGSWNGZJ
-│                       │      │                  │       6HQ5ISA67SNMK3CJRKICET7/ 
-│                       │      │                  ├ [30]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/RSLQD5CCM
-│                       │      │                  │       75IZGAMBDGUZEATYU5YSGJ7/ 
-│                       │      │                  ├ [31]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/SGIY6I4YS
-│                       │      │                  │       3WOXAK4SXKIEOC2G4VZKIR7/ 
-│                       │      │                  ├ [32]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/TFTELUMWZ
-│                       │      │                  │       E3KV3JB2H5EE6VFRZFRD5MV/ 
-│                       │      │                  ├ [33]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/W2LSKBEFI
-│                       │      │                  │       5SYEY5FM6ICZVZM5WRQUCS4/ 
-│                       │      │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2021-23336 
-│                       │      │                  ├ [35]: https://security.gentoo.org/glsa/202104-04 
-│                       │      │                  ├ [36]: https://security.netapp.com/advisory/ntap-20210326-00
-│                       │      │                  │       04/ 
-│                       │      │                  ├ [37]: https://snyk.io/blog/cache-poisoning-in-popular-open-
-│                       │      │                  │       source-packages/ 
-│                       │      │                  ├ [38]: https://snyk.io/vuln/SNYK-UPSTREAM-PYTHONCPYTHON-1074
-│                       │      │                  │       933 
-│                       │      │                  ├ [39]: https://ubuntu.com/security/notices/USN-4742-1 
-│                       │      │                  ├ [40]: https://www.cve.org/CVERecord?id=CVE-2021-23336 
-│                       │      │                  ├ [41]: https://www.djangoproject.com/weblog/2021/feb/19/secu
-│                       │      │                  │       rity-releases/ 
-│                       │      │                  ├ [42]: https://www.oracle.com//security-alerts/cpujul2021.html 
-│                       │      │                  ├ [43]: https://www.oracle.com/security-alerts/cpuApr2021.html 
-│                       │      │                  ├ [44]: https://www.oracle.com/security-alerts/cpujan2022.html 
-│                       │      │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
-│                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2025-0938 
-│                       │      ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
-│                       │      ├ PkgName         : python-unversioned-command 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el
-│                       │      │                  │       9_5?arch=noarch&distro=redhat-9.5 
-│                       │      │                  ╰ UID : 608b68b025ced14b 
-│                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
-│                       │      │                  │         ae272d438fb2dec05671 
-│                       │      │                  ╰ DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaeb
-│                       │      │                            ef016a493bcd823cb4c4 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0938 
-│                       │      ├ Title           : python: cpython: URL parser allowed square brackets in
-│                       │      │                   domain names 
-│                       │      ├ Description     : The Python standard library functions
-│                       │      │                   `urllib.parse.urlsplit` and `urlparse` accepted domain names
-│                       │      │                    that included square brackets which isn't valid according
-│                       │      │                   to RFC 3986. Square brackets are only meant to be used as
-│                       │      │                   delimiters for specifying IPv6 and IPvFuture hosts in URLs.
-│                       │      │                   This could result in differential parsing across the Python
-│                       │      │                   URL parser and other specification-compliant URL parsers. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 6.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-0938 
-│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/90e526ae67b17
-│                       │      │                  │      2ed7c6c56e7edad36263b0f9403 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/a7084f6075c95
-│                       │      │                  │      95ba60119ce8c62f1496f50c568 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/d89a5f6a6e655
-│                       │      │                  │      11a5f6e0618c4c30a7aa5aba56a 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/105704 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/129418 
-│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
-│                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                       │      ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2024-0397 
-│                       │      ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
-│                       │      ├ PkgName         : python-unversioned-command 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el
-│                       │      │                  │       9_5?arch=noarch&distro=redhat-9.5 
-│                       │      │                  ╰ UID : 608b68b025ced14b 
-│                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │      ├ Status          : under_investigation 
-│                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
-│                       │      │                  │         ae272d438fb2dec05671 
-│                       │      │                  ╰ DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaeb
-│                       │      │                            ef016a493bcd823cb4c4 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0397 
-│                       │      ├ Title           : cpython: python: Memory race condition in ssl.SSLContext
-│                       │      │                   certificate store methods 
-│                       │      ├ Description     : A defect was discovered in the Python “ssl” module where
-│                       │      │                   there is a memory
-│                       │      │                   race condition with the ssl.SSLContext methods
-│                       │      │                   “cert_store_stats()” and
-│                       │      │                   “get_ca_certs()”. The race condition can be triggered if the
-│                       │      │                    methods are
-│                       │      │                   called at the same time as certificates are loaded into the
-│                       │      │                   SSLContext,
-│                       │      │                   such as during the TLS handshake with a certificate
-│                       │      │                   directory configured.
-│                       │      │                   This issue is fixed in CPython 3.10.14, 3.11.9, 3.12.3, and
-│                       │      │                   3.13.0a5. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-362 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 3 
-│                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
-│                       │      │                  │         │           N/A:H 
-│                       │      │                  │         ╰ V3Score : 7.4 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:
-│                       │      │                            │           L/A:L 
-│                       │      │                            ╰ V3Score : 5 
-│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/06/17/2 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-0397 
-│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/01c37f1d0714
-│                       │      │                  │       f5822d34063ca7180b595abf589d 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/29c97287d205
-│                       │      │                  │       bf2f410f4895ebce3f43b5160524 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/37324b421b72
-│                       │      │                  │       b7bc9934e27aba85d48d4773002e 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/542f3272f56f
-│                       │      │                  │       31ed04e74c40635a913fbc12d286 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/b228655c227b
-│                       │      │                  │       2ca298a8ffac44d14ce3d22f6faa 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/bce693111bff
-│                       │      │                  │       906ccf9281c22371331aaff766ab 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/bce693111bff
-│                       │      │                  │       906ccf9281c22371331aaff766ab (3.13) 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/114572 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/114573 
-│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
-│                       │      │                  │       ce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP
-│                       │      │                  │       / 
-│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-0397 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6928-1 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
-│                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T08:46:29.733Z 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2024-7592 
-│                       │      ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
-│                       │      ├ PkgName         : python-unversioned-command 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el
-│                       │      │                  │       9_5?arch=noarch&distro=redhat-9.5 
-│                       │      │                  ╰ UID : 608b68b025ced14b 
-│                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │      ├ Status          : will_not_fix 
-│                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
-│                       │      │                  │         ae272d438fb2dec05671 
-│                       │      │                  ╰ DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaeb
-│                       │      │                            ef016a493bcd823cb4c4 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7592 
-│                       │      ├ Title           : cpython: python: Uncontrolled CPU resource consumption when
-│                       │      │                   in http.cookies module 
-│                       │      ├ Description     : There is a LOW severity vulnerability affecting CPython,
-│                       │      │                   specifically the
-│                       │      │                   'http.cookies' standard library module.
-│                       │      │                   
-│                       │      │                   When parsing cookies that contained backslashes for quoted
-│                       │      │                   characters in
-│                       │      │                   the cookie value, the parser would use an algorithm with
-│                       │      │                   quadratic
-│                       │      │                   complexity, resulting in excess CPU resources being used
-│                       │      │                   while parsing the
-│                       │      │                   value. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ╭ [0]: CWE-400 
-│                       │      │                  ╰ [1]: CWE-1333 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 3 
-│                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
-│                       │      │                  ├ nvd        : 3 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 1 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │      │                  │         │           N/A:H 
-│                       │      │                  │         ╰ V3Score : 7.5 
-│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │      │                  │         │           N/A:H 
-│                       │      │                  │         ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:
-│                       │      │                            │           N/A:H 
-│                       │      │                            ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-7592 
-│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/391e5626e3ee
-│                       │      │                  │       5af267b97e37abc7475732e67621 
-│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/44e458357fca
-│                       │      │                  │       05ca0ae2658d62c8c595b048b5ef 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/a77ab24427a1
-│                       │      │                  │       8bff817025adb03ca920dc3f1a06 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/b2f11ca7667e
-│                       │      │                  │       4d57c71c1c88b255115f16042d9a 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/d4ac921a4b08
-│                       │      │                  │       1f7f996a5d2b101684b67ba0ed7f 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/d662e2db2605
-│                       │      │                  │       515a767f88ad48096b8ac623c774 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/dcc3eaef98cd
-│                       │      │                  │       94d6cb6cb0f44bd1c903d04f33b1 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/issues/123067 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/pull/123075 
-│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-announ
-│                       │      │                  │       ce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK
-│                       │      │                  │       / 
-│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-7592 
-│                       │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20241018-00
-│                       │      │                  │       06/ 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-1 
-│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7015-2 
-│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
-│                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
-│                       │      ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
 │                       ├ [68] ╭ VulnerabilityID : CVE-2021-23336 
-│                       │      ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
-│                       │      ├ PkgName         : python3 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&dis
-│                       │      │                  │       tro=redhat-9.5 
-│                       │      │                  ╰ UID : 9534c8adf391cc0c 
+│                       │      ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
+│                       │      ├ PkgName         : python-unversioned-command 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el
+│                       │      │                  │       9_5?arch=noarch&distro=redhat-9.5 
+│                       │      │                  ╰ UID : 608b68b025ced14b 
 │                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
@@ -3675,6 +4171,344 @@
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
 │                       ├ [69] ╭ VulnerabilityID : CVE-2025-0938 
+│                       │      ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
+│                       │      ├ PkgName         : python-unversioned-command 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el
+│                       │      │                  │       9_5?arch=noarch&distro=redhat-9.5 
+│                       │      │                  ╰ UID : 608b68b025ced14b 
+│                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
+│                       │      │                  │         ae272d438fb2dec05671 
+│                       │      │                  ╰ DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaeb
+│                       │      │                            ef016a493bcd823cb4c4 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0938 
+│                       │      ├ Title           : python: cpython: URL parser allowed square brackets in
+│                       │      │                   domain names 
+│                       │      ├ Description     : The Python standard library functions
+│                       │      │                   `urllib.parse.urlsplit` and `urlparse` accepted domain names
+│                       │      │                    that included square brackets which isn't valid according
+│                       │      │                   to RFC 3986. Square brackets are only meant to be used as
+│                       │      │                   delimiters for specifying IPv6 and IPvFuture hosts in URLs.
+│                       │      │                   This could result in differential parsing across the Python
+│                       │      │                   URL parser and other specification-compliant URL parsers. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-20 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-0938 
+│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/90e526ae67b17
+│                       │      │                  │      2ed7c6c56e7edad36263b0f9403 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/a7084f6075c95
+│                       │      │                  │      95ba60119ce8c62f1496f50c568 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/d89a5f6a6e655
+│                       │      │                  │      11a5f6e0618c4c30a7aa5aba56a 
+│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/105704 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/129418 
+│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  │      e@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/ 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
+│                       │      ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2024-0397 
+│                       │      ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
+│                       │      ├ PkgName         : python-unversioned-command 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el
+│                       │      │                  │       9_5?arch=noarch&distro=redhat-9.5 
+│                       │      │                  ╰ UID : 608b68b025ced14b 
+│                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
+│                       │      ├ Status          : under_investigation 
+│                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
+│                       │      │                  │         ae272d438fb2dec05671 
+│                       │      │                  ╰ DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaeb
+│                       │      │                            ef016a493bcd823cb4c4 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0397 
+│                       │      ├ Title           : cpython: python: Memory race condition in ssl.SSLContext
+│                       │      │                   certificate store methods 
+│                       │      ├ Description     : A defect was discovered in the Python “ssl” module where
+│                       │      │                   there is a memory
+│                       │      │                   race condition with the ssl.SSLContext methods
+│                       │      │                   “cert_store_stats()” and
+│                       │      │                   “get_ca_certs()”. The race condition can be triggered if the
+│                       │      │                    methods are
+│                       │      │                   called at the same time as certificates are loaded into the
+│                       │      │                   SSLContext,
+│                       │      │                   such as during the TLS handshake with a certificate
+│                       │      │                   directory configured.
+│                       │      │                   This issue is fixed in CPython 3.10.14, 3.11.9, 3.12.3, and
+│                       │      │                   3.13.0a5. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-362 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
+│                       │      │                  │         │           N/A:H 
+│                       │      │                  │         ╰ V3Score : 7.4 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                       │      │                            │           L/A:L 
+│                       │      │                            ╰ V3Score : 5 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/06/17/2 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-0397 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/01c37f1d0714
+│                       │      │                  │       f5822d34063ca7180b595abf589d 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/29c97287d205
+│                       │      │                  │       bf2f410f4895ebce3f43b5160524 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/37324b421b72
+│                       │      │                  │       b7bc9934e27aba85d48d4773002e 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/542f3272f56f
+│                       │      │                  │       31ed04e74c40635a913fbc12d286 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/b228655c227b
+│                       │      │                  │       2ca298a8ffac44d14ce3d22f6faa 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/bce693111bff
+│                       │      │                  │       906ccf9281c22371331aaff766ab 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/bce693111bff
+│                       │      │                  │       906ccf9281c22371331aaff766ab (3.13) 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/114572 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/114573 
+│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP
+│                       │      │                  │       / 
+│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-0397 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6928-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
+│                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T08:46:29.733Z 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2024-7592 
+│                       │      ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
+│                       │      ├ PkgName         : python-unversioned-command 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el
+│                       │      │                  │       9_5?arch=noarch&distro=redhat-9.5 
+│                       │      │                  ╰ UID : 608b68b025ced14b 
+│                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
+│                       │      ├ Status          : will_not_fix 
+│                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
+│                       │      │                  │         ae272d438fb2dec05671 
+│                       │      │                  ╰ DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaeb
+│                       │      │                            ef016a493bcd823cb4c4 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7592 
+│                       │      ├ Title           : cpython: python: Uncontrolled CPU resource consumption when
+│                       │      │                   in http.cookies module 
+│                       │      ├ Description     : There is a LOW severity vulnerability affecting CPython,
+│                       │      │                   specifically the
+│                       │      │                   'http.cookies' standard library module.
+│                       │      │                   
+│                       │      │                   When parsing cookies that contained backslashes for quoted
+│                       │      │                   characters in
+│                       │      │                   the cookie value, the parser would use an algorithm with
+│                       │      │                   quadratic
+│                       │      │                   complexity, resulting in excess CPU resources being used
+│                       │      │                   while parsing the
+│                       │      │                   value. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ╭ [0]: CWE-400 
+│                       │      │                  ╰ [1]: CWE-1333 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           N/A:H 
+│                       │      │                  │         ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           N/A:H 
+│                       │      │                  │         ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:
+│                       │      │                            │           N/A:H 
+│                       │      │                            ╰ V3Score : 4.8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-7592 
+│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/391e5626e3ee
+│                       │      │                  │       5af267b97e37abc7475732e67621 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/44e458357fca
+│                       │      │                  │       05ca0ae2658d62c8c595b048b5ef 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/a77ab24427a1
+│                       │      │                  │       8bff817025adb03ca920dc3f1a06 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/b2f11ca7667e
+│                       │      │                  │       4d57c71c1c88b255115f16042d9a 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/d4ac921a4b08
+│                       │      │                  │       1f7f996a5d2b101684b67ba0ed7f 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/d662e2db2605
+│                       │      │                  │       515a767f88ad48096b8ac623c774 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/dcc3eaef98cd
+│                       │      │                  │       94d6cb6cb0f44bd1c903d04f33b1 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/issues/123067 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/pull/123075 
+│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK
+│                       │      │                  │       / 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-7592 
+│                       │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20241018-00
+│                       │      │                  │       06/ 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7015-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7015-2 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
+│                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
+│                       │      ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2021-23336 
+│                       │      ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
+│                       │      ├ PkgName         : python3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&dis
+│                       │      │                  │       tro=redhat-9.5 
+│                       │      │                  ╰ UID : 9534c8adf391cc0c 
+│                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098b
+│                       │      │                  │         ae272d438fb2dec05671 
+│                       │      │                  ╰ DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaeb
+│                       │      │                            ef016a493bcd823cb4c4 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-23336 
+│                       │      ├ Title           : python: Web cache poisoning via urllib.parse.parse_qsl and
+│                       │      │                   urllib.parse.parse_qs by using a semicolon in query
+│                       │      │                   parameters 
+│                       │      ├ Description     : The package python/cpython from 0 and before 3.6.13, from
+│                       │      │                   3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from
+│                       │      │                   3.9.0 and before 3.9.2 are vulnerable to Web Cache Poisoning
+│                       │      │                    via urllib.parse.parse_qsl and urllib.parse.parse_qs by
+│                       │      │                   using a vector called parameter cloaking. When the attacker
+│                       │      │                   can separate query parameters using a semicolon (;), they
+│                       │      │                   can cause a difference in the interpretation of the request
+│                       │      │                   between the proxy (running with default configuration) and
+│                       │      │                   the server. This can result in malicious requests being
+│                       │      │                   cached as completely safe ones, as the proxy would usually
+│                       │      │                   not see the semicolon as a separator, and therefore would
+│                       │      │                   not include it in a cache key of an unkeyed parameter. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-444 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ bitnami    : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ nvd        : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:
+│                       │      │                  │         │           L/A:H 
+│                       │      │                  │         ╰ V3Score : 5.9 
+│                       │      │                  ├ nvd     ╭ V2Vector: AV:N/AC:H/Au:N/C:N/I:P/A:P 
+│                       │      │                  │         ├ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:
+│                       │      │                  │         │           L/A:H 
+│                       │      │                  │         ├ V2Score : 4 
+│                       │      │                  │         ╰ V3Score : 5.9 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:
+│                       │      │                            │           L/A:H 
+│                       │      │                            ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2021/02/19/4 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2021/05/01/2 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2021-23336 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2021-4162.html 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/fcbe0cb04d35
+│                       │      │                  │       189401c0c880ebfb4311e952d776 (master) 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/pull/24297 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2021-23336.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2021-4162.html 
+│                       │      │                  ├ [8] : https://lists.apache.org/thread.html/ra8ce70088ba291f
+│                       │      │                  │       358e077cafdb14d174b7a1ce9a9d86d1b332d6367%40%3Cusers.
+│                       │      │                  │       airflow.apache.org%3E 
+│                       │      │                  ├ [9] : https://lists.apache.org/thread.html/rc005f4de9d9b0ba
+│                       │      │                  │       943ceb8ff5a21a5c6ff8a9df52632476698d99432%40%3Cannoun
+│                       │      │                  │       ce.apache.org%3E 
+│                       │      │                  ├ [10]: https://lists.apache.org/thread.html/rf9fa47ab66495c7
+│                       │      │                  │       8bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mi
+│                       │      │                  │       na.apache.org%3E 
+│                       │      │                  ├ [11]: https://lists.debian.org/debian-lts-announce/2021/02/
+│                       │      │                  │       msg00030.html 
+│                       │      │                  ├ [12]: https://lists.debian.org/debian-lts-announce/2021/04/
+│                       │      │                  │       msg00005.html 
+│                       │      │                  ├ [13]: https://lists.debian.org/debian-lts-announce/2021/04/
+│                       │      │                  │       msg00015.html 
+│                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2023/09/
+│                       │      │                  │       msg00022.html 
+│                       │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/3EPYWWFDV
+│                       │      │                  │       22CJ5AOH5VCE72DOASZZ255/ 
+│                       │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/3YKKDLXL3
+│                       │      │                  │       UEZ3J426C2XTBS63AHE46SM/ 
+│                       │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/46N6A52EG
+│                       │      │                  │       SXHJYCZWVMBJJIH4NWIV2B5/ 
+│                       │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/FONHJIOZO
+│                       │      │                  │       FD7CD35KZL6SVBUTMBPGZGA/ 
+│                       │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/HCQTCSP6S
+│                       │      │                  │       CVIYNIRUJC5X7YBVUHPLSC4/ 
+│                       │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/HZTM7KLHF
+│                       │      │                  │       CE3LWSEVO2NAFLUHMGYMCRY/ 
+│                       │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/IHQDU7NXA
+│                       │      │                  │       7EWAE4W7VO6MURVJIULEPPR/ 
+│                       │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/KJXCMHLY7
+│                       │      │                  │       H3FIYLE4OKDYUILU2CCRUCZ/ 
+│                       │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/LVNH6Z24I
+│                       │      │                  │       G3E67ZCQGGJ46FZB4XFLQNZ/ 
+│                       │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/MNUN5SOMF
+│                       │      │                  │       L2BBKP6ZAICIIUPQKZDMGYO/ 
+│                       │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/MP572OLHM
+│                       │      │                  │       S7MZO4KUPSCIMSZIA5IZZ62/ 
+│                       │      │                  ├ [26]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/N6VXJZSZ6
+│                       │      │                  │       N64AILJX4CTMACYGQGHHD5C/ 
+│                       │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/NJSCSN722
+│                       │      │                  │       JO2E2AGPWD4NTGVELVRPB4R/ 
+│                       │      │                  ├ [28]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/NODWHDIFB
+│                       │      │                  │       QE5RU5PUWUVE47JOT5VCMJ2/ 
+│                       │      │                  ├ [29]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/OAGSWNGZJ
+│                       │      │                  │       6HQ5ISA67SNMK3CJRKICET7/ 
+│                       │      │                  ├ [30]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/RSLQD5CCM
+│                       │      │                  │       75IZGAMBDGUZEATYU5YSGJ7/ 
+│                       │      │                  ├ [31]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/SGIY6I4YS
+│                       │      │                  │       3WOXAK4SXKIEOC2G4VZKIR7/ 
+│                       │      │                  ├ [32]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/TFTELUMWZ
+│                       │      │                  │       E3KV3JB2H5EE6VFRZFRD5MV/ 
+│                       │      │                  ├ [33]: https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/W2LSKBEFI
+│                       │      │                  │       5SYEY5FM6ICZVZM5WRQUCS4/ 
+│                       │      │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2021-23336 
+│                       │      │                  ├ [35]: https://security.gentoo.org/glsa/202104-04 
+│                       │      │                  ├ [36]: https://security.netapp.com/advisory/ntap-20210326-00
+│                       │      │                  │       04/ 
+│                       │      │                  ├ [37]: https://snyk.io/blog/cache-poisoning-in-popular-open-
+│                       │      │                  │       source-packages/ 
+│                       │      │                  ├ [38]: https://snyk.io/vuln/SNYK-UPSTREAM-PYTHONCPYTHON-1074
+│                       │      │                  │       933 
+│                       │      │                  ├ [39]: https://ubuntu.com/security/notices/USN-4742-1 
+│                       │      │                  ├ [40]: https://www.cve.org/CVERecord?id=CVE-2021-23336 
+│                       │      │                  ├ [41]: https://www.djangoproject.com/weblog/2021/feb/19/secu
+│                       │      │                  │       rity-releases/ 
+│                       │      │                  ├ [42]: https://www.oracle.com//security-alerts/cpujul2021.html 
+│                       │      │                  ├ [43]: https://www.oracle.com/security-alerts/cpuApr2021.html 
+│                       │      │                  ├ [44]: https://www.oracle.com/security-alerts/cpujan2022.html 
+│                       │      │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
+│                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2025-0938 
 │                       │      ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&dis
@@ -3718,7 +4552,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
-│                       ├ [70] ╭ VulnerabilityID : CVE-2024-0397 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&dis
@@ -3786,7 +4620,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:46:29.733Z 
-│                       ├ [71] ╭ VulnerabilityID : CVE-2024-7592 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&dis
@@ -3860,7 +4694,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │      ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2021-23336 
+│                       ├ [76] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_6
@@ -4012,7 +4846,7 @@
 │                       │      │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
-│                       ├ [73] ╭ VulnerabilityID : CVE-2025-0938 
+│                       ├ [77] ╭ VulnerabilityID : CVE-2025-0938 
 │                       │      ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_6
@@ -4056,7 +4890,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
-│                       ├ [74] ╭ VulnerabilityID : CVE-2024-0397 
+│                       ├ [78] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_6
@@ -4124,7 +4958,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:46:29.733Z 
-│                       ├ [75] ╭ VulnerabilityID : CVE-2024-7592 
+│                       ├ [79] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_6
@@ -4198,7 +5032,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │      ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
-│                       ├ [76] ╭ VulnerabilityID : CVE-2021-3572 
+│                       ├ [80] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │      ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=no
@@ -4273,7 +5107,7 @@
 │                       │      │                  ╰ [20]: https://www.oracle.com/security-alerts/cpujul2022.html 
 │                       │      ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:21:52.473Z 
-│                       ├ [77] ╭ VulnerabilityID : CVE-2023-36191 
+│                       ├ [81] ╭ VulnerabilityID : CVE-2023-36191 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_64
@@ -4305,7 +5139,7 @@
 │                       │      │                  ╰ [3]: https://www.sqlite.org/forum/forumpost/19f55ef73b 
 │                       │      ├ PublishedDate   : 2023-06-23T02:15:09.597Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T04:16:25.153Z 
-│                       ├ [78] ╭ VulnerabilityID : CVE-2024-0232 
+│                       ├ [82] ╭ VulnerabilityID : CVE-2024-0232 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_64
@@ -4350,7 +5184,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
 │                       │      ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:46:06.907Z 
-│                       ├ [79] ╭ VulnerabilityID : CVE-2021-3997 
+│                       ├ [83] ╭ VulnerabilityID : CVE-2021-3997 
 │                       │      ├ PkgID           : systemd-libs@252-46.el9_5.2.x86_64 
 │                       │      ├ PkgName         : systemd-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-46.el9_5.2?arch=x86_6
@@ -4394,7 +5228,7 @@
 │                       │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2022/01/10/2 
 │                       │      ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:23:20.623Z 
-│                       ├ [80] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [84] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │      ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
@@ -4430,7 +5264,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │      ╰ LastModifiedDate: 2024-11-20T23:59:47.53Z 
-│                       ╰ [81] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ╰ [85] ╭ VulnerabilityID : CVE-2023-39804 
 │                              ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                              ├ PkgName         : tar 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
