@@ -359,7 +359,26 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Severity: UNKNOWN
+    Title: 'libtasn1: Inefficient DER Decoding in libtasn1 Leading to Potential Remote DoS'
+    Description: A flaw in libtasn1 causes inefficient handling of specific certificate data. When processing a large number of elements in a certificate, libtasn1 takes much longer than expected, which can slow down or even crash the system. This flaw allows an attacker to send a specially crafted certificate, causing a denial of service attack.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/02/06/6
+    - https://access.redhat.com/security/cve/CVE-2024-12133
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2344611
+    - https://gitlab.com/gnutls/libtasn1/-/issues/52
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12133
+    - https://www.cve.org/CVERecord?id=CVE-2024-12133
+    PublishedDate: '2025-02-10T16:15:37.26Z'
+    LastModifiedDate: '2025-02-10T16:15:37.26Z'
   - VulnerabilityID: CVE-2025-21502
     PkgID: openjdk21-jre@21.0.5_p11-r0
     PkgName: openjdk21-jre
