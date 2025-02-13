@@ -758,6 +758,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2024-11-21T07:19:04.727Z'
+  - VulnerabilityID: CVE-2024-12243
+    PkgID: gnutls@3.8.3-4.el9_4.x86_64
+    PkgName: gnutls
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/gnutls@3.8.3-4.el9_4?arch=x86_64&distro=redhat-9.5
+      UID: e34e99f5f6299d20
+    InstalledVersion: 3.8.3-4.el9_4
+    Status: affected
+    Layer:
+      Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
+      DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12243
+    Title: 'gnutls: GnuTLS Impacted by Inefficient DER Decoding in libtasn1 Leading to Remote DoS'
+    Description: A flaw was found in GnuTLS, which relies on libtasn1 for ASN.1 data processing. Due to an inefficient algorithm in libtasn1, decoding certain DER-encoded certificate data can take excessive time, leading to increased resource consumption. This flaw allows a remote attacker to send a specially crafted certificate, causing GnuTLS to become unresponsive or slow, resulting in a denial-of-service condition.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-12243
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2344615
+    - https://gitlab.com/gnutls/libtasn1/-/issues/52
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12243
+    - https://www.cve.org/CVERecord?id=CVE-2024-12243
+    PublishedDate: '2025-02-10T16:15:37.423Z'
+    LastModifiedDate: '2025-02-10T16:15:37.423Z'
   - VulnerabilityID: CVE-2024-21094
     PkgID: java-21-openjdk-headless@21.0.6.0.7-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -1097,13 +1129,16 @@
     PublishedDate: '2025-02-05T10:15:22.98Z'
     LastModifiedDate: '2025-02-06T19:15:19.733Z'
   - VulnerabilityID: CVE-2020-11023
+    VendorIDs:
+    - RHSA-2025:1346
     PkgID: libgcc@11.5.0-2.el9.x86_64
     PkgName: libgcc
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libgcc@11.5.0-2.el9?arch=x86_64&distro=redhat-9.5
       UID: ce859a6e06e9cb00
     InstalledVersion: 11.5.0-2.el9
-    Status: affected
+    FixedVersion: 11.5.0-5.el9_5
+    Status: fixed
     Layer:
       Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
       DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
@@ -1361,13 +1396,16 @@
     PublishedDate: '2023-01-22T04:15:11.617Z'
     LastModifiedDate: '2024-11-21T07:47:20.703Z'
   - VulnerabilityID: CVE-2020-11023
+    VendorIDs:
+    - RHSA-2025:1346
     PkgID: libstdc++@11.5.0-2.el9.x86_64
     PkgName: libstdc++
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libstdc%2B%2B@11.5.0-2.el9?arch=x86_64&distro=redhat-9.5
       UID: 2defde911a3a950b
     InstalledVersion: 11.5.0-2.el9
-    Status: affected
+    FixedVersion: 11.5.0-5.el9_5
+    Status: fixed
     Layer:
       Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
       DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
@@ -1587,14 +1625,50 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
+  - VulnerabilityID: CVE-2024-12133
+    PkgID: libtasn1@4.16.0-8.el9_1.x86_64
+    PkgName: libtasn1
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libtasn1@4.16.0-8.el9_1?arch=x86_64&distro=redhat-9.5
+      UID: 80c590faaa071a52
+    InstalledVersion: 4.16.0-8.el9_1
+    Status: affected
+    Layer:
+      Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
+      DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12133
+    Title: 'libtasn1: Inefficient DER Decoding in libtasn1 Leading to Potential Remote DoS'
+    Description: A flaw in libtasn1 causes inefficient handling of specific certificate data. When processing a large number of elements in a certificate, libtasn1 takes much longer than expected, which can slow down or even crash the system. This flaw allows an attacker to send a specially crafted certificate, causing a denial of service attack.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/02/06/6
+    - https://access.redhat.com/security/cve/CVE-2024-12133
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2344611
+    - https://gitlab.com/gnutls/libtasn1/-/issues/52
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12133
+    - https://www.cve.org/CVERecord?id=CVE-2024-12133
+    PublishedDate: '2025-02-10T16:15:37.26Z'
+    LastModifiedDate: '2025-02-10T16:15:37.26Z'
   - VulnerabilityID: CVE-2022-49043
+    VendorIDs:
+    - RHSA-2025:1350
     PkgID: libxml2@2.9.13-6.el9_4.x86_64
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_4?arch=x86_64&distro=redhat-9.5
       UID: e8beeb5c70b72452
     InstalledVersion: 2.9.13-6.el9_4
-    Status: affected
+    FixedVersion: 2.9.13-6.el9_5.1
+    Status: fixed
     Layer:
       Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
       DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
@@ -2112,45 +2186,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-11-21T08:37:04.243Z'
-  - VulnerabilityID: CVE-2024-6602
-    PkgID: nspr@4.35.0-17.el9_2.x86_64
-    PkgName: nspr
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/nspr@4.35.0-17.el9_2?arch=x86_64&distro=redhat-9.5
-      UID: 92fca4cc55a8db43
-    InstalledVersion: 4.35.0-17.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
-      DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6602
-    Title: 'Mozilla: Memory corruption in NSS'
-    Description: A mismatch between allocator and deallocator could have led to memory corruption. This vulnerability affects Firefox < 128, Firefox ESR < 115.13, Thunderbird < 115.13, and Thunderbird < 128.
-    Severity: MEDIUM
-    VendorSeverity:
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-6602
-    - https://bugzilla.mozilla.org/show_bug.cgi?id=1895032
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-6602
-    - https://ubuntu.com/security/notices/USN-6890-1
-    - https://ubuntu.com/security/notices/USN-6903-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-29/#CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-30/#CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-31/#CVE-2024-6602
-    - https://www.mozilla.org/security/advisories/mfsa2024-29/
-    - https://www.mozilla.org/security/advisories/mfsa2024-30/
-    - https://www.mozilla.org/security/advisories/mfsa2024-31/
-    - https://www.mozilla.org/security/advisories/mfsa2024-32/
-    PublishedDate: '2024-07-09T15:15:12.473Z'
-    LastModifiedDate: '2024-11-26T14:15:21.74Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nspr@4.35.0-17.el9_2.x86_64
     PkgName: nspr
@@ -2228,45 +2263,6 @@
     - https://www.mozilla.org/security/advisories/mfsa2024-35/
     PublishedDate: '2024-08-06T13:15:57.787Z'
     LastModifiedDate: '2024-10-30T21:35:13.07Z'
-  - VulnerabilityID: CVE-2024-6602
-    PkgID: nss@3.101.0-10.el9_2.x86_64
-    PkgName: nss
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/nss@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.5
-      UID: 36860434f1e547a5
-    InstalledVersion: 3.101.0-10.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
-      DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6602
-    Title: 'Mozilla: Memory corruption in NSS'
-    Description: A mismatch between allocator and deallocator could have led to memory corruption. This vulnerability affects Firefox < 128, Firefox ESR < 115.13, Thunderbird < 115.13, and Thunderbird < 128.
-    Severity: MEDIUM
-    VendorSeverity:
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-6602
-    - https://bugzilla.mozilla.org/show_bug.cgi?id=1895032
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-6602
-    - https://ubuntu.com/security/notices/USN-6890-1
-    - https://ubuntu.com/security/notices/USN-6903-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-29/#CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-30/#CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-31/#CVE-2024-6602
-    - https://www.mozilla.org/security/advisories/mfsa2024-29/
-    - https://www.mozilla.org/security/advisories/mfsa2024-30/
-    - https://www.mozilla.org/security/advisories/mfsa2024-31/
-    - https://www.mozilla.org/security/advisories/mfsa2024-32/
-    PublishedDate: '2024-07-09T15:15:12.473Z'
-    LastModifiedDate: '2024-11-26T14:15:21.74Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss@3.101.0-10.el9_2.x86_64
     PkgName: nss
@@ -2344,45 +2340,6 @@
     - https://www.mozilla.org/security/advisories/mfsa2024-35/
     PublishedDate: '2024-08-06T13:15:57.787Z'
     LastModifiedDate: '2024-10-30T21:35:13.07Z'
-  - VulnerabilityID: CVE-2024-6602
-    PkgID: nss-softokn@3.101.0-10.el9_2.x86_64
-    PkgName: nss-softokn
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/nss-softokn@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.5
-      UID: ad44a2abe6bcb3b
-    InstalledVersion: 3.101.0-10.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
-      DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6602
-    Title: 'Mozilla: Memory corruption in NSS'
-    Description: A mismatch between allocator and deallocator could have led to memory corruption. This vulnerability affects Firefox < 128, Firefox ESR < 115.13, Thunderbird < 115.13, and Thunderbird < 128.
-    Severity: MEDIUM
-    VendorSeverity:
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-6602
-    - https://bugzilla.mozilla.org/show_bug.cgi?id=1895032
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-6602
-    - https://ubuntu.com/security/notices/USN-6890-1
-    - https://ubuntu.com/security/notices/USN-6903-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-29/#CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-30/#CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-31/#CVE-2024-6602
-    - https://www.mozilla.org/security/advisories/mfsa2024-29/
-    - https://www.mozilla.org/security/advisories/mfsa2024-30/
-    - https://www.mozilla.org/security/advisories/mfsa2024-31/
-    - https://www.mozilla.org/security/advisories/mfsa2024-32/
-    PublishedDate: '2024-07-09T15:15:12.473Z'
-    LastModifiedDate: '2024-11-26T14:15:21.74Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn@3.101.0-10.el9_2.x86_64
     PkgName: nss-softokn
@@ -2460,45 +2417,6 @@
     - https://www.mozilla.org/security/advisories/mfsa2024-35/
     PublishedDate: '2024-08-06T13:15:57.787Z'
     LastModifiedDate: '2024-10-30T21:35:13.07Z'
-  - VulnerabilityID: CVE-2024-6602
-    PkgID: nss-softokn-freebl@3.101.0-10.el9_2.x86_64
-    PkgName: nss-softokn-freebl
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/nss-softokn-freebl@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.5
-      UID: 830cd8177ab8f78c
-    InstalledVersion: 3.101.0-10.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
-      DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6602
-    Title: 'Mozilla: Memory corruption in NSS'
-    Description: A mismatch between allocator and deallocator could have led to memory corruption. This vulnerability affects Firefox < 128, Firefox ESR < 115.13, Thunderbird < 115.13, and Thunderbird < 128.
-    Severity: MEDIUM
-    VendorSeverity:
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-6602
-    - https://bugzilla.mozilla.org/show_bug.cgi?id=1895032
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-6602
-    - https://ubuntu.com/security/notices/USN-6890-1
-    - https://ubuntu.com/security/notices/USN-6903-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-29/#CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-30/#CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-31/#CVE-2024-6602
-    - https://www.mozilla.org/security/advisories/mfsa2024-29/
-    - https://www.mozilla.org/security/advisories/mfsa2024-30/
-    - https://www.mozilla.org/security/advisories/mfsa2024-31/
-    - https://www.mozilla.org/security/advisories/mfsa2024-32/
-    PublishedDate: '2024-07-09T15:15:12.473Z'
-    LastModifiedDate: '2024-11-26T14:15:21.74Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn-freebl@3.101.0-10.el9_2.x86_64
     PkgName: nss-softokn-freebl
@@ -2576,45 +2494,6 @@
     - https://www.mozilla.org/security/advisories/mfsa2024-35/
     PublishedDate: '2024-08-06T13:15:57.787Z'
     LastModifiedDate: '2024-10-30T21:35:13.07Z'
-  - VulnerabilityID: CVE-2024-6602
-    PkgID: nss-sysinit@3.101.0-10.el9_2.x86_64
-    PkgName: nss-sysinit
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/nss-sysinit@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.5
-      UID: 5124510b1210e8b1
-    InstalledVersion: 3.101.0-10.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
-      DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6602
-    Title: 'Mozilla: Memory corruption in NSS'
-    Description: A mismatch between allocator and deallocator could have led to memory corruption. This vulnerability affects Firefox < 128, Firefox ESR < 115.13, Thunderbird < 115.13, and Thunderbird < 128.
-    Severity: MEDIUM
-    VendorSeverity:
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-6602
-    - https://bugzilla.mozilla.org/show_bug.cgi?id=1895032
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-6602
-    - https://ubuntu.com/security/notices/USN-6890-1
-    - https://ubuntu.com/security/notices/USN-6903-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-29/#CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-30/#CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-31/#CVE-2024-6602
-    - https://www.mozilla.org/security/advisories/mfsa2024-29/
-    - https://www.mozilla.org/security/advisories/mfsa2024-30/
-    - https://www.mozilla.org/security/advisories/mfsa2024-31/
-    - https://www.mozilla.org/security/advisories/mfsa2024-32/
-    PublishedDate: '2024-07-09T15:15:12.473Z'
-    LastModifiedDate: '2024-11-26T14:15:21.74Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-sysinit@3.101.0-10.el9_2.x86_64
     PkgName: nss-sysinit
@@ -2692,45 +2571,6 @@
     - https://www.mozilla.org/security/advisories/mfsa2024-35/
     PublishedDate: '2024-08-06T13:15:57.787Z'
     LastModifiedDate: '2024-10-30T21:35:13.07Z'
-  - VulnerabilityID: CVE-2024-6602
-    PkgID: nss-util@3.101.0-10.el9_2.x86_64
-    PkgName: nss-util
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/nss-util@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.5
-      UID: 3ec36444b5197a3b
-    InstalledVersion: 3.101.0-10.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
-      DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6602
-    Title: 'Mozilla: Memory corruption in NSS'
-    Description: A mismatch between allocator and deallocator could have led to memory corruption. This vulnerability affects Firefox < 128, Firefox ESR < 115.13, Thunderbird < 115.13, and Thunderbird < 128.
-    Severity: MEDIUM
-    VendorSeverity:
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-6602
-    - https://bugzilla.mozilla.org/show_bug.cgi?id=1895032
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-6602
-    - https://ubuntu.com/security/notices/USN-6890-1
-    - https://ubuntu.com/security/notices/USN-6903-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-29/#CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-30/#CVE-2024-6602
-    - https://www.mozilla.org/en-US/security/advisories/mfsa2024-31/#CVE-2024-6602
-    - https://www.mozilla.org/security/advisories/mfsa2024-29/
-    - https://www.mozilla.org/security/advisories/mfsa2024-30/
-    - https://www.mozilla.org/security/advisories/mfsa2024-31/
-    - https://www.mozilla.org/security/advisories/mfsa2024-32/
-    PublishedDate: '2024-07-09T15:15:12.473Z'
-    LastModifiedDate: '2024-11-26T14:15:21.74Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-util@3.101.0-10.el9_2.x86_64
     PkgName: nss-util
@@ -2883,7 +2723,7 @@
       DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12797
-    Title: 'Issue summary: Clients using RFC7250 Raw Public Keys (RPKs) to authent ...'
+    Title: 'openssl: RFC7250 handshakes with unauthenticated servers don''t abort as expected'
     Description: |-
       Issue summary: Clients using RFC7250 Raw Public Keys (RPKs) to authenticate a
       server may fail to notice that the server was not authenticated, because
@@ -2914,8 +2754,14 @@
       ghsa: 1
       redhat: 3
       ubuntu: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/02/11/3
+    - http://www.openwall.com/lists/oss-security/2025/02/11/4
+    - https://access.redhat.com/security/cve/CVE-2024-12797
     - https://github.com/openssl/openssl/commit/738d4f9fdeaad57660dcba50a619fafced3fd5e9
     - https://github.com/openssl/openssl/commit/798779d43494549b611233f92652f0da5328fbe7
     - https://github.com/openssl/openssl/commit/87ebd203feffcf92ad5889df92f90bb0ee10a699
@@ -2923,9 +2769,10 @@
     - https://github.com/pyca/cryptography/security/advisories/GHSA-79v4-65xg-pq4g
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12797
     - https://openssl-library.org/news/secadv/20250211.txt
+    - https://ubuntu.com/security/notices/USN-7264-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12797
     PublishedDate: '2025-02-11T16:15:38.827Z'
-    LastModifiedDate: '2025-02-11T16:15:38.827Z'
+    LastModifiedDate: '2025-02-11T23:15:08.807Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl@3.2.2-6.el9_5.x86_64
     PkgName: openssl
@@ -2980,6 +2827,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
     - https://openssl-library.org/news/secadv/20250120.txt
     - https://security.netapp.com/advisory/ntap-20250124-0005/
+    - https://ubuntu.com/security/notices/USN-7264-1
     - https://www.cve.org/CVERecord?id=CVE-2024-13176
     PublishedDate: '2025-01-20T14:15:26.247Z'
     LastModifiedDate: '2025-01-27T21:15:11.907Z'
@@ -3037,7 +2885,7 @@
       DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12797
-    Title: 'Issue summary: Clients using RFC7250 Raw Public Keys (RPKs) to authent ...'
+    Title: 'openssl: RFC7250 handshakes with unauthenticated servers don''t abort as expected'
     Description: |-
       Issue summary: Clients using RFC7250 Raw Public Keys (RPKs) to authenticate a
       server may fail to notice that the server was not authenticated, because
@@ -3068,8 +2916,14 @@
       ghsa: 1
       redhat: 3
       ubuntu: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/02/11/3
+    - http://www.openwall.com/lists/oss-security/2025/02/11/4
+    - https://access.redhat.com/security/cve/CVE-2024-12797
     - https://github.com/openssl/openssl/commit/738d4f9fdeaad57660dcba50a619fafced3fd5e9
     - https://github.com/openssl/openssl/commit/798779d43494549b611233f92652f0da5328fbe7
     - https://github.com/openssl/openssl/commit/87ebd203feffcf92ad5889df92f90bb0ee10a699
@@ -3077,9 +2931,10 @@
     - https://github.com/pyca/cryptography/security/advisories/GHSA-79v4-65xg-pq4g
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12797
     - https://openssl-library.org/news/secadv/20250211.txt
+    - https://ubuntu.com/security/notices/USN-7264-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12797
     PublishedDate: '2025-02-11T16:15:38.827Z'
-    LastModifiedDate: '2025-02-11T16:15:38.827Z'
+    LastModifiedDate: '2025-02-11T23:15:08.807Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl-libs@3.2.2-6.el9_5.x86_64
     PkgName: openssl-libs
@@ -3134,6 +2989,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
     - https://openssl-library.org/news/secadv/20250120.txt
     - https://security.netapp.com/advisory/ntap-20250124-0005/
+    - https://ubuntu.com/security/notices/USN-7264-1
     - https://www.cve.org/CVERecord?id=CVE-2024-13176
     PublishedDate: '2025-01-20T14:15:26.247Z'
     LastModifiedDate: '2025-01-27T21:15:11.907Z'
@@ -3500,7 +3356,7 @@
       PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el9_5?arch=noarch&distro=redhat-9.5
       UID: 608b68b025ced14b
     InstalledVersion: 3.9.21-1.el9_5
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
       DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
@@ -3745,7 +3601,7 @@
       PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&distro=redhat-9.5
       UID: 9534c8adf391cc0c
     InstalledVersion: 3.9.21-1.el9_5
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
       DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
@@ -3990,7 +3846,7 @@
       PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_64&distro=redhat-9.5
       UID: f24d8a050a949d28
     InstalledVersion: 3.9.21-1.el9_5
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:0ef0675d41d993c18d6fc613e547004ea2e76d6b098bae272d438fb2dec05671
       DiffID: sha256:7d61a3d55b3762483c2db4d536f83e1c81f29a57aaebef016a493bcd823cb4c4
