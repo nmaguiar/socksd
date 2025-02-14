@@ -1179,12 +1179,12 @@
     - http://lists.opensuse.org/opensuse-security-announce/2020-07/msg00085.html
     - http://lists.opensuse.org/opensuse-security-announce/2020-11/msg00039.html
     - http://packetstormsecurity.com/files/162160/jQuery-1.0.3-Cross-Site-Scripting.html
-    - https://access.redhat.com/errata/RHSA-2025:1210
+    - https://access.redhat.com/errata/RHSA-2025:1329
     - https://access.redhat.com/security/cve/CVE-2020-11023
     - https://blog.jquery.com/2020/04/10/jquery-3-5-0-released
     - https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/
     - https://bugzilla.redhat.com/1850004
-    - https://errata.almalinux.org/9/ALSA-2025-1210.html
+    - https://errata.almalinux.org/9/ALSA-2025-1329.html
     - https://github.com/github/advisory-database/blob/99afa6fdeaf5d1d23e1021ff915a5e5dbc82c1f1/advisories/github-reviewed/2020/04/GHSA-jpcq-cgw6-v4j6/GHSA-jpcq-cgw6-v4j6.json#L20-L37
     - https://github.com/jquery/jquery
     - https://github.com/jquery/jquery/commit/1d61fd9407e6fbe82fe55cb0b938307aa0791f77
@@ -1199,7 +1199,7 @@
     - https://jquery.com/upgrade-guide/3.5
     - https://jquery.com/upgrade-guide/3.5/
     - https://linux.oracle.com/cve/CVE-2020-11023.html
-    - https://linux.oracle.com/errata/ELSA-2025-1215.html
+    - https://linux.oracle.com/errata/ELSA-2025-1301.html
     - https://lists.apache.org/thread.html/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36%40%3Cissues.flink.apache.org%3E
     - https://lists.apache.org/thread.html/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36@%3Cissues.flink.apache.org%3E
     - https://lists.apache.org/thread.html/r0593393ca1e97b1e7e098fe69d414d6bd0a467148e9138d07e86ebbb%40%3Cissues.hive.apache.org%3E
@@ -1446,12 +1446,12 @@
     - http://lists.opensuse.org/opensuse-security-announce/2020-07/msg00085.html
     - http://lists.opensuse.org/opensuse-security-announce/2020-11/msg00039.html
     - http://packetstormsecurity.com/files/162160/jQuery-1.0.3-Cross-Site-Scripting.html
-    - https://access.redhat.com/errata/RHSA-2025:1210
+    - https://access.redhat.com/errata/RHSA-2025:1329
     - https://access.redhat.com/security/cve/CVE-2020-11023
     - https://blog.jquery.com/2020/04/10/jquery-3-5-0-released
     - https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/
     - https://bugzilla.redhat.com/1850004
-    - https://errata.almalinux.org/9/ALSA-2025-1210.html
+    - https://errata.almalinux.org/9/ALSA-2025-1329.html
     - https://github.com/github/advisory-database/blob/99afa6fdeaf5d1d23e1021ff915a5e5dbc82c1f1/advisories/github-reviewed/2020/04/GHSA-jpcq-cgw6-v4j6/GHSA-jpcq-cgw6-v4j6.json#L20-L37
     - https://github.com/jquery/jquery
     - https://github.com/jquery/jquery/commit/1d61fd9407e6fbe82fe55cb0b938307aa0791f77
@@ -1466,7 +1466,7 @@
     - https://jquery.com/upgrade-guide/3.5
     - https://jquery.com/upgrade-guide/3.5/
     - https://linux.oracle.com/cve/CVE-2020-11023.html
-    - https://linux.oracle.com/errata/ELSA-2025-1215.html
+    - https://linux.oracle.com/errata/ELSA-2025-1301.html
     - https://lists.apache.org/thread.html/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36%40%3Cissues.flink.apache.org%3E
     - https://lists.apache.org/thread.html/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36@%3Cissues.flink.apache.org%3E
     - https://lists.apache.org/thread.html/r0593393ca1e97b1e7e098fe69d414d6bd0a467148e9138d07e86ebbb%40%3Cissues.hive.apache.org%3E
@@ -1680,6 +1680,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 3
       cbl-mariner: 4
       redhat: 3
       ubuntu: 2
@@ -1688,7 +1689,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 8.1
     References:
+    - https://access.redhat.com/errata/RHSA-2025:1350
     - https://access.redhat.com/security/cve/CVE-2022-49043
+    - https://bugzilla.redhat.com/2342118
+    - https://errata.almalinux.org/9/ALSA-2025-1350.html
     - https://github.com/php/php-src/issues/17467
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/5a19e21605398cef6a8b1452477a8705cb41562b
     - https://nvd.nist.gov/vuln/detail/CVE-2022-49043
@@ -2751,7 +2755,9 @@
     CweIDs:
     - CWE-392
     VendorSeverity:
+      alma: 3
       ghsa: 1
+      oracle-oval: 3
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -2761,12 +2767,17 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/02/11/3
     - http://www.openwall.com/lists/oss-security/2025/02/11/4
+    - https://access.redhat.com/errata/RHSA-2025:1330
     - https://access.redhat.com/security/cve/CVE-2024-12797
+    - https://bugzilla.redhat.com/2342757
+    - https://errata.almalinux.org/9/ALSA-2025-1330.html
     - https://github.com/openssl/openssl/commit/738d4f9fdeaad57660dcba50a619fafced3fd5e9
     - https://github.com/openssl/openssl/commit/798779d43494549b611233f92652f0da5328fbe7
     - https://github.com/openssl/openssl/commit/87ebd203feffcf92ad5889df92f90bb0ee10a699
     - https://github.com/pyca/cryptography
     - https://github.com/pyca/cryptography/security/advisories/GHSA-79v4-65xg-pq4g
+    - https://linux.oracle.com/cve/CVE-2024-12797.html
+    - https://linux.oracle.com/errata/ELSA-2025-1330.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12797
     - https://openssl-library.org/news/secadv/20250211.txt
     - https://ubuntu.com/security/notices/USN-7264-1
@@ -2913,7 +2924,9 @@
     CweIDs:
     - CWE-392
     VendorSeverity:
+      alma: 3
       ghsa: 1
+      oracle-oval: 3
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -2923,12 +2936,17 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/02/11/3
     - http://www.openwall.com/lists/oss-security/2025/02/11/4
+    - https://access.redhat.com/errata/RHSA-2025:1330
     - https://access.redhat.com/security/cve/CVE-2024-12797
+    - https://bugzilla.redhat.com/2342757
+    - https://errata.almalinux.org/9/ALSA-2025-1330.html
     - https://github.com/openssl/openssl/commit/738d4f9fdeaad57660dcba50a619fafced3fd5e9
     - https://github.com/openssl/openssl/commit/798779d43494549b611233f92652f0da5328fbe7
     - https://github.com/openssl/openssl/commit/87ebd203feffcf92ad5889df92f90bb0ee10a699
     - https://github.com/pyca/cryptography
     - https://github.com/pyca/cryptography/security/advisories/GHSA-79v4-65xg-pq4g
+    - https://linux.oracle.com/cve/CVE-2024-12797.html
+    - https://linux.oracle.com/errata/ELSA-2025-1330.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12797
     - https://openssl-library.org/news/secadv/20250211.txt
     - https://ubuntu.com/security/notices/USN-7264-1
