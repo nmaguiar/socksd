@@ -27,7 +27,8 @@
 │                       │      │                   integer overflow would
 │                       │      │                   make libcurl perform a buffer overflow. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4 
@@ -294,7 +295,8 @@
 │                       │      │                   integer overflow would
 │                       │      │                   make libcurl perform a buffer overflow. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4 
@@ -588,10 +590,30 @@
 │                       │      │                  │         25edb95d32b18819875f 
 │                       │      │                  ╰ DiffID: sha256:22bfcd25d985c8d80cc7e5d7166dd0b72c8b85f31419
 │                       │      │                            3f5004fd1a4b7abc9b8c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ╰ Severity        : UNKNOWN 
+│                       │      ├ Title           : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │      │                   out-of-bounds write ... 
+│                       │      ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │      │                   out-of-bounds write vulnerability when an attacker can
+│                       │      │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/13/3 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/13/4 
+│                       │      │                  ├ [3]: http://www.openwall.com/lists/oss-security/2025/02/13/5 
+│                       │      │                  ├ [4]: http://www.openwall.com/lists/oss-security/2025/02/14/5 
+│                       │      │                  ├ [5]: http://www.openwall.com/lists/oss-security/2025/02/14/6 
+│                       │      │                  ├ [6]: https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25
+│                       │      │                  │      ea3b484e10326f933e927c0bc8cded3da 
+│                       │      │                  ├ [7]: https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd9
+│                       │      │                  │      7b5196e29991b524237381a0202a60659 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │      ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
+│                       │      ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2025-26519 
 │                       │      ├ PkgID           : musl-utils@1.2.5-r8 
 │                       │      ├ PkgName         : musl-utils 
@@ -605,10 +627,30 @@
 │                       │      │                  │         25edb95d32b18819875f 
 │                       │      │                  ╰ DiffID: sha256:22bfcd25d985c8d80cc7e5d7166dd0b72c8b85f31419
 │                       │      │                            3f5004fd1a4b7abc9b8c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ╰ Severity        : UNKNOWN 
+│                       │      ├ Title           : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │      │                   out-of-bounds write ... 
+│                       │      ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │      │                   out-of-bounds write vulnerability when an attacker can
+│                       │      │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/13/3 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/13/4 
+│                       │      │                  ├ [3]: http://www.openwall.com/lists/oss-security/2025/02/13/5 
+│                       │      │                  ├ [4]: http://www.openwall.com/lists/oss-security/2025/02/14/5 
+│                       │      │                  ├ [5]: http://www.openwall.com/lists/oss-security/2025/02/14/6 
+│                       │      │                  ├ [6]: https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25
+│                       │      │                  │      ea3b484e10326f933e927c0bc8cded3da 
+│                       │      │                  ├ [7]: https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd9
+│                       │      │                  │      7b5196e29991b524237381a0202a60659 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │      ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
+│                       │      ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2025-21502 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.5_p11-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -658,6 +700,7 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -665,23 +708,26 @@
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/01/25/6 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:0426 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-21502 
-│                       │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-0426.html 
-│                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-21502.html 
-│                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-0426.html 
-│                       │      │                  ├ [6] : https://lists.debian.org/debian-lts-announce/2025/01/
+│                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-21502 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-0426.html 
+│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:0426 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-21502.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-0426.html 
+│                       │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/01/
 │                       │      │                  │       msg00031.html 
-│                       │      │                  ├ [7] : https://lists.debian.org/debian-lts-announce/2025/02/
+│                       │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/02/
 │                       │      │                  │       msg00004.html 
-│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-21502 
-│                       │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-20250124-00
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-21502 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250124-00
 │                       │      │                  │       09/ 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7252-1 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7253-1 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7254-1 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7255-1 
-│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-21502 
-│                       │      │                  ├ [15]: https://www.oracle.com/security-alerts/cpujan2025.html 
-│                       │      │                  ╰ [16]: https://www.oracle.com/security-alerts/cpujan2025.htm
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7252-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7253-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7254-1 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7255-1 
+│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-21502 
+│                       │      │                  ├ [17]: https://www.oracle.com/security-alerts/cpujan2025.html 
+│                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujan2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-01-21T21:15:15.18Z 
 │                       │      ╰ LastModifiedDate: 2025-02-07T11:15:10.717Z 
@@ -734,6 +780,7 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -741,23 +788,26 @@
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/01/25/6 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:0426 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-21502 
-│                       │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-0426.html 
-│                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-21502.html 
-│                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-0426.html 
-│                       │      │                  ├ [6] : https://lists.debian.org/debian-lts-announce/2025/01/
+│                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-21502 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-0426.html 
+│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:0426 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-21502.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-0426.html 
+│                       │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/01/
 │                       │      │                  │       msg00031.html 
-│                       │      │                  ├ [7] : https://lists.debian.org/debian-lts-announce/2025/02/
+│                       │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/02/
 │                       │      │                  │       msg00004.html 
-│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-21502 
-│                       │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-20250124-00
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-21502 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250124-00
 │                       │      │                  │       09/ 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7252-1 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7253-1 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7254-1 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7255-1 
-│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-21502 
-│                       │      │                  ├ [15]: https://www.oracle.com/security-alerts/cpujan2025.html 
-│                       │      │                  ╰ [16]: https://www.oracle.com/security-alerts/cpujan2025.htm
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7252-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7253-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7254-1 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7255-1 
+│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-21502 
+│                       │      │                  ├ [17]: https://www.oracle.com/security-alerts/cpujan2025.html 
+│                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujan2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-01-21T21:15:15.18Z 
 │                       │      ╰ LastModifiedDate: 2025-02-07T11:15:10.717Z 
