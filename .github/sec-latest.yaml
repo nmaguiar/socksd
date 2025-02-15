@@ -27,6 +27,7 @@
       make libcurl perform a buffer overflow.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 1
     CVSS:
       redhat:
@@ -272,6 +273,7 @@
       make libcurl perform a buffer overflow.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 1
     CVSS:
       redhat:
@@ -541,11 +543,28 @@
     Layer:
       Digest: sha256:750127bea5a0be4ae46b3e4fcb6e83f22014f5548be025edb95d32b18819875f
       DiffID: sha256:22bfcd25d985c8d80cc7e5d7166dd0b72c8b85f314193f5004fd1a4b7abc9b8c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26519
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Title: musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write ...
+    Description: musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write vulnerability when an attacker can trigger iconv conversion of untrusted EUC-KR text to UTF-8.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-787
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/02/13/2
+    - http://www.openwall.com/lists/oss-security/2025/02/13/3
+    - http://www.openwall.com/lists/oss-security/2025/02/13/4
+    - http://www.openwall.com/lists/oss-security/2025/02/13/5
+    - http://www.openwall.com/lists/oss-security/2025/02/14/5
+    - http://www.openwall.com/lists/oss-security/2025/02/14/6
+    - https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25ea3b484e10326f933e927c0bc8cded3da
+    - https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd97b5196e29991b524237381a0202a60659
+    - https://www.openwall.com/lists/oss-security/2025/02/13/2
+    PublishedDate: '2025-02-14T04:15:09.05Z'
+    LastModifiedDate: '2025-02-14T17:15:23.09Z'
   - VulnerabilityID: CVE-2025-26519
     PkgID: musl-utils@1.2.5-r8
     PkgName: musl-utils
@@ -558,11 +577,28 @@
     Layer:
       Digest: sha256:750127bea5a0be4ae46b3e4fcb6e83f22014f5548be025edb95d32b18819875f
       DiffID: sha256:22bfcd25d985c8d80cc7e5d7166dd0b72c8b85f314193f5004fd1a4b7abc9b8c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26519
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Title: musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write ...
+    Description: musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write vulnerability when an attacker can trigger iconv conversion of untrusted EUC-KR text to UTF-8.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-787
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/02/13/2
+    - http://www.openwall.com/lists/oss-security/2025/02/13/3
+    - http://www.openwall.com/lists/oss-security/2025/02/13/4
+    - http://www.openwall.com/lists/oss-security/2025/02/13/5
+    - http://www.openwall.com/lists/oss-security/2025/02/14/5
+    - http://www.openwall.com/lists/oss-security/2025/02/14/6
+    - https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25ea3b484e10326f933e927c0bc8cded3da
+    - https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd97b5196e29991b524237381a0202a60659
+    - https://www.openwall.com/lists/oss-security/2025/02/13/2
+    PublishedDate: '2025-02-14T04:15:09.05Z'
+    LastModifiedDate: '2025-02-14T17:15:23.09Z'
   - VulnerabilityID: CVE-2025-21502
     PkgID: openjdk21-jre@21.0.5_p11-r0
     PkgName: openjdk21-jre
@@ -590,6 +626,7 @@
       amazon: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -599,7 +636,9 @@
     - http://www.openwall.com/lists/oss-security/2025/01/25/6
     - https://access.redhat.com/errata/RHSA-2025:0426
     - https://access.redhat.com/security/cve/CVE-2025-21502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21502
     - https://errata.almalinux.org/9/ALSA-2025-0426.html
+    - https://errata.rockylinux.org/RLSA-2025:0426
     - https://linux.oracle.com/cve/CVE-2025-21502.html
     - https://linux.oracle.com/errata/ELSA-2025-0426.html
     - https://lists.debian.org/debian-lts-announce/2025/01/msg00031.html
@@ -642,6 +681,7 @@
       amazon: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -651,7 +691,9 @@
     - http://www.openwall.com/lists/oss-security/2025/01/25/6
     - https://access.redhat.com/errata/RHSA-2025:0426
     - https://access.redhat.com/security/cve/CVE-2025-21502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21502
     - https://errata.almalinux.org/9/ALSA-2025-0426.html
+    - https://errata.rockylinux.org/RLSA-2025:0426
     - https://linux.oracle.com/cve/CVE-2025-21502.html
     - https://linux.oracle.com/errata/ELSA-2025-0426.html
     - https://lists.debian.org/debian-lts-announce/2025/01/msg00031.html
