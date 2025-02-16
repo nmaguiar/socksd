@@ -199,13 +199,13 @@
     - http://lists.opensuse.org/opensuse-security-announce/2019-12/msg00000.html
     - http://packetstormsecurity.com/files/153644/Slackware-Security-Advisory-bzip2-Updates.html
     - http://packetstormsecurity.com/files/153957/FreeBSD-Security-Advisory-FreeBSD-SA-19-18.bzip2.html
-    - https://access.redhat.com/errata/RHSA-2025:0925
+    - https://access.redhat.com/errata/RHSA-2025:0733
     - https://access.redhat.com/security/cve/CVE-2019-12900
     - https://bugs.launchpad.net/ubuntu/+source/bzip2/+bug/1834494
     - https://bugzilla.redhat.com/2332075
     - https://bugzilla.redhat.com/show_bug.cgi?id=2332075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12900
-    - https://errata.almalinux.org/9/ALSA-2025-0925.html
+    - https://errata.almalinux.org/8/ALSA-2025-0733.html
     - https://errata.rockylinux.org/RLSA-2025:0733
     - https://gitlab.com/federicomenaquintero/bzip2/commit/74de1e2e6ffc9d51ef9824db71a8ffee5962cdbc
     - https://linux.oracle.com/cve/CVE-2019-12900.html
@@ -921,7 +921,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://errata.almalinux.org/8/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -975,7 +975,7 @@
     - https://access.redhat.com/errata/RHSA-2025:0426
     - https://access.redhat.com/security/cve/CVE-2025-21502
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21502
-    - https://errata.almalinux.org/9/ALSA-2025-0426.html
+    - https://errata.almalinux.org/8/ALSA-2025-0426.html
     - https://errata.rockylinux.org/RLSA-2025:0426
     - https://linux.oracle.com/cve/CVE-2025-21502.html
     - https://linux.oracle.com/errata/ELSA-2025-0426.html
@@ -1319,7 +1319,7 @@
     - http://lists.opensuse.org/opensuse-security-announce/2020-07/msg00085.html
     - http://lists.opensuse.org/opensuse-security-announce/2020-11/msg00039.html
     - http://packetstormsecurity.com/files/162160/jQuery-1.0.3-Cross-Site-Scripting.html
-    - https://access.redhat.com/errata/RHSA-2025:1329
+    - https://access.redhat.com/errata/RHSA-2025:1314
     - https://access.redhat.com/security/cve/CVE-2020-11023
     - https://blog.jquery.com/2020/04/10/jquery-3-5-0-released
     - https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/
@@ -1377,7 +1377,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=1939371
     - https://bugzilla.redhat.com/show_bug.cgi?id=871208
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11023
-    - https://errata.almalinux.org/9/ALSA-2025-1329.html
+    - https://errata.almalinux.org/8/ALSA-2025-1314.html
     - https://errata.rockylinux.org/RLSA-2021:1846
     - https://github.com/github/advisory-database/blob/99afa6fdeaf5d1d23e1021ff915a5e5dbc82c1f1/advisories/github-reviewed/2020/04/GHSA-jpcq-cgw6-v4j6/GHSA-jpcq-cgw6-v4j6.json#L20-L37
     - https://github.com/jquery/jquery
@@ -1604,7 +1604,7 @@
     - http://lists.opensuse.org/opensuse-security-announce/2020-07/msg00085.html
     - http://lists.opensuse.org/opensuse-security-announce/2020-11/msg00039.html
     - http://packetstormsecurity.com/files/162160/jQuery-1.0.3-Cross-Site-Scripting.html
-    - https://access.redhat.com/errata/RHSA-2025:1329
+    - https://access.redhat.com/errata/RHSA-2025:1314
     - https://access.redhat.com/security/cve/CVE-2020-11023
     - https://blog.jquery.com/2020/04/10/jquery-3-5-0-released
     - https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/
@@ -1662,7 +1662,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=1939371
     - https://bugzilla.redhat.com/show_bug.cgi?id=871208
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11023
-    - https://errata.almalinux.org/9/ALSA-2025-1329.html
+    - https://errata.almalinux.org/8/ALSA-2025-1314.html
     - https://errata.rockylinux.org/RLSA-2021:1846
     - https://github.com/github/advisory-database/blob/99afa6fdeaf5d1d23e1021ff915a5e5dbc82c1f1/advisories/github-reviewed/2020/04/GHSA-jpcq-cgw6-v4j6/GHSA-jpcq-cgw6-v4j6.json#L20-L37
     - https://github.com/jquery/jquery
@@ -1899,8 +1899,8 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
-        V3Score: 8.1
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2025:1350
     - https://access.redhat.com/security/cve/CVE-2022-49043
@@ -2066,7 +2066,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -2143,7 +2143,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -2995,10 +2995,11 @@
     - https://linux.oracle.com/errata/ELSA-2025-1330.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12797
     - https://openssl-library.org/news/secadv/20250211.txt
+    - https://security.netapp.com/advisory/ntap-20250214-0001/
     - https://ubuntu.com/security/notices/USN-7264-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12797
     PublishedDate: '2025-02-11T16:15:38.827Z'
-    LastModifiedDate: '2025-02-11T23:15:08.807Z'
+    LastModifiedDate: '2025-02-15T01:15:10.25Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl@3.2.2-6.el9_5.x86_64
     PkgName: openssl
@@ -3164,10 +3165,11 @@
     - https://linux.oracle.com/errata/ELSA-2025-1330.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12797
     - https://openssl-library.org/news/secadv/20250211.txt
+    - https://security.netapp.com/advisory/ntap-20250214-0001/
     - https://ubuntu.com/security/notices/USN-7264-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12797
     PublishedDate: '2025-02-11T16:15:38.827Z'
-    LastModifiedDate: '2025-02-11T23:15:08.807Z'
+    LastModifiedDate: '2025-02-15T01:15:10.25Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl-libs@3.2.2-6.el9_5.x86_64
     PkgName: openssl-libs
@@ -3473,7 +3475,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10983
+    - https://access.redhat.com/errata/RHSA-2024:10779
     - https://access.redhat.com/security/cve/CVE-2024-11168
     - https://bugzilla.redhat.com/2321440
     - https://bugzilla.redhat.com/2325776
@@ -3481,7 +3483,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/9/ALSA-2024-10983.html
+    - https://errata.almalinux.org/8/ALSA-2024-10779.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
@@ -3520,7 +3522,7 @@
     - CWE-428
     - CWE-77
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 3
       bitnami: 3
       nvd: 3
@@ -3539,14 +3541,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
         V3Score: 6.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:11111
+    - https://access.redhat.com/errata/RHSA-2024:10980
     - https://access.redhat.com/security/cve/CVE-2024-9287
     - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2330804
     - https://bugzilla.redhat.com/show_bug.cgi?id=2321440
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/9/ALSA-2024-11111.html
+    - https://errata.almalinux.org/8/ALSA-2024-10980.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
     - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
@@ -3848,7 +3851,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10983
+    - https://access.redhat.com/errata/RHSA-2024:10779
     - https://access.redhat.com/security/cve/CVE-2024-11168
     - https://bugzilla.redhat.com/2321440
     - https://bugzilla.redhat.com/2325776
@@ -3856,7 +3859,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/9/ALSA-2024-10983.html
+    - https://errata.almalinux.org/8/ALSA-2024-10779.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
@@ -3895,7 +3898,7 @@
     - CWE-428
     - CWE-77
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 3
       bitnami: 3
       nvd: 3
@@ -3914,14 +3917,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
         V3Score: 6.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:11111
+    - https://access.redhat.com/errata/RHSA-2024:10980
     - https://access.redhat.com/security/cve/CVE-2024-9287
     - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2330804
     - https://bugzilla.redhat.com/show_bug.cgi?id=2321440
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/9/ALSA-2024-11111.html
+    - https://errata.almalinux.org/8/ALSA-2024-10980.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
     - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
@@ -4223,7 +4227,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10983
+    - https://access.redhat.com/errata/RHSA-2024:10779
     - https://access.redhat.com/security/cve/CVE-2024-11168
     - https://bugzilla.redhat.com/2321440
     - https://bugzilla.redhat.com/2325776
@@ -4231,7 +4235,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/9/ALSA-2024-10983.html
+    - https://errata.almalinux.org/8/ALSA-2024-10779.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
@@ -4270,7 +4274,7 @@
     - CWE-428
     - CWE-77
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 3
       bitnami: 3
       nvd: 3
@@ -4289,14 +4293,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
         V3Score: 6.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:11111
+    - https://access.redhat.com/errata/RHSA-2024:10980
     - https://access.redhat.com/security/cve/CVE-2024-9287
     - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2330804
     - https://bugzilla.redhat.com/show_bug.cgi?id=2321440
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/9/ALSA-2024-11111.html
+    - https://errata.almalinux.org/8/ALSA-2024-10980.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
     - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
