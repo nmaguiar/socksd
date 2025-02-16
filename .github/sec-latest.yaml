@@ -182,10 +182,11 @@
     - https://linux.oracle.com/errata/ELSA-2025-1330.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12797
     - https://openssl-library.org/news/secadv/20250211.txt
+    - https://security.netapp.com/advisory/ntap-20250214-0001/
     - https://ubuntu.com/security/notices/USN-7264-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12797
     PublishedDate: '2025-02-11T16:15:38.827Z'
-    LastModifiedDate: '2025-02-11T23:15:08.807Z'
+    LastModifiedDate: '2025-02-15T01:15:10.25Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: libcrypto3@3.3.2-r4
     PkgName: libcrypto3
@@ -428,10 +429,11 @@
     - https://linux.oracle.com/errata/ELSA-2025-1330.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12797
     - https://openssl-library.org/news/secadv/20250211.txt
+    - https://security.netapp.com/advisory/ntap-20250214-0001/
     - https://ubuntu.com/security/notices/USN-7264-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12797
     PublishedDate: '2025-02-11T16:15:38.827Z'
-    LastModifiedDate: '2025-02-11T23:15:08.807Z'
+    LastModifiedDate: '2025-02-15T01:15:10.25Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: libssl3@3.3.2-r4
     PkgName: libssl3
@@ -637,7 +639,7 @@
     - https://access.redhat.com/errata/RHSA-2025:0426
     - https://access.redhat.com/security/cve/CVE-2025-21502
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21502
-    - https://errata.almalinux.org/9/ALSA-2025-0426.html
+    - https://errata.almalinux.org/8/ALSA-2025-0426.html
     - https://errata.rockylinux.org/RLSA-2025:0426
     - https://linux.oracle.com/cve/CVE-2025-21502.html
     - https://linux.oracle.com/errata/ELSA-2025-0426.html
@@ -692,7 +694,7 @@
     - https://access.redhat.com/errata/RHSA-2025:0426
     - https://access.redhat.com/security/cve/CVE-2025-21502
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21502
-    - https://errata.almalinux.org/9/ALSA-2025-0426.html
+    - https://errata.almalinux.org/8/ALSA-2025-0426.html
     - https://errata.rockylinux.org/RLSA-2025:0426
     - https://linux.oracle.com/cve/CVE-2025-21502.html
     - https://linux.oracle.com/errata/ELSA-2025-0426.html
@@ -779,10 +781,11 @@
     - https://linux.oracle.com/errata/ELSA-2025-1330.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12797
     - https://openssl-library.org/news/secadv/20250211.txt
+    - https://security.netapp.com/advisory/ntap-20250214-0001/
     - https://ubuntu.com/security/notices/USN-7264-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12797
     PublishedDate: '2025-02-11T16:15:38.827Z'
-    LastModifiedDate: '2025-02-11T23:15:08.807Z'
+    LastModifiedDate: '2025-02-15T01:15:10.25Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl@3.3.2-r4
     PkgName: openssl
