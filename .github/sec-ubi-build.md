@@ -92,9 +92,10 @@
 │                       │      │                   attackers to guess transaction IDs. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-334 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -953,7 +954,7 @@
 │                       │      │                  │       24-21085 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21094 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-1825.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:1822 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21094.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-1825.html 
@@ -1615,7 +1616,7 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0894 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1141 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-4899 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2179864 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2188109 
@@ -1692,7 +1693,7 @@
 │                       │      │                  ├ [74]: https://bugzilla.redhat.com/2258792 
 │                       │      │                  ├ [75]: https://bugzilla.redhat.com/2258793 
 │                       │      │                  ├ [76]: https://bugzilla.redhat.com/2258794 
-│                       │      │                  ├ [77]: https://errata.almalinux.org/8/ALSA-2024-0894.html 
+│                       │      │                  ├ [77]: https://errata.almalinux.org/9/ALSA-2024-1141.html 
 │                       │      │                  ├ [78]: https://github.com/facebook/zstd 
 │                       │      │                  ├ [79]: https://github.com/facebook/zstd/issues/3200 
 │                       │      │                  ├ [80]: https://github.com/facebook/zstd/pull/3220 
