@@ -714,7 +714,7 @@
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-21502 
 │                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-21502 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-0426.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-0426.html 
 │                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:0426 
 │                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-21502.html 
 │                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-0426.html 
@@ -794,7 +794,7 @@
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-21502 
 │                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-21502 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-0426.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-0426.html 
 │                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:0426 
 │                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-21502.html 
 │                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-0426.html 
