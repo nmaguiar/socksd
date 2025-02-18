@@ -1515,7 +1515,7 @@
 │                       │      │                  │        /2020-11/msg00039.html 
 │                       │      │                  ├ [3]  : http://packetstormsecurity.com/files/162160/jQuery-1
 │                       │      │                  │        .0.3-Cross-Site-Scripting.html 
-│                       │      │                  ├ [4]  : https://access.redhat.com/errata/RHSA-2025:1329 
+│                       │      │                  ├ [4]  : https://access.redhat.com/errata/RHSA-2025:1346 
 │                       │      │                  ├ [5]  : https://access.redhat.com/security/cve/CVE-2020-11023 
 │                       │      │                  ├ [6]  : https://blog.jquery.com/2020/04/10/jquery-3-5-0-rele
 │                       │      │                  │        ased 
@@ -1576,7 +1576,7 @@
 │                       │      │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=871208 
 │                       │      │                  ├ [61] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │      │                  │        020-11023 
-│                       │      │                  ├ [62] : https://errata.almalinux.org/9/ALSA-2025-1329.html 
+│                       │      │                  ├ [62] : https://errata.almalinux.org/9/ALSA-2025-1346.html 
 │                       │      │                  ├ [63] : https://errata.rockylinux.org/RLSA-2021:1846 
 │                       │      │                  ├ [64] : https://github.com/github/advisory-database/blob/99a
 │                       │      │                  │        fa6fdeaf5d1d23e1021ff915a5e5dbc82c1f1/advisories/git
@@ -2005,7 +2005,7 @@
 │                       │      │                  │        /2020-11/msg00039.html 
 │                       │      │                  ├ [3]  : http://packetstormsecurity.com/files/162160/jQuery-1
 │                       │      │                  │        .0.3-Cross-Site-Scripting.html 
-│                       │      │                  ├ [4]  : https://access.redhat.com/errata/RHSA-2025:1329 
+│                       │      │                  ├ [4]  : https://access.redhat.com/errata/RHSA-2025:1346 
 │                       │      │                  ├ [5]  : https://access.redhat.com/security/cve/CVE-2020-11023 
 │                       │      │                  ├ [6]  : https://blog.jquery.com/2020/04/10/jquery-3-5-0-rele
 │                       │      │                  │        ased 
@@ -2066,7 +2066,7 @@
 │                       │      │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=871208 
 │                       │      │                  ├ [61] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │      │                  │        020-11023 
-│                       │      │                  ├ [62] : https://errata.almalinux.org/9/ALSA-2025-1329.html 
+│                       │      │                  ├ [62] : https://errata.almalinux.org/9/ALSA-2025-1346.html 
 │                       │      │                  ├ [63] : https://errata.rockylinux.org/RLSA-2021:1846 
 │                       │      │                  ├ [64] : https://github.com/github/advisory-database/blob/99a
 │                       │      │                  │        fa6fdeaf5d1d23e1021ff915a5e5dbc82c1f1/advisories/git
