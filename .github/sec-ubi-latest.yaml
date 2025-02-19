@@ -1057,6 +1057,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-30571
     PublishedDate: '2023-05-29T20:15:09.513Z'
     LastModifiedDate: '2025-01-14T17:15:11.673Z'
+  - VulnerabilityID: CVE-2024-57970
+    PkgID: libarchive@3.5.3-4.el9.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.5
+      UID: d158e48aa6f2fcb2
+    InstalledVersion: 3.5.3-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:11f63ef5761f91eec5b15b1ef2200aab9898b5df2198bd39fa07890f74e41449
+      DiffID: sha256:771edd25e829fa00342061577ebe154f90f4aa46e720afb5fc0f24ad515ed85c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-57970
+    Title: 'libarchive: heap buffer over-read in header_gnu_longlink'
+    Description: libarchive through 3.7.7 has a heap-based buffer over-read in header_gnu_longlink in archive_read_support_format_tar.c via a TAR archive because it mishandles truncation in the middle of a GNU long linkname.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-57970
+    - https://github.com/libarchive/libarchive/issues/2415
+    - https://github.com/libarchive/libarchive/pull/2422
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-57970
+    - https://www.cve.org/CVERecord?id=CVE-2024-57970
+    PublishedDate: '2025-02-16T04:15:21.843Z'
+    LastModifiedDate: '2025-02-18T17:15:19.13Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
     PkgName: libcurl-minimal
@@ -1895,7 +1927,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 4
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1910,7 +1942,7 @@
     - https://github.com/php/php-src/issues/17467
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/5a19e21605398cef6a8b1452477a8705cb41562b
     - https://linux.oracle.com/cve/CVE-2022-49043.html
-    - https://linux.oracle.com/errata/ELSA-2025-1350.html
+    - https://linux.oracle.com/errata/ELSA-2025-1517.html
     - https://nvd.nist.gov/vuln/detail/CVE-2022-49043
     - https://ubuntu.com/security/notices/USN-7240-1
     - https://www.cve.org/CVERecord?id=CVE-2022-49043
@@ -3000,7 +3032,7 @@
     - https://ubuntu.com/security/notices/USN-7264-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12797
     PublishedDate: '2025-02-11T16:15:38.827Z'
-    LastModifiedDate: '2025-02-15T01:15:10.25Z'
+    LastModifiedDate: '2025-02-18T14:15:27.107Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl@3.2.2-6.el9_5.x86_64
     PkgName: openssl
@@ -3170,7 +3202,7 @@
     - https://ubuntu.com/security/notices/USN-7264-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12797
     PublishedDate: '2025-02-11T16:15:38.827Z'
-    LastModifiedDate: '2025-02-15T01:15:10.25Z'
+    LastModifiedDate: '2025-02-18T14:15:27.107Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl-libs@3.2.2-6.el9_5.x86_64
     PkgName: openssl-libs
