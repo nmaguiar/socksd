@@ -919,6 +919,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-30571
     PublishedDate: '2023-05-29T20:15:09.513Z'
     LastModifiedDate: '2025-01-14T17:15:11.673Z'
+  - VulnerabilityID: CVE-2024-57970
+    PkgID: libarchive@3.5.3-4.el9.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.5
+      UID: c673532f75a7f50e
+    InstalledVersion: 3.5.3-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:126d26e89a106ae52d28ee471c72abf90bb5fb053c5c51d0dee0dedcec1171d4
+      DiffID: sha256:566d26d56d0da6b61028f713f8782c7b3c422dd75a1a7a315dd393e589f2b93c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-57970
+    Title: 'libarchive: heap buffer over-read in header_gnu_longlink'
+    Description: libarchive through 3.7.7 has a heap-based buffer over-read in header_gnu_longlink in archive_read_support_format_tar.c via a TAR archive because it mishandles truncation in the middle of a GNU long linkname.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-57970
+    - https://github.com/libarchive/libarchive/issues/2415
+    - https://github.com/libarchive/libarchive/pull/2422
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-57970
+    - https://www.cve.org/CVERecord?id=CVE-2024-57970
+    PublishedDate: '2025-02-16T04:15:21.843Z'
+    LastModifiedDate: '2025-02-18T17:15:19.13Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
     PkgName: libcurl-minimal
