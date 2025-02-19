@@ -196,7 +196,7 @@
 │                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7264-1 
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
 │                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
-│                       │      ╰ LastModifiedDate: 2025-02-15T01:15:10.25Z 
+│                       │      ╰ LastModifiedDate: 2025-02-18T14:15:27.107Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : libcrypto3@3.3.2-r4 
 │                       │      ├ PkgName         : libcrypto3 
@@ -468,7 +468,7 @@
 │                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7264-1 
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
 │                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
-│                       │      ╰ LastModifiedDate: 2025-02-15T01:15:10.25Z 
+│                       │      ╰ LastModifiedDate: 2025-02-18T14:15:27.107Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : libssl3@3.3.2-r4 
 │                       │      ├ PkgName         : libssl3 
@@ -902,7 +902,7 @@
 │                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7264-1 
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
 │                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
-│                       │      ╰ LastModifiedDate: 2025-02-15T01:15:10.25Z 
+│                       │      ╰ LastModifiedDate: 2025-02-18T14:15:27.107Z 
 │                       ╰ [16] ╭ VulnerabilityID : CVE-2024-13176 
 │                              ├ PkgID           : openssl@3.3.2-r4 
 │                              ├ PkgName         : openssl 
