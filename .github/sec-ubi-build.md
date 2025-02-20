@@ -590,6 +590,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ azure      : 4 
 │                       │      │                  ├ cbl-mariner: 4 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -606,13 +607,15 @@
 │                       │      │                  ├ [6] : https://gitlab.gnome.org/GNOME/glib/-/releases/2.82.1 
 │                       │      │                  ├ [7] : https://gitlab.gnome.org/Teams/Releng/security/-/wiki
 │                       │      │                  │       s/home 
-│                       │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2024/11/
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52533.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-0936.html 
+│                       │      │                  ├ [10]: https://lists.debian.org/debian-lts-announce/2024/11/
 │                       │      │                  │       msg00020.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-52533 
-│                       │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20241206-00
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-52533 
+│                       │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20241206-00
 │                       │      │                  │       09/ 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7114-1 
-│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7114-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
 │                       │      ├ PublishedDate   : 2024-11-11T23:15:05.967Z 
 │                       │      ╰ LastModifiedDate: 2024-12-06T14:15:21.4Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2023-32636 
@@ -1472,16 +1475,21 @@
 │                       │      │                   causing a denial of service attack. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/06/6 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-12133 
 │                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2344611 
-│                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/issues/52 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
+│                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/s
+│                       │      │                  │      ecurity/CVE-2024-12133.md?ref_type=heads 
+│                       │      │                  ├ [4]: https://gitlab.com/gnutls/libtasn1/-/issues/52 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7275-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.26Z 
 │                       │      ╰ LastModifiedDate: 2025-02-10T16:15:37.26Z 
 │                       ├ [30] ╭ VulnerabilityID : CVE-2023-45322 
@@ -1759,7 +1767,7 @@
 │                       │      │                  │       05/ 
 │                       │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T07:36:12.31Z 
+│                       │      ╰ LastModifiedDate: 2025-02-18T18:15:14.023Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2022-29458 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
