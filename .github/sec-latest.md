@@ -101,14 +101,13 @@
 │                       │      │                   down a connection channel after having completed a threaded
 │                       │      │                   name resolve. 
 │                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs           ─ [0]: CWE-1341 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
 │                       │      │                  ╰ [4]: https://hackerone.com/reports/2954286 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │      ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
+│                       │      ╰ LastModifiedDate: 2025-02-18T19:15:23.28Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2024-12797 
 │                       │      ├ PkgID           : libcrypto3@3.3.2-r4 
 │                       │      ├ PkgName         : libcrypto3 
@@ -373,14 +372,13 @@
 │                       │      │                   down a connection channel after having completed a threaded
 │                       │      │                   name resolve. 
 │                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs           ─ [0]: CWE-1341 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
 │                       │      │                  ╰ [4]: https://hackerone.com/reports/2954286 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │      ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
+│                       │      ╰ LastModifiedDate: 2025-02-18T19:15:23.28Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-12797 
 │                       │      ├ PkgID           : libssl3@3.3.2-r4 
 │                       │      ├ PkgName         : libssl3 
@@ -570,16 +568,21 @@
 │                       │      │                   causing a denial of service attack. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/06/6 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-12133 
 │                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2344611 
-│                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/issues/52 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
+│                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/s
+│                       │      │                  │      ecurity/CVE-2024-12133.md?ref_type=heads 
+│                       │      │                  ├ [4]: https://gitlab.com/gnutls/libtasn1/-/issues/52 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7275-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.26Z 
 │                       │      ╰ LastModifiedDate: 2025-02-10T16:15:37.26Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2025-26519 
