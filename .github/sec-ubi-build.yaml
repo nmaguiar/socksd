@@ -85,6 +85,7 @@
     - CWE-334
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -440,6 +441,7 @@
       make libcurl perform a buffer overflow.
     Severity: LOW
     VendorSeverity:
+      azure: 3
       cbl-mariner: 3
       redhat: 1
     CVSS:
@@ -1147,6 +1149,7 @@
       make libcurl perform a buffer overflow.
     Severity: LOW
     VendorSeverity:
+      azure: 3
       cbl-mariner: 3
       redhat: 1
     CVSS:
