@@ -27,6 +27,7 @@
       make libcurl perform a buffer overflow.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 3
       cbl-mariner: 3
       redhat: 1
     CVSS:
@@ -272,6 +273,7 @@
       make libcurl perform a buffer overflow.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 3
       cbl-mariner: 3
       redhat: 1
     CVSS:
