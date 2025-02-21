@@ -93,6 +93,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-334 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -504,7 +505,8 @@
 │                       │      │                   integer overflow would
 │                       │      │                   make libcurl perform a buffer overflow. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
@@ -1294,7 +1296,8 @@
 │                       │      │                   integer overflow would
 │                       │      │                   make libcurl perform a buffer overflow. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
