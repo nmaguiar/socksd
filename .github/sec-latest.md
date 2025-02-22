@@ -165,6 +165,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-392 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ ghsa       : 1 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
@@ -268,7 +269,8 @@
 │                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250124-00
 │                       │      │                  │       05/ 
 │                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7278-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2025-0725 
@@ -437,6 +439,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-392 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ ghsa       : 1 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
@@ -540,7 +543,8 @@
 │                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250124-00
 │                       │      │                  │       05/ 
 │                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7278-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2024-12133 
@@ -582,11 +586,14 @@
 │                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/s
 │                       │      │                  │      ecurity/CVE-2024-12133.md?ref_type=heads 
 │                       │      │                  ├ [4]: https://gitlab.com/gnutls/libtasn1/-/issues/52 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7275-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
+│                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/02/m
+│                       │      │                  │      sg00025.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7275-1 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7275-2 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.26Z 
-│                       │      ╰ LastModifiedDate: 2025-02-10T16:15:37.26Z 
+│                       │      ╰ LastModifiedDate: 2025-02-21T13:15:10.43Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2025-26519 
 │                       │      ├ PkgID           : musl@1.2.5-r8 
 │                       │      ├ PkgName         : musl 
@@ -876,6 +883,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-392 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ ghsa       : 1 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
@@ -979,7 +987,8 @@
 │                              │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250124-00
 │                              │                  │       05/ 
 │                              │                  ├ [12]: https://ubuntu.com/security/notices/USN-7264-1 
-│                              │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
+│                              │                  ├ [13]: https://ubuntu.com/security/notices/USN-7278-1 
+│                              │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                              ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                              ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
 ╰ [1] ╭ Target: Java 
