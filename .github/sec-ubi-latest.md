@@ -423,26 +423,81 @@
 │                       │      │                    the password or
 │                       │      │                   omits both login and password. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-11053 
-│                       │      │                  ├ [2] : https://curl.se/docs/CVE-2024-11053.html 
-│                       │      │                  ├ [3] : https://curl.se/docs/CVE-2024-11053.json 
-│                       │      │                  ├ [4] : https://hackerone.com/reports/2829063 
-│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
-│                       │      │                  ├ [6] : https://security.netapp.com/advisory/ntap-20250124-00
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-11053 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2301888 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318857 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2318858 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2318870 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2318873 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2318874 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2318876 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2318882 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2318883 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2318884 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2318885 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2318886 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2318897 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2318900 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/2318905 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/2318914 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/2318922 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/2318923 
+│                       │      │                  ├ [23]: https://bugzilla.redhat.com/2318925 
+│                       │      │                  ├ [24]: https://bugzilla.redhat.com/2318926 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/2318927 
+│                       │      │                  ├ [26]: https://bugzilla.redhat.com/2331191 
+│                       │      │                  ├ [27]: https://bugzilla.redhat.com/2339218 
+│                       │      │                  ├ [28]: https://bugzilla.redhat.com/2339220 
+│                       │      │                  ├ [29]: https://bugzilla.redhat.com/2339221 
+│                       │      │                  ├ [30]: https://bugzilla.redhat.com/2339226 
+│                       │      │                  ├ [31]: https://bugzilla.redhat.com/2339231 
+│                       │      │                  ├ [32]: https://bugzilla.redhat.com/2339236 
+│                       │      │                  ├ [33]: https://bugzilla.redhat.com/2339238 
+│                       │      │                  ├ [34]: https://bugzilla.redhat.com/2339243 
+│                       │      │                  ├ [35]: https://bugzilla.redhat.com/2339247 
+│                       │      │                  ├ [36]: https://bugzilla.redhat.com/2339252 
+│                       │      │                  ├ [37]: https://bugzilla.redhat.com/2339259 
+│                       │      │                  ├ [38]: https://bugzilla.redhat.com/2339266 
+│                       │      │                  ├ [39]: https://bugzilla.redhat.com/2339270 
+│                       │      │                  ├ [40]: https://bugzilla.redhat.com/2339271 
+│                       │      │                  ├ [41]: https://bugzilla.redhat.com/2339275 
+│                       │      │                  ├ [42]: https://bugzilla.redhat.com/2339277 
+│                       │      │                  ├ [43]: https://bugzilla.redhat.com/2339281 
+│                       │      │                  ├ [44]: https://bugzilla.redhat.com/2339284 
+│                       │      │                  ├ [45]: https://bugzilla.redhat.com/2339291 
+│                       │      │                  ├ [46]: https://bugzilla.redhat.com/2339293 
+│                       │      │                  ├ [47]: https://bugzilla.redhat.com/2339295 
+│                       │      │                  ├ [48]: https://bugzilla.redhat.com/2339299 
+│                       │      │                  ├ [49]: https://bugzilla.redhat.com/2339300 
+│                       │      │                  ├ [50]: https://bugzilla.redhat.com/2339304 
+│                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
+│                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-11053.html 
+│                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-11053.json 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │      │                  ├ [55]: https://hackerone.com/reports/2829063 
+│                       │      │                  ├ [56]: https://linux.oracle.com/cve/CVE-2024-11053.html 
+│                       │      │                  ├ [57]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
+│                       │      │                  ├ [58]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
+│                       │      │                  ├ [59]: https://security.netapp.com/advisory/ntap-20250124-00
 │                       │      │                  │       12/ 
-│                       │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-20250131-00
+│                       │      │                  ├ [60]: https://security.netapp.com/advisory/ntap-20250131-00
 │                       │      │                  │       03/ 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7162-1 
-│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2024-11053 
-│                       │      │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujan2025.htm
+│                       │      │                  ├ [61]: https://ubuntu.com/security/notices/USN-7162-1 
+│                       │      │                  ├ [62]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      │                  ╰ [63]: https://www.oracle.com/security-alerts/cpujan2025.htm
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                       │      ╰ LastModifiedDate: 2025-01-31T15:15:12.4Z 
@@ -478,10 +533,12 @@
 │                       │      │                   NFO.html) is used. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
+│                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -492,19 +549,72 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/31/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-7264 
-│                       │      │                  ├ [2] : https://curl.se/docs/CVE-2024-7264.html 
-│                       │      │                  ├ [3] : https://curl.se/docs/CVE-2024-7264.json 
-│                       │      │                  ├ [4] : https://github.com/curl/curl/commit/27959ecce75cdb280
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-7264 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2301888 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318857 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2318858 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2318870 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2318873 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2318874 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2318876 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2318882 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2318883 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2318884 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2318885 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2318886 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2318897 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2318900 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/2318905 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/2318914 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/2318922 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/2318923 
+│                       │      │                  ├ [23]: https://bugzilla.redhat.com/2318925 
+│                       │      │                  ├ [24]: https://bugzilla.redhat.com/2318926 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/2318927 
+│                       │      │                  ├ [26]: https://bugzilla.redhat.com/2331191 
+│                       │      │                  ├ [27]: https://bugzilla.redhat.com/2339218 
+│                       │      │                  ├ [28]: https://bugzilla.redhat.com/2339220 
+│                       │      │                  ├ [29]: https://bugzilla.redhat.com/2339221 
+│                       │      │                  ├ [30]: https://bugzilla.redhat.com/2339226 
+│                       │      │                  ├ [31]: https://bugzilla.redhat.com/2339231 
+│                       │      │                  ├ [32]: https://bugzilla.redhat.com/2339236 
+│                       │      │                  ├ [33]: https://bugzilla.redhat.com/2339238 
+│                       │      │                  ├ [34]: https://bugzilla.redhat.com/2339243 
+│                       │      │                  ├ [35]: https://bugzilla.redhat.com/2339247 
+│                       │      │                  ├ [36]: https://bugzilla.redhat.com/2339252 
+│                       │      │                  ├ [37]: https://bugzilla.redhat.com/2339259 
+│                       │      │                  ├ [38]: https://bugzilla.redhat.com/2339266 
+│                       │      │                  ├ [39]: https://bugzilla.redhat.com/2339270 
+│                       │      │                  ├ [40]: https://bugzilla.redhat.com/2339271 
+│                       │      │                  ├ [41]: https://bugzilla.redhat.com/2339275 
+│                       │      │                  ├ [42]: https://bugzilla.redhat.com/2339277 
+│                       │      │                  ├ [43]: https://bugzilla.redhat.com/2339281 
+│                       │      │                  ├ [44]: https://bugzilla.redhat.com/2339284 
+│                       │      │                  ├ [45]: https://bugzilla.redhat.com/2339291 
+│                       │      │                  ├ [46]: https://bugzilla.redhat.com/2339293 
+│                       │      │                  ├ [47]: https://bugzilla.redhat.com/2339295 
+│                       │      │                  ├ [48]: https://bugzilla.redhat.com/2339299 
+│                       │      │                  ├ [49]: https://bugzilla.redhat.com/2339300 
+│                       │      │                  ├ [50]: https://bugzilla.redhat.com/2339304 
+│                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
+│                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-7264.html 
+│                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-7264.json 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │      │                  ├ [55]: https://github.com/curl/curl/commit/27959ecce75cdb280
 │                       │      │                  │       9c0bdb3286e60e08fadb519 
-│                       │      │                  ├ [5] : https://hackerone.com/reports/2629968 
-│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
-│                       │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-20240828-00
+│                       │      │                  ├ [56]: https://hackerone.com/reports/2629968 
+│                       │      │                  ├ [57]: https://linux.oracle.com/cve/CVE-2024-7264.html 
+│                       │      │                  ├ [58]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
+│                       │      │                  ├ [59]: https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
+│                       │      │                  ├ [60]: https://security.netapp.com/advisory/ntap-20240828-00
 │                       │      │                  │       08/ 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6944-1 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6944-2 
-│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
-│                       │      │                  ╰ [11]: https://www.oracle.com/security-alerts/cpuoct2024.htm
+│                       │      │                  ├ [61]: https://ubuntu.com/security/notices/USN-6944-1 
+│                       │      │                  ├ [62]: https://ubuntu.com/security/notices/USN-6944-2 
+│                       │      │                  ├ [63]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
+│                       │      │                  ╰ [64]: https://www.oracle.com/security-alerts/cpuoct2024.htm
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:51:10.36Z 
@@ -980,15 +1090,21 @@
 │                       │      │                   condition. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-12243 
 │                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2344615 
 │                       │      │                  ├ [2]: https://gitlab.com/gnutls/libtasn1/-/issues/52 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-12243 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
+│                       │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Feb
+│                       │      │                  │      ruary/004875.html 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-12243 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7281-1 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
+│                       │      │                  ╰ [7]: https://www.gnutls.org/security-new.html#GNUTLS-SA-202
+│                       │      │                         5-02-07 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.423Z 
 │                       │      ╰ LastModifiedDate: 2025-02-10T16:15:37.423Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2024-21094 
@@ -1293,26 +1409,81 @@
 │                       │      │                    the password or
 │                       │      │                   omits both login and password. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-11053 
-│                       │      │                  ├ [2] : https://curl.se/docs/CVE-2024-11053.html 
-│                       │      │                  ├ [3] : https://curl.se/docs/CVE-2024-11053.json 
-│                       │      │                  ├ [4] : https://hackerone.com/reports/2829063 
-│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
-│                       │      │                  ├ [6] : https://security.netapp.com/advisory/ntap-20250124-00
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-11053 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2301888 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318857 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2318858 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2318870 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2318873 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2318874 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2318876 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2318882 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2318883 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2318884 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2318885 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2318886 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2318897 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2318900 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/2318905 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/2318914 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/2318922 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/2318923 
+│                       │      │                  ├ [23]: https://bugzilla.redhat.com/2318925 
+│                       │      │                  ├ [24]: https://bugzilla.redhat.com/2318926 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/2318927 
+│                       │      │                  ├ [26]: https://bugzilla.redhat.com/2331191 
+│                       │      │                  ├ [27]: https://bugzilla.redhat.com/2339218 
+│                       │      │                  ├ [28]: https://bugzilla.redhat.com/2339220 
+│                       │      │                  ├ [29]: https://bugzilla.redhat.com/2339221 
+│                       │      │                  ├ [30]: https://bugzilla.redhat.com/2339226 
+│                       │      │                  ├ [31]: https://bugzilla.redhat.com/2339231 
+│                       │      │                  ├ [32]: https://bugzilla.redhat.com/2339236 
+│                       │      │                  ├ [33]: https://bugzilla.redhat.com/2339238 
+│                       │      │                  ├ [34]: https://bugzilla.redhat.com/2339243 
+│                       │      │                  ├ [35]: https://bugzilla.redhat.com/2339247 
+│                       │      │                  ├ [36]: https://bugzilla.redhat.com/2339252 
+│                       │      │                  ├ [37]: https://bugzilla.redhat.com/2339259 
+│                       │      │                  ├ [38]: https://bugzilla.redhat.com/2339266 
+│                       │      │                  ├ [39]: https://bugzilla.redhat.com/2339270 
+│                       │      │                  ├ [40]: https://bugzilla.redhat.com/2339271 
+│                       │      │                  ├ [41]: https://bugzilla.redhat.com/2339275 
+│                       │      │                  ├ [42]: https://bugzilla.redhat.com/2339277 
+│                       │      │                  ├ [43]: https://bugzilla.redhat.com/2339281 
+│                       │      │                  ├ [44]: https://bugzilla.redhat.com/2339284 
+│                       │      │                  ├ [45]: https://bugzilla.redhat.com/2339291 
+│                       │      │                  ├ [46]: https://bugzilla.redhat.com/2339293 
+│                       │      │                  ├ [47]: https://bugzilla.redhat.com/2339295 
+│                       │      │                  ├ [48]: https://bugzilla.redhat.com/2339299 
+│                       │      │                  ├ [49]: https://bugzilla.redhat.com/2339300 
+│                       │      │                  ├ [50]: https://bugzilla.redhat.com/2339304 
+│                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
+│                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-11053.html 
+│                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-11053.json 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │      │                  ├ [55]: https://hackerone.com/reports/2829063 
+│                       │      │                  ├ [56]: https://linux.oracle.com/cve/CVE-2024-11053.html 
+│                       │      │                  ├ [57]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
+│                       │      │                  ├ [58]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
+│                       │      │                  ├ [59]: https://security.netapp.com/advisory/ntap-20250124-00
 │                       │      │                  │       12/ 
-│                       │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-20250131-00
+│                       │      │                  ├ [60]: https://security.netapp.com/advisory/ntap-20250131-00
 │                       │      │                  │       03/ 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7162-1 
-│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2024-11053 
-│                       │      │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujan2025.htm
+│                       │      │                  ├ [61]: https://ubuntu.com/security/notices/USN-7162-1 
+│                       │      │                  ├ [62]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      │                  ╰ [63]: https://www.oracle.com/security-alerts/cpujan2025.htm
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                       │      ╰ LastModifiedDate: 2025-01-31T15:15:12.4Z 
@@ -1348,10 +1519,12 @@
 │                       │      │                   NFO.html) is used. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
+│                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -1362,19 +1535,72 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/31/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-7264 
-│                       │      │                  ├ [2] : https://curl.se/docs/CVE-2024-7264.html 
-│                       │      │                  ├ [3] : https://curl.se/docs/CVE-2024-7264.json 
-│                       │      │                  ├ [4] : https://github.com/curl/curl/commit/27959ecce75cdb280
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-7264 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2301888 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318857 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2318858 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2318870 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2318873 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2318874 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2318876 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2318882 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2318883 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2318884 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2318885 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2318886 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2318897 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2318900 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/2318905 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/2318914 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/2318922 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/2318923 
+│                       │      │                  ├ [23]: https://bugzilla.redhat.com/2318925 
+│                       │      │                  ├ [24]: https://bugzilla.redhat.com/2318926 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/2318927 
+│                       │      │                  ├ [26]: https://bugzilla.redhat.com/2331191 
+│                       │      │                  ├ [27]: https://bugzilla.redhat.com/2339218 
+│                       │      │                  ├ [28]: https://bugzilla.redhat.com/2339220 
+│                       │      │                  ├ [29]: https://bugzilla.redhat.com/2339221 
+│                       │      │                  ├ [30]: https://bugzilla.redhat.com/2339226 
+│                       │      │                  ├ [31]: https://bugzilla.redhat.com/2339231 
+│                       │      │                  ├ [32]: https://bugzilla.redhat.com/2339236 
+│                       │      │                  ├ [33]: https://bugzilla.redhat.com/2339238 
+│                       │      │                  ├ [34]: https://bugzilla.redhat.com/2339243 
+│                       │      │                  ├ [35]: https://bugzilla.redhat.com/2339247 
+│                       │      │                  ├ [36]: https://bugzilla.redhat.com/2339252 
+│                       │      │                  ├ [37]: https://bugzilla.redhat.com/2339259 
+│                       │      │                  ├ [38]: https://bugzilla.redhat.com/2339266 
+│                       │      │                  ├ [39]: https://bugzilla.redhat.com/2339270 
+│                       │      │                  ├ [40]: https://bugzilla.redhat.com/2339271 
+│                       │      │                  ├ [41]: https://bugzilla.redhat.com/2339275 
+│                       │      │                  ├ [42]: https://bugzilla.redhat.com/2339277 
+│                       │      │                  ├ [43]: https://bugzilla.redhat.com/2339281 
+│                       │      │                  ├ [44]: https://bugzilla.redhat.com/2339284 
+│                       │      │                  ├ [45]: https://bugzilla.redhat.com/2339291 
+│                       │      │                  ├ [46]: https://bugzilla.redhat.com/2339293 
+│                       │      │                  ├ [47]: https://bugzilla.redhat.com/2339295 
+│                       │      │                  ├ [48]: https://bugzilla.redhat.com/2339299 
+│                       │      │                  ├ [49]: https://bugzilla.redhat.com/2339300 
+│                       │      │                  ├ [50]: https://bugzilla.redhat.com/2339304 
+│                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
+│                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-7264.html 
+│                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-7264.json 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │      │                  ├ [55]: https://github.com/curl/curl/commit/27959ecce75cdb280
 │                       │      │                  │       9c0bdb3286e60e08fadb519 
-│                       │      │                  ├ [5] : https://hackerone.com/reports/2629968 
-│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
-│                       │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-20240828-00
+│                       │      │                  ├ [56]: https://hackerone.com/reports/2629968 
+│                       │      │                  ├ [57]: https://linux.oracle.com/cve/CVE-2024-7264.html 
+│                       │      │                  ├ [58]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
+│                       │      │                  ├ [59]: https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
+│                       │      │                  ├ [60]: https://security.netapp.com/advisory/ntap-20240828-00
 │                       │      │                  │       08/ 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6944-1 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6944-2 
-│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
-│                       │      │                  ╰ [11]: https://www.oracle.com/security-alerts/cpuoct2024.htm
+│                       │      │                  ├ [61]: https://ubuntu.com/security/notices/USN-6944-1 
+│                       │      │                  ├ [62]: https://ubuntu.com/security/notices/USN-6944-2 
+│                       │      │                  ├ [63]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
+│                       │      │                  ╰ [64]: https://www.oracle.com/security-alerts/cpuoct2024.htm
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:51:10.36Z 
@@ -2511,11 +2737,14 @@
 │                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/s
 │                       │      │                  │      ecurity/CVE-2024-12133.md?ref_type=heads 
 │                       │      │                  ├ [4]: https://gitlab.com/gnutls/libtasn1/-/issues/52 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7275-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
+│                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/02/m
+│                       │      │                  │      sg00025.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7275-1 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7275-2 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.26Z 
-│                       │      ╰ LastModifiedDate: 2025-02-10T16:15:37.26Z 
+│                       │      ╰ LastModifiedDate: 2025-02-21T13:15:10.43Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2022-49043 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2025:1350 
 │                       │      ├ PkgID           : libxml2@2.9.13-6.el9_4.x86_64 
@@ -3750,6 +3979,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-392 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ ghsa       : 1 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
@@ -3850,7 +4080,8 @@
 │                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250124-00
 │                       │      │                  │       05/ 
 │                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7278-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
 │                       ├ [59] ╭ VulnerabilityID : CVE-2024-41996 
@@ -3955,6 +4186,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-392 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ ghsa       : 1 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
@@ -4055,7 +4287,8 @@
 │                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250124-00
 │                       │      │                  │       05/ 
 │                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7278-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
 │                       ├ [62] ╭ VulnerabilityID : CVE-2024-41996 
@@ -4521,7 +4754,8 @@
 │                       │      │                   URL parser and other specification-compliant URL parsers. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.8 
@@ -4537,7 +4771,8 @@
 │                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
 │                       │      │                  │      e@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/ 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7280-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
 │                       ├ [69] ╭ VulnerabilityID : CVE-2024-0397 
@@ -5014,7 +5249,8 @@
 │                       │      │                   URL parser and other specification-compliant URL parsers. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.8 
@@ -5030,7 +5266,8 @@
 │                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
 │                       │      │                  │      e@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/ 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7280-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
 │                       ├ [75] ╭ VulnerabilityID : CVE-2024-0397 
@@ -5507,7 +5744,8 @@
 │                       │      │                   URL parser and other specification-compliant URL parsers. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.8 
@@ -5523,7 +5761,8 @@
 │                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
 │                       │      │                  │      e@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/ 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7280-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
 │                       ├ [81] ╭ VulnerabilityID : CVE-2024-0397 
