@@ -368,7 +368,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -421,7 +421,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -479,7 +479,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -532,7 +532,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -987,13 +987,14 @@
     - https://access.redhat.com/security/cve/CVE-2024-12243
     - https://bugzilla.redhat.com/show_bug.cgi?id=2344615
     - https://gitlab.com/gnutls/libtasn1/-/issues/52
+    - https://lists.debian.org/debian-lts-announce/2025/02/msg00027.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-February/004875.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12243
     - https://ubuntu.com/security/notices/USN-7281-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12243
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-02-07
     PublishedDate: '2025-02-10T16:15:37.423Z'
-    LastModifiedDate: '2025-02-10T16:15:37.423Z'
+    LastModifiedDate: '2025-02-21T22:15:11.89Z'
   - VulnerabilityID: CVE-2024-21094
     PkgID: java-21-openjdk-headless@21.0.5.0.11-2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -1244,7 +1245,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1297,7 +1298,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -1355,7 +1356,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1408,7 +1409,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -2162,6 +2163,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
+      amazon: 3
       cbl-mariner: 4
       oracle-oval: 2
       redhat: 2
