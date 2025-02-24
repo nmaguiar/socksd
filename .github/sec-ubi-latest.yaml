@@ -1559,6 +1559,73 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-12133
     PublishedDate: '2025-02-10T16:15:37.26Z'
     LastModifiedDate: '2025-02-21T13:15:10.43Z'
+  - VulnerabilityID: CVE-2024-56171
+    PkgID: libxml2@2.9.13-6.el9_5.1.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.1?arch=x86_64&distro=redhat-9.5
+      UID: 1482c7bee90351ca
+    InstalledVersion: 2.9.13-6.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:736319fb075a94604818f97c0fd1654670ca580febc75bc294f415ff3d258ca2
+      DiffID: sha256:2ae1bd711ed258a79456d27ec739e88bb5a4faebd083066e9589f080d7913ba2
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56171
+    Title: 'libxml2: Use-After-Free in libxml2'
+    Description: libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a use-after-free in xmlSchemaIDCFillNodeTables and xmlSchemaBubbleIDCNodeTables in xmlschemas.c. To exploit this, a crafted XML document must be validated against an XML schema with certain identity constraints, or a crafted XML schema must be used.
+    Severity: HIGH
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-56171
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/828
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-56171
+    - https://www.cve.org/CVERecord?id=CVE-2024-56171
+    - https://www.openwall.com/lists/oss-security/2025/02/18/2
+    PublishedDate: '2025-02-18T22:15:12.797Z'
+    LastModifiedDate: '2025-02-18T23:15:09.413Z'
+  - VulnerabilityID: CVE-2025-24928
+    PkgID: libxml2@2.9.13-6.el9_5.1.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.1?arch=x86_64&distro=redhat-9.5
+      UID: 1482c7bee90351ca
+    InstalledVersion: 2.9.13-6.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:736319fb075a94604818f97c0fd1654670ca580febc75bc294f415ff3d258ca2
+      DiffID: sha256:2ae1bd711ed258a79456d27ec739e88bb5a4faebd083066e9589f080d7913ba2
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24928
+    Title: 'libxml2: Stack-based buffer overflow in xmlSnprintfElements of libxml2'
+    Description: 'libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a stack-based buffer overflow in xmlSnprintfElements in valid.c. To exploit this, DTD validation must occur for an untrusted document or untrusted DTD. NOTE: this is similar to CVE-2017-9047.'
+    Severity: HIGH
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24928
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/847
+    - https://issues.oss-fuzz.com/issues/392687022
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24928
+    - https://www.cve.org/CVERecord?id=CVE-2025-24928
+    - https://www.openwall.com/lists/oss-security/2025/02/18/2
+    PublishedDate: '2025-02-18T23:15:10.25Z'
+    LastModifiedDate: '2025-02-18T23:15:10.25Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-6.el9_5.1.x86_64
     PkgName: libxml2
@@ -1642,6 +1709,39 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-34459
     PublishedDate: '2024-05-14T15:39:11.917Z'
     LastModifiedDate: '2024-11-21T09:18:43.59Z'
+  - VulnerabilityID: CVE-2025-27113
+    PkgID: libxml2@2.9.13-6.el9_5.1.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.1?arch=x86_64&distro=redhat-9.5
+      UID: 1482c7bee90351ca
+    InstalledVersion: 2.9.13-6.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:736319fb075a94604818f97c0fd1654670ca580febc75bc294f415ff3d258ca2
+      DiffID: sha256:2ae1bd711ed258a79456d27ec739e88bb5a4faebd083066e9589f080d7913ba2
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-27113
+    Title: 'libxml2: NULL Pointer Dereference in libxml2 xmlPatMatch'
+    Description: libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a NULL pointer dereference in xmlPatMatch in pattern.c.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-27113
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/861
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-27113
+    - https://www.cve.org/CVERecord?id=CVE-2025-27113
+    - https://www.openwall.com/lists/oss-security/2025/02/18/2
+    PublishedDate: '2025-02-18T23:15:10.96Z'
+    LastModifiedDate: '2025-02-18T23:15:10.96Z'
   - VulnerabilityID: CVE-2024-35325
     PkgID: libyaml@0.2.5-7.el9.x86_64
     PkgName: libyaml
