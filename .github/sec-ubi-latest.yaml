@@ -682,6 +682,7 @@
     - CWE-502
     VendorSeverity:
       alma: 1
+      cbl-mariner: 3
       nvd: 3
       oracle-oval: 1
       photon: 3
@@ -3165,6 +3166,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3412,6 +3414,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3659,6 +3662,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
