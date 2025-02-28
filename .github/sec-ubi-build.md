@@ -324,6 +324,7 @@
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
@@ -756,6 +757,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-400 
 │                       │      │                  ╰ [1]: CWE-502 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 1 
@@ -988,7 +990,8 @@
 │                       │      │                   condition. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
@@ -1234,6 +1237,7 @@
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
@@ -1750,16 +1754,18 @@
 │                       │      │                   XML schema must be used. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ redhat: 3 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.8 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56171 
 │                       │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/828 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-56171 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-56171 
-│                       │      │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7302-1 
+│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-56171 
+│                       │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
 │                       │      ├ PublishedDate   : 2025-02-18T22:15:12.797Z 
 │                       │      ╰ LastModifiedDate: 2025-02-18T23:15:09.413Z 
 │                       ├ [31] ╭ VulnerabilityID : CVE-2025-24928 
@@ -1785,8 +1791,9 @@
 │                       │      │                   to CVE-2017-9047. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-121 
-│                       │      ├ VendorSeverity   ╭ redhat: 3 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.8 
@@ -1794,8 +1801,9 @@
 │                       │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/847 
 │                       │      │                  ├ [2]: https://issues.oss-fuzz.com/issues/392687022 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-24928 
-│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-24928 
-│                       │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7302-1 
+│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-24928 
+│                       │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
 │                       │      ├ PublishedDate   : 2025-02-18T23:15:10.25Z 
 │                       │      ╰ LastModifiedDate: 2025-02-18T23:15:10.25Z 
 │                       ├ [32] ╭ VulnerabilityID : CVE-2023-45322 
@@ -1872,24 +1880,25 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34459 
-│                       │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/720 
-│                       │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.1
-│                       │      │                  │      1.8 
-│                       │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.1
-│                       │      │                  │      2.7 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/package-
-│                       │      │                  │      announce%40lists.fedoraproject.org/message/5HVUXKYTBWT
-│                       │      │                  │      3G5DEEQX62STJQBY367NL/ 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/package-
-│                       │      │                  │      announce%40lists.fedoraproject.org/message/INKSSLW5VMZ
-│                       │      │                  │      IXHRPZBAW4TJUX5SQKARG/ 
-│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/package-
-│                       │      │                  │      announce%40lists.fedoraproject.org/message/VRDJCNQP32L
-│                       │      │                  │      V56KESUQ5SNZKAJWSZZRI/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-34459 
-│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7240-1 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-34459 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-34459 
+│                       │      │                  ├ [1] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/720 
+│                       │      │                  ├ [2] : https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.
+│                       │      │                  │       11.8 
+│                       │      │                  ├ [3] : https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.
+│                       │      │                  │       12.7 
+│                       │      │                  ├ [4] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/5HVUXKYTB
+│                       │      │                  │       WT3G5DEEQX62STJQBY367NL/ 
+│                       │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/INKSSLW5V
+│                       │      │                  │       MZIXHRPZBAW4TJUX5SQKARG/ 
+│                       │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/package
+│                       │      │                  │       -announce%40lists.fedoraproject.org/message/VRDJCNQP3
+│                       │      │                  │       2LV56KESUQ5SNZKAJWSZZRI/ 
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-34459 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7240-1 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7302-1 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-34459 
 │                       │      ├ PublishedDate   : 2024-05-14T15:39:11.917Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:18:43.59Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2025-27113 
@@ -1911,16 +1920,18 @@
 │                       │      │                   pointer dereference in xmlPatMatch in pattern.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 1 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 2.9 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-27113 
 │                       │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/861 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-27113 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-27113 
-│                       │      │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7302-1 
+│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-27113 
+│                       │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
 │                       │      ├ PublishedDate   : 2025-02-18T23:15:10.96Z 
 │                       │      ╰ LastModifiedDate: 2025-02-18T23:15:10.96Z 
 │                       ├ [35] ╭ VulnerabilityID : CVE-2024-35325 
