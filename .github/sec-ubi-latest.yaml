@@ -276,6 +276,7 @@
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -682,6 +683,7 @@
     - CWE-502
     VendorSeverity:
       alma: 1
+      amazon: 3
       cbl-mariner: 3
       nvd: 3
       oracle-oval: 1
@@ -894,6 +896,7 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1100,6 +1103,7 @@
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1579,6 +1583,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1589,6 +1594,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-56171
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/828
     - https://nvd.nist.gov/vuln/detail/CVE-2024-56171
+    - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2024-56171
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T22:15:12.797Z'
@@ -1612,6 +1618,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1623,6 +1630,7 @@
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/847
     - https://issues.oss-fuzz.com/issues/392687022
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24928
+    - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24928
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T23:15:10.25Z'
@@ -1707,6 +1715,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VRDJCNQP32LV56KESUQ5SNZKAJWSZZRI/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34459
     - https://ubuntu.com/security/notices/USN-7240-1
+    - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34459
     PublishedDate: '2024-05-14T15:39:11.917Z'
     LastModifiedDate: '2024-11-21T09:18:43.59Z'
@@ -1729,6 +1738,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      cbl-mariner: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1739,6 +1749,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-27113
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/861
     - https://nvd.nist.gov/vuln/detail/CVE-2025-27113
+    - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2025-27113
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T23:15:10.96Z'
