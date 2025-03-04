@@ -1128,7 +1128,8 @@
 │                       │      │                   file. This issue can trigger a process crash and lead to a
 │                       │      │                   denial of service. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.5 
@@ -1136,7 +1137,8 @@
 │                       │                         ├ [1]: https://github.com/krb5/krb5/commit/78ceba024b64d49612
 │                       │                         │      375be4a12d1c066b0bfbd0 
 │                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
-│                       │                         ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-7314-1 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │      ├ PkgName         : libarchive 
