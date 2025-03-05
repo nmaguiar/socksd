@@ -1048,7 +1048,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-30571
     PublishedDate: '2023-05-29T20:15:09.513Z'
     LastModifiedDate: '2025-01-14T17:15:11.673Z'
-  - VulnerabilityID: CVE-2024-57970
+  - VulnerabilityID: CVE-2025-25724
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
     PkgIdentifier:
@@ -1060,26 +1060,63 @@
       Digest: sha256:18dbf8e5d21b7e9d16285ab091c6dbe4f496b9b9023f39503d5e076d765d7782
       DiffID: sha256:5ead57f56f9da21e2b6cef057602160bc858f82b3bd6983c2339c772c676a853
     SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-57970
-    Title: 'libarchive: heap buffer over-read in header_gnu_longlink'
-    Description: libarchive through 3.7.7 has a heap-based buffer over-read in header_gnu_longlink in archive_read_support_format_tar.c via a TAR archive because it mishandles truncation in the middle of a GNU long linkname.
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-25724
+    Title: 'libarchive: Buffer Overflow vulnerability in libarchive'
+    Description: list_item_verbose in tar/util.c in libarchive through 3.7.7 does not check an strftime return value, which can lead to a denial of service or unspecified other impact via a crafted TAR archive that is read with a verbose value of 2. For example, the 100-byte buffer may not be sufficient for a custom locale.
     Severity: MEDIUM
     CweIDs:
-    - CWE-126
+    - CWE-252
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 4
     References:
-    - https://access.redhat.com/security/cve/CVE-2024-57970
-    - https://github.com/libarchive/libarchive/issues/2415
-    - https://github.com/libarchive/libarchive/pull/2422
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-57970
-    - https://www.cve.org/CVERecord?id=CVE-2024-57970
-    PublishedDate: '2025-02-16T04:15:21.843Z'
-    LastModifiedDate: '2025-02-18T17:15:19.13Z'
+    - https://access.redhat.com/security/cve/CVE-2025-25724
+    - https://gist.github.com/Ekkosun/a83870ce7f3b7813b9b462a395e8ad92
+    - https://github.com/Ekkosun/pocs/blob/main/bsdtarbug
+    - https://github.com/libarchive/libarchive/blob/b439d586f53911c84be5e380445a8a259e19114c/tar/util.c#L751-L752
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-25724
+    - https://www.cve.org/CVERecord?id=CVE-2025-25724
+    PublishedDate: '2025-03-02T02:15:36.603Z'
+    LastModifiedDate: '2025-03-02T02:15:36.603Z'
+  - VulnerabilityID: CVE-2025-1632
+    PkgID: libarchive@3.5.3-4.el9.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.5
+      UID: c673532f75a7f50e
+    InstalledVersion: 3.5.3-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:18dbf8e5d21b7e9d16285ab091c6dbe4f496b9b9023f39503d5e076d765d7782
+      DiffID: sha256:5ead57f56f9da21e2b6cef057602160bc858f82b3bd6983c2339c772c676a853
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1632
+    Title: 'libarchive: null pointer dereference in bsdunzip.c'
+    Description: A vulnerability was found in libarchive up to 3.7.7. It has been classified as problematic. This affects the function list of the file bsdunzip.c. The manipulation leads to null pointer dereference. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+    Severity: LOW
+    CweIDs:
+    - CWE-404
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1632
+    - https://github.com/Ekkosun/pocs/blob/main/bsdunzip-poc
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1632
+    - https://vuldb.com/?ctiid.296619
+    - https://vuldb.com/?id.296619
+    - https://vuldb.com/?submit.496460
+    - https://www.cve.org/CVERecord?id=CVE-2025-1632
+    PublishedDate: '2025-02-24T14:15:11.59Z'
+    LastModifiedDate: '2025-02-24T15:15:13.217Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
     PkgName: libcurl-minimal
@@ -1549,6 +1586,7 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      cbl-mariner: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -1799,7 +1837,7 @@
       PURL: pkg:rpm/redhat/libzstd@1.5.1-2.el9?arch=x86_64&distro=redhat-9.5
       UID: 18ca8ec03b1304ea
     InstalledVersion: 1.5.1-2.el9
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:18dbf8e5d21b7e9d16285ab091c6dbe4f496b9b9023f39503d5e076d765d7782
       DiffID: sha256:5ead57f56f9da21e2b6cef057602160bc858f82b3bd6983c2339c772c676a853
@@ -1807,7 +1845,7 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4899
     Title: 'zstd: mysql: buffer overrun in util.c'
     Description: A vulnerability was found in zstd v1.4.10, where an attacker can supply empty string as an argument to the command line tool to cause buffer overrun.
-    Severity: LOW
+    Severity: MEDIUM
     CweIDs:
     - CWE-400
     VendorSeverity:
@@ -1818,7 +1856,7 @@
       nvd: 3
       oracle-oval: 2
       photon: 3
-      redhat: 1
+      redhat: 2
       ubuntu: 1
     CVSS:
       ghsa:
@@ -3329,6 +3367,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2025-02-05T21:13:47.837Z'
+  - VulnerabilityID: CVE-2025-1795
+    PkgID: python-unversioned-command@3.9.21-1.el9_5.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el9_5?arch=noarch&distro=redhat-9.5
+      UID: 608b68b025ced14b
+    InstalledVersion: 3.9.21-1.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:18dbf8e5d21b7e9d16285ab091c6dbe4f496b9b9023f39503d5e076d765d7782
+      DiffID: sha256:5ead57f56f9da21e2b6cef057602160bc858f82b3bd6983c2339c772c676a853
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
+    Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
+    Severity: LOW
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1795
+    - https://github.com/python/cpython/commit/09fab93c3d857496c0bd162797fab816c311ee48
+    - https://github.com/python/cpython/commit/70754d21c288535e86070ca7a6e90dcb670b8593
+    - https://github.com/python/cpython/commit/9148b77e0af91cdacaa7fe3dfac09635c3fe9a74
+    - https://github.com/python/cpython/issues/100884
+    - https://github.com/python/cpython/pull/100885
+    - https://github.com/python/cpython/pull/119099
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://www.cve.org/CVERecord?id=CVE-2025-1795
+    PublishedDate: '2025-02-28T19:15:36.55Z'
+    LastModifiedDate: '2025-02-28T21:15:27.57Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3@3.9.21-1.el9_5.x86_64
     PkgName: python3
@@ -3580,6 +3655,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2025-02-05T21:13:47.837Z'
+  - VulnerabilityID: CVE-2025-1795
+    PkgID: python3@3.9.21-1.el9_5.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&distro=redhat-9.5
+      UID: 9534c8adf391cc0c
+    InstalledVersion: 3.9.21-1.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:18dbf8e5d21b7e9d16285ab091c6dbe4f496b9b9023f39503d5e076d765d7782
+      DiffID: sha256:5ead57f56f9da21e2b6cef057602160bc858f82b3bd6983c2339c772c676a853
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
+    Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
+    Severity: LOW
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1795
+    - https://github.com/python/cpython/commit/09fab93c3d857496c0bd162797fab816c311ee48
+    - https://github.com/python/cpython/commit/70754d21c288535e86070ca7a6e90dcb670b8593
+    - https://github.com/python/cpython/commit/9148b77e0af91cdacaa7fe3dfac09635c3fe9a74
+    - https://github.com/python/cpython/issues/100884
+    - https://github.com/python/cpython/pull/100885
+    - https://github.com/python/cpython/pull/119099
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://www.cve.org/CVERecord?id=CVE-2025-1795
+    PublishedDate: '2025-02-28T19:15:36.55Z'
+    LastModifiedDate: '2025-02-28T21:15:27.57Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3-libs@3.9.21-1.el9_5.x86_64
     PkgName: python3-libs
@@ -3831,6 +3943,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2025-02-05T21:13:47.837Z'
+  - VulnerabilityID: CVE-2025-1795
+    PkgID: python3-libs@3.9.21-1.el9_5.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_64&distro=redhat-9.5
+      UID: e8550a1050919f83
+    InstalledVersion: 3.9.21-1.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:18dbf8e5d21b7e9d16285ab091c6dbe4f496b9b9023f39503d5e076d765d7782
+      DiffID: sha256:5ead57f56f9da21e2b6cef057602160bc858f82b3bd6983c2339c772c676a853
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
+    Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
+    Severity: LOW
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1795
+    - https://github.com/python/cpython/commit/09fab93c3d857496c0bd162797fab816c311ee48
+    - https://github.com/python/cpython/commit/70754d21c288535e86070ca7a6e90dcb670b8593
+    - https://github.com/python/cpython/commit/9148b77e0af91cdacaa7fe3dfac09635c3fe9a74
+    - https://github.com/python/cpython/issues/100884
+    - https://github.com/python/cpython/pull/100885
+    - https://github.com/python/cpython/pull/119099
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://www.cve.org/CVERecord?id=CVE-2025-1795
+    PublishedDate: '2025-02-28T19:15:36.55Z'
+    LastModifiedDate: '2025-02-28T21:15:27.57Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
