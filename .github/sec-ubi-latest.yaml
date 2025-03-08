@@ -568,9 +568,10 @@
     - https://curl.se/docs/CVE-2025-0725.json
     - https://hackerone.com/reports/2956023
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0725
+    - https://security.netapp.com/advisory/ntap-20250306-0009/
     - https://www.cve.org/CVERecord?id=CVE-2025-0725
     PublishedDate: '2025-02-05T10:15:22.98Z'
-    LastModifiedDate: '2025-02-06T19:15:19.733Z'
+    LastModifiedDate: '2025-03-07T01:15:12.403Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -999,6 +1000,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1008,6 +1010,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-24528
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://linux.oracle.com/cve/CVE-2025-24528.html
+    - https://linux.oracle.com/errata/ELSA-2025-1352.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
     - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24528
@@ -1437,9 +1441,10 @@
     - https://curl.se/docs/CVE-2025-0725.json
     - https://hackerone.com/reports/2956023
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0725
+    - https://security.netapp.com/advisory/ntap-20250306-0009/
     - https://www.cve.org/CVERecord?id=CVE-2025-0725
     PublishedDate: '2025-02-05T10:15:22.98Z'
-    LastModifiedDate: '2025-02-06T19:15:19.733Z'
+    LastModifiedDate: '2025-03-07T01:15:12.403Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.5.0-5.el9_5.x86_64
     PkgName: libgcc
@@ -1627,6 +1632,7 @@
     - CWE-416
     VendorSeverity:
       cbl-mariner: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1662,6 +1668,7 @@
     - CWE-121
     VendorSeverity:
       cbl-mariner: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1783,6 +1790,7 @@
     VendorSeverity:
       cbl-mariner: 1
       nvd: 3
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1796,11 +1804,12 @@
     - https://access.redhat.com/security/cve/CVE-2025-27113
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/861
     - https://nvd.nist.gov/vuln/detail/CVE-2025-27113
+    - https://security.netapp.com/advisory/ntap-20250306-0004/
     - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2025-27113
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T23:15:10.96Z'
-    LastModifiedDate: '2025-02-27T20:18:12.583Z'
+    LastModifiedDate: '2025-03-07T01:15:12.823Z'
   - VulnerabilityID: CVE-2024-35325
     PkgID: libyaml@0.2.5-7.el9.x86_64
     PkgName: libyaml
@@ -3224,6 +3233,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      amazon: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -3512,6 +3522,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      amazon: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -3800,6 +3811,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      amazon: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
