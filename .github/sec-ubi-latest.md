@@ -630,9 +630,10 @@
 │                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-0725.json 
 │                       │      │                  ├ [6]: https://hackerone.com/reports/2956023 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0725 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
+│                       │      │                  ├ [8]: https://security.netapp.com/advisory/ntap-20250306-0009/ 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
-│                       │      ╰ LastModifiedDate: 2025-02-06T19:15:19.733Z 
+│                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.403Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2023-4156 
 │                       │      ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
 │                       │      ├ PkgName         : gawk 
@@ -1128,17 +1129,20 @@
 │                       │      │                   file. This issue can trigger a process crash and lead to a
 │                       │      │                   denial of service. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.5 
 │                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-24528 
 │                       │                         ├ [1]: https://github.com/krb5/krb5/commit/78ceba024b64d49612
 │                       │                         │      375be4a12d1c066b0bfbd0 
-│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
-│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-7314-1 
-│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
+│                       │                         ├ [2]: https://linux.oracle.com/cve/CVE-2025-24528.html 
+│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-1352.html 
+│                       │                         ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
+│                       │                         ├ [5]: https://ubuntu.com/security/notices/USN-7314-1 
+│                       │                         ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │      ├ PkgName         : libarchive 
@@ -1595,9 +1599,10 @@
 │                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-0725.json 
 │                       │      │                  ├ [6]: https://hackerone.com/reports/2956023 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0725 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
+│                       │      │                  ├ [8]: https://security.netapp.com/advisory/ntap-20250306-0009/ 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
-│                       │      ╰ LastModifiedDate: 2025-02-06T19:15:19.733Z 
+│                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.403Z 
 │                       ├ [27] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc@11.5.0-5.el9_5.x86_64 
 │                       │      ├ PkgName         : libgcc 
@@ -1808,6 +1813,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H
@@ -1845,6 +1851,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-121 
 │                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H
@@ -1975,6 +1982,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ cbl-mariner: 1 
 │                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
@@ -1986,11 +1994,12 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-27113 
 │                       │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/861 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-27113 
-│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7302-1 
-│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-27113 
-│                       │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
+│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250306-0004/ 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7302-1 
+│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-27113 
+│                       │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
 │                       │      ├ PublishedDate   : 2025-02-18T23:15:10.96Z 
-│                       │      ╰ LastModifiedDate: 2025-02-27T20:18:12.583Z 
+│                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.823Z 
 │                       ├ [36] ╭ VulnerabilityID : CVE-2024-35325 
 │                       │      ├ PkgID           : libyaml@0.2.5-7.el9.x86_64 
 │                       │      ├ PkgName         : libyaml 
@@ -3655,7 +3664,8 @@
 │                       │      │                   URL parser and other specification-compliant URL parsers. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H
@@ -4047,7 +4057,8 @@
 │                       │      │                   URL parser and other specification-compliant URL parsers. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H
@@ -4439,7 +4450,8 @@
 │                       │      │                   URL parser and other specification-compliant URL parsers. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H
