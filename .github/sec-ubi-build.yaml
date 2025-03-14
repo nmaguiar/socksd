@@ -880,7 +880,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2024-11-21T07:19:04.727Z'
+    LastModifiedDate: '2025-03-12T21:15:38.207Z'
   - VulnerabilityID: CVE-2024-12243
     PkgID: gnutls@3.8.3-4.el9_4.x86_64
     PkgName: gnutls
@@ -1631,7 +1631,9 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 3
       cbl-mariner: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -1640,8 +1642,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 8.1
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2679
     - https://access.redhat.com/security/cve/CVE-2024-56171
+    - https://bugzilla.redhat.com/2346416
+    - https://bugzilla.redhat.com/2346421
+    - https://errata.almalinux.org/9/ALSA-2025-2679.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/828
+    - https://linux.oracle.com/cve/CVE-2024-56171.html
+    - https://linux.oracle.com/errata/ELSA-2025-2686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-56171
     - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2024-56171
@@ -1667,7 +1675,9 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      alma: 3
       cbl-mariner: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -1676,9 +1686,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
         V3Score: 7.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2679
     - https://access.redhat.com/security/cve/CVE-2025-24928
+    - https://bugzilla.redhat.com/2346416
+    - https://bugzilla.redhat.com/2346421
+    - https://errata.almalinux.org/9/ALSA-2025-2679.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/847
     - https://issues.oss-fuzz.com/issues/392687022
+    - https://linux.oracle.com/cve/CVE-2025-24928.html
+    - https://linux.oracle.com/errata/ELSA-2025-2686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24928
     - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24928
@@ -3254,6 +3270,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
     - https://ubuntu.com/security/notices/USN-7280-1
+    - https://ubuntu.com/security/notices/USN-7348-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-02-28T20:15:46.58Z'
@@ -3543,6 +3560,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
     - https://ubuntu.com/security/notices/USN-7280-1
+    - https://ubuntu.com/security/notices/USN-7348-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-02-28T20:15:46.58Z'
@@ -3832,6 +3850,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
     - https://ubuntu.com/security/notices/USN-7280-1
+    - https://ubuntu.com/security/notices/USN-7348-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-02-28T20:15:46.58Z'
