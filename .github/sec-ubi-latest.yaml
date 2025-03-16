@@ -848,7 +848,7 @@
       PURL: pkg:rpm/redhat/gnupg2@2.3.3-4.el9?arch=x86_64&distro=redhat-9.5
       UID: ae5a88959b924771
     InstalledVersion: 2.3.3-4.el9
-    Status: will_not_fix
+    Status: affected
     Layer:
       Digest: sha256:736319fb075a94604818f97c0fd1654670ca580febc75bc294f415ff3d258ca2
       DiffID: sha256:2ae1bd711ed258a79456d27ec739e88bb5a4faebd083066e9589f080d7913ba2
@@ -1011,7 +1011,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-24528
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
     - https://linux.oracle.com/cve/CVE-2025-24528.html
-    - https://linux.oracle.com/errata/ELSA-2025-1352.html
+    - https://linux.oracle.com/errata/ELSA-2025-2722.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
     - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24528
@@ -1591,6 +1591,7 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      azure: 3
       cbl-mariner: 2
       photon: 3
       redhat: 2
@@ -1613,13 +1614,16 @@
     PublishedDate: '2025-02-10T16:15:37.26Z'
     LastModifiedDate: '2025-02-21T13:15:10.43Z'
   - VulnerabilityID: CVE-2024-56171
+    VendorIDs:
+    - RHSA-2025:2679
     PkgID: libxml2@2.9.13-6.el9_5.1.x86_64
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.1?arch=x86_64&distro=redhat-9.5
       UID: 1482c7bee90351ca
     InstalledVersion: 2.9.13-6.el9_5.1
-    Status: affected
+    FixedVersion: 2.9.13-6.el9_5.2
+    Status: fixed
     Layer:
       Digest: sha256:736319fb075a94604818f97c0fd1654670ca580febc75bc294f415ff3d258ca2
       DiffID: sha256:2ae1bd711ed258a79456d27ec739e88bb5a4faebd083066e9589f080d7913ba2
@@ -1632,6 +1636,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
+      azure: 3
       cbl-mariner: 3
       oracle-oval: 3
       photon: 3
@@ -1657,13 +1662,16 @@
     PublishedDate: '2025-02-18T22:15:12.797Z'
     LastModifiedDate: '2025-02-18T23:15:09.413Z'
   - VulnerabilityID: CVE-2025-24928
+    VendorIDs:
+    - RHSA-2025:2679
     PkgID: libxml2@2.9.13-6.el9_5.1.x86_64
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.1?arch=x86_64&distro=redhat-9.5
       UID: 1482c7bee90351ca
     InstalledVersion: 2.9.13-6.el9_5.1
-    Status: affected
+    FixedVersion: 2.9.13-6.el9_5.2
+    Status: fixed
     Layer:
       Digest: sha256:736319fb075a94604818f97c0fd1654670ca580febc75bc294f415ff3d258ca2
       DiffID: sha256:2ae1bd711ed258a79456d27ec739e88bb5a4faebd083066e9589f080d7913ba2
@@ -1676,6 +1684,7 @@
     - CWE-121
     VendorSeverity:
       alma: 3
+      azure: 3
       cbl-mariner: 3
       oracle-oval: 3
       photon: 3
@@ -1804,6 +1813,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      azure: 1
       cbl-mariner: 1
       nvd: 3
       photon: 3
@@ -2789,6 +2799,7 @@
     - CWE-385
     VendorSeverity:
       amazon: 2
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2886,6 +2897,7 @@
     - CWE-385
     VendorSeverity:
       amazon: 2
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3250,6 +3262,7 @@
     - CWE-20
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -3269,11 +3282,12 @@
     - https://github.com/python/cpython/pull/129418
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
+    - https://security.netapp.com/advisory/ntap-20250314-0002/
     - https://ubuntu.com/security/notices/USN-7280-1
     - https://ubuntu.com/security/notices/USN-7348-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
-    LastModifiedDate: '2025-02-28T20:15:46.58Z'
+    LastModifiedDate: '2025-03-14T10:15:15.847Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python-unversioned-command@3.9.21-1.el9_5.noarch
     PkgName: python-unversioned-command
@@ -3540,6 +3554,7 @@
     - CWE-20
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -3559,11 +3574,12 @@
     - https://github.com/python/cpython/pull/129418
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
+    - https://security.netapp.com/advisory/ntap-20250314-0002/
     - https://ubuntu.com/security/notices/USN-7280-1
     - https://ubuntu.com/security/notices/USN-7348-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
-    LastModifiedDate: '2025-02-28T20:15:46.58Z'
+    LastModifiedDate: '2025-03-14T10:15:15.847Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3@3.9.21-1.el9_5.x86_64
     PkgName: python3
@@ -3830,6 +3846,7 @@
     - CWE-20
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -3849,11 +3866,12 @@
     - https://github.com/python/cpython/pull/129418
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
+    - https://security.netapp.com/advisory/ntap-20250314-0002/
     - https://ubuntu.com/security/notices/USN-7280-1
     - https://ubuntu.com/security/notices/USN-7348-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
-    LastModifiedDate: '2025-02-28T20:15:46.58Z'
+    LastModifiedDate: '2025-03-14T10:15:15.847Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3-libs@3.9.21-1.el9_5.x86_64
     PkgName: python3-libs
