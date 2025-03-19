@@ -1041,6 +1041,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -1049,7 +1050,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2722
     - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://bugzilla.redhat.com/2342796
+    - https://errata.almalinux.org/8/ALSA-2025-2722.html
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
     - https://linux.oracle.com/cve/CVE-2025-24528.html
     - https://linux.oracle.com/errata/ELSA-2025-2722.html
@@ -2738,6 +2742,8 @@
       process must either be located in the same physical computer or must
       have a very fast network connection with low latency. For that reason
       the severity of this vulnerability is Low.
+
+      The FIPS modules in 3.4, 3.3, 3.2, 3.1 and 3.0 are affected by this issue.
     Severity: LOW
     CweIDs:
     - CWE-385
@@ -2767,7 +2773,7 @@
     - https://ubuntu.com/security/notices/USN-7278-1
     - https://www.cve.org/CVERecord?id=CVE-2024-13176
     PublishedDate: '2025-01-20T14:15:26.247Z'
-    LastModifiedDate: '2025-01-27T21:15:11.907Z'
+    LastModifiedDate: '2025-03-18T08:15:10.2Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: openssl@3.2.2-6.el9_5.1.x86_64
     PkgName: openssl
@@ -2836,6 +2842,8 @@
       process must either be located in the same physical computer or must
       have a very fast network connection with low latency. For that reason
       the severity of this vulnerability is Low.
+
+      The FIPS modules in 3.4, 3.3, 3.2, 3.1 and 3.0 are affected by this issue.
     Severity: LOW
     CweIDs:
     - CWE-385
@@ -2865,7 +2873,7 @@
     - https://ubuntu.com/security/notices/USN-7278-1
     - https://www.cve.org/CVERecord?id=CVE-2024-13176
     PublishedDate: '2025-01-20T14:15:26.247Z'
-    LastModifiedDate: '2025-01-27T21:15:11.907Z'
+    LastModifiedDate: '2025-03-18T08:15:10.2Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: openssl-libs@3.2.2-6.el9_5.1.x86_64
     PkgName: openssl-libs
