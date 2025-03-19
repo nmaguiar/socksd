@@ -1175,20 +1175,24 @@
 │                       │      │                   file. This issue can trigger a process crash and lead to a
 │                       │      │                   denial of service. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-24528 
-│                       │                         ├ [1]: https://github.com/krb5/krb5/commit/78ceba024b64d49612
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:2722 
+│                       │                         ├ [1]: https://access.redhat.com/security/cve/CVE-2025-24528 
+│                       │                         ├ [2]: https://bugzilla.redhat.com/2342796 
+│                       │                         ├ [3]: https://errata.almalinux.org/8/ALSA-2025-2722.html 
+│                       │                         ├ [4]: https://github.com/krb5/krb5/commit/78ceba024b64d49612
 │                       │                         │      375be4a12d1c066b0bfbd0 
-│                       │                         ├ [2]: https://linux.oracle.com/cve/CVE-2025-24528.html 
-│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-2722.html 
-│                       │                         ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
-│                       │                         ├ [5]: https://ubuntu.com/security/notices/USN-7314-1 
-│                       │                         ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
+│                       │                         ├ [5]: https://linux.oracle.com/cve/CVE-2025-24528.html 
+│                       │                         ├ [6]: https://linux.oracle.com/errata/ELSA-2025-2722.html 
+│                       │                         ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
+│                       │                         ├ [8]: https://ubuntu.com/security/notices/USN-7314-1 
+│                       │                         ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │      ├ PkgName         : libarchive 
@@ -3051,7 +3055,9 @@
 │                       │      │                    or must
 │                       │      │                   have a very fast network connection with low latency. For
 │                       │      │                   that reason
-│                       │      │                   the severity of this vulnerability is Low. 
+│                       │      │                   the severity of this vulnerability is Low.
+│                       │      │                   The FIPS modules in 3.4, 3.3, 3.2, 3.1 and 3.0 are affected
+│                       │      │                   by this issue. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-385 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
@@ -3085,7 +3091,7 @@
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7278-1 
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
-│                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
+│                       │      ╰ LastModifiedDate: 2025-03-18T08:15:10.2Z 
 │                       ├ [57] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : openssl@3.2.2-6.el9_5.1.x86_64 
 │                       │      ├ PkgName         : openssl 
@@ -3171,7 +3177,9 @@
 │                       │      │                    or must
 │                       │      │                   have a very fast network connection with low latency. For
 │                       │      │                   that reason
-│                       │      │                   the severity of this vulnerability is Low. 
+│                       │      │                   the severity of this vulnerability is Low.
+│                       │      │                   The FIPS modules in 3.4, 3.3, 3.2, 3.1 and 3.0 are affected
+│                       │      │                   by this issue. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-385 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
@@ -3205,7 +3213,7 @@
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7278-1 
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
-│                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
+│                       │      ╰ LastModifiedDate: 2025-03-18T08:15:10.2Z 
 │                       ├ [59] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : openssl-libs@3.2.2-6.el9_5.1.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
