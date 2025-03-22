@@ -922,6 +922,39 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2025-03-12T21:15:38.207Z'
+  - VulnerabilityID: CVE-2025-30258
+    PkgID: gnupg2@2.3.3-4.el9.x86_64
+    PkgName: gnupg2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/gnupg2@2.3.3-4.el9?arch=x86_64&distro=redhat-9.5
+      UID: c5fd76921e15e44a
+    InstalledVersion: 2.3.3-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff515ed7839fac803141362c
+      DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c1ac6ecf1c91ae0875f73
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-30258
+    Title: 'gnupg: verification DoS due to a malicious subkey in the keyring'
+    Description: In GnuPG before 2.5.5, if a user chooses to import a certificate with certain crafted subkey data that lacks a valid backsig or that has incorrect usage flags, the user loses the ability to verify signatures made from certain other signing keys, aka a "verification DoS."
+    Severity: LOW
+    CweIDs:
+    - CWE-754
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L
+        V3Score: 2.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-30258
+    - https://dev.gnupg.org/T7527
+    - https://dev.gnupg.org/rG48978ccb4e20866472ef18436a32744350a65158
+    - https://lists.gnupg.org/pipermail/gnupg-announce/2025q1/000491.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-30258
+    - https://www.cve.org/CVERecord?id=CVE-2025-30258
+    PublishedDate: '2025-03-19T20:15:20.14Z'
+    LastModifiedDate: '2025-03-19T20:15:20.14Z'
   - VulnerabilityID: CVE-2024-12243
     PkgID: gnutls@3.8.3-4.el9_4.x86_64
     PkgName: gnutls
@@ -1117,6 +1150,7 @@
     - CWE-252
     VendorSeverity:
       cbl-mariner: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1152,6 +1186,7 @@
     - CWE-404
     - CWE-476
     VendorSeverity:
+      photon: 3
       redhat: 1
     CVSS:
       redhat:
