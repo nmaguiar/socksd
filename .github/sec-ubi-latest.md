@@ -3807,7 +3807,7 @@
 │                       │      │                  │       9_5?arch=noarch&distro=redhat-9.5 
 │                       │      │                  ╰ UID : 608b68b025ced14b 
 │                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff51
 │                       │      │                  │         5ed7839fac803141362c 
 │                       │      │                  ╰ DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c
@@ -4205,7 +4205,7 @@
 │                       │      │                  │       tro=redhat-9.5 
 │                       │      │                  ╰ UID : 10354af4a40c5d3e 
 │                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff51
 │                       │      │                  │         5ed7839fac803141362c 
 │                       │      │                  ╰ DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c
@@ -4603,7 +4603,7 @@
 │                       │      │                  │       4&distro=redhat-9.5 
 │                       │      │                  ╰ UID : 4018da6618a128d1 
 │                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff51
 │                       │      │                  │         5ed7839fac803141362c 
 │                       │      │                  ╰ DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c
