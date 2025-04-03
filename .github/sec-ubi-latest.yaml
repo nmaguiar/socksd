@@ -1058,6 +1058,43 @@
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
     PublishedDate: '2024-04-16T22:15:29.857Z'
     LastModifiedDate: '2024-11-21T08:53:46.35Z'
+  - VulnerabilityID: CVE-2022-37967
+    PkgID: krb5-libs@1.21.1-4.el9_5.x86_64
+    PkgName: krb5-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/krb5-libs@1.21.1-4.el9_5?arch=x86_64&distro=redhat-9.5
+      UID: 42d98a6341e87938
+    InstalledVersion: 1.21.1-4.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff515ed7839fac803141362c
+      DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c1ac6ecf1c91ae0875f73
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-37967
+    Title: 'samba: krb5: Kerberos constrained delegation ticket forgery possible against Samba AD DC'
+    Description: Windows Kerberos Elevation of Privilege Vulnerability
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-37967
+    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-37967
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-37967
+    - https://security.gentoo.org/glsa/202309-06
+    - https://ubuntu.com/security/notices/USN-5822-1
+    - https://ubuntu.com/security/notices/USN-5822-2
+    - https://ubuntu.com/security/notices/USN-5936-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-37967
+    - https://www.samba.org/samba/security/CVE-2022-37967.html
+    PublishedDate: '2022-11-09T22:15:14.59Z'
+    LastModifiedDate: '2025-01-02T22:15:10.01Z'
   - VulnerabilityID: CVE-2025-24528
     PkgID: krb5-libs@1.21.1-4.el9_5.x86_64
     PkgName: krb5-libs
@@ -1826,35 +1863,6 @@
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T23:15:10.96Z'
     LastModifiedDate: '2025-03-07T01:15:12.823Z'
-  - VulnerabilityID: CVE-2024-35325
-    PkgID: libyaml@0.2.5-7.el9.x86_64
-    PkgName: libyaml
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&distro=redhat-9.5
-      UID: 3a6c987d056a0930
-    InstalledVersion: 0.2.5-7.el9
-    Status: will_not_fix
-    Layer:
-      Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff515ed7839fac803141362c
-      DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c1ac6ecf1c91ae0875f73
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-35325
-    Title: 'libyaml: double-free in yaml_event_delete in /src/libyaml/src/api.c'
-    Description: 'Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.'
-    Severity: MEDIUM
-    VendorSeverity:
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-35325
-    - https://github.com/idhyt/pocs/blob/main/libyaml/CVE-2024-35325.c
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-35325
-    - https://www.cve.org/CVERecord?id=CVE-2024-35325
-    PublishedDate: '2024-06-13T17:15:50.39Z'
-    LastModifiedDate: '2024-08-28T16:15:08.417Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd@1.5.1-2.el9.x86_64
     PkgName: libzstd
@@ -3434,6 +3442,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
+      amazon: 1
       redhat: 1
     CVSS:
       redhat:
@@ -3727,6 +3736,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
+      amazon: 1
       redhat: 1
     CVSS:
       redhat:
@@ -4020,6 +4030,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
+      amazon: 1
       redhat: 1
     CVSS:
       redhat:
