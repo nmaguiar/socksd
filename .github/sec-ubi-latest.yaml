@@ -285,7 +285,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -338,7 +338,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -396,7 +396,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -449,7 +449,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -572,6 +572,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0725
     PublishedDate: '2025-02-05T10:15:22.98Z'
     LastModifiedDate: '2025-03-07T01:15:12.403Z'
+  - VulnerabilityID: CVE-2024-8176
+    VendorIDs:
+    - RHSA-2025:3531
+    PkgID: expat@2.5.0-3.el9_5.1.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-3.el9_5.1?arch=x86_64&distro=redhat-9.5
+      UID: 5b04d3172453ad77
+    InstalledVersion: 2.5.0-3.el9_5.1
+    FixedVersion: 2.5.0-3.el9_5.3
+    Status: fixed
+    Layer:
+      Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff515ed7839fac803141362c
+      DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c1ac6ecf1c91ae0875f73
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8176
+    Title: 'libexpat: expat: Improper Restriction of XML Entity Expansion Depth in libexpat'
+    Description: A stack overflow vulnerability exists in the libexpat library due to the way it handles recursive entity expansion in XML documents. When parsing an XML document with deeply nested entity references, libexpat can be forced to recurse indefinitely, exhausting the stack space and causing a crash. This issue could lead to denial of service (DoS) or, in some cases, exploitable memory corruption, depending on the environment and library usage.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      cbl-mariner: 3
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/03/15/1
+    - https://access.redhat.com/errata/RHSA-2025:3531
+    - https://access.redhat.com/security/cve/CVE-2024-8176
+    - https://blog.hartwork.org/posts/expat-2-7-0-released/
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310137
+    - https://bugzilla.suse.com/show_bug.cgi?id=1239618
+    - https://github.com/libexpat/libexpat/blob/R_2_7_0/expat/Changes#L40-L52
+    - https://github.com/libexpat/libexpat/issues/893
+    - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
+    - https://linux.oracle.com/cve/CVE-2024-8176.html
+    - https://linux.oracle.com/errata/ELSA-2025-3531.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8176
+    - https://security-tracker.debian.org/tracker/CVE-2024-8176
+    - https://security.netapp.com/advisory/ntap-20250328-0009/
+    - https://ubuntu.com/security/CVE-2024-8176
+    - https://www.cve.org/CVERecord?id=CVE-2024-8176
+    PublishedDate: '2025-03-14T09:15:14.157Z'
+    LastModifiedDate: '2025-04-02T15:15:57.987Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -1041,7 +1090,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://errata.almalinux.org/8/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1190,7 +1239,6 @@
       cbl-mariner: 2
       photon: 3
       redhat: 2
-      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
@@ -1281,7 +1329,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1334,7 +1382,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -1392,7 +1440,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1445,7 +1493,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -1620,7 +1668,7 @@
       PURL: pkg:rpm/redhat/libpkgconf@1.7.3-10.el9?arch=x86_64&distro=redhat-9.5
       UID: cfe8f621535101cc
     InstalledVersion: 1.7.3-10.el9
-    Status: will_not_fix
+    Status: affected
     Layer:
       Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff515ed7839fac803141362c
       DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c1ac6ecf1c91ae0875f73
@@ -1629,6 +1677,8 @@
     Title: 'pkgconf: unbounded string expansion due to incorrect checks may result in buffer overflow'
     Description: In pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundred bytes can expand to one billion bytes.
     Severity: LOW
+    CweIDs:
+    - CWE-787
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
@@ -1649,7 +1699,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-24056
     - https://www.cve.org/CVERecord?id=CVE-2023-24056
     PublishedDate: '2023-01-22T04:15:11.617Z'
-    LastModifiedDate: '2024-11-21T07:47:20.703Z'
+    LastModifiedDate: '2025-04-02T16:15:33.967Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++@11.5.0-5.el9_5.x86_64
     PkgName: libstdc++
@@ -1902,7 +1952,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -1979,7 +2029,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -3063,7 +3113,7 @@
       PURL: pkg:rpm/redhat/pkgconf@1.7.3-10.el9?arch=x86_64&distro=redhat-9.5
       UID: fc0f61174710bc24
     InstalledVersion: 1.7.3-10.el9
-    Status: will_not_fix
+    Status: affected
     Layer:
       Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff515ed7839fac803141362c
       DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c1ac6ecf1c91ae0875f73
@@ -3072,6 +3122,8 @@
     Title: 'pkgconf: unbounded string expansion due to incorrect checks may result in buffer overflow'
     Description: In pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundred bytes can expand to one billion bytes.
     Severity: LOW
+    CweIDs:
+    - CWE-787
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
@@ -3092,7 +3144,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-24056
     - https://www.cve.org/CVERecord?id=CVE-2023-24056
     PublishedDate: '2023-01-22T04:15:11.617Z'
-    LastModifiedDate: '2024-11-21T07:47:20.703Z'
+    LastModifiedDate: '2025-04-02T16:15:33.967Z'
   - VulnerabilityID: CVE-2023-24056
     PkgID: pkgconf-m4@1.7.3-10.el9.noarch
     PkgName: pkgconf-m4
@@ -3100,7 +3152,7 @@
       PURL: pkg:rpm/redhat/pkgconf-m4@1.7.3-10.el9?arch=noarch&distro=redhat-9.5
       UID: a6614d60f5b0413c
     InstalledVersion: 1.7.3-10.el9
-    Status: will_not_fix
+    Status: affected
     Layer:
       Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff515ed7839fac803141362c
       DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c1ac6ecf1c91ae0875f73
@@ -3109,6 +3161,8 @@
     Title: 'pkgconf: unbounded string expansion due to incorrect checks may result in buffer overflow'
     Description: In pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundred bytes can expand to one billion bytes.
     Severity: LOW
+    CweIDs:
+    - CWE-787
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
@@ -3129,7 +3183,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-24056
     - https://www.cve.org/CVERecord?id=CVE-2023-24056
     PublishedDate: '2023-01-22T04:15:11.617Z'
-    LastModifiedDate: '2024-11-21T07:47:20.703Z'
+    LastModifiedDate: '2025-04-02T16:15:33.967Z'
   - VulnerabilityID: CVE-2023-24056
     PkgID: pkgconf-pkg-config@1.7.3-10.el9.x86_64
     PkgName: pkgconf-pkg-config
@@ -3137,7 +3191,7 @@
       PURL: pkg:rpm/redhat/pkgconf-pkg-config@1.7.3-10.el9?arch=x86_64&distro=redhat-9.5
       UID: c6baaa849ec7e6d4
     InstalledVersion: 1.7.3-10.el9
-    Status: will_not_fix
+    Status: affected
     Layer:
       Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff515ed7839fac803141362c
       DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c1ac6ecf1c91ae0875f73
@@ -3146,6 +3200,8 @@
     Title: 'pkgconf: unbounded string expansion due to incorrect checks may result in buffer overflow'
     Description: In pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundred bytes can expand to one billion bytes.
     Severity: LOW
+    CweIDs:
+    - CWE-787
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
@@ -3166,7 +3222,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-24056
     - https://www.cve.org/CVERecord?id=CVE-2023-24056
     PublishedDate: '2023-01-22T04:15:11.617Z'
-    LastModifiedDate: '2024-11-21T07:47:20.703Z'
+    LastModifiedDate: '2025-04-02T16:15:33.967Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python-unversioned-command@3.9.21-1.el9_5.noarch
     PkgName: python-unversioned-command
@@ -4264,7 +4320,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2005-2541
     - https://www.cve.org/CVERecord?id=CVE-2005-2541
     PublishedDate: '2005-08-10T04:00:00Z'
-    LastModifiedDate: '2024-11-20T23:59:47.53Z'
+    LastModifiedDate: '2025-04-03T01:03:51.193Z'
   - VulnerabilityID: CVE-2023-39804
     PkgID: tar@1.34-7.el9.x86_64
     PkgName: tar
