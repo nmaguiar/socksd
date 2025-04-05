@@ -36,6 +36,14 @@ jobs:
         tags: nmaguiar/socksd:build
 
     - uses: docker/build-push-action@v3
+      name: Build and push
+      with:
+        platforms: linux/amd64,linux/arm64
+        file: Dockerfile.edge
+        push: true
+        tags: nmaguiar/socksd:edge
+
+    - uses: docker/build-push-action@v3
       name: Build and push ubi
       with:
         platforms: linux/amd64,linux/arm64
