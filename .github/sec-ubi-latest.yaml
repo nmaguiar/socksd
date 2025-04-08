@@ -770,6 +770,19 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-32636
     PublishedDate: '2023-09-14T20:15:09.653Z'
     LastModifiedDate: '2024-11-21T08:03:44.8Z'
+  - VulnerabilityID: CVE-2025-3360
+    PkgID: glib2@2.68.4-14.el9_4.1.x86_64
+    PkgName: glib2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glib2@2.68.4-14.el9_4.1?arch=x86_64&distro=redhat-9.5
+      UID: 71f4f5724a460de4
+    InstalledVersion: 2.68.4-14.el9_4.1
+    Status: affected
+    Layer:
+      Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff515ed7839fac803141362c
+      DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c1ac6ecf1c91ae0875f73
+    SeveritySource: redhat
+    Severity: LOW
   - VulnerabilityID: CVE-2025-0395
     PkgID: glibc@2.34-125.el9_5.3.x86_64
     PkgName: glibc
