@@ -285,7 +285,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -338,7 +338,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -396,7 +396,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -449,7 +449,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -730,7 +730,25 @@
       Digest: sha256:c5f3025c6fbd3072bb0f60dc6d569706b29ea04466bd5d299026a8336d75df88
       DiffID: sha256:4320e55cd06d4324ec96f7e98a1209f5db3966e6423948819df167b664c204ec
     SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3360
+    Title: 'glibc: GLib prior to 2.82.5 is vulnerable to integer  overflow and buffer under-read when parsing a very long invalid ISO  8601 timestamp with g_date_time_new_from_iso8601().'
+    Description: A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.
     Severity: LOW
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3360
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2357754
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-3360
+    - https://www.cve.org/CVERecord?id=CVE-2025-3360
+    PublishedDate: '2025-04-07T13:15:43.687Z'
+    LastModifiedDate: '2025-04-07T14:17:50.22Z'
   - VulnerabilityID: CVE-2025-0395
     PkgID: glibc@2.34-125.el9_5.3.x86_64
     PkgName: glibc
@@ -1015,7 +1033,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://errata.almalinux.org/8/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1254,7 +1272,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1307,7 +1325,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -1365,7 +1383,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1418,7 +1436,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -1877,7 +1895,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -1954,7 +1972,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -3373,6 +3391,7 @@
       bitnami: 3
       cbl-mariner: 3
       nvd: 3
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3396,6 +3415,8 @@
     - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
     - https://github.com/python/cpython/issues/123067
     - https://github.com/python/cpython/pull/123075
+    - https://linux.oracle.com/cve/CVE-2024-7592.html
+    - https://linux.oracle.com/errata/ELSA-2025-3634.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
     - https://security.netapp.com/advisory/ntap-20241018-0006/
@@ -3667,6 +3688,7 @@
       bitnami: 3
       cbl-mariner: 3
       nvd: 3
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3690,6 +3712,8 @@
     - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
     - https://github.com/python/cpython/issues/123067
     - https://github.com/python/cpython/pull/123075
+    - https://linux.oracle.com/cve/CVE-2024-7592.html
+    - https://linux.oracle.com/errata/ELSA-2025-3634.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
     - https://security.netapp.com/advisory/ntap-20241018-0006/
@@ -3961,6 +3985,7 @@
       bitnami: 3
       cbl-mariner: 3
       nvd: 3
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3984,6 +4009,8 @@
     - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
     - https://github.com/python/cpython/issues/123067
     - https://github.com/python/cpython/pull/123075
+    - https://linux.oracle.com/cve/CVE-2024-7592.html
+    - https://linux.oracle.com/errata/ELSA-2025-3634.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
     - https://security.netapp.com/advisory/ntap-20241018-0006/
