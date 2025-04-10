@@ -285,7 +285,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -338,7 +338,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -396,7 +396,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -449,7 +449,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -621,6 +621,7 @@
     - https://security-tracker.debian.org/tracker/CVE-2024-8176
     - https://security.netapp.com/advisory/ntap-20250328-0009/
     - https://ubuntu.com/security/CVE-2024-8176
+    - https://ubuntu.com/security/notices/USN-7424-1
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     PublishedDate: '2025-03-14T09:15:14.157Z'
     LastModifiedDate: '2025-04-02T15:15:57.987Z'
@@ -1126,7 +1127,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1365,7 +1366,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1418,7 +1419,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -1476,7 +1477,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1529,7 +1530,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -1822,6 +1823,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-12133
     PublishedDate: '2025-02-10T16:15:37.26Z'
     LastModifiedDate: '2025-02-21T13:15:10.43Z'
+  - VulnerabilityID: CVE-2025-32414
+    PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.2?arch=x86_64&distro=redhat-9.5
+      UID: fe6f7b4379e04d70
+    InstalledVersion: 2.9.13-6.el9_5.2
+    Status: affected
+    Layer:
+      Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff515ed7839fac803141362c
+      DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c1ac6ecf1c91ae0875f73
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32414
+    Title: 'libxml2: Out-of-Bounds Read in libxml2'
+    Description: In libxml2 before 2.13.8 and 2.14.x before 2.14.2, out-of-bounds memory access can occur in the Python API (Python bindings) because of an incorrect return value. This occurs in xmlPythonFileRead and xmlPythonFileReadRaw because of a difference between bytes and characters.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-393
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-32414
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/889
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-32414
+    - https://www.cve.org/CVERecord?id=CVE-2025-32414
+    PublishedDate: '2025-04-08T03:15:15.94Z'
+    LastModifiedDate: '2025-04-08T03:15:15.94Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -1988,7 +2020,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0894
+    - https://access.redhat.com/errata/RHSA-2024:1141
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -2065,7 +2097,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/8/ALSA-2024-0894.html
+    - https://errata.almalinux.org/9/ALSA-2024-1141.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -3479,6 +3511,7 @@
     - CWE-400
     - CWE-1333
     VendorSeverity:
+      alma: 1
       amazon: 2
       azure: 3
       bitnami: 3
@@ -3498,7 +3531,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:3634
     - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://errata.almalinux.org/9/ALSA-2025-3634.html
     - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
     - https://github.com/python/cpython/commit/44e458357fca05ca0ae2658d62c8c595b048b5ef
     - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
@@ -3776,6 +3811,7 @@
     - CWE-400
     - CWE-1333
     VendorSeverity:
+      alma: 1
       amazon: 2
       azure: 3
       bitnami: 3
@@ -3795,7 +3831,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:3634
     - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://errata.almalinux.org/9/ALSA-2025-3634.html
     - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
     - https://github.com/python/cpython/commit/44e458357fca05ca0ae2658d62c8c595b048b5ef
     - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
@@ -4073,6 +4111,7 @@
     - CWE-400
     - CWE-1333
     VendorSeverity:
+      alma: 1
       amazon: 2
       azure: 3
       bitnami: 3
@@ -4092,7 +4131,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:3634
     - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://errata.almalinux.org/9/ALSA-2025-3634.html
     - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
     - https://github.com/python/cpython/commit/44e458357fca05ca0ae2658d62c8c595b048b5ef
     - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
