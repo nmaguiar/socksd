@@ -1942,7 +1942,7 @@
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-32414 
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-32414 
 │                       │      ├ PublishedDate   : 2025-04-08T03:15:15.94Z 
-│                       │      ╰ LastModifiedDate: 2025-04-08T03:15:15.94Z 
+│                       │      ╰ LastModifiedDate: 2025-04-09T15:16:03.163Z 
 │                       ├ [35] ╭ VulnerabilityID : CVE-2023-45322 
 │                       │      ├ PkgID           : libxml2@2.9.13-6.el9_5.2.x86_64 
 │                       │      ├ PkgName         : libxml2 
