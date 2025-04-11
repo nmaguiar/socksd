@@ -672,29 +672,30 @@
 │                       │      │                           ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/03/15/1 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:3531 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-8176 
-│                       │      │                  ├ [3] : https://blog.hartwork.org/posts/expat-2-7-0-released/ 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2310137 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
-│                       │      │                  ├ [6] : https://bugzilla.suse.com/show_bug.cgi?id=1239618 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-3531.html 
-│                       │      │                  ├ [8] : https://github.com/libexpat/libexpat/blob/R_2_7_0/exp
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:3734 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-8176 
+│                       │      │                  ├ [4] : https://blog.hartwork.org/posts/expat-2-7-0-released/ 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2310137 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
+│                       │      │                  ├ [7] : https://bugzilla.suse.com/show_bug.cgi?id=1239618 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2025-3531.html 
+│                       │      │                  ├ [9] : https://github.com/libexpat/libexpat/blob/R_2_7_0/exp
 │                       │      │                  │       at/Changes#L40-L52 
-│                       │      │                  ├ [9] : https://github.com/libexpat/libexpat/issues/893 
-│                       │      │                  ├ [10]: https://gitlab.alpinelinux.org/alpine/aports/-/commit
+│                       │      │                  ├ [10]: https://github.com/libexpat/libexpat/issues/893 
+│                       │      │                  ├ [11]: https://gitlab.alpinelinux.org/alpine/aports/-/commit
 │                       │      │                  │       /d068c3ff36fc6f4789988a09c69b434db757db53 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-8176.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-3531.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
-│                       │      │                  ├ [14]: https://security-tracker.debian.org/tracker/CVE-2024-
+│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-8176.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-3531.html 
+│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
+│                       │      │                  ├ [15]: https://security-tracker.debian.org/tracker/CVE-2024-
 │                       │      │                  │       8176 
-│                       │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20250328-00
+│                       │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20250328-00
 │                       │      │                  │       09/ 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/CVE-2024-8176 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7424-1 
-│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/CVE-2024-8176 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7424-1 
+│                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
 │                       │      ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
-│                       │      ╰ LastModifiedDate: 2025-04-02T15:15:57.987Z 
+│                       │      ╰ LastModifiedDate: 2025-04-09T08:15:14.71Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2023-4156 
 │                       │      ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
 │                       │      ├ PkgName         : gawk 
@@ -2049,7 +2050,7 @@
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-32414 
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-32414 
 │                       │      ├ PublishedDate   : 2025-04-08T03:15:15.94Z 
-│                       │      ╰ LastModifiedDate: 2025-04-08T03:15:15.94Z 
+│                       │      ╰ LastModifiedDate: 2025-04-09T15:16:03.163Z 
 │                       ├ [37] ╭ VulnerabilityID : CVE-2023-45322 
 │                       │      ├ PkgID           : libxml2@2.9.13-6.el9_5.2.x86_64 
 │                       │      ├ PkgName         : libxml2 
