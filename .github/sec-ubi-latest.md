@@ -1474,7 +1474,8 @@
 │                       │      │                  ╰ [1]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
 │                       │      │                  ├ photon: 2 
-│                       │      │                  ╰ redhat: 1 
+│                       │      │                  ├ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
