@@ -285,7 +285,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -338,7 +338,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -396,7 +396,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -449,7 +449,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -777,6 +777,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
+    - http://www.openwall.com/lists/oss-security/2025/04/13/1
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
@@ -789,7 +790,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0395
     - https://www.openwall.com/lists/oss-security/2025/01/22/4
     PublishedDate: '2025-01-22T13:15:20.933Z'
-    LastModifiedDate: '2025-02-28T13:15:26.86Z'
+    LastModifiedDate: '2025-04-13T04:15:15.777Z'
   - VulnerabilityID: CVE-2025-0395
     PkgID: glibc-common@2.34-125.el9_5.3.x86_64
     PkgName: glibc-common
@@ -818,6 +819,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
+    - http://www.openwall.com/lists/oss-security/2025/04/13/1
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
@@ -830,7 +832,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0395
     - https://www.openwall.com/lists/oss-security/2025/01/22/4
     PublishedDate: '2025-01-22T13:15:20.933Z'
-    LastModifiedDate: '2025-02-28T13:15:26.86Z'
+    LastModifiedDate: '2025-04-13T04:15:15.777Z'
   - VulnerabilityID: CVE-2025-0395
     PkgID: glibc-minimal-langpack@2.34-125.el9_5.3.x86_64
     PkgName: glibc-minimal-langpack
@@ -859,6 +861,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
+    - http://www.openwall.com/lists/oss-security/2025/04/13/1
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
@@ -871,7 +874,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0395
     - https://www.openwall.com/lists/oss-security/2025/01/22/4
     PublishedDate: '2025-01-22T13:15:20.933Z'
-    LastModifiedDate: '2025-02-28T13:15:26.86Z'
+    LastModifiedDate: '2025-04-13T04:15:15.777Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -1033,7 +1036,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://errata.almalinux.org/8/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1273,7 +1276,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1326,7 +1329,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -1384,7 +1387,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1437,7 +1440,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -1927,7 +1930,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -2004,7 +2007,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -3386,10 +3389,11 @@
     - https://github.com/python/cpython/pull/114573
     - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
+    - https://security.netapp.com/advisory/ntap-20250411-0006/
     - https://ubuntu.com/security/notices/USN-6928-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0397
     PublishedDate: '2024-06-17T16:15:10.217Z'
-    LastModifiedDate: '2024-11-21T08:46:29.733Z'
+    LastModifiedDate: '2025-04-11T22:15:28.65Z'
   - VulnerabilityID: CVE-2024-7592
     PkgID: python-unversioned-command@3.9.21-1.el9_5.noarch
     PkgName: python-unversioned-command
@@ -3686,10 +3690,11 @@
     - https://github.com/python/cpython/pull/114573
     - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
+    - https://security.netapp.com/advisory/ntap-20250411-0006/
     - https://ubuntu.com/security/notices/USN-6928-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0397
     PublishedDate: '2024-06-17T16:15:10.217Z'
-    LastModifiedDate: '2024-11-21T08:46:29.733Z'
+    LastModifiedDate: '2025-04-11T22:15:28.65Z'
   - VulnerabilityID: CVE-2024-7592
     PkgID: python3@3.9.21-1.el9_5.x86_64
     PkgName: python3
@@ -3986,10 +3991,11 @@
     - https://github.com/python/cpython/pull/114573
     - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
+    - https://security.netapp.com/advisory/ntap-20250411-0006/
     - https://ubuntu.com/security/notices/USN-6928-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0397
     PublishedDate: '2024-06-17T16:15:10.217Z'
-    LastModifiedDate: '2024-11-21T08:46:29.733Z'
+    LastModifiedDate: '2025-04-11T22:15:28.65Z'
   - VulnerabilityID: CVE-2024-7592
     PkgID: python3-libs@3.9.21-1.el9_5.x86_64
     PkgName: python3-libs
