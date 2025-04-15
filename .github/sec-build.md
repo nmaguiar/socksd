@@ -71,6 +71,8 @@
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                             ├ Title           : Heap-based Buffer Overflow vulnerability in openEuler giflib
+│                             │                   on Linux. ... 
 │                             ╰ Severity        : UNKNOWN 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
