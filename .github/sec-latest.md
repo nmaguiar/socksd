@@ -71,6 +71,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : Heap-based Buffer Overflow vulnerability in openEuler giflib
+│                       │     │                   on Linux. ... 
 │                       │     ╰ Severity        : UNKNOWN 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2025-26519 
 │                       │     ├ PkgID           : musl@1.2.5-r8 
