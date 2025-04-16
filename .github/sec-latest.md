@@ -73,7 +73,26 @@
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Title           : Heap-based Buffer Overflow vulnerability in openEuler giflib
 │                       │     │                   on Linux. ... 
-│                       │     ╰ Severity        : UNKNOWN 
+│                       │     ├ Description     : Heap-based Buffer Overflow vulnerability in openEuler giflib
+│                       │     │                   on Linux. This vulnerability is associated with program files
+│                       │     │                    gif2rgb.C.
+│                       │     │                   
+│                       │     │                   This issue affects giflib: through 5.2.2. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ CweIDs           ─ [0]: CWE-122 
+│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/07/3 
+│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/07/4 
+│                       │     │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/04/07/5 
+│                       │     │                  ├ [3]: http://www.openwall.com/lists/oss-security/2025/04/07/6 
+│                       │     │                  ├ [4]: http://www.openwall.com/lists/oss-security/2025/04/08/1 
+│                       │     │                  ├ [5]: http://www.openwall.com/lists/oss-security/2025/04/09/5 
+│                       │     │                  ├ [6]: http://www.openwall.com/lists/oss-security/2025/04/09/7 
+│                       │     │                  ├ [7]: http://www.openwall.com/lists/oss-security/2025/04/10/1 
+│                       │     │                  ├ [8]: https://gitee.com/src-openeuler/giflib/pulls/54 
+│                       │     │                  ╰ [9]: https://www.openeuler.org/zh/security/security-bulletin
+│                       │     │                         s/detail/?id=openEuler-SA-2025-1292 
+│                       │     ├ PublishedDate   : 2025-04-14T08:15:13.973Z 
+│                       │     ╰ LastModifiedDate: 2025-04-14T08:15:13.973Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2025-26519 
 │                       │     ├ PkgID           : musl@1.2.5-r8 
 │                       │     ├ PkgName         : musl 
