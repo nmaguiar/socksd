@@ -597,6 +597,7 @@
       alma: 2
       cbl-mariner: 3
       oracle-oval: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -799,10 +800,11 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3360
     - https://bugzilla.redhat.com/show_bug.cgi?id=2357754
+    - https://lists.debian.org/debian-lts-announce/2025/04/msg00024.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3360
     - https://www.cve.org/CVERecord?id=CVE-2025-3360
     PublishedDate: '2025-04-07T13:15:43.687Z'
-    LastModifiedDate: '2025-04-07T14:17:50.22Z'
+    LastModifiedDate: '2025-04-14T12:15:16.087Z'
   - VulnerabilityID: CVE-2025-0395
     PkgID: glibc@2.34-125.el9_5.3.x86_64
     PkgName: glibc
@@ -822,6 +824,7 @@
     CweIDs:
     - CWE-131
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -832,7 +835,10 @@
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
+    - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://bugzilla.redhat.com/2339460
+    - https://errata.almalinux.org/8/ALSA-2025-3828.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -864,6 +870,7 @@
     CweIDs:
     - CWE-131
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -874,7 +881,10 @@
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
+    - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://bugzilla.redhat.com/2339460
+    - https://errata.almalinux.org/8/ALSA-2025-3828.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -906,6 +916,7 @@
     CweIDs:
     - CWE-131
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -916,7 +927,10 @@
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
+    - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://bugzilla.redhat.com/2339460
+    - https://errata.almalinux.org/8/ALSA-2025-3828.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -948,6 +962,7 @@
     CweIDs:
     - CWE-131
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -958,7 +973,10 @@
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
+    - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://bugzilla.redhat.com/2339460
+    - https://errata.almalinux.org/8/ALSA-2025-3828.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -1149,6 +1167,42 @@
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
     PublishedDate: '2024-04-16T22:15:29.857Z'
     LastModifiedDate: '2024-11-21T08:53:46.35Z'
+  - VulnerabilityID: CVE-2025-31344
+    PkgID: java-21-openjdk-headless@21.0.6.0.7-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.6.0.7-1.el9?arch=x86_64&distro=redhat-9.5&epoch=1
+      UID: cb7b385fbb878cb0
+    InstalledVersion: 1:21.0.6.0.7-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff515ed7839fac803141362c
+      DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c1ac6ecf1c91ae0875f73
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-31344
+    Title: Heap-based Buffer Overflow vulnerability in openEuler giflib on Linux. ...
+    Description: |-
+      Heap-based Buffer Overflow vulnerability in openEuler giflib on Linux. This vulnerability is associated with program files gif2rgb.C.
+
+      This issue affects giflib: through 5.2.2.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/07/3
+    - http://www.openwall.com/lists/oss-security/2025/04/07/4
+    - http://www.openwall.com/lists/oss-security/2025/04/07/5
+    - http://www.openwall.com/lists/oss-security/2025/04/07/6
+    - http://www.openwall.com/lists/oss-security/2025/04/08/1
+    - http://www.openwall.com/lists/oss-security/2025/04/09/5
+    - http://www.openwall.com/lists/oss-security/2025/04/09/7
+    - http://www.openwall.com/lists/oss-security/2025/04/10/1
+    - https://gitee.com/src-openeuler/giflib/pulls/54
+    - https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2025-1292
+    PublishedDate: '2025-04-14T08:15:13.973Z'
+    LastModifiedDate: '2025-04-14T08:15:13.973Z'
   - VulnerabilityID: CVE-2022-37967
     PkgID: krb5-libs@1.21.1-4.el9_5.x86_64
     PkgName: krb5-libs
@@ -1222,6 +1276,23 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
     - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24528
+  - VulnerabilityID: CVE-2025-3576
+    PkgID: krb5-libs@1.21.1-4.el9_5.x86_64
+    PkgName: krb5-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/krb5-libs@1.21.1-4.el9_5?arch=x86_64&distro=redhat-9.5
+      UID: 42d98a6341e87938
+    InstalledVersion: 1.21.1-4.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff515ed7839fac803141362c
+      DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c1ac6ecf1c91ae0875f73
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3576
+    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -3580,6 +3651,7 @@
     - CWE-116
     VendorSeverity:
       amazon: 1
+      bitnami: 1
       redhat: 1
     CVSS:
       redhat:
@@ -3881,6 +3953,7 @@
     - CWE-116
     VendorSeverity:
       amazon: 1
+      bitnami: 1
       redhat: 1
     CVSS:
       redhat:
@@ -4182,6 +4255,7 @@
     - CWE-116
     VendorSeverity:
       amazon: 1
+      bitnami: 1
       redhat: 1
     CVSS:
       redhat:
