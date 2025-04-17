@@ -608,6 +608,7 @@
     - http://www.openwall.com/lists/oss-security/2025/03/15/1
     - https://access.redhat.com/errata/RHSA-2025:3531
     - https://access.redhat.com/errata/RHSA-2025:3734
+    - https://access.redhat.com/errata/RHSA-2025:3913
     - https://access.redhat.com/security/cve/CVE-2024-8176
     - https://blog.hartwork.org/posts/expat-2-7-0-released/
     - https://bugzilla.redhat.com/2310137
@@ -618,7 +619,7 @@
     - https://github.com/libexpat/libexpat/issues/893
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
     - https://linux.oracle.com/cve/CVE-2024-8176.html
-    - https://linux.oracle.com/errata/ELSA-2025-3531.html
+    - https://linux.oracle.com/errata/ELSA-2025-3913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8176
     - https://security-tracker.debian.org/tracker/CVE-2024-8176
     - https://security.netapp.com/advisory/ntap-20250328-0009/
@@ -626,7 +627,7 @@
     - https://ubuntu.com/security/notices/USN-7424-1
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     PublishedDate: '2025-03-14T09:15:14.157Z'
-    LastModifiedDate: '2025-04-09T08:15:14.71Z'
+    LastModifiedDate: '2025-04-15T17:15:37.603Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -825,6 +826,7 @@
     - CWE-131
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -839,6 +841,8 @@
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://bugzilla.redhat.com/2339460
     - https://errata.almalinux.org/8/ALSA-2025-3828.html
+    - https://linux.oracle.com/cve/CVE-2025-0395.html
+    - https://linux.oracle.com/errata/ELSA-2025-3828.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -871,6 +875,7 @@
     - CWE-131
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -885,6 +890,8 @@
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://bugzilla.redhat.com/2339460
     - https://errata.almalinux.org/8/ALSA-2025-3828.html
+    - https://linux.oracle.com/cve/CVE-2025-0395.html
+    - https://linux.oracle.com/errata/ELSA-2025-3828.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -917,6 +924,7 @@
     - CWE-131
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -931,6 +939,8 @@
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://bugzilla.redhat.com/2339460
     - https://errata.almalinux.org/8/ALSA-2025-3828.html
+    - https://linux.oracle.com/cve/CVE-2025-0395.html
+    - https://linux.oracle.com/errata/ELSA-2025-3828.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -963,6 +973,7 @@
     - CWE-131
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -977,6 +988,8 @@
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://bugzilla.redhat.com/2339460
     - https://errata.almalinux.org/8/ALSA-2025-3828.html
+    - https://linux.oracle.com/cve/CVE-2025-0395.html
+    - https://linux.oracle.com/errata/ELSA-2025-3828.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -1202,7 +1215,7 @@
     - https://gitee.com/src-openeuler/giflib/pulls/54
     - https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2025-1292
     PublishedDate: '2025-04-14T08:15:13.973Z'
-    LastModifiedDate: '2025-04-14T08:15:13.973Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
   - VulnerabilityID: CVE-2022-37967
     PkgID: krb5-libs@1.21.1-4.el9_5.x86_64
     PkgName: krb5-libs
@@ -1290,9 +1303,17 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3576
     Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-328
     VendorSeverity:
       redhat: 2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    PublishedDate: '2025-04-15T06:15:44.047Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
