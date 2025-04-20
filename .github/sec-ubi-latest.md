@@ -1425,9 +1425,10 @@
 │                       │      │                  ╰ redhat     : 2 
 │                       │      ├ References       ╭ [0]: https://linux.oracle.com/cve/CVE-2025-30691.html 
 │                       │      │                  ├ [1]: https://linux.oracle.com/errata/ELSA-2025-3855.html 
-│                       │      │                  ╰ [2]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │      │                  ├ [2]: https://security.netapp.com/advisory/ntap-20250418-0004/ 
+│                       │      │                  ╰ [3]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:58.36Z 
-│                       │      ╰ LastModifiedDate: 2025-04-16T16:15:32.937Z 
+│                       │      ╰ LastModifiedDate: 2025-04-19T01:15:44.85Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2025-30698 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2025:3855 
 │                       │      ├ PkgID           : java-21-openjdk-headless@21.0.6.0.7-1.el9.x86_64 
