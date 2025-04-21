@@ -168,7 +168,7 @@
 │                       │      │                  ├ [13]: https://www.kb.cert.org/vuls/id/550620 
 │                       │      │                  ╰ [14]: https://www.secfu.net/advisories 
 │                       │      ├ PublishedDate   : 2017-05-01T01:59:00.297Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T03:29:56.8Z 
+│                       │      ╰ LastModifiedDate: 2025-04-20T01:37:25.86Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2023-4504 
 │                       │      ├ PkgID           : cups-libs@2.3.3op2-31.el9_5.x86_64 
 │                       │      ├ PkgName         : cups-libs 
@@ -331,7 +331,7 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-11053 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -384,7 +384,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-11053.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
 │                       │      │                  ├ [55]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [56]: https://linux.oracle.com/cve/CVE-2024-11053.html 
 │                       │      │                  ├ [57]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
@@ -447,7 +447,7 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/31/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-7264 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -500,7 +500,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-7264.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
 │                       │      │                  ├ [55]: https://github.com/curl/curl/commit/27959ecce75cdb280
 │                       │      │                  │       9c0bdb3286e60e08fadb519 
 │                       │      │                  ├ [56]: https://hackerone.com/reports/2629968 
@@ -1190,7 +1190,7 @@
 │                       │      │                  │       24-21085 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21094 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-1825.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:1822 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21094.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-1825.html 
@@ -1224,8 +1224,8 @@
 │                       │      │                            0a64d94a19aed1d4cee6 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-31344 
-│                       │      ├ Title           : Heap-based Buffer Overflow vulnerability in openEuler giflib
-│                       │      │                    on Linux. ... 
+│                       │      ├ Title           : giflib: The giflib open-source component has a buffer
+│                       │      │                   overflow vulnerability 
 │                       │      ├ Description     : Heap-based Buffer Overflow vulnerability in openEuler giflib
 │                       │      │                    on Linux. This vulnerability is associated with program
 │                       │      │                   files gif2rgb.C.
@@ -1234,17 +1234,23 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/07/3 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/07/4 
-│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/04/07/5 
-│                       │      │                  ├ [3]: http://www.openwall.com/lists/oss-security/2025/04/07/6 
-│                       │      │                  ├ [4]: http://www.openwall.com/lists/oss-security/2025/04/08/1 
-│                       │      │                  ├ [5]: http://www.openwall.com/lists/oss-security/2025/04/09/5 
-│                       │      │                  ├ [6]: http://www.openwall.com/lists/oss-security/2025/04/09/7 
-│                       │      │                  ├ [7]: http://www.openwall.com/lists/oss-security/2025/04/10/1 
-│                       │      │                  ├ [8]: https://gitee.com/src-openeuler/giflib/pulls/54 
-│                       │      │                  ╰ [9]: https://www.openeuler.org/zh/security/security-bulleti
-│                       │      │                         ns/detail/?id=openEuler-SA-2025-1292 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/07/3 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/04/07/4 
+│                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/07/5 
+│                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2025/04/07/6 
+│                       │      │                  ├ [4] : http://www.openwall.com/lists/oss-security/2025/04/08/1 
+│                       │      │                  ├ [5] : http://www.openwall.com/lists/oss-security/2025/04/09/5 
+│                       │      │                  ├ [6] : http://www.openwall.com/lists/oss-security/2025/04/09/7 
+│                       │      │                  ├ [7] : http://www.openwall.com/lists/oss-security/2025/04/10/1 
+│                       │      │                  ├ [8] : https://access.redhat.com/security/cve/CVE-2025-31344 
+│                       │      │                  ├ [9] : https://gitee.com/src-openeuler/giflib/pulls/54 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-31344 
+│                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-31344 
+│                       │      │                  ╰ [12]: https://www.openeuler.org/zh/security/security-bullet
+│                       │      │                          ins/detail/?id=openEuler-SA-2025-1292 
 │                       │      ├ PublishedDate   : 2025-04-14T08:15:13.973Z 
 │                       │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2025-24528 
@@ -1300,8 +1306,8 @@
 │                       │      │                            0a64d94a19aed1d4cee6 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-3576 
-│                       │      ├ Title           : A vulnerability in the MIT Kerberos implementation allows
-│                       │      │                   GSSAPI-prote ... 
+│                       │      ├ Title           : krb5: Kerberos RC4-HMAC-MD5 Checksum Vulnerability Enabling
+│                       │      │                   Message Spoofing via MD5 Collisions 
 │                       │      ├ Description     : A vulnerability in the MIT Kerberos implementation allows
 │                       │      │                   GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed
 │                       │      │                   due to weaknesses in the MD5 checksum design. If RC4 is
@@ -1312,9 +1318,13 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-328 
 │                       │      ├ VendorSeverity   ╭ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3576 
 │                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
-│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
 │                       │      ├ PublishedDate   : 2025-04-15T06:15:44.047Z 
 │                       │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2023-30571 
@@ -1481,7 +1491,7 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-11053 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -1534,7 +1544,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-11053.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
 │                       │      │                  ├ [55]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [56]: https://linux.oracle.com/cve/CVE-2024-11053.html 
 │                       │      │                  ├ [57]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
@@ -1597,7 +1607,7 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/31/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-7264 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -1650,7 +1660,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-7264.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
 │                       │      │                  ├ [55]: https://github.com/curl/curl/commit/27959ecce75cdb280
 │                       │      │                  │       9c0bdb3286e60e08fadb519 
 │                       │      │                  ├ [56]: https://hackerone.com/reports/2629968 
@@ -2128,9 +2138,9 @@
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 2.9 
+│                       │      │                           ╰ V3Score : 3.1 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-27113 
 │                       │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/861 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-27113 
@@ -2154,8 +2164,7 @@
 │                       │      │                            0a64d94a19aed1d4cee6 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32415 
-│                       │      ├ Title           : In libxml2 before 2.13.8 and 2.14.x before 2.14.2,
-│                       │      │                   xmlSchemaIDCFillNod ... 
+│                       │      ├ Title           : libxml2: Out-of-bounds Read in xmlSchemaIDCFillNodeTables 
 │                       │      ├ Description     : In libxml2 before 2.13.8 and 2.14.x before 2.14.2,
 │                       │      │                   xmlSchemaIDCFillNodeTables in xmlschemas.c has a heap-based
 │                       │      │                   buffer under-read. To exploit this, a crafted XML document
@@ -2164,7 +2173,13 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1284 
 │                       │      ├ VendorSeverity   ─ redhat: 1 
-│                       │      ├ References       ─ [0]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 2.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32415 
+│                       │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
 │                       │      ├ PublishedDate   : 2025-04-17T17:15:33.733Z 
 │                       │      ╰ LastModifiedDate: 2025-04-17T20:21:05.203Z 
 │                       ├ [40] ╭ VulnerabilityID : CVE-2022-4899 
@@ -2205,7 +2220,7 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1141 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0894 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-4899 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2179864 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2188109 
@@ -2282,7 +2297,7 @@
 │                       │      │                  ├ [74]: https://bugzilla.redhat.com/2258792 
 │                       │      │                  ├ [75]: https://bugzilla.redhat.com/2258793 
 │                       │      │                  ├ [76]: https://bugzilla.redhat.com/2258794 
-│                       │      │                  ├ [77]: https://errata.almalinux.org/9/ALSA-2024-1141.html 
+│                       │      │                  ├ [77]: https://errata.almalinux.org/8/ALSA-2024-0894.html 
 │                       │      │                  ├ [78]: https://github.com/facebook/zstd 
 │                       │      │                  ├ [79]: https://github.com/facebook/zstd/issues/3200 
 │                       │      │                  ├ [80]: https://github.com/facebook/zstd/pull/3220 
