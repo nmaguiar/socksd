@@ -77,12 +77,12 @@
         V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.7
     References:
-    - https://access.redhat.com/errata/RHSA-2025:1611
+    - https://access.redhat.com/errata/RHSA-2025:1613
     - https://access.redhat.com/security/cve/CVE-2025-23083
     - https://bugzilla.redhat.com/2339176
     - https://bugzilla.redhat.com/2339392
     - https://bugzilla.redhat.com/2342618
-    - https://errata.almalinux.org/8/ALSA-2025-1611.html
+    - https://errata.almalinux.org/9/ALSA-2025-1613.html
     - https://linux.oracle.com/cve/CVE-2025-23083.html
     - https://linux.oracle.com/errata/ELSA-2025-1613.html
     - https://nodejs.org/en/blog/vulnerability/january-2025-security-releases
@@ -243,12 +243,12 @@
         V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.7
     References:
-    - https://access.redhat.com/errata/RHSA-2025:1611
+    - https://access.redhat.com/errata/RHSA-2025:1613
     - https://access.redhat.com/security/cve/CVE-2025-23083
     - https://bugzilla.redhat.com/2339176
     - https://bugzilla.redhat.com/2339392
     - https://bugzilla.redhat.com/2342618
-    - https://errata.almalinux.org/8/ALSA-2025-1611.html
+    - https://errata.almalinux.org/9/ALSA-2025-1613.html
     - https://linux.oracle.com/cve/CVE-2025-23083.html
     - https://linux.oracle.com/errata/ELSA-2025-1613.html
     - https://nodejs.org/en/blog/vulnerability/january-2025-security-releases
