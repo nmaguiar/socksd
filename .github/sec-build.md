@@ -101,12 +101,12 @@
 │                       │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                       │     │                            │           /A:N 
 │                       │     │                            ╰ V3Score : 7.7 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1611 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1613 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-23083 
 │                       │     │                  ├ [2] : https://bugzilla.redhat.com/2339176 
 │                       │     │                  ├ [3] : https://bugzilla.redhat.com/2339392 
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2342618 
-│                       │     │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-1611.html 
+│                       │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1613.html 
 │                       │     │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-23083.html 
 │                       │     │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-1613.html 
 │                       │     │                  ├ [8] : https://nodejs.org/en/blog/vulnerability/january-2025-
@@ -329,12 +329,12 @@
 │                       │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                       │     │                            │           /A:N 
 │                       │     │                            ╰ V3Score : 7.7 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1611 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1613 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-23083 
 │                       │     │                  ├ [2] : https://bugzilla.redhat.com/2339176 
 │                       │     │                  ├ [3] : https://bugzilla.redhat.com/2339392 
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2342618 
-│                       │     │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-1611.html 
+│                       │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1613.html 
 │                       │     │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-23083.html 
 │                       │     │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-1613.html 
 │                       │     │                  ├ [8] : https://nodejs.org/en/blog/vulnerability/january-2025-
