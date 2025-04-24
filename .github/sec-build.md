@@ -47,17 +47,31 @@
 │                       │     │                   Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
-│                       │     ├ VendorSeverity   ╭ oracle-oval: 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ oracle-oval: 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 7.4 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-21587 
-│                       │     │                  ├ [1]: https://linux.oracle.com/cve/CVE-2025-21587.html 
-│                       │     │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2025-3855.html 
-│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
-│                       │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
-│                       │     │                  ╰ [5]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-21587 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                       │     │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2adb01e8c5fbc
+│                       │     │                  │       c3dfa9f82df3deccb3a1705bf13 (jdk-11.0.27-ga) 
+│                       │     │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/73aa304234f2e
+│                       │     │                  │       c17abbb640b7f2d0503cf1bfc91 (jdk-17.0.15-ga) 
+│                       │     │                  ├ [5] : https://github.com/openjdk/jdk21u/commit/d5c94adf69ba2
+│                       │     │                  │       0f5652453729620c4f1c8e4860e (jdk-21.0.7-ga) 
+│                       │     │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/3cdd3081565d89
+│                       │     │                  │       0801a27a1f9ac8bc53e5711ce6 (jdk8u452-b08) 
+│                       │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-21587.html 
+│                       │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
+│                       │     │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/20
+│                       │     │                  │       25-04-15 
+│                       │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
+│                       │     │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │     ├ PublishedDate   : 2025-04-15T21:15:54.293Z 
 │                       │     ╰ LastModifiedDate: 2025-04-16T16:15:29.73Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2025-23083 
@@ -101,12 +115,12 @@
 │                       │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                       │     │                            │           /A:N 
 │                       │     │                            ╰ V3Score : 7.7 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1613 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1611 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-23083 
 │                       │     │                  ├ [2] : https://bugzilla.redhat.com/2339176 
 │                       │     │                  ├ [3] : https://bugzilla.redhat.com/2339392 
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2342618 
-│                       │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1613.html 
+│                       │     │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-1611.html 
 │                       │     │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-23083.html 
 │                       │     │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-1613.html 
 │                       │     │                  ├ [8] : https://nodejs.org/en/blog/vulnerability/january-2025-
@@ -155,18 +169,32 @@
 │                       │     │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
-│                       │     ├ VendorSeverity   ╭ oracle-oval: 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ oracle-oval: 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 4.8 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30691 
-│                       │     │                  ├ [1]: https://linux.oracle.com/cve/CVE-2025-30691.html 
-│                       │     │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2025-3855.html 
-│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-30691 
-│                       │     │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250418-0004/ 
-│                       │     │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
-│                       │     │                  ╰ [6]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30691 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                       │     │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2b70822671cf5
+│                       │     │                  │       f9b37956949421e7c77da082c8e (jdk-11.0.27-ga) 
+│                       │     │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/5b0a5f436fb98
+│                       │     │                  │       17d679f64302b37543bf160d43d (jdk-17.0.15-ga) 
+│                       │     │                  ├ [5] : https://github.com/openjdk/jdk21u/commit/11067d7e975ce
+│                       │     │                  │       71bedbfdd314519ec9ff689a7e7 (jdk-21.0.7-ga) 
+│                       │     │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/949c6ffc54efaa
+│                       │     │                  │       92d6559a3e7897432b95e99253 (jdk8u452-b08) 
+│                       │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-30691.html 
+│                       │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30691 
+│                       │     │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/20
+│                       │     │                  │       25-04-15 
+│                       │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250418-0004/ 
+│                       │     │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
+│                       │     │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │     ├ PublishedDate   : 2025-04-15T21:15:58.36Z 
 │                       │     ╰ LastModifiedDate: 2025-04-19T01:15:44.85Z 
 │                       ├ [3] ╭ VulnerabilityID : CVE-2025-30698 
@@ -217,17 +245,31 @@
 │                       │     │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L). 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
-│                       │     ├ VendorSeverity   ╭ oracle-oval: 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ oracle-oval: 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                       │     │                           │           A:L 
 │                       │     │                           ╰ V3Score : 5.6 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30698 
-│                       │     │                  ├ [1]: https://linux.oracle.com/cve/CVE-2025-30698.html 
-│                       │     │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2025-3855.html 
-│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
-│                       │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
-│                       │     │                  ╰ [5]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30698 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                       │     │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/ea1389c971827
+│                       │     │                  │       876134a6d1d3ab2934681e9f3d6 (jdk-11.0.27-ga) 
+│                       │     │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/0a89eb2588334
+│                       │     │                  │       226531e8e25ac340eabbc00bd6d (jdk-17.0.15-ga) 
+│                       │     │                  ├ [5] : https://github.com/openjdk/jdk21u/commit/3048e287d8ea7
+│                       │     │                  │       d5e0d19d9188eb4212801ebf2a2 (jdk-21.0.7-ga) 
+│                       │     │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/68d10daabaf9c9
+│                       │     │                  │       39a5d2e665994c6d348f38cfd5 (jdk8u452-b08) 
+│                       │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-30698.html 
+│                       │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
+│                       │     │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/20
+│                       │     │                  │       25-04-15 
+│                       │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
+│                       │     │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │     ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
 │                       │     ╰ LastModifiedDate: 2025-04-16T16:15:33.397Z 
 │                       ├ [4] ╭ VulnerabilityID : CVE-2025-21587 
@@ -275,17 +317,31 @@
 │                       │     │                   Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
-│                       │     ├ VendorSeverity   ╭ oracle-oval: 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ oracle-oval: 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 7.4 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-21587 
-│                       │     │                  ├ [1]: https://linux.oracle.com/cve/CVE-2025-21587.html 
-│                       │     │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2025-3855.html 
-│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
-│                       │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
-│                       │     │                  ╰ [5]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-21587 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                       │     │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2adb01e8c5fbc
+│                       │     │                  │       c3dfa9f82df3deccb3a1705bf13 (jdk-11.0.27-ga) 
+│                       │     │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/73aa304234f2e
+│                       │     │                  │       c17abbb640b7f2d0503cf1bfc91 (jdk-17.0.15-ga) 
+│                       │     │                  ├ [5] : https://github.com/openjdk/jdk21u/commit/d5c94adf69ba2
+│                       │     │                  │       0f5652453729620c4f1c8e4860e (jdk-21.0.7-ga) 
+│                       │     │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/3cdd3081565d89
+│                       │     │                  │       0801a27a1f9ac8bc53e5711ce6 (jdk8u452-b08) 
+│                       │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-21587.html 
+│                       │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
+│                       │     │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/20
+│                       │     │                  │       25-04-15 
+│                       │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
+│                       │     │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │     ├ PublishedDate   : 2025-04-15T21:15:54.293Z 
 │                       │     ╰ LastModifiedDate: 2025-04-16T16:15:29.73Z 
 │                       ├ [5] ╭ VulnerabilityID : CVE-2025-23083 
@@ -329,12 +385,12 @@
 │                       │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                       │     │                            │           /A:N 
 │                       │     │                            ╰ V3Score : 7.7 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1613 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1611 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-23083 
 │                       │     │                  ├ [2] : https://bugzilla.redhat.com/2339176 
 │                       │     │                  ├ [3] : https://bugzilla.redhat.com/2339392 
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2342618 
-│                       │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1613.html 
+│                       │     │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-1611.html 
 │                       │     │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-23083.html 
 │                       │     │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-1613.html 
 │                       │     │                  ├ [8] : https://nodejs.org/en/blog/vulnerability/january-2025-
@@ -383,18 +439,32 @@
 │                       │     │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
-│                       │     ├ VendorSeverity   ╭ oracle-oval: 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ oracle-oval: 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 4.8 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30691 
-│                       │     │                  ├ [1]: https://linux.oracle.com/cve/CVE-2025-30691.html 
-│                       │     │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2025-3855.html 
-│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-30691 
-│                       │     │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250418-0004/ 
-│                       │     │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
-│                       │     │                  ╰ [6]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30691 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                       │     │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2b70822671cf5
+│                       │     │                  │       f9b37956949421e7c77da082c8e (jdk-11.0.27-ga) 
+│                       │     │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/5b0a5f436fb98
+│                       │     │                  │       17d679f64302b37543bf160d43d (jdk-17.0.15-ga) 
+│                       │     │                  ├ [5] : https://github.com/openjdk/jdk21u/commit/11067d7e975ce
+│                       │     │                  │       71bedbfdd314519ec9ff689a7e7 (jdk-21.0.7-ga) 
+│                       │     │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/949c6ffc54efaa
+│                       │     │                  │       92d6559a3e7897432b95e99253 (jdk8u452-b08) 
+│                       │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-30691.html 
+│                       │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30691 
+│                       │     │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/20
+│                       │     │                  │       25-04-15 
+│                       │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250418-0004/ 
+│                       │     │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
+│                       │     │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │     ├ PublishedDate   : 2025-04-15T21:15:58.36Z 
 │                       │     ╰ LastModifiedDate: 2025-04-19T01:15:44.85Z 
 │                       ╰ [7] ╭ VulnerabilityID : CVE-2025-30698 
@@ -445,17 +515,31 @@
 │                             │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L). 
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-284 
-│                             ├ VendorSeverity   ╭ oracle-oval: 2 
-│                             │                  ╰ redhat     : 2 
+│                             ├ VendorSeverity   ╭ alma       : 2 
+│                             │                  ├ oracle-oval: 2 
+│                             │                  ├ redhat     : 2 
+│                             │                  ╰ ubuntu     : 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                             │                           │           A:L 
 │                             │                           ╰ V3Score : 5.6 
-│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30698 
-│                             │                  ├ [1]: https://linux.oracle.com/cve/CVE-2025-30698.html 
-│                             │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2025-3855.html 
-│                             │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
-│                             │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
-│                             │                  ╰ [5]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                             ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
+│                             │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30698 
+│                             │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                             │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/ea1389c971827
+│                             │                  │       876134a6d1d3ab2934681e9f3d6 (jdk-11.0.27-ga) 
+│                             │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/0a89eb2588334
+│                             │                  │       226531e8e25ac340eabbc00bd6d (jdk-17.0.15-ga) 
+│                             │                  ├ [5] : https://github.com/openjdk/jdk21u/commit/3048e287d8ea7
+│                             │                  │       d5e0d19d9188eb4212801ebf2a2 (jdk-21.0.7-ga) 
+│                             │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/68d10daabaf9c9
+│                             │                  │       39a5d2e665994c6d348f38cfd5 (jdk8u452-b08) 
+│                             │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-30698.html 
+│                             │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                             │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
+│                             │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/20
+│                             │                  │       25-04-15 
+│                             │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
+│                             │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                             ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
 │                             ╰ LastModifiedDate: 2025-04-16T16:15:33.397Z 
 ╰ [1] ╭ Target: Java 
