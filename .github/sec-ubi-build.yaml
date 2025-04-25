@@ -206,7 +206,7 @@
     - https://ubuntu.com/security/notices/USN-6392-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4504
     PublishedDate: '2023-09-21T23:15:12.293Z'
-    LastModifiedDate: '2025-02-13T18:15:45.83Z'
+    LastModifiedDate: '2025-04-23T17:16:44.91Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-31.el9_5.x86_64
     PkgName: cups-libs
@@ -285,7 +285,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -338,7 +338,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -396,7 +396,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -449,7 +449,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -1003,6 +1003,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:4051
     - https://access.redhat.com/security/cve/CVE-2024-12243
     - https://bugzilla.redhat.com/show_bug.cgi?id=2344615
     - https://gitlab.com/gnutls/libtasn1/-/issues/52
@@ -1013,7 +1014,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-12243
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-02-07
     PublishedDate: '2025-02-10T16:15:37.423Z'
-    LastModifiedDate: '2025-02-21T22:15:11.89Z'
+    LastModifiedDate: '2025-04-23T11:15:45.773Z'
   - VulnerabilityID: CVE-2024-21094
     PkgID: java-21-openjdk-headless@21.0.7.0.6-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -1061,7 +1062,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1248,6 +1249,7 @@
       cbl-mariner: 2
       photon: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
@@ -1258,6 +1260,7 @@
     - https://github.com/Ekkosun/pocs/blob/main/bsdtarbug
     - https://github.com/libarchive/libarchive/blob/b439d586f53911c84be5e380445a8a259e19114c/tar/util.c#L751-L752
     - https://nvd.nist.gov/vuln/detail/CVE-2025-25724
+    - https://ubuntu.com/security/notices/USN-7454-1
     - https://www.cve.org/CVERecord?id=CVE-2025-25724
     PublishedDate: '2025-03-02T02:15:36.603Z'
     LastModifiedDate: '2025-03-02T02:15:36.603Z'
@@ -1296,6 +1299,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-1632
     - https://github.com/Ekkosun/pocs/blob/main/bsdunzip-poc
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1632
+    - https://ubuntu.com/security/notices/USN-7454-1
     - https://vuldb.com/?ctiid.296619
     - https://vuldb.com/?id.296619
     - https://vuldb.com/?submit.496460
@@ -1339,7 +1343,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1392,7 +1396,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -1450,7 +1454,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1503,7 +1507,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -1786,6 +1790,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/02/06/6
+    - https://access.redhat.com/errata/RHSA-2025:4049
     - https://access.redhat.com/security/cve/CVE-2024-12133
     - https://bugzilla.redhat.com/show_bug.cgi?id=2344611
     - https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/security/CVE-2024-12133.md?ref_type=heads
@@ -1798,7 +1803,7 @@
     - https://ubuntu.com/security/notices/USN-7275-2
     - https://www.cve.org/CVERecord?id=CVE-2024-12133
     PublishedDate: '2025-02-10T16:15:37.26Z'
-    LastModifiedDate: '2025-02-21T13:15:10.43Z'
+    LastModifiedDate: '2025-04-23T12:15:15.01Z'
   - VulnerabilityID: CVE-2025-32414
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -1817,9 +1822,14 @@
     Severity: MEDIUM
     CweIDs:
     - CWE-393
+    - CWE-252
     VendorSeverity:
+      nvd: 3
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
         V3Score: 5.6
@@ -1829,7 +1839,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32414
     - https://www.cve.org/CVERecord?id=CVE-2025-32414
     PublishedDate: '2025-04-08T03:15:15.94Z'
-    LastModifiedDate: '2025-04-09T15:16:03.163Z'
+    LastModifiedDate: '2025-04-23T19:09:35.517Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -1975,9 +1985,14 @@
     Severity: LOW
     CweIDs:
     - CWE-1284
+    - CWE-125
     VendorSeverity:
+      nvd: 3
       redhat: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 2.9
@@ -1987,7 +2002,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32415
     - https://www.cve.org/CVERecord?id=CVE-2025-32415
     PublishedDate: '2025-04-17T17:15:33.733Z'
-    LastModifiedDate: '2025-04-17T20:21:05.203Z'
+    LastModifiedDate: '2025-04-23T18:17:52.053Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd@1.5.1-2.el9.x86_64
     PkgName: libzstd
@@ -2027,7 +2042,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0894
+    - https://access.redhat.com/errata/RHSA-2024:1141
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -2104,7 +2119,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/8/ALSA-2024-0894.html
+    - https://errata.almalinux.org/9/ALSA-2024-1141.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
