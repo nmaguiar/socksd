@@ -36,7 +36,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:3845
     - https://access.redhat.com/security/cve/CVE-2025-21587
-    - https://errata.almalinux.org/8/ALSA-2025-3845.html
+    - https://errata.almalinux.org/9/ALSA-2025-3845.html
     - https://github.com/openjdk/jdk11u/commit/2adb01e8c5fbcc3dfa9f82df3deccb3a1705bf13 (jdk-11.0.27-ga)
     - https://github.com/openjdk/jdk17u/commit/73aa304234f2ec17abbb640b7f2d0503cf1bfc91 (jdk-17.0.15-ga)
     - https://github.com/openjdk/jdk21u/commit/d5c94adf69ba20f5652453729620c4f1c8e4860e (jdk-21.0.7-ga)
@@ -86,12 +86,12 @@
         V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.7
     References:
-    - https://access.redhat.com/errata/RHSA-2025:1611
+    - https://access.redhat.com/errata/RHSA-2025:1613
     - https://access.redhat.com/security/cve/CVE-2025-23083
     - https://bugzilla.redhat.com/2339176
     - https://bugzilla.redhat.com/2339392
     - https://bugzilla.redhat.com/2342618
-    - https://errata.almalinux.org/8/ALSA-2025-1611.html
+    - https://errata.almalinux.org/9/ALSA-2025-1613.html
     - https://linux.oracle.com/cve/CVE-2025-23083.html
     - https://linux.oracle.com/errata/ELSA-2025-1613.html
     - https://nodejs.org/en/blog/vulnerability/january-2025-security-releases
@@ -134,7 +134,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:3845
     - https://access.redhat.com/security/cve/CVE-2025-30691
-    - https://errata.almalinux.org/8/ALSA-2025-3845.html
+    - https://errata.almalinux.org/9/ALSA-2025-3845.html
     - https://github.com/openjdk/jdk11u/commit/2b70822671cf5f9b37956949421e7c77da082c8e (jdk-11.0.27-ga)
     - https://github.com/openjdk/jdk17u/commit/5b0a5f436fb9817d679f64302b37543bf160d43d (jdk-17.0.15-ga)
     - https://github.com/openjdk/jdk21u/commit/11067d7e975ce71bedbfdd314519ec9ff689a7e7 (jdk-21.0.7-ga)
@@ -182,7 +182,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:3845
     - https://access.redhat.com/security/cve/CVE-2025-30698
-    - https://errata.almalinux.org/8/ALSA-2025-3845.html
+    - https://errata.almalinux.org/9/ALSA-2025-3845.html
     - https://github.com/openjdk/jdk11u/commit/ea1389c971827876134a6d1d3ab2934681e9f3d6 (jdk-11.0.27-ga)
     - https://github.com/openjdk/jdk17u/commit/0a89eb2588334226531e8e25ac340eabbc00bd6d (jdk-17.0.15-ga)
     - https://github.com/openjdk/jdk21u/commit/3048e287d8ea7d5e0d19d9188eb4212801ebf2a2 (jdk-21.0.7-ga)
@@ -229,7 +229,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:3845
     - https://access.redhat.com/security/cve/CVE-2025-21587
-    - https://errata.almalinux.org/8/ALSA-2025-3845.html
+    - https://errata.almalinux.org/9/ALSA-2025-3845.html
     - https://github.com/openjdk/jdk11u/commit/2adb01e8c5fbcc3dfa9f82df3deccb3a1705bf13 (jdk-11.0.27-ga)
     - https://github.com/openjdk/jdk17u/commit/73aa304234f2ec17abbb640b7f2d0503cf1bfc91 (jdk-17.0.15-ga)
     - https://github.com/openjdk/jdk21u/commit/d5c94adf69ba20f5652453729620c4f1c8e4860e (jdk-21.0.7-ga)
@@ -279,12 +279,12 @@
         V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.7
     References:
-    - https://access.redhat.com/errata/RHSA-2025:1611
+    - https://access.redhat.com/errata/RHSA-2025:1613
     - https://access.redhat.com/security/cve/CVE-2025-23083
     - https://bugzilla.redhat.com/2339176
     - https://bugzilla.redhat.com/2339392
     - https://bugzilla.redhat.com/2342618
-    - https://errata.almalinux.org/8/ALSA-2025-1611.html
+    - https://errata.almalinux.org/9/ALSA-2025-1613.html
     - https://linux.oracle.com/cve/CVE-2025-23083.html
     - https://linux.oracle.com/errata/ELSA-2025-1613.html
     - https://nodejs.org/en/blog/vulnerability/january-2025-security-releases
@@ -327,7 +327,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:3845
     - https://access.redhat.com/security/cve/CVE-2025-30691
-    - https://errata.almalinux.org/8/ALSA-2025-3845.html
+    - https://errata.almalinux.org/9/ALSA-2025-3845.html
     - https://github.com/openjdk/jdk11u/commit/2b70822671cf5f9b37956949421e7c77da082c8e (jdk-11.0.27-ga)
     - https://github.com/openjdk/jdk17u/commit/5b0a5f436fb9817d679f64302b37543bf160d43d (jdk-17.0.15-ga)
     - https://github.com/openjdk/jdk21u/commit/11067d7e975ce71bedbfdd314519ec9ff689a7e7 (jdk-21.0.7-ga)
@@ -375,7 +375,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:3845
     - https://access.redhat.com/security/cve/CVE-2025-30698
-    - https://errata.almalinux.org/8/ALSA-2025-3845.html
+    - https://errata.almalinux.org/9/ALSA-2025-3845.html
     - https://github.com/openjdk/jdk11u/commit/ea1389c971827876134a6d1d3ab2934681e9f3d6 (jdk-11.0.27-ga)
     - https://github.com/openjdk/jdk17u/commit/0a89eb2588334226531e8e25ac340eabbc00bd6d (jdk-17.0.15-ga)
     - https://github.com/openjdk/jdk21u/commit/3048e287d8ea7d5e0d19d9188eb4212801ebf2a2 (jdk-21.0.7-ga)
