@@ -839,6 +839,7 @@
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
+    - http://www.openwall.com/lists/oss-security/2025/04/24/7
     - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://bugzilla.redhat.com/2339460
@@ -856,7 +857,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0395
     - https://www.openwall.com/lists/oss-security/2025/01/22/4
     PublishedDate: '2025-01-22T13:15:20.933Z'
-    LastModifiedDate: '2025-04-13T04:15:15.777Z'
+    LastModifiedDate: '2025-04-25T02:15:13.74Z'
   - VulnerabilityID: CVE-2025-0395
     PkgID: glibc-common@2.34-125.el9_5.3.x86_64
     PkgName: glibc-common
@@ -889,6 +890,7 @@
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
+    - http://www.openwall.com/lists/oss-security/2025/04/24/7
     - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://bugzilla.redhat.com/2339460
@@ -906,7 +908,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0395
     - https://www.openwall.com/lists/oss-security/2025/01/22/4
     PublishedDate: '2025-01-22T13:15:20.933Z'
-    LastModifiedDate: '2025-04-13T04:15:15.777Z'
+    LastModifiedDate: '2025-04-25T02:15:13.74Z'
   - VulnerabilityID: CVE-2025-0395
     PkgID: glibc-langpack-en@2.34-125.el9_5.3.x86_64
     PkgName: glibc-langpack-en
@@ -939,6 +941,7 @@
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
+    - http://www.openwall.com/lists/oss-security/2025/04/24/7
     - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://bugzilla.redhat.com/2339460
@@ -956,7 +959,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0395
     - https://www.openwall.com/lists/oss-security/2025/01/22/4
     PublishedDate: '2025-01-22T13:15:20.933Z'
-    LastModifiedDate: '2025-04-13T04:15:15.777Z'
+    LastModifiedDate: '2025-04-25T02:15:13.74Z'
   - VulnerabilityID: CVE-2025-0395
     PkgID: glibc-minimal-langpack@2.34-125.el9_5.3.x86_64
     PkgName: glibc-minimal-langpack
@@ -989,6 +992,7 @@
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
+    - http://www.openwall.com/lists/oss-security/2025/04/24/7
     - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://bugzilla.redhat.com/2339460
@@ -1006,7 +1010,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0395
     - https://www.openwall.com/lists/oss-security/2025/01/22/4
     PublishedDate: '2025-01-22T13:15:20.933Z'
-    LastModifiedDate: '2025-04-13T04:15:15.777Z'
+    LastModifiedDate: '2025-04-25T02:15:13.74Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -1102,6 +1106,7 @@
     - CWE-407
     VendorSeverity:
       cbl-mariner: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1114,6 +1119,8 @@
     - https://access.redhat.com/security/cve/CVE-2024-12243
     - https://bugzilla.redhat.com/show_bug.cgi?id=2344615
     - https://gitlab.com/gnutls/libtasn1/-/issues/52
+    - https://linux.oracle.com/cve/CVE-2024-12243.html
+    - https://linux.oracle.com/errata/ELSA-2025-4051.html
     - https://lists.debian.org/debian-lts-announce/2025/02/msg00027.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-February/004875.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12243
@@ -2234,6 +2241,7 @@
     - CWE-125
     VendorSeverity:
       nvd: 3
+      photon: 1
       redhat: 1
     CVSS:
       nvd:
