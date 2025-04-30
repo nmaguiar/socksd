@@ -331,7 +331,7 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-11053 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -384,7 +384,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-11053.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
 │                       │      │                  ├ [55]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [56]: https://linux.oracle.com/cve/CVE-2024-11053.html 
 │                       │      │                  ├ [57]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
@@ -447,7 +447,7 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/31/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-7264 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -500,7 +500,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-7264.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
 │                       │      │                  ├ [55]: https://github.com/curl/curl/commit/27959ecce75cdb280
 │                       │      │                  │       9c0bdb3286e60e08fadb519 
 │                       │      │                  ├ [56]: https://hackerone.com/reports/2629968 
@@ -682,7 +682,7 @@
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/2310137 
 │                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
 │                       │      │                  ├ [9] : https://bugzilla.suse.com/show_bug.cgi?id=1239618 
-│                       │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2025-3913.html 
+│                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-3531.html 
 │                       │      │                  ├ [11]: https://github.com/libexpat/libexpat/blob/R_2_7_0/exp
 │                       │      │                  │       at/Changes#L40-L52 
 │                       │      │                  ├ [12]: https://github.com/libexpat/libexpat/issues/893 
@@ -895,13 +895,15 @@
 │                       │      ├ PublishedDate   : 2025-04-07T13:15:43.687Z 
 │                       │      ╰ LastModifiedDate: 2025-04-14T12:15:16.087Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2025-0395 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:4244 
 │                       │      ├ PkgID           : glibc@2.34-125.el9_5.3.x86_64 
 │                       │      ├ PkgName         : glibc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-125.el9_5.3?arch=x86_64&dis
 │                       │      │                  │       tro=redhat-9.5 
 │                       │      │                  ╰ UID : 5ac6e205fd0b6b5a 
 │                       │      ├ InstalledVersion: 2.34-125.el9_5.3 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.34-125.el9_5.8 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff51
 │                       │      │                  │         5ed7839fac803141362c 
 │                       │      │                  ╰ DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c
@@ -928,12 +930,12 @@
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/01/23/2 
 │                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/13/1 
 │                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2025/04/24/7 
-│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:3828 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:4244 
 │                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2025-0395 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2339460 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2025-3828.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-4244.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-0395.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-3828.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-4244.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0395 
 │                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250228-00
 │                       │      │                  │       06/ 
@@ -951,13 +953,15 @@
 │                       │      ├ PublishedDate   : 2025-01-22T13:15:20.933Z 
 │                       │      ╰ LastModifiedDate: 2025-04-25T02:15:13.74Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2025-0395 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:4244 
 │                       │      ├ PkgID           : glibc-common@2.34-125.el9_5.3.x86_64 
 │                       │      ├ PkgName         : glibc-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-125.el9_5.3?arch=x86
 │                       │      │                  │       _64&distro=redhat-9.5 
 │                       │      │                  ╰ UID : 3b45cb40838b6e2a 
 │                       │      ├ InstalledVersion: 2.34-125.el9_5.3 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.34-125.el9_5.8 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff51
 │                       │      │                  │         5ed7839fac803141362c 
 │                       │      │                  ╰ DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c
@@ -984,12 +988,12 @@
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/01/23/2 
 │                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/13/1 
 │                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2025/04/24/7 
-│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:3828 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:4244 
 │                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2025-0395 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2339460 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2025-3828.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-4244.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-0395.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-3828.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-4244.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0395 
 │                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250228-00
 │                       │      │                  │       06/ 
@@ -1007,13 +1011,15 @@
 │                       │      ├ PublishedDate   : 2025-01-22T13:15:20.933Z 
 │                       │      ╰ LastModifiedDate: 2025-04-25T02:15:13.74Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2025-0395 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:4244 
 │                       │      ├ PkgID           : glibc-langpack-en@2.34-125.el9_5.3.x86_64 
 │                       │      ├ PkgName         : glibc-langpack-en 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-langpack-en@2.34-125.el9_5.3?arc
 │                       │      │                  │       h=x86_64&distro=redhat-9.5 
 │                       │      │                  ╰ UID : 7f846cd549d4bb72 
 │                       │      ├ InstalledVersion: 2.34-125.el9_5.3 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.34-125.el9_5.8 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff51
 │                       │      │                  │         5ed7839fac803141362c 
 │                       │      │                  ╰ DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c
@@ -1040,12 +1046,12 @@
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/01/23/2 
 │                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/13/1 
 │                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2025/04/24/7 
-│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:3828 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:4244 
 │                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2025-0395 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2339460 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2025-3828.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-4244.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-0395.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-3828.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-4244.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0395 
 │                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250228-00
 │                       │      │                  │       06/ 
@@ -1063,13 +1069,15 @@
 │                       │      ├ PublishedDate   : 2025-01-22T13:15:20.933Z 
 │                       │      ╰ LastModifiedDate: 2025-04-25T02:15:13.74Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2025-0395 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:4244 
 │                       │      ├ PkgID           : glibc-minimal-langpack@2.34-125.el9_5.3.x86_64 
 │                       │      ├ PkgName         : glibc-minimal-langpack 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-125.el9_5.
 │                       │      │                  │       3?arch=x86_64&distro=redhat-9.5 
 │                       │      │                  ╰ UID : 5732a478e97b15b5 
 │                       │      ├ InstalledVersion: 2.34-125.el9_5.3 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.34-125.el9_5.8 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:7f3d4e25f6c24f4bd232c411a8c98a7fbaa8e325ff51
 │                       │      │                  │         5ed7839fac803141362c 
 │                       │      │                  ╰ DiffID: sha256:7563c4108af69fe4880f44d108a467585b2d0f63c67c
@@ -1096,12 +1104,12 @@
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/01/23/2 
 │                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/13/1 
 │                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2025/04/24/7 
-│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:3828 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:4244 
 │                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2025-0395 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2339460 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2025-3828.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-4244.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-0395.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-3828.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-4244.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0395 
 │                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250228-00
 │                       │      │                  │       06/ 
@@ -1320,7 +1328,7 @@
 │                       │      │                  │       24-21085 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21094 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-1825.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:1822 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21094.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-1825.html 
@@ -1394,7 +1402,7 @@
 │                       │      │                           ╰ V3Score : 7.4 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-21587 
-│                       │      │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3845.html 
 │                       │      │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2adb01e8c5fb
 │                       │      │                  │       cc3dfa9f82df3deccb3a1705bf13 (jdk-11.0.27-ga) 
 │                       │      │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/73aa304234f2
@@ -1459,7 +1467,7 @@
 │                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30691 
-│                       │      │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3845.html 
 │                       │      │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2b70822671cf
 │                       │      │                  │       5f9b37956949421e7c77da082c8e (jdk-11.0.27-ga) 
 │                       │      │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/5b0a5f436fb9
@@ -1535,7 +1543,7 @@
 │                       │      │                           ╰ V3Score : 5.6 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30698 
-│                       │      │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3845.html 
 │                       │      │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/ea1389c97182
 │                       │      │                  │       7876134a6d1d3ab2934681e9f3d6 (jdk-11.0.27-ga) 
 │                       │      │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/0a89eb258833
@@ -1841,7 +1849,7 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-11053 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -1894,7 +1902,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-11053.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
 │                       │      │                  ├ [55]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [56]: https://linux.oracle.com/cve/CVE-2024-11053.html 
 │                       │      │                  ├ [57]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
@@ -1957,7 +1965,7 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/31/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-7264 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -2010,7 +2018,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-7264.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
 │                       │      │                  ├ [55]: https://github.com/curl/curl/commit/27959ecce75cdb280
 │                       │      │                  │       9c0bdb3286e60e08fadb519 
 │                       │      │                  ├ [56]: https://hackerone.com/reports/2629968 
@@ -2360,7 +2368,8 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-393 
 │                       │      │                  ╰ [1]: CWE-252 
 │                       │      ├ VendorSeverity   ╭ nvd   : 3 
-│                       │      │                  ╰ redhat: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
@@ -2370,7 +2379,8 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32414 
 │                       │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/889 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-32414 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-32414 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7467-1 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32414 
 │                       │      ├ PublishedDate   : 2025-04-08T03:15:15.94Z 
 │                       │      ╰ LastModifiedDate: 2025-04-23T19:09:35.517Z 
 │                       ├ [41] ╭ VulnerabilityID : CVE-2023-45322 
@@ -2534,7 +2544,8 @@
 │                       │      │                  ╰ [1]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ nvd   : 3 
 │                       │      │                  ├ photon: 1 
-│                       │      │                  ╰ redhat: 1 
+│                       │      │                  ├ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
@@ -2544,7 +2555,8 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32415 
 │                       │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7467-1 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
 │                       │      ├ PublishedDate   : 2025-04-17T17:15:33.733Z 
 │                       │      ╰ LastModifiedDate: 2025-04-23T18:17:52.053Z 
 │                       ├ [45] ╭ VulnerabilityID : CVE-2022-4899 
@@ -2585,7 +2597,7 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0894 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1141 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-4899 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2179864 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2188109 
@@ -2662,7 +2674,7 @@
 │                       │      │                  ├ [74]: https://bugzilla.redhat.com/2258792 
 │                       │      │                  ├ [75]: https://bugzilla.redhat.com/2258793 
 │                       │      │                  ├ [76]: https://bugzilla.redhat.com/2258794 
-│                       │      │                  ├ [77]: https://errata.almalinux.org/8/ALSA-2024-0894.html 
+│                       │      │                  ├ [77]: https://errata.almalinux.org/9/ALSA-2024-1141.html 
 │                       │      │                  ├ [78]: https://github.com/facebook/zstd 
 │                       │      │                  ├ [79]: https://github.com/facebook/zstd/issues/3200 
 │                       │      │                  ├ [80]: https://github.com/facebook/zstd/pull/3220 
