@@ -792,6 +792,7 @@
     - https://errata.almalinux.org/9/ALSA-2025-4244.html
     - https://linux.oracle.com/cve/CVE-2025-0395.html
     - https://linux.oracle.com/errata/ELSA-2025-4244.html
+    - https://lists.debian.org/debian-lts-announce/2025/04/msg00039.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -803,7 +804,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0395
     - https://www.openwall.com/lists/oss-security/2025/01/22/4
     PublishedDate: '2025-01-22T13:15:20.933Z'
-    LastModifiedDate: '2025-04-25T02:15:13.74Z'
+    LastModifiedDate: '2025-04-30T05:15:46.707Z'
   - VulnerabilityID: CVE-2025-0395
     VendorIDs:
     - RHSA-2025:4244
@@ -846,6 +847,7 @@
     - https://errata.almalinux.org/9/ALSA-2025-4244.html
     - https://linux.oracle.com/cve/CVE-2025-0395.html
     - https://linux.oracle.com/errata/ELSA-2025-4244.html
+    - https://lists.debian.org/debian-lts-announce/2025/04/msg00039.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -857,7 +859,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0395
     - https://www.openwall.com/lists/oss-security/2025/01/22/4
     PublishedDate: '2025-01-22T13:15:20.933Z'
-    LastModifiedDate: '2025-04-25T02:15:13.74Z'
+    LastModifiedDate: '2025-04-30T05:15:46.707Z'
   - VulnerabilityID: CVE-2025-0395
     VendorIDs:
     - RHSA-2025:4244
@@ -900,6 +902,7 @@
     - https://errata.almalinux.org/9/ALSA-2025-4244.html
     - https://linux.oracle.com/cve/CVE-2025-0395.html
     - https://linux.oracle.com/errata/ELSA-2025-4244.html
+    - https://lists.debian.org/debian-lts-announce/2025/04/msg00039.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -911,7 +914,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0395
     - https://www.openwall.com/lists/oss-security/2025/01/22/4
     PublishedDate: '2025-01-22T13:15:20.933Z'
-    LastModifiedDate: '2025-04-25T02:15:13.74Z'
+    LastModifiedDate: '2025-04-30T05:15:46.707Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -1859,6 +1862,7 @@
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/889
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32414
     - https://ubuntu.com/security/notices/USN-7467-1
+    - https://ubuntu.com/security/notices/USN-7467-2
     - https://www.cve.org/CVERecord?id=CVE-2025-32414
     PublishedDate: '2025-04-08T03:15:15.94Z'
     LastModifiedDate: '2025-04-23T19:09:35.517Z'
@@ -2025,6 +2029,7 @@
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/890
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32415
     - https://ubuntu.com/security/notices/USN-7467-1
+    - https://ubuntu.com/security/notices/USN-7467-2
     - https://www.cve.org/CVERecord?id=CVE-2025-32415
     PublishedDate: '2025-04-17T17:15:33.733Z'
     LastModifiedDate: '2025-04-23T18:17:52.053Z'
