@@ -25,6 +25,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 2
       azure: 3
       redhat: 2
       ubuntu: 2
@@ -183,6 +184,7 @@
     - CWE-284
     VendorSeverity:
       alma: 2
+      amazon: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -205,7 +207,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-21587
     - https://www.oracle.com/security-alerts/cpuapr2025.html
     PublishedDate: '2025-04-15T21:15:54.293Z'
-    LastModifiedDate: '2025-04-16T16:15:29.73Z'
+    LastModifiedDate: '2025-04-29T20:03:13.79Z'
   - VulnerabilityID: CVE-2025-23083
     PkgID: openjdk21-jre@21.0.6_p7-r0
     PkgName: openjdk21-jre
@@ -281,6 +283,7 @@
     - CWE-284
     VendorSeverity:
       alma: 2
+      amazon: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -329,6 +332,7 @@
     - CWE-284
     VendorSeverity:
       alma: 2
+      amazon: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -351,7 +355,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-30698
     - https://www.oracle.com/security-alerts/cpuapr2025.html
     PublishedDate: '2025-04-15T21:15:59.137Z'
-    LastModifiedDate: '2025-04-16T16:15:33.397Z'
+    LastModifiedDate: '2025-04-29T20:03:21.7Z'
   - VulnerabilityID: CVE-2025-21587
     PkgID: openjdk21-jre-headless@21.0.6_p7-r0
     PkgName: openjdk21-jre-headless
@@ -376,6 +380,7 @@
     - CWE-284
     VendorSeverity:
       alma: 2
+      amazon: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -398,7 +403,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-21587
     - https://www.oracle.com/security-alerts/cpuapr2025.html
     PublishedDate: '2025-04-15T21:15:54.293Z'
-    LastModifiedDate: '2025-04-16T16:15:29.73Z'
+    LastModifiedDate: '2025-04-29T20:03:13.79Z'
   - VulnerabilityID: CVE-2025-23083
     PkgID: openjdk21-jre-headless@21.0.6_p7-r0
     PkgName: openjdk21-jre-headless
@@ -474,6 +479,7 @@
     - CWE-284
     VendorSeverity:
       alma: 2
+      amazon: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -522,6 +528,7 @@
     - CWE-284
     VendorSeverity:
       alma: 2
+      amazon: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -544,7 +551,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-30698
     - https://www.oracle.com/security-alerts/cpuapr2025.html
     PublishedDate: '2025-04-15T21:15:59.137Z'
-    LastModifiedDate: '2025-04-16T16:15:33.397Z'
+    LastModifiedDate: '2025-04-29T20:03:21.7Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
