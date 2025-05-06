@@ -285,7 +285,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -338,7 +338,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -396,7 +396,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -449,7 +449,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -611,12 +611,16 @@
     - https://access.redhat.com/errata/RHSA-2025:3734
     - https://access.redhat.com/errata/RHSA-2025:3913
     - https://access.redhat.com/errata/RHSA-2025:4048
+    - https://access.redhat.com/errata/RHSA-2025:4446
+    - https://access.redhat.com/errata/RHSA-2025:4447
+    - https://access.redhat.com/errata/RHSA-2025:4448
+    - https://access.redhat.com/errata/RHSA-2025:4449
     - https://access.redhat.com/security/cve/CVE-2024-8176
     - https://blog.hartwork.org/posts/expat-2-7-0-released/
     - https://bugzilla.redhat.com/2310137
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310137
     - https://bugzilla.suse.com/show_bug.cgi?id=1239618
-    - https://errata.almalinux.org/9/ALSA-2025-3531.html
+    - https://errata.almalinux.org/8/ALSA-2025-3913.html
     - https://github.com/libexpat/libexpat/blob/R_2_7_0/expat/Changes#L40-L52
     - https://github.com/libexpat/libexpat/issues/893
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
@@ -629,7 +633,7 @@
     - https://ubuntu.com/security/notices/USN-7424-1
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     PublishedDate: '2025-03-14T09:15:14.157Z'
-    LastModifiedDate: '2025-04-23T12:15:15.957Z'
+    LastModifiedDate: '2025-05-05T08:15:15.277Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -844,10 +848,10 @@
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
     - http://www.openwall.com/lists/oss-security/2025/04/24/7
-    - https://access.redhat.com/errata/RHSA-2025:4244
+    - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://bugzilla.redhat.com/2339460
-    - https://errata.almalinux.org/9/ALSA-2025-4244.html
+    - https://errata.almalinux.org/8/ALSA-2025-3828.html
     - https://linux.oracle.com/cve/CVE-2025-0395.html
     - https://linux.oracle.com/errata/ELSA-2025-4244.html
     - https://lists.debian.org/debian-lts-announce/2025/04/msg00039.html
@@ -899,10 +903,10 @@
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
     - http://www.openwall.com/lists/oss-security/2025/04/24/7
-    - https://access.redhat.com/errata/RHSA-2025:4244
+    - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://bugzilla.redhat.com/2339460
-    - https://errata.almalinux.org/9/ALSA-2025-4244.html
+    - https://errata.almalinux.org/8/ALSA-2025-3828.html
     - https://linux.oracle.com/cve/CVE-2025-0395.html
     - https://linux.oracle.com/errata/ELSA-2025-4244.html
     - https://lists.debian.org/debian-lts-announce/2025/04/msg00039.html
@@ -954,10 +958,10 @@
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
     - http://www.openwall.com/lists/oss-security/2025/04/24/7
-    - https://access.redhat.com/errata/RHSA-2025:4244
+    - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://bugzilla.redhat.com/2339460
-    - https://errata.almalinux.org/9/ALSA-2025-4244.html
+    - https://errata.almalinux.org/8/ALSA-2025-3828.html
     - https://linux.oracle.com/cve/CVE-2025-0395.html
     - https://linux.oracle.com/errata/ELSA-2025-4244.html
     - https://lists.debian.org/debian-lts-announce/2025/04/msg00039.html
@@ -1009,10 +1013,10 @@
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
     - http://www.openwall.com/lists/oss-security/2025/04/24/7
-    - https://access.redhat.com/errata/RHSA-2025:4244
+    - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
     - https://bugzilla.redhat.com/2339460
-    - https://errata.almalinux.org/9/ALSA-2025-4244.html
+    - https://errata.almalinux.org/8/ALSA-2025-3828.html
     - https://linux.oracle.com/cve/CVE-2025-0395.html
     - https://linux.oracle.com/errata/ELSA-2025-4244.html
     - https://lists.debian.org/debian-lts-announce/2025/04/msg00039.html
@@ -1194,7 +1198,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://errata.almalinux.org/8/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1245,7 +1249,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:3845
     - https://access.redhat.com/security/cve/CVE-2025-21587
-    - https://errata.almalinux.org/9/ALSA-2025-3845.html
+    - https://errata.almalinux.org/8/ALSA-2025-3845.html
     - https://github.com/openjdk/jdk11u/commit/2adb01e8c5fbcc3dfa9f82df3deccb3a1705bf13 (jdk-11.0.27-ga)
     - https://github.com/openjdk/jdk17u/commit/73aa304234f2ec17abbb640b7f2d0503cf1bfc91 (jdk-17.0.15-ga)
     - https://github.com/openjdk/jdk21u/commit/d5c94adf69ba20f5652453729620c4f1c8e4860e (jdk-21.0.7-ga)
@@ -1292,7 +1296,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:3845
     - https://access.redhat.com/security/cve/CVE-2025-30691
-    - https://errata.almalinux.org/9/ALSA-2025-3845.html
+    - https://errata.almalinux.org/8/ALSA-2025-3845.html
     - https://github.com/openjdk/jdk11u/commit/2b70822671cf5f9b37956949421e7c77da082c8e (jdk-11.0.27-ga)
     - https://github.com/openjdk/jdk17u/commit/5b0a5f436fb9817d679f64302b37543bf160d43d (jdk-17.0.15-ga)
     - https://github.com/openjdk/jdk21u/commit/11067d7e975ce71bedbfdd314519ec9ff689a7e7 (jdk-21.0.7-ga)
@@ -1340,7 +1344,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:3845
     - https://access.redhat.com/security/cve/CVE-2025-30698
-    - https://errata.almalinux.org/9/ALSA-2025-3845.html
+    - https://errata.almalinux.org/8/ALSA-2025-3845.html
     - https://github.com/openjdk/jdk11u/commit/ea1389c971827876134a6d1d3ab2934681e9f3d6 (jdk-11.0.27-ga)
     - https://github.com/openjdk/jdk17u/commit/0a89eb2588334226531e8e25ac340eabbc00bd6d (jdk-17.0.15-ga)
     - https://github.com/openjdk/jdk21u/commit/3048e287d8ea7d5e0d19d9188eb4212801ebf2a2 (jdk-21.0.7-ga)
@@ -1621,7 +1625,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1674,7 +1678,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -1732,7 +1736,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1785,7 +1789,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -2327,7 +2331,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -2404,7 +2408,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
