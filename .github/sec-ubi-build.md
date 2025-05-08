@@ -763,7 +763,7 @@
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
 │                       │      ├ PublishedDate   : 2025-05-06T15:16:05.32Z 
-│                       │      ╰ LastModifiedDate: 2025-05-06T15:16:05.32Z 
+│                       │      ╰ LastModifiedDate: 2025-05-07T14:13:20.483Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2023-32636 
 │                       │      ├ PkgID           : glib2@2.68.4-14.el9_4.1.x86_64 
 │                       │      ├ PkgName         : glib2 
