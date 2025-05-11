@@ -1151,21 +1151,26 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:2722 
-│                       │                         ├ [1]: https://access.redhat.com/security/cve/CVE-2025-24528 
-│                       │                         ├ [2]: https://bugzilla.redhat.com/2342796 
-│                       │                         ├ [3]: https://errata.almalinux.org/8/ALSA-2025-2722.html 
-│                       │                         ├ [4]: https://github.com/krb5/krb5/commit/78ceba024b64d49612
-│                       │                         │      375be4a12d1c066b0bfbd0 
-│                       │                         ├ [5]: https://linux.oracle.com/cve/CVE-2025-24528.html 
-│                       │                         ├ [6]: https://linux.oracle.com/errata/ELSA-2025-2722.html 
-│                       │                         ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
-│                       │                         ├ [8]: https://ubuntu.com/security/notices/USN-7314-1 
-│                       │                         ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
+│                       │      ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:2722 
+│                       │                         ├ [1] : https://access.redhat.com/security/cve/CVE-2025-24528 
+│                       │                         ├ [2] : https://bugzilla.redhat.com/2342796 
+│                       │                         ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2342796 
+│                       │                         ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │                         │       25-24528 
+│                       │                         ├ [5] : https://errata.almalinux.org/8/ALSA-2025-2722.html 
+│                       │                         ├ [6] : https://errata.rockylinux.org/RLSA-2025:2722 
+│                       │                         ├ [7] : https://github.com/krb5/krb5/commit/78ceba024b64d4961
+│                       │                         │       2375be4a12d1c066b0bfbd0 
+│                       │                         ├ [8] : https://linux.oracle.com/cve/CVE-2025-24528.html 
+│                       │                         ├ [9] : https://linux.oracle.com/errata/ELSA-2025-2722.html 
+│                       │                         ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
+│                       │                         ├ [11]: https://ubuntu.com/security/notices/USN-7314-1 
+│                       │                         ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2025-3576 
 │                       │      ├ PkgID           : krb5-libs@1.21.1-4.el9_5.x86_64 
 │                       │      ├ PkgName         : krb5-libs 
@@ -3068,6 +3073,7 @@
 │                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:H 
@@ -3085,18 +3091,22 @@
 │                       │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023-2953 
 │                       │      │                  ├ [5] : https://bugs.openldap.org/show_bug.cgi?id=9904 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2210651 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4264.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-2953.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4264.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-2953 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20230703-00
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2210651 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       23-2953 
+│                       │      │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2024-4264.html 
+│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:4264 
+│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-2953.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-4264.html 
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-2953 
+│                       │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-20230703-00
 │                       │      │                  │       05/ 
-│                       │      │                  ├ [12]: https://support.apple.com/kb/HT213843 
-│                       │      │                  ├ [13]: https://support.apple.com/kb/HT213844 
-│                       │      │                  ├ [14]: https://support.apple.com/kb/HT213845 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6197-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6616-1 
-│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
+│                       │      │                  ├ [15]: https://support.apple.com/kb/HT213843 
+│                       │      │                  ├ [16]: https://support.apple.com/kb/HT213844 
+│                       │      │                  ├ [17]: https://support.apple.com/kb/HT213845 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6197-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6616-1 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
 │                       │      ├ PublishedDate   : 2023-05-30T22:15:10.613Z 
 │                       │      ╰ LastModifiedDate: 2025-01-10T22:15:23.557Z 
 │                       ├ [58] ╭ VulnerabilityID : CVE-2024-41996 
