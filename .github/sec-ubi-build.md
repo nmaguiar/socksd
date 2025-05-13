@@ -965,7 +965,8 @@
 │                       │      │                   condition. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
@@ -976,18 +977,20 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:4051 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-12243 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2344615 
-│                       │      │                  ├ [3] : https://gitlab.com/gnutls/libtasn1/-/issues/52 
-│                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2024-12243.html 
-│                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-4051.html 
-│                       │      │                  ├ [6] : https://lists.debian.org/debian-lts-announce/2025/02/
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2344615 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2344615 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-4051.html 
+│                       │      │                  ├ [5] : https://gitlab.com/gnutls/libtasn1/-/issues/52 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-12243.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-4051.html 
+│                       │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/02/
 │                       │      │                  │       msg00027.html 
-│                       │      │                  ├ [7] : https://lists.gnupg.org/pipermail/gnutls-help/2025-Fe
+│                       │      │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-Fe
 │                       │      │                  │       bruary/004875.html 
-│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-12243 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7281-1 
-│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
-│                       │      │                  ╰ [11]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-12243 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7281-1 
+│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
+│                       │      │                  ╰ [13]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
 │                       │      │                          25-02-07 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.423Z 
 │                       │      ╰ LastModifiedDate: 2025-04-23T11:15:45.773Z 
