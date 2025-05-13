@@ -875,6 +875,7 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -888,7 +889,9 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:4051
     - https://access.redhat.com/security/cve/CVE-2024-12243
+    - https://bugzilla.redhat.com/2344615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2344615
+    - https://errata.almalinux.org/8/ALSA-2025-4051.html
     - https://gitlab.com/gnutls/libtasn1/-/issues/52
     - https://linux.oracle.com/cve/CVE-2024-12243.html
     - https://linux.oracle.com/errata/ELSA-2025-4051.html
