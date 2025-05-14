@@ -1013,13 +1013,16 @@
     PublishedDate: '2025-04-14T08:15:13.973Z'
     LastModifiedDate: '2025-04-15T18:39:27.967Z'
   - VulnerabilityID: CVE-2025-24528
+    VendorIDs:
+    - RHSA-2025:7067
     PkgID: krb5-libs@1.21.1-4.el9_5.x86_64
     PkgName: krb5-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/krb5-libs@1.21.1-4.el9_5?arch=x86_64&distro=redhat-9.5
       UID: e3f50656ebbdd511
     InstalledVersion: 1.21.1-4.el9_5
-    Status: affected
+    FixedVersion: 1.21.1-6.el9
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
@@ -1656,13 +1659,16 @@
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
   - VulnerabilityID: CVE-2024-12133
+    VendorIDs:
+    - RHSA-2025:7077
     PkgID: libtasn1@4.16.0-8.el9_1.x86_64
     PkgName: libtasn1
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libtasn1@4.16.0-8.el9_1?arch=x86_64&distro=redhat-9.5
       UID: 60c58eb9eb8887c0
     InstalledVersion: 4.16.0-8.el9_1
-    Status: affected
+    FixedVersion: 4.16.0-9.el9
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
@@ -1687,6 +1693,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/02/06/6
     - https://access.redhat.com/errata/RHSA-2025:4049
+    - https://access.redhat.com/errata/RHSA-2025:7077
     - https://access.redhat.com/security/cve/CVE-2024-12133
     - https://bugzilla.redhat.com/show_bug.cgi?id=2344611
     - https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/security/CVE-2024-12133.md?ref_type=heads
@@ -1699,7 +1706,7 @@
     - https://ubuntu.com/security/notices/USN-7275-2
     - https://www.cve.org/CVERecord?id=CVE-2024-12133
     PublishedDate: '2025-02-10T16:15:37.26Z'
-    LastModifiedDate: '2025-04-23T12:15:15.01Z'
+    LastModifiedDate: '2025-05-13T09:15:19.16Z'
   - VulnerabilityID: CVE-2025-32414
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -3187,13 +3194,16 @@
     PublishedDate: '2021-02-15T13:15:12.433Z'
     LastModifiedDate: '2024-11-21T05:51:31.403Z'
   - VulnerabilityID: CVE-2025-0938
+    VendorIDs:
+    - RHSA-2025:6977
     PkgID: python-unversioned-command@3.9.21-1.el9_5.noarch
     PkgName: python-unversioned-command
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el9_5?arch=noarch&distro=redhat-9.5
       UID: 608b68b025ced14b
     InstalledVersion: 3.9.21-1.el9_5
-    Status: affected
+    FixedVersion: 3.9.21-2.el9
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
@@ -3490,13 +3500,16 @@
     PublishedDate: '2021-02-15T13:15:12.433Z'
     LastModifiedDate: '2024-11-21T05:51:31.403Z'
   - VulnerabilityID: CVE-2025-0938
+    VendorIDs:
+    - RHSA-2025:6977
     PkgID: python3@3.9.21-1.el9_5.x86_64
     PkgName: python3
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&distro=redhat-9.5
       UID: 5c14b3fc23849587
     InstalledVersion: 3.9.21-1.el9_5
-    Status: affected
+    FixedVersion: 3.9.21-2.el9
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
@@ -3793,13 +3806,16 @@
     PublishedDate: '2021-02-15T13:15:12.433Z'
     LastModifiedDate: '2024-11-21T05:51:31.403Z'
   - VulnerabilityID: CVE-2025-0938
+    VendorIDs:
+    - RHSA-2025:6977
     PkgID: python3-libs@3.9.21-1.el9_5.x86_64
     PkgName: python3-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_64&distro=redhat-9.5
       UID: cea3dd3e08f7210c
     InstalledVersion: 3.9.21-1.el9_5
-    Status: affected
+    FixedVersion: 3.9.21-2.el9
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
