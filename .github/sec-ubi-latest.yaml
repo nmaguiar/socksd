@@ -289,7 +289,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -342,7 +342,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -400,7 +400,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -453,7 +453,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -628,7 +628,7 @@
     - https://bugzilla.redhat.com/2310137
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310137
     - https://bugzilla.suse.com/show_bug.cgi?id=1239618
-    - https://errata.almalinux.org/8/ALSA-2025-3913.html
+    - https://errata.almalinux.org/9/ALSA-2025-3531.html
     - https://github.com/libexpat/libexpat/blob/R_2_7_0/expat/Changes#L40-L52
     - https://github.com/libexpat/libexpat/issues/893
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
@@ -979,6 +979,42 @@
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-02-07
     PublishedDate: '2025-02-10T16:15:37.423Z'
     LastModifiedDate: '2025-05-13T21:15:59.447Z'
+  - VulnerabilityID: CVE-2025-4638
+    PkgID: java-21-openjdk-headless@21.0.7.0.6-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.7.0.6-1.el9?arch=x86_64&distro=redhat-9.5&epoch=1
+      UID: ffe57341449256f0
+    InstalledVersion: 1:21.0.7.0.6-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4638
+    Title: 'pcl: zlib: Improper Pointer Arithmetic in pcl'
+    Description: |-
+      A vulnerability exists in the inftrees.c component of the zlib library, which is bundled within the PointCloudLibrary (PCL). This issue may allow context-dependent attackers to cause undefined behavior by exploiting improper pointer arithmetic.
+
+      Since version 1.14.0, PCL by default uses a zlib installation from the system, unless the user sets WITH_SYSTEM_ZLIB=FALSE. So this potential vulnerability is only relevant if the PCL version is older than 1.14.0 or the user specifically requests to not use the system zlib.
+    Severity: HIGH
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-4638
+    - https://github.com/PointCloudLibrary/pcl/blob/master/surface/CMakeLists.txt#L70
+    - https://github.com/PointCloudLibrary/pcl/commit/502bd2b013ce635f21632d523aa8cf2e04f7b7ac
+    - https://github.com/PointCloudLibrary/pcl/pull/6245
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4638
+    - https://www.cve.org/CVERecord?id=CVE-2025-4638
+    PublishedDate: '2025-05-14T18:15:33.597Z'
+    LastModifiedDate: '2025-05-16T14:43:56.797Z'
   - VulnerabilityID: CVE-2024-21094
     PkgID: java-21-openjdk-headless@21.0.7.0.6-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -1026,7 +1062,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1318,7 +1354,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1371,7 +1407,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -1429,7 +1465,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1482,7 +1518,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -2033,7 +2069,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0894
+    - https://access.redhat.com/errata/RHSA-2024:1141
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -2110,7 +2146,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/8/ALSA-2024-0894.html
+    - https://errata.almalinux.org/9/ALSA-2024-1141.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -4354,6 +4390,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-39804
     PublishedDate: '2024-03-27T04:15:08.897Z'
     LastModifiedDate: '2024-11-21T08:15:56.95Z'
+  - VulnerabilityID: CVE-2025-4638
+    PkgID: zlib@1.2.11-40.el9.x86_64
+    PkgName: zlib
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/zlib@1.2.11-40.el9?arch=x86_64&distro=redhat-9.5
+      UID: 84101c39ecc035f0
+    InstalledVersion: 1.2.11-40.el9
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4638
+    Title: 'pcl: zlib: Improper Pointer Arithmetic in pcl'
+    Description: |-
+      A vulnerability exists in the inftrees.c component of the zlib library, which is bundled within the PointCloudLibrary (PCL). This issue may allow context-dependent attackers to cause undefined behavior by exploiting improper pointer arithmetic.
+
+      Since version 1.14.0, PCL by default uses a zlib installation from the system, unless the user sets WITH_SYSTEM_ZLIB=FALSE. So this potential vulnerability is only relevant if the PCL version is older than 1.14.0 or the user specifically requests to not use the system zlib.
+    Severity: HIGH
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-4638
+    - https://github.com/PointCloudLibrary/pcl/blob/master/surface/CMakeLists.txt#L70
+    - https://github.com/PointCloudLibrary/pcl/commit/502bd2b013ce635f21632d523aa8cf2e04f7b7ac
+    - https://github.com/PointCloudLibrary/pcl/pull/6245
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4638
+    - https://www.cve.org/CVERecord?id=CVE-2025-4638
+    PublishedDate: '2025-05-14T18:15:33.597Z'
+    LastModifiedDate: '2025-05-16T14:43:56.797Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
