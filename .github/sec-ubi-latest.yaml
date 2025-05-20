@@ -979,42 +979,6 @@
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-02-07
     PublishedDate: '2025-02-10T16:15:37.423Z'
     LastModifiedDate: '2025-05-13T21:15:59.447Z'
-  - VulnerabilityID: CVE-2025-4638
-    PkgID: java-21-openjdk-headless@21.0.7.0.6-1.el9.x86_64
-    PkgName: java-21-openjdk-headless
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.7.0.6-1.el9?arch=x86_64&distro=redhat-9.5&epoch=1
-      UID: ffe57341449256f0
-    InstalledVersion: 1:21.0.7.0.6-1.el9
-    Status: affected
-    Layer:
-      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
-      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4638
-    Title: 'pcl: zlib: Improper Pointer Arithmetic in pcl'
-    Description: |-
-      A vulnerability exists in the inftrees.c component of the zlib library, which is bundled within the PointCloudLibrary (PCL). This issue may allow context-dependent attackers to cause undefined behavior by exploiting improper pointer arithmetic.
-
-      Since version 1.14.0, PCL by default uses a zlib installation from the system, unless the user sets WITH_SYSTEM_ZLIB=FALSE. So this potential vulnerability is only relevant if the PCL version is older than 1.14.0 or the user specifically requests to not use the system zlib.
-    Severity: HIGH
-    CweIDs:
-    - CWE-119
-    VendorSeverity:
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-4638
-    - https://github.com/PointCloudLibrary/pcl/blob/master/surface/CMakeLists.txt#L70
-    - https://github.com/PointCloudLibrary/pcl/commit/502bd2b013ce635f21632d523aa8cf2e04f7b7ac
-    - https://github.com/PointCloudLibrary/pcl/pull/6245
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4638
-    - https://www.cve.org/CVERecord?id=CVE-2025-4638
-    PublishedDate: '2025-05-14T18:15:33.597Z'
-    LastModifiedDate: '2025-05-16T14:43:56.797Z'
   - VulnerabilityID: CVE-2024-21094
     PkgID: java-21-openjdk-headless@21.0.7.0.6-1.el9.x86_64
     PkgName: java-21-openjdk-headless
