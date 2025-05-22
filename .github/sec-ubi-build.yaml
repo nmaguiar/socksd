@@ -746,6 +746,150 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-3360
     PublishedDate: '2025-04-07T13:15:43.687Z'
     LastModifiedDate: '2025-04-14T12:15:16.087Z'
+  - VulnerabilityID: CVE-2025-4802
+    PkgID: glibc@2.34-168.el9_6.14.x86_64
+    PkgName: glibc
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc@2.34-168.el9_6.14?arch=x86_64&distro=redhat-9.6
+      UID: 91ad115af4ca0b57
+    InstalledVersion: 2.34-168.el9_6.14
+    Status: affected
+    Layer:
+      Digest: sha256:db456a21e08730a838265763a77e034fc427d51e997796837521119fe793a670
+      DiffID: sha256:54f304240a7c82547f5a717a606762be173383bf85a82e42f2c363950e6c0f5f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
+    Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
+    Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
+    Severity: HIGH
+    CweIDs:
+    - CWE-426
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/7
+    - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
+    - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://www.cve.org/CVERecord?id=CVE-2025-4802
+    - https://www.openwall.com/lists/oss-security/2025/05/16/7
+    - https://www.openwall.com/lists/oss-security/2025/05/17/2
+    PublishedDate: '2025-05-16T20:15:22.28Z'
+    LastModifiedDate: '2025-05-20T14:15:51.347Z'
+  - VulnerabilityID: CVE-2025-4802
+    PkgID: glibc-common@2.34-168.el9_6.14.x86_64
+    PkgName: glibc-common
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-common@2.34-168.el9_6.14?arch=x86_64&distro=redhat-9.6
+      UID: 362049431b6954d2
+    InstalledVersion: 2.34-168.el9_6.14
+    Status: affected
+    Layer:
+      Digest: sha256:db456a21e08730a838265763a77e034fc427d51e997796837521119fe793a670
+      DiffID: sha256:54f304240a7c82547f5a717a606762be173383bf85a82e42f2c363950e6c0f5f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
+    Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
+    Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
+    Severity: HIGH
+    CweIDs:
+    - CWE-426
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/7
+    - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
+    - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://www.cve.org/CVERecord?id=CVE-2025-4802
+    - https://www.openwall.com/lists/oss-security/2025/05/16/7
+    - https://www.openwall.com/lists/oss-security/2025/05/17/2
+    PublishedDate: '2025-05-16T20:15:22.28Z'
+    LastModifiedDate: '2025-05-20T14:15:51.347Z'
+  - VulnerabilityID: CVE-2025-4802
+    PkgID: glibc-langpack-en@2.34-168.el9_6.14.x86_64
+    PkgName: glibc-langpack-en
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-langpack-en@2.34-168.el9_6.14?arch=x86_64&distro=redhat-9.6
+      UID: 35d3f804a35e1ebc
+    InstalledVersion: 2.34-168.el9_6.14
+    Status: affected
+    Layer:
+      Digest: sha256:db456a21e08730a838265763a77e034fc427d51e997796837521119fe793a670
+      DiffID: sha256:54f304240a7c82547f5a717a606762be173383bf85a82e42f2c363950e6c0f5f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
+    Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
+    Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
+    Severity: HIGH
+    CweIDs:
+    - CWE-426
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/7
+    - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
+    - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://www.cve.org/CVERecord?id=CVE-2025-4802
+    - https://www.openwall.com/lists/oss-security/2025/05/16/7
+    - https://www.openwall.com/lists/oss-security/2025/05/17/2
+    PublishedDate: '2025-05-16T20:15:22.28Z'
+    LastModifiedDate: '2025-05-20T14:15:51.347Z'
+  - VulnerabilityID: CVE-2025-4802
+    PkgID: glibc-minimal-langpack@2.34-168.el9_6.14.x86_64
+    PkgName: glibc-minimal-langpack
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-168.el9_6.14?arch=x86_64&distro=redhat-9.6
+      UID: a0adc6a3a8652720
+    InstalledVersion: 2.34-168.el9_6.14
+    Status: affected
+    Layer:
+      Digest: sha256:db456a21e08730a838265763a77e034fc427d51e997796837521119fe793a670
+      DiffID: sha256:54f304240a7c82547f5a717a606762be173383bf85a82e42f2c363950e6c0f5f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
+    Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
+    Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
+    Severity: HIGH
+    CweIDs:
+    - CWE-426
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/7
+    - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
+    - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://www.cve.org/CVERecord?id=CVE-2025-4802
+    - https://www.openwall.com/lists/oss-security/2025/05/16/7
+    - https://www.openwall.com/lists/oss-security/2025/05/17/2
+    PublishedDate: '2025-05-16T20:15:22.28Z'
+    LastModifiedDate: '2025-05-20T14:15:51.347Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
