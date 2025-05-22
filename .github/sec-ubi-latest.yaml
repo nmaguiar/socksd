@@ -87,6 +87,7 @@
     CweIDs:
     - CWE-334
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -99,7 +100,9 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:7437
     - https://access.redhat.com/security/cve/CVE-2024-52616
+    - https://bugzilla.redhat.com/2326429
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326429
+    - https://errata.almalinux.org/9/ALSA-2025-7437.html
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-r9j3-vjjh-p8vm
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52616
@@ -628,7 +631,7 @@
     - https://bugzilla.redhat.com/2310137
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310137
     - https://bugzilla.suse.com/show_bug.cgi?id=1239618
-    - https://errata.almalinux.org/9/ALSA-2025-3531.html
+    - https://errata.almalinux.org/9/ALSA-2025-7444.html
     - https://github.com/libexpat/libexpat/blob/R_2_7_0/expat/Changes#L40-L52
     - https://github.com/libexpat/libexpat/issues/893
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
@@ -852,6 +855,150 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-3360
     PublishedDate: '2025-04-07T13:15:43.687Z'
     LastModifiedDate: '2025-04-14T12:15:16.087Z'
+  - VulnerabilityID: CVE-2025-4802
+    PkgID: glibc@2.34-125.el9_5.8.x86_64
+    PkgName: glibc
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
+      UID: 714cae6d64b8bc1d
+    InstalledVersion: 2.34-125.el9_5.8
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
+    Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
+    Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
+    Severity: HIGH
+    CweIDs:
+    - CWE-426
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/7
+    - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
+    - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://www.cve.org/CVERecord?id=CVE-2025-4802
+    - https://www.openwall.com/lists/oss-security/2025/05/16/7
+    - https://www.openwall.com/lists/oss-security/2025/05/17/2
+    PublishedDate: '2025-05-16T20:15:22.28Z'
+    LastModifiedDate: '2025-05-20T14:15:51.347Z'
+  - VulnerabilityID: CVE-2025-4802
+    PkgID: glibc-common@2.34-125.el9_5.8.x86_64
+    PkgName: glibc-common
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-common@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
+      UID: dd9b04616be04a7d
+    InstalledVersion: 2.34-125.el9_5.8
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
+    Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
+    Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
+    Severity: HIGH
+    CweIDs:
+    - CWE-426
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/7
+    - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
+    - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://www.cve.org/CVERecord?id=CVE-2025-4802
+    - https://www.openwall.com/lists/oss-security/2025/05/16/7
+    - https://www.openwall.com/lists/oss-security/2025/05/17/2
+    PublishedDate: '2025-05-16T20:15:22.28Z'
+    LastModifiedDate: '2025-05-20T14:15:51.347Z'
+  - VulnerabilityID: CVE-2025-4802
+    PkgID: glibc-langpack-en@2.34-125.el9_5.8.x86_64
+    PkgName: glibc-langpack-en
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-langpack-en@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
+      UID: cef93d3dba740f73
+    InstalledVersion: 2.34-125.el9_5.8
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
+    Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
+    Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
+    Severity: HIGH
+    CweIDs:
+    - CWE-426
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/7
+    - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
+    - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://www.cve.org/CVERecord?id=CVE-2025-4802
+    - https://www.openwall.com/lists/oss-security/2025/05/16/7
+    - https://www.openwall.com/lists/oss-security/2025/05/17/2
+    PublishedDate: '2025-05-16T20:15:22.28Z'
+    LastModifiedDate: '2025-05-20T14:15:51.347Z'
+  - VulnerabilityID: CVE-2025-4802
+    PkgID: glibc-minimal-langpack@2.34-125.el9_5.8.x86_64
+    PkgName: glibc-minimal-langpack
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
+      UID: 61f6b308e80fed61
+    InstalledVersion: 2.34-125.el9_5.8
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
+    Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
+    Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
+    Severity: HIGH
+    CweIDs:
+    - CWE-426
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/7
+    - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
+    - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://www.cve.org/CVERecord?id=CVE-2025-4802
+    - https://www.openwall.com/lists/oss-security/2025/05/16/7
+    - https://www.openwall.com/lists/oss-security/2025/05/17/2
+    PublishedDate: '2025-05-16T20:15:22.28Z'
+    LastModifiedDate: '2025-05-20T14:15:51.347Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -964,6 +1111,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:4051
     - https://access.redhat.com/errata/RHSA-2025:7076
+    - https://access.redhat.com/errata/RHSA-2025:8020
     - https://access.redhat.com/security/cve/CVE-2024-12243
     - https://bugzilla.redhat.com/2344615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2344615
@@ -978,7 +1126,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-12243
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-02-07
     PublishedDate: '2025-02-10T16:15:37.423Z'
-    LastModifiedDate: '2025-05-13T21:15:59.447Z'
+    LastModifiedDate: '2025-05-21T00:15:21.7Z'
   - VulnerabilityID: CVE-2024-21094
     PkgID: java-21-openjdk-headless@21.0.7.0.6-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -1772,6 +1920,7 @@
     - http://www.openwall.com/lists/oss-security/2025/02/06/6
     - https://access.redhat.com/errata/RHSA-2025:4049
     - https://access.redhat.com/errata/RHSA-2025:7077
+    - https://access.redhat.com/errata/RHSA-2025:8021
     - https://access.redhat.com/security/cve/CVE-2024-12133
     - https://bugzilla.redhat.com/show_bug.cgi?id=2344611
     - https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/security/CVE-2024-12133.md?ref_type=heads
@@ -1784,7 +1933,7 @@
     - https://ubuntu.com/security/notices/USN-7275-2
     - https://www.cve.org/CVERecord?id=CVE-2024-12133
     PublishedDate: '2025-02-10T16:15:37.26Z'
-    LastModifiedDate: '2025-05-13T09:15:19.16Z'
+    LastModifiedDate: '2025-05-20T23:15:18.927Z'
   - VulnerabilityID: CVE-2025-32414
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
