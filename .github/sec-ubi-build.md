@@ -843,12 +843,12 @@
 │                       │      │                   statically compiled setuid binaries that call dlopen
 │                       │      │                   (including internal dlopen calls after setlocale or calls to
 │                       │      │                    NSS functions such as getaddrinfo). 
-│                       │      ├ Severity        : HIGH 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-426 
-│                       │      ├ VendorSeverity   ─ redhat: 3 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 8.4 
+│                       │      │                           ╰ V3Score : 7 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/16/7 
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/17/2 
 │                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-4802 
@@ -883,12 +883,12 @@
 │                       │      │                   statically compiled setuid binaries that call dlopen
 │                       │      │                   (including internal dlopen calls after setlocale or calls to
 │                       │      │                    NSS functions such as getaddrinfo). 
-│                       │      ├ Severity        : HIGH 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-426 
-│                       │      ├ VendorSeverity   ─ redhat: 3 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 8.4 
+│                       │      │                           ╰ V3Score : 7 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/16/7 
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/17/2 
 │                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-4802 
@@ -923,12 +923,12 @@
 │                       │      │                   statically compiled setuid binaries that call dlopen
 │                       │      │                   (including internal dlopen calls after setlocale or calls to
 │                       │      │                    NSS functions such as getaddrinfo). 
-│                       │      ├ Severity        : HIGH 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-426 
-│                       │      ├ VendorSeverity   ─ redhat: 3 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 8.4 
+│                       │      │                           ╰ V3Score : 7 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/16/7 
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/17/2 
 │                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-4802 
@@ -963,12 +963,12 @@
 │                       │      │                   statically compiled setuid binaries that call dlopen
 │                       │      │                   (including internal dlopen calls after setlocale or calls to
 │                       │      │                    NSS functions such as getaddrinfo). 
-│                       │      ├ Severity        : HIGH 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-426 
-│                       │      ├ VendorSeverity   ─ redhat: 3 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 8.4 
+│                       │      │                           ╰ V3Score : 7 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/16/7 
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/17/2 
 │                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-4802 
@@ -1150,7 +1150,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T08:53:46.35Z 
+│                       │      ╰ LastModifiedDate: 2025-05-21T19:46:21.953Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2025-31344 
 │                       │      ├ PkgID           : java-21-openjdk-headless@21.0.7.0.6-1.el9.x86_64 
 │                       │      ├ PkgName         : java-21-openjdk-headless 
