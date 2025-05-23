@@ -636,7 +636,7 @@
     - https://github.com/libexpat/libexpat/issues/893
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
     - https://linux.oracle.com/cve/CVE-2024-8176.html
-    - https://linux.oracle.com/errata/ELSA-2025-4048.html
+    - https://linux.oracle.com/errata/ELSA-2025-7444.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8176
     - https://security-tracker.debian.org/tracker/CVE-2024-8176
     - https://security.netapp.com/advisory/ntap-20250328-0009/
@@ -870,15 +870,15 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
     Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
     Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
-    Severity: HIGH
+    Severity: MEDIUM
     CweIDs:
     - CWE-426
     VendorSeverity:
-      redhat: 3
+      redhat: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.4
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
@@ -906,15 +906,15 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
     Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
     Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
-    Severity: HIGH
+    Severity: MEDIUM
     CweIDs:
     - CWE-426
     VendorSeverity:
-      redhat: 3
+      redhat: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.4
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
@@ -942,15 +942,15 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
     Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
     Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
-    Severity: HIGH
+    Severity: MEDIUM
     CweIDs:
     - CWE-426
     VendorSeverity:
-      redhat: 3
+      redhat: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.4
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
@@ -978,15 +978,15 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
     Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
     Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
-    Severity: HIGH
+    Severity: MEDIUM
     CweIDs:
     - CWE-426
     VendorSeverity:
-      redhat: 3
+      redhat: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.4
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
@@ -1118,7 +1118,7 @@
     - https://errata.almalinux.org/8/ALSA-2025-4051.html
     - https://gitlab.com/gnutls/libtasn1/-/issues/52
     - https://linux.oracle.com/cve/CVE-2024-12243.html
-    - https://linux.oracle.com/errata/ELSA-2025-4051.html
+    - https://linux.oracle.com/errata/ELSA-2025-7076.html
     - https://lists.debian.org/debian-lts-announce/2025/02/msg00027.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-February/004875.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12243
@@ -1190,7 +1190,7 @@
     - https://www.oracle.com/security-alerts/cpuapr2024.html
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
     PublishedDate: '2024-04-16T22:15:29.857Z'
-    LastModifiedDate: '2024-11-21T08:53:46.35Z'
+    LastModifiedDate: '2025-05-21T19:46:21.953Z'
   - VulnerabilityID: CVE-2025-31344
     PkgID: java-21-openjdk-headless@21.0.7.0.6-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -1275,7 +1275,7 @@
     - https://errata.rockylinux.org/RLSA-2025:2722
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
     - https://linux.oracle.com/cve/CVE-2025-24528.html
-    - https://linux.oracle.com/errata/ELSA-2025-2722.html
+    - https://linux.oracle.com/errata/ELSA-2025-7067.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
     - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24528
@@ -1926,7 +1926,7 @@
     - https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/security/CVE-2024-12133.md?ref_type=heads
     - https://gitlab.com/gnutls/libtasn1/-/issues/52
     - https://linux.oracle.com/cve/CVE-2024-12133.html
-    - https://linux.oracle.com/errata/ELSA-2025-4049.html
+    - https://linux.oracle.com/errata/ELSA-2025-7077.html
     - https://lists.debian.org/debian-lts-announce/2025/02/msg00025.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12133
     - https://ubuntu.com/security/notices/USN-7275-1
@@ -3447,6 +3447,7 @@
       amazon: 2
       azure: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3463,10 +3464,13 @@
     - https://github.com/python/cpython/commit/ff4e5c25666f63544071a6b075ae8b25c98b7a32
     - https://github.com/python/cpython/issues/105704
     - https://github.com/python/cpython/pull/129418
+    - https://linux.oracle.com/cve/CVE-2025-0938.html
+    - https://linux.oracle.com/errata/ELSA-2025-7109.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
     - https://security.netapp.com/advisory/ntap-20250314-0002/
     - https://ubuntu.com/security/notices/USN-7280-1
+    - https://ubuntu.com/security/notices/USN-7280-2
     - https://ubuntu.com/security/notices/USN-7348-1
     - https://ubuntu.com/security/notices/USN-7348-2
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
@@ -3753,6 +3757,7 @@
       amazon: 2
       azure: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3769,10 +3774,13 @@
     - https://github.com/python/cpython/commit/ff4e5c25666f63544071a6b075ae8b25c98b7a32
     - https://github.com/python/cpython/issues/105704
     - https://github.com/python/cpython/pull/129418
+    - https://linux.oracle.com/cve/CVE-2025-0938.html
+    - https://linux.oracle.com/errata/ELSA-2025-7109.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
     - https://security.netapp.com/advisory/ntap-20250314-0002/
     - https://ubuntu.com/security/notices/USN-7280-1
+    - https://ubuntu.com/security/notices/USN-7280-2
     - https://ubuntu.com/security/notices/USN-7348-1
     - https://ubuntu.com/security/notices/USN-7348-2
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
@@ -4059,6 +4067,7 @@
       amazon: 2
       azure: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -4075,10 +4084,13 @@
     - https://github.com/python/cpython/commit/ff4e5c25666f63544071a6b075ae8b25c98b7a32
     - https://github.com/python/cpython/issues/105704
     - https://github.com/python/cpython/pull/129418
+    - https://linux.oracle.com/cve/CVE-2025-0938.html
+    - https://linux.oracle.com/errata/ELSA-2025-7109.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
     - https://security.netapp.com/advisory/ntap-20250314-0002/
     - https://ubuntu.com/security/notices/USN-7280-1
+    - https://ubuntu.com/security/notices/USN-7280-2
     - https://ubuntu.com/security/notices/USN-7348-1
     - https://ubuntu.com/security/notices/USN-7348-2
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
