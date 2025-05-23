@@ -761,15 +761,15 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
     Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
     Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
-    Severity: HIGH
+    Severity: MEDIUM
     CweIDs:
     - CWE-426
     VendorSeverity:
-      redhat: 3
+      redhat: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.4
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
@@ -797,15 +797,15 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
     Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
     Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
-    Severity: HIGH
+    Severity: MEDIUM
     CweIDs:
     - CWE-426
     VendorSeverity:
-      redhat: 3
+      redhat: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.4
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
@@ -833,15 +833,15 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
     Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
     Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
-    Severity: HIGH
+    Severity: MEDIUM
     CweIDs:
     - CWE-426
     VendorSeverity:
-      redhat: 3
+      redhat: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.4
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
@@ -869,15 +869,15 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
     Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
     Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
-    Severity: HIGH
+    Severity: MEDIUM
     CweIDs:
     - CWE-426
     VendorSeverity:
-      redhat: 3
+      redhat: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.4
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
@@ -1028,7 +1028,7 @@
     - https://www.oracle.com/security-alerts/cpuapr2024.html
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
     PublishedDate: '2024-04-16T22:15:29.857Z'
-    LastModifiedDate: '2024-11-21T08:53:46.35Z'
+    LastModifiedDate: '2025-05-21T19:46:21.953Z'
   - VulnerabilityID: CVE-2025-31344
     PkgID: java-21-openjdk-headless@21.0.7.0.6-1.el9.x86_64
     PkgName: java-21-openjdk-headless
