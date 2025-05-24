@@ -91,6 +91,7 @@
       amazon: 2
       azure: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -105,6 +106,8 @@
     - https://errata.almalinux.org/9/ALSA-2025-7437.html
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-r9j3-vjjh-p8vm
+    - https://linux.oracle.com/cve/CVE-2024-52616.html
+    - https://linux.oracle.com/errata/ELSA-2025-7437.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52616
     - https://www.cve.org/CVERecord?id=CVE-2024-52616
     PublishedDate: '2024-11-21T21:15:24.14Z'
@@ -1122,11 +1125,12 @@
     - https://lists.debian.org/debian-lts-announce/2025/02/msg00027.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-February/004875.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12243
+    - https://security.netapp.com/advisory/ntap-20250523-0002/
     - https://ubuntu.com/security/notices/USN-7281-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12243
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-02-07
     PublishedDate: '2025-02-10T16:15:37.423Z'
-    LastModifiedDate: '2025-05-21T00:15:21.7Z'
+    LastModifiedDate: '2025-05-23T14:15:25.293Z'
   - VulnerabilityID: CVE-2024-21094
     PkgID: java-21-openjdk-headless@21.0.7.0.6-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -1408,7 +1412,7 @@
     VendorSeverity:
       azure: 1
       nvd: 2
-      photon: 2
+      photon: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1929,11 +1933,12 @@
     - https://linux.oracle.com/errata/ELSA-2025-7077.html
     - https://lists.debian.org/debian-lts-announce/2025/02/msg00025.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12133
+    - https://security.netapp.com/advisory/ntap-20250523-0003/
     - https://ubuntu.com/security/notices/USN-7275-1
     - https://ubuntu.com/security/notices/USN-7275-2
     - https://www.cve.org/CVERecord?id=CVE-2024-12133
     PublishedDate: '2025-02-10T16:15:37.26Z'
-    LastModifiedDate: '2025-05-20T23:15:18.927Z'
+    LastModifiedDate: '2025-05-23T14:15:24.51Z'
   - VulnerabilityID: CVE-2025-32414
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
