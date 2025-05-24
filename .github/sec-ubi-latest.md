@@ -98,22 +98,25 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7437 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52616 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2326429 
-│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2025-7437.html 
-│                       │      │                  ├ [5]: https://github.com/avahi/avahi/issues/254#issuecomment
-│                       │      │                  │      -2480519212 
-│                       │      │                  ├ [6]: https://github.com/avahi/avahi/security/advisories/GHS
-│                       │      │                  │      A-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7437 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52616 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2326429 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-7437.html 
+│                       │      │                  ├ [5] : https://github.com/avahi/avahi/issues/254#issuecommen
+│                       │      │                  │       t-2480519212 
+│                       │      │                  ├ [6] : https://github.com/avahi/avahi/security/advisories/GH
+│                       │      │                  │       SA-r9j3-vjjh-p8vm 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-52616.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7437.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
 │                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2017-6519 
@@ -1233,12 +1236,14 @@
 │                       │      │                  ├ [11]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Fe
 │                       │      │                  │       bruary/004875.html 
 │                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-12243 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7281-1 
-│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
-│                       │      │                  ╰ [15]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
+│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250523-00
+│                       │      │                  │       02/ 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7281-1 
+│                       │      │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
+│                       │      │                  ╰ [16]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
 │                       │      │                          25-02-07 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.423Z 
-│                       │      ╰ LastModifiedDate: 2025-05-21T00:15:21.7Z 
+│                       │      ╰ LastModifiedDate: 2025-05-23T14:15:25.293Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : java-21-openjdk-headless@21.0.7.0.6-1.el9.x86_64 
 │                       │      ├ PkgName         : java-21-openjdk-headless 
@@ -1568,7 +1573,7 @@
 │                       │      │                  ╰ [1]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ azure : 1 
 │                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ photon: 1 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
@@ -2120,11 +2125,13 @@
 │                       │      │                  ├ [10]: https://lists.debian.org/debian-lts-announce/2025/02/
 │                       │      │                  │       msg00025.html 
 │                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7275-1 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7275-2 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
+│                       │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250523-00
+│                       │      │                  │       03/ 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7275-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7275-2 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.26Z 
-│                       │      ╰ LastModifiedDate: 2025-05-20T23:15:18.927Z 
+│                       │      ╰ LastModifiedDate: 2025-05-23T14:15:24.51Z 
 │                       ├ [38] ╭ VulnerabilityID : CVE-2025-32414 
 │                       │      ├ PkgID           : libxml2@2.9.13-6.el9_5.2.x86_64 
 │                       │      ├ PkgName         : libxml2 
