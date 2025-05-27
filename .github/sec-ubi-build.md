@@ -291,7 +291,7 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-11053 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -344,7 +344,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-11053.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
 │                       │      │                  ├ [55]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [56]: https://linux.oracle.com/cve/CVE-2024-11053.html 
 │                       │      │                  ├ [57]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
@@ -407,7 +407,7 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/31/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-7264 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -460,7 +460,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-7264.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
 │                       │      │                  ├ [55]: https://github.com/curl/curl/commit/27959ecce75cdb280
 │                       │      │                  │       9c0bdb3286e60e08fadb519 
 │                       │      │                  ├ [56]: https://hackerone.com/reports/2629968 
@@ -715,14 +715,21 @@
 │                       │      │                   position will overflow, leading to a buffer underwrite. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-124 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-4373 
 │                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
+│                       │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
+│                       │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4
+│                       │      │                  │      588 
+│                       │      │                  ├ [4]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4
+│                       │      │                  │      592 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7532-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
 │                       │      ├ PublishedDate   : 2025-05-06T15:16:05.32Z 
 │                       │      ╰ LastModifiedDate: 2025-05-07T14:13:20.483Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2023-32636 
@@ -1131,7 +1138,7 @@
 │                       │      │                  │       24-21085 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21094 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-1825.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:1822 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21094.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-1825.html 
@@ -1400,7 +1407,7 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-11053 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -1453,7 +1460,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-11053.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
 │                       │      │                  ├ [55]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [56]: https://linux.oracle.com/cve/CVE-2024-11053.html 
 │                       │      │                  ├ [57]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
@@ -1516,7 +1523,7 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/31/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-7264 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -1569,7 +1576,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-7264.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
 │                       │      │                  ├ [55]: https://github.com/curl/curl/commit/27959ecce75cdb280
 │                       │      │                  │       9c0bdb3286e60e08fadb519 
 │                       │      │                  ├ [56]: https://hackerone.com/reports/2629968 
@@ -2104,7 +2111,7 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1141 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0894 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-4899 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2179864 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2188109 
@@ -2181,7 +2188,7 @@
 │                       │      │                  ├ [74]: https://bugzilla.redhat.com/2258792 
 │                       │      │                  ├ [75]: https://bugzilla.redhat.com/2258793 
 │                       │      │                  ├ [76]: https://bugzilla.redhat.com/2258794 
-│                       │      │                  ├ [77]: https://errata.almalinux.org/9/ALSA-2024-1141.html 
+│                       │      │                  ├ [77]: https://errata.almalinux.org/8/ALSA-2024-0894.html 
 │                       │      │                  ├ [78]: https://github.com/facebook/zstd 
 │                       │      │                  ├ [79]: https://github.com/facebook/zstd/issues/3200 
 │                       │      │                  ├ [80]: https://github.com/facebook/zstd/pull/3220 
@@ -4715,87 +4722,45 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │      ╰ LastModifiedDate: 2025-04-03T01:03:51.193Z 
-│                       ├ [83] ╭ VulnerabilityID : CVE-2023-39804 
-│                       │      ├ PkgID           : tar@1.34-7.el9.x86_64 
-│                       │      ├ PkgName         : tar 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
-│                       │      │                  │       at-9.6&epoch=2 
-│                       │      │                  ╰ UID : d3f994a29fbe5f91 
-│                       │      ├ InstalledVersion: 2:1.34-7.el9 
-│                       │      ├ Status          : will_not_fix 
-│                       │      ├ Layer            ╭ Digest: sha256:f5e9d388a8a9620e2b7622a5c1b7027bf634480cb52d
-│                       │      │                  │         23ad19f56ca758db5e08 
-│                       │      │                  ╰ DiffID: sha256:6085cde44c90400415556c606c512ab9a619bc2d28e6
-│                       │      │                            839fa2a64d95b193ee36 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39804 
-│                       │      ├ Title           : tar: Incorrectly handled extension attributes in PAX
-│                       │      │                   archives can lead to a crash 
-│                       │      ├ Description     : In GNU tar before 1.35, mishandled extension attributes in a
-│                       │      │                    PAX archive can lead to an application crash in xheader.c. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ amazon     : 1 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ photon     : 1 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 3.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-39804 
-│                       │      │                  ├ [1]: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1058
-│                       │      │                  │      079 
-│                       │      │                  ├ [2]: https://git.savannah.gnu.org/cgit/tar.git/commit/?id=a
-│                       │      │                  │      339f05cd269013fa133d2f148d73f6f7d4247e4 
-│                       │      │                  ├ [3]: https://git.savannah.gnu.org/cgit/tar.git/tree/src/xhe
-│                       │      │                  │      ader.c?h=release_1_34#n1723 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-39804 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6543-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-39804 
-│                       │      ├ PublishedDate   : 2024-03-27T04:15:08.897Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T08:15:56.95Z 
-│                       ╰ [84] ╭ VulnerabilityID : CVE-2025-4638 
-│                              ├ PkgID           : zlib@1.2.11-40.el9.x86_64 
-│                              ├ PkgName         : zlib 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/zlib@1.2.11-40.el9?arch=x86_64&distro=
-│                              │                  │       redhat-9.6 
-│                              │                  ╰ UID : ac3e44507ded7338 
-│                              ├ InstalledVersion: 1.2.11-40.el9 
-│                              ├ Status          : affected 
+│                       ╰ [83] ╭ VulnerabilityID : CVE-2023-39804 
+│                              ├ PkgID           : tar@1.34-7.el9.x86_64 
+│                              ├ PkgName         : tar 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
+│                              │                  │       at-9.6&epoch=2 
+│                              │                  ╰ UID : d3f994a29fbe5f91 
+│                              ├ InstalledVersion: 2:1.34-7.el9 
+│                              ├ Status          : will_not_fix 
 │                              ├ Layer            ╭ Digest: sha256:f5e9d388a8a9620e2b7622a5c1b7027bf634480cb52d
 │                              │                  │         23ad19f56ca758db5e08 
 │                              │                  ╰ DiffID: sha256:6085cde44c90400415556c606c512ab9a619bc2d28e6
 │                              │                            839fa2a64d95b193ee36 
 │                              ├ SeveritySource  : redhat 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4638 
-│                              ├ Title           : pcl: zlib: Improper Pointer Arithmetic in pcl 
-│                              ├ Description     : A vulnerability exists in the inftrees.c component of the
-│                              │                   zlib library, which is bundled within the PointCloudLibrary
-│                              │                   (PCL). This issue may allow context-dependent attackers to
-│                              │                   cause undefined behavior by exploiting improper pointer
-│                              │                   arithmetic.
-│                              │                   
-│                              │                   Since version 1.14.0, PCL by default uses a zlib
-│                              │                   installation from the system, unless the user sets
-│                              │                   WITH_SYSTEM_ZLIB=FALSE. So this potential vulnerability is
-│                              │                   only relevant if the PCL version is older than 1.14.0 or the
-│                              │                    user specifically requests to not use the system zlib. 
-│                              ├ Severity        : HIGH 
-│                              ├ CweIDs           ─ [0]: CWE-119 
-│                              ├ VendorSeverity   ─ redhat: 3 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
-│                              │                           │           /A:H 
-│                              │                           ╰ V3Score : 8.1 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-4638 
-│                              │                  ├ [1]: https://github.com/PointCloudLibrary/pcl/blob/master/s
-│                              │                  │      urface/CMakeLists.txt#L70 
-│                              │                  ├ [2]: https://github.com/PointCloudLibrary/pcl/commit/502bd2
-│                              │                  │      b013ce635f21632d523aa8cf2e04f7b7ac 
-│                              │                  ├ [3]: https://github.com/PointCloudLibrary/pcl/pull/6245 
-│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-4638 
-│                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-4638 
-│                              ├ PublishedDate   : 2025-05-14T18:15:33.597Z 
-│                              ╰ LastModifiedDate: 2025-05-16T14:43:56.797Z 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39804 
+│                              ├ Title           : tar: Incorrectly handled extension attributes in PAX
+│                              │                   archives can lead to a crash 
+│                              ├ Description     : In GNU tar before 1.35, mishandled extension attributes in a
+│                              │                    PAX archive can lead to an application crash in xheader.c. 
+│                              ├ Severity        : LOW 
+│                              ├ VendorSeverity   ╭ amazon     : 1 
+│                              │                  ├ cbl-mariner: 2 
+│                              │                  ├ photon     : 1 
+│                              │                  ├ redhat     : 1 
+│                              │                  ╰ ubuntu     : 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                              │                           │           /A:L 
+│                              │                           ╰ V3Score : 3.3 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-39804 
+│                              │                  ├ [1]: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1058
+│                              │                  │      079 
+│                              │                  ├ [2]: https://git.savannah.gnu.org/cgit/tar.git/commit/?id=a
+│                              │                  │      339f05cd269013fa133d2f148d73f6f7d4247e4 
+│                              │                  ├ [3]: https://git.savannah.gnu.org/cgit/tar.git/tree/src/xhe
+│                              │                  │      ader.c?h=release_1_34#n1723 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-39804 
+│                              │                  ├ [5]: https://ubuntu.com/security/notices/USN-6543-1 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-39804 
+│                              ├ PublishedDate   : 2024-03-27T04:15:08.897Z 
+│                              ╰ LastModifiedDate: 2024-11-21T08:15:56.95Z 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 
