@@ -117,6 +117,19 @@
     - https://www.secfu.net/advisories
     PublishedDate: '2017-05-01T01:59:00.297Z'
     LastModifiedDate: '2025-04-20T01:37:25.86Z'
+  - VulnerabilityID: CVE-2025-5278
+    PkgID: coreutils-single@8.32-39.el9.x86_64
+    PkgName: coreutils-single
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/coreutils-single@8.32-39.el9?arch=x86_64&distro=redhat-9.6
+      UID: b1ac0513a2856758
+    InstalledVersion: 8.32-39.el9
+    Status: affected
+    Layer:
+      Digest: sha256:f5e9d388a8a9620e2b7622a5c1b7027bf634480cb52d23ad19f56ca758db5e08
+      DiffID: sha256:6085cde44c90400415556c606c512ab9a619bc2d28e6839fa2a64d95b193ee36
+    SeveritySource: redhat
+    Severity: MEDIUM
   - VulnerabilityID: CVE-2023-4504
     PkgID: cups-libs@2.3.3op2-33.el9.x86_64
     PkgName: cups-libs
@@ -248,7 +261,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -301,7 +314,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -359,7 +372,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -412,7 +425,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -1017,7 +1030,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1266,7 +1279,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1319,7 +1332,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -1377,7 +1390,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1430,7 +1443,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -1932,7 +1945,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0894
+    - https://access.redhat.com/errata/RHSA-2024:1141
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -2009,7 +2022,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/8/ALSA-2024-0894.html
+    - https://errata.almalinux.org/9/ALSA-2024-1141.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
