@@ -129,7 +129,26 @@
       Digest: sha256:f5e9d388a8a9620e2b7622a5c1b7027bf634480cb52d23ad19f56ca758db5e08
       DiffID: sha256:6085cde44c90400415556c606c512ab9a619bc2d28e6839fa2a64d95b193ee36
     SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5278
+    Title: 'coreutils: Heap Buffer Under-Read in GNU Coreutils sort via Key Specification'
+    Description: A flaw was found in GNU Coreutils. The sort utility's begfield() function is vulnerable to a heap buffer under-read. The program may access memory outside the allocated buffer if a user runs a crafted command using the traditional key format. A malicious input could lead to a crash or leak sensitive data.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L
+        V3Score: 4.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/27/2
+    - https://access.redhat.com/security/cve/CVE-2025-5278
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2368764
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5278
+    - https://www.cve.org/CVERecord?id=CVE-2025-5278
+    PublishedDate: '2025-05-27T21:15:23.197Z'
+    LastModifiedDate: '2025-05-28T15:01:30.72Z'
   - VulnerabilityID: CVE-2023-4504
     PkgID: cups-libs@2.3.3op2-33.el9.x86_64
     PkgName: cups-libs
@@ -784,6 +803,7 @@
     - CWE-426
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
@@ -795,6 +815,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
     - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://sourceware.org/cgit/glibc/commit/?id=5451fa962cd0a90a0e2ec1d8910a559ace02bba0
+    - https://ubuntu.com/security/notices/USN-7541-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4802
     - https://www.openwall.com/lists/oss-security/2025/05/16/7
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
@@ -820,6 +842,7 @@
     - CWE-426
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
@@ -831,6 +854,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
     - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://sourceware.org/cgit/glibc/commit/?id=5451fa962cd0a90a0e2ec1d8910a559ace02bba0
+    - https://ubuntu.com/security/notices/USN-7541-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4802
     - https://www.openwall.com/lists/oss-security/2025/05/16/7
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
@@ -856,6 +881,7 @@
     - CWE-426
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
@@ -867,6 +893,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
     - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://sourceware.org/cgit/glibc/commit/?id=5451fa962cd0a90a0e2ec1d8910a559ace02bba0
+    - https://ubuntu.com/security/notices/USN-7541-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4802
     - https://www.openwall.com/lists/oss-security/2025/05/16/7
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
@@ -892,6 +920,7 @@
     - CWE-426
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
@@ -903,6 +932,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
     - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://sourceware.org/cgit/glibc/commit/?id=5451fa962cd0a90a0e2ec1d8910a559ace02bba0
+    - https://ubuntu.com/security/notices/USN-7541-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4802
     - https://www.openwall.com/lists/oss-security/2025/05/16/7
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
@@ -1718,6 +1749,7 @@
     - CWE-252
     VendorSeverity:
       amazon: 2
+      azure: 2
       nvd: 3
       photon: 3
       redhat: 2
@@ -1886,6 +1918,7 @@
     - CWE-125
     VendorSeverity:
       amazon: 2
+      azure: 1
       nvd: 3
       photon: 1
       redhat: 1
@@ -1906,142 +1939,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-32415
     PublishedDate: '2025-04-17T17:15:33.733Z'
     LastModifiedDate: '2025-04-23T18:17:52.053Z'
-  - VulnerabilityID: CVE-2022-4899
-    PkgID: libzstd@1.5.5-1.el9.x86_64
-    PkgName: libzstd
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libzstd@1.5.5-1.el9?arch=x86_64&distro=redhat-9.6
-      UID: 3de3cba9c31ba31f
-    InstalledVersion: 1.5.5-1.el9
-    Status: will_not_fix
-    Layer:
-      Digest: sha256:f5e9d388a8a9620e2b7622a5c1b7027bf634480cb52d23ad19f56ca758db5e08
-      DiffID: sha256:6085cde44c90400415556c606c512ab9a619bc2d28e6839fa2a64d95b193ee36
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4899
-    Title: 'zstd: mysql: buffer overrun in util.c'
-    Description: A vulnerability was found in zstd v1.4.10, where an attacker can supply empty string as an argument to the command line tool to cause buffer overrun.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-400
-    VendorSeverity:
-      alma: 2
-      amazon: 2
-      cbl-mariner: 3
-      ghsa: 3
-      nvd: 3
-      oracle-oval: 2
-      photon: 3
-      redhat: 2
-      ubuntu: 1
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
-    - https://access.redhat.com/security/cve/CVE-2022-4899
-    - https://bugzilla.redhat.com/2179864
-    - https://bugzilla.redhat.com/2188109
-    - https://bugzilla.redhat.com/2188113
-    - https://bugzilla.redhat.com/2188115
-    - https://bugzilla.redhat.com/2188116
-    - https://bugzilla.redhat.com/2188117
-    - https://bugzilla.redhat.com/2188118
-    - https://bugzilla.redhat.com/2188119
-    - https://bugzilla.redhat.com/2188120
-    - https://bugzilla.redhat.com/2188121
-    - https://bugzilla.redhat.com/2188122
-    - https://bugzilla.redhat.com/2188123
-    - https://bugzilla.redhat.com/2188124
-    - https://bugzilla.redhat.com/2188125
-    - https://bugzilla.redhat.com/2188127
-    - https://bugzilla.redhat.com/2188128
-    - https://bugzilla.redhat.com/2188129
-    - https://bugzilla.redhat.com/2188130
-    - https://bugzilla.redhat.com/2188131
-    - https://bugzilla.redhat.com/2188132
-    - https://bugzilla.redhat.com/2224211
-    - https://bugzilla.redhat.com/2224212
-    - https://bugzilla.redhat.com/2224213
-    - https://bugzilla.redhat.com/2224214
-    - https://bugzilla.redhat.com/2224215
-    - https://bugzilla.redhat.com/2224216
-    - https://bugzilla.redhat.com/2224217
-    - https://bugzilla.redhat.com/2224218
-    - https://bugzilla.redhat.com/2224219
-    - https://bugzilla.redhat.com/2224220
-    - https://bugzilla.redhat.com/2224221
-    - https://bugzilla.redhat.com/2224222
-    - https://bugzilla.redhat.com/2245014
-    - https://bugzilla.redhat.com/2245015
-    - https://bugzilla.redhat.com/2245016
-    - https://bugzilla.redhat.com/2245017
-    - https://bugzilla.redhat.com/2245018
-    - https://bugzilla.redhat.com/2245019
-    - https://bugzilla.redhat.com/2245020
-    - https://bugzilla.redhat.com/2245021
-    - https://bugzilla.redhat.com/2245022
-    - https://bugzilla.redhat.com/2245023
-    - https://bugzilla.redhat.com/2245024
-    - https://bugzilla.redhat.com/2245026
-    - https://bugzilla.redhat.com/2245027
-    - https://bugzilla.redhat.com/2245028
-    - https://bugzilla.redhat.com/2245029
-    - https://bugzilla.redhat.com/2245030
-    - https://bugzilla.redhat.com/2245031
-    - https://bugzilla.redhat.com/2245032
-    - https://bugzilla.redhat.com/2245033
-    - https://bugzilla.redhat.com/2245034
-    - https://bugzilla.redhat.com/2258771
-    - https://bugzilla.redhat.com/2258772
-    - https://bugzilla.redhat.com/2258773
-    - https://bugzilla.redhat.com/2258774
-    - https://bugzilla.redhat.com/2258775
-    - https://bugzilla.redhat.com/2258776
-    - https://bugzilla.redhat.com/2258777
-    - https://bugzilla.redhat.com/2258778
-    - https://bugzilla.redhat.com/2258779
-    - https://bugzilla.redhat.com/2258780
-    - https://bugzilla.redhat.com/2258781
-    - https://bugzilla.redhat.com/2258782
-    - https://bugzilla.redhat.com/2258783
-    - https://bugzilla.redhat.com/2258784
-    - https://bugzilla.redhat.com/2258785
-    - https://bugzilla.redhat.com/2258787
-    - https://bugzilla.redhat.com/2258788
-    - https://bugzilla.redhat.com/2258789
-    - https://bugzilla.redhat.com/2258790
-    - https://bugzilla.redhat.com/2258791
-    - https://bugzilla.redhat.com/2258792
-    - https://bugzilla.redhat.com/2258793
-    - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
-    - https://github.com/facebook/zstd
-    - https://github.com/facebook/zstd/issues/3200
-    - https://github.com/facebook/zstd/pull/3220
-    - https://github.com/pypa/advisory-database/tree/main/vulns/zstd/PYSEC-2023-121.yaml
-    - https://github.com/sergey-dryabzhinsky/python-zstd/commit/c8a619aebdbd6b838fbfef6e19325a70f631a4c6
-    - https://linux.oracle.com/cve/CVE-2022-4899.html
-    - https://linux.oracle.com/errata/ELSA-2024-1141.html
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C63HAGVLQA6FJNDCHR7CNZZL6VSLILB2/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JEHRBBYYTPA4DETOM5XAKGCP37NUTLOA/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QYLDK6ODVC4LJSDULLX6Q2YHTFOWABCN/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/C63HAGVLQA6FJNDCHR7CNZZL6VSLILB2
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JEHRBBYYTPA4DETOM5XAKGCP37NUTLOA
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QYLDK6ODVC4LJSDULLX6Q2YHTFOWABCN
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-4899
-    - https://security.netapp.com/advisory/ntap-20230725-0005
-    - https://security.netapp.com/advisory/ntap-20230725-0005/
-    - https://www.cve.org/CVERecord?id=CVE-2022-4899
-    PublishedDate: '2023-03-31T20:15:07.213Z'
-    LastModifiedDate: '2025-02-18T18:15:14.023Z'
   - VulnerabilityID: CVE-2022-29458
     PkgID: ncurses-base@6.2-10.20210508.el9.noarch
     PkgName: ncurses-base
@@ -3946,12 +3843,12 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
     Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
-    Severity: LOW
+    Severity: MEDIUM
     CweIDs:
     - CWE-1188
     VendorSeverity:
       azure: 1
-      redhat: 1
+      redhat: 2
       ubuntu: 1
     CVSS:
       redhat:
