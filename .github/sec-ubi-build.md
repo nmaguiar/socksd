@@ -158,12 +158,20 @@
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.4 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/27/2 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5278 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2368764 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-5278 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-5278 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/29/1 
+│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-5278 
+│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2368764 
+│                       │      │                  ├ [4]: https://cgit.git.savannah.gnu.org/cgit/coreutils.git/c
+│                       │      │                  │      ommit/?id=8c9602e3a145e9596dc1a63c6ed67865814b6633 
+│                       │      │                  ├ [5]: https://cgit.git.savannah.gnu.org/cgit/coreutils.git/t
+│                       │      │                  │      ree/NEWS?id=8c9602e3a145e9596dc1a63c6ed67865814b6633#n
+│                       │      │                  │      14 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5278 
+│                       │      │                  ├ [7]: https://security-tracker.debian.org/tracker/CVE-2025-5
+│                       │      │                  │      278 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-5278 
 │                       │      ├ PublishedDate   : 2025-05-27T21:15:23.197Z 
-│                       │      ╰ LastModifiedDate: 2025-05-28T15:01:30.72Z 
+│                       │      ╰ LastModifiedDate: 2025-05-29T16:15:41.723Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2023-4504 
 │                       │      ├ PkgID           : cups-libs@2.3.3op2-33.el9.x86_64 
 │                       │      ├ PkgName         : cups-libs 
@@ -1294,7 +1302,8 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3576 
 │                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7542-1 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
 │                       │      ├ PublishedDate   : 2025-04-15T06:15:44.047Z 
 │                       │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2023-30571 
