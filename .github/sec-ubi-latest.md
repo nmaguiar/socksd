@@ -360,18 +360,23 @@
 │                       │      │                            27813797272110c45281 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4947 
-│                       │      ├ Title           : libcurl accidentally skips the certificate verification for
-│                       │      │                   QUIC conne ... 
+│                       │      ├ Title           : libcurl: curl: QUIC certificate check skip with wolfSSL 
 │                       │      ├ Description     : libcurl accidentally skips the certificate verification for
 │                       │      │                   QUIC connections when connecting to a host specified as an
 │                       │      │                   IP address in the URL. Therefore, it does not detect
 │                       │      │                   impostors or man-in-the-middle attacks. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/28/4 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-4947.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-4947.json 
-│                       │      │                  ╰ [3]: https://hackerone.com/reports/3150884 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-4947 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-4947.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-4947.json 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/3150884 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-4947 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-4947 
 │                       │      ├ PublishedDate   : 2025-05-28T07:15:24.78Z 
 │                       │      ╰ LastModifiedDate: 2025-05-28T15:01:30.72Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-11053 
@@ -1712,18 +1717,23 @@
 │                       │      │                            27813797272110c45281 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4947 
-│                       │      ├ Title           : libcurl accidentally skips the certificate verification for
-│                       │      │                   QUIC conne ... 
+│                       │      ├ Title           : libcurl: curl: QUIC certificate check skip with wolfSSL 
 │                       │      ├ Description     : libcurl accidentally skips the certificate verification for
 │                       │      │                   QUIC connections when connecting to a host specified as an
 │                       │      │                   IP address in the URL. Therefore, it does not detect
 │                       │      │                   impostors or man-in-the-middle attacks. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/28/4 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-4947.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-4947.json 
-│                       │      │                  ╰ [3]: https://hackerone.com/reports/3150884 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-4947 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-4947.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-4947.json 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/3150884 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-4947 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-4947 
 │                       │      ├ PublishedDate   : 2025-05-28T07:15:24.78Z 
 │                       │      ╰ LastModifiedDate: 2025-05-28T15:01:30.72Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2024-11053 
