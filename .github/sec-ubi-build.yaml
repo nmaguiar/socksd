@@ -261,16 +261,23 @@
       DiffID: sha256:2b16361faed465aafa7d90f828cf96c83688212a0f7286a168420dd305db2648
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4947
-    Title: libcurl accidentally skips the certificate verification for QUIC conne ...
+    Title: 'libcurl: curl: QUIC certificate check skip with wolfSSL'
     Description: libcurl accidentally skips the certificate verification for QUIC connections when connecting to a host specified as an IP address in the URL. Therefore, it does not detect impostors or man-in-the-middle attacks.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/28/4
+    - https://access.redhat.com/security/cve/CVE-2025-4947
     - https://curl.se/docs/CVE-2025-4947.html
     - https://curl.se/docs/CVE-2025-4947.json
     - https://hackerone.com/reports/3150884
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4947
+    - https://www.cve.org/CVERecord?id=CVE-2025-4947
     PublishedDate: '2025-05-28T07:15:24.78Z'
     LastModifiedDate: '2025-05-28T15:01:30.72Z'
   - VulnerabilityID: CVE-2024-11053
@@ -1318,16 +1325,23 @@
       DiffID: sha256:2b16361faed465aafa7d90f828cf96c83688212a0f7286a168420dd305db2648
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4947
-    Title: libcurl accidentally skips the certificate verification for QUIC conne ...
+    Title: 'libcurl: curl: QUIC certificate check skip with wolfSSL'
     Description: libcurl accidentally skips the certificate verification for QUIC connections when connecting to a host specified as an IP address in the URL. Therefore, it does not detect impostors or man-in-the-middle attacks.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/28/4
+    - https://access.redhat.com/security/cve/CVE-2025-4947
     - https://curl.se/docs/CVE-2025-4947.html
     - https://curl.se/docs/CVE-2025-4947.json
     - https://hackerone.com/reports/3150884
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4947
+    - https://www.cve.org/CVERecord?id=CVE-2025-4947
     PublishedDate: '2025-05-28T07:15:24.78Z'
     LastModifiedDate: '2025-05-28T15:01:30.72Z'
   - VulnerabilityID: CVE-2024-11053
