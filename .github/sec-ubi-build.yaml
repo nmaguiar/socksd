@@ -1948,7 +1948,7 @@
       azure: 1
       cbl-mariner: 1
       nvd: 3
-      photon: 3
+      photon: 1
       redhat: 1
       ubuntu: 2
     CVSS:
