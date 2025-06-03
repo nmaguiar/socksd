@@ -4714,17 +4714,39 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-364 
 │                       │      ├ VendorSeverity   ╭ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.7 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/05/29/3 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4598 
+│                       │      │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
+│                       │      │                  ├ [2] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f2
+│                       │      │                  │       3d422ca8a5a8bdea 
+│                       │      │                  ├ [3] : https://github.com/systemd/systemd/commit/0c49e0049b7
+│                       │      │                  │       665bb7769a13ef346fef92e1ad4d6 (main) 
+│                       │      │                  ├ [4] : https://github.com/systemd/systemd/commit/13902e02532
+│                       │      │                  │       1242b1d95c6d8b4e482b37f58cdef (main) 
+│                       │      │                  ├ [5] : https://github.com/systemd/systemd/commit/49f1f2d4a76
+│                       │      │                  │       12bbed5211a73d11d6a94fbe3bb69 (main) 
+│                       │      │                  ├ [6] : https://github.com/systemd/systemd/commit/76e0ab49c47
+│                       │      │                  │       965877c19772a2b3bf55f6417ca39 (main) 
+│                       │      │                  ├ [7] : https://github.com/systemd/systemd/commit/868d95577ec
+│                       │      │                  │       9f862580ad365726515459be582fc (main) 
+│                       │      │                  ├ [8] : https://github.com/systemd/systemd/commit/8fc7b2a211e
+│                       │      │                  │       b13ef1a94250b28e1c79cab8bdcb9 (main) 
+│                       │      │                  ├ [9] : https://github.com/systemd/systemd/commit/9ce8e3e449d
+│                       │      │                  │       ef92c75ada41b7d10c5bc3946be77 (main) 
+│                       │      │                  ├ [10]: https://github.com/systemd/systemd/commit/e6a8687b939
+│                       │      │                  │       ab21854f12f59a3cce703e32768cf (main) 
+│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-4598.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
+│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                       │      │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/05/2
+│                       │      │                  │       9/3 
+│                       │      │                  ╰ [16]: https://www.qualys.com/2025/05/29/apport-coredump/app
+│                       │      │                          ort-coredump.txt 
 │                       │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │      ╰ LastModifiedDate: 2025-05-30T16:31:03.107Z 
 │                       ├ [85] ╭ VulnerabilityID : CVE-2005-2541 
