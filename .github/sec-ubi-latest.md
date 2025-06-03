@@ -770,30 +770,31 @@
 │                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:4449 
 │                       │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:7444 
 │                       │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:7512 
-│                       │      │                  ├ [11]: https://access.redhat.com/security/cve/CVE-2024-8176 
-│                       │      │                  ├ [12]: https://blog.hartwork.org/posts/expat-2-7-0-released/ 
-│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2310137 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
-│                       │      │                  ├ [15]: https://bugzilla.suse.com/show_bug.cgi?id=1239618 
-│                       │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2025-7444.html 
-│                       │      │                  ├ [17]: https://github.com/libexpat/libexpat/blob/R_2_7_0/exp
+│                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:8385 
+│                       │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2024-8176 
+│                       │      │                  ├ [13]: https://blog.hartwork.org/posts/expat-2-7-0-released/ 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2310137 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
+│                       │      │                  ├ [16]: https://bugzilla.suse.com/show_bug.cgi?id=1239618 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-7444.html 
+│                       │      │                  ├ [18]: https://github.com/libexpat/libexpat/blob/R_2_7_0/exp
 │                       │      │                  │       at/Changes#L40-L52 
-│                       │      │                  ├ [18]: https://github.com/libexpat/libexpat/issues/893 
-│                       │      │                  ├ [19]: https://gitlab.alpinelinux.org/alpine/aports/-/commit
+│                       │      │                  ├ [19]: https://github.com/libexpat/libexpat/issues/893 
+│                       │      │                  ├ [20]: https://gitlab.alpinelinux.org/alpine/aports/-/commit
 │                       │      │                  │       /d068c3ff36fc6f4789988a09c69b434db757db53 
-│                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2024-8176.html 
-│                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2025-7444.html 
-│                       │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
-│                       │      │                  ├ [23]: https://security-tracker.debian.org/tracker/CVE-2024-
+│                       │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2024-8176.html 
+│                       │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-7444.html 
+│                       │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
+│                       │      │                  ├ [24]: https://security-tracker.debian.org/tracker/CVE-2024-
 │                       │      │                  │       8176 
-│                       │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20250328-00
+│                       │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-20250328-00
 │                       │      │                  │       09/ 
-│                       │      │                  ├ [25]: https://ubuntu.com/security/CVE-2024-8176 
-│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7424-1 
-│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
-│                       │      │                  ╰ [28]: https://www.kb.cert.org/vuls/id/760160 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/CVE-2024-8176 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7424-1 
+│                       │      │                  ├ [28]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                       │      │                  ╰ [29]: https://www.kb.cert.org/vuls/id/760160 
 │                       │      ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
-│                       │      ╰ LastModifiedDate: 2025-05-13T23:15:21.95Z 
+│                       │      ╰ LastModifiedDate: 2025-06-02T15:15:32.773Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2023-4156 
 │                       │      ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
 │                       │      ├ PkgName         : gawk 
@@ -1332,26 +1333,27 @@
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:4051 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:7076 
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:8020 
-│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-12243 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2344615 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2344615 
-│                       │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2025-4051.html 
-│                       │      │                  ├ [7] : https://gitlab.com/gnutls/libtasn1/-/issues/52 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-12243.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7076.html 
-│                       │      │                  ├ [10]: https://lists.debian.org/debian-lts-announce/2025/02/
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:8385 
+│                       │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-12243 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2344615 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2344615 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2025-4051.html 
+│                       │      │                  ├ [8] : https://gitlab.com/gnutls/libtasn1/-/issues/52 
+│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-12243.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7076.html 
+│                       │      │                  ├ [11]: https://lists.debian.org/debian-lts-announce/2025/02/
 │                       │      │                  │       msg00027.html 
-│                       │      │                  ├ [11]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Fe
+│                       │      │                  ├ [12]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Fe
 │                       │      │                  │       bruary/004875.html 
-│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-12243 
-│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250523-00
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-12243 
+│                       │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-20250523-00
 │                       │      │                  │       02/ 
-│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7281-1 
-│                       │      │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
-│                       │      │                  ╰ [16]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7281-1 
+│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
+│                       │      │                  ╰ [17]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
 │                       │      │                          25-02-07 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.423Z 
-│                       │      ╰ LastModifiedDate: 2025-05-23T14:15:25.293Z 
+│                       │      ╰ LastModifiedDate: 2025-06-02T15:15:27.81Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : java-21-openjdk-headless@21.0.7.0.6-1.el9.x86_64 
 │                       │      ├ PkgName         : java-21-openjdk-headless 
@@ -2246,7 +2248,8 @@
 │                       │      │                   causing a denial of service attack. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
@@ -2259,23 +2262,24 @@
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:4049 
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:7077 
 │                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:8021 
-│                       │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-12133 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2344611 
-│                       │      │                  ├ [6] : https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:8385 
+│                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2024-12133 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2344611 
+│                       │      │                  ├ [7] : https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/
 │                       │      │                  │       security/CVE-2024-12133.md?ref_type=heads 
-│                       │      │                  ├ [7] : https://gitlab.com/gnutls/libtasn1/-/issues/52 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-12133.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7077.html 
-│                       │      │                  ├ [10]: https://lists.debian.org/debian-lts-announce/2025/02/
+│                       │      │                  ├ [8] : https://gitlab.com/gnutls/libtasn1/-/issues/52 
+│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-12133.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7077.html 
+│                       │      │                  ├ [11]: https://lists.debian.org/debian-lts-announce/2025/02/
 │                       │      │                  │       msg00025.html 
-│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
-│                       │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250523-00
+│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
+│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250523-00
 │                       │      │                  │       03/ 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7275-1 
-│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7275-2 
-│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7275-1 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7275-2 
+│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.26Z 
-│                       │      ╰ LastModifiedDate: 2025-05-23T14:15:24.51Z 
+│                       │      ╰ LastModifiedDate: 2025-06-02T15:15:27.653Z 
 │                       ├ [41] ╭ VulnerabilityID : CVE-2025-32414 
 │                       │      ├ PkgID           : libxml2@2.9.13-6.el9_5.2.x86_64 
 │                       │      ├ PkgName         : libxml2 
@@ -5153,17 +5157,39 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-364 
 │                       │      ├ VendorSeverity   ╭ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.7 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/05/29/3 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4598 
+│                       │      │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
+│                       │      │                  ├ [2] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f2
+│                       │      │                  │       3d422ca8a5a8bdea 
+│                       │      │                  ├ [3] : https://github.com/systemd/systemd/commit/0c49e0049b7
+│                       │      │                  │       665bb7769a13ef346fef92e1ad4d6 (main) 
+│                       │      │                  ├ [4] : https://github.com/systemd/systemd/commit/13902e02532
+│                       │      │                  │       1242b1d95c6d8b4e482b37f58cdef (main) 
+│                       │      │                  ├ [5] : https://github.com/systemd/systemd/commit/49f1f2d4a76
+│                       │      │                  │       12bbed5211a73d11d6a94fbe3bb69 (main) 
+│                       │      │                  ├ [6] : https://github.com/systemd/systemd/commit/76e0ab49c47
+│                       │      │                  │       965877c19772a2b3bf55f6417ca39 (main) 
+│                       │      │                  ├ [7] : https://github.com/systemd/systemd/commit/868d95577ec
+│                       │      │                  │       9f862580ad365726515459be582fc (main) 
+│                       │      │                  ├ [8] : https://github.com/systemd/systemd/commit/8fc7b2a211e
+│                       │      │                  │       b13ef1a94250b28e1c79cab8bdcb9 (main) 
+│                       │      │                  ├ [9] : https://github.com/systemd/systemd/commit/9ce8e3e449d
+│                       │      │                  │       ef92c75ada41b7d10c5bc3946be77 (main) 
+│                       │      │                  ├ [10]: https://github.com/systemd/systemd/commit/e6a8687b939
+│                       │      │                  │       ab21854f12f59a3cce703e32768cf (main) 
+│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-4598.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
+│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                       │      │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/05/2
+│                       │      │                  │       9/3 
+│                       │      │                  ╰ [16]: https://www.qualys.com/2025/05/29/apport-coredump/app
+│                       │      │                          ort-coredump.txt 
 │                       │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │      ╰ LastModifiedDate: 2025-05-30T16:31:03.107Z 
 │                       ├ [92] ╭ VulnerabilityID : CVE-2005-2541 
