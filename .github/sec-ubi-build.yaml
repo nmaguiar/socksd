@@ -1179,6 +1179,8 @@
     CweIDs:
     - CWE-328
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1186,14 +1188,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://linux.oracle.com/cve/CVE-2025-3576.html
+    - https://linux.oracle.com/errata/ELSA-2025-8411.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-05-30T17:15:28.94Z'
+    LastModifiedDate: '2025-06-03T03:15:27.32Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
