@@ -1560,20 +1560,27 @@
 │                       │      │                   This may lead to unauthorized message tampering. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-328 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3576 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
-│                       │      │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/05/m
-│                       │      │                  │      sg00047.html 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7542-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:8411 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-3576 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2359465 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-8411.html 
+│                       │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2025-3576.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-8411.html 
+│                       │      │                  ├ [7] : https://lists.debian.org/debian-lts-announce/2025/05/
+│                       │      │                  │       msg00047.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7542-1 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
 │                       │      ├ PublishedDate   : 2025-04-15T06:15:44.047Z 
-│                       │      ╰ LastModifiedDate: 2025-05-30T17:15:28.94Z 
+│                       │      ╰ LastModifiedDate: 2025-06-03T03:15:27.32Z 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │      ├ PkgName         : libarchive 
