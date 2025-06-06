@@ -4682,81 +4682,7 @@
 │                       │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2022/01/10/2 
 │                       │      ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:23:20.623Z 
-│                       ├ [84] ╭ VulnerabilityID : CVE-2025-4598 
-│                       │      ├ PkgID           : systemd-libs@252-51.el9.x86_64 
-│                       │      ├ PkgName         : systemd-libs 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-51.el9?arch=x86_64&di
-│                       │      │                  │       stro=redhat-9.6 
-│                       │      │                  ╰ UID : 390d08bee8573b3 
-│                       │      ├ InstalledVersion: 252-51.el9 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:5faf8c4f20afccbce7e21396da323ca7d2b67d184a21
-│                       │      │                  │         6b585579526d2d088821 
-│                       │      │                  ╰ DiffID: sha256:2b16361faed465aafa7d90f828cf96c83688212a0f72
-│                       │      │                            86a168420dd305db2648 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4598 
-│                       │      ├ Title           : systemd-coredump: race condition that allows a local
-│                       │      │                   attacker to crash a SUID program and gain read access to the
-│                       │      │                    resulting core dump 
-│                       │      ├ Description     : A vulnerability was found in systemd-coredump. This flaw
-│                       │      │                   allows an attacker to force a SUID process to crash and
-│                       │      │                   replace it with a non-SUID binary to access the original's
-│                       │      │                   privileged process coredump, allowing the attacker to read
-│                       │      │                   sensitive data, such as /etc/shadow content, loaded by the
-│                       │      │                   original process.
-│                       │      │                   
-│                       │      │                   A SUID binary or process has a special type of permission,
-│                       │      │                   which allows the process to run with the file owner's
-│                       │      │                   permissions, regardless of the user executing the binary.
-│                       │      │                   This allows the process to access more restricted data than
-│                       │      │                   unprivileged users or processes would be able to. An
-│                       │      │                   attacker can leverage this flaw by forcing a SUID process to
-│                       │      │                    crash and force the Linux kernel to recycle the process PID
-│                       │      │                    before systemd-coredump can analyze the /proc/pid/auxv
-│                       │      │                   file. If the attacker wins the race condition, they gain
-│                       │      │                   access to the original's SUID process coredump file. They
-│                       │      │                   can read sensitive content loaded into memory by the
-│                       │      │                   original binary, affecting data confidentiality. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-364 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 3 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 4.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │      │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │      │                  ├ [2] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f2
-│                       │      │                  │       3d422ca8a5a8bdea 
-│                       │      │                  ├ [3] : https://github.com/systemd/systemd/commit/0c49e0049b7
-│                       │      │                  │       665bb7769a13ef346fef92e1ad4d6 (main) 
-│                       │      │                  ├ [4] : https://github.com/systemd/systemd/commit/13902e02532
-│                       │      │                  │       1242b1d95c6d8b4e482b37f58cdef (main) 
-│                       │      │                  ├ [5] : https://github.com/systemd/systemd/commit/49f1f2d4a76
-│                       │      │                  │       12bbed5211a73d11d6a94fbe3bb69 (main) 
-│                       │      │                  ├ [6] : https://github.com/systemd/systemd/commit/76e0ab49c47
-│                       │      │                  │       965877c19772a2b3bf55f6417ca39 (main) 
-│                       │      │                  ├ [7] : https://github.com/systemd/systemd/commit/868d95577ec
-│                       │      │                  │       9f862580ad365726515459be582fc (main) 
-│                       │      │                  ├ [8] : https://github.com/systemd/systemd/commit/8fc7b2a211e
-│                       │      │                  │       b13ef1a94250b28e1c79cab8bdcb9 (main) 
-│                       │      │                  ├ [9] : https://github.com/systemd/systemd/commit/9ce8e3e449d
-│                       │      │                  │       ef92c75ada41b7d10c5bc3946be77 (main) 
-│                       │      │                  ├ [10]: https://github.com/systemd/systemd/commit/e6a8687b939
-│                       │      │                  │       ab21854f12f59a3cce703e32768cf (main) 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │      │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/05/2
-│                       │      │                  │       9/3 
-│                       │      │                  ╰ [16]: https://www.qualys.com/2025/05/29/apport-coredump/app
-│                       │      │                          ort-coredump.txt 
-│                       │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │      ╰ LastModifiedDate: 2025-05-30T16:31:03.107Z 
-│                       ├ [85] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [84] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │      ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
@@ -4792,7 +4718,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │      ╰ LastModifiedDate: 2025-04-03T01:03:51.193Z 
-│                       ╰ [86] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ╰ [85] ╭ VulnerabilityID : CVE-2023-39804 
 │                              ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                              ├ PkgName         : tar 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
