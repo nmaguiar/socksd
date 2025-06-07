@@ -741,7 +741,7 @@
       amazon: 1
       cbl-mariner: 3
       nvd: 3
-      photon: 3
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -933,6 +933,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-3360
     PublishedDate: '2025-04-07T13:15:43.687Z'
     LastModifiedDate: '2025-04-14T12:15:16.087Z'
+  - VulnerabilityID: CVE-2025-5702
+    PkgID: glibc@2.34-125.el9_5.8.x86_64
+    PkgName: glibc
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
+      UID: 714cae6d64b8bc1d
+    InstalledVersion: 2.34-125.el9_5.8
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
+    Title: 'glibc: Vector register overwrite bug in glibc'
+    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
+    Severity: HIGH
+    CweIDs:
+    - CWE-665
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5702
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
+    - https://www.cve.org/CVERecord?id=CVE-2025-5702
+    PublishedDate: '2025-06-05T19:15:31.073Z'
+    LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2025-4802
     PkgID: glibc@2.34-125.el9_5.8.x86_64
     PkgName: glibc
@@ -972,6 +1003,37 @@
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
     PublishedDate: '2025-05-16T20:15:22.28Z'
     LastModifiedDate: '2025-05-20T14:15:51.347Z'
+  - VulnerabilityID: CVE-2025-5702
+    PkgID: glibc-common@2.34-125.el9_5.8.x86_64
+    PkgName: glibc-common
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-common@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
+      UID: dd9b04616be04a7d
+    InstalledVersion: 2.34-125.el9_5.8
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
+    Title: 'glibc: Vector register overwrite bug in glibc'
+    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
+    Severity: HIGH
+    CweIDs:
+    - CWE-665
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5702
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
+    - https://www.cve.org/CVERecord?id=CVE-2025-5702
+    PublishedDate: '2025-06-05T19:15:31.073Z'
+    LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2025-4802
     PkgID: glibc-common@2.34-125.el9_5.8.x86_64
     PkgName: glibc-common
@@ -1011,6 +1073,37 @@
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
     PublishedDate: '2025-05-16T20:15:22.28Z'
     LastModifiedDate: '2025-05-20T14:15:51.347Z'
+  - VulnerabilityID: CVE-2025-5702
+    PkgID: glibc-langpack-en@2.34-125.el9_5.8.x86_64
+    PkgName: glibc-langpack-en
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-langpack-en@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
+      UID: cef93d3dba740f73
+    InstalledVersion: 2.34-125.el9_5.8
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
+    Title: 'glibc: Vector register overwrite bug in glibc'
+    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
+    Severity: HIGH
+    CweIDs:
+    - CWE-665
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5702
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
+    - https://www.cve.org/CVERecord?id=CVE-2025-5702
+    PublishedDate: '2025-06-05T19:15:31.073Z'
+    LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2025-4802
     PkgID: glibc-langpack-en@2.34-125.el9_5.8.x86_64
     PkgName: glibc-langpack-en
@@ -1050,6 +1143,37 @@
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
     PublishedDate: '2025-05-16T20:15:22.28Z'
     LastModifiedDate: '2025-05-20T14:15:51.347Z'
+  - VulnerabilityID: CVE-2025-5702
+    PkgID: glibc-minimal-langpack@2.34-125.el9_5.8.x86_64
+    PkgName: glibc-minimal-langpack
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
+      UID: 61f6b308e80fed61
+    InstalledVersion: 2.34-125.el9_5.8
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
+    Title: 'glibc: Vector register overwrite bug in glibc'
+    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
+    Severity: HIGH
+    CweIDs:
+    - CWE-665
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5702
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
+    - https://www.cve.org/CVERecord?id=CVE-2025-5702
+    PublishedDate: '2025-06-05T19:15:31.073Z'
+    LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2025-4802
     PkgID: glibc-minimal-langpack@2.34-125.el9_5.8.x86_64
     PkgName: glibc-minimal-langpack
