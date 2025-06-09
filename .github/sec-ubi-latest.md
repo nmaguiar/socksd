@@ -418,7 +418,7 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-11053 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -471,7 +471,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-11053.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
 │                       │      │                  ├ [55]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [56]: https://linux.oracle.com/cve/CVE-2024-11053.html 
 │                       │      │                  ├ [57]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
@@ -534,7 +534,7 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/31/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-7264 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -587,7 +587,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-7264.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
 │                       │      │                  ├ [55]: https://github.com/curl/curl/commit/27959ecce75cdb280
 │                       │      │                  │       9c0bdb3286e60e08fadb519 
 │                       │      │                  ├ [56]: https://hackerone.com/reports/2629968 
@@ -777,7 +777,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2310137 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
 │                       │      │                  ├ [16]: https://bugzilla.suse.com/show_bug.cgi?id=1239618 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2025-3913.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-7444.html 
 │                       │      │                  ├ [18]: https://github.com/libexpat/libexpat/blob/R_2_7_0/exp
 │                       │      │                  │       at/Changes#L40-L52 
 │                       │      │                  ├ [19]: https://github.com/libexpat/libexpat/issues/893 
@@ -1566,7 +1566,7 @@
 │                       │      │                  │       24-21085 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21094 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-1825.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:1822 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21094.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-1825.html 
@@ -1924,7 +1924,7 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-11053 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -1977,7 +1977,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-11053.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
 │                       │      │                  ├ [55]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [56]: https://linux.oracle.com/cve/CVE-2024-11053.html 
 │                       │      │                  ├ [57]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
@@ -2040,7 +2040,7 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/31/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-7264 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -2093,7 +2093,7 @@
 │                       │      │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │      │                  ├ [52]: https://curl.se/docs/CVE-2024-7264.html 
 │                       │      │                  ├ [53]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │      │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │      │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
 │                       │      │                  ├ [55]: https://github.com/curl/curl/commit/27959ecce75cdb280
 │                       │      │                  │       9c0bdb3286e60e08fadb519 
 │                       │      │                  ├ [56]: https://hackerone.com/reports/2629968 
