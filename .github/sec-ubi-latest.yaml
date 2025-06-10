@@ -966,13 +966,16 @@
     PublishedDate: '2025-06-05T19:15:31.073Z'
     LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2025-4802
+    VendorIDs:
+    - RHSA-2025:8655
     PkgID: glibc@2.34-125.el9_5.8.x86_64
     PkgName: glibc
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
       UID: 714cae6d64b8bc1d
     InstalledVersion: 2.34-125.el9_5.8
-    Status: affected
+    FixedVersion: 2.34-168.el9_6.19
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
@@ -1036,13 +1039,16 @@
     PublishedDate: '2025-06-05T19:15:31.073Z'
     LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2025-4802
+    VendorIDs:
+    - RHSA-2025:8655
     PkgID: glibc-common@2.34-125.el9_5.8.x86_64
     PkgName: glibc-common
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc-common@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
       UID: dd9b04616be04a7d
     InstalledVersion: 2.34-125.el9_5.8
-    Status: affected
+    FixedVersion: 2.34-168.el9_6.19
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
@@ -1106,13 +1112,16 @@
     PublishedDate: '2025-06-05T19:15:31.073Z'
     LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2025-4802
+    VendorIDs:
+    - RHSA-2025:8655
     PkgID: glibc-langpack-en@2.34-125.el9_5.8.x86_64
     PkgName: glibc-langpack-en
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc-langpack-en@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
       UID: cef93d3dba740f73
     InstalledVersion: 2.34-125.el9_5.8
-    Status: affected
+    FixedVersion: 2.34-168.el9_6.19
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
@@ -1176,13 +1185,16 @@
     PublishedDate: '2025-06-05T19:15:31.073Z'
     LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2025-4802
+    VendorIDs:
+    - RHSA-2025:8655
     PkgID: glibc-minimal-langpack@2.34-125.el9_5.8.x86_64
     PkgName: glibc-minimal-langpack
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
       UID: 61f6b308e80fed61
     InstalledVersion: 2.34-125.el9_5.8
-    Status: affected
+    FixedVersion: 2.34-168.el9_6.19
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
@@ -1655,6 +1667,71 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-1632
     PublishedDate: '2025-02-24T14:15:11.59Z'
     LastModifiedDate: '2025-03-25T15:41:41.683Z'
+  - VulnerabilityID: CVE-2025-5914
+    PkgID: libarchive@3.5.3-4.el9.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.5
+      UID: b86a44f814c42e38
+    InstalledVersion: 3.5.3-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    Severity: LOW
+  - VulnerabilityID: CVE-2025-5915
+    PkgID: libarchive@3.5.3-4.el9.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.5
+      UID: b86a44f814c42e38
+    InstalledVersion: 3.5.3-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    Severity: LOW
+  - VulnerabilityID: CVE-2025-5916
+    PkgID: libarchive@3.5.3-4.el9.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.5
+      UID: b86a44f814c42e38
+    InstalledVersion: 3.5.3-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    Severity: LOW
+  - VulnerabilityID: CVE-2025-5917
+    PkgID: libarchive@3.5.3-4.el9.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.5
+      UID: b86a44f814c42e38
+    InstalledVersion: 3.5.3-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    Severity: LOW
+  - VulnerabilityID: CVE-2025-5918
+    PkgID: libarchive@3.5.3-4.el9.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.5
+      UID: b86a44f814c42e38
+    InstalledVersion: 3.5.3-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    Severity: LOW
   - VulnerabilityID: CVE-2025-4947
     PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
     PkgName: libcurl-minimal
@@ -2413,7 +2490,7 @@
       PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?arch=noarch&distro=redhat-9.5
       UID: 5359c71bf0d7b07
     InstalledVersion: 6.2-10.20210508.el9
-    Status: will_not_fix
+    Status: affected
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
@@ -2454,7 +2531,7 @@
     - https://ubuntu.com/security/notices/USN-6099-1
     - https://www.cve.org/CVERecord?id=CVE-2022-29458
     PublishedDate: '2022-04-18T21:15:07.6Z'
-    LastModifiedDate: '2024-11-21T06:59:07.65Z'
+    LastModifiedDate: '2025-06-09T15:15:27.43Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: ncurses-base@6.2-10.20210508.el9.noarch
     PkgName: ncurses-base
@@ -2534,7 +2611,7 @@
       PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?arch=x86_64&distro=redhat-9.5
       UID: b129ac7c1f97afdd
     InstalledVersion: 6.2-10.20210508.el9
-    Status: will_not_fix
+    Status: affected
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
@@ -2575,7 +2652,7 @@
     - https://ubuntu.com/security/notices/USN-6099-1
     - https://www.cve.org/CVERecord?id=CVE-2022-29458
     PublishedDate: '2022-04-18T21:15:07.6Z'
-    LastModifiedDate: '2024-11-21T06:59:07.65Z'
+    LastModifiedDate: '2025-06-09T15:15:27.43Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: ncurses-libs@6.2-10.20210508.el9.x86_64
     PkgName: ncurses-libs
