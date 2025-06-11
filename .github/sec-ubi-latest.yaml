@@ -296,38 +296,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-25317
     PublishedDate: '2021-05-05T10:15:08.133Z'
     LastModifiedDate: '2024-11-21T05:54:44.187Z'
-  - VulnerabilityID: CVE-2025-4947
-    PkgID: curl-minimal@7.76.1-31.el9.x86_64
-    PkgName: curl-minimal
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.5
-      UID: ee530fbdbea9bae0
-    InstalledVersion: 7.76.1-31.el9
-    Status: under_investigation
-    Layer:
-      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
-      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4947
-    Title: 'libcurl: curl: QUIC certificate check skip with wolfSSL'
-    Description: libcurl accidentally skips the certificate verification for QUIC connections when connecting to a host specified as an IP address in the URL. Therefore, it does not detect impostors or man-in-the-middle attacks.
-    Severity: MEDIUM
-    VendorSeverity:
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 6.5
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/05/28/4
-    - https://access.redhat.com/security/cve/CVE-2025-4947
-    - https://curl.se/docs/CVE-2025-4947.html
-    - https://curl.se/docs/CVE-2025-4947.json
-    - https://hackerone.com/reports/3150884
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4947
-    - https://www.cve.org/CVERecord?id=CVE-2025-4947
-    PublishedDate: '2025-05-28T07:15:24.78Z'
-    LastModifiedDate: '2025-05-28T15:01:30.72Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: curl-minimal@7.76.1-31.el9.x86_64
     PkgName: curl-minimal
@@ -987,6 +955,7 @@
     CweIDs:
     - CWE-426
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -997,6 +966,8 @@
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
     - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://linux.oracle.com/cve/CVE-2025-4802.html
+    - https://linux.oracle.com/errata/ELSA-2025-8655.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
     - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
@@ -1060,6 +1031,7 @@
     CweIDs:
     - CWE-426
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1070,6 +1042,8 @@
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
     - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://linux.oracle.com/cve/CVE-2025-4802.html
+    - https://linux.oracle.com/errata/ELSA-2025-8655.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
     - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
@@ -1133,6 +1107,7 @@
     CweIDs:
     - CWE-426
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1143,6 +1118,8 @@
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
     - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://linux.oracle.com/cve/CVE-2025-4802.html
+    - https://linux.oracle.com/errata/ELSA-2025-8655.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
     - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
@@ -1206,6 +1183,7 @@
     CweIDs:
     - CWE-426
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1216,6 +1194,8 @@
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
     - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://linux.oracle.com/cve/CVE-2025-4802.html
+    - https://linux.oracle.com/errata/ELSA-2025-8655.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
     - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
@@ -1679,7 +1659,27 @@
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5914
+    Title: 'libarchive: Double free at archive_read_format_rar_seek_data() in archive_read_support_format_rar.c'
+    Description: A vulnerability has been identified in the libarchive library, specifically within the archive_read_format_rar_seek_data() function. This flaw involves an integer overflow that can ultimately lead to a double-free condition. Exploiting a double-free vulnerability can result in memory corruption, enabling an attacker to execute arbitrary code or cause a denial-of-service condition.
     Severity: LOW
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5914
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370861
+    - https://github.com/libarchive/libarchive/pull/2598
+    - https://github.com/libarchive/libarchive/releases/tag/v3.8.0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5914
+    - https://www.cve.org/CVERecord?id=CVE-2025-5914
+    PublishedDate: '2025-06-09T20:15:26.123Z'
+    LastModifiedDate: '2025-06-10T16:15:45.61Z'
   - VulnerabilityID: CVE-2025-5915
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1692,7 +1692,27 @@
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5915
+    Title: 'libarchive: Heap buffer over read in copy_from_lzss_window() at archive_read_support_format_rar.c'
+    Description: A vulnerability has been identified in the libarchive library. This flaw can lead to a heap buffer over-read due to the size of a filter block potentially exceeding the Lempel-Ziv-Storer-Schieber (LZSS) window. This means the library may attempt to read beyond the allocated memory buffer, which can result in unpredictable program behavior, crashes (denial of service), or the disclosure of sensitive information from adjacent memory regions.
     Severity: LOW
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5915
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370865
+    - https://github.com/libarchive/libarchive/pull/2599
+    - https://github.com/libarchive/libarchive/releases/tag/v3.8.0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5915
+    - https://www.cve.org/CVERecord?id=CVE-2025-5915
+    PublishedDate: '2025-06-09T20:15:26.317Z'
+    LastModifiedDate: '2025-06-09T20:15:26.317Z'
   - VulnerabilityID: CVE-2025-5916
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1705,7 +1725,27 @@
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5916
+    Title: 'libarchive: Integer overflow while reading warc files at archive_read_support_format_warc.c'
+    Description: A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive.
     Severity: LOW
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5916
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370872
+    - https://github.com/libarchive/libarchive/pull/2568
+    - https://github.com/libarchive/libarchive/releases/tag/v3.8.0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5916
+    - https://www.cve.org/CVERecord?id=CVE-2025-5916
+    PublishedDate: '2025-06-09T20:15:27.17Z'
+    LastModifiedDate: '2025-06-09T20:15:27.17Z'
   - VulnerabilityID: CVE-2025-5917
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1718,7 +1758,27 @@
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5917
+    Title: 'libarchive: Off by one error in build_ustar_entry_name() at archive_write_set_format_pax.c'
+    Description: A vulnerability has been identified in the libarchive library. This flaw involves an 'off-by-one' miscalculation when handling prefixes and suffixes for file names. This can lead to a 1-byte write overflow. While seemingly small, such an overflow can corrupt adjacent memory, leading to unpredictable program behavior, crashes, or in specific circumstances, could be leveraged as a building block for more sophisticated exploitation.
     Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5917
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370874
+    - https://github.com/libarchive/libarchive/pull/2588
+    - https://github.com/libarchive/libarchive/releases/tag/v3.8.0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5917
+    - https://www.cve.org/CVERecord?id=CVE-2025-5917
+    PublishedDate: '2025-06-09T20:15:27.33Z'
+    LastModifiedDate: '2025-06-09T20:15:27.33Z'
   - VulnerabilityID: CVE-2025-5918
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1731,39 +1791,27 @@
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5918
+    Title: 'libarchive: Reading past EOF may be triggered for piped file streams'
+    Description: A vulnerability has been identified in the libarchive library. This flaw can be triggered when file streams are piped into bsdtar, potentially allowing for reading past the end of the file. This out-of-bounds read can lead to unintended consequences, including unpredictable program behavior, memory corruption, or a denial-of-service condition.
     Severity: LOW
-  - VulnerabilityID: CVE-2025-4947
-    PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
-    PkgName: libcurl-minimal
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.5
-      UID: 1119925130a835ba
-    InstalledVersion: 7.76.1-31.el9
-    Status: under_investigation
-    Layer:
-      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
-      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4947
-    Title: 'libcurl: curl: QUIC certificate check skip with wolfSSL'
-    Description: libcurl accidentally skips the certificate verification for QUIC connections when connecting to a host specified as an IP address in the URL. Therefore, it does not detect impostors or man-in-the-middle attacks.
-    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
     VendorSeverity:
-      redhat: 2
+      redhat: 1
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 6.5
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L
+        V3Score: 3.9
     References:
-    - http://www.openwall.com/lists/oss-security/2025/05/28/4
-    - https://access.redhat.com/security/cve/CVE-2025-4947
-    - https://curl.se/docs/CVE-2025-4947.html
-    - https://curl.se/docs/CVE-2025-4947.json
-    - https://hackerone.com/reports/3150884
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4947
-    - https://www.cve.org/CVERecord?id=CVE-2025-4947
-    PublishedDate: '2025-05-28T07:15:24.78Z'
-    LastModifiedDate: '2025-05-28T15:01:30.72Z'
+    - https://access.redhat.com/security/cve/CVE-2025-5918
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370877
+    - https://github.com/libarchive/libarchive/pull/2584
+    - https://github.com/libarchive/libarchive/releases/tag/v3.8.0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5918
+    - https://www.cve.org/CVERecord?id=CVE-2025-5918
+    PublishedDate: '2025-06-09T20:15:27.493Z'
+    LastModifiedDate: '2025-06-09T20:15:27.493Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
     PkgName: libcurl-minimal
@@ -4467,6 +4515,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-1795
     PublishedDate: '2025-02-28T19:15:36.55Z'
     LastModifiedDate: '2025-02-28T21:15:27.57Z'
+  - VulnerabilityID: CVE-2024-47081
+    PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
+    PkgName: python3-pip-wheel
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=noarch&distro=redhat-9.5
+      UID: 721b1480454de203
+    InstalledVersion: 21.3.1-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-47081
+    Title: Requests is a HTTP library. Due to a URL parsing issue, Requests relea ...
+    Description: Requests is a HTTP library. Due to a URL parsing issue, Requests releases prior to 2.32.4 may leak .netrc credentials to third parties for specific maliciously-crafted URLs. Users should upgrade to version 2.32.4 to receive a fix. For older versions of Requests, use of the .netrc file can be disabled with `trust_env=False` on one's Requests Session.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-522
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://seclists.org/fulldisclosure/2025/Jun/2
+    - http://www.openwall.com/lists/oss-security/2025/06/03/11
+    - http://www.openwall.com/lists/oss-security/2025/06/03/9
+    - http://www.openwall.com/lists/oss-security/2025/06/04/1
+    - http://www.openwall.com/lists/oss-security/2025/06/04/6
+    - https://github.com/psf/requests
+    - https://github.com/psf/requests/commit/96ba401c1296ab1dda74a2365ef36d88f7d144ef
+    - https://github.com/psf/requests/pull/6965
+    - https://github.com/psf/requests/security/advisories/GHSA-9hjg-9r4m-mvj7
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-47081
+    - https://requests.readthedocs.io/en/latest/api/#requests.Session.trust_env
+    - https://seclists.org/fulldisclosure/2025/Jun/2
+    PublishedDate: '2025-06-09T18:15:24.983Z'
+    LastModifiedDate: '2025-06-09T18:15:24.983Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
