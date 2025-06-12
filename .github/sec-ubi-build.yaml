@@ -842,6 +842,8 @@
     CweIDs:
     - CWE-426
     VendorSeverity:
+      alma: 2
+      amazon: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -852,9 +854,12 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/errata/RHSA-2025:8686
     - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://bugzilla.redhat.com/2367468
+    - https://errata.almalinux.org/8/ALSA-2025-8686.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
-    - https://linux.oracle.com/errata/ELSA-2025-8655.html
+    - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
     - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
@@ -918,6 +923,8 @@
     CweIDs:
     - CWE-426
     VendorSeverity:
+      alma: 2
+      amazon: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -928,9 +935,12 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/errata/RHSA-2025:8686
     - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://bugzilla.redhat.com/2367468
+    - https://errata.almalinux.org/8/ALSA-2025-8686.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
-    - https://linux.oracle.com/errata/ELSA-2025-8655.html
+    - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
     - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
@@ -994,6 +1004,8 @@
     CweIDs:
     - CWE-426
     VendorSeverity:
+      alma: 2
+      amazon: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -1004,9 +1016,12 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/errata/RHSA-2025:8686
     - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://bugzilla.redhat.com/2367468
+    - https://errata.almalinux.org/8/ALSA-2025-8686.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
-    - https://linux.oracle.com/errata/ELSA-2025-8655.html
+    - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
     - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
@@ -1070,6 +1085,8 @@
     CweIDs:
     - CWE-426
     VendorSeverity:
+      alma: 2
+      amazon: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -1080,9 +1097,12 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/errata/RHSA-2025:8686
     - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://bugzilla.redhat.com/2367468
+    - https://errata.almalinux.org/8/ALSA-2025-8686.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
-    - https://linux.oracle.com/errata/ELSA-2025-8655.html
+    - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
     - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
@@ -4102,7 +4122,7 @@
       DiffID: sha256:7ea627a1d4b1975edf289c1aea97e696607341b5723171448f68ef35eeb550bb
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-47081
-    Title: Requests is a HTTP library. Due to a URL parsing issue, Requests relea ...
+    Title: 'requests: Requests vulnerable to .netrc credentials leak via malicious URLs'
     Description: Requests is a HTTP library. Due to a URL parsing issue, Requests releases prior to 2.32.4 may leak .netrc credentials to third parties for specific maliciously-crafted URLs. Users should upgrade to version 2.32.4 to receive a fix. For older versions of Requests, use of the .netrc file can be disabled with `trust_env=False` on one's Requests Session.
     Severity: MEDIUM
     CweIDs:
@@ -4110,8 +4130,12 @@
     VendorSeverity:
       ghsa: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+      redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
         V3Score: 5.3
     References:
@@ -4120,6 +4144,7 @@
     - http://www.openwall.com/lists/oss-security/2025/06/03/9
     - http://www.openwall.com/lists/oss-security/2025/06/04/1
     - http://www.openwall.com/lists/oss-security/2025/06/04/6
+    - https://access.redhat.com/security/cve/CVE-2024-47081
     - https://github.com/psf/requests
     - https://github.com/psf/requests/commit/96ba401c1296ab1dda74a2365ef36d88f7d144ef
     - https://github.com/psf/requests/pull/6965
@@ -4127,6 +4152,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-47081
     - https://requests.readthedocs.io/en/latest/api/#requests.Session.trust_env
     - https://seclists.org/fulldisclosure/2025/Jun/2
+    - https://www.cve.org/CVERecord?id=CVE-2024-47081
+    - https://www.openwall.com/lists/oss-security/2025/06/03/9
     PublishedDate: '2025-06-09T18:15:24.983Z'
     LastModifiedDate: '2025-06-09T18:15:24.983Z'
   - VulnerabilityID: CVE-2021-3572
