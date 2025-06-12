@@ -934,7 +934,9 @@
 │                       │      │                    NSS functions such as getaddrinfo). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-426 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H
@@ -942,20 +944,23 @@
 │                       │      │                           ╰ V3Score : 7 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/7 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/17/2 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4802 
-│                       │      │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-4802.html 
-│                       │      │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-8655.html 
-│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-4802 
-│                       │      │                  ├ [6] : https://sourceware.org/bugzilla/show_bug.cgi?id=32976 
-│                       │      │                  ├ [7] : https://sourceware.org/cgit/glibc/commit/?id=1e18586c
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:8686 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-4802 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2367468 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-8686.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-4802.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-8686.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-4802 
+│                       │      │                  ├ [9] : https://sourceware.org/bugzilla/show_bug.cgi?id=32976 
+│                       │      │                  ├ [10]: https://sourceware.org/cgit/glibc/commit/?id=1e18586c
 │                       │      │                  │       5820e329f741d5c710275e165581380e 
-│                       │      │                  ├ [8] : https://sourceware.org/cgit/glibc/commit/?id=5451fa96
+│                       │      │                  ├ [11]: https://sourceware.org/cgit/glibc/commit/?id=5451fa96
 │                       │      │                  │       2cd0a90a0e2ec1d8910a559ace02bba0 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7541-1 
-│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-4802 
-│                       │      │                  ├ [11]: https://www.openwall.com/lists/oss-security/2025/05/1
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7541-1 
+│                       │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-4802 
+│                       │      │                  ├ [14]: https://www.openwall.com/lists/oss-security/2025/05/1
 │                       │      │                  │       6/7 
-│                       │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/05/1
+│                       │      │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2025/05/1
 │                       │      │                          7/2 
 │                       │      ├ PublishedDate   : 2025-05-16T20:15:22.28Z 
 │                       │      ╰ LastModifiedDate: 2025-05-20T14:15:51.347Z 
@@ -1020,7 +1025,9 @@
 │                       │      │                    NSS functions such as getaddrinfo). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-426 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H
@@ -1028,20 +1035,23 @@
 │                       │      │                           ╰ V3Score : 7 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/7 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/17/2 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4802 
-│                       │      │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-4802.html 
-│                       │      │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-8655.html 
-│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-4802 
-│                       │      │                  ├ [6] : https://sourceware.org/bugzilla/show_bug.cgi?id=32976 
-│                       │      │                  ├ [7] : https://sourceware.org/cgit/glibc/commit/?id=1e18586c
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:8686 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-4802 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2367468 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-8686.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-4802.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-8686.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-4802 
+│                       │      │                  ├ [9] : https://sourceware.org/bugzilla/show_bug.cgi?id=32976 
+│                       │      │                  ├ [10]: https://sourceware.org/cgit/glibc/commit/?id=1e18586c
 │                       │      │                  │       5820e329f741d5c710275e165581380e 
-│                       │      │                  ├ [8] : https://sourceware.org/cgit/glibc/commit/?id=5451fa96
+│                       │      │                  ├ [11]: https://sourceware.org/cgit/glibc/commit/?id=5451fa96
 │                       │      │                  │       2cd0a90a0e2ec1d8910a559ace02bba0 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7541-1 
-│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-4802 
-│                       │      │                  ├ [11]: https://www.openwall.com/lists/oss-security/2025/05/1
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7541-1 
+│                       │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-4802 
+│                       │      │                  ├ [14]: https://www.openwall.com/lists/oss-security/2025/05/1
 │                       │      │                  │       6/7 
-│                       │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/05/1
+│                       │      │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2025/05/1
 │                       │      │                          7/2 
 │                       │      ├ PublishedDate   : 2025-05-16T20:15:22.28Z 
 │                       │      ╰ LastModifiedDate: 2025-05-20T14:15:51.347Z 
@@ -1106,7 +1116,9 @@
 │                       │      │                    NSS functions such as getaddrinfo). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-426 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H
@@ -1114,20 +1126,23 @@
 │                       │      │                           ╰ V3Score : 7 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/7 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/17/2 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4802 
-│                       │      │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-4802.html 
-│                       │      │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-8655.html 
-│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-4802 
-│                       │      │                  ├ [6] : https://sourceware.org/bugzilla/show_bug.cgi?id=32976 
-│                       │      │                  ├ [7] : https://sourceware.org/cgit/glibc/commit/?id=1e18586c
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:8686 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-4802 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2367468 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-8686.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-4802.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-8686.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-4802 
+│                       │      │                  ├ [9] : https://sourceware.org/bugzilla/show_bug.cgi?id=32976 
+│                       │      │                  ├ [10]: https://sourceware.org/cgit/glibc/commit/?id=1e18586c
 │                       │      │                  │       5820e329f741d5c710275e165581380e 
-│                       │      │                  ├ [8] : https://sourceware.org/cgit/glibc/commit/?id=5451fa96
+│                       │      │                  ├ [11]: https://sourceware.org/cgit/glibc/commit/?id=5451fa96
 │                       │      │                  │       2cd0a90a0e2ec1d8910a559ace02bba0 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7541-1 
-│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-4802 
-│                       │      │                  ├ [11]: https://www.openwall.com/lists/oss-security/2025/05/1
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7541-1 
+│                       │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-4802 
+│                       │      │                  ├ [14]: https://www.openwall.com/lists/oss-security/2025/05/1
 │                       │      │                  │       6/7 
-│                       │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/05/1
+│                       │      │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2025/05/1
 │                       │      │                          7/2 
 │                       │      ├ PublishedDate   : 2025-05-16T20:15:22.28Z 
 │                       │      ╰ LastModifiedDate: 2025-05-20T14:15:51.347Z 
@@ -1192,7 +1207,9 @@
 │                       │      │                    NSS functions such as getaddrinfo). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-426 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H
@@ -1200,20 +1217,23 @@
 │                       │      │                           ╰ V3Score : 7 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/7 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/17/2 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4802 
-│                       │      │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-4802.html 
-│                       │      │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-8655.html 
-│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-4802 
-│                       │      │                  ├ [6] : https://sourceware.org/bugzilla/show_bug.cgi?id=32976 
-│                       │      │                  ├ [7] : https://sourceware.org/cgit/glibc/commit/?id=1e18586c
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:8686 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-4802 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2367468 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-8686.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-4802.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-8686.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-4802 
+│                       │      │                  ├ [9] : https://sourceware.org/bugzilla/show_bug.cgi?id=32976 
+│                       │      │                  ├ [10]: https://sourceware.org/cgit/glibc/commit/?id=1e18586c
 │                       │      │                  │       5820e329f741d5c710275e165581380e 
-│                       │      │                  ├ [8] : https://sourceware.org/cgit/glibc/commit/?id=5451fa96
+│                       │      │                  ├ [11]: https://sourceware.org/cgit/glibc/commit/?id=5451fa96
 │                       │      │                  │       2cd0a90a0e2ec1d8910a559ace02bba0 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7541-1 
-│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-4802 
-│                       │      │                  ├ [11]: https://www.openwall.com/lists/oss-security/2025/05/1
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7541-1 
+│                       │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-4802 
+│                       │      │                  ├ [14]: https://www.openwall.com/lists/oss-security/2025/05/1
 │                       │      │                  │       6/7 
-│                       │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/05/1
+│                       │      │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2025/05/1
 │                       │      │                          7/2 
 │                       │      ├ PublishedDate   : 2025-05-16T20:15:22.28Z 
 │                       │      ╰ LastModifiedDate: 2025-05-20T14:15:51.347Z 
@@ -4746,8 +4766,8 @@
 │                       │      │                            71448f68ef35eeb550bb 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-47081 
-│                       │      ├ Title           : Requests is a HTTP library. Due to a URL parsing issue,
-│                       │      │                   Requests relea ... 
+│                       │      ├ Title           : requests: Requests vulnerable to .netrc credentials leak via
+│                       │      │                    malicious URLs 
 │                       │      ├ Description     : Requests is a HTTP library. Due to a URL parsing issue,
 │                       │      │                   Requests releases prior to 2.32.4 may leak .netrc
 │                       │      │                   credentials to third parties for specific
@@ -4758,25 +4778,34 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-522 
 │                       │      ├ VendorSeverity   ╭ ghsa  : 2 
-│                       │      │                  ╰ redhat: 2 
-│                       │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N 
-│                       │      │                         ╰ V3Score : 5.3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 5.3 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2025/Jun/2 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/06/03
 │                       │      │                  │       /11 
 │                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/06/03/9 
 │                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2025/06/04/1 
 │                       │      │                  ├ [4] : http://www.openwall.com/lists/oss-security/2025/06/04/6 
-│                       │      │                  ├ [5] : https://github.com/psf/requests 
-│                       │      │                  ├ [6] : https://github.com/psf/requests/commit/96ba401c1296ab
+│                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2024-47081 
+│                       │      │                  ├ [6] : https://github.com/psf/requests 
+│                       │      │                  ├ [7] : https://github.com/psf/requests/commit/96ba401c1296ab
 │                       │      │                  │       1dda74a2365ef36d88f7d144ef 
-│                       │      │                  ├ [7] : https://github.com/psf/requests/pull/6965 
-│                       │      │                  ├ [8] : https://github.com/psf/requests/security/advisories/G
+│                       │      │                  ├ [8] : https://github.com/psf/requests/pull/6965 
+│                       │      │                  ├ [9] : https://github.com/psf/requests/security/advisories/G
 │                       │      │                  │       HSA-9hjg-9r4m-mvj7 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-47081 
-│                       │      │                  ├ [10]: https://requests.readthedocs.io/en/latest/api/#reques
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-47081 
+│                       │      │                  ├ [11]: https://requests.readthedocs.io/en/latest/api/#reques
 │                       │      │                  │       ts.Session.trust_env 
-│                       │      │                  ╰ [11]: https://seclists.org/fulldisclosure/2025/Jun/2 
+│                       │      │                  ├ [12]: https://seclists.org/fulldisclosure/2025/Jun/2 
+│                       │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2024-47081 
+│                       │      │                  ╰ [14]: https://www.openwall.com/lists/oss-security/2025/06/0
+│                       │      │                          3/9 
 │                       │      ├ PublishedDate   : 2025-06-09T18:15:24.983Z 
 │                       │      ╰ LastModifiedDate: 2025-06-09T18:15:24.983Z 
 │                       ├ [87] ╭ VulnerabilityID : CVE-2021-3572 
