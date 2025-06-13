@@ -569,12 +569,13 @@
     - https://access.redhat.com/security/cve/CVE-2025-0725
     - https://curl.se/docs/CVE-2025-0725.html
     - https://curl.se/docs/CVE-2025-0725.json
+    - https://github.com/curl/curl/commit/76f83f0db23846e254d940ec7
     - https://hackerone.com/reports/2956023
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0725
     - https://security.netapp.com/advisory/ntap-20250306-0009/
     - https://www.cve.org/CVERecord?id=CVE-2025-0725
     PublishedDate: '2025-02-05T10:15:22.98Z'
-    LastModifiedDate: '2025-05-13T18:35:30.15Z'
+    LastModifiedDate: '2025-06-12T16:15:22.467Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -854,10 +855,10 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
-    - https://access.redhat.com/errata/RHSA-2025:8686
+    - https://access.redhat.com/errata/RHSA-2025:8655
     - https://access.redhat.com/security/cve/CVE-2025-4802
     - https://bugzilla.redhat.com/2367468
-    - https://errata.almalinux.org/8/ALSA-2025-8686.html
+    - https://errata.almalinux.org/9/ALSA-2025-8655.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
     - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
@@ -935,10 +936,10 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
-    - https://access.redhat.com/errata/RHSA-2025:8686
+    - https://access.redhat.com/errata/RHSA-2025:8655
     - https://access.redhat.com/security/cve/CVE-2025-4802
     - https://bugzilla.redhat.com/2367468
-    - https://errata.almalinux.org/8/ALSA-2025-8686.html
+    - https://errata.almalinux.org/9/ALSA-2025-8655.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
     - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
@@ -1016,10 +1017,10 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
-    - https://access.redhat.com/errata/RHSA-2025:8686
+    - https://access.redhat.com/errata/RHSA-2025:8655
     - https://access.redhat.com/security/cve/CVE-2025-4802
     - https://bugzilla.redhat.com/2367468
-    - https://errata.almalinux.org/8/ALSA-2025-8686.html
+    - https://errata.almalinux.org/9/ALSA-2025-8655.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
     - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
@@ -1097,10 +1098,10 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
-    - https://access.redhat.com/errata/RHSA-2025:8686
+    - https://access.redhat.com/errata/RHSA-2025:8655
     - https://access.redhat.com/security/cve/CVE-2025-4802
     - https://bugzilla.redhat.com/2367468
-    - https://errata.almalinux.org/8/ALSA-2025-8686.html
+    - https://errata.almalinux.org/9/ALSA-2025-8655.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
     - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
@@ -1488,7 +1489,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5914
     - https://www.cve.org/CVERecord?id=CVE-2025-5914
     PublishedDate: '2025-06-09T20:15:26.123Z'
-    LastModifiedDate: '2025-06-10T16:15:45.61Z'
+    LastModifiedDate: '2025-06-12T16:06:47.857Z'
   - VulnerabilityID: CVE-2025-5915
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1521,7 +1522,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5915
     - https://www.cve.org/CVERecord?id=CVE-2025-5915
     PublishedDate: '2025-06-09T20:15:26.317Z'
-    LastModifiedDate: '2025-06-09T20:15:26.317Z'
+    LastModifiedDate: '2025-06-12T16:06:47.857Z'
   - VulnerabilityID: CVE-2025-5916
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1554,7 +1555,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5916
     - https://www.cve.org/CVERecord?id=CVE-2025-5916
     PublishedDate: '2025-06-09T20:15:27.17Z'
-    LastModifiedDate: '2025-06-09T20:15:27.17Z'
+    LastModifiedDate: '2025-06-12T16:06:47.857Z'
   - VulnerabilityID: CVE-2025-5917
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1587,7 +1588,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5917
     - https://www.cve.org/CVERecord?id=CVE-2025-5917
     PublishedDate: '2025-06-09T20:15:27.33Z'
-    LastModifiedDate: '2025-06-09T20:15:27.33Z'
+    LastModifiedDate: '2025-06-12T16:06:47.857Z'
   - VulnerabilityID: CVE-2025-5918
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1620,7 +1621,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5918
     - https://www.cve.org/CVERecord?id=CVE-2025-5918
     PublishedDate: '2025-06-09T20:15:27.493Z'
-    LastModifiedDate: '2025-06-09T20:15:27.493Z'
+    LastModifiedDate: '2025-06-12T16:06:47.857Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
     PkgName: libcurl-minimal
@@ -1941,12 +1942,13 @@
     - https://access.redhat.com/security/cve/CVE-2025-0725
     - https://curl.se/docs/CVE-2025-0725.html
     - https://curl.se/docs/CVE-2025-0725.json
+    - https://github.com/curl/curl/commit/76f83f0db23846e254d940ec7
     - https://hackerone.com/reports/2956023
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0725
     - https://security.netapp.com/advisory/ntap-20250306-0009/
     - https://www.cve.org/CVERecord?id=CVE-2025-0725
     PublishedDate: '2025-02-05T10:15:22.98Z'
-    LastModifiedDate: '2025-05-13T18:35:30.15Z'
+    LastModifiedDate: '2025-06-12T16:15:22.467Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.5.0-5.el9_5.x86_64
     PkgName: libgcc
@@ -2076,6 +2078,84 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
+  - VulnerabilityID: CVE-2025-49794
+    PkgID: libxml2@2.9.13-9.el9_6.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
+      UID: e6ab48392131b0f
+    InstalledVersion: 2.9.13-9.el9_6
+    Status: affected
+    Layer:
+      Digest: sha256:9c2a0aa98968fcd6d4bf7b09a2e9b7e65440ef425d4caf2ed84e40e2a564b3f7
+      DiffID: sha256:7ea627a1d4b1975edf289c1aea97e696607341b5723171448f68ef35eeb550bb
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49794
+    Title: 'libxml: Heap use after free (UAF) leads to Denial of service (DoS)'
+    Description: No description is available for this CVE.
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 9.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-49794
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-49794
+    - https://www.cve.org/CVERecord?id=CVE-2025-49794
+  - VulnerabilityID: CVE-2025-49795
+    PkgID: libxml2@2.9.13-9.el9_6.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
+      UID: e6ab48392131b0f
+    InstalledVersion: 2.9.13-9.el9_6
+    Status: affected
+    Layer:
+      Digest: sha256:9c2a0aa98968fcd6d4bf7b09a2e9b7e65440ef425d4caf2ed84e40e2a564b3f7
+      DiffID: sha256:7ea627a1d4b1975edf289c1aea97e696607341b5723171448f68ef35eeb550bb
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49795
+    Title: 'libxml: Null pointer dereference leads to Denial of service (DoS)'
+    Description: No description is available for this CVE.
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 9.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-49795
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-49795
+    - https://www.cve.org/CVERecord?id=CVE-2025-49795
+  - VulnerabilityID: CVE-2025-49796
+    PkgID: libxml2@2.9.13-9.el9_6.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
+      UID: e6ab48392131b0f
+    InstalledVersion: 2.9.13-9.el9_6
+    Status: affected
+    Layer:
+      Digest: sha256:9c2a0aa98968fcd6d4bf7b09a2e9b7e65440ef425d4caf2ed84e40e2a564b3f7
+      DiffID: sha256:7ea627a1d4b1975edf289c1aea97e696607341b5723171448f68ef35eeb550bb
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49796
+    Title: 'libxml: Type confusion leads to Denial of service (DoS)'
+    Description: No description is available for this CVE.
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 9.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-49796
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-49796
+    - https://www.cve.org/CVERecord?id=CVE-2025-49796
   - VulnerabilityID: CVE-2025-32414
     PkgID: libxml2@2.9.13-9.el9_6.x86_64
     PkgName: libxml2
@@ -2099,6 +2179,7 @@
       amazon: 2
       azure: 2
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -2112,12 +2193,45 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-32414
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/889
+    - https://linux.oracle.com/cve/CVE-2025-32414.html
+    - https://linux.oracle.com/errata/ELSA-2025-8958.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32414
     - https://ubuntu.com/security/notices/USN-7467-1
     - https://ubuntu.com/security/notices/USN-7467-2
     - https://www.cve.org/CVERecord?id=CVE-2025-32414
     PublishedDate: '2025-04-08T03:15:15.94Z'
     LastModifiedDate: '2025-04-23T19:09:35.517Z'
+  - VulnerabilityID: CVE-2025-6021
+    PkgID: libxml2@2.9.13-9.el9_6.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
+      UID: e6ab48392131b0f
+    InstalledVersion: 2.9.13-9.el9_6
+    Status: affected
+    Layer:
+      Digest: sha256:9c2a0aa98968fcd6d4bf7b09a2e9b7e65440ef425d4caf2ed84e40e2a564b3f7
+      DiffID: sha256:7ea627a1d4b1975edf289c1aea97e696607341b5723171448f68ef35eeb550bb
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6021
+    Title: 'libxml2: Integer Overflow in xmlBuildQName() Leads to Stack Buffer Overflow in libxml2'
+    Description: A flaw was found in libxml2's xmlBuildQName function, where integer overflows in buffer size calculations can lead to a stack-based buffer overflow. This issue can result in memory corruption or a denial of service when processing crafted input.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6021
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372406
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6021
+    - https://www.cve.org/CVERecord?id=CVE-2025-6021
+    PublishedDate: '2025-06-12T13:15:25.59Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-9.el9_6.x86_64
     PkgName: libxml2
@@ -4155,7 +4269,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-47081
     - https://www.openwall.com/lists/oss-security/2025/06/03/9
     PublishedDate: '2025-06-09T18:15:24.983Z'
-    LastModifiedDate: '2025-06-09T18:15:24.983Z'
+    LastModifiedDate: '2025-06-12T16:06:47.857Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
