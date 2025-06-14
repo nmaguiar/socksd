@@ -5572,7 +5572,66 @@
 │                       │       │                  ╰ [20]: https://www.oracle.com/security-alerts/cpujul2022.html 
 │                       │       ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:21:52.473Z 
-│                       ├ [100] ╭ VulnerabilityID : CVE-2023-36191 
+│                       ├ [100] ╭ VulnerabilityID : CVE-2025-47273 
+│                       │       ├ PkgID           : python3-setuptools-wheel@53.0.0-13.el9.noarch 
+│                       │       ├ PkgName         : python3-setuptools-wheel 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-setuptools-wheel@53.0.0-13.el
+│                       │       │                  │       9?arch=noarch&distro=redhat-9.5 
+│                       │       │                  ╰ UID : 7a9fd867eb8a1a0e 
+│                       │       ├ InstalledVersion: 53.0.0-13.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff35944
+│                       │       │                  │         70a588597170eef2fb3ac 
+│                       │       │                  ╰ DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831ea
+│                       │       │                            c27813797272110c45281 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47273 
+│                       │       ├ Title           : setuptools: Path Traversal Vulnerability in setuptools
+│                       │       │                   PackageIndex 
+│                       │       ├ Description     : setuptools is a package that allows users to download,
+│                       │       │                   build, install, upgrade, and uninstall Python packages. A
+│                       │       │                   path traversal vulnerability in `PackageIndex` is present
+│                       │       │                   in setuptools prior to version 78.1.1. An attacker would be
+│                       │       │                    allowed to write files to arbitrary locations on the
+│                       │       │                   filesystem with the permissions of the process running the
+│                       │       │                   Python code, which could escalate to remote code execution
+│                       │       │                   depending on the context. Version 78.1.1 fixes the issue. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-22 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ azure  : 3 
+│                       │       │                  ├ bitnami: 3 
+│                       │       │                  ├ ghsa   : 3 
+│                       │       │                  ├ nvd    : 3 
+│                       │       │                  ├ photon : 3 
+│                       │       │                  ├ redhat : 2 
+│                       │       │                  ╰ ubuntu : 2 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 8.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:
+│                       │       │                           │           H/A:N 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-47273 
+│                       │       │                  ├ [1] : https://github.com/pypa/advisory-database/tree/main/
+│                       │       │                  │       vulns/setuptools/PYSEC-2025-49.yaml 
+│                       │       │                  ├ [2] : https://github.com/pypa/setuptools 
+│                       │       │                  ├ [3] : https://github.com/pypa/setuptools/blob/6ead555c5fb2
+│                       │       │                  │       9bc57fe6105b1bffc163f56fd558/setuptools/package_inde
+│                       │       │                  │       x.py#L810C1-L825C88 
+│                       │       │                  ├ [4] : https://github.com/pypa/setuptools/commit/250a6d1797
+│                       │       │                  │       8f9f6ac3ac887091f2d32886fbbb0b 
+│                       │       │                  ├ [5] : https://github.com/pypa/setuptools/issues/4946 
+│                       │       │                  ├ [6] : https://github.com/pypa/setuptools/security/advisori
+│                       │       │                  │       es/GHSA-5rjg-fvgr-3xxf 
+│                       │       │                  ├ [7] : https://lists.debian.org/debian-lts-announce/2025/05
+│                       │       │                  │       /msg00035.html 
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-47273 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7544-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-47273 
+│                       │       ├ PublishedDate   : 2025-05-17T16:15:19.11Z 
+│                       │       ╰ LastModifiedDate: 2025-06-12T16:29:01.66Z 
+│                       ├ [101] ╭ VulnerabilityID : CVE-2023-36191 
 │                       │       ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │       ├ PkgName         : sqlite-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_6
@@ -5604,7 +5663,7 @@
 │                       │       │                  ╰ [3]: https://www.sqlite.org/forum/forumpost/19f55ef73b 
 │                       │       ├ PublishedDate   : 2023-06-23T02:15:09.597Z 
 │                       │       ╰ LastModifiedDate: 2023-11-07T04:16:25.153Z 
-│                       ├ [101] ╭ VulnerabilityID : CVE-2024-0232 
+│                       ├ [102] ╭ VulnerabilityID : CVE-2024-0232 
 │                       │       ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │       ├ PkgName         : sqlite-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_6
@@ -5650,7 +5709,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
 │                       │       ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T08:46:06.907Z 
-│                       ├ [102] ╭ VulnerabilityID : CVE-2021-3997 
+│                       ├ [103] ╭ VulnerabilityID : CVE-2021-3997 
 │                       │       ├ PkgID           : systemd-libs@252-46.el9_5.3.x86_64 
 │                       │       ├ PkgName         : systemd-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-46.el9_5.3?arch=x86_
@@ -5695,7 +5754,7 @@
 │                       │       │                         0/2 
 │                       │       ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:23:20.623Z 
-│                       ├ [103] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [104] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │       ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=red
@@ -5731,7 +5790,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │       ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │       ╰ LastModifiedDate: 2025-04-03T01:03:51.193Z 
-│                       ╰ [104] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ╰ [105] ╭ VulnerabilityID : CVE-2023-39804 
 │                               ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                               ├ PkgName         : tar 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=red
