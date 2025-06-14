@@ -4763,6 +4763,54 @@
     - https://www.oracle.com/security-alerts/cpujul2022.html
     PublishedDate: '2021-11-10T18:15:09.51Z'
     LastModifiedDate: '2024-11-21T06:21:52.473Z'
+  - VulnerabilityID: CVE-2025-47273
+    PkgID: python3-setuptools-wheel@53.0.0-13.el9.noarch
+    PkgName: python3-setuptools-wheel
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-setuptools-wheel@53.0.0-13.el9?arch=noarch&distro=redhat-9.5
+      UID: 7a9fd867eb8a1a0e
+    InstalledVersion: 53.0.0-13.el9
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47273
+    Title: 'setuptools: Path Traversal Vulnerability in setuptools PackageIndex'
+    Description: setuptools is a package that allows users to download, build, install, upgrade, and uninstall Python packages. A path traversal vulnerability in `PackageIndex` is present in setuptools prior to version 78.1.1. An attacker would be allowed to write files to arbitrary locations on the filesystem with the permissions of the process running the Python code, which could escalate to remote code execution depending on the context. Version 78.1.1 fixes the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      bitnami: 3
+      ghsa: 3
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-47273
+    - https://github.com/pypa/advisory-database/tree/main/vulns/setuptools/PYSEC-2025-49.yaml
+    - https://github.com/pypa/setuptools
+    - https://github.com/pypa/setuptools/blob/6ead555c5fb29bc57fe6105b1bffc163f56fd558/setuptools/package_index.py#L810C1-L825C88
+    - https://github.com/pypa/setuptools/commit/250a6d17978f9f6ac3ac887091f2d32886fbbb0b
+    - https://github.com/pypa/setuptools/issues/4946
+    - https://github.com/pypa/setuptools/security/advisories/GHSA-5rjg-fvgr-3xxf
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00035.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-47273
+    - https://ubuntu.com/security/notices/USN-7544-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-47273
+    PublishedDate: '2025-05-17T16:15:19.11Z'
+    LastModifiedDate: '2025-06-12T16:29:01.66Z'
   - VulnerabilityID: CVE-2023-36191
     PkgID: sqlite-libs@3.34.1-7.el9_3.x86_64
     PkgName: sqlite-libs
