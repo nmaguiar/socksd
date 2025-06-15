@@ -2684,8 +2684,8 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ VendorSeverity   ─ redhat: 3 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           H/A:H 
-│                       │       │                           ╰ V3Score : 9.1 
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
 │                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-49795 
 │                       │                          ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-49795 
 │                       │                          ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2025-49795 
