@@ -579,50 +579,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-12-13T14:15:22.953Z'
-  - VulnerabilityID: CVE-2025-0725
-    PkgID: curl-minimal@7.76.1-31.el9.x86_64
-    PkgName: curl-minimal
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.5
-      UID: ee530fbdbea9bae0
-    InstalledVersion: 7.76.1-31.el9
-    Status: affected
-    Layer:
-      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
-      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0725
-    Title: 'libcurl: Buffer Overflow in libcurl via zlib Integer Overflow'
-    Description: |-
-      When libcurl is asked to perform automatic gzip decompression of
-      content-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,
-      **using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would
-      make libcurl perform a buffer overflow.
-    Severity: LOW
-    CweIDs:
-    - CWE-120
-    VendorSeverity:
-      azure: 3
-      cbl-mariner: 3
-      redhat: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 4
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/02/05/3
-    - http://www.openwall.com/lists/oss-security/2025/02/06/2
-    - http://www.openwall.com/lists/oss-security/2025/02/06/4
-    - https://access.redhat.com/security/cve/CVE-2025-0725
-    - https://curl.se/docs/CVE-2025-0725.html
-    - https://curl.se/docs/CVE-2025-0725.json
-    - https://github.com/curl/curl/commit/76f83f0db23846e254d940ec7
-    - https://hackerone.com/reports/2956023
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-0725
-    - https://security.netapp.com/advisory/ntap-20250306-0009/
-    - https://www.cve.org/CVERecord?id=CVE-2025-0725
-    PublishedDate: '2025-02-05T10:15:22.98Z'
-    LastModifiedDate: '2025-06-12T16:15:22.467Z'
   - VulnerabilityID: CVE-2024-8176
     VendorIDs:
     - RHSA-2025:7444
@@ -779,7 +735,7 @@
     - https://ubuntu.com/security/notices/USN-7114-1
     - https://www.cve.org/CVERecord?id=CVE-2024-52533
     PublishedDate: '2024-11-11T23:15:05.967Z'
-    LastModifiedDate: '2024-12-06T14:15:21.4Z'
+    LastModifiedDate: '2025-06-17T01:23:56.15Z'
   - VulnerabilityID: CVE-2025-4373
     PkgID: glib2@2.68.4-14.el9_4.1.x86_64
     PkgName: glib2
@@ -903,37 +859,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-3360
     PublishedDate: '2025-04-07T13:15:43.687Z'
     LastModifiedDate: '2025-04-14T12:15:16.087Z'
-  - VulnerabilityID: CVE-2025-5702
-    PkgID: glibc@2.34-125.el9_5.8.x86_64
-    PkgName: glibc
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/glibc@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
-      UID: 714cae6d64b8bc1d
-    InstalledVersion: 2.34-125.el9_5.8
-    Status: affected
-    Layer:
-      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
-      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
-    Title: 'glibc: Vector register overwrite bug in glibc'
-    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
-    Severity: HIGH
-    CweIDs:
-    - CWE-665
-    VendorSeverity:
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-5702
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
-    - https://www.cve.org/CVERecord?id=CVE-2025-5702
-    PublishedDate: '2025-06-05T19:15:31.073Z'
-    LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2025-4802
     VendorIDs:
     - RHSA-2025:8655
@@ -983,38 +908,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/16/7
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
     PublishedDate: '2025-05-16T20:15:22.28Z'
-    LastModifiedDate: '2025-05-20T14:15:51.347Z'
-  - VulnerabilityID: CVE-2025-5702
-    PkgID: glibc-common@2.34-125.el9_5.8.x86_64
-    PkgName: glibc-common
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/glibc-common@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
-      UID: dd9b04616be04a7d
-    InstalledVersion: 2.34-125.el9_5.8
-    Status: affected
-    Layer:
-      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
-      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
-    Title: 'glibc: Vector register overwrite bug in glibc'
-    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
-    Severity: HIGH
-    CweIDs:
-    - CWE-665
-    VendorSeverity:
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-5702
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
-    - https://www.cve.org/CVERecord?id=CVE-2025-5702
-    PublishedDate: '2025-06-05T19:15:31.073Z'
-    LastModifiedDate: '2025-06-05T21:15:22.873Z'
+    LastModifiedDate: '2025-06-17T14:09:23.137Z'
   - VulnerabilityID: CVE-2025-4802
     VendorIDs:
     - RHSA-2025:8655
@@ -1064,38 +958,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/16/7
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
     PublishedDate: '2025-05-16T20:15:22.28Z'
-    LastModifiedDate: '2025-05-20T14:15:51.347Z'
-  - VulnerabilityID: CVE-2025-5702
-    PkgID: glibc-langpack-en@2.34-125.el9_5.8.x86_64
-    PkgName: glibc-langpack-en
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/glibc-langpack-en@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
-      UID: cef93d3dba740f73
-    InstalledVersion: 2.34-125.el9_5.8
-    Status: affected
-    Layer:
-      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
-      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
-    Title: 'glibc: Vector register overwrite bug in glibc'
-    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
-    Severity: HIGH
-    CweIDs:
-    - CWE-665
-    VendorSeverity:
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-5702
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
-    - https://www.cve.org/CVERecord?id=CVE-2025-5702
-    PublishedDate: '2025-06-05T19:15:31.073Z'
-    LastModifiedDate: '2025-06-05T21:15:22.873Z'
+    LastModifiedDate: '2025-06-17T14:09:23.137Z'
   - VulnerabilityID: CVE-2025-4802
     VendorIDs:
     - RHSA-2025:8655
@@ -1145,38 +1008,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/16/7
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
     PublishedDate: '2025-05-16T20:15:22.28Z'
-    LastModifiedDate: '2025-05-20T14:15:51.347Z'
-  - VulnerabilityID: CVE-2025-5702
-    PkgID: glibc-minimal-langpack@2.34-125.el9_5.8.x86_64
-    PkgName: glibc-minimal-langpack
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-125.el9_5.8?arch=x86_64&distro=redhat-9.5
-      UID: 61f6b308e80fed61
-    InstalledVersion: 2.34-125.el9_5.8
-    Status: affected
-    Layer:
-      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
-      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
-    Title: 'glibc: Vector register overwrite bug in glibc'
-    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
-    Severity: HIGH
-    CweIDs:
-    - CWE-665
-    VendorSeverity:
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-5702
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
-    - https://www.cve.org/CVERecord?id=CVE-2025-5702
-    PublishedDate: '2025-06-05T19:15:31.073Z'
-    LastModifiedDate: '2025-06-05T21:15:22.873Z'
+    LastModifiedDate: '2025-06-17T14:09:23.137Z'
   - VulnerabilityID: CVE-2025-4802
     VendorIDs:
     - RHSA-2025:8655
@@ -1226,7 +1058,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/16/7
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
     PublishedDate: '2025-05-16T20:15:22.28Z'
-    LastModifiedDate: '2025-05-20T14:15:51.347Z'
+    LastModifiedDate: '2025-06-17T14:09:23.137Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -2116,50 +1948,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-12-13T14:15:22.953Z'
-  - VulnerabilityID: CVE-2025-0725
-    PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
-    PkgName: libcurl-minimal
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.5
-      UID: 1119925130a835ba
-    InstalledVersion: 7.76.1-31.el9
-    Status: affected
-    Layer:
-      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
-      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0725
-    Title: 'libcurl: Buffer Overflow in libcurl via zlib Integer Overflow'
-    Description: |-
-      When libcurl is asked to perform automatic gzip decompression of
-      content-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,
-      **using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would
-      make libcurl perform a buffer overflow.
-    Severity: LOW
-    CweIDs:
-    - CWE-120
-    VendorSeverity:
-      azure: 3
-      cbl-mariner: 3
-      redhat: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 4
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/02/05/3
-    - http://www.openwall.com/lists/oss-security/2025/02/06/2
-    - http://www.openwall.com/lists/oss-security/2025/02/06/4
-    - https://access.redhat.com/security/cve/CVE-2025-0725
-    - https://curl.se/docs/CVE-2025-0725.html
-    - https://curl.se/docs/CVE-2025-0725.json
-    - https://github.com/curl/curl/commit/76f83f0db23846e254d940ec7
-    - https://hackerone.com/reports/2956023
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-0725
-    - https://security.netapp.com/advisory/ntap-20250306-0009/
-    - https://www.cve.org/CVERecord?id=CVE-2025-0725
-    PublishedDate: '2025-02-05T10:15:22.98Z'
-    LastModifiedDate: '2025-06-12T16:15:22.467Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.5.0-5.el9_5.x86_64
     PkgName: libgcc
@@ -2356,8 +2144,10 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49794
     Title: 'libxml: Heap use after free (UAF) leads to Denial of service (DoS)'
-    Description: No description is available for this CVE.
+    Description: A use-after-free vulnerability was found in libxml2. This issue occurs when parsing XPath elements under certain circumstances when the XML schematron has the <sch:name path="..."/> schema elements. This flaw allows a malicious actor to craft a malicious XML document used as input for libxml, resulting in the program's crash using libxml or other possible undefined behaviors.
     Severity: HIGH
+    CweIDs:
+    - CWE-825
     VendorSeverity:
       redhat: 3
     CVSS:
@@ -2366,8 +2156,11 @@
         V3Score: 9.1
     References:
     - https://access.redhat.com/security/cve/CVE-2025-49794
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49794
     - https://www.cve.org/CVERecord?id=CVE-2025-49794
+    PublishedDate: '2025-06-16T16:15:18.997Z'
+    LastModifiedDate: '2025-06-16T16:15:18.997Z'
   - VulnerabilityID: CVE-2025-49795
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -2382,8 +2175,10 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49795
     Title: 'libxml: Null pointer dereference leads to Denial of service (DoS)'
-    Description: No description is available for this CVE.
+    Description: A NULL pointer dereference vulnerability was found in libxml2 when processing XPath XML expressions. This flaw allows an attacker to craft a malicious XML input to libxml2, leading to a denial of service.
     Severity: HIGH
+    CweIDs:
+    - CWE-825
     VendorSeverity:
       redhat: 3
     CVSS:
@@ -2392,8 +2187,11 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-49795
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372379
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49795
     - https://www.cve.org/CVERecord?id=CVE-2025-49795
+    PublishedDate: '2025-06-16T16:15:19.203Z'
+    LastModifiedDate: '2025-06-16T16:15:19.203Z'
   - VulnerabilityID: CVE-2025-49796
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -2408,8 +2206,10 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49796
     Title: 'libxml: Type confusion leads to Denial of service (DoS)'
-    Description: No description is available for this CVE.
+    Description: A vulnerability was found in libxml2. Processing certain sch:name elements from the input XML file can trigger a memory corruption issue. This flaw allows an attacker to craft a malicious XML input file that can lead libxml to crash, resulting in a denial of service or other possible undefined behavior due to sensitive data being corrupted in memory.
     Severity: HIGH
+    CweIDs:
+    - CWE-125
     VendorSeverity:
       redhat: 3
     CVSS:
@@ -2418,8 +2218,11 @@
         V3Score: 9.1
     References:
     - https://access.redhat.com/security/cve/CVE-2025-49796
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49796
     - https://www.cve.org/CVERecord?id=CVE-2025-49796
+    PublishedDate: '2025-06-16T16:15:19.37Z'
+    LastModifiedDate: '2025-06-16T16:15:19.37Z'
   - VulnerabilityID: CVE-2025-32414
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -2665,6 +2468,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-32415
     PublishedDate: '2025-04-17T17:15:33.733Z'
     LastModifiedDate: '2025-04-23T18:17:52.053Z'
+  - VulnerabilityID: CVE-2025-6170
+    PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.2?arch=x86_64&distro=redhat-9.5
+      UID: 57ca389b191823b7
+    InstalledVersion: 2.9.13-6.el9_5.2
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6170
+    Title: 'libxml2: Stack Buffer Overflow in xmllint Interactive Shell Command Handling'
+    Description: A flaw was found in the interactive shell of the xmllint command-line tool, used for parsing XML files. When a user inputs an overly long command, the program does not check the input size properly, which can cause it to crash. This issue might allow attackers to run harmful code in rare configurations without modern protections.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6170
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372952
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6170
+    - https://www.cve.org/CVERecord?id=CVE-2025-6170
+    PublishedDate: '2025-06-16T16:15:20.43Z'
+    LastModifiedDate: '2025-06-16T16:15:20.43Z'
   - VulnerabilityID: CVE-2022-29458
     PkgID: ncurses-base@6.2-10.20210508.el9.noarch
     PkgName: ncurses-base
@@ -3520,6 +3354,32 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
+  - VulnerabilityID: CVE-2025-6020
+    PkgID: pam@1.5.1-22.el9_5.x86_64
+    PkgName: pam
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/pam@1.5.1-22.el9_5?arch=x86_64&distro=redhat-9.5
+      UID: 723b49309bcf487b
+    InstalledVersion: 1.5.1-22.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6020
+    Title: '[pam_namespace: potential privilege escalation]'
+    Description: A flaw was found in linux-pam. The module pam_namespace may use access user-controlled paths without proper protection, allowing local users to elevate their privileges to root via multiple symlink attacks and race conditions.
+    Severity: HIGH
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      redhat: 3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    PublishedDate: '2025-06-17T13:15:21.66Z'
+    LastModifiedDate: '2025-06-17T16:15:33.507Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
@@ -3862,6 +3722,34 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-03-14T10:15:15.847Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: python-unversioned-command@3.9.21-1.el9_5.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el9_5?arch=noarch&distro=redhat-9.5
+      UID: 608b68b025ced14b
+    InstalledVersion: 3.9.21-1.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      redhat: 2
+    References:
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T14:15:33.677Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python-unversioned-command@3.9.21-1.el9_5.noarch
     PkgName: python-unversioned-command
@@ -4012,6 +3900,7 @@
       bitnami: 1
       cbl-mariner: 1
       redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
@@ -4026,6 +3915,7 @@
     - https://github.com/python/cpython/pull/119099
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
     - https://www.cve.org/CVERecord?id=CVE-2025-1795
     PublishedDate: '2025-02-28T19:15:36.55Z'
     LastModifiedDate: '2025-02-28T21:15:27.57Z'
@@ -4172,6 +4062,34 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-03-14T10:15:15.847Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: python3@3.9.21-1.el9_5.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&distro=redhat-9.5
+      UID: 5c14b3fc23849587
+    InstalledVersion: 3.9.21-1.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      redhat: 2
+    References:
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T14:15:33.677Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3@3.9.21-1.el9_5.x86_64
     PkgName: python3
@@ -4322,6 +4240,7 @@
       bitnami: 1
       cbl-mariner: 1
       redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
@@ -4336,6 +4255,7 @@
     - https://github.com/python/cpython/pull/119099
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
     - https://www.cve.org/CVERecord?id=CVE-2025-1795
     PublishedDate: '2025-02-28T19:15:36.55Z'
     LastModifiedDate: '2025-02-28T21:15:27.57Z'
@@ -4482,6 +4402,34 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-03-14T10:15:15.847Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: python3-libs@3.9.21-1.el9_5.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_64&distro=redhat-9.5
+      UID: cea3dd3e08f7210c
+    InstalledVersion: 3.9.21-1.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      redhat: 2
+    References:
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T14:15:33.677Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3-libs@3.9.21-1.el9_5.x86_64
     PkgName: python3-libs
@@ -4632,6 +4580,7 @@
       bitnami: 1
       cbl-mariner: 1
       redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
@@ -4646,6 +4595,7 @@
     - https://github.com/python/cpython/pull/119099
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
     - https://www.cve.org/CVERecord?id=CVE-2025-1795
     PublishedDate: '2025-02-28T19:15:36.55Z'
     LastModifiedDate: '2025-02-28T21:15:27.57Z'
@@ -4692,6 +4642,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-47081
     - https://requests.readthedocs.io/en/latest/api/#requests.Session.trust_env
     - https://seclists.org/fulldisclosure/2025/Jun/2
+    - https://ubuntu.com/security/notices/USN-7568-1
     - https://www.cve.org/CVERecord?id=CVE-2024-47081
     - https://www.openwall.com/lists/oss-security/2025/06/03/9
     PublishedDate: '2025-06-09T18:15:24.983Z'
@@ -4795,8 +4746,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.8
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 6.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 7.1
     References:
     - https://access.redhat.com/security/cve/CVE-2025-47273
     - https://github.com/pypa/advisory-database/tree/main/vulns/setuptools/PYSEC-2025-49.yaml
@@ -4926,6 +4877,58 @@
     - https://www.openwall.com/lists/oss-security/2022/01/10/2
     PublishedDate: '2022-08-23T20:15:08.67Z'
     LastModifiedDate: '2024-11-21T06:23:20.623Z'
+  - VulnerabilityID: CVE-2025-4598
+    PkgID: systemd-libs@252-46.el9_5.3.x86_64
+    PkgName: systemd-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/systemd-libs@252-46.el9_5.3?arch=x86_64&distro=redhat-9.5
+      UID: f05112939269d2b8
+    InstalledVersion: 252-46.el9_5.3
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
+    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
+    Description: |-
+      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
+
+      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-364
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
+    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
+    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
+    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
+    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
+    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
+    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
+    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
+    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
+    - https://linux.oracle.com/cve/CVE-2025-4598.html
+    - https://linux.oracle.com/errata/ELSA-2025-20344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4598
+    - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
+    PublishedDate: '2025-05-30T14:15:23.557Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2005-2541
     PkgID: tar@1.34-7.el9.x86_64
     PkgName: tar
@@ -4979,7 +4982,7 @@
     VendorSeverity:
       amazon: 1
       cbl-mariner: 2
-      photon: 1
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
