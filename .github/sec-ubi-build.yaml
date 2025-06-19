@@ -746,6 +746,130 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-3360
     PublishedDate: '2025-04-07T13:15:43.687Z'
     LastModifiedDate: '2025-04-14T12:15:16.087Z'
+  - VulnerabilityID: CVE-2025-5702
+    PkgID: glibc@2.34-168.el9_6.19.x86_64
+    PkgName: glibc
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc@2.34-168.el9_6.19?arch=x86_64&distro=redhat-9.6
+      UID: e922ba486c898802
+    InstalledVersion: 2.34-168.el9_6.19
+    Status: affected
+    Layer:
+      Digest: sha256:dc630185b235ef3d97bcffefe71fe9f8cf686d693e8f682b2ad55bda58acbf71
+      DiffID: sha256:fcd449c8afe284c342564a415fc44f9837060dd0bea4ce7e34fb8adc5955579c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
+    Title: 'glibc: Vector register overwrite bug in glibc'
+    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-665
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5702
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
+    - https://www.cve.org/CVERecord?id=CVE-2025-5702
+    PublishedDate: '2025-06-05T19:15:31.073Z'
+    LastModifiedDate: '2025-06-05T21:15:22.873Z'
+  - VulnerabilityID: CVE-2025-5702
+    PkgID: glibc-common@2.34-168.el9_6.19.x86_64
+    PkgName: glibc-common
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-common@2.34-168.el9_6.19?arch=x86_64&distro=redhat-9.6
+      UID: aa32494a82c11fae
+    InstalledVersion: 2.34-168.el9_6.19
+    Status: affected
+    Layer:
+      Digest: sha256:dc630185b235ef3d97bcffefe71fe9f8cf686d693e8f682b2ad55bda58acbf71
+      DiffID: sha256:fcd449c8afe284c342564a415fc44f9837060dd0bea4ce7e34fb8adc5955579c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
+    Title: 'glibc: Vector register overwrite bug in glibc'
+    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-665
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5702
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
+    - https://www.cve.org/CVERecord?id=CVE-2025-5702
+    PublishedDate: '2025-06-05T19:15:31.073Z'
+    LastModifiedDate: '2025-06-05T21:15:22.873Z'
+  - VulnerabilityID: CVE-2025-5702
+    PkgID: glibc-langpack-en@2.34-168.el9_6.19.x86_64
+    PkgName: glibc-langpack-en
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-langpack-en@2.34-168.el9_6.19?arch=x86_64&distro=redhat-9.6
+      UID: cec2446a18beec06
+    InstalledVersion: 2.34-168.el9_6.19
+    Status: affected
+    Layer:
+      Digest: sha256:dc630185b235ef3d97bcffefe71fe9f8cf686d693e8f682b2ad55bda58acbf71
+      DiffID: sha256:fcd449c8afe284c342564a415fc44f9837060dd0bea4ce7e34fb8adc5955579c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
+    Title: 'glibc: Vector register overwrite bug in glibc'
+    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-665
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5702
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
+    - https://www.cve.org/CVERecord?id=CVE-2025-5702
+    PublishedDate: '2025-06-05T19:15:31.073Z'
+    LastModifiedDate: '2025-06-05T21:15:22.873Z'
+  - VulnerabilityID: CVE-2025-5702
+    PkgID: glibc-minimal-langpack@2.34-168.el9_6.19.x86_64
+    PkgName: glibc-minimal-langpack
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-168.el9_6.19?arch=x86_64&distro=redhat-9.6
+      UID: 469498a8d510bc6a
+    InstalledVersion: 2.34-168.el9_6.19
+    Status: affected
+    Layer:
+      Digest: sha256:dc630185b235ef3d97bcffefe71fe9f8cf686d693e8f682b2ad55bda58acbf71
+      DiffID: sha256:fcd449c8afe284c342564a415fc44f9837060dd0bea4ce7e34fb8adc5955579c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
+    Title: 'glibc: Vector register overwrite bug in glibc'
+    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-665
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5702
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
+    - https://www.cve.org/CVERecord?id=CVE-2025-5702
+    PublishedDate: '2025-06-05T19:15:31.073Z'
+    LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -1696,7 +1820,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49794
     - https://www.cve.org/CVERecord?id=CVE-2025-49794
     PublishedDate: '2025-06-16T16:15:18.997Z'
-    LastModifiedDate: '2025-06-16T16:15:18.997Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-49795
     PkgID: libxml2@2.9.13-9.el9_6.x86_64
     PkgName: libxml2
@@ -1727,7 +1851,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49795
     - https://www.cve.org/CVERecord?id=CVE-2025-49795
     PublishedDate: '2025-06-16T16:15:19.203Z'
-    LastModifiedDate: '2025-06-16T16:15:19.203Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-49796
     PkgID: libxml2@2.9.13-9.el9_6.x86_64
     PkgName: libxml2
@@ -1758,7 +1882,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49796
     - https://www.cve.org/CVERecord?id=CVE-2025-49796
     PublishedDate: '2025-06-16T16:15:19.37Z'
-    LastModifiedDate: '2025-06-16T16:15:19.37Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-32414
     PkgID: libxml2@2.9.13-9.el9_6.x86_64
     PkgName: libxml2
@@ -2034,7 +2158,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6170
     - https://www.cve.org/CVERecord?id=CVE-2025-6170
     PublishedDate: '2025-06-16T16:15:20.43Z'
-    LastModifiedDate: '2025-06-16T16:15:20.43Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2022-29458
     PkgID: ncurses-base@6.2-10.20210508.el9.noarch
     PkgName: ncurses-base
@@ -2903,19 +3027,25 @@
       DiffID: sha256:fcd449c8afe284c342564a415fc44f9837060dd0bea4ce7e34fb8adc5955579c
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6020
-    Title: '[pam_namespace: potential privilege escalation]'
+    Title: 'linux-pam: Linux-pam directory Traversal'
     Description: A flaw was found in linux-pam. The module pam_namespace may use access user-controlled paths without proper protection, allowing local users to elevate their privileges to root via multiple symlink attacks and race conditions.
     Severity: HIGH
     CweIDs:
     - CWE-22
     VendorSeverity:
       redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
     References:
     - http://www.openwall.com/lists/oss-security/2025/06/17/1
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
+    - https://www.cve.org/CVERecord?id=CVE-2025-6020
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-06-17T16:15:33.507Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
@@ -3217,21 +3347,29 @@
       DiffID: sha256:fcd449c8afe284c342564a415fc44f9837060dd0bea4ce7e34fb8adc5955579c
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    Title: 'cpython: Python HTMLParser quadratic complexity'
     Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
     Severity: MEDIUM
     CweIDs:
     - CWE-1333
     VendorSeverity:
       redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
     - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
-    LastModifiedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python-unversioned-command@3.9.21-2.el9.noarch
     PkgName: python-unversioned-command
@@ -3503,21 +3641,29 @@
       DiffID: sha256:fcd449c8afe284c342564a415fc44f9837060dd0bea4ce7e34fb8adc5955579c
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    Title: 'cpython: Python HTMLParser quadratic complexity'
     Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
     Severity: MEDIUM
     CweIDs:
     - CWE-1333
     VendorSeverity:
       redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
     - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
-    LastModifiedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3@3.9.21-2.el9.x86_64
     PkgName: python3
@@ -3789,21 +3935,29 @@
       DiffID: sha256:fcd449c8afe284c342564a415fc44f9837060dd0bea4ce7e34fb8adc5955579c
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    Title: 'cpython: Python HTMLParser quadratic complexity'
     Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
     Severity: MEDIUM
     CweIDs:
     - CWE-1333
     VendorSeverity:
       redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
     - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
-    LastModifiedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3-libs@3.9.21-2.el9.x86_64
     PkgName: python3-libs
@@ -4309,6 +4463,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
