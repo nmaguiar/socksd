@@ -3733,6 +3733,7 @@
     VendorSeverity:
       bitnami: 2
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -3747,6 +3748,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -3756,6 +3758,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12718
     PublishedDate: '2025-06-03T13:15:20.183Z'
     LastModifiedDate: '2025-06-04T14:54:33.783Z'
@@ -3780,6 +3783,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
@@ -3794,6 +3798,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -3802,6 +3807,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4138
     PublishedDate: '2025-06-03T13:15:20.377Z'
     LastModifiedDate: '2025-06-05T14:15:32.767Z'
@@ -3818,7 +3824,7 @@
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4517
-    Title: 'python: Arbitrary writes via tarfile realpath overflow'
+    Title: 'python: cpython: Arbitrary writes via tarfile realpath overflow'
     Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -3826,6 +3832,7 @@
     VendorSeverity:
       bitnami: 4
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
@@ -3840,6 +3847,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -3848,6 +3856,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4517
     PublishedDate: '2025-06-03T13:15:20.837Z'
     LastModifiedDate: '2025-06-05T14:15:33.05Z'
@@ -4015,6 +4024,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -4029,6 +4039,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -4037,6 +4048,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4330
     PublishedDate: '2025-06-03T13:15:20.503Z'
     LastModifiedDate: '2025-06-05T14:15:32.91Z'
@@ -4061,6 +4073,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -4074,6 +4087,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -4082,6 +4096,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4435
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4435
     PublishedDate: '2025-06-03T13:15:20.63Z'
     LastModifiedDate: '2025-06-04T14:54:33.783Z'
@@ -4104,8 +4119,12 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      bitnami: 2
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
@@ -4311,6 +4330,7 @@
     VendorSeverity:
       bitnami: 2
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -4325,6 +4345,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -4334,6 +4355,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12718
     PublishedDate: '2025-06-03T13:15:20.183Z'
     LastModifiedDate: '2025-06-04T14:54:33.783Z'
@@ -4358,6 +4380,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
@@ -4372,6 +4395,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -4380,6 +4404,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4138
     PublishedDate: '2025-06-03T13:15:20.377Z'
     LastModifiedDate: '2025-06-05T14:15:32.767Z'
@@ -4396,7 +4421,7 @@
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4517
-    Title: 'python: Arbitrary writes via tarfile realpath overflow'
+    Title: 'python: cpython: Arbitrary writes via tarfile realpath overflow'
     Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -4404,6 +4429,7 @@
     VendorSeverity:
       bitnami: 4
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
@@ -4418,6 +4444,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -4426,6 +4453,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4517
     PublishedDate: '2025-06-03T13:15:20.837Z'
     LastModifiedDate: '2025-06-05T14:15:33.05Z'
@@ -4593,6 +4621,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -4607,6 +4636,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -4615,6 +4645,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4330
     PublishedDate: '2025-06-03T13:15:20.503Z'
     LastModifiedDate: '2025-06-05T14:15:32.91Z'
@@ -4639,6 +4670,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -4652,6 +4684,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -4660,6 +4693,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4435
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4435
     PublishedDate: '2025-06-03T13:15:20.63Z'
     LastModifiedDate: '2025-06-04T14:54:33.783Z'
@@ -4682,8 +4716,12 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      bitnami: 2
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
@@ -4889,6 +4927,7 @@
     VendorSeverity:
       bitnami: 2
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -4903,6 +4942,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -4912,6 +4952,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12718
     PublishedDate: '2025-06-03T13:15:20.183Z'
     LastModifiedDate: '2025-06-04T14:54:33.783Z'
@@ -4936,6 +4977,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
@@ -4950,6 +4992,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -4958,6 +5001,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4138
     PublishedDate: '2025-06-03T13:15:20.377Z'
     LastModifiedDate: '2025-06-05T14:15:32.767Z'
@@ -4974,7 +5018,7 @@
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4517
-    Title: 'python: Arbitrary writes via tarfile realpath overflow'
+    Title: 'python: cpython: Arbitrary writes via tarfile realpath overflow'
     Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -4982,6 +5026,7 @@
     VendorSeverity:
       bitnami: 4
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
@@ -4996,6 +5041,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -5004,6 +5050,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4517
     PublishedDate: '2025-06-03T13:15:20.837Z'
     LastModifiedDate: '2025-06-05T14:15:33.05Z'
@@ -5171,6 +5218,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -5185,6 +5233,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -5193,6 +5242,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4330
     PublishedDate: '2025-06-03T13:15:20.503Z'
     LastModifiedDate: '2025-06-05T14:15:32.91Z'
@@ -5217,6 +5267,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -5230,6 +5281,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -5238,6 +5290,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4435
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4435
     PublishedDate: '2025-06-03T13:15:20.63Z'
     LastModifiedDate: '2025-06-04T14:54:33.783Z'
@@ -5260,8 +5313,12 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      bitnami: 2
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
@@ -5507,7 +5564,7 @@
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-50181
-    Title: urllib3 is a user-friendly HTTP client library for Python. Prior to 2. ...
+    Title: 'urllib3: urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation'
     Description: urllib3 is a user-friendly HTTP client library for Python. Prior to 2.5.0, it is possible to disable redirects for all requests by instantiating a PoolManager and specifying retries in a way that disable redirects. By default, requests and botocore users are not affected. An application attempting to mitigate SSRF or open redirect vulnerabilities by disabling redirects at the PoolManager level will remain vulnerable. This issue has been patched in version 2.5.0.
     Severity: MEDIUM
     CweIDs:
@@ -5519,11 +5576,16 @@
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-50181
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/f05b1329126d5be6de501f9d1e3e36738bc08857
     - https://github.com/urllib3/urllib3/security/advisories/GHSA-pq67-6m6q-mj2v
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50181
+    - https://www.cve.org/CVERecord?id=CVE-2025-50181
     PublishedDate: '2025-06-19T01:15:24.453Z'
     LastModifiedDate: '2025-06-19T01:15:24.453Z'
   - VulnerabilityID: CVE-2025-50182
@@ -5539,7 +5601,7 @@
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-50182
-    Title: urllib3 is a user-friendly HTTP client library for Python. Prior to 2. ...
+    Title: 'urllib3: urllib3 does not control redirects in browsers and Node.js'
     Description: urllib3 is a user-friendly HTTP client library for Python. Prior to 2.5.0, urllib3 does not control redirects in browsers and Node.js. urllib3 supports being used in a Pyodide runtime utilizing the JavaScript Fetch API or falling back on XMLHttpRequest. This means Python libraries can be used to make HTTP requests from a browser or Node.js. Additionally, urllib3 provides a mechanism to control redirects, but the retries and redirect parameters are ignored with Pyodide; the runtime itself determines redirect behavior. This issue has been patched in version 2.5.0.
     Severity: MEDIUM
     CweIDs:
@@ -5551,11 +5613,16 @@
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-50182
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/7eb4a2aafe49a279c29b6d1f0ed0f42e9736194f
     - https://github.com/urllib3/urllib3/security/advisories/GHSA-48p4-8xcf-vxj5
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50182
+    - https://www.cve.org/CVERecord?id=CVE-2025-50182
     PublishedDate: '2025-06-19T02:15:17.967Z'
     LastModifiedDate: '2025-06-19T02:15:17.967Z'
   - VulnerabilityID: CVE-2021-3572
