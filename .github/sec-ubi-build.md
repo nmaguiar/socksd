@@ -1404,8 +1404,12 @@
 │                       │       │                   denial-of-service condition. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-415 
-│                       │       ├ VendorSeverity   ─ redhat: 1 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:
+│                       │       ├ VendorSeverity   ╭ nvd   : 4 
+│                       │       │                  ╰ redhat: 1 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 9.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 3.9 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5914 
@@ -1416,7 +1420,7 @@
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-5914 
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-5914 
 │                       │       ├ PublishedDate   : 2025-06-09T20:15:26.123Z 
-│                       │       ╰ LastModifiedDate: 2025-06-12T16:06:47.857Z 
+│                       │       ╰ LastModifiedDate: 2025-06-20T14:49:44.393Z 
 │                       ├ [27]  ╭ VulnerabilityID : CVE-2025-5915 
 │                       │       ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │       ├ PkgName         : libarchive 
