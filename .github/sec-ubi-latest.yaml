@@ -333,7 +333,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -386,7 +386,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -444,7 +444,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -497,7 +497,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -630,7 +630,7 @@
     - https://bugzilla.redhat.com/2310137
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310137
     - https://bugzilla.suse.com/show_bug.cgi?id=1239618
-    - https://errata.almalinux.org/8/ALSA-2025-3913.html
+    - https://errata.almalinux.org/9/ALSA-2025-7444.html
     - https://github.com/libexpat/libexpat/blob/R_2_7_0/expat/Changes#L40-L52
     - https://github.com/libexpat/libexpat/issues/893
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
@@ -893,10 +893,10 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
-    - https://access.redhat.com/errata/RHSA-2025:8686
+    - https://access.redhat.com/errata/RHSA-2025:8655
     - https://access.redhat.com/security/cve/CVE-2025-4802
     - https://bugzilla.redhat.com/2367468
-    - https://errata.almalinux.org/8/ALSA-2025-8686.html
+    - https://errata.almalinux.org/9/ALSA-2025-8655.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
     - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
@@ -974,10 +974,10 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
-    - https://access.redhat.com/errata/RHSA-2025:8686
+    - https://access.redhat.com/errata/RHSA-2025:8655
     - https://access.redhat.com/security/cve/CVE-2025-4802
     - https://bugzilla.redhat.com/2367468
-    - https://errata.almalinux.org/8/ALSA-2025-8686.html
+    - https://errata.almalinux.org/9/ALSA-2025-8655.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
     - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
@@ -1055,10 +1055,10 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
-    - https://access.redhat.com/errata/RHSA-2025:8686
+    - https://access.redhat.com/errata/RHSA-2025:8655
     - https://access.redhat.com/security/cve/CVE-2025-4802
     - https://bugzilla.redhat.com/2367468
-    - https://errata.almalinux.org/8/ALSA-2025-8686.html
+    - https://errata.almalinux.org/9/ALSA-2025-8655.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
     - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
@@ -1136,10 +1136,10 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
-    - https://access.redhat.com/errata/RHSA-2025:8686
+    - https://access.redhat.com/errata/RHSA-2025:8655
     - https://access.redhat.com/security/cve/CVE-2025-4802
     - https://bugzilla.redhat.com/2367468
-    - https://errata.almalinux.org/8/ALSA-2025-8686.html
+    - https://errata.almalinux.org/9/ALSA-2025-8655.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
     - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
@@ -1360,7 +1360,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1499,7 +1499,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://errata.almalinux.org/8/ALSA-2025-8411.html
     - https://linux.oracle.com/cve/CVE-2025-3576.html
-    - https://linux.oracle.com/errata/ELSA-2025-8411.html
+    - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://ubuntu.com/security/notices/USN-7542-1
@@ -1643,6 +1643,7 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      amazon: 3
       nvd: 4
       redhat: 1
     CVSS:
@@ -1830,7 +1831,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1883,7 +1884,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -1941,7 +1942,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1994,7 +1995,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -2415,6 +2416,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      amazon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -3735,6 +3737,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 2
       redhat: 3
       ubuntu: 2
@@ -3785,6 +3788,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 3
       ubuntu: 2
@@ -3834,6 +3838,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 4
       redhat: 3
       ubuntu: 2
@@ -4026,6 +4031,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -4075,6 +4081,7 @@
     CweIDs:
     - CWE-682
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -4332,6 +4339,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 2
       redhat: 3
       ubuntu: 2
@@ -4382,6 +4390,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 3
       ubuntu: 2
@@ -4431,6 +4440,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 4
       redhat: 3
       ubuntu: 2
@@ -4623,6 +4633,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -4672,6 +4683,7 @@
     CweIDs:
     - CWE-682
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -4929,6 +4941,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 2
       redhat: 3
       ubuntu: 2
@@ -4979,6 +4992,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 3
       ubuntu: 2
@@ -5028,6 +5042,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 4
       redhat: 3
       ubuntu: 2
@@ -5220,6 +5235,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -5269,6 +5285,7 @@
     CweIDs:
     - CWE-682
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -5526,6 +5543,7 @@
     CweIDs:
     - CWE-522
     VendorSeverity:
+      amazon: 2
       ghsa: 2
       redhat: 2
       ubuntu: 2
@@ -5591,7 +5609,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50181
     - https://www.cve.org/CVERecord?id=CVE-2025-50181
     PublishedDate: '2025-06-19T01:15:24.453Z'
-    LastModifiedDate: '2025-06-19T01:15:24.453Z'
+    LastModifiedDate: '2025-06-23T20:16:59.783Z'
   - VulnerabilityID: CVE-2025-50182
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
@@ -5628,7 +5646,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50182
     - https://www.cve.org/CVERecord?id=CVE-2025-50182
     PublishedDate: '2025-06-19T02:15:17.967Z'
-    LastModifiedDate: '2025-06-19T02:15:17.967Z'
+    LastModifiedDate: '2025-06-23T20:16:59.783Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
@@ -5761,7 +5779,6 @@
     Description: 'Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.'
     Severity: LOW
     VendorSeverity:
-      amazon: 2
       photon: 2
       redhat: 1
     CVSS:
