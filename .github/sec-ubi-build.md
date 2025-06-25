@@ -337,7 +337,7 @@
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/1
 │                       │       │                  │       1/1 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-11053 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -390,7 +390,7 @@
 │                       │       │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │       │                  ├ [52]: https://curl.se/docs/CVE-2024-11053.html 
 │                       │       │                  ├ [53]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │       │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │       │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
 │                       │       │                  ├ [55]: https://hackerone.com/reports/2829063 
 │                       │       │                  ├ [56]: https://linux.oracle.com/cve/CVE-2024-11053.html 
 │                       │       │                  ├ [57]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
@@ -454,7 +454,7 @@
 │                       │       │                           ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/3
 │                       │       │                  │       1/1 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-7264 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -507,7 +507,7 @@
 │                       │       │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │       │                  ├ [52]: https://curl.se/docs/CVE-2024-7264.html 
 │                       │       │                  ├ [53]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │       │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │       │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
 │                       │       │                  ├ [55]: https://github.com/curl/curl/commit/27959ecce75cdb28
 │                       │       │                  │       09c0bdb3286e60e08fadb519 
 │                       │       │                  ├ [56]: https://hackerone.com/reports/2629968 
@@ -1127,7 +1127,7 @@
 │                       │       │                  │       024-21085 
 │                       │       │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-21094 
-│                       │       │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
+│                       │       │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-1825.html 
 │                       │       │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:1822 
 │                       │       │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21094.html 
 │                       │       │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-1825.html 
@@ -1237,7 +1237,7 @@
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
 │                       │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-8411.html 
 │                       │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2025-3576.html 
-│                       │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-8411.html 
+│                       │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-9430.html 
 │                       │       │                  ├ [7] : https://lists.debian.org/debian-lts-announce/2025/05
 │                       │       │                  │       /msg00047.html 
 │                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
@@ -1404,7 +1404,8 @@
 │                       │       │                   denial-of-service condition. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-415 
-│                       │       ├ VendorSeverity   ╭ nvd   : 4 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ nvd   : 4 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                  │        │           H/A:H 
@@ -1617,7 +1618,7 @@
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/1
 │                       │       │                  │       1/1 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-11053 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -1670,7 +1671,7 @@
 │                       │       │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │       │                  ├ [52]: https://curl.se/docs/CVE-2024-11053.html 
 │                       │       │                  ├ [53]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │       │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │       │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
 │                       │       │                  ├ [55]: https://hackerone.com/reports/2829063 
 │                       │       │                  ├ [56]: https://linux.oracle.com/cve/CVE-2024-11053.html 
 │                       │       │                  ├ [57]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
@@ -1734,7 +1735,7 @@
 │                       │       │                           ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/07/3
 │                       │       │                  │       1/1 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1673 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:1671 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-7264 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2294581 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2294676 
@@ -1787,7 +1788,7 @@
 │                       │       │                  ├ [51]: https://bugzilla.redhat.com/2339305 
 │                       │       │                  ├ [52]: https://curl.se/docs/CVE-2024-7264.html 
 │                       │       │                  ├ [53]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │       │                  ├ [54]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
+│                       │       │                  ├ [54]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
 │                       │       │                  ├ [55]: https://github.com/curl/curl/commit/27959ecce75cdb28
 │                       │       │                  │       09c0bdb3286e60e08fadb519 
 │                       │       │                  ├ [56]: https://hackerone.com/reports/2629968 
@@ -2193,7 +2194,8 @@
 │                       │       │                   crafted input. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-121 
-│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
@@ -3695,7 +3697,8 @@
 │                       │       │                   . 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ redhat : 3 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -3776,7 +3779,8 @@
 │                       │       │                   . 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ bitnami: 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 3 
 │                       │       │                  ├ redhat : 3 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
@@ -3855,7 +3859,8 @@
 │                       │       │                   . 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ bitnami: 4 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 4 
 │                       │       │                  ├ redhat : 3 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
@@ -4091,7 +4096,8 @@
 │                       │       │                   . 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ bitnami: 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 3 
 │                       │       │                  ├ redhat : 2 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -4153,7 +4159,8 @@
 │                       │       │                   that the member would still be extracted and not skipped. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-682 
-│                       │       ├ VendorSeverity   ╭ bitnami: 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 3 
 │                       │       │                  ├ redhat : 2 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -4479,7 +4486,8 @@
 │                       │       │                   . 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ redhat : 3 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -4560,7 +4568,8 @@
 │                       │       │                   . 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ bitnami: 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 3 
 │                       │       │                  ├ redhat : 3 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
@@ -4639,7 +4648,8 @@
 │                       │       │                   . 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ bitnami: 4 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 4 
 │                       │       │                  ├ redhat : 3 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
@@ -4875,7 +4885,8 @@
 │                       │       │                   . 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ bitnami: 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 3 
 │                       │       │                  ├ redhat : 2 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -4937,7 +4948,8 @@
 │                       │       │                   that the member would still be extracted and not skipped. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-682 
-│                       │       ├ VendorSeverity   ╭ bitnami: 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 3 
 │                       │       │                  ├ redhat : 2 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -5263,7 +5275,8 @@
 │                       │       │                   . 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ redhat : 3 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -5344,7 +5357,8 @@
 │                       │       │                   . 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ bitnami: 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 3 
 │                       │       │                  ├ redhat : 3 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
@@ -5423,7 +5437,8 @@
 │                       │       │                   . 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ bitnami: 4 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 4 
 │                       │       │                  ├ redhat : 3 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
@@ -5659,7 +5674,8 @@
 │                       │       │                   . 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ bitnami: 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 3 
 │                       │       │                  ├ redhat : 2 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -5721,7 +5737,8 @@
 │                       │       │                   that the member would still be extracted and not skipped. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-682 
-│                       │       ├ VendorSeverity   ╭ bitnami: 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 3 
 │                       │       │                  ├ redhat : 2 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -6029,7 +6046,8 @@
 │                       │       │                   `trust_env=False` on one's Requests Session. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-522 
-│                       │       ├ VendorSeverity   ╭ ghsa  : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 2 
+│                       │       │                  ├ ghsa  : 2 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
@@ -6108,7 +6126,7 @@
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-50181 
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-50181 
 │                       │       ├ PublishedDate   : 2025-06-19T01:15:24.453Z 
-│                       │       ╰ LastModifiedDate: 2025-06-19T01:15:24.453Z 
+│                       │       ╰ LastModifiedDate: 2025-06-23T20:16:59.783Z 
 │                       ├ [106] ╭ VulnerabilityID : CVE-2025-50182 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
@@ -6155,7 +6173,7 @@
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-50182 
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-50182 
 │                       │       ├ PublishedDate   : 2025-06-19T02:15:17.967Z 
-│                       │       ╰ LastModifiedDate: 2025-06-19T02:15:17.967Z 
+│                       │       ╰ LastModifiedDate: 2025-06-23T20:16:59.783Z 
 │                       ├ [107] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
@@ -6357,8 +6375,7 @@
 │                       │       │                   its CNA. Further investigation showed that it was not a
 │                       │       │                   security issue. Notes: none. 
 │                       │       ├ Severity        : LOW 
-│                       │       ├ VendorSeverity   ╭ amazon: 2 
-│                       │       │                  ├ photon: 2 
+│                       │       ├ VendorSeverity   ╭ photon: 2 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
