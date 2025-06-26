@@ -1778,6 +1778,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-252 
 │                       │       ├ VendorSeverity   ╭ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 2 
@@ -1791,9 +1792,11 @@
 │                       │       │                  ├ [3]: https://github.com/libarchive/libarchive/blob/b439d58
 │                       │       │                  │      6f53911c84be5e380445a8a259e19114c/tar/util.c#L751-L75
 │                       │       │                  │      2 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-25724 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7454-1 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-25724 
+│                       │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-25724.html 
+│                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9431.html 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-25724 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-7454-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-25724 
 │                       │       ├ PublishedDate   : 2025-03-02T02:15:36.603Z 
 │                       │       ╰ LastModifiedDate: 2025-03-02T02:15:36.603Z 
 │                       ├ [33]  ╭ VulnerabilityID : CVE-2025-1632 
@@ -1871,7 +1874,8 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-415 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
 │                       │       │                  ├ nvd   : 4 
-│                       │       │                  ╰ redhat: 1 
+│                       │       │                  ├ redhat: 1 
+│                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                  │        │           H/A:H 
 │                       │       │                  │        ╰ V3Score : 9.8 
@@ -1881,10 +1885,12 @@
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5914 
 │                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2370861 
 │                       │       │                  ├ [2]: https://github.com/libarchive/libarchive/pull/2598 
-│                       │       │                  ├ [3]: https://github.com/libarchive/libarchive/releases/tag
+│                       │       │                  ├ [3]: https://github.com/libarchive/libarchive/pull/2598/co
+│                       │       │                  │      mmits/196029dd0a17cd17c916eada9085839032b76ec9 
+│                       │       │                  ├ [4]: https://github.com/libarchive/libarchive/releases/tag
 │                       │       │                  │      /v3.8.0 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-5914 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-5914 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-5914 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5914 
 │                       │       ├ PublishedDate   : 2025-06-09T20:15:26.123Z 
 │                       │       ╰ LastModifiedDate: 2025-06-20T14:49:44.393Z 
 │                       ├ [35]  ╭ VulnerabilityID : CVE-2025-5915 
@@ -1914,7 +1920,8 @@
 │                       │       │                   sensitive information from adjacent memory regions. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-122 
-│                       │       ├ VendorSeverity   ─ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 3.9 
@@ -1954,17 +1961,20 @@
 │                       │       │                   using libarchive. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ VendorSeverity   ─ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 3.9 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5916 
 │                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2370872 
 │                       │       │                  ├ [2]: https://github.com/libarchive/libarchive/pull/2568 
-│                       │       │                  ├ [3]: https://github.com/libarchive/libarchive/releases/tag
+│                       │       │                  ├ [3]: https://github.com/libarchive/libarchive/pull/2568/co
+│                       │       │                  │      mmits/bce70c4c26864df2a8d6953e7db6e4b156253508 
+│                       │       │                  ├ [4]: https://github.com/libarchive/libarchive/releases/tag
 │                       │       │                  │      /v3.8.0 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-5916 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-5916 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-5916 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5916 
 │                       │       ├ PublishedDate   : 2025-06-09T20:15:27.17Z 
 │                       │       ╰ LastModifiedDate: 2025-06-12T16:06:47.857Z 
 │                       ├ [37]  ╭ VulnerabilityID : CVE-2025-5917 
@@ -1993,7 +2003,8 @@
 │                       │       │                   more sophisticated exploitation. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ─ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 2.8 
@@ -3953,18 +3964,21 @@
 │                       │       │                   conditions. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ redhat: 3 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │       │                  ├ redhat     : 3 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:H 
 │                       │       │                           ╰ V3Score : 7.8 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/06/17/1 
 │                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6020 
 │                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7580-1 
-│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/06/1
+│                       │       │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │       │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/06/1
 │                       │       │                         7/1 
 │                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
 │                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
