@@ -2,34 +2,6 @@
   Class: os-pkgs
   Type: redhat
   Vulnerabilities:
-  - VulnerabilityID: CVE-2021-36217
-    PkgID: avahi-libs@0.8-21.el9.x86_64
-    PkgName: avahi-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/avahi-libs@0.8-21.el9?arch=x86_64&distro=redhat-9.5
-      UID: 87830befc2f2e994
-    InstalledVersion: 0.8-21.el9
-    Status: under_investigation
-    Layer:
-      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
-      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-36217
-    Title: 'avahi: local DoS against avahi-daemon via D-Bus interface'
-    Description: 'Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2021-3502. Reason: This candidate is a duplicate of CVE-2021-3502. Notes: All CVE users should reference CVE-2021-3502 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage'
-    Severity: MEDIUM
-    VendorSeverity:
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 6.2
-    References:
-    - https://access.redhat.com/security/cve/CVE-2021-36217
-    - https://nvd.nist.gov/vuln/detail/CVE-2021-36217
-    - https://www.cve.org/CVERecord?id=CVE-2021-36217
-    PublishedDate: '2021-07-07T18:15:12.85Z'
-    LastModifiedDate: '2023-11-07T03:36:44.057Z'
   - VulnerabilityID: CVE-2024-52615
     PkgID: avahi-libs@0.8-21.el9.x86_64
     PkgName: avahi-libs
@@ -1466,13 +1438,16 @@
     - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2025-3576
+    VendorIDs:
+    - RHSA-2025:9430
     PkgID: krb5-libs@1.21.1-4.el9_5.x86_64
     PkgName: krb5-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/krb5-libs@1.21.1-4.el9_5?arch=x86_64&distro=redhat-9.5
       UID: e3f50656ebbdd511
     InstalledVersion: 1.21.1-4.el9_5
-    Status: affected
+    FixedVersion: 1.21.1-8.el9_6
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
@@ -1544,13 +1519,16 @@
     PublishedDate: '2023-05-29T20:15:09.513Z'
     LastModifiedDate: '2025-01-14T17:15:11.673Z'
   - VulnerabilityID: CVE-2025-25724
+    VendorIDs:
+    - RHSA-2025:9431
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_64&distro=redhat-9.5
       UID: b86a44f814c42e38
     InstalledVersion: 3.5.3-4.el9
-    Status: affected
+    FixedVersion: 3.5.3-5.el9_6
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
@@ -1664,6 +1642,7 @@
     - https://github.com/libarchive/libarchive/pull/2598/commits/196029dd0a17cd17c916eada9085839032b76ec9
     - https://github.com/libarchive/libarchive/releases/tag/v3.8.0
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5914
+    - https://ubuntu.com/security/notices/USN-7601-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5914
     PublishedDate: '2025-06-09T20:15:26.123Z'
     LastModifiedDate: '2025-06-20T14:49:44.393Z'
@@ -1698,6 +1677,7 @@
     - https://github.com/libarchive/libarchive/pull/2599
     - https://github.com/libarchive/libarchive/releases/tag/v3.8.0
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5915
+    - https://ubuntu.com/security/notices/USN-7601-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5915
     PublishedDate: '2025-06-09T20:15:26.317Z'
     LastModifiedDate: '2025-06-12T16:06:47.857Z'
@@ -1733,6 +1713,7 @@
     - https://github.com/libarchive/libarchive/pull/2568/commits/bce70c4c26864df2a8d6953e7db6e4b156253508
     - https://github.com/libarchive/libarchive/releases/tag/v3.8.0
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5916
+    - https://ubuntu.com/security/notices/USN-7601-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5916
     PublishedDate: '2025-06-09T20:15:27.17Z'
     LastModifiedDate: '2025-06-12T16:06:47.857Z'
@@ -1767,6 +1748,7 @@
     - https://github.com/libarchive/libarchive/pull/2588
     - https://github.com/libarchive/libarchive/releases/tag/v3.8.0
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5917
+    - https://ubuntu.com/security/notices/USN-7601-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5917
     PublishedDate: '2025-06-09T20:15:27.33Z'
     LastModifiedDate: '2025-06-12T16:06:47.857Z'
@@ -2406,6 +2388,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-32414
     PublishedDate: '2025-04-08T03:15:15.94Z'
     LastModifiedDate: '2025-04-23T19:09:35.517Z'
+  - VulnerabilityID: CVE-2025-32415
+    PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.2?arch=x86_64&distro=redhat-9.5
+      UID: 57ca389b191823b7
+    InstalledVersion: 2.9.13-6.el9_5.2
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32415
+    Title: 'libxml2: Out-of-bounds Read in xmlSchemaIDCFillNodeTables'
+    Description: In libxml2 before 2.13.8 and 2.14.x before 2.14.2, xmlSchemaIDCFillNodeTables in xmlschemas.c has a heap-based buffer under-read. To exploit this, a crafted XML document must be validated against an XML schema with certain identity constraints, or a crafted XML schema must be used.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1284
+    - CWE-125
+    VendorSeverity:
+      amazon: 2
+      azure: 1
+      nvd: 3
+      photon: 1
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-32415
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/890
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-32415
+    - https://ubuntu.com/security/notices/USN-7467-1
+    - https://ubuntu.com/security/notices/USN-7467-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-32415
+    PublishedDate: '2025-04-17T17:15:33.733Z'
+    LastModifiedDate: '2025-04-23T18:17:52.053Z'
   - VulnerabilityID: CVE-2025-6021
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -2565,48 +2589,6 @@
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T23:15:10.96Z'
     LastModifiedDate: '2025-03-07T01:15:12.823Z'
-  - VulnerabilityID: CVE-2025-32415
-    PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
-    PkgName: libxml2
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.2?arch=x86_64&distro=redhat-9.5
-      UID: 57ca389b191823b7
-    InstalledVersion: 2.9.13-6.el9_5.2
-    Status: affected
-    Layer:
-      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
-      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32415
-    Title: 'libxml2: Out-of-bounds Read in xmlSchemaIDCFillNodeTables'
-    Description: In libxml2 before 2.13.8 and 2.14.x before 2.14.2, xmlSchemaIDCFillNodeTables in xmlschemas.c has a heap-based buffer under-read. To exploit this, a crafted XML document must be validated against an XML schema with certain identity constraints, or a crafted XML schema must be used.
-    Severity: LOW
-    CweIDs:
-    - CWE-1284
-    - CWE-125
-    VendorSeverity:
-      amazon: 2
-      azure: 1
-      nvd: 3
-      photon: 1
-      redhat: 1
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 2.9
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-32415
-    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/890
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-32415
-    - https://ubuntu.com/security/notices/USN-7467-1
-    - https://ubuntu.com/security/notices/USN-7467-2
-    - https://www.cve.org/CVERecord?id=CVE-2025-32415
-    PublishedDate: '2025-04-17T17:15:33.733Z'
-    LastModifiedDate: '2025-04-23T18:17:52.053Z'
   - VulnerabilityID: CVE-2025-6170
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -3494,13 +3476,16 @@
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
   - VulnerabilityID: CVE-2025-6020
+    VendorIDs:
+    - RHSA-2025:9526
     PkgID: pam@1.5.1-22.el9_5.x86_64
     PkgName: pam
     PkgIdentifier:
       PURL: pkg:rpm/redhat/pam@1.5.1-22.el9_5?arch=x86_64&distro=redhat-9.5
       UID: 723b49309bcf487b
     InstalledVersion: 1.5.1-22.el9_5
-    Status: affected
+    FixedVersion: 1.5.1-25.el9_6
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
@@ -5606,6 +5591,7 @@
     VendorSeverity:
       ghsa: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
@@ -5619,6 +5605,7 @@
     - https://github.com/urllib3/urllib3/commit/f05b1329126d5be6de501f9d1e3e36738bc08857
     - https://github.com/urllib3/urllib3/security/advisories/GHSA-pq67-6m6q-mj2v
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50181
+    - https://ubuntu.com/security/notices/USN-7599-1
     - https://www.cve.org/CVERecord?id=CVE-2025-50181
     PublishedDate: '2025-06-19T01:15:24.453Z'
     LastModifiedDate: '2025-06-23T20:16:59.783Z'
@@ -5643,6 +5630,7 @@
     VendorSeverity:
       ghsa: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
@@ -5656,6 +5644,7 @@
     - https://github.com/urllib3/urllib3/commit/7eb4a2aafe49a279c29b6d1f0ed0f42e9736194f
     - https://github.com/urllib3/urllib3/security/advisories/GHSA-48p4-8xcf-vxj5
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50182
+    - https://ubuntu.com/security/notices/USN-7599-1
     - https://www.cve.org/CVERecord?id=CVE-2025-50182
     PublishedDate: '2025-06-19T02:15:17.967Z'
     LastModifiedDate: '2025-06-23T20:16:59.783Z'
@@ -5774,36 +5763,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-47273
     PublishedDate: '2025-05-17T16:15:19.11Z'
     LastModifiedDate: '2025-06-12T16:29:01.66Z'
-  - VulnerabilityID: CVE-2023-36191
-    PkgID: sqlite-libs@3.34.1-7.el9_3.x86_64
-    PkgName: sqlite-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_64&distro=redhat-9.5
-      UID: 8a5638a990a9b825
-    InstalledVersion: 3.34.1-7.el9_3
-    Status: will_not_fix
-    Layer:
-      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
-      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36191
-    Title: 'sqlite: CLI fault on missing -nonce'
-    Description: 'Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.'
-    Severity: LOW
-    VendorSeverity:
-      photon: 2
-      redhat: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-36191
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-36191
-    - https://www.cve.org/CVERecord?id=CVE-2023-36191
-    - https://www.sqlite.org/forum/forumpost/19f55ef73b
-    PublishedDate: '2023-06-23T02:15:09.597Z'
-    LastModifiedDate: '2023-11-07T04:16:25.153Z'
   - VulnerabilityID: CVE-2024-0232
     PkgID: sqlite-libs@3.34.1-7.el9_3.x86_64
     PkgName: sqlite-libs
