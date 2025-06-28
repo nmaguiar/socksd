@@ -25,7 +25,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-330 
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.3 
@@ -69,7 +69,7 @@
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
-│                       │       │                  ╰ ubuntu     : 2 
+│                       │       │                  ╰ ubuntu     : 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.3 
@@ -6844,7 +6844,8 @@
 │                       │       │                  │      s/GHSA-pq67-6m6q-mj2v 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-50181 
 │                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7599-1 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50181 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7599-2 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-50181 
 │                       │       ├ PublishedDate   : 2025-06-19T01:15:24.453Z 
 │                       │       ╰ LastModifiedDate: 2025-06-23T20:16:59.783Z 
 │                       ├ [117] ╭ VulnerabilityID : CVE-2025-50182 
