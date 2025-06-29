@@ -682,7 +682,7 @@
 │                       │       │                  ├ [20]: https://gitlab.alpinelinux.org/alpine/aports/-/commi
 │                       │       │                  │       t/d068c3ff36fc6f4789988a09c69b434db757db53 
 │                       │       │                  ├ [21]: https://linux.oracle.com/cve/CVE-2024-8176.html 
-│                       │       │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-7444.html 
+│                       │       │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-7512.html 
 │                       │       │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
 │                       │       │                  ├ [24]: https://security-tracker.debian.org/tracker/CVE-2024
 │                       │       │                  │       -8176 
