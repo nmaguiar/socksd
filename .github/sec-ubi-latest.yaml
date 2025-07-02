@@ -904,6 +904,7 @@
     - CWE-665
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       redhat:
@@ -914,6 +915,8 @@
     - https://access.redhat.com/security/cve/CVE-2025-5702
     - https://bugzilla.redhat.com/2370472
     - https://errata.almalinux.org/9/ALSA-2025-9877.html
+    - https://linux.oracle.com/cve/CVE-2025-5702.html
+    - https://linux.oracle.com/errata/ELSA-2025-9877.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
     - https://www.cve.org/CVERecord?id=CVE-2025-5702
@@ -992,6 +995,7 @@
     - CWE-665
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       redhat:
@@ -1002,6 +1006,8 @@
     - https://access.redhat.com/security/cve/CVE-2025-5702
     - https://bugzilla.redhat.com/2370472
     - https://errata.almalinux.org/9/ALSA-2025-9877.html
+    - https://linux.oracle.com/cve/CVE-2025-5702.html
+    - https://linux.oracle.com/errata/ELSA-2025-9877.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
     - https://www.cve.org/CVERecord?id=CVE-2025-5702
@@ -1080,6 +1086,7 @@
     - CWE-665
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       redhat:
@@ -1090,6 +1097,8 @@
     - https://access.redhat.com/security/cve/CVE-2025-5702
     - https://bugzilla.redhat.com/2370472
     - https://errata.almalinux.org/9/ALSA-2025-9877.html
+    - https://linux.oracle.com/cve/CVE-2025-5702.html
+    - https://linux.oracle.com/errata/ELSA-2025-9877.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
     - https://www.cve.org/CVERecord?id=CVE-2025-5702
@@ -1168,6 +1177,7 @@
     - CWE-665
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       redhat:
@@ -1178,6 +1188,8 @@
     - https://access.redhat.com/security/cve/CVE-2025-5702
     - https://bugzilla.redhat.com/2370472
     - https://errata.almalinux.org/9/ALSA-2025-9877.html
+    - https://linux.oracle.com/cve/CVE-2025-5702.html
+    - https://linux.oracle.com/errata/ELSA-2025-9877.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
     - https://www.cve.org/CVERecord?id=CVE-2025-5702
@@ -3480,6 +3492,7 @@
         V3Score: 7.8
     References:
     - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/errata/RHSA-2025:10024
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -3492,7 +3505,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-06-17T20:50:23.507Z'
+    LastModifiedDate: '2025-07-01T14:15:41.26Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
@@ -3705,7 +3718,7 @@
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12718
-    Title: 'cpython: Bypass extraction filter to modify file metadata outside extraction directory'
+    Title: 'cpython: python: Bypass extraction filter to modify file metadata outside extraction directory'
     Description: "Allows modifying some file metadata (e.g. last modified) with filter=\"data\"\_or file permissions (chmod) with filter=\"tar\"\_of files outside the extraction directory.\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information. Only Python versions 3.12 or later are affected by these vulnerabilities, earlier versions don't include the extraction filter feature.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -3999,7 +4012,7 @@
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4330
-    Title: 'cpython: Extraction filter bypass for linking outside extraction directory'
+    Title: 'cpython: python: Extraction filter bypass for linking outside extraction directory'
     Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: MEDIUM
     CweIDs:
@@ -4014,8 +4027,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N
-        V3Score: 5.7
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 7.3
     References:
     - https://access.redhat.com/security/cve/CVE-2025-4330
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
@@ -4064,8 +4077,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N
-        V3Score: 5.7
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-4435
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
@@ -4309,7 +4322,7 @@
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12718
-    Title: 'cpython: Bypass extraction filter to modify file metadata outside extraction directory'
+    Title: 'cpython: python: Bypass extraction filter to modify file metadata outside extraction directory'
     Description: "Allows modifying some file metadata (e.g. last modified) with filter=\"data\"\_or file permissions (chmod) with filter=\"tar\"\_of files outside the extraction directory.\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information. Only Python versions 3.12 or later are affected by these vulnerabilities, earlier versions don't include the extraction filter feature.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -4603,7 +4616,7 @@
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4330
-    Title: 'cpython: Extraction filter bypass for linking outside extraction directory'
+    Title: 'cpython: python: Extraction filter bypass for linking outside extraction directory'
     Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: MEDIUM
     CweIDs:
@@ -4618,8 +4631,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N
-        V3Score: 5.7
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 7.3
     References:
     - https://access.redhat.com/security/cve/CVE-2025-4330
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
@@ -4668,8 +4681,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N
-        V3Score: 5.7
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-4435
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
@@ -4913,7 +4926,7 @@
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12718
-    Title: 'cpython: Bypass extraction filter to modify file metadata outside extraction directory'
+    Title: 'cpython: python: Bypass extraction filter to modify file metadata outside extraction directory'
     Description: "Allows modifying some file metadata (e.g. last modified) with filter=\"data\"\_or file permissions (chmod) with filter=\"tar\"\_of files outside the extraction directory.\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information. Only Python versions 3.12 or later are affected by these vulnerabilities, earlier versions don't include the extraction filter feature.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -5207,7 +5220,7 @@
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4330
-    Title: 'cpython: Extraction filter bypass for linking outside extraction directory'
+    Title: 'cpython: python: Extraction filter bypass for linking outside extraction directory'
     Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: MEDIUM
     CweIDs:
@@ -5222,8 +5235,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N
-        V3Score: 5.7
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 7.3
     References:
     - https://access.redhat.com/security/cve/CVE-2025-4330
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
@@ -5272,8 +5285,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N
-        V3Score: 5.7
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-4435
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
@@ -5607,7 +5620,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-50182
     Title: 'urllib3: urllib3 does not control redirects in browsers and Node.js'
-    Description: urllib3 is a user-friendly HTTP client library for Python. Prior to 2.5.0, urllib3 does not control redirects in browsers and Node.js. urllib3 supports being used in a Pyodide runtime utilizing the JavaScript Fetch API or falling back on XMLHttpRequest. This means Python libraries can be used to make HTTP requests from a browser or Node.js. Additionally, urllib3 provides a mechanism to control redirects, but the retries and redirect parameters are ignored with Pyodide; the runtime itself determines redirect behavior. This issue has been patched in version 2.5.0.
+    Description: urllib3 is a user-friendly HTTP client library for Python. Starting in version 2.2.0 and prior to 2.5.0, urllib3 does not control redirects in browsers and Node.js. urllib3 supports being used in a Pyodide runtime utilizing the JavaScript Fetch API or falling back on XMLHttpRequest. This means Python libraries can be used to make HTTP requests from a browser or Node.js. Additionally, urllib3 provides a mechanism to control redirects, but the retries and redirect parameters are ignored with Pyodide; the runtime itself determines redirect behavior. This issue has been patched in version 2.5.0.
     Severity: MEDIUM
     CweIDs:
     - CWE-601
@@ -5631,7 +5644,7 @@
     - https://ubuntu.com/security/notices/USN-7599-1
     - https://www.cve.org/CVERecord?id=CVE-2025-50182
     PublishedDate: '2025-06-19T02:15:17.967Z'
-    LastModifiedDate: '2025-06-23T20:16:59.783Z'
+    LastModifiedDate: '2025-06-30T19:15:25.017Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
@@ -5723,6 +5736,7 @@
       bitnami: 3
       ghsa: 3
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -5741,6 +5755,8 @@
     - https://github.com/pypa/setuptools/commit/250a6d17978f9f6ac3ac887091f2d32886fbbb0b
     - https://github.com/pypa/setuptools/issues/4946
     - https://github.com/pypa/setuptools/security/advisories/GHSA-5rjg-fvgr-3xxf
+    - https://linux.oracle.com/cve/CVE-2025-47273.html
+    - https://linux.oracle.com/errata/ELSA-2025-9940.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00035.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-47273
     - https://ubuntu.com/security/notices/USN-7544-1
@@ -5789,70 +5805,49 @@
     PublishedDate: '2024-01-16T14:15:48.327Z'
     LastModifiedDate: '2024-11-21T08:46:06.907Z'
   - VulnerabilityID: CVE-2025-32462
+    VendorIDs:
+    - RHSA-2025:9978
     PkgID: sudo@1.9.5p2-10.el9_3.x86_64
     PkgName: sudo
     PkgIdentifier:
       PURL: pkg:rpm/redhat/sudo@1.9.5p2-10.el9_3?arch=x86_64&distro=redhat-9.5
       UID: ec8f17e5c22e7c1d
     InstalledVersion: 1.9.5p2-10.el9_3
-    Status: affected
+    FixedVersion: 1.9.5p2-10.el9_6.1
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32462
-    Title: '[Local Privilege Escalation via host option]'
-    Description: Sudo's host (`-h` or `--host`) option is intended to be used in conjunction with the list option (`-l` or `--list`) to list a user's sudo privileges on a host other than the current one.  However, due to a bug it was not restricted to listing privileges and could be used when running a command via `sudo` or editing a file with `sudoedit`.  Depending on the rules present in the sudoers file this could allow a local privilege escalation attack. Sudo versions 1.8.8 to 1.9.17 inclusive are affected.
+    Title: 'sudo: LPE via host option'
+    Description: Sudo before 1.9.17p1, when used with a sudoers file that specifies a host that is neither the current host nor ALL, allows listed users to execute commands on unintended machines.
     Severity: HIGH
+    CweIDs:
+    - CWE-863
     VendorSeverity:
+      oracle-oval: 3
       redhat: 3
       ubuntu: 3
-    References:
-    - https://www.cve.org/CVERecord?id=CVE-2025-32462
-    - https://www.sudo.ws/security/advisories/host_any/
-  - VulnerabilityID: CVE-2021-3997
-    PkgID: systemd-libs@252-46.el9_5.3.x86_64
-    PkgName: systemd-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/systemd-libs@252-46.el9_5.3?arch=x86_64&distro=redhat-9.5
-      UID: f05112939269d2b8
-    InstalledVersion: 252-46.el9_5.3
-    Status: affected
-    Layer:
-      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
-      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-3997
-    Title: 'systemd: Uncontrolled recursion in systemd-tmpfiles when removing files'
-    Description: A flaw was found in systemd. An uncontrolled recursion in systemd-tmpfiles may lead to a denial of service at boot time when too many nested directories are created in /tmp.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-674
-    VendorSeverity:
-      amazon: 2
-      cbl-mariner: 2
-      nvd: 2
-      photon: 2
-      redhat: 2
-      ubuntu: 2
     CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.5
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.5
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
     References:
-    - https://access.redhat.com/security/cve/CVE-2021-3997
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2024639
-    - https://github.com/systemd/systemd/commit/5b1cf7a9be37e20133c0208005274ce4a5b5c6a1
-    - https://nvd.nist.gov/vuln/detail/CVE-2021-3997
-    - https://security.gentoo.org/glsa/202305-15
-    - https://ubuntu.com/security/notices/USN-5226-1
-    - https://www.cve.org/CVERecord?id=CVE-2021-3997
-    - https://www.openwall.com/lists/oss-security/2022/01/10/2
-    PublishedDate: '2022-08-23T20:15:08.67Z'
-    LastModifiedDate: '2024-11-21T06:23:20.623Z'
+    - https://access.redhat.com/security/cve/CVE-2025-32462
+    - https://linux.oracle.com/cve/CVE-2025-32462.html
+    - https://linux.oracle.com/errata/ELSA-2025-9978.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-32462
+    - https://ubuntu.com/security/notices/USN-7604-1
+    - https://ubuntu.com/security/notices/USN-7604-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-32462
+    - https://www.openwall.com/lists/oss-security/2025/06/30/2
+    - https://www.stratascale.com/vulnerability-alert-CVE-2025-32462-sudo-host
+    - https://www.sudo.ws/releases/changelog/
+    - https://www.sudo.ws/security/advisories/
+    - https://www.sudo.ws/security/advisories/host_any/
+    PublishedDate: '2025-06-30T21:15:30.08Z'
+    LastModifiedDate: '2025-06-30T21:15:30.08Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: systemd-libs@252-46.el9_5.3.x86_64
     PkgName: systemd-libs
