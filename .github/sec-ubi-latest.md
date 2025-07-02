@@ -1013,8 +1013,9 @@
 │                       │       │                    the function to other parts of the program. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-665 
-│                       │       ├ VendorSeverity   ╭ alma  : 2 
-│                       │       │                  ╰ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ oracle-oval: 2 
+│                       │       │                  ╰ redhat     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
@@ -1022,9 +1023,11 @@
 │                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
 │                       │       │                  ├ [2]: https://bugzilla.redhat.com/2370472 
 │                       │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
-│                       │       │                  ├ [5]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │       ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [17]  ╭ VulnerabilityID : CVE-2025-4802 
@@ -1112,8 +1115,9 @@
 │                       │       │                    the function to other parts of the program. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-665 
-│                       │       ├ VendorSeverity   ╭ alma  : 2 
-│                       │       │                  ╰ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ oracle-oval: 2 
+│                       │       │                  ╰ redhat     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
@@ -1121,9 +1125,11 @@
 │                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
 │                       │       │                  ├ [2]: https://bugzilla.redhat.com/2370472 
 │                       │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
-│                       │       │                  ├ [5]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │       ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [19]  ╭ VulnerabilityID : CVE-2025-4802 
@@ -1211,8 +1217,9 @@
 │                       │       │                    the function to other parts of the program. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-665 
-│                       │       ├ VendorSeverity   ╭ alma  : 2 
-│                       │       │                  ╰ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ oracle-oval: 2 
+│                       │       │                  ╰ redhat     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
@@ -1220,9 +1227,11 @@
 │                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
 │                       │       │                  ├ [2]: https://bugzilla.redhat.com/2370472 
 │                       │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
-│                       │       │                  ├ [5]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │       ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [21]  ╭ VulnerabilityID : CVE-2025-4802 
@@ -1310,8 +1319,9 @@
 │                       │       │                    the function to other parts of the program. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-665 
-│                       │       ├ VendorSeverity   ╭ alma  : 2 
-│                       │       │                  ╰ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ oracle-oval: 2 
+│                       │       │                  ╰ redhat     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
@@ -1319,9 +1329,11 @@
 │                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
 │                       │       │                  ├ [2]: https://bugzilla.redhat.com/2370472 
 │                       │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
-│                       │       │                  ├ [5]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │       ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [23]  ╭ VulnerabilityID : CVE-2022-3219 
@@ -3913,20 +3925,21 @@
 │                       │       │                           ╰ V3Score : 7.8 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/1
 │                       │       │                  │       7/1 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9526 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2372512 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7580-1 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/06/
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10024 
+│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2372512 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/06/
 │                       │       │                          17/1 
 │                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                       │       ╰ LastModifiedDate: 2025-07-01T14:15:41.26Z 
 │                       ├ [75]  ╭ VulnerabilityID : CVE-2022-41409 
 │                       │       ├ PkgID           : pcre2@10.40-6.el9.x86_64 
 │                       │       ├ PkgName         : pcre2 
@@ -4151,8 +4164,8 @@
 │                       │       │                            c27813797272110c45281 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-12718 
-│                       │       ├ Title           : cpython: Bypass extraction filter to modify file metadata
-│                       │       │                   outside extraction directory 
+│                       │       ├ Title           : cpython: python: Bypass extraction filter to modify file
+│                       │       │                   metadata outside extraction directory 
 │                       │       ├ Description     : Allows modifying some file metadata (e.g. last modified)
 │                       │       │                   with filter="data" or file permissions (chmod) with
 │                       │       │                   filter="tar" of files outside the extraction directory.
@@ -4620,8 +4633,8 @@
 │                       │       │                            c27813797272110c45281 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4330 
-│                       │       ├ Title           : cpython: Extraction filter bypass for linking outside
-│                       │       │                   extraction directory 
+│                       │       ├ Title           : cpython: python: Extraction filter bypass for linking
+│                       │       │                   outside extraction directory 
 │                       │       ├ Description     : Allows the extraction filter to be ignored, allowing
 │                       │       │                   symlink targets to point outside the destination directory,
 │                       │       │                    and the modification of some file metadata.
@@ -4653,9 +4666,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4330 
 │                       │       │                  ├ [1] : https://gist.github.com/sethmlarson/52398e33eff26132
 │                       │       │                  │       9a0180ac1d54f42f 
@@ -4716,9 +4729,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4435 
 │                       │       │                  ├ [1] : https://github.com/python/cpython/commit/19de092debb
 │                       │       │                  │       3d7e832e5672cc2f7b788d35951da 
@@ -5010,8 +5023,8 @@
 │                       │       │                            c27813797272110c45281 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-12718 
-│                       │       ├ Title           : cpython: Bypass extraction filter to modify file metadata
-│                       │       │                   outside extraction directory 
+│                       │       ├ Title           : cpython: python: Bypass extraction filter to modify file
+│                       │       │                   metadata outside extraction directory 
 │                       │       ├ Description     : Allows modifying some file metadata (e.g. last modified)
 │                       │       │                   with filter="data" or file permissions (chmod) with
 │                       │       │                   filter="tar" of files outside the extraction directory.
@@ -5479,8 +5492,8 @@
 │                       │       │                            c27813797272110c45281 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4330 
-│                       │       ├ Title           : cpython: Extraction filter bypass for linking outside
-│                       │       │                   extraction directory 
+│                       │       ├ Title           : cpython: python: Extraction filter bypass for linking
+│                       │       │                   outside extraction directory 
 │                       │       ├ Description     : Allows the extraction filter to be ignored, allowing
 │                       │       │                   symlink targets to point outside the destination directory,
 │                       │       │                    and the modification of some file metadata.
@@ -5512,9 +5525,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4330 
 │                       │       │                  ├ [1] : https://gist.github.com/sethmlarson/52398e33eff26132
 │                       │       │                  │       9a0180ac1d54f42f 
@@ -5575,9 +5588,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4435 
 │                       │       │                  ├ [1] : https://github.com/python/cpython/commit/19de092debb
 │                       │       │                  │       3d7e832e5672cc2f7b788d35951da 
@@ -5869,8 +5882,8 @@
 │                       │       │                            c27813797272110c45281 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-12718 
-│                       │       ├ Title           : cpython: Bypass extraction filter to modify file metadata
-│                       │       │                   outside extraction directory 
+│                       │       ├ Title           : cpython: python: Bypass extraction filter to modify file
+│                       │       │                   metadata outside extraction directory 
 │                       │       ├ Description     : Allows modifying some file metadata (e.g. last modified)
 │                       │       │                   with filter="data" or file permissions (chmod) with
 │                       │       │                   filter="tar" of files outside the extraction directory.
@@ -6338,8 +6351,8 @@
 │                       │       │                            c27813797272110c45281 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4330 
-│                       │       ├ Title           : cpython: Extraction filter bypass for linking outside
-│                       │       │                   extraction directory 
+│                       │       ├ Title           : cpython: python: Extraction filter bypass for linking
+│                       │       │                   outside extraction directory 
 │                       │       ├ Description     : Allows the extraction filter to be ignored, allowing
 │                       │       │                   symlink targets to point outside the destination directory,
 │                       │       │                    and the modification of some file metadata.
@@ -6371,9 +6384,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4330 
 │                       │       │                  ├ [1] : https://gist.github.com/sethmlarson/52398e33eff26132
 │                       │       │                  │       9a0180ac1d54f42f 
@@ -6434,9 +6447,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4435 
 │                       │       │                  ├ [1] : https://github.com/python/cpython/commit/19de092debb
 │                       │       │                  │       3d7e832e5672cc2f7b788d35951da 
@@ -6840,16 +6853,16 @@
 │                       │       ├ Title           : urllib3: urllib3 does not control redirects in browsers and
 │                       │       │                    Node.js 
 │                       │       ├ Description     : urllib3 is a user-friendly HTTP client library for Python.
-│                       │       │                   Prior to 2.5.0, urllib3 does not control redirects in
-│                       │       │                   browsers and Node.js. urllib3 supports being used in a
-│                       │       │                   Pyodide runtime utilizing the JavaScript Fetch API or
-│                       │       │                   falling back on XMLHttpRequest. This means Python libraries
-│                       │       │                    can be used to make HTTP requests from a browser or
-│                       │       │                   Node.js. Additionally, urllib3 provides a mechanism to
-│                       │       │                   control redirects, but the retries and redirect parameters
-│                       │       │                   are ignored with Pyodide; the runtime itself determines
-│                       │       │                   redirect behavior. This issue has been patched in version
-│                       │       │                   2.5.0. 
+│                       │       │                   Starting in version 2.2.0 and prior to 2.5.0, urllib3 does
+│                       │       │                   not control redirects in browsers and Node.js. urllib3
+│                       │       │                   supports being used in a Pyodide runtime utilizing the
+│                       │       │                   JavaScript Fetch API or falling back on XMLHttpRequest.
+│                       │       │                   This means Python libraries can be used to make HTTP
+│                       │       │                   requests from a browser or Node.js. Additionally, urllib3
+│                       │       │                   provides a mechanism to control redirects, but the retries
+│                       │       │                   and redirect parameters are ignored with Pyodide; the
+│                       │       │                   runtime itself determines redirect behavior. This issue has
+│                       │       │                    been patched in version 2.5.0. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-601 
 │                       │       ├ VendorSeverity   ╭ ghsa  : 2 
@@ -6871,7 +6884,7 @@
 │                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7599-1 
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50182 
 │                       │       ├ PublishedDate   : 2025-06-19T02:15:17.967Z 
-│                       │       ╰ LastModifiedDate: 2025-06-23T20:16:59.783Z 
+│                       │       ╰ LastModifiedDate: 2025-06-30T19:15:25.017Z 
 │                       ├ [116] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
@@ -6975,14 +6988,15 @@
 │                       │       │                   depending on the context. Version 78.1.1 fixes the issue. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ amazon : 3 
-│                       │       │                  ├ azure  : 3 
-│                       │       │                  ├ bitnami: 3 
-│                       │       │                  ├ ghsa   : 3 
-│                       │       │                  ├ nvd    : 3 
-│                       │       │                  ├ photon : 3 
-│                       │       │                  ├ redhat : 2 
-│                       │       │                  ╰ ubuntu : 2 
+│                       │       ├ VendorSeverity   ╭ amazon     : 3 
+│                       │       │                  ├ azure      : 3 
+│                       │       │                  ├ bitnami    : 3 
+│                       │       │                  ├ ghsa       : 3 
+│                       │       │                  ├ nvd        : 3 
+│                       │       │                  ├ oracle-oval: 2 
+│                       │       │                  ├ photon     : 3 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                  │        │           H/A:H 
 │                       │       │                  │        ╰ V3Score : 8.8 
@@ -7001,11 +7015,13 @@
 │                       │       │                  ├ [5] : https://github.com/pypa/setuptools/issues/4946 
 │                       │       │                  ├ [6] : https://github.com/pypa/setuptools/security/advisori
 │                       │       │                  │       es/GHSA-5rjg-fvgr-3xxf 
-│                       │       │                  ├ [7] : https://lists.debian.org/debian-lts-announce/2025/05
+│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-47273.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-9940.html 
+│                       │       │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/05
 │                       │       │                  │       /msg00035.html 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-47273 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7544-1 
-│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-47273 
+│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-47273 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7544-1 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-47273 
 │                       │       ├ PublishedDate   : 2025-05-17T16:15:19.11Z 
 │                       │       ╰ LastModifiedDate: 2025-06-12T16:29:01.66Z 
 │                       ├ [118] ╭ VulnerabilityID : CVE-2024-0232 
@@ -7055,80 +7071,51 @@
 │                       │       ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T08:46:06.907Z 
 │                       ├ [119] ╭ VulnerabilityID : CVE-2025-32462 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2025:9978 
 │                       │       ├ PkgID           : sudo@1.9.5p2-10.el9_3.x86_64 
 │                       │       ├ PkgName         : sudo 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sudo@1.9.5p2-10.el9_3?arch=x86_64&dis
 │                       │       │                  │       tro=redhat-9.5 
 │                       │       │                  ╰ UID : ec8f17e5c22e7c1d 
 │                       │       ├ InstalledVersion: 1.9.5p2-10.el9_3 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.9.5p2-10.el9_6.1 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff35944
 │                       │       │                  │         70a588597170eef2fb3ac 
 │                       │       │                  ╰ DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831ea
 │                       │       │                            c27813797272110c45281 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32462 
-│                       │       ├ Title           : [Local Privilege Escalation via host option] 
-│                       │       ├ Description     : Sudo's host (`-h` or `--host`) option is intended to be
-│                       │       │                   used in conjunction with the list option (`-l` or `--list`)
-│                       │       │                    to list a user's sudo privileges on a host other than the
-│                       │       │                   current one.  However, due to a bug it was not restricted
-│                       │       │                   to listing privileges and could be used when running a
-│                       │       │                   command via `sudo` or editing a file with `sudoedit`. 
-│                       │       │                   Depending on the rules present in the sudoers file this
-│                       │       │                   could allow a local privilege escalation attack. Sudo
-│                       │       │                   versions 1.8.8 to 1.9.17 inclusive are affected. 
+│                       │       ├ Title           : sudo: LPE via host option 
+│                       │       ├ Description     : Sudo before 1.9.17p1, when used with a sudoers file that
+│                       │       │                   specifies a host that is neither the current host nor ALL,
+│                       │       │                   allows listed users to execute commands on unintended
+│                       │       │                   machines. 
 │                       │       ├ Severity        : HIGH 
-│                       │       ├ VendorSeverity   ╭ redhat: 3 
-│                       │       │                  ╰ ubuntu: 3 
-│                       │       ╰ References       ╭ [0]: https://www.cve.org/CVERecord?id=CVE-2025-32462 
-│                       │                          ╰ [1]: https://www.sudo.ws/security/advisories/host_any/ 
-│                       ├ [120] ╭ VulnerabilityID : CVE-2021-3997 
-│                       │       ├ PkgID           : systemd-libs@252-46.el9_5.3.x86_64 
-│                       │       ├ PkgName         : systemd-libs 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-46.el9_5.3?arch=x86_
-│                       │       │                  │       64&distro=redhat-9.5 
-│                       │       │                  ╰ UID : f05112939269d2b8 
-│                       │       ├ InstalledVersion: 252-46.el9_5.3 
-│                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff35944
-│                       │       │                  │         70a588597170eef2fb3ac 
-│                       │       │                  ╰ DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831ea
-│                       │       │                            c27813797272110c45281 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3997 
-│                       │       ├ Title           : systemd: Uncontrolled recursion in systemd-tmpfiles when
-│                       │       │                   removing files 
-│                       │       ├ Description     : A flaw was found in systemd. An uncontrolled recursion in
-│                       │       │                   systemd-tmpfiles may lead to a denial of service at boot
-│                       │       │                   time when too many nested directories are created in /tmp. 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs           ─ [0]: CWE-674 
-│                       │       ├ VendorSeverity   ╭ amazon     : 2 
-│                       │       │                  ├ cbl-mariner: 2 
-│                       │       │                  ├ nvd        : 2 
-│                       │       │                  ├ photon     : 2 
-│                       │       │                  ├ redhat     : 2 
-│                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 5.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-3997 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2024639 
-│                       │       │                  ├ [2]: https://github.com/systemd/systemd/commit/5b1cf7a9be3
-│                       │       │                  │      7e20133c0208005274ce4a5b5c6a1 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2021-3997 
-│                       │       │                  ├ [4]: https://security.gentoo.org/glsa/202305-15 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-5226-1 
-│                       │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2021-3997 
-│                       │       │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2022/01/1
-│                       │       │                         0/2 
-│                       │       ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
-│                       │       ╰ LastModifiedDate: 2024-11-21T06:23:20.623Z 
-│                       ├ [121] ╭ VulnerabilityID : CVE-2025-4598 
+│                       │       ├ CweIDs           ─ [0]: CWE-863 
+│                       │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │       │                  ├ redhat     : 3 
+│                       │       │                  ╰ ubuntu     : 3 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32462 
+│                       │       │                  ├ [1] : https://linux.oracle.com/cve/CVE-2025-32462.html 
+│                       │       │                  ├ [2] : https://linux.oracle.com/errata/ELSA-2025-9978.html 
+│                       │       │                  ├ [3] : https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
+│                       │       │                  ├ [4] : https://ubuntu.com/security/notices/USN-7604-1 
+│                       │       │                  ├ [5] : https://ubuntu.com/security/notices/USN-7604-2 
+│                       │       │                  ├ [6] : https://www.cve.org/CVERecord?id=CVE-2025-32462 
+│                       │       │                  ├ [7] : https://www.openwall.com/lists/oss-security/2025/06/
+│                       │       │                  │       30/2 
+│                       │       │                  ├ [8] : https://www.stratascale.com/vulnerability-alert-CVE-
+│                       │       │                  │       2025-32462-sudo-host 
+│                       │       │                  ├ [9] : https://www.sudo.ws/releases/changelog/ 
+│                       │       │                  ├ [10]: https://www.sudo.ws/security/advisories/ 
+│                       │       │                  ╰ [11]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       │       ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
+│                       │       ╰ LastModifiedDate: 2025-06-30T21:15:30.08Z 
+│                       ├ [120] ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd-libs@252-46.el9_5.3.x86_64 
 │                       │       ├ PkgName         : systemd-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-46.el9_5.3?arch=x86_
@@ -7208,7 +7195,7 @@
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
-│                       ├ [122] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [121] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │       ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=red
@@ -7244,7 +7231,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │       ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │       ╰ LastModifiedDate: 2025-04-03T01:03:51.193Z 
-│                       ╰ [123] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ╰ [122] ╭ VulnerabilityID : CVE-2023-39804 
 │                               ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                               ├ PkgName         : tar 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=red
