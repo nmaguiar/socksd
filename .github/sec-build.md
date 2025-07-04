@@ -34,10 +34,10 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 7 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10110 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9978 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-32462 
 │                       │     │                  ├ [2] : https://bugzilla.redhat.com/2374692 
-│                       │     │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-10110.html 
+│                       │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9978.html 
 │                       │     │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-32462.html 
 │                       │     │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9978.html 
 │                       │     │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
@@ -51,7 +51,7 @@
 │                       │     │                  ├ [13]: https://www.sudo.ws/security/advisories/ 
 │                       │     │                  ╰ [14]: https://www.sudo.ws/security/advisories/host_any/ 
 │                       │     ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
-│                       │     ╰ LastModifiedDate: 2025-06-30T21:15:30.08Z 
+│                       │     ╰ LastModifiedDate: 2025-07-03T15:14:12.767Z 
 │                       ╰ [1] ╭ VulnerabilityID : CVE-2025-32463 
 │                             ├ PkgID           : sudo@1.9.16_p2-r0 
 │                             ├ PkgName         : sudo 
@@ -100,7 +100,7 @@
 │                             │                  ╰ [14]: https://www.suse.com/support/update/announcement/2025/
 │                             │                          suse-su-202502177-1/ 
 │                             ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
-│                             ╰ LastModifiedDate: 2025-07-01T20:15:24.673Z 
+│                             ╰ LastModifiedDate: 2025-07-03T15:14:12.767Z 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 
