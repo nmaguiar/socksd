@@ -11,10 +11,10 @@
 │                       │     ├ InstalledVersion: 1.9.16_p2-r0 
 │                       │     ├ FixedVersion    : 1.9.17_p1-r0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:8e264a4ea2c2f41d249ff77cbb05a32d6f97ffb410c0d
-│                       │     │                  │         95a28c38670198afaac 
-│                       │     │                  ╰ DiffID: sha256:647b25d64d74985f76b33fc1427ea6d0babd9fc15851a
-│                       │     │                            23e79c7f981f8e91377 
+│                       │     ├ Layer            ╭ Digest: sha256:74ec3e8e4bf5791f6a15e7d262e086cb52c75710e0ad2
+│                       │     │                  │         3549000dc535b1b1ff1 
+│                       │     │                  ╰ DiffID: sha256:9f26127c2bf2441fd5c28fa8a9cc5b40a3e60cc5fb6df
+│                       │     │                            565f453485bf4ddd112 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32462 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
@@ -34,10 +34,10 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 7 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9978 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10110 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-32462 
 │                       │     │                  ├ [2] : https://bugzilla.redhat.com/2374692 
-│                       │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9978.html 
+│                       │     │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-10110.html 
 │                       │     │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-32462.html 
 │                       │     │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9978.html 
 │                       │     │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
@@ -61,10 +61,10 @@
 │                             ├ InstalledVersion: 1.9.16_p2-r0 
 │                             ├ FixedVersion    : 1.9.17_p1-r0 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:8e264a4ea2c2f41d249ff77cbb05a32d6f97ffb410c0d
-│                             │                  │         95a28c38670198afaac 
-│                             │                  ╰ DiffID: sha256:647b25d64d74985f76b33fc1427ea6d0babd9fc15851a
-│                             │                            23e79c7f981f8e91377 
+│                             ├ Layer            ╭ Digest: sha256:74ec3e8e4bf5791f6a15e7d262e086cb52c75710e0ad2
+│                             │                  │         3549000dc535b1b1ff1 
+│                             │                  ╰ DiffID: sha256:9f26127c2bf2441fd5c28fa8a9cc5b40a3e60cc5fb6df
+│                             │                            565f453485bf4ddd112 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32463 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
