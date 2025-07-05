@@ -34,10 +34,10 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 7 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9978 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10110 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-32462 
 │                       │     │                  ├ [2] : https://bugzilla.redhat.com/2374692 
-│                       │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9978.html 
+│                       │     │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-10110.html 
 │                       │     │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-32462.html 
 │                       │     │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9978.html 
 │                       │     │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
