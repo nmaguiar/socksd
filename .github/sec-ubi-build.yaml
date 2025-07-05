@@ -7,12 +7,12 @@
     PkgName: avahi-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/avahi-libs@0.8-22.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: 354ba44c46b0b94c
+      UID: 94ae10e19c1d1f12
     InstalledVersion: 0.8-22.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52615
     Title: 'avahi: Avahi Wide-Area DNS Uses Constant Source Port'
@@ -42,12 +42,12 @@
     PkgName: avahi-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/avahi-libs@0.8-22.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: 354ba44c46b0b94c
+      UID: 94ae10e19c1d1f12
     InstalledVersion: 0.8-22.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-6519
     Title: 'avahi: Multicast DNS responds to unicast queries outside of local network'
@@ -94,12 +94,12 @@
     PkgName: coreutils-single
     PkgIdentifier:
       PURL: pkg:rpm/redhat/coreutils-single@8.32-39.el9?arch=x86_64&distro=redhat-9.6
-      UID: 108e473845da84b6
+      UID: db60096db4714c40
     InstalledVersion: 8.32-39.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5278
     Title: 'coreutils: Heap Buffer Under-Read in GNU Coreutils sort via Key Specification'
@@ -132,12 +132,12 @@
     PkgName: cups-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-33.el9?arch=x86_64&distro=redhat-9.6&epoch=1
-      UID: 14306b6aac3c4805
+      UID: 6293c12c28baffc3
     InstalledVersion: 1:2.3.3op2-33.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4504
     Title: 'libppd: Postscript Parsing Heap Overflow'
@@ -185,12 +185,12 @@
     PkgName: cups-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-33.el9?arch=x86_64&distro=redhat-9.6&epoch=1
-      UID: 14306b6aac3c4805
+      UID: 6293c12c28baffc3
     InstalledVersion: 1:2.3.3op2-33.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-25317
     Title: 'cups: insecure permissions of /var/log/cups allows for symlink attacks'
@@ -226,12 +226,12 @@
     PkgName: curl-minimal
     PkgIdentifier:
       PURL: pkg:rpm/redhat/curl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.6
-      UID: c2f698287387e133
+      UID: 7a8508e554aa7788
     InstalledVersion: 7.76.1-31.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11053
     Title: 'curl: curl netrc password leak'
@@ -258,7 +258,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -311,7 +311,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -328,12 +328,12 @@
     PkgName: curl-minimal
     PkgIdentifier:
       PURL: pkg:rpm/redhat/curl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.6
-      UID: c2f698287387e133
+      UID: 7a8508e554aa7788
     InstalledVersion: 7.76.1-31.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7264
     Title: 'curl: libcurl: ASN.1 date parser overread'
@@ -369,7 +369,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -422,7 +422,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -440,12 +440,12 @@
     PkgName: curl-minimal
     PkgIdentifier:
       PURL: pkg:rpm/redhat/curl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.6
-      UID: c2f698287387e133
+      UID: 7a8508e554aa7788
     InstalledVersion: 7.76.1-31.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9681
     Title: 'curl: HSTS subdomain overwrites parent cache entry'
@@ -509,12 +509,12 @@
     PkgName: gawk
     PkgIdentifier:
       PURL: pkg:rpm/redhat/gawk@5.1.0-6.el9?arch=x86_64&distro=redhat-9.6
-      UID: 3aca2906a5cf785e
+      UID: 41de7338c7a4388e
     InstalledVersion: 5.1.0-6.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4156
     Title: 'gawk: heap out of bound read in builtin.c'
@@ -552,12 +552,12 @@
     PkgName: glib2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glib2@2.68.4-16.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7c66a73b8c152e42
+      UID: 68843e02d84bf05b
     InstalledVersion: 2.68.4-16.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52533
     Title: 'glib: buffer overflow in set_connect_msg()'
@@ -600,12 +600,12 @@
     PkgName: glib2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glib2@2.68.4-16.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7c66a73b8c152e42
+      UID: 68843e02d84bf05b
     InstalledVersion: 2.68.4-16.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4373
     Title: 'glib: Buffer Underflow on GLib through glib/gstring.c via function g_string_insert_unichar'
@@ -636,12 +636,12 @@
     PkgName: glib2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glib2@2.68.4-16.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7c66a73b8c152e42
+      UID: 68843e02d84bf05b
     InstalledVersion: 2.68.4-16.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-32636
     Title: 'glib: Timeout in fuzz_variant_text'
@@ -691,12 +691,12 @@
     PkgName: glib2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glib2@2.68.4-16.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7c66a73b8c152e42
+      UID: 68843e02d84bf05b
     InstalledVersion: 2.68.4-16.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3360
     Title: 'glibc: GLib prior to 2.82.5 is vulnerable to integer  overflow and buffer under-read when parsing a very long invalid ISO  8601 timestamp with g_date_time_new_from_iso8601().'
@@ -718,181 +718,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-3360
     PublishedDate: '2025-04-07T13:15:43.687Z'
     LastModifiedDate: '2025-04-14T12:15:16.087Z'
-  - VulnerabilityID: CVE-2025-5702
-    VendorIDs:
-    - RHSA-2025:9877
-    PkgID: glibc@2.34-168.el9_6.19.x86_64
-    PkgName: glibc
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/glibc@2.34-168.el9_6.19?arch=x86_64&distro=redhat-9.6
-      UID: e922ba486c898802
-    InstalledVersion: 2.34-168.el9_6.19
-    FixedVersion: 2.34-168.el9_6.20
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
-    Title: 'glibc: Vector register overwrite bug in glibc'
-    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-665
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:9877
-    - https://access.redhat.com/security/cve/CVE-2025-5702
-    - https://bugzilla.redhat.com/2370472
-    - https://errata.almalinux.org/9/ALSA-2025-9877.html
-    - https://linux.oracle.com/cve/CVE-2025-5702.html
-    - https://linux.oracle.com/errata/ELSA-2025-9877.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
-    - https://www.cve.org/CVERecord?id=CVE-2025-5702
-    PublishedDate: '2025-06-05T19:15:31.073Z'
-    LastModifiedDate: '2025-06-05T21:15:22.873Z'
-  - VulnerabilityID: CVE-2025-5702
-    VendorIDs:
-    - RHSA-2025:9877
-    PkgID: glibc-common@2.34-168.el9_6.19.x86_64
-    PkgName: glibc-common
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/glibc-common@2.34-168.el9_6.19?arch=x86_64&distro=redhat-9.6
-      UID: aa32494a82c11fae
-    InstalledVersion: 2.34-168.el9_6.19
-    FixedVersion: 2.34-168.el9_6.20
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
-    Title: 'glibc: Vector register overwrite bug in glibc'
-    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-665
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:9877
-    - https://access.redhat.com/security/cve/CVE-2025-5702
-    - https://bugzilla.redhat.com/2370472
-    - https://errata.almalinux.org/9/ALSA-2025-9877.html
-    - https://linux.oracle.com/cve/CVE-2025-5702.html
-    - https://linux.oracle.com/errata/ELSA-2025-9877.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
-    - https://www.cve.org/CVERecord?id=CVE-2025-5702
-    PublishedDate: '2025-06-05T19:15:31.073Z'
-    LastModifiedDate: '2025-06-05T21:15:22.873Z'
-  - VulnerabilityID: CVE-2025-5702
-    VendorIDs:
-    - RHSA-2025:9877
-    PkgID: glibc-langpack-en@2.34-168.el9_6.19.x86_64
-    PkgName: glibc-langpack-en
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/glibc-langpack-en@2.34-168.el9_6.19?arch=x86_64&distro=redhat-9.6
-      UID: cec2446a18beec06
-    InstalledVersion: 2.34-168.el9_6.19
-    FixedVersion: 2.34-168.el9_6.20
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
-    Title: 'glibc: Vector register overwrite bug in glibc'
-    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-665
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:9877
-    - https://access.redhat.com/security/cve/CVE-2025-5702
-    - https://bugzilla.redhat.com/2370472
-    - https://errata.almalinux.org/9/ALSA-2025-9877.html
-    - https://linux.oracle.com/cve/CVE-2025-5702.html
-    - https://linux.oracle.com/errata/ELSA-2025-9877.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
-    - https://www.cve.org/CVERecord?id=CVE-2025-5702
-    PublishedDate: '2025-06-05T19:15:31.073Z'
-    LastModifiedDate: '2025-06-05T21:15:22.873Z'
-  - VulnerabilityID: CVE-2025-5702
-    VendorIDs:
-    - RHSA-2025:9877
-    PkgID: glibc-minimal-langpack@2.34-168.el9_6.19.x86_64
-    PkgName: glibc-minimal-langpack
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-168.el9_6.19?arch=x86_64&distro=redhat-9.6
-      UID: 469498a8d510bc6a
-    InstalledVersion: 2.34-168.el9_6.19
-    FixedVersion: 2.34-168.el9_6.20
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
-    Title: 'glibc: Vector register overwrite bug in glibc'
-    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-665
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:9877
-    - https://access.redhat.com/security/cve/CVE-2025-5702
-    - https://bugzilla.redhat.com/2370472
-    - https://errata.almalinux.org/9/ALSA-2025-9877.html
-    - https://linux.oracle.com/cve/CVE-2025-5702.html
-    - https://linux.oracle.com/errata/ELSA-2025-9877.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
-    - https://www.cve.org/CVERecord?id=CVE-2025-5702
-    PublishedDate: '2025-06-05T19:15:31.073Z'
-    LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/gnupg2@2.3.3-4.el9?arch=x86_64&distro=redhat-9.6
-      UID: f691f3627c746f3d
+      UID: bb20bb7be335731a
     InstalledVersion: 2.3.3-4.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
@@ -927,12 +763,12 @@
     PkgName: gnupg2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/gnupg2@2.3.3-4.el9?arch=x86_64&distro=redhat-9.6
-      UID: f691f3627c746f3d
+      UID: bb20bb7be335731a
     InstalledVersion: 2.3.3-4.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-30258
     Title: 'gnupg: verification DoS due to a malicious subkey in the keyring'
@@ -962,12 +798,12 @@
     PkgName: java-21-openjdk-headless
     PkgIdentifier:
       PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.7.0.6-1.el9?arch=x86_64&distro=redhat-9.6&epoch=1
-      UID: 68527f9930b3fc9e
+      UID: 93c5cd670208414e
     InstalledVersion: 1:21.0.7.0.6-1.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21094
     Title: 'OpenJDK: C2 compilation fails with "Exceeded _node_regs array" (8317507)'
@@ -1004,7 +840,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/9/ALSA-2024-1825.html
+    - https://errata.almalinux.org/8/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1026,12 +862,12 @@
     PkgName: java-21-openjdk-headless
     PkgIdentifier:
       PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.7.0.6-1.el9?arch=x86_64&distro=redhat-9.6&epoch=1
-      UID: 68527f9930b3fc9e
+      UID: 93c5cd670208414e
     InstalledVersion: 1:21.0.7.0.6-1.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-31344
     Title: 'giflib: The giflib open-source component has a buffer overflow vulnerability'
@@ -1071,12 +907,12 @@
     PkgName: libarchive
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: 4baa307f1b13f4d2
+      UID: c32e1552c2848ea4
     InstalledVersion: 3.5.3-5.el9_6
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-30571
     Title: 'libarchive: Race condition in multi-threaded use of archive_write_disk_header() on posix based systems'
@@ -1108,12 +944,12 @@
     PkgName: libarchive
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: 4baa307f1b13f4d2
+      UID: c32e1552c2848ea4
     InstalledVersion: 3.5.3-5.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1632
     Title: 'libarchive: null pointer dereference in bsdunzip.c'
@@ -1151,12 +987,12 @@
     PkgName: libarchive
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: 4baa307f1b13f4d2
+      UID: c32e1552c2848ea4
     InstalledVersion: 3.5.3-5.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5914
     Title: 'libarchive: Double free at archive_read_format_rar_seek_data() in archive_read_support_format_rar.c'
@@ -1193,12 +1029,12 @@
     PkgName: libarchive
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: 4baa307f1b13f4d2
+      UID: c32e1552c2848ea4
     InstalledVersion: 3.5.3-5.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5915
     Title: 'libarchive: Heap buffer over read in copy_from_lzss_window() at archive_read_support_format_rar.c'
@@ -1228,12 +1064,12 @@
     PkgName: libarchive
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: 4baa307f1b13f4d2
+      UID: c32e1552c2848ea4
     InstalledVersion: 3.5.3-5.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5916
     Title: 'libarchive: Integer overflow while reading warc files at archive_read_support_format_warc.c'
@@ -1264,12 +1100,12 @@
     PkgName: libarchive
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: 4baa307f1b13f4d2
+      UID: c32e1552c2848ea4
     InstalledVersion: 3.5.3-5.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5917
     Title: 'libarchive: Off by one error in build_ustar_entry_name() at archive_write_set_format_pax.c'
@@ -1299,12 +1135,12 @@
     PkgName: libarchive
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: 4baa307f1b13f4d2
+      UID: c32e1552c2848ea4
     InstalledVersion: 3.5.3-5.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5918
     Title: 'libarchive: Reading past EOF may be triggered for piped file streams'
@@ -1332,12 +1168,12 @@
     PkgName: libcurl-minimal
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.6
-      UID: d53e46c55a87e413
+      UID: 6cb8692684e053c9
     InstalledVersion: 7.76.1-31.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11053
     Title: 'curl: curl netrc password leak'
@@ -1364,7 +1200,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1417,7 +1253,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -1434,12 +1270,12 @@
     PkgName: libcurl-minimal
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.6
-      UID: d53e46c55a87e413
+      UID: 6cb8692684e053c9
     InstalledVersion: 7.76.1-31.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7264
     Title: 'curl: libcurl: ASN.1 date parser overread'
@@ -1475,7 +1311,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1528,7 +1364,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -1546,12 +1382,12 @@
     PkgName: libcurl-minimal
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.6
-      UID: d53e46c55a87e413
+      UID: 6cb8692684e053c9
     InstalledVersion: 7.76.1-31.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9681
     Title: 'curl: HSTS subdomain overwrites parent cache entry'
@@ -1619,8 +1455,8 @@
     InstalledVersion: 11.5.0-5.el9_5
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
@@ -1660,12 +1496,12 @@
     PkgName: libpkgconf
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libpkgconf@1.7.3-10.el9?arch=x86_64&distro=redhat-9.6
-      UID: 60283d724ff84a64
+      UID: c96328af2ad64ce9
     InstalledVersion: 1.7.3-10.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-24056
     Title: 'pkgconf: unbounded string expansion due to incorrect checks may result in buffer overflow'
@@ -1699,12 +1535,12 @@
     PkgName: libstdc++
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libstdc%2B%2B@11.5.0-5.el9_5?arch=x86_64&distro=redhat-9.6
-      UID: 80a4c97922dc7850
+      UID: 14c4fd588c15cc98
     InstalledVersion: 11.5.0-5.el9_5
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
@@ -1744,12 +1580,12 @@
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: f4a7a91028fd2ae9
+      UID: 2801e91161c3f912
     InstalledVersion: 2.9.13-9.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49794
     Title: 'libxml: Heap use after free (UAF) leads to Denial of service (DoS)'
@@ -1775,12 +1611,12 @@
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: f4a7a91028fd2ae9
+      UID: 2801e91161c3f912
     InstalledVersion: 2.9.13-9.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49796
     Title: 'libxml: Type confusion leads to Denial of service (DoS)'
@@ -1806,12 +1642,12 @@
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: f4a7a91028fd2ae9
+      UID: 2801e91161c3f912
     InstalledVersion: 2.9.13-9.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32414
     Title: 'libxml2: Out-of-Bounds Read in libxml2'
@@ -1855,12 +1691,12 @@
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: f4a7a91028fd2ae9
+      UID: 2801e91161c3f912
     InstalledVersion: 2.9.13-9.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32415
     Title: 'libxml2: Out-of-bounds Read in xmlSchemaIDCFillNodeTables'
@@ -1897,12 +1733,12 @@
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: f4a7a91028fd2ae9
+      UID: 2801e91161c3f912
     InstalledVersion: 2.9.13-9.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6021
     Title: 'libxml2: Integer Overflow in xmlBuildQName() Leads to Stack Buffer Overflow in libxml2'
@@ -1929,12 +1765,12 @@
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: f4a7a91028fd2ae9
+      UID: 2801e91161c3f912
     InstalledVersion: 2.9.13-9.el9_6
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45322
     Title: 'libxml2: use-after-free in xmlUnlinkNode() in tree.c'
@@ -1970,12 +1806,12 @@
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: f4a7a91028fd2ae9
+      UID: 2801e91161c3f912
     InstalledVersion: 2.9.13-9.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34459
     Title: 'libxml2: buffer over-read in xmlHTMLPrintFileContext in xmllint.c'
@@ -2013,12 +1849,12 @@
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: f4a7a91028fd2ae9
+      UID: 2801e91161c3f912
     InstalledVersion: 2.9.13-9.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-27113
     Title: 'libxml2: NULL Pointer Dereference in libxml2 xmlPatMatch'
@@ -2056,12 +1892,12 @@
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: f4a7a91028fd2ae9
+      UID: 2801e91161c3f912
     InstalledVersion: 2.9.13-9.el9_6
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6170
     Title: 'libxml2: Stack Buffer Overflow in xmllint Interactive Shell Command Handling'
@@ -2091,8 +1927,8 @@
     InstalledVersion: 6.2-10.20210508.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-29458
     Title: 'ncurses: segfaulting OOB read'
@@ -2140,8 +1976,8 @@
     InstalledVersion: 6.2-10.20210508.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
     Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
@@ -2176,12 +2012,12 @@
     PkgName: ncurses-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?arch=x86_64&distro=redhat-9.6
-      UID: 71a710a7e71485d2
+      UID: 59a363db5d002840
     InstalledVersion: 6.2-10.20210508.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-29458
     Title: 'ncurses: segfaulting OOB read'
@@ -2225,12 +2061,12 @@
     PkgName: ncurses-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?arch=x86_64&distro=redhat-9.6
-      UID: 71a710a7e71485d2
+      UID: 59a363db5d002840
     InstalledVersion: 6.2-10.20210508.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
     Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
@@ -2265,12 +2101,12 @@
     PkgName: nspr
     PkgIdentifier:
       PURL: pkg:rpm/redhat/nspr@4.35.0-17.el9_2?arch=x86_64&distro=redhat-9.6
-      UID: 99f588e2a25439d
+      UID: 5a7bdeb63b4db987
     InstalledVersion: 4.35.0-17.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
@@ -2302,12 +2138,12 @@
     PkgName: nspr
     PkgIdentifier:
       PURL: pkg:rpm/redhat/nspr@4.35.0-17.el9_2?arch=x86_64&distro=redhat-9.6
-      UID: 99f588e2a25439d
+      UID: 5a7bdeb63b4db987
     InstalledVersion: 4.35.0-17.el9_2
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
@@ -2344,12 +2180,12 @@
     PkgName: nss
     PkgIdentifier:
       PURL: pkg:rpm/redhat/nss@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.6
-      UID: 30ae0f8c17fce5ea
+      UID: 60628cdd9809ef2a
     InstalledVersion: 3.101.0-10.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
@@ -2381,12 +2217,12 @@
     PkgName: nss
     PkgIdentifier:
       PURL: pkg:rpm/redhat/nss@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.6
-      UID: 30ae0f8c17fce5ea
+      UID: 60628cdd9809ef2a
     InstalledVersion: 3.101.0-10.el9_2
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
@@ -2423,12 +2259,12 @@
     PkgName: nss-softokn
     PkgIdentifier:
       PURL: pkg:rpm/redhat/nss-softokn@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.6
-      UID: 72f3e17ab4d41e47
+      UID: 3a545dd893266088
     InstalledVersion: 3.101.0-10.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
@@ -2460,12 +2296,12 @@
     PkgName: nss-softokn
     PkgIdentifier:
       PURL: pkg:rpm/redhat/nss-softokn@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.6
-      UID: 72f3e17ab4d41e47
+      UID: 3a545dd893266088
     InstalledVersion: 3.101.0-10.el9_2
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
@@ -2502,12 +2338,12 @@
     PkgName: nss-softokn-freebl
     PkgIdentifier:
       PURL: pkg:rpm/redhat/nss-softokn-freebl@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.6
-      UID: d6c1ee97b018d990
+      UID: 6cf66468193c102c
     InstalledVersion: 3.101.0-10.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
@@ -2539,12 +2375,12 @@
     PkgName: nss-softokn-freebl
     PkgIdentifier:
       PURL: pkg:rpm/redhat/nss-softokn-freebl@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.6
-      UID: d6c1ee97b018d990
+      UID: 6cf66468193c102c
     InstalledVersion: 3.101.0-10.el9_2
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
@@ -2581,12 +2417,12 @@
     PkgName: nss-sysinit
     PkgIdentifier:
       PURL: pkg:rpm/redhat/nss-sysinit@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.6
-      UID: 19c58e07533683b8
+      UID: 5c4a263d903c0f2d
     InstalledVersion: 3.101.0-10.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
@@ -2618,12 +2454,12 @@
     PkgName: nss-sysinit
     PkgIdentifier:
       PURL: pkg:rpm/redhat/nss-sysinit@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.6
-      UID: 19c58e07533683b8
+      UID: 5c4a263d903c0f2d
     InstalledVersion: 3.101.0-10.el9_2
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
@@ -2660,12 +2496,12 @@
     PkgName: nss-util
     PkgIdentifier:
       PURL: pkg:rpm/redhat/nss-util@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.6
-      UID: b84c8a5fcc6a4f0f
+      UID: 4e3392eff0b3728e
     InstalledVersion: 3.101.0-10.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
@@ -2697,12 +2533,12 @@
     PkgName: nss-util
     PkgIdentifier:
       PURL: pkg:rpm/redhat/nss-util@3.101.0-10.el9_2?arch=x86_64&distro=redhat-9.6
-      UID: b84c8a5fcc6a4f0f
+      UID: 4e3392eff0b3728e
     InstalledVersion: 3.101.0-10.el9_2
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
@@ -2739,12 +2575,12 @@
     PkgName: openldap
     PkgIdentifier:
       PURL: pkg:rpm/redhat/openldap@2.6.8-4.el9?arch=x86_64&distro=redhat-9.6
-      UID: 947d82217bf63571
+      UID: 61fd02e759d13155
     InstalledVersion: 2.6.8-4.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-2953
     Title: 'openldap: null pointer dereference in  ber_memalloc_x  function'
@@ -2802,12 +2638,12 @@
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:rpm/redhat/openssl@3.2.2-6.el9_5.1?arch=x86_64&distro=redhat-9.6&epoch=1
-      UID: f37a37a5c41f2919
+      UID: 65a2c8e22bfb8014
     InstalledVersion: 1:3.2.2-6.el9_5.1
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
     Title: 'openssl: remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations'
@@ -2840,12 +2676,12 @@
     PkgName: openssl-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5.1?arch=x86_64&distro=redhat-9.6&epoch=1
-      UID: 8175c2d9aea7f788
+      UID: 44cebaf846625d93
     InstalledVersion: 1:3.2.2-6.el9_5.1
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
     Title: 'openssl: remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations'
@@ -2878,12 +2714,12 @@
     PkgName: pcre2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/pcre2@10.40-6.el9?arch=x86_64&distro=redhat-9.6
-      UID: 21a78555685ee47e
+      UID: ce54fdf53a45f30d
     InstalledVersion: 10.40-6.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41409
     Title: 'pcre2: negative repeat value in a pcre2test subject line leads to inifinite loop'
@@ -2923,8 +2759,8 @@
     InstalledVersion: 10.40-6.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41409
     Title: 'pcre2: negative repeat value in a pcre2test subject line leads to inifinite loop'
@@ -2960,12 +2796,12 @@
     PkgName: pkgconf
     PkgIdentifier:
       PURL: pkg:rpm/redhat/pkgconf@1.7.3-10.el9?arch=x86_64&distro=redhat-9.6
-      UID: f682512c2f027f8c
+      UID: 6ee7cd8a65704455
     InstalledVersion: 1.7.3-10.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-24056
     Title: 'pkgconf: unbounded string expansion due to incorrect checks may result in buffer overflow'
@@ -3003,8 +2839,8 @@
     InstalledVersion: 1.7.3-10.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-24056
     Title: 'pkgconf: unbounded string expansion due to incorrect checks may result in buffer overflow'
@@ -3042,8 +2878,8 @@
     InstalledVersion: 1.7.3-10.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-24056
     Title: 'pkgconf: unbounded string expansion due to incorrect checks may result in buffer overflow'
@@ -3072,210 +2908,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-24056
     PublishedDate: '2023-01-22T04:15:11.617Z'
     LastModifiedDate: '2025-04-02T16:15:33.967Z'
-  - VulnerabilityID: CVE-2024-12718
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python-unversioned-command@3.9.21-2.el9.noarch
-    PkgName: python-unversioned-command
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9?arch=noarch&distro=redhat-9.6
-      UID: 84c188753bf6d71c
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12718
-    Title: 'cpython: python: Bypass extraction filter to modify file metadata outside extraction directory'
-    Description: "Allows modifying some file metadata (e.g. last modified) with filter=\"data\"\_or file permissions (chmod) with filter=\"tar\"\_of files outside the extraction directory.\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information. Only Python versions 3.12 or later are affected by these vulnerabilities, earlier versions don't include the extraction filter feature.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
-    Severity: HIGH
-    CweIDs:
-    - CWE-22
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 2
-      oracle-oval: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
-        V3Score: 7.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2024-12718
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/127987
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2024-12718.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-12718
-    PublishedDate: '2025-06-03T13:15:20.183Z'
-    LastModifiedDate: '2025-06-04T14:54:33.783Z'
-  - VulnerabilityID: CVE-2025-4138
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python-unversioned-command@3.9.21-2.el9.noarch
-    PkgName: python-unversioned-command
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9?arch=noarch&distro=redhat-9.6
-      UID: 84c188753bf6d71c
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4138
-    Title: 'cpython: python: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
-    Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
-    Severity: HIGH
-    CweIDs:
-    - CWE-22
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 3
-      oracle-oval: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2025-4138
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2025-4138.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4138
-    PublishedDate: '2025-06-03T13:15:20.377Z'
-    LastModifiedDate: '2025-06-05T14:15:32.767Z'
-  - VulnerabilityID: CVE-2025-4517
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python-unversioned-command@3.9.21-2.el9.noarch
-    PkgName: python-unversioned-command
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9?arch=noarch&distro=redhat-9.6
-      UID: 84c188753bf6d71c
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4517
-    Title: 'python: cpython: Arbitrary writes via tarfile realpath overflow'
-    Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
-    Severity: HIGH
-    CweIDs:
-    - CWE-22
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 4
-      oracle-oval: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
-        V3Score: 9.4
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
-        V3Score: 7.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2025-4517
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2025-4517.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4517
-    PublishedDate: '2025-06-03T13:15:20.837Z'
-    LastModifiedDate: '2025-06-05T14:15:33.05Z'
   - VulnerabilityID: CVE-2021-23336
-    PkgID: python-unversioned-command@3.9.21-2.el9.noarch
+    PkgID: python-unversioned-command@3.9.21-2.el9_6.1.noarch
     PkgName: python-unversioned-command
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9?arch=noarch&distro=redhat-9.6
-      UID: 84c188753bf6d71c
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9_6.1?arch=noarch&distro=redhat-9.6
+      UID: 99ffda1602f1c410
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
     Title: 'python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters'
@@ -3354,144 +2997,17 @@
     - https://www.oracle.com/security-alerts/cpuoct2021.html
     PublishedDate: '2021-02-15T13:15:12.433Z'
     LastModifiedDate: '2024-11-21T05:51:31.403Z'
-  - VulnerabilityID: CVE-2025-4330
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python-unversioned-command@3.9.21-2.el9.noarch
-    PkgName: python-unversioned-command
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9?arch=noarch&distro=redhat-9.6
-      UID: 84c188753bf6d71c
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4330
-    Title: 'cpython: python: Extraction filter bypass for linking outside extraction directory'
-    Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-22
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 3
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
-        V3Score: 7.3
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2025-4330
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2025-4330.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4330
-    PublishedDate: '2025-06-03T13:15:20.503Z'
-    LastModifiedDate: '2025-06-05T14:15:32.91Z'
-  - VulnerabilityID: CVE-2025-4435
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python-unversioned-command@3.9.21-2.el9.noarch
-    PkgName: python-unversioned-command
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9?arch=noarch&distro=redhat-9.6
-      UID: 84c188753bf6d71c
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4435
-    Title: 'cpython: Tarfile extracts filtered members when errorlevel=0'
-    Description: "When using a TarFile.errorlevel = 0\_and extracting with a filter the documented behavior is that any filtered members would be skipped and not extracted. However the actual behavior of TarFile.errorlevel = 0\_in affected versions is that the member would still be extracted and not skipped."
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-682
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 3
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2025-4435
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2025-4435.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4435
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4435
-    PublishedDate: '2025-06-03T13:15:20.63Z'
-    LastModifiedDate: '2025-06-04T14:54:33.783Z'
   - VulnerabilityID: CVE-2025-6069
-    PkgID: python-unversioned-command@3.9.21-2.el9.noarch
+    PkgID: python-unversioned-command@3.9.21-2.el9_6.1.noarch
     PkgName: python-unversioned-command
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9?arch=noarch&distro=redhat-9.6
-      UID: 84c188753bf6d71c
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9_6.1?arch=noarch&distro=redhat-9.6
+      UID: 99ffda1602f1c410
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
     Title: 'cpython: Python HTMLParser quadratic complexity'
@@ -3524,16 +3040,16 @@
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2024-0397
-    PkgID: python-unversioned-command@3.9.21-2.el9.noarch
+    PkgID: python-unversioned-command@3.9.21-2.el9_6.1.noarch
     PkgName: python-unversioned-command
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9?arch=noarch&distro=redhat-9.6
-      UID: 84c188753bf6d71c
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9_6.1?arch=noarch&distro=redhat-9.6
+      UID: 99ffda1602f1c410
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0397
     Title: 'cpython: python: Memory race condition in ssl.SSLContext certificate store methods'
@@ -3581,16 +3097,16 @@
     PublishedDate: '2024-06-17T16:15:10.217Z'
     LastModifiedDate: '2025-04-11T22:15:28.65Z'
   - VulnerabilityID: CVE-2024-7592
-    PkgID: python-unversioned-command@3.9.21-2.el9.noarch
+    PkgID: python-unversioned-command@3.9.21-2.el9_6.1.noarch
     PkgName: python-unversioned-command
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9?arch=noarch&distro=redhat-9.6
-      UID: 84c188753bf6d71c
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9_6.1?arch=noarch&distro=redhat-9.6
+      UID: 99ffda1602f1c410
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
     Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
@@ -3651,16 +3167,16 @@
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2025-02-05T21:13:47.837Z'
   - VulnerabilityID: CVE-2025-1795
-    PkgID: python-unversioned-command@3.9.21-2.el9.noarch
+    PkgID: python-unversioned-command@3.9.21-2.el9_6.1.noarch
     PkgName: python-unversioned-command
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9?arch=noarch&distro=redhat-9.6
-      UID: 84c188753bf6d71c
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9_6.1?arch=noarch&distro=redhat-9.6
+      UID: 99ffda1602f1c410
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
     Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
@@ -3692,210 +3208,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-1795
     PublishedDate: '2025-02-28T19:15:36.55Z'
     LastModifiedDate: '2025-02-28T21:15:27.57Z'
-  - VulnerabilityID: CVE-2024-12718
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python3@3.9.21-2.el9.x86_64
-    PkgName: python3
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7d09f2e4c7dab878
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12718
-    Title: 'cpython: python: Bypass extraction filter to modify file metadata outside extraction directory'
-    Description: "Allows modifying some file metadata (e.g. last modified) with filter=\"data\"\_or file permissions (chmod) with filter=\"tar\"\_of files outside the extraction directory.\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information. Only Python versions 3.12 or later are affected by these vulnerabilities, earlier versions don't include the extraction filter feature.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
-    Severity: HIGH
-    CweIDs:
-    - CWE-22
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 2
-      oracle-oval: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
-        V3Score: 7.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2024-12718
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/127987
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2024-12718.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-12718
-    PublishedDate: '2025-06-03T13:15:20.183Z'
-    LastModifiedDate: '2025-06-04T14:54:33.783Z'
-  - VulnerabilityID: CVE-2025-4138
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python3@3.9.21-2.el9.x86_64
-    PkgName: python3
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7d09f2e4c7dab878
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4138
-    Title: 'cpython: python: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
-    Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
-    Severity: HIGH
-    CweIDs:
-    - CWE-22
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 3
-      oracle-oval: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2025-4138
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2025-4138.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4138
-    PublishedDate: '2025-06-03T13:15:20.377Z'
-    LastModifiedDate: '2025-06-05T14:15:32.767Z'
-  - VulnerabilityID: CVE-2025-4517
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python3@3.9.21-2.el9.x86_64
-    PkgName: python3
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7d09f2e4c7dab878
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4517
-    Title: 'python: cpython: Arbitrary writes via tarfile realpath overflow'
-    Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
-    Severity: HIGH
-    CweIDs:
-    - CWE-22
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 4
-      oracle-oval: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
-        V3Score: 9.4
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
-        V3Score: 7.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2025-4517
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2025-4517.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4517
-    PublishedDate: '2025-06-03T13:15:20.837Z'
-    LastModifiedDate: '2025-06-05T14:15:33.05Z'
   - VulnerabilityID: CVE-2021-23336
-    PkgID: python3@3.9.21-2.el9.x86_64
+    PkgID: python3@3.9.21-2.el9_6.1.x86_64
     PkgName: python3
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7d09f2e4c7dab878
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: a3e9ccf041b88b25
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
     Title: 'python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters'
@@ -3974,144 +3297,17 @@
     - https://www.oracle.com/security-alerts/cpuoct2021.html
     PublishedDate: '2021-02-15T13:15:12.433Z'
     LastModifiedDate: '2024-11-21T05:51:31.403Z'
-  - VulnerabilityID: CVE-2025-4330
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python3@3.9.21-2.el9.x86_64
-    PkgName: python3
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7d09f2e4c7dab878
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4330
-    Title: 'cpython: python: Extraction filter bypass for linking outside extraction directory'
-    Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-22
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 3
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
-        V3Score: 7.3
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2025-4330
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2025-4330.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4330
-    PublishedDate: '2025-06-03T13:15:20.503Z'
-    LastModifiedDate: '2025-06-05T14:15:32.91Z'
-  - VulnerabilityID: CVE-2025-4435
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python3@3.9.21-2.el9.x86_64
-    PkgName: python3
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7d09f2e4c7dab878
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4435
-    Title: 'cpython: Tarfile extracts filtered members when errorlevel=0'
-    Description: "When using a TarFile.errorlevel = 0\_and extracting with a filter the documented behavior is that any filtered members would be skipped and not extracted. However the actual behavior of TarFile.errorlevel = 0\_in affected versions is that the member would still be extracted and not skipped."
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-682
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 3
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2025-4435
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2025-4435.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4435
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4435
-    PublishedDate: '2025-06-03T13:15:20.63Z'
-    LastModifiedDate: '2025-06-04T14:54:33.783Z'
   - VulnerabilityID: CVE-2025-6069
-    PkgID: python3@3.9.21-2.el9.x86_64
+    PkgID: python3@3.9.21-2.el9_6.1.x86_64
     PkgName: python3
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7d09f2e4c7dab878
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: a3e9ccf041b88b25
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
     Title: 'cpython: Python HTMLParser quadratic complexity'
@@ -4144,16 +3340,16 @@
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2024-0397
-    PkgID: python3@3.9.21-2.el9.x86_64
+    PkgID: python3@3.9.21-2.el9_6.1.x86_64
     PkgName: python3
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7d09f2e4c7dab878
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: a3e9ccf041b88b25
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0397
     Title: 'cpython: python: Memory race condition in ssl.SSLContext certificate store methods'
@@ -4201,16 +3397,16 @@
     PublishedDate: '2024-06-17T16:15:10.217Z'
     LastModifiedDate: '2025-04-11T22:15:28.65Z'
   - VulnerabilityID: CVE-2024-7592
-    PkgID: python3@3.9.21-2.el9.x86_64
+    PkgID: python3@3.9.21-2.el9_6.1.x86_64
     PkgName: python3
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7d09f2e4c7dab878
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: a3e9ccf041b88b25
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
     Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
@@ -4271,16 +3467,16 @@
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2025-02-05T21:13:47.837Z'
   - VulnerabilityID: CVE-2025-1795
-    PkgID: python3@3.9.21-2.el9.x86_64
+    PkgID: python3@3.9.21-2.el9_6.1.x86_64
     PkgName: python3
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 7d09f2e4c7dab878
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: a3e9ccf041b88b25
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
     Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
@@ -4312,210 +3508,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-1795
     PublishedDate: '2025-02-28T19:15:36.55Z'
     LastModifiedDate: '2025-02-28T21:15:27.57Z'
-  - VulnerabilityID: CVE-2024-12718
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python3-libs@3.9.21-2.el9.x86_64
-    PkgName: python3-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 786351125079925b
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12718
-    Title: 'cpython: python: Bypass extraction filter to modify file metadata outside extraction directory'
-    Description: "Allows modifying some file metadata (e.g. last modified) with filter=\"data\"\_or file permissions (chmod) with filter=\"tar\"\_of files outside the extraction directory.\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information. Only Python versions 3.12 or later are affected by these vulnerabilities, earlier versions don't include the extraction filter feature.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
-    Severity: HIGH
-    CweIDs:
-    - CWE-22
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 2
-      oracle-oval: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
-        V3Score: 7.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2024-12718
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/127987
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2024-12718.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-12718
-    PublishedDate: '2025-06-03T13:15:20.183Z'
-    LastModifiedDate: '2025-06-04T14:54:33.783Z'
-  - VulnerabilityID: CVE-2025-4138
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python3-libs@3.9.21-2.el9.x86_64
-    PkgName: python3-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 786351125079925b
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4138
-    Title: 'cpython: python: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
-    Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
-    Severity: HIGH
-    CweIDs:
-    - CWE-22
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 3
-      oracle-oval: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2025-4138
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2025-4138.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4138
-    PublishedDate: '2025-06-03T13:15:20.377Z'
-    LastModifiedDate: '2025-06-05T14:15:32.767Z'
-  - VulnerabilityID: CVE-2025-4517
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python3-libs@3.9.21-2.el9.x86_64
-    PkgName: python3-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 786351125079925b
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4517
-    Title: 'python: cpython: Arbitrary writes via tarfile realpath overflow'
-    Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
-    Severity: HIGH
-    CweIDs:
-    - CWE-22
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 4
-      oracle-oval: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
-        V3Score: 9.4
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
-        V3Score: 7.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2025-4517
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2025-4517.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4517
-    PublishedDate: '2025-06-03T13:15:20.837Z'
-    LastModifiedDate: '2025-06-05T14:15:33.05Z'
   - VulnerabilityID: CVE-2021-23336
-    PkgID: python3-libs@3.9.21-2.el9.x86_64
+    PkgID: python3-libs@3.9.21-2.el9_6.1.x86_64
     PkgName: python3-libs
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 786351125079925b
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: 6920d1f859cd1770
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
     Title: 'python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters'
@@ -4594,144 +3597,17 @@
     - https://www.oracle.com/security-alerts/cpuoct2021.html
     PublishedDate: '2021-02-15T13:15:12.433Z'
     LastModifiedDate: '2024-11-21T05:51:31.403Z'
-  - VulnerabilityID: CVE-2025-4330
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python3-libs@3.9.21-2.el9.x86_64
-    PkgName: python3-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 786351125079925b
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4330
-    Title: 'cpython: python: Extraction filter bypass for linking outside extraction directory'
-    Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-22
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 3
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
-        V3Score: 7.3
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2025-4330
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2025-4330.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4330
-    PublishedDate: '2025-06-03T13:15:20.503Z'
-    LastModifiedDate: '2025-06-05T14:15:32.91Z'
-  - VulnerabilityID: CVE-2025-4435
-    VendorIDs:
-    - RHSA-2025:10136
-    PkgID: python3-libs@3.9.21-2.el9.x86_64
-    PkgName: python3-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 786351125079925b
-    InstalledVersion: 3.9.21-2.el9
-    FixedVersion: 3.9.21-2.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4435
-    Title: 'cpython: Tarfile extracts filtered members when errorlevel=0'
-    Description: "When using a TarFile.errorlevel = 0\_and extracting with a filter the documented behavior is that any filtered members would be skipped and not extracted. However the actual behavior of TarFile.errorlevel = 0\_in affected versions is that the member would still be extracted and not skipped."
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-682
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 3
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:10189
-    - https://access.redhat.com/security/cve/CVE-2025-4435
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370013
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://errata.almalinux.org/9/ALSA-2025-10189.html
-    - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
-    - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
-    - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
-    - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
-    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
-    - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
-    - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
-    - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
-    - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
-    - https://github.com/python/cpython/issues/135034
-    - https://github.com/python/cpython/pull/135037
-    - https://linux.oracle.com/cve/CVE-2025-4435.html
-    - https://linux.oracle.com/errata/ELSA-2025-10189.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4435
-    - https://ubuntu.com/security/notices/USN-7583-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4435
-    PublishedDate: '2025-06-03T13:15:20.63Z'
-    LastModifiedDate: '2025-06-04T14:54:33.783Z'
   - VulnerabilityID: CVE-2025-6069
-    PkgID: python3-libs@3.9.21-2.el9.x86_64
+    PkgID: python3-libs@3.9.21-2.el9_6.1.x86_64
     PkgName: python3-libs
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 786351125079925b
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: 6920d1f859cd1770
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
     Title: 'cpython: Python HTMLParser quadratic complexity'
@@ -4764,16 +3640,16 @@
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2024-0397
-    PkgID: python3-libs@3.9.21-2.el9.x86_64
+    PkgID: python3-libs@3.9.21-2.el9_6.1.x86_64
     PkgName: python3-libs
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 786351125079925b
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: 6920d1f859cd1770
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0397
     Title: 'cpython: python: Memory race condition in ssl.SSLContext certificate store methods'
@@ -4821,16 +3697,16 @@
     PublishedDate: '2024-06-17T16:15:10.217Z'
     LastModifiedDate: '2025-04-11T22:15:28.65Z'
   - VulnerabilityID: CVE-2024-7592
-    PkgID: python3-libs@3.9.21-2.el9.x86_64
+    PkgID: python3-libs@3.9.21-2.el9_6.1.x86_64
     PkgName: python3-libs
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 786351125079925b
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: 6920d1f859cd1770
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
     Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
@@ -4891,16 +3767,16 @@
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2025-02-05T21:13:47.837Z'
   - VulnerabilityID: CVE-2025-1795
-    PkgID: python3-libs@3.9.21-2.el9.x86_64
+    PkgID: python3-libs@3.9.21-2.el9_6.1.x86_64
     PkgName: python3-libs
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9?arch=x86_64&distro=redhat-9.6
-      UID: 786351125079925b
-    InstalledVersion: 3.9.21-2.el9
+      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: 6920d1f859cd1770
+    InstalledVersion: 3.9.21-2.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
     Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
@@ -4941,8 +3817,8 @@
     InstalledVersion: 21.3.1-1.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-50181
     Title: 'urllib3: urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation'
@@ -4981,8 +3857,8 @@
     InstalledVersion: 21.3.1-1.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-50182
     Title: 'urllib3: urllib3 does not control redirects in browsers and Node.js'
@@ -5020,8 +3896,8 @@
     InstalledVersion: 21.3.1-1.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-3572
     Title: 'python-pip: Incorrect handling of unicode separators in git references'
@@ -5087,8 +3963,8 @@
     InstalledVersion: 53.0.0-13.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47273
     Title: 'setuptools: Path Traversal Vulnerability in setuptools PackageIndex'
@@ -5134,12 +4010,12 @@
     PkgName: shadow-utils
     PkgIdentifier:
       PURL: pkg:rpm/redhat/shadow-utils@4.9-12.el9?arch=x86_64&distro=redhat-9.6&epoch=2
-      UID: 615a371b6ea1720a
+      UID: 2387c6373d6f23ad
     InstalledVersion: 2:4.9-12.el9
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
@@ -5169,12 +4045,12 @@
     PkgName: sqlite-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_64&distro=redhat-9.6
-      UID: 1931bc529b01e96a
+      UID: e65294b2924845e
     InstalledVersion: 3.34.1-7.el9_3
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0232
     Title: 'sqlite: use-after-free bug in jsonParseAddNodeArray'
@@ -5205,66 +4081,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-0232
     PublishedDate: '2024-01-16T14:15:48.327Z'
     LastModifiedDate: '2024-11-21T08:46:06.907Z'
-  - VulnerabilityID: CVE-2025-32462
-    VendorIDs:
-    - RHSA-2025:9978
-    PkgID: sudo@1.9.5p2-10.el9_3.x86_64
-    PkgName: sudo
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/sudo@1.9.5p2-10.el9_3?arch=x86_64&distro=redhat-9.6
-      UID: f988809075b83732
-    InstalledVersion: 1.9.5p2-10.el9_3
-    FixedVersion: 1.9.5p2-10.el9_6.1
-    Status: fixed
-    Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32462
-    Title: 'sudo: LPE via host option'
-    Description: Sudo before 1.9.17p1, when used with a sudoers file that specifies a host that is neither the current host nor ALL, allows listed users to execute commands on unintended machines.
-    Severity: HIGH
-    CweIDs:
-    - CWE-863
-    VendorSeverity:
-      alma: 3
-      oracle-oval: 3
-      photon: 1
-      redhat: 3
-      ubuntu: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:9978
-    - https://access.redhat.com/security/cve/CVE-2025-32462
-    - https://bugzilla.redhat.com/2374692
-    - https://errata.almalinux.org/9/ALSA-2025-9978.html
-    - https://linux.oracle.com/cve/CVE-2025-32462.html
-    - https://linux.oracle.com/errata/ELSA-2025-9978.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-32462
-    - https://ubuntu.com/security/notices/USN-7604-1
-    - https://ubuntu.com/security/notices/USN-7604-2
-    - https://www.cve.org/CVERecord?id=CVE-2025-32462
-    - https://www.openwall.com/lists/oss-security/2025/06/30/2
-    - https://www.stratascale.com/vulnerability-alert-CVE-2025-32462-sudo-host
-    - https://www.sudo.ws/releases/changelog/
-    - https://www.sudo.ws/security/advisories/
-    - https://www.sudo.ws/security/advisories/host_any/
-    PublishedDate: '2025-06-30T21:15:30.08Z'
-    LastModifiedDate: '2025-07-03T15:14:12.767Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: systemd-libs@252-51.el9_6.1.x86_64
     PkgName: systemd-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/systemd-libs@252-51.el9_6.1?arch=x86_64&distro=redhat-9.6
-      UID: 5b97ba9272dae9af
+      UID: 14731457f4d1cbf9
     InstalledVersion: 252-51.el9_6.1
     Status: affected
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
     Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
@@ -5312,12 +4139,12 @@
     PkgName: tar
     PkgIdentifier:
       PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redhat-9.6&epoch=2
-      UID: 48194b4f207ed522
+      UID: a2012df86e168cf
     InstalledVersion: 2:1.34-7.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2005-2541
     Title: 'tar: does not properly warn the user when extracting setuid or setgid files'
@@ -5346,12 +4173,12 @@
     PkgName: tar
     PkgIdentifier:
       PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redhat-9.6&epoch=2
-      UID: 48194b4f207ed522
+      UID: a2012df86e168cf
     InstalledVersion: 2:1.34-7.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:0e3354637390876f45773a227a1bf4056483900b62867a1caa9f8f3d45f93054
-      DiffID: sha256:465408c91a47dbde47cda080101b92fcc6cd2ecd22c206acd0dcdb0575214fa9
+      Digest: sha256:e56c23ccf76101ff4de2fae7300109dd4aaad6060157d59cb87c12a5b8e65d55
+      DiffID: sha256:225a8f81d0059d1b7926280bad5ed3792ccd948fa44183d72326d764396deb07
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39804
     Title: 'tar: Incorrectly handled extension attributes in PAX archives can lead to a crash'
