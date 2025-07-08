@@ -3468,6 +3468,12 @@
     - https://access.redhat.com/errata/RHSA-2025:10024
     - https://access.redhat.com/errata/RHSA-2025:10027
     - https://access.redhat.com/errata/RHSA-2025:10180
+    - https://access.redhat.com/errata/RHSA-2025:10354
+    - https://access.redhat.com/errata/RHSA-2025:10357
+    - https://access.redhat.com/errata/RHSA-2025:10358
+    - https://access.redhat.com/errata/RHSA-2025:10359
+    - https://access.redhat.com/errata/RHSA-2025:10361
+    - https://access.redhat.com/errata/RHSA-2025:10362
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -3480,7 +3486,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-02T08:15:22.41Z'
+    LastModifiedDate: '2025-07-07T08:15:25.46Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
@@ -4147,6 +4153,53 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-4435
     PublishedDate: '2025-06-03T13:15:20.63Z'
     LastModifiedDate: '2025-06-04T14:54:33.783Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: python-unversioned-command@3.9.21-1.el9_5.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el9_5?arch=noarch&distro=redhat-9.5
+      UID: 608b68b025ced14b
+    InstalledVersion: 3.9.21-1.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-4516
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
   - VulnerabilityID: CVE-2025-6069
     PkgID: python-unversioned-command@3.9.21-1.el9_5.noarch
     PkgName: python-unversioned-command
@@ -4825,6 +4878,53 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-4435
     PublishedDate: '2025-06-03T13:15:20.63Z'
     LastModifiedDate: '2025-06-04T14:54:33.783Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: python3@3.9.21-1.el9_5.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&distro=redhat-9.5
+      UID: 5c14b3fc23849587
+    InstalledVersion: 3.9.21-1.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-4516
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
   - VulnerabilityID: CVE-2025-6069
     PkgID: python3@3.9.21-1.el9_5.x86_64
     PkgName: python3
@@ -5503,6 +5603,53 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-4435
     PublishedDate: '2025-06-03T13:15:20.63Z'
     LastModifiedDate: '2025-06-04T14:54:33.783Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: python3-libs@3.9.21-1.el9_5.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_64&distro=redhat-9.5
+      UID: cea3dd3e08f7210c
+    InstalledVersion: 3.9.21-1.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
+      DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-4516
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
   - VulnerabilityID: CVE-2025-6069
     PkgID: python3-libs@3.9.21-1.el9_5.x86_64
     PkgName: python3-libs
@@ -5861,13 +6008,16 @@
     PublishedDate: '2021-11-10T18:15:09.51Z'
     LastModifiedDate: '2024-11-21T06:21:52.473Z'
   - VulnerabilityID: CVE-2025-47273
+    VendorIDs:
+    - RHSA-2025:10407
     PkgID: python3-setuptools-wheel@53.0.0-13.el9.noarch
     PkgName: python3-setuptools-wheel
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3-setuptools-wheel@53.0.0-13.el9?arch=noarch&distro=redhat-9.5
       UID: 7a9fd867eb8a1a0e
     InstalledVersion: 53.0.0-13.el9
-    Status: affected
+    FixedVersion: 53.0.0-13.el9_6.1
+    Status: fixed
     Layer:
       Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff3594470a588597170eef2fb3ac
       DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831eac27813797272110c45281
