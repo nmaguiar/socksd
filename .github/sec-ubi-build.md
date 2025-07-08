@@ -3383,7 +3383,68 @@
 │                       │      │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2025-6069 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2025-4516 
+│                       │      ├ PkgID           : python-unversioned-command@3.9.21-2.el9_6.1.noarch 
+│                       │      ├ PkgName         : python-unversioned-command 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el
+│                       │      │                  │       9_6.1?arch=noarch&distro=redhat-9.6 
+│                       │      │                  ╰ UID : 99ffda1602f1c410 
+│                       │      ├ InstalledVersion: 3.9.21-2.el9_6.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:9f7cd48eec628c6897556d5d20530723f8676cdff405
+│                       │      │                  │         4f0ba775756592aa9383 
+│                       │      │                  ╰ DiffID: sha256:fe662c43500e2966e9f7c2fd43724fa8810b612e88f4
+│                       │      │                            349810defeccc3421eda 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
+│                       │      ├ Title           : cpython: python: CPython DecodeError Handling Vulnerability 
+│                       │      ├ Description     : There is an issue in CPython when using
+│                       │      │                   `bytes.decode("unicode_escape", error="ignore|replace")`. If
+│                       │      │                    you are not using the "unicode_escape" encoding or an error
+│                       │      │                    handler your usage is not affected. To work-around this
+│                       │      │                   issue you may stop using the error= handler and instead wrap
+│                       │      │                    the bytes.decode() call in a try-except catching the
+│                       │      │                   DecodeError. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-416 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.1 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/4 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/19/1 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4516 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/4398b788ffc1
+│                       │      │                  │       f954a2c552da285477d42a571292 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/564664867829
+│                       │      │                  │       5a44aa82636c6e92826651baf33a 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/6279eb8c076d
+│                       │      │                  │       89d3739a6edb393e43c7929b429d 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/69b4387f78f4
+│                       │      │                  │       13e8c47572a85b3478c47eba8142 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/73b3040f5924
+│                       │      │                  │       36385007918887b7e2132aa8431f 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/8d35fd1b3493
+│                       │      │                  │       5221aff23a1ab69a429dd156be77 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e (main) 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/ab9893c40609
+│                       │      │                  │       935e0d40a6d2a7307ea51aec598b 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/issues/133767 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/pull/129648 
+│                       │      │                  ├ [14]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74
+│                       │      │                  │       / 
+│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7570-1 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
+│                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
+│                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2025-6069 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.21-2.el9_6.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el
@@ -3429,7 +3490,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                       │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2024-0397 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.21-2.el9_6.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el
@@ -3499,7 +3560,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │      ╰ LastModifiedDate: 2025-04-11T22:15:28.65Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2024-7592 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.21-2.el9_6.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el
@@ -3579,7 +3640,7 @@
 │                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │      ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.21-2.el9_6.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el
@@ -3629,7 +3690,7 @@
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
 │                       │      ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │      ╰ LastModifiedDate: 2025-02-28T21:15:27.57Z 
-│                       ├ [68] ╭ VulnerabilityID : CVE-2021-23336 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&d
@@ -3781,7 +3842,68 @@
 │                       │      │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
-│                       ├ [69] ╭ VulnerabilityID : CVE-2025-6069 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2025-4516 
+│                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
+│                       │      ├ PkgName         : python3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&d
+│                       │      │                  │       istro=redhat-9.6 
+│                       │      │                  ╰ UID : a3e9ccf041b88b25 
+│                       │      ├ InstalledVersion: 3.9.21-2.el9_6.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:9f7cd48eec628c6897556d5d20530723f8676cdff405
+│                       │      │                  │         4f0ba775756592aa9383 
+│                       │      │                  ╰ DiffID: sha256:fe662c43500e2966e9f7c2fd43724fa8810b612e88f4
+│                       │      │                            349810defeccc3421eda 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
+│                       │      ├ Title           : cpython: python: CPython DecodeError Handling Vulnerability 
+│                       │      ├ Description     : There is an issue in CPython when using
+│                       │      │                   `bytes.decode("unicode_escape", error="ignore|replace")`. If
+│                       │      │                    you are not using the "unicode_escape" encoding or an error
+│                       │      │                    handler your usage is not affected. To work-around this
+│                       │      │                   issue you may stop using the error= handler and instead wrap
+│                       │      │                    the bytes.decode() call in a try-except catching the
+│                       │      │                   DecodeError. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-416 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.1 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/4 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/19/1 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4516 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/4398b788ffc1
+│                       │      │                  │       f954a2c552da285477d42a571292 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/564664867829
+│                       │      │                  │       5a44aa82636c6e92826651baf33a 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/6279eb8c076d
+│                       │      │                  │       89d3739a6edb393e43c7929b429d 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/69b4387f78f4
+│                       │      │                  │       13e8c47572a85b3478c47eba8142 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/73b3040f5924
+│                       │      │                  │       36385007918887b7e2132aa8431f 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/8d35fd1b3493
+│                       │      │                  │       5221aff23a1ab69a429dd156be77 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e (main) 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/ab9893c40609
+│                       │      │                  │       935e0d40a6d2a7307ea51aec598b 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/issues/133767 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/pull/129648 
+│                       │      │                  ├ [14]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74
+│                       │      │                  │       / 
+│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7570-1 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
+│                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
+│                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2025-6069 
 │                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&d
@@ -3827,7 +3949,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                       │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
-│                       ├ [70] ╭ VulnerabilityID : CVE-2024-0397 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&d
@@ -3897,7 +4019,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │      ╰ LastModifiedDate: 2025-04-11T22:15:28.65Z 
-│                       ├ [71] ╭ VulnerabilityID : CVE-2024-7592 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&d
@@ -3977,7 +4099,7 @@
 │                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │      ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&d
@@ -4027,7 +4149,7 @@
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
 │                       │      ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │      ╰ LastModifiedDate: 2025-02-28T21:15:27.57Z 
-│                       ├ [73] ╭ VulnerabilityID : CVE-2021-23336 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86
@@ -4179,7 +4301,68 @@
 │                       │      │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
-│                       ├ [74] ╭ VulnerabilityID : CVE-2025-6069 
+│                       ├ [76] ╭ VulnerabilityID : CVE-2025-4516 
+│                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
+│                       │      ├ PkgName         : python3-libs 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86
+│                       │      │                  │       _64&distro=redhat-9.6 
+│                       │      │                  ╰ UID : 6920d1f859cd1770 
+│                       │      ├ InstalledVersion: 3.9.21-2.el9_6.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:9f7cd48eec628c6897556d5d20530723f8676cdff405
+│                       │      │                  │         4f0ba775756592aa9383 
+│                       │      │                  ╰ DiffID: sha256:fe662c43500e2966e9f7c2fd43724fa8810b612e88f4
+│                       │      │                            349810defeccc3421eda 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
+│                       │      ├ Title           : cpython: python: CPython DecodeError Handling Vulnerability 
+│                       │      ├ Description     : There is an issue in CPython when using
+│                       │      │                   `bytes.decode("unicode_escape", error="ignore|replace")`. If
+│                       │      │                    you are not using the "unicode_escape" encoding or an error
+│                       │      │                    handler your usage is not affected. To work-around this
+│                       │      │                   issue you may stop using the error= handler and instead wrap
+│                       │      │                    the bytes.decode() call in a try-except catching the
+│                       │      │                   DecodeError. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-416 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.1 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/4 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/19/1 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4516 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/4398b788ffc1
+│                       │      │                  │       f954a2c552da285477d42a571292 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/564664867829
+│                       │      │                  │       5a44aa82636c6e92826651baf33a 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/6279eb8c076d
+│                       │      │                  │       89d3739a6edb393e43c7929b429d 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/69b4387f78f4
+│                       │      │                  │       13e8c47572a85b3478c47eba8142 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/73b3040f5924
+│                       │      │                  │       36385007918887b7e2132aa8431f 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/8d35fd1b3493
+│                       │      │                  │       5221aff23a1ab69a429dd156be77 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e (main) 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/ab9893c40609
+│                       │      │                  │       935e0d40a6d2a7307ea51aec598b 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/issues/133767 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/pull/129648 
+│                       │      │                  ├ [14]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74
+│                       │      │                  │       / 
+│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7570-1 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
+│                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
+│                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
+│                       ├ [77] ╭ VulnerabilityID : CVE-2025-6069 
 │                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86
@@ -4225,7 +4408,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                       │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
-│                       ├ [75] ╭ VulnerabilityID : CVE-2024-0397 
+│                       ├ [78] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86
@@ -4295,7 +4478,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │      ╰ LastModifiedDate: 2025-04-11T22:15:28.65Z 
-│                       ├ [76] ╭ VulnerabilityID : CVE-2024-7592 
+│                       ├ [79] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86
@@ -4375,7 +4558,7 @@
 │                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │      ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
-│                       ├ [77] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [80] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86
@@ -4425,7 +4608,7 @@
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
 │                       │      ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │      ╰ LastModifiedDate: 2025-02-28T21:15:27.57Z 
-│                       ├ [78] ╭ VulnerabilityID : CVE-2025-50181 
+│                       ├ [81] ╭ VulnerabilityID : CVE-2025-50181 
 │                       │      ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=no
@@ -4473,7 +4656,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-50181 
 │                       │      ├ PublishedDate   : 2025-06-19T01:15:24.453Z 
 │                       │      ╰ LastModifiedDate: 2025-06-23T20:16:59.783Z 
-│                       ├ [79] ╭ VulnerabilityID : CVE-2025-50182 
+│                       ├ [82] ╭ VulnerabilityID : CVE-2025-50182 
 │                       │      ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=no
@@ -4522,7 +4705,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50182 
 │                       │      ├ PublishedDate   : 2025-06-19T02:15:17.967Z 
 │                       │      ╰ LastModifiedDate: 2025-06-30T19:15:25.017Z 
-│                       ├ [80] ╭ VulnerabilityID : CVE-2021-3572 
+│                       ├ [83] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │      ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=no
@@ -4597,14 +4780,16 @@
 │                       │      │                  ╰ [20]: https://www.oracle.com/security-alerts/cpujul2022.html 
 │                       │      ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:21:52.473Z 
-│                       ├ [81] ╭ VulnerabilityID : CVE-2025-47273 
+│                       ├ [84] ╭ VulnerabilityID : CVE-2025-47273 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:10407 
 │                       │      ├ PkgID           : python3-setuptools-wheel@53.0.0-13.el9.noarch 
 │                       │      ├ PkgName         : python3-setuptools-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-setuptools-wheel@53.0.0-13.el9
 │                       │      │                  │       ?arch=noarch&distro=redhat-9.6 
 │                       │      │                  ╰ UID : 7a9fd867eb8a1a0e 
 │                       │      ├ InstalledVersion: 53.0.0-13.el9 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 53.0.0-13.el9_6.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:9f7cd48eec628c6897556d5d20530723f8676cdff405
 │                       │      │                  │         4f0ba775756592aa9383 
 │                       │      │                  ╰ DiffID: sha256:fe662c43500e2966e9f7c2fd43724fa8810b612e88f4
@@ -4659,7 +4844,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-47273 
 │                       │      ├ PublishedDate   : 2025-05-17T16:15:19.11Z 
 │                       │      ╰ LastModifiedDate: 2025-06-12T16:29:01.66Z 
-│                       ├ [82] ╭ VulnerabilityID : CVE-2024-0232 
+│                       ├ [85] ╭ VulnerabilityID : CVE-2024-0232 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_64
@@ -4704,7 +4889,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
 │                       │      ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:46:06.907Z 
-│                       ├ [83] ╭ VulnerabilityID : CVE-2025-4598 
+│                       ├ [86] ╭ VulnerabilityID : CVE-2025-4598 
 │                       │      ├ PkgID           : systemd-libs@252-51.el9_6.1.x86_64 
 │                       │      ├ PkgName         : systemd-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-51.el9_6.1?arch=x86_6
@@ -4782,7 +4967,7 @@
 │                       │      │                          ort-coredump.txt 
 │                       │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
-│                       ├ [84] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [87] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │      ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
@@ -4818,7 +5003,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │      ╰ LastModifiedDate: 2025-04-03T01:03:51.193Z 
-│                       ╰ [85] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ╰ [88] ╭ VulnerabilityID : CVE-2023-39804 
 │                              ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                              ├ PkgName         : tar 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
