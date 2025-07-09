@@ -4415,163 +4415,7 @@
 │                       │       │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [82]  ╭ VulnerabilityID : CVE-2021-23336 
-│                       │       ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
-│                       │       ├ PkgName         : python-unversioned-command 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.e
-│                       │       │                  │       l9_5?arch=noarch&distro=redhat-9.5 
-│                       │       │                  ╰ UID : 608b68b025ced14b 
-│                       │       ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff35944
-│                       │       │                  │         70a588597170eef2fb3ac 
-│                       │       │                  ╰ DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831ea
-│                       │       │                            c27813797272110c45281 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-23336 
-│                       │       ├ Title           : python: Web cache poisoning via urllib.parse.parse_qsl and
-│                       │       │                   urllib.parse.parse_qs by using a semicolon in query
-│                       │       │                   parameters 
-│                       │       ├ Description     : The package python/cpython from 0 and before 3.6.13, from
-│                       │       │                   3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from
-│                       │       │                   3.9.0 and before 3.9.2 are vulnerable to Web Cache
-│                       │       │                   Poisoning via urllib.parse.parse_qsl and
-│                       │       │                   urllib.parse.parse_qs by using a vector called parameter
-│                       │       │                   cloaking. When the attacker can separate query parameters
-│                       │       │                   using a semicolon (;), they can cause a difference in the
-│                       │       │                   interpretation of the request between the proxy (running
-│                       │       │                   with default configuration) and the server. This can result
-│                       │       │                    in malicious requests being cached as completely safe
-│                       │       │                   ones, as the proxy would usually not see the semicolon as a
-│                       │       │                    separator, and therefore would not include it in a cache
-│                       │       │                   key of an unkeyed parameter. 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs           ─ [0]: CWE-444 
-│                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
-│                       │       │                  ├ bitnami    : 2 
-│                       │       │                  ├ cbl-mariner: 2 
-│                       │       │                  ├ nvd        : 2 
-│                       │       │                  ├ oracle-oval: 2 
-│                       │       │                  ├ photon     : 2 
-│                       │       │                  ├ redhat     : 2 
-│                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I
-│                       │       │                  │         │           :L/A:H 
-│                       │       │                  │         ╰ V3Score : 5.9 
-│                       │       │                  ├ nvd     ╭ V2Vector: AV:N/AC:H/Au:N/C:N/I:P/A:P 
-│                       │       │                  │         ├ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I
-│                       │       │                  │         │           :L/A:H 
-│                       │       │                  │         ├ V2Score : 4 
-│                       │       │                  │         ╰ V3Score : 5.9 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I
-│                       │       │                            │           :L/A:H 
-│                       │       │                            ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2021/02/1
-│                       │       │                  │       9/4 
-│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2021/05/0
-│                       │       │                  │       1/2 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2021-23336 
-│                       │       │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2021-4162.html 
-│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/fcbe0cb04d3
-│                       │       │                  │       5189401c0c880ebfb4311e952d776 (master) 
-│                       │       │                  ├ [5] : https://github.com/python/cpython/pull/24297 
-│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2021-23336.html 
-│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2021-4162.html 
-│                       │       │                  ├ [8] : https://lists.apache.org/thread.html/ra8ce70088ba291
-│                       │       │                  │       f358e077cafdb14d174b7a1ce9a9d86d1b332d6367%40%3Cuser
-│                       │       │                  │       s.airflow.apache.org%3E 
-│                       │       │                  ├ [9] : https://lists.apache.org/thread.html/rc005f4de9d9b0b
-│                       │       │                  │       a943ceb8ff5a21a5c6ff8a9df52632476698d99432%40%3Canno
-│                       │       │                  │       unce.apache.org%3E 
-│                       │       │                  ├ [10]: https://lists.apache.org/thread.html/rf9fa47ab66495c
-│                       │       │                  │       78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.
-│                       │       │                  │       mina.apache.org%3E 
-│                       │       │                  ├ [11]: https://lists.debian.org/debian-lts-announce/2021/02
-│                       │       │                  │       /msg00030.html 
-│                       │       │                  ├ [12]: https://lists.debian.org/debian-lts-announce/2021/04
-│                       │       │                  │       /msg00005.html 
-│                       │       │                  ├ [13]: https://lists.debian.org/debian-lts-announce/2021/04
-│                       │       │                  │       /msg00015.html 
-│                       │       │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2023/09
-│                       │       │                  │       /msg00022.html 
-│                       │       │                  ├ [15]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/3EPYWWF
-│                       │       │                  │       DV22CJ5AOH5VCE72DOASZZ255/ 
-│                       │       │                  ├ [16]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/3YKKDLX
-│                       │       │                  │       L3UEZ3J426C2XTBS63AHE46SM/ 
-│                       │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/46N6A52
-│                       │       │                  │       EGSXHJYCZWVMBJJIH4NWIV2B5/ 
-│                       │       │                  ├ [18]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/FONHJIO
-│                       │       │                  │       ZOFD7CD35KZL6SVBUTMBPGZGA/ 
-│                       │       │                  ├ [19]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/HCQTCSP
-│                       │       │                  │       6SCVIYNIRUJC5X7YBVUHPLSC4/ 
-│                       │       │                  ├ [20]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/HZTM7KL
-│                       │       │                  │       HFCE3LWSEVO2NAFLUHMGYMCRY/ 
-│                       │       │                  ├ [21]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/IHQDU7N
-│                       │       │                  │       XA7EWAE4W7VO6MURVJIULEPPR/ 
-│                       │       │                  ├ [22]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/KJXCMHL
-│                       │       │                  │       Y7H3FIYLE4OKDYUILU2CCRUCZ/ 
-│                       │       │                  ├ [23]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/LVNH6Z2
-│                       │       │                  │       4IG3E67ZCQGGJ46FZB4XFLQNZ/ 
-│                       │       │                  ├ [24]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/MNUN5SO
-│                       │       │                  │       MFL2BBKP6ZAICIIUPQKZDMGYO/ 
-│                       │       │                  ├ [25]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/MP572OL
-│                       │       │                  │       HMS7MZO4KUPSCIMSZIA5IZZ62/ 
-│                       │       │                  ├ [26]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/N6VXJZS
-│                       │       │                  │       Z6N64AILJX4CTMACYGQGHHD5C/ 
-│                       │       │                  ├ [27]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/NJSCSN7
-│                       │       │                  │       22JO2E2AGPWD4NTGVELVRPB4R/ 
-│                       │       │                  ├ [28]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/NODWHDI
-│                       │       │                  │       FBQE5RU5PUWUVE47JOT5VCMJ2/ 
-│                       │       │                  ├ [29]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/OAGSWNG
-│                       │       │                  │       ZJ6HQ5ISA67SNMK3CJRKICET7/ 
-│                       │       │                  ├ [30]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/RSLQD5C
-│                       │       │                  │       CM75IZGAMBDGUZEATYU5YSGJ7/ 
-│                       │       │                  ├ [31]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/SGIY6I4
-│                       │       │                  │       YS3WOXAK4SXKIEOC2G4VZKIR7/ 
-│                       │       │                  ├ [32]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/TFTELUM
-│                       │       │                  │       WZE3KV3JB2H5EE6VFRZFRD5MV/ 
-│                       │       │                  ├ [33]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/W2LSKBE
-│                       │       │                  │       FI5SYEY5FM6ICZVZM5WRQUCS4/ 
-│                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2021-23336 
-│                       │       │                  ├ [35]: https://security.gentoo.org/glsa/202104-04 
-│                       │       │                  ├ [36]: https://security.netapp.com/advisory/ntap-20210326-0
-│                       │       │                  │       004/ 
-│                       │       │                  ├ [37]: https://snyk.io/blog/cache-poisoning-in-popular-open
-│                       │       │                  │       -source-packages/ 
-│                       │       │                  ├ [38]: https://snyk.io/vuln/SNYK-UPSTREAM-PYTHONCPYTHON-107
-│                       │       │                  │       4933 
-│                       │       │                  ├ [39]: https://ubuntu.com/security/notices/USN-4742-1 
-│                       │       │                  ├ [40]: https://www.cve.org/CVERecord?id=CVE-2021-23336 
-│                       │       │                  ├ [41]: https://www.djangoproject.com/weblog/2021/feb/19/sec
-│                       │       │                  │       urity-releases/ 
-│                       │       │                  ├ [42]: https://www.oracle.com//security-alerts/cpujul2021.h
-│                       │       │                  │       tml 
-│                       │       │                  ├ [43]: https://www.oracle.com/security-alerts/cpuApr2021.html 
-│                       │       │                  ├ [44]: https://www.oracle.com/security-alerts/cpujan2022.html 
-│                       │       │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
-│                       │       ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
-│                       │       ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
-│                       ├ [83]  ╭ VulnerabilityID : CVE-2025-0938 
+│                       ├ [82]  ╭ VulnerabilityID : CVE-2025-0938 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:6977 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
@@ -4642,7 +4486,7 @@
 │                       │       │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │       ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
-│                       ├ [84]  ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [83]  ╭ VulnerabilityID : CVE-2025-4330 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
@@ -4736,7 +4580,7 @@
 │                       │       │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [85]  ╭ VulnerabilityID : CVE-2025-4435 
+│                       ├ [84]  ╭ VulnerabilityID : CVE-2025-4435 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
@@ -4810,7 +4654,7 @@
 │                       │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-4435 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.63Z 
 │                       │       ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
-│                       ├ [86]  ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [85]  ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.e
@@ -4873,7 +4717,7 @@
 │                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [87]  ╭ VulnerabilityID : CVE-2025-6069 
+│                       ├ [86]  ╭ VulnerabilityID : CVE-2025-6069 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.e
@@ -4902,25 +4746,33 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                       │       │                            │           :N/A:L 
 │                       │       │                            ╰ V3Score : 4.3 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6069 
-│                       │       │                  ├ [1]: https://github.com/python/cpython/commit/4455cbabf991
-│                       │       │                  │      e202185a25a631af206f60bbc949 
-│                       │       │                  ├ [2]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                       │       │                  │      8bd07d77b60fd71fd05d81d45c41 
-│                       │       │                  ├ [3]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                       │       │                  │      8bd07d77b60fd71fd05d81d45c41 (main) 
-│                       │       │                  ├ [4]: https://github.com/python/cpython/commit/d851f8e258c7
-│                       │       │                  │      328814943e923a7df81bca15df4b 
-│                       │       │                  ├ [5]: https://github.com/python/cpython/issues/135462 
-│                       │       │                  ├ [6]: https://github.com/python/cpython/pull/135464 
-│                       │       │                  ├ [7]: https://mail.python.org/archives/list/security-announ
-│                       │       │                  │      ce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM
-│                       │       │                  │      / 
-│                       │       │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6069 
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/4455cbabf99
+│                       │       │                  │       1e202185a25a631af206f60bbc949 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                       │       │                  │       28bd07d77b60fd71fd05d81d45c41 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                       │       │                  │       28bd07d77b60fd71fd05d81d45c41 (main) 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/8d1b3dfa091
+│                       │       │                  │       35affbbf27fb8babcf3c11415df49 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/ab0893fd5c5
+│                       │       │                  │       79d9cea30841680e6d35fc478afb5 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/d851f8e258c
+│                       │       │                  │       7328814943e923a7df81bca15df4b 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/f3c6f882cdd
+│                       │       │                  │       c8dc30320d2e73edf019e201394fc 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/fdc9d214c01
+│                       │       │                  │       cb4588f540cfa03726bbf2a33fc15 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/135462 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/135464 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXO
+│                       │       │                  │       YM/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │       ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
-│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
-│                       ├ [88]  ╭ VulnerabilityID : CVE-2024-0397 
+│                       │       ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
+│                       ├ [87]  ╭ VulnerabilityID : CVE-2024-0397 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.e
@@ -4991,7 +4843,7 @@
 │                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │       ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │       ╰ LastModifiedDate: 2025-04-11T22:15:28.65Z 
-│                       ├ [89]  ╭ VulnerabilityID : CVE-2024-7592 
+│                       ├ [88]  ╭ VulnerabilityID : CVE-2024-7592 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.e
@@ -5071,7 +4923,7 @@
 │                       │       │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │       ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │       ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
-│                       ├ [90]  ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [89]  ╭ VulnerabilityID : CVE-2025-1795 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.e
@@ -5121,7 +4973,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
 │                       │       ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │       ╰ LastModifiedDate: 2025-02-28T21:15:27.57Z 
-│                       ├ [91]  ╭ VulnerabilityID : CVE-2024-12718 
+│                       ├ [90]  ╭ VulnerabilityID : CVE-2024-12718 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3 
@@ -5219,7 +5071,7 @@
 │                       │       │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │       ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
-│                       ├ [92]  ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [91]  ╭ VulnerabilityID : CVE-2025-4138 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3 
@@ -5313,7 +5165,7 @@
 │                       │       │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [93]  ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [92]  ╭ VulnerabilityID : CVE-2025-4517 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3 
@@ -5406,163 +5258,7 @@
 │                       │       │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [94]  ╭ VulnerabilityID : CVE-2021-23336 
-│                       │       ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
-│                       │       ├ PkgName         : python3 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&di
-│                       │       │                  │       stro=redhat-9.5 
-│                       │       │                  ╰ UID : 5c14b3fc23849587 
-│                       │       ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff35944
-│                       │       │                  │         70a588597170eef2fb3ac 
-│                       │       │                  ╰ DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831ea
-│                       │       │                            c27813797272110c45281 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-23336 
-│                       │       ├ Title           : python: Web cache poisoning via urllib.parse.parse_qsl and
-│                       │       │                   urllib.parse.parse_qs by using a semicolon in query
-│                       │       │                   parameters 
-│                       │       ├ Description     : The package python/cpython from 0 and before 3.6.13, from
-│                       │       │                   3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from
-│                       │       │                   3.9.0 and before 3.9.2 are vulnerable to Web Cache
-│                       │       │                   Poisoning via urllib.parse.parse_qsl and
-│                       │       │                   urllib.parse.parse_qs by using a vector called parameter
-│                       │       │                   cloaking. When the attacker can separate query parameters
-│                       │       │                   using a semicolon (;), they can cause a difference in the
-│                       │       │                   interpretation of the request between the proxy (running
-│                       │       │                   with default configuration) and the server. This can result
-│                       │       │                    in malicious requests being cached as completely safe
-│                       │       │                   ones, as the proxy would usually not see the semicolon as a
-│                       │       │                    separator, and therefore would not include it in a cache
-│                       │       │                   key of an unkeyed parameter. 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs           ─ [0]: CWE-444 
-│                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
-│                       │       │                  ├ bitnami    : 2 
-│                       │       │                  ├ cbl-mariner: 2 
-│                       │       │                  ├ nvd        : 2 
-│                       │       │                  ├ oracle-oval: 2 
-│                       │       │                  ├ photon     : 2 
-│                       │       │                  ├ redhat     : 2 
-│                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I
-│                       │       │                  │         │           :L/A:H 
-│                       │       │                  │         ╰ V3Score : 5.9 
-│                       │       │                  ├ nvd     ╭ V2Vector: AV:N/AC:H/Au:N/C:N/I:P/A:P 
-│                       │       │                  │         ├ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I
-│                       │       │                  │         │           :L/A:H 
-│                       │       │                  │         ├ V2Score : 4 
-│                       │       │                  │         ╰ V3Score : 5.9 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I
-│                       │       │                            │           :L/A:H 
-│                       │       │                            ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2021/02/1
-│                       │       │                  │       9/4 
-│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2021/05/0
-│                       │       │                  │       1/2 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2021-23336 
-│                       │       │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2021-4162.html 
-│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/fcbe0cb04d3
-│                       │       │                  │       5189401c0c880ebfb4311e952d776 (master) 
-│                       │       │                  ├ [5] : https://github.com/python/cpython/pull/24297 
-│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2021-23336.html 
-│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2021-4162.html 
-│                       │       │                  ├ [8] : https://lists.apache.org/thread.html/ra8ce70088ba291
-│                       │       │                  │       f358e077cafdb14d174b7a1ce9a9d86d1b332d6367%40%3Cuser
-│                       │       │                  │       s.airflow.apache.org%3E 
-│                       │       │                  ├ [9] : https://lists.apache.org/thread.html/rc005f4de9d9b0b
-│                       │       │                  │       a943ceb8ff5a21a5c6ff8a9df52632476698d99432%40%3Canno
-│                       │       │                  │       unce.apache.org%3E 
-│                       │       │                  ├ [10]: https://lists.apache.org/thread.html/rf9fa47ab66495c
-│                       │       │                  │       78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.
-│                       │       │                  │       mina.apache.org%3E 
-│                       │       │                  ├ [11]: https://lists.debian.org/debian-lts-announce/2021/02
-│                       │       │                  │       /msg00030.html 
-│                       │       │                  ├ [12]: https://lists.debian.org/debian-lts-announce/2021/04
-│                       │       │                  │       /msg00005.html 
-│                       │       │                  ├ [13]: https://lists.debian.org/debian-lts-announce/2021/04
-│                       │       │                  │       /msg00015.html 
-│                       │       │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2023/09
-│                       │       │                  │       /msg00022.html 
-│                       │       │                  ├ [15]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/3EPYWWF
-│                       │       │                  │       DV22CJ5AOH5VCE72DOASZZ255/ 
-│                       │       │                  ├ [16]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/3YKKDLX
-│                       │       │                  │       L3UEZ3J426C2XTBS63AHE46SM/ 
-│                       │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/46N6A52
-│                       │       │                  │       EGSXHJYCZWVMBJJIH4NWIV2B5/ 
-│                       │       │                  ├ [18]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/FONHJIO
-│                       │       │                  │       ZOFD7CD35KZL6SVBUTMBPGZGA/ 
-│                       │       │                  ├ [19]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/HCQTCSP
-│                       │       │                  │       6SCVIYNIRUJC5X7YBVUHPLSC4/ 
-│                       │       │                  ├ [20]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/HZTM7KL
-│                       │       │                  │       HFCE3LWSEVO2NAFLUHMGYMCRY/ 
-│                       │       │                  ├ [21]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/IHQDU7N
-│                       │       │                  │       XA7EWAE4W7VO6MURVJIULEPPR/ 
-│                       │       │                  ├ [22]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/KJXCMHL
-│                       │       │                  │       Y7H3FIYLE4OKDYUILU2CCRUCZ/ 
-│                       │       │                  ├ [23]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/LVNH6Z2
-│                       │       │                  │       4IG3E67ZCQGGJ46FZB4XFLQNZ/ 
-│                       │       │                  ├ [24]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/MNUN5SO
-│                       │       │                  │       MFL2BBKP6ZAICIIUPQKZDMGYO/ 
-│                       │       │                  ├ [25]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/MP572OL
-│                       │       │                  │       HMS7MZO4KUPSCIMSZIA5IZZ62/ 
-│                       │       │                  ├ [26]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/N6VXJZS
-│                       │       │                  │       Z6N64AILJX4CTMACYGQGHHD5C/ 
-│                       │       │                  ├ [27]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/NJSCSN7
-│                       │       │                  │       22JO2E2AGPWD4NTGVELVRPB4R/ 
-│                       │       │                  ├ [28]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/NODWHDI
-│                       │       │                  │       FBQE5RU5PUWUVE47JOT5VCMJ2/ 
-│                       │       │                  ├ [29]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/OAGSWNG
-│                       │       │                  │       ZJ6HQ5ISA67SNMK3CJRKICET7/ 
-│                       │       │                  ├ [30]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/RSLQD5C
-│                       │       │                  │       CM75IZGAMBDGUZEATYU5YSGJ7/ 
-│                       │       │                  ├ [31]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/SGIY6I4
-│                       │       │                  │       YS3WOXAK4SXKIEOC2G4VZKIR7/ 
-│                       │       │                  ├ [32]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/TFTELUM
-│                       │       │                  │       WZE3KV3JB2H5EE6VFRZFRD5MV/ 
-│                       │       │                  ├ [33]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/W2LSKBE
-│                       │       │                  │       FI5SYEY5FM6ICZVZM5WRQUCS4/ 
-│                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2021-23336 
-│                       │       │                  ├ [35]: https://security.gentoo.org/glsa/202104-04 
-│                       │       │                  ├ [36]: https://security.netapp.com/advisory/ntap-20210326-0
-│                       │       │                  │       004/ 
-│                       │       │                  ├ [37]: https://snyk.io/blog/cache-poisoning-in-popular-open
-│                       │       │                  │       -source-packages/ 
-│                       │       │                  ├ [38]: https://snyk.io/vuln/SNYK-UPSTREAM-PYTHONCPYTHON-107
-│                       │       │                  │       4933 
-│                       │       │                  ├ [39]: https://ubuntu.com/security/notices/USN-4742-1 
-│                       │       │                  ├ [40]: https://www.cve.org/CVERecord?id=CVE-2021-23336 
-│                       │       │                  ├ [41]: https://www.djangoproject.com/weblog/2021/feb/19/sec
-│                       │       │                  │       urity-releases/ 
-│                       │       │                  ├ [42]: https://www.oracle.com//security-alerts/cpujul2021.h
-│                       │       │                  │       tml 
-│                       │       │                  ├ [43]: https://www.oracle.com/security-alerts/cpuApr2021.html 
-│                       │       │                  ├ [44]: https://www.oracle.com/security-alerts/cpujan2022.html 
-│                       │       │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
-│                       │       ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
-│                       │       ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
-│                       ├ [95]  ╭ VulnerabilityID : CVE-2025-0938 
+│                       ├ [93]  ╭ VulnerabilityID : CVE-2025-0938 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:6977 
 │                       │       ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3 
@@ -5633,7 +5329,7 @@
 │                       │       │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │       ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
-│                       ├ [96]  ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [94]  ╭ VulnerabilityID : CVE-2025-4330 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3 
@@ -5727,7 +5423,7 @@
 │                       │       │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [97]  ╭ VulnerabilityID : CVE-2025-4435 
+│                       ├ [95]  ╭ VulnerabilityID : CVE-2025-4435 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3 
@@ -5801,7 +5497,7 @@
 │                       │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-4435 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.63Z 
 │                       │       ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
-│                       ├ [98]  ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [96]  ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&di
@@ -5864,7 +5560,7 @@
 │                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [99]  ╭ VulnerabilityID : CVE-2025-6069 
+│                       ├ [97]  ╭ VulnerabilityID : CVE-2025-6069 
 │                       │       ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&di
@@ -5893,25 +5589,33 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                       │       │                            │           :N/A:L 
 │                       │       │                            ╰ V3Score : 4.3 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6069 
-│                       │       │                  ├ [1]: https://github.com/python/cpython/commit/4455cbabf991
-│                       │       │                  │      e202185a25a631af206f60bbc949 
-│                       │       │                  ├ [2]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                       │       │                  │      8bd07d77b60fd71fd05d81d45c41 
-│                       │       │                  ├ [3]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                       │       │                  │      8bd07d77b60fd71fd05d81d45c41 (main) 
-│                       │       │                  ├ [4]: https://github.com/python/cpython/commit/d851f8e258c7
-│                       │       │                  │      328814943e923a7df81bca15df4b 
-│                       │       │                  ├ [5]: https://github.com/python/cpython/issues/135462 
-│                       │       │                  ├ [6]: https://github.com/python/cpython/pull/135464 
-│                       │       │                  ├ [7]: https://mail.python.org/archives/list/security-announ
-│                       │       │                  │      ce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM
-│                       │       │                  │      / 
-│                       │       │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6069 
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/4455cbabf99
+│                       │       │                  │       1e202185a25a631af206f60bbc949 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                       │       │                  │       28bd07d77b60fd71fd05d81d45c41 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                       │       │                  │       28bd07d77b60fd71fd05d81d45c41 (main) 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/8d1b3dfa091
+│                       │       │                  │       35affbbf27fb8babcf3c11415df49 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/ab0893fd5c5
+│                       │       │                  │       79d9cea30841680e6d35fc478afb5 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/d851f8e258c
+│                       │       │                  │       7328814943e923a7df81bca15df4b 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/f3c6f882cdd
+│                       │       │                  │       c8dc30320d2e73edf019e201394fc 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/fdc9d214c01
+│                       │       │                  │       cb4588f540cfa03726bbf2a33fc15 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/135462 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/135464 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXO
+│                       │       │                  │       YM/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │       ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
-│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
-│                       ├ [100] ╭ VulnerabilityID : CVE-2024-0397 
+│                       │       ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
+│                       ├ [98]  ╭ VulnerabilityID : CVE-2024-0397 
 │                       │       ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&di
@@ -5982,7 +5686,7 @@
 │                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │       ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │       ╰ LastModifiedDate: 2025-04-11T22:15:28.65Z 
-│                       ├ [101] ╭ VulnerabilityID : CVE-2024-7592 
+│                       ├ [99]  ╭ VulnerabilityID : CVE-2024-7592 
 │                       │       ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&di
@@ -6062,7 +5766,7 @@
 │                       │       │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │       ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │       ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
-│                       ├ [102] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [100] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │       ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&di
@@ -6112,7 +5816,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
 │                       │       ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │       ╰ LastModifiedDate: 2025-02-28T21:15:27.57Z 
-│                       ├ [103] ╭ VulnerabilityID : CVE-2024-12718 
+│                       ├ [101] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3-libs 
@@ -6210,7 +5914,7 @@
 │                       │       │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │       ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
-│                       ├ [104] ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [102] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3-libs 
@@ -6304,7 +6008,7 @@
 │                       │       │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [105] ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [103] ╭ VulnerabilityID : CVE-2025-4517 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3-libs 
@@ -6397,163 +6101,7 @@
 │                       │       │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [106] ╭ VulnerabilityID : CVE-2021-23336 
-│                       │       ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
-│                       │       ├ PkgName         : python3-libs 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_
-│                       │       │                  │       64&distro=redhat-9.5 
-│                       │       │                  ╰ UID : cea3dd3e08f7210c 
-│                       │       ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff35944
-│                       │       │                  │         70a588597170eef2fb3ac 
-│                       │       │                  ╰ DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831ea
-│                       │       │                            c27813797272110c45281 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-23336 
-│                       │       ├ Title           : python: Web cache poisoning via urllib.parse.parse_qsl and
-│                       │       │                   urllib.parse.parse_qs by using a semicolon in query
-│                       │       │                   parameters 
-│                       │       ├ Description     : The package python/cpython from 0 and before 3.6.13, from
-│                       │       │                   3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from
-│                       │       │                   3.9.0 and before 3.9.2 are vulnerable to Web Cache
-│                       │       │                   Poisoning via urllib.parse.parse_qsl and
-│                       │       │                   urllib.parse.parse_qs by using a vector called parameter
-│                       │       │                   cloaking. When the attacker can separate query parameters
-│                       │       │                   using a semicolon (;), they can cause a difference in the
-│                       │       │                   interpretation of the request between the proxy (running
-│                       │       │                   with default configuration) and the server. This can result
-│                       │       │                    in malicious requests being cached as completely safe
-│                       │       │                   ones, as the proxy would usually not see the semicolon as a
-│                       │       │                    separator, and therefore would not include it in a cache
-│                       │       │                   key of an unkeyed parameter. 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs           ─ [0]: CWE-444 
-│                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
-│                       │       │                  ├ bitnami    : 2 
-│                       │       │                  ├ cbl-mariner: 2 
-│                       │       │                  ├ nvd        : 2 
-│                       │       │                  ├ oracle-oval: 2 
-│                       │       │                  ├ photon     : 2 
-│                       │       │                  ├ redhat     : 2 
-│                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I
-│                       │       │                  │         │           :L/A:H 
-│                       │       │                  │         ╰ V3Score : 5.9 
-│                       │       │                  ├ nvd     ╭ V2Vector: AV:N/AC:H/Au:N/C:N/I:P/A:P 
-│                       │       │                  │         ├ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I
-│                       │       │                  │         │           :L/A:H 
-│                       │       │                  │         ├ V2Score : 4 
-│                       │       │                  │         ╰ V3Score : 5.9 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I
-│                       │       │                            │           :L/A:H 
-│                       │       │                            ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2021/02/1
-│                       │       │                  │       9/4 
-│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2021/05/0
-│                       │       │                  │       1/2 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2021-23336 
-│                       │       │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2021-4162.html 
-│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/fcbe0cb04d3
-│                       │       │                  │       5189401c0c880ebfb4311e952d776 (master) 
-│                       │       │                  ├ [5] : https://github.com/python/cpython/pull/24297 
-│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2021-23336.html 
-│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2021-4162.html 
-│                       │       │                  ├ [8] : https://lists.apache.org/thread.html/ra8ce70088ba291
-│                       │       │                  │       f358e077cafdb14d174b7a1ce9a9d86d1b332d6367%40%3Cuser
-│                       │       │                  │       s.airflow.apache.org%3E 
-│                       │       │                  ├ [9] : https://lists.apache.org/thread.html/rc005f4de9d9b0b
-│                       │       │                  │       a943ceb8ff5a21a5c6ff8a9df52632476698d99432%40%3Canno
-│                       │       │                  │       unce.apache.org%3E 
-│                       │       │                  ├ [10]: https://lists.apache.org/thread.html/rf9fa47ab66495c
-│                       │       │                  │       78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.
-│                       │       │                  │       mina.apache.org%3E 
-│                       │       │                  ├ [11]: https://lists.debian.org/debian-lts-announce/2021/02
-│                       │       │                  │       /msg00030.html 
-│                       │       │                  ├ [12]: https://lists.debian.org/debian-lts-announce/2021/04
-│                       │       │                  │       /msg00005.html 
-│                       │       │                  ├ [13]: https://lists.debian.org/debian-lts-announce/2021/04
-│                       │       │                  │       /msg00015.html 
-│                       │       │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2023/09
-│                       │       │                  │       /msg00022.html 
-│                       │       │                  ├ [15]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/3EPYWWF
-│                       │       │                  │       DV22CJ5AOH5VCE72DOASZZ255/ 
-│                       │       │                  ├ [16]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/3YKKDLX
-│                       │       │                  │       L3UEZ3J426C2XTBS63AHE46SM/ 
-│                       │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/46N6A52
-│                       │       │                  │       EGSXHJYCZWVMBJJIH4NWIV2B5/ 
-│                       │       │                  ├ [18]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/FONHJIO
-│                       │       │                  │       ZOFD7CD35KZL6SVBUTMBPGZGA/ 
-│                       │       │                  ├ [19]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/HCQTCSP
-│                       │       │                  │       6SCVIYNIRUJC5X7YBVUHPLSC4/ 
-│                       │       │                  ├ [20]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/HZTM7KL
-│                       │       │                  │       HFCE3LWSEVO2NAFLUHMGYMCRY/ 
-│                       │       │                  ├ [21]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/IHQDU7N
-│                       │       │                  │       XA7EWAE4W7VO6MURVJIULEPPR/ 
-│                       │       │                  ├ [22]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/KJXCMHL
-│                       │       │                  │       Y7H3FIYLE4OKDYUILU2CCRUCZ/ 
-│                       │       │                  ├ [23]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/LVNH6Z2
-│                       │       │                  │       4IG3E67ZCQGGJ46FZB4XFLQNZ/ 
-│                       │       │                  ├ [24]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/MNUN5SO
-│                       │       │                  │       MFL2BBKP6ZAICIIUPQKZDMGYO/ 
-│                       │       │                  ├ [25]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/MP572OL
-│                       │       │                  │       HMS7MZO4KUPSCIMSZIA5IZZ62/ 
-│                       │       │                  ├ [26]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/N6VXJZS
-│                       │       │                  │       Z6N64AILJX4CTMACYGQGHHD5C/ 
-│                       │       │                  ├ [27]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/NJSCSN7
-│                       │       │                  │       22JO2E2AGPWD4NTGVELVRPB4R/ 
-│                       │       │                  ├ [28]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/NODWHDI
-│                       │       │                  │       FBQE5RU5PUWUVE47JOT5VCMJ2/ 
-│                       │       │                  ├ [29]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/OAGSWNG
-│                       │       │                  │       ZJ6HQ5ISA67SNMK3CJRKICET7/ 
-│                       │       │                  ├ [30]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/RSLQD5C
-│                       │       │                  │       CM75IZGAMBDGUZEATYU5YSGJ7/ 
-│                       │       │                  ├ [31]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/SGIY6I4
-│                       │       │                  │       YS3WOXAK4SXKIEOC2G4VZKIR7/ 
-│                       │       │                  ├ [32]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/TFTELUM
-│                       │       │                  │       WZE3KV3JB2H5EE6VFRZFRD5MV/ 
-│                       │       │                  ├ [33]: https://lists.fedoraproject.org/archives/list/packag
-│                       │       │                  │       e-announce%40lists.fedoraproject.org/message/W2LSKBE
-│                       │       │                  │       FI5SYEY5FM6ICZVZM5WRQUCS4/ 
-│                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2021-23336 
-│                       │       │                  ├ [35]: https://security.gentoo.org/glsa/202104-04 
-│                       │       │                  ├ [36]: https://security.netapp.com/advisory/ntap-20210326-0
-│                       │       │                  │       004/ 
-│                       │       │                  ├ [37]: https://snyk.io/blog/cache-poisoning-in-popular-open
-│                       │       │                  │       -source-packages/ 
-│                       │       │                  ├ [38]: https://snyk.io/vuln/SNYK-UPSTREAM-PYTHONCPYTHON-107
-│                       │       │                  │       4933 
-│                       │       │                  ├ [39]: https://ubuntu.com/security/notices/USN-4742-1 
-│                       │       │                  ├ [40]: https://www.cve.org/CVERecord?id=CVE-2021-23336 
-│                       │       │                  ├ [41]: https://www.djangoproject.com/weblog/2021/feb/19/sec
-│                       │       │                  │       urity-releases/ 
-│                       │       │                  ├ [42]: https://www.oracle.com//security-alerts/cpujul2021.h
-│                       │       │                  │       tml 
-│                       │       │                  ├ [43]: https://www.oracle.com/security-alerts/cpuApr2021.html 
-│                       │       │                  ├ [44]: https://www.oracle.com/security-alerts/cpujan2022.html 
-│                       │       │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
-│                       │       ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
-│                       │       ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
-│                       ├ [107] ╭ VulnerabilityID : CVE-2025-0938 
+│                       ├ [104] ╭ VulnerabilityID : CVE-2025-0938 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:6977 
 │                       │       ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3-libs 
@@ -6624,7 +6172,7 @@
 │                       │       │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │       ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
-│                       ├ [108] ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [105] ╭ VulnerabilityID : CVE-2025-4330 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3-libs 
@@ -6718,7 +6266,7 @@
 │                       │       │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [109] ╭ VulnerabilityID : CVE-2025-4435 
+│                       ├ [106] ╭ VulnerabilityID : CVE-2025-4435 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3-libs 
@@ -6792,7 +6340,7 @@
 │                       │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-4435 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.63Z 
 │                       │       ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
-│                       ├ [110] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [107] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_
@@ -6855,7 +6403,7 @@
 │                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [111] ╭ VulnerabilityID : CVE-2025-6069 
+│                       ├ [108] ╭ VulnerabilityID : CVE-2025-6069 
 │                       │       ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_
@@ -6884,25 +6432,33 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                       │       │                            │           :N/A:L 
 │                       │       │                            ╰ V3Score : 4.3 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6069 
-│                       │       │                  ├ [1]: https://github.com/python/cpython/commit/4455cbabf991
-│                       │       │                  │      e202185a25a631af206f60bbc949 
-│                       │       │                  ├ [2]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                       │       │                  │      8bd07d77b60fd71fd05d81d45c41 
-│                       │       │                  ├ [3]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                       │       │                  │      8bd07d77b60fd71fd05d81d45c41 (main) 
-│                       │       │                  ├ [4]: https://github.com/python/cpython/commit/d851f8e258c7
-│                       │       │                  │      328814943e923a7df81bca15df4b 
-│                       │       │                  ├ [5]: https://github.com/python/cpython/issues/135462 
-│                       │       │                  ├ [6]: https://github.com/python/cpython/pull/135464 
-│                       │       │                  ├ [7]: https://mail.python.org/archives/list/security-announ
-│                       │       │                  │      ce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM
-│                       │       │                  │      / 
-│                       │       │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6069 
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/4455cbabf99
+│                       │       │                  │       1e202185a25a631af206f60bbc949 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                       │       │                  │       28bd07d77b60fd71fd05d81d45c41 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                       │       │                  │       28bd07d77b60fd71fd05d81d45c41 (main) 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/8d1b3dfa091
+│                       │       │                  │       35affbbf27fb8babcf3c11415df49 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/ab0893fd5c5
+│                       │       │                  │       79d9cea30841680e6d35fc478afb5 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/d851f8e258c
+│                       │       │                  │       7328814943e923a7df81bca15df4b 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/f3c6f882cdd
+│                       │       │                  │       c8dc30320d2e73edf019e201394fc 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/fdc9d214c01
+│                       │       │                  │       cb4588f540cfa03726bbf2a33fc15 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/135462 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/135464 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXO
+│                       │       │                  │       YM/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │       ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
-│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
-│                       ├ [112] ╭ VulnerabilityID : CVE-2024-0397 
+│                       │       ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
+│                       ├ [109] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │       ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_
@@ -6973,7 +6529,7 @@
 │                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │       ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │       ╰ LastModifiedDate: 2025-04-11T22:15:28.65Z 
-│                       ├ [113] ╭ VulnerabilityID : CVE-2024-7592 
+│                       ├ [110] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │       ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_
@@ -7053,7 +6609,7 @@
 │                       │       │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │       ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │       ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
-│                       ├ [114] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [111] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │       ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_
@@ -7103,7 +6659,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
 │                       │       ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │       ╰ LastModifiedDate: 2025-02-28T21:15:27.57Z 
-│                       ├ [115] ╭ VulnerabilityID : CVE-2025-50181 
+│                       ├ [112] ╭ VulnerabilityID : CVE-2025-50181 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=n
@@ -7151,7 +6707,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-50181 
 │                       │       ├ PublishedDate   : 2025-06-19T01:15:24.453Z 
 │                       │       ╰ LastModifiedDate: 2025-06-23T20:16:59.783Z 
-│                       ├ [116] ╭ VulnerabilityID : CVE-2025-50182 
+│                       ├ [113] ╭ VulnerabilityID : CVE-2025-50182 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=n
@@ -7200,7 +6756,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50182 
 │                       │       ├ PublishedDate   : 2025-06-19T02:15:17.967Z 
 │                       │       ╰ LastModifiedDate: 2025-06-30T19:15:25.017Z 
-│                       ├ [117] ╭ VulnerabilityID : CVE-2021-3572 
+│                       ├ [114] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=n
@@ -7277,7 +6833,7 @@
 │                       │       │                  ╰ [20]: https://www.oracle.com/security-alerts/cpujul2022.html 
 │                       │       ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:21:52.473Z 
-│                       ├ [118] ╭ VulnerabilityID : CVE-2025-47273 
+│                       ├ [115] ╭ VulnerabilityID : CVE-2025-47273 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10407 
 │                       │       ├ PkgID           : python3-setuptools-wheel@53.0.0-13.el9.noarch 
 │                       │       ├ PkgName         : python3-setuptools-wheel 
@@ -7305,7 +6861,8 @@
 │                       │       │                   depending on the context. Version 78.1.1 fixes the issue. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ amazon     : 3 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ ghsa       : 3 
@@ -7320,28 +6877,31 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                       │       │                           │           H/A:L 
 │                       │       │                           ╰ V3Score : 7.1 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-47273 
-│                       │       │                  ├ [1] : https://github.com/pypa/advisory-database/tree/main/
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10407 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-47273 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2366982 
+│                       │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-10407.html 
+│                       │       │                  ├ [4] : https://github.com/pypa/advisory-database/tree/main/
 │                       │       │                  │       vulns/setuptools/PYSEC-2025-49.yaml 
-│                       │       │                  ├ [2] : https://github.com/pypa/setuptools 
-│                       │       │                  ├ [3] : https://github.com/pypa/setuptools/blob/6ead555c5fb2
+│                       │       │                  ├ [5] : https://github.com/pypa/setuptools 
+│                       │       │                  ├ [6] : https://github.com/pypa/setuptools/blob/6ead555c5fb2
 │                       │       │                  │       9bc57fe6105b1bffc163f56fd558/setuptools/package_inde
 │                       │       │                  │       x.py#L810C1-L825C88 
-│                       │       │                  ├ [4] : https://github.com/pypa/setuptools/commit/250a6d1797
+│                       │       │                  ├ [7] : https://github.com/pypa/setuptools/commit/250a6d1797
 │                       │       │                  │       8f9f6ac3ac887091f2d32886fbbb0b 
-│                       │       │                  ├ [5] : https://github.com/pypa/setuptools/issues/4946 
-│                       │       │                  ├ [6] : https://github.com/pypa/setuptools/security/advisori
+│                       │       │                  ├ [8] : https://github.com/pypa/setuptools/issues/4946 
+│                       │       │                  ├ [9] : https://github.com/pypa/setuptools/security/advisori
 │                       │       │                  │       es/GHSA-5rjg-fvgr-3xxf 
-│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-47273.html 
-│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-9940.html 
-│                       │       │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/05
+│                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-47273.html 
+│                       │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-9940.html 
+│                       │       │                  ├ [12]: https://lists.debian.org/debian-lts-announce/2025/05
 │                       │       │                  │       /msg00035.html 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-47273 
-│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7544-1 
-│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-47273 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-47273 
+│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7544-1 
+│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-47273 
 │                       │       ├ PublishedDate   : 2025-05-17T16:15:19.11Z 
 │                       │       ╰ LastModifiedDate: 2025-06-12T16:29:01.66Z 
-│                       ├ [119] ╭ VulnerabilityID : CVE-2024-0232 
+│                       ├ [116] ╭ VulnerabilityID : CVE-2024-0232 
 │                       │       ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │       ├ PkgName         : sqlite-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_6
@@ -7387,7 +6947,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
 │                       │       ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T08:46:06.907Z 
-│                       ├ [120] ╭ VulnerabilityID : CVE-2025-32462 
+│                       ├ [117] ╭ VulnerabilityID : CVE-2025-32462 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:9978 
 │                       │       ├ PkgID           : sudo@1.9.5p2-10.el9_3.x86_64 
 │                       │       ├ PkgName         : sudo 
@@ -7437,7 +6997,7 @@
 │                       │       │                  ╰ [14]: https://www.sudo.ws/security/advisories/host_any/ 
 │                       │       ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
 │                       │       ╰ LastModifiedDate: 2025-07-03T15:14:12.767Z 
-│                       ├ [121] ╭ VulnerabilityID : CVE-2025-4598 
+│                       ├ [118] ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd-libs@252-46.el9_5.3.x86_64 
 │                       │       ├ PkgName         : systemd-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-46.el9_5.3?arch=x86_
@@ -7517,7 +7077,7 @@
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
-│                       ├ [122] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [119] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │       ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=red
@@ -7553,7 +7113,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │       ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │       ╰ LastModifiedDate: 2025-04-03T01:03:51.193Z 
-│                       ╰ [123] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ╰ [120] ╭ VulnerabilityID : CVE-2023-39804 
 │                               ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                               ├ PkgName         : tar 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=red
