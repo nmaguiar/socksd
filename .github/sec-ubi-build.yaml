@@ -1576,13 +1576,16 @@
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
   - VulnerabilityID: CVE-2025-49794
+    VendorIDs:
+    - RHSA-2025:10699
     PkgID: libxml2@2.9.13-9.el9_6.x86_64
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
       UID: 2801e91161c3f912
     InstalledVersion: 2.9.13-9.el9_6
-    Status: affected
+    FixedVersion: 2.9.13-10.el9_6
+    Status: fixed
     Layer:
       Digest: sha256:9f7cd48eec628c6897556d5d20530723f8676cdff4054f0ba775756592aa9383
       DiffID: sha256:fe662c43500e2966e9f7c2fd43724fa8810b612e88f4349810defeccc3421eda
@@ -1594,26 +1597,35 @@
     CweIDs:
     - CWE-825
     VendorSeverity:
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
         V3Score: 9.1
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10630
+    - https://access.redhat.com/errata/RHSA-2025:10698
+    - https://access.redhat.com/errata/RHSA-2025:10699
     - https://access.redhat.com/security/cve/CVE-2025-49794
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
+    - https://linux.oracle.com/cve/CVE-2025-49794.html
+    - https://linux.oracle.com/errata/ELSA-2025-10630.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49794
     - https://www.cve.org/CVERecord?id=CVE-2025-49794
     PublishedDate: '2025-06-16T16:15:18.997Z'
-    LastModifiedDate: '2025-06-17T20:50:23.507Z'
+    LastModifiedDate: '2025-07-09T14:15:32.797Z'
   - VulnerabilityID: CVE-2025-49796
+    VendorIDs:
+    - RHSA-2025:10699
     PkgID: libxml2@2.9.13-9.el9_6.x86_64
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
       UID: 2801e91161c3f912
     InstalledVersion: 2.9.13-9.el9_6
-    Status: affected
+    FixedVersion: 2.9.13-10.el9_6
+    Status: fixed
     Layer:
       Digest: sha256:9f7cd48eec628c6897556d5d20530723f8676cdff4054f0ba775756592aa9383
       DiffID: sha256:fe662c43500e2966e9f7c2fd43724fa8810b612e88f4349810defeccc3421eda
@@ -1625,18 +1637,24 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
         V3Score: 9.1
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10630
+    - https://access.redhat.com/errata/RHSA-2025:10698
+    - https://access.redhat.com/errata/RHSA-2025:10699
     - https://access.redhat.com/security/cve/CVE-2025-49796
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
+    - https://linux.oracle.com/cve/CVE-2025-49796.html
+    - https://linux.oracle.com/errata/ELSA-2025-10630.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49796
     - https://www.cve.org/CVERecord?id=CVE-2025-49796
     PublishedDate: '2025-06-16T16:15:19.37Z'
-    LastModifiedDate: '2025-06-17T20:50:23.507Z'
+    LastModifiedDate: '2025-07-09T14:15:32.927Z'
   - VulnerabilityID: CVE-2025-32414
     PkgID: libxml2@2.9.13-9.el9_6.x86_64
     PkgName: libxml2
@@ -1729,13 +1747,16 @@
     PublishedDate: '2025-04-17T17:15:33.733Z'
     LastModifiedDate: '2025-04-23T18:17:52.053Z'
   - VulnerabilityID: CVE-2025-6021
+    VendorIDs:
+    - RHSA-2025:10699
     PkgID: libxml2@2.9.13-9.el9_6.x86_64
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-9.el9_6?arch=x86_64&distro=redhat-9.6
       UID: 2801e91161c3f912
     InstalledVersion: 2.9.13-9.el9_6
-    Status: affected
+    FixedVersion: 2.9.13-10.el9_6
+    Status: fixed
     Layer:
       Digest: sha256:9f7cd48eec628c6897556d5d20530723f8676cdff4054f0ba775756592aa9383
       DiffID: sha256:fe662c43500e2966e9f7c2fd43724fa8810b612e88f4349810defeccc3421eda
@@ -1748,18 +1769,24 @@
     - CWE-121
     VendorSeverity:
       amazon: 3
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10630
+    - https://access.redhat.com/errata/RHSA-2025:10698
+    - https://access.redhat.com/errata/RHSA-2025:10699
     - https://access.redhat.com/security/cve/CVE-2025-6021
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372406
+    - https://linux.oracle.com/cve/CVE-2025-6021.html
+    - https://linux.oracle.com/errata/ELSA-2025-10630.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6021
     - https://www.cve.org/CVERecord?id=CVE-2025-6021
     PublishedDate: '2025-06-12T13:15:25.59Z'
-    LastModifiedDate: '2025-06-12T16:06:20.18Z'
+    LastModifiedDate: '2025-07-09T14:15:33.413Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-9.el9_6.x86_64
     PkgName: libxml2
