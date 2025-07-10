@@ -1015,7 +1015,8 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-665 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
 │                       │       │                  ├ oracle-oval: 2 
-│                       │       │                  ╰ redhat     : 2 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
@@ -1027,7 +1028,9 @@
 │                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
 │                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
 │                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │       │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June
+│                       │       │                  │      /167381.html 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │       ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [17]  ╭ VulnerabilityID : CVE-2025-4802 
@@ -1117,7 +1120,8 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-665 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
 │                       │       │                  ├ oracle-oval: 2 
-│                       │       │                  ╰ redhat     : 2 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
@@ -1129,7 +1133,9 @@
 │                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
 │                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
 │                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │       │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June
+│                       │       │                  │      /167381.html 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │       ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [19]  ╭ VulnerabilityID : CVE-2025-4802 
@@ -1219,7 +1225,8 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-665 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
 │                       │       │                  ├ oracle-oval: 2 
-│                       │       │                  ╰ redhat     : 2 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
@@ -1231,7 +1238,9 @@
 │                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
 │                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
 │                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │       │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June
+│                       │       │                  │      /167381.html 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │       ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [21]  ╭ VulnerabilityID : CVE-2025-4802 
@@ -1321,7 +1330,8 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-665 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
 │                       │       │                  ├ oracle-oval: 2 
-│                       │       │                  ╰ redhat     : 2 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
@@ -1333,7 +1343,9 @@
 │                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
 │                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
 │                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │       │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June
+│                       │       │                  │      /167381.html 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │       ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [23]  ╭ VulnerabilityID : CVE-2022-3219 
@@ -2582,13 +2594,15 @@
 │                       │       ├ PublishedDate   : 2025-02-10T16:15:37.26Z 
 │                       │       ╰ LastModifiedDate: 2025-06-02T15:15:27.653Z 
 │                       ├ [45]  ╭ VulnerabilityID : CVE-2025-49794 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10699 
 │                       │       ├ PkgID           : libxml2@2.9.13-6.el9_5.2.x86_64 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.2?arch=x86_64&
 │                       │       │                  │       distro=redhat-9.5 
 │                       │       │                  ╰ UID : 57ca389b191823b7 
 │                       │       ├ InstalledVersion: 2.9.13-6.el9_5.2 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.9.13-10.el9_6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff35944
 │                       │       │                  │         70a588597170eef2fb3ac 
 │                       │       │                  ╰ DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831ea
@@ -2606,24 +2620,32 @@
 │                       │       │                   other possible undefined behaviors. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-825 
-│                       │       ├ VendorSeverity   ─ redhat: 3 
+│                       │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │       │                  ╰ redhat     : 3 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           H/A:H 
 │                       │       │                           ╰ V3Score : 9.1 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-49794 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-49794 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10630 
+│                       │       │                  ├ [1]: https://access.redhat.com/errata/RHSA-2025:10698 
+│                       │       │                  ├ [2]: https://access.redhat.com/errata/RHSA-2025:10699 
+│                       │       │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-49794 
+│                       │       │                  ├ [4]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │       │                  ├ [5]: https://linux.oracle.com/cve/CVE-2025-49794.html 
+│                       │       │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2025-10630.html 
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-49794 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
 │                       │       ├ PublishedDate   : 2025-06-16T16:15:18.997Z 
-│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                       │       ╰ LastModifiedDate: 2025-07-09T14:15:32.797Z 
 │                       ├ [46]  ╭ VulnerabilityID : CVE-2025-49796 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10699 
 │                       │       ├ PkgID           : libxml2@2.9.13-6.el9_5.2.x86_64 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.2?arch=x86_64&
 │                       │       │                  │       distro=redhat-9.5 
 │                       │       │                  ╰ UID : 57ca389b191823b7 
 │                       │       ├ InstalledVersion: 2.9.13-6.el9_5.2 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.9.13-10.el9_6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff35944
 │                       │       │                  │         70a588597170eef2fb3ac 
 │                       │       │                  ╰ DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831ea
@@ -2640,16 +2662,22 @@
 │                       │       │                    memory. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ─ redhat: 3 
+│                       │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │       │                  ╰ redhat     : 3 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           H/A:H 
 │                       │       │                           ╰ V3Score : 9.1 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-49796 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-49796 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10630 
+│                       │       │                  ├ [1]: https://access.redhat.com/errata/RHSA-2025:10698 
+│                       │       │                  ├ [2]: https://access.redhat.com/errata/RHSA-2025:10699 
+│                       │       │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-49796 
+│                       │       │                  ├ [4]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │       │                  ├ [5]: https://linux.oracle.com/cve/CVE-2025-49796.html 
+│                       │       │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2025-10630.html 
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-49796 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
 │                       │       ├ PublishedDate   : 2025-06-16T16:15:19.37Z 
-│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                       │       ╰ LastModifiedDate: 2025-07-09T14:15:32.927Z 
 │                       ├ [47]  ╭ VulnerabilityID : CVE-2025-32414 
 │                       │       ├ PkgID           : libxml2@2.9.13-6.el9_5.2.x86_64 
 │                       │       ├ PkgName         : libxml2 
@@ -2744,13 +2772,15 @@
 │                       │       ├ PublishedDate   : 2025-04-17T17:15:33.733Z 
 │                       │       ╰ LastModifiedDate: 2025-04-23T18:17:52.053Z 
 │                       ├ [49]  ╭ VulnerabilityID : CVE-2025-6021 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10699 
 │                       │       ├ PkgID           : libxml2@2.9.13-6.el9_5.2.x86_64 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.2?arch=x86_64&
 │                       │       │                  │       distro=redhat-9.5 
 │                       │       │                  ╰ UID : 57ca389b191823b7 
 │                       │       ├ InstalledVersion: 2.9.13-6.el9_5.2 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.9.13-10.el9_6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff35944
 │                       │       │                  │         70a588597170eef2fb3ac 
 │                       │       │                  ╰ DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831ea
@@ -2766,17 +2796,23 @@
 │                       │       │                   crafted input. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-121 
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
-│                       │       │                  ╰ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ amazon     : 3 
+│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ╰ redhat     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6021 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-6021 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10630 
+│                       │       │                  ├ [1]: https://access.redhat.com/errata/RHSA-2025:10698 
+│                       │       │                  ├ [2]: https://access.redhat.com/errata/RHSA-2025:10699 
+│                       │       │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-6021 
+│                       │       │                  ├ [4]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
+│                       │       │                  ├ [5]: https://linux.oracle.com/cve/CVE-2025-6021.html 
+│                       │       │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2025-10630.html 
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-6021 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
 │                       │       ├ PublishedDate   : 2025-06-12T13:15:25.59Z 
-│                       │       ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                       │       ╰ LastModifiedDate: 2025-07-09T14:15:33.413Z 
 │                       ├ [50]  ╭ VulnerabilityID : CVE-2023-45322 
 │                       │       ├ PkgID           : libxml2@2.9.13-6.el9_5.2.x86_64 
 │                       │       ├ PkgName         : libxml2 
@@ -4367,6 +4403,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 4 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 4 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
@@ -5210,6 +5247,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 4 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 4 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
@@ -6053,6 +6091,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 4 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 4 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
