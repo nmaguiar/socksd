@@ -819,18 +819,19 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 4.8 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-4373 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
-│                       │       │                  ├ [2]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
-│                       │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/
-│                       │       │                  │      4588 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10855 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-4373 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
+│                       │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
 │                       │       │                  ├ [4]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/
+│                       │       │                  │      4588 
+│                       │       │                  ├ [5]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/
 │                       │       │                  │      4592 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
-│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7532-1 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-7532-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
 │                       │       ├ PublishedDate   : 2025-05-06T15:16:05.32Z 
-│                       │       ╰ LastModifiedDate: 2025-05-07T14:13:20.483Z 
+│                       │       ╰ LastModifiedDate: 2025-07-14T15:15:23.94Z 
 │                       ├ [13]  ╭ VulnerabilityID : CVE-2023-32636 
 │                       │       ├ PkgID           : glib2@2.68.4-14.el9_4.1.x86_64 
 │                       │       ├ PkgName         : glib2 
@@ -1023,17 +1024,18 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:9877 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2370472 
-│                       │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
-│                       │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
-│                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
-│                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │       │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June
-│                       │       │                  │      /167381.html 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9877 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-5702 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2370472 
+│                       │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9877.html 
+│                       │       │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                       │       │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                       │       │                  ├ [7] : https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                       │       │                  ├ [8] : https://sourceware.org/pipermail/libc-alpha/2025-Jun
+│                       │       │                  │       e/167381.html 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7634-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │       ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [17]  ╭ VulnerabilityID : CVE-2025-4802 
@@ -1128,17 +1130,18 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:9877 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2370472 
-│                       │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
-│                       │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
-│                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
-│                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │       │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June
-│                       │       │                  │      /167381.html 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9877 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-5702 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2370472 
+│                       │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9877.html 
+│                       │       │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                       │       │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                       │       │                  ├ [7] : https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                       │       │                  ├ [8] : https://sourceware.org/pipermail/libc-alpha/2025-Jun
+│                       │       │                  │       e/167381.html 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7634-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │       ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [19]  ╭ VulnerabilityID : CVE-2025-4802 
@@ -1233,17 +1236,18 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:9877 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2370472 
-│                       │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
-│                       │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
-│                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
-│                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │       │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June
-│                       │       │                  │      /167381.html 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9877 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-5702 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2370472 
+│                       │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9877.html 
+│                       │       │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                       │       │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                       │       │                  ├ [7] : https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                       │       │                  ├ [8] : https://sourceware.org/pipermail/libc-alpha/2025-Jun
+│                       │       │                  │       e/167381.html 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7634-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │       ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [21]  ╭ VulnerabilityID : CVE-2025-4802 
@@ -1338,17 +1342,18 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.6 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:9877 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2370472 
-│                       │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
-│                       │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
-│                       │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
-│                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │       │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June
-│                       │       │                  │      /167381.html 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9877 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-5702 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2370472 
+│                       │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9877.html 
+│                       │       │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                       │       │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                       │       │                  ├ [7] : https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                       │       │                  ├ [8] : https://sourceware.org/pipermail/libc-alpha/2025-Jun
+│                       │       │                  │       e/167381.html 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7634-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │       ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [23]  ╭ VulnerabilityID : CVE-2022-3219 
@@ -1533,7 +1538,8 @@
 │                       │       │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │       │                  │      ly/004883.html 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
 │                       │       ├ PublishedDate   : 2025-07-10T08:15:24.223Z 
 │                       │       ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
 │                       ├ [27]  ╭ VulnerabilityID : CVE-2025-32989 
@@ -1573,7 +1579,8 @@
 │                       │       │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │       │                  │      ly/004883.html 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32989 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
 │                       │       ├ PublishedDate   : 2025-07-10T08:15:24.43Z 
 │                       │       ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
 │                       ├ [28]  ╭ VulnerabilityID : CVE-2025-32990 
@@ -1610,7 +1617,8 @@
 │                       │       │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │       │                  │      ly/004883.html 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
 │                       │       ├ PublishedDate   : 2025-07-10T10:15:33.06Z 
 │                       │       ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
 │                       ├ [29]  ╭ VulnerabilityID : CVE-2025-6395 
@@ -1647,7 +1655,8 @@
 │                       │       │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │       │                  │      ly/004883.html 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                       │       ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
 │                       │       ╰ LastModifiedDate: 2025-07-10T16:15:25.11Z 
 │                       ├ [30]  ╭ VulnerabilityID : CVE-2024-21094 
@@ -4142,7 +4151,7 @@
 │                       │       │                  │       redhat-9.5 
 │                       │       │                  ╰ UID : d773c971c3232765 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
-│                       │       ├ Status          : will_not_fix 
+│                       │       ├ Status          : affected 
 │                       │       ├ Layer            ╭ Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff35944
 │                       │       │                  │         70a588597170eef2fb3ac 
 │                       │       │                  ╰ DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831ea
@@ -4184,7 +4193,7 @@
 │                       │       │                  │       distro=redhat-9.5 
 │                       │       │                  ╰ UID : 90e20052ebc3bd12 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
-│                       │       ├ Status          : will_not_fix 
+│                       │       ├ Status          : affected 
 │                       │       ├ Layer            ╭ Digest: sha256:514b8c62cb2ce35f2b1b29ff5bf2a1099ccaff35944
 │                       │       │                  │         70a588597170eef2fb3ac 
 │                       │       │                  ╰ DiffID: sha256:3bf784e2873301362d4952aa9afd160391ae4a831ea
@@ -7449,5 +7458,5 @@
                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
                               │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
                               ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
-                              ╰ LastModifiedDate: 2025-07-11T20:15:24.32Z 
+                              ╰ LastModifiedDate: 2025-07-14T17:15:33.027Z 
 ````
