@@ -614,13 +614,15 @@
 │                       │      ├ PublishedDate   : 2023-09-25T18:15:11.013Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:34:30.16Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2024-52533 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:11140 
 │                       │      ├ PkgID           : glib2@2.68.4-16.el9.x86_64 
 │                       │      ├ PkgName         : glib2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-16.el9?arch=x86_64&distro
 │                       │      │                  │       =redhat-9.6 
 │                       │      │                  ╰ UID : 68843e02d84bf05b 
 │                       │      ├ InstalledVersion: 2.68.4-16.el9 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.68.4-16.el9_6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:95335c857cb91536bab79da59999aef1fcc2922f6484
 │                       │      │                  │         12f13d5544febd902a5e 
 │                       │      │                  ╰ DiffID: sha256:eb6c36930d6881c02a67452733c00690c3712a186853
@@ -666,13 +668,15 @@
 │                       │      ├ PublishedDate   : 2024-11-11T23:15:05.967Z 
 │                       │      ╰ LastModifiedDate: 2025-06-17T01:23:56.15Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-4373 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:11140 
 │                       │      ├ PkgID           : glib2@2.68.4-16.el9.x86_64 
 │                       │      ├ PkgName         : glib2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-16.el9?arch=x86_64&distro
 │                       │      │                  │       =redhat-9.6 
 │                       │      │                  ╰ UID : 68843e02d84bf05b 
 │                       │      ├ InstalledVersion: 2.68.4-16.el9 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.68.4-16.el9_6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:95335c857cb91536bab79da59999aef1fcc2922f6484
 │                       │      │                  │         12f13d5544febd902a5e 
 │                       │      │                  ╰ DiffID: sha256:eb6c36930d6881c02a67452733c00690c3712a186853
@@ -693,18 +697,19 @@
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10855 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-4373 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
-│                       │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
-│                       │      │                  ├ [4]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4
-│                       │      │                  │      588 
+│                       │      │                  ├ [1]: https://access.redhat.com/errata/RHSA-2025:11140 
+│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-4373 
+│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
+│                       │      │                  ├ [4]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
 │                       │      │                  ├ [5]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4
+│                       │      │                  │      588 
+│                       │      │                  ├ [6]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4
 │                       │      │                  │      592 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7532-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7532-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
 │                       │      ├ PublishedDate   : 2025-05-06T15:16:05.32Z 
-│                       │      ╰ LastModifiedDate: 2025-07-14T15:15:23.94Z 
+│                       │      ╰ LastModifiedDate: 2025-07-15T14:15:30.423Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2023-32636 
 │                       │      ├ PkgID           : glib2@2.68.4-16.el9.x86_64 
 │                       │      ├ PkgName         : glib2 
@@ -1021,11 +1026,7 @@
 │                       │      ├ Title           : gnutls: NULL pointer dereference in
 │                       │      │                   _gnutls_figure_common_ciphersuite() 
 │                       │      ├ Description     : A NULL pointer dereference flaw was found in the GnuTLS
-│                       │      │                   software in _gnutls_figure_common_ciphersuite(). When it
-│                       │      │                   reads certain settings from a template file, it can allow an
-│                       │      │                    attacker to cause an out-of-bounds (OOB) NULL pointer
-│                       │      │                   write, resulting in memory corruption and a denial of
-│                       │      │                   service (DoS) that could crash the system. 
+│                       │      │                   software in _gnutls_figure_common_ciphersuite(). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ redhat: 2 
@@ -1041,7 +1042,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                       │      ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
-│                       │      ╰ LastModifiedDate: 2025-07-10T16:15:25.11Z 
+│                       │      ╰ LastModifiedDate: 2025-07-15T13:24:41.097Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : java-21-openjdk-headless@21.0.7.0.6-1.el9.x86_64 
 │                       │      ├ PkgName         : java-21-openjdk-headless 
@@ -4579,7 +4580,60 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │      ╰ LastModifiedDate: 2025-04-03T01:03:51.193Z 
-│                       ╰ [85] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ├ [85] ╭ VulnerabilityID : CVE-2025-45582 
+│                       │      ├ PkgID           : tar@1.34-7.el9.x86_64 
+│                       │      ├ PkgName         : tar 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
+│                       │      │                  │       at-9.6&epoch=2 
+│                       │      │                  ╰ UID : a2012df86e168cf 
+│                       │      ├ InstalledVersion: 2:1.34-7.el9 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:95335c857cb91536bab79da59999aef1fcc2922f6484
+│                       │      │                  │         12f13d5544febd902a5e 
+│                       │      │                  ╰ DiffID: sha256:eb6c36930d6881c02a67452733c00690c3712a186853
+│                       │      │                            10a6554d02e57a1ec27a 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-45582 
+│                       │      ├ Title           : tar: Tar path traversal 
+│                       │      ├ Description     : GNU Tar through 1.35 allows file overwrite via directory
+│                       │      │                   traversal in crafted TAR archives, with a certain two-step
+│                       │      │                   process. First, the victim must extract an archive that
+│                       │      │                   contains a ../ symlink to a critical directory. Second, the
+│                       │      │                   victim must extract an archive that contains a critical
+│                       │      │                   file, specified via a relative pathname that begins with the
+│                       │      │                    symlink name and ends with that critical file's name. Here,
+│                       │      │                    the extraction follows the symlink and overwrites the
+│                       │      │                   critical file. This bypasses the protection mechanism of
+│                       │      │                   "Member name contains '..'" that would occur for a single
+│                       │      │                   TAR archive that attempted to specify the critical file via
+│                       │      │                   a ../ approach. For example, the first archive can contain
+│                       │      │                   "x -> ../../../../../home/victim/.ssh" and the second
+│                       │      │                   archive can contain x/authorized_keys. This can affect
+│                       │      │                   server applications that automatically extract any number of
+│                       │      │                    user-supplied TAR archives, and were relying on the
+│                       │      │                   blocking of traversal. This can also affect software
+│                       │      │                   installation processes in which "tar xf" is run more than
+│                       │      │                   once (e.g., when installing a package can automatically
+│                       │      │                   install two dependencies that are set up as untrusted
+│                       │      │                   tarballs instead of official packages). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-24 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.6 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-45582 
+│                       │      │                  ├ [1]: https://github.com/i900008/vulndb/blob/main/Gnu_tar_vu
+│                       │      │                  │      ln.md 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-45582 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
+│                       │      │                  ├ [4]: https://www.gnu.org/software/tar/ 
+│                       │      │                  ╰ [5]: https://www.gnu.org/software/tar/manual/html_node/Inte
+│                       │      │                         grity.html#Integrity 
+│                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
+│                       │      ╰ LastModifiedDate: 2025-07-15T13:14:49.98Z 
+│                       ╰ [86] ╭ VulnerabilityID : CVE-2023-39804 
 │                              ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                              ├ PkgName         : tar 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
@@ -4671,5 +4725,5 @@
                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
                               │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
                               ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
-                              ╰ LastModifiedDate: 2025-07-14T17:15:33.027Z 
+                              ╰ LastModifiedDate: 2025-07-15T13:14:49.98Z 
 ````
