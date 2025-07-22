@@ -3,13 +3,16 @@
   Type: redhat
   Vulnerabilities:
   - VulnerabilityID: CVE-2024-52615
+    VendorIDs:
+    - RHSA-2025:11402
     PkgID: avahi-libs@0.8-22.el9_6.x86_64
     PkgName: avahi-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/avahi-libs@0.8-22.el9_6?arch=x86_64&distro=redhat-9.6
       UID: 94ae10e19c1d1f12
     InstalledVersion: 0.8-22.el9_6
-    Status: affected
+    FixedVersion: 0.8-22.el9_6.1
+    Status: fixed
     Layer:
       Digest: sha256:415220e95d82338021a0ae55916af2b5ade664693b7784be662bdc11948068dd
       DiffID: sha256:5da0126f425ca155812351134ee1bf2b12856edefb96a5c53fbbea07bdc00db4
@@ -22,6 +25,7 @@
     - CWE-330
     VendorSeverity:
       amazon: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -29,14 +33,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:11402
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
+    - https://linux.oracle.com/cve/CVE-2024-52615.html
+    - https://linux.oracle.com/errata/ELSA-2025-11402.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52615
     - https://www.cve.org/CVERecord?id=CVE-2024-52615
     PublishedDate: '2024-11-21T21:15:23.807Z'
-    LastModifiedDate: '2024-11-21T21:15:23.807Z'
+    LastModifiedDate: '2025-07-21T08:15:23.727Z'
   - VulnerabilityID: CVE-2017-6519
     PkgID: avahi-libs@0.8-22.el9_6.x86_64
     PkgName: avahi-libs
