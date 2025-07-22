@@ -3,13 +3,15 @@
 │     ├ Class          : os-pkgs 
 │     ├ Type           : redhat 
 │     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-52615 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:11402 
 │                       │      ├ PkgID           : avahi-libs@0.8-22.el9_6.x86_64 
 │                       │      ├ PkgName         : avahi-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/avahi-libs@0.8-22.el9_6?arch=x86_64&di
 │                       │      │                  │       stro=redhat-9.6 
 │                       │      │                  ╰ UID : 94ae10e19c1d1f12 
 │                       │      ├ InstalledVersion: 0.8-22.el9_6 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 0.8-22.el9_6.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:415220e95d82338021a0ae55916af2b5ade664693b77
 │                       │      │                  │         84be662bdc11948068dd 
 │                       │      │                  ╰ DiffID: sha256:5da0126f425ca155812351134ee1bf2b12856edefb96
@@ -23,22 +25,26 @@
 │                       │      │                   injected. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-330 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-52615 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
-│                       │      │                  ├ [2]: https://github.com/avahi/avahi/issues/254#issuecomment
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:11402 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52615 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
+│                       │      │                  ├ [3]: https://github.com/avahi/avahi/issues/254#issuecomment
 │                       │      │                  │      -2480519212 
-│                       │      │                  ├ [3]: https://github.com/avahi/avahi/security/advisories/GHS
+│                       │      │                  ├ [4]: https://github.com/avahi/avahi/security/advisories/GHS
 │                       │      │                  │      A-x6vp-f33h-h32g 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-52615 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52615 
+│                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2024-52615.html 
+│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2025-11402.html 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52615 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52615 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:23.807Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T21:15:23.807Z 
+│                       │      ╰ LastModifiedDate: 2025-07-21T08:15:23.727Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2017-6519 
 │                       │      ├ PkgID           : avahi-libs@0.8-22.el9_6.x86_64 
 │                       │      ├ PkgName         : avahi-libs 
