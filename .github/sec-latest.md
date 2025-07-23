@@ -45,7 +45,8 @@
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ VendorSeverity   ╭ alma       : 3 
 │                       │     │                  ├ oracle-oval: 3 
-│                       │     │                  ╰ redhat     : 3 
+│                       │     │                  ├ redhat     : 3 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.1 
@@ -168,7 +169,8 @@
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ VendorSeverity   ╭ alma       : 3 
 │                       │     │                  ├ oracle-oval: 3 
-│                       │     │                  ╰ redhat     : 3 
+│                       │     │                  ├ redhat     : 3 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.1 
@@ -231,7 +233,8 @@
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
 │                       │     ├ VendorSeverity   ╭ alma       : 3 
 │                       │     │                  ├ oracle-oval: 3 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 4.8 
@@ -290,7 +293,8 @@
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ VendorSeverity   ╭ alma       : 3 
 │                       │     │                  ├ oracle-oval: 3 
-│                       │     │                  ╰ redhat     : 3 
+│                       │     │                  ├ redhat     : 3 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.1 
@@ -413,7 +417,8 @@
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ VendorSeverity   ╭ alma       : 3 
 │                       │     │                  ├ oracle-oval: 3 
-│                       │     │                  ╰ redhat     : 3 
+│                       │     │                  ├ redhat     : 3 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.1 
@@ -476,7 +481,8 @@
 │                             ├ CweIDs           ─ [0]: CWE-284 
 │                             ├ VendorSeverity   ╭ alma       : 3 
 │                             │                  ├ oracle-oval: 3 
-│                             │                  ╰ redhat     : 2 
+│                             │                  ├ redhat     : 2 
+│                             │                  ╰ ubuntu     : 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                             │                           │           A:N 
 │                             │                           ╰ V3Score : 4.8 
