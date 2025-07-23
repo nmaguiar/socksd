@@ -1724,7 +1724,8 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ oracle-oval: 3 
-│                       │       │                  ╰ redhat     : 3 
+│                       │       │                  ├ redhat     : 3 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:H 
 │                       │       │                           ╰ V3Score : 8.1 
@@ -1848,7 +1849,8 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ oracle-oval: 3 
-│                       │       │                  ╰ redhat     : 3 
+│                       │       │                  ├ redhat     : 3 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:H 
 │                       │       │                           ╰ V3Score : 8.1 
@@ -2003,7 +2005,8 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ oracle-oval: 3 
-│                       │       │                  ╰ redhat     : 2 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 4.8 
@@ -2098,21 +2101,23 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:8411 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9430 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-3576 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2359465 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9430.html 
-│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-3576.html 
-│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9430.html 
-│                       │       │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/05
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:11487 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:8411 
+│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:9418 
+│                       │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:9430 
+│                       │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2025-3576 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2359465 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
+│                       │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-9430.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-3576.html 
+│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9430.html 
+│                       │       │                  ├ [10]: https://lists.debian.org/debian-lts-announce/2025/05
 │                       │       │                  │       /msg00047.html 
-│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
-│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7542-1 
-│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7542-1 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
 │                       │       ├ PublishedDate   : 2025-04-15T06:15:44.047Z 
-│                       │       ╰ LastModifiedDate: 2025-06-03T03:15:27.32Z 
+│                       │       ╰ LastModifiedDate: 2025-07-21T20:15:40.353Z 
 │                       ├ [37]  ╭ VulnerabilityID : CVE-2023-30571 
 │                       │       ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │       ├ PkgName         : libarchive 
@@ -4289,20 +4294,21 @@
 │                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:10735 
 │                       │       │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:10823 
 │                       │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:11386 
-│                       │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:9526 
-│                       │       │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/2372512 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │       │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                       │       │                  ├ [18]: https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-7580-1 
-│                       │       │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │       │                  ╰ [23]: https://www.openwall.com/lists/oss-security/2025/06/
+│                       │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:11487 
+│                       │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │       │                  ├ [15]: https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/2372512 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │       │                  ├ [19]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │       │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [24]: https://www.openwall.com/lists/oss-security/2025/06/
 │                       │       │                          17/1 
 │                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                       │       ╰ LastModifiedDate: 2025-07-17T20:15:31.223Z 
+│                       │       ╰ LastModifiedDate: 2025-07-21T20:15:42.027Z 
 │                       ├ [80]  ╭ VulnerabilityID : CVE-2022-41409 
 │                       │       ├ PkgID           : pcre2@10.40-6.el9.x86_64 
 │                       │       ├ PkgName         : pcre2 
