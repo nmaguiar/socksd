@@ -1532,6 +1532,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -1612,6 +1613,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -1717,6 +1719,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -1807,7 +1810,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2025:11487
     - https://access.redhat.com/errata/RHSA-2025:8411
+    - https://access.redhat.com/errata/RHSA-2025:9418
     - https://access.redhat.com/errata/RHSA-2025:9430
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/2359465
@@ -1820,7 +1825,7 @@
     - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-06-03T03:15:27.32Z'
+    LastModifiedDate: '2025-07-21T20:15:40.353Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -3766,6 +3771,7 @@
     - https://access.redhat.com/errata/RHSA-2025:10735
     - https://access.redhat.com/errata/RHSA-2025:10823
     - https://access.redhat.com/errata/RHSA-2025:11386
+    - https://access.redhat.com/errata/RHSA-2025:11487
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -3778,7 +3784,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-17T20:15:31.223Z'
+    LastModifiedDate: '2025-07-21T20:15:42.027Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
