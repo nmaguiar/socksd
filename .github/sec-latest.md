@@ -110,7 +110,8 @@
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
 │                       │     ├ VendorSeverity   ╭ alma       : 3 
 │                       │     │                  ├ oracle-oval: 3 
-│                       │     │                  ╰ redhat     : 3 
+│                       │     │                  ├ redhat     : 3 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 8.6 
@@ -358,7 +359,8 @@
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
 │                       │     ├ VendorSeverity   ╭ alma       : 3 
 │                       │     │                  ├ oracle-oval: 3 
-│                       │     │                  ╰ redhat     : 3 
+│                       │     │                  ├ redhat     : 3 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 8.6 
