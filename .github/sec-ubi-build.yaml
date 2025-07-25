@@ -644,6 +644,99 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-3360
     PublishedDate: '2025-04-07T13:15:43.687Z'
     LastModifiedDate: '2025-04-14T12:15:16.087Z'
+  - VulnerabilityID: CVE-2025-8058
+    PkgID: glibc@2.34-168.el9_6.20.x86_64
+    PkgName: glibc
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc@2.34-168.el9_6.20?arch=x86_64&distro=redhat-9.6
+      UID: 6248b4d34a8ca54b
+    InstalledVersion: 2.34-168.el9_6.20
+    Status: affected
+    Layer:
+      Digest: sha256:415220e95d82338021a0ae55916af2b5ade664693b7784be662bdc11948068dd
+      DiffID: sha256:5da0126f425ca155812351134ee1bf2b12856edefb96a5c53fbbea07bdc00db4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
+    Title: The regcomp function in the GNU C library version from 2.4 to 2.41 is  ...
+    Description: |-
+      The regcomp function in the GNU C library version from 2.4 to 2.41 is 
+      subject to a double free if some previous allocation fails. It can be 
+      accomplished either by a malloc failure or by using an interposed malloc
+       that injects random malloc failures. The double free can allow buffer 
+      manipulation depending of how the regex is constructed. This issue 
+      affects all architectures and ABIs supported by the GNU C library.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      redhat: 2
+    References:
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
+    - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    PublishedDate: '2025-07-23T20:15:27.747Z'
+    LastModifiedDate: '2025-07-23T20:15:27.747Z'
+  - VulnerabilityID: CVE-2025-8058
+    PkgID: glibc-common@2.34-168.el9_6.20.x86_64
+    PkgName: glibc-common
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-common@2.34-168.el9_6.20?arch=x86_64&distro=redhat-9.6
+      UID: 3ed6602160879d1b
+    InstalledVersion: 2.34-168.el9_6.20
+    Status: affected
+    Layer:
+      Digest: sha256:415220e95d82338021a0ae55916af2b5ade664693b7784be662bdc11948068dd
+      DiffID: sha256:5da0126f425ca155812351134ee1bf2b12856edefb96a5c53fbbea07bdc00db4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
+    Title: The regcomp function in the GNU C library version from 2.4 to 2.41 is  ...
+    Description: |-
+      The regcomp function in the GNU C library version from 2.4 to 2.41 is 
+      subject to a double free if some previous allocation fails. It can be 
+      accomplished either by a malloc failure or by using an interposed malloc
+       that injects random malloc failures. The double free can allow buffer 
+      manipulation depending of how the regex is constructed. This issue 
+      affects all architectures and ABIs supported by the GNU C library.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      redhat: 2
+    References:
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
+    - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    PublishedDate: '2025-07-23T20:15:27.747Z'
+    LastModifiedDate: '2025-07-23T20:15:27.747Z'
+  - VulnerabilityID: CVE-2025-8058
+    PkgID: glibc-minimal-langpack@2.34-168.el9_6.20.x86_64
+    PkgName: glibc-minimal-langpack
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-168.el9_6.20?arch=x86_64&distro=redhat-9.6
+      UID: e5ad0cba78373218
+    InstalledVersion: 2.34-168.el9_6.20
+    Status: affected
+    Layer:
+      Digest: sha256:415220e95d82338021a0ae55916af2b5ade664693b7784be662bdc11948068dd
+      DiffID: sha256:5da0126f425ca155812351134ee1bf2b12856edefb96a5c53fbbea07bdc00db4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
+    Title: The regcomp function in the GNU C library version from 2.4 to 2.41 is  ...
+    Description: |-
+      The regcomp function in the GNU C library version from 2.4 to 2.41 is 
+      subject to a double free if some previous allocation fails. It can be 
+      accomplished either by a malloc failure or by using an interposed malloc
+       that injects random malloc failures. The double free can allow buffer 
+      manipulation depending of how the regex is constructed. This issue 
+      affects all architectures and ABIs supported by the GNU C library.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      redhat: 2
+    References:
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
+    - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    PublishedDate: '2025-07-23T20:15:27.747Z'
+    LastModifiedDate: '2025-07-23T20:15:27.747Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -742,6 +835,7 @@
     - CWE-415
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -777,6 +871,7 @@
     - CWE-295
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -812,6 +907,7 @@
     - CWE-122
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -847,6 +943,7 @@
     - CWE-476
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2732,7 +2829,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -2998,7 +3095,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -3264,7 +3361,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
