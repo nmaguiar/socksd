@@ -1097,7 +1097,7 @@
 │                       │       │                  ╰ [1]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3f
 │                       │       │                         f17af18c38727b88d9115e536c069e6b5d601f 
 │                       │       ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
-│                       │       ╰ LastModifiedDate: 2025-07-23T20:15:27.747Z 
+│                       │       ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [18]  ╭ VulnerabilityID : CVE-2025-4802 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:8655 
 │                       │       ├ PkgID           : glibc-common@2.34-125.el9_5.8.x86_64 
@@ -1240,7 +1240,7 @@
 │                       │       │                  ╰ [1]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3f
 │                       │       │                         f17af18c38727b88d9115e536c069e6b5d601f 
 │                       │       ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
-│                       │       ╰ LastModifiedDate: 2025-07-23T20:15:27.747Z 
+│                       │       ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [21]  ╭ VulnerabilityID : CVE-2025-4802 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:8655 
 │                       │       ├ PkgID           : glibc-langpack-en@2.34-125.el9_5.8.x86_64 
@@ -1383,7 +1383,7 @@
 │                       │       │                  ╰ [1]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3f
 │                       │       │                         f17af18c38727b88d9115e536c069e6b5d601f 
 │                       │       ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
-│                       │       ╰ LastModifiedDate: 2025-07-23T20:15:27.747Z 
+│                       │       ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [24]  ╭ VulnerabilityID : CVE-2025-4802 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:8655 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-125.el9_5.8.x86_64 
@@ -1526,7 +1526,7 @@
 │                       │       │                  ╰ [1]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3f
 │                       │       │                         f17af18c38727b88d9115e536c069e6b5d601f 
 │                       │       ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
-│                       │       ╰ LastModifiedDate: 2025-07-23T20:15:27.747Z 
+│                       │       ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [27]  ╭ VulnerabilityID : CVE-2022-3219 
 │                       │       ├ PkgID           : gnupg2@2.3.3-4.el9.x86_64 
 │                       │       ├ PkgName         : gnupg2 
@@ -1882,16 +1882,18 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:H 
 │                       │       │                           ╰ V3Score : 8.1 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30749 
-│                       │       │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
-│                       │       │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30749.html 
-│                       │       │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
-│                       │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30749 
-│                       │       │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │       │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.htm
-│                       │       │                         l#AppendixJAVA 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30749 
+│                       │       │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │       │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-30749.html 
+│                       │       │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
+│                       │       │                  ├ [6] : https://ubuntu.com/security/notices/USN-7668-1 
+│                       │       │                  ├ [7] : https://ubuntu.com/security/notices/USN-7669-1 
+│                       │       │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-30749 
+│                       │       │                  ├ [9] : https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │       │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujul2025.ht
+│                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2025-07-15T20:15:29.313Z 
 │                       │       ╰ LastModifiedDate: 2025-07-16T14:59:23.707Z 
 │                       ├ [35]  ╭ VulnerabilityID : CVE-2025-50059 
@@ -1948,16 +1950,18 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 8.6 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50059 
-│                       │       │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
-│                       │       │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50059.html 
-│                       │       │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
-│                       │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50059 
-│                       │       │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │       │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.htm
-│                       │       │                         l#AppendixJAVA 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-50059 
+│                       │       │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │       │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-50059.html 
+│                       │       │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
+│                       │       │                  ├ [6] : https://ubuntu.com/security/notices/USN-7668-1 
+│                       │       │                  ├ [7] : https://ubuntu.com/security/notices/USN-7669-1 
+│                       │       │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-50059 
+│                       │       │                  ├ [9] : https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │       │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujul2025.ht
+│                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2025-07-15T20:15:40.367Z 
 │                       │       ╰ LastModifiedDate: 2025-07-16T15:15:26.997Z 
 │                       ├ [36]  ╭ VulnerabilityID : CVE-2025-50106 
@@ -2008,16 +2012,18 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:H 
 │                       │       │                           ╰ V3Score : 8.1 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50106 
-│                       │       │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
-│                       │       │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50106.html 
-│                       │       │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
-│                       │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50106 
-│                       │       │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │       │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.htm
-│                       │       │                         l#AppendixJAVA 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-50106 
+│                       │       │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │       │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-50106.html 
+│                       │       │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
+│                       │       │                  ├ [6] : https://ubuntu.com/security/notices/USN-7668-1 
+│                       │       │                  ├ [7] : https://ubuntu.com/security/notices/USN-7669-1 
+│                       │       │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-50106 
+│                       │       │                  ├ [9] : https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │       │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujul2025.ht
+│                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2025-07-15T20:15:47.013Z 
 │                       │       ╰ LastModifiedDate: 2025-07-16T14:58:59.837Z 
 │                       ├ [37]  ╭ VulnerabilityID : CVE-2025-30754 
@@ -2072,16 +2078,18 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 4.8 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30754 
-│                       │       │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
-│                       │       │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30754.html 
-│                       │       │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
-│                       │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30754 
-│                       │       │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │       │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.htm
-│                       │       │                         l#AppendixJAVA 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30754 
+│                       │       │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │       │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-30754.html 
+│                       │       │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
+│                       │       │                  ├ [6] : https://ubuntu.com/security/notices/USN-7668-1 
+│                       │       │                  ├ [7] : https://ubuntu.com/security/notices/USN-7669-1 
+│                       │       │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-30754 
+│                       │       │                  ├ [9] : https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │       │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujul2025.ht
+│                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2025-07-15T20:15:29.973Z 
 │                       │       ╰ LastModifiedDate: 2025-07-16T16:15:25.807Z 
 │                       ├ [38]  ╭ VulnerabilityID : CVE-2025-24528 
@@ -4683,7 +4691,7 @@
 │                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-7583-1 
 │                       │       │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
-│                       │       ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
+│                       │       ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
 │                       ├ [89]  ╭ VulnerabilityID : CVE-2025-4138 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
@@ -5539,7 +5547,7 @@
 │                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-7583-1 
 │                       │       │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
-│                       │       ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
+│                       │       ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
 │                       ├ [100] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
@@ -6395,7 +6403,7 @@
 │                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-7583-1 
 │                       │       │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │       ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
-│                       │       ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
+│                       │       ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
 │                       ├ [111] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2025:10136 
 │                       │       ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
@@ -7481,26 +7489,35 @@
 │                       │       │                           ╰ V3Score : 7 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9978 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-32462 
-│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2374692 
-│                       │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9978.html 
-│                       │       │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-32462.html 
-│                       │       │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9978.html 
-│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
-│                       │       │                  ├ [7] : https://ubuntu.com/security/notices/USN-7604-1 
-│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-7604-2 
-│                       │       │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-32462 
-│                       │       │                  ├ [10]: https://www.openwall.com/lists/oss-security/2025/06/
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/cve-2025-32462 
+│                       │       │                  ├ [3] : https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32462 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2374692 
+│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9978.html 
+│                       │       │                  ├ [6] : https://explore.alas.aws.amazon.com/CVE-2025-32462.h
+│                       │       │                  │       tml 
+│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-32462.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-9978.html 
+│                       │       │                  ├ [9] : https://lists.debian.org/debian-security-announce/20
+│                       │       │                  │       25/msg00118.html 
+│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
+│                       │       │                  ├ [11]: https://security-tracker.debian.org/tracker/CVE-2025
+│                       │       │                  │       -32462 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7604-1 
+│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7604-2 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-32462 
+│                       │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/06/
 │                       │       │                  │       30/2 
-│                       │       │                  ├ [11]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities
+│                       │       │                  ├ [16]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities
 │                       │       │                  │       -resolved-what-you-need-to-know-about-cve-2025-32462
 │                       │       │                  │       -and-cve-2025-32463/ 
-│                       │       │                  ├ [12]: https://www.stratascale.com/vulnerability-alert-CVE-
+│                       │       │                  ├ [17]: https://www.stratascale.com/vulnerability-alert-CVE-
 │                       │       │                  │       2025-32462-sudo-host 
-│                       │       │                  ├ [13]: https://www.sudo.ws/releases/changelog/ 
-│                       │       │                  ├ [14]: https://www.sudo.ws/security/advisories/ 
-│                       │       │                  ╰ [15]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       │       │                  ├ [18]: https://www.sudo.ws/releases/changelog/ 
+│                       │       │                  ├ [19]: https://www.sudo.ws/security/advisories/ 
+│                       │       │                  ├ [20]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       │       │                  ╰ [21]: https://www.suse.com/security/cve/CVE-2025-32462.html 
 │                       │       ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
-│                       │       ╰ LastModifiedDate: 2025-07-19T03:15:21.643Z 
+│                       │       ╰ LastModifiedDate: 2025-07-25T15:15:26.497Z 
 │                       ├ [127] ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd-libs@252-46.el9_5.3.x86_64 
 │                       │       ├ PkgName         : systemd-libs 
