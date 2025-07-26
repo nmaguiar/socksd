@@ -50,16 +50,18 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.1 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
-│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30749 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
-│                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30749.html 
-│                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
-│                       │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30749 
-│                       │     │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html#
-│                       │     │                         AppendixJAVA 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30749 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │     │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-30749.html 
+│                       │     │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │     │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
+│                       │     │                  ├ [6] : https://ubuntu.com/security/notices/USN-7668-1 
+│                       │     │                  ├ [7] : https://ubuntu.com/security/notices/USN-7669-1 
+│                       │     │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-30749 
+│                       │     │                  ├ [9] : https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │     │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │     │                          #AppendixJAVA 
 │                       │     ├ PublishedDate   : 2025-07-15T20:15:29.313Z 
 │                       │     ╰ LastModifiedDate: 2025-07-16T14:59:23.707Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2025-50059 
@@ -115,16 +117,18 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 8.6 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
-│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50059 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
-│                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50059.html 
-│                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
-│                       │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50059 
-│                       │     │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html#
-│                       │     │                         AppendixJAVA 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-50059 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │     │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-50059.html 
+│                       │     │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │     │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
+│                       │     │                  ├ [6] : https://ubuntu.com/security/notices/USN-7668-1 
+│                       │     │                  ├ [7] : https://ubuntu.com/security/notices/USN-7669-1 
+│                       │     │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-50059 
+│                       │     │                  ├ [9] : https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │     │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │     │                          #AppendixJAVA 
 │                       │     ├ PublishedDate   : 2025-07-15T20:15:40.367Z 
 │                       │     ╰ LastModifiedDate: 2025-07-16T15:15:26.997Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2025-50106 
@@ -175,16 +179,18 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.1 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
-│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50106 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
-│                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50106.html 
-│                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
-│                       │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50106 
-│                       │     │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html#
-│                       │     │                         AppendixJAVA 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-50106 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │     │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-50106.html 
+│                       │     │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │     │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
+│                       │     │                  ├ [6] : https://ubuntu.com/security/notices/USN-7668-1 
+│                       │     │                  ├ [7] : https://ubuntu.com/security/notices/USN-7669-1 
+│                       │     │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-50106 
+│                       │     │                  ├ [9] : https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │     │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │     │                          #AppendixJAVA 
 │                       │     ├ PublishedDate   : 2025-07-15T20:15:47.013Z 
 │                       │     ╰ LastModifiedDate: 2025-07-16T14:58:59.837Z 
 │                       ├ [3] ╭ VulnerabilityID : CVE-2025-30754 
@@ -239,16 +245,18 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 4.8 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
-│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30754 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
-│                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30754.html 
-│                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
-│                       │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30754 
-│                       │     │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html#
-│                       │     │                         AppendixJAVA 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30754 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │     │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-30754.html 
+│                       │     │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │     │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
+│                       │     │                  ├ [6] : https://ubuntu.com/security/notices/USN-7668-1 
+│                       │     │                  ├ [7] : https://ubuntu.com/security/notices/USN-7669-1 
+│                       │     │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-30754 
+│                       │     │                  ├ [9] : https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │     │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │     │                          #AppendixJAVA 
 │                       │     ├ PublishedDate   : 2025-07-15T20:15:29.973Z 
 │                       │     ╰ LastModifiedDate: 2025-07-16T16:15:25.807Z 
 │                       ├ [4] ╭ VulnerabilityID : CVE-2025-30749 
@@ -299,16 +307,18 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.1 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
-│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30749 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
-│                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30749.html 
-│                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
-│                       │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30749 
-│                       │     │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html#
-│                       │     │                         AppendixJAVA 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30749 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │     │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-30749.html 
+│                       │     │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │     │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
+│                       │     │                  ├ [6] : https://ubuntu.com/security/notices/USN-7668-1 
+│                       │     │                  ├ [7] : https://ubuntu.com/security/notices/USN-7669-1 
+│                       │     │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-30749 
+│                       │     │                  ├ [9] : https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │     │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │     │                          #AppendixJAVA 
 │                       │     ├ PublishedDate   : 2025-07-15T20:15:29.313Z 
 │                       │     ╰ LastModifiedDate: 2025-07-16T14:59:23.707Z 
 │                       ├ [5] ╭ VulnerabilityID : CVE-2025-50059 
@@ -364,16 +374,18 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 8.6 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
-│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50059 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
-│                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50059.html 
-│                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
-│                       │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50059 
-│                       │     │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html#
-│                       │     │                         AppendixJAVA 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-50059 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │     │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-50059.html 
+│                       │     │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │     │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
+│                       │     │                  ├ [6] : https://ubuntu.com/security/notices/USN-7668-1 
+│                       │     │                  ├ [7] : https://ubuntu.com/security/notices/USN-7669-1 
+│                       │     │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-50059 
+│                       │     │                  ├ [9] : https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │     │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │     │                          #AppendixJAVA 
 │                       │     ├ PublishedDate   : 2025-07-15T20:15:40.367Z 
 │                       │     ╰ LastModifiedDate: 2025-07-16T15:15:26.997Z 
 │                       ├ [6] ╭ VulnerabilityID : CVE-2025-50106 
@@ -424,16 +436,18 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.1 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
-│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50106 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
-│                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50106.html 
-│                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
-│                       │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50106 
-│                       │     │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html#
-│                       │     │                         AppendixJAVA 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-50106 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │     │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-50106.html 
+│                       │     │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │     │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
+│                       │     │                  ├ [6] : https://ubuntu.com/security/notices/USN-7668-1 
+│                       │     │                  ├ [7] : https://ubuntu.com/security/notices/USN-7669-1 
+│                       │     │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-50106 
+│                       │     │                  ├ [9] : https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │     │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │     │                          #AppendixJAVA 
 │                       │     ├ PublishedDate   : 2025-07-15T20:15:47.013Z 
 │                       │     ╰ LastModifiedDate: 2025-07-16T14:58:59.837Z 
 │                       ╰ [7] ╭ VulnerabilityID : CVE-2025-30754 
@@ -488,16 +502,18 @@
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                             │                           │           A:N 
 │                             │                           ╰ V3Score : 4.8 
-│                             ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
-│                             │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30754 
-│                             │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
-│                             │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30754.html 
-│                             │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
-│                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
-│                             │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30754 
-│                             │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                             │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html#
-│                             │                         AppendixJAVA 
+│                             ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10867 
+│                             │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30754 
+│                             │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                             │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-30754.html 
+│                             │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                             │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
+│                             │                  ├ [6] : https://ubuntu.com/security/notices/USN-7668-1 
+│                             │                  ├ [7] : https://ubuntu.com/security/notices/USN-7669-1 
+│                             │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-30754 
+│                             │                  ├ [9] : https://www.oracle.com/security-alerts/cpujul2025.html 
+│                             │                  ╰ [10]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                             │                          #AppendixJAVA 
 │                             ├ PublishedDate   : 2025-07-15T20:15:29.973Z 
 │                             ╰ LastModifiedDate: 2025-07-16T16:15:25.807Z 
 ╰ [1] ╭ Target         : Java 
