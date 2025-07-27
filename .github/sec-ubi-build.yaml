@@ -793,6 +793,7 @@
     - CWE-415
     VendorSeverity:
       azure: 2
+      cbl-mariner: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -829,6 +830,7 @@
     - CWE-295
     VendorSeverity:
       azure: 2
+      cbl-mariner: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -865,6 +867,7 @@
     - CWE-122
     VendorSeverity:
       azure: 2
+      cbl-mariner: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -901,6 +904,7 @@
     - CWE-476
     VendorSeverity:
       azure: 2
+      cbl-mariner: 2
       photon: 2
       redhat: 2
       ubuntu: 2
