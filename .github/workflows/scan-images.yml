@@ -84,6 +84,20 @@ jobs:
         dist: 't8'
 
     - uses: openaf/ojob-action@v4
+      name: Check build edge
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=nmaguiar/socksd:edge file=.github/sec-edge.svg reportFile=.github/sec-edge.yaml'
+        dist: 't8'
+  
+    - uses: openaf/ojob-action@v4
+      name: Generate sec-edge-build.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-edge.yaml file=.github/sec-edge.md'
+        dist: 't8'
+
+    - uses: openaf/ojob-action@v4
       name: Update badges
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
