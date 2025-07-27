@@ -17,7 +17,7 @@ Security scans to latest and build container images:<br><br>
 [![.github/sec-latest.svg](.github/sec-latest.svg)](.github/sec-latest.md)<br><br>
 [![.github/sec-ubi-build.svg](.github/sec-ubi-build.svg)](.github/sec-ubi-build.md)<br>
 [![.github/sec-ubi-latest.svg](.github/sec-ubi-latest.svg)](.github/sec-ubi-latest.md)<br><br>
-[![.github/sec-edge.svg](.github/sec-edge.svg)](.github/sec.edge.md)
+[![.github/sec-edge.svg](.github/sec-edge.svg)](.github/sec-edge.md)
 
 > 'latest' tag images are images you can use that have been tested;
 > 'build' tag images are automated weekly un-tested build;
