@@ -12,11 +12,16 @@ Main features:
 - Scale capacity by increasing deploy replicas
 - Optional extra HTTP proxy for clients that don't support SOCKS proxy
 
-Security scans to latest and build container images:<br>
+Security scans to latest and build container images:<br><br>
 [![.github/sec-build.svg](.github/sec-build.svg)](.github/sec-build.md)<br>
 [![.github/sec-latest.svg](.github/sec-latest.svg)](.github/sec-latest.md)<br><br>
 [![.github/sec-ubi-build.svg](.github/sec-ubi-build.svg)](.github/sec-ubi-build.md)<br>
-[![.github/sec-ubi-latest.svg](.github/sec-ubi-latest.svg)](.github/sec-ubi-latest.md)
+[![.github/sec-ubi-latest.svg](.github/sec-ubi-latest.svg)](.github/sec-ubi-latest.md)<br><br>
+[![.github/sec-edge.svg](.github/sec-edge.svg)](.github/sec.edge.md)
+
+> 'latest' tag images are images you can use that have been tested;
+> 'build' tag images are automated weekly un-tested build;
+> 'edge' is equivalent to 'build' but using the very latest versions of everything
 
 ## Run on Docker
 
