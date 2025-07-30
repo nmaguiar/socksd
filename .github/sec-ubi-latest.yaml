@@ -615,7 +615,7 @@
       DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
-    Title: The regcomp function in the GNU C library version from 2.4 to 2.41 is  ...
+    Title: 'glibc: Double free in glibc'
     Description: |-
       The regcomp function in the GNU C library version from 2.4 to 2.41 is 
       subject to a double free if some previous allocation fails. It can be 
@@ -628,9 +628,16 @@
     - CWE-415
     VendorSeverity:
       redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    - https://www.cve.org/CVERecord?id=CVE-2025-8058
     PublishedDate: '2025-07-23T20:15:27.747Z'
     LastModifiedDate: '2025-07-25T15:29:44.523Z'
   - VulnerabilityID: CVE-2025-8058
@@ -646,7 +653,7 @@
       DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
-    Title: The regcomp function in the GNU C library version from 2.4 to 2.41 is  ...
+    Title: 'glibc: Double free in glibc'
     Description: |-
       The regcomp function in the GNU C library version from 2.4 to 2.41 is 
       subject to a double free if some previous allocation fails. It can be 
@@ -659,9 +666,16 @@
     - CWE-415
     VendorSeverity:
       redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    - https://www.cve.org/CVERecord?id=CVE-2025-8058
     PublishedDate: '2025-07-23T20:15:27.747Z'
     LastModifiedDate: '2025-07-25T15:29:44.523Z'
   - VulnerabilityID: CVE-2025-8058
@@ -677,7 +691,7 @@
       DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
-    Title: The regcomp function in the GNU C library version from 2.4 to 2.41 is  ...
+    Title: 'glibc: Double free in glibc'
     Description: |-
       The regcomp function in the GNU C library version from 2.4 to 2.41 is 
       subject to a double free if some previous allocation fails. It can be 
@@ -690,9 +704,16 @@
     - CWE-415
     VendorSeverity:
       redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    - https://www.cve.org/CVERecord?id=CVE-2025-8058
     PublishedDate: '2025-07-23T20:15:27.747Z'
     LastModifiedDate: '2025-07-25T15:29:44.523Z'
   - VulnerabilityID: CVE-2022-3219
@@ -1833,6 +1854,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      azure: 1
       redhat: 1
     CVSS:
       redhat:
@@ -2869,6 +2891,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-8194
+    PkgID: python-unversioned-command@3.9.21-2.el9_6.1.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9_6.1?arch=noarch&distro=redhat-9.6
+      UID: 99ffda1602f1c410
+    InstalledVersion: 3.9.21-2.el9_6.1
+    Status: affected
+    Layer:
+      Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
+      DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8194
+    Title: 'cpython: Cpython infinite loop when parsing a tarfile'
+    Description: "There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. \n\nThis vulnerability can be mitigated by including the following patch after importing the “tarfile” module:\_ https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/issues/130577
+    - https://github.com/python/cpython/pull/137027
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
+    - https://www.cve.org/CVERecord?id=CVE-2025-8194
+    PublishedDate: '2025-07-28T19:15:43.793Z'
+    LastModifiedDate: '2025-07-29T14:15:39.103Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python-unversioned-command@3.9.21-2.el9_6.1.noarch
     PkgName: python-unversioned-command
@@ -3135,6 +3193,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-8194
+    PkgID: python3@3.9.21-2.el9_6.1.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: a3e9ccf041b88b25
+    InstalledVersion: 3.9.21-2.el9_6.1
+    Status: affected
+    Layer:
+      Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
+      DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8194
+    Title: 'cpython: Cpython infinite loop when parsing a tarfile'
+    Description: "There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. \n\nThis vulnerability can be mitigated by including the following patch after importing the “tarfile” module:\_ https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/issues/130577
+    - https://github.com/python/cpython/pull/137027
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
+    - https://www.cve.org/CVERecord?id=CVE-2025-8194
+    PublishedDate: '2025-07-28T19:15:43.793Z'
+    LastModifiedDate: '2025-07-29T14:15:39.103Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3@3.9.21-2.el9_6.1.x86_64
     PkgName: python3
@@ -3401,6 +3495,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-8194
+    PkgID: python3-libs@3.9.21-2.el9_6.1.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: b995334fc20d0c5c
+    InstalledVersion: 3.9.21-2.el9_6.1
+    Status: affected
+    Layer:
+      Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
+      DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8194
+    Title: 'cpython: Cpython infinite loop when parsing a tarfile'
+    Description: "There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. \n\nThis vulnerability can be mitigated by including the following patch after importing the “tarfile” module:\_ https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/issues/130577
+    - https://github.com/python/cpython/pull/137027
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
+    - https://www.cve.org/CVERecord?id=CVE-2025-8194
+    PublishedDate: '2025-07-28T19:15:43.793Z'
+    LastModifiedDate: '2025-07-29T14:15:39.103Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3-libs@3.9.21-2.el9_6.1.x86_64
     PkgName: python3-libs
@@ -3717,6 +3847,54 @@
     - https://www.oracle.com/security-alerts/cpujul2022.html
     PublishedDate: '2021-11-10T18:15:09.51Z'
     LastModifiedDate: '2024-11-21T06:21:52.473Z'
+  - VulnerabilityID: CVE-2025-6965
+    VendorIDs:
+    - RHSA-2025:11992
+    PkgID: sqlite-libs@3.34.1-7.el9_3.x86_64
+    PkgName: sqlite-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_64&distro=redhat-9.6
+      UID: e65294b2924845e
+    InstalledVersion: 3.34.1-7.el9_3
+    FixedVersion: 3.34.1-8.el9_6
+    Status: fixed
+    Layer:
+      Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
+      DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6965
+    Title: 'sqlite: Integer Truncation in SQLite'
+    Description: There exists a vulnerability in SQLite versions before 3.50.2 where the number of aggregate terms could exceed the number of columns available. This could lead to a memory corruption issue. We recommend upgrading to version 3.50.2 or above.
+    Severity: HIGH
+    CweIDs:
+    - CWE-197
+    VendorSeverity:
+      alma: 3
+      bitnami: 3
+      nvd: 4
+      oracle-oval: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:L
+        V3Score: 7.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:11803
+    - https://access.redhat.com/security/cve/CVE-2025-6965
+    - https://bugzilla.redhat.com/2380149
+    - https://errata.almalinux.org/8/ALSA-2025-11803.html
+    - https://linux.oracle.com/cve/CVE-2025-6965.html
+    - https://linux.oracle.com/errata/ELSA-2025-12010.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
+    - https://ubuntu.com/security/notices/USN-7676-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6965
+    - https://www.sqlite.org/src/info/5508b56fd24016c13981ec280ecdd833007c9d8dd595edb295b984c2b487b5c8
+    PublishedDate: '2025-07-15T14:15:31.08Z'
+    LastModifiedDate: '2025-07-22T17:06:21.51Z'
   - VulnerabilityID: CVE-2024-0232
     PkgID: sqlite-libs@3.34.1-7.el9_3.x86_64
     PkgName: sqlite-libs
