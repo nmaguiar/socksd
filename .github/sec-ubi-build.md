@@ -689,8 +689,7 @@
 │                       │      │                            9ba56f1395b6637400f4 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8058 
-│                       │      ├ Title           : The regcomp function in the GNU C library version from 2.4
-│                       │      │                   to 2.41 is  ... 
+│                       │      ├ Title           : glibc: Double free in glibc 
 │                       │      ├ Description     : The regcomp function in the GNU C library version from 2.4
 │                       │      │                   to 2.41 is 
 │                       │      │                   subject to a double free if some previous allocation fails.
@@ -706,9 +705,15 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ References       ╭ [0]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
-│                       │      │                  ╰ [1]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
-│                       │      │                         17af18c38727b88d9115e536c069e6b5d601f 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.2 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8058 
+│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
+│                       │      │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
+│                       │      │                  ├ [3]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
+│                       │      │                  │      17af18c38727b88d9115e536c069e6b5d601f 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
 │                       │      ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2025-8058 
@@ -725,8 +730,7 @@
 │                       │      │                            9ba56f1395b6637400f4 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8058 
-│                       │      ├ Title           : The regcomp function in the GNU C library version from 2.4
-│                       │      │                   to 2.41 is  ... 
+│                       │      ├ Title           : glibc: Double free in glibc 
 │                       │      ├ Description     : The regcomp function in the GNU C library version from 2.4
 │                       │      │                   to 2.41 is 
 │                       │      │                   subject to a double free if some previous allocation fails.
@@ -742,9 +746,15 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ References       ╭ [0]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
-│                       │      │                  ╰ [1]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
-│                       │      │                         17af18c38727b88d9115e536c069e6b5d601f 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.2 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8058 
+│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
+│                       │      │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
+│                       │      │                  ├ [3]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
+│                       │      │                  │      17af18c38727b88d9115e536c069e6b5d601f 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
 │                       │      ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2025-8058 
@@ -761,8 +771,7 @@
 │                       │      │                            9ba56f1395b6637400f4 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8058 
-│                       │      ├ Title           : The regcomp function in the GNU C library version from 2.4
-│                       │      │                   to 2.41 is  ... 
+│                       │      ├ Title           : glibc: Double free in glibc 
 │                       │      ├ Description     : The regcomp function in the GNU C library version from 2.4
 │                       │      │                   to 2.41 is 
 │                       │      │                   subject to a double free if some previous allocation fails.
@@ -778,9 +787,15 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ References       ╭ [0]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
-│                       │      │                  ╰ [1]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
-│                       │      │                         17af18c38727b88d9115e536c069e6b5d601f 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.2 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8058 
+│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
+│                       │      │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
+│                       │      │                  ├ [3]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
+│                       │      │                  │      17af18c38727b88d9115e536c069e6b5d601f 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
 │                       │      ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2022-3219 
@@ -2029,7 +2044,8 @@
 │                       │      │                   configurations without modern protections. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-121 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 1 
+│                       │      │                  ╰ redhat: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 2.5 
@@ -3199,7 +3215,54 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                       │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2024-0397 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2025-8194 
+│                       │      ├ PkgID           : python-unversioned-command@3.9.21-2.el9_6.1.noarch 
+│                       │      ├ PkgName         : python-unversioned-command 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el
+│                       │      │                  │       9_6.1?arch=noarch&distro=redhat-9.6 
+│                       │      │                  ╰ UID : 99ffda1602f1c410 
+│                       │      ├ InstalledVersion: 3.9.21-2.el9_6.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:81a3e17b07ed0c12a54febdada41d8a8485318e1779d
+│                       │      │                  │         c0dcabcfe78beff4658c 
+│                       │      │                  ╰ DiffID: sha256:c65cb82ea8dbf2150b5c774cac491c01d03542237b96
+│                       │      │                            9ba56f1395b6637400f4 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8194 
+│                       │      ├ Title           : cpython: Cpython infinite loop when parsing a tarfile 
+│                       │      ├ Description     : There is a defect in the CPython “tarfile” module affecting
+│                       │      │                   the “TarFile” extraction and entry enumeration APIs. The tar
+│                       │      │                    implementation would process tar archives with negative
+│                       │      │                   offsets without error, resulting in an infinite loop and
+│                       │      │                   deadlock during the parsing of maliciously crafted tar
+│                       │      │                   archives. 
+│                       │      │                   
+│                       │      │                   This vulnerability can be mitigated by including the
+│                       │      │                   following patch after importing the “tarfile” module: 
+│                       │      │                   https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2e
+│                       │      │                   ff8b33e1 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-835 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8194 
+│                       │      │                  ├ [1]: https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf
+│                       │      │                  │      23ad2eff8b33e1 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/7040aa54f1467
+│                       │      │                  │      6938970e10c5f74ea93cd56aa38 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/cdae923ffe187
+│                       │      │                  │      d6ef916c0f665a31249619193fe 
+│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/130577 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/137027 
+│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  │      e@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/ 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
+│                       │      ╰ LastModifiedDate: 2025-07-29T14:15:39.103Z 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.21-2.el9_6.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el
@@ -3269,7 +3332,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │      ╰ LastModifiedDate: 2025-04-11T22:15:28.65Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2024-7592 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.21-2.el9_6.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el
@@ -3349,7 +3412,7 @@
 │                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │      ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.21-2.el9_6.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el
@@ -3399,7 +3462,7 @@
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
 │                       │      ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │      ╰ LastModifiedDate: 2025-02-28T21:15:27.57Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&d
@@ -3462,7 +3525,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2025-6069 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2025-6069 
 │                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&d
@@ -3519,7 +3582,54 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                       │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                       ├ [68] ╭ VulnerabilityID : CVE-2024-0397 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2025-8194 
+│                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
+│                       │      ├ PkgName         : python3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&d
+│                       │      │                  │       istro=redhat-9.6 
+│                       │      │                  ╰ UID : a3e9ccf041b88b25 
+│                       │      ├ InstalledVersion: 3.9.21-2.el9_6.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:81a3e17b07ed0c12a54febdada41d8a8485318e1779d
+│                       │      │                  │         c0dcabcfe78beff4658c 
+│                       │      │                  ╰ DiffID: sha256:c65cb82ea8dbf2150b5c774cac491c01d03542237b96
+│                       │      │                            9ba56f1395b6637400f4 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8194 
+│                       │      ├ Title           : cpython: Cpython infinite loop when parsing a tarfile 
+│                       │      ├ Description     : There is a defect in the CPython “tarfile” module affecting
+│                       │      │                   the “TarFile” extraction and entry enumeration APIs. The tar
+│                       │      │                    implementation would process tar archives with negative
+│                       │      │                   offsets without error, resulting in an infinite loop and
+│                       │      │                   deadlock during the parsing of maliciously crafted tar
+│                       │      │                   archives. 
+│                       │      │                   
+│                       │      │                   This vulnerability can be mitigated by including the
+│                       │      │                   following patch after importing the “tarfile” module: 
+│                       │      │                   https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2e
+│                       │      │                   ff8b33e1 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-835 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8194 
+│                       │      │                  ├ [1]: https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf
+│                       │      │                  │      23ad2eff8b33e1 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/7040aa54f1467
+│                       │      │                  │      6938970e10c5f74ea93cd56aa38 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/cdae923ffe187
+│                       │      │                  │      d6ef916c0f665a31249619193fe 
+│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/130577 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/137027 
+│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  │      e@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/ 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
+│                       │      ╰ LastModifiedDate: 2025-07-29T14:15:39.103Z 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&d
@@ -3589,7 +3699,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │      ╰ LastModifiedDate: 2025-04-11T22:15:28.65Z 
-│                       ├ [69] ╭ VulnerabilityID : CVE-2024-7592 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&d
@@ -3669,7 +3779,7 @@
 │                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │      ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
-│                       ├ [70] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&d
@@ -3719,7 +3829,7 @@
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
 │                       │      ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │      ╰ LastModifiedDate: 2025-02-28T21:15:27.57Z 
-│                       ├ [71] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86
@@ -3782,7 +3892,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2025-6069 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2025-6069 
 │                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86
@@ -3839,7 +3949,54 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                       │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                       ├ [73] ╭ VulnerabilityID : CVE-2024-0397 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2025-8194 
+│                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
+│                       │      ├ PkgName         : python3-libs 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86
+│                       │      │                  │       _64&distro=redhat-9.6 
+│                       │      │                  ╰ UID : b995334fc20d0c5c 
+│                       │      ├ InstalledVersion: 3.9.21-2.el9_6.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:81a3e17b07ed0c12a54febdada41d8a8485318e1779d
+│                       │      │                  │         c0dcabcfe78beff4658c 
+│                       │      │                  ╰ DiffID: sha256:c65cb82ea8dbf2150b5c774cac491c01d03542237b96
+│                       │      │                            9ba56f1395b6637400f4 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8194 
+│                       │      ├ Title           : cpython: Cpython infinite loop when parsing a tarfile 
+│                       │      ├ Description     : There is a defect in the CPython “tarfile” module affecting
+│                       │      │                   the “TarFile” extraction and entry enumeration APIs. The tar
+│                       │      │                    implementation would process tar archives with negative
+│                       │      │                   offsets without error, resulting in an infinite loop and
+│                       │      │                   deadlock during the parsing of maliciously crafted tar
+│                       │      │                   archives. 
+│                       │      │                   
+│                       │      │                   This vulnerability can be mitigated by including the
+│                       │      │                   following patch after importing the “tarfile” module: 
+│                       │      │                   https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2e
+│                       │      │                   ff8b33e1 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-835 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8194 
+│                       │      │                  ├ [1]: https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf
+│                       │      │                  │      23ad2eff8b33e1 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/7040aa54f1467
+│                       │      │                  │      6938970e10c5f74ea93cd56aa38 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/cdae923ffe187
+│                       │      │                  │      d6ef916c0f665a31249619193fe 
+│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/130577 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/137027 
+│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  │      e@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/ 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
+│                       │      ╰ LastModifiedDate: 2025-07-29T14:15:39.103Z 
+│                       ├ [76] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86
@@ -3909,7 +4066,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │      ╰ LastModifiedDate: 2025-04-11T22:15:28.65Z 
-│                       ├ [74] ╭ VulnerabilityID : CVE-2024-7592 
+│                       ├ [77] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86
@@ -3989,7 +4146,7 @@
 │                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │      ╰ LastModifiedDate: 2025-02-05T21:13:47.837Z 
-│                       ├ [75] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [78] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86
@@ -4039,7 +4196,7 @@
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
 │                       │      ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │      ╰ LastModifiedDate: 2025-02-28T21:15:27.57Z 
-│                       ├ [76] ╭ VulnerabilityID : CVE-2025-50181 
+│                       ├ [79] ╭ VulnerabilityID : CVE-2025-50181 
 │                       │      ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=no
@@ -4088,7 +4245,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-50181 
 │                       │      ├ PublishedDate   : 2025-06-19T01:15:24.453Z 
 │                       │      ╰ LastModifiedDate: 2025-06-23T20:16:59.783Z 
-│                       ├ [77] ╭ VulnerabilityID : CVE-2025-50182 
+│                       ├ [80] ╭ VulnerabilityID : CVE-2025-50182 
 │                       │      ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=no
@@ -4137,7 +4294,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50182 
 │                       │      ├ PublishedDate   : 2025-06-19T02:15:17.967Z 
 │                       │      ╰ LastModifiedDate: 2025-06-30T19:15:25.017Z 
-│                       ├ [78] ╭ VulnerabilityID : CVE-2021-3572 
+│                       ├ [81] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │      ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=no
@@ -4212,7 +4369,56 @@
 │                       │      │                  ╰ [20]: https://www.oracle.com/security-alerts/cpujul2022.html 
 │                       │      ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:21:52.473Z 
-│                       ├ [79] ╭ VulnerabilityID : CVE-2024-0232 
+│                       ├ [82] ╭ VulnerabilityID : CVE-2025-6965 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:11992 
+│                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
+│                       │      ├ PkgName         : sqlite-libs 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_64
+│                       │      │                  │       &distro=redhat-9.6 
+│                       │      │                  ╰ UID : e65294b2924845e 
+│                       │      ├ InstalledVersion: 3.34.1-7.el9_3 
+│                       │      ├ FixedVersion    : 3.34.1-8.el9_6 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:81a3e17b07ed0c12a54febdada41d8a8485318e1779d
+│                       │      │                  │         c0dcabcfe78beff4658c 
+│                       │      │                  ╰ DiffID: sha256:c65cb82ea8dbf2150b5c774cac491c01d03542237b96
+│                       │      │                            9ba56f1395b6637400f4 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6965 
+│                       │      ├ Title           : sqlite: Integer Truncation in SQLite 
+│                       │      ├ Description     : There exists a vulnerability in SQLite versions before
+│                       │      │                   3.50.2 where the number of aggregate terms could exceed the
+│                       │      │                   number of columns available. This could lead to a memory
+│                       │      │                   corruption issue. We recommend upgrading to version 3.50.2
+│                       │      │                   or above. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-197 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ nvd        : 4 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 9.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 7.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:11803 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6965 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2380149 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-11803.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-6965.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12010.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7676-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-6965 
+│                       │      │                  ╰ [9]: https://www.sqlite.org/src/info/5508b56fd24016c13981ec
+│                       │      │                         280ecdd833007c9d8dd595edb295b984c2b487b5c8 
+│                       │      ├ PublishedDate   : 2025-07-15T14:15:31.08Z 
+│                       │      ╰ LastModifiedDate: 2025-07-22T17:06:21.51Z 
+│                       ├ [83] ╭ VulnerabilityID : CVE-2024-0232 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x86_64
@@ -4257,7 +4463,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
 │                       │      ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:46:06.907Z 
-│                       ├ [80] ╭ VulnerabilityID : CVE-2025-4598 
+│                       ├ [84] ╭ VulnerabilityID : CVE-2025-4598 
 │                       │      ├ PkgID           : systemd-libs@252-51.el9_6.1.x86_64 
 │                       │      ├ PkgName         : systemd-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-51.el9_6.1?arch=x86_6
@@ -4335,7 +4541,7 @@
 │                       │      │                          ort-coredump.txt 
 │                       │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
-│                       ├ [81] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [85] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │      ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
@@ -4371,7 +4577,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │      ╰ LastModifiedDate: 2025-04-03T01:03:51.193Z 
-│                       ├ [82] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [86] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
@@ -4424,7 +4630,7 @@
 │                       │      │                         grity.html#Integrity 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-07-17T13:09:39.997Z 
-│                       ╰ [83] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ╰ [87] ╭ VulnerabilityID : CVE-2023-39804 
 │                              ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                              ├ PkgName         : tar 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
