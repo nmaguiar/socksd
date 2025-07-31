@@ -287,7 +287,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
-    LastModifiedDate: '2025-01-31T15:15:12.4Z'
+    LastModifiedDate: '2025-07-30T17:39:25.437Z'
   - VulnerabilityID: CVE-2024-7264
     PkgID: curl-minimal@7.76.1-31.el9.x86_64
     PkgName: curl-minimal
@@ -534,7 +534,7 @@
     VendorSeverity:
       alma: 1
       amazon: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       nvd: 3
       oracle-oval: 1
       photon: 3
@@ -775,6 +775,7 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      amazon: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1083,6 +1084,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      amazon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1154,6 +1156,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1304,7 +1307,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
-    LastModifiedDate: '2025-01-31T15:15:12.4Z'
+    LastModifiedDate: '2025-07-30T17:39:25.437Z'
   - VulnerabilityID: CVE-2024-7264
     PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
     PkgName: libcurl-minimal
@@ -1855,6 +1858,7 @@
     - CWE-121
     VendorSeverity:
       azure: 1
+      cbl-mariner: 1
       redhat: 1
     CVSS:
       redhat:
@@ -2910,11 +2914,15 @@
     CweIDs:
     - CWE-835
     VendorSeverity:
+      bitnami: 3
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
@@ -3212,11 +3220,15 @@
     CweIDs:
     - CWE-835
     VendorSeverity:
+      bitnami: 3
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
@@ -3514,11 +3526,15 @@
     CweIDs:
     - CWE-835
     VendorSeverity:
+      bitnami: 3
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
@@ -3883,14 +3899,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:L
         V3Score: 7.7
     References:
-    - https://access.redhat.com/errata/RHSA-2025:11803
+    - https://access.redhat.com/errata/RHSA-2025:11933
     - https://access.redhat.com/security/cve/CVE-2025-6965
     - https://bugzilla.redhat.com/2380149
-    - https://errata.almalinux.org/8/ALSA-2025-11803.html
+    - https://errata.almalinux.org/10/ALSA-2025-11933.html
     - https://linux.oracle.com/cve/CVE-2025-6965.html
     - https://linux.oracle.com/errata/ELSA-2025-12010.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
     - https://ubuntu.com/security/notices/USN-7676-1
+    - https://ubuntu.com/security/notices/USN-7679-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6965
     - https://www.sqlite.org/src/info/5508b56fd24016c13981ec280ecdd833007c9d8dd595edb295b984c2b487b5c8
     PublishedDate: '2025-07-15T14:15:31.08Z'
@@ -4092,7 +4109,7 @@
     - https://ubuntu.com/security/notices/USN-6543-1
     - https://www.cve.org/CVERecord?id=CVE-2023-39804
     PublishedDate: '2024-03-27T04:15:08.897Z'
-    LastModifiedDate: '2024-11-21T08:15:56.95Z'
+    LastModifiedDate: '2025-07-29T23:31:32.687Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
