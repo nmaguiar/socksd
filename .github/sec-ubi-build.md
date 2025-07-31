@@ -335,7 +335,7 @@
 │                       │      │                  ╰ [63]: https://www.oracle.com/security-alerts/cpujan2025.htm
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
-│                       │      ╰ LastModifiedDate: 2025-01-31T15:15:12.4Z 
+│                       │      ╰ LastModifiedDate: 2025-07-30T17:39:25.437Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2024-7264 
 │                       │      ├ PkgID           : curl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : curl-minimal 
@@ -603,7 +603,7 @@
 │                       │      │                  ╰ [1]: CWE-502 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
 │                       │      │                  ├ amazon     : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 3 
@@ -861,7 +861,8 @@
 │                       │      │                   other signing keys, aka a "verification DoS." 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 1 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N
 │                       │      │                           │           /A:L 
@@ -1209,7 +1210,8 @@
 │                       │      │                   information from adjacent memory regions. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:L 
@@ -1294,7 +1296,8 @@
 │                       │      │                   more sophisticated exploitation. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
@@ -1452,7 +1455,7 @@
 │                       │      │                  ╰ [63]: https://www.oracle.com/security-alerts/cpujan2025.htm
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
-│                       │      ╰ LastModifiedDate: 2025-01-31T15:15:12.4Z 
+│                       │      ╰ LastModifiedDate: 2025-07-30T17:39:25.437Z 
 │                       ├ [27] ╭ VulnerabilityID : CVE-2024-7264 
 │                       │      ├ PkgID           : libcurl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : libcurl-minimal 
@@ -2044,8 +2047,9 @@
 │                       │      │                   configurations without modern protections. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-121 
-│                       │      ├ VendorSeverity   ╭ azure : 1 
-│                       │      │                  ╰ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ azure      : 1 
+│                       │      │                  ├ cbl-mariner: 1 
+│                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 2.5 
@@ -3243,10 +3247,14 @@
 │                       │      │                   ff8b33e1 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           N/A:H 
+│                       │      │                  │         ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                            │           N/A:H 
+│                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8194 
 │                       │      │                  ├ [1]: https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf
 │                       │      │                  │      23ad2eff8b33e1 
@@ -3610,10 +3618,14 @@
 │                       │      │                   ff8b33e1 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           N/A:H 
+│                       │      │                  │         ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                            │           N/A:H 
+│                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8194 
 │                       │      │                  ├ [1]: https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf
 │                       │      │                  │      23ad2eff8b33e1 
@@ -3977,10 +3989,14 @@
 │                       │      │                   ff8b33e1 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           N/A:H 
+│                       │      │                  │         ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                            │           N/A:H 
+│                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8194 
 │                       │      │                  ├ [1]: https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf
 │                       │      │                  │      23ad2eff8b33e1 
@@ -4405,17 +4421,18 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 7.7 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:11803 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6965 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2380149 
-│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-11803.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-6965.html 
-│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12010.html 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7676-1 
-│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-6965 
-│                       │      │                  ╰ [9]: https://www.sqlite.org/src/info/5508b56fd24016c13981ec
-│                       │      │                         280ecdd833007c9d8dd595edb295b984c2b487b5c8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:11933 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-6965 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2380149 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-11933.html 
+│                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-6965.html 
+│                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-12010.html 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
+│                       │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-7676-1 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7679-1 
+│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-6965 
+│                       │      │                  ╰ [10]: https://www.sqlite.org/src/info/5508b56fd24016c13981e
+│                       │      │                          c280ecdd833007c9d8dd595edb295b984c2b487b5c8 
 │                       │      ├ PublishedDate   : 2025-07-15T14:15:31.08Z 
 │                       │      ╰ LastModifiedDate: 2025-07-22T17:06:21.51Z 
 │                       ├ [83] ╭ VulnerabilityID : CVE-2024-0232 
@@ -4668,7 +4685,7 @@
 │                              │                  ├ [5]: https://ubuntu.com/security/notices/USN-6543-1 
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-39804 
 │                              ├ PublishedDate   : 2024-03-27T04:15:08.897Z 
-│                              ╰ LastModifiedDate: 2024-11-21T08:15:56.95Z 
+│                              ╰ LastModifiedDate: 2025-07-29T23:31:32.687Z 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 
