@@ -22,6 +22,14 @@ help:
     desc     : A list of domains separated by commas.
     example  : "mydomain.com,myotherdomain.com"
     mandatory: false
+  - name     : ASNFILTERS
+    desc     : A list of ASNs separated by commas.
+    example  : "1234,5678"
+    mandatory: false
+  - name     : REVFILTERS
+    desc     : If "true" reverse all filters from inclusion to exclusion.
+    example  : "true"
+    mandatory: false
   - name     : DNSTIMEOUT
     desc     : If defined sets a different DNS resolution timeout (in seconds) from the default (10 seconds)
     example  : 10
@@ -40,18 +48,25 @@ help:
     mandatory: false
 
 todo:
+- (httpdStart  ): 8080
+- (httpdMetrics): 8080
 - Socks Server
+- (httpdHealthz): 8080
 
 ojob:
   opacks      :
   - openaf     : 20230704
   - SocksServer: 20240120
-  catch       : printErrnl("[" + job.name + "] "); if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
+  - oJob-common: 20250721
+  catch       : printErrnl("[" + job.name + "] "); $err(exception, __, job.code)
   logToConsole: false   # to change when finished
   argsFromEnvs: true
   daemon      : true
   loadLibs    :
   - socksServer.js
+
+include:
+- oJobHTTPd.yaml
 
 jobs:
 # -------------------
@@ -63,11 +78,13 @@ jobs:
       LOGS_DETAIL  : toBoolean.isBoolean.default(false)
       FILTERS      : isString.default(__)
       DOMAINFILTERS: isString.default(__)
+      ASNFILTERS   : isString.default(__)
+      REVFILTERS   : toBoolean.isBoolean.default(__)
       DNSTIMEOUT   : toNumber.isNumber.default(10000)
       INITOJOB     : isString.default(__)
       INITOJOBARGS : isString.default("{}")
       HTTPPROXY    : toBoolean.isBoolean.default(false)
-  exec : |
+  exec : | #js
     if (isDef(args.INITOJOB)) {
       log("Running " + args.INITOJOB + "...")
       var _args = af.fromSLON(args.INITOJOBARGS)
@@ -82,12 +99,35 @@ jobs:
     // Start Socks server
     var s = new SocksServer()
 
+    // Load ASN index
+    if (isDef(args.ASNFILTERS)) {
+      log("Loading ASN index...")
+      s.getIP2ASNIndex("/openaf/asnidx.json.gz")
+      s._invalidateASNCaches()
+      log("ASN index updated (#" + s._aidx.length + ")")
+    }
+
+    if (isDef(args.FILTERS)) {
+      log("Filters: " + af.toSLON(args.FILTERS.split(',').map(r=>r.trim())))
+    }
+
+    if (isDef(args.DOMAINFILTERS)) {
+      log("Domain filters: " + af.toSLON(args.DOMAINFILTERS.split(',').map(r=>r.trim())))
+    }
+
+    if (isDef(args.ASNFILTERS)) {
+      log("ASN filters: " + af.toSLON(args.ASNFILTERS.split(',').map(r=>r.trim())))
+    } 
+
+    if (toBoolean(args.REVFILTERS)) {
+      log("Reverse filters: " + args.REVFILTERS)
+    }
+
     s.start(1080, args.ONLY_LOCAL ? s.getLocalNetCallback(args.LOGS, args.LOGS_DETAIL)
-                                  : ((isDef(args.FILTERS) || isDef(args.DOMAINFILTERS)) 
-                                    ? s.getCallback( s.getNetFilter( isDef(args.FILTERS) ? args.FILTERS.split(',').map(r=>r.trim()) : __, isDef(args.DOMAINFILTERS) ? args.DOMAINFILTERS.split(',').map(r=>r.trim()) : __ ), args.LOGS, args.LOGS_DETAIL )
+                                  : ((isDef(args.FILTERS) || isDef(args.DOMAINFILTERS)) || isDef(args.ASNFILTERS) || args.REVFILTERS)
+                                    ? s.getCallback( s.getNetFilter( isDef(args.FILTERS) ? args.FILTERS.split(',').map(r=>r.trim()) : __, isDef(args.DOMAINFILTERS) ? args.DOMAINFILTERS.split(',').map(r=>r.trim()) : __, isDef(args.ASNFILTERS) ? args.ASNFILTERS.split(',').map(r=>Number(r.trim())) : __, toBoolean(args.REVFILTERS)), args.LOGS, args.LOGS_DETAIL)
                                     : s.getLogCallback( args.LOGS, args.LOGS_DETAIL )
                                     )
-            )
             
     if (toBoolean(args.HTTPPROXY)) {
       log("Starting http proxy (tinyproxy)...")

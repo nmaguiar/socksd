@@ -8,9 +8,12 @@ Main features:
 - SOCKS 4, 5 and 5 with DNS resolution
 - Filter the network addresses allowed (e.g. 192.168.1.0/16,fc00::/7, etc...) 
 - Filter the network domains allowed (e.g. default.svc,default.svc.cluster.local, etc...)
+- Filter by ASN (Autonomous System Numbers) for granular network control
+- Reverse filter logic to exclude instead of include specified networks
 - Detailed connection log support
 - Scale capacity by increasing deploy replicas
 - Optional extra HTTP proxy for clients that don't support SOCKS proxy
+- Health check and metrics endpoints for monitoring
 
 Security scans to latest and build container images:<br><br>
 [![.github/sec-build.svg](.github/sec-build.svg)](.github/sec-build.md)<br>
@@ -57,17 +60,46 @@ You can control the behaviour with environment variables:
 
 | Variable | Possible values | Description |
 |----------|-----------------|-------------|
-| ONLY_LOCAL | true/false | Filters all proxied traffic only to private network addresses (DOMAINFILTERS and FILTERS are ignored) |
+| ONLY_LOCAL | true/false | Filters all proxied traffic only to private network addresses (DOMAINFILTERS, FILTERS and ASNFILTERS are ignored) |
 | LOGS | true/false | Enables basic connection logging |
 | LOGS_DETAIL | true/false | Enables more verbose logging (requires LOGS=true) |
 | FILTERS | "192.168.1.0/16,fc00::/7" | Comma-delimited list of CIDRs to filter all traffic proxied. |
 | DOMAINFILTERS | "default.svc,default.svc.cluster.local" | Comma-delimited list of domains to filter all traffi proxied. |
+| ASNFILTERS | "1234,5678" | Comma-delimited list of ASNs (Autonomous System Numbers) to filter all traffic proxied. |
+| REVFILTERS | true/false | If "true" reverse all filters from inclusion to exclusion. |
+| DNSTIMEOUT | 10 | Sets a different DNS resolution timeout (in seconds) from the default (10 seconds) |
 | INITOJOB | setDNS.yaml | (optional) Runs the indicated OpenAF's oJob to perform an initialization function. |
 | INITOJOBARGS | "(arg1: xyz, arg2: 123)" | (optional) The INITOJOB arguments to use in [SLON](https://github.com/nmaguiar/slon) format |
 | OJOB_JSONLOG | true/false | Ensures all output log to stdout is in JSON |
 | HTTPPROXY | true/false | (optional) Starts a http/https proxy to relay requests to the socks proxy on port 8888 (to support applications that don't support connecting to a socks proxy) |
 
 > You can add these variables with the option '-e' on the ````docker run -d --rm -p 1080:1080 -e LOGS=true -e ONLY_LOCAL=true -e OJOB_JSONLOG=true --network mynet --name socksd nmaguiar/socksd```` command or with ````kubectl set env deploy socksd LOGS=true ONLY_LOCAL=true OJOB_JSONLOG=true```` in Kubernetes
+
+### Advanced Filtering
+
+The proxy supports several types of filtering:
+
+- **IP/CIDR Filtering (`FILTERS`)**: Filter by specific IP addresses or CIDR ranges
+- **Domain Filtering (`DOMAINFILTERS`)**: Filter by domain names  
+- **ASN Filtering (`ASNFILTERS`)**: Filter by Autonomous System Numbers for network-level control
+- **Reverse Filtering (`REVFILTERS`)**: When set to "true", reverses the logic of all filters from inclusion to exclusion
+
+Examples:
+```bash
+# Allow only specific IP ranges
+-e FILTERS="192.168.1.0/24,10.0.0.0/8"
+
+# Allow only specific domains
+-e DOMAINFILTERS="internal.company.com,*.local"
+
+# Allow only specific ASNs (e.g., specific cloud providers)
+-e ASNFILTERS="16509,13335"  # AWS and Cloudflare ASNs
+
+# Block instead of allow the specified filters
+-e REVFILTERS=true -e FILTERS="192.168.1.0/24"  # Block 192.168.1.0/24
+```
+
+> Note: When `ONLY_LOCAL=true`, all other filter options (FILTERS, DOMAINFILTERS, ASNFILTERS) are ignored.
 
 ## Deployment examples
 

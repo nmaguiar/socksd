@@ -6,6 +6,7 @@ RUN apk --no-cache add tinyproxy
 USER openaf
 RUN /openaf/opack install SocksServer\
  && /openaf/opack erase S3\
+ && curl https://openaf.io/asnidx.json.gz -o /openaf/asnidx.json.gz\
  && sed -i '/^- s3.yaml$/d' /openaf/entrypoint.yaml\
  && sed -i '/- S3$/d' /openaf/entrypoint.yaml
  
