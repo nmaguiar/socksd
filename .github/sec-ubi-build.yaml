@@ -603,13 +603,16 @@
     PublishedDate: '2025-04-07T13:15:43.687Z'
     LastModifiedDate: '2025-04-14T12:15:16.087Z'
   - VulnerabilityID: CVE-2025-8058
+    VendorIDs:
+    - RHSA-2025:12748
     PkgID: glibc@2.34-168.el9_6.20.x86_64
     PkgName: glibc
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc@2.34-168.el9_6.20?arch=x86_64&distro=redhat-9.6
       UID: 6248b4d34a8ca54b
     InstalledVersion: 2.34-168.el9_6.20
-    Status: affected
+    FixedVersion: 2.34-168.el9_6.23
+    Status: fixed
     Layer:
       Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0bc332d932b3f39f12aa3
       DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8f788e4241d68403d0e82
@@ -627,13 +630,20 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
         V3Score: 4.2
     References:
+    - https://access.redhat.com/errata/RHSA-2025:12980
     - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://bugzilla.redhat.com/2383146
+    - https://errata.almalinux.org/8/ALSA-2025-12980.html
+    - https://linux.oracle.com/cve/CVE-2025-8058.html
+    - https://linux.oracle.com/errata/ELSA-2025-12980.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
@@ -641,13 +651,16 @@
     PublishedDate: '2025-07-23T20:15:27.747Z'
     LastModifiedDate: '2025-07-25T15:29:44.523Z'
   - VulnerabilityID: CVE-2025-8058
+    VendorIDs:
+    - RHSA-2025:12748
     PkgID: glibc-common@2.34-168.el9_6.20.x86_64
     PkgName: glibc-common
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc-common@2.34-168.el9_6.20?arch=x86_64&distro=redhat-9.6
       UID: 3ed6602160879d1b
     InstalledVersion: 2.34-168.el9_6.20
-    Status: affected
+    FixedVersion: 2.34-168.el9_6.23
+    Status: fixed
     Layer:
       Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0bc332d932b3f39f12aa3
       DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8f788e4241d68403d0e82
@@ -665,13 +678,20 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
         V3Score: 4.2
     References:
+    - https://access.redhat.com/errata/RHSA-2025:12980
     - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://bugzilla.redhat.com/2383146
+    - https://errata.almalinux.org/8/ALSA-2025-12980.html
+    - https://linux.oracle.com/cve/CVE-2025-8058.html
+    - https://linux.oracle.com/errata/ELSA-2025-12980.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
@@ -679,13 +699,16 @@
     PublishedDate: '2025-07-23T20:15:27.747Z'
     LastModifiedDate: '2025-07-25T15:29:44.523Z'
   - VulnerabilityID: CVE-2025-8058
+    VendorIDs:
+    - RHSA-2025:12748
     PkgID: glibc-minimal-langpack@2.34-168.el9_6.20.x86_64
     PkgName: glibc-minimal-langpack
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-168.el9_6.20?arch=x86_64&distro=redhat-9.6
       UID: e5ad0cba78373218
     InstalledVersion: 2.34-168.el9_6.20
-    Status: affected
+    FixedVersion: 2.34-168.el9_6.23
+    Status: fixed
     Layer:
       Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0bc332d932b3f39f12aa3
       DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8f788e4241d68403d0e82
@@ -703,13 +726,20 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
         V3Score: 4.2
     References:
+    - https://access.redhat.com/errata/RHSA-2025:12980
     - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://bugzilla.redhat.com/2383146
+    - https://errata.almalinux.org/8/ALSA-2025-12980.html
+    - https://linux.oracle.com/cve/CVE-2025-8058.html
+    - https://linux.oracle.com/errata/ELSA-2025-12980.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
@@ -1692,6 +1722,7 @@
     - CWE-1284
     - CWE-125
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 1
       cbl-mariner: 1
@@ -1707,7 +1738,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:13203
     - https://access.redhat.com/security/cve/CVE-2025-32415
+    - https://bugzilla.redhat.com/2360768
+    - https://errata.almalinux.org/8/ALSA-2025-13203.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/890
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32415
     - https://ubuntu.com/security/notices/USN-7467-1
@@ -1876,13 +1910,16 @@
     PublishedDate: '2025-06-16T16:15:20.43Z'
     LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2022-29458
+    VendorIDs:
+    - RHSA-2025:12876
     PkgID: ncurses-base@6.2-10.20210508.el9.noarch
     PkgName: ncurses-base
     PkgIdentifier:
       PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?arch=noarch&distro=redhat-9.6
       UID: 5359c71bf0d7b07
     InstalledVersion: 6.2-10.20210508.el9
-    Status: affected
+    FixedVersion: 6.2-10.20210508.el9_6.2
+    Status: fixed
     Layer:
       Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0bc332d932b3f39f12aa3
       DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8f788e4241d68403d0e82
@@ -1897,6 +1934,7 @@
       amazon: 2
       cbl-mariner: 3
       nvd: 3
+      oracle-oval: 1
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -1914,6 +1952,8 @@
     - http://seclists.org/fulldisclosure/2022/Oct/41
     - https://access.redhat.com/security/cve/CVE-2022-29458
     - https://invisible-island.net/ncurses/NEWS.html#t20220416
+    - https://linux.oracle.com/cve/CVE-2022-29458.html
+    - https://linux.oracle.com/errata/ELSA-2025-12876.html
     - https://lists.debian.org/debian-lts-announce/2022/10/msg00037.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00014.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00016.html
@@ -1965,13 +2005,16 @@
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-11-21T08:37:04.243Z'
   - VulnerabilityID: CVE-2022-29458
+    VendorIDs:
+    - RHSA-2025:12876
     PkgID: ncurses-libs@6.2-10.20210508.el9.x86_64
     PkgName: ncurses-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?arch=x86_64&distro=redhat-9.6
       UID: 59a363db5d002840
     InstalledVersion: 6.2-10.20210508.el9
-    Status: affected
+    FixedVersion: 6.2-10.20210508.el9_6.2
+    Status: fixed
     Layer:
       Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0bc332d932b3f39f12aa3
       DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8f788e4241d68403d0e82
@@ -1986,6 +2029,7 @@
       amazon: 2
       cbl-mariner: 3
       nvd: 3
+      oracle-oval: 1
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -2003,6 +2047,8 @@
     - http://seclists.org/fulldisclosure/2022/Oct/41
     - https://access.redhat.com/security/cve/CVE-2022-29458
     - https://invisible-island.net/ncurses/NEWS.html#t20220416
+    - https://linux.oracle.com/cve/CVE-2022-29458.html
+    - https://linux.oracle.com/errata/ELSA-2025-12876.html
     - https://lists.debian.org/debian-lts-announce/2022/10/msg00037.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00014.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00016.html
