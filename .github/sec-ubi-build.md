@@ -676,13 +676,15 @@
 │                       │      ├ PublishedDate   : 2025-04-07T13:15:43.687Z 
 │                       │      ╰ LastModifiedDate: 2025-04-14T12:15:16.087Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-8058 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:12748 
 │                       │      ├ PkgID           : glibc@2.34-168.el9_6.20.x86_64 
 │                       │      ├ PkgName         : glibc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-168.el9_6.20?arch=x86_64&di
 │                       │      │                  │       stro=redhat-9.6 
 │                       │      │                  ╰ UID : 6248b4d34a8ca54b 
 │                       │      ├ InstalledVersion: 2.34-168.el9_6.20 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.34-168.el9_6.23 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0
 │                       │      │                  │         bc332d932b3f39f12aa3 
 │                       │      │                  ╰ DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8
@@ -704,26 +706,35 @@
 │                       │      │                   library. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8058 
-│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
-│                       │      │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
-│                       │      │                  ├ [3]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:12980 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-8058 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2383146 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-12980.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-8058.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12980.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
+│                       │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
+│                       │      │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
 │                       │      │                  │      17af18c38727b88d9115e536c069e6b5d601f 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
 │                       │      ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2025-8058 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:12748 
 │                       │      ├ PkgID           : glibc-common@2.34-168.el9_6.20.x86_64 
 │                       │      ├ PkgName         : glibc-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-168.el9_6.20?arch=x8
 │                       │      │                  │       6_64&distro=redhat-9.6 
 │                       │      │                  ╰ UID : 3ed6602160879d1b 
 │                       │      ├ InstalledVersion: 2.34-168.el9_6.20 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.34-168.el9_6.23 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0
 │                       │      │                  │         bc332d932b3f39f12aa3 
 │                       │      │                  ╰ DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8
@@ -745,26 +756,35 @@
 │                       │      │                   library. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8058 
-│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
-│                       │      │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
-│                       │      │                  ├ [3]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:12980 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-8058 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2383146 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-12980.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-8058.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12980.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
+│                       │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
+│                       │      │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
 │                       │      │                  │      17af18c38727b88d9115e536c069e6b5d601f 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
 │                       │      ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2025-8058 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:12748 
 │                       │      ├ PkgID           : glibc-minimal-langpack@2.34-168.el9_6.20.x86_64 
 │                       │      ├ PkgName         : glibc-minimal-langpack 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-168.el9_6.
 │                       │      │                  │       20?arch=x86_64&distro=redhat-9.6 
 │                       │      │                  ╰ UID : e5ad0cba78373218 
 │                       │      ├ InstalledVersion: 2.34-168.el9_6.20 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.34-168.el9_6.23 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0
 │                       │      │                  │         bc332d932b3f39f12aa3 
 │                       │      │                  ╰ DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8
@@ -786,16 +806,23 @@
 │                       │      │                   library. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8058 
-│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
-│                       │      │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
-│                       │      │                  ├ [3]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:12980 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-8058 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2383146 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-12980.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-8058.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12980.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
+│                       │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
+│                       │      │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
 │                       │      │                  │      17af18c38727b88d9115e536c069e6b5d601f 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
 │                       │      ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2022-3219 
@@ -1871,7 +1898,8 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-1284 
 │                       │      │                  ╰ [1]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 1 
 │                       │      │                  ├ cbl-mariner: 1 
 │                       │      │                  ├ nvd        : 3 
@@ -1884,12 +1912,15 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32415 
-│                       │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
-│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7467-1 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7467-2 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:13203 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-32415 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2360768 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-13203.html 
+│                       │      │                  ├ [4]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7467-1 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7467-2 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
 │                       │      ├ PublishedDate   : 2025-04-17T17:15:33.733Z 
 │                       │      ╰ LastModifiedDate: 2025-04-23T18:17:52.053Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2023-45322 
@@ -2065,13 +2096,15 @@
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:20.43Z 
 │                       │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
 │                       ├ [38] ╭ VulnerabilityID : CVE-2022-29458 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:12876 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?arch=
 │                       │      │                  │       noarch&distro=redhat-9.6 
 │                       │      │                  ╰ UID : 5359c71bf0d7b07 
 │                       │      ├ InstalledVersion: 6.2-10.20210508.el9 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 6.2-10.20210508.el9_6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0
 │                       │      │                  │         bc332d932b3f39f12aa3 
 │                       │      │                  ╰ DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8
@@ -2087,6 +2120,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -2103,17 +2137,19 @@
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2022-29458 
 │                       │      │                  ├ [3] : https://invisible-island.net/ncurses/NEWS.html#t20220
 │                       │      │                  │       416 
-│                       │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/2022/10/
+│                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2022-29458.html 
+│                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-12876.html 
+│                       │      │                  ├ [6] : https://lists.debian.org/debian-lts-announce/2022/10/
 │                       │      │                  │       msg00037.html 
-│                       │      │                  ├ [5] : https://lists.gnu.org/archive/html/bug-ncurses/2022-0
+│                       │      │                  ├ [7] : https://lists.gnu.org/archive/html/bug-ncurses/2022-0
 │                       │      │                  │       4/msg00014.html 
-│                       │      │                  ├ [6] : https://lists.gnu.org/archive/html/bug-ncurses/2022-0
+│                       │      │                  ├ [8] : https://lists.gnu.org/archive/html/bug-ncurses/2022-0
 │                       │      │                  │       4/msg00016.html 
-│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2022-29458 
-│                       │      │                  ├ [8] : https://support.apple.com/kb/HT213488 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-5477-1 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6099-1 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2022-29458 
+│                       │      │                  ├ [10]: https://support.apple.com/kb/HT213488 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-5477-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6099-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
 │                       │      ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
 │                       │      ╰ LastModifiedDate: 2025-06-09T15:15:27.43Z 
 │                       ├ [39] ╭ VulnerabilityID : CVE-2023-50495 
@@ -2160,13 +2196,15 @@
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
 │                       ├ [40] ╭ VulnerabilityID : CVE-2022-29458 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:12876 
 │                       │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │      ├ PkgName         : ncurses-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?arch=
 │                       │      │                  │       x86_64&distro=redhat-9.6 
 │                       │      │                  ╰ UID : 59a363db5d002840 
 │                       │      ├ InstalledVersion: 6.2-10.20210508.el9 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 6.2-10.20210508.el9_6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0
 │                       │      │                  │         bc332d932b3f39f12aa3 
 │                       │      │                  ╰ DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8
@@ -2182,6 +2220,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -2198,17 +2237,19 @@
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2022-29458 
 │                       │      │                  ├ [3] : https://invisible-island.net/ncurses/NEWS.html#t20220
 │                       │      │                  │       416 
-│                       │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/2022/10/
+│                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2022-29458.html 
+│                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-12876.html 
+│                       │      │                  ├ [6] : https://lists.debian.org/debian-lts-announce/2022/10/
 │                       │      │                  │       msg00037.html 
-│                       │      │                  ├ [5] : https://lists.gnu.org/archive/html/bug-ncurses/2022-0
+│                       │      │                  ├ [7] : https://lists.gnu.org/archive/html/bug-ncurses/2022-0
 │                       │      │                  │       4/msg00014.html 
-│                       │      │                  ├ [6] : https://lists.gnu.org/archive/html/bug-ncurses/2022-0
+│                       │      │                  ├ [8] : https://lists.gnu.org/archive/html/bug-ncurses/2022-0
 │                       │      │                  │       4/msg00016.html 
-│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2022-29458 
-│                       │      │                  ├ [8] : https://support.apple.com/kb/HT213488 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-5477-1 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6099-1 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2022-29458 
+│                       │      │                  ├ [10]: https://support.apple.com/kb/HT213488 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-5477-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6099-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
 │                       │      ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
 │                       │      ╰ LastModifiedDate: 2025-06-09T15:15:27.43Z 
 │                       ├ [41] ╭ VulnerabilityID : CVE-2023-50495 
