@@ -1649,13 +1649,16 @@
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
   - VulnerabilityID: CVE-2025-32414
+    VendorIDs:
+    - RHSA-2025:13428
     PkgID: libxml2@2.9.13-11.el9_6.x86_64
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-11.el9_6?arch=x86_64&distro=redhat-9.6
       UID: 243aaa7d0e03a800
     InstalledVersion: 2.9.13-11.el9_6
-    Status: affected
+    FixedVersion: 2.9.13-12.el9_6
+    Status: fixed
     Layer:
       Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0bc332d932b3f39f12aa3
       DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8f788e4241d68403d0e82
@@ -1703,13 +1706,16 @@
     PublishedDate: '2025-04-08T03:15:15.94Z'
     LastModifiedDate: '2025-04-23T19:09:35.517Z'
   - VulnerabilityID: CVE-2025-32415
+    VendorIDs:
+    - RHSA-2025:13428
     PkgID: libxml2@2.9.13-11.el9_6.x86_64
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-11.el9_6?arch=x86_64&distro=redhat-9.6
       UID: 243aaa7d0e03a800
     InstalledVersion: 2.9.13-11.el9_6
-    Status: affected
+    FixedVersion: 2.9.13-12.el9_6
+    Status: fixed
     Layer:
       Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0bc332d932b3f39f12aa3
       DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8f788e4241d68403d0e82
@@ -1727,6 +1733,7 @@
       azure: 1
       cbl-mariner: 1
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -1743,6 +1750,8 @@
     - https://bugzilla.redhat.com/2360768
     - https://errata.almalinux.org/8/ALSA-2025-13203.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/890
+    - https://linux.oracle.com/cve/CVE-2025-32415.html
+    - https://linux.oracle.com/errata/ELSA-2025-13203.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32415
     - https://ubuntu.com/security/notices/USN-7467-1
     - https://ubuntu.com/security/notices/USN-7467-2
@@ -2917,6 +2926,7 @@
     - CWE-1333
     VendorSeverity:
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       redhat: 2
@@ -3223,6 +3233,7 @@
     - CWE-1333
     VendorSeverity:
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       redhat: 2
@@ -3529,6 +3540,7 @@
     - CWE-1333
     VendorSeverity:
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       redhat: 2
@@ -3786,6 +3798,7 @@
     - CWE-601
     VendorSeverity:
       amazon: 2
+      azure: 2
       ghsa: 2
       redhat: 2
       ubuntu: 2
