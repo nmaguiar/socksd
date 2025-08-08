@@ -1820,13 +1820,15 @@
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
 │                       ├ [32] ╭ VulnerabilityID : CVE-2025-32414 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:13428 
 │                       │      ├ PkgID           : libxml2@2.9.13-11.el9_6.x86_64 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-11.el9_6?arch=x86_64&di
 │                       │      │                  │       stro=redhat-9.6 
 │                       │      │                  ╰ UID : 243aaa7d0e03a800 
 │                       │      ├ InstalledVersion: 2.9.13-11.el9_6 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.9.13-12.el9_6 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0
 │                       │      │                  │         bc332d932b3f39f12aa3 
 │                       │      │                  ╰ DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8
@@ -1876,13 +1878,15 @@
 │                       │      ├ PublishedDate   : 2025-04-08T03:15:15.94Z 
 │                       │      ╰ LastModifiedDate: 2025-04-23T19:09:35.517Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2025-32415 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:13428 
 │                       │      ├ PkgID           : libxml2@2.9.13-11.el9_6.x86_64 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-11.el9_6?arch=x86_64&di
 │                       │      │                  │       stro=redhat-9.6 
 │                       │      │                  ╰ UID : 243aaa7d0e03a800 
 │                       │      ├ InstalledVersion: 2.9.13-11.el9_6 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.9.13-12.el9_6 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:a55b305af5d375c0cee880bb4b3e630b9716d4df09b0
 │                       │      │                  │         bc332d932b3f39f12aa3 
 │                       │      │                  ╰ DiffID: sha256:6c29a38e1a2d946de602e01e538918dd39ce9f8442a8
@@ -1903,6 +1907,7 @@
 │                       │      │                  ├ azure      : 1 
 │                       │      │                  ├ cbl-mariner: 1 
 │                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -1912,15 +1917,17 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:13203 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-32415 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2360768 
-│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-13203.html 
-│                       │      │                  ├ [4]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7467-1 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7467-2 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:13203 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-32415 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2360768 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-13203.html 
+│                       │      │                  ├ [4] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
+│                       │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2025-32415.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-13203.html 
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7467-1 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7467-2 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
 │                       │      ├ PublishedDate   : 2025-04-17T17:15:33.733Z 
 │                       │      ╰ LastModifiedDate: 2025-04-23T18:17:52.053Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2023-45322 
@@ -3229,6 +3236,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3600,6 +3608,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3971,6 +3980,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -4286,6 +4296,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-601 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ ghsa  : 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
