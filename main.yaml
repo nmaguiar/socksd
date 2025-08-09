@@ -87,8 +87,6 @@ jobs:
   exec : | #js
     if (isDef(args.ASNFILTERS) && toBoolean(args.ASNUPDATES)) {
       if (isDef(global.s)) s.updateASNIdx(args.ASNURL)
-    } else {
-      log("No ASN filters defined or ASN updates disabled so no ASNs update is required.")
     }
 
 # -------------------
@@ -124,7 +122,7 @@ jobs:
     global.s = new SocksServer()
 
     // Load ASN index
-    if (isDef(args.ASNFILTERS)) {
+    if (isDef(args.ASNFILTERS) && toBoolean(args.ASNUPDATES)) {
       /*log("Loading ASN index...")
       s.getIP2ASNIndex("/openaf/asnidx.json.gz")
       s._invalidateASNCaches()
