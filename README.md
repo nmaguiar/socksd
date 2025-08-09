@@ -66,6 +66,8 @@ You can control the behaviour with environment variables:
 | FILTERS | "192.168.1.0/16,fc00::/7" | Comma-delimited list of CIDRs to filter all traffic proxied. |
 | DOMAINFILTERS | "default.svc,default.svc.cluster.local" | Comma-delimited list of domains to filter all traffi proxied. |
 | ASNFILTERS | "1234,5678" | Comma-delimited list of ASNs (Autonomous System Numbers) to filter all traffic proxied. |
+| ASNUPDATES | true/false | Enables periodic ASN index updates (set to false to disable). |
+| ASNURL | "https://example.com/asn.json.gz" | Alternative URL for ASN index download. |
 | REVFILTERS | true/false | If "true" reverse all filters from inclusion to exclusion. |
 | DNSTIMEOUT | 10 | Sets a different DNS resolution timeout (in seconds) from the default (10 seconds) |
 | INITOJOB | setDNS.yaml | (optional) Runs the indicated OpenAF's oJob to perform an initialization function. |

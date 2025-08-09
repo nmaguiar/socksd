@@ -26,6 +26,14 @@ help:
     desc     : A list of ASNs separated by commas.
     example  : "1234,5678"
     mandatory: false
+  - name     : ASNUPDATES
+    desc     : If "false" disables periodic ASN index updates.
+    example  : "false"
+    mandatory: false
+  - name     : ASNURL
+    desc     : Alternative URL for ASN index download.
+    example  : "https://example.com/asn.json.gz"
+    mandatory: false
   - name     : REVFILTERS
     desc     : If "true" reverse all filters from inclusion to exclusion.
     example  : "true"
@@ -75,12 +83,12 @@ jobs:
 - name    : Periodic ASNs update
   type    : periodic
   typeArgs:
-    timeInterval: 4320000  
+    timeInterval: 4320000
   exec : | #js
-    if (isDef(args.ASNFILTERS)) {
-      if (isDef(global.s)) s.updateASNIdx()
+    if (isDef(args.ASNFILTERS) && toBoolean(args.ASNUPDATES)) {
+      if (isDef(global.s)) s.updateASNIdx(args.ASNURL)
     } else {
-      log("No ASN filters defined so no ASNs update is required.")
+      log("No ASN filters defined or ASN updates disabled so no ASNs update is required.")
     }
 
 # -------------------
@@ -93,6 +101,8 @@ jobs:
       FILTERS      : isString.default(__)
       DOMAINFILTERS: isString.default(__)
       ASNFILTERS   : isString.default(__)
+      ASNUPDATES   : toBoolean.isBoolean.default(true)
+      ASNURL       : isString.default(__)
       REVFILTERS   : toBoolean.isBoolean.default(__)
       DNSTIMEOUT   : toNumber.isNumber.default(10000)
       INITOJOB     : isString.default(__)
@@ -119,7 +129,7 @@ jobs:
       s.getIP2ASNIndex("/openaf/asnidx.json.gz")
       s._invalidateASNCaches()
       log("ASN index updated (#" + s._aidx.length + ")")*/
-      s.updateASNIdx()
+      s.updateASNIdx(args.ASNURL)
     }
 
     if (isDef(args.FILTERS)) {
