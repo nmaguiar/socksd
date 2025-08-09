@@ -50,6 +50,8 @@ help:
 todo:
 - (httpdStart  ): 8080
 - (httpdMetrics): 8080
+  ((prefix    )): socksd
+- Periodic ASNs update
 - Socks Server
 - (httpdHealthz): 8080
 
@@ -69,6 +71,18 @@ include:
 - oJobHTTPd.yaml
 
 jobs:
+# ------------------------------
+- name    : Periodic ASNs update
+  type    : periodic
+  typeArgs:
+    timeInterval: 4320000  
+  exec : | #js
+    if (isDef(args.ASNFILTERS)) {
+      if (isDef(global.s)) s.updateASNIdx()
+    } else {
+      log("No ASN filters defined so no ASNs update is required.")
+    }
+
 # -------------------
 - name : Socks Server
   check:
@@ -97,14 +111,15 @@ jobs:
     java.security.Security.setProperty("networkaddress.cache.ttl", args.DNSTIMEOUT)
 
     // Start Socks server
-    var s = new SocksServer()
+    global.s = new SocksServer()
 
     // Load ASN index
     if (isDef(args.ASNFILTERS)) {
-      log("Loading ASN index...")
+      /*log("Loading ASN index...")
       s.getIP2ASNIndex("/openaf/asnidx.json.gz")
       s._invalidateASNCaches()
-      log("ASN index updated (#" + s._aidx.length + ")")
+      log("ASN index updated (#" + s._aidx.length + ")")*/
+      s.updateASNIdx()
     }
 
     if (isDef(args.FILTERS)) {
