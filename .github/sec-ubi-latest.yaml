@@ -643,7 +643,7 @@
     - https://bugzilla.redhat.com/2383146
     - https://errata.almalinux.org/8/ALSA-2025-12980.html
     - https://linux.oracle.com/cve/CVE-2025-8058.html
-    - https://linux.oracle.com/errata/ELSA-2025-12980.html
+    - https://linux.oracle.com/errata/ELSA-2025-13240.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
@@ -691,7 +691,7 @@
     - https://bugzilla.redhat.com/2383146
     - https://errata.almalinux.org/8/ALSA-2025-12980.html
     - https://linux.oracle.com/cve/CVE-2025-8058.html
-    - https://linux.oracle.com/errata/ELSA-2025-12980.html
+    - https://linux.oracle.com/errata/ELSA-2025-13240.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
@@ -739,7 +739,7 @@
     - https://bugzilla.redhat.com/2383146
     - https://errata.almalinux.org/8/ALSA-2025-12980.html
     - https://linux.oracle.com/cve/CVE-2025-8058.html
-    - https://linux.oracle.com/errata/ELSA-2025-12980.html
+    - https://linux.oracle.com/errata/ELSA-2025-13240.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
@@ -1742,12 +1742,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
         V3Score: 5.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:8958
+    - https://access.redhat.com/errata/RHSA-2025:13428
     - https://access.redhat.com/security/cve/CVE-2025-32414
     - https://bugzilla.redhat.com/2358121
+    - https://bugzilla.redhat.com/2360768
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358121
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32414
-    - https://errata.almalinux.org/8/ALSA-2025-8958.html
+    - https://errata.almalinux.org/9/ALSA-2025-13428.html
     - https://errata.rockylinux.org/RLSA-2025:8958
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/889
     - https://linux.oracle.com/cve/CVE-2025-32414.html
@@ -1798,13 +1799,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:13203
+    - https://access.redhat.com/errata/RHSA-2025:13428
     - https://access.redhat.com/security/cve/CVE-2025-32415
+    - https://bugzilla.redhat.com/2358121
     - https://bugzilla.redhat.com/2360768
-    - https://errata.almalinux.org/8/ALSA-2025-13203.html
+    - https://errata.almalinux.org/9/ALSA-2025-13428.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/890
     - https://linux.oracle.com/cve/CVE-2025-32415.html
-    - https://linux.oracle.com/errata/ELSA-2025-13203.html
+    - https://linux.oracle.com/errata/ELSA-2025-13428.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32415
     - https://ubuntu.com/security/notices/USN-7467-1
     - https://ubuntu.com/security/notices/USN-7467-2
@@ -3040,14 +3042,16 @@
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
     - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
-    LastModifiedDate: '2025-07-29T14:15:39.103Z'
+    LastModifiedDate: '2025-08-07T21:15:29.78Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python-unversioned-command@3.9.21-2.el9_6.1.noarch
     PkgName: python-unversioned-command
@@ -3347,14 +3351,16 @@
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
     - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
-    LastModifiedDate: '2025-07-29T14:15:39.103Z'
+    LastModifiedDate: '2025-08-07T21:15:29.78Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3@3.9.21-2.el9_6.1.x86_64
     PkgName: python3
@@ -3654,14 +3660,16 @@
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
     - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
-    LastModifiedDate: '2025-07-29T14:15:39.103Z'
+    LastModifiedDate: '2025-08-07T21:15:29.78Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3-libs@3.9.21-2.el9_6.1.x86_64
     PkgName: python3-libs
