@@ -717,7 +717,7 @@
 │                       │      │                  ├ [2]: https://bugzilla.redhat.com/2383146 
 │                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-12980.html 
 │                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-8058.html 
-│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12980.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-13240.html 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
 │                       │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
 │                       │      │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
@@ -767,7 +767,7 @@
 │                       │      │                  ├ [2]: https://bugzilla.redhat.com/2383146 
 │                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-12980.html 
 │                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-8058.html 
-│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12980.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-13240.html 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
 │                       │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
 │                       │      │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
@@ -817,7 +817,7 @@
 │                       │      │                  ├ [2]: https://bugzilla.redhat.com/2383146 
 │                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-12980.html 
 │                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-8058.html 
-│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12980.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-13240.html 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
 │                       │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
 │                       │      │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
@@ -1916,21 +1916,22 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:8958 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:13428 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-32414 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2358121 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2358121 
-│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2360768 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2358121 
+│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-32414 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-8958.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:8958 
-│                       │      │                  ├ [7] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/889 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-32414.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-8958.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-32414 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7467-1 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7467-2 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-32414 
+│                       │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-13428.html 
+│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:8958 
+│                       │      │                  ├ [8] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/889 
+│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-32414.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-8958.html 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-32414 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7467-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7467-2 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-32414 
 │                       │      ├ PublishedDate   : 2025-04-08T03:15:15.94Z 
 │                       │      ╰ LastModifiedDate: 2025-04-23T19:09:35.517Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2025-32415 
@@ -1973,17 +1974,18 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:13203 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:13428 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-32415 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2360768 
-│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-13203.html 
-│                       │      │                  ├ [4] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
-│                       │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2025-32415.html 
-│                       │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-13203.html 
-│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7467-1 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7467-2 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2358121 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2360768 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-13428.html 
+│                       │      │                  ├ [5] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-32415.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-13428.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7467-1 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7467-2 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
 │                       │      ├ PublishedDate   : 2025-04-17T17:15:33.733Z 
 │                       │      ╰ LastModifiedDate: 2025-04-23T18:17:52.053Z 
 │                       ├ [35] ╭ VulnerabilityID : CVE-2023-45322 
@@ -3365,21 +3367,26 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8194 
-│                       │      │                  ├ [1]: https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf
-│                       │      │                  │      23ad2eff8b33e1 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/7040aa54f1467
-│                       │      │                  │      6938970e10c5f74ea93cd56aa38 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/cdae923ffe187
-│                       │      │                  │      d6ef916c0f665a31249619193fe 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/130577 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/137027 
-│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-8194 
+│                       │      │                  ├ [1] : https://gist.github.com/sethmlarson/1716ac5b82b73dbcb
+│                       │      │                  │       f23ad2eff8b33e1 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/7040aa54f146
+│                       │      │                  │       76938970e10c5f74ea93cd56aa38 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/c9d9f78feb14
+│                       │      │                  │       67e73fd29356c040bde1c104f29f 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/cdae923ffe18
+│                       │      │                  │       7d6ef916c0f665a31249619193fe 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/fbc2a0ca9ac8
+│                       │      │                  │       aff6887f8ddf79b87b4510277227 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/issues/130577 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/pull/137027 
+│                       │      │                  ├ [8] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D
+│                       │      │                  │       / 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
 │                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
-│                       │      ╰ LastModifiedDate: 2025-07-29T14:15:39.103Z 
+│                       │      ╰ LastModifiedDate: 2025-08-07T21:15:29.78Z 
 │                       ├ [65] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.21-2.el9_6.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -3737,21 +3744,26 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8194 
-│                       │      │                  ├ [1]: https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf
-│                       │      │                  │      23ad2eff8b33e1 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/7040aa54f1467
-│                       │      │                  │      6938970e10c5f74ea93cd56aa38 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/cdae923ffe187
-│                       │      │                  │      d6ef916c0f665a31249619193fe 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/130577 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/137027 
-│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-8194 
+│                       │      │                  ├ [1] : https://gist.github.com/sethmlarson/1716ac5b82b73dbcb
+│                       │      │                  │       f23ad2eff8b33e1 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/7040aa54f146
+│                       │      │                  │       76938970e10c5f74ea93cd56aa38 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/c9d9f78feb14
+│                       │      │                  │       67e73fd29356c040bde1c104f29f 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/cdae923ffe18
+│                       │      │                  │       7d6ef916c0f665a31249619193fe 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/fbc2a0ca9ac8
+│                       │      │                  │       aff6887f8ddf79b87b4510277227 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/issues/130577 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/pull/137027 
+│                       │      │                  ├ [8] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D
+│                       │      │                  │       / 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
 │                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
-│                       │      ╰ LastModifiedDate: 2025-07-29T14:15:39.103Z 
+│                       │      ╰ LastModifiedDate: 2025-08-07T21:15:29.78Z 
 │                       ├ [71] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -4109,21 +4121,26 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8194 
-│                       │      │                  ├ [1]: https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf
-│                       │      │                  │      23ad2eff8b33e1 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/7040aa54f1467
-│                       │      │                  │      6938970e10c5f74ea93cd56aa38 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/cdae923ffe187
-│                       │      │                  │      d6ef916c0f665a31249619193fe 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/130577 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/137027 
-│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-8194 
+│                       │      │                  ├ [1] : https://gist.github.com/sethmlarson/1716ac5b82b73dbcb
+│                       │      │                  │       f23ad2eff8b33e1 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/7040aa54f146
+│                       │      │                  │       76938970e10c5f74ea93cd56aa38 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/c9d9f78feb14
+│                       │      │                  │       67e73fd29356c040bde1c104f29f 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/cdae923ffe18
+│                       │      │                  │       7d6ef916c0f665a31249619193fe 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/fbc2a0ca9ac8
+│                       │      │                  │       aff6887f8ddf79b87b4510277227 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/issues/130577 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/pull/137027 
+│                       │      │                  ├ [8] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D
+│                       │      │                  │       / 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
 │                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
-│                       │      ╰ LastModifiedDate: 2025-07-29T14:15:39.103Z 
+│                       │      ╰ LastModifiedDate: 2025-08-07T21:15:29.78Z 
 │                       ├ [77] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
