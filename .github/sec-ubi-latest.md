@@ -1864,17 +1864,18 @@
 │                       │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:13314 
 │                       │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:13335 
 │                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:13464 
-│                       │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2025-7425 
-│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2379274 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
-│                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
-│                       │      │                  ├ [16]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
-│                       │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2025-7425.html 
-│                       │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2025-12450.html 
-│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
-│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
+│                       │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:13622 
+│                       │      │                  ├ [13]: https://access.redhat.com/security/cve/CVE-2025-7425 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2379274 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
+│                       │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
+│                       │      │                  ├ [17]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
+│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2025-7425.html 
+│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2025-12450.html 
+│                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
+│                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
 │                       │      ├ PublishedDate   : 2025-07-10T14:15:27.877Z 
-│                       │      ╰ LastModifiedDate: 2025-08-07T16:15:31.64Z 
+│                       │      ╰ LastModifiedDate: 2025-08-11T15:15:28.383Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2025-32414 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2025:13428 
 │                       │      ├ PkgID           : libxml2@2.9.13-10.el9_6.x86_64 
