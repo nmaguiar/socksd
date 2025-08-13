@@ -1072,7 +1072,57 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                       │      ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
 │                       │      ╰ LastModifiedDate: 2025-07-15T13:24:41.097Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2023-30571 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2025-5914 
+│                       │      ├ PkgID           : libarchive@3.5.3-5.el9_6.x86_64 
+│                       │      ├ PkgName         : libarchive 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&d
+│                       │      │                  │       istro=redhat-9.6 
+│                       │      │                  ╰ UID : a7c94e3205a5a5c1 
+│                       │      ├ InstalledVersion: 3.5.3-5.el9_6 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7
+│                       │      │                  │         f5d3a0bb20d8266abac4 
+│                       │      │                  ╰ DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061
+│                       │      │                            d8988cada9a6294711ff 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5914 
+│                       │      ├ Title           : libarchive: Double free at
+│                       │      │                   archive_read_format_rar_seek_data() in
+│                       │      │                   archive_read_support_format_rar.c 
+│                       │      ├ Description     : A vulnerability has been identified in the libarchive
+│                       │      │                   library, specifically within the
+│                       │      │                   archive_read_format_rar_seek_data() function. This flaw
+│                       │      │                   involves an integer overflow that can ultimately lead to a
+│                       │      │                   double-free condition. Exploiting a double-free
+│                       │      │                   vulnerability can result in memory corruption, enabling an
+│                       │      │                   attacker to execute arbitrary code or cause a
+│                       │      │                   denial-of-service condition. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-415 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ nvd   : 4 
+│                       │      │                  ├ photon: 4 
+│                       │      │                  ├ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 9.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5914 
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2370861 
+│                       │      │                  ├ [2]: https://github.com/libarchive/libarchive/pull/2598 
+│                       │      │                  ├ [3]: https://github.com/libarchive/libarchive/pull/2598/com
+│                       │      │                  │      mits/196029dd0a17cd17c916eada9085839032b76ec9 
+│                       │      │                  ├ [4]: https://github.com/libarchive/libarchive/releases/tag/
+│                       │      │                  │      v3.8.0 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-5914 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7601-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-5914 
+│                       │      ├ PublishedDate   : 2025-06-09T20:15:26.123Z 
+│                       │      ╰ LastModifiedDate: 2025-08-12T11:15:27.42Z 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │      ├ PkgID           : libarchive@3.5.3-5.el9_6.x86_64 
 │                       │      ├ PkgName         : libarchive 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&d
@@ -1115,7 +1165,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-30571 
 │                       │      ├ PublishedDate   : 2023-05-29T20:15:09.513Z 
 │                       │      ╰ LastModifiedDate: 2025-01-14T17:15:11.673Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2025-1632 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2025-1632 
 │                       │      ├ PkgID           : libarchive@3.5.3-5.el9_6.x86_64 
 │                       │      ├ PkgName         : libarchive 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&d
@@ -1161,56 +1211,6 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-1632 
 │                       │      ├ PublishedDate   : 2025-02-24T14:15:11.59Z 
 │                       │      ╰ LastModifiedDate: 2025-03-25T15:41:41.683Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2025-5914 
-│                       │      ├ PkgID           : libarchive@3.5.3-5.el9_6.x86_64 
-│                       │      ├ PkgName         : libarchive 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&d
-│                       │      │                  │       istro=redhat-9.6 
-│                       │      │                  ╰ UID : a7c94e3205a5a5c1 
-│                       │      ├ InstalledVersion: 3.5.3-5.el9_6 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7
-│                       │      │                  │         f5d3a0bb20d8266abac4 
-│                       │      │                  ╰ DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061
-│                       │      │                            d8988cada9a6294711ff 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5914 
-│                       │      ├ Title           : libarchive: Double free at
-│                       │      │                   archive_read_format_rar_seek_data() in
-│                       │      │                   archive_read_support_format_rar.c 
-│                       │      ├ Description     : A vulnerability has been identified in the libarchive
-│                       │      │                   library, specifically within the
-│                       │      │                   archive_read_format_rar_seek_data() function. This flaw
-│                       │      │                   involves an integer overflow that can ultimately lead to a
-│                       │      │                   double-free condition. Exploiting a double-free
-│                       │      │                   vulnerability can result in memory corruption, enabling an
-│                       │      │                   attacker to execute arbitrary code or cause a
-│                       │      │                   denial-of-service condition. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-415 
-│                       │      ├ VendorSeverity   ╭ amazon: 3 
-│                       │      │                  ├ nvd   : 4 
-│                       │      │                  ├ photon: 4 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
-│                       │      │                  │        │           /A:H 
-│                       │      │                  │        ╰ V3Score : 9.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 3.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5914 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2370861 
-│                       │      │                  ├ [2]: https://github.com/libarchive/libarchive/pull/2598 
-│                       │      │                  ├ [3]: https://github.com/libarchive/libarchive/pull/2598/com
-│                       │      │                  │      mits/196029dd0a17cd17c916eada9085839032b76ec9 
-│                       │      │                  ├ [4]: https://github.com/libarchive/libarchive/releases/tag/
-│                       │      │                  │      v3.8.0 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-5914 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7601-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-5914 
-│                       │      ├ PublishedDate   : 2025-06-09T20:15:26.123Z 
-│                       │      ╰ LastModifiedDate: 2025-06-20T14:49:44.393Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2025-5915 
 │                       │      ├ PkgID           : libarchive@3.5.3-5.el9_6.x86_64 
 │                       │      ├ PkgName         : libarchive 
@@ -2151,8 +2151,12 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-121 
 │                       │      ├ VendorSeverity   ╭ azure      : 1 
 │                       │      │                  ├ cbl-mariner: 1 
+│                       │      │                  ├ nvd        : 1 
 │                       │      │                  ╰ redhat     : 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:L 
+│                       │      │                  │        ╰ V3Score : 2.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 2.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6170 
@@ -2160,7 +2164,7 @@
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-6170 
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-6170 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:20.43Z 
-│                       │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                       │      ╰ LastModifiedDate: 2025-08-12T13:04:06.117Z 
 │                       ├ [39] ╭ VulnerabilityID : CVE-2022-29458 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2025:12876 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
@@ -3235,7 +3239,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3612,7 +3616,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3989,7 +3993,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
