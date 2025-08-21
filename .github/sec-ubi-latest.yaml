@@ -844,6 +844,7 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -881,6 +882,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -918,6 +920,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 3
@@ -959,6 +962,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -978,13 +982,16 @@
     PublishedDate: '2025-07-10T16:15:25.11Z'
     LastModifiedDate: '2025-07-15T13:24:41.097Z'
   - VulnerabilityID: CVE-2025-5914
+    VendorIDs:
+    - RHSA-2025:14130
     PkgID: libarchive@3.5.3-5.el9_6.x86_64
     PkgName: libarchive
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=redhat-9.6
       UID: a7c94e3205a5a5c1
     InstalledVersion: 3.5.3-5.el9_6
-    Status: affected
+    FixedVersion: 3.5.3-6.el9_6
+    Status: fixed
     Layer:
       Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
       DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
@@ -998,6 +1005,7 @@
     VendorSeverity:
       amazon: 3
       nvd: 4
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -1009,16 +1017,23 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:14130
+    - https://access.redhat.com/errata/RHSA-2025:14135
+    - https://access.redhat.com/errata/RHSA-2025:14137
+    - https://access.redhat.com/errata/RHSA-2025:14141
+    - https://access.redhat.com/errata/RHSA-2025:14142
     - https://access.redhat.com/security/cve/CVE-2025-5914
     - https://bugzilla.redhat.com/show_bug.cgi?id=2370861
     - https://github.com/libarchive/libarchive/pull/2598
     - https://github.com/libarchive/libarchive/pull/2598/commits/196029dd0a17cd17c916eada9085839032b76ec9
     - https://github.com/libarchive/libarchive/releases/tag/v3.8.0
+    - https://linux.oracle.com/cve/CVE-2025-5914.html
+    - https://linux.oracle.com/errata/ELSA-2025-14137.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5914
     - https://ubuntu.com/security/notices/USN-7601-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5914
     PublishedDate: '2025-06-09T20:15:26.123Z'
-    LastModifiedDate: '2025-08-12T11:15:27.42Z'
+    LastModifiedDate: '2025-08-20T15:15:35.48Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-5.el9_6.x86_64
     PkgName: libarchive
@@ -1984,6 +1999,7 @@
       cbl-mariner: 1
       nvd: 1
       redhat: 1
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
@@ -1994,7 +2010,9 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-6170
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372952
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/941
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6170
+    - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6170
     PublishedDate: '2025-06-16T16:15:20.43Z'
     LastModifiedDate: '2025-08-12T13:04:06.117Z'
@@ -3085,6 +3103,7 @@
     CweIDs:
     - CWE-835
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
     CVSS:
@@ -3394,6 +3413,7 @@
     CweIDs:
     - CWE-835
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
     CVSS:
@@ -3703,6 +3723,7 @@
     CweIDs:
     - CWE-835
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
     CVSS:
@@ -4090,7 +4111,7 @@
     - https://errata.almalinux.org/9/ALSA-2025-11992.html
     - https://errata.rockylinux.org/RLSA-2025:12010
     - https://linux.oracle.com/cve/CVE-2025-6965.html
-    - https://linux.oracle.com/errata/ELSA-2025-12349.html
+    - https://linux.oracle.com/errata/ELSA-2025-14101.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
     - https://ubuntu.com/security/notices/USN-7676-1
     - https://ubuntu.com/security/notices/USN-7679-1
@@ -4173,7 +4194,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -4189,9 +4212,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2005-2541
     PkgID: tar@1.34-7.el9.x86_64
     PkgName: tar
@@ -4240,7 +4264,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-45582
     Title: 'tar: Tar path traversal'
-    Description: GNU Tar through 1.35 allows file overwrite via directory traversal in crafted TAR archives, with a certain two-step process. First, the victim must extract an archive that contains a ../ symlink to a critical directory. Second, the victim must extract an archive that contains a critical file, specified via a relative pathname that begins with the symlink name and ends with that critical file's name. Here, the extraction follows the symlink and overwrites the critical file. This bypasses the protection mechanism of "Member name contains '..'" that would occur for a single TAR archive that attempted to specify the critical file via a ../ approach. For example, the first archive can contain "x -> ../../../../../home/victim/.ssh" and the second archive can contain x/authorized_keys. This can affect server applications that automatically extract any number of user-supplied TAR archives, and were relying on the blocking of traversal. This can also affect software installation processes in which "tar xf" is run more than once (e.g., when installing a package can automatically install two dependencies that are set up as untrusted tarballs instead of official packages).
+    Description: 'GNU Tar through 1.35 allows file overwrite via directory traversal in crafted TAR archives, with a certain two-step process. First, the victim must extract an archive that contains a ../ symlink to a critical directory. Second, the victim must extract an archive that contains a critical file, specified via a relative pathname that begins with the symlink name and ends with that critical file''s name. Here, the extraction follows the symlink and overwrites the critical file. This bypasses the protection mechanism of "Member name contains ''..''" that would occur for a single TAR archive that attempted to specify the critical file via a ../ approach. For example, the first archive can contain "x -> ../../../../../home/victim/.ssh" and the second archive can contain x/authorized_keys. This can affect server applications that automatically extract any number of user-supplied TAR archives, and were relying on the blocking of traversal. This can also affect software installation processes in which "tar xf" is run more than once (e.g., when installing a package can automatically install two dependencies that are set up as untrusted tarballs instead of official packages). NOTE: the official GNU Tar manual has an otherwise-empty directory for each "tar xf" in its Security Rules of Thumb; however, third-party advice leads users to run "tar xf" more than once into the same directory.'
     Severity: MEDIUM
     CweIDs:
     - CWE-24
@@ -4254,12 +4278,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-45582
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
+    - https://lists.gnu.org/archive/html/bug-tar/2025-08/msg00012.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-45582
     - https://www.cve.org/CVERecord?id=CVE-2025-45582
     - https://www.gnu.org/software/tar/
+    - https://www.gnu.org/software/tar/manual/html_node/Integrity.html
     - https://www.gnu.org/software/tar/manual/html_node/Integrity.html#Integrity
+    - https://www.gnu.org/software/tar/manual/html_node/Security-rules-of-thumb.html
     PublishedDate: '2025-07-11T17:15:37.183Z'
-    LastModifiedDate: '2025-07-17T13:09:39.997Z'
+    LastModifiedDate: '2025-08-18T04:15:36.743Z'
   - VulnerabilityID: CVE-2023-39804
     PkgID: tar@1.34-7.el9.x86_64
     PkgName: tar
