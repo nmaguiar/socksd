@@ -788,7 +788,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
-│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
@@ -1068,7 +1068,7 @@
 │                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7601-1 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5915 
 │                       │      ├ PublishedDate   : 2025-06-09T20:15:26.317Z 
-│                       │      ╰ LastModifiedDate: 2025-08-15T18:07:44.653Z 
+│                       │      ╰ LastModifiedDate: 2025-08-25T02:28:51.487Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2025-5916 
 │                       │      ├ PkgID           : libarchive@3.5.3-6.el9_6.x86_64 
 │                       │      ├ PkgName         : libarchive 
@@ -2944,10 +2944,11 @@
 │                       │      │                   ff8b33e1 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
-│                       │      ├ VendorSeverity   ╭ amazon : 3 
-│                       │      │                  ├ bitnami: 3 
-│                       │      │                  ├ redhat : 2 
-│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:H 
 │                       │      │                  │         ╰ V3Score : 7.5 
@@ -2967,12 +2968,14 @@
 │                       │      │                  │       aff6887f8ddf79b87b4510277227 
 │                       │      │                  ├ [6] : https://github.com/python/cpython/issues/130577 
 │                       │      │                  ├ [7] : https://github.com/python/cpython/pull/137027 
-│                       │      │                  ├ [8] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-8194.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-14560.html 
+│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D
 │                       │      │                  │       / 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7710-1 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7710-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
 │                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
 │                       │      ╰ LastModifiedDate: 2025-08-07T21:15:29.78Z 
 │                       ├ [57] ╭ VulnerabilityID : CVE-2024-0397 
@@ -3325,10 +3328,11 @@
 │                       │      │                   ff8b33e1 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
-│                       │      ├ VendorSeverity   ╭ amazon : 3 
-│                       │      │                  ├ bitnami: 3 
-│                       │      │                  ├ redhat : 2 
-│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:H 
 │                       │      │                  │         ╰ V3Score : 7.5 
@@ -3348,12 +3352,14 @@
 │                       │      │                  │       aff6887f8ddf79b87b4510277227 
 │                       │      │                  ├ [6] : https://github.com/python/cpython/issues/130577 
 │                       │      │                  ├ [7] : https://github.com/python/cpython/pull/137027 
-│                       │      │                  ├ [8] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-8194.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-14560.html 
+│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D
 │                       │      │                  │       / 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7710-1 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7710-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
 │                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
 │                       │      ╰ LastModifiedDate: 2025-08-07T21:15:29.78Z 
 │                       ├ [63] ╭ VulnerabilityID : CVE-2024-0397 
@@ -3706,10 +3712,11 @@
 │                       │      │                   ff8b33e1 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
-│                       │      ├ VendorSeverity   ╭ amazon : 3 
-│                       │      │                  ├ bitnami: 3 
-│                       │      │                  ├ redhat : 2 
-│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:H 
 │                       │      │                  │         ╰ V3Score : 7.5 
@@ -3729,12 +3736,14 @@
 │                       │      │                  │       aff6887f8ddf79b87b4510277227 
 │                       │      │                  ├ [6] : https://github.com/python/cpython/issues/130577 
 │                       │      │                  ├ [7] : https://github.com/python/cpython/pull/137027 
-│                       │      │                  ├ [8] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-8194.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-14560.html 
+│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D
 │                       │      │                  │       / 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7710-1 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7710-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
 │                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
 │                       │      ╰ LastModifiedDate: 2025-08-07T21:15:29.78Z 
 │                       ├ [69] ╭ VulnerabilityID : CVE-2024-0397 
