@@ -1134,22 +1134,23 @@
 │                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:14525 
 │                       │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:14528 
 │                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:14594 
-│                       │      │                  ├ [8] : https://access.redhat.com/security/cve/CVE-2025-5914 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2370861 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2370861 
-│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2025-14130.html 
-│                       │      │                  ├ [12]: https://github.com/libarchive/libarchive/pull/2598 
-│                       │      │                  ├ [13]: https://github.com/libarchive/libarchive/pull/2598/co
+│                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:14644 
+│                       │      │                  ├ [9] : https://access.redhat.com/security/cve/CVE-2025-5914 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2370861 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2370861 
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2025-14130.html 
+│                       │      │                  ├ [13]: https://github.com/libarchive/libarchive/pull/2598 
+│                       │      │                  ├ [14]: https://github.com/libarchive/libarchive/pull/2598/co
 │                       │      │                  │       mmits/196029dd0a17cd17c916eada9085839032b76ec9 
-│                       │      │                  ├ [14]: https://github.com/libarchive/libarchive/releases/tag
+│                       │      │                  ├ [15]: https://github.com/libarchive/libarchive/releases/tag
 │                       │      │                  │       /v3.8.0 
-│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2025-5914.html 
-│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2025-14137.html 
-│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2025-5914 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7601-1 
-│                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2025-5914 
+│                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-5914.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-14137.html 
+│                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2025-5914 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7601-1 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-5914 
 │                       │      ├ PublishedDate   : 2025-06-09T20:15:26.123Z 
-│                       │      ╰ LastModifiedDate: 2025-08-26T10:15:35.527Z 
+│                       │      ╰ LastModifiedDate: 2025-08-27T16:15:36.733Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │      ├ PkgID           : libarchive@3.5.3-5.el9_6.x86_64 
 │                       │      ├ PkgName         : libarchive 
@@ -1892,7 +1893,8 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.8 
@@ -4805,7 +4807,7 @@
 │                       │      │                  ╰ [22]: https://www.qualys.com/2025/05/29/apport-coredump/app
 │                       │      │                          ort-coredump.txt 
 │                       │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │      ╰ LastModifiedDate: 2025-08-18T16:15:28.447Z 
+│                       │      ╰ LastModifiedDate: 2025-08-27T17:16:21.22Z 
 │                       ├ [87] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │      ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                       │      ├ PkgName         : tar 
