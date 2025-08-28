@@ -4248,7 +4248,7 @@
 │                       │      │                  ╰ [22]: https://www.qualys.com/2025/05/29/apport-coredump/app
 │                       │      │                          ort-coredump.txt 
 │                       │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │      ╰ LastModifiedDate: 2025-08-18T16:15:28.447Z 
+│                       │      ╰ LastModifiedDate: 2025-08-27T17:16:21.22Z 
 │                       ├ [77] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │      ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                       │      ├ PkgName         : tar 
