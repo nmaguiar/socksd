@@ -3020,7 +3020,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -3119,6 +3119,7 @@
     CweIDs:
     - CWE-835
     VendorSeverity:
+      alma: 2
       amazon: 3
       azure: 3
       bitnami: 3
@@ -3133,7 +3134,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:14841
     - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://bugzilla.redhat.com/2384043
+    - https://errata.almalinux.org/8/ALSA-2025-14841.html
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
     - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
@@ -3142,7 +3146,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-14560.html
+    - https://linux.oracle.com/errata/ELSA-2025-14841.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -3337,7 +3341,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -3436,6 +3440,7 @@
     CweIDs:
     - CWE-835
     VendorSeverity:
+      alma: 2
       amazon: 3
       azure: 3
       bitnami: 3
@@ -3450,7 +3455,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:14841
     - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://bugzilla.redhat.com/2384043
+    - https://errata.almalinux.org/8/ALSA-2025-14841.html
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
     - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
@@ -3459,7 +3467,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-14560.html
+    - https://linux.oracle.com/errata/ELSA-2025-14841.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -3654,7 +3662,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -3753,6 +3761,7 @@
     CweIDs:
     - CWE-835
     VendorSeverity:
+      alma: 2
       amazon: 3
       azure: 3
       bitnami: 3
@@ -3767,7 +3776,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:14841
     - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://bugzilla.redhat.com/2384043
+    - https://errata.almalinux.org/8/ALSA-2025-14841.html
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
     - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
@@ -3776,7 +3788,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-14560.html
+    - https://linux.oracle.com/errata/ELSA-2025-14841.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
