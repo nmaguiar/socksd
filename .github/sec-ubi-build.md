@@ -2578,12 +2578,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8941 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:14557 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-8941 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
-│                       │      ╰ LastModifiedDate: 2025-08-13T17:33:46.673Z 
+│                       │      ╰ LastModifiedDate: 2025-09-01T09:15:34.68Z 
 │                       ├ [49] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │      ├ PkgID           : pcre2@10.40-6.el9.x86_64 
 │                       │      ├ PkgName         : pcre2 
@@ -2957,31 +2958,32 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:14841 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:14900 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-8194 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2384043 
-│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-14841.html 
-│                       │      │                  ├ [4] : https://gist.github.com/sethmlarson/1716ac5b82b73dbcb
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2366982 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2384043 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-14900.html 
+│                       │      │                  ├ [5] : https://gist.github.com/sethmlarson/1716ac5b82b73dbcb
 │                       │      │                  │       f23ad2eff8b33e1 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/7040aa54f146
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/7040aa54f146
 │                       │      │                  │       76938970e10c5f74ea93cd56aa38 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/c9d9f78feb14
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/c9d9f78feb14
 │                       │      │                  │       67e73fd29356c040bde1c104f29f 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/cdae923ffe18
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/cdae923ffe18
 │                       │      │                  │       7d6ef916c0f665a31249619193fe 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/fbc2a0ca9ac8
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/fbc2a0ca9ac8
 │                       │      │                  │       aff6887f8ddf79b87b4510277227 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/130577 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/137027 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-8194.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-14900.html 
-│                       │      │                  ├ [13]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [10]: https://github.com/python/cpython/issues/130577 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/pull/137027 
+│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-8194.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-14900.html 
+│                       │      │                  ├ [14]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D
 │                       │      │                  │       / 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7710-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7710-2 
-│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7710-1 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7710-2 
+│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
 │                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
 │                       │      ╰ LastModifiedDate: 2025-08-07T21:15:29.78Z 
 │                       ├ [57] ╭ VulnerabilityID : CVE-2024-0397 
@@ -3267,31 +3269,32 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:14841 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:14900 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-8194 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2384043 
-│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-14841.html 
-│                       │      │                  ├ [4] : https://gist.github.com/sethmlarson/1716ac5b82b73dbcb
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2366982 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2384043 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-14900.html 
+│                       │      │                  ├ [5] : https://gist.github.com/sethmlarson/1716ac5b82b73dbcb
 │                       │      │                  │       f23ad2eff8b33e1 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/7040aa54f146
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/7040aa54f146
 │                       │      │                  │       76938970e10c5f74ea93cd56aa38 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/c9d9f78feb14
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/c9d9f78feb14
 │                       │      │                  │       67e73fd29356c040bde1c104f29f 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/cdae923ffe18
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/cdae923ffe18
 │                       │      │                  │       7d6ef916c0f665a31249619193fe 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/fbc2a0ca9ac8
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/fbc2a0ca9ac8
 │                       │      │                  │       aff6887f8ddf79b87b4510277227 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/130577 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/137027 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-8194.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-14900.html 
-│                       │      │                  ├ [13]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [10]: https://github.com/python/cpython/issues/130577 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/pull/137027 
+│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-8194.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-14900.html 
+│                       │      │                  ├ [14]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D
 │                       │      │                  │       / 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7710-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7710-2 
-│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7710-1 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7710-2 
+│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
 │                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
 │                       │      ╰ LastModifiedDate: 2025-08-07T21:15:29.78Z 
 │                       ├ [62] ╭ VulnerabilityID : CVE-2024-0397 
@@ -3577,31 +3580,32 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:14841 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:14900 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-8194 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2384043 
-│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-14841.html 
-│                       │      │                  ├ [4] : https://gist.github.com/sethmlarson/1716ac5b82b73dbcb
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2366982 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2384043 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-14900.html 
+│                       │      │                  ├ [5] : https://gist.github.com/sethmlarson/1716ac5b82b73dbcb
 │                       │      │                  │       f23ad2eff8b33e1 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/7040aa54f146
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/7040aa54f146
 │                       │      │                  │       76938970e10c5f74ea93cd56aa38 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/c9d9f78feb14
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/c9d9f78feb14
 │                       │      │                  │       67e73fd29356c040bde1c104f29f 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/cdae923ffe18
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/cdae923ffe18
 │                       │      │                  │       7d6ef916c0f665a31249619193fe 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/fbc2a0ca9ac8
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/fbc2a0ca9ac8
 │                       │      │                  │       aff6887f8ddf79b87b4510277227 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/130577 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/137027 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-8194.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-14900.html 
-│                       │      │                  ├ [13]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [10]: https://github.com/python/cpython/issues/130577 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/pull/137027 
+│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-8194.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-14900.html 
+│                       │      │                  ├ [14]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D
 │                       │      │                  │       / 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7710-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7710-2 
-│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7710-1 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7710-2 
+│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
 │                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
 │                       │      ╰ LastModifiedDate: 2025-08-07T21:15:29.78Z 
 │                       ├ [67] ╭ VulnerabilityID : CVE-2024-0397 
@@ -3981,7 +3985,8 @@
 │                       │      │                   original binary, affecting data confidentiality. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-364 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
