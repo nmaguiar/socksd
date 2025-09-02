@@ -2312,12 +2312,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:14557
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-08-13T17:33:46.673Z'
+    LastModifiedDate: '2025-09-01T09:15:34.68Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
@@ -2650,10 +2651,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:14841
+    - https://access.redhat.com/errata/RHSA-2025:14900
     - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://bugzilla.redhat.com/2366982
     - https://bugzilla.redhat.com/2384043
-    - https://errata.almalinux.org/8/ALSA-2025-14841.html
+    - https://errata.almalinux.org/8/ALSA-2025-14900.html
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
     - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
@@ -2902,10 +2904,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:14841
+    - https://access.redhat.com/errata/RHSA-2025:14900
     - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://bugzilla.redhat.com/2366982
     - https://bugzilla.redhat.com/2384043
-    - https://errata.almalinux.org/8/ALSA-2025-14841.html
+    - https://errata.almalinux.org/8/ALSA-2025-14900.html
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
     - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
@@ -3154,10 +3157,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:14841
+    - https://access.redhat.com/errata/RHSA-2025:14900
     - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://bugzilla.redhat.com/2366982
     - https://bugzilla.redhat.com/2384043
-    - https://errata.almalinux.org/8/ALSA-2025-14841.html
+    - https://errata.almalinux.org/8/ALSA-2025-14900.html
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
     - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
@@ -3484,6 +3488,7 @@
     CweIDs:
     - CWE-364
     VendorSeverity:
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 2
       redhat: 2
