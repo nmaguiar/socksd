@@ -602,6 +602,32 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-3360
     PublishedDate: '2025-04-07T13:15:43.687Z'
     LastModifiedDate: '2025-04-14T12:15:16.087Z'
+  - VulnerabilityID: CVE-2025-7039
+    PkgID: glib2@2.68.4-16.el9_6.2.x86_64
+    PkgName: glib2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glib2@2.68.4-16.el9_6.2?arch=x86_64&distro=redhat-9.6
+      UID: 767a0eef3fd3b86c
+    InstalledVersion: 2.68.4-16.el9_6.2
+    Status: under_investigation
+    Layer:
+      Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
+      DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-7039
+    Title: 'glib: Buffer Under-read on GLib through glib/gfileutils.c via get_tmp_file()'
+    Description: No description is available for this CVE.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-7039
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-7039
+    - https://www.cve.org/CVERecord?id=CVE-2025-7039
   - VulnerabilityID: CVE-2025-8058
     VendorIDs:
     - RHSA-2025:12748
@@ -632,6 +658,7 @@
     VendorSeverity:
       alma: 2
       oracle-oval: 2
+      photon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -680,6 +707,7 @@
     VendorSeverity:
       alma: 2
       oracle-oval: 2
+      photon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -728,6 +756,7 @@
     VendorSeverity:
       alma: 2
       oracle-oval: 2
+      photon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -1034,6 +1063,7 @@
     - https://access.redhat.com/errata/RHSA-2025:14808
     - https://access.redhat.com/errata/RHSA-2025:14810
     - https://access.redhat.com/errata/RHSA-2025:14828
+    - https://access.redhat.com/errata/RHSA-2025:15024
     - https://access.redhat.com/security/cve/CVE-2025-5914
     - https://bugzilla.redhat.com/2370861
     - https://bugzilla.redhat.com/show_bug.cgi?id=2370861
@@ -1047,7 +1077,7 @@
     - https://ubuntu.com/security/notices/USN-7601-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5914
     PublishedDate: '2025-06-09T20:15:26.123Z'
-    LastModifiedDate: '2025-08-28T09:15:38Z'
+    LastModifiedDate: '2025-09-02T03:15:42.52Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-5.el9_6.x86_64
     PkgName: libarchive
@@ -1866,6 +1896,19 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-32415
     PublishedDate: '2025-04-17T17:15:33.733Z'
     LastModifiedDate: '2025-04-23T18:17:52.053Z'
+  - VulnerabilityID: CVE-2025-9714
+    PkgID: libxml2@2.9.13-10.el9_6.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-10.el9_6?arch=x86_64&distro=redhat-9.6
+      UID: db2c4af72d0bcd9d
+    InstalledVersion: 2.9.13-10.el9_6
+    Status: affected
+    Layer:
+      Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
+      DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
+    SeveritySource: redhat
+    Severity: MEDIUM
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-10.el9_6.x86_64
     PkgName: libxml2
@@ -3023,7 +3066,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -3104,13 +3147,16 @@
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
   - VulnerabilityID: CVE-2025-8194
+    VendorIDs:
+    - RHSA-2025:15019
     PkgID: python-unversioned-command@3.9.21-2.el9_6.1.noarch
     PkgName: python-unversioned-command
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9_6.1?arch=noarch&distro=redhat-9.6
       UID: 99ffda1602f1c410
     InstalledVersion: 3.9.21-2.el9_6.1
-    Status: affected
+    FixedVersion: 3.9.21-2.el9_6.2
+    Status: fixed
     Layer:
       Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
       DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
@@ -3150,7 +3196,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-14900.html
+    - https://linux.oracle.com/errata/ELSA-2025-15010.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -3276,7 +3322,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -3357,13 +3403,16 @@
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
   - VulnerabilityID: CVE-2025-8194
+    VendorIDs:
+    - RHSA-2025:15019
     PkgID: python3@3.9.21-2.el9_6.1.x86_64
     PkgName: python3
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
       UID: a3e9ccf041b88b25
     InstalledVersion: 3.9.21-2.el9_6.1
-    Status: affected
+    FixedVersion: 3.9.21-2.el9_6.2
+    Status: fixed
     Layer:
       Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
       DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
@@ -3403,7 +3452,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-14900.html
+    - https://linux.oracle.com/errata/ELSA-2025-15010.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -3529,7 +3578,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -3610,13 +3659,16 @@
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
   - VulnerabilityID: CVE-2025-8194
+    VendorIDs:
+    - RHSA-2025:15019
     PkgID: python3-libs@3.9.21-2.el9_6.1.x86_64
     PkgName: python3-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
       UID: b995334fc20d0c5c
     InstalledVersion: 3.9.21-2.el9_6.1
-    Status: affected
+    FixedVersion: 3.9.21-2.el9_6.2
+    Status: fixed
     Layer:
       Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
       DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
@@ -3656,7 +3708,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-14900.html
+    - https://linux.oracle.com/errata/ELSA-2025-15010.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
