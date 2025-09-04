@@ -616,7 +616,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-7039
     Title: 'glib: Buffer Under-read on GLib through glib/gfileutils.c via get_tmp_file()'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in glib. An integer overflow during temporary file creation leads to an out-of-bounds memory access, allowing an attacker to potentially perform path traversal or access private temporary file content by creating symbolic links. This vulnerability allows a local attacker to manipulate file paths and access unauthorized data. The core issue stems from insufficient validation of file path lengths during temporary file operations.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -1908,7 +1908,22 @@
       Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
       DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
     SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9714
+    Title: 'libxslt: libxml2: Inifinite recursion at exsltDynMapFunction function in libexslt/dynamic.c'
+    Description: A flaw was found in libxstl/libxml2. The 'exsltDynMapFunction' function in libexslt/dynamic.c does not contain a recursion depth check, which may cause an infinite loop via a specially crafted XSLT document while handling 'dyn:map()', leading to stack exhaustion and a local denial of service.
     Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9714
+    - https://gitlab.gnome.org/GNOME/libxml2/-/commit/677a42645ef22b5a50741bad5facf9d8a8bc6d21
+    - https://gitlab.gnome.org/GNOME/libxslt/-/issues/148
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9714
+    - https://www.cve.org/CVERecord?id=CVE-2025-9714
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-10.el9_6.x86_64
     PkgName: libxml2
@@ -2816,14 +2831,82 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
-  - VulnerabilityID: CVE-2025-8941
+  - VulnerabilityID: CVE-2025-6020
+    VendorIDs:
+    - RHSA-2025:15099
     PkgID: pam@1.5.1-25.el9_6.x86_64
     PkgName: pam
     PkgIdentifier:
       PURL: pkg:rpm/redhat/pam@1.5.1-25.el9_6?arch=x86_64&distro=redhat-9.6
       UID: cd8d73a6c0d2be2a
     InstalledVersion: 1.5.1-25.el9_6
-    Status: affected
+    FixedVersion: 1.5.1-26.el9_6
+    Status: fixed
+    Layer:
+      Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
+      DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6020
+    Title: 'linux-pam: Linux-pam directory Traversal'
+    Description: A flaw was found in linux-pam. The module pam_namespace may use access user-controlled paths without proper protection, allowing local users to elevate their privileges to root via multiple symlink attacks and race conditions.
+    Severity: HIGH
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      azure: 3
+      cbl-mariner: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/errata/RHSA-2025:10024
+    - https://access.redhat.com/errata/RHSA-2025:10027
+    - https://access.redhat.com/errata/RHSA-2025:10180
+    - https://access.redhat.com/errata/RHSA-2025:10354
+    - https://access.redhat.com/errata/RHSA-2025:10357
+    - https://access.redhat.com/errata/RHSA-2025:10358
+    - https://access.redhat.com/errata/RHSA-2025:10359
+    - https://access.redhat.com/errata/RHSA-2025:10361
+    - https://access.redhat.com/errata/RHSA-2025:10362
+    - https://access.redhat.com/errata/RHSA-2025:10735
+    - https://access.redhat.com/errata/RHSA-2025:10823
+    - https://access.redhat.com/errata/RHSA-2025:11386
+    - https://access.redhat.com/errata/RHSA-2025:11487
+    - https://access.redhat.com/errata/RHSA-2025:14557
+    - https://access.redhat.com/errata/RHSA-2025:9526
+    - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
+    - https://errata.almalinux.org/9/ALSA-2025-9526.html
+    - https://errata.rockylinux.org/RLSA-2025:10027
+    - https://linux.oracle.com/cve/CVE-2025-6020.html
+    - https://linux.oracle.com/errata/ELSA-2025-9526.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
+    - https://ubuntu.com/security/notices/USN-7580-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6020
+    - https://www.openwall.com/lists/oss-security/2025/06/17/1
+    PublishedDate: '2025-06-17T13:15:21.66Z'
+    LastModifiedDate: '2025-08-26T03:15:30.12Z'
+  - VulnerabilityID: CVE-2025-8941
+    VendorIDs:
+    - RHSA-2025:15099
+    PkgID: pam@1.5.1-25.el9_6.x86_64
+    PkgName: pam
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/pam@1.5.1-25.el9_6?arch=x86_64&distro=redhat-9.6
+      UID: cd8d73a6c0d2be2a
+    InstalledVersion: 1.5.1-25.el9_6
+    FixedVersion: 1.5.1-26.el9_6
+    Status: fixed
     Layer:
       Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
       DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
@@ -2835,6 +2918,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       redhat: 3
     CVSS:
       redhat:
@@ -2842,8 +2926,12 @@
         V3Score: 7.8
     References:
     - https://access.redhat.com/errata/RHSA-2025:14557
+    - https://access.redhat.com/errata/RHSA-2025:15099
     - https://access.redhat.com/security/cve/CVE-2025-8941
+    - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
@@ -3196,7 +3284,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-15010.html
+    - https://linux.oracle.com/errata/ELSA-2025-15019.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -3452,7 +3540,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-15010.html
+    - https://linux.oracle.com/errata/ELSA-2025-15019.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -3708,7 +3796,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-15010.html
+    - https://linux.oracle.com/errata/ELSA-2025-15019.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
