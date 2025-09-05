@@ -618,6 +618,8 @@
     Title: 'glib: Buffer Under-read on GLib through glib/gfileutils.c via get_tmp_file()'
     Description: A flaw was found in glib. An integer overflow during temporary file creation leads to an out-of-bounds memory access, allowing an attacker to potentially perform path traversal or access private temporary file content by creating symbolic links. This vulnerability allows a local attacker to manipulate file paths and access unauthorized data. The core issue stems from insufficient validation of file path lengths during temporary file operations.
     Severity: LOW
+    CweIDs:
+    - CWE-22
     VendorSeverity:
       redhat: 1
     CVSS:
@@ -626,8 +628,11 @@
         V3Score: 3.7
     References:
     - https://access.redhat.com/security/cve/CVE-2025-7039
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2392423
     - https://nvd.nist.gov/vuln/detail/CVE-2025-7039
     - https://www.cve.org/CVERecord?id=CVE-2025-7039
+    PublishedDate: '2025-09-03T02:15:38.12Z'
+    LastModifiedDate: '2025-09-04T15:36:56.447Z'
   - VulnerabilityID: CVE-2025-8058
     VendorIDs:
     - RHSA-2025:12748
@@ -1217,6 +1222,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      azure: 1
       nvd: 2
       redhat: 1
       ubuntu: 2
@@ -1258,6 +1264,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 2
+      azure: 1
       nvd: 2
       redhat: 1
       ubuntu: 2
@@ -1297,6 +1304,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 1
       nvd: 2
       redhat: 1
     CVSS:
@@ -1750,6 +1758,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -1773,6 +1782,7 @@
     - https://access.redhat.com/errata/RHSA-2025:13622
     - https://access.redhat.com/errata/RHSA-2025:14059
     - https://access.redhat.com/errata/RHSA-2025:14396
+    - https://access.redhat.com/errata/RHSA-2025:14819
     - https://access.redhat.com/security/cve/CVE-2025-7425
     - https://bugzilla.redhat.com/2379274
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379274
@@ -1783,7 +1793,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-7425
     - https://www.cve.org/CVERecord?id=CVE-2025-7425
     PublishedDate: '2025-07-10T14:15:27.877Z'
-    LastModifiedDate: '2025-08-27T22:15:58.397Z'
+    LastModifiedDate: '2025-09-02T20:15:37.66Z'
   - VulnerabilityID: CVE-2025-32414
     VendorIDs:
     - RHSA-2025:13428
@@ -2881,6 +2891,7 @@
     - https://access.redhat.com/errata/RHSA-2025:11386
     - https://access.redhat.com/errata/RHSA-2025:11487
     - https://access.redhat.com/errata/RHSA-2025:14557
+    - https://access.redhat.com/errata/RHSA-2025:15099
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -2895,7 +2906,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-08-26T03:15:30.12Z'
+    LastModifiedDate: '2025-09-03T03:15:38.973Z'
   - VulnerabilityID: CVE-2025-8941
     VendorIDs:
     - RHSA-2025:15099
@@ -2919,6 +2930,7 @@
     - CWE-22
     VendorSeverity:
       alma: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -2927,15 +2939,25 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:14557
     - https://access.redhat.com/errata/RHSA-2025:15099
+    - https://access.redhat.com/errata/RHSA-2025:15100
+    - https://access.redhat.com/errata/RHSA-2025:15101
+    - https://access.redhat.com/errata/RHSA-2025:15102
+    - https://access.redhat.com/errata/RHSA-2025:15103
+    - https://access.redhat.com/errata/RHSA-2025:15104
+    - https://access.redhat.com/errata/RHSA-2025:15105
+    - https://access.redhat.com/errata/RHSA-2025:15106
+    - https://access.redhat.com/errata/RHSA-2025:15107
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://linux.oracle.com/cve/CVE-2025-8941.html
+    - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-09-01T09:15:34.68Z'
+    LastModifiedDate: '2025-09-03T03:15:39.39Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
@@ -3292,63 +3314,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
     LastModifiedDate: '2025-08-07T21:15:29.78Z'
-  - VulnerabilityID: CVE-2024-0397
-    PkgID: python-unversioned-command@3.9.21-2.el9_6.1.noarch
-    PkgName: python-unversioned-command
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9_6.1?arch=noarch&distro=redhat-9.6
-      UID: 99ffda1602f1c410
-    InstalledVersion: 3.9.21-2.el9_6.1
-    Status: affected
-    Layer:
-      Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
-      DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0397
-    Title: 'cpython: python: Memory race condition in ssl.SSLContext certificate store methods'
-    Description: |-
-      A defect was discovered in the Python “ssl” module where there is a memory
-      race condition with the ssl.SSLContext methods “cert_store_stats()” and
-      “get_ca_certs()”. The race condition can be triggered if the methods are
-      called at the same time as certificates are loaded into the SSLContext,
-      such as during the TLS handshake with a certificate directory configured.
-      This issue is fixed in CPython 3.10.14, 3.11.9, 3.12.3, and 3.13.0a5.
-    Severity: LOW
-    CweIDs:
-    - CWE-362
-    VendorSeverity:
-      amazon: 2
-      azure: 3
-      bitnami: 3
-      cbl-mariner: 3
-      redhat: 1
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H
-        V3Score: 7.4
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/06/17/2
-    - https://access.redhat.com/security/cve/CVE-2024-0397
-    - https://github.com/python/cpython/commit/01c37f1d0714f5822d34063ca7180b595abf589d
-    - https://github.com/python/cpython/commit/29c97287d205bf2f410f4895ebce3f43b5160524
-    - https://github.com/python/cpython/commit/37324b421b72b7bc9934e27aba85d48d4773002e
-    - https://github.com/python/cpython/commit/542f3272f56f31ed04e74c40635a913fbc12d286
-    - https://github.com/python/cpython/commit/b228655c227b2ca298a8ffac44d14ce3d22f6faa
-    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab
-    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab (3.13)
-    - https://github.com/python/cpython/issues/114572
-    - https://github.com/python/cpython/pull/114573
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
-    - https://security.netapp.com/advisory/ntap-20250411-0006/
-    - https://ubuntu.com/security/notices/USN-6928-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-0397
-    PublishedDate: '2024-06-17T16:15:10.217Z'
-    LastModifiedDate: '2025-04-11T22:15:28.65Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python-unversioned-command@3.9.21-2.el9_6.1.noarch
     PkgName: python-unversioned-command
@@ -3548,63 +3513,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
     LastModifiedDate: '2025-08-07T21:15:29.78Z'
-  - VulnerabilityID: CVE-2024-0397
-    PkgID: python3@3.9.21-2.el9_6.1.x86_64
-    PkgName: python3
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
-      UID: a3e9ccf041b88b25
-    InstalledVersion: 3.9.21-2.el9_6.1
-    Status: affected
-    Layer:
-      Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
-      DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0397
-    Title: 'cpython: python: Memory race condition in ssl.SSLContext certificate store methods'
-    Description: |-
-      A defect was discovered in the Python “ssl” module where there is a memory
-      race condition with the ssl.SSLContext methods “cert_store_stats()” and
-      “get_ca_certs()”. The race condition can be triggered if the methods are
-      called at the same time as certificates are loaded into the SSLContext,
-      such as during the TLS handshake with a certificate directory configured.
-      This issue is fixed in CPython 3.10.14, 3.11.9, 3.12.3, and 3.13.0a5.
-    Severity: LOW
-    CweIDs:
-    - CWE-362
-    VendorSeverity:
-      amazon: 2
-      azure: 3
-      bitnami: 3
-      cbl-mariner: 3
-      redhat: 1
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H
-        V3Score: 7.4
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/06/17/2
-    - https://access.redhat.com/security/cve/CVE-2024-0397
-    - https://github.com/python/cpython/commit/01c37f1d0714f5822d34063ca7180b595abf589d
-    - https://github.com/python/cpython/commit/29c97287d205bf2f410f4895ebce3f43b5160524
-    - https://github.com/python/cpython/commit/37324b421b72b7bc9934e27aba85d48d4773002e
-    - https://github.com/python/cpython/commit/542f3272f56f31ed04e74c40635a913fbc12d286
-    - https://github.com/python/cpython/commit/b228655c227b2ca298a8ffac44d14ce3d22f6faa
-    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab
-    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab (3.13)
-    - https://github.com/python/cpython/issues/114572
-    - https://github.com/python/cpython/pull/114573
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
-    - https://security.netapp.com/advisory/ntap-20250411-0006/
-    - https://ubuntu.com/security/notices/USN-6928-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-0397
-    PublishedDate: '2024-06-17T16:15:10.217Z'
-    LastModifiedDate: '2025-04-11T22:15:28.65Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3@3.9.21-2.el9_6.1.x86_64
     PkgName: python3
@@ -3804,63 +3712,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
     LastModifiedDate: '2025-08-07T21:15:29.78Z'
-  - VulnerabilityID: CVE-2024-0397
-    PkgID: python3-libs@3.9.21-2.el9_6.1.x86_64
-    PkgName: python3-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.1?arch=x86_64&distro=redhat-9.6
-      UID: b995334fc20d0c5c
-    InstalledVersion: 3.9.21-2.el9_6.1
-    Status: affected
-    Layer:
-      Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
-      DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0397
-    Title: 'cpython: python: Memory race condition in ssl.SSLContext certificate store methods'
-    Description: |-
-      A defect was discovered in the Python “ssl” module where there is a memory
-      race condition with the ssl.SSLContext methods “cert_store_stats()” and
-      “get_ca_certs()”. The race condition can be triggered if the methods are
-      called at the same time as certificates are loaded into the SSLContext,
-      such as during the TLS handshake with a certificate directory configured.
-      This issue is fixed in CPython 3.10.14, 3.11.9, 3.12.3, and 3.13.0a5.
-    Severity: LOW
-    CweIDs:
-    - CWE-362
-    VendorSeverity:
-      amazon: 2
-      azure: 3
-      bitnami: 3
-      cbl-mariner: 3
-      redhat: 1
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H
-        V3Score: 7.4
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/06/17/2
-    - https://access.redhat.com/security/cve/CVE-2024-0397
-    - https://github.com/python/cpython/commit/01c37f1d0714f5822d34063ca7180b595abf589d
-    - https://github.com/python/cpython/commit/29c97287d205bf2f410f4895ebce3f43b5160524
-    - https://github.com/python/cpython/commit/37324b421b72b7bc9934e27aba85d48d4773002e
-    - https://github.com/python/cpython/commit/542f3272f56f31ed04e74c40635a913fbc12d286
-    - https://github.com/python/cpython/commit/b228655c227b2ca298a8ffac44d14ce3d22f6faa
-    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab
-    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab (3.13)
-    - https://github.com/python/cpython/issues/114572
-    - https://github.com/python/cpython/pull/114573
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
-    - https://security.netapp.com/advisory/ntap-20250411-0006/
-    - https://ubuntu.com/security/notices/USN-6928-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-0397
-    PublishedDate: '2024-06-17T16:15:10.217Z'
-    LastModifiedDate: '2025-04-11T22:15:28.65Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3-libs@3.9.21-2.el9_6.1.x86_64
     PkgName: python3-libs
