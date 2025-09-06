@@ -1782,7 +1782,10 @@
     - https://access.redhat.com/errata/RHSA-2025:13622
     - https://access.redhat.com/errata/RHSA-2025:14059
     - https://access.redhat.com/errata/RHSA-2025:14396
+    - https://access.redhat.com/errata/RHSA-2025:14818
     - https://access.redhat.com/errata/RHSA-2025:14819
+    - https://access.redhat.com/errata/RHSA-2025:14853
+    - https://access.redhat.com/errata/RHSA-2025:14858
     - https://access.redhat.com/security/cve/CVE-2025-7425
     - https://bugzilla.redhat.com/2379274
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379274
@@ -1793,7 +1796,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-7425
     - https://www.cve.org/CVERecord?id=CVE-2025-7425
     PublishedDate: '2025-07-10T14:15:27.877Z'
-    LastModifiedDate: '2025-09-02T20:15:37.66Z'
+    LastModifiedDate: '2025-09-04T21:15:37.2Z'
   - VulnerabilityID: CVE-2025-32414
     VendorIDs:
     - RHSA-2025:13428
@@ -3176,7 +3179,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -3375,7 +3378,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -3574,7 +3577,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
