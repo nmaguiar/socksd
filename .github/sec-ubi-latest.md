@@ -1960,18 +1960,21 @@
 │                       │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:13622 
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:14059 
 │                       │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:14396 
-│                       │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:14819 
-│                       │      │                  ├ [16]: https://access.redhat.com/security/cve/CVE-2025-7425 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2379274 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
-│                       │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
-│                       │      │                  ├ [20]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
-│                       │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2025-7425.html 
-│                       │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-13464.html 
-│                       │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
-│                       │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
+│                       │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:14818 
+│                       │      │                  ├ [16]: https://access.redhat.com/errata/RHSA-2025:14819 
+│                       │      │                  ├ [17]: https://access.redhat.com/errata/RHSA-2025:14853 
+│                       │      │                  ├ [18]: https://access.redhat.com/errata/RHSA-2025:14858 
+│                       │      │                  ├ [19]: https://access.redhat.com/security/cve/CVE-2025-7425 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/2379274 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
+│                       │      │                  ├ [23]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-7425.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-13464.html 
+│                       │      │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
+│                       │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
 │                       │      ├ PublishedDate   : 2025-07-10T14:15:27.877Z 
-│                       │      ╰ LastModifiedDate: 2025-09-02T20:15:37.66Z 
+│                       │      ╰ LastModifiedDate: 2025-09-04T21:15:37.2Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2025-32414 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2025:13428 
 │                       │      ├ PkgID           : libxml2@2.9.13-10.el9_6.x86_64 
@@ -3489,7 +3492,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3732,7 +3735,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3975,7 +3978,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
