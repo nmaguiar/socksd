@@ -1016,7 +1016,8 @@
 │                       │      │                  │      y/004883.html 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
 │                       │      ├ PublishedDate   : 2025-07-10T08:15:24.223Z 
 │                       │      ╰ LastModifiedDate: 2025-08-21T15:37:20.973Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2025-32989 
@@ -1106,7 +1107,8 @@
 │                       │      │                  │      y/004883.html 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
 │                       │      ├ PublishedDate   : 2025-07-10T10:15:33.06Z 
 │                       │      ╰ LastModifiedDate: 2025-08-15T19:32:53.387Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2025-6395 
@@ -1144,7 +1146,8 @@
 │                       │      │                  │      y/004883.html 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                       │      ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
 │                       │      ╰ LastModifiedDate: 2025-07-15T13:24:41.097Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2025-5914 
