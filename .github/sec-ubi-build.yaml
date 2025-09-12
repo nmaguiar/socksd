@@ -92,6 +92,26 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5278
     PublishedDate: '2025-05-27T21:15:23.197Z'
     LastModifiedDate: '2025-05-29T18:15:24.29Z'
+  - VulnerabilityID: CVE-2025-58060
+    VendorIDs:
+    - RHSA-2025:15700
+    PkgID: cups-libs@2.3.3op2-33.el9.x86_64
+    PkgName: cups-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-33.el9?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: bd2fc61797e1195d
+    InstalledVersion: 1:2.3.3op2-33.el9
+    FixedVersion: 1:2.3.3op2-33.el9_6.1
+    Status: fixed
+    Layer:
+      Digest: sha256:cf5520d6ed9a49cd4c3b0a7115bce0b063e299ae23822c6a1b8de48b66caa7b5
+      DiffID: sha256:07f49c510897537b0595680e5baa2463631cab9ab1405e7e2a742f172de5149e
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58060
+    Title: OpenPrinting CUPS is an open source printing system for Linux and othe ...
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
   - VulnerabilityID: CVE-2023-4504
     PkgID: cups-libs@2.3.3op2-33.el9.x86_64
     PkgName: cups-libs
@@ -145,6 +165,26 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-4504
     PublishedDate: '2023-09-21T23:15:12.293Z'
     LastModifiedDate: '2025-04-23T17:16:44.91Z'
+  - VulnerabilityID: CVE-2025-58364
+    VendorIDs:
+    - RHSA-2025:15700
+    PkgID: cups-libs@2.3.3op2-33.el9.x86_64
+    PkgName: cups-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-33.el9?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: bd2fc61797e1195d
+    InstalledVersion: 1:2.3.3op2-33.el9
+    FixedVersion: 1:2.3.3op2-33.el9_6.1
+    Status: fixed
+    Layer:
+      Digest: sha256:cf5520d6ed9a49cd4c3b0a7115bce0b063e299ae23822c6a1b8de48b66caa7b5
+      DiffID: sha256:07f49c510897537b0595680e5baa2463631cab9ab1405e7e2a742f172de5149e
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58364
+    Title: OpenPrinting CUPS is an open source printing system for Linux and othe ...
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-33.el9.x86_64
     PkgName: cups-libs
@@ -1541,20 +1581,27 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9714
     Title: 'libxslt: libxml2: Inifinite recursion at exsltDynMapFunction function in libexslt/dynamic.c'
-    Description: A flaw was found in libxstl/libxml2. The 'exsltDynMapFunction' function in libexslt/dynamic.c does not contain a recursion depth check, which may cause an infinite loop via a specially crafted XSLT document while handling 'dyn:map()', leading to stack exhaustion and a local denial of service.
+    Description: "Uncontrolled recursion in\_XPath evaluation\_in libxml2 up to and including version 2.9.14 allows a local attacker to cause a stack overflow via crafted expressions. XPath processing functions `xmlXPathRunEval`, `xmlXPathCtxtCompile`, and `xmlXPathEvalExpr` were resetting recursion depth to zero before making potentially recursive calls. When such functions were called recursively this could allow for uncontrolled recursion and lead to a stack overflow. These functions now preserve recursion depth across recursive calls, allowing recursion depth to be controlled."
     Severity: MEDIUM
+    CweIDs:
+    - CWE-674
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
     - https://access.redhat.com/security/cve/CVE-2025-9714
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2392605
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/677a42645ef22b5a50741bad5facf9d8a8bc6d21
     - https://gitlab.gnome.org/GNOME/libxslt/-/issues/148
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9714
+    - https://ubuntu.com/security/notices/USN-7743-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9714
+    PublishedDate: '2025-09-10T19:15:42.707Z'
+    LastModifiedDate: '2025-09-11T17:14:10.147Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-12.el9_6.x86_64
     PkgName: libxml2
