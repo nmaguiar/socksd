@@ -122,10 +122,39 @@
 │                       │      │                            d8988cada9a6294711ff 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58060 
-│                       │      ├ Title           : OpenPrinting CUPS is an open source printing system for
-│                       │      │                   Linux and othe ... 
+│                       │      ├ Title           : cups: Authentication Bypass in CUPS Authorization Handling 
+│                       │      ├ Description     : OpenPrinting CUPS is an open source printing system for
+│                       │      │                   Linux and other Unix-like operating systems. In versions
+│                       │      │                   2.4.12 and earlier, when the `AuthType` is set to anything
+│                       │      │                   but `Basic`, if the request contains an `Authorization:
+│                       │      │                   Basic ...` header, the password is not checked. This results
+│                       │      │                    in authentication bypass. Any configuration that allows an
+│                       │      │                   `AuthType` that is not `Basic` is affected. Version 2.4.13
+│                       │      │                   fixes the issue. 
 │                       │      ├ Severity        : HIGH 
-│                       │      ╰ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CweIDs           ─ [0]: CWE-287 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15702 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-58060 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2392595 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-15702.html 
+│                       │      │                  ├ [4] : https://github.com/OpenPrinting/cups/commit/595d69107
+│                       │      │                  │       5b1d396d2edfaa0a8fd0873a0a1f221 
+│                       │      │                  ├ [5] : https://github.com/OpenPrinting/cups/security/advisor
+│                       │      │                  │       ies/GHSA-4c68-qgrh-rmmq 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-58060.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-15701.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-58060 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7745-1 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-58060 
+│                       │      ├ PublishedDate   : 2025-09-11T18:15:34.787Z 
+│                       │      ╰ LastModifiedDate: 2025-09-11T18:15:34.787Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2023-4504 
 │                       │      ├ PkgID           : cups-libs@2.3.3op2-33.el9.x86_64 
 │                       │      ├ PkgName         : cups-libs 
@@ -210,10 +239,47 @@
 │                       │      │                            d8988cada9a6294711ff 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58364 
-│                       │      ├ Title           : OpenPrinting CUPS is an open source printing system for
-│                       │      │                   Linux and othe ... 
+│                       │      ├ Title           : cups: Null Pointer Dereference in CUPS ipp_read_io() Leading
+│                       │      │                    to Remote DoS 
+│                       │      ├ Description     : OpenPrinting CUPS is an open source printing system for
+│                       │      │                   Linux and other Unix-like operating systems. In versions
+│                       │      │                   2.4.12 and earlier, an unsafe deserialization and validation
+│                       │      │                    of printer attributes causes null dereference in the
+│                       │      │                   libcups library. This is a remote DoS vulnerability
+│                       │      │                   available in local subnet in default configurations. It can
+│                       │      │                   cause the cups & cups-browsed to crash, on all the machines
+│                       │      │                   in local network who are listening for printers (so by
+│                       │      │                   default for all regular linux machines). On systems where
+│                       │      │                   the vulnerability CVE-2024-47176 (cups-filters
+│                       │      │                   1.x/cups-browsed 2.x vulnerability) was not fixed, and the
+│                       │      │                   firewall on the machine does not reject incoming
+│                       │      │                   communication to IPP port, and the machine is set to be
+│                       │      │                   available to public internet, attack vector "Network" is
+│                       │      │                   possible. The current versions of CUPS and cups-browsed
+│                       │      │                   projects have the attack vector "Adjacent" in their default
+│                       │      │                   configurations. Version 2.4.13 contains a patch for
+│                       │      │                   CVE-2025-58364. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CweIDs           ╭ [0]: CWE-20 
+│                       │      │                  ╰ [1]: CWE-476 
+│                       │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-58364 
+│                       │      │                  ├ [1]: https://github.com/OpenPrinting/cups/commit/e58cba9d6f
+│                       │      │                  │      ceed4242980e51dbd1302cf638ab1d 
+│                       │      │                  ├ [2]: https://github.com/OpenPrinting/cups/security/advisori
+│                       │      │                  │      es/GHSA-7qx3-r744-6qv4 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-58364.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-15701.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-58364 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7745-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-58364 
+│                       │      ├ PublishedDate   : 2025-09-11T18:15:35.38Z 
+│                       │      ╰ LastModifiedDate: 2025-09-11T18:15:35.38Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2021-25317 
 │                       │      ├ PkgID           : cups-libs@2.3.3op2-33.el9.x86_64 
 │                       │      ├ PkgName         : cups-libs 
@@ -2036,17 +2102,18 @@
 │                       │      │                  ├ [16]: https://access.redhat.com/errata/RHSA-2025:14819 
 │                       │      │                  ├ [17]: https://access.redhat.com/errata/RHSA-2025:14853 
 │                       │      │                  ├ [18]: https://access.redhat.com/errata/RHSA-2025:14858 
-│                       │      │                  ├ [19]: https://access.redhat.com/security/cve/CVE-2025-7425 
-│                       │      │                  ├ [20]: https://bugzilla.redhat.com/2379274 
-│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
-│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
-│                       │      │                  ├ [23]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
-│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-7425.html 
-│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-13464.html 
-│                       │      │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
-│                       │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
+│                       │      │                  ├ [19]: https://access.redhat.com/errata/RHSA-2025:15308 
+│                       │      │                  ├ [20]: https://access.redhat.com/security/cve/CVE-2025-7425 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/2379274 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
+│                       │      │                  ├ [23]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
+│                       │      │                  ├ [24]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
+│                       │      │                  ├ [25]: https://linux.oracle.com/cve/CVE-2025-7425.html 
+│                       │      │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2025-13464.html 
+│                       │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
+│                       │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
 │                       │      ├ PublishedDate   : 2025-07-10T14:15:27.877Z 
-│                       │      ╰ LastModifiedDate: 2025-09-04T21:15:37.2Z 
+│                       │      ╰ LastModifiedDate: 2025-09-11T18:15:36.023Z 
 │                       ├ [36] ╭ VulnerabilityID : CVE-2025-32414 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2025:13428 
 │                       │      ├ PkgID           : libxml2@2.9.13-10.el9_6.x86_64 
