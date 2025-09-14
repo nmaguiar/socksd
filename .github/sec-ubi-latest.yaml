@@ -130,7 +130,7 @@
     - https://github.com/OpenPrinting/cups/commit/595d691075b1d396d2edfaa0a8fd0873a0a1f221
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-4c68-qgrh-rmmq
     - https://linux.oracle.com/cve/CVE-2025-58060.html
-    - https://linux.oracle.com/errata/ELSA-2025-15701.html
+    - https://linux.oracle.com/errata/ELSA-2025-15702.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58060
     - https://ubuntu.com/security/notices/USN-7745-1
     - https://www.cve.org/CVERecord?id=CVE-2025-58060
@@ -271,6 +271,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-25317
     PublishedDate: '2021-05-05T10:15:08.133Z'
     LastModifiedDate: '2024-11-21T05:54:44.187Z'
+  - VulnerabilityID: CVE-2025-9086
+    PkgID: curl-minimal@7.76.1-31.el9.x86_64
+    PkgName: curl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.6
+      UID: 7a8508e554aa7788
+    InstalledVersion: 7.76.1-31.el9
+    Status: affected
+    Layer:
+      Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
+      DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    Title: 'curl: libcurl: Curl out of bounds read for cookie path'
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target`
+      2. curl is redirected to or otherwise made to speak with `http://target` (same
+         hostname, but using clear text HTTP) using the same cookie set
+      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
+    - https://hackerone.com/reports/3294999
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
+    - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2025-09-12T18:15:35.167Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: curl-minimal@7.76.1-31.el9.x86_64
     PkgName: curl-minimal
@@ -1433,6 +1482,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5918
     PublishedDate: '2025-06-09T20:15:27.493Z'
     LastModifiedDate: '2025-08-15T18:35:04.39Z'
+  - VulnerabilityID: CVE-2025-9086
+    PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
+    PkgName: libcurl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.6
+      UID: 6cb8692684e053c9
+    InstalledVersion: 7.76.1-31.el9
+    Status: affected
+    Layer:
+      Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7f5d3a0bb20d8266abac4
+      DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061d8988cada9a6294711ff
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    Title: 'curl: libcurl: Curl out of bounds read for cookie path'
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target`
+      2. curl is redirected to or otherwise made to speak with `http://target` (same
+         hostname, but using clear text HTTP) using the same cookie set
+      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
+    - https://hackerone.com/reports/3294999
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
+    - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2025-09-12T18:15:35.167Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
     PkgName: libcurl-minimal
