@@ -234,7 +234,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-12T18:15:35.167Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: curl-minimal@7.76.1-31.el9_6.1.x86_64
     PkgName: curl-minimal
@@ -518,6 +518,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-12-13T14:15:22.953Z'
+  - VulnerabilityID: CVE-2025-59375
+    PkgID: expat@2.5.0-5.el9_6.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-5.el9_6?arch=x86_64&distro=redhat-9.6
+      UID: 8df7ab6b8bb745ca
+    InstalledVersion: 2.5.0-5.el9_6
+    Status: affected
+    Layer:
+      Digest: sha256:de0713f3cff8100868c3a048320dd58e8608dd69698c87380ef841ce73d71f2e
+      DiffID: sha256:78c387a568e8f566b5a285c4f9c12f2c1d24f7233256d69ad813dea168565bd8
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-59375
+    Title: 'expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing'
+    Description: libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-59375
+    - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
+    - https://github.com/libexpat/libexpat/issues/1018
+    - https://github.com/libexpat/libexpat/pull/1034
+    - https://issues.oss-fuzz.com/issues/439133977
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-59375
+    - https://www.cve.org/CVERecord?id=CVE-2025-59375
+    PublishedDate: '2025-09-15T03:15:40.92Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -1212,7 +1246,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-12T18:15:35.167Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: libcurl-minimal@7.76.1-31.el9_6.1.x86_64
     PkgName: libcurl-minimal
