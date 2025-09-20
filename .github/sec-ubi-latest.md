@@ -1171,13 +1171,15 @@
 │                       │      ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
 │                       │      ╰ LastModifiedDate: 2025-03-19T20:15:20.14Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2025-32988 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:16116 
 │                       │      ├ PkgID           : gnutls@3.8.3-6.el9.x86_64 
 │                       │      ├ PkgName         : gnutls 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnutls@3.8.3-6.el9?arch=x86_64&distro=
 │                       │      │                  │       redhat-9.6 
 │                       │      │                  ╰ UID : d2ca72ed0bbf71d0 
 │                       │      ├ InstalledVersion: 3.8.3-6.el9 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.8.3-6.el9_6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7
 │                       │      │                  │         f5d3a0bb20d8266abac4 
 │                       │      │                  ╰ DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061
@@ -1199,7 +1201,8 @@
 │                       │      │                   corruption, depending on allocator behavior. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
@@ -1212,24 +1215,33 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32988 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
-│                       │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Jul
-│                       │      │                  │      y/004883.html 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:16115 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:16116 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-32988 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2359620 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2359621 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2359622 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2376755 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-16115.html 
+│                       │      │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  │       ly/004883.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
 │                       │      ├ PublishedDate   : 2025-07-10T08:15:24.223Z 
-│                       │      ╰ LastModifiedDate: 2025-08-21T15:37:20.973Z 
+│                       │      ╰ LastModifiedDate: 2025-09-17T21:15:37.95Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2025-32989 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:16116 
 │                       │      ├ PkgID           : gnutls@3.8.3-6.el9.x86_64 
 │                       │      ├ PkgName         : gnutls 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnutls@3.8.3-6.el9?arch=x86_64&distro=
 │                       │      │                  │       redhat-9.6 
 │                       │      │                  ╰ UID : d2ca72ed0bbf71d0 
 │                       │      ├ InstalledVersion: 3.8.3-6.el9 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.8.3-6.el9_6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7
 │                       │      │                  │         f5d3a0bb20d8266abac4 
 │                       │      │                  ╰ DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061
@@ -1248,7 +1260,8 @@
 │                       │      │                   when the certificate (SCT) is not checked correctly. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-295 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
@@ -1257,23 +1270,32 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32989 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
-│                       │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Jul
-│                       │      │                  │      y/004883.html 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32989 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:16115 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:16116 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-32989 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2359620 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2359621 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2359622 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2376755 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-16115.html 
+│                       │      │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  │       ly/004883.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-32989 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
 │                       │      ├ PublishedDate   : 2025-07-10T08:15:24.43Z 
-│                       │      ╰ LastModifiedDate: 2025-08-15T19:35:41.363Z 
+│                       │      ╰ LastModifiedDate: 2025-09-17T21:15:38.08Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2025-32990 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:16116 
 │                       │      ├ PkgID           : gnutls@3.8.3-6.el9.x86_64 
 │                       │      ├ PkgName         : gnutls 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnutls@3.8.3-6.el9?arch=x86_64&distro=
 │                       │      │                  │       redhat-9.6 
 │                       │      │                  ╰ UID : d2ca72ed0bbf71d0 
 │                       │      ├ InstalledVersion: 3.8.3-6.el9 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.8.3-6.el9_6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7
 │                       │      │                  │         f5d3a0bb20d8266abac4 
 │                       │      │                  ╰ DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061
@@ -1290,7 +1312,8 @@
 │                       │      │                   potentially crash the system. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
@@ -1303,24 +1326,33 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32990 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
-│                       │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Jul
-│                       │      │                  │      y/004883.html 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:16115 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:16116 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-32990 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2359620 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2359621 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2359622 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2376755 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-16115.html 
+│                       │      │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  │       ly/004883.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
 │                       │      ├ PublishedDate   : 2025-07-10T10:15:33.06Z 
-│                       │      ╰ LastModifiedDate: 2025-08-15T19:32:53.387Z 
+│                       │      ╰ LastModifiedDate: 2025-09-17T21:15:38.223Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2025-6395 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:16116 
 │                       │      ├ PkgID           : gnutls@3.8.3-6.el9.x86_64 
 │                       │      ├ PkgName         : gnutls 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnutls@3.8.3-6.el9?arch=x86_64&distro=
 │                       │      │                  │       redhat-9.6 
 │                       │      │                  ╰ UID : d2ca72ed0bbf71d0 
 │                       │      ├ InstalledVersion: 3.8.3-6.el9 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.8.3-6.el9_6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:fd8f52ebc76b5bcd2f80e201819a0d5e71592f6debe7
 │                       │      │                  │         f5d3a0bb20d8266abac4 
 │                       │      │                  ╰ DiffID: sha256:93574a081e126921385f9035e0fb3f9b03fba88fe061
@@ -1333,7 +1365,8 @@
 │                       │      │                   software in _gnutls_figure_common_ciphersuite(). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
@@ -1342,16 +1375,23 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6395 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
-│                       │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Jul
-│                       │      │                  │      y/004883.html 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:16115 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:16116 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6395 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2359620 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2359621 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2359622 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2376755 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-16115.html 
+│                       │      │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  │       ly/004883.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                       │      ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
-│                       │      ╰ LastModifiedDate: 2025-07-15T13:24:41.097Z 
+│                       │      ╰ LastModifiedDate: 2025-09-17T21:15:38.51Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2025-5914 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2025:14130 
 │                       │      ├ PkgID           : libarchive@3.5.3-5.el9_6.x86_64 
@@ -1383,6 +1423,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ azure      : 1 
 │                       │      │                  ├ nvd        : 4 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -1546,6 +1587,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 1 
 │                       │      │                  ├ nvd   : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
@@ -2259,19 +2301,20 @@
 │                       │      │                  ├ [17]: https://access.redhat.com/errata/RHSA-2025:14853 
 │                       │      │                  ├ [18]: https://access.redhat.com/errata/RHSA-2025:14858 
 │                       │      │                  ├ [19]: https://access.redhat.com/errata/RHSA-2025:15308 
-│                       │      │                  ├ [20]: https://access.redhat.com/errata/RHSA-2025:15827 
-│                       │      │                  ├ [21]: https://access.redhat.com/errata/RHSA-2025:15828 
-│                       │      │                  ├ [22]: https://access.redhat.com/security/cve/CVE-2025-7425 
-│                       │      │                  ├ [23]: https://bugzilla.redhat.com/2379274 
-│                       │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
-│                       │      │                  ├ [25]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
-│                       │      │                  ├ [26]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
-│                       │      │                  ├ [27]: https://linux.oracle.com/cve/CVE-2025-7425.html 
-│                       │      │                  ├ [28]: https://linux.oracle.com/errata/ELSA-2025-13464.html 
-│                       │      │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
-│                       │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
+│                       │      │                  ├ [20]: https://access.redhat.com/errata/RHSA-2025:15672 
+│                       │      │                  ├ [21]: https://access.redhat.com/errata/RHSA-2025:15827 
+│                       │      │                  ├ [22]: https://access.redhat.com/errata/RHSA-2025:15828 
+│                       │      │                  ├ [23]: https://access.redhat.com/security/cve/CVE-2025-7425 
+│                       │      │                  ├ [24]: https://bugzilla.redhat.com/2379274 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
+│                       │      │                  ├ [26]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
+│                       │      │                  ├ [27]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
+│                       │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2025-7425.html 
+│                       │      │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2025-13464.html 
+│                       │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
+│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
 │                       │      ├ PublishedDate   : 2025-07-10T14:15:27.877Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T18:15:40.05Z 
+│                       │      ╰ LastModifiedDate: 2025-09-18T10:15:35.227Z 
 │                       ├ [39] ╭ VulnerabilityID : CVE-2025-32414 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2025:13428 
 │                       │      ├ PkgID           : libxml2@2.9.13-10.el9_6.x86_64 
@@ -2419,9 +2462,13 @@
 │                       │      │                   controlled. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-674 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.2 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9714 
@@ -2433,7 +2480,7 @@
 │                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7743-1 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9714 
 │                       │      ├ PublishedDate   : 2025-09-10T19:15:42.707Z 
-│                       │      ╰ LastModifiedDate: 2025-09-11T17:14:10.147Z 
+│                       │      ╰ LastModifiedDate: 2025-09-17T21:13:10.787Z 
 │                       ├ [42] ╭ VulnerabilityID : CVE-2023-45322 
 │                       │      ├ PkgID           : libxml2@2.9.13-10.el9_6.x86_64 
 │                       │      ├ PkgName         : libxml2 
@@ -3413,7 +3460,7 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.7 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/01/20/2 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:15699 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:16046 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-13176 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2359885 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2359888 
@@ -3467,7 +3514,7 @@
 │                       │      │                  ├ [52]: https://bugzilla.redhat.com/2380327 
 │                       │      │                  ├ [53]: https://bugzilla.redhat.com/2380334 
 │                       │      │                  ├ [54]: https://bugzilla.redhat.com/2380335 
-│                       │      │                  ├ [55]: https://errata.almalinux.org/10/ALSA-2025-15699.html 
+│                       │      │                  ├ [55]: https://errata.almalinux.org/9/ALSA-2025-16046.html 
 │                       │      │                  ├ [56]: https://github.com/openssl/openssl/commit/07272b05b04
 │                       │      │                  │       836a762b4baa874958af51d513844 
 │                       │      │                  ├ [57]: https://github.com/openssl/openssl/commit/2af62e74fb5
@@ -3483,7 +3530,7 @@
 │                       │      │                  ├ [62]: https://github.openssl.org/openssl/extended-releases/
 │                       │      │                  │       commit/a2639000db19878d5d89586ae7b725080592ae86 
 │                       │      │                  ├ [63]: https://linux.oracle.com/cve/CVE-2024-13176.html 
-│                       │      │                  ├ [64]: https://linux.oracle.com/errata/ELSA-2025-15699.html 
+│                       │      │                  ├ [64]: https://linux.oracle.com/errata/ELSA-2025-16046.html 
 │                       │      │                  ├ [65]: https://lists.debian.org/debian-lts-announce/2025/05/
 │                       │      │                  │       msg00028.html 
 │                       │      │                  ├ [66]: https://nvd.nist.gov/vuln/detail/CVE-2024-13176 
@@ -3600,7 +3647,7 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.7 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/01/20/2 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:15699 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:16046 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-13176 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2359885 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2359888 
@@ -3654,7 +3701,7 @@
 │                       │      │                  ├ [52]: https://bugzilla.redhat.com/2380327 
 │                       │      │                  ├ [53]: https://bugzilla.redhat.com/2380334 
 │                       │      │                  ├ [54]: https://bugzilla.redhat.com/2380335 
-│                       │      │                  ├ [55]: https://errata.almalinux.org/10/ALSA-2025-15699.html 
+│                       │      │                  ├ [55]: https://errata.almalinux.org/9/ALSA-2025-16046.html 
 │                       │      │                  ├ [56]: https://github.com/openssl/openssl/commit/07272b05b04
 │                       │      │                  │       836a762b4baa874958af51d513844 
 │                       │      │                  ├ [57]: https://github.com/openssl/openssl/commit/2af62e74fb5
@@ -3670,7 +3717,7 @@
 │                       │      │                  ├ [62]: https://github.openssl.org/openssl/extended-releases/
 │                       │      │                  │       commit/a2639000db19878d5d89586ae7b725080592ae86 
 │                       │      │                  ├ [63]: https://linux.oracle.com/cve/CVE-2024-13176.html 
-│                       │      │                  ├ [64]: https://linux.oracle.com/errata/ELSA-2025-15699.html 
+│                       │      │                  ├ [64]: https://linux.oracle.com/errata/ELSA-2025-16046.html 
 │                       │      │                  ├ [65]: https://lists.debian.org/debian-lts-announce/2025/05/
 │                       │      │                  │       msg00028.html 
 │                       │      │                  ├ [66]: https://nvd.nist.gov/vuln/detail/CVE-2024-13176 
@@ -4102,7 +4149,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -4350,7 +4397,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -4598,7 +4645,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -4852,11 +4899,15 @@
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ azure : 2 
 │                       │      │                  ├ ghsa  : 2 
+│                       │      │                  ├ nvd   : 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N
 │                       │      │                  │        │           /A:N 
 │                       │      │                  │        ╰ V3Score : 5.3 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 6.1 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -4871,7 +4922,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7599-2 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-50181 
 │                       │      ├ PublishedDate   : 2025-06-19T01:15:24.453Z 
-│                       │      ╰ LastModifiedDate: 2025-06-23T20:16:59.783Z 
+│                       │      ╰ LastModifiedDate: 2025-09-18T13:51:10.24Z 
 │                       ├ [86] ╭ VulnerabilityID : CVE-2025-50182 
 │                       │      ├ PkgID           : python3-pip-wheel@21.3.1-1.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
@@ -5137,7 +5188,8 @@
 │                       │      │                   original binary, affecting data confidentiality. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-364 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
