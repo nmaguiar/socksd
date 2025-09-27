@@ -4322,27 +4322,33 @@
 │                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:14841 
 │                       │      │                  ├ [8] : https://gist.github.com/sethmlarson/1716ac5b82b73dbcb
 │                       │      │                  │       f23ad2eff8b33e1 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/7040aa54f146
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/57f5981d6260
+│                       │      │                  │       ed21266e0c26951b8564cc252bc2 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/7040aa54f146
 │                       │      │                  │       76938970e10c5f74ea93cd56aa38 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/c9d9f78feb14
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/73f03e480820
+│                       │      │                  │       6f71eb6b92c579505a220942ef19 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/b4ec17488eed
+│                       │      │                  │       ec36d3c05fec127df71c0071f6cb 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/c9d9f78feb14
 │                       │      │                  │       67e73fd29356c040bde1c104f29f 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/cdae923ffe18
+│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/cdae923ffe18
 │                       │      │                  │       7d6ef916c0f665a31249619193fe 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/fbc2a0ca9ac8
+│                       │      │                  ├ [15]: https://github.com/python/cpython/commit/fbc2a0ca9ac8
 │                       │      │                  │       aff6887f8ddf79b87b4510277227 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/issues/130577 
-│                       │      │                  ├ [14]: https://github.com/python/cpython/pull/137027 
-│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2025-8194.html 
-│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2025-15019.html 
-│                       │      │                  ├ [17]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [16]: https://github.com/python/cpython/issues/130577 
+│                       │      │                  ├ [17]: https://github.com/python/cpython/pull/137027 
+│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2025-8194.html 
+│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2025-15019.html 
+│                       │      │                  ├ [20]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D
 │                       │      │                  │       / 
-│                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7710-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7710-2 
-│                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7710-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7710-2 
+│                       │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
 │                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
-│                       │      ╰ LastModifiedDate: 2025-08-07T21:15:29.78Z 
+│                       │      ╰ LastModifiedDate: 2025-09-24T18:15:42.72Z 
 │                       ├ [76] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.21-2.el9_6.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -4570,27 +4576,33 @@
 │                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:14841 
 │                       │      │                  ├ [8] : https://gist.github.com/sethmlarson/1716ac5b82b73dbcb
 │                       │      │                  │       f23ad2eff8b33e1 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/7040aa54f146
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/57f5981d6260
+│                       │      │                  │       ed21266e0c26951b8564cc252bc2 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/7040aa54f146
 │                       │      │                  │       76938970e10c5f74ea93cd56aa38 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/c9d9f78feb14
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/73f03e480820
+│                       │      │                  │       6f71eb6b92c579505a220942ef19 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/b4ec17488eed
+│                       │      │                  │       ec36d3c05fec127df71c0071f6cb 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/c9d9f78feb14
 │                       │      │                  │       67e73fd29356c040bde1c104f29f 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/cdae923ffe18
+│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/cdae923ffe18
 │                       │      │                  │       7d6ef916c0f665a31249619193fe 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/fbc2a0ca9ac8
+│                       │      │                  ├ [15]: https://github.com/python/cpython/commit/fbc2a0ca9ac8
 │                       │      │                  │       aff6887f8ddf79b87b4510277227 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/issues/130577 
-│                       │      │                  ├ [14]: https://github.com/python/cpython/pull/137027 
-│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2025-8194.html 
-│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2025-15019.html 
-│                       │      │                  ├ [17]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [16]: https://github.com/python/cpython/issues/130577 
+│                       │      │                  ├ [17]: https://github.com/python/cpython/pull/137027 
+│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2025-8194.html 
+│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2025-15019.html 
+│                       │      │                  ├ [20]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D
 │                       │      │                  │       / 
-│                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7710-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7710-2 
-│                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7710-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7710-2 
+│                       │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
 │                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
-│                       │      ╰ LastModifiedDate: 2025-08-07T21:15:29.78Z 
+│                       │      ╰ LastModifiedDate: 2025-09-24T18:15:42.72Z 
 │                       ├ [80] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │      ├ PkgID           : python3@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -4818,27 +4830,33 @@
 │                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:14841 
 │                       │      │                  ├ [8] : https://gist.github.com/sethmlarson/1716ac5b82b73dbcb
 │                       │      │                  │       f23ad2eff8b33e1 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/7040aa54f146
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/57f5981d6260
+│                       │      │                  │       ed21266e0c26951b8564cc252bc2 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/7040aa54f146
 │                       │      │                  │       76938970e10c5f74ea93cd56aa38 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/c9d9f78feb14
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/73f03e480820
+│                       │      │                  │       6f71eb6b92c579505a220942ef19 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/b4ec17488eed
+│                       │      │                  │       ec36d3c05fec127df71c0071f6cb 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/c9d9f78feb14
 │                       │      │                  │       67e73fd29356c040bde1c104f29f 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/cdae923ffe18
+│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/cdae923ffe18
 │                       │      │                  │       7d6ef916c0f665a31249619193fe 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/fbc2a0ca9ac8
+│                       │      │                  ├ [15]: https://github.com/python/cpython/commit/fbc2a0ca9ac8
 │                       │      │                  │       aff6887f8ddf79b87b4510277227 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/issues/130577 
-│                       │      │                  ├ [14]: https://github.com/python/cpython/pull/137027 
-│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2025-8194.html 
-│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2025-15019.html 
-│                       │      │                  ├ [17]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [16]: https://github.com/python/cpython/issues/130577 
+│                       │      │                  ├ [17]: https://github.com/python/cpython/pull/137027 
+│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2025-8194.html 
+│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2025-15019.html 
+│                       │      │                  ├ [20]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D
 │                       │      │                  │       / 
-│                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7710-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7710-2 
-│                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2025-8194 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7710-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7710-2 
+│                       │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-8194 
 │                       │      ├ PublishedDate   : 2025-07-28T19:15:43.793Z 
-│                       │      ╰ LastModifiedDate: 2025-08-07T21:15:29.78Z 
+│                       │      ╰ LastModifiedDate: 2025-09-24T18:15:42.72Z 
 │                       ├ [84] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │      ├ PkgID           : python3-libs@3.9.21-2.el9_6.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
