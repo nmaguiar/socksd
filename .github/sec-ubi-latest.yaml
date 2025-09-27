@@ -3898,7 +3898,10 @@
     - https://errata.almalinux.org/8/ALSA-2025-14900.html
     - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/73f03e4808206f71eb6b92c579505a220942ef19
+    - https://github.com/python/cpython/commit/b4ec17488eedec36d3c05fec127df71c0071f6cb
     - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
     - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
     - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
@@ -3912,7 +3915,7 @@
     - https://ubuntu.com/security/notices/USN-7710-2
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
-    LastModifiedDate: '2025-08-07T21:15:29.78Z'
+    LastModifiedDate: '2025-09-24T18:15:42.72Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python-unversioned-command@3.9.21-2.el9_6.1.noarch
     PkgName: python-unversioned-command
@@ -4101,7 +4104,10 @@
     - https://errata.almalinux.org/8/ALSA-2025-14900.html
     - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/73f03e4808206f71eb6b92c579505a220942ef19
+    - https://github.com/python/cpython/commit/b4ec17488eedec36d3c05fec127df71c0071f6cb
     - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
     - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
     - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
@@ -4115,7 +4121,7 @@
     - https://ubuntu.com/security/notices/USN-7710-2
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
-    LastModifiedDate: '2025-08-07T21:15:29.78Z'
+    LastModifiedDate: '2025-09-24T18:15:42.72Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3@3.9.21-2.el9_6.1.x86_64
     PkgName: python3
@@ -4304,7 +4310,10 @@
     - https://errata.almalinux.org/8/ALSA-2025-14900.html
     - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/73f03e4808206f71eb6b92c579505a220942ef19
+    - https://github.com/python/cpython/commit/b4ec17488eedec36d3c05fec127df71c0071f6cb
     - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
     - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
     - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
@@ -4318,7 +4327,7 @@
     - https://ubuntu.com/security/notices/USN-7710-2
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
-    LastModifiedDate: '2025-08-07T21:15:29.78Z'
+    LastModifiedDate: '2025-09-24T18:15:42.72Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3-libs@3.9.21-2.el9_6.1.x86_64
     PkgName: python3-libs
