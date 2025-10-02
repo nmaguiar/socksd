@@ -1011,80 +1011,734 @@
 │     │                        ├ Digest        : sha1:43ac44ea9c46b340ba31d8f7fe10469f2d4223f4 
 │     │                        ╰ InstalledFiles ╭ [0]: usr/lib/libzstd.so.1 
 │     │                                         ╰ [1]: usr/lib/libzstd.so.1.5.7 
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-26519 
-│                       │     ├ PkgID           : musl@1.2.5-r9 
-│                       │     ├ PkgName         : musl 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.5-r9?arch=x86_64&distro=3.22.0
-│                       │     │                  │       _alpha20250108 
-│                       │     │                  ╰ UID : ebcbb7de0538c04f 
-│                       │     ├ InstalledVersion: 1.2.5-r9 
-│                       │     ├ FixedVersion    : 1.2.5-r10 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:03c4340499d483d335593fe0b36fbde220b0519a4d4a0
-│                       │     │                  │         98aee6c2c639bc6e6ba 
-│                       │     │                  ╰ DiffID: sha256:7af8c3e3f30b037e62709421e818c6262f750402568f9
-│                       │     │                            1078e0b8d5badd1e0fe 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
-│                       │     │                   out-of-bounds write ... 
-│                       │     ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
-│                       │     │                   out-of-bounds write vulnerability when an attacker can
-│                       │     │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8. 
-│                       │     ├ Severity        : UNKNOWN 
-│                       │     ├ CweIDs           ─ [0]: CWE-787 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/13/2 
-│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/13/3 
-│                       │     │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/13/4 
-│                       │     │                  ├ [3]: http://www.openwall.com/lists/oss-security/2025/02/13/5 
-│                       │     │                  ├ [4]: http://www.openwall.com/lists/oss-security/2025/02/14/5 
-│                       │     │                  ├ [5]: http://www.openwall.com/lists/oss-security/2025/02/14/6 
-│                       │     │                  ├ [6]: https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25e
-│                       │     │                  │      a3b484e10326f933e927c0bc8cded3da 
-│                       │     │                  ├ [7]: https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd97
-│                       │     │                  │      b5196e29991b524237381a0202a60659 
-│                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
-│                       │     ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
-│                       │     ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
-│                       ╰ [1] ╭ VulnerabilityID : CVE-2025-26519 
-│                             ├ PkgID           : musl-utils@1.2.5-r9 
-│                             ├ PkgName         : musl-utils 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.5-r9?arch=x86_64&distro=
-│                             │                  │       3.22.0_alpha20250108 
-│                             │                  ╰ UID : 8b959e5d6017bacb 
-│                             ├ InstalledVersion: 1.2.5-r9 
-│                             ├ FixedVersion    : 1.2.5-r10 
-│                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:03c4340499d483d335593fe0b36fbde220b0519a4d4a0
-│                             │                  │         98aee6c2c639bc6e6ba 
-│                             │                  ╰ DiffID: sha256:7af8c3e3f30b037e62709421e818c6262f750402568f9
-│                             │                            1078e0b8d5badd1e0fe 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
-│                             ├ DataSource       ╭ ID  : alpine 
-│                             │                  ├ Name: Alpine Secdb 
-│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Title           : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
-│                             │                   out-of-bounds write ... 
-│                             ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
-│                             │                   out-of-bounds write vulnerability when an attacker can
-│                             │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8. 
-│                             ├ Severity        : UNKNOWN 
-│                             ├ CweIDs           ─ [0]: CWE-787 
-│                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/13/2 
-│                             │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/13/3 
-│                             │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/13/4 
-│                             │                  ├ [3]: http://www.openwall.com/lists/oss-security/2025/02/13/5 
-│                             │                  ├ [4]: http://www.openwall.com/lists/oss-security/2025/02/14/5 
-│                             │                  ├ [5]: http://www.openwall.com/lists/oss-security/2025/02/14/6 
-│                             │                  ├ [6]: https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25e
-│                             │                  │      a3b484e10326f933e927c0bc8cded3da 
-│                             │                  ├ [7]: https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd97
-│                             │                  │      b5196e29991b524237381a0202a60659 
-│                             │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
-│                             ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
-│                             ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2025-9230 
+│                       │      ├ PkgID           : libcrypto3@3.5.3-r1 
+│                       │      ├ PkgName         : libcrypto3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.3-r1?arch=x86_64&distro
+│                       │      │                  │       =3.22.0_alpha20250108 
+│                       │      │                  ╰ UID : b17faccb06b68fe9 
+│                       │      ├ InstalledVersion: 3.5.3-r1 
+│                       │      ├ FixedVersion    : 3.5.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:03c4340499d483d335593fe0b36fbde220b0519a4d4a
+│                       │      │                  │         098aee6c2c639bc6e6ba 
+│                       │      │                  ╰ DiffID: sha256:7af8c3e3f30b037e62709421e818c6262f750402568f
+│                       │      │                            91078e0b8d5badd1e0fe 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9230 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: Out-of-bounds read & write in RFC 3211 KEK Unwrap 
+│                       │      ├ Description     : Issue summary: An application trying to decrypt CMS messages
+│                       │      │                    encrypted using
+│                       │      │                   password based encryption can trigger an out-of-bounds read
+│                       │      │                   and write.
+│                       │      │                   
+│                       │      │                   Impact summary: This out-of-bounds read may trigger a crash
+│                       │      │                   which leads to
+│                       │      │                   Denial of Service for an application. The out-of-bounds
+│                       │      │                   write can cause
+│                       │      │                   a memory corruption which can have various consequences
+│                       │      │                   including
+│                       │      │                   a Denial of Service or Execution of attacker-supplied code.
+│                       │      │                   Although the consequences of a successful exploit of this
+│                       │      │                   vulnerability
+│                       │      │                   could be severe, the probability that the attacker would be
+│                       │      │                   able to
+│                       │      │                   perform it is low. Besides, password based (PWRI) encryption
+│                       │      │                    support in CMS
+│                       │      │                   messages is very rarely used. For that reason the issue was
+│                       │      │                   assessed as
+│                       │      │                   Moderate severity according to our Security Policy.
+│                       │      │                   The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                       │      │                   affected by this
+│                       │      │                   issue, as the CMS implementation is outside the OpenSSL FIPS
+│                       │      │                    module
+│                       │      │                   boundary. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-125 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.6 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-9230 
+│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/5965ea5dd69
+│                       │      │                  │       60f36d8b7f74f8eac67a8eb8f2b45 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/9e91358f365
+│                       │      │                  │       dee6c446dcdcdb01c04d2743fd280 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/a79c4ce559c
+│                       │      │                  │       6a3a8fd4109e9f33c1185d5bf2def 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/b5282d67755
+│                       │      │                  │       1afda7d20e9c00e09561b547b2dfd 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/bae259a211a
+│                       │      │                  │       da6315dc50900686daaaaaa55f482 
+│                       │      │                  ├ [6] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/c2b96348bfa662f25f4fabf81958ae822063dae3 
+│                       │      │                  ├ [7] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-9230 
+│                       │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
+│                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
+│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.023Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2025-9231 
+│                       │      ├ PkgID           : libcrypto3@3.5.3-r1 
+│                       │      ├ PkgName         : libcrypto3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.3-r1?arch=x86_64&distro
+│                       │      │                  │       =3.22.0_alpha20250108 
+│                       │      │                  ╰ UID : b17faccb06b68fe9 
+│                       │      ├ InstalledVersion: 3.5.3-r1 
+│                       │      ├ FixedVersion    : 3.5.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:03c4340499d483d335593fe0b36fbde220b0519a4d4a
+│                       │      │                  │         098aee6c2c639bc6e6ba 
+│                       │      │                  ╰ DiffID: sha256:7af8c3e3f30b037e62709421e818c6262f750402568f
+│                       │      │                            91078e0b8d5badd1e0fe 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9231 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: Timing side-channel in SM2 algorithm on 64 bit ARM 
+│                       │      ├ Description     : Issue summary: A timing side-channel which could potentially
+│                       │      │                    allow remote
+│                       │      │                   recovery of the private key exists in the SM2 algorithm
+│                       │      │                   implementation on 64 bit
+│                       │      │                   ARM platforms.
+│                       │      │                   
+│                       │      │                   Impact summary: A timing side-channel in SM2 signature
+│                       │      │                   computations on 64 bit
+│                       │      │                   ARM platforms could allow recovering the private key by an
+│                       │      │                   attacker..
+│                       │      │                   While remote key recovery over a network was not attempted
+│                       │      │                   by the reporter,
+│                       │      │                   timing measurements revealed a timing signal which may allow
+│                       │      │                    such an attack.
+│                       │      │                   OpenSSL does not directly support certificates with SM2 keys
+│                       │      │                    in TLS, and so
+│                       │      │                   this CVE is not relevant in most TLS contexts.  However,
+│                       │      │                   given that it is
+│                       │      │                   possible to add support for such certificates via a custom
+│                       │      │                   provider, coupled
+│                       │      │                   with the fact that in such a custom provider context the
+│                       │      │                   private key may be
+│                       │      │                   recoverable via remote timing measurements, we consider this
+│                       │      │                    to be a Moderate
+│                       │      │                   severity issue.
+│                       │      │                   The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                       │      │                   affected by this
+│                       │      │                   issue, as SM2 is not an approved algorithm. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-385 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9231 
+│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/567f64386e43
+│                       │      │                  │      683888212226824b6a179885a0fe 
+│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/cba616c26ac8
+│                       │      │                  │      e7b37de5e77762e505ba5ca51698 
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/eed5adc9f969
+│                       │      │                  │      d77c94f213767acbb41ff923b6f4 
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/fc47a2ec0789
+│                       │      │                  │      12b3e914fab5734535e76c4820c2 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9231 
+│                       │      │                  ├ [6]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
+│                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
+│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.22Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-9232 
+│                       │      ├ PkgID           : libcrypto3@3.5.3-r1 
+│                       │      ├ PkgName         : libcrypto3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.3-r1?arch=x86_64&distro
+│                       │      │                  │       =3.22.0_alpha20250108 
+│                       │      │                  ╰ UID : b17faccb06b68fe9 
+│                       │      ├ InstalledVersion: 3.5.3-r1 
+│                       │      ├ FixedVersion    : 3.5.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:03c4340499d483d335593fe0b36fbde220b0519a4d4a
+│                       │      │                  │         098aee6c2c639bc6e6ba 
+│                       │      │                  ╰ DiffID: sha256:7af8c3e3f30b037e62709421e818c6262f750402568f
+│                       │      │                            91078e0b8d5badd1e0fe 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9232 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: Out-of-bounds read in HTTP client no_proxy handling 
+│                       │      ├ Description     : Issue summary: An application using the OpenSSL HTTP client
+│                       │      │                   API functions may
+│                       │      │                   trigger an out-of-bounds read if the 'no_proxy' environment
+│                       │      │                   variable is set and
+│                       │      │                   the host portion of the authority component of the HTTP URL
+│                       │      │                   is an IPv6 address.
+│                       │      │                   
+│                       │      │                   Impact summary: An out-of-bounds read can trigger a crash
+│                       │      │                   which leads to
+│                       │      │                   Denial of Service for an application.
+│                       │      │                   The OpenSSL HTTP client API functions can be used directly
+│                       │      │                   by applications
+│                       │      │                   but they are also used by the OCSP client functions and CMP
+│                       │      │                   (Certificate
+│                       │      │                   Management Protocol) client implementation in OpenSSL.
+│                       │      │                   However the URLs used
+│                       │      │                   by these implementations are unlikely to be controlled by an
+│                       │      │                    attacker.
+│                       │      │                   In this vulnerable code the out of bounds read can only
+│                       │      │                   trigger a crash.
+│                       │      │                   Furthermore the vulnerability requires an
+│                       │      │                   attacker-controlled URL to be
+│                       │      │                   passed from an application to the OpenSSL function and the
+│                       │      │                   user has to have
+│                       │      │                   a 'no_proxy' environment variable set. For the
+│                       │      │                   aforementioned reasons the
+│                       │      │                   issue was assessed as Low severity.
+│                       │      │                   The vulnerable code was introduced in the following patch
+│                       │      │                   releases:
+│                       │      │                   3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.
+│                       │      │                   The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                       │      │                   affected by this
+│                       │      │                   issue, as the HTTP client implementation is outside the
+│                       │      │                   OpenSSL FIPS module
+│                       │      │                   boundary. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9232 
+│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/2b4ec20e4795
+│                       │      │                  │      9170422922eaff25346d362dcb35 
+│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/654dc11d2346
+│                       │      │                  │      8a74fc8ea4672b702dd3feb7be4b 
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/7cf21a30513c
+│                       │      │                  │      9e43c4bc3836c237cf086e194af3 
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/89e790ac4311
+│                       │      │                  │      25a4849992858490bed6b225eadf 
+│                       │      │                  ├ [5]: https://github.com/openssl/openssl/commit/bbf38c034cda
+│                       │      │                  │      bd0a13330abcc4855c866f53d2e0 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
+│                       │      │                  ├ [7]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
+│                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
+│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.397Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-9230 
+│                       │      ├ PkgID           : libssl3@3.5.3-r1 
+│                       │      ├ PkgName         : libssl3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.3-r1?arch=x86_64&distro=3.
+│                       │      │                  │       22.0_alpha20250108 
+│                       │      │                  ╰ UID : f2fe670f88ed916b 
+│                       │      ├ InstalledVersion: 3.5.3-r1 
+│                       │      ├ FixedVersion    : 3.5.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:03c4340499d483d335593fe0b36fbde220b0519a4d4a
+│                       │      │                  │         098aee6c2c639bc6e6ba 
+│                       │      │                  ╰ DiffID: sha256:7af8c3e3f30b037e62709421e818c6262f750402568f
+│                       │      │                            91078e0b8d5badd1e0fe 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9230 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: Out-of-bounds read & write in RFC 3211 KEK Unwrap 
+│                       │      ├ Description     : Issue summary: An application trying to decrypt CMS messages
+│                       │      │                    encrypted using
+│                       │      │                   password based encryption can trigger an out-of-bounds read
+│                       │      │                   and write.
+│                       │      │                   
+│                       │      │                   Impact summary: This out-of-bounds read may trigger a crash
+│                       │      │                   which leads to
+│                       │      │                   Denial of Service for an application. The out-of-bounds
+│                       │      │                   write can cause
+│                       │      │                   a memory corruption which can have various consequences
+│                       │      │                   including
+│                       │      │                   a Denial of Service or Execution of attacker-supplied code.
+│                       │      │                   Although the consequences of a successful exploit of this
+│                       │      │                   vulnerability
+│                       │      │                   could be severe, the probability that the attacker would be
+│                       │      │                   able to
+│                       │      │                   perform it is low. Besides, password based (PWRI) encryption
+│                       │      │                    support in CMS
+│                       │      │                   messages is very rarely used. For that reason the issue was
+│                       │      │                   assessed as
+│                       │      │                   Moderate severity according to our Security Policy.
+│                       │      │                   The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                       │      │                   affected by this
+│                       │      │                   issue, as the CMS implementation is outside the OpenSSL FIPS
+│                       │      │                    module
+│                       │      │                   boundary. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-125 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.6 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-9230 
+│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/5965ea5dd69
+│                       │      │                  │       60f36d8b7f74f8eac67a8eb8f2b45 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/9e91358f365
+│                       │      │                  │       dee6c446dcdcdb01c04d2743fd280 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/a79c4ce559c
+│                       │      │                  │       6a3a8fd4109e9f33c1185d5bf2def 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/b5282d67755
+│                       │      │                  │       1afda7d20e9c00e09561b547b2dfd 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/bae259a211a
+│                       │      │                  │       da6315dc50900686daaaaaa55f482 
+│                       │      │                  ├ [6] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/c2b96348bfa662f25f4fabf81958ae822063dae3 
+│                       │      │                  ├ [7] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-9230 
+│                       │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
+│                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
+│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.023Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-9231 
+│                       │      ├ PkgID           : libssl3@3.5.3-r1 
+│                       │      ├ PkgName         : libssl3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.3-r1?arch=x86_64&distro=3.
+│                       │      │                  │       22.0_alpha20250108 
+│                       │      │                  ╰ UID : f2fe670f88ed916b 
+│                       │      ├ InstalledVersion: 3.5.3-r1 
+│                       │      ├ FixedVersion    : 3.5.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:03c4340499d483d335593fe0b36fbde220b0519a4d4a
+│                       │      │                  │         098aee6c2c639bc6e6ba 
+│                       │      │                  ╰ DiffID: sha256:7af8c3e3f30b037e62709421e818c6262f750402568f
+│                       │      │                            91078e0b8d5badd1e0fe 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9231 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: Timing side-channel in SM2 algorithm on 64 bit ARM 
+│                       │      ├ Description     : Issue summary: A timing side-channel which could potentially
+│                       │      │                    allow remote
+│                       │      │                   recovery of the private key exists in the SM2 algorithm
+│                       │      │                   implementation on 64 bit
+│                       │      │                   ARM platforms.
+│                       │      │                   
+│                       │      │                   Impact summary: A timing side-channel in SM2 signature
+│                       │      │                   computations on 64 bit
+│                       │      │                   ARM platforms could allow recovering the private key by an
+│                       │      │                   attacker..
+│                       │      │                   While remote key recovery over a network was not attempted
+│                       │      │                   by the reporter,
+│                       │      │                   timing measurements revealed a timing signal which may allow
+│                       │      │                    such an attack.
+│                       │      │                   OpenSSL does not directly support certificates with SM2 keys
+│                       │      │                    in TLS, and so
+│                       │      │                   this CVE is not relevant in most TLS contexts.  However,
+│                       │      │                   given that it is
+│                       │      │                   possible to add support for such certificates via a custom
+│                       │      │                   provider, coupled
+│                       │      │                   with the fact that in such a custom provider context the
+│                       │      │                   private key may be
+│                       │      │                   recoverable via remote timing measurements, we consider this
+│                       │      │                    to be a Moderate
+│                       │      │                   severity issue.
+│                       │      │                   The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                       │      │                   affected by this
+│                       │      │                   issue, as SM2 is not an approved algorithm. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-385 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9231 
+│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/567f64386e43
+│                       │      │                  │      683888212226824b6a179885a0fe 
+│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/cba616c26ac8
+│                       │      │                  │      e7b37de5e77762e505ba5ca51698 
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/eed5adc9f969
+│                       │      │                  │      d77c94f213767acbb41ff923b6f4 
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/fc47a2ec0789
+│                       │      │                  │      12b3e914fab5734535e76c4820c2 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9231 
+│                       │      │                  ├ [6]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
+│                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
+│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.22Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-9232 
+│                       │      ├ PkgID           : libssl3@3.5.3-r1 
+│                       │      ├ PkgName         : libssl3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.3-r1?arch=x86_64&distro=3.
+│                       │      │                  │       22.0_alpha20250108 
+│                       │      │                  ╰ UID : f2fe670f88ed916b 
+│                       │      ├ InstalledVersion: 3.5.3-r1 
+│                       │      ├ FixedVersion    : 3.5.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:03c4340499d483d335593fe0b36fbde220b0519a4d4a
+│                       │      │                  │         098aee6c2c639bc6e6ba 
+│                       │      │                  ╰ DiffID: sha256:7af8c3e3f30b037e62709421e818c6262f750402568f
+│                       │      │                            91078e0b8d5badd1e0fe 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9232 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: Out-of-bounds read in HTTP client no_proxy handling 
+│                       │      ├ Description     : Issue summary: An application using the OpenSSL HTTP client
+│                       │      │                   API functions may
+│                       │      │                   trigger an out-of-bounds read if the 'no_proxy' environment
+│                       │      │                   variable is set and
+│                       │      │                   the host portion of the authority component of the HTTP URL
+│                       │      │                   is an IPv6 address.
+│                       │      │                   
+│                       │      │                   Impact summary: An out-of-bounds read can trigger a crash
+│                       │      │                   which leads to
+│                       │      │                   Denial of Service for an application.
+│                       │      │                   The OpenSSL HTTP client API functions can be used directly
+│                       │      │                   by applications
+│                       │      │                   but they are also used by the OCSP client functions and CMP
+│                       │      │                   (Certificate
+│                       │      │                   Management Protocol) client implementation in OpenSSL.
+│                       │      │                   However the URLs used
+│                       │      │                   by these implementations are unlikely to be controlled by an
+│                       │      │                    attacker.
+│                       │      │                   In this vulnerable code the out of bounds read can only
+│                       │      │                   trigger a crash.
+│                       │      │                   Furthermore the vulnerability requires an
+│                       │      │                   attacker-controlled URL to be
+│                       │      │                   passed from an application to the OpenSSL function and the
+│                       │      │                   user has to have
+│                       │      │                   a 'no_proxy' environment variable set. For the
+│                       │      │                   aforementioned reasons the
+│                       │      │                   issue was assessed as Low severity.
+│                       │      │                   The vulnerable code was introduced in the following patch
+│                       │      │                   releases:
+│                       │      │                   3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.
+│                       │      │                   The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                       │      │                   affected by this
+│                       │      │                   issue, as the HTTP client implementation is outside the
+│                       │      │                   OpenSSL FIPS module
+│                       │      │                   boundary. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9232 
+│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/2b4ec20e4795
+│                       │      │                  │      9170422922eaff25346d362dcb35 
+│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/654dc11d2346
+│                       │      │                  │      8a74fc8ea4672b702dd3feb7be4b 
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/7cf21a30513c
+│                       │      │                  │      9e43c4bc3836c237cf086e194af3 
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/89e790ac4311
+│                       │      │                  │      25a4849992858490bed6b225eadf 
+│                       │      │                  ├ [5]: https://github.com/openssl/openssl/commit/bbf38c034cda
+│                       │      │                  │      bd0a13330abcc4855c866f53d2e0 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
+│                       │      │                  ├ [7]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
+│                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
+│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.397Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-26519 
+│                       │      ├ PkgID           : musl@1.2.5-r9 
+│                       │      ├ PkgName         : musl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.5-r9?arch=x86_64&distro=3.22.
+│                       │      │                  │       0_alpha20250108 
+│                       │      │                  ╰ UID : ebcbb7de0538c04f 
+│                       │      ├ InstalledVersion: 1.2.5-r9 
+│                       │      ├ FixedVersion    : 1.2.5-r10 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:03c4340499d483d335593fe0b36fbde220b0519a4d4a
+│                       │      │                  │         098aee6c2c639bc6e6ba 
+│                       │      │                  ╰ DiffID: sha256:7af8c3e3f30b037e62709421e818c6262f750402568f
+│                       │      │                            91078e0b8d5badd1e0fe 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │      │                   out-of-bounds write ... 
+│                       │      ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │      │                   out-of-bounds write vulnerability when an attacker can
+│                       │      │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/13/3 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/13/4 
+│                       │      │                  ├ [3]: http://www.openwall.com/lists/oss-security/2025/02/13/5 
+│                       │      │                  ├ [4]: http://www.openwall.com/lists/oss-security/2025/02/14/5 
+│                       │      │                  ├ [5]: http://www.openwall.com/lists/oss-security/2025/02/14/6 
+│                       │      │                  ├ [6]: https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25
+│                       │      │                  │      ea3b484e10326f933e927c0bc8cded3da 
+│                       │      │                  ├ [7]: https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd9
+│                       │      │                  │      7b5196e29991b524237381a0202a60659 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │      ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
+│                       │      ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-26519 
+│                       │      ├ PkgID           : musl-utils@1.2.5-r9 
+│                       │      ├ PkgName         : musl-utils 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.5-r9?arch=x86_64&distro
+│                       │      │                  │       =3.22.0_alpha20250108 
+│                       │      │                  ╰ UID : 8b959e5d6017bacb 
+│                       │      ├ InstalledVersion: 1.2.5-r9 
+│                       │      ├ FixedVersion    : 1.2.5-r10 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:03c4340499d483d335593fe0b36fbde220b0519a4d4a
+│                       │      │                  │         098aee6c2c639bc6e6ba 
+│                       │      │                  ╰ DiffID: sha256:7af8c3e3f30b037e62709421e818c6262f750402568f
+│                       │      │                            91078e0b8d5badd1e0fe 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │      │                   out-of-bounds write ... 
+│                       │      ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │      │                   out-of-bounds write vulnerability when an attacker can
+│                       │      │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/13/3 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/13/4 
+│                       │      │                  ├ [3]: http://www.openwall.com/lists/oss-security/2025/02/13/5 
+│                       │      │                  ├ [4]: http://www.openwall.com/lists/oss-security/2025/02/14/5 
+│                       │      │                  ├ [5]: http://www.openwall.com/lists/oss-security/2025/02/14/6 
+│                       │      │                  ├ [6]: https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25
+│                       │      │                  │      ea3b484e10326f933e927c0bc8cded3da 
+│                       │      │                  ├ [7]: https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd9
+│                       │      │                  │      7b5196e29991b524237381a0202a60659 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │      ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
+│                       │      ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-9230 
+│                       │      ├ PkgID           : openssl@3.5.3-r1 
+│                       │      ├ PkgName         : openssl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.3-r1?arch=x86_64&distro=3.
+│                       │      │                  │       22.0_alpha20250108 
+│                       │      │                  ╰ UID : 57cf5b38e4772f5c 
+│                       │      ├ InstalledVersion: 3.5.3-r1 
+│                       │      ├ FixedVersion    : 3.5.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:03c4340499d483d335593fe0b36fbde220b0519a4d4a
+│                       │      │                  │         098aee6c2c639bc6e6ba 
+│                       │      │                  ╰ DiffID: sha256:7af8c3e3f30b037e62709421e818c6262f750402568f
+│                       │      │                            91078e0b8d5badd1e0fe 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9230 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: Out-of-bounds read & write in RFC 3211 KEK Unwrap 
+│                       │      ├ Description     : Issue summary: An application trying to decrypt CMS messages
+│                       │      │                    encrypted using
+│                       │      │                   password based encryption can trigger an out-of-bounds read
+│                       │      │                   and write.
+│                       │      │                   
+│                       │      │                   Impact summary: This out-of-bounds read may trigger a crash
+│                       │      │                   which leads to
+│                       │      │                   Denial of Service for an application. The out-of-bounds
+│                       │      │                   write can cause
+│                       │      │                   a memory corruption which can have various consequences
+│                       │      │                   including
+│                       │      │                   a Denial of Service or Execution of attacker-supplied code.
+│                       │      │                   Although the consequences of a successful exploit of this
+│                       │      │                   vulnerability
+│                       │      │                   could be severe, the probability that the attacker would be
+│                       │      │                   able to
+│                       │      │                   perform it is low. Besides, password based (PWRI) encryption
+│                       │      │                    support in CMS
+│                       │      │                   messages is very rarely used. For that reason the issue was
+│                       │      │                   assessed as
+│                       │      │                   Moderate severity according to our Security Policy.
+│                       │      │                   The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                       │      │                   affected by this
+│                       │      │                   issue, as the CMS implementation is outside the OpenSSL FIPS
+│                       │      │                    module
+│                       │      │                   boundary. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-125 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.6 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-9230 
+│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/5965ea5dd69
+│                       │      │                  │       60f36d8b7f74f8eac67a8eb8f2b45 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/9e91358f365
+│                       │      │                  │       dee6c446dcdcdb01c04d2743fd280 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/a79c4ce559c
+│                       │      │                  │       6a3a8fd4109e9f33c1185d5bf2def 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/b5282d67755
+│                       │      │                  │       1afda7d20e9c00e09561b547b2dfd 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/bae259a211a
+│                       │      │                  │       da6315dc50900686daaaaaa55f482 
+│                       │      │                  ├ [6] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/c2b96348bfa662f25f4fabf81958ae822063dae3 
+│                       │      │                  ├ [7] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-9230 
+│                       │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
+│                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
+│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.023Z 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-9231 
+│                       │      ├ PkgID           : openssl@3.5.3-r1 
+│                       │      ├ PkgName         : openssl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.3-r1?arch=x86_64&distro=3.
+│                       │      │                  │       22.0_alpha20250108 
+│                       │      │                  ╰ UID : 57cf5b38e4772f5c 
+│                       │      ├ InstalledVersion: 3.5.3-r1 
+│                       │      ├ FixedVersion    : 3.5.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:03c4340499d483d335593fe0b36fbde220b0519a4d4a
+│                       │      │                  │         098aee6c2c639bc6e6ba 
+│                       │      │                  ╰ DiffID: sha256:7af8c3e3f30b037e62709421e818c6262f750402568f
+│                       │      │                            91078e0b8d5badd1e0fe 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9231 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: Timing side-channel in SM2 algorithm on 64 bit ARM 
+│                       │      ├ Description     : Issue summary: A timing side-channel which could potentially
+│                       │      │                    allow remote
+│                       │      │                   recovery of the private key exists in the SM2 algorithm
+│                       │      │                   implementation on 64 bit
+│                       │      │                   ARM platforms.
+│                       │      │                   
+│                       │      │                   Impact summary: A timing side-channel in SM2 signature
+│                       │      │                   computations on 64 bit
+│                       │      │                   ARM platforms could allow recovering the private key by an
+│                       │      │                   attacker..
+│                       │      │                   While remote key recovery over a network was not attempted
+│                       │      │                   by the reporter,
+│                       │      │                   timing measurements revealed a timing signal which may allow
+│                       │      │                    such an attack.
+│                       │      │                   OpenSSL does not directly support certificates with SM2 keys
+│                       │      │                    in TLS, and so
+│                       │      │                   this CVE is not relevant in most TLS contexts.  However,
+│                       │      │                   given that it is
+│                       │      │                   possible to add support for such certificates via a custom
+│                       │      │                   provider, coupled
+│                       │      │                   with the fact that in such a custom provider context the
+│                       │      │                   private key may be
+│                       │      │                   recoverable via remote timing measurements, we consider this
+│                       │      │                    to be a Moderate
+│                       │      │                   severity issue.
+│                       │      │                   The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                       │      │                   affected by this
+│                       │      │                   issue, as SM2 is not an approved algorithm. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-385 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9231 
+│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/567f64386e43
+│                       │      │                  │      683888212226824b6a179885a0fe 
+│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/cba616c26ac8
+│                       │      │                  │      e7b37de5e77762e505ba5ca51698 
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/eed5adc9f969
+│                       │      │                  │      d77c94f213767acbb41ff923b6f4 
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/fc47a2ec0789
+│                       │      │                  │      12b3e914fab5734535e76c4820c2 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9231 
+│                       │      │                  ├ [6]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
+│                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
+│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.22Z 
+│                       ╰ [10] ╭ VulnerabilityID : CVE-2025-9232 
+│                              ├ PkgID           : openssl@3.5.3-r1 
+│                              ├ PkgName         : openssl 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.3-r1?arch=x86_64&distro=3.
+│                              │                  │       22.0_alpha20250108 
+│                              │                  ╰ UID : 57cf5b38e4772f5c 
+│                              ├ InstalledVersion: 3.5.3-r1 
+│                              ├ FixedVersion    : 3.5.4-r0 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:03c4340499d483d335593fe0b36fbde220b0519a4d4a
+│                              │                  │         098aee6c2c639bc6e6ba 
+│                              │                  ╰ DiffID: sha256:7af8c3e3f30b037e62709421e818c6262f750402568f
+│                              │                            91078e0b8d5badd1e0fe 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9232 
+│                              ├ DataSource       ╭ ID  : alpine 
+│                              │                  ├ Name: Alpine Secdb 
+│                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                              ├ Title           : openssl: Out-of-bounds read in HTTP client no_proxy handling 
+│                              ├ Description     : Issue summary: An application using the OpenSSL HTTP client
+│                              │                   API functions may
+│                              │                   trigger an out-of-bounds read if the 'no_proxy' environment
+│                              │                   variable is set and
+│                              │                   the host portion of the authority component of the HTTP URL
+│                              │                   is an IPv6 address.
+│                              │                   
+│                              │                   Impact summary: An out-of-bounds read can trigger a crash
+│                              │                   which leads to
+│                              │                   Denial of Service for an application.
+│                              │                   The OpenSSL HTTP client API functions can be used directly
+│                              │                   by applications
+│                              │                   but they are also used by the OCSP client functions and CMP
+│                              │                   (Certificate
+│                              │                   Management Protocol) client implementation in OpenSSL.
+│                              │                   However the URLs used
+│                              │                   by these implementations are unlikely to be controlled by an
+│                              │                    attacker.
+│                              │                   In this vulnerable code the out of bounds read can only
+│                              │                   trigger a crash.
+│                              │                   Furthermore the vulnerability requires an
+│                              │                   attacker-controlled URL to be
+│                              │                   passed from an application to the OpenSSL function and the
+│                              │                   user has to have
+│                              │                   a 'no_proxy' environment variable set. For the
+│                              │                   aforementioned reasons the
+│                              │                   issue was assessed as Low severity.
+│                              │                   The vulnerable code was introduced in the following patch
+│                              │                   releases:
+│                              │                   3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.
+│                              │                   The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                              │                   affected by this
+│                              │                   issue, as the HTTP client implementation is outside the
+│                              │                   OpenSSL FIPS module
+│                              │                   boundary. 
+│                              ├ Severity        : LOW 
+│                              ├ CweIDs           ─ [0]: CWE-125 
+│                              ├ VendorSeverity   ╭ redhat: 1 
+│                              │                  ╰ ubuntu: 1 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
+│                              │                           │           /A:L 
+│                              │                           ╰ V3Score : 3.1 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9232 
+│                              │                  ├ [1]: https://github.com/openssl/openssl/commit/2b4ec20e4795
+│                              │                  │      9170422922eaff25346d362dcb35 
+│                              │                  ├ [2]: https://github.com/openssl/openssl/commit/654dc11d2346
+│                              │                  │      8a74fc8ea4672b702dd3feb7be4b 
+│                              │                  ├ [3]: https://github.com/openssl/openssl/commit/7cf21a30513c
+│                              │                  │      9e43c4bc3836c237cf086e194af3 
+│                              │                  ├ [4]: https://github.com/openssl/openssl/commit/89e790ac4311
+│                              │                  │      25a4849992858490bed6b225eadf 
+│                              │                  ├ [5]: https://github.com/openssl/openssl/commit/bbf38c034cda
+│                              │                  │      bd0a13330abcc4855c866f53d2e0 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
+│                              │                  ├ [7]: https://openssl-library.org/news/secadv/20250930.txt 
+│                              │                  ├ [8]: https://ubuntu.com/security/notices/USN-7786-1 
+│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
+│                              ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
+│                              ╰ LastModifiedDate: 2025-09-30T20:15:41.397Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
