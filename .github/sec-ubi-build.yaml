@@ -37186,6 +37186,120 @@
     - https://www.mozilla.org/security/advisories/mfsa2024-35/
     PublishedDate: '2024-08-06T13:15:57.787Z'
     LastModifiedDate: '2025-03-19T16:15:29.57Z'
+  - VulnerabilityID: CVE-2025-9230
+    PkgID: openssl@3.2.2-6.el9_5.1.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.2.2-6.el9_5.1?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 22fac7d69b8770c8
+    InstalledVersion: 1:3.2.2-6.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:35b5f024254b71b0695a32160cd7e53d66579e92f7da3fb34a303cd567d71fda
+      DiffID: sha256:5f4e731839b215ccecbdd759c348736e7d00445f497a8e519107a1aa714046cd
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9230
+    Title: 'openssl: Out-of-bounds read & write in RFC 3211 KEK Unwrap'
+    Description: |-
+      Issue summary: An application trying to decrypt CMS messages encrypted using
+      password based encryption can trigger an out-of-bounds read and write.
+
+      Impact summary: This out-of-bounds read may trigger a crash which leads to
+      Denial of Service for an application. The out-of-bounds write can cause
+      a memory corruption which can have various consequences including
+      a Denial of Service or Execution of attacker-supplied code.
+
+      Although the consequences of a successful exploit of this vulnerability
+      could be severe, the probability that the attacker would be able to
+      perform it is low. Besides, password based (PWRI) encryption support in CMS
+      messages is very rarely used. For that reason the issue was assessed as
+      Moderate severity according to our Security Policy.
+
+      The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this
+      issue, as the CMS implementation is outside the OpenSSL FIPS module
+      boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9230
+    - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
+    - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
+    - https://github.com/openssl/openssl/commit/a79c4ce559c6a3a8fd4109e9f33c1185d5bf2def
+    - https://github.com/openssl/openssl/commit/b5282d677551afda7d20e9c00e09561b547b2dfd
+    - https://github.com/openssl/openssl/commit/bae259a211ada6315dc50900686daaaaaa55f482
+    - https://github.openssl.org/openssl/extended-releases/commit/c2b96348bfa662f25f4fabf81958ae822063dae3
+    - https://github.openssl.org/openssl/extended-releases/commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9230
+    - https://openssl-library.org/news/secadv/20250930.txt
+    - https://ubuntu.com/security/notices/USN-7786-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-9230
+    PublishedDate: '2025-09-30T14:15:41.05Z'
+    LastModifiedDate: '2025-09-30T20:15:41.023Z'
+  - VulnerabilityID: CVE-2025-9231
+    PkgID: openssl@3.2.2-6.el9_5.1.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.2.2-6.el9_5.1?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 22fac7d69b8770c8
+    InstalledVersion: 1:3.2.2-6.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:35b5f024254b71b0695a32160cd7e53d66579e92f7da3fb34a303cd567d71fda
+      DiffID: sha256:5f4e731839b215ccecbdd759c348736e7d00445f497a8e519107a1aa714046cd
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9231
+    Title: 'openssl: Timing side-channel in SM2 algorithm on 64 bit ARM'
+    Description: |-
+      Issue summary: A timing side-channel which could potentially allow remote
+      recovery of the private key exists in the SM2 algorithm implementation on 64 bit
+      ARM platforms.
+
+      Impact summary: A timing side-channel in SM2 signature computations on 64 bit
+      ARM platforms could allow recovering the private key by an attacker..
+
+      While remote key recovery over a network was not attempted by the reporter,
+      timing measurements revealed a timing signal which may allow such an attack.
+
+      OpenSSL does not directly support certificates with SM2 keys in TLS, and so
+      this CVE is not relevant in most TLS contexts.  However, given that it is
+      possible to add support for such certificates via a custom provider, coupled
+      with the fact that in such a custom provider context the private key may be
+      recoverable via remote timing measurements, we consider this to be a Moderate
+      severity issue.
+
+      The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this
+      issue, as SM2 is not an approved algorithm.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-385
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9231
+    - https://github.com/openssl/openssl/commit/567f64386e43683888212226824b6a179885a0fe
+    - https://github.com/openssl/openssl/commit/cba616c26ac8e7b37de5e77762e505ba5ca51698
+    - https://github.com/openssl/openssl/commit/eed5adc9f969d77c94f213767acbb41ff923b6f4
+    - https://github.com/openssl/openssl/commit/fc47a2ec078912b3e914fab5734535e76c4820c2
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9231
+    - https://openssl-library.org/news/secadv/20250930.txt
+    - https://ubuntu.com/security/notices/USN-7786-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-9231
+    PublishedDate: '2025-09-30T14:15:41.19Z'
+    LastModifiedDate: '2025-09-30T20:15:41.22Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl@3.2.2-6.el9_5.1.x86_64
     PkgName: openssl
@@ -37348,6 +37462,182 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
+  - VulnerabilityID: CVE-2025-9232
+    PkgID: openssl@3.2.2-6.el9_5.1.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.2.2-6.el9_5.1?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 22fac7d69b8770c8
+    InstalledVersion: 1:3.2.2-6.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:35b5f024254b71b0695a32160cd7e53d66579e92f7da3fb34a303cd567d71fda
+      DiffID: sha256:5f4e731839b215ccecbdd759c348736e7d00445f497a8e519107a1aa714046cd
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9232
+    Title: 'openssl: Out-of-bounds read in HTTP client no_proxy handling'
+    Description: |-
+      Issue summary: An application using the OpenSSL HTTP client API functions may
+      trigger an out-of-bounds read if the 'no_proxy' environment variable is set and
+      the host portion of the authority component of the HTTP URL is an IPv6 address.
+
+      Impact summary: An out-of-bounds read can trigger a crash which leads to
+      Denial of Service for an application.
+
+      The OpenSSL HTTP client API functions can be used directly by applications
+      but they are also used by the OCSP client functions and CMP (Certificate
+      Management Protocol) client implementation in OpenSSL. However the URLs used
+      by these implementations are unlikely to be controlled by an attacker.
+
+      In this vulnerable code the out of bounds read can only trigger a crash.
+      Furthermore the vulnerability requires an attacker-controlled URL to be
+      passed from an application to the OpenSSL function and the user has to have
+      a 'no_proxy' environment variable set. For the aforementioned reasons the
+      issue was assessed as Low severity.
+
+      The vulnerable code was introduced in the following patch releases:
+      3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.
+
+      The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this
+      issue, as the HTTP client implementation is outside the OpenSSL FIPS module
+      boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9232
+    - https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35
+    - https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b
+    - https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3
+    - https://github.com/openssl/openssl/commit/89e790ac431125a4849992858490bed6b225eadf
+    - https://github.com/openssl/openssl/commit/bbf38c034cdabd0a13330abcc4855c866f53d2e0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9232
+    - https://openssl-library.org/news/secadv/20250930.txt
+    - https://ubuntu.com/security/notices/USN-7786-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-9232
+    PublishedDate: '2025-09-30T14:15:41.313Z'
+    LastModifiedDate: '2025-09-30T20:15:41.397Z'
+  - VulnerabilityID: CVE-2025-9230
+    PkgID: openssl-libs@3.2.2-6.el9_5.1.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5.1?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 90b28a1a97fa6e17
+    InstalledVersion: 1:3.2.2-6.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:35b5f024254b71b0695a32160cd7e53d66579e92f7da3fb34a303cd567d71fda
+      DiffID: sha256:5f4e731839b215ccecbdd759c348736e7d00445f497a8e519107a1aa714046cd
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9230
+    Title: 'openssl: Out-of-bounds read & write in RFC 3211 KEK Unwrap'
+    Description: |-
+      Issue summary: An application trying to decrypt CMS messages encrypted using
+      password based encryption can trigger an out-of-bounds read and write.
+
+      Impact summary: This out-of-bounds read may trigger a crash which leads to
+      Denial of Service for an application. The out-of-bounds write can cause
+      a memory corruption which can have various consequences including
+      a Denial of Service or Execution of attacker-supplied code.
+
+      Although the consequences of a successful exploit of this vulnerability
+      could be severe, the probability that the attacker would be able to
+      perform it is low. Besides, password based (PWRI) encryption support in CMS
+      messages is very rarely used. For that reason the issue was assessed as
+      Moderate severity according to our Security Policy.
+
+      The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this
+      issue, as the CMS implementation is outside the OpenSSL FIPS module
+      boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9230
+    - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
+    - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
+    - https://github.com/openssl/openssl/commit/a79c4ce559c6a3a8fd4109e9f33c1185d5bf2def
+    - https://github.com/openssl/openssl/commit/b5282d677551afda7d20e9c00e09561b547b2dfd
+    - https://github.com/openssl/openssl/commit/bae259a211ada6315dc50900686daaaaaa55f482
+    - https://github.openssl.org/openssl/extended-releases/commit/c2b96348bfa662f25f4fabf81958ae822063dae3
+    - https://github.openssl.org/openssl/extended-releases/commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9230
+    - https://openssl-library.org/news/secadv/20250930.txt
+    - https://ubuntu.com/security/notices/USN-7786-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-9230
+    PublishedDate: '2025-09-30T14:15:41.05Z'
+    LastModifiedDate: '2025-09-30T20:15:41.023Z'
+  - VulnerabilityID: CVE-2025-9231
+    PkgID: openssl-libs@3.2.2-6.el9_5.1.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5.1?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 90b28a1a97fa6e17
+    InstalledVersion: 1:3.2.2-6.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:35b5f024254b71b0695a32160cd7e53d66579e92f7da3fb34a303cd567d71fda
+      DiffID: sha256:5f4e731839b215ccecbdd759c348736e7d00445f497a8e519107a1aa714046cd
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9231
+    Title: 'openssl: Timing side-channel in SM2 algorithm on 64 bit ARM'
+    Description: |-
+      Issue summary: A timing side-channel which could potentially allow remote
+      recovery of the private key exists in the SM2 algorithm implementation on 64 bit
+      ARM platforms.
+
+      Impact summary: A timing side-channel in SM2 signature computations on 64 bit
+      ARM platforms could allow recovering the private key by an attacker..
+
+      While remote key recovery over a network was not attempted by the reporter,
+      timing measurements revealed a timing signal which may allow such an attack.
+
+      OpenSSL does not directly support certificates with SM2 keys in TLS, and so
+      this CVE is not relevant in most TLS contexts.  However, given that it is
+      possible to add support for such certificates via a custom provider, coupled
+      with the fact that in such a custom provider context the private key may be
+      recoverable via remote timing measurements, we consider this to be a Moderate
+      severity issue.
+
+      The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this
+      issue, as SM2 is not an approved algorithm.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-385
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9231
+    - https://github.com/openssl/openssl/commit/567f64386e43683888212226824b6a179885a0fe
+    - https://github.com/openssl/openssl/commit/cba616c26ac8e7b37de5e77762e505ba5ca51698
+    - https://github.com/openssl/openssl/commit/eed5adc9f969d77c94f213767acbb41ff923b6f4
+    - https://github.com/openssl/openssl/commit/fc47a2ec078912b3e914fab5734535e76c4820c2
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9231
+    - https://openssl-library.org/news/secadv/20250930.txt
+    - https://ubuntu.com/security/notices/USN-7786-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-9231
+    PublishedDate: '2025-09-30T14:15:41.19Z'
+    LastModifiedDate: '2025-09-30T20:15:41.22Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl-libs@3.2.2-6.el9_5.1.x86_64
     PkgName: openssl-libs
@@ -37510,6 +37800,68 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
+  - VulnerabilityID: CVE-2025-9232
+    PkgID: openssl-libs@3.2.2-6.el9_5.1.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5.1?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 90b28a1a97fa6e17
+    InstalledVersion: 1:3.2.2-6.el9_5.1
+    Status: affected
+    Layer:
+      Digest: sha256:35b5f024254b71b0695a32160cd7e53d66579e92f7da3fb34a303cd567d71fda
+      DiffID: sha256:5f4e731839b215ccecbdd759c348736e7d00445f497a8e519107a1aa714046cd
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9232
+    Title: 'openssl: Out-of-bounds read in HTTP client no_proxy handling'
+    Description: |-
+      Issue summary: An application using the OpenSSL HTTP client API functions may
+      trigger an out-of-bounds read if the 'no_proxy' environment variable is set and
+      the host portion of the authority component of the HTTP URL is an IPv6 address.
+
+      Impact summary: An out-of-bounds read can trigger a crash which leads to
+      Denial of Service for an application.
+
+      The OpenSSL HTTP client API functions can be used directly by applications
+      but they are also used by the OCSP client functions and CMP (Certificate
+      Management Protocol) client implementation in OpenSSL. However the URLs used
+      by these implementations are unlikely to be controlled by an attacker.
+
+      In this vulnerable code the out of bounds read can only trigger a crash.
+      Furthermore the vulnerability requires an attacker-controlled URL to be
+      passed from an application to the OpenSSL function and the user has to have
+      a 'no_proxy' environment variable set. For the aforementioned reasons the
+      issue was assessed as Low severity.
+
+      The vulnerable code was introduced in the following patch releases:
+      3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.
+
+      The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this
+      issue, as the HTTP client implementation is outside the OpenSSL FIPS module
+      boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9232
+    - https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35
+    - https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b
+    - https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3
+    - https://github.com/openssl/openssl/commit/89e790ac431125a4849992858490bed6b225eadf
+    - https://github.com/openssl/openssl/commit/bbf38c034cdabd0a13330abcc4855c866f53d2e0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9232
+    - https://openssl-library.org/news/secadv/20250930.txt
+    - https://ubuntu.com/security/notices/USN-7786-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-9232
+    PublishedDate: '2025-09-30T14:15:41.313Z'
+    LastModifiedDate: '2025-09-30T20:15:41.397Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
@@ -37728,7 +38080,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -37869,7 +38221,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38010,7 +38362,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
