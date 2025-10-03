@@ -2106,6 +2106,104 @@
     - usr/lib/libzstd.so.1
     - usr/lib/libzstd.so.1.5.7
   Vulnerabilities:
+  - VulnerabilityID: CVE-2025-10148
+    PkgID: curl@8.14.1-r1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.14.1-r1?arch=x86_64&distro=3.22.1
+      UID: 96136c0744e67a36
+    InstalledVersion: 8.14.1-r1
+    FixedVersion: 8.14.1-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:32be97d762e7387e3423c53561fbedf8793722e9ef0786b93a9a61dbf0fe780e
+      DiffID: sha256:88e124f997daa9b69883eb6767ec010274c02c4d099d3a1479b3e591c35eac31
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10148
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: predictable WebSocket mask'
+    Description: |-
+      curl's websocket code did not update the 32 bit mask pattern for each new
+       outgoing frame as the specification says. Instead it used a fixed mask that
+      persisted and was used throughout the entire connection.
+
+      A predictable mask pattern allows for a malicious server to induce traffic
+      between the two communicating parties that could be interpreted by an involved
+      proxy (configured or transparent) as genuine, real, HTTP traffic with content
+      and thereby poison its cache. That cached poisoned content could then be
+      served to all users of that proxy.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-10148
+    - https://curl.se/docs/CVE-2025-10148.html
+    - https://curl.se/docs/CVE-2025-10148.json
+    - https://hackerone.com/reports/3330839
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
+    - https://www.cve.org/CVERecord?id=CVE-2025-10148
+    PublishedDate: '2025-09-12T06:15:40.02Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+  - VulnerabilityID: CVE-2025-9086
+    PkgID: curl@8.14.1-r1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.14.1-r1?arch=x86_64&distro=3.22.1
+      UID: 96136c0744e67a36
+    InstalledVersion: 8.14.1-r1
+    FixedVersion: 8.14.1-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:32be97d762e7387e3423c53561fbedf8793722e9ef0786b93a9a61dbf0fe780e
+      DiffID: sha256:88e124f997daa9b69883eb6767ec010274c02c4d099d3a1479b3e591c35eac31
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: libcurl: Curl out of bounds read for cookie path'
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target`
+      2. curl is redirected to or otherwise made to speak with `http://target` (same
+         hostname, but using clear text HTTP) using the same cookie set
+      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
+    - https://hackerone.com/reports/3294999
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
+    - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2025-9230
     PkgID: libcrypto3@3.5.1-r0
     PkgName: libcrypto3
@@ -2294,6 +2392,104 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
     LastModifiedDate: '2025-09-30T20:15:41.397Z'
+  - VulnerabilityID: CVE-2025-10148
+    PkgID: libcurl@8.14.1-r1
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.14.1-r1?arch=x86_64&distro=3.22.1
+      UID: 9f30abb81f359f7b
+    InstalledVersion: 8.14.1-r1
+    FixedVersion: 8.14.1-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:32be97d762e7387e3423c53561fbedf8793722e9ef0786b93a9a61dbf0fe780e
+      DiffID: sha256:88e124f997daa9b69883eb6767ec010274c02c4d099d3a1479b3e591c35eac31
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10148
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: predictable WebSocket mask'
+    Description: |-
+      curl's websocket code did not update the 32 bit mask pattern for each new
+       outgoing frame as the specification says. Instead it used a fixed mask that
+      persisted and was used throughout the entire connection.
+
+      A predictable mask pattern allows for a malicious server to induce traffic
+      between the two communicating parties that could be interpreted by an involved
+      proxy (configured or transparent) as genuine, real, HTTP traffic with content
+      and thereby poison its cache. That cached poisoned content could then be
+      served to all users of that proxy.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-10148
+    - https://curl.se/docs/CVE-2025-10148.html
+    - https://curl.se/docs/CVE-2025-10148.json
+    - https://hackerone.com/reports/3330839
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
+    - https://www.cve.org/CVERecord?id=CVE-2025-10148
+    PublishedDate: '2025-09-12T06:15:40.02Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+  - VulnerabilityID: CVE-2025-9086
+    PkgID: libcurl@8.14.1-r1
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.14.1-r1?arch=x86_64&distro=3.22.1
+      UID: 9f30abb81f359f7b
+    InstalledVersion: 8.14.1-r1
+    FixedVersion: 8.14.1-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:32be97d762e7387e3423c53561fbedf8793722e9ef0786b93a9a61dbf0fe780e
+      DiffID: sha256:88e124f997daa9b69883eb6767ec010274c02c4d099d3a1479b3e591c35eac31
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: libcurl: Curl out of bounds read for cookie path'
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target`
+      2. curl is redirected to or otherwise made to speak with `http://target` (same
+         hostname, but using clear text HTTP) using the same cookie set
+      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
+    - https://hackerone.com/reports/3294999
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
+    - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2025-9230
     PkgID: libssl3@3.5.1-r0
     PkgName: libssl3
