@@ -35825,6 +35825,7 @@
     VendorSeverity:
       amazon: 2
       azure: 1
+      cbl-mariner: 1
       nvd: 2
       redhat: 1
       ubuntu: 2
@@ -35865,6 +35866,7 @@
     - CWE-190
     VendorSeverity:
       azure: 1
+      cbl-mariner: 1
       nvd: 2
       redhat: 1
       ubuntu: 2
@@ -35907,6 +35909,7 @@
     VendorSeverity:
       amazon: 2
       azure: 1
+      cbl-mariner: 1
       nvd: 2
       redhat: 1
       ubuntu: 2
@@ -35947,6 +35950,7 @@
     - CWE-125
     VendorSeverity:
       azure: 1
+      cbl-mariner: 1
       nvd: 2
       redhat: 1
     CVSS:
@@ -38080,7 +38084,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38221,7 +38225,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38362,7 +38366,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38505,6 +38509,7 @@
     VendorSeverity:
       amazon: 2
       azure: 2
+      cbl-mariner: 2
       ghsa: 2
       nvd: 2
       redhat: 2
