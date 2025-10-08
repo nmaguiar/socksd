@@ -40334,7 +40334,7 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.7 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/01/20/2 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:15699 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:16046 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-13176 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2359885 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2359888 
@@ -40388,7 +40388,7 @@
 │                       │      │                  ├ [52]: https://bugzilla.redhat.com/2380327 
 │                       │      │                  ├ [53]: https://bugzilla.redhat.com/2380334 
 │                       │      │                  ├ [54]: https://bugzilla.redhat.com/2380335 
-│                       │      │                  ├ [55]: https://errata.almalinux.org/10/ALSA-2025-15699.html 
+│                       │      │                  ├ [55]: https://errata.almalinux.org/9/ALSA-2025-16046.html 
 │                       │      │                  ├ [56]: https://github.com/openssl/openssl/commit/07272b05b04
 │                       │      │                  │       836a762b4baa874958af51d513844 
 │                       │      │                  ├ [57]: https://github.com/openssl/openssl/commit/2af62e74fb5
@@ -40730,7 +40730,7 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.7 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/01/20/2 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:15699 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:16046 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-13176 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2359885 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2359888 
@@ -40784,7 +40784,7 @@
 │                       │      │                  ├ [52]: https://bugzilla.redhat.com/2380327 
 │                       │      │                  ├ [53]: https://bugzilla.redhat.com/2380334 
 │                       │      │                  ├ [54]: https://bugzilla.redhat.com/2380335 
-│                       │      │                  ├ [55]: https://errata.almalinux.org/10/ALSA-2025-15699.html 
+│                       │      │                  ├ [55]: https://errata.almalinux.org/9/ALSA-2025-16046.html 
 │                       │      │                  ├ [56]: https://github.com/openssl/openssl/commit/07272b05b04
 │                       │      │                  │       836a762b4baa874958af51d513844 
 │                       │      │                  ├ [57]: https://github.com/openssl/openssl/commit/2af62e74fb5
@@ -41171,7 +41171,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -41343,7 +41343,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -41515,7 +41515,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
