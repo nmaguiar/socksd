@@ -1019,7 +1019,73 @@
 │     │                        ├ Digest        : sha1:43ac44ea9c46b340ba31d8f7fe10469f2d4223f4 
 │     │                        ╰ InstalledFiles ╭ [0]: usr/lib/libzstd.so.1 
 │     │                                         ╰ [1]: usr/lib/libzstd.so.1.5.7 
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-26519 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-58251 
+│                       │     ├ PkgID           : busybox@1.37.0-r10 
+│                       │     ├ PkgName         : busybox 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox@1.37.0-r10?arch=x86_64&distro=3
+│                       │     │                  │       .22.0_alpha20250108 
+│                       │     │                  ╰ UID : 1f47e981aa954de9 
+│                       │     ├ InstalledVersion: 1.37.0-r10 
+│                       │     ├ FixedVersion    : 1.37.0-r24 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:5f726f2a13452342e5f2b65b7a80fcbe02b29715b5697
+│                       │     │                  │         df9befe2c4f35da3db6 
+│                       │     │                  ╰ DiffID: sha256:61f2b5fd97c83cffd22b965e450e82a077c1cd6ab7b8b
+│                       │     │                            a7589f7667108b2db6b 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-58251 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │     │                   of networ ... 
+│                       │     ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │     │                   of network application with an argv[0] containing an ANSI
+│                       │     │                   terminal escape sequence, leading to a denial of service
+│                       │     │                   (terminal locked up) when netstat is used by a victim. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs           ─ [0]: CWE-150 
+│                       │     ├ VendorSeverity   ─ ubuntu: 2 
+│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/6 
+│                       │     │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15922 
+│                       │     │                  ├ [2]: https://www.busybox.net 
+│                       │     │                  ├ [3]: https://www.busybox.net/downloads/ 
+│                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
+│                       │     ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
+│                       │     ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2024-58251 
+│                       │     ├ PkgID           : busybox-binsh@1.37.0-r10 
+│                       │     ├ PkgName         : busybox-binsh 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox-binsh@1.37.0-r10?arch=x86_64&di
+│                       │     │                  │       stro=3.22.0_alpha20250108 
+│                       │     │                  ╰ UID : 754f3b7c6aca635f 
+│                       │     ├ InstalledVersion: 1.37.0-r10 
+│                       │     ├ FixedVersion    : 1.37.0-r24 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:5f726f2a13452342e5f2b65b7a80fcbe02b29715b5697
+│                       │     │                  │         df9befe2c4f35da3db6 
+│                       │     │                  ╰ DiffID: sha256:61f2b5fd97c83cffd22b965e450e82a077c1cd6ab7b8b
+│                       │     │                            a7589f7667108b2db6b 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-58251 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │     │                   of networ ... 
+│                       │     ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │     │                   of network application with an argv[0] containing an ANSI
+│                       │     │                   terminal escape sequence, leading to a denial of service
+│                       │     │                   (terminal locked up) when netstat is used by a victim. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs           ─ [0]: CWE-150 
+│                       │     ├ VendorSeverity   ─ ubuntu: 2 
+│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/6 
+│                       │     │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15922 
+│                       │     │                  ├ [2]: https://www.busybox.net 
+│                       │     │                  ├ [3]: https://www.busybox.net/downloads/ 
+│                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
+│                       │     ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
+│                       │     ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2025-26519 
 │                       │     ├ PkgID           : musl@1.2.5-r9 
 │                       │     ├ PkgName         : musl 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.5-r9?arch=x86_64&distro=3.22.0
@@ -1056,43 +1122,76 @@
 │                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
 │                       │     ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
 │                       │     ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
-│                       ╰ [1] ╭ VulnerabilityID : CVE-2025-26519 
-│                             ├ PkgID           : musl-utils@1.2.5-r9 
-│                             ├ PkgName         : musl-utils 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.5-r9?arch=x86_64&distro=
-│                             │                  │       3.22.0_alpha20250108 
-│                             │                  ╰ UID : 8b959e5d6017bacb 
-│                             ├ InstalledVersion: 1.2.5-r9 
-│                             ├ FixedVersion    : 1.2.5-r10 
+│                       ├ [3] ╭ VulnerabilityID : CVE-2025-26519 
+│                       │     ├ PkgID           : musl-utils@1.2.5-r9 
+│                       │     ├ PkgName         : musl-utils 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.5-r9?arch=x86_64&distro=
+│                       │     │                  │       3.22.0_alpha20250108 
+│                       │     │                  ╰ UID : 8b959e5d6017bacb 
+│                       │     ├ InstalledVersion: 1.2.5-r9 
+│                       │     ├ FixedVersion    : 1.2.5-r10 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:5f726f2a13452342e5f2b65b7a80fcbe02b29715b5697
+│                       │     │                  │         df9befe2c4f35da3db6 
+│                       │     │                  ╰ DiffID: sha256:61f2b5fd97c83cffd22b965e450e82a077c1cd6ab7b8b
+│                       │     │                            a7589f7667108b2db6b 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │     │                   out-of-bounds write ... 
+│                       │     ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │     │                   out-of-bounds write vulnerability when an attacker can
+│                       │     │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ CweIDs           ─ [0]: CWE-787 
+│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/13/3 
+│                       │     │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/13/4 
+│                       │     │                  ├ [3]: http://www.openwall.com/lists/oss-security/2025/02/13/5 
+│                       │     │                  ├ [4]: http://www.openwall.com/lists/oss-security/2025/02/14/5 
+│                       │     │                  ├ [5]: http://www.openwall.com/lists/oss-security/2025/02/14/6 
+│                       │     │                  ├ [6]: https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25e
+│                       │     │                  │      a3b484e10326f933e927c0bc8cded3da 
+│                       │     │                  ├ [7]: https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd97
+│                       │     │                  │      b5196e29991b524237381a0202a60659 
+│                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │     ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
+│                       │     ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
+│                       ╰ [4] ╭ VulnerabilityID : CVE-2024-58251 
+│                             ├ PkgID           : ssl_client@1.37.0-r10 
+│                             ├ PkgName         : ssl_client 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r10?arch=x86_64&distr
+│                             │                  │       o=3.22.0_alpha20250108 
+│                             │                  ╰ UID : bb365d5aa9662495 
+│                             ├ InstalledVersion: 1.37.0-r10 
+│                             ├ FixedVersion    : 1.37.0-r24 
 │                             ├ Status          : fixed 
 │                             ├ Layer            ╭ Digest: sha256:5f726f2a13452342e5f2b65b7a80fcbe02b29715b5697
 │                             │                  │         df9befe2c4f35da3db6 
 │                             │                  ╰ DiffID: sha256:61f2b5fd97c83cffd22b965e450e82a077c1cd6ab7b8b
 │                             │                            a7589f7667108b2db6b 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-58251 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Title           : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
-│                             │                   out-of-bounds write ... 
-│                             ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
-│                             │                   out-of-bounds write vulnerability when an attacker can
-│                             │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8. 
-│                             ├ Severity        : UNKNOWN 
-│                             ├ CweIDs           ─ [0]: CWE-787 
-│                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/13/2 
-│                             │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/13/3 
-│                             │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/13/4 
-│                             │                  ├ [3]: http://www.openwall.com/lists/oss-security/2025/02/13/5 
-│                             │                  ├ [4]: http://www.openwall.com/lists/oss-security/2025/02/14/5 
-│                             │                  ├ [5]: http://www.openwall.com/lists/oss-security/2025/02/14/6 
-│                             │                  ├ [6]: https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25e
-│                             │                  │      a3b484e10326f933e927c0bc8cded3da 
-│                             │                  ├ [7]: https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd97
-│                             │                  │      b5196e29991b524237381a0202a60659 
-│                             │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
-│                             ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
-│                             ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
+│                             ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
+│                             │                   of networ ... 
+│                             ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
+│                             │                   of network application with an argv[0] containing an ANSI
+│                             │                   terminal escape sequence, leading to a denial of service
+│                             │                   (terminal locked up) when netstat is used by a victim. 
+│                             ├ Severity        : MEDIUM 
+│                             ├ CweIDs           ─ [0]: CWE-150 
+│                             ├ VendorSeverity   ─ ubuntu: 2 
+│                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/6 
+│                             │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15922 
+│                             │                  ├ [2]: https://www.busybox.net 
+│                             │                  ├ [3]: https://www.busybox.net/downloads/ 
+│                             │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
+│                             ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
+│                             ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
