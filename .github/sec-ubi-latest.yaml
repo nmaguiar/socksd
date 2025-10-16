@@ -38146,6 +38146,7 @@
     - CWE-125
     - CWE-787
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -38205,6 +38206,7 @@
     CweIDs:
     - CWE-385
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -38592,6 +38594,7 @@
     - CWE-125
     - CWE-787
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -38651,6 +38654,7 @@
     CweIDs:
     - CWE-385
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -39523,6 +39527,8 @@
       Remediation maintains this behavior, but checks that the offset specified
       in the ZIP64 EOCD Locator record matches the expected value.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-1285
     VendorSeverity:
       bitnami: 2
       redhat: 2
@@ -39548,7 +39554,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
-    LastModifiedDate: '2025-10-09T19:15:44.763Z'
+    LastModifiedDate: '2025-10-15T16:15:36.573Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python-unversioned-command@3.9.21-2.el9_6.1.noarch
     PkgName: python-unversioned-command
@@ -39781,6 +39787,8 @@
       Remediation maintains this behavior, but checks that the offset specified
       in the ZIP64 EOCD Locator record matches the expected value.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-1285
     VendorSeverity:
       bitnami: 2
       redhat: 2
@@ -39806,7 +39814,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
-    LastModifiedDate: '2025-10-09T19:15:44.763Z'
+    LastModifiedDate: '2025-10-15T16:15:36.573Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3@3.9.21-2.el9_6.1.x86_64
     PkgName: python3
@@ -40039,6 +40047,8 @@
       Remediation maintains this behavior, but checks that the offset specified
       in the ZIP64 EOCD Locator record matches the expected value.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-1285
     VendorSeverity:
       bitnami: 2
       redhat: 2
@@ -40064,7 +40074,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
-    LastModifiedDate: '2025-10-09T19:15:44.763Z'
+    LastModifiedDate: '2025-10-15T16:15:36.573Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3-libs@3.9.21-2.el9_6.1.x86_64
     PkgName: python3-libs
