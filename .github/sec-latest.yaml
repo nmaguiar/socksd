@@ -2245,6 +2245,7 @@
     - CWE-125
     - CWE-787
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2308,6 +2309,7 @@
     CweIDs:
     - CWE-385
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2531,6 +2533,7 @@
     - CWE-125
     - CWE-787
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2594,6 +2597,7 @@
     CweIDs:
     - CWE-385
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2719,6 +2723,7 @@
     - CWE-125
     - CWE-787
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2782,6 +2787,7 @@
     CweIDs:
     - CWE-385
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
