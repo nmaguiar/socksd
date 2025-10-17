@@ -35071,7 +35071,7 @@
     - https://github.com/OpenPrinting/cups/commit/595d691075b1d396d2edfaa0a8fd0873a0a1f221
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-4c68-qgrh-rmmq
     - https://linux.oracle.com/cve/CVE-2025-58060.html
-    - https://linux.oracle.com/errata/ELSA-2025-15702.html
+    - https://linux.oracle.com/errata/ELSA-2025-17054.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58060
     - https://ubuntu.com/security/notices/USN-7745-1
     - https://www.cve.org/CVERecord?id=CVE-2025-58060
@@ -36007,7 +36007,7 @@
     - https://ubuntu.com/security/notices/USN-7412-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
-    LastModifiedDate: '2025-10-10T14:29:32.06Z'
+    LastModifiedDate: '2025-10-16T16:53:07.557Z'
   - VulnerabilityID: CVE-2025-32988
     VendorIDs:
     - RHSA-2025:16116
@@ -36334,6 +36334,7 @@
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/security/cve/CVE-2025-5914
     - https://bugzilla.redhat.com/2370861
     - https://bugzilla.redhat.com/show_bug.cgi?id=2370861
@@ -36349,7 +36350,7 @@
     - https://ubuntu.com/security/notices/USN-7601-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5914
     PublishedDate: '2025-06-09T20:15:26.123Z'
-    LastModifiedDate: '2025-09-23T20:15:33.293Z'
+    LastModifiedDate: '2025-10-16T09:15:35.38Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-5.el9_6.x86_64
     PkgName: libarchive
@@ -37112,6 +37113,7 @@
     - https://access.redhat.com/errata/RHSA-2025:15672
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
+    - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/security/cve/CVE-2025-7425
     - https://bugzilla.redhat.com/2379274
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379274
@@ -37122,7 +37124,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-7425
     - https://www.cve.org/CVERecord?id=CVE-2025-7425
     PublishedDate: '2025-07-10T14:15:27.877Z'
-    LastModifiedDate: '2025-09-18T10:15:35.227Z'
+    LastModifiedDate: '2025-10-16T09:15:36.167Z'
   - VulnerabilityID: CVE-2025-32414
     VendorIDs:
     - RHSA-2025:13428
@@ -38147,6 +38149,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 2
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -38595,6 +38598,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 2
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -39060,6 +39064,7 @@
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -39076,7 +39081,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-09-23T20:15:33.53Z'
+    LastModifiedDate: '2025-10-16T09:15:35.85Z'
   - VulnerabilityID: CVE-2025-8941
     VendorIDs:
     - RHSA-2025:15099
@@ -39123,6 +39128,7 @@
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/2388220
@@ -39137,7 +39143,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-09-23T20:15:33.927Z'
+    LastModifiedDate: '2025-10-16T09:15:36.56Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
