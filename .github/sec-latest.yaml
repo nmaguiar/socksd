@@ -2136,6 +2136,7 @@
       served to all users of that proxy.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2425,6 +2426,7 @@
       served to all users of that proxy.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
