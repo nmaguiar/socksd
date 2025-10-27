@@ -117,8 +117,8 @@ jobs:
       var _args = af.fromSLON(args.INITOJOBARGS)
       var _txtArgs = Object.keys(_args).map(k => k + "=" + _args[k] )
       var _res = $do(() => $sh([ getOpenAFPath() + "/ojob", args.INITOJOB ].concat(_txtArgs)).exec() )
-      if (_res.code != 0) {
-        log("oJob " + args.INITOJOB + " failed with code " + _res.code)
+      if (_res.exitcode != 0) {
+        logErr("oJob " + args.INITOJOB + " failed with code " + _res.exitcode + ": " + _res.stdout + _res.stderr)
         if (toBoolean(args.INITOJOBFAIL)) {
           throw new Error("Socks server start aborted due to oJob failure.")
         }
