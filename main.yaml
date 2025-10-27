@@ -72,7 +72,7 @@ ojob:
   - openaf     : 20230704
   - SocksServer: 20240120
   - oJob-common: 20250721
-  catch       : printErrnl("[" + job.name + "] "); $err(exception, __, job.code)
+  catch       : printErrnl("[" + job.name + "] "); $err(exception, __, job.code); exit(1)
   logToConsole: false   # to change when finished
   argsFromEnvs: true
   daemon      : true
@@ -120,7 +120,7 @@ jobs:
       if (_res.code != 0) {
         log("oJob " + args.INITOJOB + " failed with code " + _res.code)
         if (toBoolean(args.INITOJOBFAIL)) {
-          throw "Socks server start aborted due to oJob failure."
+          throw new Error("Socks server start aborted due to oJob failure.")
         }
       } else {
         log("oJob " + args.INITOJOB + " completed successfully.")
