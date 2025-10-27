@@ -117,7 +117,7 @@ jobs:
       var _args = af.fromSLON(args.INITOJOBARGS)
       var _txtArgs = Object.keys(_args).map(k => k + "=" + _args[k] )
       $do(() => {
-        var _res = $sh([ getOpenAFPath() + "/ojob", args.INITOJOB ].concat(_txtArgs)).exec() 
+        var _res = $sh([ getOpenAFPath() + "/ojob", args.INITOJOB ].concat(_txtArgs)).exec(0) 
         if (_res.exitcode != 0) {
           logErr("oJob " + args.INITOJOB + " failed with code " + _res.exitcode + ": " + _res.stdout + _res.stderr)
           if (toBoolean(args.INITOJOBFAIL)) {
