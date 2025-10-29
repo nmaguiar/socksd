@@ -35467,6 +35467,7 @@
     - CWE-770
     VendorSeverity:
       amazon: 3
+      azure: 2
       cbl-mariner: 2
       photon: 3
       redhat: 3
@@ -35637,6 +35638,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      azure: 1
       cbl-mariner: 1
       redhat: 1
     CVSS:
@@ -38345,6 +38347,8 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
+      amazon: 2
+      azure: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -38540,6 +38544,8 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
+      amazon: 2
+      azure: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -38735,6 +38741,8 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
+      amazon: 2
+      azure: 2
       bitnami: 2
       redhat: 2
     CVSS:
