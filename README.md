@@ -72,6 +72,7 @@ You can control the behaviour with environment variables:
 | DNSTIMEOUT | 10 | Sets a different DNS resolution timeout (in seconds) from the default (10 seconds) |
 | INITOJOB | setDNS.yaml | (optional) Runs the indicated OpenAF's oJob to perform an initialization function. |
 | INITOJOBARGS | "(arg1: xyz, arg2: 123)" | (optional) The INITOJOB arguments to use in [SLON](https://github.com/nmaguiar/slon) format |
+| INITOJOBFAIL | true/false | If "true" the socks server will not start if the INITOJOB fails |
 | OJOB_JSONLOG | true/false | Ensures all output log to stdout is in JSON |
 | HTTPPROXY | true/false | (optional) Starts a http/https proxy to relay requests to the socks proxy on port 8888 (to support applications that don't support connecting to a socks proxy) |
 
