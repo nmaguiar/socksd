@@ -1085,7 +1085,43 @@
 │                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
 │                       │     ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
 │                       │     ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
-│                       ├ [2] ╭ VulnerabilityID : CVE-2025-26519 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2025-10966 
+│                       │     ├ PkgID           : curl@8.16.0-r1 
+│                       │     ├ PkgName         : curl 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.16.0-r1?arch=x86_64&distro=3.22.
+│                       │     │                  │       0_alpha20250108 
+│                       │     │                  ╰ UID : e917f19f657c0527 
+│                       │     ├ InstalledVersion: 8.16.0-r1 
+│                       │     ├ FixedVersion    : 8.17.0-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:120f215ef2135919894b73279b66d29cd59a4a60700fb
+│                       │     │                  │         7b9eb1707c0a310ac24 
+│                       │     │                  ╰ DiffID: sha256:674dc147f6d67a800736a47979a48fccefb8467c5440a
+│                       │     │                            2167c2988f94e205121 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10966 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ╰ Severity        : UNKNOWN 
+│                       ├ [3] ╭ VulnerabilityID : CVE-2025-10966 
+│                       │     ├ PkgID           : libcurl@8.16.0-r1 
+│                       │     ├ PkgName         : libcurl 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.16.0-r1?arch=x86_64&distro=3.
+│                       │     │                  │       22.0_alpha20250108 
+│                       │     │                  ╰ UID : a61cb6404e121fe 
+│                       │     ├ InstalledVersion: 8.16.0-r1 
+│                       │     ├ FixedVersion    : 8.17.0-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:120f215ef2135919894b73279b66d29cd59a4a60700fb
+│                       │     │                  │         7b9eb1707c0a310ac24 
+│                       │     │                  ╰ DiffID: sha256:674dc147f6d67a800736a47979a48fccefb8467c5440a
+│                       │     │                            2167c2988f94e205121 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10966 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ╰ Severity        : UNKNOWN 
+│                       ├ [4] ╭ VulnerabilityID : CVE-2025-26519 
 │                       │     ├ PkgID           : musl@1.2.5-r9 
 │                       │     ├ PkgName         : musl 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.5-r9?arch=x86_64&distro=3.22.0
@@ -1122,7 +1158,7 @@
 │                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
 │                       │     ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
 │                       │     ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
-│                       ├ [3] ╭ VulnerabilityID : CVE-2025-26519 
+│                       ├ [5] ╭ VulnerabilityID : CVE-2025-26519 
 │                       │     ├ PkgID           : musl-utils@1.2.5-r9 
 │                       │     ├ PkgName         : musl-utils 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.5-r9?arch=x86_64&distro=
@@ -1159,7 +1195,7 @@
 │                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
 │                       │     ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
 │                       │     ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
-│                       ╰ [4] ╭ VulnerabilityID : CVE-2024-58251 
+│                       ╰ [6] ╭ VulnerabilityID : CVE-2024-58251 
 │                             ├ PkgID           : ssl_client@1.37.0-r10 
 │                             ├ PkgName         : ssl_client 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r10?arch=x86_64&distr
