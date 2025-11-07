@@ -985,6 +985,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-58251
     PublishedDate: '2025-04-23T18:16:03.057Z'
     LastModifiedDate: '2025-04-29T13:52:47.47Z'
+  - VulnerabilityID: CVE-2025-10966
+    PkgID: curl@8.16.0-r1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.16.0-r1?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: e917f19f657c0527
+    InstalledVersion: 8.16.0-r1
+    FixedVersion: 8.17.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:120f215ef2135919894b73279b66d29cd59a4a60700fb7b9eb1707c0a310ac24
+      DiffID: sha256:674dc147f6d67a800736a47979a48fccefb8467c5440a2167c2988f94e205121
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10966
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2025-10966
+    PkgID: libcurl@8.16.0-r1
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.16.0-r1?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: a61cb6404e121fe
+    InstalledVersion: 8.16.0-r1
+    FixedVersion: 8.17.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:120f215ef2135919894b73279b66d29cd59a4a60700fb7b9eb1707c0a310ac24
+      DiffID: sha256:674dc147f6d67a800736a47979a48fccefb8467c5440a2167c2988f94e205121
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10966
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
   - VulnerabilityID: CVE-2025-26519
     PkgID: musl@1.2.5-r9
     PkgName: musl
