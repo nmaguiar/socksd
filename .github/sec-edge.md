@@ -1123,7 +1123,7 @@
 │                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-10966 
 │                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-10966 
 │                       │     ├ PublishedDate   : 2025-11-07T08:15:39.617Z 
-│                       │     ╰ LastModifiedDate: 2025-11-07T08:15:39.617Z 
+│                       │     ╰ LastModifiedDate: 2025-11-12T16:20:22.257Z 
 │                       ├ [3] ╭ VulnerabilityID : CVE-2025-10966 
 │                       │     ├ PkgID           : libcurl@8.16.0-r2 
 │                       │     ├ PkgName         : libcurl 
@@ -1162,7 +1162,7 @@
 │                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-10966 
 │                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-10966 
 │                       │     ├ PublishedDate   : 2025-11-07T08:15:39.617Z 
-│                       │     ╰ LastModifiedDate: 2025-11-07T08:15:39.617Z 
+│                       │     ╰ LastModifiedDate: 2025-11-12T16:20:22.257Z 
 │                       ├ [4] ╭ VulnerabilityID : CVE-2025-26519 
 │                       │     ├ PkgID           : musl@1.2.5-r9 
 │                       │     ├ PkgName         : musl 
