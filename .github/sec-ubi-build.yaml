@@ -35685,7 +35685,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10966
     - https://www.cve.org/CVERecord?id=CVE-2025-10966
     PublishedDate: '2025-11-07T08:15:39.617Z'
-    LastModifiedDate: '2025-11-07T08:15:39.617Z'
+    LastModifiedDate: '2025-11-12T16:20:22.257Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: curl-minimal@7.76.1-31.el9_6.1.x86_64
     PkgName: curl-minimal
@@ -35719,6 +35719,7 @@
       it on an insecure host should not be okay.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 1
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -36050,6 +36051,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 2
       cbl-mariner: 2
@@ -36062,7 +36064,10 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/16/2
+    - https://access.redhat.com/errata/RHSA-2025:19403
     - https://access.redhat.com/security/cve/CVE-2025-59375
+    - https://bugzilla.redhat.com/2395108
+    - https://errata.almalinux.org/10/ALSA-2025-19403.html
     - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
     - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
     - https://github.com/libexpat/libexpat/issues/1018
@@ -36693,7 +36698,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10966
     - https://www.cve.org/CVERecord?id=CVE-2025-10966
     PublishedDate: '2025-11-07T08:15:39.617Z'
-    LastModifiedDate: '2025-11-07T08:15:39.617Z'
+    LastModifiedDate: '2025-11-12T16:20:22.257Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: libcurl-minimal@7.76.1-31.el9_6.1.x86_64
     PkgName: libcurl-minimal
@@ -36727,6 +36732,7 @@
       it on an insecure host should not be okay.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 1
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -37198,7 +37204,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-12863
     - https://www.cve.org/CVERecord?id=CVE-2025-12863
     PublishedDate: '2025-11-07T21:15:40.393Z'
-    LastModifiedDate: '2025-11-07T21:15:40.393Z'
+    LastModifiedDate: '2025-11-12T16:20:22.257Z'
   - VulnerabilityID: CVE-2025-9714
     PkgID: libxml2@2.9.13-12.el9_6.x86_64
     PkgName: libxml2
@@ -39105,6 +39111,7 @@
       amazon: 2
       azure: 2
       bitnami: 2
+      cbl-mariner: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -39349,6 +39356,7 @@
       amazon: 2
       azure: 2
       bitnami: 2
+      cbl-mariner: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -39593,6 +39601,7 @@
       amazon: 2
       azure: 2
       bitnami: 2
+      cbl-mariner: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -39825,13 +39834,9 @@
     - https://bugzilla.redhat.com/2257028
     - https://bugzilla.redhat.com/2257854
     - https://bugzilla.redhat.com/show_bug.cgi?id=2246840
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2257028
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2257854
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45803
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52323
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22195
     - https://errata.almalinux.org/9/ALSA-2024-2132.html
-    - https://errata.rockylinux.org/RLSA-2024:2968
+    - https://errata.rockylinux.org/RLSA-2024:11238
     - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-212.yaml
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/4e50fbc5db74e32cabd5ccc1ab81fc103adfe0b3
@@ -39899,7 +39904,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292788
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-37891
     - https://errata.almalinux.org/9/ALSA-2024-9458.html
-    - https://errata.rockylinux.org/RLSA-2024:5309
+    - https://errata.rockylinux.org/RLSA-2024:9457
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/40b6d1605814dd1db0a46e202d6e56f2e4c9a468
     - https://github.com/urllib3/urllib3/commit/accff72ecc2f6cf5a76d9570198a93ac7c90270e
@@ -40137,6 +40142,69 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-5752
     PublishedDate: '2023-10-25T18:17:44.867Z'
     LastModifiedDate: '2025-11-03T18:15:41.173Z'
+  - VulnerabilityID: CVE-2025-6965
+    VendorIDs:
+    - RHSA-2025:20936
+    PkgID: sqlite-libs@3.34.1-8.el9_6.x86_64
+    PkgName: sqlite-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-8.el9_6?arch=x86_64&distro=redhat-9.6
+      UID: df056ea4e4381904
+    InstalledVersion: 3.34.1-8.el9_6
+    FixedVersion: 3.34.1-9.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:9947fbb9a5ddc2691d22963184df994880bea67b3a670f768155bb9ea2b12e45
+      DiffID: sha256:a0b1a3edc8e65839ed18eac869bfbec0cb96f7c600f12d27ba5c6ab5abf1cfd2
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6965
+    Title: 'sqlite: Integer Truncation in SQLite'
+    Description: There exists a vulnerability in SQLite versions before 3.50.2 where the number of aggregate terms could exceed the number of columns available. This could lead to a memory corruption issue. We recommend upgrading to version 3.50.2 or above.
+    Severity: HIGH
+    CweIDs:
+    - CWE-197
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      azure: 3
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 4
+      oracle-oval: 3
+      photon: 4
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:L
+        V3Score: 7.7
+    References:
+    - http://seclists.org/fulldisclosure/2025/Sep/49
+    - http://seclists.org/fulldisclosure/2025/Sep/53
+    - http://seclists.org/fulldisclosure/2025/Sep/56
+    - http://seclists.org/fulldisclosure/2025/Sep/57
+    - http://seclists.org/fulldisclosure/2025/Sep/58
+    - http://www.openwall.com/lists/oss-security/2025/09/06/1
+    - https://access.redhat.com/errata/RHSA-2025:11992
+    - https://access.redhat.com/security/cve/CVE-2025-6965
+    - https://bugzilla.redhat.com/2380149
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380149
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965
+    - https://errata.almalinux.org/9/ALSA-2025-11992.html
+    - https://errata.rockylinux.org/RLSA-2025:12010
+    - https://linux.oracle.com/cve/CVE-2025-6965.html
+    - https://linux.oracle.com/errata/ELSA-2025-14101.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
+    - https://ubuntu.com/security/notices/USN-7676-1
+    - https://ubuntu.com/security/notices/USN-7679-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6965
+    - https://www.sqlite.org/src/info/5508b56fd24016c13981ec280ecdd833007c9d8dd595edb295b984c2b487b5c8
+    PublishedDate: '2025-07-15T14:15:31.08Z'
+    LastModifiedDate: '2025-11-04T22:16:43.413Z'
   - VulnerabilityID: CVE-2024-0232
     PkgID: sqlite-libs@3.34.1-8.el9_6.x86_64
     PkgName: sqlite-libs
