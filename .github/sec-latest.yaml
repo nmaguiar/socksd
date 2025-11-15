@@ -2138,6 +2138,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -2150,6 +2151,7 @@
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-53057
+    - https://openjdk.org/groups/vulnerability/advisories/2025-10-21
     - https://www.cve.org/CVERecord?id=CVE-2025-53057
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:45.24Z'
@@ -2182,6 +2184,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L
@@ -2194,6 +2197,7 @@
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-53066
+    - https://openjdk.org/groups/vulnerability/advisories/2025-10-21
     - https://www.cve.org/CVERecord?id=CVE-2025-53066
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:47.177Z'
@@ -2269,6 +2273,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -2281,6 +2286,7 @@
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-53057
+    - https://openjdk.org/groups/vulnerability/advisories/2025-10-21
     - https://www.cve.org/CVERecord?id=CVE-2025-53057
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:45.24Z'
@@ -2313,6 +2319,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L
@@ -2325,6 +2332,7 @@
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-53066
+    - https://openjdk.org/groups/vulnerability/advisories/2025-10-21
     - https://www.cve.org/CVERecord?id=CVE-2025-53066
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:47.177Z'
