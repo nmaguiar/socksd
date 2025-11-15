@@ -35506,7 +35506,7 @@
       PURL: pkg:rpm/redhat/expat@2.5.0-5.el9_6?arch=x86_64&distro=redhat-9.6
       UID: 8df7ab6b8bb745ca
     InstalledVersion: 2.5.0-5.el9_6
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
       DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
@@ -35908,6 +35908,7 @@
     - CWE-400
     - CWE-835
     VendorSeverity:
+      photon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -35987,6 +35988,7 @@
       azure: 1
       cbl-mariner: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -36028,6 +36030,7 @@
       azure: 1
       cbl-mariner: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -36071,6 +36074,7 @@
       azure: 1
       cbl-mariner: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -36112,6 +36116,7 @@
       azure: 1
       cbl-mariner: 1
       nvd: 2
+      photon: 2
       redhat: 1
     CVSS:
       nvd:
@@ -37451,13 +37456,16 @@
     PublishedDate: '2024-08-06T13:15:57.787Z'
     LastModifiedDate: '2025-03-19T16:15:29.57Z'
   - VulnerabilityID: CVE-2025-9230
+    VendorIDs:
+    - RHSA-2025:21255
     PkgID: openssl@3.2.2-6.el9_5.1.x86_64
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:rpm/redhat/openssl@3.2.2-6.el9_5.1?arch=x86_64&distro=redhat-9.6&epoch=1
       UID: 22fac7d69b8770c8
     InstalledVersion: 1:3.2.2-6.el9_5.1
-    Status: affected
+    FixedVersion: 1:3.5.1-4.el9_7
+    Status: fixed
     Layer:
       Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
       DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
@@ -37850,13 +37858,16 @@
     PublishedDate: '2025-09-30T14:15:41.313Z'
     LastModifiedDate: '2025-11-04T22:16:45.63Z'
   - VulnerabilityID: CVE-2025-9230
+    VendorIDs:
+    - RHSA-2025:21255
     PkgID: openssl-libs@3.2.2-6.el9_5.1.x86_64
     PkgName: openssl-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5.1?arch=x86_64&distro=redhat-9.6&epoch=1
       UID: 90b28a1a97fa6e17
     InstalledVersion: 1:3.2.2-6.el9_5.1
-    Status: affected
+    FixedVersion: 1:3.5.1-4.el9_7
+    Status: fixed
     Layer:
       Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
       DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
@@ -39182,78 +39193,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
     LastModifiedDate: '2025-11-04T15:41:31.45Z'
-  - VulnerabilityID: CVE-2023-43804
-    PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
-    PkgName: python3-pip-wheel
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=noarch&distro=redhat-9.6
-      UID: 721b1480454de203
-    InstalledVersion: 21.3.1-1.el9
-    Status: affected
-    Layer:
-      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
-      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-43804
-    Title: 'python-urllib3: Cookie request header isn''t stripped during cross-origin redirects'
-    Description: urllib3 is a user-friendly HTTP client library for Python. urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly. This issue has been patched in urllib3 version 1.26.17 or 2.0.5.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-200
-    VendorSeverity:
-      alma: 2
-      amazon: 2
-      azure: 3
-      cbl-mariner: 2
-      ghsa: 3
-      nvd: 3
-      oracle-oval: 2
-      photon: 3
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 5.9
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 8.1
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 5.9
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:2159
-    - https://access.redhat.com/security/cve/CVE-2023-43804
-    - https://bugzilla.redhat.com/2242493
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2242493
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43804
-    - https://errata.almalinux.org/9/ALSA-2024-2159.html
-    - https://errata.rockylinux.org/RLSA-2024:2986
-    - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-192.yaml
-    - https://github.com/urllib3/urllib3
-    - https://github.com/urllib3/urllib3/commit/01220354d389cd05474713f8c982d05c9b17aafb
-    - https://github.com/urllib3/urllib3/commit/644124ecd0b6e417c527191f866daa05a5a2056d
-    - https://github.com/urllib3/urllib3/security/advisories/GHSA-v845-jxx5-vc9f
-    - https://linux.oracle.com/cve/CVE-2023-43804.html
-    - https://linux.oracle.com/errata/ELSA-2024-2987.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00012.html
-    - https://lists.debian.org/debian-lts-announce/2024/12/msg00020.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5F5CUBAN5XMEBVBZPHFITBLMJV5FIJJ5
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5F5CUBAN5XMEBVBZPHFITBLMJV5FIJJ5/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I3PR7C6RJ6JUBQKIJ644DMIJSUP36VDY
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I3PR7C6RJ6JUBQKIJ644DMIJSUP36VDY/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAGZXYJ7H2G3SB47M453VQVNAWKAEJJ
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAGZXYJ7H2G3SB47M453VQVNAWKAEJJ/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-43804
-    - https://security.netapp.com/advisory/ntap-20241213-0007
-    - https://security.netapp.com/advisory/ntap-20241213-0007/
-    - https://ubuntu.com/security/notices/USN-6473-1
-    - https://ubuntu.com/security/notices/USN-6473-2
-    - https://www.cve.org/CVERecord?id=CVE-2023-43804
-    - https://www.vicarius.io/vsociety/posts/cve-2023-43804-urllib3-vulnerability-3
-    PublishedDate: '2023-10-04T17:15:10.163Z'
-    LastModifiedDate: '2025-11-03T22:16:27.767Z'
   - VulnerabilityID: CVE-2023-45803
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
@@ -39662,7 +39601,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2380149
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965
     - https://errata.almalinux.org/9/ALSA-2025-11992.html
-    - https://errata.rockylinux.org/RLSA-2025:12010
+    - https://errata.rockylinux.org/RLSA-2025:11933
     - https://linux.oracle.com/cve/CVE-2025-6965.html
     - https://linux.oracle.com/errata/ELSA-2025-14101.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
