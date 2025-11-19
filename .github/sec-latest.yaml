@@ -2146,7 +2146,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:18824
     - https://access.redhat.com/security/cve/CVE-2025-53057
-    - https://errata.almalinux.org/9/ALSA-2025-18824.html
+    - https://errata.almalinux.org/8/ALSA-2025-18824.html
     - https://linux.oracle.com/cve/CVE-2025-53057.html
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
@@ -2192,7 +2192,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:18824
     - https://access.redhat.com/security/cve/CVE-2025-53066
-    - https://errata.almalinux.org/9/ALSA-2025-18824.html
+    - https://errata.almalinux.org/8/ALSA-2025-18824.html
     - https://linux.oracle.com/cve/CVE-2025-53066.html
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
@@ -2237,7 +2237,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:18824
     - https://access.redhat.com/security/cve/CVE-2025-61748
-    - https://errata.almalinux.org/9/ALSA-2025-18824.html
+    - https://errata.almalinux.org/8/ALSA-2025-18824.html
     - https://linux.oracle.com/cve/CVE-2025-61748.html
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61748
@@ -2281,7 +2281,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:18824
     - https://access.redhat.com/security/cve/CVE-2025-53057
-    - https://errata.almalinux.org/9/ALSA-2025-18824.html
+    - https://errata.almalinux.org/8/ALSA-2025-18824.html
     - https://linux.oracle.com/cve/CVE-2025-53057.html
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
@@ -2327,7 +2327,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:18824
     - https://access.redhat.com/security/cve/CVE-2025-53066
-    - https://errata.almalinux.org/9/ALSA-2025-18824.html
+    - https://errata.almalinux.org/8/ALSA-2025-18824.html
     - https://linux.oracle.com/cve/CVE-2025-53066.html
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
@@ -2372,7 +2372,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:18824
     - https://access.redhat.com/security/cve/CVE-2025-61748
-    - https://errata.almalinux.org/9/ALSA-2025-18824.html
+    - https://errata.almalinux.org/8/ALSA-2025-18824.html
     - https://linux.oracle.com/cve/CVE-2025-61748.html
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61748
