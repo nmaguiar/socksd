@@ -35845,7 +35845,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -35898,7 +35898,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -35957,7 +35957,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -36010,7 +36010,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -36863,7 +36863,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -36916,7 +36916,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -36975,7 +36975,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -37028,7 +37028,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -39706,14 +39706,14 @@
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.2
     References:
-    - https://access.redhat.com/errata/RHSA-2024:2968
+    - https://access.redhat.com/errata/RHSA-2024:2132
     - https://access.redhat.com/security/cve/CVE-2023-45803
     - https://bugzilla.redhat.com/2246840
     - https://bugzilla.redhat.com/2257028
     - https://bugzilla.redhat.com/2257854
     - https://bugzilla.redhat.com/show_bug.cgi?id=2246840
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45803
-    - https://errata.almalinux.org/8/ALSA-2024-2968.html
+    - https://errata.almalinux.org/9/ALSA-2024-2132.html
     - https://errata.rockylinux.org/RLSA-2024:11238
     - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-212.yaml
     - https://github.com/urllib3/urllib3
@@ -39740,65 +39740,6 @@
     - https://www.rfc-editor.org/rfc/rfc9110.html#name-get
     PublishedDate: '2023-10-17T20:15:10.07Z'
     LastModifiedDate: '2025-11-03T22:16:28.17Z'
-  - VulnerabilityID: CVE-2024-37891
-    PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
-    PkgName: python3-pip-wheel
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=noarch&distro=redhat-9.7
-      UID: 721b1480454de203
-    InstalledVersion: 21.3.1-1.el9
-    Status: affected
-    Layer:
-      Digest: sha256:0c4260072a9b425e5e5d3993f211242d6ee0a3da918c22d23a579f14babb865e
-      DiffID: sha256:0c476e4c49d25e38e6be3b6de7243f11d6cb556cc6b381385dfe675f41f64e2b
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-37891
-    Title: 'urllib3: proxy-authorization request header is not stripped during cross-origin redirects'
-    Description: ' urllib3 is a user-friendly HTTP client library for Python. When using urllib3''s proxy support with `ProxyManager`, the `Proxy-Authorization` header is only sent to the configured proxy, as expected. However, when sending HTTP requests *without* using urllib3''s proxy support, it''s possible to accidentally configure the `Proxy-Authorization` header even though it won''t have any effect as the request is not using a forwarding proxy or a tunneling proxy. In those cases, urllib3 doesn''t treat the `Proxy-Authorization` HTTP header as one carrying authentication material and thus doesn''t strip the header on cross-origin redirects. Because this is a highly unlikely scenario, we believe the severity of this vulnerability is low for almost all users. Out of an abundance of caution urllib3 will automatically strip the `Proxy-Authorization` header during cross-origin redirects to avoid the small chance that users are doing this on accident. Users should use urllib3''s proxy support or disable automatic redirects to achieve safe processing of the `Proxy-Authorization` header, but we still decided to strip the header by default in order to further protect users who aren''t using the correct approach. We believe the number of usages affected by this advisory is low. It requires all of the following to be true to be exploited: 1. Setting the `Proxy-Authorization` header without using urllib3''s built-in proxy support. 2. Not disabling HTTP redirects. 3. Either not using an HTTPS origin server or for the proxy or target origin to redirect to a malicious origin. Users are advised to update to either version 1.26.19 or version 2.2.2. Users unable to upgrade may use the `Proxy-Authorization` header with urllib3''s `ProxyManager`, disable HTTP redirects using `redirects=False` when sending requests, or not user the `Proxy-Authorization` header as mitigations.'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-669
-    VendorSeverity:
-      alma: 2
-      amazon: 2
-      azure: 2
-      cbl-mariner: 2
-      ghsa: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 2
-      ubuntu: 1
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.4
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.4
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:8843
-    - https://access.redhat.com/security/cve/CVE-2024-37891
-    - https://bugzilla.redhat.com/2292788
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2292788
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-37891
-    - https://errata.almalinux.org/8/ALSA-2024-8843.html
-    - https://errata.rockylinux.org/RLSA-2024:9457
-    - https://github.com/urllib3/urllib3
-    - https://github.com/urllib3/urllib3/commit/40b6d1605814dd1db0a46e202d6e56f2e4c9a468
-    - https://github.com/urllib3/urllib3/commit/accff72ecc2f6cf5a76d9570198a93ac7c90270e
-    - https://github.com/urllib3/urllib3/security/advisories/GHSA-34jh-p97f-mpxf
-    - https://linux.oracle.com/cve/CVE-2024-37891.html
-    - https://linux.oracle.com/errata/ELSA-2024-9458.html
-    - https://lists.debian.org/debian-lts-announce/2024/12/msg00020.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-37891
-    - https://security.netapp.com/advisory/ntap-20240822-0003
-    - https://security.netapp.com/advisory/ntap-20240822-0003/
-    - https://ubuntu.com/security/notices/USN-7084-1
-    - https://ubuntu.com/security/notices/USN-7084-2
-    - https://www.cve.org/CVERecord?id=CVE-2024-37891
-    - https://www.vicarius.io/vsociety/posts/proxy-authorization-header-handling-vulnerability-in-urllib3-cve-2024-37891
-    PublishedDate: '2024-06-17T20:15:13.45Z'
-    LastModifiedDate: '2025-11-03T22:17:00.957Z'
   - VulnerabilityID: CVE-2025-50181
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
