@@ -35541,7 +35541,7 @@
     - https://github.com/libexpat/libexpat/pull/1034
     - https://issues.oss-fuzz.com/issues/439133977
     - https://linux.oracle.com/cve/CVE-2025-59375.html
-    - https://linux.oracle.com/errata/ELSA-2025-19403.html
+    - https://linux.oracle.com/errata/ELSA-2025-21776.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-59375
     - https://www.cve.org/CVERecord?id=CVE-2025-59375
     PublishedDate: '2025-09-15T03:15:40.92Z'
@@ -36646,37 +36646,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
-  - VulnerabilityID: CVE-2025-12863
-    PkgID: libxml2@2.9.13-12.el9_6.x86_64
-    PkgName: libxml2
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libxml2@2.9.13-12.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: d6fc3630b049eabb
-    InstalledVersion: 2.9.13-12.el9_6
-    Status: affected
-    Layer:
-      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
-      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-12863
-    Title: 'libxml2: Namespace Use-After-Free in xmlSetTreeDoc() function of libxml2'
-    Description: A flaw was found in the xmlSetTreeDoc() function of the libxml2 XML parsing library. This function is responsible for updating document pointers when XML nodes are moved between documents. Due to improper handling of namespace references, a namespace pointer may remain linked to a freed memory region when the original document is destroyed. As a result, subsequent operations that access the namespace can lead to a use-after-free condition, causing an application crash.
-    Severity: HIGH
-    CweIDs:
-    - CWE-416
-    VendorSeverity:
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-12863
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2413323
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-12863
-    - https://www.cve.org/CVERecord?id=CVE-2025-12863
-    PublishedDate: '2025-11-07T21:15:40.393Z'
-    LastModifiedDate: '2025-11-12T16:20:22.257Z'
   - VulnerabilityID: CVE-2025-9714
     PkgID: libxml2@2.9.13-12.el9_6.x86_64
     PkgName: libxml2
@@ -39241,9 +39210,13 @@
     - https://bugzilla.redhat.com/2257028
     - https://bugzilla.redhat.com/2257854
     - https://bugzilla.redhat.com/show_bug.cgi?id=2246840
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2257028
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2257854
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45803
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52323
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22195
     - https://errata.almalinux.org/9/ALSA-2024-2132.html
-    - https://errata.rockylinux.org/RLSA-2024:11238
+    - https://errata.rockylinux.org/RLSA-2024:2968
     - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-212.yaml
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/4e50fbc5db74e32cabd5ccc1ab81fc103adfe0b3
