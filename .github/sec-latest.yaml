@@ -2110,6 +2110,154 @@
     - usr/lib/libzstd.so.1
     - usr/lib/libzstd.so.1.5.7
   Vulnerabilities:
+  - VulnerabilityID: CVE-2024-58251
+    PkgID: busybox@1.37.0-r18
+    PkgName: busybox
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/busybox@1.37.0-r18?arch=x86_64&distro=3.22.1
+      UID: 4a7463dc29f631ad
+    InstalledVersion: 1.37.0-r18
+    FixedVersion: 1.37.0-r20
+    Status: fixed
+    Layer:
+      Digest: sha256:a9aaf2f6d8878bb522a5e15d2297b361d23a7f631b0efb18e4ecc0f21b01148c
+      DiffID: sha256:87c43d634e3896a29e1a86c248ef3da21c2e27d8546b88c369c8b62ae85bbbb1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-58251
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: In netstat in BusyBox through 1.37.0, local users can launch of networ ...
+    Description: In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-150
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/23/6
+    - https://bugs.busybox.net/show_bug.cgi?id=15922
+    - https://www.busybox.net
+    - https://www.busybox.net/downloads/
+    - https://www.cve.org/CVERecord?id=CVE-2024-58251
+    PublishedDate: '2025-04-23T18:16:03.057Z'
+    LastModifiedDate: '2025-04-29T13:52:47.47Z'
+  - VulnerabilityID: CVE-2025-46394
+    PkgID: busybox@1.37.0-r18
+    PkgName: busybox
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/busybox@1.37.0-r18?arch=x86_64&distro=3.22.1
+      UID: 4a7463dc29f631ad
+    InstalledVersion: 1.37.0-r18
+    FixedVersion: 1.37.0-r20
+    Status: fixed
+    Layer:
+      Digest: sha256:a9aaf2f6d8878bb522a5e15d2297b361d23a7f631b0efb18e4ecc0f21b01148c
+      DiffID: sha256:87c43d634e3896a29e1a86c248ef3da21c2e27d8546b88c369c8b62ae85bbbb1
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-46394
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hid ...
+    Description: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
+    Severity: LOW
+    CweIDs:
+    - CWE-451
+    VendorSeverity:
+      nvd: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/23/5
+    - http://www.openwall.com/lists/oss-security/2025/04/24/3
+    - https://bugs.busybox.net/show_bug.cgi?id=16018
+    - https://lists.busybox.net/pipermail/busybox/2024-July/090806.html
+    - https://lists.busybox.net/pipermail/busybox/2024-July/090814.html
+    - https://www.busybox.net
+    - https://www.busybox.net/downloads/
+    - https://www.cve.org/CVERecord?id=CVE-2025-46394
+    - https://www.openwall.com/lists/oss-security/2025/04/23/1
+    PublishedDate: '2025-04-23T16:15:48.713Z'
+    LastModifiedDate: '2025-09-24T14:38:22.127Z'
+  - VulnerabilityID: CVE-2024-58251
+    PkgID: busybox-binsh@1.37.0-r18
+    PkgName: busybox-binsh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/busybox-binsh@1.37.0-r18?arch=x86_64&distro=3.22.1
+      UID: b8d6846cf19313be
+    InstalledVersion: 1.37.0-r18
+    FixedVersion: 1.37.0-r20
+    Status: fixed
+    Layer:
+      Digest: sha256:a9aaf2f6d8878bb522a5e15d2297b361d23a7f631b0efb18e4ecc0f21b01148c
+      DiffID: sha256:87c43d634e3896a29e1a86c248ef3da21c2e27d8546b88c369c8b62ae85bbbb1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-58251
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: In netstat in BusyBox through 1.37.0, local users can launch of networ ...
+    Description: In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-150
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/23/6
+    - https://bugs.busybox.net/show_bug.cgi?id=15922
+    - https://www.busybox.net
+    - https://www.busybox.net/downloads/
+    - https://www.cve.org/CVERecord?id=CVE-2024-58251
+    PublishedDate: '2025-04-23T18:16:03.057Z'
+    LastModifiedDate: '2025-04-29T13:52:47.47Z'
+  - VulnerabilityID: CVE-2025-46394
+    PkgID: busybox-binsh@1.37.0-r18
+    PkgName: busybox-binsh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/busybox-binsh@1.37.0-r18?arch=x86_64&distro=3.22.1
+      UID: b8d6846cf19313be
+    InstalledVersion: 1.37.0-r18
+    FixedVersion: 1.37.0-r20
+    Status: fixed
+    Layer:
+      Digest: sha256:a9aaf2f6d8878bb522a5e15d2297b361d23a7f631b0efb18e4ecc0f21b01148c
+      DiffID: sha256:87c43d634e3896a29e1a86c248ef3da21c2e27d8546b88c369c8b62ae85bbbb1
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-46394
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hid ...
+    Description: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
+    Severity: LOW
+    CweIDs:
+    - CWE-451
+    VendorSeverity:
+      nvd: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/23/5
+    - http://www.openwall.com/lists/oss-security/2025/04/24/3
+    - https://bugs.busybox.net/show_bug.cgi?id=16018
+    - https://lists.busybox.net/pipermail/busybox/2024-July/090806.html
+    - https://lists.busybox.net/pipermail/busybox/2024-July/090814.html
+    - https://www.busybox.net
+    - https://www.busybox.net/downloads/
+    - https://www.cve.org/CVERecord?id=CVE-2025-46394
+    - https://www.openwall.com/lists/oss-security/2025/04/23/1
+    PublishedDate: '2025-04-23T16:15:48.713Z'
+    LastModifiedDate: '2025-09-24T14:38:22.127Z'
   - VulnerabilityID: CVE-2025-53057
     PkgID: openjdk21-jre@21.0.8_p9-r0
     PkgName: openjdk21-jre
@@ -2380,6 +2528,80 @@
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:51.057Z'
     LastModifiedDate: '2025-10-28T19:11:56.063Z'
+  - VulnerabilityID: CVE-2024-58251
+    PkgID: ssl_client@1.37.0-r18
+    PkgName: ssl_client
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/ssl_client@1.37.0-r18?arch=x86_64&distro=3.22.1
+      UID: 4915926172155ff5
+    InstalledVersion: 1.37.0-r18
+    FixedVersion: 1.37.0-r20
+    Status: fixed
+    Layer:
+      Digest: sha256:a9aaf2f6d8878bb522a5e15d2297b361d23a7f631b0efb18e4ecc0f21b01148c
+      DiffID: sha256:87c43d634e3896a29e1a86c248ef3da21c2e27d8546b88c369c8b62ae85bbbb1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-58251
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: In netstat in BusyBox through 1.37.0, local users can launch of networ ...
+    Description: In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-150
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/23/6
+    - https://bugs.busybox.net/show_bug.cgi?id=15922
+    - https://www.busybox.net
+    - https://www.busybox.net/downloads/
+    - https://www.cve.org/CVERecord?id=CVE-2024-58251
+    PublishedDate: '2025-04-23T18:16:03.057Z'
+    LastModifiedDate: '2025-04-29T13:52:47.47Z'
+  - VulnerabilityID: CVE-2025-46394
+    PkgID: ssl_client@1.37.0-r18
+    PkgName: ssl_client
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/ssl_client@1.37.0-r18?arch=x86_64&distro=3.22.1
+      UID: 4915926172155ff5
+    InstalledVersion: 1.37.0-r18
+    FixedVersion: 1.37.0-r20
+    Status: fixed
+    Layer:
+      Digest: sha256:a9aaf2f6d8878bb522a5e15d2297b361d23a7f631b0efb18e4ecc0f21b01148c
+      DiffID: sha256:87c43d634e3896a29e1a86c248ef3da21c2e27d8546b88c369c8b62ae85bbbb1
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-46394
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hid ...
+    Description: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
+    Severity: LOW
+    CweIDs:
+    - CWE-451
+    VendorSeverity:
+      nvd: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/23/5
+    - http://www.openwall.com/lists/oss-security/2025/04/24/3
+    - https://bugs.busybox.net/show_bug.cgi?id=16018
+    - https://lists.busybox.net/pipermail/busybox/2024-July/090806.html
+    - https://lists.busybox.net/pipermail/busybox/2024-July/090814.html
+    - https://www.busybox.net
+    - https://www.busybox.net/downloads/
+    - https://www.cve.org/CVERecord?id=CVE-2025-46394
+    - https://www.openwall.com/lists/oss-security/2025/04/23/1
+    PublishedDate: '2025-04-23T16:15:48.713Z'
+    LastModifiedDate: '2025-09-24T14:38:22.127Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
