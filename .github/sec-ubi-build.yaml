@@ -35599,12 +35599,12 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/16/2
-    - https://access.redhat.com/errata/RHSA-2025:21776
+    - https://access.redhat.com/errata/RHSA-2025:19403
     - https://access.redhat.com/security/cve/CVE-2025-59375
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
-    - https://errata.almalinux.org/8/ALSA-2025-21776.html
+    - https://errata.almalinux.org/10/ALSA-2025-19403.html
     - https://errata.rockylinux.org/RLSA-2025:21776
     - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
     - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
@@ -37546,7 +37546,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:16046
+    - https://access.redhat.com/errata/RHSA-2025:15699
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -37706,7 +37706,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
@@ -37882,7 +37882,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:16046
+    - https://access.redhat.com/errata/RHSA-2025:15699
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -38042,7 +38042,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
@@ -38500,6 +38500,7 @@
       bitnami: 2
       cbl-mariner: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
@@ -38522,6 +38523,7 @@
     - https://github.com/python/cpython/pull/139702
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
+    - https://ubuntu.com/security/notices/USN-7886-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
     LastModifiedDate: '2025-10-29T16:15:35.133Z'
@@ -38594,6 +38596,7 @@
     VendorSeverity:
       bitnami: 1
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -38601,14 +38604,22 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
+    - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
     - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84
+    - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch)
     - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca
+    - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca (3.10-branch)
     - https://github.com/python/cpython/commit/9ab89c026aa9611c4b0b67c288b8303a480fe742
+    - https://github.com/python/cpython/commit/9ab89c026aa9611c4b0b67c288b8303a480fe742 (3.13-branch)
     - https://github.com/python/cpython/commit/c8a5f3435c342964e0a432cc9fb448b7dbecd1ba
+    - https://github.com/python/cpython/commit/c8a5f3435c342964e0a432cc9fb448b7dbecd1ba (3.12-branch)
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c
+    - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main)
+    - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main-branch)
     - https://github.com/python/cpython/issues/136065
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
+    - https://ubuntu.com/security/notices/USN-7886-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
     LastModifiedDate: '2025-11-04T15:41:31.45Z'
@@ -38745,6 +38756,7 @@
       bitnami: 2
       cbl-mariner: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
@@ -38767,6 +38779,7 @@
     - https://github.com/python/cpython/pull/139702
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
+    - https://ubuntu.com/security/notices/USN-7886-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
     LastModifiedDate: '2025-10-29T16:15:35.133Z'
@@ -38839,6 +38852,7 @@
     VendorSeverity:
       bitnami: 1
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -38846,14 +38860,22 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
+    - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
     - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84
+    - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch)
     - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca
+    - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca (3.10-branch)
     - https://github.com/python/cpython/commit/9ab89c026aa9611c4b0b67c288b8303a480fe742
+    - https://github.com/python/cpython/commit/9ab89c026aa9611c4b0b67c288b8303a480fe742 (3.13-branch)
     - https://github.com/python/cpython/commit/c8a5f3435c342964e0a432cc9fb448b7dbecd1ba
+    - https://github.com/python/cpython/commit/c8a5f3435c342964e0a432cc9fb448b7dbecd1ba (3.12-branch)
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c
+    - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main)
+    - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main-branch)
     - https://github.com/python/cpython/issues/136065
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
+    - https://ubuntu.com/security/notices/USN-7886-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
     LastModifiedDate: '2025-11-04T15:41:31.45Z'
@@ -38990,6 +39012,7 @@
       bitnami: 2
       cbl-mariner: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
@@ -39012,6 +39035,7 @@
     - https://github.com/python/cpython/pull/139702
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
+    - https://ubuntu.com/security/notices/USN-7886-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
     LastModifiedDate: '2025-10-29T16:15:35.133Z'
@@ -39084,6 +39108,7 @@
     VendorSeverity:
       bitnami: 1
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -39091,14 +39116,22 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
+    - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
     - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84
+    - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch)
     - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca
+    - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca (3.10-branch)
     - https://github.com/python/cpython/commit/9ab89c026aa9611c4b0b67c288b8303a480fe742
+    - https://github.com/python/cpython/commit/9ab89c026aa9611c4b0b67c288b8303a480fe742 (3.13-branch)
     - https://github.com/python/cpython/commit/c8a5f3435c342964e0a432cc9fb448b7dbecd1ba
+    - https://github.com/python/cpython/commit/c8a5f3435c342964e0a432cc9fb448b7dbecd1ba (3.12-branch)
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c
+    - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main)
+    - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main-branch)
     - https://github.com/python/cpython/issues/136065
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
+    - https://ubuntu.com/security/notices/USN-7886-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
     LastModifiedDate: '2025-11-04T15:41:31.45Z'
@@ -39201,6 +39234,7 @@
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
