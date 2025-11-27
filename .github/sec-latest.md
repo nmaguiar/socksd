@@ -2530,18 +2530,23 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:18824 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-53057 
-│                       │      │                  ├ [2]: https://errata.almalinux.org/10/ALSA-2025-18824.html 
-│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-53057.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
-│                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/m
-│                       │      │                  │      sg00026.html 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53057 
-│                       │      │                  ├ [7]: https://openjdk.org/groups/vulnerability/advisories/20
-│                       │      │                  │      25-10-21 
-│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
-│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:18824 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-53057 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-18824.html 
+│                       │      │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-53057.html 
+│                       │      │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [5] : https://lists.debian.org/debian-lts-announce/2025/10/
+│                       │      │                  │       msg00026.html 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-53057 
+│                       │      │                  ├ [7] : https://openjdk.org/groups/vulnerability/advisories/2
+│                       │      │                  │       025-10-21 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7881-1 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7882-1 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7883-1 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7884-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7885-1 
+│                       │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
+│                       │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2025-53066 
@@ -2596,18 +2601,23 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:18824 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-53066 
-│                       │      │                  ├ [2]: https://errata.almalinux.org/10/ALSA-2025-18824.html 
-│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-53066.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
-│                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/m
-│                       │      │                  │      sg00026.html 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53066 
-│                       │      │                  ├ [7]: https://openjdk.org/groups/vulnerability/advisories/20
-│                       │      │                  │      25-10-21 
-│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
-│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:18824 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-53066 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-18824.html 
+│                       │      │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-53066.html 
+│                       │      │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [5] : https://lists.debian.org/debian-lts-announce/2025/10/
+│                       │      │                  │       msg00026.html 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-53066 
+│                       │      │                  ├ [7] : https://openjdk.org/groups/vulnerability/advisories/2
+│                       │      │                  │       025-10-21 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7881-1 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7882-1 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7883-1 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7884-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7885-1 
+│                       │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
+│                       │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2025-61748 
@@ -2655,18 +2665,23 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:18824 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61748 
-│                       │      │                  ├ [2]: https://errata.almalinux.org/10/ALSA-2025-18824.html 
-│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-61748.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-61748 
-│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61748 
-│                       │      │                  ╰ [7]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:18824 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-61748 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-18824.html 
+│                       │      │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-61748.html 
+│                       │      │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-61748 
+│                       │      │                  ├ [6] : https://openjdk.org/groups/vulnerability/advisories/2
+│                       │      │                  │       025-10-21 
+│                       │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-7884-1 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7885-1 
+│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-61748 
+│                       │      │                  ╰ [10]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:51.057Z 
 │                       │      ╰ LastModifiedDate: 2025-10-28T19:11:56.063Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2025-53057 
@@ -2721,18 +2736,23 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:18824 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-53057 
-│                       │      │                  ├ [2]: https://errata.almalinux.org/10/ALSA-2025-18824.html 
-│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-53057.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
-│                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/m
-│                       │      │                  │      sg00026.html 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53057 
-│                       │      │                  ├ [7]: https://openjdk.org/groups/vulnerability/advisories/20
-│                       │      │                  │      25-10-21 
-│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
-│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:18824 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-53057 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-18824.html 
+│                       │      │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-53057.html 
+│                       │      │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [5] : https://lists.debian.org/debian-lts-announce/2025/10/
+│                       │      │                  │       msg00026.html 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-53057 
+│                       │      │                  ├ [7] : https://openjdk.org/groups/vulnerability/advisories/2
+│                       │      │                  │       025-10-21 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7881-1 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7882-1 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7883-1 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7884-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7885-1 
+│                       │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
+│                       │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2025-53066 
@@ -2787,18 +2807,23 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:18824 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-53066 
-│                       │      │                  ├ [2]: https://errata.almalinux.org/10/ALSA-2025-18824.html 
-│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-53066.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
-│                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/m
-│                       │      │                  │      sg00026.html 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53066 
-│                       │      │                  ├ [7]: https://openjdk.org/groups/vulnerability/advisories/20
-│                       │      │                  │      25-10-21 
-│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
-│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:18824 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-53066 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-18824.html 
+│                       │      │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-53066.html 
+│                       │      │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [5] : https://lists.debian.org/debian-lts-announce/2025/10/
+│                       │      │                  │       msg00026.html 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-53066 
+│                       │      │                  ├ [7] : https://openjdk.org/groups/vulnerability/advisories/2
+│                       │      │                  │       025-10-21 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7881-1 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7882-1 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7883-1 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7884-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7885-1 
+│                       │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
+│                       │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2025-61748 
@@ -2846,18 +2871,23 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:18824 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61748 
-│                       │      │                  ├ [2]: https://errata.almalinux.org/10/ALSA-2025-18824.html 
-│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-61748.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-61748 
-│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61748 
-│                       │      │                  ╰ [7]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:18824 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-61748 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-18824.html 
+│                       │      │                  ├ [3] : https://linux.oracle.com/cve/CVE-2025-61748.html 
+│                       │      │                  ├ [4] : https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-61748 
+│                       │      │                  ├ [6] : https://openjdk.org/groups/vulnerability/advisories/2
+│                       │      │                  │       025-10-21 
+│                       │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-7884-1 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7885-1 
+│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-61748 
+│                       │      │                  ╰ [10]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:51.057Z 
 │                       │      ╰ LastModifiedDate: 2025-10-28T19:11:56.063Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2024-58251 
