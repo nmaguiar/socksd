@@ -35500,13 +35500,16 @@
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2025-11-03T21:18:48.67Z'
   - VulnerabilityID: CVE-2025-59375
+    VendorIDs:
+    - RHSA-2025:22175
     PkgID: expat@2.5.0-5.el9_6.x86_64
     PkgName: expat
     PkgIdentifier:
       PURL: pkg:rpm/redhat/expat@2.5.0-5.el9_6?arch=x86_64&distro=redhat-9.6
       UID: 8df7ab6b8bb745ca
     InstalledVersion: 2.5.0-5.el9_6
-    Status: will_not_fix
+    FixedVersion: 2.5.0-5.el9_7.1
+    Status: fixed
     Layer:
       Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
       DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
@@ -35538,14 +35541,14 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
     - https://errata.almalinux.org/8/ALSA-2025-21776.html
-    - https://errata.rockylinux.org/RLSA-2025:19403
+    - https://errata.rockylinux.org/RLSA-2025:21776
     - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
     - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
     - https://github.com/libexpat/libexpat/issues/1018
     - https://github.com/libexpat/libexpat/pull/1034
     - https://issues.oss-fuzz.com/issues/439133977
     - https://linux.oracle.com/cve/CVE-2025-59375.html
-    - https://linux.oracle.com/errata/ELSA-2025-21974.html
+    - https://linux.oracle.com/errata/ELSA-2025-22175.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-59375
     - https://www.cve.org/CVERecord?id=CVE-2025-59375
     PublishedDate: '2025-09-15T03:15:40.92Z'
@@ -35653,6 +35656,39 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-4156
     PublishedDate: '2023-09-25T18:15:11.013Z'
     LastModifiedDate: '2024-11-21T08:34:30.16Z'
+  - VulnerabilityID: CVE-2025-13601
+    PkgID: glib2@2.68.4-16.el9_6.2.x86_64
+    PkgName: glib2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glib2@2.68.4-16.el9_6.2?arch=x86_64&distro=redhat-9.6
+      UID: 1dd5437070f42602
+    InstalledVersion: 2.68.4-16.el9_6.2
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13601
+    Title: 'glib: Integer overflow in in g_escape_uri_string()'
+    Description: A heap-based buffer overflow problem was found in glib through an incorrect calculation of buffer size in the g_escape_uri_string() function. If the string to escape contains a very large number of unacceptable characters (which would need escaping), the calculation of the length of the escaped string could overflow, leading to a potential write off the end of the newly allocated string.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 7.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13601
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416741
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3827
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4914
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13601
+    - https://www.cve.org/CVERecord?id=CVE-2025-13601
+    PublishedDate: '2025-11-26T15:15:51.723Z'
+    LastModifiedDate: '2025-11-26T15:15:51.723Z'
   - VulnerabilityID: CVE-2023-32636
     PkgID: glib2@2.68.4-16.el9_6.2.x86_64
     PkgName: glib2
@@ -35856,6 +35892,88 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
     LastModifiedDate: '2025-10-16T16:53:07.557Z'
+  - VulnerabilityID: CVE-2025-64720
+    PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-1.el9?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 543aea8b2a504135
+    InstalledVersion: 1:21.0.9.0.10-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64720
+    Title: LIBPNG is a reference library for use in applications that read, creat ...
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, an out-of-bounds read vulnerability exists in png_image_read_composite when processing palette images with PNG_FLAG_OPTIMIZE_ALPHA enabled. The palette compositing code in png_init_read_transformations incorrectly applies background compositing during premultiplication, violating the invariant component ≤ alpha × 257 required by the simplified PNG API. This issue has been patched in version 1.6.51.
+    Severity: HIGH
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 3
+    References:
+    - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643
+    - https://github.com/pnggroup/libpng/issues/686
+    - https://github.com/pnggroup/libpng/pull/751
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww
+    PublishedDate: '2025-11-25T00:15:47.46Z'
+    LastModifiedDate: '2025-11-26T18:35:18.253Z'
+  - VulnerabilityID: CVE-2025-65018
+    PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-1.el9?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 543aea8b2a504135
+    InstalledVersion: 1:21.0.9.0.10-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-65018
+    Title: LIBPNG is a reference library for use in applications that read, creat ...
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, there is a heap buffer overflow vulnerability in the libpng simplified API function png_image_finish_read when processing 16-bit interlaced PNGs with 8-bit output format. Attacker-crafted interlaced PNG files cause heap writes beyond allocated buffer bounds. This issue has been patched in version 1.6.51.
+    Severity: HIGH
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+    References:
+    - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d
+    - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
+    - https://github.com/pnggroup/libpng/issues/755
+    - https://github.com/pnggroup/libpng/pull/757
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g
+    PublishedDate: '2025-11-25T00:15:47.61Z'
+    LastModifiedDate: '2025-11-26T18:34:53.65Z'
+  - VulnerabilityID: CVE-2025-64506
+    PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-1.el9?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 543aea8b2a504135
+    InstalledVersion: 1:21.0.9.0.10-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64506
+    Title: LIBPNG is a reference library for use in applications that read, creat ...
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, a heap buffer over-read vulnerability exists in libpng's png_write_image_8bit function when processing 8-bit images through the simplified write API with convert_to_8bit enabled. The vulnerability affects 8-bit grayscale+alpha, RGB/RGBA, and images with incomplete row data. A conditional guard incorrectly allows 8-bit input to enter code expecting 16-bit input, causing reads up to 2 bytes beyond allocated buffer boundaries. This issue has been patched in version 1.6.51.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+    References:
+    - https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821
+    - https://github.com/pnggroup/libpng/pull/749
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6
+    PublishedDate: '2025-11-25T00:15:47.3Z'
+    LastModifiedDate: '2025-11-26T18:34:38.24Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-6.el9_6.x86_64
     PkgName: libarchive
@@ -37733,6 +37851,7 @@
     - https://security.netapp.com/advisory/ntap-20250502-0006/
     - https://ubuntu.com/security/notices/USN-7264-1
     - https://ubuntu.com/security/notices/USN-7278-1
+    - https://ubuntu.com/security/notices/USN-7894-1
     - https://www.cve.org/CVERecord?id=CVE-2024-13176
     - https://www.oracle.com/security-alerts/cpuapr2025.html#AppendixMSQL
     PublishedDate: '2025-01-20T14:15:26.247Z'
@@ -37837,6 +37956,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9232
     - https://openssl-library.org/news/secadv/20250930.txt
     - https://ubuntu.com/security/notices/USN-7786-1
+    - https://ubuntu.com/security/notices/USN-7894-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
     LastModifiedDate: '2025-11-04T22:16:45.63Z'
@@ -38143,6 +38263,7 @@
     - https://security.netapp.com/advisory/ntap-20250502-0006/
     - https://ubuntu.com/security/notices/USN-7264-1
     - https://ubuntu.com/security/notices/USN-7278-1
+    - https://ubuntu.com/security/notices/USN-7894-1
     - https://www.cve.org/CVERecord?id=CVE-2024-13176
     - https://www.oracle.com/security-alerts/cpuapr2025.html#AppendixMSQL
     PublishedDate: '2025-01-20T14:15:26.247Z'
@@ -38247,6 +38368,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9232
     - https://openssl-library.org/news/secadv/20250930.txt
     - https://ubuntu.com/security/notices/USN-7786-1
+    - https://ubuntu.com/security/notices/USN-7894-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
     LastModifiedDate: '2025-11-04T22:16:45.63Z'
@@ -38468,7 +38590,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38606,6 +38728,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://ubuntu.com/security/notices/USN-7886-1
+    - https://ubuntu.com/security/notices/USN-7886-2
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
     LastModifiedDate: '2025-10-29T16:15:35.133Z'
@@ -38702,6 +38825,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
     - https://ubuntu.com/security/notices/USN-7886-1
+    - https://ubuntu.com/security/notices/USN-7886-2
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
     LastModifiedDate: '2025-11-04T15:41:31.45Z'
@@ -38724,7 +38848,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38862,6 +38986,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://ubuntu.com/security/notices/USN-7886-1
+    - https://ubuntu.com/security/notices/USN-7886-2
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
     LastModifiedDate: '2025-10-29T16:15:35.133Z'
@@ -38958,6 +39083,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
     - https://ubuntu.com/security/notices/USN-7886-1
+    - https://ubuntu.com/security/notices/USN-7886-2
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
     LastModifiedDate: '2025-11-04T15:41:31.45Z'
@@ -38980,7 +39106,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -39118,6 +39244,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://ubuntu.com/security/notices/USN-7886-1
+    - https://ubuntu.com/security/notices/USN-7886-2
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
     LastModifiedDate: '2025-10-29T16:15:35.133Z'
@@ -39214,6 +39341,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
     - https://ubuntu.com/security/notices/USN-7886-1
+    - https://ubuntu.com/security/notices/USN-7886-2
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
     LastModifiedDate: '2025-11-04T15:41:31.45Z'
@@ -39567,9 +39695,9 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2380149
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965
     - https://errata.almalinux.org/9/ALSA-2025-20936.html
-    - https://errata.rockylinux.org/RLSA-2025:11933
+    - https://errata.rockylinux.org/RLSA-2025:12010
     - https://linux.oracle.com/cve/CVE-2025-6965.html
-    - https://linux.oracle.com/errata/ELSA-2025-14101.html
+    - https://linux.oracle.com/errata/ELSA-2025-20936.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
     - https://ubuntu.com/security/notices/USN-7676-1
     - https://ubuntu.com/security/notices/USN-7679-1
