@@ -2478,7 +2478,189 @@
 │                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/04/23/1 
 │                       │      ├ PublishedDate   : 2025-04-23T16:15:48.713Z 
 │                       │      ╰ LastModifiedDate: 2025-09-24T14:38:22.127Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-53057 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-64505 
+│                       │      ├ PkgID           : libpng@1.6.47-r0 
+│                       │      ├ PkgName         : libpng 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.
+│                       │      │                  │       22.1 
+│                       │      │                  ╰ UID : dc7943769b551d5b 
+│                       │      ├ InstalledVersion: 1.6.47-r0 
+│                       │      ├ FixedVersion    : 1.6.51-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:a9aaf2f6d8878bb522a5e15d2297b361d23a7f631b0e
+│                       │      │                  │         fb18e4ecc0f21b01148c 
+│                       │      │                  ╰ DiffID: sha256:87c43d634e3896a29e1a86c248ef3da21c2e27d8546b
+│                       │      │                            88c369c8b62ae85bbbb1 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64505 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, creat ... 
+│                       │      ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │      │                    raster image files. Prior to version 1.6.51, a heap buffer
+│                       │      │                   over-read vulnerability exists in libpng's png_do_quantize
+│                       │      │                   function when processing PNG files with malformed palette
+│                       │      │                   indices. The vulnerability occurs when palette_lookup array
+│                       │      │                   bounds are not validated against externally-supplied image
+│                       │      │                   data, allowing an attacker to craft a PNG file with
+│                       │      │                   out-of-range palette indices that trigger out-of-bounds
+│                       │      │                   memory access. This issue has been patched in version 1.6.51
+│                       │      │                   . 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ─ photon: 3 
+│                       │      ├ References       ╭ [0]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0d
+│                       │      │                  │      d7f6de1c39d30de0e41473431c37 
+│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/pull/748 
+│                       │      │                  ╰ [2]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                         /GHSA-4952-h5wq-4m42 
+│                       │      ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
+│                       │      ╰ LastModifiedDate: 2025-11-26T18:28:32.22Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-64720 
+│                       │      ├ PkgID           : libpng@1.6.47-r0 
+│                       │      ├ PkgName         : libpng 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.
+│                       │      │                  │       22.1 
+│                       │      │                  ╰ UID : dc7943769b551d5b 
+│                       │      ├ InstalledVersion: 1.6.47-r0 
+│                       │      ├ FixedVersion    : 1.6.51-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:a9aaf2f6d8878bb522a5e15d2297b361d23a7f631b0e
+│                       │      │                  │         fb18e4ecc0f21b01148c 
+│                       │      │                  ╰ DiffID: sha256:87c43d634e3896a29e1a86c248ef3da21c2e27d8546b
+│                       │      │                            88c369c8b62ae85bbbb1 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64720 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : libpng: LIBPNG buffer overflow 
+│                       │      ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │      │                    raster image files. From version 1.6.0 to before 1.6.51, an
+│                       │      │                    out-of-bounds read vulnerability exists in
+│                       │      │                   png_image_read_composite when processing palette images with
+│                       │      │                    PNG_FLAG_OPTIMIZE_ALPHA enabled. The palette compositing
+│                       │      │                   code in png_init_read_transformations incorrectly applies
+│                       │      │                   background compositing during premultiplication, violating
+│                       │      │                   the invariant component ≤ alpha × 257 required by the
+│                       │      │                   simplified PNG API. This issue has been patched in version
+│                       │      │                   1.6.51. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ╰ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64720 
+│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/08da33b4c88c
+│                       │      │                  │      fcd36e5a706558a8d7e0e4773643 
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/issues/686 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/pull/751 
+│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-hfc7-ph9c-wcww 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64720 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64720 
+│                       │      ├ PublishedDate   : 2025-11-25T00:15:47.46Z 
+│                       │      ╰ LastModifiedDate: 2025-11-26T18:35:18.253Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-65018 
+│                       │      ├ PkgID           : libpng@1.6.47-r0 
+│                       │      ├ PkgName         : libpng 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.
+│                       │      │                  │       22.1 
+│                       │      │                  ╰ UID : dc7943769b551d5b 
+│                       │      ├ InstalledVersion: 1.6.47-r0 
+│                       │      ├ FixedVersion    : 1.6.51-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:a9aaf2f6d8878bb522a5e15d2297b361d23a7f631b0e
+│                       │      │                  │         fb18e4ecc0f21b01148c 
+│                       │      │                  ╰ DiffID: sha256:87c43d634e3896a29e1a86c248ef3da21c2e27d8546b
+│                       │      │                            88c369c8b62ae85bbbb1 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-65018 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : libpng: LIBPNG heap buffer overflow 
+│                       │      ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │      │                    raster image files. From version 1.6.0 to before 1.6.51,
+│                       │      │                   there is a heap buffer overflow vulnerability in the libpng
+│                       │      │                   simplified API function png_image_finish_read when
+│                       │      │                   processing 16-bit interlaced PNGs with 8-bit output format.
+│                       │      │                   Attacker-crafted interlaced PNG files cause heap writes
+│                       │      │                   beyond allocated buffer bounds. This issue has been patched
+│                       │      │                   in version 1.6.51. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ╭ [0]: CWE-122 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ╰ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-65018 
+│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/16b5e3823918
+│                       │      │                  │      840aae65c0a6da57c78a5a496a4d 
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/commit/218612ddd6b1
+│                       │      │                  │      7944e21eda56caf8b4bf7779d1ea 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/issues/755 
+│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/pull/757 
+│                       │      │                  ├ [5]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-7wv6-48j4-hj3g 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-65018 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-65018 
+│                       │      ├ PublishedDate   : 2025-11-25T00:15:47.61Z 
+│                       │      ╰ LastModifiedDate: 2025-11-26T18:34:53.65Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-64506 
+│                       │      ├ PkgID           : libpng@1.6.47-r0 
+│                       │      ├ PkgName         : libpng 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.
+│                       │      │                  │       22.1 
+│                       │      │                  ╰ UID : dc7943769b551d5b 
+│                       │      ├ InstalledVersion: 1.6.47-r0 
+│                       │      ├ FixedVersion    : 1.6.51-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:a9aaf2f6d8878bb522a5e15d2297b361d23a7f631b0e
+│                       │      │                  │         fb18e4ecc0f21b01148c 
+│                       │      │                  ╰ DiffID: sha256:87c43d634e3896a29e1a86c248ef3da21c2e27d8546b
+│                       │      │                            88c369c8b62ae85bbbb1 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64506 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : libpng: LIBPNG heap buffer over-read 
+│                       │      ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │      │                    raster image files. From version 1.6.0 to before 1.6.51, a
+│                       │      │                   heap buffer over-read vulnerability exists in libpng's
+│                       │      │                   png_write_image_8bit function when processing 8-bit images
+│                       │      │                   through the simplified write API with convert_to_8bit
+│                       │      │                   enabled. The vulnerability affects 8-bit grayscale+alpha,
+│                       │      │                   RGB/RGBA, and images with incomplete row data. A conditional
+│                       │      │                    guard incorrectly allows 8-bit input to enter code
+│                       │      │                   expecting 16-bit input, causing reads up to 2 bytes beyond
+│                       │      │                   allocated buffer boundaries. This issue has been patched in
+│                       │      │                   version 1.6.51. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64506 
+│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/2bd84c019c30
+│                       │      │                  │      0b78e811743fbcddb67c9d9bf821 
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/pull/749 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-qpr4-xm66-hww6 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-64506 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
+│                       │      ├ PublishedDate   : 2025-11-25T00:15:47.3Z 
+│                       │      ╰ LastModifiedDate: 2025-11-26T18:34:38.24Z 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-53057 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.8_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.8_p9-r0?arch=x86_64
@@ -2549,7 +2731,7 @@
 │                       │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-53066 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-53066 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.8_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.8_p9-r0?arch=x86_64
@@ -2620,7 +2802,7 @@
 │                       │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-61748 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-61748 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.8_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.8_p9-r0?arch=x86_64
@@ -2684,7 +2866,7 @@
 │                       │      │                  ╰ [10]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:51.057Z 
 │                       │      ╰ LastModifiedDate: 2025-10-28T19:11:56.063Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-53057 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2025-53057 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.8_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.8_p9-r0?ar
@@ -2755,7 +2937,7 @@
 │                       │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-53066 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2025-53066 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.8_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.8_p9-r0?ar
@@ -2826,7 +3008,7 @@
 │                       │      │                  ╰ [14]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-61748 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2025-61748 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.8_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.8_p9-r0?ar
@@ -2890,7 +3072,7 @@
 │                       │      │                  ╰ [10]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:51.057Z 
 │                       │      ╰ LastModifiedDate: 2025-10-28T19:11:56.063Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2024-58251 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2024-58251 
 │                       │      ├ PkgID           : ssl_client@1.37.0-r18 
 │                       │      ├ PkgName         : ssl_client 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r18?arch=x86_64&dist
@@ -2923,7 +3105,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
 │                       │      ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
 │                       │      ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
-│                       ╰ [11] ╭ VulnerabilityID : CVE-2025-46394 
+│                       ╰ [15] ╭ VulnerabilityID : CVE-2025-46394 
 │                              ├ PkgID           : ssl_client@1.37.0-r18 
 │                              ├ PkgName         : ssl_client 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r18?arch=x86_64&dist
