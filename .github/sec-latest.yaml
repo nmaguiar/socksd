@@ -2461,6 +2461,9 @@
     - https://ubuntu.com/security/notices/USN-7883-1
     - https://ubuntu.com/security/notices/USN-7884-1
     - https://ubuntu.com/security/notices/USN-7885-1
+    - https://ubuntu.com/security/notices/USN-7900-1
+    - https://ubuntu.com/security/notices/USN-7901-1
+    - https://ubuntu.com/security/notices/USN-7902-1
     - https://www.cve.org/CVERecord?id=CVE-2025-53057
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:45.24Z'
@@ -2520,6 +2523,9 @@
     - https://ubuntu.com/security/notices/USN-7883-1
     - https://ubuntu.com/security/notices/USN-7884-1
     - https://ubuntu.com/security/notices/USN-7885-1
+    - https://ubuntu.com/security/notices/USN-7900-1
+    - https://ubuntu.com/security/notices/USN-7901-1
+    - https://ubuntu.com/security/notices/USN-7902-1
     - https://www.cve.org/CVERecord?id=CVE-2025-53066
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:47.177Z'
@@ -2575,6 +2581,8 @@
     - https://openjdk.org/groups/vulnerability/advisories/2025-10-21
     - https://ubuntu.com/security/notices/USN-7884-1
     - https://ubuntu.com/security/notices/USN-7885-1
+    - https://ubuntu.com/security/notices/USN-7901-1
+    - https://ubuntu.com/security/notices/USN-7902-1
     - https://www.cve.org/CVERecord?id=CVE-2025-61748
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:51.057Z'
@@ -2634,6 +2642,9 @@
     - https://ubuntu.com/security/notices/USN-7883-1
     - https://ubuntu.com/security/notices/USN-7884-1
     - https://ubuntu.com/security/notices/USN-7885-1
+    - https://ubuntu.com/security/notices/USN-7900-1
+    - https://ubuntu.com/security/notices/USN-7901-1
+    - https://ubuntu.com/security/notices/USN-7902-1
     - https://www.cve.org/CVERecord?id=CVE-2025-53057
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:45.24Z'
@@ -2693,6 +2704,9 @@
     - https://ubuntu.com/security/notices/USN-7883-1
     - https://ubuntu.com/security/notices/USN-7884-1
     - https://ubuntu.com/security/notices/USN-7885-1
+    - https://ubuntu.com/security/notices/USN-7900-1
+    - https://ubuntu.com/security/notices/USN-7901-1
+    - https://ubuntu.com/security/notices/USN-7902-1
     - https://www.cve.org/CVERecord?id=CVE-2025-53066
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:47.177Z'
@@ -2748,6 +2762,8 @@
     - https://openjdk.org/groups/vulnerability/advisories/2025-10-21
     - https://ubuntu.com/security/notices/USN-7884-1
     - https://ubuntu.com/security/notices/USN-7885-1
+    - https://ubuntu.com/security/notices/USN-7901-1
+    - https://ubuntu.com/security/notices/USN-7902-1
     - https://www.cve.org/CVERecord?id=CVE-2025-61748
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:51.057Z'
