@@ -2738,8 +2738,11 @@
 │                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7883-1 
 │                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7884-1 
 │                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7885-1 
-│                       │      │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
-│                       │      │                  ╰ [21]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7900-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7901-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7902-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
+│                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2025-53066 
@@ -2820,8 +2823,11 @@
 │                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7883-1 
 │                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7884-1 
 │                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7885-1 
-│                       │      │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
-│                       │      │                  ╰ [21]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7900-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7901-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7902-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
+│                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-61748 
@@ -2895,8 +2901,10 @@
 │                       │      │                  │       025-10-21 
 │                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7884-1 
 │                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7885-1 
-│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-61748 
-│                       │      │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7901-1 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7902-1 
+│                       │      │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2025-61748 
+│                       │      │                  ╰ [19]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:51.057Z 
 │                       │      ╰ LastModifiedDate: 2025-10-28T19:11:56.063Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2025-53057 
@@ -2977,8 +2985,11 @@
 │                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7883-1 
 │                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7884-1 
 │                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7885-1 
-│                       │      │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
-│                       │      │                  ╰ [21]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7900-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7901-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7902-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
+│                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2025-53066 
@@ -3059,8 +3070,11 @@
 │                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7883-1 
 │                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7884-1 
 │                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7885-1 
-│                       │      │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
-│                       │      │                  ╰ [21]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7900-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7901-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7902-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
+│                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2025-61748 
@@ -3134,8 +3148,10 @@
 │                       │      │                  │       025-10-21 
 │                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7884-1 
 │                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7885-1 
-│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-61748 
-│                       │      │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7901-1 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7902-1 
+│                       │      │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2025-61748 
+│                       │      │                  ╰ [19]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:51.057Z 
 │                       │      ╰ LastModifiedDate: 2025-10-28T19:11:56.063Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2024-58251 
