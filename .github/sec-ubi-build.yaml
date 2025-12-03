@@ -35142,6 +35142,77 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-4504
     PublishedDate: '2023-09-21T23:15:12.293Z'
     LastModifiedDate: '2025-11-04T17:15:41.697Z'
+  - VulnerabilityID: CVE-2025-58436
+    PkgID: cups-libs@2.3.3op2-34.el9_7.x86_64
+    PkgName: cups-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-34.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 26eed85d53363889
+    InstalledVersion: 1:2.3.3op2-34.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:93662a89ee82e24eef7ff3f97f25981571f517397c57bfe92afedf74de5bf077
+      DiffID: sha256:1b02b2c505cb01053d157cec7bcc3a12ded5a74a96b23cbd7f0248eab569a5cc
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58436
+    Title: 'cups: Slow client communication leads to a possible DoS attack'
+    Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. Prior to version 2.4.15, a client that connects to cupsd but sends slow messages, e.g. only one byte per second, delays cupsd as a whole, such that it becomes unusable by other clients. This issue has been patched in version 2.4.15.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/11/27/4
+    - https://access.redhat.com/security/cve/CVE-2025-58436
+    - https://github.com/OpenPrinting/cups/commit/40008d76a001babbb9beb9d9d74b01a86fb6ddb4
+    - https://github.com/OpenPrinting/cups/releases/tag/v2.4.15
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-8wpw-vfgm-qrrr
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58436
+    - https://www.cve.org/CVERecord?id=CVE-2025-58436
+    PublishedDate: '2025-11-29T03:15:59.323Z'
+    LastModifiedDate: '2025-12-01T15:39:33.11Z'
+  - VulnerabilityID: CVE-2025-61915
+    PkgID: cups-libs@2.3.3op2-34.el9_7.x86_64
+    PkgName: cups-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-34.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 26eed85d53363889
+    InstalledVersion: 1:2.3.3op2-34.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:93662a89ee82e24eef7ff3f97f25981571f517397c57bfe92afedf74de5bf077
+      DiffID: sha256:1b02b2c505cb01053d157cec7bcc3a12ded5a74a96b23cbd7f0248eab569a5cc
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61915
+    Title: 'CUPS: Local denial-of-service via cupsd.conf update and related issues'
+    Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. Prior to version 2.4.15, a user in the lpadmin group can use the cups web ui to change the config and insert a malicious line. Then the cupsd process which runs as root will parse the new config and cause an out-of-bound write. This issue has been patched in version 2.4.15.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-124
+    - CWE-129
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 6
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/11/27/5
+    - https://access.redhat.com/security/cve/CVE-2025-61915
+    - https://github.com/OpenPrinting/cups/commit/db8d560262c22a21ee1e55dfd62fa98d9359bcb0
+    - https://github.com/OpenPrinting/cups/releases/tag/v2.4.15
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-hxm8-vfpq-jrfc
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61915
+    - https://ubuntu.com/security/notices/USN-7897-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-61915
+    PublishedDate: '2025-11-29T03:15:59.52Z'
+    LastModifiedDate: '2025-12-01T15:39:33.11Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-34.el9_7.x86_64
     PkgName: cups-libs
@@ -35651,12 +35722,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 2.9
     References:
+    - http://www.openwall.com/lists/oss-security/2025/12/02/1
     - https://access.redhat.com/security/cve/CVE-2025-66382
     - https://github.com/libexpat/libexpat/issues/1076
     - https://nvd.nist.gov/vuln/detail/CVE-2025-66382
     - https://www.cve.org/CVERecord?id=CVE-2025-66382
     PublishedDate: '2025-11-28T07:15:57.9Z'
-    LastModifiedDate: '2025-11-28T07:15:57.9Z'
+    LastModifiedDate: '2025-12-02T03:16:20.34Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -35732,7 +35804,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13601
     - https://www.cve.org/CVERecord?id=CVE-2025-13601
     PublishedDate: '2025-11-26T15:15:51.723Z'
-    LastModifiedDate: '2025-11-26T15:15:51.723Z'
+    LastModifiedDate: '2025-12-01T15:39:53.1Z'
   - VulnerabilityID: CVE-2023-32636
     PkgID: glib2@2.68.4-18.el9_7.x86_64
     PkgName: glib2
@@ -36860,6 +36932,7 @@
     - CWE-674
     VendorSeverity:
       nvd: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -36874,6 +36947,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2392605
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/677a42645ef22b5a50741bad5facf9d8a8bc6d21
     - https://gitlab.gnome.org/GNOME/libxslt/-/issues/148
+    - https://linux.oracle.com/cve/CVE-2025-9714.html
+    - https://linux.oracle.com/errata/ELSA-2025-22376.html
     - https://lists.debian.org/debian-lts-announce/2025/09/msg00035.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9714
     - https://ubuntu.com/security/notices/USN-7743-1
@@ -38513,7 +38588,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38733,6 +38808,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
+    - https://github.com/python/cpython/commit/5dceb93486176e6b4a6d9754491005113eb23427
     - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84
     - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch)
     - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca
@@ -38751,7 +38827,7 @@
     - https://ubuntu.com/security/notices/USN-7886-2
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
-    LastModifiedDate: '2025-11-04T15:41:31.45Z'
+    LastModifiedDate: '2025-12-01T19:15:52.55Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3@3.9.23-2.el9.x86_64
     PkgName: python3
@@ -38771,7 +38847,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38991,6 +39067,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
+    - https://github.com/python/cpython/commit/5dceb93486176e6b4a6d9754491005113eb23427
     - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84
     - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch)
     - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca
@@ -39009,7 +39086,7 @@
     - https://ubuntu.com/security/notices/USN-7886-2
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
-    LastModifiedDate: '2025-11-04T15:41:31.45Z'
+    LastModifiedDate: '2025-12-01T19:15:52.55Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3-libs@3.9.23-2.el9.x86_64
     PkgName: python3-libs
@@ -39029,7 +39106,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -39249,6 +39326,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
+    - https://github.com/python/cpython/commit/5dceb93486176e6b4a6d9754491005113eb23427
     - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84
     - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch)
     - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca
@@ -39267,7 +39345,7 @@
     - https://ubuntu.com/security/notices/USN-7886-2
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
-    LastModifiedDate: '2025-11-04T15:41:31.45Z'
+    LastModifiedDate: '2025-12-01T19:15:52.55Z'
   - VulnerabilityID: CVE-2023-45803
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
