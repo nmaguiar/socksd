@@ -2127,6 +2127,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:e55bc5553a9ce7b3b94a2316fff08611b210715db77fbea1619b5f1832690a92
     Title: In netstat in BusyBox through 1.37.0, local users can launch of networ ...
     Description: In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.
     Severity: MEDIUM
@@ -2160,6 +2161,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:c99695274bf807dc7dfa0c004c8c3e7a9bfbfccc10a542abbae0c4e0b051aa47
     Title: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hid ...
     Description: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
     Severity: LOW
@@ -2201,6 +2203,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:5fc83ad956332b5e9ad2a9bcd5b71d69e540fdc4dcc4ea76fea2deaaecaad262
     Title: In netstat in BusyBox through 1.37.0, local users can launch of networ ...
     Description: In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.
     Severity: MEDIUM
@@ -2234,6 +2237,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:5d3e337e85be52d0dd027c621ea9cf12a8f96515cb111b439461df582f015e6b
     Title: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hid ...
     Description: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
     Severity: LOW
@@ -2275,6 +2279,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:6f063ad6a90d3fb21a8041d4085a4e0aa323387dd3a87d2245d4343353bb0ff8
     Title: 'libpng: LIBPNG buffer overflow'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, an out-of-bounds read vulnerability exists in png_image_read_composite when processing palette images with PNG_FLAG_OPTIMIZE_ALPHA enabled. The palette compositing code in png_init_read_transformations incorrectly applies background compositing during premultiplication, violating the invariant component ≤ alpha × 257 required by the simplified PNG API. This issue has been patched in version 1.6.51.
     Severity: HIGH
@@ -2314,6 +2319,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:28460206d5e8a2bbdae77eab0e61429eade4435aaf24617c10fe18cb78a475a4
     Title: 'libpng: LIBPNG heap buffer overflow'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, there is a heap buffer overflow vulnerability in the libpng simplified API function png_image_finish_read when processing 16-bit interlaced PNGs with 8-bit output format. Attacker-crafted interlaced PNG files cause heap writes beyond allocated buffer bounds. This issue has been patched in version 1.6.51.
     Severity: HIGH
@@ -2355,17 +2361,26 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: LIBPNG is a reference library for use in applications that read, creat ...
+    Fingerprint: sha256:ad5468f677d3046b62a2375aab935bd0c49a5688a424b557c1289a19e25e0bc6
+    Title: 'libpng: LIBPNG heap buffer overflow via malformed palette index'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to version 1.6.51, a heap buffer over-read vulnerability exists in libpng's png_do_quantize function when processing PNG files with malformed palette indices. The vulnerability occurs when palette_lookup array bounds are not validated against externally-supplied image data, allowing an attacker to craft a PNG file with out-of-range palette indices that trigger out-of-bounds memory access. This issue has been patched in version 1.6.51.
     Severity: MEDIUM
     CweIDs:
     - CWE-125
     VendorSeverity:
       photon: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L
+        V3Score: 4.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-64505
     - https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37
     - https://github.com/pnggroup/libpng/pull/748
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-64505
+    - https://www.cve.org/CVERecord?id=CVE-2025-64505
     PublishedDate: '2025-11-25T00:15:47.133Z'
     LastModifiedDate: '2025-11-26T18:28:32.22Z'
   - VulnerabilityID: CVE-2025-64506
@@ -2385,6 +2400,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:fa059e1e6fd1036230d7745deace76ccf3096ed89e34b26867afffc69b921b7a
     Title: 'libpng: LIBPNG heap buffer over-read'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, a heap buffer over-read vulnerability exists in libpng's png_write_image_8bit function when processing 8-bit images through the simplified write API with convert_to_8bit enabled. The vulnerability affects 8-bit grayscale+alpha, RGB/RGBA, and images with incomplete row data. A conditional guard incorrectly allows 8-bit input to enter code expecting 16-bit input, causing reads up to 2 bytes beyond allocated buffer boundaries. This issue has been patched in version 1.6.51.
     Severity: MEDIUM
@@ -2423,6 +2439,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:555a4affffb237ae94eb703ce12da3236eb23e69a3ac8fbd3ea3440cf1f26ec3
     Title: In netstat in BusyBox through 1.37.0, local users can launch of networ ...
     Description: In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.
     Severity: MEDIUM
@@ -2456,6 +2473,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:1b26c3f79b255b3922b5d19dc6ef983cfd8fd8928c0ae12b33801e8513e52245
     Title: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hid ...
     Description: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
     Severity: LOW
