@@ -1040,6 +1040,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:4a050869fd96c49f797d262618c48156fa3935419b168584d09565
+│                       │     │                   f47f25cabc 
 │                       │     ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
 │                       │     │                   of networ ... 
 │                       │     ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
@@ -1074,6 +1076,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:90577aaec5b6da287dd2146a2f4a804fe260f6bd3c45bc8d6499a8
+│                       │     │                   5689120727 
 │                       │     ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
 │                       │     │                   filenames hid ... 
 │                       │     ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
@@ -1115,6 +1119,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:0369f264ed076259fed28b75f8b469c8c041d2e46ec8c8dfe739be
+│                       │     │                   70a367cb32 
 │                       │     ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
 │                       │     │                   of networ ... 
 │                       │     ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
@@ -1149,6 +1155,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:c4b342a9384cad755839a8e80b391e8877307c86013428f2762777
+│                       │     │                   327d7f8b35 
 │                       │     ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
 │                       │     │                   filenames hid ... 
 │                       │     ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
@@ -1190,6 +1198,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:5b25bbab93552c7bb47c7d2bab604ca9df8729fdfe174659c63069
+│                       │     │                   213daf1075 
 │                       │     ├ Title           : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
 │                       │     │                   out-of-bounds write ... 
 │                       │     ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
@@ -1227,6 +1237,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:846f53098a298fe52e9e7866e019cf362ea7ae62d1c160b89f3a8d
+│                       │     │                   494b69d399 
 │                       │     ├ Title           : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
 │                       │     │                   out-of-bounds write ... 
 │                       │     ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
@@ -1264,6 +1276,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:bc73f3a109118edcb3a5ae0ffc7f67c5a470063377bec72c05bed8
+│                       │     │                   8b52b3dddc 
 │                       │     ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
 │                       │     │                   of networ ... 
 │                       │     ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
@@ -1298,6 +1312,8 @@
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                             ├ Fingerprint     : sha256:3da330d8fbfdbf891bd4a90e1a4df37f4c1a919cc44f9de80ce3cd
+│                             │                   974d34305d 
 │                             ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
 │                             │                   filenames hid ... 
 │                             ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
