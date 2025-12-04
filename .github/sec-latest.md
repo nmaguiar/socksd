@@ -2345,6 +2345,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:2bf31a92af493dea43a8f8eb91f2ff5dd6dded44dd271edbc621e
+│                       │      │                   a14473b077c 
 │                       │      ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
 │                       │      │                    of networ ... 
 │                       │      ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
@@ -2379,6 +2381,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:52dec2610fe59e7bde73c7ee26387ce26b069cd6f19c33cf669e5
+│                       │      │                   5c5e7cc0261 
 │                       │      ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
 │                       │      │                   filenames hid ... 
 │                       │      ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
@@ -2420,6 +2424,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:8a4c26c263ec8c68e882ad01f939dc66a1f77c5618f88b9b94950
+│                       │      │                   8861fe6ce2b 
 │                       │      ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
 │                       │      │                    of networ ... 
 │                       │      ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
@@ -2454,6 +2460,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:b9cf19aa8d4176b41c24e171b4760877354e41b18765ad1ca4929
+│                       │      │                   37d92052c18 
 │                       │      ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
 │                       │      │                   filenames hid ... 
 │                       │      ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
@@ -2495,6 +2503,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:ec4e7592dfdc2afac76845b497ef1d9ef010257d05fe74cd39bd0
+│                       │      │                   a81d5f2ebfa 
 │                       │      ├ Title           : libpng: LIBPNG buffer overflow 
 │                       │      ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
@@ -2542,6 +2552,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:b72f3a5863ae543f057192930594b8e9b923a057fbda2efa607d9
+│                       │      │                   d9678704245 
 │                       │      ├ Title           : libpng: LIBPNG heap buffer overflow 
 │                       │      ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
@@ -2590,8 +2602,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : LIBPNG is a reference library for use in applications that
-│                       │      │                   read, creat ... 
+│                       │      ├ Fingerprint     : sha256:527d12c7499d10f8463e75a8c3184469efd1631f167ee735654d7
+│                       │      │                   e6c00839a8d 
+│                       │      ├ Title           : libpng: LIBPNG heap buffer overflow via malformed palette
+│                       │      │                   index 
 │                       │      ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
 │                       │      │                    raster image files. Prior to version 1.6.51, a heap buffer
@@ -2605,12 +2619,19 @@
 │                       │      │                   . 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ─ photon: 2 
-│                       │      ├ References       ╭ [0]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0d
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.4 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64505 
+│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0d
 │                       │      │                  │      d7f6de1c39d30de0e41473431c37 
-│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/pull/748 
-│                       │      │                  ╰ [2]: https://github.com/pnggroup/libpng/security/advisories
-│                       │      │                         /GHSA-4952-h5wq-4m42 
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/pull/748 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-4952-h5wq-4m42 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:28:32.22Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2025-64506 
@@ -2630,6 +2651,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:4454ba76278fbbff5a6b496c643959bda0315273d3207ff2cf5a0
+│                       │      │                   7cf38c222b0 
 │                       │      ├ Title           : libpng: LIBPNG heap buffer over-read 
 │                       │      ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
@@ -2677,6 +2700,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:3df60fbf0468ae4a5048723c8f022fae91487d58ce638348d8ea5
+│                       │      │                   cae0ff2d0d3 
 │                       │      ├ Title           : openjdk: Enhance certificate handling (Oracle CPU 2025-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -2762,6 +2787,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:0701e59a88974f6748d78e6df402b7928edde42aae1a25f985e49
+│                       │      │                   8ae30c67423 
 │                       │      ├ Title           : openjdk: Enhance Path Factories (Oracle CPU 2025-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -2847,6 +2874,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:2c117a36795f5eb170ed80188f69096d865e8a4e61a4f4b301c48
+│                       │      │                   d613065cdcd 
 │                       │      ├ Title           : openjdk: Enhance String handling (Oracle CPU 2025-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -2924,6 +2953,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:8de86935f9e787ab957dd82e490a1da8e8ef39ca7164bb99e828c
+│                       │      │                   7be6bae943b 
 │                       │      ├ Title           : openjdk: Enhance certificate handling (Oracle CPU 2025-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3009,6 +3040,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:a401e5d30d9a6d77affda4d0ce5d554f9d7664b2846b1afa59faa
+│                       │      │                   b792953a235 
 │                       │      ├ Title           : openjdk: Enhance Path Factories (Oracle CPU 2025-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3094,6 +3127,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:ea467435836d13c1146a4c0f7bc536986b5bd7ab94cd503441cb2
+│                       │      │                   86b8f7c2b6e 
 │                       │      ├ Title           : openjdk: Enhance String handling (Oracle CPU 2025-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3171,6 +3206,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:d9fc2ee6bcaa7f4e6580b95add393e49d82abf5bf09a7c0378f07
+│                       │      │                   769793f74a1 
 │                       │      ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
 │                       │      │                    of networ ... 
 │                       │      ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
@@ -3205,6 +3242,8 @@
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                              ├ Fingerprint     : sha256:2093e89ea2729f210e88ecedc5d6b742474a6e02bb89d861039d4
+│                              │                   1ee96793342 
 │                              ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
 │                              │                   filenames hid ... 
 │                              ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
