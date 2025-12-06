@@ -2752,7 +2752,7 @@
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2025-18824.html 
 │                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2025:21485 
 │                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-53057.html 
-│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-21485.html 
 │                       │      │                  ├ [12]: https://lists.debian.org/debian-lts-announce/2025/10/
 │                       │      │                  │       msg00026.html 
 │                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-53057 
@@ -2839,7 +2839,7 @@
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2025-18824.html 
 │                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2025:21485 
 │                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-53066.html 
-│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-21485.html 
 │                       │      │                  ├ [12]: https://lists.debian.org/debian-lts-announce/2025/10/
 │                       │      │                  │       msg00026.html 
 │                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-53066 
@@ -2924,7 +2924,7 @@
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2025-18824.html 
 │                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2025:21485 
 │                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-61748.html 
-│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-21485.html 
 │                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-61748 
 │                       │      │                  ├ [13]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-10-21 
@@ -3005,7 +3005,7 @@
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2025-18824.html 
 │                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2025:21485 
 │                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-53057.html 
-│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-21485.html 
 │                       │      │                  ├ [12]: https://lists.debian.org/debian-lts-announce/2025/10/
 │                       │      │                  │       msg00026.html 
 │                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-53057 
@@ -3092,7 +3092,7 @@
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2025-18824.html 
 │                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2025:21485 
 │                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-53066.html 
-│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-21485.html 
 │                       │      │                  ├ [12]: https://lists.debian.org/debian-lts-announce/2025/10/
 │                       │      │                  │       msg00026.html 
 │                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-53066 
@@ -3177,7 +3177,7 @@
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2025-18824.html 
 │                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2025:21485 
 │                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-61748.html 
-│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-21485.html 
 │                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-61748 
 │                       │      │                  ├ [13]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-10-21 
