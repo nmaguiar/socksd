@@ -34982,7 +34982,7 @@
     - https://www.kb.cert.org/vuls/id/550620
     - https://www.secfu.net/advisories
     PublishedDate: '2017-05-01T01:59:00.297Z'
-    LastModifiedDate: '2025-04-20T01:37:25.86Z'
+    LastModifiedDate: '2025-12-03T22:15:49.323Z'
   - VulnerabilityID: CVE-2025-5278
     PkgID: coreutils-single@8.32-39.el9.x86_64
     PkgName: coreutils-single
@@ -35098,8 +35098,13 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.1
@@ -35110,9 +35115,11 @@
     - https://github.com/OpenPrinting/cups/releases/tag/v2.4.15
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-8wpw-vfgm-qrrr
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58436
+    - https://ubuntu.com/security/notices/USN-7912-1
+    - https://ubuntu.com/security/notices/USN-7912-2
     - https://www.cve.org/CVERecord?id=CVE-2025-58436
     PublishedDate: '2025-11-29T03:15:59.323Z'
-    LastModifiedDate: '2025-12-01T15:39:33.11Z'
+    LastModifiedDate: '2025-12-04T17:24:12.92Z'
   - VulnerabilityID: CVE-2025-61915
     PkgID: cups-libs@2.3.3op2-33.el9_6.1.x86_64
     PkgName: cups-libs
@@ -35134,9 +35141,14 @@
     - CWE-124
     - CWE-129
     VendorSeverity:
+      nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 6.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H
         V3Score: 6
@@ -35150,7 +35162,7 @@
     - https://ubuntu.com/security/notices/USN-7897-1
     - https://www.cve.org/CVERecord?id=CVE-2025-61915
     PublishedDate: '2025-11-29T03:15:59.52Z'
-    LastModifiedDate: '2025-12-01T15:39:33.11Z'
+    LastModifiedDate: '2025-12-04T17:15:19.827Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-33.el9_6.1.x86_64
     PkgName: cups-libs
@@ -35618,12 +35630,12 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/16/2
-    - https://access.redhat.com/errata/RHSA-2025:21974
+    - https://access.redhat.com/errata/RHSA-2025:22175
     - https://access.redhat.com/security/cve/CVE-2025-59375
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
-    - https://errata.almalinux.org/8/ALSA-2025-21974.html
+    - https://errata.almalinux.org/9/ALSA-2025-22175.html
     - https://errata.rockylinux.org/RLSA-2025:22175
     - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
     - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
@@ -35636,67 +35648,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-59375
     PublishedDate: '2025-09-15T03:15:40.92Z'
     LastModifiedDate: '2025-11-04T22:16:34.927Z'
-  - VulnerabilityID: CVE-2013-0340
-    PkgID: expat@2.5.0-5.el9_6.x86_64
-    PkgName: expat
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/expat@2.5.0-5.el9_6?arch=x86_64&distro=redhat-9.6
-      UID: 8df7ab6b8bb745ca
-    InstalledVersion: 2.5.0-5.el9_6
-    Status: will_not_fix
-    Layer:
-      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
-      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2013-0340
-    Fingerprint: sha256:8482f472ad6b1eeb5f125c2a555ac55088870b647045cc60996954d0cddbd032
-    Title: 'expat: internal entity expansion'
-    Description: 'expat before version 2.4.0 does not properly handle entities expansion unless an application developer uses the XML_SetEntityDeclHandler function, which allows remote attackers to cause a denial of service (resource consumption), send HTTP requests to intranet servers, or read arbitrary files via a crafted XML document, aka an XML External Entity (XXE) issue.  NOTE: it could be argued that because expat already provides the ability to disable external entity expansion, the responsibility for resolving this issue lies with application developers; according to this argument, this entry should be REJECTed, and each affected application would need its own CVE.'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-611
-    VendorSeverity:
-      cbl-mariner: 2
-      nvd: 2
-      redhat: 2
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P
-        V2Score: 6.8
-      redhat:
-        V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P
-        V2Score: 4.3
-    References:
-    - http://openwall.com/lists/oss-security/2013/02/22/3
-    - http://seclists.org/fulldisclosure/2021/Oct/61
-    - http://seclists.org/fulldisclosure/2021/Oct/62
-    - http://seclists.org/fulldisclosure/2021/Oct/63
-    - http://seclists.org/fulldisclosure/2021/Sep/33
-    - http://seclists.org/fulldisclosure/2021/Sep/34
-    - http://seclists.org/fulldisclosure/2021/Sep/35
-    - http://seclists.org/fulldisclosure/2021/Sep/38
-    - http://seclists.org/fulldisclosure/2021/Sep/39
-    - http://seclists.org/fulldisclosure/2021/Sep/40
-    - http://securitytracker.com/id?1028213
-    - http://www.openwall.com/lists/oss-security/2013/04/12/6
-    - http://www.openwall.com/lists/oss-security/2021/10/07/4
-    - http://www.osvdb.org/90634
-    - http://www.securityfocus.com/bid/58233
-    - https://access.redhat.com/security/cve/CVE-2013-0340
-    - https://github.com/libexpat/libexpat/blob/R_2_4_1/expat/Changes
-    - https://lists.apache.org/thread.html/r41eca5f4f09e74436cbb05dec450fc2bef37b5d3e966aa7cc5fada6d%40%3Cannounce.apache.org%3E
-    - https://lists.apache.org/thread.html/rfb2c193360436e230b85547e85a41bea0916916f96c501f5b6fc4702%40%3Cusers.openoffice.apache.org%3E
-    - https://nvd.nist.gov/vuln/detail/CVE-2013-0340
-    - https://security.gentoo.org/glsa/201701-21
-    - https://support.apple.com/kb/HT212804
-    - https://support.apple.com/kb/HT212805
-    - https://support.apple.com/kb/HT212807
-    - https://support.apple.com/kb/HT212814
-    - https://support.apple.com/kb/HT212815
-    - https://support.apple.com/kb/HT212819
-    - https://www.cve.org/CVERecord?id=CVE-2013-0340
-    PublishedDate: '2014-01-21T18:55:09.117Z'
-    LastModifiedDate: '2025-11-25T17:15:47.723Z'
   - VulnerabilityID: CVE-2025-66382
     PkgID: expat@2.5.0-5.el9_6.x86_64
     PkgName: expat
@@ -36090,6 +36041,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-65018
     PublishedDate: '2025-11-25T00:15:47.61Z'
     LastModifiedDate: '2025-11-26T18:34:53.65Z'
+  - VulnerabilityID: CVE-2025-66293
+    PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-1.el9?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 543aea8b2a504135
+    InstalledVersion: 1:21.0.9.0.10-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66293
+    Fingerprint: sha256:83a5ec61ef2f9304f2cab615ee0daebf5143622166a1108f75b8735ad1a8dd22
+    Title: 'libpng: LIBPNG out-of-bounds read in png_image_read_composite'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to 1.6.52, an out-of-bounds read vulnerability in libpng's simplified API allows reading up to 1012 bytes beyond the png_sRGB_base[512] array when processing valid palette PNG images with partial transparency and gamma correction. The PNG files that trigger this vulnerability are valid per the PNG specification; the bug is in libpng's internal state management. Upgrade to libpng 1.6.52 or later.
+    Severity: HIGH
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 7.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/12/03/6
+    - http://www.openwall.com/lists/oss-security/2025/12/03/7
+    - http://www.openwall.com/lists/oss-security/2025/12/03/8
+    - https://access.redhat.com/security/cve/CVE-2025-66293
+    - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
+    - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
+    - https://github.com/pnggroup/libpng/issues/764
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-9mpm-9pxh-mg4f
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-66293
+    - https://www.cve.org/CVERecord?id=CVE-2025-66293
+    PublishedDate: '2025-12-03T21:15:53.06Z'
+    LastModifiedDate: '2025-12-04T17:15:08.283Z'
   - VulnerabilityID: CVE-2025-64505
     PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -36993,9 +36982,11 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      alma: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -37005,8 +36996,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
+    - https://access.redhat.com/errata/RHSA-2025:22376
     - https://access.redhat.com/security/cve/CVE-2025-9714
+    - https://bugzilla.redhat.com/2392605
     - https://bugzilla.redhat.com/show_bug.cgi?id=2392605
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9714
+    - https://errata.almalinux.org/9/ALSA-2025-22376.html
+    - https://errata.rockylinux.org/RLSA-2025:22376
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/677a42645ef22b5a50741bad5facf9d8a8bc6d21
     - https://gitlab.gnome.org/GNOME/libxslt/-/issues/148
     - https://linux.oracle.com/cve/CVE-2025-9714.html
@@ -38854,6 +38850,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
     LastModifiedDate: '2025-12-02T19:15:49.137Z'
+  - VulnerabilityID: CVE-2025-13837
+    PkgID: python-unversioned-command@3.9.21-2.el9_6.2.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-2.el9_6.2?arch=noarch&distro=redhat-9.6
+      UID: 3a6e7fff15d11b7d
+    InstalledVersion: 3.9.21-2.el9_6.2
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13837
+    Fingerprint: sha256:124d5917fb891e483dce434572dd9e0ffbb2a2b46a3e89a39a7dab848937fc9e
+    Title: 'cpython: Out-of-memory when loading Plist'
+    Description: When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 1
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13837
+    - https://github.com/python/cpython/commit/694922cf40aa3a28f898b5f5ee08b71b4922df70
+    - https://github.com/python/cpython/commit/71fa8eb8233b37f16c88b6e3e583b461b205d1ba
+    - https://github.com/python/cpython/commit/b64441e4852383645af5b435411a6f849dd1b4cb
+    - https://github.com/python/cpython/issues/119342
+    - https://github.com/python/cpython/pull/119343
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/2X5IBCJXRQAZ5PSERLHMSJFBHFR3QM2C/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
+    - https://www.cve.org/CVERecord?id=CVE-2025-13837
+    PublishedDate: '2025-12-01T18:16:04.38Z'
+    LastModifiedDate: '2025-12-02T18:15:47.697Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python-unversioned-command@3.9.21-2.el9_6.2.noarch
     PkgName: python-unversioned-command
@@ -38874,7 +38906,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -39154,6 +39186,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
     LastModifiedDate: '2025-12-02T19:15:49.137Z'
+  - VulnerabilityID: CVE-2025-13837
+    PkgID: python3@3.9.21-2.el9_6.2.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.21-2.el9_6.2?arch=x86_64&distro=redhat-9.6
+      UID: a4360fe59bf0cef3
+    InstalledVersion: 3.9.21-2.el9_6.2
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13837
+    Fingerprint: sha256:94657da889e507f2fd1da8ca05879ddd420b600ecd1fd55be501645f532b2c8c
+    Title: 'cpython: Out-of-memory when loading Plist'
+    Description: When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 1
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13837
+    - https://github.com/python/cpython/commit/694922cf40aa3a28f898b5f5ee08b71b4922df70
+    - https://github.com/python/cpython/commit/71fa8eb8233b37f16c88b6e3e583b461b205d1ba
+    - https://github.com/python/cpython/commit/b64441e4852383645af5b435411a6f849dd1b4cb
+    - https://github.com/python/cpython/issues/119342
+    - https://github.com/python/cpython/pull/119343
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/2X5IBCJXRQAZ5PSERLHMSJFBHFR3QM2C/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
+    - https://www.cve.org/CVERecord?id=CVE-2025-13837
+    PublishedDate: '2025-12-01T18:16:04.38Z'
+    LastModifiedDate: '2025-12-02T18:15:47.697Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3@3.9.21-2.el9_6.2.x86_64
     PkgName: python3
@@ -39174,7 +39242,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -39454,6 +39522,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
     LastModifiedDate: '2025-12-02T19:15:49.137Z'
+  - VulnerabilityID: CVE-2025-13837
+    PkgID: python3-libs@3.9.21-2.el9_6.2.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.21-2.el9_6.2?arch=x86_64&distro=redhat-9.6
+      UID: 4c4661a8c97813fd
+    InstalledVersion: 3.9.21-2.el9_6.2
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13837
+    Fingerprint: sha256:a61b6f772f1bdb38d773d9b661362db1ff278c3411b6f6e9a9af32092812d863
+    Title: 'cpython: Out-of-memory when loading Plist'
+    Description: When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 1
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13837
+    - https://github.com/python/cpython/commit/694922cf40aa3a28f898b5f5ee08b71b4922df70
+    - https://github.com/python/cpython/commit/71fa8eb8233b37f16c88b6e3e583b461b205d1ba
+    - https://github.com/python/cpython/commit/b64441e4852383645af5b435411a6f849dd1b4cb
+    - https://github.com/python/cpython/issues/119342
+    - https://github.com/python/cpython/pull/119343
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/2X5IBCJXRQAZ5PSERLHMSJFBHFR3QM2C/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
+    - https://www.cve.org/CVERecord?id=CVE-2025-13837
+    PublishedDate: '2025-12-01T18:16:04.38Z'
+    LastModifiedDate: '2025-12-02T18:15:47.697Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3-libs@3.9.21-2.el9_6.2.x86_64
     PkgName: python3-libs
@@ -39474,7 +39578,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -40127,13 +40231,16 @@
     PublishedDate: '2024-01-16T14:15:48.327Z'
     LastModifiedDate: '2024-11-21T08:46:06.907Z'
   - VulnerabilityID: CVE-2025-4598
+    VendorIDs:
+    - RHSA-2025:22660
     PkgID: systemd-libs@252-51.el9_6.2.x86_64
     PkgName: systemd-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/systemd-libs@252-51.el9_6.2?arch=x86_64&distro=redhat-9.6
       UID: f14bf6be29b3c941
     InstalledVersion: 252-51.el9_6.2
-    Status: affected
+    FixedVersion: 252-55.el9_7.7
+    Status: fixed
     Layer:
       Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
       DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
@@ -40149,9 +40256,10 @@
     CweIDs:
     - CWE-364
     VendorSeverity:
+      alma: 2
       azure: 2
       cbl-mariner: 2
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -40164,10 +40272,13 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - http://www.openwall.com/lists/oss-security/2025/08/18/3
+    - https://access.redhat.com/errata/RHSA-2025:22660
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
+    - https://bugzilla.redhat.com/2369242
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
     - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
+    - https://errata.almalinux.org/9/ALSA-2025-22660.html
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -40178,7 +40289,7 @@
     - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
     - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
     - https://linux.oracle.com/cve/CVE-2025-4598.html
-    - https://linux.oracle.com/errata/ELSA-2025-20344.html
+    - https://linux.oracle.com/errata/ELSA-2025-22660.html
     - https://lists.debian.org/debian-lts-announce/2025/07/msg00022.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
     - https://ubuntu.com/security/notices/USN-7559-1
@@ -40187,7 +40298,7 @@
     - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-11-04T22:16:19.68Z'
+    LastModifiedDate: '2025-12-03T12:15:49.507Z'
   - VulnerabilityID: CVE-2005-2541
     PkgID: tar@1.34-7.el9.x86_64
     PkgName: tar
