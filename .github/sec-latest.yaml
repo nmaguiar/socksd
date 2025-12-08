@@ -2286,6 +2286,8 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 3
+      cbl-mariner: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -2327,6 +2329,8 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
+      azure: 3
+      cbl-mariner: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -2368,6 +2372,8 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
       photon: 2
       redhat: 2
     CVSS:
@@ -2407,6 +2413,8 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
       photon: 2
       redhat: 2
     CVSS:
