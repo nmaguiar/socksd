@@ -2519,8 +2519,10 @@
 │                       │     │                   1.6.51. 
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ─ [0]: CWE-125 
-│                       │     ├ VendorSeverity   ╭ photon: 3 
-│                       │     │                  ╰ redhat: 3 
+│                       │     ├ VendorSeverity   ╭ azure      : 3 
+│                       │     │                  ├ cbl-mariner: 3 
+│                       │     │                  ├ photon     : 3 
+│                       │     │                  ╰ redhat     : 3 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 7.1 
@@ -2567,8 +2569,10 @@
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ╭ [0]: CWE-122 
 │                       │     │                  ╰ [1]: CWE-787 
-│                       │     ├ VendorSeverity   ╭ photon: 3 
-│                       │     │                  ╰ redhat: 3 
+│                       │     ├ VendorSeverity   ╭ azure      : 3 
+│                       │     │                  ├ cbl-mariner: 3 
+│                       │     │                  ├ photon     : 3 
+│                       │     │                  ╰ redhat     : 3 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 7.1 
@@ -2617,8 +2621,10 @@
 │                       │     │                   memory access. This issue has been patched in version 1.6.51. 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-125 
-│                       │     ├ VendorSeverity   ╭ photon: 2 
-│                       │     │                  ╰ redhat: 2 
+│                       │     ├ VendorSeverity   ╭ azure      : 2 
+│                       │     │                  ├ cbl-mariner: 2 
+│                       │     │                  ├ photon     : 2 
+│                       │     │                  ╰ redhat     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/
 │                       │     │                           │           A:L 
 │                       │     │                           ╰ V3Score : 4.4 
@@ -2666,8 +2672,10 @@
 │                       │     │                   1.6.51. 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-125 
-│                       │     ├ VendorSeverity   ╭ photon: 2 
-│                       │     │                  ╰ redhat: 2 
+│                       │     ├ VendorSeverity   ╭ azure      : 2 
+│                       │     │                  ├ cbl-mariner: 2 
+│                       │     │                  ├ photon     : 2 
+│                       │     │                  ╰ redhat     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 6.1 
