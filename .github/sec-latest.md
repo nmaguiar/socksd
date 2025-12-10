@@ -2519,7 +2519,8 @@
 │                       │      │                   1.6.51. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ╰ redhat     : 3 
@@ -2569,7 +2570,8 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ╭ [0]: CWE-122 
 │                       │      │                  ╰ [1]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ╰ redhat     : 3 
@@ -2589,7 +2591,59 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-65018 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.61Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:34:53.65Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-64505 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-66293 
+│                       │      ├ PkgID           : libpng@1.6.47-r0 
+│                       │      ├ PkgName         : libpng 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.
+│                       │      │                  │       22.1 
+│                       │      │                  ╰ UID : dc7943769b551d5b 
+│                       │      ├ InstalledVersion: 1.6.47-r0 
+│                       │      ├ FixedVersion    : 1.6.53-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:a9aaf2f6d8878bb522a5e15d2297b361d23a7f631b0e
+│                       │      │                  │         fb18e4ecc0f21b01148c 
+│                       │      │                  ╰ DiffID: sha256:87c43d634e3896a29e1a86c248ef3da21c2e27d8546b
+│                       │      │                            88c369c8b62ae85bbbb1 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-66293 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:07338a33685b10e8128983a29b1788deb7b8e835ae31628c1365e
+│                       │      │                   fce21746ba8 
+│                       │      ├ Title           : libpng: LIBPNG out-of-bounds read in png_image_read_composite 
+│                       │      ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │      │                    raster image files. Prior to 1.6.52, an out-of-bounds read
+│                       │      │                   vulnerability in libpng's simplified API allows reading up
+│                       │      │                   to 1012 bytes beyond the png_sRGB_base[512] array when
+│                       │      │                   processing valid palette PNG images with partial
+│                       │      │                   transparency and gamma correction. The PNG files that
+│                       │      │                   trigger this vulnerability are valid per the PNG
+│                       │      │                   specification; the bug is in libpng's internal state
+│                       │      │                   management. Upgrade to libpng 1.6.52 or later. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ azure : 3 
+│                       │      │                  ╰ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.1 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/12/03/6 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/12/03/7 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/12/03/8 
+│                       │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-66293 
+│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/commit/788a624d7387
+│                       │      │                  │      a758ffd5c7ab010f1870dea753a1 
+│                       │      │                  ├ [5]: https://github.com/pnggroup/libpng/commit/a05a48b756de
+│                       │      │                  │      63e3234ea6b3b938b8f5f862484a 
+│                       │      │                  ├ [6]: https://github.com/pnggroup/libpng/issues/764 
+│                       │      │                  ├ [7]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-9mpm-9pxh-mg4f 
+│                       │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2025-66293 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-66293 
+│                       │      ├ PublishedDate   : 2025-12-03T21:15:53.06Z 
+│                       │      ╰ LastModifiedDate: 2025-12-04T17:15:08.283Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-64505 
 │                       │      ├ PkgID           : libpng@1.6.47-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.
@@ -2623,24 +2677,29 @@
 │                       │      │                   . 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.4 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64505 
 │                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0d
 │                       │      │                  │      d7f6de1c39d30de0e41473431c37 
-│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/pull/748 
-│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0d
+│                       │      │                  │      d7f6de1c39d30de0e41473431c37 (v1.6.51) 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/pull/748 
+│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories
 │                       │      │                  │      /GHSA-4952-h5wq-4m42 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
+│                       │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:28:32.22Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-64506 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-64506 
 │                       │      ├ PkgID           : libpng@1.6.47-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.
@@ -2674,7 +2733,8 @@
 │                       │      │                   version 1.6.51. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ╰ redhat     : 2 
@@ -2691,7 +2751,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.3Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:34:38.24Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-53057 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-53057 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.8_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.8_p9-r0?arch=x86_64
@@ -2778,7 +2838,7 @@
 │                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-53066 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-53066 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.8_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.8_p9-r0?arch=x86_64
@@ -2865,7 +2925,7 @@
 │                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2025-61748 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2025-61748 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.8_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.8_p9-r0?arch=x86_64
@@ -2944,7 +3004,7 @@
 │                       │      │                  ╰ [19]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:51.057Z 
 │                       │      ╰ LastModifiedDate: 2025-10-28T19:11:56.063Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2025-53057 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2025-53057 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.8_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.8_p9-r0?ar
@@ -3031,7 +3091,7 @@
 │                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2025-53066 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2025-53066 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.8_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.8_p9-r0?ar
@@ -3118,7 +3178,7 @@
 │                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2025-61748 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2025-61748 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.8_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.8_p9-r0?ar
@@ -3197,7 +3257,7 @@
 │                       │      │                  ╰ [19]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:51.057Z 
 │                       │      ╰ LastModifiedDate: 2025-10-28T19:11:56.063Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2024-58251 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2024-58251 
 │                       │      ├ PkgID           : ssl_client@1.37.0-r18 
 │                       │      ├ PkgName         : ssl_client 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r18?arch=x86_64&dist
@@ -3232,7 +3292,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
 │                       │      ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
 │                       │      ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
-│                       ╰ [15] ╭ VulnerabilityID : CVE-2025-46394 
+│                       ╰ [16] ╭ VulnerabilityID : CVE-2025-46394 
 │                              ├ PkgID           : ssl_client@1.37.0-r18 
 │                              ├ PkgName         : ssl_client 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r18?arch=x86_64&dist
