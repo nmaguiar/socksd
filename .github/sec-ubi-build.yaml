@@ -35958,6 +35958,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       redhat: 2
@@ -36202,6 +36203,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       photon: 3
@@ -36241,6 +36243,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       photon: 3
@@ -36319,10 +36322,12 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       photon: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L
@@ -36330,10 +36335,12 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-64505
     - https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37
+    - https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37 (v1.6.51)
     - https://github.com/pnggroup/libpng/pull/748
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64505
     - https://www.cve.org/CVERecord?id=CVE-2025-64505
+    - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.133Z'
     LastModifiedDate: '2025-11-26T18:28:32.22Z'
   - VulnerabilityID: CVE-2025-64506
@@ -36356,6 +36363,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -36694,7 +36702,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14104
     - https://www.cve.org/CVERecord?id=CVE-2025-14104
     PublishedDate: '2025-12-05T17:16:03.117Z'
-    LastModifiedDate: '2025-12-05T17:16:03.117Z'
+    LastModifiedDate: '2025-12-08T18:26:49.133Z'
   - VulnerabilityID: CVE-2025-10966
     PkgID: libcurl-minimal@7.76.1-34.el9.x86_64
     PkgName: libcurl-minimal
@@ -37360,7 +37368,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14104
     - https://www.cve.org/CVERecord?id=CVE-2025-14104
     PublishedDate: '2025-12-05T17:16:03.117Z'
-    LastModifiedDate: '2025-12-05T17:16:03.117Z'
+    LastModifiedDate: '2025-12-08T18:26:49.133Z'
   - VulnerabilityID: CVE-2023-24056
     PkgID: libpkgconf@1.7.3-10.el9.x86_64
     PkgName: libpkgconf
@@ -37432,7 +37440,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14104
     - https://www.cve.org/CVERecord?id=CVE-2025-14104
     PublishedDate: '2025-12-05T17:16:03.117Z'
-    LastModifiedDate: '2025-12-05T17:16:03.117Z'
+    LastModifiedDate: '2025-12-08T18:26:49.133Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++@11.5.0-11.el9.x86_64
     PkgName: libstdc++
@@ -37510,7 +37518,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14104
     - https://www.cve.org/CVERecord?id=CVE-2025-14104
     PublishedDate: '2025-12-05T17:16:03.117Z'
-    LastModifiedDate: '2025-12-05T17:16:03.117Z'
+    LastModifiedDate: '2025-12-08T18:26:49.133Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-14.el9_7.x86_64
     PkgName: libxml2
@@ -38319,7 +38327,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:15699
+    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -38479,7 +38487,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/10/ALSA-2025-15699.html
+    - https://errata.almalinux.org/9/ALSA-2025-16046.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
@@ -38660,7 +38668,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:15699
+    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -38820,7 +38828,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/10/ALSA-2025-15699.html
+    - https://errata.almalinux.org/9/ALSA-2025-16046.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
@@ -39247,7 +39255,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -39460,6 +39468,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      amazon: 1
       bitnami: 1
       redhat: 1
       ubuntu: 2
@@ -39584,7 +39593,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -39797,6 +39806,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      amazon: 1
       bitnami: 1
       redhat: 1
       ubuntu: 2
@@ -39921,7 +39931,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -40134,6 +40144,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      amazon: 1
       bitnami: 1
       redhat: 1
       ubuntu: 2
