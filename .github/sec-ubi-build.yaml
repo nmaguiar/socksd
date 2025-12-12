@@ -35882,6 +35882,7 @@
     - CWE-407
     VendorSeverity:
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -35961,6 +35962,7 @@
       amazon: 3
       azure: 3
       cbl-mariner: 3
+      photon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -35975,6 +35977,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-13601
     PublishedDate: '2025-11-26T15:15:51.723Z'
     LastModifiedDate: '2025-12-01T15:39:53.1Z'
+  - VulnerabilityID: CVE-2025-14087
+    PkgID: glib2@2.68.4-18.el9_7.x86_64
+    PkgName: glib2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glib2@2.68.4-18.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 222c9d367a7197da
+    InstalledVersion: 2.68.4-18.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:c336a7dae377564688fbdb06204b7dc223f7a4d749b6981a44f7c4def5446b3d
+      DiffID: sha256:273ec5f0dc64562d06a67510de318ff7fd719780ee184f5fe3eb41bdaf511ffe
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14087
+    Fingerprint: sha256:f1edb1197bdbf8a75ea0aebf0bc77466a84de52d2daed7da2ce58029cd2ad77b
+    Title: 'glib: GLib: Buffer underflow in GVariant parser leads to heap corruption'
+    Description: A flaw was found in GLib (Gnome Lib). This vulnerability allows a remote attacker to cause heap corruption, leading to a denial of service or potential code execution via a buffer-underflow in the GVariant parser when processing maliciously crafted input strings.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-14087
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2419093
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14087
+    - https://www.cve.org/CVERecord?id=CVE-2025-14087
+    PublishedDate: '2025-12-10T09:15:47.053Z'
+    LastModifiedDate: '2025-12-10T09:15:47.053Z'
   - VulnerabilityID: CVE-2023-32636
     PkgID: glib2@2.68.4-18.el9_7.x86_64
     PkgName: glib2
@@ -36180,6 +36214,7 @@
     - https://lists.gnupg.org/pipermail/gnupg-announce/2025q1/000491.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30258
     - https://ubuntu.com/security/notices/USN-7412-1
+    - https://ubuntu.com/security/notices/USN-7412-3
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
     LastModifiedDate: '2025-10-16T16:53:07.557Z'
@@ -36208,6 +36243,7 @@
       cbl-mariner: 3
       photon: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
@@ -36215,11 +36251,13 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-64720
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643
+    - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643 (v1.6.51)
     - https://github.com/pnggroup/libpng/issues/686
     - https://github.com/pnggroup/libpng/pull/751
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64720
     - https://www.cve.org/CVERecord?id=CVE-2025-64720
+    - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.46Z'
     LastModifiedDate: '2025-11-26T18:35:18.253Z'
   - VulnerabilityID: CVE-2025-65018
@@ -36248,6 +36286,7 @@
       cbl-mariner: 3
       photon: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H
@@ -36255,12 +36294,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-65018
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d
+    - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d (v1.6.51)
     - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
+    - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea (v1.6.51)
     - https://github.com/pnggroup/libpng/issues/755
     - https://github.com/pnggroup/libpng/pull/757
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g
     - https://nvd.nist.gov/vuln/detail/CVE-2025-65018
     - https://www.cve.org/CVERecord?id=CVE-2025-65018
+    - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.61Z'
     LastModifiedDate: '2025-11-26T18:34:53.65Z'
   - VulnerabilityID: CVE-2025-66293
@@ -36368,6 +36410,7 @@
       cbl-mariner: 2
       photon: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
@@ -36375,10 +36418,12 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-64506
     - https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821
+    - https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821 (v1.6.51)
     - https://github.com/pnggroup/libpng/pull/749
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64506
     - https://www.cve.org/CVERecord?id=CVE-2025-64506
+    - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.3Z'
     LastModifiedDate: '2025-11-26T18:34:38.24Z'
   - VulnerabilityID: CVE-2023-30571
@@ -40223,40 +40268,10 @@
     - https://bugzilla.redhat.com/2246840
     - https://bugzilla.redhat.com/2257028
     - https://bugzilla.redhat.com/2257854
-    - https://bugzilla.redhat.com/show_bug.cgi?id=1983596
-    - https://bugzilla.redhat.com/show_bug.cgi?id=1989575
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2132867
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2132868
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2132872
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2228743
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237773
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237776
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237777
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237778
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2244340
     - https://bugzilla.redhat.com/show_bug.cgi?id=2246840
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2253193
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2253330
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2254210
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2262272
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25091
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33198
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34558
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2879
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2880
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41715
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29409
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39318
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39319
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39321
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39322
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39326
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45287
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45803
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23650
     - https://errata.almalinux.org/9/ALSA-2024-2132.html
-    - https://errata.rockylinux.org/RLSA-2024:2988
+    - https://errata.rockylinux.org/RLSA-2024:11238
     - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-212.yaml
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/4e50fbc5db74e32cabd5ccc1ab81fc103adfe0b3
