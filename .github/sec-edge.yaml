@@ -1087,6 +1087,7 @@
     Layer:
       Digest: sha256:5b137150c03d5df66f65ab384c9df00b0ac70f359f0220b4adf78a87886d3be2
       DiffID: sha256:5e8cb9d3ccdf4812abda9c0712f30b75069bc2ac599472bf785ff46cd5752da0
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26519
     DataSource:
       ID: alpine
@@ -1095,9 +1096,15 @@
     Fingerprint: sha256:8b0149ea9be1b636d39f11e9ae13cf5f6eceb616c8bf482ee94af340385bf454
     Title: musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write ...
     Description: musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write vulnerability when an attacker can trigger iconv conversion of untrusted EUC-KR text to UTF-8.
-    Severity: UNKNOWN
+    Severity: HIGH
     CweIDs:
     - CWE-787
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/02/13/2
     - http://www.openwall.com/lists/oss-security/2025/02/13/3
@@ -1109,7 +1116,7 @@
     - https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd97b5196e29991b524237381a0202a60659
     - https://www.openwall.com/lists/oss-security/2025/02/13/2
     PublishedDate: '2025-02-14T04:15:09.05Z'
-    LastModifiedDate: '2025-02-14T17:15:23.09Z'
+    LastModifiedDate: '2025-12-10T20:03:59.273Z'
   - VulnerabilityID: CVE-2025-26519
     PkgID: musl-utils@1.2.5-r9
     PkgName: musl-utils
@@ -1122,6 +1129,7 @@
     Layer:
       Digest: sha256:5b137150c03d5df66f65ab384c9df00b0ac70f359f0220b4adf78a87886d3be2
       DiffID: sha256:5e8cb9d3ccdf4812abda9c0712f30b75069bc2ac599472bf785ff46cd5752da0
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26519
     DataSource:
       ID: alpine
@@ -1130,9 +1138,15 @@
     Fingerprint: sha256:3e3cf6f4ecf5caaa4c200543a17306eb2e16086410d8c24a931051a3037028ed
     Title: musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write ...
     Description: musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write vulnerability when an attacker can trigger iconv conversion of untrusted EUC-KR text to UTF-8.
-    Severity: UNKNOWN
+    Severity: HIGH
     CweIDs:
     - CWE-787
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/02/13/2
     - http://www.openwall.com/lists/oss-security/2025/02/13/3
@@ -1144,7 +1158,7 @@
     - https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd97b5196e29991b524237381a0202a60659
     - https://www.openwall.com/lists/oss-security/2025/02/13/2
     PublishedDate: '2025-02-14T04:15:09.05Z'
-    LastModifiedDate: '2025-02-14T17:15:23.09Z'
+    LastModifiedDate: '2025-12-10T20:03:59.273Z'
   - VulnerabilityID: CVE-2024-58251
     PkgID: ssl_client@1.37.0-r10
     PkgName: ssl_client
