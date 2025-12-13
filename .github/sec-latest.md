@@ -2538,8 +2538,9 @@
 │                       │      │                  ├ [5]: https://github.com/pnggroup/libpng/security/advisories
 │                       │      │                  │      /GHSA-hfc7-ph9c-wcww 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-64720 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-64720 
-│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7924-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-64720 
+│                       │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.46Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:35:18.253Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2025-65018 
@@ -2597,8 +2598,9 @@
 │                       │      │                  ├ [7] : https://github.com/pnggroup/libpng/security/advisorie
 │                       │      │                  │       s/GHSA-7wv6-48j4-hj3g 
 │                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-65018 
-│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-65018 
-│                       │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2025/11/2
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7924-1 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-65018 
+│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/11/2
 │                       │      │                          2/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.61Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:34:53.65Z 
@@ -2706,8 +2708,9 @@
 │                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories
 │                       │      │                  │      /GHSA-4952-h5wq-4m42 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
-│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
-│                       │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7924-1 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:28:32.22Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2025-64506 
@@ -2762,8 +2765,9 @@
 │                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories
 │                       │      │                  │      /GHSA-qpr4-xm66-hww6 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64506 
-│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
-│                       │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7924-1 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.3Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:34:38.24Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2025-53057 
