@@ -2304,6 +2304,7 @@
     - https://github.com/pnggroup/libpng/pull/751
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64720
+    - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-64720
     - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.46Z'
@@ -2353,6 +2354,7 @@
     - https://github.com/pnggroup/libpng/pull/757
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g
     - https://nvd.nist.gov/vuln/detail/CVE-2025-65018
+    - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-65018
     - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.61Z'
@@ -2441,6 +2443,7 @@
     - https://github.com/pnggroup/libpng/pull/748
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64505
+    - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-64505
     - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.133Z'
@@ -2486,6 +2489,7 @@
     - https://github.com/pnggroup/libpng/pull/749
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64506
+    - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-64506
     - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.3Z'
