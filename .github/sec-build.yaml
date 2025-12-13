@@ -1,26 +1,26 @@
-- Target: nmaguiar/socksd:build (alpine 3.22.2)
+- Target: nmaguiar/socksd:build (alpine 3.23.0)
   Class: os-pkgs
   Type: alpine
   Packages:
-  - ID: alpine-baselayout@3.7.0-r0
+  - ID: alpine-baselayout@3.7.1-r8
     Name: alpine-baselayout
     Identifier:
-      PURL: pkg:apk/alpine/alpine-baselayout@3.7.0-r0?arch=x86_64&distro=3.22.2
-      UID: cf99a0742a931dd7
-    Version: 3.7.0-r0
+      PURL: pkg:apk/alpine/alpine-baselayout@3.7.1-r8?arch=x86_64&distro=3.23.0
+      UID: bb9de5e77801798d
+    Version: 3.7.1-r8
     Arch: x86_64
     SrcName: alpine-baselayout
-    SrcVersion: 3.7.0-r0
+    SrcVersion: 3.7.1-r8
     Licenses:
     - GPL-2.0-only
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - alpine-baselayout-data@3.7.0-r0
-    - busybox-binsh@1.37.0-r19
+    - alpine-baselayout-data@3.7.1-r8
+    - busybox-binsh@1.37.0-r29
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:29f99748eea1ffe01f70b34024dc45c46d211f8d
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:9a137c3c8e738bcabac13326c9fc5472fa58aaf4
     InstalledFiles:
     - etc/motd
     - etc/crontabs/root
@@ -35,22 +35,22 @@
     - var/run
     - var/spool/mail
     - var/spool/cron/crontabs
-  - ID: alpine-baselayout-data@3.7.0-r0
+  - ID: alpine-baselayout-data@3.7.1-r8
     Name: alpine-baselayout-data
     Identifier:
-      PURL: pkg:apk/alpine/alpine-baselayout-data@3.7.0-r0?arch=x86_64&distro=3.22.2
-      UID: f5b86fea926440c2
-    Version: 3.7.0-r0
+      PURL: pkg:apk/alpine/alpine-baselayout-data@3.7.1-r8?arch=x86_64&distro=3.23.0
+      UID: aaf48747bbe2abe1
+    Version: 3.7.1-r8
     Arch: x86_64
     SrcName: alpine-baselayout
-    SrcVersion: 3.7.0-r0
+    SrcVersion: 3.7.1-r8
     Licenses:
     - GPL-2.0-only
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:73f5ef65f8333a1784102df973c076d5a7d5b5fe
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:9a60b0edb4559ab279cf004b7e685cfd78dd0c15
     InstalledFiles:
     - etc/fstab
     - etc/group
@@ -67,28 +67,26 @@
     - etc/shadow
     - etc/shells
     - etc/sysctl.conf
-  - ID: alpine-keys@2.5-r0
+  - ID: alpine-keys@2.6-r0
     Name: alpine-keys
     Identifier:
-      PURL: pkg:apk/alpine/alpine-keys@2.5-r0?arch=x86_64&distro=3.22.2
-      UID: 81813228b0ffdc30
-    Version: 2.5-r0
+      PURL: pkg:apk/alpine/alpine-keys@2.6-r0?arch=x86_64&distro=3.23.0
+      UID: a40d710a5174ffeb
+    Version: 2.6-r0
     Arch: x86_64
     SrcName: alpine-keys
-    SrcVersion: 2.5-r0
+    SrcVersion: 2.6-r0
     Licenses:
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:b175e48144ebad03d6ba11d45b25aafc2de310c1
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:5c45a821cd6b84d543bbd7ff12a7de1855c5cd13
     InstalledFiles:
     - etc/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub
-    - etc/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub
     - etc/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub
     - etc/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub
-    - etc/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub
     - usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub
     - usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub
     - usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub
@@ -127,48 +125,48 @@
     - usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub
     - usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub
     - usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub
-  - ID: alpine-release@3.22.2-r0
+  - ID: alpine-release@3.23.0-r0
     Name: alpine-release
     Identifier:
-      PURL: pkg:apk/alpine/alpine-release@3.22.2-r0?arch=x86_64&distro=3.22.2
-      UID: 7d4257c820bacdf2
-    Version: 3.22.2-r0
+      PURL: pkg:apk/alpine/alpine-release@3.23.0-r0?arch=x86_64&distro=3.23.0
+      UID: 57699070d22647ef
+    Version: 3.23.0-r0
     Arch: x86_64
     SrcName: alpine-base
-    SrcVersion: 3.22.2-r0
+    SrcVersion: 3.23.0-r0
     Licenses:
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - alpine-keys@2.5-r0
+    - alpine-keys@2.6-r0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:1a214b8ece57fc0cfa65a1576b24cf30015d3acd
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:d85ddacf795775c3637989a1a5e3332e1add193a
     InstalledFiles:
     - etc/alpine-release
     - etc/issue
     - etc/os-release
     - etc/secfixes.d/alpine
     - usr/lib/os-release
-  - ID: alsa-lib@1.2.14-r0
+  - ID: alsa-lib@1.2.14-r2
     Name: alsa-lib
     Identifier:
-      PURL: pkg:apk/alpine/alsa-lib@1.2.14-r0?arch=x86_64&distro=3.22.2
-      UID: 20c382360ba5dd04
-    Version: 1.2.14-r0
+      PURL: pkg:apk/alpine/alsa-lib@1.2.14-r2?arch=x86_64&distro=3.23.0
+      UID: 32eab98abe9de9d5
+    Version: 1.2.14-r2
     Arch: x86_64
     SrcName: alsa-lib
-    SrcVersion: 1.2.14-r0
+    SrcVersion: 1.2.14-r2
     Licenses:
     - LGPL-2.1-or-later
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:78767e048658238059fbf96ee592852a4068254e
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:dfb787005e07d66c2db231863d54ab01c2cfb350
     InstalledFiles:
     - usr/bin/aserver
     - usr/lib/libasound.so.2
@@ -253,73 +251,73 @@
     - usr/share/alsa/pcm/surround50.conf
     - usr/share/alsa/pcm/surround51.conf
     - usr/share/alsa/pcm/surround71.conf
-  - ID: apk-tools@2.14.9-r3
+  - ID: apk-tools@3.0.1-r1
     Name: apk-tools
     Identifier:
-      PURL: pkg:apk/alpine/apk-tools@2.14.9-r3?arch=x86_64&distro=3.22.2
-      UID: f0b893fe434d9e67
-    Version: 2.14.9-r3
+      PURL: pkg:apk/alpine/apk-tools@3.0.1-r1?arch=x86_64&distro=3.23.0
+      UID: d7d079765bd13449
+    Version: 3.0.1-r1
     Arch: x86_64
     SrcName: apk-tools
-    SrcVersion: 2.14.9-r3
+    SrcVersion: 3.0.1-r1
     Licenses:
     - GPL-2.0-only
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - ca-certificates-bundle@20250911-r0
-    - libapk2@2.14.9-r3
+    - ca-certificates-bundle@20251003-r0
+    - libapk@3.0.1-r1
     - libcrypto3@3.5.4-r0
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:992f5e39b0d45f326c9ed2e9b1fe737809c23ed9
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:e4a5f9f4d9383b7a3b744f626228ebd3db0bcf94
     InstalledFiles:
     - sbin/apk
-  - ID: brotli-libs@1.1.0-r2
+  - ID: brotli-libs@1.2.0-r0
     Name: brotli-libs
     Identifier:
-      PURL: pkg:apk/alpine/brotli-libs@1.1.0-r2?arch=x86_64&distro=3.22.2
-      UID: d1b0cbfc86c6ec8c
-    Version: 1.1.0-r2
+      PURL: pkg:apk/alpine/brotli-libs@1.2.0-r0?arch=x86_64&distro=3.23.0
+      UID: b299b9e27780dd4f
+    Version: 1.2.0-r0
     Arch: x86_64
     SrcName: brotli
-    SrcVersion: 1.1.0-r2
+    SrcVersion: 1.2.0-r0
     Licenses:
     - MIT
     Maintainer: prspkt <prspkt@protonmail.com>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:889fa02c5f7cdd90283ce2b68959e9c44e5dfbf2
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:0814694602f35d2741e916fdcb4c9a1e0ec50b42
     InstalledFiles:
     - usr/lib/libbrotlicommon.so.1
-    - usr/lib/libbrotlicommon.so.1.1.0
+    - usr/lib/libbrotlicommon.so.1.2.0
     - usr/lib/libbrotlidec.so.1
-    - usr/lib/libbrotlidec.so.1.1.0
+    - usr/lib/libbrotlidec.so.1.2.0
     - usr/lib/libbrotlienc.so.1
-    - usr/lib/libbrotlienc.so.1.1.0
-  - ID: busybox@1.37.0-r19
+    - usr/lib/libbrotlienc.so.1.2.0
+  - ID: busybox@1.37.0-r29
     Name: busybox
     Identifier:
-      PURL: pkg:apk/alpine/busybox@1.37.0-r19?arch=x86_64&distro=3.22.2
-      UID: 5158911d21d1c608
-    Version: 1.37.0-r19
+      PURL: pkg:apk/alpine/busybox@1.37.0-r29?arch=x86_64&distro=3.23.0
+      UID: c8ac16050ab7b1d3
+    Version: 1.37.0-r29
     Arch: x86_64
     SrcName: busybox
-    SrcVersion: 1.37.0-r19
+    SrcVersion: 1.37.0-r29
     Licenses:
     - GPL-2.0-only
     Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:b1022a4c14e9025701fbad10b66f8bb3b98dbaea
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:0541a8e4f11caa1b595f3d53857726d81bf3d754
     InstalledFiles:
     - bin/busybox
     - etc/securetty
@@ -328,31 +326,31 @@
     - etc/network/if-up.d/dad
     - etc/udhcpc/udhcpc.conf
     - usr/share/udhcpc/default.script
-  - ID: busybox-binsh@1.37.0-r19
+  - ID: busybox-binsh@1.37.0-r29
     Name: busybox-binsh
     Identifier:
-      PURL: pkg:apk/alpine/busybox-binsh@1.37.0-r19?arch=x86_64&distro=3.22.2
-      UID: 7150d5a240bb77cc
-    Version: 1.37.0-r19
+      PURL: pkg:apk/alpine/busybox-binsh@1.37.0-r29?arch=x86_64&distro=3.23.0
+      UID: 2add9820dd1f5e50
+    Version: 1.37.0-r29
     Arch: x86_64
     SrcName: busybox
-    SrcVersion: 1.37.0-r19
+    SrcVersion: 1.37.0-r29
     Licenses:
     - GPL-2.0-only
     Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
     DependsOn:
-    - busybox@1.37.0-r19
+    - busybox@1.37.0-r29
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:d580ccf710ae083332df5eb8813735faa076d87e
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:0430c7a2208bee624182f50cb4dee02943103230
     InstalledFiles:
     - bin/sh
   - ID: c-ares@1.34.5-r0
     Name: c-ares
     Identifier:
-      PURL: pkg:apk/alpine/c-ares@1.34.5-r0?arch=x86_64&distro=3.22.2
-      UID: b9e94bf520df1ed0
+      PURL: pkg:apk/alpine/c-ares@1.34.5-r0?arch=x86_64&distro=3.23.0
+      UID: 52587364bf1be7a9
     Version: 1.34.5-r0
     Arch: x86_64
     SrcName: c-ares
@@ -361,35 +359,35 @@
     - MIT
     Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:beda10a0487b4e456c5a25d5bae9af8b6d4b6be1
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:dc29a655702c8c8ce80f0142cbfeac546a9ae2b8
     InstalledFiles:
     - usr/lib/libcares.so.2
     - usr/lib/libcares.so.2.19.4
-  - ID: ca-certificates@20250911-r0
+  - ID: ca-certificates@20251003-r0
     Name: ca-certificates
     Identifier:
-      PURL: pkg:apk/alpine/ca-certificates@20250911-r0?arch=x86_64&distro=3.22.2
-      UID: 11629aa971714b5f
-    Version: 20250911-r0
+      PURL: pkg:apk/alpine/ca-certificates@20251003-r0?arch=x86_64&distro=3.23.0
+      UID: dd004463b296da59
+    Version: 20251003-r0
     Arch: x86_64
     SrcName: ca-certificates
-    SrcVersion: 20250911-r0
+    SrcVersion: 20251003-r0
     Licenses:
     - MPL-2.0
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - busybox-binsh@1.37.0-r19
+    - busybox-binsh@1.37.0-r29
     - libcrypto3@3.5.4-r0
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:04905c8ed0de23926e7f151791fb17503e6ebf16
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:3b10fd335b2af819c4fd3562900e76fd6ea304c5
     InstalledFiles:
     - etc/ca-certificates.conf
     - etc/apk/protected_paths.d/ca-certificates.list
@@ -483,6 +481,8 @@
     - usr/share/ca-certificates/mozilla/Microsoft_RSA_Root_Certificate_Authority_2017.crt
     - usr/share/ca-certificates/mozilla/NAVER_Global_Root_Certification_Authority.crt
     - usr/share/ca-certificates/mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt
+    - usr/share/ca-certificates/mozilla/OISTE_Server_Root_ECC_G1.crt
+    - usr/share/ca-certificates/mozilla/OISTE_Server_Root_RSA_G1.crt
     - usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
     - usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GC_CA.crt
     - usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_1_G3.crt
@@ -542,82 +542,82 @@
     - usr/share/ca-certificates/mozilla/emSign_Root_CA_-_G1.crt
     - usr/share/ca-certificates/mozilla/vTrus_ECC_Root_CA.crt
     - usr/share/ca-certificates/mozilla/vTrus_Root_CA.crt
-  - ID: ca-certificates-bundle@20250911-r0
+  - ID: ca-certificates-bundle@20251003-r0
     Name: ca-certificates-bundle
     Identifier:
-      PURL: pkg:apk/alpine/ca-certificates-bundle@20250911-r0?arch=x86_64&distro=3.22.2
-      UID: fea22b420974c6ba
-    Version: 20250911-r0
+      PURL: pkg:apk/alpine/ca-certificates-bundle@20251003-r0?arch=x86_64&distro=3.23.0
+      UID: 601aed1e41b824a1
+    Version: 20251003-r0
     Arch: x86_64
     SrcName: ca-certificates
-    SrcVersion: 20250911-r0
+    SrcVersion: 20251003-r0
     Licenses:
     - MPL-2.0
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:8c7ee968419fcd92d5342cde0c5540a695a4ac2d
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:63ebe72ba79f548b6cdc8a9894e16a90d80f42b0
     InstalledFiles:
     - etc/ssl/cert.pem
     - etc/ssl/certs/ca-certificates.crt
     - etc/ssl1.1/cert.pem
     - etc/ssl1.1/certs
-  - ID: curl@8.14.1-r2
+  - ID: curl@8.17.0-r1
     Name: curl
     Identifier:
-      PURL: pkg:apk/alpine/curl@8.14.1-r2?arch=x86_64&distro=3.22.2
-      UID: 9e802f0e0df978e3
-    Version: 8.14.1-r2
+      PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.0
+      UID: 88ffdbbc87036140
+    Version: 8.17.0-r1
     Arch: x86_64
     SrcName: curl
-    SrcVersion: 8.14.1-r2
+    SrcVersion: 8.17.0-r1
     Licenses:
     - curl
-    Maintainer: fossdd <fossdd@pwned.life>
+    Maintainer: Achill Gilgenast <achill@achill.org>
     DependsOn:
-    - libcurl@8.14.1-r2
-    - musl@1.2.5-r10
+    - libcurl@8.17.0-r1
+    - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:e34713fe1adcd194fb3982f97d1d194a413759d4
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:c467d4938a8ffc55afe3b1a6223787e0ecd60036
     InstalledFiles:
     - usr/bin/curl
     - usr/bin/wcurl
-  - ID: freetype@2.13.3-r0
+  - ID: freetype@2.14.1-r0
     Name: freetype
     Identifier:
-      PURL: pkg:apk/alpine/freetype@2.13.3-r0?arch=x86_64&distro=3.22.2
-      UID: 2b174ea1b11a449c
-    Version: 2.13.3-r0
+      PURL: pkg:apk/alpine/freetype@2.14.1-r0?arch=x86_64&distro=3.23.0
+      UID: ec7aa3ca99070542
+    Version: 2.14.1-r0
     Arch: x86_64
     SrcName: freetype
-    SrcVersion: 2.13.3-r0
+    SrcVersion: 2.14.1-r0
     Licenses:
     - FTL
     - GPL-2.0-or-later
     Maintainer: Carlo Landmeter <clandmeter@alpinelinux.org>
     DependsOn:
-    - brotli-libs@1.1.0-r2
+    - brotli-libs@1.2.0-r0
     - libbz2@1.0.8-r6
-    - libpng@1.6.47-r0
-    - musl@1.2.5-r10
+    - libpng@1.6.53-r0
+    - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:bf31020f338d745eda4d86c72190cbe0b5d58bbf
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:e227f29a00edd7ed5b1e62a050da6532183e60be
     InstalledFiles:
     - usr/lib/libfreetype.so.6
-    - usr/lib/libfreetype.so.6.20.2
+    - usr/lib/libfreetype.so.6.20.4
   - ID: giflib@5.2.2-r1
     Name: giflib
     Identifier:
-      PURL: pkg:apk/alpine/giflib@5.2.2-r1?arch=x86_64&distro=3.22.2
-      UID: 4d80d18613efbbd8
+      PURL: pkg:apk/alpine/giflib@5.2.2-r1?arch=x86_64&distro=3.23.0
+      UID: 59bf3ff686548507
     Version: 5.2.2-r1
     Arch: x86_64
     SrcName: giflib
@@ -626,19 +626,19 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:3e2274b34db77db02f605cf242c696438d5587cc
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:18c5a46dd282cbd6aba1f8246985d992a160e9b5
     InstalledFiles:
     - usr/lib/libgif.so.7
     - usr/lib/libgif.so.7.2.0
   - ID: java-cacerts@1.1-r0
     Name: java-cacerts
     Identifier:
-      PURL: pkg:apk/alpine/java-cacerts@1.1-r0?arch=x86_64&distro=3.22.2
-      UID: ae67fd2bc6b84bd5
+      PURL: pkg:apk/alpine/java-cacerts@1.1-r0?arch=x86_64&distro=3.23.0
+      UID: db8f29f9f991bdf
     Version: 1.1-r0
     Arch: x86_64
     SrcName: java-cacerts
@@ -647,86 +647,85 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - busybox-binsh@1.37.0-r19
-    - ca-certificates@20250911-r0
+    - busybox-binsh@1.37.0-r29
+    - ca-certificates@20251003-r0
     - p11-kit-trust@0.25.5-r2
     - p11-kit@0.25.5-r2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:da96083a41290e4a5b72aaa8bd5feae276eceaec
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:dd6d704f5e91ed26d9c026eac28bcd716f49a753
     InstalledFiles:
     - etc/ca-certificates/update.d/java-cacerts
-  - ID: java-common@1.0-r0
+  - ID: java-common@1.0-r1
     Name: java-common
     Identifier:
-      PURL: pkg:apk/alpine/java-common@1.0-r0?arch=x86_64&distro=3.22.2
-      UID: 46749eea6fac2095
-    Version: 1.0-r0
+      PURL: pkg:apk/alpine/java-common@1.0-r1?arch=x86_64&distro=3.23.0
+      UID: e125ab15761231d0
+    Version: 1.0-r1
     Arch: x86_64
     SrcName: java-common
-    SrcVersion: 1.0-r0
+    SrcVersion: 1.0-r1
     Licenses:
     - GPL-2.0-or-later
     Maintainer: Timo Teras <timo.teras@iki.fi>
     DependsOn:
-    - busybox-binsh@1.37.0-r19
+    - busybox-binsh@1.37.0-r29
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:cebf4c33147237c8aeba3c8a23a9e65857341f86
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:52205baa8687d26c879a55110a0a258d4dbfe8a6
     InstalledFiles:
     - usr/bin/java
-  - ID: lcms2@2.16-r0
+  - ID: lcms2@2.17-r0
     Name: lcms2
     Identifier:
-      PURL: pkg:apk/alpine/lcms2@2.16-r0?arch=x86_64&distro=3.22.2
-      UID: c6ac98fb63833071
-    Version: 2.16-r0
+      PURL: pkg:apk/alpine/lcms2@2.17-r0?arch=x86_64&distro=3.23.0
+      UID: 7862ee3458766f09
+    Version: 2.17-r0
     Arch: x86_64
     SrcName: lcms2
-    SrcVersion: 2.16-r0
+    SrcVersion: 2.17-r0
     Licenses:
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:141310f5165a9e8f7f6e7673e2737c0369ff7a8a
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:4b9df8b110088ab37a048d0be4bae4d06ce0747f
     InstalledFiles:
     - usr/lib/liblcms2.so.2
-    - usr/lib/liblcms2.so.2.0.16
-  - ID: libapk2@2.14.9-r3
-    Name: libapk2
+    - usr/lib/liblcms2.so.2.0.17
+  - ID: libapk@3.0.1-r1
+    Name: libapk
     Identifier:
-      PURL: pkg:apk/alpine/libapk2@2.14.9-r3?arch=x86_64&distro=3.22.2
-      UID: a92e20ce302d4d4d
-    Version: 2.14.9-r3
+      PURL: pkg:apk/alpine/libapk@3.0.1-r1?arch=x86_64&distro=3.23.0
+      UID: 1766881d49acfe4a
+    Version: 3.0.1-r1
     Arch: x86_64
     SrcName: apk-tools
-    SrcVersion: 2.14.9-r3
+    SrcVersion: 3.0.1-r1
     Licenses:
     - GPL-2.0-only
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - ca-certificates-bundle@20250911-r0
     - libcrypto3@3.5.4-r0
     - libssl3@3.5.4-r0
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:902fd71646d6e087e472c67b0f634c043a2195bc
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:6146a4ecfe76efa5fa8cce5aedee1a1c475dc8f2
     InstalledFiles:
-    - usr/lib/libapk.so.2.14.9
+    - usr/lib/libapk.so.3.0.0
   - ID: libbsd@0.12.2-r0
     Name: libbsd
     Identifier:
-      PURL: pkg:apk/alpine/libbsd@0.12.2-r0?arch=x86_64&distro=3.22.2
-      UID: e9d806ed77f6d520
+      PURL: pkg:apk/alpine/libbsd@0.12.2-r0?arch=x86_64&distro=3.23.0
+      UID: 25f2a887b0a92f53
     Version: 0.12.2-r0
     Arch: x86_64
     SrcName: libbsd
@@ -736,19 +735,19 @@
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
     - libmd@1.1.0-r0
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:8c3724586ce305e5e6552acf4b89004f7fc05dd9
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:33970b157edad359d05a2c3e6f3460e725549c8b
     InstalledFiles:
     - usr/lib/libbsd.so.0
     - usr/lib/libbsd.so.0.12.2
   - ID: libbz2@1.0.8-r6
     Name: libbz2
     Identifier:
-      PURL: pkg:apk/alpine/libbz2@1.0.8-r6?arch=x86_64&distro=3.22.2
-      UID: 3169dfbec474ca60
+      PURL: pkg:apk/alpine/libbz2@1.0.8-r6?arch=x86_64&distro=3.23.0
+      UID: fb616a0731666455
     Version: 1.0.8-r6
     Arch: x86_64
     SrcName: bzip2
@@ -757,19 +756,19 @@
     - bzip-2-1.0.6
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:1c8732214d0947cdbca8b7905576c0d0bc3deb3b
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:864d363da11ee24c7920e0d052d2da7f8429251e
     InstalledFiles:
     - usr/lib/libbz2.so.1
     - usr/lib/libbz2.so.1.0.8
   - ID: libcrypto3@3.5.4-r0
     Name: libcrypto3
     Identifier:
-      PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.22.2
-      UID: f58e56ef5c63f37f
+      PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
+      UID: 62215c30ccf85b6f
     Version: 3.5.4-r0
     Arch: x86_64
     SrcName: openssl
@@ -778,11 +777,11 @@
     - Apache-2.0
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:814a132b631e919ef418475879e7bcec216a0a62
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:adcd00253f51f9cd8f76189d94a5953da688365b
     InstalledFiles:
     - etc/ssl/ct_log_list.cnf
     - etc/ssl/ct_log_list.cnf.dist
@@ -794,109 +793,110 @@
     - usr/lib/engines-3/loader_attic.so
     - usr/lib/engines-3/padlock.so
     - usr/lib/ossl-modules/legacy.so
-  - ID: libcurl@8.14.1-r2
+  - ID: libcurl@8.17.0-r1
     Name: libcurl
     Identifier:
-      PURL: pkg:apk/alpine/libcurl@8.14.1-r2?arch=x86_64&distro=3.22.2
-      UID: 764fc96be83ee29
-    Version: 8.14.1-r2
+      PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3.23.0
+      UID: 58407caa98add697
+    Version: 8.17.0-r1
     Arch: x86_64
     SrcName: curl
-    SrcVersion: 8.14.1-r2
+    SrcVersion: 8.17.0-r1
     Licenses:
     - curl
-    Maintainer: fossdd <fossdd@pwned.life>
+    Maintainer: Achill Gilgenast <achill@achill.org>
     DependsOn:
-    - brotli-libs@1.1.0-r2
+    - brotli-libs@1.2.0-r0
     - c-ares@1.34.5-r0
-    - ca-certificates-bundle@20250911-r0
+    - ca-certificates-bundle@20251003-r0
     - libcrypto3@3.5.4-r0
-    - libidn2@2.3.7-r0
+    - libidn2@2.3.8-r0
     - libpsl@0.21.5-r3
     - libssl3@3.5.4-r0
-    - musl@1.2.5-r10
-    - nghttp2-libs@1.65.0-r0
+    - musl@1.2.5-r21
+    - nghttp2-libs@1.68.0-r0
+    - nghttp3@1.13.1-r0
     - zlib@1.3.1-r2
-    - zstd-libs@1.5.7-r0
+    - zstd-libs@1.5.7-r2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:d0c265e4db3a95d6e31e13e5ea29dd20b19ea768
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:4018e686de80aa87659e95c1e62a3539c1d2542f
     InstalledFiles:
     - usr/lib/libcurl.so.4
     - usr/lib/libcurl.so.4.8.0
-  - ID: libffi@3.4.8-r0
+  - ID: libffi@3.5.2-r0
     Name: libffi
     Identifier:
-      PURL: pkg:apk/alpine/libffi@3.4.8-r0?arch=x86_64&distro=3.22.2
-      UID: 5d75f056e5a99cc0
-    Version: 3.4.8-r0
+      PURL: pkg:apk/alpine/libffi@3.5.2-r0?arch=x86_64&distro=3.23.0
+      UID: c72f7679d8deb59c
+    Version: 3.5.2-r0
     Arch: x86_64
     SrcName: libffi
-    SrcVersion: 3.4.8-r0
+    SrcVersion: 3.5.2-r0
     Licenses:
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:e5d01118f5ad008bb2df07635af364933b4ff20f
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:fa51bf028f40768bfe1c7ef494b1fe3f8590c19f
     InstalledFiles:
     - usr/lib/libffi.so.8
-    - usr/lib/libffi.so.8.1.4
-  - ID: libidn2@2.3.7-r0
+    - usr/lib/libffi.so.8.2.0
+  - ID: libidn2@2.3.8-r0
     Name: libidn2
     Identifier:
-      PURL: pkg:apk/alpine/libidn2@2.3.7-r0?arch=x86_64&distro=3.22.2
-      UID: b6b9a9508a2405d1
-    Version: 2.3.7-r0
+      PURL: pkg:apk/alpine/libidn2@2.3.8-r0?arch=x86_64&distro=3.23.0
+      UID: 4ced466399e71e2d
+    Version: 2.3.8-r0
     Arch: x86_64
     SrcName: libidn2
-    SrcVersion: 2.3.7-r0
+    SrcVersion: 2.3.8-r0
     Licenses:
     - GPL-2.0-or-later
     - LGPL-3.0-or-later
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - libunistring@1.3-r0
-    - musl@1.2.5-r10
+    - libunistring@1.4.1-r0
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:e2e93b247187a15a2164f4b7e5f4a725a3b5d488
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:b8c5bfa365da5c360a01230db4d71e65af94af3d
     InstalledFiles:
     - usr/lib/libidn2.so.0
     - usr/lib/libidn2.so.0.4.0
-  - ID: libjpeg-turbo@3.1.0-r0
+  - ID: libjpeg-turbo@3.1.2-r0
     Name: libjpeg-turbo
     Identifier:
-      PURL: pkg:apk/alpine/libjpeg-turbo@3.1.0-r0?arch=x86_64&distro=3.22.2
-      UID: c963af41aa00b3c8
-    Version: 3.1.0-r0
+      PURL: pkg:apk/alpine/libjpeg-turbo@3.1.2-r0?arch=x86_64&distro=3.23.0
+      UID: c07f4388a4c0bc44
+    Version: 3.1.2-r0
     Arch: x86_64
     SrcName: libjpeg-turbo
-    SrcVersion: 3.1.0-r0
+    SrcVersion: 3.1.2-r0
     Licenses:
     - BSD-3-Clause
     - IJG
     - Zlib
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:1afd9c6c695403a3b67000f0099d8a302eb3aed9
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:aa025fb7ecf9bd65ef2afe47e3740639521e09ce
     InstalledFiles:
     - usr/lib/libjpeg.so.8
     - usr/lib/libjpeg.so.8.3.2
   - ID: libmd@1.1.0-r0
     Name: libmd
     Identifier:
-      PURL: pkg:apk/alpine/libmd@1.1.0-r0?arch=x86_64&distro=3.22.2
-      UID: e1e1dade33688ab3
+      PURL: pkg:apk/alpine/libmd@1.1.0-r0?arch=x86_64&distro=3.23.0
+      UID: 52b26e1bbfba437a
     Version: 1.1.0-r0
     Arch: x86_64
     SrcName: libmd
@@ -910,41 +910,41 @@
     - Domain
     Maintainer: omni <omni+alpine@hack.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:65a135e641ef9b082f98f70ba100e8617a319042
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:ce7c57bd1f6628da8ba0d3f2ac18f6d8c93c0346
     InstalledFiles:
     - usr/lib/libmd.so.0
     - usr/lib/libmd.so.0.1.0
-  - ID: libpng@1.6.47-r0
+  - ID: libpng@1.6.53-r0
     Name: libpng
     Identifier:
-      PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.22.2
-      UID: dc7943769b551d5b
-    Version: 1.6.47-r0
+      PURL: pkg:apk/alpine/libpng@1.6.53-r0?arch=x86_64&distro=3.23.0
+      UID: cb73e61ec749ca01
+    Version: 1.6.53-r0
     Arch: x86_64
     SrcName: libpng
-    SrcVersion: 1.6.47-r0
+    SrcVersion: 1.6.53-r0
     Licenses:
     - Libpng
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:40a4d0e8c5e7cb6f8858b30a4ff9da1770b32604
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:bf233e45a996ce2ff4da18ec31de3b911fcfe087
     InstalledFiles:
     - usr/lib/libpng16.so.16
-    - usr/lib/libpng16.so.16.47.0
+    - usr/lib/libpng16.so.16.53.0
   - ID: libpsl@0.21.5-r3
     Name: libpsl
     Identifier:
-      PURL: pkg:apk/alpine/libpsl@0.21.5-r3?arch=x86_64&distro=3.22.2
-      UID: 97ccfe3dd406df33
+      PURL: pkg:apk/alpine/libpsl@0.21.5-r3?arch=x86_64&distro=3.23.0
+      UID: f89bcb8f8b2c3fd1
     Version: 0.21.5-r3
     Arch: x86_64
     SrcName: libpsl
@@ -953,21 +953,21 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - libidn2@2.3.7-r0
-    - libunistring@1.3-r0
-    - musl@1.2.5-r10
+    - libidn2@2.3.8-r0
+    - libunistring@1.4.1-r0
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:351ae123ebf705f090c43fc793996dba2fa21ebb
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:b663c00f920a93be49c825555aa1a212e4287393
     InstalledFiles:
     - usr/lib/libpsl.so.5
     - usr/lib/libpsl.so.5.3.5
   - ID: libssl3@3.5.4-r0
     Name: libssl3
     Identifier:
-      PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.22.2
-      UID: 34d76910cb64da71
+      PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
+      UID: b48853cdc61496a3
     Version: 3.5.4-r0
     Arch: x86_64
     SrcName: openssl
@@ -977,18 +977,18 @@
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
     - libcrypto3@3.5.4-r0
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:f8c18645483723a9416218a52eba3d34c86858cf
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:e328b24da910b652aadc87242828d43db30bad67
     InstalledFiles:
     - usr/lib/libssl.so.3
   - ID: libtasn1@4.20.0-r0
     Name: libtasn1
     Identifier:
-      PURL: pkg:apk/alpine/libtasn1@4.20.0-r0?arch=x86_64&distro=3.22.2
-      UID: ad592d4e3fb9400b
+      PURL: pkg:apk/alpine/libtasn1@4.20.0-r0?arch=x86_64&distro=3.23.0
+      UID: e85d6de4c4cb9425
     Version: 4.20.0-r0
     Arch: x86_64
     SrcName: libtasn1
@@ -997,55 +997,55 @@
     - LGPL-2.1-or-later
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:43abd20a6ba135ba60effda46f0a0e0ebbc5c413
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:9136bfc0b214e8914f439b72250339a38feaf2c2
     InstalledFiles:
     - usr/lib/libtasn1.so.6
     - usr/lib/libtasn1.so.6.6.4
-  - ID: libunistring@1.3-r0
+  - ID: libunistring@1.4.1-r0
     Name: libunistring
     Identifier:
-      PURL: pkg:apk/alpine/libunistring@1.3-r0?arch=x86_64&distro=3.22.2
-      UID: 3fe5ae0fcccaea57
-    Version: 1.3-r0
+      PURL: pkg:apk/alpine/libunistring@1.4.1-r0?arch=x86_64&distro=3.23.0
+      UID: 7200a20237fda131
+    Version: 1.4.1-r0
     Arch: x86_64
     SrcName: libunistring
-    SrcVersion: 1.3-r0
+    SrcVersion: 1.4.1-r0
     Licenses:
     - GPL-2.0-or-later
     - LGPL-3.0-or-later
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:9472d9ab2b634a61ad5edc9b4754fdb1e34bdef9
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:6e56562bde456bee5971787d3d95c34e84ced797
     InstalledFiles:
     - usr/lib/libunistring.so.5
-    - usr/lib/libunistring.so.5.2.0
-  - ID: libx11@1.8.11-r0
+    - usr/lib/libunistring.so.5.2.1
+  - ID: libx11@1.8.12-r1
     Name: libx11
     Identifier:
-      PURL: pkg:apk/alpine/libx11@1.8.11-r0?arch=x86_64&distro=3.22.2
-      UID: 511f966b1f183e89
-    Version: 1.8.11-r0
+      PURL: pkg:apk/alpine/libx11@1.8.12-r1?arch=x86_64&distro=3.23.0
+      UID: ad0c9251b6202dc3
+    Version: 1.8.12-r1
     Arch: x86_64
     SrcName: libx11
-    SrcVersion: 1.8.11-r0
+    SrcVersion: 1.8.12-r1
     Licenses:
     - X-11
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - libxcb@1.17.0-r0
-    - musl@1.2.5-r10
+    - libxcb@1.17.0-r1
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:65356d06ac940f03c80adacfedb2d4b4a95a1a03
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:689b36ec47d6c9abb9cbd0c7067ba4636568dbd5
     InstalledFiles:
     - usr/lib/libX11-xcb.so.1
     - usr/lib/libX11-xcb.so.1.0.0
@@ -1245,8 +1245,8 @@
   - ID: libxau@1.0.12-r0
     Name: libxau
     Identifier:
-      PURL: pkg:apk/alpine/libxau@1.0.12-r0?arch=x86_64&distro=3.22.2
-      UID: c22a1bdcd20b59ac
+      PURL: pkg:apk/alpine/libxau@1.0.12-r0?arch=x86_64&distro=3.23.0
+      UID: 37aeecde4cde19c7
     Version: 1.0.12-r0
     Arch: x86_64
     SrcName: libxau
@@ -1255,34 +1255,34 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:0b1fc4b588f11e15acb33344849a797b1b76b196
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:89d2bc9daae3cb0e2ae095db6866357b7653f341
     InstalledFiles:
     - usr/lib/libXau.so.6
     - usr/lib/libXau.so.6.0.0
-  - ID: libxcb@1.17.0-r0
+  - ID: libxcb@1.17.0-r1
     Name: libxcb
     Identifier:
-      PURL: pkg:apk/alpine/libxcb@1.17.0-r0?arch=x86_64&distro=3.22.2
-      UID: 758c7f5027b54dfc
-    Version: 1.17.0-r0
+      PURL: pkg:apk/alpine/libxcb@1.17.0-r1?arch=x86_64&distro=3.23.0
+      UID: 9fd7d10725d96cfc
+    Version: 1.17.0-r1
     Arch: x86_64
     SrcName: libxcb
-    SrcVersion: 1.17.0-r0
+    SrcVersion: 1.17.0-r1
     Licenses:
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
     - libxau@1.0.12-r0
     - libxdmcp@1.1.5-r1
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:1bce85e6488dabca4ddef7578f29d14647d252ae
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:61b06f883e8f8d2d8ee360e4dac04ac037fcca13
     InstalledFiles:
     - usr/lib/libxcb-composite.so.0
     - usr/lib/libxcb-composite.so.0.0.0
@@ -1337,8 +1337,8 @@
   - ID: libxdmcp@1.1.5-r1
     Name: libxdmcp
     Identifier:
-      PURL: pkg:apk/alpine/libxdmcp@1.1.5-r1?arch=x86_64&distro=3.22.2
-      UID: 3ce67780015878ec
+      PURL: pkg:apk/alpine/libxdmcp@1.1.5-r1?arch=x86_64&distro=3.23.0
+      UID: 466169ccb3517c34
     Version: 1.1.5-r1
     Arch: x86_64
     SrcName: libxdmcp
@@ -1348,19 +1348,19 @@
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
     - libbsd@0.12.2-r0
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:93b3045edc2bc6b6c9bff981705293a465c9c3b6
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:99a24c0fa12282b5ef89a6e732a8d494b7696d9d
     InstalledFiles:
     - usr/lib/libXdmcp.so.6
     - usr/lib/libXdmcp.so.6.0.0
   - ID: libxext@1.3.6-r2
     Name: libxext
     Identifier:
-      PURL: pkg:apk/alpine/libxext@1.3.6-r2?arch=x86_64&distro=3.22.2
-      UID: 27520a0459971bb2
+      PURL: pkg:apk/alpine/libxext@1.3.6-r2?arch=x86_64&distro=3.23.0
+      UID: 4c346f98711496dd
     Version: 1.3.6-r2
     Arch: x86_64
     SrcName: libxext
@@ -1369,20 +1369,20 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - libx11@1.8.11-r0
-    - musl@1.2.5-r10
+    - libx11@1.8.12-r1
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:0c16fb7e4b6352c59985ddf17099df039df36bbe
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:92fb4f12c2170403d6a48c7485ecaee40c84bee2
     InstalledFiles:
     - usr/lib/libXext.so.6
     - usr/lib/libXext.so.6.4.0
   - ID: libxi@1.8.2-r0
     Name: libxi
     Identifier:
-      PURL: pkg:apk/alpine/libxi@1.8.2-r0?arch=x86_64&distro=3.22.2
-      UID: cc098929c5306514
+      PURL: pkg:apk/alpine/libxi@1.8.2-r0?arch=x86_64&distro=3.23.0
+      UID: ccc00cee81bd9473
     Version: 1.8.2-r0
     Arch: x86_64
     SrcName: libxi
@@ -1392,21 +1392,21 @@
     - X-11
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - libx11@1.8.11-r0
+    - libx11@1.8.12-r1
     - libxext@1.3.6-r2
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:77b8196c0be56588b6d8dc09fe29a3999f2ffff8
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:78ea3cdf1dfa3c07aa965866bb9e64be2254fc5e
     InstalledFiles:
     - usr/lib/libXi.so.6
     - usr/lib/libXi.so.6.1.0
   - ID: libxrender@0.9.12-r0
     Name: libxrender
     Identifier:
-      PURL: pkg:apk/alpine/libxrender@0.9.12-r0?arch=x86_64&distro=3.22.2
-      UID: bdf05e1f75d38dee
+      PURL: pkg:apk/alpine/libxrender@0.9.12-r0?arch=x86_64&distro=3.23.0
+      UID: a017f228f1bb6c12
     Version: 0.9.12-r0
     Arch: x86_64
     SrcName: libxrender
@@ -1415,20 +1415,20 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - libx11@1.8.11-r0
-    - musl@1.2.5-r10
+    - libx11@1.8.12-r1
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:46ee4422faecf29b97b126d0be0e4e2e5a3dce99
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:16accdec4598ad42a3201234aab60e44d607f1b0
     InstalledFiles:
     - usr/lib/libXrender.so.1
     - usr/lib/libXrender.so.1.3.0
   - ID: libxtst@1.2.5-r0
     Name: libxtst
     Identifier:
-      PURL: pkg:apk/alpine/libxtst@1.2.5-r0?arch=x86_64&distro=3.22.2
-      UID: ffcfefe5ad479046
+      PURL: pkg:apk/alpine/libxtst@1.2.5-r0?arch=x86_64&distro=3.23.0
+      UID: 5666308ca4446107
     Version: 1.2.5-r0
     Arch: x86_64
     SrcName: libxtst
@@ -1437,88 +1437,109 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - libx11@1.8.11-r0
+    - libx11@1.8.12-r1
     - libxext@1.3.6-r2
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:03c76434dfc5f204b6aca3acaa43c0319672f336
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:6c021814b3a61c34ad3d6c83b916c68159e8316f
     InstalledFiles:
     - usr/lib/libXtst.so.6
     - usr/lib/libXtst.so.6.1.0
-  - ID: musl@1.2.5-r10
+  - ID: musl@1.2.5-r21
     Name: musl
     Identifier:
-      PURL: pkg:apk/alpine/musl@1.2.5-r10?arch=x86_64&distro=3.22.2
-      UID: df3a33abddfcb855
-    Version: 1.2.5-r10
+      PURL: pkg:apk/alpine/musl@1.2.5-r21?arch=x86_64&distro=3.23.0
+      UID: b403e8328a352729
+    Version: 1.2.5-r21
     Arch: x86_64
     SrcName: musl
-    SrcVersion: 1.2.5-r10
+    SrcVersion: 1.2.5-r21
     Licenses:
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:59283b61db830a0a0309c98f4db906a2d8fa342b
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:d05a75ec13e1a7a8bab56ce7cd3dc79bd727e698
     InstalledFiles:
     - lib/ld-musl-x86_64.so.1
     - lib/libc.musl-x86_64.so.1
-  - ID: musl-utils@1.2.5-r10
+  - ID: musl-utils@1.2.5-r21
     Name: musl-utils
     Identifier:
-      PURL: pkg:apk/alpine/musl-utils@1.2.5-r10?arch=x86_64&distro=3.22.2
-      UID: 5d2cabc1c2603ddb
-    Version: 1.2.5-r10
+      PURL: pkg:apk/alpine/musl-utils@1.2.5-r21?arch=x86_64&distro=3.23.0
+      UID: 603bb96b0fa7ce27
+    Version: 1.2.5-r21
     Arch: x86_64
     SrcName: musl
-    SrcVersion: 1.2.5-r10
+    SrcVersion: 1.2.5-r21
     Licenses:
     - MIT
     - BSD-2-Clause
     - GPL-2.0-or-later
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
-    - scanelf@1.3.8-r1
+    - musl@1.2.5-r21
+    - scanelf@1.3.8-r2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:7e60d0820813baa8ac266bee158394c0a69f104a
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:daa79528d2cf877f6d656207a818d43c8dea9a30
     InstalledFiles:
     - sbin/ldconfig
     - usr/bin/getconf
     - usr/bin/getent
     - usr/bin/iconv
     - usr/bin/ldd
-  - ID: nghttp2-libs@1.65.0-r0
+  - ID: nghttp2-libs@1.68.0-r0
     Name: nghttp2-libs
     Identifier:
-      PURL: pkg:apk/alpine/nghttp2-libs@1.65.0-r0?arch=x86_64&distro=3.22.2
-      UID: 7e0316df833e76f2
-    Version: 1.65.0-r0
+      PURL: pkg:apk/alpine/nghttp2-libs@1.68.0-r0?arch=x86_64&distro=3.23.0
+      UID: dca2be8e80b615ee
+    Version: 1.68.0-r0
     Arch: x86_64
     SrcName: nghttp2
-    SrcVersion: 1.65.0-r0
+    SrcVersion: 1.68.0-r0
     Licenses:
     - MIT
     Maintainer: Francesco Colista <fcolista@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:25feb492160beba9dd4bea4a169a65fd2eccc493
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:584b6a1b0aed58a3f543bfd77729b0d8a8b1745b
     InstalledFiles:
     - usr/lib/libnghttp2.so.14
-    - usr/lib/libnghttp2.so.14.28.4
+    - usr/lib/libnghttp2.so.14.29.2
+  - ID: nghttp3@1.13.1-r0
+    Name: nghttp3
+    Identifier:
+      PURL: pkg:apk/alpine/nghttp3@1.13.1-r0?arch=x86_64&distro=3.23.0
+      UID: 47a1d1cccc4a6c6
+    Version: 1.13.1-r0
+    Arch: x86_64
+    SrcName: nghttp3
+    SrcVersion: 1.13.1-r0
+    Licenses:
+    - MIT
+    Maintainer: Jakub Jirutka <jakub@jirutka.cz>
+    DependsOn:
+    - musl@1.2.5-r21
+    Layer:
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:e48fcb3e81f7e46a42e3926d8513c83b7798774b
+    InstalledFiles:
+    - usr/lib/libnghttp3.so.9
+    - usr/lib/libnghttp3.so.9.5.1
   - ID: openjdk21-jre@21.0.9_p10-r0
     Name: openjdk21-jre
     Identifier:
-      PURL: pkg:apk/alpine/openjdk21-jre@21.0.9_p10-r0?arch=x86_64&distro=3.22.2
-      UID: 720456b7b1195e76
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.9_p10-r0?arch=x86_64&distro=3.23.0
+      UID: 205951353b88a425
     Version: 21.0.9_p10-r0
     Arch: x86_64
     SrcName: openjdk21
@@ -1527,23 +1548,23 @@
     - GPL-2.0-with-classpath-exception
     Maintainer: Simon Frankenberger <simon-alpine@fraho.eu>
     DependsOn:
-    - alsa-lib@1.2.14-r0
-    - freetype@2.13.3-r0
+    - alsa-lib@1.2.14-r2
+    - freetype@2.14.1-r0
     - giflib@5.2.2-r1
-    - lcms2@2.16-r0
-    - libjpeg-turbo@3.1.0-r0
-    - libpng@1.6.47-r0
-    - libx11@1.8.11-r0
+    - lcms2@2.17-r0
+    - libjpeg-turbo@3.1.2-r0
+    - libpng@1.6.53-r0
+    - libx11@1.8.12-r1
     - libxext@1.3.6-r2
     - libxi@1.8.2-r0
     - libxrender@0.9.12-r0
     - libxtst@1.2.5-r0
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     - openjdk21-jre-headless@21.0.9_p10-r0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:61934b0bf69d8edd019c03d392349305113393d3
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:328af842b01e787bfeb37bd8c345d6d08f0feddb
     InstalledFiles:
     - usr/lib/jvm/java-21-openjdk/lib/libawt_xawt.so
     - usr/lib/jvm/java-21-openjdk/lib/libfontmanager.so
@@ -1555,8 +1576,8 @@
   - ID: openjdk21-jre-headless@21.0.9_p10-r0
     Name: openjdk21-jre-headless
     Identifier:
-      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.9_p10-r0?arch=x86_64&distro=3.22.2
-      UID: b1965609871ad8f8
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.9_p10-r0?arch=x86_64&distro=3.23.0
+      UID: 251c82a3ee5dd21f
     Version: 21.0.9_p10-r0
     Arch: x86_64
     SrcName: openjdk21
@@ -1566,13 +1587,13 @@
     Maintainer: Simon Frankenberger <simon-alpine@fraho.eu>
     DependsOn:
     - java-cacerts@1.1-r0
-    - java-common@1.0-r0
-    - musl@1.2.5-r10
+    - java-common@1.0-r1
+    - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:329c9b9f9442be7b47300d33448d89d3de409a65
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:cc17d54ecb7c46da305d1f71ba727969a65a9419
     InstalledFiles:
     - usr/lib/jvm/java-21-openjdk/ASSEMBLY_EXCEPTION
     - usr/lib/jvm/java-21-openjdk/LICENSE
@@ -1889,8 +1910,8 @@
   - ID: openssl@3.5.4-r0
     Name: openssl
     Identifier:
-      PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.22.2
-      UID: 7991df372c6a7d49
+      PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
+      UID: a1cd04a89fc287e3
     Version: 3.5.4-r0
     Arch: x86_64
     SrcName: openssl
@@ -1901,18 +1922,18 @@
     DependsOn:
     - libcrypto3@3.5.4-r0
     - libssl3@3.5.4-r0
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:886b38018c15a06954914c7484254a5091bc75fe
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:c2a94fa9b033f8a1066e3545cbe6b4e86e54e9b8
     InstalledFiles:
     - usr/bin/openssl
   - ID: p11-kit@0.25.5-r2
     Name: p11-kit
     Identifier:
-      PURL: pkg:apk/alpine/p11-kit@0.25.5-r2?arch=x86_64&distro=3.22.2
-      UID: c359d3f0bbb38727
+      PURL: pkg:apk/alpine/p11-kit@0.25.5-r2?arch=x86_64&distro=3.23.0
+      UID: b0d6e48300259c9f
     Version: 0.25.5-r2
     Arch: x86_64
     SrcName: p11-kit
@@ -1921,13 +1942,13 @@
     - BSD-3-Clause
     Maintainer: Patrycja Rosa <alpine@ptrcnull.me>
     DependsOn:
-    - libffi@3.4.8-r0
+    - libffi@3.5.2-r0
     - libtasn1@4.20.0-r0
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:755b408e886fdbf4428612a6f47dfadf9a8513f7
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:b03c9c498fc8b875d694659827c39e791b0dce51
     InstalledFiles:
     - etc/pkcs11/pkcs11.conf.example
     - usr/bin/p11-kit
@@ -1938,8 +1959,8 @@
   - ID: p11-kit-trust@0.25.5-r2
     Name: p11-kit-trust
     Identifier:
-      PURL: pkg:apk/alpine/p11-kit-trust@0.25.5-r2?arch=x86_64&distro=3.22.2
-      UID: 1bb918a447907abb
+      PURL: pkg:apk/alpine/p11-kit-trust@0.25.5-r2?arch=x86_64&distro=3.23.0
+      UID: cdbfa4b26a87980f
     Version: 0.25.5-r2
     Arch: x86_64
     SrcName: p11-kit
@@ -1949,63 +1970,63 @@
     Maintainer: Patrycja Rosa <alpine@ptrcnull.me>
     DependsOn:
     - libtasn1@4.20.0-r0
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     - p11-kit@0.25.5-r2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:db8e9d67e1bf044bd257d52fcea1f701e3a60980
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:566b28378ea154f29cc0c26050403949573a7cd1
     InstalledFiles:
     - usr/bin/trust
     - usr/lib/pkcs11/p11-kit-trust.so
     - usr/share/p11-kit/modules/p11-kit-trust.module
-  - ID: scanelf@1.3.8-r1
+  - ID: scanelf@1.3.8-r2
     Name: scanelf
     Identifier:
-      PURL: pkg:apk/alpine/scanelf@1.3.8-r1?arch=x86_64&distro=3.22.2
-      UID: c162fa31840265de
-    Version: 1.3.8-r1
+      PURL: pkg:apk/alpine/scanelf@1.3.8-r2?arch=x86_64&distro=3.23.0
+      UID: 40949233d54f5297
+    Version: 1.3.8-r2
     Arch: x86_64
     SrcName: pax-utils
-    SrcVersion: 1.3.8-r1
+    SrcVersion: 1.3.8-r2
     Licenses:
     - GPL-2.0-only
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:bd6dd1c820d476bcdf8ee38f003bcf2a73323b13
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:6ea36dd44ef9f6364f0cdfabe09ea15d2fdbe229
     InstalledFiles:
     - usr/bin/scanelf
-  - ID: ssl_client@1.37.0-r19
+  - ID: ssl_client@1.37.0-r29
     Name: ssl_client
     Identifier:
-      PURL: pkg:apk/alpine/ssl_client@1.37.0-r19?arch=x86_64&distro=3.22.2
-      UID: 691bd1fc4de953e2
-    Version: 1.37.0-r19
+      PURL: pkg:apk/alpine/ssl_client@1.37.0-r29?arch=x86_64&distro=3.23.0
+      UID: 1138b38b7d7cd9e7
+    Version: 1.37.0-r29
     Arch: x86_64
     SrcName: busybox
-    SrcVersion: 1.37.0-r19
+    SrcVersion: 1.37.0-r29
     Licenses:
     - GPL-2.0-only
     Maintainer: Sören Tempel <soeren+alpine@soeren-tempel.net>
     DependsOn:
     - libcrypto3@3.5.4-r0
     - libssl3@3.5.4-r0
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:20dcfaf6d1081b07cd138cabb32d91afe71ad09c
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:c4cef5aa030704c1f7a32bbb31574326869c51dc
     InstalledFiles:
     - usr/bin/ssl_client
   - ID: sudo@1.9.17_p2-r0
     Name: sudo
     Identifier:
-      PURL: pkg:apk/alpine/sudo@1.9.17_p2-r0?arch=x86_64&distro=3.22.2
-      UID: 4bd34852092b9111
+      PURL: pkg:apk/alpine/sudo@1.9.17_p2-r0?arch=x86_64&distro=3.23.0
+      UID: 35f8e6a2b9015b57
     Version: 1.9.17_p2-r0
     Arch: x86_64
     SrcName: sudo
@@ -2015,12 +2036,12 @@
     - ISC
     Maintainer: Celeste <cielesti@protonmail.com>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:6711887c0134799c05ba6b5604e8c4bad302368c
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:130531eafa71df74c196ee9c1fbdaedc1b92a1cd
     InstalledFiles:
     - etc/sudo.conf
     - etc/sudo_logsrvd.conf
@@ -2044,8 +2065,8 @@
   - ID: tinyproxy@1.11.2-r0
     Name: tinyproxy
     Identifier:
-      PURL: pkg:apk/alpine/tinyproxy@1.11.2-r0?arch=x86_64&distro=3.22.2
-      UID: cd1b354d81c0fecf
+      PURL: pkg:apk/alpine/tinyproxy@1.11.2-r0?arch=x86_64&distro=3.23.0
+      UID: ca4687a5b44a7a5b
     Version: 1.11.2-r0
     Arch: x86_64
     SrcName: tinyproxy
@@ -2054,12 +2075,12 @@
     - GPL-2.0-or-later
     Maintainer: Michael Mason <ms13sp@gmail.com>
     DependsOn:
-    - busybox-binsh@1.37.0-r19
-    - musl@1.2.5-r10
+    - busybox-binsh@1.37.0-r29
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:ed03fa45d141c8b98c8f1d839649060c3c50f74b
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:a491b36b05d6af4a92dfd9810785b5def1a0ddac
     InstalledFiles:
     - etc/tinyproxy/tinyproxy.conf
     - usr/bin/tinyproxy
@@ -2069,8 +2090,8 @@
   - ID: zlib@1.3.1-r2
     Name: zlib
     Identifier:
-      PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.22.2
-      UID: a165403c2117fdcf
+      PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.23.0
+      UID: 4fcd0ec5030a15a0
     Version: 1.3.1-r2
     Arch: x86_64
     SrcName: zlib
@@ -2079,493 +2100,36 @@
     - Zlib
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:bf7d90d89e5429c18167b91ab8d7e6256cfc7fdf
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:3e8e8e76dfefb4efd27658ada6d792e66ba2775e
     InstalledFiles:
     - usr/lib/libz.so.1
     - usr/lib/libz.so.1.3.1
-  - ID: zstd-libs@1.5.7-r0
+  - ID: zstd-libs@1.5.7-r2
     Name: zstd-libs
     Identifier:
-      PURL: pkg:apk/alpine/zstd-libs@1.5.7-r0?arch=x86_64&distro=3.22.2
-      UID: 3a0f4016657815a5
-    Version: 1.5.7-r0
+      PURL: pkg:apk/alpine/zstd-libs@1.5.7-r2?arch=x86_64&distro=3.23.0
+      UID: 42a1f51d30fcfa27
+    Version: 1.5.7-r2
     Arch: x86_64
     SrcName: zstd
-    SrcVersion: 1.5.7-r0
+    SrcVersion: 1.5.7-r2
     Licenses:
     - BSD-3-Clause
     - GPL-2.0-or-later
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - musl@1.2.5-r10
+    - musl@1.2.5-r21
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    Digest: sha1:50c83112b5619f48d36d69190a4cb7c71f15c7d2
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
+    Digest: sha1:d507b8ac3c4335a40405ac20e49bac9d43642be6
     InstalledFiles:
     - usr/lib/libzstd.so.1
     - usr/lib/libzstd.so.1.5.7
-  Vulnerabilities:
-  - VulnerabilityID: CVE-2024-58251
-    PkgID: busybox@1.37.0-r19
-    PkgName: busybox
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/busybox@1.37.0-r19?arch=x86_64&distro=3.22.2
-      UID: 5158911d21d1c608
-    InstalledVersion: 1.37.0-r19
-    FixedVersion: 1.37.0-r20
-    Status: fixed
-    Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-58251
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:ce4f60502a64d3d1b1201e9d8e3a26d7bf0c01ec718d9ef49ae63aa9f532350c
-    Title: In netstat in BusyBox through 1.37.0, local users can launch of networ ...
-    Description: In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-150
-    VendorSeverity:
-      ubuntu: 2
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/04/23/6
-    - https://bugs.busybox.net/show_bug.cgi?id=15922
-    - https://www.busybox.net
-    - https://www.busybox.net/downloads/
-    - https://www.cve.org/CVERecord?id=CVE-2024-58251
-    PublishedDate: '2025-04-23T18:16:03.057Z'
-    LastModifiedDate: '2025-04-29T13:52:47.47Z'
-  - VulnerabilityID: CVE-2025-46394
-    PkgID: busybox@1.37.0-r19
-    PkgName: busybox
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/busybox@1.37.0-r19?arch=x86_64&distro=3.22.2
-      UID: 5158911d21d1c608
-    InstalledVersion: 1.37.0-r19
-    FixedVersion: 1.37.0-r20
-    Status: fixed
-    Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    SeveritySource: nvd
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-46394
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:df54e61fcb6acf922f65547cfa8c59553447affbe58574490903f495b615bdc2
-    Title: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hid ...
-    Description: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
-    Severity: LOW
-    CweIDs:
-    - CWE-451
-    VendorSeverity:
-      nvd: 1
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/04/23/5
-    - http://www.openwall.com/lists/oss-security/2025/04/24/3
-    - https://bugs.busybox.net/show_bug.cgi?id=16018
-    - https://lists.busybox.net/pipermail/busybox/2024-July/090806.html
-    - https://lists.busybox.net/pipermail/busybox/2024-July/090814.html
-    - https://www.busybox.net
-    - https://www.busybox.net/downloads/
-    - https://www.cve.org/CVERecord?id=CVE-2025-46394
-    - https://www.openwall.com/lists/oss-security/2025/04/23/1
-    PublishedDate: '2025-04-23T16:15:48.713Z'
-    LastModifiedDate: '2025-09-24T14:38:22.127Z'
-  - VulnerabilityID: CVE-2024-58251
-    PkgID: busybox-binsh@1.37.0-r19
-    PkgName: busybox-binsh
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/busybox-binsh@1.37.0-r19?arch=x86_64&distro=3.22.2
-      UID: 7150d5a240bb77cc
-    InstalledVersion: 1.37.0-r19
-    FixedVersion: 1.37.0-r20
-    Status: fixed
-    Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-58251
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:8b84f1ce4bbc8350e66eeb4ca03fe875e5e3e2ee2092a422572a4dcedc1a0218
-    Title: In netstat in BusyBox through 1.37.0, local users can launch of networ ...
-    Description: In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-150
-    VendorSeverity:
-      ubuntu: 2
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/04/23/6
-    - https://bugs.busybox.net/show_bug.cgi?id=15922
-    - https://www.busybox.net
-    - https://www.busybox.net/downloads/
-    - https://www.cve.org/CVERecord?id=CVE-2024-58251
-    PublishedDate: '2025-04-23T18:16:03.057Z'
-    LastModifiedDate: '2025-04-29T13:52:47.47Z'
-  - VulnerabilityID: CVE-2025-46394
-    PkgID: busybox-binsh@1.37.0-r19
-    PkgName: busybox-binsh
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/busybox-binsh@1.37.0-r19?arch=x86_64&distro=3.22.2
-      UID: 7150d5a240bb77cc
-    InstalledVersion: 1.37.0-r19
-    FixedVersion: 1.37.0-r20
-    Status: fixed
-    Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    SeveritySource: nvd
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-46394
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:503deda26c51b9c898637cf61bb56d71139ceb51a28db64d4b2fa3d76b51452a
-    Title: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hid ...
-    Description: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
-    Severity: LOW
-    CweIDs:
-    - CWE-451
-    VendorSeverity:
-      nvd: 1
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/04/23/5
-    - http://www.openwall.com/lists/oss-security/2025/04/24/3
-    - https://bugs.busybox.net/show_bug.cgi?id=16018
-    - https://lists.busybox.net/pipermail/busybox/2024-July/090806.html
-    - https://lists.busybox.net/pipermail/busybox/2024-July/090814.html
-    - https://www.busybox.net
-    - https://www.busybox.net/downloads/
-    - https://www.cve.org/CVERecord?id=CVE-2025-46394
-    - https://www.openwall.com/lists/oss-security/2025/04/23/1
-    PublishedDate: '2025-04-23T16:15:48.713Z'
-    LastModifiedDate: '2025-09-24T14:38:22.127Z'
-  - VulnerabilityID: CVE-2025-64720
-    PkgID: libpng@1.6.47-r0
-    PkgName: libpng
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.22.2
-      UID: dc7943769b551d5b
-    InstalledVersion: 1.6.47-r0
-    FixedVersion: 1.6.51-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64720
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f37097d24b7f0c3d4faf16ab81f0447067970127121207d1b2b9ede4f554aa7e
-    Title: 'libpng: LIBPNG buffer overflow'
-    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, an out-of-bounds read vulnerability exists in png_image_read_composite when processing palette images with PNG_FLAG_OPTIMIZE_ALPHA enabled. The palette compositing code in png_init_read_transformations incorrectly applies background compositing during premultiplication, violating the invariant component ≤ alpha × 257 required by the simplified PNG API. This issue has been patched in version 1.6.51.
-    Severity: HIGH
-    CweIDs:
-    - CWE-125
-    VendorSeverity:
-      amazon: 3
-      azure: 3
-      cbl-mariner: 3
-      photon: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
-        V3Score: 7.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-64720
-    - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643
-    - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643 (v1.6.51)
-    - https://github.com/pnggroup/libpng/issues/686
-    - https://github.com/pnggroup/libpng/pull/751
-    - https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-64720
-    - https://www.cve.org/CVERecord?id=CVE-2025-64720
-    - https://www.openwall.com/lists/oss-security/2025/11/22/1
-    PublishedDate: '2025-11-25T00:15:47.46Z'
-    LastModifiedDate: '2025-11-26T18:35:18.253Z'
-  - VulnerabilityID: CVE-2025-65018
-    PkgID: libpng@1.6.47-r0
-    PkgName: libpng
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.22.2
-      UID: dc7943769b551d5b
-    InstalledVersion: 1.6.47-r0
-    FixedVersion: 1.6.51-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-65018
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:b9bd3c5d836c6583a719f450b5596af7bf5d607879ec00af8a6cd301434b18d9
-    Title: 'libpng: LIBPNG heap buffer overflow'
-    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, there is a heap buffer overflow vulnerability in the libpng simplified API function png_image_finish_read when processing 16-bit interlaced PNGs with 8-bit output format. Attacker-crafted interlaced PNG files cause heap writes beyond allocated buffer bounds. This issue has been patched in version 1.6.51.
-    Severity: HIGH
-    CweIDs:
-    - CWE-122
-    - CWE-787
-    VendorSeverity:
-      amazon: 3
-      azure: 3
-      cbl-mariner: 3
-      photon: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H
-        V3Score: 7.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-65018
-    - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d
-    - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d (v1.6.51)
-    - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
-    - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea (v1.6.51)
-    - https://github.com/pnggroup/libpng/issues/755
-    - https://github.com/pnggroup/libpng/pull/757
-    - https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-65018
-    - https://www.cve.org/CVERecord?id=CVE-2025-65018
-    - https://www.openwall.com/lists/oss-security/2025/11/22/1
-    PublishedDate: '2025-11-25T00:15:47.61Z'
-    LastModifiedDate: '2025-11-26T18:34:53.65Z'
-  - VulnerabilityID: CVE-2025-66293
-    PkgID: libpng@1.6.47-r0
-    PkgName: libpng
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.22.2
-      UID: dc7943769b551d5b
-    InstalledVersion: 1.6.47-r0
-    FixedVersion: 1.6.53-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66293
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0b562572df6df302c8cb57b8ce57509c111d8ae73a4311bb3fff942a1c44ca1a
-    Title: 'libpng: LIBPNG out-of-bounds read in png_image_read_composite'
-    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to 1.6.52, an out-of-bounds read vulnerability in libpng's simplified API allows reading up to 1012 bytes beyond the png_sRGB_base[512] array when processing valid palette PNG images with partial transparency and gamma correction. The PNG files that trigger this vulnerability are valid per the PNG specification; the bug is in libpng's internal state management. Upgrade to libpng 1.6.52 or later.
-    Severity: HIGH
-    CweIDs:
-    - CWE-125
-    VendorSeverity:
-      azure: 3
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
-        V3Score: 7.1
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/12/03/6
-    - http://www.openwall.com/lists/oss-security/2025/12/03/7
-    - http://www.openwall.com/lists/oss-security/2025/12/03/8
-    - https://access.redhat.com/security/cve/CVE-2025-66293
-    - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
-    - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
-    - https://github.com/pnggroup/libpng/issues/764
-    - https://github.com/pnggroup/libpng/security/advisories/GHSA-9mpm-9pxh-mg4f
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-66293
-    - https://www.cve.org/CVERecord?id=CVE-2025-66293
-    PublishedDate: '2025-12-03T21:15:53.06Z'
-    LastModifiedDate: '2025-12-04T17:15:08.283Z'
-  - VulnerabilityID: CVE-2025-64505
-    PkgID: libpng@1.6.47-r0
-    PkgName: libpng
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.22.2
-      UID: dc7943769b551d5b
-    InstalledVersion: 1.6.47-r0
-    FixedVersion: 1.6.51-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64505
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:562c13072c6c9d9e8b10c7a6a0b6dc9f42fd99e0a28f1ff148afd3155bb7471e
-    Title: 'libpng: LIBPNG heap buffer overflow via malformed palette index'
-    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to version 1.6.51, a heap buffer over-read vulnerability exists in libpng's png_do_quantize function when processing PNG files with malformed palette indices. The vulnerability occurs when palette_lookup array bounds are not validated against externally-supplied image data, allowing an attacker to craft a PNG file with out-of-range palette indices that trigger out-of-bounds memory access. This issue has been patched in version 1.6.51.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-125
-    VendorSeverity:
-      amazon: 3
-      azure: 2
-      cbl-mariner: 2
-      photon: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L
-        V3Score: 4.4
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-64505
-    - https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37
-    - https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37 (v1.6.51)
-    - https://github.com/pnggroup/libpng/pull/748
-    - https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-64505
-    - https://www.cve.org/CVERecord?id=CVE-2025-64505
-    - https://www.openwall.com/lists/oss-security/2025/11/22/1
-    PublishedDate: '2025-11-25T00:15:47.133Z'
-    LastModifiedDate: '2025-11-26T18:28:32.22Z'
-  - VulnerabilityID: CVE-2025-64506
-    PkgID: libpng@1.6.47-r0
-    PkgName: libpng
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.22.2
-      UID: dc7943769b551d5b
-    InstalledVersion: 1.6.47-r0
-    FixedVersion: 1.6.51-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64506
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:6b000adc5f4e952f9c7fbd5657e13ef1785109509ad90cdfc4b1a0b0d70a8007
-    Title: 'libpng: LIBPNG heap buffer over-read'
-    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, a heap buffer over-read vulnerability exists in libpng's png_write_image_8bit function when processing 8-bit images through the simplified write API with convert_to_8bit enabled. The vulnerability affects 8-bit grayscale+alpha, RGB/RGBA, and images with incomplete row data. A conditional guard incorrectly allows 8-bit input to enter code expecting 16-bit input, causing reads up to 2 bytes beyond allocated buffer boundaries. This issue has been patched in version 1.6.51.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-125
-    VendorSeverity:
-      amazon: 3
-      azure: 2
-      cbl-mariner: 2
-      photon: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-64506
-    - https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821
-    - https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821 (v1.6.51)
-    - https://github.com/pnggroup/libpng/pull/749
-    - https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-64506
-    - https://www.cve.org/CVERecord?id=CVE-2025-64506
-    - https://www.openwall.com/lists/oss-security/2025/11/22/1
-    PublishedDate: '2025-11-25T00:15:47.3Z'
-    LastModifiedDate: '2025-11-26T18:34:38.24Z'
-  - VulnerabilityID: CVE-2024-58251
-    PkgID: ssl_client@1.37.0-r19
-    PkgName: ssl_client
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/ssl_client@1.37.0-r19?arch=x86_64&distro=3.22.2
-      UID: 691bd1fc4de953e2
-    InstalledVersion: 1.37.0-r19
-    FixedVersion: 1.37.0-r20
-    Status: fixed
-    Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-58251
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0128fc32ab818a2cfa3925af37514c29ea1ef528c19c5caece1de3cbffb90ca3
-    Title: In netstat in BusyBox through 1.37.0, local users can launch of networ ...
-    Description: In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-150
-    VendorSeverity:
-      ubuntu: 2
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/04/23/6
-    - https://bugs.busybox.net/show_bug.cgi?id=15922
-    - https://www.busybox.net
-    - https://www.busybox.net/downloads/
-    - https://www.cve.org/CVERecord?id=CVE-2024-58251
-    PublishedDate: '2025-04-23T18:16:03.057Z'
-    LastModifiedDate: '2025-04-29T13:52:47.47Z'
-  - VulnerabilityID: CVE-2025-46394
-    PkgID: ssl_client@1.37.0-r19
-    PkgName: ssl_client
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/ssl_client@1.37.0-r19?arch=x86_64&distro=3.22.2
-      UID: 691bd1fc4de953e2
-    InstalledVersion: 1.37.0-r19
-    FixedVersion: 1.37.0-r20
-    Status: fixed
-    Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
-    SeveritySource: nvd
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-46394
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:d2ec7766bba7b62e9b7bdce135beffaa9507a98312377785a89e9c798f9e58a6
-    Title: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hid ...
-    Description: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
-    Severity: LOW
-    CweIDs:
-    - CWE-451
-    VendorSeverity:
-      nvd: 1
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/04/23/5
-    - http://www.openwall.com/lists/oss-security/2025/04/24/3
-    - https://bugs.busybox.net/show_bug.cgi?id=16018
-    - https://lists.busybox.net/pipermail/busybox/2024-July/090806.html
-    - https://lists.busybox.net/pipermail/busybox/2024-July/090814.html
-    - https://www.busybox.net
-    - https://www.busybox.net/downloads/
-    - https://www.cve.org/CVERecord?id=CVE-2025-46394
-    - https://www.openwall.com/lists/oss-security/2025/04/23/1
-    PublishedDate: '2025-04-23T16:15:48.713Z'
-    LastModifiedDate: '2025-09-24T14:38:22.127Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -2576,8 +2140,8 @@
       UID: 8c51c23e51c8ef16
     Version: '2.20'
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.fasterxml.jackson.core:jackson-core
     Identifier:
@@ -2585,8 +2149,8 @@
       UID: 9822b3547f110bc6
     Version: 2.20.1
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.fasterxml.jackson.core:jackson-databind
     Identifier:
@@ -2594,8 +2158,8 @@
       UID: 4f8c9a471ff43465
     Version: 2.20.1
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.fasterxml.jackson.dataformat:jackson-dataformat-toml
     Identifier:
@@ -2603,8 +2167,8 @@
       UID: f187132d4296b98
     Version: 2.19.2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.github.bbottema:java-socks-proxy-server
     Identifier:
@@ -2612,8 +2176,8 @@
       UID: 9c78a0a4e8ccc47f
     Version: 2.2.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/SocksServer/java-socks-proxy-server-2.2.0.jar
   - Name: com.github.mwiede:jsch
     Identifier:
@@ -2621,8 +2185,8 @@
       UID: 548940b134f0a8d4
     Version: 2.27.6
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.github.vertical-blank:sql-formatter
     Identifier:
@@ -2630,8 +2194,8 @@
       UID: 4aa6d74fa002054a
     Version: 2.0.5
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.google.code.gson:gson
     Identifier:
@@ -2639,8 +2203,8 @@
       UID: a60cbe5d2898b6fd
     Version: 2.13.2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.googlecode.juniversalchardet:juniversalchardet
     Identifier:
@@ -2648,8 +2212,8 @@
       UID: 59979d47f792d6c8
     Version: 1.0.3
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.jcraft:jsch.agentproxy.connector-factory
     Identifier:
@@ -2657,8 +2221,8 @@
       UID: c33f344564a099d2
     Version: 0.0.9
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.jcraft:jsch.agentproxy.core
     Identifier:
@@ -2666,8 +2230,8 @@
       UID: 4be7fe5e595d9eb2
     Version: 0.0.9
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.jcraft:jsch.agentproxy.jsch
     Identifier:
@@ -2675,8 +2239,8 @@
       UID: 2c09ba989715b29
     Version: 0.0.9
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.jcraft:jsch.agentproxy.pageant
     Identifier:
@@ -2684,8 +2248,8 @@
       UID: 8affbecb98c67dc0
     Version: 0.0.9
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.jcraft:jsch.agentproxy.sshagent
     Identifier:
@@ -2693,8 +2257,8 @@
       UID: 77f3ddb6f8158192
     Version: 0.0.9
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2
     Identifier:
@@ -2702,8 +2266,8 @@
       UID: dfc6f6319fc95cbe
     Version: 0.0.9
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.jcraft:jsch.agentproxy.usocket-jna
     Identifier:
@@ -2711,8 +2275,8 @@
       UID: 80b49070dfd3f3a7
     Version: 0.0.9
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.jcraft:jsch.agentproxy.usocket-nc
     Identifier:
@@ -2720,8 +2284,8 @@
       UID: 8ce583c9bcf3a507
     Version: 0.0.9
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.sun.activation:javax.activation
     Identifier:
@@ -2729,8 +2293,8 @@
       UID: 885b1754dac6edf
     Version: 1.2.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.sun.mail:javax.mail
     Identifier:
@@ -2738,8 +2302,8 @@
       UID: eb67ca13361cdf7e
     Version: 1.6.2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: com.warrenstrange:googleauth
     Identifier:
@@ -2747,8 +2311,8 @@
       UID: abdfc1ca334283c7
     Version: 1.5.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: commons-cli:commons-cli
     Identifier:
@@ -2756,8 +2320,8 @@
       UID: 7c850f7741b728f1
     Version: 1.11.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: commons-codec:commons-codec
     Identifier:
@@ -2765,8 +2329,8 @@
       UID: 36f72796c80a5f04
     Version: 1.20.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: commons-io:commons-io
     Identifier:
@@ -2774,8 +2338,8 @@
       UID: 4812ba05106027a5
     Version: 2.21.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: commons-logging:commons-logging
     Identifier:
@@ -2783,8 +2347,8 @@
       UID: 78410c5141b86fa
     Version: 1.3.5
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: commons-net:commons-net
     Identifier:
@@ -2792,8 +2356,8 @@
       UID: 1dfaef0fb0ac5d0b
     Version: 3.12.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: de.vandermeer:asciilist-j7
     Identifier:
@@ -2801,8 +2365,8 @@
       UID: d4e586b2e07acda4
     Version: 1.0.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: de.vandermeer:asciitable-j7
     Identifier:
@@ -2810,8 +2374,8 @@
       UID: 272a590ba643367f
     Version: 1.0.1
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: dnsjava:dnsjava
     Identifier:
@@ -2819,8 +2383,8 @@
       UID: 4b5e6e63b1733dfa
     Version: 3.6.3
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: io.jsonwebtoken:jjwt-api
     Identifier:
@@ -2828,8 +2392,8 @@
       UID: cdc3bc0a8b47e911
     Version: 0.13.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: io.jsonwebtoken:jjwt-gson
     Identifier:
@@ -2837,8 +2401,8 @@
       UID: 9fc30d362e446fcd
     Version: 0.13.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: io.jsonwebtoken:jjwt-impl
     Identifier:
@@ -2846,8 +2410,8 @@
       UID: d42e28c78bfe4cd6
     Version: 0.13.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: io.sigpipe:jbsdiff
     Identifier:
@@ -2855,8 +2419,8 @@
       UID: 3ad9c9a90222e030
     Version: '1.0'
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: jakarta.activation:jakarta.activation-api
     Identifier:
@@ -2864,8 +2428,8 @@
       UID: 84baa18824622446
     Version: 1.2.2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: javax.xml.bind:jaxb-api
     Identifier:
@@ -2873,8 +2437,8 @@
       UID: 68f09018f4453b95
     Version: 2.3.1
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: jline:jline
     Identifier:
@@ -2882,8 +2446,8 @@
       UID: 6930774a112e73bc
     Version: 2.14.6
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.apache.commons:commons-collections4
     Identifier:
@@ -2891,8 +2455,8 @@
       UID: b6f26728bc972346
     Version: 4.5.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.apache.commons:commons-compress
     Identifier:
@@ -2900,8 +2464,8 @@
       UID: 645d61b3c78fd14e
     Version: 1.28.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.apache.commons:commons-csv
     Identifier:
@@ -2909,8 +2473,8 @@
       UID: fd28379ee7ee9be4
     Version: 1.14.1
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.apache.commons:commons-email
     Identifier:
@@ -2918,8 +2482,8 @@
       UID: 1cdb7e2822178209
     Version: 1.6.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.apache.commons:commons-lang3
     Identifier:
@@ -2927,8 +2491,8 @@
       UID: 8f2e36b07fbcb1a2
     Version: 3.19.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.apache.commons:commons-math3
     Identifier:
@@ -2936,8 +2500,8 @@
       UID: 3992f1c5b6195e89
     Version: 3.6.1
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.eclipse.jetty.compression:jetty-compression-common
     Identifier:
@@ -2945,8 +2509,8 @@
       UID: 98eb0f6a7b94cba2
     Version: 12.1.4
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-core-client
     Identifier:
@@ -2954,8 +2518,8 @@
       UID: 4ac6a67496064613
     Version: 12.1.4
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-core-common
     Identifier:
@@ -2963,8 +2527,8 @@
       UID: 92013e32518bb532
     Version: 12.1.4
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-api
     Identifier:
@@ -2972,8 +2536,8 @@
       UID: 2fc6842321567d59
     Version: 12.1.4
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-client
     Identifier:
@@ -2981,8 +2545,8 @@
       UID: c4d26c0eeba38988
     Version: 12.1.4
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-common
     Identifier:
@@ -2990,8 +2554,8 @@
       UID: d85d2145de6f9fa2
     Version: 12.1.4
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.eclipse.jetty:jetty-client
     Identifier:
@@ -2999,8 +2563,8 @@
       UID: 6f2abd14ed552ef5
     Version: 12.1.3
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.eclipse.jetty:jetty-http
     Identifier:
@@ -3008,8 +2572,8 @@
       UID: 2714f45b932050d8
     Version: 12.1.4
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.eclipse.jetty:jetty-io
     Identifier:
@@ -3017,8 +2581,8 @@
       UID: 8c55ebadbdadfe4d
     Version: 12.1.3
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.eclipse.jetty:jetty-util
     Identifier:
@@ -3026,8 +2590,8 @@
       UID: ee265d85b77e019e
     Version: 12.1.3
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.fusesource.hawtjni:hawtjni-runtime
     Identifier:
@@ -3035,8 +2599,8 @@
       UID: 368c86360d5d2d6e
     Version: '1.17'
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.fusesource.jansi:jansi
     Identifier:
@@ -3044,8 +2608,8 @@
       UID: 28003612621d63f7
     Version: '1.18'
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.fusesource.jansi:jansi-freebsd32
     Identifier:
@@ -3053,8 +2617,8 @@
       UID: 75689643540ac0cc
     Version: '1.8'
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.fusesource.jansi:jansi-freebsd64
     Identifier:
@@ -3062,8 +2626,8 @@
       UID: cdf9cdca8706e16f
     Version: '1.8'
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.fusesource.jansi:jansi-linux32
     Identifier:
@@ -3071,8 +2635,8 @@
       UID: 3d49c0eb4793e1f4
     Version: '1.8'
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.fusesource.jansi:jansi-linux64
     Identifier:
@@ -3080,8 +2644,8 @@
       UID: 8b11f3d47b9658b2
     Version: '1.8'
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.fusesource.jansi:jansi-native
     Identifier:
@@ -3089,8 +2653,8 @@
       UID: c89c538fba388aa2
     Version: '1.8'
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.fusesource.jansi:jansi-osx
     Identifier:
@@ -3098,8 +2662,8 @@
       UID: b0bc0de50b8059ad
     Version: '1.8'
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.fusesource.jansi:jansi-windows32
     Identifier:
@@ -3107,8 +2671,8 @@
       UID: 7c1a51c801be878e
     Version: '1.8'
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.fusesource.jansi:jansi-windows64
     Identifier:
@@ -3116,8 +2680,8 @@
       UID: 6c10b179e44aabcb
     Version: '1.8'
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.projectlombok:lombok
     Identifier:
@@ -3125,8 +2689,8 @@
       UID: d4570b9d21ff426d
     Version: 1.18.42
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/SocksServer/lombok-1.18.42.jar
   - Name: org.semver4j:semver4j
     Identifier:
@@ -3134,8 +2698,8 @@
       UID: b4987f502c5eba1f
     Version: 6.0.0
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.slf4j:slf4j-api
     Identifier:
@@ -3143,8 +2707,8 @@
       UID: 669ca5d81bb821ff
     Version: 2.0.17
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.slf4j:slf4j-nop
     Identifier:
@@ -3152,8 +2716,8 @@
       UID: 5e42b1280e39632b
     Version: 2.0.17
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.snmp4j:snmp4j
     Identifier:
@@ -3161,8 +2725,8 @@
       UID: 9cf3d6b9898ef004
     Version: 3.9.6
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
   - Name: org.snmp4j:snmp4j-agent
     Identifier:
@@ -3170,6 +2734,6 @@
       UID: 9ed630f1f75d1f9b
     Version: 3.8.2
     Layer:
-      Digest: sha256:e612b3b8123f19b4007d432ec167fdc63fd403b3a14ab5b637eb134140bd1d25
-      DiffID: sha256:c18095038861a0af9825bde6a43631e6ab9cbc8edda292a6a41ee086b1744450
+      Digest: sha256:441fe5de717e43b8e9d788f4b711de103d20df42ea67a2f60f31c5a7d8450e2b
+      DiffID: sha256:7f3e3b847e66d2a3bc90e0d201f581cb5eee08b485ea2ae3ef0dab8759853cb5
     FilePath: openaf/openaf.jar
