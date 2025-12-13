@@ -35997,6 +35997,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-14087
     PublishedDate: '2025-12-10T09:15:47.053Z'
     LastModifiedDate: '2025-12-10T09:15:47.053Z'
+  - VulnerabilityID: CVE-2025-14512
+    PkgID: glib2@2.68.4-16.el9_6.2.x86_64
+    PkgName: glib2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glib2@2.68.4-16.el9_6.2?arch=x86_64&distro=redhat-9.6
+      UID: 1dd5437070f42602
+    InstalledVersion: 2.68.4-16.el9_6.2
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14512
+    Fingerprint: sha256:ac5e20cca53297384441c20270d025dbaaa3bff93ed2af6a13689e3fbbd84fc9
+    Title: 'glib: Integer Overflow in GLib GIO Attribute Escaping Causes Heap Buffer Overflow'
+    Description: A flaw was found in glib. This vulnerability allows a heap buffer overflow and denial-of-service (DoS) via an integer overflow in GLib's GIO (GLib Input/Output) escape_byte_string() function when processing malicious file or remote filesystem attribute values.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-14512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2421339
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14512
+    - https://www.cve.org/CVERecord?id=CVE-2025-14512
+    PublishedDate: '2025-12-11T07:16:00.463Z'
+    LastModifiedDate: '2025-12-11T07:16:00.463Z'
   - VulnerabilityID: CVE-2023-32636
     PkgID: glib2@2.68.4-16.el9_6.2.x86_64
     PkgName: glib2
@@ -36244,6 +36276,7 @@
     - https://github.com/pnggroup/libpng/pull/751
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64720
+    - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-64720
     - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.46Z'
@@ -36289,6 +36322,7 @@
     - https://github.com/pnggroup/libpng/pull/757
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g
     - https://nvd.nist.gov/vuln/detail/CVE-2025-65018
+    - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-65018
     - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.61Z'
@@ -36369,6 +36403,7 @@
     - https://github.com/pnggroup/libpng/pull/748
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64505
+    - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-64505
     - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.133Z'
@@ -36410,6 +36445,7 @@
     - https://github.com/pnggroup/libpng/pull/749
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64506
+    - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-64506
     - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.3Z'
@@ -36590,7 +36626,7 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5916
     Fingerprint: sha256:f22994cd8566ce3fd044ac4145ed7b6fa98b2b5d5225738d0f89bb592649240b
     Title: 'libarchive: Integer overflow while reading warc files at archive_read_support_format_warc.c'
-    Description: A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive.
+    Description: A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive. This bug affects libarchive versions prior to 3.8.0.
     Severity: LOW
     CweIDs:
     - CWE-190
@@ -36618,7 +36654,7 @@
     - https://ubuntu.com/security/notices/USN-7601-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5916
     PublishedDate: '2025-06-09T20:15:27.17Z'
-    LastModifiedDate: '2025-08-15T18:12:06.987Z'
+    LastModifiedDate: '2025-12-12T01:15:46.36Z'
   - VulnerabilityID: CVE-2025-5917
     PkgID: libarchive@3.5.3-6.el9_6.x86_64
     PkgName: libarchive
@@ -36634,7 +36670,7 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5917
     Fingerprint: sha256:7c2eff6fa2bc0edd00fc871c8c430bc04916cbbce758d1b22a7f2a9636aa92aa
     Title: 'libarchive: Off by one error in build_ustar_entry_name() at archive_write_set_format_pax.c'
-    Description: A vulnerability has been identified in the libarchive library. This flaw involves an 'off-by-one' miscalculation when handling prefixes and suffixes for file names. This can lead to a 1-byte write overflow. While seemingly small, such an overflow can corrupt adjacent memory, leading to unpredictable program behavior, crashes, or in specific circumstances, could be leveraged as a building block for more sophisticated exploitation.
+    Description: A vulnerability has been identified in the libarchive library. This flaw involves an 'off-by-one' miscalculation when handling prefixes and suffixes for file names. This can lead to a 1-byte write overflow. While seemingly small, such an overflow can corrupt adjacent memory, leading to unpredictable program behavior, crashes, or in specific circumstances, could be leveraged as a building block for more sophisticated exploitation. This bug affects libarchive versions prior to 3.8.0.
     Severity: LOW
     CweIDs:
     - CWE-787
@@ -36662,7 +36698,7 @@
     - https://ubuntu.com/security/notices/USN-7601-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5917
     PublishedDate: '2025-06-09T20:15:27.33Z'
-    LastModifiedDate: '2025-08-15T18:16:42.91Z'
+    LastModifiedDate: '2025-12-12T01:15:46.527Z'
   - VulnerabilityID: CVE-2025-5918
     PkgID: libarchive@3.5.3-6.el9_6.x86_64
     PkgName: libarchive
