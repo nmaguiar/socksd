@@ -1181,7 +1181,49 @@
 │                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/04/23/1 
 │                       │     ├ PublishedDate   : 2025-04-23T16:15:48.713Z 
 │                       │     ╰ LastModifiedDate: 2025-09-24T14:38:22.127Z 
-│                       ├ [4] ╭ VulnerabilityID : CVE-2025-26519 
+│                       ├ [4] ╭ VulnerabilityID : CVE-2025-62408 
+│                       │     ├ PkgID           : c-ares@1.34.5-r0 
+│                       │     ├ PkgName         : c-ares 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/c-ares@1.34.5-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       2.0_alpha20250108 
+│                       │     │                  ╰ UID : 66548dd72f5841d4 
+│                       │     ├ InstalledVersion: 1.34.5-r0 
+│                       │     ├ FixedVersion    : 1.34.6-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:4f2e909c76c5bcfd4ab0ab8f967174ada3aa19673ba5b
+│                       │     │                  │         a438c5fa8f0a504f396 
+│                       │     │                  ╰ DiffID: sha256:02723171a4a71683b0fca87d11e59ed86f8169259f46e
+│                       │     │                            f4bb92d6d7a8b0ec774 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-62408 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:bfbc4de24343b862b4ed44c07ea9119a44dcbc05a60f3b9192875d
+│                       │     │                   dbfcf6807d 
+│                       │     ├ Title           : c-ares: c-ares: Denial of Service due to query termination
+│                       │     │                   after maximum attempts 
+│                       │     ├ Description     : c-ares is an asynchronous resolver library. Versions 1.32.3
+│                       │     │                   through 1.34.5  terminate a query after maximum attempts when
+│                       │     │                    using read_answer() and process_answer(), which can cause a
+│                       │     │                   Denial of Service. This issue is fixed in version 1.34.6. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs           ─ [0]: CWE-416 
+│                       │     ├ VendorSeverity   ╭ redhat: 2 
+│                       │     │                  ╰ ubuntu: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 5.9 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-62408 
+│                       │     │                  ├ [1]: https://github.com/c-ares/c-ares/commit/714bf5675c541bd
+│                       │     │                  │      1e668a8db8e67ce012651e618 
+│                       │     │                  ├ [2]: https://github.com/c-ares/c-ares/security/advisories/GH
+│                       │     │                  │      SA-jq53-42q6-pqr5 
+│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-62408 
+│                       │     │                  ├ [4]: https://ubuntu.com/security/notices/USN-7925-1 
+│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-62408 
+│                       │     ├ PublishedDate   : 2025-12-08T22:15:52.62Z 
+│                       │     ╰ LastModifiedDate: 2025-12-09T18:37:33.427Z 
+│                       ├ [5] ╭ VulnerabilityID : CVE-2025-26519 
 │                       │     ├ PkgID           : musl@1.2.5-r9 
 │                       │     ├ PkgName         : musl 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.5-r9?arch=x86_64&distro=3.22.0
@@ -1224,7 +1266,7 @@
 │                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
 │                       │     ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
 │                       │     ╰ LastModifiedDate: 2025-12-10T20:03:59.273Z 
-│                       ├ [5] ╭ VulnerabilityID : CVE-2025-26519 
+│                       ├ [6] ╭ VulnerabilityID : CVE-2025-26519 
 │                       │     ├ PkgID           : musl-utils@1.2.5-r9 
 │                       │     ├ PkgName         : musl-utils 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.5-r9?arch=x86_64&distro=
@@ -1267,7 +1309,7 @@
 │                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
 │                       │     ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
 │                       │     ╰ LastModifiedDate: 2025-12-10T20:03:59.273Z 
-│                       ├ [6] ╭ VulnerabilityID : CVE-2024-58251 
+│                       ├ [7] ╭ VulnerabilityID : CVE-2024-58251 
 │                       │     ├ PkgID           : ssl_client@1.37.0-r10 
 │                       │     ├ PkgName         : ssl_client 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r10?arch=x86_64&distr
@@ -1302,7 +1344,7 @@
 │                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
 │                       │     ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
 │                       │     ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
-│                       ╰ [7] ╭ VulnerabilityID : CVE-2025-46394 
+│                       ╰ [8] ╭ VulnerabilityID : CVE-2025-46394 
 │                             ├ PkgID           : ssl_client@1.37.0-r10 
 │                             ├ PkgName         : ssl_client 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r10?arch=x86_64&distr
