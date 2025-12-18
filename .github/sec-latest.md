@@ -2698,7 +2698,7 @@
 │                       │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2025-66293 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-66293 
 │                       │      ├ PublishedDate   : 2025-12-03T21:15:53.06Z 
-│                       │      ╰ LastModifiedDate: 2025-12-04T17:15:08.283Z 
+│                       │      ╰ LastModifiedDate: 2025-12-16T19:12:50.35Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2025-64505 
 │                       │      ├ PkgID           : libpng@1.6.47-r0 
 │                       │      ├ PkgName         : libpng 
