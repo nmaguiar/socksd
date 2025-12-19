@@ -39577,7 +39577,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -39793,6 +39793,7 @@
       amazon: 1
       azure: 1
       bitnami: 1
+      cbl-mariner: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -39956,7 +39957,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -40172,6 +40173,7 @@
       amazon: 1
       azure: 1
       bitnami: 1
+      cbl-mariner: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -40335,7 +40337,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -40551,6 +40553,7 @@
       amazon: 1
       azure: 1
       bitnami: 1
+      cbl-mariner: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -40581,48 +40584,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
     LastModifiedDate: '2025-12-01T19:15:52.55Z'
-  - VulnerabilityID: CVE-2025-66418
-    PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
-    PkgName: python3-pip-wheel
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-1.el9?arch=noarch&distro=redhat-9.6
-      UID: 721b1480454de203
-    InstalledVersion: 21.3.1-1.el9
-    Status: affected
-    Layer:
-      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
-      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66418
-    Fingerprint: sha256:d02aa69b2300996c58dd7ebd5f8d88223888b986f8d286459d39d5c61d3b591b
-    Title: 'urllib3: urllib3: Unbounded decompression chain leads to resource exhaustion'
-    Description: urllib3 is a user-friendly HTTP client library for Python. Starting in version 1.24 and prior to 2.6.0, the number of links in the decompression chain was unbounded allowing a malicious server to insert a virtually unlimited number of compression steps leading to high CPU usage and massive memory allocation for the decompressed data. This vulnerability is fixed in 2.6.0.
-    Severity: HIGH
-    CweIDs:
-    - CWE-770
-    VendorSeverity:
-      ghsa: 3
-      nvd: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-66418
-    - https://github.com/urllib3/urllib3
-    - https://github.com/urllib3/urllib3/commit/24d7b67eac89f94e11003424bcf0d8f7b72222a8
-    - https://github.com/urllib3/urllib3/security/advisories/GHSA-gm62-xv2j-4w53
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-66418
-    - https://ubuntu.com/security/notices/USN-7927-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-66418
-    - https://www.openwall.com/lists/oss-security/2025/12/05/4
-    PublishedDate: '2025-12-05T16:15:51.053Z'
-    LastModifiedDate: '2025-12-10T16:08:32.193Z'
   - VulnerabilityID: CVE-2023-45803
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
