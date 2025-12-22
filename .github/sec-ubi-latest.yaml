@@ -35283,6 +35283,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -35291,8 +35292,11 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/10/1
     - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2394750
     - https://curl.se/docs/CVE-2025-9086.html
     - https://curl.se/docs/CVE-2025-9086.json
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
+    - https://errata.rockylinux.org/RLSA-2025:23383
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
@@ -35841,7 +35845,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
     - https://errata.almalinux.org/9/ALSA-2025-22175.html
-    - https://errata.rockylinux.org/RLSA-2025:21776
+    - https://errata.rockylinux.org/RLSA-2025:22175
     - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
     - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
     - https://github.com/libexpat/libexpat/issues/1018
@@ -35873,9 +35877,13 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 2.9
@@ -35886,7 +35894,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-66382
     - https://www.cve.org/CVERecord?id=CVE-2025-66382
     PublishedDate: '2025-11-28T07:15:57.9Z'
-    LastModifiedDate: '2025-12-02T03:16:20.34Z'
+    LastModifiedDate: '2025-12-19T16:05:03.557Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -36352,6 +36360,7 @@
     - CWE-125
     VendorSeverity:
       azure: 3
+      cbl-mariner: 3
       redhat: 3
     CVSS:
       redhat:
@@ -36852,6 +36861,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -36860,8 +36870,11 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/10/1
     - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2394750
     - https://curl.se/docs/CVE-2025-9086.html
     - https://curl.se/docs/CVE-2025-9086.json
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
+    - https://errata.rockylinux.org/RLSA-2025:23383
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
@@ -38468,7 +38481,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2396054
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9230
     - https://errata.almalinux.org/9/ALSA-2025-21255.html
-    - https://errata.rockylinux.org/RLSA-2025:21248
+    - https://errata.rockylinux.org/RLSA-2025:21255
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
     - https://github.com/openssl/openssl/commit/a79c4ce559c6a3a8fd4109e9f33c1185d5bf2def
@@ -38888,7 +38901,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2396054
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9230
     - https://errata.almalinux.org/9/ALSA-2025-21255.html
-    - https://errata.rockylinux.org/RLSA-2025:21248
+    - https://errata.rockylinux.org/RLSA-2025:21255
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
     - https://github.com/openssl/openssl/commit/a79c4ce559c6a3a8fd4109e9f33c1185d5bf2def
@@ -39640,6 +39653,7 @@
       azure: 2
       bitnami: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -39661,6 +39675,8 @@
     - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
+    - https://linux.oracle.com/cve/CVE-2025-6069.html
+    - https://linux.oracle.com/errata/ELSA-2025-23342.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -39704,6 +39720,7 @@
       azure: 2
       bitnami: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -39726,6 +39743,8 @@
     - https://github.com/python/cpython/commit/d11e69d6203080e3ec450446bfed0516727b85c3
     - https://github.com/python/cpython/issues/139700
     - https://github.com/python/cpython/pull/139702
+    - https://linux.oracle.com/cve/CVE-2025-8291.html
+    - https://linux.oracle.com/errata/ELSA-2025-23342.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://ubuntu.com/security/notices/USN-7886-1
@@ -39756,6 +39775,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -39773,6 +39793,8 @@
     - https://github.com/python/cpython/issues/121227
     - https://github.com/python/cpython/pull/23014
     - https://jbp.io/2024/06/27/cve-2024-5535-openssl-memory-safety.html
+    - https://linux.oracle.com/cve/CVE-2024-5642.html
+    - https://linux.oracle.com/errata/ELSA-2025-23342.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PLP2JI3PJY33YG6P5BZYSSNU66HASXBQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-5642
     - https://security.netapp.com/advisory/ntap-20240726-0005/
@@ -39855,6 +39877,7 @@
       azure: 1
       bitnami: 1
       cbl-mariner: 1
+      oracle-oval: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -39878,6 +39901,8 @@
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main)
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main-branch)
     - https://github.com/python/cpython/issues/136065
+    - https://linux.oracle.com/cve/CVE-2025-6075.html
+    - https://linux.oracle.com/errata/ELSA-2025-23342.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
     - https://ubuntu.com/security/notices/USN-7886-1
@@ -40075,6 +40100,7 @@
       azure: 2
       bitnami: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -40096,6 +40122,8 @@
     - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
+    - https://linux.oracle.com/cve/CVE-2025-6069.html
+    - https://linux.oracle.com/errata/ELSA-2025-23342.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -40139,6 +40167,7 @@
       azure: 2
       bitnami: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -40161,6 +40190,8 @@
     - https://github.com/python/cpython/commit/d11e69d6203080e3ec450446bfed0516727b85c3
     - https://github.com/python/cpython/issues/139700
     - https://github.com/python/cpython/pull/139702
+    - https://linux.oracle.com/cve/CVE-2025-8291.html
+    - https://linux.oracle.com/errata/ELSA-2025-23342.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://ubuntu.com/security/notices/USN-7886-1
@@ -40191,6 +40222,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -40208,6 +40240,8 @@
     - https://github.com/python/cpython/issues/121227
     - https://github.com/python/cpython/pull/23014
     - https://jbp.io/2024/06/27/cve-2024-5535-openssl-memory-safety.html
+    - https://linux.oracle.com/cve/CVE-2024-5642.html
+    - https://linux.oracle.com/errata/ELSA-2025-23342.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PLP2JI3PJY33YG6P5BZYSSNU66HASXBQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-5642
     - https://security.netapp.com/advisory/ntap-20240726-0005/
@@ -40290,6 +40324,7 @@
       azure: 1
       bitnami: 1
       cbl-mariner: 1
+      oracle-oval: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -40313,6 +40348,8 @@
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main)
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main-branch)
     - https://github.com/python/cpython/issues/136065
+    - https://linux.oracle.com/cve/CVE-2025-6075.html
+    - https://linux.oracle.com/errata/ELSA-2025-23342.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
     - https://ubuntu.com/security/notices/USN-7886-1
@@ -40510,6 +40547,7 @@
       azure: 2
       bitnami: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -40531,6 +40569,8 @@
     - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
+    - https://linux.oracle.com/cve/CVE-2025-6069.html
+    - https://linux.oracle.com/errata/ELSA-2025-23342.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -40574,6 +40614,7 @@
       azure: 2
       bitnami: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -40596,6 +40637,8 @@
     - https://github.com/python/cpython/commit/d11e69d6203080e3ec450446bfed0516727b85c3
     - https://github.com/python/cpython/issues/139700
     - https://github.com/python/cpython/pull/139702
+    - https://linux.oracle.com/cve/CVE-2025-8291.html
+    - https://linux.oracle.com/errata/ELSA-2025-23342.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://ubuntu.com/security/notices/USN-7886-1
@@ -40626,6 +40669,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -40643,6 +40687,8 @@
     - https://github.com/python/cpython/issues/121227
     - https://github.com/python/cpython/pull/23014
     - https://jbp.io/2024/06/27/cve-2024-5535-openssl-memory-safety.html
+    - https://linux.oracle.com/cve/CVE-2024-5642.html
+    - https://linux.oracle.com/errata/ELSA-2025-23342.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PLP2JI3PJY33YG6P5BZYSSNU66HASXBQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-5642
     - https://security.netapp.com/advisory/ntap-20240726-0005/
@@ -40725,6 +40771,7 @@
       azure: 1
       bitnami: 1
       cbl-mariner: 1
+      oracle-oval: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -40748,6 +40795,8 @@
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main)
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main-branch)
     - https://github.com/python/cpython/issues/136065
+    - https://linux.oracle.com/cve/CVE-2025-6075.html
+    - https://linux.oracle.com/errata/ELSA-2025-23342.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
     - https://ubuntu.com/security/notices/USN-7886-1
@@ -40802,40 +40851,10 @@
     - https://bugzilla.redhat.com/2246840
     - https://bugzilla.redhat.com/2257028
     - https://bugzilla.redhat.com/2257854
-    - https://bugzilla.redhat.com/show_bug.cgi?id=1983596
-    - https://bugzilla.redhat.com/show_bug.cgi?id=1989575
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2132867
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2132868
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2132872
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2228743
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237773
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237776
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237777
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237778
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2244340
     - https://bugzilla.redhat.com/show_bug.cgi?id=2246840
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2253193
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2253330
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2254210
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2262272
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25091
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33198
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34558
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2879
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2880
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41715
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29409
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39318
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39319
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39321
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39322
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39326
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45287
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45803
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23650
     - https://errata.almalinux.org/9/ALSA-2024-2132.html
-    - https://errata.rockylinux.org/RLSA-2024:2988
+    - https://errata.rockylinux.org/RLSA-2024:11238
     - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-212.yaml
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/4e50fbc5db74e32cabd5ccc1ab81fc103adfe0b3
@@ -41141,7 +41160,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2380149
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965
     - https://errata.almalinux.org/9/ALSA-2025-20936.html
-    - https://errata.rockylinux.org/RLSA-2025:12010
+    - https://errata.rockylinux.org/RLSA-2025:20936
     - https://linux.oracle.com/cve/CVE-2025-6965.html
     - https://linux.oracle.com/errata/ELSA-2025-20936.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
