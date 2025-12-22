@@ -2423,6 +2423,7 @@
     - CWE-125
     VendorSeverity:
       azure: 3
+      cbl-mariner: 3
       redhat: 3
     CVSS:
       redhat:
