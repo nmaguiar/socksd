@@ -35279,6 +35279,7 @@
       it on an insecure host should not be okay.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 1
       oracle-oval: 2
       photon: 3
@@ -35291,11 +35292,14 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/10/1
+    - https://access.redhat.com/errata/RHSA-2025:23383
     - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://bugzilla.redhat.com/2394750
     - https://bugzilla.redhat.com/show_bug.cgi?id=2394750
     - https://curl.se/docs/CVE-2025-9086.html
     - https://curl.se/docs/CVE-2025-9086.json
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
+    - https://errata.almalinux.org/8/ALSA-2025-23383.html
     - https://errata.rockylinux.org/RLSA-2025:23383
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
@@ -36857,6 +36861,7 @@
       it on an insecure host should not be okay.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 1
       oracle-oval: 2
       photon: 3
@@ -36869,11 +36874,14 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/10/1
+    - https://access.redhat.com/errata/RHSA-2025:23383
     - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://bugzilla.redhat.com/2394750
     - https://bugzilla.redhat.com/show_bug.cgi?id=2394750
     - https://curl.se/docs/CVE-2025-9086.html
     - https://curl.se/docs/CVE-2025-9086.json
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
+    - https://errata.almalinux.org/8/ALSA-2025-23383.html
     - https://errata.rockylinux.org/RLSA-2025:23383
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
@@ -39496,13 +39504,17 @@
     - https://access.redhat.com/security/cve/CVE-2025-12084
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
+    - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
+    - https://github.com/python/cpython/commit/8d2d7bb2e754f8649a68ce4116271a4932f76907
+    - https://github.com/python/cpython/commit/9c9dda6625a2a90d2a06c657eee021d6be19842d
+    - https://github.com/python/cpython/commit/a696ba8b4d42fd632afc9bc88ad830a2e4cceed8
     - https://github.com/python/cpython/commit/ddcd2acd85d891a53e281c773b3093f9db953964
     - https://github.com/python/cpython/issues/142145
     - https://github.com/python/cpython/pull/142146
     - https://nvd.nist.gov/vuln/detail/CVE-2025-12084
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
     PublishedDate: '2025-12-03T19:15:55.05Z'
-    LastModifiedDate: '2025-12-16T21:13:09.597Z'
+    LastModifiedDate: '2025-12-22T20:15:44.103Z'
   - VulnerabilityID: CVE-2025-13836
     PkgID: python-unversioned-command@3.9.21-2.el9_6.2.noarch
     PkgName: python-unversioned-command
@@ -39530,6 +39542,7 @@
         V3Score: 6.8
     References:
     - https://access.redhat.com/security/cve/CVE-2025-13836
+    - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
     - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
     - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
     - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
@@ -39539,7 +39552,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2025-12-05T17:16:01.917Z'
+    LastModifiedDate: '2025-12-22T20:15:44.253Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: python-unversioned-command@3.9.21-2.el9_6.2.noarch
     PkgName: python-unversioned-command
@@ -39566,6 +39579,7 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2025-13837
+    - https://github.com/python/cpython/commit/5a8b19677d818fb41ee55f310233772e15aa1a2b
     - https://github.com/python/cpython/commit/694922cf40aa3a28f898b5f5ee08b71b4922df70
     - https://github.com/python/cpython/commit/71fa8eb8233b37f16c88b6e3e583b461b205d1ba
     - https://github.com/python/cpython/commit/b64441e4852383645af5b435411a6f849dd1b4cb
@@ -39575,7 +39589,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
     - https://www.cve.org/CVERecord?id=CVE-2025-13837
     PublishedDate: '2025-12-01T18:16:04.38Z'
-    LastModifiedDate: '2025-12-02T18:15:47.697Z'
+    LastModifiedDate: '2025-12-22T20:15:44.377Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python-unversioned-command@3.9.21-2.el9_6.2.noarch
     PkgName: python-unversioned-command
@@ -39596,6 +39610,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 2
       cbl-mariner: 2
@@ -39608,7 +39623,21 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
     - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-4516
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -39649,6 +39678,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
@@ -39664,7 +39694,21 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
@@ -39716,6 +39760,7 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
@@ -39731,7 +39776,21 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
     - https://github.com/python/cpython/commit/162997bb70e067668c039700141770687bc8f267
@@ -39744,7 +39803,7 @@
     - https://github.com/python/cpython/issues/139700
     - https://github.com/python/cpython/pull/139702
     - https://linux.oracle.com/cve/CVE-2025-8291.html
-    - https://linux.oracle.com/errata/ELSA-2025-23342.html
+    - https://linux.oracle.com/errata/ELSA-2025-23940.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://ubuntu.com/security/notices/USN-7886-1
@@ -39773,6 +39832,7 @@
     Description: CPython 3.9 and earlier doesn't disallow configuring an empty list ("[]") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured).
     Severity: LOW
     VendorSeverity:
+      alma: 3
       amazon: 2
       bitnami: 2
       oracle-oval: 2
@@ -39787,7 +39847,21 @@
         V3Score: 2.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/28/4
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2024-5642
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e
     - https://github.com/python/cpython/commit/a2cdbb6e8188ba9ba8b356b28d91bff60e86fe31
     - https://github.com/python/cpython/issues/121227
@@ -39873,6 +39947,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      alma: 3
       amazon: 1
       azure: 1
       bitnami: 1
@@ -39885,7 +39960,21 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6075
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
     - https://github.com/python/cpython/commit/5dceb93486176e6b4a6d9754491005113eb23427
@@ -39943,13 +40032,17 @@
     - https://access.redhat.com/security/cve/CVE-2025-12084
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
+    - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
+    - https://github.com/python/cpython/commit/8d2d7bb2e754f8649a68ce4116271a4932f76907
+    - https://github.com/python/cpython/commit/9c9dda6625a2a90d2a06c657eee021d6be19842d
+    - https://github.com/python/cpython/commit/a696ba8b4d42fd632afc9bc88ad830a2e4cceed8
     - https://github.com/python/cpython/commit/ddcd2acd85d891a53e281c773b3093f9db953964
     - https://github.com/python/cpython/issues/142145
     - https://github.com/python/cpython/pull/142146
     - https://nvd.nist.gov/vuln/detail/CVE-2025-12084
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
     PublishedDate: '2025-12-03T19:15:55.05Z'
-    LastModifiedDate: '2025-12-16T21:13:09.597Z'
+    LastModifiedDate: '2025-12-22T20:15:44.103Z'
   - VulnerabilityID: CVE-2025-13836
     PkgID: python3@3.9.21-2.el9_6.2.x86_64
     PkgName: python3
@@ -39977,6 +40070,7 @@
         V3Score: 6.8
     References:
     - https://access.redhat.com/security/cve/CVE-2025-13836
+    - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
     - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
     - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
     - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
@@ -39986,7 +40080,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2025-12-05T17:16:01.917Z'
+    LastModifiedDate: '2025-12-22T20:15:44.253Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: python3@3.9.21-2.el9_6.2.x86_64
     PkgName: python3
@@ -40013,6 +40107,7 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2025-13837
+    - https://github.com/python/cpython/commit/5a8b19677d818fb41ee55f310233772e15aa1a2b
     - https://github.com/python/cpython/commit/694922cf40aa3a28f898b5f5ee08b71b4922df70
     - https://github.com/python/cpython/commit/71fa8eb8233b37f16c88b6e3e583b461b205d1ba
     - https://github.com/python/cpython/commit/b64441e4852383645af5b435411a6f849dd1b4cb
@@ -40022,7 +40117,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
     - https://www.cve.org/CVERecord?id=CVE-2025-13837
     PublishedDate: '2025-12-01T18:16:04.38Z'
-    LastModifiedDate: '2025-12-02T18:15:47.697Z'
+    LastModifiedDate: '2025-12-22T20:15:44.377Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3@3.9.21-2.el9_6.2.x86_64
     PkgName: python3
@@ -40043,6 +40138,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 2
       cbl-mariner: 2
@@ -40055,7 +40151,21 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
     - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-4516
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -40096,6 +40206,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
@@ -40111,7 +40222,21 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
@@ -40163,6 +40288,7 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
@@ -40178,7 +40304,21 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
     - https://github.com/python/cpython/commit/162997bb70e067668c039700141770687bc8f267
@@ -40191,7 +40331,7 @@
     - https://github.com/python/cpython/issues/139700
     - https://github.com/python/cpython/pull/139702
     - https://linux.oracle.com/cve/CVE-2025-8291.html
-    - https://linux.oracle.com/errata/ELSA-2025-23342.html
+    - https://linux.oracle.com/errata/ELSA-2025-23940.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://ubuntu.com/security/notices/USN-7886-1
@@ -40220,6 +40360,7 @@
     Description: CPython 3.9 and earlier doesn't disallow configuring an empty list ("[]") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured).
     Severity: LOW
     VendorSeverity:
+      alma: 3
       amazon: 2
       bitnami: 2
       oracle-oval: 2
@@ -40234,7 +40375,21 @@
         V3Score: 2.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/28/4
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2024-5642
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e
     - https://github.com/python/cpython/commit/a2cdbb6e8188ba9ba8b356b28d91bff60e86fe31
     - https://github.com/python/cpython/issues/121227
@@ -40320,6 +40475,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      alma: 3
       amazon: 1
       azure: 1
       bitnami: 1
@@ -40332,7 +40488,21 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6075
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
     - https://github.com/python/cpython/commit/5dceb93486176e6b4a6d9754491005113eb23427
@@ -40390,13 +40560,17 @@
     - https://access.redhat.com/security/cve/CVE-2025-12084
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
+    - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
+    - https://github.com/python/cpython/commit/8d2d7bb2e754f8649a68ce4116271a4932f76907
+    - https://github.com/python/cpython/commit/9c9dda6625a2a90d2a06c657eee021d6be19842d
+    - https://github.com/python/cpython/commit/a696ba8b4d42fd632afc9bc88ad830a2e4cceed8
     - https://github.com/python/cpython/commit/ddcd2acd85d891a53e281c773b3093f9db953964
     - https://github.com/python/cpython/issues/142145
     - https://github.com/python/cpython/pull/142146
     - https://nvd.nist.gov/vuln/detail/CVE-2025-12084
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
     PublishedDate: '2025-12-03T19:15:55.05Z'
-    LastModifiedDate: '2025-12-16T21:13:09.597Z'
+    LastModifiedDate: '2025-12-22T20:15:44.103Z'
   - VulnerabilityID: CVE-2025-13836
     PkgID: python3-libs@3.9.21-2.el9_6.2.x86_64
     PkgName: python3-libs
@@ -40424,6 +40598,7 @@
         V3Score: 6.8
     References:
     - https://access.redhat.com/security/cve/CVE-2025-13836
+    - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
     - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
     - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
     - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
@@ -40433,7 +40608,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2025-12-05T17:16:01.917Z'
+    LastModifiedDate: '2025-12-22T20:15:44.253Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: python3-libs@3.9.21-2.el9_6.2.x86_64
     PkgName: python3-libs
@@ -40460,6 +40635,7 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2025-13837
+    - https://github.com/python/cpython/commit/5a8b19677d818fb41ee55f310233772e15aa1a2b
     - https://github.com/python/cpython/commit/694922cf40aa3a28f898b5f5ee08b71b4922df70
     - https://github.com/python/cpython/commit/71fa8eb8233b37f16c88b6e3e583b461b205d1ba
     - https://github.com/python/cpython/commit/b64441e4852383645af5b435411a6f849dd1b4cb
@@ -40469,7 +40645,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
     - https://www.cve.org/CVERecord?id=CVE-2025-13837
     PublishedDate: '2025-12-01T18:16:04.38Z'
-    LastModifiedDate: '2025-12-02T18:15:47.697Z'
+    LastModifiedDate: '2025-12-22T20:15:44.377Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3-libs@3.9.21-2.el9_6.2.x86_64
     PkgName: python3-libs
@@ -40490,6 +40666,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 2
       cbl-mariner: 2
@@ -40502,7 +40679,21 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
     - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-4516
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -40543,6 +40734,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
@@ -40558,7 +40750,21 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
@@ -40610,6 +40816,7 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
@@ -40625,7 +40832,21 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
     - https://github.com/python/cpython/commit/162997bb70e067668c039700141770687bc8f267
@@ -40638,7 +40859,7 @@
     - https://github.com/python/cpython/issues/139700
     - https://github.com/python/cpython/pull/139702
     - https://linux.oracle.com/cve/CVE-2025-8291.html
-    - https://linux.oracle.com/errata/ELSA-2025-23342.html
+    - https://linux.oracle.com/errata/ELSA-2025-23940.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://ubuntu.com/security/notices/USN-7886-1
@@ -40667,6 +40888,7 @@
     Description: CPython 3.9 and earlier doesn't disallow configuring an empty list ("[]") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured).
     Severity: LOW
     VendorSeverity:
+      alma: 3
       amazon: 2
       bitnami: 2
       oracle-oval: 2
@@ -40681,7 +40903,21 @@
         V3Score: 2.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/28/4
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2024-5642
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e
     - https://github.com/python/cpython/commit/a2cdbb6e8188ba9ba8b356b28d91bff60e86fe31
     - https://github.com/python/cpython/issues/121227
@@ -40767,6 +41003,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      alma: 3
       amazon: 1
       azure: 1
       bitnami: 1
@@ -40779,7 +41016,21 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6075
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://bugzilla.redhat.com/2373234
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
     - https://github.com/python/cpython/commit/5dceb93486176e6b4a6d9754491005113eb23427
@@ -40922,13 +41173,14 @@
     - https://access.redhat.com/security/cve/CVE-2025-50181
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/f05b1329126d5be6de501f9d1e3e36738bc08857
+    - https://github.com/urllib3/urllib3/releases/tag/2.5.0
     - https://github.com/urllib3/urllib3/security/advisories/GHSA-pq67-6m6q-mj2v
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50181
     - https://ubuntu.com/security/notices/USN-7599-1
     - https://ubuntu.com/security/notices/USN-7599-2
     - https://www.cve.org/CVERecord?id=CVE-2025-50181
     PublishedDate: '2025-06-19T01:15:24.453Z'
-    LastModifiedDate: '2025-09-18T13:51:10.24Z'
+    LastModifiedDate: '2025-12-22T19:15:49.04Z'
   - VulnerabilityID: CVE-2025-50182
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
@@ -40950,12 +41202,16 @@
     - CWE-601
     VendorSeverity:
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.3
@@ -40963,12 +41219,13 @@
     - https://access.redhat.com/security/cve/CVE-2025-50182
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/7eb4a2aafe49a279c29b6d1f0ed0f42e9736194f
+    - https://github.com/urllib3/urllib3/releases/tag/2.5.0
     - https://github.com/urllib3/urllib3/security/advisories/GHSA-48p4-8xcf-vxj5
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50182
     - https://ubuntu.com/security/notices/USN-7599-1
     - https://www.cve.org/CVERecord?id=CVE-2025-50182
     PublishedDate: '2025-06-19T02:15:17.967Z'
-    LastModifiedDate: '2025-06-30T19:15:25.017Z'
+    LastModifiedDate: '2025-12-22T19:15:49.177Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
