@@ -35348,7 +35348,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -35499,7 +35499,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
@@ -35561,7 +35561,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -35712,7 +35712,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
@@ -35843,13 +35843,13 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/16/2
-    - https://access.redhat.com/errata/RHSA-2025:22175
+    - https://access.redhat.com/errata/RHSA-2025:21974
     - https://access.redhat.com/security/cve/CVE-2025-59375
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
-    - https://errata.almalinux.org/9/ALSA-2025-22175.html
-    - https://errata.rockylinux.org/RLSA-2025:19403
+    - https://errata.almalinux.org/8/ALSA-2025-21974.html
+    - https://errata.rockylinux.org/RLSA-2025:22175
     - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
     - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
     - https://github.com/libexpat/libexpat/issues/1018
@@ -36930,7 +36930,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -37081,7 +37081,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
@@ -37143,7 +37143,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -37294,7 +37294,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
@@ -38483,13 +38483,13 @@
         V3Score: 5.6
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/30/5
-    - https://access.redhat.com/errata/RHSA-2025:21255
+    - https://access.redhat.com/errata/RHSA-2025:21248
     - https://access.redhat.com/security/cve/CVE-2025-9230
     - https://bugzilla.redhat.com/2396054
     - https://bugzilla.redhat.com/show_bug.cgi?id=2396054
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9230
-    - https://errata.almalinux.org/9/ALSA-2025-21255.html
-    - https://errata.rockylinux.org/RLSA-2025:21248
+    - https://errata.almalinux.org/10/ALSA-2025-21248.html
+    - https://errata.rockylinux.org/RLSA-2025:21255
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
     - https://github.com/openssl/openssl/commit/a79c4ce559c6a3a8fd4109e9f33c1185d5bf2def
@@ -38557,7 +38557,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:16046
+    - https://access.redhat.com/errata/RHSA-2025:15699
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -38717,7 +38717,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
@@ -38903,13 +38903,13 @@
         V3Score: 5.6
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/30/5
-    - https://access.redhat.com/errata/RHSA-2025:21255
+    - https://access.redhat.com/errata/RHSA-2025:21248
     - https://access.redhat.com/security/cve/CVE-2025-9230
     - https://bugzilla.redhat.com/2396054
     - https://bugzilla.redhat.com/show_bug.cgi?id=2396054
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9230
-    - https://errata.almalinux.org/9/ALSA-2025-21255.html
-    - https://errata.rockylinux.org/RLSA-2025:21248
+    - https://errata.almalinux.org/10/ALSA-2025-21248.html
+    - https://errata.rockylinux.org/RLSA-2025:21255
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
     - https://github.com/openssl/openssl/commit/a79c4ce559c6a3a8fd4109e9f33c1185d5bf2def
@@ -38977,7 +38977,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:16046
+    - https://access.redhat.com/errata/RHSA-2025:15699
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -39137,7 +39137,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
@@ -39614,6 +39614,7 @@
       amazon: 3
       azure: 2
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -39649,6 +39650,8 @@
     - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
     - https://github.com/python/cpython/issues/133767
     - https://github.com/python/cpython/pull/129648
+    - https://linux.oracle.com/cve/CVE-2025-4516.html
+    - https://linux.oracle.com/errata/ELSA-2025-23530.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
     - https://ubuntu.com/security/notices/USN-7570-1
@@ -39678,12 +39681,12 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
-      oracle-oval: 2
+      oracle-oval: 3
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -39695,9 +39698,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6069
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -39709,7 +39720,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
@@ -39722,7 +39733,7 @@
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
     - https://linux.oracle.com/cve/CVE-2025-6069.html
-    - https://linux.oracle.com/errata/ELSA-2025-23342.html
+    - https://linux.oracle.com/errata/ELSA-2025-23530.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -39762,7 +39773,7 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
@@ -39779,9 +39790,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-8291
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -39793,7 +39812,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -39836,10 +39855,10 @@
     Description: CPython 3.9 and earlier doesn't disallow configuring an empty list ("[]") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured).
     Severity: LOW
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       bitnami: 2
-      oracle-oval: 2
+      oracle-oval: 3
       redhat: 1
       rocky: 2
       ubuntu: 1
@@ -39852,9 +39871,17 @@
         V3Score: 2.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/28/4
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2024-5642
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -39866,7 +39893,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e
     - https://github.com/python/cpython/commit/a2cdbb6e8188ba9ba8b356b28d91bff60e86fe31
@@ -39874,7 +39901,7 @@
     - https://github.com/python/cpython/pull/23014
     - https://jbp.io/2024/06/27/cve-2024-5535-openssl-memory-safety.html
     - https://linux.oracle.com/cve/CVE-2024-5642.html
-    - https://linux.oracle.com/errata/ELSA-2025-23342.html
+    - https://linux.oracle.com/errata/ELSA-2025-23530.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PLP2JI3PJY33YG6P5BZYSSNU66HASXBQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-5642
     - https://security.netapp.com/advisory/ntap-20240726-0005/
@@ -39953,12 +39980,12 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 1
       azure: 1
       bitnami: 1
       cbl-mariner: 1
-      oracle-oval: 2
+      oracle-oval: 3
       redhat: 1
       rocky: 2
       ubuntu: 2
@@ -39967,9 +39994,17 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -39981,7 +40016,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
@@ -39999,7 +40034,7 @@
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main-branch)
     - https://github.com/python/cpython/issues/136065
     - https://linux.oracle.com/cve/CVE-2025-6075.html
-    - https://linux.oracle.com/errata/ELSA-2025-23342.html
+    - https://linux.oracle.com/errata/ELSA-2025-23530.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
     - https://ubuntu.com/security/notices/USN-7886-1
@@ -40150,6 +40185,7 @@
       amazon: 3
       azure: 2
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -40185,6 +40221,8 @@
     - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
     - https://github.com/python/cpython/issues/133767
     - https://github.com/python/cpython/pull/129648
+    - https://linux.oracle.com/cve/CVE-2025-4516.html
+    - https://linux.oracle.com/errata/ELSA-2025-23530.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
     - https://ubuntu.com/security/notices/USN-7570-1
@@ -40214,12 +40252,12 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
-      oracle-oval: 2
+      oracle-oval: 3
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -40231,9 +40269,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6069
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -40245,7 +40291,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
@@ -40258,7 +40304,7 @@
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
     - https://linux.oracle.com/cve/CVE-2025-6069.html
-    - https://linux.oracle.com/errata/ELSA-2025-23342.html
+    - https://linux.oracle.com/errata/ELSA-2025-23530.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -40298,7 +40344,7 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
@@ -40315,9 +40361,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-8291
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -40329,7 +40383,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -40372,10 +40426,10 @@
     Description: CPython 3.9 and earlier doesn't disallow configuring an empty list ("[]") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured).
     Severity: LOW
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       bitnami: 2
-      oracle-oval: 2
+      oracle-oval: 3
       redhat: 1
       rocky: 2
       ubuntu: 1
@@ -40388,9 +40442,17 @@
         V3Score: 2.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/28/4
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2024-5642
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -40402,7 +40464,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e
     - https://github.com/python/cpython/commit/a2cdbb6e8188ba9ba8b356b28d91bff60e86fe31
@@ -40410,7 +40472,7 @@
     - https://github.com/python/cpython/pull/23014
     - https://jbp.io/2024/06/27/cve-2024-5535-openssl-memory-safety.html
     - https://linux.oracle.com/cve/CVE-2024-5642.html
-    - https://linux.oracle.com/errata/ELSA-2025-23342.html
+    - https://linux.oracle.com/errata/ELSA-2025-23530.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PLP2JI3PJY33YG6P5BZYSSNU66HASXBQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-5642
     - https://security.netapp.com/advisory/ntap-20240726-0005/
@@ -40489,12 +40551,12 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 1
       azure: 1
       bitnami: 1
       cbl-mariner: 1
-      oracle-oval: 2
+      oracle-oval: 3
       redhat: 1
       rocky: 2
       ubuntu: 2
@@ -40503,9 +40565,17 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -40517,7 +40587,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
@@ -40535,7 +40605,7 @@
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main-branch)
     - https://github.com/python/cpython/issues/136065
     - https://linux.oracle.com/cve/CVE-2025-6075.html
-    - https://linux.oracle.com/errata/ELSA-2025-23342.html
+    - https://linux.oracle.com/errata/ELSA-2025-23530.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
     - https://ubuntu.com/security/notices/USN-7886-1
@@ -40686,6 +40756,7 @@
       amazon: 3
       azure: 2
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -40721,6 +40792,8 @@
     - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
     - https://github.com/python/cpython/issues/133767
     - https://github.com/python/cpython/pull/129648
+    - https://linux.oracle.com/cve/CVE-2025-4516.html
+    - https://linux.oracle.com/errata/ELSA-2025-23530.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
     - https://ubuntu.com/security/notices/USN-7570-1
@@ -40750,12 +40823,12 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
-      oracle-oval: 2
+      oracle-oval: 3
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -40767,9 +40840,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6069
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -40781,7 +40862,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
@@ -40794,7 +40875,7 @@
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
     - https://linux.oracle.com/cve/CVE-2025-6069.html
-    - https://linux.oracle.com/errata/ELSA-2025-23342.html
+    - https://linux.oracle.com/errata/ELSA-2025-23530.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -40834,7 +40915,7 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
@@ -40851,9 +40932,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-8291
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -40865,7 +40954,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -40908,10 +40997,10 @@
     Description: CPython 3.9 and earlier doesn't disallow configuring an empty list ("[]") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured).
     Severity: LOW
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       bitnami: 2
-      oracle-oval: 2
+      oracle-oval: 3
       redhat: 1
       rocky: 2
       ubuntu: 1
@@ -40924,9 +41013,17 @@
         V3Score: 2.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/28/4
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2024-5642
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -40938,7 +41035,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e
     - https://github.com/python/cpython/commit/a2cdbb6e8188ba9ba8b356b28d91bff60e86fe31
@@ -40946,7 +41043,7 @@
     - https://github.com/python/cpython/pull/23014
     - https://jbp.io/2024/06/27/cve-2024-5535-openssl-memory-safety.html
     - https://linux.oracle.com/cve/CVE-2024-5642.html
-    - https://linux.oracle.com/errata/ELSA-2025-23342.html
+    - https://linux.oracle.com/errata/ELSA-2025-23530.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PLP2JI3PJY33YG6P5BZYSSNU66HASXBQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-5642
     - https://security.netapp.com/advisory/ntap-20240726-0005/
@@ -41025,12 +41122,12 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 1
       azure: 1
       bitnami: 1
       cbl-mariner: 1
-      oracle-oval: 2
+      oracle-oval: 3
       redhat: 1
       rocky: 2
       ubuntu: 2
@@ -41039,9 +41136,17 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -41053,7 +41158,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
@@ -41071,7 +41176,7 @@
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main-branch)
     - https://github.com/python/cpython/issues/136065
     - https://linux.oracle.com/cve/CVE-2025-6075.html
-    - https://linux.oracle.com/errata/ELSA-2025-23342.html
+    - https://linux.oracle.com/errata/ELSA-2025-23530.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
     - https://ubuntu.com/security/notices/USN-7886-1
@@ -41121,14 +41226,14 @@
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.2
     References:
-    - https://access.redhat.com/errata/RHSA-2024:2132
+    - https://access.redhat.com/errata/RHSA-2024:2968
     - https://access.redhat.com/security/cve/CVE-2023-45803
     - https://bugzilla.redhat.com/2246840
     - https://bugzilla.redhat.com/2257028
     - https://bugzilla.redhat.com/2257854
     - https://bugzilla.redhat.com/show_bug.cgi?id=2246840
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45803
-    - https://errata.almalinux.org/9/ALSA-2024-2132.html
+    - https://errata.almalinux.org/8/ALSA-2024-2968.html
     - https://errata.rockylinux.org/RLSA-2024:11238
     - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-212.yaml
     - https://github.com/urllib3/urllib3
@@ -41435,13 +41540,13 @@
     - http://seclists.org/fulldisclosure/2025/Sep/57
     - http://seclists.org/fulldisclosure/2025/Sep/58
     - http://www.openwall.com/lists/oss-security/2025/09/06/1
-    - https://access.redhat.com/errata/RHSA-2025:20936
+    - https://access.redhat.com/errata/RHSA-2025:14101
     - https://access.redhat.com/security/cve/CVE-2025-6965
     - https://bugzilla.redhat.com/2380149
     - https://bugzilla.redhat.com/show_bug.cgi?id=2380149
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965
-    - https://errata.almalinux.org/9/ALSA-2025-20936.html
-    - https://errata.rockylinux.org/RLSA-2025:11933
+    - https://errata.almalinux.org/8/ALSA-2025-14101.html
+    - https://errata.rockylinux.org/RLSA-2025:20936
     - https://linux.oracle.com/cve/CVE-2025-6965.html
     - https://linux.oracle.com/errata/ELSA-2025-20936.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
