@@ -36185,8 +36185,8 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68973
     Fingerprint: sha256:f3be47253140012bd0e040b8f61b8ef18a27e13b92cb0d2dda3c38f82bce01f0
-    Title: In GnuPG through 2.4.8, armor_filter in g10/armor.c has two increments ...
-    Description: In GnuPG through 2.4.8, armor_filter in g10/armor.c has two increments of an index variable where one is intended, leading to an out-of-bounds write for crafted input. (For ExtendedLTS, 2.2.51 and later are fixed versions.)
+    Title: 'GnuPG: GnuPG: Information disclosure and potential arbitrary code execution via out-of-bounds write'
+    Description: In GnuPG before 2.4.9, armor_filter in g10/armor.c has two increments of an index variable where one is intended, leading to an out-of-bounds write for crafted input. (For ExtendedLTS, 2.2.51 and later are fixed versions.)
     Severity: HIGH
     CweIDs:
     - CWE-675
@@ -36208,7 +36208,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-68973
     - https://www.openwall.com/lists/oss-security/2025/12/28/5
     PublishedDate: '2025-12-28T17:16:01.5Z'
-    LastModifiedDate: '2025-12-29T19:15:57.26Z'
+    LastModifiedDate: '2025-12-31T04:15:53.42Z'
   - VulnerabilityID: CVE-2025-68972
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -39604,10 +39604,15 @@
     Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
     Severity: MEDIUM
     CweIDs:
+    - CWE-125
     - CWE-400
     VendorSeverity:
+      nvd: 4
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 9.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 6.8
@@ -39623,7 +39628,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2025-12-22T20:15:44.253Z'
+    LastModifiedDate: '2025-12-30T15:08:14.027Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: python-unversioned-command@3.9.21-2.el9_6.2.noarch
     PkgName: python-unversioned-command
@@ -39682,7 +39687,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -40143,10 +40148,15 @@
     Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
     Severity: MEDIUM
     CweIDs:
+    - CWE-125
     - CWE-400
     VendorSeverity:
+      nvd: 4
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 9.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 6.8
@@ -40162,7 +40172,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2025-12-22T20:15:44.253Z'
+    LastModifiedDate: '2025-12-30T15:08:14.027Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: python3@3.9.21-2.el9_6.2.x86_64
     PkgName: python3
@@ -40221,7 +40231,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -40682,10 +40692,15 @@
     Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
     Severity: MEDIUM
     CweIDs:
+    - CWE-125
     - CWE-400
     VendorSeverity:
+      nvd: 4
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 9.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 6.8
@@ -40701,7 +40716,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2025-12-22T20:15:44.253Z'
+    LastModifiedDate: '2025-12-30T15:08:14.027Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: python3-libs@3.9.21-2.el9_6.2.x86_64
     PkgName: python3-libs
@@ -40760,7 +40775,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
