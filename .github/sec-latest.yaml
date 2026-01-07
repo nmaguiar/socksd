@@ -2325,7 +2325,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 3
       cbl-mariner: 3
       photon: 3
@@ -2422,6 +2422,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       redhat: 3
@@ -2466,7 +2467,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -2578,7 +2579,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-53057
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-53066
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61748
-    - https://errata.almalinux.org/8/ALSA-2025-18824.html
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
     - https://errata.rockylinux.org/RLSA-2025:21485
     - https://linux.oracle.com/cve/CVE-2025-53057.html
     - https://linux.oracle.com/errata/ELSA-2025-21485.html
@@ -2641,7 +2642,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-53057
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-53066
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61748
-    - https://errata.almalinux.org/8/ALSA-2025-18824.html
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
     - https://errata.rockylinux.org/RLSA-2025:21485
     - https://linux.oracle.com/cve/CVE-2025-53066.html
     - https://linux.oracle.com/errata/ELSA-2025-21485.html
@@ -2704,7 +2705,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-53057
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-53066
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61748
-    - https://errata.almalinux.org/8/ALSA-2025-18824.html
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
     - https://errata.rockylinux.org/RLSA-2025:21485
     - https://linux.oracle.com/cve/CVE-2025-61748.html
     - https://linux.oracle.com/errata/ELSA-2025-21485.html
@@ -2762,7 +2763,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-53057
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-53066
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61748
-    - https://errata.almalinux.org/8/ALSA-2025-18824.html
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
     - https://errata.rockylinux.org/RLSA-2025:21485
     - https://linux.oracle.com/cve/CVE-2025-53057.html
     - https://linux.oracle.com/errata/ELSA-2025-21485.html
@@ -2825,7 +2826,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-53057
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-53066
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61748
-    - https://errata.almalinux.org/8/ALSA-2025-18824.html
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
     - https://errata.rockylinux.org/RLSA-2025:21485
     - https://linux.oracle.com/cve/CVE-2025-53066.html
     - https://linux.oracle.com/errata/ELSA-2025-21485.html
@@ -2888,7 +2889,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-53057
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-53066
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61748
-    - https://errata.almalinux.org/8/ALSA-2025-18824.html
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
     - https://errata.rockylinux.org/RLSA-2025:21485
     - https://linux.oracle.com/cve/CVE-2025-61748.html
     - https://linux.oracle.com/errata/ELSA-2025-21485.html
