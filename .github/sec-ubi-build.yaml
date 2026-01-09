@@ -35200,6 +35200,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      amazon: 2
       nvd: 2
       photon: 2
       redhat: 2
@@ -35244,6 +35245,7 @@
     - CWE-124
     - CWE-129
     VendorSeverity:
+      amazon: 2
       azure: 2
       nvd: 2
       photon: 2
@@ -35331,6 +35333,7 @@
       This prevents curl from detecting MITM attackers and more.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -35363,10 +35366,10 @@
     Fingerprint: sha256:e820570717e828c1513489f68b9876057c3d74156095b6665579917e2e6b7de8
     Title: 'curl: libcurl: Curl out of bounds read for cookie path'
     Description: |-
-      1. A cookie is set using the `secure` keyword for `https://target`
-      2. curl is redirected to or otherwise made to speak with `http://target` (same
-         hostname, but using clear text HTTP) using the same cookie set
-      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+      1. A cookie is set using the `secure` keyword for `https://target` 
+       2. curl is redirected to or otherwise made to speak with `http://target` (same 
+         hostname, but using clear text HTTP) using the same cookie set 
+       3. The same cookie name is set - but with just a slash as path (`path=\"/\",`).
          Since this site is not secure, the cookie *should* just be ignored.
       4. A bug in the path comparison logic makes curl read outside a heap buffer
          boundary
@@ -35382,7 +35385,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -35411,7 +35414,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2026-01-05T03:15:50.813Z'
+    LastModifiedDate: '2026-01-08T10:15:54.737Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: curl-minimal@7.76.1-34.el9.x86_64
     PkgName: curl-minimal
@@ -35438,6 +35441,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 3
+      amazon: 2
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -35451,7 +35455,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -35602,7 +35606,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
@@ -35664,7 +35668,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -35815,7 +35819,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
@@ -36252,9 +36256,14 @@
     Severity: HIGH
     CweIDs:
     - CWE-675
+    - CWE-787
     VendorSeverity:
+      nvd: 3
       redhat: 3
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
         V3Score: 7.8
@@ -36271,7 +36280,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-68973
     - https://www.openwall.com/lists/oss-security/2025/12/28/5
     PublishedDate: '2025-12-28T17:16:01.5Z'
-    LastModifiedDate: '2026-01-02T21:15:56.803Z'
+    LastModifiedDate: '2026-01-07T14:45:55.817Z'
   - VulnerabilityID: CVE-2025-68972
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -36409,9 +36418,11 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
       cbl-mariner: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -36420,12 +36431,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 7.1
     References:
+    - https://access.redhat.com/errata/RHSA-2026:0241
     - https://access.redhat.com/security/cve/CVE-2025-64720
+    - https://bugzilla.redhat.com/2416904
+    - https://bugzilla.redhat.com/2416907
+    - https://bugzilla.redhat.com/2418711
+    - https://errata.almalinux.org/8/ALSA-2026-0241.html
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643 (v1.6.51)
     - https://github.com/pnggroup/libpng/issues/686
     - https://github.com/pnggroup/libpng/pull/751
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww
+    - https://linux.oracle.com/cve/CVE-2025-64720.html
+    - https://linux.oracle.com/errata/ELSA-2026-0241.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64720
     - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-64720
@@ -36453,9 +36471,11 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
       cbl-mariner: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -36464,7 +36484,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H
         V3Score: 7.1
     References:
+    - https://access.redhat.com/errata/RHSA-2026:0241
     - https://access.redhat.com/security/cve/CVE-2025-65018
+    - https://bugzilla.redhat.com/2416904
+    - https://bugzilla.redhat.com/2416907
+    - https://bugzilla.redhat.com/2418711
+    - https://errata.almalinux.org/8/ALSA-2026-0241.html
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d (v1.6.51)
     - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
@@ -36472,6 +36497,8 @@
     - https://github.com/pnggroup/libpng/issues/755
     - https://github.com/pnggroup/libpng/pull/757
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g
+    - https://linux.oracle.com/cve/CVE-2025-65018.html
+    - https://linux.oracle.com/errata/ELSA-2026-0241.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-65018
     - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-65018
@@ -36498,9 +36525,11 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
       cbl-mariner: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -36510,11 +36539,18 @@
     - http://www.openwall.com/lists/oss-security/2025/12/03/6
     - http://www.openwall.com/lists/oss-security/2025/12/03/7
     - http://www.openwall.com/lists/oss-security/2025/12/03/8
+    - https://access.redhat.com/errata/RHSA-2026:0241
     - https://access.redhat.com/security/cve/CVE-2025-66293
+    - https://bugzilla.redhat.com/2416904
+    - https://bugzilla.redhat.com/2416907
+    - https://bugzilla.redhat.com/2418711
+    - https://errata.almalinux.org/8/ALSA-2026-0241.html
     - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
     - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
     - https://github.com/pnggroup/libpng/issues/764
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-9mpm-9pxh-mg4f
+    - https://linux.oracle.com/cve/CVE-2025-66293.html
+    - https://linux.oracle.com/errata/ELSA-2026-0241.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-66293
     - https://www.cve.org/CVERecord?id=CVE-2025-66293
     PublishedDate: '2025-12-03T21:15:53.06Z'
@@ -36752,8 +36788,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H
         V3Score: 6.6
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L
-        V3Score: 3.9
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H
+        V3Score: 6.6
     References:
     - https://access.redhat.com/security/cve/CVE-2025-5915
     - https://bugzilla.redhat.com/show_bug.cgi?id=2370865
@@ -36763,7 +36799,7 @@
     - https://ubuntu.com/security/notices/USN-7601-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5915
     PublishedDate: '2025-06-09T20:15:26.317Z'
-    LastModifiedDate: '2025-08-25T02:28:51.487Z'
+    LastModifiedDate: '2026-01-08T04:15:55.353Z'
   - VulnerabilityID: CVE-2025-5916
     PkgID: libarchive@3.5.3-6.el9_6.x86_64
     PkgName: libarchive
@@ -36947,6 +36983,7 @@
       This prevents curl from detecting MITM attackers and more.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -36979,10 +37016,10 @@
     Fingerprint: sha256:de471fc05400e67c076235c5ed882dda15abd435b8f5e2bde1761220731d7b73
     Title: 'curl: libcurl: Curl out of bounds read for cookie path'
     Description: |-
-      1. A cookie is set using the `secure` keyword for `https://target`
-      2. curl is redirected to or otherwise made to speak with `http://target` (same
-         hostname, but using clear text HTTP) using the same cookie set
-      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+      1. A cookie is set using the `secure` keyword for `https://target` 
+       2. curl is redirected to or otherwise made to speak with `http://target` (same 
+         hostname, but using clear text HTTP) using the same cookie set 
+       3. The same cookie name is set - but with just a slash as path (`path=\"/\",`).
          Since this site is not secure, the cookie *should* just be ignored.
       4. A bug in the path comparison logic makes curl read outside a heap buffer
          boundary
@@ -36998,7 +37035,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -37027,7 +37064,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2026-01-05T03:15:50.813Z'
+    LastModifiedDate: '2026-01-08T10:15:54.737Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: libcurl-minimal@7.76.1-34.el9.x86_64
     PkgName: libcurl-minimal
@@ -37054,6 +37091,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 3
+      amazon: 2
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -37067,7 +37105,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -37218,7 +37256,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
@@ -37280,7 +37318,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -37431,7 +37469,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
@@ -38561,7 +38599,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:16046
+    - https://access.redhat.com/errata/RHSA-2025:15699
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -38721,7 +38759,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
@@ -38902,7 +38940,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:16046
+    - https://access.redhat.com/errata/RHSA-2025:15699
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -39062,7 +39100,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
@@ -39416,8 +39454,10 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      alma: 2
       amazon: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       nvd:
@@ -39427,7 +39467,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:0123
     - https://access.redhat.com/security/cve/CVE-2025-12084
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2418655
+    - https://errata.almalinux.org/8/ALSA-2026-0123.html
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
     - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
@@ -39437,6 +39481,8 @@
     - https://github.com/python/cpython/commit/ddcd2acd85d891a53e281c773b3093f9db953964
     - https://github.com/python/cpython/issues/142145
     - https://github.com/python/cpython/pull/142146
+    - https://linux.oracle.com/cve/CVE-2025-12084.html
+    - https://linux.oracle.com/errata/ELSA-2026-0123.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-12084
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
     PublishedDate: '2025-12-03T19:15:55.05Z'
@@ -39462,6 +39508,7 @@
     - CWE-125
     - CWE-400
     VendorSeverity:
+      amazon: 2
       nvd: 4
       redhat: 2
     CVSS:
@@ -39501,6 +39548,8 @@
     Title: 'cpython: Out-of-memory when loading Plist'
     Description: When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues
     Severity: MEDIUM
+    CweIDs:
+    - CWE-400
     VendorSeverity:
       amazon: 2
       bitnami: 1
@@ -39521,7 +39570,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
     - https://www.cve.org/CVERecord?id=CVE-2025-13837
     PublishedDate: '2025-12-01T18:16:04.38Z'
-    LastModifiedDate: '2025-12-22T20:15:44.377Z'
+    LastModifiedDate: '2026-01-07T16:15:48.747Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
     PkgName: python-unversioned-command
@@ -39656,8 +39705,10 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      alma: 2
       amazon: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       nvd:
@@ -39667,7 +39718,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:0123
     - https://access.redhat.com/security/cve/CVE-2025-12084
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2418655
+    - https://errata.almalinux.org/8/ALSA-2026-0123.html
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
     - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
@@ -39677,6 +39732,8 @@
     - https://github.com/python/cpython/commit/ddcd2acd85d891a53e281c773b3093f9db953964
     - https://github.com/python/cpython/issues/142145
     - https://github.com/python/cpython/pull/142146
+    - https://linux.oracle.com/cve/CVE-2025-12084.html
+    - https://linux.oracle.com/errata/ELSA-2026-0123.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-12084
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
     PublishedDate: '2025-12-03T19:15:55.05Z'
@@ -39702,6 +39759,7 @@
     - CWE-125
     - CWE-400
     VendorSeverity:
+      amazon: 2
       nvd: 4
       redhat: 2
     CVSS:
@@ -39741,6 +39799,8 @@
     Title: 'cpython: Out-of-memory when loading Plist'
     Description: When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues
     Severity: MEDIUM
+    CweIDs:
+    - CWE-400
     VendorSeverity:
       amazon: 2
       bitnami: 1
@@ -39761,7 +39821,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
     - https://www.cve.org/CVERecord?id=CVE-2025-13837
     PublishedDate: '2025-12-01T18:16:04.38Z'
-    LastModifiedDate: '2025-12-22T20:15:44.377Z'
+    LastModifiedDate: '2026-01-07T16:15:48.747Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3@3.9.25-2.el9_7.x86_64
     PkgName: python3
@@ -39896,8 +39956,10 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      alma: 2
       amazon: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       nvd:
@@ -39907,7 +39969,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:0123
     - https://access.redhat.com/security/cve/CVE-2025-12084
+    - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2418655
+    - https://errata.almalinux.org/8/ALSA-2026-0123.html
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
     - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
@@ -39917,6 +39983,8 @@
     - https://github.com/python/cpython/commit/ddcd2acd85d891a53e281c773b3093f9db953964
     - https://github.com/python/cpython/issues/142145
     - https://github.com/python/cpython/pull/142146
+    - https://linux.oracle.com/cve/CVE-2025-12084.html
+    - https://linux.oracle.com/errata/ELSA-2026-0123.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-12084
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
     PublishedDate: '2025-12-03T19:15:55.05Z'
@@ -39942,6 +40010,7 @@
     - CWE-125
     - CWE-400
     VendorSeverity:
+      amazon: 2
       nvd: 4
       redhat: 2
     CVSS:
@@ -39981,6 +40050,8 @@
     Title: 'cpython: Out-of-memory when loading Plist'
     Description: When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues
     Severity: MEDIUM
+    CweIDs:
+    - CWE-400
     VendorSeverity:
       amazon: 2
       bitnami: 1
@@ -40001,7 +40072,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
     - https://www.cve.org/CVERecord?id=CVE-2025-13837
     PublishedDate: '2025-12-01T18:16:04.38Z'
-    LastModifiedDate: '2025-12-22T20:15:44.377Z'
+    LastModifiedDate: '2026-01-07T16:15:48.747Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3-libs@3.9.25-2.el9_7.x86_64
     PkgName: python3-libs
@@ -40158,15 +40229,45 @@
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.2
     References:
-    - https://access.redhat.com/errata/RHSA-2024:2132
+    - https://access.redhat.com/errata/RHSA-2024:2968
     - https://access.redhat.com/security/cve/CVE-2023-45803
     - https://bugzilla.redhat.com/2246840
     - https://bugzilla.redhat.com/2257028
     - https://bugzilla.redhat.com/2257854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1983596
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1989575
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2132867
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2132868
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2132872
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2228743
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237773
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237776
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237777
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237778
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2244340
     - https://bugzilla.redhat.com/show_bug.cgi?id=2246840
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2253193
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2253330
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2254210
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262272
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25091
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33198
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34558
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2879
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2880
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41715
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29409
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39318
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39319
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39321
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39322
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39326
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45287
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45803
-    - https://errata.almalinux.org/9/ALSA-2024-2132.html
-    - https://errata.rockylinux.org/RLSA-2024:11238
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23650
+    - https://errata.almalinux.org/8/ALSA-2024-2968.html
+    - https://errata.rockylinux.org/RLSA-2024:2988
     - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-212.yaml
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/4e50fbc5db74e32cabd5ccc1ab81fc103adfe0b3
