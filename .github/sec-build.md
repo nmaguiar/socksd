@@ -2373,7 +2373,8 @@
 │                             │                   Denial of Service. This issue is fixed in version 1.34.6. 
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-416 
-│                             ├ VendorSeverity   ╭ redhat: 2 
+│                             ├ VendorSeverity   ╭ amazon: 2 
+│                             │                  ├ redhat: 2 
 │                             │                  ╰ ubuntu: 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
 │                             │                           │           A:H 
