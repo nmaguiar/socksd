@@ -35155,7 +35155,7 @@
     - https://github.com/OpenPrinting/cups/releases/tag/v2.4.15
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-8wpw-vfgm-qrrr
     - https://linux.oracle.com/cve/CVE-2025-58436.html
-    - https://linux.oracle.com/errata/ELSA-2026-0312.html
+    - https://linux.oracle.com/errata/ELSA-2026-0464.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58436
     - https://ubuntu.com/security/notices/USN-7912-1
     - https://ubuntu.com/security/notices/USN-7912-2
@@ -35205,7 +35205,7 @@
     - https://github.com/OpenPrinting/cups/releases/tag/v2.4.15
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-hxm8-vfpq-jrfc
     - https://linux.oracle.com/cve/CVE-2025-61915.html
-    - https://linux.oracle.com/errata/ELSA-2026-0312.html
+    - https://linux.oracle.com/errata/ELSA-2026-0464.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61915
     - https://ubuntu.com/security/notices/USN-7897-1
     - https://www.cve.org/CVERecord?id=CVE-2025-61915
@@ -39769,6 +39769,7 @@
       amazon: 2
       nvd: 4
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
@@ -39781,11 +39782,14 @@
     - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
     - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
     - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155 (3.14 branch)
     - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5 (main)
     - https://github.com/python/cpython/issues/119451
     - https://github.com/python/cpython/pull/119454
     - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
+    - https://ubuntu.com/security/notices/USN-7951-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
     LastModifiedDate: '2025-12-30T15:08:14.027Z'
@@ -40332,6 +40336,7 @@
       amazon: 2
       nvd: 4
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
@@ -40344,11 +40349,14 @@
     - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
     - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
     - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155 (3.14 branch)
     - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5 (main)
     - https://github.com/python/cpython/issues/119451
     - https://github.com/python/cpython/pull/119454
     - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
+    - https://ubuntu.com/security/notices/USN-7951-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
     LastModifiedDate: '2025-12-30T15:08:14.027Z'
@@ -40895,6 +40903,7 @@
       amazon: 2
       nvd: 4
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
@@ -40907,11 +40916,14 @@
     - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
     - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
     - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155 (3.14 branch)
     - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5 (main)
     - https://github.com/python/cpython/issues/119451
     - https://github.com/python/cpython/pull/119454
     - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
+    - https://ubuntu.com/security/notices/USN-7951-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
     LastModifiedDate: '2025-12-30T15:08:14.027Z'
