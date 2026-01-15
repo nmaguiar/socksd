@@ -2156,6 +2156,7 @@
     - CWE-416
     VendorSeverity:
       amazon: 2
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2171,6 +2172,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-62408
     PublishedDate: '2025-12-08T22:15:52.62Z'
     LastModifiedDate: '2025-12-09T18:37:33.427Z'
+  - VulnerabilityID: CVE-2025-13151
+    PkgID: libtasn1@4.20.0-r0
+    PkgName: libtasn1
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libtasn1@4.20.0-r0?arch=x86_64&distro=3.23.0
+      UID: e85d6de4c4cb9425
+    InstalledVersion: 4.20.0-r0
+    FixedVersion: 4.21.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:37a01e8383453e8e123903650a553e4dcea30ce5530e4a6a8a8c7f568e002f54
+      DiffID: sha256:0d032489739388e607964de06e67727fb4f9f10a770fae2471e96625ab009a9c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13151
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:624e6cf881eafeecc83c65bee8cda33224e7e629790b8b19467a6b71af3c2c25
+    Title: 'libtasn1: libtasn1: Denial of Service via stack-based buffer overflow in asn1_expend_octet_string'
+    Description: 'Stack-based buffer overflow in libtasn1 version: v4.20.0. The function fails to validate the size of input data resulting in a buffer overflow in asn1_expend_octet_string.'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/08/5
+    - https://access.redhat.com/security/cve/CVE-2025-13151
+    - https://gitlab.com/gnutls/libtasn1
+    - https://gitlab.com/gnutls/libtasn1/-/merge_requests/121
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13151
+    - https://ubuntu.com/security/notices/USN-7954-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13151
+    PublishedDate: '2026-01-07T22:15:43.2Z'
+    LastModifiedDate: '2026-01-08T19:15:55.983Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
