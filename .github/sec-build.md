@@ -2346,49 +2346,89 @@
 │     │                        ├ Digest        : sha1:d507b8ac3c4335a40405ac20e49bac9d43642be6 
 │     │                        ╰ InstalledFiles ╭ [0]: usr/lib/libzstd.so.1 
 │     │                                         ╰ [1]: usr/lib/libzstd.so.1.5.7 
-│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2025-62408 
-│                             ├ PkgID           : c-ares@1.34.5-r0 
-│                             ├ PkgName         : c-ares 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/c-ares@1.34.5-r0?arch=x86_64&distro=3.2
-│                             │                  │       3.0 
-│                             │                  ╰ UID : 52587364bf1be7a9 
-│                             ├ InstalledVersion: 1.34.5-r0 
-│                             ├ FixedVersion    : 1.34.6-r0 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-62408 
+│                       │     ├ PkgID           : c-ares@1.34.5-r0 
+│                       │     ├ PkgName         : c-ares 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/c-ares@1.34.5-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.0 
+│                       │     │                  ╰ UID : 52587364bf1be7a9 
+│                       │     ├ InstalledVersion: 1.34.5-r0 
+│                       │     ├ FixedVersion    : 1.34.6-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:37a01e8383453e8e123903650a553e4dcea30ce5530e4
+│                       │     │                  │         a6a8a8c7f568e002f54 
+│                       │     │                  ╰ DiffID: sha256:0d032489739388e607964de06e67727fb4f9f10a770fa
+│                       │     │                            e2471e96625ab009a9c 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-62408 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:fc5fe0043f6deca74d446ae191c0c6bff71e8888a1e59f9338c281
+│                       │     │                   fb28b45cd9 
+│                       │     ├ Title           : c-ares: c-ares: Denial of Service due to query termination
+│                       │     │                   after maximum attempts 
+│                       │     ├ Description     : c-ares is an asynchronous resolver library. Versions 1.32.3
+│                       │     │                   through 1.34.5  terminate a query after maximum attempts when
+│                       │     │                    using read_answer() and process_answer(), which can cause a
+│                       │     │                   Denial of Service. This issue is fixed in version 1.34.6. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs           ─ [0]: CWE-416 
+│                       │     ├ VendorSeverity   ╭ amazon: 2 
+│                       │     │                  ├ azure : 2 
+│                       │     │                  ├ redhat: 2 
+│                       │     │                  ╰ ubuntu: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 5.9 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-62408 
+│                       │     │                  ├ [1]: https://github.com/c-ares/c-ares/commit/714bf5675c541bd
+│                       │     │                  │      1e668a8db8e67ce012651e618 
+│                       │     │                  ├ [2]: https://github.com/c-ares/c-ares/security/advisories/GH
+│                       │     │                  │      SA-jq53-42q6-pqr5 
+│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-62408 
+│                       │     │                  ├ [4]: https://ubuntu.com/security/notices/USN-7925-1 
+│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-62408 
+│                       │     ├ PublishedDate   : 2025-12-08T22:15:52.62Z 
+│                       │     ╰ LastModifiedDate: 2025-12-09T18:37:33.427Z 
+│                       ╰ [1] ╭ VulnerabilityID : CVE-2025-13151 
+│                             ├ PkgID           : libtasn1@4.20.0-r0 
+│                             ├ PkgName         : libtasn1 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libtasn1@4.20.0-r0?arch=x86_64&distro=3
+│                             │                  │       .23.0 
+│                             │                  ╰ UID : e85d6de4c4cb9425 
+│                             ├ InstalledVersion: 4.20.0-r0 
+│                             ├ FixedVersion    : 4.21.0-r0 
 │                             ├ Status          : fixed 
 │                             ├ Layer            ╭ Digest: sha256:37a01e8383453e8e123903650a553e4dcea30ce5530e4
 │                             │                  │         a6a8a8c7f568e002f54 
 │                             │                  ╰ DiffID: sha256:0d032489739388e607964de06e67727fb4f9f10a770fa
 │                             │                            e2471e96625ab009a9c 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-62408 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13151 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:fc5fe0043f6deca74d446ae191c0c6bff71e8888a1e59f9338c281
-│                             │                   fb28b45cd9 
-│                             ├ Title           : c-ares: c-ares: Denial of Service due to query termination
-│                             │                   after maximum attempts 
-│                             ├ Description     : c-ares is an asynchronous resolver library. Versions 1.32.3
-│                             │                   through 1.34.5  terminate a query after maximum attempts when
-│                             │                    using read_answer() and process_answer(), which can cause a
-│                             │                   Denial of Service. This issue is fixed in version 1.34.6. 
+│                             ├ Fingerprint     : sha256:624e6cf881eafeecc83c65bee8cda33224e7e629790b8b19467a6b
+│                             │                   71af3c2c25 
+│                             ├ Title           : libtasn1: libtasn1: Denial of Service via stack-based buffer
+│                             │                   overflow in asn1_expend_octet_string 
+│                             ├ Description     : Stack-based buffer overflow in libtasn1 version: v4.20.0. The
+│                             │                    function fails to validate the size of input data resulting
+│                             │                   in a buffer overflow in asn1_expend_octet_string. 
 │                             ├ Severity        : MEDIUM 
-│                             ├ CweIDs           ─ [0]: CWE-416 
-│                             ├ VendorSeverity   ╭ amazon: 2 
-│                             │                  ├ redhat: 2 
+│                             ├ VendorSeverity   ╭ redhat: 1 
 │                             │                  ╰ ubuntu: 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
 │                             │                           │           A:H 
 │                             │                           ╰ V3Score : 5.9 
-│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-62408 
-│                             │                  ├ [1]: https://github.com/c-ares/c-ares/commit/714bf5675c541bd
-│                             │                  │      1e668a8db8e67ce012651e618 
-│                             │                  ├ [2]: https://github.com/c-ares/c-ares/security/advisories/GH
-│                             │                  │      SA-jq53-42q6-pqr5 
-│                             │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-62408 
-│                             │                  ├ [4]: https://ubuntu.com/security/notices/USN-7925-1 
-│                             │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-62408 
-│                             ├ PublishedDate   : 2025-12-08T22:15:52.62Z 
-│                             ╰ LastModifiedDate: 2025-12-09T18:37:33.427Z 
+│                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/08/5 
+│                             │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-13151 
+│                             │                  ├ [2]: https://gitlab.com/gnutls/libtasn1 
+│                             │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/merge_requests/121 
+│                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-13151 
+│                             │                  ├ [5]: https://ubuntu.com/security/notices/USN-7954-1 
+│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-13151 
+│                             ├ PublishedDate   : 2026-01-07T22:15:43.2Z 
+│                             ╰ LastModifiedDate: 2026-01-08T19:15:55.983Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
