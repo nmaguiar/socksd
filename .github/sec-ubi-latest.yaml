@@ -34966,6 +34966,110 @@
     - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
     PublishedDate: '2025-12-18T21:15:53.637Z'
     LastModifiedDate: '2025-12-19T22:15:51.283Z'
+  - VulnerabilityID: CVE-2025-68276
+    PkgID: avahi-libs@0.8-22.el9_6.1.x86_64
+    PkgName: avahi-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/avahi-libs@0.8-22.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: 8e3c5b60950d393e
+    InstalledVersion: 0.8-22.el9_6.1
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68276
+    Fingerprint: sha256:9b73a252bba7e955a8ad19f9220442a9b0dcce84e3635d63c7b10e0b752d8b00
+    Title: 'avahi: Avahi: Denial of Service via D-Bus record browsers with AVAHI_LOOKUP_USE_WIDE_AREA flag'
+    Description: |-
+      Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In 0.9-rc2 and earlier, an unprivileged local users can crash avahi-daemon (with wide-area disabled) by creating record browsers with the AVAHI_LOOKUP_USE_WIDE_AREA flag set via D-Bus. This can be done by either calling
+      the RecordBrowserNew method directly or creating hostname/address/service resolvers/browsers that create those browsers internally themselves.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68276
+    - https://github.com/avahi/avahi/commit/ede7048475c5d47d53890e3bc1350dda8e0b3688
+    - https://github.com/avahi/avahi/pull/806
+    - https://github.com/avahi/avahi/security/advisories/GHSA-mhf3-865v-g5rc
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68276
+    - https://www.cve.org/CVERecord?id=CVE-2025-68276
+    PublishedDate: '2026-01-12T18:15:47.56Z'
+    LastModifiedDate: '2026-01-13T14:03:18.99Z'
+  - VulnerabilityID: CVE-2025-68468
+    PkgID: avahi-libs@0.8-22.el9_6.1.x86_64
+    PkgName: avahi-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/avahi-libs@0.8-22.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: 8e3c5b60950d393e
+    InstalledVersion: 0.8-22.el9_6.1
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68468
+    Fingerprint: sha256:69f44d65a9ca7ccf790672cd3d42de83c47c0ca8eefe169e9bbc427ff6c9f8cb
+    Title: 'avahi: Avahi: Denial of Service via crafted mDNS/DNS-SD announcements'
+    Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In 0.9-rc2 and earlier, avahi-daemon can be crashed by sending unsolicited announcements containing CNAME resource records pointing it to resource records with short TTLs. As soon as they expire avahi-daemon crashes.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68468
+    - https://github.com/avahi/avahi/commit/f66be13d7f31a3ef806d226bf8b67240179d309a
+    - https://github.com/avahi/avahi/issues/683
+    - https://github.com/avahi/avahi/security/advisories/GHSA-cp79-r4x9-vf52
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68468
+    - https://www.cve.org/CVERecord?id=CVE-2025-68468
+    PublishedDate: '2026-01-12T18:15:48.173Z'
+    LastModifiedDate: '2026-01-13T14:03:18.99Z'
+  - VulnerabilityID: CVE-2025-68471
+    PkgID: avahi-libs@0.8-22.el9_6.1.x86_64
+    PkgName: avahi-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/avahi-libs@0.8-22.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: 8e3c5b60950d393e
+    InstalledVersion: 0.8-22.el9_6.1
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68471
+    Fingerprint: sha256:5d51abd550abba99e87a0dd588cc9970b35ef1ade931e3f4559a985baa6ec7a8
+    Title: 'avahi: Avahi: Denial of Service via unsolicited CNAME announcements'
+    Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In 0.9-rc2 and earlier, avahi-daemon can be crashed by sending 2 unsolicited announcements with CNAME resource records 2 seconds apart.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68471
+    - https://github.com/avahi/avahi/commit/9c6eb53bf2e290aed84b1f207e3ce35c54cc0aa1
+    - https://github.com/avahi/avahi/issues/678
+    - https://github.com/avahi/avahi/security/advisories/GHSA-56rf-42xr-qmmg
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68471
+    - https://www.cve.org/CVERecord?id=CVE-2025-68471
+    PublishedDate: '2026-01-12T18:15:48.327Z'
+    LastModifiedDate: '2026-01-13T14:03:18.99Z'
   - VulnerabilityID: CVE-2017-6519
     PkgID: avahi-libs@0.8-22.el9_6.1.x86_64
     PkgName: avahi-libs
@@ -35115,13 +35219,16 @@
     PublishedDate: '2023-09-21T23:15:12.293Z'
     LastModifiedDate: '2025-11-04T17:15:41.697Z'
   - VulnerabilityID: CVE-2025-58436
+    VendorIDs:
+    - RHSA-2026:0312
     PkgID: cups-libs@2.3.3op2-33.el9_6.1.x86_64
     PkgName: cups-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-33.el9_6.1?arch=x86_64&distro=redhat-9.6&epoch=1
       UID: aa958d0314eef245
     InstalledVersion: 1:2.3.3op2-33.el9_6.1
-    Status: affected
+    FixedVersion: 1:2.3.3op2-34.el9_7.2
+    Status: fixed
     Layer:
       Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
       DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
@@ -35163,13 +35270,16 @@
     PublishedDate: '2025-11-29T03:15:59.323Z'
     LastModifiedDate: '2025-12-04T17:24:12.92Z'
   - VulnerabilityID: CVE-2025-61915
+    VendorIDs:
+    - RHSA-2026:0312
     PkgID: cups-libs@2.3.3op2-33.el9_6.1.x86_64
     PkgName: cups-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-33.el9_6.1?arch=x86_64&distro=redhat-9.6&epoch=1
       UID: aa958d0314eef245
     InstalledVersion: 1:2.3.3op2-33.el9_6.1
-    Status: affected
+    FixedVersion: 1:2.3.3op2-34.el9_7.2
+    Status: fixed
     Layer:
       Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
       DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
@@ -35292,6 +35402,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-10966
     PublishedDate: '2025-11-07T08:15:39.617Z'
     LastModifiedDate: '2025-11-12T16:20:22.257Z'
+  - VulnerabilityID: CVE-2025-14017
+    PkgID: curl-minimal@7.76.1-31.el9_6.1.x86_64
+    PkgName: curl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-31.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: cd810536d1efc95a
+    InstalledVersion: 7.76.1-31.el9_6.1
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14017
+    Fingerprint: sha256:5a8cdcc49505b0b84edce6e9534d93fdee0c35a0a1b50859f773091f5fb8ba6f
+    Title: 'curl: curl: Security bypass due to global TLS option changes in multi-threaded LDAPS transfers'
+    Description: |-
+      When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,
+      changing TLS options in one thread would inadvertently change them globally
+      and therefore possibly also affect other concurrently setup transfers.
+
+      Disabling certificate verification for a specific transfer could
+      unintentionally disable the feature for other threads as well.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/3
+    - https://access.redhat.com/security/cve/CVE-2025-14017
+    - https://curl.se/docs/CVE-2025-14017.html
+    - https://curl.se/docs/CVE-2025-14017.json
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
+    - https://www.cve.org/CVERecord?id=CVE-2025-14017
+    PublishedDate: '2026-01-08T10:15:45.667Z'
+    LastModifiedDate: '2026-01-08T18:08:18.457Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: curl-minimal@7.76.1-31.el9_6.1.x86_64
     PkgName: curl-minimal
@@ -36053,6 +36201,7 @@
     - CWE-190
     VendorSeverity:
       amazon: 3
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -36090,6 +36239,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -36257,6 +36407,7 @@
     - CWE-675
     - CWE-787
     VendorSeverity:
+      azure: 3
       nvd: 3
       redhat: 3
       ubuntu: 3
@@ -36308,6 +36459,7 @@
     CweIDs:
     - CWE-347
     VendorSeverity:
+      azure: 2
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -36591,6 +36743,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-66293
     PublishedDate: '2025-12-03T21:15:53.06Z'
     LastModifiedDate: '2025-12-16T19:12:50.35Z'
+  - VulnerabilityID: CVE-2026-22184
+    PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-1.el9?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 543aea8b2a504135
+    InstalledVersion: 1:21.0.9.0.10-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22184
+    Fingerprint: sha256:49e516730150988938e6950ba3fd4310362363b11e15e88ae8ed37d9c9a1bd2d
+    Title: 'zlib: zlib: Arbitrary code execution via buffer overflow in untgz utility'
+    Description: zlib versions up to and including 1.3.1.2 contain a global buffer overflow in the untgz utility. The TGZfname() function copies an attacker-supplied archive name from argv[] into a fixed-size 1024-byte static global buffer using an unbounded strcpy() call without length validation. Supplying an archive name longer than 1024 bytes results in an out-of-bounds write that can lead to memory corruption, denial of service, and potentially code execution depending on compiler, build flags, architecture, and memory layout. The overflow occurs prior to any archive parsing or validation.
+    Severity: HIGH
+    CweIDs:
+    - CWE-120
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-22184
+    - https://github.com/madler/zlib
+    - https://github.com/madler/zlib/issues/1142
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-22184
+    - https://seclists.org/fulldisclosure/2026/Jan/3
+    - https://www.cve.org/CVERecord?id=CVE-2026-22184
+    - https://www.vulncheck.com/advisories/zlib-untgz-global-buffer-overflow-in-tgzfname
+    - https://zlib.net/
+    PublishedDate: '2026-01-07T21:16:01.563Z'
+    LastModifiedDate: '2026-01-12T08:16:01.557Z'
   - VulnerabilityID: CVE-2025-64505
     PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -36675,6 +36864,109 @@
     - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.3Z'
     LastModifiedDate: '2025-11-26T18:34:38.24Z'
+  - VulnerabilityID: CVE-2026-22693
+    PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-1.el9?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 543aea8b2a504135
+    InstalledVersion: 1:21.0.9.0.10-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22693
+    Fingerprint: sha256:fe41ce4a8118c9864de05cc23fbe48c761b87a29efc175069d4ead7c16a28e57
+    Title: 'harfbuzz: Null Pointer Dereference in harfbuzz'
+    Description: HarfBuzz is a text shaping engine. Prior to version 12.3.0, a null pointer dereference vulnerability exists in the SubtableUnicodesCache::create function located in src/hb-ot-cmap-table.hh. The function fails to check if hb_malloc returns NULL before using placement new to construct an object at the returned pointer address. When hb_malloc fails to allocate memory (which can occur in low-memory conditions or when using custom allocators that simulate allocation failures), it returns NULL. The code then attempts to call the constructor on this null pointer using placement new syntax, resulting in undefined behavior and a Segmentation Fault. This issue has been patched in version 12.3.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/11/1
+    - http://www.openwall.com/lists/oss-security/2026/01/12/1
+    - https://access.redhat.com/security/cve/CVE-2026-22693
+    - https://github.com/harfbuzz/harfbuzz/commit/1265ff8d990284f04d8768f35b0e20ae5f60daae
+    - https://github.com/harfbuzz/harfbuzz/security/advisories/GHSA-xvjr-f2r9-c7ww
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-22693
+    - https://www.cve.org/CVERecord?id=CVE-2026-22693
+    PublishedDate: '2026-01-10T06:15:52.063Z'
+    LastModifiedDate: '2026-01-13T14:03:18.99Z'
+  - VulnerabilityID: CVE-2026-22695
+    PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-1.el9?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 543aea8b2a504135
+    InstalledVersion: 1:21.0.9.0.10-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22695
+    Fingerprint: sha256:8004bd8078402bc8c670e1916c2271450d49f3b52eba53645ad19d1ad7a2983f
+    Title: 'libpng: libpng: Denial of service and information disclosure via heap buffer over-read in png_image_finish_read'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.51 to 1.6.53, there is a heap buffer over-read in the libpng simplified API function png_image_finish_read when processing interlaced 16-bit PNGs with 8-bit output format and non-minimal row stride. This is a regression introduced by the fix for CVE-2025-65018. This vulnerability is fixed in 1.6.54.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-22695
+    - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
+    - https://github.com/pnggroup/libpng/commit/e4f7ad4ea2
+    - https://github.com/pnggroup/libpng/issues/778
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-mmq5-27w3-rxpp
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-22695
+    - https://www.cve.org/CVERecord?id=CVE-2026-22695
+    PublishedDate: '2026-01-12T23:15:52.597Z'
+    LastModifiedDate: '2026-01-13T14:03:18.99Z'
+  - VulnerabilityID: CVE-2026-22801
+    PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-1.el9?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: 543aea8b2a504135
+    InstalledVersion: 1:21.0.9.0.10-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22801
+    Fingerprint: sha256:79904a97f787ad80c0034024b14f21f72464499fb4e13b59f2a18155a8d9d03c
+    Title: 'libpng: libpng: Information disclosure and denial of service via integer truncation in simplified write API'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.26 to 1.6.53, there is an integer truncation in the libpng simplified write API functions png_write_image_16bit and png_write_image_8bit causes heap buffer over-read when the caller provides a negative row stride (for bottom-up image layouts) or a stride exceeding 65535 bytes. The bug was introduced in libpng 1.6.26 (October 2016) by casts added to silence compiler warnings on 16-bit systems. This vulnerability is fixed in 1.6.54.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-22801
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-vgjq-8cw5-ggw8
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-22801
+    - https://www.cve.org/CVERecord?id=CVE-2026-22801
+    PublishedDate: '2026-01-12T23:15:52.907Z'
+    LastModifiedDate: '2026-01-13T14:03:18.99Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-6.el9_6.x86_64
     PkgName: libarchive
@@ -36985,6 +37277,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
     CVSS:
@@ -37037,6 +37330,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-10966
     PublishedDate: '2025-11-07T08:15:39.617Z'
     LastModifiedDate: '2025-11-12T16:20:22.257Z'
+  - VulnerabilityID: CVE-2025-14017
+    PkgID: libcurl-minimal@7.76.1-31.el9_6.1.x86_64
+    PkgName: libcurl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: 73acd586904554a7
+    InstalledVersion: 7.76.1-31.el9_6.1
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14017
+    Fingerprint: sha256:cc0544168168298ac9ebdc1b88dbc4805ed38bdbe4f64c77922b833e59826337
+    Title: 'curl: curl: Security bypass due to global TLS option changes in multi-threaded LDAPS transfers'
+    Description: |-
+      When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,
+      changing TLS options in one thread would inadvertently change them globally
+      and therefore possibly also affect other concurrently setup transfers.
+
+      Disabling certificate verification for a specific transfer could
+      unintentionally disable the feature for other threads as well.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/3
+    - https://access.redhat.com/security/cve/CVE-2025-14017
+    - https://curl.se/docs/CVE-2025-14017.html
+    - https://curl.se/docs/CVE-2025-14017.json
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
+    - https://www.cve.org/CVERecord?id=CVE-2025-14017
+    PublishedDate: '2026-01-08T10:15:45.667Z'
+    LastModifiedDate: '2026-01-08T18:08:18.457Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: libcurl-minimal@7.76.1-31.el9_6.1.x86_64
     PkgName: libcurl-minimal
@@ -37666,6 +37997,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
     CVSS:
@@ -37739,6 +38071,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
     CVSS:
@@ -37798,6 +38131,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
+  - VulnerabilityID: CVE-2025-13151
+    PkgID: libtasn1@4.16.0-9.el9.x86_64
+    PkgName: libtasn1
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libtasn1@4.16.0-9.el9?arch=x86_64&distro=redhat-9.6
+      UID: 1e35812fd536c937
+    InstalledVersion: 4.16.0-9.el9
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13151
+    Fingerprint: sha256:785f8c49e77e559c0dc93eebc5f3f6b26b8098c7630f47790ad870a5705f0627
+    Title: 'libtasn1: libtasn1: Denial of Service via stack-based buffer overflow in asn1_expend_octet_string'
+    Description: 'Stack-based buffer overflow in libtasn1 version: v4.20.0. The function fails to validate the size of input data resulting in a buffer overflow in asn1_expend_octet_string.'
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/08/5
+    - https://access.redhat.com/security/cve/CVE-2025-13151
+    - https://gitlab.com/gnutls/libtasn1
+    - https://gitlab.com/gnutls/libtasn1/-/merge_requests/121
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13151
+    - https://ubuntu.com/security/notices/USN-7954-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13151
+    PublishedDate: '2026-01-07T22:15:43.2Z'
+    LastModifiedDate: '2026-01-08T19:15:55.983Z'
   - VulnerabilityID: CVE-2025-14104
     PkgID: libuuid@2.37.4-21.el9.x86_64
     PkgName: libuuid
@@ -37818,6 +38185,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
     CVSS:
@@ -38642,6 +39010,43 @@
     - https://www.mozilla.org/security/advisories/mfsa2024-35/
     PublishedDate: '2024-08-06T13:15:57.787Z'
     LastModifiedDate: '2025-03-19T16:15:29.57Z'
+  - VulnerabilityID: CVE-2026-22185
+    PkgID: openldap@2.6.8-4.el9.x86_64
+    PkgName: openldap
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openldap@2.6.8-4.el9?arch=x86_64&distro=redhat-9.6
+      UID: 467fd672465e70f0
+    InstalledVersion: 2.6.8-4.el9
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22185
+    Fingerprint: sha256:635c4f86679a3858e91612e9e05e3676d53d82866891d2cca704856eaf0b2e99
+    Title: 'OpenLDAP: OpenLDAP LMDB: Denial of Service and Information Disclosure via Heap Buffer Underflow'
+    Description: OpenLDAP Lightning Memory-Mapped Database (LMDB) versions up to and including 0.9.14, prior to commit 8e1fda8, contain a heap buffer underflow in the readline() function of mdb_load. When processing malformed input containing an embedded NUL byte, an unsigned offset calculation can underflow and cause an out-of-bounds read of one byte before the allocated heap buffer. This can cause mdb_load to crash, leading to a limited denial-of-service condition.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-191
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-22185
+    - https://bugs.openldap.org/show_bug.cgi?id=10421
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-22185
+    - https://seclists.org/fulldisclosure/2026/Jan/5
+    - https://seclists.org/fulldisclosure/2026/Jan/8
+    - https://www.cve.org/CVERecord?id=CVE-2026-22185
+    - https://www.openldap.org/
+    - https://www.vulncheck.com/advisories/openldap-lmdb-mdb-load-heap-buffer-underflow-in-readline
+    PublishedDate: '2026-01-07T21:16:01.733Z'
+    LastModifiedDate: '2026-01-12T18:15:49.143Z'
   - VulnerabilityID: CVE-2025-9230
     VendorIDs:
     - RHSA-2025:21255
@@ -38978,7 +39383,6 @@
     VendorSeverity:
       amazon: 2
       redhat: 1
-      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -38989,7 +39393,6 @@
     - https://dheatattack.gitlab.io/faq/
     - https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a77fa5ca255d1
     - https://github.com/openssl/openssl/issues/17374
-    - https://github.com/openssl/openssl/pull/25088
     - https://nvd.nist.gov/vuln/detail/CVE-2024-41996
     - https://openssl-library.org/post/2022-10-21-tls-groups-configuration/
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
@@ -39398,7 +39801,6 @@
     VendorSeverity:
       amazon: 2
       redhat: 1
-      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -39409,7 +39811,6 @@
     - https://dheatattack.gitlab.io/faq/
     - https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a77fa5ca255d1
     - https://github.com/openssl/openssl/issues/17374
-    - https://github.com/openssl/openssl/pull/25088
     - https://nvd.nist.gov/vuln/detail/CVE-2024-41996
     - https://openssl-library.org/post/2022-10-21-tls-groups-configuration/
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
@@ -39708,6 +40109,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      azure: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -39767,6 +40169,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 2
       nvd: 4
       redhat: 2
       ubuntu: 2
@@ -39814,6 +40217,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 1
       bitnami: 1
       redhat: 2
     CVSS:
@@ -40275,6 +40679,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      azure: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -40334,6 +40739,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 2
       nvd: 4
       redhat: 2
       ubuntu: 2
@@ -40381,6 +40787,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 1
       bitnami: 1
       redhat: 2
     CVSS:
@@ -40842,6 +41249,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      azure: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -40901,6 +41309,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 2
       nvd: 4
       redhat: 2
       ubuntu: 2
@@ -40948,6 +41357,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 1
       bitnami: 1
       redhat: 2
     CVSS:
@@ -41847,6 +42257,7 @@
     - https://access.redhat.com/errata/RHSA-2025:22868
     - https://access.redhat.com/errata/RHSA-2025:23227
     - https://access.redhat.com/errata/RHSA-2025:23234
+    - https://access.redhat.com/errata/RHSA-2026:0414
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/2369242
@@ -41872,7 +42283,7 @@
     - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-12-16T10:15:42.77Z'
+    LastModifiedDate: '2026-01-13T23:16:03.237Z'
   - VulnerabilityID: CVE-2005-2541
     PkgID: tar@1.34-7.el9.x86_64
     PkgName: tar
@@ -41942,12 +42353,12 @@
         V3Score: 5.6
     References:
     - http://www.openwall.com/lists/oss-security/2025/11/01/6
-    - https://access.redhat.com/errata/RHSA-2026:0002
+    - https://access.redhat.com/errata/RHSA-2026:0067
     - https://access.redhat.com/security/cve/CVE-2025-45582
     - https://bugzilla.redhat.com/2379592
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
-    - https://errata.almalinux.org/10/ALSA-2026-0002.html
+    - https://errata.almalinux.org/9/ALSA-2026-0067.html
     - https://errata.rockylinux.org/RLSA-2026:0067
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
     - https://linux.oracle.com/cve/CVE-2025-45582.html
