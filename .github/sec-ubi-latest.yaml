@@ -35262,7 +35262,7 @@
     - https://github.com/OpenPrinting/cups/releases/tag/v2.4.15
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-8wpw-vfgm-qrrr
     - https://linux.oracle.com/cve/CVE-2025-58436.html
-    - https://linux.oracle.com/errata/ELSA-2026-0464.html
+    - https://linux.oracle.com/errata/ELSA-2026-0596.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58436
     - https://ubuntu.com/security/notices/USN-7912-1
     - https://ubuntu.com/security/notices/USN-7912-2
@@ -35315,7 +35315,7 @@
     - https://github.com/OpenPrinting/cups/releases/tag/v2.4.15
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-hxm8-vfpq-jrfc
     - https://linux.oracle.com/cve/CVE-2025-61915.html
-    - https://linux.oracle.com/errata/ELSA-2026-0464.html
+    - https://linux.oracle.com/errata/ELSA-2026-0596.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61915
     - https://ubuntu.com/security/notices/USN-7897-1
     - https://www.cve.org/CVERecord?id=CVE-2025-61915
@@ -35545,7 +35545,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -35696,7 +35696,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
@@ -35758,7 +35758,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -35909,7 +35909,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
@@ -36040,13 +36040,13 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/16/2
-    - https://access.redhat.com/errata/RHSA-2025:21030
+    - https://access.redhat.com/errata/RHSA-2025:21974
     - https://access.redhat.com/security/cve/CVE-2025-59375
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
-    - https://errata.almalinux.org/10/ALSA-2025-21030.html
-    - https://errata.rockylinux.org/RLSA-2025:22175
+    - https://errata.almalinux.org/8/ALSA-2025-21974.html
+    - https://errata.rockylinux.org/RLSA-2025:21776
     - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
     - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
     - https://github.com/libexpat/libexpat/issues/1018
@@ -36357,7 +36357,7 @@
       PURL: pkg:rpm/redhat/glib2@2.68.4-16.el9_6.2?arch=x86_64&distro=redhat-9.6
       UID: 1dd5437070f42602
     InstalledVersion: 2.68.4-16.el9_6.2
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
       DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
@@ -36386,14 +36386,140 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-7039
     PublishedDate: '2025-09-03T02:15:38.12Z'
     LastModifiedDate: '2025-09-04T15:36:56.447Z'
+  - VulnerabilityID: CVE-2026-0988
+    PkgID: glib2@2.68.4-16.el9_6.2.x86_64
+    PkgName: glib2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glib2@2.68.4-16.el9_6.2?arch=x86_64&distro=redhat-9.6
+      UID: 1dd5437070f42602
+    InstalledVersion: 2.68.4-16.el9_6.2
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0988
+    Fingerprint: sha256:3daa332f38c1bb9afc43a1bd54c4d3189bb1118d37da008d30b6a1d351e01d0d
+    Title: 'glib: GLib: Denial of Service via Integer Overflow in g_buffered_input_stream_peek()'
+    Description: No description is available for this CVE.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0988
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0988
+    - https://www.cve.org/CVERecord?id=CVE-2026-0988
+  - VulnerabilityID: CVE-2026-0861
+    PkgID: glibc@2.34-168.el9_6.23.x86_64
+    PkgName: glibc
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc@2.34-168.el9_6.23?arch=x86_64&distro=redhat-9.6
+      UID: c4e455c65dfa3867
+    InstalledVersion: 2.34-168.el9_6.23
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0861
+    Fingerprint: sha256:cba5ab16fb3e30f520a4703d24bbff3c7ac0a3e4b31bbc6c043bc69ad7420e6e
+    Title: 'glibc: Integer overflow in memalign leads to heap corruption'
+    Description: Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc, valloc, pvalloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.
+    Severity: HIGH
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0861
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
+    - https://www.cve.org/CVERecord?id=CVE-2026-0861
+    PublishedDate: '2026-01-14T21:15:52.617Z'
+    LastModifiedDate: '2026-01-14T22:15:53.233Z'
+  - VulnerabilityID: CVE-2026-0861
+    PkgID: glibc-common@2.34-168.el9_6.23.x86_64
+    PkgName: glibc-common
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-common@2.34-168.el9_6.23?arch=x86_64&distro=redhat-9.6
+      UID: 7bc18245474e93d5
+    InstalledVersion: 2.34-168.el9_6.23
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0861
+    Fingerprint: sha256:a6ed7f6ee8e41972bf4063a83261e888a65e3fa69e23e4a1de2ae78291fb82b0
+    Title: 'glibc: Integer overflow in memalign leads to heap corruption'
+    Description: Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc, valloc, pvalloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.
+    Severity: HIGH
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0861
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
+    - https://www.cve.org/CVERecord?id=CVE-2026-0861
+    PublishedDate: '2026-01-14T21:15:52.617Z'
+    LastModifiedDate: '2026-01-14T22:15:53.233Z'
+  - VulnerabilityID: CVE-2026-0861
+    PkgID: glibc-minimal-langpack@2.34-168.el9_6.23.x86_64
+    PkgName: glibc-minimal-langpack
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-168.el9_6.23?arch=x86_64&distro=redhat-9.6
+      UID: 59c9591df22f9207
+    InstalledVersion: 2.34-168.el9_6.23
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0861
+    Fingerprint: sha256:e5f6456d0d18947a88034a8e06cc4f0bf6c4b7b563d6477965c76c6b78b7ad67
+    Title: 'glibc: Integer overflow in memalign leads to heap corruption'
+    Description: Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc, valloc, pvalloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.
+    Severity: HIGH
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0861
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
+    - https://www.cve.org/CVERecord?id=CVE-2026-0861
+    PublishedDate: '2026-01-14T21:15:52.617Z'
+    LastModifiedDate: '2026-01-14T22:15:53.233Z'
   - VulnerabilityID: CVE-2025-68973
+    VendorIDs:
+    - RHSA-2026:0719
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/gnupg2@2.3.3-4.el9?arch=x86_64&distro=redhat-9.6
       UID: 5d232f71bf1b5ec0
     InstalledVersion: 2.3.3-4.el9
-    Status: affected
+    FixedVersion: 2.3.3-5.el9_7
+    Status: fixed
     Layer:
       Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
       DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
@@ -36409,6 +36535,7 @@
     VendorSeverity:
       azure: 3
       nvd: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -36430,6 +36557,8 @@
     - https://github.com/gpg/gnupg/commit/4ecc5122f20e10c17172ed72f4fa46c784b5fb48 (gnupg-2.4.9)
     - https://github.com/gpg/gnupg/compare/gnupg-2.2.50...gnupg-2.2.51
     - https://gpg.fail/memcpy
+    - https://linux.oracle.com/cve/CVE-2025-68973.html
+    - https://linux.oracle.com/errata/ELSA-2026-0719.html
     - https://lists.debian.org/debian-lts-announce/2026/01/msg00008.html
     - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
     - https://news.ycombinator.com/item?id=46403200
@@ -36597,7 +36726,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0237
+    - https://access.redhat.com/errata/RHSA-2026:0241
     - https://access.redhat.com/security/cve/CVE-2025-64720
     - https://bugzilla.redhat.com/2416904
     - https://bugzilla.redhat.com/2416907
@@ -36608,8 +36737,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
-    - https://errata.almalinux.org/10/ALSA-2026-0237.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.almalinux.org/8/ALSA-2026-0241.html
+    - https://errata.rockylinux.org/RLSA-2026:0241
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643 (v1.6.51)
     - https://github.com/pnggroup/libpng/issues/686
@@ -36658,7 +36787,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0237
+    - https://access.redhat.com/errata/RHSA-2026:0241
     - https://access.redhat.com/security/cve/CVE-2025-65018
     - https://bugzilla.redhat.com/2416904
     - https://bugzilla.redhat.com/2416907
@@ -36669,8 +36798,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
-    - https://errata.almalinux.org/10/ALSA-2026-0237.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.almalinux.org/8/ALSA-2026-0241.html
+    - https://errata.rockylinux.org/RLSA-2026:0241
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d (v1.6.51)
     - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
@@ -36722,7 +36851,7 @@
     - http://www.openwall.com/lists/oss-security/2025/12/03/6
     - http://www.openwall.com/lists/oss-security/2025/12/03/7
     - http://www.openwall.com/lists/oss-security/2025/12/03/8
-    - https://access.redhat.com/errata/RHSA-2026:0237
+    - https://access.redhat.com/errata/RHSA-2026:0241
     - https://access.redhat.com/security/cve/CVE-2025-66293
     - https://bugzilla.redhat.com/2416904
     - https://bugzilla.redhat.com/2416907
@@ -36733,8 +36862,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
-    - https://errata.almalinux.org/10/ALSA-2026-0237.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.almalinux.org/8/ALSA-2026-0241.html
+    - https://errata.rockylinux.org/RLSA-2026:0241
     - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
     - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
     - https://github.com/pnggroup/libpng/issues/764
@@ -36761,10 +36890,9 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22184
     Fingerprint: sha256:49e516730150988938e6950ba3fd4310362363b11e15e88ae8ed37d9c9a1bd2d
     Title: 'zlib: zlib: Arbitrary code execution via buffer overflow in untgz utility'
-    Description: zlib versions up to and including 1.3.1.2 contain a global buffer overflow in the untgz utility. The TGZfname() function copies an attacker-supplied archive name from argv[] into a fixed-size 1024-byte static global buffer using an unbounded strcpy() call without length validation. Supplying an archive name longer than 1024 bytes results in an out-of-bounds write that can lead to memory corruption, denial of service, and potentially code execution depending on compiler, build flags, architecture, and memory layout. The overflow occurs prior to any archive parsing or validation.
+    Description: zlib versions up to and including 1.3.1.2 include a global buffer overflow in the untgz utility located under contrib/untgz. The vulnerability is limited to the standalone demonstration utility and does not affect the core zlib compression library. The flaw occurs when a user executes the untgz command with an excessively long archive name supplied via the command line, leading to an out-of-bounds write in a fixed-size global buffer.
     Severity: HIGH
     CweIDs:
-    - CWE-120
     - CWE-787
     VendorSeverity:
       nvd: 4
@@ -36787,7 +36915,7 @@
     - https://www.vulncheck.com/advisories/zlib-untgz-global-buffer-overflow-in-tgzfname
     - https://zlib.net/
     PublishedDate: '2026-01-07T21:16:01.563Z'
-    LastModifiedDate: '2026-01-14T20:24:05.723Z'
+    LastModifiedDate: '2026-01-15T14:16:27.047Z'
   - VulnerabilityID: CVE-2025-64505
     PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -37487,7 +37615,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -37638,7 +37766,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
@@ -37700,7 +37828,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -37851,7 +37979,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
@@ -38267,6 +38395,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9714
     PublishedDate: '2025-09-10T19:15:42.707Z'
     LastModifiedDate: '2025-11-03T19:16:17.563Z'
+  - VulnerabilityID: CVE-2026-0990
+    PkgID: libxml2@2.9.13-12.el9_6.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-12.el9_6?arch=x86_64&distro=redhat-9.6
+      UID: d6fc3630b049eabb
+    InstalledVersion: 2.9.13-12.el9_6
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0990
+    Fingerprint: sha256:e2d79d9702420a89e85e7d4f4a09cf174a5ae17101fda39f5f5c540b9bef7eec
+    Title: 'libxml2: libxml2: Denial of Service via uncontrolled recursion in XML catalog processing'
+    Description: A flaw was found in libxml2, an XML parsing library. This uncontrolled recursion vulnerability occurs in the xmlCatalogXMLResolveURI function when an XML catalog contains a delegate URI entry that references itself. A remote attacker could exploit this configuration-dependent issue by providing a specially crafted XML catalog, leading to infinite recursion and call stack exhaustion. This ultimately results in a segmentation fault, causing a Denial of Service (DoS) by crashing affected applications.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429959
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0990
+    - https://www.cve.org/CVERecord?id=CVE-2026-0990
+    PublishedDate: '2026-01-15T15:15:52.503Z'
+    LastModifiedDate: '2026-01-15T15:15:52.503Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-12.el9_6.x86_64
     PkgName: libxml2
@@ -38454,6 +38614,70 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6170
     PublishedDate: '2025-06-16T16:15:20.43Z'
     LastModifiedDate: '2025-11-03T20:19:18.3Z'
+  - VulnerabilityID: CVE-2026-0989
+    PkgID: libxml2@2.9.13-12.el9_6.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-12.el9_6?arch=x86_64&distro=redhat-9.6
+      UID: d6fc3630b049eabb
+    InstalledVersion: 2.9.13-12.el9_6
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0989
+    Fingerprint: sha256:6eeaab23f1663e05fdf26cbefd24b4a0ed9e95ec35b8abee85acd629ba54881c
+    Title: 'libxml2: Unbounded RelaxNG Include Recursion Leading to Stack Overflow'
+    Description: A flaw was identified in the RelaxNG parser of libxml2 related to how external schema inclusions are handled. The parser does not enforce a limit on inclusion depth when resolving nested <include> directives. Specially crafted or overly complex schemas can cause excessive recursion during parsing. This may lead to stack exhaustion and application crashes, creating a denial-of-service risk.
+    Severity: LOW
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429933
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0989
+    - https://www.cve.org/CVERecord?id=CVE-2026-0989
+    PublishedDate: '2026-01-15T15:15:52.35Z'
+    LastModifiedDate: '2026-01-15T15:15:52.35Z'
+  - VulnerabilityID: CVE-2026-0992
+    PkgID: libxml2@2.9.13-12.el9_6.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-12.el9_6?arch=x86_64&distro=redhat-9.6
+      UID: d6fc3630b049eabb
+    InstalledVersion: 2.9.13-12.el9_6
+    Status: affected
+    Layer:
+      Digest: sha256:bb283ef2f1b094f3bb3797820a403a4645dd81ccd46b21e80bdd1a72d504217a
+      DiffID: sha256:0e347e0271e20579bcb61e263f5cd6b35b64aef924ecab75e8f41b4f8251c1ca
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0992
+    Fingerprint: sha256:d5243a1e7c6c9c8d4b1b2f26a5776dde7be826608659642ead4664d01a2441ae
+    Title: 'libxml2: libxml2: Denial of Service via crafted XML catalogs'
+    Description: A flaw was found in the libxml2 library. This uncontrolled resource consumption vulnerability occurs when processing XML catalogs that contain repeated <nextCatalog> elements pointing to the same downstream catalog. A remote attacker can exploit this by supplying crafted catalogs, causing the parser to redundantly traverse catalog chains. This leads to excessive CPU consumption and degrades application availability, resulting in a denial-of-service condition.
+    Severity: LOW
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429975
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0992
+    - https://www.cve.org/CVERecord?id=CVE-2026-0992
+    PublishedDate: '2026-01-15T15:15:52.657Z'
+    LastModifiedDate: '2026-01-15T15:15:52.657Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-base@6.2-10.20210508.el9_6.2.noarch
     PkgName: ncurses-base
@@ -39123,7 +39347,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2396054
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9230
     - https://errata.almalinux.org/10/ALSA-2025-21248.html
-    - https://errata.rockylinux.org/RLSA-2025:21255
+    - https://errata.rockylinux.org/RLSA-2025:21248
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
     - https://github.com/openssl/openssl/commit/a79c4ce559c6a3a8fd4109e9f33c1185d5bf2def
@@ -39132,7 +39356,7 @@
     - https://github.openssl.org/openssl/extended-releases/commit/c2b96348bfa662f25f4fabf81958ae822063dae3
     - https://github.openssl.org/openssl/extended-releases/commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba
     - https://linux.oracle.com/cve/CVE-2025-9230.html
-    - https://linux.oracle.com/errata/ELSA-2026-0337.html
+    - https://linux.oracle.com/errata/ELSA-2026-50008.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00001.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9230
     - https://openssl-library.org/news/secadv/20250930.txt
@@ -39541,7 +39765,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2396054
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9230
     - https://errata.almalinux.org/10/ALSA-2025-21248.html
-    - https://errata.rockylinux.org/RLSA-2025:21255
+    - https://errata.rockylinux.org/RLSA-2025:21248
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
     - https://github.com/openssl/openssl/commit/a79c4ce559c6a3a8fd4109e9f33c1185d5bf2def
@@ -39550,7 +39774,7 @@
     - https://github.openssl.org/openssl/extended-releases/commit/c2b96348bfa662f25f4fabf81958ae822063dae3
     - https://github.openssl.org/openssl/extended-releases/commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba
     - https://linux.oracle.com/cve/CVE-2025-9230.html
-    - https://linux.oracle.com/errata/ELSA-2026-0337.html
+    - https://linux.oracle.com/errata/ELSA-2026-50008.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00001.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9230
     - https://openssl-library.org/news/secadv/20250930.txt
@@ -40236,8 +40460,12 @@
       amazon: 2
       azure: 1
       bitnami: 1
+      nvd: 2
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 5.9
@@ -40253,7 +40481,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
     - https://www.cve.org/CVERecord?id=CVE-2025-13837
     PublishedDate: '2025-12-01T18:16:04.38Z'
-    LastModifiedDate: '2026-01-07T16:15:48.747Z'
+    LastModifiedDate: '2026-01-15T19:08:31.69Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python-unversioned-command@3.9.21-2.el9_6.2.noarch
     PkgName: python-unversioned-command
@@ -40345,7 +40573,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
@@ -40362,9 +40590,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6069
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -40376,7 +40612,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
@@ -40446,19 +40682,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23940
+    - https://access.redhat.com/errata/RHSA-2026:0123
     - https://access.redhat.com/security/cve/CVE-2025-8291
     - https://bugzilla.redhat.com/2402342
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
+    - https://bugzilla.redhat.com/2418655
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5642
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418655
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12084
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/10/ALSA-2025-23940.html
-    - https://errata.rockylinux.org/RLSA-2025:23342
+    - https://errata.almalinux.org/8/ALSA-2026-0123.html
+    - https://errata.rockylinux.org/RLSA-2026:0123
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
     - https://github.com/python/cpython/commit/162997bb70e067668c039700141770687bc8f267
@@ -40500,7 +40733,7 @@
     Description: CPython 3.9 and earlier doesn't disallow configuring an empty list ("[]") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured).
     Severity: LOW
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       bitnami: 2
       oracle-oval: 3
@@ -40516,9 +40749,17 @@
         V3Score: 2.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/28/4
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2024-5642
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -40530,7 +40771,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e
     - https://github.com/python/cpython/commit/a2cdbb6e8188ba9ba8b356b28d91bff60e86fe31
@@ -40617,7 +40858,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 1
       azure: 1
       bitnami: 1
@@ -40631,9 +40872,17 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -40645,7 +40894,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
@@ -40806,8 +41055,12 @@
       amazon: 2
       azure: 1
       bitnami: 1
+      nvd: 2
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 5.9
@@ -40823,7 +41076,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
     - https://www.cve.org/CVERecord?id=CVE-2025-13837
     PublishedDate: '2025-12-01T18:16:04.38Z'
-    LastModifiedDate: '2026-01-07T16:15:48.747Z'
+    LastModifiedDate: '2026-01-15T19:08:31.69Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3@3.9.21-2.el9_6.2.x86_64
     PkgName: python3
@@ -40915,7 +41168,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
@@ -40932,9 +41185,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6069
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -40946,7 +41207,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
@@ -41016,19 +41277,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23940
+    - https://access.redhat.com/errata/RHSA-2026:0123
     - https://access.redhat.com/security/cve/CVE-2025-8291
     - https://bugzilla.redhat.com/2402342
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
+    - https://bugzilla.redhat.com/2418655
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5642
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418655
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12084
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/10/ALSA-2025-23940.html
-    - https://errata.rockylinux.org/RLSA-2025:23342
+    - https://errata.almalinux.org/8/ALSA-2026-0123.html
+    - https://errata.rockylinux.org/RLSA-2026:0123
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
     - https://github.com/python/cpython/commit/162997bb70e067668c039700141770687bc8f267
@@ -41070,7 +41328,7 @@
     Description: CPython 3.9 and earlier doesn't disallow configuring an empty list ("[]") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured).
     Severity: LOW
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       bitnami: 2
       oracle-oval: 3
@@ -41086,9 +41344,17 @@
         V3Score: 2.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/28/4
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2024-5642
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -41100,7 +41366,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e
     - https://github.com/python/cpython/commit/a2cdbb6e8188ba9ba8b356b28d91bff60e86fe31
@@ -41187,7 +41453,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 1
       azure: 1
       bitnami: 1
@@ -41201,9 +41467,17 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -41215,7 +41489,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
@@ -41376,8 +41650,12 @@
       amazon: 2
       azure: 1
       bitnami: 1
+      nvd: 2
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 5.9
@@ -41393,7 +41671,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
     - https://www.cve.org/CVERecord?id=CVE-2025-13837
     PublishedDate: '2025-12-01T18:16:04.38Z'
-    LastModifiedDate: '2026-01-07T16:15:48.747Z'
+    LastModifiedDate: '2026-01-15T19:08:31.69Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3-libs@3.9.21-2.el9_6.2.x86_64
     PkgName: python3-libs
@@ -41485,7 +41763,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
@@ -41502,9 +41780,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6069
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -41516,7 +41802,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
@@ -41586,19 +41872,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23940
+    - https://access.redhat.com/errata/RHSA-2026:0123
     - https://access.redhat.com/security/cve/CVE-2025-8291
     - https://bugzilla.redhat.com/2402342
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
+    - https://bugzilla.redhat.com/2418655
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5642
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418655
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12084
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/10/ALSA-2025-23940.html
-    - https://errata.rockylinux.org/RLSA-2025:23342
+    - https://errata.almalinux.org/8/ALSA-2026-0123.html
+    - https://errata.rockylinux.org/RLSA-2026:0123
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
     - https://github.com/python/cpython/commit/162997bb70e067668c039700141770687bc8f267
@@ -41640,7 +41923,7 @@
     Description: CPython 3.9 and earlier doesn't disallow configuring an empty list ("[]") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured).
     Severity: LOW
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       bitnami: 2
       oracle-oval: 3
@@ -41656,9 +41939,17 @@
         V3Score: 2.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/28/4
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2024-5642
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -41670,7 +41961,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e
     - https://github.com/python/cpython/commit/a2cdbb6e8188ba9ba8b356b28d91bff60e86fe31
@@ -41757,7 +42048,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 1
       azure: 1
       bitnami: 1
@@ -41771,9 +42062,17 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23342
+    - https://access.redhat.com/errata/RHSA-2025:23530
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://bugzilla.redhat.com/2343237
+    - https://bugzilla.redhat.com/2366509
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -41785,7 +42084,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/9/ALSA-2025-23342.html
+    - https://errata.almalinux.org/8/ALSA-2025-23530.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
@@ -41853,15 +42152,45 @@
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.2
     References:
-    - https://access.redhat.com/errata/RHSA-2024:2132
+    - https://access.redhat.com/errata/RHSA-2024:2968
     - https://access.redhat.com/security/cve/CVE-2023-45803
     - https://bugzilla.redhat.com/2246840
     - https://bugzilla.redhat.com/2257028
     - https://bugzilla.redhat.com/2257854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1983596
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1989575
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2132867
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2132868
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2132872
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2228743
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237773
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237776
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237777
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237778
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2244340
     - https://bugzilla.redhat.com/show_bug.cgi?id=2246840
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2253193
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2253330
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2254210
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262272
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25091
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33198
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34558
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2879
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2880
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41715
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29409
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39318
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39319
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39321
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39322
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39326
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45287
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45803
-    - https://errata.almalinux.org/9/ALSA-2024-2132.html
-    - https://errata.rockylinux.org/RLSA-2024:11238
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23650
+    - https://errata.almalinux.org/8/ALSA-2024-2968.html
+    - https://errata.rockylinux.org/RLSA-2024:2988
     - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-212.yaml
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/4e50fbc5db74e32cabd5ccc1ab81fc103adfe0b3
@@ -42167,13 +42496,13 @@
     - http://seclists.org/fulldisclosure/2025/Sep/57
     - http://seclists.org/fulldisclosure/2025/Sep/58
     - http://www.openwall.com/lists/oss-security/2025/09/06/1
-    - https://access.redhat.com/errata/RHSA-2025:20936
+    - https://access.redhat.com/errata/RHSA-2025:14101
     - https://access.redhat.com/security/cve/CVE-2025-6965
     - https://bugzilla.redhat.com/2380149
     - https://bugzilla.redhat.com/show_bug.cgi?id=2380149
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965
-    - https://errata.almalinux.org/9/ALSA-2025-20936.html
-    - https://errata.rockylinux.org/RLSA-2025:20936
+    - https://errata.almalinux.org/8/ALSA-2025-14101.html
+    - https://errata.rockylinux.org/RLSA-2025:12010
     - https://linux.oracle.com/cve/CVE-2025-6965.html
     - https://linux.oracle.com/errata/ELSA-2025-20936.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
@@ -42373,7 +42702,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
     - https://errata.almalinux.org/10/ALSA-2026-0002.html
-    - https://errata.rockylinux.org/RLSA-2026:0067
+    - https://errata.rockylinux.org/RLSA-2026:0002
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
     - https://linux.oracle.com/cve/CVE-2025-45582.html
     - https://linux.oracle.com/errata/ELSA-2026-0067.html
