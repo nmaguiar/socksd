@@ -35031,7 +35031,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-59529
     - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
     PublishedDate: '2025-12-18T21:15:53.637Z'
-    LastModifiedDate: '2025-12-19T22:15:51.283Z'
+    LastModifiedDate: '2026-01-16T16:50:20.183Z'
   - VulnerabilityID: CVE-2025-68276
     PkgID: avahi-libs@0.8-23.el9.x86_64
     PkgName: avahi-libs
@@ -35067,7 +35067,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68276
     - https://www.cve.org/CVERecord?id=CVE-2025-68276
     PublishedDate: '2026-01-12T18:15:47.56Z'
-    LastModifiedDate: '2026-01-13T14:03:18.99Z'
+    LastModifiedDate: '2026-01-16T16:51:03.383Z'
   - VulnerabilityID: CVE-2025-68468
     PkgID: avahi-libs@0.8-23.el9.x86_64
     PkgName: avahi-libs
@@ -35101,7 +35101,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68468
     - https://www.cve.org/CVERecord?id=CVE-2025-68468
     PublishedDate: '2026-01-12T18:15:48.173Z'
-    LastModifiedDate: '2026-01-13T14:03:18.99Z'
+    LastModifiedDate: '2026-01-16T16:52:04.26Z'
   - VulnerabilityID: CVE-2025-68471
     PkgID: avahi-libs@0.8-23.el9.x86_64
     PkgName: avahi-libs
@@ -35135,7 +35135,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68471
     - https://www.cve.org/CVERecord?id=CVE-2025-68471
     PublishedDate: '2026-01-12T18:15:48.327Z'
-    LastModifiedDate: '2026-01-13T14:03:18.99Z'
+    LastModifiedDate: '2026-01-16T16:53:04.697Z'
   - VulnerabilityID: CVE-2017-6519
     PkgID: avahi-libs@0.8-23.el9.x86_64
     PkgName: avahi-libs
@@ -35326,45 +35326,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-25317
     PublishedDate: '2021-05-05T10:15:08.133Z'
     LastModifiedDate: '2024-11-21T05:54:44.187Z'
-  - VulnerabilityID: CVE-2025-10966
-    PkgID: curl-minimal@7.76.1-34.el9.x86_64
-    PkgName: curl-minimal
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-34.el9?arch=x86_64&distro=redhat-9.7
-      UID: 102420ae56646190
-    InstalledVersion: 7.76.1-34.el9
-    Status: affected
-    Layer:
-      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
-      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10966
-    Fingerprint: sha256:a2f8af4a67da1a3bd14af6e908e3cd5fa249e431cdba9ccd69dd2245f495a060
-    Title: 'curl: Curl missing SFTP host verification with wolfSSH backend'
-    Description: |-
-      curl's code for managing SSH connections when SFTP was done using the wolfSSH
-      powered backend was flawed and missed host verification mechanisms.
-
-      This prevents curl from detecting MITM attackers and more.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 2
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 5.9
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/11/05/2
-    - https://access.redhat.com/security/cve/CVE-2025-10966
-    - https://curl.se/docs/CVE-2025-10966.html
-    - https://curl.se/docs/CVE-2025-10966.json
-    - https://github.com/curl/curl/commit/b011e3fcfb06d6c027859
-    - https://hackerone.com/reports/3355218
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-10966
-    - https://www.cve.org/CVERecord?id=CVE-2025-10966
-    PublishedDate: '2025-11-07T08:15:39.617Z'
-    LastModifiedDate: '2025-11-12T16:20:22.257Z'
   - VulnerabilityID: CVE-2025-14017
     PkgID: curl-minimal@7.76.1-34.el9.x86_64
     PkgName: curl-minimal
@@ -35402,7 +35363,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://www.cve.org/CVERecord?id=CVE-2025-14017
     PublishedDate: '2026-01-08T10:15:45.667Z'
-    LastModifiedDate: '2026-01-08T18:08:18.457Z'
+    LastModifiedDate: '2026-01-16T16:15:52.793Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: curl-minimal@7.76.1-34.el9.x86_64
     PkgName: curl-minimal
@@ -35508,7 +35469,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -35659,7 +35620,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
@@ -35721,7 +35682,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -35872,7 +35833,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
@@ -36321,6 +36282,39 @@
     - https://access.redhat.com/security/cve/CVE-2026-0988
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0988
     - https://www.cve.org/CVERecord?id=CVE-2026-0988
+  - VulnerabilityID: CVE-2026-0915
+    PkgID: glibc@2.34-231.el9_7.2.x86_64
+    PkgName: glibc
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc@2.34-231.el9_7.2?arch=x86_64&distro=redhat-9.7
+      UID: e295191ef143a1e3
+    InstalledVersion: 2.34-231.el9_7.2
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0915
+    Fingerprint: sha256:62a95ca8f193208abff48e3f5d84166e43b98414838f428e29198c6e46d9e50e
+    Title: 'glibc: glibc: Information disclosure via zero-valued network query'
+    Description: Calling getnetbyaddr or getnetbyaddr_r with a configured nsswitch.conf that specifies the library's DNS backend for networks and queries for a zero-valued network in the GNU C Library version 2.0 to version 2.42 can leak stack contents to the configured DNS resolver.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-908
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/16/6
+    - https://access.redhat.com/security/cve/CVE-2026-0915
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
+    - https://www.cve.org/CVERecord?id=CVE-2026-0915
+    PublishedDate: '2026-01-15T22:16:12.457Z'
+    LastModifiedDate: '2026-01-16T18:16:09.487Z'
   - VulnerabilityID: CVE-2026-0861
     PkgID: glibc@2.34-231.el9_7.2.x86_64
     PkgName: glibc
@@ -36336,23 +36330,63 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0861
     Fingerprint: sha256:6424b4c7bf7d4cdb759b7e0ec4c8598abbe862e61b97e88e9d86c746c647741b
     Title: 'glibc: Integer overflow in memalign leads to heap corruption'
-    Description: Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc, valloc, pvalloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.
-    Severity: HIGH
+    Description: |-
+      Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.
+
+      Note that the attacker must have control over both, the size as well as the alignment arguments of the memalign function to be able to exploit this.  The size parameter must be close enough to PTRDIFF_MAX so as to overflow size_t along with the large alignment argument.  This limits the malicious inputs for the alignment for memalign to the range [1<<62+ 1, 1<<63] and exactly 1<<63 for posix_memalign and aligned_alloc.
+
+      Typically the alignment argument passed to such functions is a known constrained quantity (e.g. page size, block size, struct sizes) and is not attacker controlled, because of which this may not be easily exploitable in practice.  An application bug could potentially result in the input alignment being too large, e.g. due to a different buffer overflow or integer overflow in the application or its dependent libraries, but that is again an uncommon usage pattern given typical sources of alignments.
+    Severity: LOW
     CweIDs:
     - CWE-190
     VendorSeverity:
-      redhat: 3
+      redhat: 1
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
     References:
+    - http://www.openwall.com/lists/oss-security/2026/01/16/5
     - https://access.redhat.com/security/cve/CVE-2026-0861
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
     - https://www.cve.org/CVERecord?id=CVE-2026-0861
     PublishedDate: '2026-01-14T21:15:52.617Z'
-    LastModifiedDate: '2026-01-14T22:15:53.233Z'
+    LastModifiedDate: '2026-01-16T18:16:09.343Z'
+  - VulnerabilityID: CVE-2026-0915
+    PkgID: glibc-common@2.34-231.el9_7.2.x86_64
+    PkgName: glibc-common
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-common@2.34-231.el9_7.2?arch=x86_64&distro=redhat-9.7
+      UID: 5ee5d0cd0357ef33
+    InstalledVersion: 2.34-231.el9_7.2
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0915
+    Fingerprint: sha256:e7990a93908327cff5904016806dc8719139ccd872e433f2e579087f254fd497
+    Title: 'glibc: glibc: Information disclosure via zero-valued network query'
+    Description: Calling getnetbyaddr or getnetbyaddr_r with a configured nsswitch.conf that specifies the library's DNS backend for networks and queries for a zero-valued network in the GNU C Library version 2.0 to version 2.42 can leak stack contents to the configured DNS resolver.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-908
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/16/6
+    - https://access.redhat.com/security/cve/CVE-2026-0915
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
+    - https://www.cve.org/CVERecord?id=CVE-2026-0915
+    PublishedDate: '2026-01-15T22:16:12.457Z'
+    LastModifiedDate: '2026-01-16T18:16:09.487Z'
   - VulnerabilityID: CVE-2026-0861
     PkgID: glibc-common@2.34-231.el9_7.2.x86_64
     PkgName: glibc-common
@@ -36368,23 +36402,63 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0861
     Fingerprint: sha256:b9e0c6f3229bbc607284c76da249e254537cb11e318e8ea72ec0b7b89dbb7135
     Title: 'glibc: Integer overflow in memalign leads to heap corruption'
-    Description: Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc, valloc, pvalloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.
-    Severity: HIGH
+    Description: |-
+      Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.
+
+      Note that the attacker must have control over both, the size as well as the alignment arguments of the memalign function to be able to exploit this.  The size parameter must be close enough to PTRDIFF_MAX so as to overflow size_t along with the large alignment argument.  This limits the malicious inputs for the alignment for memalign to the range [1<<62+ 1, 1<<63] and exactly 1<<63 for posix_memalign and aligned_alloc.
+
+      Typically the alignment argument passed to such functions is a known constrained quantity (e.g. page size, block size, struct sizes) and is not attacker controlled, because of which this may not be easily exploitable in practice.  An application bug could potentially result in the input alignment being too large, e.g. due to a different buffer overflow or integer overflow in the application or its dependent libraries, but that is again an uncommon usage pattern given typical sources of alignments.
+    Severity: LOW
     CweIDs:
     - CWE-190
     VendorSeverity:
-      redhat: 3
+      redhat: 1
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
     References:
+    - http://www.openwall.com/lists/oss-security/2026/01/16/5
     - https://access.redhat.com/security/cve/CVE-2026-0861
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
     - https://www.cve.org/CVERecord?id=CVE-2026-0861
     PublishedDate: '2026-01-14T21:15:52.617Z'
-    LastModifiedDate: '2026-01-14T22:15:53.233Z'
+    LastModifiedDate: '2026-01-16T18:16:09.343Z'
+  - VulnerabilityID: CVE-2026-0915
+    PkgID: glibc-minimal-langpack@2.34-231.el9_7.2.x86_64
+    PkgName: glibc-minimal-langpack
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-231.el9_7.2?arch=x86_64&distro=redhat-9.7
+      UID: d36d4bce90ff7ef9
+    InstalledVersion: 2.34-231.el9_7.2
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0915
+    Fingerprint: sha256:04220369f282a9c6a90f7c55831b107dab112a896aed8ad2251ca5c6542066b3
+    Title: 'glibc: glibc: Information disclosure via zero-valued network query'
+    Description: Calling getnetbyaddr or getnetbyaddr_r with a configured nsswitch.conf that specifies the library's DNS backend for networks and queries for a zero-valued network in the GNU C Library version 2.0 to version 2.42 can leak stack contents to the configured DNS resolver.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-908
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/16/6
+    - https://access.redhat.com/security/cve/CVE-2026-0915
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
+    - https://www.cve.org/CVERecord?id=CVE-2026-0915
+    PublishedDate: '2026-01-15T22:16:12.457Z'
+    LastModifiedDate: '2026-01-16T18:16:09.487Z'
   - VulnerabilityID: CVE-2026-0861
     PkgID: glibc-minimal-langpack@2.34-231.el9_7.2.x86_64
     PkgName: glibc-minimal-langpack
@@ -36400,23 +36474,30 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0861
     Fingerprint: sha256:ac82819e8a0583d35dc4516eb7667fd60807b9dc96760ccc92ee93a9dcb704f4
     Title: 'glibc: Integer overflow in memalign leads to heap corruption'
-    Description: Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc, valloc, pvalloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.
-    Severity: HIGH
+    Description: |-
+      Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.
+
+      Note that the attacker must have control over both, the size as well as the alignment arguments of the memalign function to be able to exploit this.  The size parameter must be close enough to PTRDIFF_MAX so as to overflow size_t along with the large alignment argument.  This limits the malicious inputs for the alignment for memalign to the range [1<<62+ 1, 1<<63] and exactly 1<<63 for posix_memalign and aligned_alloc.
+
+      Typically the alignment argument passed to such functions is a known constrained quantity (e.g. page size, block size, struct sizes) and is not attacker controlled, because of which this may not be easily exploitable in practice.  An application bug could potentially result in the input alignment being too large, e.g. due to a different buffer overflow or integer overflow in the application or its dependent libraries, but that is again an uncommon usage pattern given typical sources of alignments.
+    Severity: LOW
     CweIDs:
     - CWE-190
     VendorSeverity:
-      redhat: 3
+      redhat: 1
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
     References:
+    - http://www.openwall.com/lists/oss-security/2026/01/16/5
     - https://access.redhat.com/security/cve/CVE-2026-0861
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
     - https://www.cve.org/CVERecord?id=CVE-2026-0861
     PublishedDate: '2026-01-14T21:15:52.617Z'
-    LastModifiedDate: '2026-01-14T22:15:53.233Z'
+    LastModifiedDate: '2026-01-16T18:16:09.343Z'
   - VulnerabilityID: CVE-2025-68972
     PkgID: gnupg2@2.3.3-5.el9_7.x86_64
     PkgName: gnupg2
@@ -36574,7 +36655,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0241
+    - https://access.redhat.com/errata/RHSA-2026:0238
     - https://access.redhat.com/security/cve/CVE-2025-64720
     - https://bugzilla.redhat.com/2416904
     - https://bugzilla.redhat.com/2416907
@@ -36585,8 +36666,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
-    - https://errata.almalinux.org/8/ALSA-2026-0241.html
-    - https://errata.rockylinux.org/RLSA-2026:0241
+    - https://errata.almalinux.org/9/ALSA-2026-0238.html
+    - https://errata.rockylinux.org/RLSA-2026:0238
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643 (v1.6.51)
     - https://github.com/pnggroup/libpng/issues/686
@@ -36635,7 +36716,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0241
+    - https://access.redhat.com/errata/RHSA-2026:0238
     - https://access.redhat.com/security/cve/CVE-2025-65018
     - https://bugzilla.redhat.com/2416904
     - https://bugzilla.redhat.com/2416907
@@ -36646,8 +36727,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
-    - https://errata.almalinux.org/8/ALSA-2026-0241.html
-    - https://errata.rockylinux.org/RLSA-2026:0241
+    - https://errata.almalinux.org/9/ALSA-2026-0238.html
+    - https://errata.rockylinux.org/RLSA-2026:0238
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d (v1.6.51)
     - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
@@ -36699,7 +36780,7 @@
     - http://www.openwall.com/lists/oss-security/2025/12/03/6
     - http://www.openwall.com/lists/oss-security/2025/12/03/7
     - http://www.openwall.com/lists/oss-security/2025/12/03/8
-    - https://access.redhat.com/errata/RHSA-2026:0241
+    - https://access.redhat.com/errata/RHSA-2026:0238
     - https://access.redhat.com/security/cve/CVE-2025-66293
     - https://bugzilla.redhat.com/2416904
     - https://bugzilla.redhat.com/2416907
@@ -36710,8 +36791,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
-    - https://errata.almalinux.org/8/ALSA-2026-0241.html
-    - https://errata.rockylinux.org/RLSA-2026:0241
+    - https://errata.almalinux.org/9/ALSA-2026-0238.html
+    - https://errata.rockylinux.org/RLSA-2026:0238
     - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
     - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
     - https://github.com/pnggroup/libpng/issues/764
@@ -36745,7 +36826,6 @@
     VendorSeverity:
       nvd: 4
       redhat: 3
-      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -36869,6 +36949,7 @@
     - CWE-476
     VendorSeverity:
       redhat: 2
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -37281,45 +37362,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-14104
     PublishedDate: '2025-12-05T17:16:03.117Z'
     LastModifiedDate: '2025-12-08T18:26:49.133Z'
-  - VulnerabilityID: CVE-2025-10966
-    PkgID: libcurl-minimal@7.76.1-34.el9.x86_64
-    PkgName: libcurl-minimal
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-34.el9?arch=x86_64&distro=redhat-9.7
-      UID: fe2ca997a12c5ed1
-    InstalledVersion: 7.76.1-34.el9
-    Status: affected
-    Layer:
-      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
-      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10966
-    Fingerprint: sha256:1819f90eddd7ce5816f1814869261086a044b40e7a2208da8abb73ea857c0590
-    Title: 'curl: Curl missing SFTP host verification with wolfSSH backend'
-    Description: |-
-      curl's code for managing SSH connections when SFTP was done using the wolfSSH
-      powered backend was flawed and missed host verification mechanisms.
-
-      This prevents curl from detecting MITM attackers and more.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 2
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 5.9
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/11/05/2
-    - https://access.redhat.com/security/cve/CVE-2025-10966
-    - https://curl.se/docs/CVE-2025-10966.html
-    - https://curl.se/docs/CVE-2025-10966.json
-    - https://github.com/curl/curl/commit/b011e3fcfb06d6c027859
-    - https://hackerone.com/reports/3355218
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-10966
-    - https://www.cve.org/CVERecord?id=CVE-2025-10966
-    PublishedDate: '2025-11-07T08:15:39.617Z'
-    LastModifiedDate: '2025-11-12T16:20:22.257Z'
   - VulnerabilityID: CVE-2025-14017
     PkgID: libcurl-minimal@7.76.1-34.el9.x86_64
     PkgName: libcurl-minimal
@@ -37357,7 +37399,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://www.cve.org/CVERecord?id=CVE-2025-14017
     PublishedDate: '2026-01-08T10:15:45.667Z'
-    LastModifiedDate: '2026-01-08T18:08:18.457Z'
+    LastModifiedDate: '2026-01-16T16:15:52.793Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: libcurl-minimal@7.76.1-34.el9.x86_64
     PkgName: libcurl-minimal
@@ -37463,7 +37505,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -37614,7 +37656,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
@@ -37676,7 +37718,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -37827,7 +37869,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
@@ -38220,7 +38262,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0990
     - https://www.cve.org/CVERecord?id=CVE-2026-0990
     PublishedDate: '2026-01-15T15:15:52.503Z'
-    LastModifiedDate: '2026-01-15T15:15:52.503Z'
+    LastModifiedDate: '2026-01-16T15:55:33.063Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-14.el9_7.x86_64
     PkgName: libxml2
@@ -38439,7 +38481,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0989
     - https://www.cve.org/CVERecord?id=CVE-2026-0989
     PublishedDate: '2026-01-15T15:15:52.35Z'
-    LastModifiedDate: '2026-01-15T15:15:52.35Z'
+    LastModifiedDate: '2026-01-16T15:55:33.063Z'
   - VulnerabilityID: CVE-2026-0992
     PkgID: libxml2@2.9.13-14.el9_7.x86_64
     PkgName: libxml2
@@ -38471,7 +38513,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0992
     - https://www.cve.org/CVERecord?id=CVE-2026-0992
     PublishedDate: '2026-01-15T15:15:52.657Z'
-    LastModifiedDate: '2026-01-15T15:15:52.657Z'
+    LastModifiedDate: '2026-01-16T15:55:33.063Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-base@6.2-12.20210508.el9.noarch
     PkgName: ncurses-base
@@ -39064,6 +39106,7 @@
     - CWE-191
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
@@ -39130,7 +39173,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:15699
+    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -39290,7 +39333,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/10/ALSA-2025-15699.html
+    - https://errata.almalinux.org/9/ALSA-2025-16046.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
@@ -39469,7 +39512,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:15699
+    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -39629,7 +39672,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/10/ALSA-2025-15699.html
+    - https://errata.almalinux.org/9/ALSA-2025-16046.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
@@ -40816,45 +40859,15 @@
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.2
     References:
-    - https://access.redhat.com/errata/RHSA-2024:2968
+    - https://access.redhat.com/errata/RHSA-2024:2132
     - https://access.redhat.com/security/cve/CVE-2023-45803
     - https://bugzilla.redhat.com/2246840
     - https://bugzilla.redhat.com/2257028
     - https://bugzilla.redhat.com/2257854
-    - https://bugzilla.redhat.com/show_bug.cgi?id=1983596
-    - https://bugzilla.redhat.com/show_bug.cgi?id=1989575
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2132867
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2132868
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2132872
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2228743
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237773
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237776
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237777
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237778
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2244340
     - https://bugzilla.redhat.com/show_bug.cgi?id=2246840
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2253193
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2253330
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2254210
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2262272
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25091
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33198
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34558
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2879
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2880
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41715
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29409
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39318
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39319
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39321
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39322
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39326
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45287
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45803
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23650
-    - https://errata.almalinux.org/8/ALSA-2024-2968.html
-    - https://errata.rockylinux.org/RLSA-2024:2988
+    - https://errata.almalinux.org/9/ALSA-2024-2132.html
+    - https://errata.rockylinux.org/RLSA-2024:11238
     - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-212.yaml
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/4e50fbc5db74e32cabd5ccc1ab81fc103adfe0b3
