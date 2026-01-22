@@ -2328,7 +2328,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -2353,7 +2353,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/10/ALSA-2026-0237.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.rockylinux.org/RLSA-2026:0237
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643 (v1.6.51)
     - https://github.com/pnggroup/libpng/issues/686
@@ -2418,7 +2418,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/10/ALSA-2026-0237.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.rockylinux.org/RLSA-2026:0237
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d (v1.6.51)
     - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
@@ -2486,7 +2486,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/10/ALSA-2026-0237.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.rockylinux.org/RLSA-2026:0237
     - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
     - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
     - https://github.com/pnggroup/libpng/issues/764
@@ -2522,7 +2522,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -2626,8 +2626,9 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13151
     - https://ubuntu.com/security/notices/USN-7954-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13151
+    - https://www.kb.cert.org/vuls/id/271649
     PublishedDate: '2026-01-07T22:15:43.2Z'
-    LastModifiedDate: '2026-01-08T19:15:55.983Z'
+    LastModifiedDate: '2026-01-20T18:16:01.827Z'
   - VulnerabilityID: CVE-2025-53057
     PkgID: openjdk21-jre@21.0.8_p9-r0
     PkgName: openjdk21-jre
