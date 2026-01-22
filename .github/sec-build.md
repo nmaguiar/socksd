@@ -2426,9 +2426,10 @@
 │                             │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/merge_requests/121 
 │                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-13151 
 │                             │                  ├ [5]: https://ubuntu.com/security/notices/USN-7954-1 
-│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-13151 
+│                             │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-13151 
+│                             │                  ╰ [7]: https://www.kb.cert.org/vuls/id/271649 
 │                             ├ PublishedDate   : 2026-01-07T22:15:43.2Z 
-│                             ╰ LastModifiedDate: 2026-01-08T19:15:55.983Z 
+│                             ╰ LastModifiedDate: 2026-01-20T18:16:01.827Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
