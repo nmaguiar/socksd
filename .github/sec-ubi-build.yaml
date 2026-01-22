@@ -35403,9 +35403,11 @@
       the cookie since it was already set as secure on a secure host so overriding
       it on an insecure host should not be okay.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 1
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -35434,7 +35436,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2026-01-08T10:15:54.737Z'
+    LastModifiedDate: '2026-01-20T14:58:01.347Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: curl-minimal@7.76.1-34.el9.x86_64
     PkgName: curl-minimal
@@ -36276,8 +36278,10 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0988
     Fingerprint: sha256:a6d3dda651789ab3787d3b0f56ce76d1d2421938026a1e5f02b03688f43ee368
     Title: 'glib: GLib: Denial of Service via Integer Overflow in g_buffered_input_stream_peek()'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in glib. Missing validation of offset and count parameters in the g_buffered_input_stream_peek() function can lead to an integer overflow during length calculation. When specially crafted values are provided, this overflow results in an incorrect size being passed to memcpy(), triggering a buffer overflow. This can cause application crashes, leading to a Denial of Service (DoS).
     Severity: LOW
+    CweIDs:
+    - CWE-190
     VendorSeverity:
       redhat: 1
     CVSS:
@@ -36286,8 +36290,11 @@
         V3Score: 3.7
     References:
     - https://access.redhat.com/security/cve/CVE-2026-0988
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429886
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0988
     - https://www.cve.org/CVERecord?id=CVE-2026-0988
+    PublishedDate: '2026-01-21T12:15:55.56Z'
+    LastModifiedDate: '2026-01-21T12:15:55.56Z'
   - VulnerabilityID: CVE-2026-0915
     PkgID: glibc@2.34-231.el9_7.2.x86_64
     PkgName: glibc
@@ -36320,7 +36327,40 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://www.cve.org/CVERecord?id=CVE-2026-0915
     PublishedDate: '2026-01-15T22:16:12.457Z'
-    LastModifiedDate: '2026-01-16T18:16:09.487Z'
+    LastModifiedDate: '2026-01-20T16:16:07.41Z'
+  - VulnerabilityID: CVE-2025-15281
+    PkgID: glibc@2.34-231.el9_7.2.x86_64
+    PkgName: glibc
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc@2.34-231.el9_7.2?arch=x86_64&distro=redhat-9.7
+      UID: e295191ef143a1e3
+    InstalledVersion: 2.34-231.el9_7.2
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15281
+    Fingerprint: sha256:06db589916bacd0b2e8a5125205fca6164a5fc9f0c40eadbbec15853f57b09aa
+    Title: 'glibc: wordexp with WRDE_REUSE and WRDE_APPEND may return uninitialized memory'
+    Description: Calling wordexp with WRDE_REUSE in conjunction with WRDE_APPEND in the GNU C Library version 2.0 to version 2.42 may cause the interface to return uninitialized memory in the we_wordv member, which on subsequent calls to wordfree may abort the process.
+    Severity: LOW
+    CweIDs:
+    - CWE-908
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/20/3
+    - https://access.redhat.com/security/cve/CVE-2025-15281
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
+    - https://www.cve.org/CVERecord?id=CVE-2025-15281
+    PublishedDate: '2026-01-20T14:16:07.843Z'
+    LastModifiedDate: '2026-01-20T18:16:01.973Z'
   - VulnerabilityID: CVE-2026-0861
     PkgID: glibc@2.34-231.el9_7.2.x86_64
     PkgName: glibc
@@ -36392,7 +36432,40 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://www.cve.org/CVERecord?id=CVE-2026-0915
     PublishedDate: '2026-01-15T22:16:12.457Z'
-    LastModifiedDate: '2026-01-16T18:16:09.487Z'
+    LastModifiedDate: '2026-01-20T16:16:07.41Z'
+  - VulnerabilityID: CVE-2025-15281
+    PkgID: glibc-common@2.34-231.el9_7.2.x86_64
+    PkgName: glibc-common
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-common@2.34-231.el9_7.2?arch=x86_64&distro=redhat-9.7
+      UID: 5ee5d0cd0357ef33
+    InstalledVersion: 2.34-231.el9_7.2
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15281
+    Fingerprint: sha256:bd91b4f42d2294206b07501d9339f787612706228b7a327bffe544fe4ea2d078
+    Title: 'glibc: wordexp with WRDE_REUSE and WRDE_APPEND may return uninitialized memory'
+    Description: Calling wordexp with WRDE_REUSE in conjunction with WRDE_APPEND in the GNU C Library version 2.0 to version 2.42 may cause the interface to return uninitialized memory in the we_wordv member, which on subsequent calls to wordfree may abort the process.
+    Severity: LOW
+    CweIDs:
+    - CWE-908
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/20/3
+    - https://access.redhat.com/security/cve/CVE-2025-15281
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
+    - https://www.cve.org/CVERecord?id=CVE-2025-15281
+    PublishedDate: '2026-01-20T14:16:07.843Z'
+    LastModifiedDate: '2026-01-20T18:16:01.973Z'
   - VulnerabilityID: CVE-2026-0861
     PkgID: glibc-common@2.34-231.el9_7.2.x86_64
     PkgName: glibc-common
@@ -36464,7 +36537,40 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://www.cve.org/CVERecord?id=CVE-2026-0915
     PublishedDate: '2026-01-15T22:16:12.457Z'
-    LastModifiedDate: '2026-01-16T18:16:09.487Z'
+    LastModifiedDate: '2026-01-20T16:16:07.41Z'
+  - VulnerabilityID: CVE-2025-15281
+    PkgID: glibc-minimal-langpack@2.34-231.el9_7.2.x86_64
+    PkgName: glibc-minimal-langpack
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-231.el9_7.2?arch=x86_64&distro=redhat-9.7
+      UID: d36d4bce90ff7ef9
+    InstalledVersion: 2.34-231.el9_7.2
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15281
+    Fingerprint: sha256:943bfc68c011cb8b5107d9b458cdf6f2200ec5e5b50e0dcb77a6089340fd3141
+    Title: 'glibc: wordexp with WRDE_REUSE and WRDE_APPEND may return uninitialized memory'
+    Description: Calling wordexp with WRDE_REUSE in conjunction with WRDE_APPEND in the GNU C Library version 2.0 to version 2.42 may cause the interface to return uninitialized memory in the we_wordv member, which on subsequent calls to wordfree may abort the process.
+    Severity: LOW
+    CweIDs:
+    - CWE-908
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/20/3
+    - https://access.redhat.com/security/cve/CVE-2025-15281
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
+    - https://www.cve.org/CVERecord?id=CVE-2025-15281
+    PublishedDate: '2026-01-20T14:16:07.843Z'
+    LastModifiedDate: '2026-01-20T18:16:01.973Z'
   - VulnerabilityID: CVE-2026-0861
     PkgID: glibc-minimal-langpack@2.34-231.el9_7.2.x86_64
     PkgName: glibc-minimal-langpack
@@ -36648,7 +36754,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -36673,7 +36779,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/10/ALSA-2026-0237.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.rockylinux.org/RLSA-2026:0237
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643 (v1.6.51)
     - https://github.com/pnggroup/libpng/issues/686
@@ -36734,7 +36840,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/10/ALSA-2026-0237.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.rockylinux.org/RLSA-2026:0237
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d (v1.6.51)
     - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
@@ -36798,7 +36904,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/10/ALSA-2026-0237.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.rockylinux.org/RLSA-2026:0237
     - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
     - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
     - https://github.com/pnggroup/libpng/issues/764
@@ -36870,7 +36976,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -37439,9 +37545,11 @@
       the cookie since it was already set as secure on a secure host so overriding
       it on an insecure host should not be okay.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 1
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -37470,7 +37578,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2026-01-08T10:15:54.737Z'
+    LastModifiedDate: '2026-01-20T14:58:01.347Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: libcurl-minimal@7.76.1-34.el9.x86_64
     PkgName: libcurl-minimal
@@ -38201,8 +38309,9 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13151
     - https://ubuntu.com/security/notices/USN-7954-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13151
+    - https://www.kb.cert.org/vuls/id/271649
     PublishedDate: '2026-01-07T22:15:43.2Z'
-    LastModifiedDate: '2026-01-08T19:15:55.983Z'
+    LastModifiedDate: '2026-01-20T18:16:01.827Z'
   - VulnerabilityID: CVE-2025-14104
     PkgID: libuuid@2.37.4-21.el9.x86_64
     PkgName: libuuid
@@ -40188,11 +40297,12 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -40215,7 +40325,32 @@
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2321440
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2343237
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2366509
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370010
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370014
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370016
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372426
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5642
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-0938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4330
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4516
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4517
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
     - https://errata.almalinux.org/8/ALSA-2025-23530.html
+    - https://errata.rockylinux.org/RLSA-2025:23530
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -40459,11 +40594,12 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -40486,7 +40622,32 @@
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2321440
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2343237
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2366509
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370010
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370014
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370016
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372426
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5642
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-0938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4330
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4516
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4517
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
     - https://errata.almalinux.org/8/ALSA-2025-23530.html
+    - https://errata.rockylinux.org/RLSA-2025:23530
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -40730,11 +40891,12 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -40757,7 +40919,32 @@
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2321440
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2343237
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2366509
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370010
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370014
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370016
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372426
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5642
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-0938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4330
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4516
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4517
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
     - https://errata.almalinux.org/8/ALSA-2025-23530.html
+    - https://errata.rockylinux.org/RLSA-2025:23530
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -41022,6 +41209,7 @@
       nvd: 2
       oracle-oval: 3
       redhat: 1
+      rocky: 2
       ubuntu: 1
     CVSS:
       bitnami:
@@ -41041,7 +41229,27 @@
     References:
     - https://access.redhat.com/errata/RHSA-2021:3254
     - https://access.redhat.com/security/cve/CVE-2021-3572
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1772014
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1928707
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1928904
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1935913
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1941534
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1955615
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1957458
     - https://bugzilla.redhat.com/show_bug.cgi?id=1962856
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1968074
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-18874
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27619
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28493
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20095
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23336
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28957
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29921
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33503
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3572
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42771
+    - https://errata.rockylinux.org/RLSA-2021:4162
     - https://github.com/advisories/GHSA-5xp3-jfq3-5q8x
     - https://github.com/pypa/advisory-database/tree/main/vulns/pip/PYSEC-2021-437.yaml
     - https://github.com/pypa/pip
