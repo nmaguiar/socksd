@@ -2390,7 +2390,115 @@
 │                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-62408 
 │                       │     ├ PublishedDate   : 2025-12-08T22:15:52.62Z 
 │                       │     ╰ LastModifiedDate: 2025-12-09T18:37:33.427Z 
-│                       ╰ [1] ╭ VulnerabilityID : CVE-2025-13151 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2026-22695 
+│                       │     ├ PkgID           : libpng@1.6.53-r0 
+│                       │     ├ PkgName         : libpng 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.53-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.0 
+│                       │     │                  ╰ UID : cb73e61ec749ca01 
+│                       │     ├ InstalledVersion: 1.6.53-r0 
+│                       │     ├ FixedVersion    : 1.6.54-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba
+│                       │     │                  │         941949859ce82d485c7 
+│                       │     │                  ╰ DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4
+│                       │     │                            af8b32534c2a5b1a88a 
+│                       │     ├ SeveritySource  : nvd 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22695 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:8da65b6b078b9f352a11f13f7dd851d9a56af0b71dd8ef4bf51ab4
+│                       │     │                   e5a89373c9 
+│                       │     ├ Title           : libpng: libpng: Denial of service and information disclosure
+│                       │     │                   via heap buffer over-read in png_image_finish_read 
+│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │     │                   raster image files. From 1.6.51 to 1.6.53, there is a heap
+│                       │     │                   buffer over-read in the libpng simplified API function
+│                       │     │                   png_image_finish_read when processing interlaced 16-bit PNGs
+│                       │     │                   with 8-bit output format and non-minimal row stride. This is
+│                       │     │                   a regression introduced by the fix for CVE-2025-65018. This
+│                       │     │                   vulnerability is fixed in 1.6.54. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ─ [0]: CWE-125 
+│                       │     ├ VendorSeverity   ╭ nvd   : 3 
+│                       │     │                  ├ redhat: 2 
+│                       │     │                  ╰ ubuntu: 2 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/
+│                       │     │                  │        │           A:H 
+│                       │     │                  │        ╰ V3Score : 7.1 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 6.1 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-22695 
+│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/commit/218612ddd6b17
+│                       │     │                  │      944e21eda56caf8b4bf7779d1ea 
+│                       │     │                  ├ [2]: https://github.com/pnggroup/libpng/commit/e4f7ad4ea2 
+│                       │     │                  ├ [3]: https://github.com/pnggroup/libpng/issues/778 
+│                       │     │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories/
+│                       │     │                  │      GHSA-mmq5-27w3-rxpp 
+│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-22695 
+│                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-7963-1 
+│                       │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-22695 
+│                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/01/12/7 
+│                       │     ├ PublishedDate   : 2026-01-12T23:15:52.597Z 
+│                       │     ╰ LastModifiedDate: 2026-01-21T18:58:55.787Z 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2026-22801 
+│                       │     ├ PkgID           : libpng@1.6.53-r0 
+│                       │     ├ PkgName         : libpng 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.53-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.0 
+│                       │     │                  ╰ UID : cb73e61ec749ca01 
+│                       │     ├ InstalledVersion: 1.6.53-r0 
+│                       │     ├ FixedVersion    : 1.6.54-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba
+│                       │     │                  │         941949859ce82d485c7 
+│                       │     │                  ╰ DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4
+│                       │     │                            af8b32534c2a5b1a88a 
+│                       │     ├ SeveritySource  : nvd 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22801 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:c1ddc1b13d9cd2b9fba8ff92345ae0d595519da845bbda0570fcd2
+│                       │     │                   abda7998ce 
+│                       │     ├ Title           : libpng: libpng: Information disclosure and denial of service
+│                       │     │                   via integer truncation in simplified write API 
+│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │     │                   raster image files. From 1.6.26 to 1.6.53, there is an
+│                       │     │                   integer truncation in the libpng simplified write API
+│                       │     │                   functions png_write_image_16bit and png_write_image_8bit
+│                       │     │                   causes heap buffer over-read when the caller provides a
+│                       │     │                   negative row stride (for bottom-up image layouts) or a stride
+│                       │     │                    exceeding 65535 bytes. The bug was introduced in libpng
+│                       │     │                   1.6.26 (October 2016) by casts added to silence compiler
+│                       │     │                   warnings on 16-bit systems. This vulnerability is fixed in
+│                       │     │                   1.6.54. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ╭ [0]: CWE-125 
+│                       │     │                  ╰ [1]: CWE-190 
+│                       │     ├ VendorSeverity   ╭ nvd   : 3 
+│                       │     │                  ├ redhat: 2 
+│                       │     │                  ╰ ubuntu: 2 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
+│                       │     │                  │        │           A:H 
+│                       │     │                  │        ╰ V3Score : 7.8 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 6.8 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-22801 
+│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/security/advisories/
+│                       │     │                  │      GHSA-vgjq-8cw5-ggw8 
+│                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-22801 
+│                       │     │                  ├ [3]: https://ubuntu.com/security/notices/USN-7963-1 
+│                       │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2026-22801 
+│                       │     │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2026/01/12/7 
+│                       │     ├ PublishedDate   : 2026-01-12T23:15:52.907Z 
+│                       │     ╰ LastModifiedDate: 2026-01-21T18:58:18.27Z 
+│                       ╰ [3] ╭ VulnerabilityID : CVE-2025-13151 
 │                             ├ PkgID           : libtasn1@4.20.0-r0 
 │                             ├ PkgName         : libtasn1 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libtasn1@4.20.0-r0?arch=x86_64&distro=3
