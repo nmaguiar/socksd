@@ -36060,7 +36060,7 @@
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3827
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4914
     - https://linux.oracle.com/cve/CVE-2025-13601.html
-    - https://linux.oracle.com/errata/ELSA-2026-0936.html
+    - https://linux.oracle.com/errata/ELSA-2026-0975.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13601
     - https://ubuntu.com/security/notices/USN-7942-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13601
@@ -36371,7 +36371,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
     - https://www.cve.org/CVERecord?id=CVE-2025-15281
     PublishedDate: '2026-01-20T14:16:07.843Z'
-    LastModifiedDate: '2026-01-20T18:16:01.973Z'
+    LastModifiedDate: '2026-01-22T20:16:05.96Z'
   - VulnerabilityID: CVE-2026-0861
     PkgID: glibc@2.34-231.el9_7.2.x86_64
     PkgName: glibc
@@ -36477,7 +36477,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
     - https://www.cve.org/CVERecord?id=CVE-2025-15281
     PublishedDate: '2026-01-20T14:16:07.843Z'
-    LastModifiedDate: '2026-01-20T18:16:01.973Z'
+    LastModifiedDate: '2026-01-22T20:16:05.96Z'
   - VulnerabilityID: CVE-2026-0861
     PkgID: glibc-common@2.34-231.el9_7.2.x86_64
     PkgName: glibc-common
@@ -36583,7 +36583,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
     - https://www.cve.org/CVERecord?id=CVE-2025-15281
     PublishedDate: '2026-01-20T14:16:07.843Z'
-    LastModifiedDate: '2026-01-20T18:16:01.973Z'
+    LastModifiedDate: '2026-01-22T20:16:05.96Z'
   - VulnerabilityID: CVE-2026-0861
     PkgID: glibc-minimal-langpack@2.34-231.el9_7.2.x86_64
     PkgName: glibc-minimal-langpack
@@ -36748,13 +36748,16 @@
     PublishedDate: '2025-03-19T20:15:20.14Z'
     LastModifiedDate: '2025-10-16T16:53:07.557Z'
   - VulnerabilityID: CVE-2025-64720
+    VendorIDs:
+    - RHSA-2026:0928
     PkgID: java-21-openjdk-headless@21.0.9.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
     PkgIdentifier:
       PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
       UID: ed34357470823859
     InstalledVersion: 1:21.0.9.0.10-2.el9
-    Status: affected
+    FixedVersion: 1:21.0.10.0.7-1.el9
+    Status: fixed
     Layer:
       Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
       DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
@@ -36800,7 +36803,7 @@
     - https://github.com/pnggroup/libpng/pull/751
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww
     - https://linux.oracle.com/cve/CVE-2025-64720.html
-    - https://linux.oracle.com/errata/ELSA-2026-0241.html
+    - https://linux.oracle.com/errata/ELSA-2026-0927.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64720
     - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-64720
@@ -36808,13 +36811,16 @@
     PublishedDate: '2025-11-25T00:15:47.46Z'
     LastModifiedDate: '2025-11-26T18:35:18.253Z'
   - VulnerabilityID: CVE-2025-65018
+    VendorIDs:
+    - RHSA-2026:0928
     PkgID: java-21-openjdk-headless@21.0.9.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
     PkgIdentifier:
       PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
       UID: ed34357470823859
     InstalledVersion: 1:21.0.9.0.10-2.el9
-    Status: affected
+    FixedVersion: 1:21.0.10.0.7-1.el9
+    Status: fixed
     Layer:
       Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
       DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
@@ -36863,7 +36869,7 @@
     - https://github.com/pnggroup/libpng/pull/757
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g
     - https://linux.oracle.com/cve/CVE-2025-65018.html
-    - https://linux.oracle.com/errata/ELSA-2026-0241.html
+    - https://linux.oracle.com/errata/ELSA-2026-0927.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-65018
     - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-65018
@@ -36931,13 +36937,16 @@
     PublishedDate: '2025-12-03T21:15:53.06Z'
     LastModifiedDate: '2025-12-16T19:12:50.35Z'
   - VulnerabilityID: CVE-2026-21945
+    VendorIDs:
+    - RHSA-2026:0928
     PkgID: java-21-openjdk-headless@21.0.9.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
     PkgIdentifier:
       PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
       UID: ed34357470823859
     InstalledVersion: 1:21.0.9.0.10-2.el9
-    Status: affected
+    FixedVersion: 1:21.0.10.0.7-1.el9
+    Status: fixed
     Layer:
       Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
       DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
@@ -36950,6 +36959,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -36957,6 +36967,8 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-21945
+    - https://linux.oracle.com/cve/CVE-2026-21945.html
+    - https://linux.oracle.com/errata/ELSA-2026-0927.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21945
     - https://www.cve.org/CVERecord?id=CVE-2026-21945
     - https://www.oracle.com/security-alerts/cpujan2026.html
@@ -37087,13 +37099,16 @@
     PublishedDate: '2025-11-25T00:15:47.3Z'
     LastModifiedDate: '2025-11-26T18:34:38.24Z'
   - VulnerabilityID: CVE-2026-21925
+    VendorIDs:
+    - RHSA-2026:0928
     PkgID: java-21-openjdk-headless@21.0.9.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
     PkgIdentifier:
       PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
       UID: ed34357470823859
     InstalledVersion: 1:21.0.9.0.10-2.el9
-    Status: affected
+    FixedVersion: 1:21.0.10.0.7-1.el9
+    Status: fixed
     Layer:
       Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
       DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
@@ -37104,6 +37119,7 @@
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: RMI).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
     VendorSeverity:
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -37111,19 +37127,24 @@
         V3Score: 4.8
     References:
     - https://access.redhat.com/security/cve/CVE-2026-21925
+    - https://linux.oracle.com/cve/CVE-2026-21925.html
+    - https://linux.oracle.com/errata/ELSA-2026-0927.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21925
     - https://www.cve.org/CVERecord?id=CVE-2026-21925
     - https://www.oracle.com/security-alerts/cpujan2026.html
     PublishedDate: '2026-01-20T22:15:54.917Z'
     LastModifiedDate: '2026-01-20T22:15:54.917Z'
   - VulnerabilityID: CVE-2026-21933
+    VendorIDs:
+    - RHSA-2026:0928
     PkgID: java-21-openjdk-headless@21.0.9.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
     PkgIdentifier:
       PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
       UID: ed34357470823859
     InstalledVersion: 1:21.0.9.0.10-2.el9
-    Status: affected
+    FixedVersion: 1:21.0.10.0.7-1.el9
+    Status: fixed
     Layer:
       Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
       DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
@@ -37134,6 +37155,7 @@
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).'
     Severity: MEDIUM
     VendorSeverity:
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -37141,6 +37163,8 @@
         V3Score: 6.1
     References:
     - https://access.redhat.com/security/cve/CVE-2026-21933
+    - https://linux.oracle.com/cve/CVE-2026-21933.html
+    - https://linux.oracle.com/errata/ELSA-2026-0927.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21933
     - https://www.cve.org/CVERecord?id=CVE-2026-21933
     - https://www.oracle.com/security-alerts/cpujan2026.html
@@ -38481,6 +38505,7 @@
     - CWE-674
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -38489,6 +38514,7 @@
     - https://access.redhat.com/security/cve/CVE-2026-0990
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429959
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0990
+    - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0990
     PublishedDate: '2026-01-15T15:15:52.503Z'
     LastModifiedDate: '2026-01-16T15:55:33.063Z'
@@ -38700,6 +38726,7 @@
     - CWE-674
     VendorSeverity:
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -38707,7 +38734,9 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-0989
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429933
+    - https://gitlab.gnome.org/GNOME/libxml2/-/merge_requests/374
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0989
+    - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0989
     PublishedDate: '2026-01-15T15:15:52.35Z'
     LastModifiedDate: '2026-01-16T15:55:33.063Z'
@@ -38732,6 +38761,7 @@
     - CWE-400
     VendorSeverity:
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -38740,6 +38770,7 @@
     - https://access.redhat.com/security/cve/CVE-2026-0992
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429975
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0992
+    - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0992
     PublishedDate: '2026-01-15T15:15:52.657Z'
     LastModifiedDate: '2026-01-16T15:55:33.063Z'
@@ -40329,6 +40360,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
     PublishedDate: '2025-12-03T19:15:55.05Z'
     LastModifiedDate: '2026-01-14T19:16:41.103Z'
+  - VulnerabilityID: CVE-2025-12781
+    PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-2.el9_7?arch=noarch&distro=redhat-9.7
+      UID: b5f1d78a85f5c4f2
+    InstalledVersion: 3.9.25-2.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-12781
+    Fingerprint: sha256:4eddfa3a097d02b072d64a48dcbe5d30fa0e9dc96d16db88207264faab27eb57
+    Title: 'cpython: base64.b64decode() always accepts "+/" characters, despite setting altchars'
+    Description: "When passing data to the b64decode(), standard_b64decode(), and urlsafe_b64decode() functions in the \"base64\" module the characters \"+/\" will always be accepted, regardless of the value of \"altchars\" parameter, typically used to establish an \"alternative base64 alphabet\" such as the URL safe alphabet. This behavior matches what is recommended in earlier base64 RFCs, but newer RFCs now recommend either dropping characters outside the specified base64 alphabet or raising an error. The old behavior has the possibility of causing data integrity issues.\n\n\n\n\nThis behavior can only be insecure if your application uses an alternate base64 alphabet (without \"+/\"). If your application does not use the \"altchars\" parameter or the urlsafe_b64decode() function, then your application does not use an alternative base64 alphabet.\n\n\n\n\nThe attached patches DOES NOT make the base64-decode behavior raise an error, as this would be a change in behavior and break existing programs. Instead, the patch deprecates the behavior which will be replaced with the newly recommended behavior in a future version of Python.\_Users are recommended to mitigate by verifying user-controlled inputs match the base64 \nalphabet they are expecting or verify that their application would not be \naffected if the b64decode() functions accepted \"+\" or \"/\" outside of altchars."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-704
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-12781
+    - https://github.com/python/cpython/commit/13360efd385d1a7d0659beba03787ea3d063ef9b
+    - https://github.com/python/cpython/commit/1be80bec7960f5ccd059e75f3dfbd45fca302947
+    - https://github.com/python/cpython/commit/9060b4abbe475591b6230b23c2afefeff26fcca5
+    - https://github.com/python/cpython/commit/e95e783dff443b68e8179fdb57737025bf02ba76
+    - https://github.com/python/cpython/commit/fd17ee026fa9b67f6288cbafe374a3e479fe03a5
+    - https://github.com/python/cpython/issues/125346
+    - https://github.com/python/cpython/pull/141128
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/KRI7GC6S27YV5NJ4FPDALS2WI5ENAFJ6/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-12781
+    - https://www.cve.org/CVERecord?id=CVE-2025-12781
+    PublishedDate: '2026-01-21T20:16:04.423Z'
+    LastModifiedDate: '2026-01-22T21:15:49.257Z'
   - VulnerabilityID: CVE-2025-13836
     PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
     PkgName: python-unversioned-command
@@ -40450,6 +40520,7 @@
         V3Score: 4.8
     References:
     - https://access.redhat.com/security/cve/CVE-2025-15282
+    - https://github.com/python/cpython/commit/05356b1cc153108aaf27f3b72ce438af4aa218c0
     - https://github.com/python/cpython/commit/f25509e78e8be6ea73c811ac2b8c928c28841b9f
     - https://github.com/python/cpython/issues/143925
     - https://github.com/python/cpython/pull/143926
@@ -40457,7 +40528,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15282
     - https://www.cve.org/CVERecord?id=CVE-2025-15282
     PublishedDate: '2026-01-20T22:15:50.883Z'
-    LastModifiedDate: '2026-01-20T23:16:05.233Z'
+    LastModifiedDate: '2026-01-23T17:16:05.95Z'
   - VulnerabilityID: CVE-2025-15366
     PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
     PkgName: python-unversioned-command
@@ -40652,6 +40723,7 @@
         V3Score: 4.8
     References:
     - https://access.redhat.com/security/cve/CVE-2026-0672
+    - https://github.com/python/cpython/commit/712452e6f1d4b9f7f8c4c92ebfcaac1705faa440
     - https://github.com/python/cpython/commit/95746b3a13a985787ef53b977129041971ed7f70
     - https://github.com/python/cpython/issues/143919
     - https://github.com/python/cpython/pull/143920
@@ -40659,7 +40731,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0672
     - https://www.cve.org/CVERecord?id=CVE-2026-0672
     PublishedDate: '2026-01-20T22:15:52.68Z'
-    LastModifiedDate: '2026-01-20T23:16:05.833Z'
+    LastModifiedDate: '2026-01-23T17:16:09.927Z'
   - VulnerabilityID: CVE-2026-0865
     PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
     PkgName: python-unversioned-command
@@ -40842,6 +40914,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
     PublishedDate: '2025-12-03T19:15:55.05Z'
     LastModifiedDate: '2026-01-14T19:16:41.103Z'
+  - VulnerabilityID: CVE-2025-12781
+    PkgID: python3@3.9.25-2.el9_7.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.25-2.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 50d28bc0ec862268
+    InstalledVersion: 3.9.25-2.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-12781
+    Fingerprint: sha256:4b76aa90ee19da38423579ed386818f922d04135a007d193bcad15f21bde5354
+    Title: 'cpython: base64.b64decode() always accepts "+/" characters, despite setting altchars'
+    Description: "When passing data to the b64decode(), standard_b64decode(), and urlsafe_b64decode() functions in the \"base64\" module the characters \"+/\" will always be accepted, regardless of the value of \"altchars\" parameter, typically used to establish an \"alternative base64 alphabet\" such as the URL safe alphabet. This behavior matches what is recommended in earlier base64 RFCs, but newer RFCs now recommend either dropping characters outside the specified base64 alphabet or raising an error. The old behavior has the possibility of causing data integrity issues.\n\n\n\n\nThis behavior can only be insecure if your application uses an alternate base64 alphabet (without \"+/\"). If your application does not use the \"altchars\" parameter or the urlsafe_b64decode() function, then your application does not use an alternative base64 alphabet.\n\n\n\n\nThe attached patches DOES NOT make the base64-decode behavior raise an error, as this would be a change in behavior and break existing programs. Instead, the patch deprecates the behavior which will be replaced with the newly recommended behavior in a future version of Python.\_Users are recommended to mitigate by verifying user-controlled inputs match the base64 \nalphabet they are expecting or verify that their application would not be \naffected if the b64decode() functions accepted \"+\" or \"/\" outside of altchars."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-704
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-12781
+    - https://github.com/python/cpython/commit/13360efd385d1a7d0659beba03787ea3d063ef9b
+    - https://github.com/python/cpython/commit/1be80bec7960f5ccd059e75f3dfbd45fca302947
+    - https://github.com/python/cpython/commit/9060b4abbe475591b6230b23c2afefeff26fcca5
+    - https://github.com/python/cpython/commit/e95e783dff443b68e8179fdb57737025bf02ba76
+    - https://github.com/python/cpython/commit/fd17ee026fa9b67f6288cbafe374a3e479fe03a5
+    - https://github.com/python/cpython/issues/125346
+    - https://github.com/python/cpython/pull/141128
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/KRI7GC6S27YV5NJ4FPDALS2WI5ENAFJ6/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-12781
+    - https://www.cve.org/CVERecord?id=CVE-2025-12781
+    PublishedDate: '2026-01-21T20:16:04.423Z'
+    LastModifiedDate: '2026-01-22T21:15:49.257Z'
   - VulnerabilityID: CVE-2025-13836
     PkgID: python3@3.9.25-2.el9_7.x86_64
     PkgName: python3
@@ -40963,6 +41074,7 @@
         V3Score: 4.8
     References:
     - https://access.redhat.com/security/cve/CVE-2025-15282
+    - https://github.com/python/cpython/commit/05356b1cc153108aaf27f3b72ce438af4aa218c0
     - https://github.com/python/cpython/commit/f25509e78e8be6ea73c811ac2b8c928c28841b9f
     - https://github.com/python/cpython/issues/143925
     - https://github.com/python/cpython/pull/143926
@@ -40970,7 +41082,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15282
     - https://www.cve.org/CVERecord?id=CVE-2025-15282
     PublishedDate: '2026-01-20T22:15:50.883Z'
-    LastModifiedDate: '2026-01-20T23:16:05.233Z'
+    LastModifiedDate: '2026-01-23T17:16:05.95Z'
   - VulnerabilityID: CVE-2025-15366
     PkgID: python3@3.9.25-2.el9_7.x86_64
     PkgName: python3
@@ -41165,6 +41277,7 @@
         V3Score: 4.8
     References:
     - https://access.redhat.com/security/cve/CVE-2026-0672
+    - https://github.com/python/cpython/commit/712452e6f1d4b9f7f8c4c92ebfcaac1705faa440
     - https://github.com/python/cpython/commit/95746b3a13a985787ef53b977129041971ed7f70
     - https://github.com/python/cpython/issues/143919
     - https://github.com/python/cpython/pull/143920
@@ -41172,7 +41285,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0672
     - https://www.cve.org/CVERecord?id=CVE-2026-0672
     PublishedDate: '2026-01-20T22:15:52.68Z'
-    LastModifiedDate: '2026-01-20T23:16:05.833Z'
+    LastModifiedDate: '2026-01-23T17:16:09.927Z'
   - VulnerabilityID: CVE-2026-0865
     PkgID: python3@3.9.25-2.el9_7.x86_64
     PkgName: python3
@@ -41355,6 +41468,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
     PublishedDate: '2025-12-03T19:15:55.05Z'
     LastModifiedDate: '2026-01-14T19:16:41.103Z'
+  - VulnerabilityID: CVE-2025-12781
+    PkgID: python3-libs@3.9.25-2.el9_7.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.25-2.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 5b651c0accf13a9c
+    InstalledVersion: 3.9.25-2.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-12781
+    Fingerprint: sha256:0437f52da61ca909eb20bbe8d286a3f2233edc5da1d3295c2a1a3161bc9b300f
+    Title: 'cpython: base64.b64decode() always accepts "+/" characters, despite setting altchars'
+    Description: "When passing data to the b64decode(), standard_b64decode(), and urlsafe_b64decode() functions in the \"base64\" module the characters \"+/\" will always be accepted, regardless of the value of \"altchars\" parameter, typically used to establish an \"alternative base64 alphabet\" such as the URL safe alphabet. This behavior matches what is recommended in earlier base64 RFCs, but newer RFCs now recommend either dropping characters outside the specified base64 alphabet or raising an error. The old behavior has the possibility of causing data integrity issues.\n\n\n\n\nThis behavior can only be insecure if your application uses an alternate base64 alphabet (without \"+/\"). If your application does not use the \"altchars\" parameter or the urlsafe_b64decode() function, then your application does not use an alternative base64 alphabet.\n\n\n\n\nThe attached patches DOES NOT make the base64-decode behavior raise an error, as this would be a change in behavior and break existing programs. Instead, the patch deprecates the behavior which will be replaced with the newly recommended behavior in a future version of Python.\_Users are recommended to mitigate by verifying user-controlled inputs match the base64 \nalphabet they are expecting or verify that their application would not be \naffected if the b64decode() functions accepted \"+\" or \"/\" outside of altchars."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-704
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-12781
+    - https://github.com/python/cpython/commit/13360efd385d1a7d0659beba03787ea3d063ef9b
+    - https://github.com/python/cpython/commit/1be80bec7960f5ccd059e75f3dfbd45fca302947
+    - https://github.com/python/cpython/commit/9060b4abbe475591b6230b23c2afefeff26fcca5
+    - https://github.com/python/cpython/commit/e95e783dff443b68e8179fdb57737025bf02ba76
+    - https://github.com/python/cpython/commit/fd17ee026fa9b67f6288cbafe374a3e479fe03a5
+    - https://github.com/python/cpython/issues/125346
+    - https://github.com/python/cpython/pull/141128
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/KRI7GC6S27YV5NJ4FPDALS2WI5ENAFJ6/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-12781
+    - https://www.cve.org/CVERecord?id=CVE-2025-12781
+    PublishedDate: '2026-01-21T20:16:04.423Z'
+    LastModifiedDate: '2026-01-22T21:15:49.257Z'
   - VulnerabilityID: CVE-2025-13836
     PkgID: python3-libs@3.9.25-2.el9_7.x86_64
     PkgName: python3-libs
@@ -41476,6 +41628,7 @@
         V3Score: 4.8
     References:
     - https://access.redhat.com/security/cve/CVE-2025-15282
+    - https://github.com/python/cpython/commit/05356b1cc153108aaf27f3b72ce438af4aa218c0
     - https://github.com/python/cpython/commit/f25509e78e8be6ea73c811ac2b8c928c28841b9f
     - https://github.com/python/cpython/issues/143925
     - https://github.com/python/cpython/pull/143926
@@ -41483,7 +41636,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15282
     - https://www.cve.org/CVERecord?id=CVE-2025-15282
     PublishedDate: '2026-01-20T22:15:50.883Z'
-    LastModifiedDate: '2026-01-20T23:16:05.233Z'
+    LastModifiedDate: '2026-01-23T17:16:05.95Z'
   - VulnerabilityID: CVE-2025-15366
     PkgID: python3-libs@3.9.25-2.el9_7.x86_64
     PkgName: python3-libs
@@ -41678,6 +41831,7 @@
         V3Score: 4.8
     References:
     - https://access.redhat.com/security/cve/CVE-2026-0672
+    - https://github.com/python/cpython/commit/712452e6f1d4b9f7f8c4c92ebfcaac1705faa440
     - https://github.com/python/cpython/commit/95746b3a13a985787ef53b977129041971ed7f70
     - https://github.com/python/cpython/issues/143919
     - https://github.com/python/cpython/pull/143920
@@ -41685,7 +41839,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0672
     - https://www.cve.org/CVERecord?id=CVE-2026-0672
     PublishedDate: '2026-01-20T22:15:52.68Z'
-    LastModifiedDate: '2026-01-20T23:16:05.833Z'
+    LastModifiedDate: '2026-01-23T17:16:09.927Z'
   - VulnerabilityID: CVE-2026-0865
     PkgID: python3-libs@3.9.25-2.el9_7.x86_64
     PkgName: python3-libs
