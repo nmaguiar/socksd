@@ -35477,7 +35477,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -35628,7 +35628,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
@@ -35690,7 +35690,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -35841,7 +35841,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
@@ -36040,12 +36040,14 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      alma: 2
       amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -36056,11 +36058,15 @@
     - https://access.redhat.com/errata/RHSA-2026:0975
     - https://access.redhat.com/errata/RHSA-2026:0991
     - https://access.redhat.com/security/cve/CVE-2025-13601
+    - https://bugzilla.redhat.com/2416741
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416741
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13601
+    - https://errata.almalinux.org/8/ALSA-2026-0991.html
+    - https://errata.rockylinux.org/RLSA-2026:0936
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3827
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4914
     - https://linux.oracle.com/cve/CVE-2025-13601.html
-    - https://linux.oracle.com/errata/ELSA-2026-0975.html
+    - https://linux.oracle.com/errata/ELSA-2026-0991.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13601
     - https://ubuntu.com/security/notices/USN-7942-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13601
@@ -36338,7 +36344,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://www.cve.org/CVERecord?id=CVE-2026-0915
     PublishedDate: '2026-01-15T22:16:12.457Z'
-    LastModifiedDate: '2026-01-20T16:16:07.41Z'
+    LastModifiedDate: '2026-01-23T19:36:50.73Z'
   - VulnerabilityID: CVE-2025-15281
     PkgID: glibc@2.34-231.el9_7.2.x86_64
     PkgName: glibc
@@ -36444,7 +36450,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://www.cve.org/CVERecord?id=CVE-2026-0915
     PublishedDate: '2026-01-15T22:16:12.457Z'
-    LastModifiedDate: '2026-01-20T16:16:07.41Z'
+    LastModifiedDate: '2026-01-23T19:36:50.73Z'
   - VulnerabilityID: CVE-2025-15281
     PkgID: glibc-common@2.34-231.el9_7.2.x86_64
     PkgName: glibc-common
@@ -36550,7 +36556,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://www.cve.org/CVERecord?id=CVE-2026-0915
     PublishedDate: '2026-01-15T22:16:12.457Z'
-    LastModifiedDate: '2026-01-20T16:16:07.41Z'
+    LastModifiedDate: '2026-01-23T19:36:50.73Z'
   - VulnerabilityID: CVE-2025-15281
     PkgID: glibc-minimal-langpack@2.34-231.el9_7.2.x86_64
     PkgName: glibc-minimal-langpack
@@ -36784,18 +36790,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0238
+    - https://access.redhat.com/errata/RHSA-2026:0927
     - https://access.redhat.com/security/cve/CVE-2025-64720
-    - https://bugzilla.redhat.com/2416904
-    - https://bugzilla.redhat.com/2416907
-    - https://bugzilla.redhat.com/2418711
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418711
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
-    - https://errata.almalinux.org/9/ALSA-2026-0238.html
+    - https://errata.almalinux.org/8/ALSA-2026-0927.html
     - https://errata.rockylinux.org/RLSA-2026:0238
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643 (v1.6.51)
@@ -36803,7 +36806,7 @@
     - https://github.com/pnggroup/libpng/pull/751
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww
     - https://linux.oracle.com/cve/CVE-2025-64720.html
-    - https://linux.oracle.com/errata/ELSA-2026-0927.html
+    - https://linux.oracle.com/errata/ELSA-2026-0928.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64720
     - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-64720
@@ -36848,18 +36851,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0238
+    - https://access.redhat.com/errata/RHSA-2026:0927
     - https://access.redhat.com/security/cve/CVE-2025-65018
-    - https://bugzilla.redhat.com/2416904
-    - https://bugzilla.redhat.com/2416907
-    - https://bugzilla.redhat.com/2418711
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418711
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
-    - https://errata.almalinux.org/9/ALSA-2026-0238.html
+    - https://errata.almalinux.org/8/ALSA-2026-0927.html
     - https://errata.rockylinux.org/RLSA-2026:0238
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d (v1.6.51)
@@ -36869,7 +36869,7 @@
     - https://github.com/pnggroup/libpng/pull/757
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g
     - https://linux.oracle.com/cve/CVE-2025-65018.html
-    - https://linux.oracle.com/errata/ELSA-2026-0927.html
+    - https://linux.oracle.com/errata/ELSA-2026-0928.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-65018
     - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-65018
@@ -36912,7 +36912,7 @@
     - http://www.openwall.com/lists/oss-security/2025/12/03/6
     - http://www.openwall.com/lists/oss-security/2025/12/03/7
     - http://www.openwall.com/lists/oss-security/2025/12/03/8
-    - https://access.redhat.com/errata/RHSA-2026:0238
+    - https://access.redhat.com/errata/RHSA-2026:0241
     - https://access.redhat.com/security/cve/CVE-2025-66293
     - https://bugzilla.redhat.com/2416904
     - https://bugzilla.redhat.com/2416907
@@ -36923,7 +36923,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
-    - https://errata.almalinux.org/9/ALSA-2026-0238.html
+    - https://errata.almalinux.org/8/ALSA-2026-0241.html
     - https://errata.rockylinux.org/RLSA-2026:0238
     - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
     - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
@@ -36959,16 +36959,31 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:0927
     - https://access.redhat.com/security/cve/CVE-2026-21945
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429924
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429926
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429927
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
+    - https://errata.almalinux.org/8/ALSA-2026-0927.html
+    - https://errata.rockylinux.org/RLSA-2026:0928
     - https://linux.oracle.com/cve/CVE-2026-21945.html
-    - https://linux.oracle.com/errata/ELSA-2026-0927.html
+    - https://linux.oracle.com/errata/ELSA-2026-0928.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21945
     - https://www.cve.org/CVERecord?id=CVE-2026-21945
     - https://www.oracle.com/security-alerts/cpujan2026.html
@@ -37119,16 +37134,31 @@
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: RMI).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2026:0927
     - https://access.redhat.com/security/cve/CVE-2026-21925
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429924
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429926
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429927
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
+    - https://errata.almalinux.org/8/ALSA-2026-0927.html
+    - https://errata.rockylinux.org/RLSA-2026:0928
     - https://linux.oracle.com/cve/CVE-2026-21925.html
-    - https://linux.oracle.com/errata/ELSA-2026-0927.html
+    - https://linux.oracle.com/errata/ELSA-2026-0928.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21925
     - https://www.cve.org/CVERecord?id=CVE-2026-21925
     - https://www.oracle.com/security-alerts/cpujan2026.html
@@ -37155,16 +37185,31 @@
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
+    - https://access.redhat.com/errata/RHSA-2026:0927
     - https://access.redhat.com/security/cve/CVE-2026-21933
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429924
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429926
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429927
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
+    - https://errata.almalinux.org/8/ALSA-2026-0927.html
+    - https://errata.rockylinux.org/RLSA-2026:0928
     - https://linux.oracle.com/cve/CVE-2026-21933.html
-    - https://linux.oracle.com/errata/ELSA-2026-0927.html
+    - https://linux.oracle.com/errata/ELSA-2026-0928.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21933
     - https://www.cve.org/CVERecord?id=CVE-2026-21933
     - https://www.oracle.com/security-alerts/cpujan2026.html
@@ -37757,7 +37802,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -37908,7 +37953,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
@@ -37970,7 +38015,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1671
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -38121,7 +38166,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21546
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
-    - https://errata.almalinux.org/9/ALSA-2025-1671.html
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://errata.rockylinux.org/RLSA-2025:1671
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
@@ -39433,7 +39478,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:16046
+    - https://access.redhat.com/errata/RHSA-2025:15699
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -39593,7 +39638,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
@@ -39772,7 +39817,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:16046
+    - https://access.redhat.com/errata/RHSA-2025:15699
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -39932,7 +39977,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
@@ -41968,14 +42013,14 @@
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.2
     References:
-    - https://access.redhat.com/errata/RHSA-2024:2132
+    - https://access.redhat.com/errata/RHSA-2024:2968
     - https://access.redhat.com/security/cve/CVE-2023-45803
     - https://bugzilla.redhat.com/2246840
     - https://bugzilla.redhat.com/2257028
     - https://bugzilla.redhat.com/2257854
     - https://bugzilla.redhat.com/show_bug.cgi?id=2246840
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45803
-    - https://errata.almalinux.org/9/ALSA-2024-2132.html
+    - https://errata.almalinux.org/8/ALSA-2024-2968.html
     - https://errata.rockylinux.org/RLSA-2024:11238
     - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-212.yaml
     - https://github.com/urllib3/urllib3
