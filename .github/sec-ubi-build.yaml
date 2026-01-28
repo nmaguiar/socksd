@@ -36701,6 +36701,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
     LastModifiedDate: '2025-10-16T16:53:07.557Z'
+  - VulnerabilityID: CVE-2025-9820
+    PkgID: gnutls@3.8.3-9.el9.x86_64
+    PkgName: gnutls
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/gnutls@3.8.3-9.el9?arch=x86_64&distro=redhat-9.7
+      UID: a94a91fe2b9c844a
+    InstalledVersion: 3.8.3-9.el9
+    Status: affected
+    Layer:
+      Digest: sha256:7009b09f49693bbf0e92e0867bfa82714d9c7f9cf2a7478b295c381898ec49cc
+      DiffID: sha256:159bf95843b62b73d4472c390fccd5ef0fff5efc1a68f09935b69f6dd4161a12
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9820
+    Fingerprint: sha256:035cb9176abd974ba8d096935ccb8ebf72cafd429cf5b53d8838daf51c878ea1
+    Title: 'gnutls: Stack-based Buffer Overflow in gnutls_pkcs11_token_init() Function'
+    Description: A flaw was found in the GnuTLS library, specifically in the gnutls_pkcs11_token_init() function that handles PKCS#11 token initialization. When a token label longer than expected is processed, the function writes past the end of a fixed-size stack buffer. This programming error can cause the application using GnuTLS to crash or, in certain conditions, be exploited for code execution. As a result, systems or applications relying on GnuTLS may be vulnerable to a denial of service or local privilege escalation attacks.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/11/20/2
+    - https://access.redhat.com/security/cve/CVE-2025-9820
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2392528
+    - https://gitlab.com/gnutls/gnutls/-/commit/1d56f96f6ab5034d677136b9d50b5a75dff0faf5
+    - https://gitlab.com/gnutls/gnutls/-/issues/1732
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9820
+    - https://www.cve.org/CVERecord?id=CVE-2025-9820
+    - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-11-18
+    PublishedDate: '2026-01-26T20:16:09.37Z'
+    LastModifiedDate: '2026-01-26T20:16:09.37Z'
   - VulnerabilityID: CVE-2025-66293
     PkgID: java-21-openjdk-headless@21.0.10.0.7-1.el9.x86_64
     PkgName: java-21-openjdk-headless
