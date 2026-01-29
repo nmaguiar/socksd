@@ -35142,6 +35142,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-68471
     PublishedDate: '2026-01-12T18:15:48.327Z'
     LastModifiedDate: '2026-01-16T16:53:04.697Z'
+  - VulnerabilityID: CVE-2026-24401
+    PkgID: avahi-libs@0.8-23.el9.x86_64
+    PkgName: avahi-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/avahi-libs@0.8-23.el9?arch=x86_64&distro=redhat-9.7
+      UID: d10e457062d4d72e
+    InstalledVersion: 0.8-23.el9
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24401
+    Fingerprint: sha256:b109012c1e66f7924d5c50b9a91d78c1722ca7e2a4d7b6e13d174619f35d1e83
+    Title: 'avahi: Avahi: Denial of Service via recursive CNAME record in mDNS response'
+    Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions 0.9rc2 and below, avahi-daemon can be crashed via a segmentation fault by sending an unsolicited mDNS response containing a recursive CNAME record, where the alias and canonical name point to the same domain (e.g., "h.local" as a CNAME for "h.local"). This causes unbounded recursion in the lookup_handle_cname function, leading to stack exhaustion. The vulnerability affects record browsers where AVAHI_LOOKUP_USE_MULTICAST is set explicitly, which includes record browsers created by resolvers used by nss-mdns. This issue is patched in commit 78eab31128479f06e30beb8c1cbf99dd921e2524.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-24401
+    - https://github.com/avahi/avahi/commit/78eab31128479f06e30beb8c1cbf99dd921e2524
+    - https://github.com/avahi/avahi/issues/501
+    - https://github.com/avahi/avahi/security/advisories/GHSA-h4vp-5m8j-f6w3
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-24401
+    - https://www.cve.org/CVERecord?id=CVE-2026-24401
+    PublishedDate: '2026-01-24T02:15:48.76Z'
+    LastModifiedDate: '2026-01-26T15:03:33.357Z'
   - VulnerabilityID: CVE-2017-6519
     PkgID: avahi-libs@0.8-23.el9.x86_64
     PkgName: avahi-libs
@@ -35369,15 +35403,18 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://www.cve.org/CVERecord?id=CVE-2025-14017
     PublishedDate: '2026-01-08T10:15:45.667Z'
-    LastModifiedDate: '2026-01-16T16:15:52.793Z'
+    LastModifiedDate: '2026-01-27T21:29:39.953Z'
   - VulnerabilityID: CVE-2025-9086
+    VendorIDs:
+    - RHSA-2026:1350
     PkgID: curl-minimal@7.76.1-34.el9.x86_64
     PkgName: curl-minimal
     PkgIdentifier:
       PURL: pkg:rpm/redhat/curl-minimal@7.76.1-34.el9?arch=x86_64&distro=redhat-9.7
       UID: 102420ae56646190
     InstalledVersion: 7.76.1-34.el9
-    Status: affected
+    FixedVersion: 7.76.1-35.el9_7.3
+    Status: fixed
     Layer:
       Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
       DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
@@ -35431,7 +35468,7 @@
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
-    - https://linux.oracle.com/errata/ELSA-2025-23383.html
+    - https://linux.oracle.com/errata/ELSA-2026-1350.html
     - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
@@ -35973,6 +36010,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-66382
     PublishedDate: '2025-11-28T07:15:57.9Z'
     LastModifiedDate: '2025-12-19T16:05:03.557Z'
+  - VulnerabilityID: CVE-2026-24515
+    PkgID: expat@2.5.0-5.el9_7.1.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-5.el9_7.1?arch=x86_64&distro=redhat-9.7
+      UID: 7b112b75a70a65a
+    InstalledVersion: 2.5.0-5.el9_7.1
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24515
+    Fingerprint: sha256:1ef49975b04844c15edf05ad8d67ac8c08457907e4a7521ebfd0226ba7216e46
+    Title: 'libexpat: libexpat null pointer dereference'
+    Description: In libexpat before 2.7.4, XML_ExternalEntityParserCreate does not copy unknown encoding handler user data.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-24515
+    - https://github.com/libexpat/libexpat/pull/1131
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-24515
+    - https://www.cve.org/CVERecord?id=CVE-2026-24515
+    PublishedDate: '2026-01-23T08:16:01.49Z'
+    LastModifiedDate: '2026-01-26T15:03:51.687Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -36061,6 +36130,7 @@
     - https://access.redhat.com/errata/RHSA-2026:1324
     - https://access.redhat.com/errata/RHSA-2026:1326
     - https://access.redhat.com/errata/RHSA-2026:1327
+    - https://access.redhat.com/errata/RHSA-2026:1465
     - https://access.redhat.com/security/cve/CVE-2025-13601
     - https://bugzilla.redhat.com/2416741
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416741
@@ -36075,7 +36145,7 @@
     - https://ubuntu.com/security/notices/USN-7942-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13601
     PublishedDate: '2025-11-26T15:15:51.723Z'
-    LastModifiedDate: '2026-01-27T10:15:48.42Z'
+    LastModifiedDate: '2026-01-28T07:15:57.987Z'
   - VulnerabilityID: CVE-2025-14087
     PkgID: glib2@2.68.4-18.el9_7.x86_64
     PkgName: glib2
@@ -36152,6 +36222,70 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-14512
     PublishedDate: '2025-12-11T07:16:00.463Z'
     LastModifiedDate: '2025-12-12T15:18:13.39Z'
+  - VulnerabilityID: CVE-2026-1484
+    PkgID: glib2@2.68.4-18.el9_7.x86_64
+    PkgName: glib2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glib2@2.68.4-18.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 222c9d367a7197da
+    InstalledVersion: 2.68.4-18.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1484
+    Fingerprint: sha256:cb6ffd396589aa94602ec29057923a5bd1a132629b1257cbba24fda5d7322fdb
+    Title: 'Glib: Integer Overflow Leading to Buffer Underflow and Out-of-Bounds Write in GLib g_base64_encode()'
+    Description: A flaw was found in the GLib Base64 encoding routine when processing very large input data. Due to incorrect use of integer types during length calculation, the library may miscalculate buffer boundaries. This can cause memory writes outside the allocated buffer. Applications that process untrusted or extremely large Base64 input using GLib may crash or behave unpredictably.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:L
+        V3Score: 4.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-1484
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2433259
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1484
+    - https://www.cve.org/CVERecord?id=CVE-2026-1484
+    PublishedDate: '2026-01-27T14:15:56.05Z'
+    LastModifiedDate: '2026-01-27T14:59:34.073Z'
+  - VulnerabilityID: CVE-2026-1489
+    PkgID: glib2@2.68.4-18.el9_7.x86_64
+    PkgName: glib2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glib2@2.68.4-18.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 222c9d367a7197da
+    InstalledVersion: 2.68.4-18.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1489
+    Fingerprint: sha256:5e4d98b50836bc75623db25fcffe7f2c22075637ab3b3cc2ef3956402ae94342
+    Title: 'Glib: GLib: Memory corruption via integer overflow in Unicode case conversion'
+    Description: A flaw was found in GLib. An integer overflow vulnerability in its Unicode case conversion implementation can lead to memory corruption. By processing specially crafted and extremely large Unicode strings, an attacker could trigger an undersized memory allocation, resulting in out-of-bounds writes. This could cause applications utilizing GLib for string conversion to crash or become unstable.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-1489
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2433348
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1489
+    - https://www.cve.org/CVERecord?id=CVE-2026-1489
+    PublishedDate: '2026-01-27T15:15:57.37Z'
+    LastModifiedDate: '2026-01-27T16:06:45.16Z'
   - VulnerabilityID: CVE-2023-32636
     PkgID: glib2@2.68.4-18.el9_7.x86_64
     PkgName: glib2
@@ -36316,6 +36450,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-0988
     PublishedDate: '2026-01-21T12:15:55.56Z'
     LastModifiedDate: '2026-01-26T15:04:59.737Z'
+  - VulnerabilityID: CVE-2026-1485
+    PkgID: glib2@2.68.4-18.el9_7.x86_64
+    PkgName: glib2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glib2@2.68.4-18.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 222c9d367a7197da
+    InstalledVersion: 2.68.4-18.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1485
+    Fingerprint: sha256:4f5674e683a7befde5994c1f760a5cafd750a4cfa413db5b4dbb152f96029355
+    Title: 'Glib: Glib: Local denial of service via buffer underflow in content type parsing'
+    Description: A flaw was found in Glib's content type parsing logic. This buffer underflow vulnerability occurs because the length of a header line is stored in a signed integer, which can lead to integer wraparound for very large inputs. This results in pointer underflow and out-of-bounds memory access. Exploitation requires a local user to install or process a specially crafted treemagic file, which can lead to local denial of service or application instability.
+    Severity: LOW
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-1485
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2433325
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1485
+    - https://www.cve.org/CVERecord?id=CVE-2026-1485
+    PublishedDate: '2026-01-27T14:15:56.223Z'
+    LastModifiedDate: '2026-01-27T14:59:34.073Z'
   - VulnerabilityID: CVE-2026-0915
     PkgID: glibc@2.34-231.el9_7.2.x86_64
     PkgName: glibc
@@ -36336,6 +36502,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
     CVSS:
       redhat:
@@ -36344,6 +36511,8 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/16/6
     - https://access.redhat.com/security/cve/CVE-2026-0915
+    - https://linux.oracle.com/cve/CVE-2026-0915.html
+    - https://linux.oracle.com/errata/ELSA-2026-1334.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://www.cve.org/CVERecord?id=CVE-2026-0915
@@ -36407,6 +36576,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      oracle-oval: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -36416,6 +36586,8 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/16/5
     - https://access.redhat.com/security/cve/CVE-2026-0861
+    - https://linux.oracle.com/cve/CVE-2026-0861.html
+    - https://linux.oracle.com/errata/ELSA-2026-1334.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
@@ -36442,6 +36614,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
     CVSS:
       redhat:
@@ -36450,6 +36623,8 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/16/6
     - https://access.redhat.com/security/cve/CVE-2026-0915
+    - https://linux.oracle.com/cve/CVE-2026-0915.html
+    - https://linux.oracle.com/errata/ELSA-2026-1334.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://www.cve.org/CVERecord?id=CVE-2026-0915
@@ -36513,6 +36688,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      oracle-oval: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -36522,6 +36698,8 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/16/5
     - https://access.redhat.com/security/cve/CVE-2026-0861
+    - https://linux.oracle.com/cve/CVE-2026-0861.html
+    - https://linux.oracle.com/errata/ELSA-2026-1334.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
@@ -36548,6 +36726,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
     CVSS:
       redhat:
@@ -36556,6 +36735,8 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/16/6
     - https://access.redhat.com/security/cve/CVE-2026-0915
+    - https://linux.oracle.com/cve/CVE-2026-0915.html
+    - https://linux.oracle.com/errata/ELSA-2026-1334.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://www.cve.org/CVERecord?id=CVE-2026-0915
@@ -36619,6 +36800,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      oracle-oval: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -36628,12 +36810,80 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/16/5
     - https://access.redhat.com/security/cve/CVE-2026-0861
+    - https://linux.oracle.com/cve/CVE-2026-0861.html
+    - https://linux.oracle.com/errata/ELSA-2026-1334.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
     - https://www.cve.org/CVERecord?id=CVE-2026-0861
     PublishedDate: '2026-01-14T21:15:52.617Z'
     LastModifiedDate: '2026-01-16T18:16:09.343Z'
+  - VulnerabilityID: CVE-2026-24881
+    PkgID: gnupg2@2.3.3-5.el9_7.x86_64
+    PkgName: gnupg2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/gnupg2@2.3.3-5.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 8dfcc39819e05a23
+    InstalledVersion: 2.3.3-5.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24881
+    Fingerprint: sha256:2a0b333e2510394ce1b0a8e74131acc2a3147a8acb6bbb0d719ec6feb88fd59d
+    Title: 'GnuPG: GnuPG: Remote code execution and denial of service via crafted CMS EnvelopedData message'
+    Description: In GnuPG before 2.5.17, a crafted CMS (S/MIME) EnvelopedData message carrying an oversized wrapped session key can cause a stack-based buffer overflow in gpg-agent during PKDECRYPT--kem=CMS handling. This can easily be leveraged for denial of service; however, there is also memory corruption that could lead to remote code execution.
+    Severity: HIGH
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-24881
+    - https://dev.gnupg.org/T8044
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-24881
+    - https://www.cve.org/CVERecord?id=CVE-2026-24881
+    - https://www.openwall.com/lists/oss-security/2026/01/27/8
+    PublishedDate: '2026-01-27T19:16:16.517Z'
+    LastModifiedDate: '2026-01-27T19:16:16.517Z'
+  - VulnerabilityID: CVE-2026-24882
+    PkgID: gnupg2@2.3.3-5.el9_7.x86_64
+    PkgName: gnupg2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/gnupg2@2.3.3-5.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 8dfcc39819e05a23
+    InstalledVersion: 2.3.3-5.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24882
+    Fingerprint: sha256:63671b374ae86d2a71948ff1b229c107222cc6c1742808f8bf1ad5dd80d497ba
+    Title: 'GnuPG: GnuPG: Stack-based buffer overflow in tpm2daemon allows arbitrary code execution'
+    Description: In GnuPG before 2.5.17, a stack-based buffer overflow exists in tpm2daemon during handling of the PKDECRYPT command for TPM-backed RSA and ECC keys.
+    Severity: HIGH
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-24882
+    - https://dev.gnupg.org/T8045
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-24882
+    - https://www.cve.org/CVERecord?id=CVE-2026-24882
+    - https://www.openwall.com/lists/oss-security/2026/01/27/8
+    PublishedDate: '2026-01-27T19:16:16.67Z'
+    LastModifiedDate: '2026-01-27T19:16:16.67Z'
   - VulnerabilityID: CVE-2025-68972
     PkgID: gnupg2@2.3.3-5.el9_7.x86_64
     PkgName: gnupg2
@@ -36757,6 +37007,39 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
     LastModifiedDate: '2025-10-16T16:53:07.557Z'
+  - VulnerabilityID: CVE-2026-24883
+    PkgID: gnupg2@2.3.3-5.el9_7.x86_64
+    PkgName: gnupg2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/gnupg2@2.3.3-5.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 8dfcc39819e05a23
+    InstalledVersion: 2.3.3-5.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24883
+    Fingerprint: sha256:29bcfdac971ef630f079d9454d010c72e05eaad905e350da20a930188cb9e258
+    Title: 'GnuPG: GnuPG: Denial of service due to specially crafted signature packet'
+    Description: In GnuPG before 2.5.17, a long signature packet length causes parse_signature to return success with sig->data[] set to a NULL value, leading to a denial of service (application crash).
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-24883
+    - https://dev.gnupg.org/T8049
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-24883
+    - https://www.cve.org/CVERecord?id=CVE-2026-24883
+    - https://www.openwall.com/lists/oss-security/2026/01/27/8
+    PublishedDate: '2026-01-27T19:16:16.823Z'
+    LastModifiedDate: '2026-01-27T19:16:16.823Z'
   - VulnerabilityID: CVE-2025-9820
     PkgID: gnutls@3.8.3-9.el9.x86_64
     PkgName: gnutls
@@ -36792,7 +37075,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9820
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-11-18
     PublishedDate: '2026-01-26T20:16:09.37Z'
-    LastModifiedDate: '2026-01-26T20:16:09.37Z'
+    LastModifiedDate: '2026-01-27T14:59:34.073Z'
   - VulnerabilityID: CVE-2025-64720
     VendorIDs:
     - RHSA-2026:0928
@@ -36846,7 +37129,7 @@
     - https://github.com/pnggroup/libpng/pull/751
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww
     - https://linux.oracle.com/cve/CVE-2025-64720.html
-    - https://linux.oracle.com/errata/ELSA-2026-0928.html
+    - https://linux.oracle.com/errata/ELSA-2026-0932.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64720
     - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-64720
@@ -36909,7 +37192,7 @@
     - https://github.com/pnggroup/libpng/pull/757
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g
     - https://linux.oracle.com/cve/CVE-2025-65018.html
-    - https://linux.oracle.com/errata/ELSA-2026-0928.html
+    - https://linux.oracle.com/errata/ELSA-2026-0932.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-65018
     - https://ubuntu.com/security/notices/USN-7924-1
     - https://www.cve.org/CVERecord?id=CVE-2025-65018
@@ -37023,7 +37306,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-0928.html
     - https://errata.rockylinux.org/RLSA-2026:0928
     - https://linux.oracle.com/cve/CVE-2026-21945.html
-    - https://linux.oracle.com/errata/ELSA-2026-0928.html
+    - https://linux.oracle.com/errata/ELSA-2026-0932.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21945
     - https://www.cve.org/CVERecord?id=CVE-2026-21945
     - https://www.oracle.com/security-alerts/cpujan2026.html
@@ -37198,7 +37481,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-0928.html
     - https://errata.rockylinux.org/RLSA-2026:0928
     - https://linux.oracle.com/cve/CVE-2026-21925.html
-    - https://linux.oracle.com/errata/ELSA-2026-0928.html
+    - https://linux.oracle.com/errata/ELSA-2026-0932.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21925
     - https://www.cve.org/CVERecord?id=CVE-2026-21925
     - https://www.oracle.com/security-alerts/cpujan2026.html
@@ -37249,7 +37532,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-0928.html
     - https://errata.rockylinux.org/RLSA-2026:0928
     - https://linux.oracle.com/cve/CVE-2026-21933.html
-    - https://linux.oracle.com/errata/ELSA-2026-0928.html
+    - https://linux.oracle.com/errata/ELSA-2026-0932.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21933
     - https://www.cve.org/CVERecord?id=CVE-2026-21933
     - https://www.oracle.com/security-alerts/cpujan2026.html
@@ -37734,15 +38017,18 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://www.cve.org/CVERecord?id=CVE-2025-14017
     PublishedDate: '2026-01-08T10:15:45.667Z'
-    LastModifiedDate: '2026-01-16T16:15:52.793Z'
+    LastModifiedDate: '2026-01-27T21:29:39.953Z'
   - VulnerabilityID: CVE-2025-9086
+    VendorIDs:
+    - RHSA-2026:1350
     PkgID: libcurl-minimal@7.76.1-34.el9.x86_64
     PkgName: libcurl-minimal
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-34.el9?arch=x86_64&distro=redhat-9.7
       UID: fe2ca997a12c5ed1
     InstalledVersion: 7.76.1-34.el9
-    Status: affected
+    FixedVersion: 7.76.1-35.el9_7.3
+    Status: fixed
     Layer:
       Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
       DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
@@ -37796,7 +38082,7 @@
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
-    - https://linux.oracle.com/errata/ELSA-2025-23383.html
+    - https://linux.oracle.com/errata/ELSA-2026-1350.html
     - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
@@ -39467,6 +39753,223 @@
     - https://www.vulncheck.com/advisories/openldap-lmdb-mdb-load-heap-buffer-underflow-in-readline
     PublishedDate: '2026-01-07T21:16:01.733Z'
     LastModifiedDate: '2026-01-14T18:16:42.147Z'
+  - VulnerabilityID: CVE-2025-15467
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: d81a1100bbc4001d
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15467
+    Fingerprint: sha256:dd1ead63bf2d08aec6c5e42c00c780374ef6b13bb4f3589aace3cc226d0f533b
+    Title: 'openssl: OpenSSL: Remote code execution or Denial of Service via oversized Initialization Vector in CMS parsing'
+    Description: |-
+      Issue summary: Parsing CMS AuthEnvelopedData message with maliciously
+      crafted AEAD parameters can trigger a stack buffer overflow.
+
+      Impact summary: A stack buffer overflow may lead to a crash, causing Denial
+      of Service, or potentially remote code execution.
+
+      When parsing CMS AuthEnvelopedData structures that use AEAD ciphers such as
+      AES-GCM, the IV (Initialization Vector) encoded in the ASN.1 parameters is
+      copied into a fixed-size stack buffer without verifying that its length fits
+      the destination. An attacker can supply a crafted CMS message with an
+      oversized IV, causing a stack-based out-of-bounds write before any
+      authentication or tag verification occurs.
+
+      Applications and services that parse untrusted CMS or PKCS#7 content using
+      AEAD ciphers (e.g., S/MIME AuthEnvelopedData with AES-GCM) are vulnerable.
+      Because the overflow occurs prior to authentication, no valid key material
+      is required to trigger it. While exploitability to remote code execution
+      depends on platform and toolchain mitigations, the stack-based write
+      primitive represents a severe risk.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this
+      issue, as the CMS implementation is outside the OpenSSL FIPS module
+      boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3 and 3.0 are vulnerable to this issue.
+
+      OpenSSL 1.1.1 and 1.0.2 are not affected by this issue.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/27/10
+    - https://access.redhat.com/security/cve/CVE-2025-15467
+    - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
+    - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
+    - https://github.com/openssl/openssl/commit/6ced0fe6b10faa560e410e3ee8d6c82f06c65ea3
+    - https://github.com/openssl/openssl/commit/ce39170276daec87f55c39dad1f629b56344429e
+    - https://github.com/openssl/openssl/commit/d0071a0799f20cc8101730145349ed4487c268dc
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15467
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-15467
+    PublishedDate: '2026-01-27T16:16:14.257Z'
+    LastModifiedDate: '2026-01-27T22:15:51.597Z'
+  - VulnerabilityID: CVE-2025-11187
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: d81a1100bbc4001d
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-11187
+    Fingerprint: sha256:a526017f652bfa3a536edd32f43742915bb5c5b6fe99badad754ba96d3c969da
+    Title: 'openssl: OpenSSL: Arbitrary code execution or denial of service through crafted PKCS#12 file'
+    Description: |-
+      Issue summary: PBMAC1 parameters in PKCS#12 files are missing validation
+      which can trigger a stack-based buffer overflow, invalid pointer or NULL
+      pointer dereference during MAC verification.
+
+      Impact summary: The stack buffer overflow or NULL pointer dereference may
+      cause a crash leading to Denial of Service for an application that parses
+      untrusted PKCS#12 files. The buffer overflow may also potentially enable
+      code execution depending on platform mitigations.
+
+      When verifying a PKCS#12 file that uses PBMAC1 for the MAC, the PBKDF2
+      salt and keylength parameters from the file are used without validation.
+      If the value of keylength exceeds the size of the fixed stack buffer used
+      for the derived key (64 bytes), the key derivation will overflow the buffer.
+      The overflow length is attacker-controlled. Also, if the salt parameter is
+      not an OCTET STRING type this can lead to invalid or NULL pointer
+      dereference.
+
+      Exploiting this issue requires a user or application to process
+      a maliciously crafted PKCS#12 file. It is uncommon to accept untrusted
+      PKCS#12 files in applications as they are usually used to store private
+      keys which are trusted by definition. For this reason the issue was assessed
+      as Moderate severity.
+
+      The FIPS modules in 3.6, 3.5 and 3.4 are not affected by this issue, as
+      PKCS#12 processing is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5 and 3.4 are vulnerable to this issue.
+
+      OpenSSL 3.3, 3.0, 1.1.1 and 1.0.2 are not affected by this issue as they do
+      not support PBMAC1 in PKCS#12.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-11187
+    - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
+    - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
+    - https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-11187
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-11187
+    PublishedDate: '2026-01-27T16:16:14.093Z'
+    LastModifiedDate: '2026-01-27T16:16:14.093Z'
+  - VulnerabilityID: CVE-2025-69419
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: d81a1100bbc4001d
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69419
+    Fingerprint: sha256:9f70ab99aca996521911d5661b416cfb8a4489de6959403e1007be3f89720fcd
+    Title: 'openssl: OpenSSL: Arbitrary code execution due to out-of-bounds write in PKCS#12 processing'
+    Description: |-
+      Issue summary: Calling PKCS12_get_friendlyname() function on a maliciously
+      crafted PKCS#12 file with a BMPString (UTF-16BE) friendly name containing
+      non-ASCII BMP code point can trigger a one byte write before the allocated
+      buffer.
+
+      Impact summary: The out-of-bounds write can cause a memory corruption
+      which can have various consequences including a Denial of Service.
+
+      The OPENSSL_uni2utf8() function performs a two-pass conversion of a PKCS#12
+      BMPString (UTF-16BE) to UTF-8. In the second pass, when emitting UTF-8 bytes,
+      the helper function bmp_to_utf8() incorrectly forwards the remaining UTF-16
+      source byte count as the destination buffer capacity to UTF8_putc(). For BMP
+      code points above U+07FF, UTF-8 requires three bytes, but the forwarded
+      capacity can be just two bytes. UTF8_putc() then returns -1, and this negative
+      value is added to the output length without validation, causing the
+      length to become negative. The subsequent trailing NUL byte is then written
+      at a negative offset, causing write outside of heap allocated buffer.
+
+      The vulnerability is reachable via the public PKCS12_get_friendlyname() API
+      when parsing attacker-controlled PKCS#12 files. While PKCS12_parse() uses a
+      different code path that avoids this issue, PKCS12_get_friendlyname() directly
+      invokes the vulnerable function. Exploitation requires an attacker to provide
+      a malicious PKCS#12 file to be parsed by the application and the attacker
+      can just trigger a one zero byte write before the allocated buffer.
+      For that reason the issue was assessed as Low severity according to our
+      Security Policy.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the PKCS#12 implementation is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.
+
+      OpenSSL 1.0.2 is not affected by this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-69419
+    - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
+    - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
+    - https://github.com/openssl/openssl/commit/a26a90d38edec3748566129d824e664b54bee2e2
+    - https://github.com/openssl/openssl/commit/cda12de3bc0e333ea8d2c6fd15001dbdaf280015
+    - https://github.com/openssl/openssl/commit/ff628933755075446bca8307e8417c14d164b535
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-69419
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-69419
+    PublishedDate: '2026-01-27T16:16:34.113Z'
+    LastModifiedDate: '2026-01-27T16:16:34.113Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl@3.5.1-5.el9_7.x86_64
     PkgName: openssl
@@ -39739,6 +40242,452 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
+  - VulnerabilityID: CVE-2025-15468
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: d81a1100bbc4001d
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15468
+    Fingerprint: sha256:085729eb8d12f4f10e815d7584faa2517b38d05680c6715f49d8ade476d1b162
+    Title: 'openssl: OpenSSL: Denial of Service via NULL pointer dereference in QUIC protocol handling'
+    Description: |-
+      Issue summary: If an application using the SSL_CIPHER_find() function in
+      a QUIC protocol client or server receives an unknown cipher suite from
+      the peer, a NULL dereference occurs.
+
+      Impact summary: A NULL pointer dereference leads to abnormal termination of
+      the running process causing Denial of Service.
+
+      Some applications call SSL_CIPHER_find() from the client_hello_cb callback
+      on the cipher ID received from the peer. If this is done with an SSL object
+      implementing the QUIC protocol, NULL pointer dereference will happen if
+      the examined cipher ID is unknown or unsupported.
+
+      As it is not very common to call this function in applications using the QUIC 
+      protocol and the worst outcome is Denial of Service, the issue was assessed
+      as Low severity.
+
+      The vulnerable code was introduced in the 3.2 version with the addition
+      of the QUIC protocol support.
+
+      The FIPS modules in 3.6, 3.5, 3.4 and 3.3 are not affected by this issue,
+      as the QUIC implementation is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5, 3.4 and 3.3 are vulnerable to this issue.
+
+      OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-15468
+    - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
+    - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
+    - https://github.com/openssl/openssl/commit/b2539639400288a4580fe2d76247541b976bade4
+    - https://github.com/openssl/openssl/commit/d75b309879631d45b972396ce4e5102559c64ac7
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15468
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-15468
+    PublishedDate: '2026-01-27T16:16:14.4Z'
+    LastModifiedDate: '2026-01-27T16:16:14.4Z'
+  - VulnerabilityID: CVE-2025-15469
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: d81a1100bbc4001d
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15469
+    Fingerprint: sha256:7bdf35bc1769df2b951e628dfdf59e1ccad8fbe7d38a6d4e2ced81b4c4cd16e7
+    Title: 'openssl: OpenSSL: Data integrity bypass in `openssl dgst` command due to silent truncation'
+    Description: |-
+      Issue summary: The 'openssl dgst' command-line tool silently truncates input
+      data to 16MB when using one-shot signing algorithms and reports success instead
+      of an error.
+
+      Impact summary: A user signing or verifying files larger than 16MB with
+      one-shot algorithms (such as Ed25519, Ed448, or ML-DSA) may believe the entire
+      file is authenticated while trailing data beyond 16MB remains unauthenticated.
+
+      When the 'openssl dgst' command is used with algorithms that only support
+      one-shot signing (Ed25519, Ed448, ML-DSA-44, ML-DSA-65, ML-DSA-87), the input
+      is buffered with a 16MB limit. If the input exceeds this limit, the tool
+      silently truncates to the first 16MB and continues without signaling an error,
+      contrary to what the documentation states. This creates an integrity gap where
+      trailing bytes can be modified without detection if both signing and
+      verification are performed using the same affected codepath.
+
+      The issue affects only the command-line tool behavior. Verifiers that process
+      the full message using library APIs will reject the signature, so the risk
+      primarily affects workflows that both sign and verify with the affected
+      'openssl dgst' command. Streaming digest algorithms for 'openssl dgst' and
+      library users are unaffected.
+
+      The FIPS modules in 3.5 and 3.6 are not affected by this issue, as the
+      command-line tools are outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.5 and 3.6 are vulnerable to this issue.
+
+      OpenSSL 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-15469
+    - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
+    - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15469
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-15469
+    PublishedDate: '2026-01-27T16:16:14.523Z'
+    LastModifiedDate: '2026-01-27T16:16:14.523Z'
+  - VulnerabilityID: CVE-2025-66199
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: d81a1100bbc4001d
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66199
+    Fingerprint: sha256:f457e39c7e20e460a76cb6417f0920ac01bf9b5eb85702609ba84b5d45259ae6
+    Title: 'openssl: OpenSSL: Denial of Service due to excessive memory allocation in TLS 1.3 certificate compression'
+    Description: |-
+      Issue summary: A TLS 1.3 connection using certificate compression can be
+      forced to allocate a large buffer before decompression without checking
+      against the configured certificate size limit.
+
+      Impact summary: An attacker can cause per-connection memory allocations of
+      up to approximately 22 MiB and extra CPU work, potentially leading to
+      service degradation or resource exhaustion (Denial of Service).
+
+      In affected configurations, the peer-supplied uncompressed certificate
+      length from a CompressedCertificate message is used to grow a heap buffer
+      prior to decompression. This length is not bounded by the max_cert_list
+      setting, which otherwise constrains certificate message sizes. An attacker
+      can exploit this to cause large per-connection allocations followed by
+      handshake failure. No memory corruption or information disclosure occurs.
+
+      This issue only affects builds where TLS 1.3 certificate compression is
+      compiled in (i.e., not OPENSSL_NO_COMP_ALG) and at least one compression
+      algorithm (brotli, zlib, or zstd) is available, and where the compression
+      extension is negotiated. Both clients receiving a server CompressedCertificate
+      and servers in mutual TLS scenarios receiving a client CompressedCertificate
+      are affected. Servers that do not request client certificates are not
+      vulnerable to client-initiated attacks.
+
+      Users can mitigate this issue by setting SSL_OP_NO_RX_CERTIFICATE_COMPRESSION
+      to disable receiving compressed certificates.
+
+      The FIPS modules in 3.6, 3.5, 3.4 and 3.3 are not affected by this issue,
+      as the TLS implementation is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5, 3.4 and 3.3 are vulnerable to this issue.
+
+      OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-789
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-66199
+    - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
+    - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
+    - https://github.com/openssl/openssl/commit/895150b5e021d16b52fb32b97e1dd12f20448be5
+    - https://github.com/openssl/openssl/commit/966a2478046c311ed7dae50c457d0db4cafbf7e4
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-66199
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-66199
+    PublishedDate: '2026-01-27T16:16:15.777Z'
+    LastModifiedDate: '2026-01-27T16:16:15.777Z'
+  - VulnerabilityID: CVE-2025-68160
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: d81a1100bbc4001d
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68160
+    Fingerprint: sha256:3adbfdb94a277f650e588e83ec85a0270b30c7543a79a060009fcc56ddbe4a7f
+    Title: 'openssl: OpenSSL: Denial of Service due to out-of-bounds write in BIO filter'
+    Description: |-
+      Issue summary: Writing large, newline-free data into a BIO chain using the
+      line-buffering filter where the next BIO performs short writes can trigger
+      a heap-based out-of-bounds write.
+
+      Impact summary: This out-of-bounds write can cause memory corruption which
+      typically results in a crash, leading to Denial of Service for an application.
+
+      The line-buffering BIO filter (BIO_f_linebuffer) is not used by default in
+      TLS/SSL data paths. In OpenSSL command-line applications, it is typically
+      only pushed onto stdout/stderr on VMS systems. Third-party applications that
+      explicitly use this filter with a BIO chain that can short-write and that
+      write large, newline-free data influenced by an attacker would be affected.
+      However, the circumstances where this could happen are unlikely to be under
+      attacker control, and BIO_f_linebuffer is unlikely to be handling non-curated
+      data controlled by an attacker. For that reason the issue was assessed as
+      Low severity.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the BIO implementation is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are vulnerable to this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68160
+    - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
+    - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
+    - https://github.com/openssl/openssl/commit/4c96fbba618e1940f038012506ee9e21d32ee12c
+    - https://github.com/openssl/openssl/commit/6845c3b6460a98b1ec4e463baa2ea1a63a32d7c0
+    - https://github.com/openssl/openssl/commit/68a7cd2e2816c3a02f4d45a2ce43fc04fac97096
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68160
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-68160
+    PublishedDate: '2026-01-27T16:16:15.9Z'
+    LastModifiedDate: '2026-01-27T16:16:15.9Z'
+  - VulnerabilityID: CVE-2025-69418
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: d81a1100bbc4001d
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69418
+    Fingerprint: sha256:2835ba08ced80a8c9089feaa86a7c99976f0ee8da4853baf2e462f99d7c9106c
+    Title: 'openssl: OpenSSL: Information disclosure and data tampering via specific low-level OCB encryption/decryption calls'
+    Description: 'Issue summary: When using the low-level OCB API directly with AES-NI or<br>other hardware-accelerated code paths, inputs whose length is not a multiple<br>of 16 bytes can leave the final partial block unencrypted and unauthenticated.<br><br>Impact summary: The trailing 1-15 bytes of a message may be exposed in<br>cleartext on encryption and are not covered by the authentication tag,<br>allowing an attacker to read or tamper with those bytes without detection.<br><br>The low-level OCB encrypt and decrypt routines in the hardware-accelerated<br>stream path process full 16-byte blocks but do not advance the input/output<br>pointers. The subsequent tail-handling code then operates on the original<br>base pointers, effectively reprocessing the beginning of the buffer while<br>leaving the actual trailing bytes unprocessed. The authentication checksum<br>also excludes the true tail bytes.<br><br>However, typical OpenSSL consumers using EVP are not affected because the<br>higher-level EVP and provider OCB implementations split inputs so that full<br>blocks and trailing partial blocks are processed in separate calls, avoiding<br>the problematic code path. Additionally, TLS does not use OCB ciphersuites.<br>The vulnerability only affects applications that call the low-level<br>CRYPTO_ocb128_encrypt() or CRYPTO_ocb128_decrypt() functions directly with<br>non-block-aligned lengths in a single call on hardware-accelerated builds.<br>For these reasons the issue was assessed as Low severity.<br><br>The FIPS modules in 3.6, 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected<br>by this issue, as OCB mode is not a FIPS-approved algorithm.<br><br>OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.<br><br>OpenSSL 1.0.2 is not affected by this issue.'
+    Severity: LOW
+    CweIDs:
+    - CWE-325
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-69418
+    - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
+    - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
+    - https://github.com/openssl/openssl/commit/52d23c86a54adab5ee9f80e48b242b52c4cc2347
+    - https://github.com/openssl/openssl/commit/a7589230356d908c0eca4b969ec4f62106f4f5ae
+    - https://github.com/openssl/openssl/commit/ed40856d7d4ba6cb42779b6770666a65f19cb977
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-69418
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-69418
+    PublishedDate: '2026-01-27T16:16:33.253Z'
+    LastModifiedDate: '2026-01-27T16:16:33.253Z'
+  - VulnerabilityID: CVE-2025-69420
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: d81a1100bbc4001d
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69420
+    Fingerprint: sha256:6c1ab08bf36e0dc048b358ea20471806e523a7ff523aaabcaed0a56791ff95e3
+    Title: 'openssl: OpenSSL: Denial of Service via malformed TimeStamp Response'
+    Description: |-
+      Issue summary: A type confusion vulnerability exists in the TimeStamp Response
+      verification code where an ASN1_TYPE union member is accessed without first
+      validating the type, causing an invalid or NULL pointer dereference when
+      processing a malformed TimeStamp Response file.
+
+      Impact summary: An application calling TS_RESP_verify_response() with a
+      malformed TimeStamp Response can be caused to dereference an invalid or
+      NULL pointer when reading, resulting in a Denial of Service.
+
+      The functions ossl_ess_get_signing_cert() and ossl_ess_get_signing_cert_v2()
+      access the signing cert attribute value without validating its type.
+      When the type is not V_ASN1_SEQUENCE, this results in accessing invalid memory
+      through the ASN1_TYPE union, causing a crash.
+
+      Exploiting this vulnerability requires an attacker to provide a malformed
+      TimeStamp Response to an application that verifies timestamp responses. The
+      TimeStamp protocol (RFC 3161) is not widely used and the impact of the
+      exploit is just a Denial of Service. For these reasons the issue was
+      assessed as Low severity.
+
+      The FIPS modules in 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the TimeStamp Response implementation is outside the OpenSSL FIPS module
+      boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.
+
+      OpenSSL 1.0.2 is not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-754
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-69420
+    - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
+    - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
+    - https://github.com/openssl/openssl/commit/564fd9c73787f25693bf9e75faf7bf6bb1305d4e
+    - https://github.com/openssl/openssl/commit/5eb0770ffcf11b785cf374ff3c19196245e54f1b
+    - https://github.com/openssl/openssl/commit/a99349ebfc519999edc50620abe24d599b9eb085
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-69420
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-69420
+    PublishedDate: '2026-01-27T16:16:34.317Z'
+    LastModifiedDate: '2026-01-27T16:16:34.317Z'
+  - VulnerabilityID: CVE-2025-69421
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: d81a1100bbc4001d
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69421
+    Fingerprint: sha256:c2c222647db01d9dc3082238e8a3e645004ea54c59f20bfc9e3230368c59d1da
+    Title: 'openssl: OpenSSL: Denial of Service via malformed PKCS#12 file processing'
+    Description: |-
+      Issue summary: Processing a malformed PKCS#12 file can trigger a NULL pointer
+      dereference in the PKCS12_item_decrypt_d2i_ex() function.
+
+      Impact summary: A NULL pointer dereference can trigger a crash which leads to
+      Denial of Service for an application processing PKCS#12 files.
+
+      The PKCS12_item_decrypt_d2i_ex() function does not check whether the oct
+      parameter is NULL before dereferencing it. When called from
+      PKCS12_unpack_p7encdata() with a malformed PKCS#12 file, this parameter can
+      be NULL, causing a crash. The vulnerability is limited to Denial of Service
+      and cannot be escalated to achieve code execution or memory disclosure.
+
+      Exploiting this issue requires an attacker to provide a malformed PKCS#12 file
+      to an application that processes it. For that reason the issue was assessed as
+      Low severity according to our Security Policy.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the PKCS#12 implementation is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are vulnerable to this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-69421
+    - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
+    - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
+    - https://github.com/openssl/openssl/commit/4bbc8d41a72c842ce4077a8a3eccd1109aaf74bd
+    - https://github.com/openssl/openssl/commit/643986985cd1c21221f941129d76fe0c2785aeb3
+    - https://github.com/openssl/openssl/commit/a2dbc539f0f9cc63832709fa5aa33ad9495eb19c
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-69421
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-69421
+    PublishedDate: '2026-01-27T16:16:34.437Z'
+    LastModifiedDate: '2026-01-27T16:16:34.437Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: openssl@3.5.1-5.el9_7.x86_64
     PkgName: openssl
@@ -39806,6 +40755,362 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
     LastModifiedDate: '2025-11-04T22:16:45.63Z'
+  - VulnerabilityID: CVE-2026-22795
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: d81a1100bbc4001d
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22795
+    Fingerprint: sha256:d36ca1418d28027982ebdff61e091184c737fe2c58a17a74a8d425e53848d317
+    Title: 'openssl: OpenSSL: Denial of Service due to type confusion in PKCS#12 file processing'
+    Description: |-
+      Issue summary: An invalid or NULL pointer dereference can happen in
+      an application processing a malformed PKCS#12 file.
+
+      Impact summary: An application processing a malformed PKCS#12 file can be
+      caused to dereference an invalid or NULL pointer on memory read, resulting
+      in a Denial of Service.
+
+      A type confusion vulnerability exists in PKCS#12 parsing code where
+      an ASN1_TYPE union member is accessed without first validating the type,
+      causing an invalid pointer read.
+
+      The location is constrained to a 1-byte address space, meaning any
+      attempted pointer manipulation can only target addresses between 0x00 and 0xFF.
+      This range corresponds to the zero page, which is unmapped on most modern
+      operating systems and will reliably result in a crash, leading only to a
+      Denial of Service. Exploiting this issue also requires a user or application
+      to process a maliciously crafted PKCS#12 file. It is uncommon to accept
+      untrusted PKCS#12 files in applications as they are usually used to store
+      private keys which are trusted by definition. For these reasons, the issue
+      was assessed as Low severity.
+
+      The FIPS modules in 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the PKCS12 implementation is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.
+
+      OpenSSL 1.0.2 is not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-754
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-22795
+    - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
+    - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
+    - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
+    - https://github.com/openssl/openssl/commit/eeee3cbd4d682095ed431052f00403004596373e
+    - https://github.com/openssl/openssl/commit/ef2fb66ec571564d64d1c74a12e388a2a54d05d2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-22795
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-22795
+    PublishedDate: '2026-01-27T16:16:35.43Z'
+    LastModifiedDate: '2026-01-27T16:16:35.43Z'
+  - VulnerabilityID: CVE-2026-22796
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: d81a1100bbc4001d
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22796
+    Fingerprint: sha256:35bdd80e1c56205af576f2716eb1fe02f808e552fa131a2677a66761097e91c1
+    Title: 'openssl: OpenSSL: Denial of Service via type confusion in PKCS#7 signature verification'
+    Description: |-
+      Issue summary: A type confusion vulnerability exists in the signature
+      verification of signed PKCS#7 data where an ASN1_TYPE union member is
+      accessed without first validating the type, causing an invalid or NULL
+      pointer dereference when processing malformed PKCS#7 data.
+
+      Impact summary: An application performing signature verification of PKCS#7
+      data or calling directly the PKCS7_digest_from_attributes() function can be
+      caused to dereference an invalid or NULL pointer when reading, resulting in
+      a Denial of Service.
+
+      The function PKCS7_digest_from_attributes() accesses the message digest attribute
+      value without validating its type. When the type is not V_ASN1_OCTET_STRING,
+      this results in accessing invalid memory through the ASN1_TYPE union, causing
+      a crash.
+
+      Exploiting this vulnerability requires an attacker to provide a malformed
+      signed PKCS#7 to an application that verifies it. The impact of the
+      exploit is just a Denial of Service, the PKCS7 API is legacy and applications
+      should be using the CMS API instead. For these reasons the issue was
+      assessed as Low severity.
+
+      The FIPS modules in 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the PKCS#7 parsing implementation is outside the OpenSSL FIPS module
+      boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are vulnerable to this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-754
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-22796
+    - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
+    - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
+    - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
+    - https://github.com/openssl/openssl/commit/eeee3cbd4d682095ed431052f00403004596373e
+    - https://github.com/openssl/openssl/commit/ef2fb66ec571564d64d1c74a12e388a2a54d05d2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-22796
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-22796
+    PublishedDate: '2026-01-27T16:16:35.543Z'
+    LastModifiedDate: '2026-01-27T17:16:12.553Z'
+  - VulnerabilityID: CVE-2025-15467
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: b7212c0d58cc10f2
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15467
+    Fingerprint: sha256:6c45aae01a0776412b29dc1f25028f5429820b860bca4d3ee1d102b06907192e
+    Title: 'openssl: OpenSSL: Remote code execution or Denial of Service via oversized Initialization Vector in CMS parsing'
+    Description: |-
+      Issue summary: Parsing CMS AuthEnvelopedData message with maliciously
+      crafted AEAD parameters can trigger a stack buffer overflow.
+
+      Impact summary: A stack buffer overflow may lead to a crash, causing Denial
+      of Service, or potentially remote code execution.
+
+      When parsing CMS AuthEnvelopedData structures that use AEAD ciphers such as
+      AES-GCM, the IV (Initialization Vector) encoded in the ASN.1 parameters is
+      copied into a fixed-size stack buffer without verifying that its length fits
+      the destination. An attacker can supply a crafted CMS message with an
+      oversized IV, causing a stack-based out-of-bounds write before any
+      authentication or tag verification occurs.
+
+      Applications and services that parse untrusted CMS or PKCS#7 content using
+      AEAD ciphers (e.g., S/MIME AuthEnvelopedData with AES-GCM) are vulnerable.
+      Because the overflow occurs prior to authentication, no valid key material
+      is required to trigger it. While exploitability to remote code execution
+      depends on platform and toolchain mitigations, the stack-based write
+      primitive represents a severe risk.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this
+      issue, as the CMS implementation is outside the OpenSSL FIPS module
+      boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3 and 3.0 are vulnerable to this issue.
+
+      OpenSSL 1.1.1 and 1.0.2 are not affected by this issue.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/27/10
+    - https://access.redhat.com/security/cve/CVE-2025-15467
+    - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
+    - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
+    - https://github.com/openssl/openssl/commit/6ced0fe6b10faa560e410e3ee8d6c82f06c65ea3
+    - https://github.com/openssl/openssl/commit/ce39170276daec87f55c39dad1f629b56344429e
+    - https://github.com/openssl/openssl/commit/d0071a0799f20cc8101730145349ed4487c268dc
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15467
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-15467
+    PublishedDate: '2026-01-27T16:16:14.257Z'
+    LastModifiedDate: '2026-01-27T22:15:51.597Z'
+  - VulnerabilityID: CVE-2025-11187
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: b7212c0d58cc10f2
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-11187
+    Fingerprint: sha256:1a257407f637688e3a55a4b22036fa0d1a7057a673afa0ed7715a38b2d3cf63e
+    Title: 'openssl: OpenSSL: Arbitrary code execution or denial of service through crafted PKCS#12 file'
+    Description: |-
+      Issue summary: PBMAC1 parameters in PKCS#12 files are missing validation
+      which can trigger a stack-based buffer overflow, invalid pointer or NULL
+      pointer dereference during MAC verification.
+
+      Impact summary: The stack buffer overflow or NULL pointer dereference may
+      cause a crash leading to Denial of Service for an application that parses
+      untrusted PKCS#12 files. The buffer overflow may also potentially enable
+      code execution depending on platform mitigations.
+
+      When verifying a PKCS#12 file that uses PBMAC1 for the MAC, the PBKDF2
+      salt and keylength parameters from the file are used without validation.
+      If the value of keylength exceeds the size of the fixed stack buffer used
+      for the derived key (64 bytes), the key derivation will overflow the buffer.
+      The overflow length is attacker-controlled. Also, if the salt parameter is
+      not an OCTET STRING type this can lead to invalid or NULL pointer
+      dereference.
+
+      Exploiting this issue requires a user or application to process
+      a maliciously crafted PKCS#12 file. It is uncommon to accept untrusted
+      PKCS#12 files in applications as they are usually used to store private
+      keys which are trusted by definition. For this reason the issue was assessed
+      as Moderate severity.
+
+      The FIPS modules in 3.6, 3.5 and 3.4 are not affected by this issue, as
+      PKCS#12 processing is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5 and 3.4 are vulnerable to this issue.
+
+      OpenSSL 3.3, 3.0, 1.1.1 and 1.0.2 are not affected by this issue as they do
+      not support PBMAC1 in PKCS#12.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-11187
+    - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
+    - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
+    - https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-11187
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-11187
+    PublishedDate: '2026-01-27T16:16:14.093Z'
+    LastModifiedDate: '2026-01-27T16:16:14.093Z'
+  - VulnerabilityID: CVE-2025-69419
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: b7212c0d58cc10f2
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69419
+    Fingerprint: sha256:b77feccfda449a54d59c220009e4b081230177480951f1dd4cc80a3c66cf1d92
+    Title: 'openssl: OpenSSL: Arbitrary code execution due to out-of-bounds write in PKCS#12 processing'
+    Description: |-
+      Issue summary: Calling PKCS12_get_friendlyname() function on a maliciously
+      crafted PKCS#12 file with a BMPString (UTF-16BE) friendly name containing
+      non-ASCII BMP code point can trigger a one byte write before the allocated
+      buffer.
+
+      Impact summary: The out-of-bounds write can cause a memory corruption
+      which can have various consequences including a Denial of Service.
+
+      The OPENSSL_uni2utf8() function performs a two-pass conversion of a PKCS#12
+      BMPString (UTF-16BE) to UTF-8. In the second pass, when emitting UTF-8 bytes,
+      the helper function bmp_to_utf8() incorrectly forwards the remaining UTF-16
+      source byte count as the destination buffer capacity to UTF8_putc(). For BMP
+      code points above U+07FF, UTF-8 requires three bytes, but the forwarded
+      capacity can be just two bytes. UTF8_putc() then returns -1, and this negative
+      value is added to the output length without validation, causing the
+      length to become negative. The subsequent trailing NUL byte is then written
+      at a negative offset, causing write outside of heap allocated buffer.
+
+      The vulnerability is reachable via the public PKCS12_get_friendlyname() API
+      when parsing attacker-controlled PKCS#12 files. While PKCS12_parse() uses a
+      different code path that avoids this issue, PKCS12_get_friendlyname() directly
+      invokes the vulnerable function. Exploitation requires an attacker to provide
+      a malicious PKCS#12 file to be parsed by the application and the attacker
+      can just trigger a one zero byte write before the allocated buffer.
+      For that reason the issue was assessed as Low severity according to our
+      Security Policy.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the PKCS#12 implementation is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.
+
+      OpenSSL 1.0.2 is not affected by this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-69419
+    - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
+    - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
+    - https://github.com/openssl/openssl/commit/a26a90d38edec3748566129d824e664b54bee2e2
+    - https://github.com/openssl/openssl/commit/cda12de3bc0e333ea8d2c6fd15001dbdaf280015
+    - https://github.com/openssl/openssl/commit/ff628933755075446bca8307e8417c14d164b535
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-69419
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-69419
+    PublishedDate: '2026-01-27T16:16:34.113Z'
+    LastModifiedDate: '2026-01-27T16:16:34.113Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
     PkgName: openssl-libs
@@ -40078,6 +41383,452 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
+  - VulnerabilityID: CVE-2025-15468
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: b7212c0d58cc10f2
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15468
+    Fingerprint: sha256:1b30fc0839c66a506ab99a49783cbf5b8eee8416755f518dd518cc7b07e874d4
+    Title: 'openssl: OpenSSL: Denial of Service via NULL pointer dereference in QUIC protocol handling'
+    Description: |-
+      Issue summary: If an application using the SSL_CIPHER_find() function in
+      a QUIC protocol client or server receives an unknown cipher suite from
+      the peer, a NULL dereference occurs.
+
+      Impact summary: A NULL pointer dereference leads to abnormal termination of
+      the running process causing Denial of Service.
+
+      Some applications call SSL_CIPHER_find() from the client_hello_cb callback
+      on the cipher ID received from the peer. If this is done with an SSL object
+      implementing the QUIC protocol, NULL pointer dereference will happen if
+      the examined cipher ID is unknown or unsupported.
+
+      As it is not very common to call this function in applications using the QUIC 
+      protocol and the worst outcome is Denial of Service, the issue was assessed
+      as Low severity.
+
+      The vulnerable code was introduced in the 3.2 version with the addition
+      of the QUIC protocol support.
+
+      The FIPS modules in 3.6, 3.5, 3.4 and 3.3 are not affected by this issue,
+      as the QUIC implementation is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5, 3.4 and 3.3 are vulnerable to this issue.
+
+      OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-15468
+    - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
+    - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
+    - https://github.com/openssl/openssl/commit/b2539639400288a4580fe2d76247541b976bade4
+    - https://github.com/openssl/openssl/commit/d75b309879631d45b972396ce4e5102559c64ac7
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15468
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-15468
+    PublishedDate: '2026-01-27T16:16:14.4Z'
+    LastModifiedDate: '2026-01-27T16:16:14.4Z'
+  - VulnerabilityID: CVE-2025-15469
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: b7212c0d58cc10f2
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15469
+    Fingerprint: sha256:ed7f310fc7469be7e5a2cccd79a36b4f4625aea0a7f3c1138fcb741a96877cf6
+    Title: 'openssl: OpenSSL: Data integrity bypass in `openssl dgst` command due to silent truncation'
+    Description: |-
+      Issue summary: The 'openssl dgst' command-line tool silently truncates input
+      data to 16MB when using one-shot signing algorithms and reports success instead
+      of an error.
+
+      Impact summary: A user signing or verifying files larger than 16MB with
+      one-shot algorithms (such as Ed25519, Ed448, or ML-DSA) may believe the entire
+      file is authenticated while trailing data beyond 16MB remains unauthenticated.
+
+      When the 'openssl dgst' command is used with algorithms that only support
+      one-shot signing (Ed25519, Ed448, ML-DSA-44, ML-DSA-65, ML-DSA-87), the input
+      is buffered with a 16MB limit. If the input exceeds this limit, the tool
+      silently truncates to the first 16MB and continues without signaling an error,
+      contrary to what the documentation states. This creates an integrity gap where
+      trailing bytes can be modified without detection if both signing and
+      verification are performed using the same affected codepath.
+
+      The issue affects only the command-line tool behavior. Verifiers that process
+      the full message using library APIs will reject the signature, so the risk
+      primarily affects workflows that both sign and verify with the affected
+      'openssl dgst' command. Streaming digest algorithms for 'openssl dgst' and
+      library users are unaffected.
+
+      The FIPS modules in 3.5 and 3.6 are not affected by this issue, as the
+      command-line tools are outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.5 and 3.6 are vulnerable to this issue.
+
+      OpenSSL 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-15469
+    - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
+    - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15469
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-15469
+    PublishedDate: '2026-01-27T16:16:14.523Z'
+    LastModifiedDate: '2026-01-27T16:16:14.523Z'
+  - VulnerabilityID: CVE-2025-66199
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: b7212c0d58cc10f2
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66199
+    Fingerprint: sha256:b15d06a88c100d3d78e0b7770a1b5a168fe7cf122c68ceb4b01b31e027a76ebf
+    Title: 'openssl: OpenSSL: Denial of Service due to excessive memory allocation in TLS 1.3 certificate compression'
+    Description: |-
+      Issue summary: A TLS 1.3 connection using certificate compression can be
+      forced to allocate a large buffer before decompression without checking
+      against the configured certificate size limit.
+
+      Impact summary: An attacker can cause per-connection memory allocations of
+      up to approximately 22 MiB and extra CPU work, potentially leading to
+      service degradation or resource exhaustion (Denial of Service).
+
+      In affected configurations, the peer-supplied uncompressed certificate
+      length from a CompressedCertificate message is used to grow a heap buffer
+      prior to decompression. This length is not bounded by the max_cert_list
+      setting, which otherwise constrains certificate message sizes. An attacker
+      can exploit this to cause large per-connection allocations followed by
+      handshake failure. No memory corruption or information disclosure occurs.
+
+      This issue only affects builds where TLS 1.3 certificate compression is
+      compiled in (i.e., not OPENSSL_NO_COMP_ALG) and at least one compression
+      algorithm (brotli, zlib, or zstd) is available, and where the compression
+      extension is negotiated. Both clients receiving a server CompressedCertificate
+      and servers in mutual TLS scenarios receiving a client CompressedCertificate
+      are affected. Servers that do not request client certificates are not
+      vulnerable to client-initiated attacks.
+
+      Users can mitigate this issue by setting SSL_OP_NO_RX_CERTIFICATE_COMPRESSION
+      to disable receiving compressed certificates.
+
+      The FIPS modules in 3.6, 3.5, 3.4 and 3.3 are not affected by this issue,
+      as the TLS implementation is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5, 3.4 and 3.3 are vulnerable to this issue.
+
+      OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-789
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-66199
+    - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
+    - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
+    - https://github.com/openssl/openssl/commit/895150b5e021d16b52fb32b97e1dd12f20448be5
+    - https://github.com/openssl/openssl/commit/966a2478046c311ed7dae50c457d0db4cafbf7e4
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-66199
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-66199
+    PublishedDate: '2026-01-27T16:16:15.777Z'
+    LastModifiedDate: '2026-01-27T16:16:15.777Z'
+  - VulnerabilityID: CVE-2025-68160
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: b7212c0d58cc10f2
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68160
+    Fingerprint: sha256:09711edf8fd26b724be773701ad794126fa3b5ffb7c60e709a58c8c38584d080
+    Title: 'openssl: OpenSSL: Denial of Service due to out-of-bounds write in BIO filter'
+    Description: |-
+      Issue summary: Writing large, newline-free data into a BIO chain using the
+      line-buffering filter where the next BIO performs short writes can trigger
+      a heap-based out-of-bounds write.
+
+      Impact summary: This out-of-bounds write can cause memory corruption which
+      typically results in a crash, leading to Denial of Service for an application.
+
+      The line-buffering BIO filter (BIO_f_linebuffer) is not used by default in
+      TLS/SSL data paths. In OpenSSL command-line applications, it is typically
+      only pushed onto stdout/stderr on VMS systems. Third-party applications that
+      explicitly use this filter with a BIO chain that can short-write and that
+      write large, newline-free data influenced by an attacker would be affected.
+      However, the circumstances where this could happen are unlikely to be under
+      attacker control, and BIO_f_linebuffer is unlikely to be handling non-curated
+      data controlled by an attacker. For that reason the issue was assessed as
+      Low severity.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the BIO implementation is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are vulnerable to this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68160
+    - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
+    - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
+    - https://github.com/openssl/openssl/commit/4c96fbba618e1940f038012506ee9e21d32ee12c
+    - https://github.com/openssl/openssl/commit/6845c3b6460a98b1ec4e463baa2ea1a63a32d7c0
+    - https://github.com/openssl/openssl/commit/68a7cd2e2816c3a02f4d45a2ce43fc04fac97096
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68160
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-68160
+    PublishedDate: '2026-01-27T16:16:15.9Z'
+    LastModifiedDate: '2026-01-27T16:16:15.9Z'
+  - VulnerabilityID: CVE-2025-69418
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: b7212c0d58cc10f2
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69418
+    Fingerprint: sha256:cdbb9d4b347687d6c203c64068a7f585473d87902e19c0ce74d92dadd83e7ad3
+    Title: 'openssl: OpenSSL: Information disclosure and data tampering via specific low-level OCB encryption/decryption calls'
+    Description: 'Issue summary: When using the low-level OCB API directly with AES-NI or<br>other hardware-accelerated code paths, inputs whose length is not a multiple<br>of 16 bytes can leave the final partial block unencrypted and unauthenticated.<br><br>Impact summary: The trailing 1-15 bytes of a message may be exposed in<br>cleartext on encryption and are not covered by the authentication tag,<br>allowing an attacker to read or tamper with those bytes without detection.<br><br>The low-level OCB encrypt and decrypt routines in the hardware-accelerated<br>stream path process full 16-byte blocks but do not advance the input/output<br>pointers. The subsequent tail-handling code then operates on the original<br>base pointers, effectively reprocessing the beginning of the buffer while<br>leaving the actual trailing bytes unprocessed. The authentication checksum<br>also excludes the true tail bytes.<br><br>However, typical OpenSSL consumers using EVP are not affected because the<br>higher-level EVP and provider OCB implementations split inputs so that full<br>blocks and trailing partial blocks are processed in separate calls, avoiding<br>the problematic code path. Additionally, TLS does not use OCB ciphersuites.<br>The vulnerability only affects applications that call the low-level<br>CRYPTO_ocb128_encrypt() or CRYPTO_ocb128_decrypt() functions directly with<br>non-block-aligned lengths in a single call on hardware-accelerated builds.<br>For these reasons the issue was assessed as Low severity.<br><br>The FIPS modules in 3.6, 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected<br>by this issue, as OCB mode is not a FIPS-approved algorithm.<br><br>OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.<br><br>OpenSSL 1.0.2 is not affected by this issue.'
+    Severity: LOW
+    CweIDs:
+    - CWE-325
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-69418
+    - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
+    - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
+    - https://github.com/openssl/openssl/commit/52d23c86a54adab5ee9f80e48b242b52c4cc2347
+    - https://github.com/openssl/openssl/commit/a7589230356d908c0eca4b969ec4f62106f4f5ae
+    - https://github.com/openssl/openssl/commit/ed40856d7d4ba6cb42779b6770666a65f19cb977
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-69418
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-69418
+    PublishedDate: '2026-01-27T16:16:33.253Z'
+    LastModifiedDate: '2026-01-27T16:16:33.253Z'
+  - VulnerabilityID: CVE-2025-69420
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: b7212c0d58cc10f2
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69420
+    Fingerprint: sha256:ab6ffd3c6e1360d5ff2fca7422043202dcd76f83c7b5cb70984155a4ec8fc51e
+    Title: 'openssl: OpenSSL: Denial of Service via malformed TimeStamp Response'
+    Description: |-
+      Issue summary: A type confusion vulnerability exists in the TimeStamp Response
+      verification code where an ASN1_TYPE union member is accessed without first
+      validating the type, causing an invalid or NULL pointer dereference when
+      processing a malformed TimeStamp Response file.
+
+      Impact summary: An application calling TS_RESP_verify_response() with a
+      malformed TimeStamp Response can be caused to dereference an invalid or
+      NULL pointer when reading, resulting in a Denial of Service.
+
+      The functions ossl_ess_get_signing_cert() and ossl_ess_get_signing_cert_v2()
+      access the signing cert attribute value without validating its type.
+      When the type is not V_ASN1_SEQUENCE, this results in accessing invalid memory
+      through the ASN1_TYPE union, causing a crash.
+
+      Exploiting this vulnerability requires an attacker to provide a malformed
+      TimeStamp Response to an application that verifies timestamp responses. The
+      TimeStamp protocol (RFC 3161) is not widely used and the impact of the
+      exploit is just a Denial of Service. For these reasons the issue was
+      assessed as Low severity.
+
+      The FIPS modules in 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the TimeStamp Response implementation is outside the OpenSSL FIPS module
+      boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.
+
+      OpenSSL 1.0.2 is not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-754
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-69420
+    - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
+    - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
+    - https://github.com/openssl/openssl/commit/564fd9c73787f25693bf9e75faf7bf6bb1305d4e
+    - https://github.com/openssl/openssl/commit/5eb0770ffcf11b785cf374ff3c19196245e54f1b
+    - https://github.com/openssl/openssl/commit/a99349ebfc519999edc50620abe24d599b9eb085
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-69420
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-69420
+    PublishedDate: '2026-01-27T16:16:34.317Z'
+    LastModifiedDate: '2026-01-27T16:16:34.317Z'
+  - VulnerabilityID: CVE-2025-69421
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: b7212c0d58cc10f2
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69421
+    Fingerprint: sha256:c1ef29fdd6db693d54d2500b7b3198d32779f0ca770b6f96d74fff9c846e4d17
+    Title: 'openssl: OpenSSL: Denial of Service via malformed PKCS#12 file processing'
+    Description: |-
+      Issue summary: Processing a malformed PKCS#12 file can trigger a NULL pointer
+      dereference in the PKCS12_item_decrypt_d2i_ex() function.
+
+      Impact summary: A NULL pointer dereference can trigger a crash which leads to
+      Denial of Service for an application processing PKCS#12 files.
+
+      The PKCS12_item_decrypt_d2i_ex() function does not check whether the oct
+      parameter is NULL before dereferencing it. When called from
+      PKCS12_unpack_p7encdata() with a malformed PKCS#12 file, this parameter can
+      be NULL, causing a crash. The vulnerability is limited to Denial of Service
+      and cannot be escalated to achieve code execution or memory disclosure.
+
+      Exploiting this issue requires an attacker to provide a malformed PKCS#12 file
+      to an application that processes it. For that reason the issue was assessed as
+      Low severity according to our Security Policy.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the PKCS#12 implementation is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are vulnerable to this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-69421
+    - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
+    - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
+    - https://github.com/openssl/openssl/commit/4bbc8d41a72c842ce4077a8a3eccd1109aaf74bd
+    - https://github.com/openssl/openssl/commit/643986985cd1c21221f941129d76fe0c2785aeb3
+    - https://github.com/openssl/openssl/commit/a2dbc539f0f9cc63832709fa5aa33ad9495eb19c
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-69421
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-69421
+    PublishedDate: '2026-01-27T16:16:34.437Z'
+    LastModifiedDate: '2026-01-27T16:16:34.437Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
     PkgName: openssl-libs
@@ -40145,6 +41896,145 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
     LastModifiedDate: '2025-11-04T22:16:45.63Z'
+  - VulnerabilityID: CVE-2026-22795
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: b7212c0d58cc10f2
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22795
+    Fingerprint: sha256:309f2a04de10f97524c6ceadde46a50011eb2a10ebd1a20eb61f603c79acaee8
+    Title: 'openssl: OpenSSL: Denial of Service due to type confusion in PKCS#12 file processing'
+    Description: |-
+      Issue summary: An invalid or NULL pointer dereference can happen in
+      an application processing a malformed PKCS#12 file.
+
+      Impact summary: An application processing a malformed PKCS#12 file can be
+      caused to dereference an invalid or NULL pointer on memory read, resulting
+      in a Denial of Service.
+
+      A type confusion vulnerability exists in PKCS#12 parsing code where
+      an ASN1_TYPE union member is accessed without first validating the type,
+      causing an invalid pointer read.
+
+      The location is constrained to a 1-byte address space, meaning any
+      attempted pointer manipulation can only target addresses between 0x00 and 0xFF.
+      This range corresponds to the zero page, which is unmapped on most modern
+      operating systems and will reliably result in a crash, leading only to a
+      Denial of Service. Exploiting this issue also requires a user or application
+      to process a maliciously crafted PKCS#12 file. It is uncommon to accept
+      untrusted PKCS#12 files in applications as they are usually used to store
+      private keys which are trusted by definition. For these reasons, the issue
+      was assessed as Low severity.
+
+      The FIPS modules in 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the PKCS12 implementation is outside the OpenSSL FIPS module boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.
+
+      OpenSSL 1.0.2 is not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-754
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-22795
+    - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
+    - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
+    - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
+    - https://github.com/openssl/openssl/commit/eeee3cbd4d682095ed431052f00403004596373e
+    - https://github.com/openssl/openssl/commit/ef2fb66ec571564d64d1c74a12e388a2a54d05d2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-22795
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-22795
+    PublishedDate: '2026-01-27T16:16:35.43Z'
+    LastModifiedDate: '2026-01-27T16:16:35.43Z'
+  - VulnerabilityID: CVE-2026-22796
+    VendorIDs:
+    - RHSA-2026:1473
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: b7212c0d58cc10f2
+    InstalledVersion: 1:3.5.1-5.el9_7
+    FixedVersion: 1:3.5.1-7.el9_7
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22796
+    Fingerprint: sha256:a19282e8a331d98e584b511bfe97f2fbefd12a5ec0d5eaecf6f5c1292ea4661a
+    Title: 'openssl: OpenSSL: Denial of Service via type confusion in PKCS#7 signature verification'
+    Description: |-
+      Issue summary: A type confusion vulnerability exists in the signature
+      verification of signed PKCS#7 data where an ASN1_TYPE union member is
+      accessed without first validating the type, causing an invalid or NULL
+      pointer dereference when processing malformed PKCS#7 data.
+
+      Impact summary: An application performing signature verification of PKCS#7
+      data or calling directly the PKCS7_digest_from_attributes() function can be
+      caused to dereference an invalid or NULL pointer when reading, resulting in
+      a Denial of Service.
+
+      The function PKCS7_digest_from_attributes() accesses the message digest attribute
+      value without validating its type. When the type is not V_ASN1_OCTET_STRING,
+      this results in accessing invalid memory through the ASN1_TYPE union, causing
+      a crash.
+
+      Exploiting this vulnerability requires an attacker to provide a malformed
+      signed PKCS#7 to an application that verifies it. The impact of the
+      exploit is just a Denial of Service, the PKCS7 API is legacy and applications
+      should be using the CMS API instead. For these reasons the issue was
+      assessed as Low severity.
+
+      The FIPS modules in 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the PKCS#7 parsing implementation is outside the OpenSSL FIPS module
+      boundary.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are vulnerable to this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-754
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-22796
+    - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
+    - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
+    - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
+    - https://github.com/openssl/openssl/commit/eeee3cbd4d682095ed431052f00403004596373e
+    - https://github.com/openssl/openssl/commit/ef2fb66ec571564d64d1c74a12e388a2a54d05d2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-22796
+    - https://openssl-library.org/news/secadv/20260127.txt
+    - https://ubuntu.com/security/notices/USN-7980-1
+    - https://ubuntu.com/security/notices/USN-7980-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-22796
+    PublishedDate: '2026-01-27T16:16:35.543Z'
+    LastModifiedDate: '2026-01-27T17:16:12.553Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
@@ -40386,13 +42276,16 @@
     PublishedDate: '2026-01-20T22:15:50.69Z'
     LastModifiedDate: '2026-01-26T15:16:05.82Z'
   - VulnerabilityID: CVE-2025-12084
+    VendorIDs:
+    - RHSA-2026:1478
     PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
     PkgName: python-unversioned-command
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-2.el9_7?arch=noarch&distro=redhat-9.7
       UID: b5f1d78a85f5c4f2
     InstalledVersion: 3.9.25-2.el9_7
-    Status: affected
+    FixedVersion: 3.9.25-3.el9_7
+    Status: fixed
     Layer:
       Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
       DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
@@ -40445,7 +42338,7 @@
     - https://github.com/python/cpython/issues/142145
     - https://github.com/python/cpython/pull/142146
     - https://linux.oracle.com/cve/CVE-2025-12084.html
-    - https://linux.oracle.com/errata/ELSA-2026-0123.html
+    - https://linux.oracle.com/errata/ELSA-2026-1410.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-12084
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
     PublishedDate: '2025-12-03T19:15:55.05Z'
@@ -40489,57 +42382,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-12781
     PublishedDate: '2026-01-21T20:16:04.423Z'
     LastModifiedDate: '2026-01-26T15:04:59.737Z'
-  - VulnerabilityID: CVE-2025-13836
-    PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
-    PkgName: python-unversioned-command
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-2.el9_7?arch=noarch&distro=redhat-9.7
-      UID: b5f1d78a85f5c4f2
-    InstalledVersion: 3.9.25-2.el9_7
-    Status: affected
-    Layer:
-      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
-      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13836
-    Fingerprint: sha256:6c09f823fff902a2bf33a0f9bcb60ae4a44211d55fea5fffc15b4096a7a3532c
-    Title: 'cpython: Excessive read buffering DoS in http.client'
-    Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-125
-    - CWE-400
-    VendorSeverity:
-      amazon: 2
-      azure: 2
-      nvd: 4
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
-        V3Score: 9.1
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
-        V3Score: 6.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-13836
-    - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
-    - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
-    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
-    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155 (3.14 branch)
-    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
-    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5 (main)
-    - https://github.com/python/cpython/commit/5dc101675fd22918facbbe0fecdc821502beaaf0
-    - https://github.com/python/cpython/commit/afc40bdd3dd71f343fd9016f6d8eebbacbd6587c
-    - https://github.com/python/cpython/issues/119451
-    - https://github.com/python/cpython/pull/119454
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
-    - https://ubuntu.com/security/notices/USN-7951-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-13836
-    PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2026-01-26T15:16:06.21Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
     PkgName: python-unversioned-command
@@ -40955,13 +42797,16 @@
     PublishedDate: '2026-01-20T22:15:50.69Z'
     LastModifiedDate: '2026-01-26T15:16:05.82Z'
   - VulnerabilityID: CVE-2025-12084
+    VendorIDs:
+    - RHSA-2026:1478
     PkgID: python3@3.9.25-2.el9_7.x86_64
     PkgName: python3
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3@3.9.25-2.el9_7?arch=x86_64&distro=redhat-9.7
       UID: 50d28bc0ec862268
     InstalledVersion: 3.9.25-2.el9_7
-    Status: affected
+    FixedVersion: 3.9.25-3.el9_7
+    Status: fixed
     Layer:
       Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
       DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
@@ -41014,7 +42859,7 @@
     - https://github.com/python/cpython/issues/142145
     - https://github.com/python/cpython/pull/142146
     - https://linux.oracle.com/cve/CVE-2025-12084.html
-    - https://linux.oracle.com/errata/ELSA-2026-0123.html
+    - https://linux.oracle.com/errata/ELSA-2026-1410.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-12084
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
     PublishedDate: '2025-12-03T19:15:55.05Z'
@@ -41058,57 +42903,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-12781
     PublishedDate: '2026-01-21T20:16:04.423Z'
     LastModifiedDate: '2026-01-26T15:04:59.737Z'
-  - VulnerabilityID: CVE-2025-13836
-    PkgID: python3@3.9.25-2.el9_7.x86_64
-    PkgName: python3
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.25-2.el9_7?arch=x86_64&distro=redhat-9.7
-      UID: 50d28bc0ec862268
-    InstalledVersion: 3.9.25-2.el9_7
-    Status: affected
-    Layer:
-      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
-      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13836
-    Fingerprint: sha256:ae5d183774e33526086f43121d002040a579a006d1f802c54be31d66a11c51b4
-    Title: 'cpython: Excessive read buffering DoS in http.client'
-    Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-125
-    - CWE-400
-    VendorSeverity:
-      amazon: 2
-      azure: 2
-      nvd: 4
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
-        V3Score: 9.1
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
-        V3Score: 6.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-13836
-    - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
-    - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
-    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
-    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155 (3.14 branch)
-    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
-    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5 (main)
-    - https://github.com/python/cpython/commit/5dc101675fd22918facbbe0fecdc821502beaaf0
-    - https://github.com/python/cpython/commit/afc40bdd3dd71f343fd9016f6d8eebbacbd6587c
-    - https://github.com/python/cpython/issues/119451
-    - https://github.com/python/cpython/pull/119454
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
-    - https://ubuntu.com/security/notices/USN-7951-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-13836
-    PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2026-01-26T15:16:06.21Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: python3@3.9.25-2.el9_7.x86_64
     PkgName: python3
@@ -41524,13 +43318,16 @@
     PublishedDate: '2026-01-20T22:15:50.69Z'
     LastModifiedDate: '2026-01-26T15:16:05.82Z'
   - VulnerabilityID: CVE-2025-12084
+    VendorIDs:
+    - RHSA-2026:1478
     PkgID: python3-libs@3.9.25-2.el9_7.x86_64
     PkgName: python3-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/python3-libs@3.9.25-2.el9_7?arch=x86_64&distro=redhat-9.7
       UID: 5b651c0accf13a9c
     InstalledVersion: 3.9.25-2.el9_7
-    Status: affected
+    FixedVersion: 3.9.25-3.el9_7
+    Status: fixed
     Layer:
       Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
       DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
@@ -41583,7 +43380,7 @@
     - https://github.com/python/cpython/issues/142145
     - https://github.com/python/cpython/pull/142146
     - https://linux.oracle.com/cve/CVE-2025-12084.html
-    - https://linux.oracle.com/errata/ELSA-2026-0123.html
+    - https://linux.oracle.com/errata/ELSA-2026-1410.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-12084
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
     PublishedDate: '2025-12-03T19:15:55.05Z'
@@ -41627,57 +43424,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-12781
     PublishedDate: '2026-01-21T20:16:04.423Z'
     LastModifiedDate: '2026-01-26T15:04:59.737Z'
-  - VulnerabilityID: CVE-2025-13836
-    PkgID: python3-libs@3.9.25-2.el9_7.x86_64
-    PkgName: python3-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.25-2.el9_7?arch=x86_64&distro=redhat-9.7
-      UID: 5b651c0accf13a9c
-    InstalledVersion: 3.9.25-2.el9_7
-    Status: affected
-    Layer:
-      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
-      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13836
-    Fingerprint: sha256:8999e8f199bacfb83bdb1b68ee42986023538ba2d1fbf1fb1663903b29272405
-    Title: 'cpython: Excessive read buffering DoS in http.client'
-    Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-125
-    - CWE-400
-    VendorSeverity:
-      amazon: 2
-      azure: 2
-      nvd: 4
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
-        V3Score: 9.1
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
-        V3Score: 6.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-13836
-    - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
-    - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
-    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
-    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155 (3.14 branch)
-    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
-    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5 (main)
-    - https://github.com/python/cpython/commit/5dc101675fd22918facbbe0fecdc821502beaaf0
-    - https://github.com/python/cpython/commit/afc40bdd3dd71f343fd9016f6d8eebbacbd6587c
-    - https://github.com/python/cpython/issues/119451
-    - https://github.com/python/cpython/pull/119454
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
-    - https://ubuntu.com/security/notices/USN-7951-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-13836
-    PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2026-01-26T15:16:06.21Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: python3-libs@3.9.25-2.el9_7.x86_64
     PkgName: python3-libs
