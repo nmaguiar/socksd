@@ -6,7 +6,7 @@
     Name: alpine-baselayout
     Identifier:
       PURL: pkg:apk/alpine/alpine-baselayout@3.7.1-r8?arch=x86_64&distro=3.23.0
-      UID: bb9de5e77801798d
+      UID: 52546b3e7f67032d
     Version: 3.7.1-r8
     Arch: x86_64
     SrcName: alpine-baselayout
@@ -35,11 +35,12 @@
     - var/run
     - var/spool/mail
     - var/spool/cron/crontabs
+    AnalyzedBy: apk
   - ID: alpine-baselayout-data@3.7.1-r8
     Name: alpine-baselayout-data
     Identifier:
       PURL: pkg:apk/alpine/alpine-baselayout-data@3.7.1-r8?arch=x86_64&distro=3.23.0
-      UID: aaf48747bbe2abe1
+      UID: 6542463feabe92df
     Version: 3.7.1-r8
     Arch: x86_64
     SrcName: alpine-baselayout
@@ -67,11 +68,12 @@
     - etc/shadow
     - etc/shells
     - etc/sysctl.conf
+    AnalyzedBy: apk
   - ID: alpine-keys@2.6-r0
     Name: alpine-keys
     Identifier:
       PURL: pkg:apk/alpine/alpine-keys@2.6-r0?arch=x86_64&distro=3.23.0
-      UID: a40d710a5174ffeb
+      UID: 2c7cb90de388aa7d
     Version: 2.6-r0
     Arch: x86_64
     SrcName: alpine-keys
@@ -125,11 +127,12 @@
     - usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub
     - usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub
     - usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub
+    AnalyzedBy: apk
   - ID: alpine-release@3.23.0-r0
     Name: alpine-release
     Identifier:
       PURL: pkg:apk/alpine/alpine-release@3.23.0-r0?arch=x86_64&distro=3.23.0
-      UID: 57699070d22647ef
+      UID: f95ac5d9537f3aff
     Version: 3.23.0-r0
     Arch: x86_64
     SrcName: alpine-base
@@ -149,11 +152,12 @@
     - etc/os-release
     - etc/secfixes.d/alpine
     - usr/lib/os-release
+    AnalyzedBy: apk
   - ID: alsa-lib@1.2.14-r2
     Name: alsa-lib
     Identifier:
       PURL: pkg:apk/alpine/alsa-lib@1.2.14-r2?arch=x86_64&distro=3.23.0
-      UID: 32eab98abe9de9d5
+      UID: d92b3aa9abe4054c
     Version: 1.2.14-r2
     Arch: x86_64
     SrcName: alsa-lib
@@ -251,11 +255,12 @@
     - usr/share/alsa/pcm/surround50.conf
     - usr/share/alsa/pcm/surround51.conf
     - usr/share/alsa/pcm/surround71.conf
+    AnalyzedBy: apk
   - ID: apk-tools@3.0.1-r1
     Name: apk-tools
     Identifier:
       PURL: pkg:apk/alpine/apk-tools@3.0.1-r1?arch=x86_64&distro=3.23.0
-      UID: d7d079765bd13449
+      UID: 6bbe81376fc58792
     Version: 3.0.1-r1
     Arch: x86_64
     SrcName: apk-tools
@@ -275,11 +280,12 @@
     Digest: sha1:e4a5f9f4d9383b7a3b744f626228ebd3db0bcf94
     InstalledFiles:
     - sbin/apk
+    AnalyzedBy: apk
   - ID: brotli-libs@1.2.0-r0
     Name: brotli-libs
     Identifier:
       PURL: pkg:apk/alpine/brotli-libs@1.2.0-r0?arch=x86_64&distro=3.23.0
-      UID: b299b9e27780dd4f
+      UID: 18708ffc8b6c1544
     Version: 1.2.0-r0
     Arch: x86_64
     SrcName: brotli
@@ -300,11 +306,12 @@
     - usr/lib/libbrotlidec.so.1.2.0
     - usr/lib/libbrotlienc.so.1
     - usr/lib/libbrotlienc.so.1.2.0
+    AnalyzedBy: apk
   - ID: busybox@1.37.0-r29
     Name: busybox
     Identifier:
       PURL: pkg:apk/alpine/busybox@1.37.0-r29?arch=x86_64&distro=3.23.0
-      UID: c8ac16050ab7b1d3
+      UID: 47baf0b155821d36
     Version: 1.37.0-r29
     Arch: x86_64
     SrcName: busybox
@@ -326,11 +333,12 @@
     - etc/network/if-up.d/dad
     - etc/udhcpc/udhcpc.conf
     - usr/share/udhcpc/default.script
+    AnalyzedBy: apk
   - ID: busybox-binsh@1.37.0-r29
     Name: busybox-binsh
     Identifier:
       PURL: pkg:apk/alpine/busybox-binsh@1.37.0-r29?arch=x86_64&distro=3.23.0
-      UID: 2add9820dd1f5e50
+      UID: 4335af278d1d3b66
     Version: 1.37.0-r29
     Arch: x86_64
     SrcName: busybox
@@ -346,11 +354,12 @@
     Digest: sha1:0430c7a2208bee624182f50cb4dee02943103230
     InstalledFiles:
     - bin/sh
+    AnalyzedBy: apk
   - ID: c-ares@1.34.5-r0
     Name: c-ares
     Identifier:
       PURL: pkg:apk/alpine/c-ares@1.34.5-r0?arch=x86_64&distro=3.23.0
-      UID: 52587364bf1be7a9
+      UID: 2037c661b288c589
     Version: 1.34.5-r0
     Arch: x86_64
     SrcName: c-ares
@@ -367,11 +376,12 @@
     InstalledFiles:
     - usr/lib/libcares.so.2
     - usr/lib/libcares.so.2.19.4
+    AnalyzedBy: apk
   - ID: ca-certificates@20251003-r0
     Name: ca-certificates
     Identifier:
       PURL: pkg:apk/alpine/ca-certificates@20251003-r0?arch=x86_64&distro=3.23.0
-      UID: dd004463b296da59
+      UID: 63003662d9160ff0
     Version: 20251003-r0
     Arch: x86_64
     SrcName: ca-certificates
@@ -542,11 +552,12 @@
     - usr/share/ca-certificates/mozilla/emSign_Root_CA_-_G1.crt
     - usr/share/ca-certificates/mozilla/vTrus_ECC_Root_CA.crt
     - usr/share/ca-certificates/mozilla/vTrus_Root_CA.crt
+    AnalyzedBy: apk
   - ID: ca-certificates-bundle@20251003-r0
     Name: ca-certificates-bundle
     Identifier:
       PURL: pkg:apk/alpine/ca-certificates-bundle@20251003-r0?arch=x86_64&distro=3.23.0
-      UID: 601aed1e41b824a1
+      UID: f667a2210d1d97c1
     Version: 20251003-r0
     Arch: x86_64
     SrcName: ca-certificates
@@ -564,11 +575,12 @@
     - etc/ssl/certs/ca-certificates.crt
     - etc/ssl1.1/cert.pem
     - etc/ssl1.1/certs
+    AnalyzedBy: apk
   - ID: curl@8.17.0-r1
     Name: curl
     Identifier:
       PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.0
-      UID: 88ffdbbc87036140
+      UID: c4e4a99c2363a971
     Version: 8.17.0-r1
     Arch: x86_64
     SrcName: curl
@@ -587,11 +599,12 @@
     InstalledFiles:
     - usr/bin/curl
     - usr/bin/wcurl
+    AnalyzedBy: apk
   - ID: freetype@2.14.1-r0
     Name: freetype
     Identifier:
       PURL: pkg:apk/alpine/freetype@2.14.1-r0?arch=x86_64&distro=3.23.0
-      UID: ec7aa3ca99070542
+      UID: e9448f2b60acfb96
     Version: 2.14.1-r0
     Arch: x86_64
     SrcName: freetype
@@ -613,11 +626,12 @@
     InstalledFiles:
     - usr/lib/libfreetype.so.6
     - usr/lib/libfreetype.so.6.20.4
+    AnalyzedBy: apk
   - ID: giflib@5.2.2-r1
     Name: giflib
     Identifier:
       PURL: pkg:apk/alpine/giflib@5.2.2-r1?arch=x86_64&distro=3.23.0
-      UID: 59bf3ff686548507
+      UID: 16f1c146bf3781e2
     Version: 5.2.2-r1
     Arch: x86_64
     SrcName: giflib
@@ -634,11 +648,12 @@
     InstalledFiles:
     - usr/lib/libgif.so.7
     - usr/lib/libgif.so.7.2.0
+    AnalyzedBy: apk
   - ID: java-cacerts@1.1-r0
     Name: java-cacerts
     Identifier:
       PURL: pkg:apk/alpine/java-cacerts@1.1-r0?arch=x86_64&distro=3.23.0
-      UID: db8f29f9f991bdf
+      UID: d5b9e0085ac24632
     Version: 1.1-r0
     Arch: x86_64
     SrcName: java-cacerts
@@ -657,11 +672,12 @@
     Digest: sha1:dd6d704f5e91ed26d9c026eac28bcd716f49a753
     InstalledFiles:
     - etc/ca-certificates/update.d/java-cacerts
+    AnalyzedBy: apk
   - ID: java-common@1.0-r1
     Name: java-common
     Identifier:
       PURL: pkg:apk/alpine/java-common@1.0-r1?arch=x86_64&distro=3.23.0
-      UID: e125ab15761231d0
+      UID: c4bf6ba97fac72c8
     Version: 1.0-r1
     Arch: x86_64
     SrcName: java-common
@@ -677,11 +693,12 @@
     Digest: sha1:52205baa8687d26c879a55110a0a258d4dbfe8a6
     InstalledFiles:
     - usr/bin/java
+    AnalyzedBy: apk
   - ID: lcms2@2.17-r0
     Name: lcms2
     Identifier:
       PURL: pkg:apk/alpine/lcms2@2.17-r0?arch=x86_64&distro=3.23.0
-      UID: 7862ee3458766f09
+      UID: d4cf67fbd685ea22
     Version: 2.17-r0
     Arch: x86_64
     SrcName: lcms2
@@ -698,11 +715,12 @@
     InstalledFiles:
     - usr/lib/liblcms2.so.2
     - usr/lib/liblcms2.so.2.0.17
+    AnalyzedBy: apk
   - ID: libapk@3.0.1-r1
     Name: libapk
     Identifier:
       PURL: pkg:apk/alpine/libapk@3.0.1-r1?arch=x86_64&distro=3.23.0
-      UID: 1766881d49acfe4a
+      UID: 9ce1184f9047010c
     Version: 3.0.1-r1
     Arch: x86_64
     SrcName: apk-tools
@@ -721,11 +739,12 @@
     Digest: sha1:6146a4ecfe76efa5fa8cce5aedee1a1c475dc8f2
     InstalledFiles:
     - usr/lib/libapk.so.3.0.0
+    AnalyzedBy: apk
   - ID: libbsd@0.12.2-r0
     Name: libbsd
     Identifier:
       PURL: pkg:apk/alpine/libbsd@0.12.2-r0?arch=x86_64&distro=3.23.0
-      UID: 25f2a887b0a92f53
+      UID: e8223f0f48326233
     Version: 0.12.2-r0
     Arch: x86_64
     SrcName: libbsd
@@ -743,11 +762,12 @@
     InstalledFiles:
     - usr/lib/libbsd.so.0
     - usr/lib/libbsd.so.0.12.2
+    AnalyzedBy: apk
   - ID: libbz2@1.0.8-r6
     Name: libbz2
     Identifier:
       PURL: pkg:apk/alpine/libbz2@1.0.8-r6?arch=x86_64&distro=3.23.0
-      UID: fb616a0731666455
+      UID: 74d7fef128d53896
     Version: 1.0.8-r6
     Arch: x86_64
     SrcName: bzip2
@@ -764,11 +784,12 @@
     InstalledFiles:
     - usr/lib/libbz2.so.1
     - usr/lib/libbz2.so.1.0.8
+    AnalyzedBy: apk
   - ID: libcrypto3@3.5.4-r0
     Name: libcrypto3
     Identifier:
       PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: 62215c30ccf85b6f
+      UID: 3da970f607c87d8b
     Version: 3.5.4-r0
     Arch: x86_64
     SrcName: openssl
@@ -793,11 +814,12 @@
     - usr/lib/engines-3/loader_attic.so
     - usr/lib/engines-3/padlock.so
     - usr/lib/ossl-modules/legacy.so
+    AnalyzedBy: apk
   - ID: libcurl@8.17.0-r1
     Name: libcurl
     Identifier:
       PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3.23.0
-      UID: 58407caa98add697
+      UID: fd5f0a5c9aa3d7a0
     Version: 8.17.0-r1
     Arch: x86_64
     SrcName: curl
@@ -825,11 +847,12 @@
     InstalledFiles:
     - usr/lib/libcurl.so.4
     - usr/lib/libcurl.so.4.8.0
+    AnalyzedBy: apk
   - ID: libffi@3.5.2-r0
     Name: libffi
     Identifier:
       PURL: pkg:apk/alpine/libffi@3.5.2-r0?arch=x86_64&distro=3.23.0
-      UID: c72f7679d8deb59c
+      UID: 1a2683c5b41f482d
     Version: 3.5.2-r0
     Arch: x86_64
     SrcName: libffi
@@ -846,11 +869,12 @@
     InstalledFiles:
     - usr/lib/libffi.so.8
     - usr/lib/libffi.so.8.2.0
+    AnalyzedBy: apk
   - ID: libidn2@2.3.8-r0
     Name: libidn2
     Identifier:
       PURL: pkg:apk/alpine/libidn2@2.3.8-r0?arch=x86_64&distro=3.23.0
-      UID: 4ced466399e71e2d
+      UID: e2fcbba2f74d78bf
     Version: 2.3.8-r0
     Arch: x86_64
     SrcName: libidn2
@@ -869,11 +893,12 @@
     InstalledFiles:
     - usr/lib/libidn2.so.0
     - usr/lib/libidn2.so.0.4.0
+    AnalyzedBy: apk
   - ID: libjpeg-turbo@3.1.2-r0
     Name: libjpeg-turbo
     Identifier:
       PURL: pkg:apk/alpine/libjpeg-turbo@3.1.2-r0?arch=x86_64&distro=3.23.0
-      UID: c07f4388a4c0bc44
+      UID: f80d15900d386c53
     Version: 3.1.2-r0
     Arch: x86_64
     SrcName: libjpeg-turbo
@@ -892,11 +917,12 @@
     InstalledFiles:
     - usr/lib/libjpeg.so.8
     - usr/lib/libjpeg.so.8.3.2
+    AnalyzedBy: apk
   - ID: libmd@1.1.0-r0
     Name: libmd
     Identifier:
       PURL: pkg:apk/alpine/libmd@1.1.0-r0?arch=x86_64&distro=3.23.0
-      UID: 52b26e1bbfba437a
+      UID: e263a6bc7bc6d7e0
     Version: 1.1.0-r0
     Arch: x86_64
     SrcName: libmd
@@ -918,11 +944,12 @@
     InstalledFiles:
     - usr/lib/libmd.so.0
     - usr/lib/libmd.so.0.1.0
+    AnalyzedBy: apk
   - ID: libpng@1.6.53-r0
     Name: libpng
     Identifier:
       PURL: pkg:apk/alpine/libpng@1.6.53-r0?arch=x86_64&distro=3.23.0
-      UID: cb73e61ec749ca01
+      UID: fc90ccd7b47f1ac7
     Version: 1.6.53-r0
     Arch: x86_64
     SrcName: libpng
@@ -940,11 +967,12 @@
     InstalledFiles:
     - usr/lib/libpng16.so.16
     - usr/lib/libpng16.so.16.53.0
+    AnalyzedBy: apk
   - ID: libpsl@0.21.5-r3
     Name: libpsl
     Identifier:
       PURL: pkg:apk/alpine/libpsl@0.21.5-r3?arch=x86_64&distro=3.23.0
-      UID: f89bcb8f8b2c3fd1
+      UID: 9fb5bd2254e54a0
     Version: 0.21.5-r3
     Arch: x86_64
     SrcName: libpsl
@@ -963,11 +991,12 @@
     InstalledFiles:
     - usr/lib/libpsl.so.5
     - usr/lib/libpsl.so.5.3.5
+    AnalyzedBy: apk
   - ID: libssl3@3.5.4-r0
     Name: libssl3
     Identifier:
       PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: b48853cdc61496a3
+      UID: 7d44ba14d36fedbb
     Version: 3.5.4-r0
     Arch: x86_64
     SrcName: openssl
@@ -984,11 +1013,12 @@
     Digest: sha1:e328b24da910b652aadc87242828d43db30bad67
     InstalledFiles:
     - usr/lib/libssl.so.3
+    AnalyzedBy: apk
   - ID: libtasn1@4.20.0-r0
     Name: libtasn1
     Identifier:
       PURL: pkg:apk/alpine/libtasn1@4.20.0-r0?arch=x86_64&distro=3.23.0
-      UID: e85d6de4c4cb9425
+      UID: e68d796a68b3ebee
     Version: 4.20.0-r0
     Arch: x86_64
     SrcName: libtasn1
@@ -1005,11 +1035,12 @@
     InstalledFiles:
     - usr/lib/libtasn1.so.6
     - usr/lib/libtasn1.so.6.6.4
+    AnalyzedBy: apk
   - ID: libunistring@1.4.1-r0
     Name: libunistring
     Identifier:
       PURL: pkg:apk/alpine/libunistring@1.4.1-r0?arch=x86_64&distro=3.23.0
-      UID: 7200a20237fda131
+      UID: 4e0ee8fa7d9a5823
     Version: 1.4.1-r0
     Arch: x86_64
     SrcName: libunistring
@@ -1027,11 +1058,12 @@
     InstalledFiles:
     - usr/lib/libunistring.so.5
     - usr/lib/libunistring.so.5.2.1
+    AnalyzedBy: apk
   - ID: libx11@1.8.12-r1
     Name: libx11
     Identifier:
       PURL: pkg:apk/alpine/libx11@1.8.12-r1?arch=x86_64&distro=3.23.0
-      UID: ad0c9251b6202dc3
+      UID: a425120d26ddc2d8
     Version: 1.8.12-r1
     Arch: x86_64
     SrcName: libx11
@@ -1242,11 +1274,12 @@
     - usr/share/X11/locale/zh_TW.big5/Compose
     - usr/share/X11/locale/zh_TW.big5/XI18N_OBJS
     - usr/share/X11/locale/zh_TW.big5/XLC_LOCALE
+    AnalyzedBy: apk
   - ID: libxau@1.0.12-r0
     Name: libxau
     Identifier:
       PURL: pkg:apk/alpine/libxau@1.0.12-r0?arch=x86_64&distro=3.23.0
-      UID: 37aeecde4cde19c7
+      UID: aa0bb8a98c218213
     Version: 1.0.12-r0
     Arch: x86_64
     SrcName: libxau
@@ -1263,11 +1296,12 @@
     InstalledFiles:
     - usr/lib/libXau.so.6
     - usr/lib/libXau.so.6.0.0
+    AnalyzedBy: apk
   - ID: libxcb@1.17.0-r1
     Name: libxcb
     Identifier:
       PURL: pkg:apk/alpine/libxcb@1.17.0-r1?arch=x86_64&distro=3.23.0
-      UID: 9fd7d10725d96cfc
+      UID: 6f6901ad7b331681
     Version: 1.17.0-r1
     Arch: x86_64
     SrcName: libxcb
@@ -1334,11 +1368,12 @@
     - usr/lib/libxcb-xvmc.so.0.0.0
     - usr/lib/libxcb.so.1
     - usr/lib/libxcb.so.1.1.0
+    AnalyzedBy: apk
   - ID: libxdmcp@1.1.5-r1
     Name: libxdmcp
     Identifier:
       PURL: pkg:apk/alpine/libxdmcp@1.1.5-r1?arch=x86_64&distro=3.23.0
-      UID: 466169ccb3517c34
+      UID: 4fca0d7ff08ca578
     Version: 1.1.5-r1
     Arch: x86_64
     SrcName: libxdmcp
@@ -1356,11 +1391,12 @@
     InstalledFiles:
     - usr/lib/libXdmcp.so.6
     - usr/lib/libXdmcp.so.6.0.0
+    AnalyzedBy: apk
   - ID: libxext@1.3.6-r2
     Name: libxext
     Identifier:
       PURL: pkg:apk/alpine/libxext@1.3.6-r2?arch=x86_64&distro=3.23.0
-      UID: 4c346f98711496dd
+      UID: 57ff00875e99d22c
     Version: 1.3.6-r2
     Arch: x86_64
     SrcName: libxext
@@ -1378,11 +1414,12 @@
     InstalledFiles:
     - usr/lib/libXext.so.6
     - usr/lib/libXext.so.6.4.0
+    AnalyzedBy: apk
   - ID: libxi@1.8.2-r0
     Name: libxi
     Identifier:
       PURL: pkg:apk/alpine/libxi@1.8.2-r0?arch=x86_64&distro=3.23.0
-      UID: ccc00cee81bd9473
+      UID: d81ab57b1c2a3d44
     Version: 1.8.2-r0
     Arch: x86_64
     SrcName: libxi
@@ -1402,11 +1439,12 @@
     InstalledFiles:
     - usr/lib/libXi.so.6
     - usr/lib/libXi.so.6.1.0
+    AnalyzedBy: apk
   - ID: libxrender@0.9.12-r0
     Name: libxrender
     Identifier:
       PURL: pkg:apk/alpine/libxrender@0.9.12-r0?arch=x86_64&distro=3.23.0
-      UID: a017f228f1bb6c12
+      UID: 75bd82a23bb935ed
     Version: 0.9.12-r0
     Arch: x86_64
     SrcName: libxrender
@@ -1424,11 +1462,12 @@
     InstalledFiles:
     - usr/lib/libXrender.so.1
     - usr/lib/libXrender.so.1.3.0
+    AnalyzedBy: apk
   - ID: libxtst@1.2.5-r0
     Name: libxtst
     Identifier:
       PURL: pkg:apk/alpine/libxtst@1.2.5-r0?arch=x86_64&distro=3.23.0
-      UID: 5666308ca4446107
+      UID: 3b2bf2b50cb3cedd
     Version: 1.2.5-r0
     Arch: x86_64
     SrcName: libxtst
@@ -1447,11 +1486,12 @@
     InstalledFiles:
     - usr/lib/libXtst.so.6
     - usr/lib/libXtst.so.6.1.0
+    AnalyzedBy: apk
   - ID: musl@1.2.5-r21
     Name: musl
     Identifier:
       PURL: pkg:apk/alpine/musl@1.2.5-r21?arch=x86_64&distro=3.23.0
-      UID: b403e8328a352729
+      UID: 750ab06f52f2bfe9
     Version: 1.2.5-r21
     Arch: x86_64
     SrcName: musl
@@ -1466,11 +1506,12 @@
     InstalledFiles:
     - lib/ld-musl-x86_64.so.1
     - lib/libc.musl-x86_64.so.1
+    AnalyzedBy: apk
   - ID: musl-utils@1.2.5-r21
     Name: musl-utils
     Identifier:
       PURL: pkg:apk/alpine/musl-utils@1.2.5-r21?arch=x86_64&distro=3.23.0
-      UID: 603bb96b0fa7ce27
+      UID: 9dadd6d4093981ad
     Version: 1.2.5-r21
     Arch: x86_64
     SrcName: musl
@@ -1493,11 +1534,12 @@
     - usr/bin/getent
     - usr/bin/iconv
     - usr/bin/ldd
+    AnalyzedBy: apk
   - ID: nghttp2-libs@1.68.0-r0
     Name: nghttp2-libs
     Identifier:
       PURL: pkg:apk/alpine/nghttp2-libs@1.68.0-r0?arch=x86_64&distro=3.23.0
-      UID: dca2be8e80b615ee
+      UID: 802c936f9e7891b2
     Version: 1.68.0-r0
     Arch: x86_64
     SrcName: nghttp2
@@ -1514,11 +1556,12 @@
     InstalledFiles:
     - usr/lib/libnghttp2.so.14
     - usr/lib/libnghttp2.so.14.29.2
+    AnalyzedBy: apk
   - ID: nghttp3@1.13.1-r0
     Name: nghttp3
     Identifier:
       PURL: pkg:apk/alpine/nghttp3@1.13.1-r0?arch=x86_64&distro=3.23.0
-      UID: 47a1d1cccc4a6c6
+      UID: 7999d360d1276f40
     Version: 1.13.1-r0
     Arch: x86_64
     SrcName: nghttp3
@@ -1535,11 +1578,12 @@
     InstalledFiles:
     - usr/lib/libnghttp3.so.9
     - usr/lib/libnghttp3.so.9.5.1
+    AnalyzedBy: apk
   - ID: openjdk21-jre@21.0.9_p10-r0
     Name: openjdk21-jre
     Identifier:
       PURL: pkg:apk/alpine/openjdk21-jre@21.0.9_p10-r0?arch=x86_64&distro=3.23.0
-      UID: 205951353b88a425
+      UID: bbe37540817b53ad
     Version: 21.0.9_p10-r0
     Arch: x86_64
     SrcName: openjdk21
@@ -1573,11 +1617,12 @@
     - usr/lib/jvm/java-21-openjdk/lib/libjsound.so
     - usr/lib/jvm/java-21-openjdk/lib/liblcms.so
     - usr/lib/jvm/java-21-openjdk/lib/libsplashscreen.so
+    AnalyzedBy: apk
   - ID: openjdk21-jre-headless@21.0.9_p10-r0
     Name: openjdk21-jre-headless
     Identifier:
       PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.9_p10-r0?arch=x86_64&distro=3.23.0
-      UID: 251c82a3ee5dd21f
+      UID: 9d53c093cc4aa4db
     Version: 21.0.9_p10-r0
     Arch: x86_64
     SrcName: openjdk21
@@ -1907,11 +1952,12 @@
     - usr/lib/jvm/java-21-openjdk/lib/server/classes_nocoops.jsa
     - usr/lib/jvm/java-21-openjdk/lib/server/libjsig.so
     - usr/lib/jvm/java-21-openjdk/lib/server/libjvm.so
+    AnalyzedBy: apk
   - ID: openssl@3.5.4-r0
     Name: openssl
     Identifier:
       PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: a1cd04a89fc287e3
+      UID: 28ff8de5747f08e5
     Version: 3.5.4-r0
     Arch: x86_64
     SrcName: openssl
@@ -1929,11 +1975,12 @@
     Digest: sha1:c2a94fa9b033f8a1066e3545cbe6b4e86e54e9b8
     InstalledFiles:
     - usr/bin/openssl
+    AnalyzedBy: apk
   - ID: p11-kit@0.25.5-r2
     Name: p11-kit
     Identifier:
       PURL: pkg:apk/alpine/p11-kit@0.25.5-r2?arch=x86_64&distro=3.23.0
-      UID: b0d6e48300259c9f
+      UID: 280955098a112ea4
     Version: 0.25.5-r2
     Arch: x86_64
     SrcName: p11-kit
@@ -1956,11 +2003,12 @@
     - usr/lib/libp11-kit.so.0.4.1
     - usr/libexec/p11-kit/p11-kit-remote
     - usr/libexec/p11-kit/trust-extract-compat
+    AnalyzedBy: apk
   - ID: p11-kit-trust@0.25.5-r2
     Name: p11-kit-trust
     Identifier:
       PURL: pkg:apk/alpine/p11-kit-trust@0.25.5-r2?arch=x86_64&distro=3.23.0
-      UID: cdbfa4b26a87980f
+      UID: a237c978bfbb11c6
     Version: 0.25.5-r2
     Arch: x86_64
     SrcName: p11-kit
@@ -1980,11 +2028,12 @@
     - usr/bin/trust
     - usr/lib/pkcs11/p11-kit-trust.so
     - usr/share/p11-kit/modules/p11-kit-trust.module
+    AnalyzedBy: apk
   - ID: scanelf@1.3.8-r2
     Name: scanelf
     Identifier:
       PURL: pkg:apk/alpine/scanelf@1.3.8-r2?arch=x86_64&distro=3.23.0
-      UID: 40949233d54f5297
+      UID: 948b35f6525ae462
     Version: 1.3.8-r2
     Arch: x86_64
     SrcName: pax-utils
@@ -2000,11 +2049,12 @@
     Digest: sha1:6ea36dd44ef9f6364f0cdfabe09ea15d2fdbe229
     InstalledFiles:
     - usr/bin/scanelf
+    AnalyzedBy: apk
   - ID: ssl_client@1.37.0-r29
     Name: ssl_client
     Identifier:
       PURL: pkg:apk/alpine/ssl_client@1.37.0-r29?arch=x86_64&distro=3.23.0
-      UID: 1138b38b7d7cd9e7
+      UID: f58db8ca562110e8
     Version: 1.37.0-r29
     Arch: x86_64
     SrcName: busybox
@@ -2022,11 +2072,12 @@
     Digest: sha1:c4cef5aa030704c1f7a32bbb31574326869c51dc
     InstalledFiles:
     - usr/bin/ssl_client
+    AnalyzedBy: apk
   - ID: sudo@1.9.17_p2-r0
     Name: sudo
     Identifier:
       PURL: pkg:apk/alpine/sudo@1.9.17_p2-r0?arch=x86_64&distro=3.23.0
-      UID: 35f8e6a2b9015b57
+      UID: 19279458e52d33d8
     Version: 1.9.17_p2-r0
     Arch: x86_64
     SrcName: sudo
@@ -2062,11 +2113,12 @@
     - usr/sbin/sudo_logsrvd
     - usr/sbin/sudo_sendlog
     - usr/sbin/visudo
+    AnalyzedBy: apk
   - ID: tinyproxy@1.11.2-r0
     Name: tinyproxy
     Identifier:
       PURL: pkg:apk/alpine/tinyproxy@1.11.2-r0?arch=x86_64&distro=3.23.0
-      UID: ca4687a5b44a7a5b
+      UID: 2eb50a7a3bfa7233
     Version: 1.11.2-r0
     Arch: x86_64
     SrcName: tinyproxy
@@ -2087,11 +2139,12 @@
     - usr/share/tinyproxy/debug.html
     - usr/share/tinyproxy/default.html
     - usr/share/tinyproxy/stats.html
+    AnalyzedBy: apk
   - ID: zlib@1.3.1-r2
     Name: zlib
     Identifier:
       PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.23.0
-      UID: 4fcd0ec5030a15a0
+      UID: 792cdc69bc59d880
     Version: 1.3.1-r2
     Arch: x86_64
     SrcName: zlib
@@ -2108,11 +2161,12 @@
     InstalledFiles:
     - usr/lib/libz.so.1
     - usr/lib/libz.so.1.3.1
+    AnalyzedBy: apk
   - ID: zstd-libs@1.5.7-r2
     Name: zstd-libs
     Identifier:
       PURL: pkg:apk/alpine/zstd-libs@1.5.7-r2?arch=x86_64&distro=3.23.0
-      UID: 42a1f51d30fcfa27
+      UID: 8146f1dd71a6e601
     Version: 1.5.7-r2
     Arch: x86_64
     SrcName: zstd
@@ -2130,13 +2184,14 @@
     InstalledFiles:
     - usr/lib/libzstd.so.1
     - usr/lib/libzstd.so.1.5.7
+    AnalyzedBy: apk
   Vulnerabilities:
   - VulnerabilityID: CVE-2025-62408
     PkgID: c-ares@1.34.5-r0
     PkgName: c-ares
     PkgIdentifier:
       PURL: pkg:apk/alpine/c-ares@1.34.5-r0?arch=x86_64&distro=3.23.0
-      UID: 52587364bf1be7a9
+      UID: 2037c661b288c589
     InstalledVersion: 1.34.5-r0
     FixedVersion: 1.34.6-r0
     Status: fixed
@@ -2177,7 +2232,7 @@
     PkgName: libcrypto3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: 62215c30ccf85b6f
+      UID: 3da970f607c87d8b
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -2223,6 +2278,8 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -2231,24 +2288,40 @@
         V3Score: 9.8
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/27/10
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-15467
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
     - https://github.com/openssl/openssl/commit/6ced0fe6b10faa560e410e3ee8d6c82f06c65ea3
     - https://github.com/openssl/openssl/commit/ce39170276daec87f55c39dad1f629b56344429e
     - https://github.com/openssl/openssl/commit/d0071a0799f20cc8101730145349ed4487c268dc
+    - https://linux.oracle.com/cve/CVE-2025-15467.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15467
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15467
     PublishedDate: '2026-01-27T16:16:14.257Z'
-    LastModifiedDate: '2026-01-27T22:15:51.597Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-69419
     PkgID: libcrypto3@3.5.4-r0
     PkgName: libcrypto3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: 62215c30ccf85b6f
+      UID: 3da970f607c87d8b
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -2300,6 +2373,8 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -2307,25 +2382,41 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-69419
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
     - https://github.com/openssl/openssl/commit/a26a90d38edec3748566129d824e664b54bee2e2
     - https://github.com/openssl/openssl/commit/cda12de3bc0e333ea8d2c6fd15001dbdaf280015
     - https://github.com/openssl/openssl/commit/ff628933755075446bca8307e8417c14d164b535
+    - https://linux.oracle.com/cve/CVE-2025-69419.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69419
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69419
     PublishedDate: '2026-01-27T16:16:34.113Z'
-    LastModifiedDate: '2026-01-27T16:16:34.113Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-11187
     PkgID: libcrypto3@3.5.4-r0
     PkgName: libcrypto3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: 62215c30ccf85b6f
+      UID: 3da970f607c87d8b
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -2375,6 +2466,8 @@
     - CWE-476
     - CWE-787
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2382,22 +2475,38 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:H
         V3Score: 6.1
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-11187
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
     - https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e
+    - https://linux.oracle.com/cve/CVE-2025-11187.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-11187
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-11187
     PublishedDate: '2026-01-27T16:16:14.093Z'
-    LastModifiedDate: '2026-01-27T16:16:14.093Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-15468
     PkgID: libcrypto3@3.5.4-r0
     PkgName: libcrypto3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: 62215c30ccf85b6f
+      UID: 3da970f607c87d8b
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -2441,6 +2550,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2448,23 +2559,39 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-15468
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
     - https://github.com/openssl/openssl/commit/b2539639400288a4580fe2d76247541b976bade4
     - https://github.com/openssl/openssl/commit/d75b309879631d45b972396ce4e5102559c64ac7
+    - https://linux.oracle.com/cve/CVE-2025-15468.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15468
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15468
     PublishedDate: '2026-01-27T16:16:14.4Z'
-    LastModifiedDate: '2026-01-27T16:16:14.4Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-15469
     PkgID: libcrypto3@3.5.4-r0
     PkgName: libcrypto3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: 62215c30ccf85b6f
+      UID: 3da970f607c87d8b
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -2511,6 +2638,8 @@
     CweIDs:
     - CWE-347
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2518,21 +2647,37 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-15469
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
+    - https://linux.oracle.com/cve/CVE-2025-15469.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15469
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15469
     PublishedDate: '2026-01-27T16:16:14.523Z'
-    LastModifiedDate: '2026-01-27T16:16:14.523Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-66199
     PkgID: libcrypto3@3.5.4-r0
     PkgName: libcrypto3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: 62215c30ccf85b6f
+      UID: 3da970f607c87d8b
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -2583,6 +2728,8 @@
     CweIDs:
     - CWE-789
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2590,23 +2737,39 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-66199
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
     - https://github.com/openssl/openssl/commit/895150b5e021d16b52fb32b97e1dd12f20448be5
     - https://github.com/openssl/openssl/commit/966a2478046c311ed7dae50c457d0db4cafbf7e4
+    - https://linux.oracle.com/cve/CVE-2025-66199.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-66199
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-66199
     PublishedDate: '2026-01-27T16:16:15.777Z'
-    LastModifiedDate: '2026-01-27T16:16:15.777Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-68160
     PkgID: libcrypto3@3.5.4-r0
     PkgName: libcrypto3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: 62215c30ccf85b6f
+      UID: 3da970f607c87d8b
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -2646,6 +2809,8 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2653,25 +2818,41 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 4.7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-68160
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
     - https://github.com/openssl/openssl/commit/4c96fbba618e1940f038012506ee9e21d32ee12c
     - https://github.com/openssl/openssl/commit/6845c3b6460a98b1ec4e463baa2ea1a63a32d7c0
     - https://github.com/openssl/openssl/commit/68a7cd2e2816c3a02f4d45a2ce43fc04fac97096
+    - https://linux.oracle.com/cve/CVE-2025-68160.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68160
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-68160
     PublishedDate: '2026-01-27T16:16:15.9Z'
-    LastModifiedDate: '2026-01-27T16:16:15.9Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-69418
     PkgID: libcrypto3@3.5.4-r0
     PkgName: libcrypto3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: 62215c30ccf85b6f
+      UID: 3da970f607c87d8b
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -2690,6 +2871,8 @@
     CweIDs:
     - CWE-325
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2697,25 +2880,41 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-69418
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
     - https://github.com/openssl/openssl/commit/52d23c86a54adab5ee9f80e48b242b52c4cc2347
     - https://github.com/openssl/openssl/commit/a7589230356d908c0eca4b969ec4f62106f4f5ae
     - https://github.com/openssl/openssl/commit/ed40856d7d4ba6cb42779b6770666a65f19cb977
+    - https://linux.oracle.com/cve/CVE-2025-69418.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69418
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69418
     PublishedDate: '2026-01-27T16:16:33.253Z'
-    LastModifiedDate: '2026-01-27T16:16:33.253Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-69420
     PkgID: libcrypto3@3.5.4-r0
     PkgName: libcrypto3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: 62215c30ccf85b6f
+      UID: 3da970f607c87d8b
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -2761,6 +2960,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2768,25 +2969,41 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-69420
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
     - https://github.com/openssl/openssl/commit/564fd9c73787f25693bf9e75faf7bf6bb1305d4e
     - https://github.com/openssl/openssl/commit/5eb0770ffcf11b785cf374ff3c19196245e54f1b
     - https://github.com/openssl/openssl/commit/a99349ebfc519999edc50620abe24d599b9eb085
+    - https://linux.oracle.com/cve/CVE-2025-69420.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69420
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69420
     PublishedDate: '2026-01-27T16:16:34.317Z'
-    LastModifiedDate: '2026-01-27T16:16:34.317Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-69421
     PkgID: libcrypto3@3.5.4-r0
     PkgName: libcrypto3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: 62215c30ccf85b6f
+      UID: 3da970f607c87d8b
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -2825,6 +3042,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2832,25 +3051,41 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-69421
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
     - https://github.com/openssl/openssl/commit/4bbc8d41a72c842ce4077a8a3eccd1109aaf74bd
     - https://github.com/openssl/openssl/commit/643986985cd1c21221f941129d76fe0c2785aeb3
     - https://github.com/openssl/openssl/commit/a2dbc539f0f9cc63832709fa5aa33ad9495eb19c
+    - https://linux.oracle.com/cve/CVE-2025-69421.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69421
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69421
     PublishedDate: '2026-01-27T16:16:34.437Z'
-    LastModifiedDate: '2026-01-27T16:16:34.437Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2026-22795
     PkgID: libcrypto3@3.5.4-r0
     PkgName: libcrypto3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: 62215c30ccf85b6f
+      UID: 3da970f607c87d8b
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -2896,6 +3131,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2903,25 +3140,41 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2026-22795
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
     - https://github.com/openssl/openssl/commit/eeee3cbd4d682095ed431052f00403004596373e
     - https://github.com/openssl/openssl/commit/ef2fb66ec571564d64d1c74a12e388a2a54d05d2
+    - https://linux.oracle.com/cve/CVE-2026-22795.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-22795
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2026-22795
     PublishedDate: '2026-01-27T16:16:35.43Z'
-    LastModifiedDate: '2026-01-27T16:16:35.43Z'
+    LastModifiedDate: '2026-01-29T19:16:19.67Z'
   - VulnerabilityID: CVE-2026-22796
     PkgID: libcrypto3@3.5.4-r0
     PkgName: libcrypto3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: 62215c30ccf85b6f
+      UID: 3da970f607c87d8b
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -2966,6 +3219,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2973,25 +3228,41 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2026-22796
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
     - https://github.com/openssl/openssl/commit/eeee3cbd4d682095ed431052f00403004596373e
     - https://github.com/openssl/openssl/commit/ef2fb66ec571564d64d1c74a12e388a2a54d05d2
+    - https://linux.oracle.com/cve/CVE-2026-22796.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-22796
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2026-22796
     PublishedDate: '2026-01-27T16:16:35.543Z'
-    LastModifiedDate: '2026-01-27T17:16:12.553Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2026-22695
     PkgID: libpng@1.6.53-r0
     PkgName: libpng
     PkgIdentifier:
       PURL: pkg:apk/alpine/libpng@1.6.53-r0?arch=x86_64&distro=3.23.0
-      UID: cb73e61ec749ca01
+      UID: fc90ccd7b47f1ac7
     InstalledVersion: 1.6.53-r0
     FixedVersion: 1.6.54-r0
     Status: fixed
@@ -3038,7 +3309,7 @@
     PkgName: libpng
     PkgIdentifier:
       PURL: pkg:apk/alpine/libpng@1.6.53-r0?arch=x86_64&distro=3.23.0
-      UID: cb73e61ec749ca01
+      UID: fc90ccd7b47f1ac7
     InstalledVersion: 1.6.53-r0
     FixedVersion: 1.6.54-r0
     Status: fixed
@@ -3083,7 +3354,7 @@
     PkgName: libssl3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: b48853cdc61496a3
+      UID: 7d44ba14d36fedbb
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -3129,6 +3400,8 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -3137,24 +3410,40 @@
         V3Score: 9.8
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/27/10
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-15467
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
     - https://github.com/openssl/openssl/commit/6ced0fe6b10faa560e410e3ee8d6c82f06c65ea3
     - https://github.com/openssl/openssl/commit/ce39170276daec87f55c39dad1f629b56344429e
     - https://github.com/openssl/openssl/commit/d0071a0799f20cc8101730145349ed4487c268dc
+    - https://linux.oracle.com/cve/CVE-2025-15467.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15467
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15467
     PublishedDate: '2026-01-27T16:16:14.257Z'
-    LastModifiedDate: '2026-01-27T22:15:51.597Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-69419
     PkgID: libssl3@3.5.4-r0
     PkgName: libssl3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: b48853cdc61496a3
+      UID: 7d44ba14d36fedbb
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -3206,6 +3495,8 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -3213,25 +3504,41 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-69419
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
     - https://github.com/openssl/openssl/commit/a26a90d38edec3748566129d824e664b54bee2e2
     - https://github.com/openssl/openssl/commit/cda12de3bc0e333ea8d2c6fd15001dbdaf280015
     - https://github.com/openssl/openssl/commit/ff628933755075446bca8307e8417c14d164b535
+    - https://linux.oracle.com/cve/CVE-2025-69419.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69419
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69419
     PublishedDate: '2026-01-27T16:16:34.113Z'
-    LastModifiedDate: '2026-01-27T16:16:34.113Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-11187
     PkgID: libssl3@3.5.4-r0
     PkgName: libssl3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: b48853cdc61496a3
+      UID: 7d44ba14d36fedbb
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -3281,6 +3588,8 @@
     - CWE-476
     - CWE-787
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3288,22 +3597,38 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:H
         V3Score: 6.1
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-11187
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
     - https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e
+    - https://linux.oracle.com/cve/CVE-2025-11187.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-11187
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-11187
     PublishedDate: '2026-01-27T16:16:14.093Z'
-    LastModifiedDate: '2026-01-27T16:16:14.093Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-15468
     PkgID: libssl3@3.5.4-r0
     PkgName: libssl3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: b48853cdc61496a3
+      UID: 7d44ba14d36fedbb
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -3347,6 +3672,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3354,23 +3681,39 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-15468
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
     - https://github.com/openssl/openssl/commit/b2539639400288a4580fe2d76247541b976bade4
     - https://github.com/openssl/openssl/commit/d75b309879631d45b972396ce4e5102559c64ac7
+    - https://linux.oracle.com/cve/CVE-2025-15468.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15468
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15468
     PublishedDate: '2026-01-27T16:16:14.4Z'
-    LastModifiedDate: '2026-01-27T16:16:14.4Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-15469
     PkgID: libssl3@3.5.4-r0
     PkgName: libssl3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: b48853cdc61496a3
+      UID: 7d44ba14d36fedbb
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -3417,6 +3760,8 @@
     CweIDs:
     - CWE-347
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3424,21 +3769,37 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-15469
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
+    - https://linux.oracle.com/cve/CVE-2025-15469.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15469
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15469
     PublishedDate: '2026-01-27T16:16:14.523Z'
-    LastModifiedDate: '2026-01-27T16:16:14.523Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-66199
     PkgID: libssl3@3.5.4-r0
     PkgName: libssl3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: b48853cdc61496a3
+      UID: 7d44ba14d36fedbb
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -3489,6 +3850,8 @@
     CweIDs:
     - CWE-789
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3496,23 +3859,39 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-66199
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
     - https://github.com/openssl/openssl/commit/895150b5e021d16b52fb32b97e1dd12f20448be5
     - https://github.com/openssl/openssl/commit/966a2478046c311ed7dae50c457d0db4cafbf7e4
+    - https://linux.oracle.com/cve/CVE-2025-66199.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-66199
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-66199
     PublishedDate: '2026-01-27T16:16:15.777Z'
-    LastModifiedDate: '2026-01-27T16:16:15.777Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-68160
     PkgID: libssl3@3.5.4-r0
     PkgName: libssl3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: b48853cdc61496a3
+      UID: 7d44ba14d36fedbb
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -3552,6 +3931,8 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3559,25 +3940,41 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 4.7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-68160
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
     - https://github.com/openssl/openssl/commit/4c96fbba618e1940f038012506ee9e21d32ee12c
     - https://github.com/openssl/openssl/commit/6845c3b6460a98b1ec4e463baa2ea1a63a32d7c0
     - https://github.com/openssl/openssl/commit/68a7cd2e2816c3a02f4d45a2ce43fc04fac97096
+    - https://linux.oracle.com/cve/CVE-2025-68160.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68160
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-68160
     PublishedDate: '2026-01-27T16:16:15.9Z'
-    LastModifiedDate: '2026-01-27T16:16:15.9Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-69418
     PkgID: libssl3@3.5.4-r0
     PkgName: libssl3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: b48853cdc61496a3
+      UID: 7d44ba14d36fedbb
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -3596,6 +3993,8 @@
     CweIDs:
     - CWE-325
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3603,25 +4002,41 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-69418
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
     - https://github.com/openssl/openssl/commit/52d23c86a54adab5ee9f80e48b242b52c4cc2347
     - https://github.com/openssl/openssl/commit/a7589230356d908c0eca4b969ec4f62106f4f5ae
     - https://github.com/openssl/openssl/commit/ed40856d7d4ba6cb42779b6770666a65f19cb977
+    - https://linux.oracle.com/cve/CVE-2025-69418.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69418
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69418
     PublishedDate: '2026-01-27T16:16:33.253Z'
-    LastModifiedDate: '2026-01-27T16:16:33.253Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-69420
     PkgID: libssl3@3.5.4-r0
     PkgName: libssl3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: b48853cdc61496a3
+      UID: 7d44ba14d36fedbb
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -3667,6 +4082,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3674,25 +4091,41 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-69420
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
     - https://github.com/openssl/openssl/commit/564fd9c73787f25693bf9e75faf7bf6bb1305d4e
     - https://github.com/openssl/openssl/commit/5eb0770ffcf11b785cf374ff3c19196245e54f1b
     - https://github.com/openssl/openssl/commit/a99349ebfc519999edc50620abe24d599b9eb085
+    - https://linux.oracle.com/cve/CVE-2025-69420.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69420
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69420
     PublishedDate: '2026-01-27T16:16:34.317Z'
-    LastModifiedDate: '2026-01-27T16:16:34.317Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-69421
     PkgID: libssl3@3.5.4-r0
     PkgName: libssl3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: b48853cdc61496a3
+      UID: 7d44ba14d36fedbb
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -3731,6 +4164,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3738,25 +4173,41 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-69421
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
     - https://github.com/openssl/openssl/commit/4bbc8d41a72c842ce4077a8a3eccd1109aaf74bd
     - https://github.com/openssl/openssl/commit/643986985cd1c21221f941129d76fe0c2785aeb3
     - https://github.com/openssl/openssl/commit/a2dbc539f0f9cc63832709fa5aa33ad9495eb19c
+    - https://linux.oracle.com/cve/CVE-2025-69421.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69421
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69421
     PublishedDate: '2026-01-27T16:16:34.437Z'
-    LastModifiedDate: '2026-01-27T16:16:34.437Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2026-22795
     PkgID: libssl3@3.5.4-r0
     PkgName: libssl3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: b48853cdc61496a3
+      UID: 7d44ba14d36fedbb
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -3802,6 +4253,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3809,25 +4262,41 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2026-22795
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
     - https://github.com/openssl/openssl/commit/eeee3cbd4d682095ed431052f00403004596373e
     - https://github.com/openssl/openssl/commit/ef2fb66ec571564d64d1c74a12e388a2a54d05d2
+    - https://linux.oracle.com/cve/CVE-2026-22795.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-22795
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2026-22795
     PublishedDate: '2026-01-27T16:16:35.43Z'
-    LastModifiedDate: '2026-01-27T16:16:35.43Z'
+    LastModifiedDate: '2026-01-29T19:16:19.67Z'
   - VulnerabilityID: CVE-2026-22796
     PkgID: libssl3@3.5.4-r0
     PkgName: libssl3
     PkgIdentifier:
       PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: b48853cdc61496a3
+      UID: 7d44ba14d36fedbb
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -3872,6 +4341,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3879,25 +4350,41 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2026-22796
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
     - https://github.com/openssl/openssl/commit/eeee3cbd4d682095ed431052f00403004596373e
     - https://github.com/openssl/openssl/commit/ef2fb66ec571564d64d1c74a12e388a2a54d05d2
+    - https://linux.oracle.com/cve/CVE-2026-22796.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-22796
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2026-22796
     PublishedDate: '2026-01-27T16:16:35.543Z'
-    LastModifiedDate: '2026-01-27T17:16:12.553Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-13151
     PkgID: libtasn1@4.20.0-r0
     PkgName: libtasn1
     PkgIdentifier:
       PURL: pkg:apk/alpine/libtasn1@4.20.0-r0?arch=x86_64&distro=3.23.0
-      UID: e85d6de4c4cb9425
+      UID: e68d796a68b3ebee
     InstalledVersion: 4.20.0-r0
     FixedVersion: 4.21.0-r0
     Status: fixed
@@ -3931,12 +4418,396 @@
     - https://www.kb.cert.org/vuls/id/271649
     PublishedDate: '2026-01-07T22:15:43.2Z'
     LastModifiedDate: '2026-01-20T18:16:01.827Z'
+  - VulnerabilityID: CVE-2026-21932
+    PkgID: openjdk21-jre@21.0.9_p10-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.9_p10-r0?arch=x86_64&distro=3.23.0
+      UID: bbe37540817b53ad
+    InstalledVersion: 21.0.9_p10-r0
+    FixedVersion: 21.0.10_p7-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
+      DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21932
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:bd7c53c2ba86feb8a0240c4910a4c61ca28577e3db156ee0a098430c02cda53e
+    Title: 'openjdk: Enhance Handling of URIs (Oracle CPU 2026-01)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: AWT, JavaFX).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N).'
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-21932
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-21932
+    - https://www.cve.org/CVERecord?id=CVE-2026-21932
+    - https://www.oracle.com/security-alerts/cpujan2026.html
+    PublishedDate: '2026-01-20T22:15:55.793Z'
+    LastModifiedDate: '2026-01-30T16:08:39.917Z'
+  - VulnerabilityID: CVE-2026-21945
+    PkgID: openjdk21-jre@21.0.9_p10-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.9_p10-r0?arch=x86_64&distro=3.23.0
+      UID: bbe37540817b53ad
+    InstalledVersion: 21.0.9_p10-r0
+    FixedVersion: 21.0.10_p7-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
+      DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21945
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:c8befc9938a60aa84fec29bb6cb3a43cc9cdb15b55cb3ffa13da069ef35400b5
+    Title: 'openjdk: Enhance Certificate Checking (Oracle CPU 2026-01)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).'
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:0933
+    - https://access.redhat.com/security/cve/CVE-2026-21945
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429924
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429926
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429927
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
+    - https://errata.rockylinux.org/RLSA-2026:0932
+    - https://linux.oracle.com/cve/CVE-2026-21945.html
+    - https://linux.oracle.com/errata/ELSA-2026-0932.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-21945
+    - https://www.cve.org/CVERecord?id=CVE-2026-21945
+    - https://www.oracle.com/security-alerts/cpujan2026.html
+    PublishedDate: '2026-01-20T22:15:57.39Z'
+    LastModifiedDate: '2026-01-30T16:03:26.53Z'
+  - VulnerabilityID: CVE-2026-21925
+    PkgID: openjdk21-jre@21.0.9_p10-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.9_p10-r0?arch=x86_64&distro=3.23.0
+      UID: bbe37540817b53ad
+    InstalledVersion: 21.0.9_p10-r0
+    FixedVersion: 21.0.10_p7-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
+      DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21925
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:666be7621074d554434f54d681988bf4181f2c691afa5421a42d5a47d15a9f26
+    Title: 'openjdk: Improve JMX connections (Oracle CPU 2026-01)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: RMI).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:0933
+    - https://access.redhat.com/security/cve/CVE-2026-21925
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429924
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429926
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429927
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
+    - https://errata.rockylinux.org/RLSA-2026:0932
+    - https://linux.oracle.com/cve/CVE-2026-21925.html
+    - https://linux.oracle.com/errata/ELSA-2026-0932.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-21925
+    - https://www.cve.org/CVERecord?id=CVE-2026-21925
+    - https://www.oracle.com/security-alerts/cpujan2026.html
+    PublishedDate: '2026-01-20T22:15:54.917Z'
+    LastModifiedDate: '2026-01-30T16:11:07.073Z'
+  - VulnerabilityID: CVE-2026-21933
+    PkgID: openjdk21-jre@21.0.9_p10-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.9_p10-r0?arch=x86_64&distro=3.23.0
+      UID: bbe37540817b53ad
+    InstalledVersion: 21.0.9_p10-r0
+    FixedVersion: 21.0.10_p7-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
+      DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21933
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:3b265bd4d87dbbf729fd744c4e3dc1957938ba57c3f7e7455746cd3e85289b7c
+    Title: 'openjdk: Improve HttpServer Request handling (Oracle CPU 2026-01)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:0933
+    - https://access.redhat.com/security/cve/CVE-2026-21933
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429924
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429926
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429927
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
+    - https://errata.rockylinux.org/RLSA-2026:0932
+    - https://linux.oracle.com/cve/CVE-2026-21933.html
+    - https://linux.oracle.com/errata/ELSA-2026-0932.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-21933
+    - https://www.cve.org/CVERecord?id=CVE-2026-21933
+    - https://www.oracle.com/security-alerts/cpujan2026.html
+    PublishedDate: '2026-01-20T22:15:55.917Z'
+    LastModifiedDate: '2026-01-30T16:07:09.417Z'
+  - VulnerabilityID: CVE-2026-21932
+    PkgID: openjdk21-jre-headless@21.0.9_p10-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.9_p10-r0?arch=x86_64&distro=3.23.0
+      UID: 9d53c093cc4aa4db
+    InstalledVersion: 21.0.9_p10-r0
+    FixedVersion: 21.0.10_p7-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
+      DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21932
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:9f37249002f6a8b28da25349e9a76d183f9cb70a013a6dcdf72df37b82ead43f
+    Title: 'openjdk: Enhance Handling of URIs (Oracle CPU 2026-01)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: AWT, JavaFX).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N).'
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-21932
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-21932
+    - https://www.cve.org/CVERecord?id=CVE-2026-21932
+    - https://www.oracle.com/security-alerts/cpujan2026.html
+    PublishedDate: '2026-01-20T22:15:55.793Z'
+    LastModifiedDate: '2026-01-30T16:08:39.917Z'
+  - VulnerabilityID: CVE-2026-21945
+    PkgID: openjdk21-jre-headless@21.0.9_p10-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.9_p10-r0?arch=x86_64&distro=3.23.0
+      UID: 9d53c093cc4aa4db
+    InstalledVersion: 21.0.9_p10-r0
+    FixedVersion: 21.0.10_p7-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
+      DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21945
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:f12fc55eb8d419ecf7c8daf595d19105ac433605ec08eba7880de4cebacee784
+    Title: 'openjdk: Enhance Certificate Checking (Oracle CPU 2026-01)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).'
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:0933
+    - https://access.redhat.com/security/cve/CVE-2026-21945
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429924
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429926
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429927
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
+    - https://errata.rockylinux.org/RLSA-2026:0932
+    - https://linux.oracle.com/cve/CVE-2026-21945.html
+    - https://linux.oracle.com/errata/ELSA-2026-0932.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-21945
+    - https://www.cve.org/CVERecord?id=CVE-2026-21945
+    - https://www.oracle.com/security-alerts/cpujan2026.html
+    PublishedDate: '2026-01-20T22:15:57.39Z'
+    LastModifiedDate: '2026-01-30T16:03:26.53Z'
+  - VulnerabilityID: CVE-2026-21925
+    PkgID: openjdk21-jre-headless@21.0.9_p10-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.9_p10-r0?arch=x86_64&distro=3.23.0
+      UID: 9d53c093cc4aa4db
+    InstalledVersion: 21.0.9_p10-r0
+    FixedVersion: 21.0.10_p7-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
+      DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21925
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:9a25afb532cb8d5ab0b44a767cb53443901bdab286f729542e979663e825b3e6
+    Title: 'openjdk: Improve JMX connections (Oracle CPU 2026-01)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: RMI).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:0933
+    - https://access.redhat.com/security/cve/CVE-2026-21925
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429924
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429926
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429927
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
+    - https://errata.rockylinux.org/RLSA-2026:0932
+    - https://linux.oracle.com/cve/CVE-2026-21925.html
+    - https://linux.oracle.com/errata/ELSA-2026-0932.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-21925
+    - https://www.cve.org/CVERecord?id=CVE-2026-21925
+    - https://www.oracle.com/security-alerts/cpujan2026.html
+    PublishedDate: '2026-01-20T22:15:54.917Z'
+    LastModifiedDate: '2026-01-30T16:11:07.073Z'
+  - VulnerabilityID: CVE-2026-21933
+    PkgID: openjdk21-jre-headless@21.0.9_p10-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.9_p10-r0?arch=x86_64&distro=3.23.0
+      UID: 9d53c093cc4aa4db
+    InstalledVersion: 21.0.9_p10-r0
+    FixedVersion: 21.0.10_p7-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
+      DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21933
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:3977be23d93673f0cc0d14cc406e6e64a15ab1c6631b49a333550cb742e6b3bb
+    Title: 'openjdk: Improve HttpServer Request handling (Oracle CPU 2026-01)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:0933
+    - https://access.redhat.com/security/cve/CVE-2026-21933
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429924
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429926
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429927
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
+    - https://errata.rockylinux.org/RLSA-2026:0932
+    - https://linux.oracle.com/cve/CVE-2026-21933.html
+    - https://linux.oracle.com/errata/ELSA-2026-0932.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-21933
+    - https://www.cve.org/CVERecord?id=CVE-2026-21933
+    - https://www.oracle.com/security-alerts/cpujan2026.html
+    PublishedDate: '2026-01-20T22:15:55.917Z'
+    LastModifiedDate: '2026-01-30T16:07:09.417Z'
   - VulnerabilityID: CVE-2025-15467
     PkgID: openssl@3.5.4-r0
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: a1cd04a89fc287e3
+      UID: 28ff8de5747f08e5
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -3982,6 +4853,8 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -3990,24 +4863,40 @@
         V3Score: 9.8
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/27/10
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-15467
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
     - https://github.com/openssl/openssl/commit/6ced0fe6b10faa560e410e3ee8d6c82f06c65ea3
     - https://github.com/openssl/openssl/commit/ce39170276daec87f55c39dad1f629b56344429e
     - https://github.com/openssl/openssl/commit/d0071a0799f20cc8101730145349ed4487c268dc
+    - https://linux.oracle.com/cve/CVE-2025-15467.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15467
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15467
     PublishedDate: '2026-01-27T16:16:14.257Z'
-    LastModifiedDate: '2026-01-27T22:15:51.597Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-69419
     PkgID: openssl@3.5.4-r0
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: a1cd04a89fc287e3
+      UID: 28ff8de5747f08e5
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -4059,6 +4948,8 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -4066,25 +4957,41 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-69419
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
     - https://github.com/openssl/openssl/commit/a26a90d38edec3748566129d824e664b54bee2e2
     - https://github.com/openssl/openssl/commit/cda12de3bc0e333ea8d2c6fd15001dbdaf280015
     - https://github.com/openssl/openssl/commit/ff628933755075446bca8307e8417c14d164b535
+    - https://linux.oracle.com/cve/CVE-2025-69419.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69419
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69419
     PublishedDate: '2026-01-27T16:16:34.113Z'
-    LastModifiedDate: '2026-01-27T16:16:34.113Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-11187
     PkgID: openssl@3.5.4-r0
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: a1cd04a89fc287e3
+      UID: 28ff8de5747f08e5
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -4134,6 +5041,8 @@
     - CWE-476
     - CWE-787
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -4141,22 +5050,38 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:H
         V3Score: 6.1
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-11187
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
     - https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e
+    - https://linux.oracle.com/cve/CVE-2025-11187.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-11187
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-11187
     PublishedDate: '2026-01-27T16:16:14.093Z'
-    LastModifiedDate: '2026-01-27T16:16:14.093Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-15468
     PkgID: openssl@3.5.4-r0
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: a1cd04a89fc287e3
+      UID: 28ff8de5747f08e5
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -4200,6 +5125,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -4207,23 +5134,39 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-15468
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
     - https://github.com/openssl/openssl/commit/b2539639400288a4580fe2d76247541b976bade4
     - https://github.com/openssl/openssl/commit/d75b309879631d45b972396ce4e5102559c64ac7
+    - https://linux.oracle.com/cve/CVE-2025-15468.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15468
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15468
     PublishedDate: '2026-01-27T16:16:14.4Z'
-    LastModifiedDate: '2026-01-27T16:16:14.4Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-15469
     PkgID: openssl@3.5.4-r0
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: a1cd04a89fc287e3
+      UID: 28ff8de5747f08e5
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -4270,6 +5213,8 @@
     CweIDs:
     - CWE-347
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -4277,21 +5222,37 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-15469
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
+    - https://linux.oracle.com/cve/CVE-2025-15469.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15469
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15469
     PublishedDate: '2026-01-27T16:16:14.523Z'
-    LastModifiedDate: '2026-01-27T16:16:14.523Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-66199
     PkgID: openssl@3.5.4-r0
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: a1cd04a89fc287e3
+      UID: 28ff8de5747f08e5
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -4342,6 +5303,8 @@
     CweIDs:
     - CWE-789
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -4349,23 +5312,39 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-66199
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
     - https://github.com/openssl/openssl/commit/895150b5e021d16b52fb32b97e1dd12f20448be5
     - https://github.com/openssl/openssl/commit/966a2478046c311ed7dae50c457d0db4cafbf7e4
+    - https://linux.oracle.com/cve/CVE-2025-66199.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-66199
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-66199
     PublishedDate: '2026-01-27T16:16:15.777Z'
-    LastModifiedDate: '2026-01-27T16:16:15.777Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-68160
     PkgID: openssl@3.5.4-r0
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: a1cd04a89fc287e3
+      UID: 28ff8de5747f08e5
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -4405,6 +5384,8 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -4412,25 +5393,41 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 4.7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-68160
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
     - https://github.com/openssl/openssl/commit/4c96fbba618e1940f038012506ee9e21d32ee12c
     - https://github.com/openssl/openssl/commit/6845c3b6460a98b1ec4e463baa2ea1a63a32d7c0
     - https://github.com/openssl/openssl/commit/68a7cd2e2816c3a02f4d45a2ce43fc04fac97096
+    - https://linux.oracle.com/cve/CVE-2025-68160.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68160
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-68160
     PublishedDate: '2026-01-27T16:16:15.9Z'
-    LastModifiedDate: '2026-01-27T16:16:15.9Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-69418
     PkgID: openssl@3.5.4-r0
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: a1cd04a89fc287e3
+      UID: 28ff8de5747f08e5
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -4449,6 +5446,8 @@
     CweIDs:
     - CWE-325
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -4456,25 +5455,41 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-69418
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
     - https://github.com/openssl/openssl/commit/52d23c86a54adab5ee9f80e48b242b52c4cc2347
     - https://github.com/openssl/openssl/commit/a7589230356d908c0eca4b969ec4f62106f4f5ae
     - https://github.com/openssl/openssl/commit/ed40856d7d4ba6cb42779b6770666a65f19cb977
+    - https://linux.oracle.com/cve/CVE-2025-69418.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69418
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69418
     PublishedDate: '2026-01-27T16:16:33.253Z'
-    LastModifiedDate: '2026-01-27T16:16:33.253Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-69420
     PkgID: openssl@3.5.4-r0
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: a1cd04a89fc287e3
+      UID: 28ff8de5747f08e5
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -4520,6 +5535,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -4527,25 +5544,41 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-69420
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
     - https://github.com/openssl/openssl/commit/564fd9c73787f25693bf9e75faf7bf6bb1305d4e
     - https://github.com/openssl/openssl/commit/5eb0770ffcf11b785cf374ff3c19196245e54f1b
     - https://github.com/openssl/openssl/commit/a99349ebfc519999edc50620abe24d599b9eb085
+    - https://linux.oracle.com/cve/CVE-2025-69420.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69420
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69420
     PublishedDate: '2026-01-27T16:16:34.317Z'
-    LastModifiedDate: '2026-01-27T16:16:34.317Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2025-69421
     PkgID: openssl@3.5.4-r0
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: a1cd04a89fc287e3
+      UID: 28ff8de5747f08e5
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -4584,6 +5617,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -4591,25 +5626,41 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2025-69421
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
     - https://github.com/openssl/openssl/commit/4bbc8d41a72c842ce4077a8a3eccd1109aaf74bd
     - https://github.com/openssl/openssl/commit/643986985cd1c21221f941129d76fe0c2785aeb3
     - https://github.com/openssl/openssl/commit/a2dbc539f0f9cc63832709fa5aa33ad9495eb19c
+    - https://linux.oracle.com/cve/CVE-2025-69421.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69421
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69421
     PublishedDate: '2026-01-27T16:16:34.437Z'
-    LastModifiedDate: '2026-01-27T16:16:34.437Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
   - VulnerabilityID: CVE-2026-22795
     PkgID: openssl@3.5.4-r0
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: a1cd04a89fc287e3
+      UID: 28ff8de5747f08e5
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -4655,6 +5706,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -4662,25 +5715,41 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2026-22795
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
     - https://github.com/openssl/openssl/commit/eeee3cbd4d682095ed431052f00403004596373e
     - https://github.com/openssl/openssl/commit/ef2fb66ec571564d64d1c74a12e388a2a54d05d2
+    - https://linux.oracle.com/cve/CVE-2026-22795.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-22795
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2026-22795
     PublishedDate: '2026-01-27T16:16:35.43Z'
-    LastModifiedDate: '2026-01-27T16:16:35.43Z'
+    LastModifiedDate: '2026-01-29T19:16:19.67Z'
   - VulnerabilityID: CVE-2026-22796
     PkgID: openssl@3.5.4-r0
     PkgName: openssl
     PkgIdentifier:
       PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.23.0
-      UID: a1cd04a89fc287e3
+      UID: 28ff8de5747f08e5
     InstalledVersion: 3.5.4-r0
     FixedVersion: 3.5.5-r0
     Status: fixed
@@ -4725,6 +5794,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      alma: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -4732,19 +5803,35 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:1472
     - https://access.redhat.com/security/cve/CVE-2026-22796
+    - https://bugzilla.redhat.com/2430375
+    - https://bugzilla.redhat.com/2430376
+    - https://bugzilla.redhat.com/2430377
+    - https://bugzilla.redhat.com/2430378
+    - https://bugzilla.redhat.com/2430379
+    - https://bugzilla.redhat.com/2430380
+    - https://bugzilla.redhat.com/2430381
+    - https://bugzilla.redhat.com/2430386
+    - https://bugzilla.redhat.com/2430387
+    - https://bugzilla.redhat.com/2430388
+    - https://bugzilla.redhat.com/2430389
+    - https://bugzilla.redhat.com/2430390
+    - https://errata.almalinux.org/10/ALSA-2026-1472.html
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
     - https://github.com/openssl/openssl/commit/eeee3cbd4d682095ed431052f00403004596373e
     - https://github.com/openssl/openssl/commit/ef2fb66ec571564d64d1c74a12e388a2a54d05d2
+    - https://linux.oracle.com/cve/CVE-2026-22796.html
+    - https://linux.oracle.com/errata/ELSA-2026-50075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-22796
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2026-22796
     PublishedDate: '2026-01-27T16:16:35.543Z'
-    LastModifiedDate: '2026-01-27T17:16:12.553Z'
+    LastModifiedDate: '2026-01-29T16:31:35.7Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -4752,603 +5839,670 @@
   - Name: com.fasterxml.jackson.core:jackson-annotations
     Identifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.20
-      UID: 8c51c23e51c8ef16
+      UID: 58b3f59746021d4b
     Version: '2.20'
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.fasterxml.jackson.core:jackson-core
     Identifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1
-      UID: 9822b3547f110bc6
+      UID: 1996e2d8cd1022b9
     Version: 2.20.1
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.fasterxml.jackson.core:jackson-databind
     Identifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1
-      UID: 4f8c9a471ff43465
+      UID: 6c556f8b9b0117ec
     Version: 2.20.1
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.fasterxml.jackson.dataformat:jackson-dataformat-toml
     Identifier:
       PURL: pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.19.2
-      UID: f187132d4296b98
+      UID: cd502bd403e61f97
     Version: 2.19.2
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.github.bbottema:java-socks-proxy-server
     Identifier:
       PURL: pkg:maven/com.github.bbottema/java-socks-proxy-server@2.2.0
-      UID: 9c78a0a4e8ccc47f
+      UID: 44bca168140e1b53
     Version: 2.2.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/SocksServer/java-socks-proxy-server-2.2.0.jar
+    AnalyzedBy: jar
   - Name: com.github.mwiede:jsch
     Identifier:
       PURL: pkg:maven/com.github.mwiede/jsch@2.27.6
-      UID: 548940b134f0a8d4
+      UID: 7c5f9c834d8395f
     Version: 2.27.6
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.github.vertical-blank:sql-formatter
     Identifier:
       PURL: pkg:maven/com.github.vertical-blank/sql-formatter@2.0.5
-      UID: 4aa6d74fa002054a
+      UID: b476ea318a48e65d
     Version: 2.0.5
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.google.code.gson:gson
     Identifier:
       PURL: pkg:maven/com.google.code.gson/gson@2.13.2
-      UID: a60cbe5d2898b6fd
+      UID: 55058bf256f684f6
     Version: 2.13.2
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.googlecode.juniversalchardet:juniversalchardet
     Identifier:
       PURL: pkg:maven/com.googlecode.juniversalchardet/juniversalchardet@1.0.3
-      UID: 59979d47f792d6c8
+      UID: 5447189855b6db87
     Version: 1.0.3
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.connector-factory
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.connector-factory@0.0.9
-      UID: c33f344564a099d2
+      UID: a99fffa9ec19f7cf
     Version: 0.0.9
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.core
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.core@0.0.9
-      UID: 4be7fe5e595d9eb2
+      UID: afb96fc5c6b4a255
     Version: 0.0.9
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.jsch
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.jsch@0.0.9
-      UID: 2c09ba989715b29
+      UID: 8066e61c44eb14ea
     Version: 0.0.9
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.pageant
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.pageant@0.0.9
-      UID: 8affbecb98c67dc0
+      UID: c0284278b99b17bc
     Version: 0.0.9
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.sshagent
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.sshagent@0.0.9
-      UID: 77f3ddb6f8158192
+      UID: bd9e5fa40773f9dc
     Version: 0.0.9
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.svnkit-trilead-ssh2@0.0.9
-      UID: dfc6f6319fc95cbe
+      UID: 4bc35c3b9b6add62
     Version: 0.0.9
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.usocket-jna
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.usocket-jna@0.0.9
-      UID: 80b49070dfd3f3a7
+      UID: c30290a3390d8666
     Version: 0.0.9
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.usocket-nc
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.usocket-nc@0.0.9
-      UID: 8ce583c9bcf3a507
+      UID: 48390e4cf4a3666a
     Version: 0.0.9
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.sun.activation:javax.activation
     Identifier:
       PURL: pkg:maven/com.sun.activation/javax.activation@1.2.0
-      UID: 885b1754dac6edf
+      UID: 76398eb1d6d13adc
     Version: 1.2.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.sun.mail:javax.mail
     Identifier:
       PURL: pkg:maven/com.sun.mail/javax.mail@1.6.2
-      UID: eb67ca13361cdf7e
+      UID: 1e7beb37baabc57a
     Version: 1.6.2
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.warrenstrange:googleauth
     Identifier:
       PURL: pkg:maven/com.warrenstrange/googleauth@1.5.0
-      UID: abdfc1ca334283c7
+      UID: 99ee628fb0243c8d
     Version: 1.5.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: commons-cli:commons-cli
     Identifier:
       PURL: pkg:maven/commons-cli/commons-cli@1.11.0
-      UID: 7c850f7741b728f1
+      UID: 3475d2ee4b04dbe0
     Version: 1.11.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: commons-codec:commons-codec
     Identifier:
       PURL: pkg:maven/commons-codec/commons-codec@1.20.0
-      UID: 36f72796c80a5f04
+      UID: 7de4c84c0e3f3115
     Version: 1.20.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: commons-io:commons-io
     Identifier:
       PURL: pkg:maven/commons-io/commons-io@2.21.0
-      UID: 4812ba05106027a5
+      UID: 2061cef217097cbb
     Version: 2.21.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: commons-logging:commons-logging
     Identifier:
       PURL: pkg:maven/commons-logging/commons-logging@1.3.5
-      UID: 78410c5141b86fa
+      UID: 8120d86e07931c92
     Version: 1.3.5
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: commons-net:commons-net
     Identifier:
       PURL: pkg:maven/commons-net/commons-net@3.12.0
-      UID: 1dfaef0fb0ac5d0b
+      UID: f30479acbb8d626f
     Version: 3.12.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: de.vandermeer:asciilist-j7
     Identifier:
       PURL: pkg:maven/de.vandermeer/asciilist-j7@1.0.0
-      UID: d4e586b2e07acda4
+      UID: 5d38f221ce7d2a1
     Version: 1.0.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: de.vandermeer:asciitable-j7
     Identifier:
       PURL: pkg:maven/de.vandermeer/asciitable-j7@1.0.1
-      UID: 272a590ba643367f
+      UID: 4ec0aaacbd72cc14
     Version: 1.0.1
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: dnsjava:dnsjava
     Identifier:
       PURL: pkg:maven/dnsjava/dnsjava@3.6.3
-      UID: 4b5e6e63b1733dfa
+      UID: 5943d2f91aeed918
     Version: 3.6.3
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-api
     Identifier:
       PURL: pkg:maven/io.jsonwebtoken/jjwt-api@0.13.0
-      UID: cdc3bc0a8b47e911
+      UID: fe506a80a2899a4a
     Version: 0.13.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-gson
     Identifier:
       PURL: pkg:maven/io.jsonwebtoken/jjwt-gson@0.13.0
-      UID: 9fc30d362e446fcd
+      UID: cc7c47a353e36bec
     Version: 0.13.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-impl
     Identifier:
       PURL: pkg:maven/io.jsonwebtoken/jjwt-impl@0.13.0
-      UID: d42e28c78bfe4cd6
+      UID: fb75cc968ac3dc0d
     Version: 0.13.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: io.sigpipe:jbsdiff
     Identifier:
       PURL: pkg:maven/io.sigpipe/jbsdiff@1.0
-      UID: 3ad9c9a90222e030
+      UID: e618a95843fba36b
     Version: '1.0'
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: jakarta.activation:jakarta.activation-api
     Identifier:
       PURL: pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2
-      UID: 84baa18824622446
+      UID: 5d2ee0e1a121653f
     Version: 1.2.2
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: javax.xml.bind:jaxb-api
     Identifier:
       PURL: pkg:maven/javax.xml.bind/jaxb-api@2.3.1
-      UID: 68f09018f4453b95
+      UID: d465243f613cf5b8
     Version: 2.3.1
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: jline:jline
     Identifier:
       PURL: pkg:maven/jline/jline@2.14.6
-      UID: 6930774a112e73bc
+      UID: 509c1c4b5bcd42a1
     Version: 2.14.6
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.apache.commons:commons-collections4
     Identifier:
       PURL: pkg:maven/org.apache.commons/commons-collections4@4.5.0
-      UID: b6f26728bc972346
+      UID: 72513cdccf1d063
     Version: 4.5.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.apache.commons:commons-compress
     Identifier:
       PURL: pkg:maven/org.apache.commons/commons-compress@1.28.0
-      UID: 645d61b3c78fd14e
+      UID: a82eeb62843349ae
     Version: 1.28.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.apache.commons:commons-csv
     Identifier:
       PURL: pkg:maven/org.apache.commons/commons-csv@1.14.1
-      UID: fd28379ee7ee9be4
+      UID: 250a69832ed56f8d
     Version: 1.14.1
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.apache.commons:commons-email
     Identifier:
       PURL: pkg:maven/org.apache.commons/commons-email@1.6.0
-      UID: 1cdb7e2822178209
+      UID: 973048c510561123
     Version: 1.6.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.apache.commons:commons-lang3
     Identifier:
       PURL: pkg:maven/org.apache.commons/commons-lang3@3.19.0
-      UID: 8f2e36b07fbcb1a2
+      UID: f267aeee188ae905
     Version: 3.19.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.apache.commons:commons-math3
     Identifier:
       PURL: pkg:maven/org.apache.commons/commons-math3@3.6.1
-      UID: 3992f1c5b6195e89
+      UID: ce9b8a6c7e85850
     Version: 3.6.1
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty.compression:jetty-compression-common
     Identifier:
       PURL: pkg:maven/org.eclipse.jetty.compression/jetty-compression-common@12.1.4
-      UID: 98eb0f6a7b94cba2
+      UID: f37e5e834b4a703f
     Version: 12.1.4
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-core-client
     Identifier:
       PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-client@12.1.4
-      UID: 4ac6a67496064613
+      UID: 580e7ee2f5e0631d
     Version: 12.1.4
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-core-common
     Identifier:
       PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-common@12.1.4
-      UID: 92013e32518bb532
+      UID: e7b817f228319546
     Version: 12.1.4
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-api
     Identifier:
       PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-api@12.1.4
-      UID: 2fc6842321567d59
+      UID: 884cadec5b8bc19f
     Version: 12.1.4
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-client
     Identifier:
       PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-client@12.1.4
-      UID: c4d26c0eeba38988
+      UID: 35d5b28501b6a385
     Version: 12.1.4
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-common
     Identifier:
       PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-common@12.1.4
-      UID: d85d2145de6f9fa2
+      UID: 82dbeb6fdddb95cf
     Version: 12.1.4
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-client
     Identifier:
       PURL: pkg:maven/org.eclipse.jetty/jetty-client@12.1.3
-      UID: 6f2abd14ed552ef5
+      UID: 7786ea18dd55a07c
     Version: 12.1.3
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-http
     Identifier:
       PURL: pkg:maven/org.eclipse.jetty/jetty-http@12.1.4
-      UID: 2714f45b932050d8
+      UID: ca9ccff3501f06b9
     Version: 12.1.4
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-io
     Identifier:
       PURL: pkg:maven/org.eclipse.jetty/jetty-io@12.1.3
-      UID: 8c55ebadbdadfe4d
+      UID: f8351b3bbf480fcd
     Version: 12.1.3
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-util
     Identifier:
       PURL: pkg:maven/org.eclipse.jetty/jetty-util@12.1.3
-      UID: ee265d85b77e019e
+      UID: 9c4d92131b8724cc
     Version: 12.1.3
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.hawtjni:hawtjni-runtime
     Identifier:
       PURL: pkg:maven/org.fusesource.hawtjni/hawtjni-runtime@1.17
-      UID: 368c86360d5d2d6e
+      UID: cf88955c9d0ae18b
     Version: '1.17'
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi@1.18
-      UID: 28003612621d63f7
+      UID: 8ad8d3ab8ae11065
     Version: '1.18'
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-freebsd32
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-freebsd32@1.8
-      UID: 75689643540ac0cc
+      UID: 87b73bc3f694180c
     Version: '1.8'
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-freebsd64
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-freebsd64@1.8
-      UID: cdf9cdca8706e16f
+      UID: 68d99c3788225531
     Version: '1.8'
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-linux32
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-linux32@1.8
-      UID: 3d49c0eb4793e1f4
+      UID: b748a87749ace306
     Version: '1.8'
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-linux64
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-linux64@1.8
-      UID: 8b11f3d47b9658b2
+      UID: 26eee13eafbc9417
     Version: '1.8'
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-native
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-native@1.8
-      UID: c89c538fba388aa2
+      UID: 6fdce73a584d6707
     Version: '1.8'
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-osx
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-osx@1.8
-      UID: b0bc0de50b8059ad
+      UID: 907023130116e83c
     Version: '1.8'
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-windows32
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-windows32@1.8
-      UID: 7c1a51c801be878e
+      UID: ab926f311d1d4210
     Version: '1.8'
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-windows64
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-windows64@1.8
-      UID: 6c10b179e44aabcb
+      UID: edf1cd987a2068b8
     Version: '1.8'
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.projectlombok:lombok
     Identifier:
       PURL: pkg:maven/org.projectlombok/lombok@1.18.42
-      UID: d4570b9d21ff426d
+      UID: 2d55df6eda708744
     Version: 1.18.42
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/SocksServer/lombok-1.18.42.jar
+    AnalyzedBy: jar
   - Name: org.semver4j:semver4j
     Identifier:
       PURL: pkg:maven/org.semver4j/semver4j@6.0.0
-      UID: b4987f502c5eba1f
+      UID: 452bf269462d8b69
     Version: 6.0.0
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.slf4j:slf4j-api
     Identifier:
       PURL: pkg:maven/org.slf4j/slf4j-api@2.0.17
-      UID: 669ca5d81bb821ff
+      UID: e6e431b8b5e0302a
     Version: 2.0.17
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.slf4j:slf4j-nop
     Identifier:
       PURL: pkg:maven/org.slf4j/slf4j-nop@2.0.17
-      UID: 5e42b1280e39632b
+      UID: 67713c09148cf9b
     Version: 2.0.17
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.snmp4j:snmp4j
     Identifier:
       PURL: pkg:maven/org.snmp4j/snmp4j@3.9.6
-      UID: 9cf3d6b9898ef004
+      UID: fc06219dfaa6f987
     Version: 3.9.6
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.snmp4j:snmp4j-agent
     Identifier:
       PURL: pkg:maven/org.snmp4j/snmp4j-agent@3.8.2
-      UID: 9ed630f1f75d1f9b
+      UID: 8910657e688649b8
     Version: 3.8.2
     Layer:
       Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fba941949859ce82d485c7
       DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d4af8b32534c2a5b1a88a
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
