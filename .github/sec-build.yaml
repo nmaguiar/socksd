@@ -18,8 +18,8 @@
     - alpine-baselayout-data@3.7.1-r8
     - busybox-binsh@1.37.0-r29
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:9a137c3c8e738bcabac13326c9fc5472fa58aaf4
     InstalledFiles:
     - etc/motd
@@ -49,8 +49,8 @@
     - GPL-2.0-only
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:9a60b0edb4559ab279cf004b7e685cfd78dd0c15
     InstalledFiles:
     - etc/fstab
@@ -82,8 +82,8 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:5c45a821cd6b84d543bbd7ff12a7de1855c5cd13
     InstalledFiles:
     - etc/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub
@@ -143,8 +143,8 @@
     DependsOn:
     - alpine-keys@2.6-r0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:d85ddacf795775c3637989a1a5e3332e1add193a
     InstalledFiles:
     - etc/alpine-release
@@ -168,8 +168,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:dfb787005e07d66c2db231863d54ab01c2cfb350
     InstalledFiles:
     - usr/bin/aserver
@@ -275,8 +275,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:e4a5f9f4d9383b7a3b744f626228ebd3db0bcf94
     InstalledFiles:
     - sbin/apk
@@ -296,8 +296,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:0814694602f35d2741e916fdcb4c9a1e0ec50b42
     InstalledFiles:
     - usr/lib/libbrotlicommon.so.1
@@ -322,8 +322,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:0541a8e4f11caa1b595f3d53857726d81bf3d754
     InstalledFiles:
     - bin/busybox
@@ -349,8 +349,8 @@
     DependsOn:
     - busybox@1.37.0-r29
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:0430c7a2208bee624182f50cb4dee02943103230
     InstalledFiles:
     - bin/sh
@@ -370,8 +370,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:dc29a655702c8c8ce80f0142cbfeac546a9ae2b8
     InstalledFiles:
     - usr/lib/libcares.so.2
@@ -395,8 +395,8 @@
     - libcrypto3@3.5.4-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:3b10fd335b2af819c4fd3562900e76fd6ea304c5
     InstalledFiles:
     - etc/ca-certificates.conf
@@ -567,8 +567,8 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:63ebe72ba79f548b6cdc8a9894e16a90d80f42b0
     InstalledFiles:
     - etc/ssl/cert.pem
@@ -593,8 +593,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:c467d4938a8ffc55afe3b1a6223787e0ecd60036
     InstalledFiles:
     - usr/bin/curl
@@ -620,8 +620,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:e227f29a00edd7ed5b1e62a050da6532183e60be
     InstalledFiles:
     - usr/lib/libfreetype.so.6
@@ -642,8 +642,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:18c5a46dd282cbd6aba1f8246985d992a160e9b5
     InstalledFiles:
     - usr/lib/libgif.so.7
@@ -667,8 +667,8 @@
     - p11-kit-trust@0.25.5-r2
     - p11-kit@0.25.5-r2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:dd6d704f5e91ed26d9c026eac28bcd716f49a753
     InstalledFiles:
     - etc/ca-certificates/update.d/java-cacerts
@@ -688,8 +688,8 @@
     DependsOn:
     - busybox-binsh@1.37.0-r29
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:52205baa8687d26c879a55110a0a258d4dbfe8a6
     InstalledFiles:
     - usr/bin/java
@@ -709,8 +709,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:4b9df8b110088ab37a048d0be4bae4d06ce0747f
     InstalledFiles:
     - usr/lib/liblcms2.so.2
@@ -734,8 +734,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:6146a4ecfe76efa5fa8cce5aedee1a1c475dc8f2
     InstalledFiles:
     - usr/lib/libapk.so.3.0.0
@@ -756,8 +756,8 @@
     - libmd@1.1.0-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:33970b157edad359d05a2c3e6f3460e725549c8b
     InstalledFiles:
     - usr/lib/libbsd.so.0
@@ -778,8 +778,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:864d363da11ee24c7920e0d052d2da7f8429251e
     InstalledFiles:
     - usr/lib/libbz2.so.1
@@ -800,8 +800,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:adcd00253f51f9cd8f76189d94a5953da688365b
     InstalledFiles:
     - etc/ssl/ct_log_list.cnf
@@ -841,8 +841,8 @@
     - zlib@1.3.1-r2
     - zstd-libs@1.5.7-r2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:4018e686de80aa87659e95c1e62a3539c1d2542f
     InstalledFiles:
     - usr/lib/libcurl.so.4
@@ -863,8 +863,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:fa51bf028f40768bfe1c7ef494b1fe3f8590c19f
     InstalledFiles:
     - usr/lib/libffi.so.8
@@ -887,8 +887,8 @@
     - libunistring@1.4.1-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:b8c5bfa365da5c360a01230db4d71e65af94af3d
     InstalledFiles:
     - usr/lib/libidn2.so.0
@@ -911,8 +911,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:aa025fb7ecf9bd65ef2afe47e3740639521e09ce
     InstalledFiles:
     - usr/lib/libjpeg.so.8
@@ -938,8 +938,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:ce7c57bd1f6628da8ba0d3f2ac18f6d8c93c0346
     InstalledFiles:
     - usr/lib/libmd.so.0
@@ -961,8 +961,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:bf233e45a996ce2ff4da18ec31de3b911fcfe087
     InstalledFiles:
     - usr/lib/libpng16.so.16
@@ -985,8 +985,8 @@
     - libunistring@1.4.1-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:b663c00f920a93be49c825555aa1a212e4287393
     InstalledFiles:
     - usr/lib/libpsl.so.5
@@ -1008,8 +1008,8 @@
     - libcrypto3@3.5.4-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:e328b24da910b652aadc87242828d43db30bad67
     InstalledFiles:
     - usr/lib/libssl.so.3
@@ -1029,8 +1029,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:9136bfc0b214e8914f439b72250339a38feaf2c2
     InstalledFiles:
     - usr/lib/libtasn1.so.6
@@ -1052,8 +1052,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:6e56562bde456bee5971787d3d95c34e84ced797
     InstalledFiles:
     - usr/lib/libunistring.so.5
@@ -1075,8 +1075,8 @@
     - libxcb@1.17.0-r1
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:689b36ec47d6c9abb9cbd0c7067ba4636568dbd5
     InstalledFiles:
     - usr/lib/libX11-xcb.so.1
@@ -1290,8 +1290,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:89d2bc9daae3cb0e2ae095db6866357b7653f341
     InstalledFiles:
     - usr/lib/libXau.so.6
@@ -1314,8 +1314,8 @@
     - libxdmcp@1.1.5-r1
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:61b06f883e8f8d2d8ee360e4dac04ac037fcca13
     InstalledFiles:
     - usr/lib/libxcb-composite.so.0
@@ -1385,8 +1385,8 @@
     - libbsd@0.12.2-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:99a24c0fa12282b5ef89a6e732a8d494b7696d9d
     InstalledFiles:
     - usr/lib/libXdmcp.so.6
@@ -1408,8 +1408,8 @@
     - libx11@1.8.12-r1
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:92fb4f12c2170403d6a48c7485ecaee40c84bee2
     InstalledFiles:
     - usr/lib/libXext.so.6
@@ -1433,8 +1433,8 @@
     - libxext@1.3.6-r2
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:78ea3cdf1dfa3c07aa965866bb9e64be2254fc5e
     InstalledFiles:
     - usr/lib/libXi.so.6
@@ -1456,8 +1456,8 @@
     - libx11@1.8.12-r1
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:16accdec4598ad42a3201234aab60e44d607f1b0
     InstalledFiles:
     - usr/lib/libXrender.so.1
@@ -1480,8 +1480,8 @@
     - libxext@1.3.6-r2
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:6c021814b3a61c34ad3d6c83b916c68159e8316f
     InstalledFiles:
     - usr/lib/libXtst.so.6
@@ -1500,8 +1500,8 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:d05a75ec13e1a7a8bab56ce7cd3dc79bd727e698
     InstalledFiles:
     - lib/ld-musl-x86_64.so.1
@@ -1525,8 +1525,8 @@
     - musl@1.2.5-r21
     - scanelf@1.3.8-r2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:daa79528d2cf877f6d656207a818d43c8dea9a30
     InstalledFiles:
     - sbin/ldconfig
@@ -1550,8 +1550,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:584b6a1b0aed58a3f543bfd77729b0d8a8b1745b
     InstalledFiles:
     - usr/lib/libnghttp2.so.14
@@ -1572,8 +1572,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:e48fcb3e81f7e46a42e3926d8513c83b7798774b
     InstalledFiles:
     - usr/lib/libnghttp3.so.9
@@ -1606,8 +1606,8 @@
     - musl@1.2.5-r21
     - openjdk21-jre-headless@21.0.9_p10-r0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:328af842b01e787bfeb37bd8c345d6d08f0feddb
     InstalledFiles:
     - usr/lib/jvm/java-21-openjdk/lib/libawt_xawt.so
@@ -1636,8 +1636,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:cc17d54ecb7c46da305d1f71ba727969a65a9419
     InstalledFiles:
     - usr/lib/jvm/java-21-openjdk/ASSEMBLY_EXCEPTION
@@ -1970,8 +1970,8 @@
     - libssl3@3.5.4-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:c2a94fa9b033f8a1066e3545cbe6b4e86e54e9b8
     InstalledFiles:
     - usr/bin/openssl
@@ -1993,8 +1993,8 @@
     - libtasn1@4.20.0-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:b03c9c498fc8b875d694659827c39e791b0dce51
     InstalledFiles:
     - etc/pkcs11/pkcs11.conf.example
@@ -2021,8 +2021,8 @@
     - musl@1.2.5-r21
     - p11-kit@0.25.5-r2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:566b28378ea154f29cc0c26050403949573a7cd1
     InstalledFiles:
     - usr/bin/trust
@@ -2044,8 +2044,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:6ea36dd44ef9f6364f0cdfabe09ea15d2fdbe229
     InstalledFiles:
     - usr/bin/scanelf
@@ -2067,8 +2067,8 @@
     - libssl3@3.5.4-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:c4cef5aa030704c1f7a32bbb31574326869c51dc
     InstalledFiles:
     - usr/bin/ssl_client
@@ -2090,8 +2090,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:130531eafa71df74c196ee9c1fbdaedc1b92a1cd
     InstalledFiles:
     - etc/sudo.conf
@@ -2130,8 +2130,8 @@
     - busybox-binsh@1.37.0-r29
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:a491b36b05d6af4a92dfd9810785b5def1a0ddac
     InstalledFiles:
     - etc/tinyproxy/tinyproxy.conf
@@ -2155,8 +2155,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:3e8e8e76dfefb4efd27658ada6d792e66ba2775e
     InstalledFiles:
     - usr/lib/libz.so.1
@@ -2178,8 +2178,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     Digest: sha1:d507b8ac3c4335a40405ac20e49bac9d43642be6
     InstalledFiles:
     - usr/lib/libzstd.so.1
@@ -2196,14 +2196,14 @@
     FixedVersion: 1.34.6-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-62408
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:605219ef356f99f98b97e6325921fb36bf6c9d5982bffafa1ccc00930a4e7f9d
+    Fingerprint: sha256:d4a6e8e99a6ff3fb4ea19dc6933f6df8e77162ab4682510e9b4b4673ffd97c20
     Title: 'c-ares: c-ares: Denial of Service due to query termination after maximum attempts'
     Description: c-ares is an asynchronous resolver library. Versions 1.32.3 through 1.34.5  terminate a query after maximum attempts when using read_answer() and process_answer(), which can cause a Denial of Service. This issue is fixed in version 1.34.6.
     Severity: MEDIUM
@@ -2237,14 +2237,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15467
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:d30194af4b753065a9d8576b562904714a15d3b827bbfd12a01dd59576b7fc3b
+    Fingerprint: sha256:963b8c3dc346d97e128b8248a36a2b1c212b93cc3cd1089d23fdfed3b0a1869e
     Title: 'openssl: OpenSSL: Remote code execution or Denial of Service via oversized Initialization Vector in CMS parsing'
     Description: |-
       Issue summary: Parsing CMS AuthEnvelopedData message with maliciously
@@ -2352,14 +2352,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69419
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:8321d72a3433e6c053b2313b462f0aefe25a165f12e39e0288a22b40d582e39f
+    Fingerprint: sha256:afbc1050869f8811d5f4a211331731d56d1eedaa912f4d324df95770b558e87e
     Title: 'openssl: OpenSSL: Arbitrary code execution due to out-of-bounds write in PKCS#12 processing'
     Description: |-
       Issue summary: Calling PKCS12_get_friendlyname() function on a maliciously
@@ -2473,14 +2473,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-11187
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:ebf1018879976ff74b2e36fa848239a38e84114bca2541353b3acb08b52c46a9
+    Fingerprint: sha256:e43b6baf14fe8f933dc87689fcf184648509f2b5586cd8c817683a5572e5a719
     Title: 'openssl: OpenSSL: Arbitrary code execution or denial of service through crafted PKCS#12 file'
     Description: |-
       Issue summary: PBMAC1 parameters in PKCS#12 files are missing validation
@@ -2589,14 +2589,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15468
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:85da558133f45fe9f182a81e11c30d2292c88a0ee34d26a31f6b477abe33806f
+    Fingerprint: sha256:7120d044cbd808cef6b0102f6bd8c001971253291d0ab38b4a7bf1af2c02e9de
     Title: 'openssl: OpenSSL: Denial of Service via NULL pointer dereference in QUIC protocol handling'
     Description: |-
       Issue summary: If an application using the SSL_CIPHER_find() function in
@@ -2700,14 +2700,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15469
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:100759ec993c031b6cb0095801126e1e9d17943e3893cdb3c51c412830225cd4
+    Fingerprint: sha256:745706352559960aee93865b781d66417811f5ff95c34b82f84e9b104bbb5362
     Title: 'openssl: OpenSSL: Data integrity bypass in `openssl dgst` command due to silent truncation'
     Description: |-
       Issue summary: The 'openssl dgst' command-line tool silently truncates input
@@ -2812,14 +2812,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66199
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:dbdd3e481d553e601bcf9fa79d36b2f6e934737b1d66c5c5bb7b3db3c1eb9cc9
+    Fingerprint: sha256:f9727f9fb803aa631bca0ea6d14c51ee1f37bbd5d910a13fe1978134e2a27ec1
     Title: 'openssl: OpenSSL: Denial of Service due to excessive memory allocation in TLS 1.3 certificate compression'
     Description: |-
       Issue summary: A TLS 1.3 connection using certificate compression can be
@@ -2930,14 +2930,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68160
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:1de00c6f8e9f09276b7f5d4da07927356b5ba1ace9af5c8456e15deacf3205c9
+    Fingerprint: sha256:869b1a73155c3e7421cef0495e068f3cb4bf4cc0fe986856303d4e85e69c1f31
     Title: 'openssl: OpenSSL: Denial of Service due to out-of-bounds write in BIO filter'
     Description: |-
       Issue summary: Writing large, newline-free data into a BIO chain using the
@@ -3039,14 +3039,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69418
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:329a62a95ba2c37c57e7f310cd32d833eaeec086904bcfe1fc2646cf0f037dd2
+    Fingerprint: sha256:a325926afbd3cddbebe385748288c841ba68d6e7c4b60af1ed276291c2246e77
     Title: 'openssl: OpenSSL: Information disclosure and data tampering via specific low-level OCB encryption/decryption calls'
     Description: 'Issue summary: When using the low-level OCB API directly with AES-NI or<br>other hardware-accelerated code paths, inputs whose length is not a multiple<br>of 16 bytes can leave the final partial block unencrypted and unauthenticated.<br><br>Impact summary: The trailing 1-15 bytes of a message may be exposed in<br>cleartext on encryption and are not covered by the authentication tag,<br>allowing an attacker to read or tamper with those bytes without detection.<br><br>The low-level OCB encrypt and decrypt routines in the hardware-accelerated<br>stream path process full 16-byte blocks but do not advance the input/output<br>pointers. The subsequent tail-handling code then operates on the original<br>base pointers, effectively reprocessing the beginning of the buffer while<br>leaving the actual trailing bytes unprocessed. The authentication checksum<br>also excludes the true tail bytes.<br><br>However, typical OpenSSL consumers using EVP are not affected because the<br>higher-level EVP and provider OCB implementations split inputs so that full<br>blocks and trailing partial blocks are processed in separate calls, avoiding<br>the problematic code path. Additionally, TLS does not use OCB ciphersuites.<br>The vulnerability only affects applications that call the low-level<br>CRYPTO_ocb128_encrypt() or CRYPTO_ocb128_decrypt() functions directly with<br>non-block-aligned lengths in a single call on hardware-accelerated builds.<br>For these reasons the issue was assessed as Low severity.<br><br>The FIPS modules in 3.6, 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected<br>by this issue, as OCB mode is not a FIPS-approved algorithm.<br><br>OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.<br><br>OpenSSL 1.0.2 is not affected by this issue.'
     Severity: MEDIUM
@@ -3127,14 +3127,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69420
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:e6cd477bd1c19721e5da95b7424694d55770f530f6369d691601ba35caf9ea3a
+    Fingerprint: sha256:518139103962306a35a4a64986a008c9bacc31f9394abf7f1785e65c32609959
     Title: 'openssl: OpenSSL: Denial of Service via malformed TimeStamp Response'
     Description: |-
       Issue summary: A type confusion vulnerability exists in the TimeStamp Response
@@ -3242,14 +3242,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69421
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f54df407a1c218c13f089f2cda7365832f9974243d2e99c61998c6a8cb49978c
+    Fingerprint: sha256:a8ac9dba65c8b17834764f86db7cf6ebfeb28950aab57c814aed10c6651201e0
     Title: 'openssl: OpenSSL: Denial of Service via malformed PKCS#12 file processing'
     Description: |-
       Issue summary: Processing a malformed PKCS#12 file can trigger a NULL pointer
@@ -3350,14 +3350,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22795
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:330ad12c03c499803e28b90ed9134b727b12c6c1be6bc04681a522d7df8d3772
+    Fingerprint: sha256:5e0c9aa6ca2a83b215b2638a3a23d9b7e7fe0a83d1009e299ea9b9f325109079
     Title: 'openssl: OpenSSL: Denial of Service due to type confusion in PKCS#12 file processing'
     Description: |-
       Issue summary: An invalid or NULL pointer dereference can happen in
@@ -3465,14 +3465,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22796
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:4164452e865447ba76ac6e78f051a0e18951422c8d04754e644706efab3c6dc4
+    Fingerprint: sha256:f0677692243ee26eb4a5f9f918d606f17dad91774225a83fe9cbc0f3c5c9d7bc
     Title: 'openssl: OpenSSL: Denial of Service via type confusion in PKCS#7 signature verification'
     Description: |-
       Issue summary: A type confusion vulnerability exists in the signature
@@ -3579,15 +3579,15 @@
     FixedVersion: 1.6.54-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22695
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:51c7d91a72145818311c561c9806d8d6f71faa46d78476dca4de74d24b2ad93e
+    Fingerprint: sha256:09b67ff1ad51e341c4f45d744f3a394806543b5a4e3f264a3c1f13db54b5c7f9
     Title: 'libpng: libpng: Denial of service and information disclosure via heap buffer over-read in png_image_finish_read'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.51 to 1.6.53, there is a heap buffer over-read in the libpng simplified API function png_image_finish_read when processing interlaced 16-bit PNGs with 8-bit output format and non-minimal row stride. This is a regression introduced by the fix for CVE-2025-65018. This vulnerability is fixed in 1.6.54.
     Severity: HIGH
@@ -3626,15 +3626,15 @@
     FixedVersion: 1.6.54-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22801
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:b121faf8fa9880e014044a2e144dcd4d131561991838fc7726a9336261716389
+    Fingerprint: sha256:5349e3e9312cdcd5e80f1bdb148c6083930923b7f6a81aea3a9e91c616437c61
     Title: 'libpng: libpng: Information disclosure and denial of service via integer truncation in simplified write API'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.26 to 1.6.53, there is an integer truncation in the libpng simplified write API functions png_write_image_16bit and png_write_image_8bit causes heap buffer over-read when the caller provides a negative row stride (for bottom-up image layouts) or a stride exceeding 65535 bytes. The bug was introduced in libpng 1.6.26 (October 2016) by casts added to silence compiler warnings on 16-bit systems. This vulnerability is fixed in 1.6.54.
     Severity: HIGH
@@ -3671,14 +3671,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15467
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:bead09c9c487eb3a512e2f793f1c897a569a1a79c49637c7b169f14006865c4a
+    Fingerprint: sha256:07c1c1793dcd0b0b68ce435dcaf6d29739337afc05035a92944caa965c686878
     Title: 'openssl: OpenSSL: Remote code execution or Denial of Service via oversized Initialization Vector in CMS parsing'
     Description: |-
       Issue summary: Parsing CMS AuthEnvelopedData message with maliciously
@@ -3786,14 +3786,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69419
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0281575ce2c0fff675bf6f4c9e14698b049242903df42ee02f380b61d9bfc2d0
+    Fingerprint: sha256:b27dd9eba17c19c4dfbb2c8bd4537cf8389bab89a480913d231cd191e7054814
     Title: 'openssl: OpenSSL: Arbitrary code execution due to out-of-bounds write in PKCS#12 processing'
     Description: |-
       Issue summary: Calling PKCS12_get_friendlyname() function on a maliciously
@@ -3907,14 +3907,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-11187
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:2473a98b679a8186dbe5dfec736b947648887e83d9f0f56b11d594b023dc159e
+    Fingerprint: sha256:0de5c11cccb09f1cd2e0337d9ac10ec68c951672f9e50edd27cdf7eed8112290
     Title: 'openssl: OpenSSL: Arbitrary code execution or denial of service through crafted PKCS#12 file'
     Description: |-
       Issue summary: PBMAC1 parameters in PKCS#12 files are missing validation
@@ -4023,14 +4023,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15468
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:91f3815c9ed1c3975e066092816aaa49476a1117e9dac5366922934a1e7e28cb
+    Fingerprint: sha256:b5c532373cef3f41491c1a390d8057a08d16f586cc6bd68821d1a063afaaf880
     Title: 'openssl: OpenSSL: Denial of Service via NULL pointer dereference in QUIC protocol handling'
     Description: |-
       Issue summary: If an application using the SSL_CIPHER_find() function in
@@ -4134,14 +4134,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15469
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:10443932558033e181e65be5d69b74bb41f4ab8dcf0fc9375f68d2a248ac429e
+    Fingerprint: sha256:a20f4a2e31dd895460eb3e4431412519fdcd05f27f53e1994b30584c2d2f570a
     Title: 'openssl: OpenSSL: Data integrity bypass in `openssl dgst` command due to silent truncation'
     Description: |-
       Issue summary: The 'openssl dgst' command-line tool silently truncates input
@@ -4246,14 +4246,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66199
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:5a6b43f8921d69673dd8fb23f203c514a6f24592a6970a7bd210bcaeaef42844
+    Fingerprint: sha256:3d600a903f437f86dd70806ad641db20960174293e2fa645c4c5c179c3f1f683
     Title: 'openssl: OpenSSL: Denial of Service due to excessive memory allocation in TLS 1.3 certificate compression'
     Description: |-
       Issue summary: A TLS 1.3 connection using certificate compression can be
@@ -4364,14 +4364,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68160
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:ccbeb8c06cffaccd9e4afd31afa3632d95221b31484697e3ef06c6818cd189af
+    Fingerprint: sha256:2f45e2daf0cbb08f046b79158309cccc2bd29e2f6b25e7bf684b849d3048f211
     Title: 'openssl: OpenSSL: Denial of Service due to out-of-bounds write in BIO filter'
     Description: |-
       Issue summary: Writing large, newline-free data into a BIO chain using the
@@ -4473,14 +4473,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69418
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:b6d482b60daf912085b6ee21ee904de3ef0a4b5ed8ce6e1ecea8daaa2ffe5d66
+    Fingerprint: sha256:772676cab2822ba593f2172b1105325a566538cb5651bc5304becc8991588a81
     Title: 'openssl: OpenSSL: Information disclosure and data tampering via specific low-level OCB encryption/decryption calls'
     Description: 'Issue summary: When using the low-level OCB API directly with AES-NI or<br>other hardware-accelerated code paths, inputs whose length is not a multiple<br>of 16 bytes can leave the final partial block unencrypted and unauthenticated.<br><br>Impact summary: The trailing 1-15 bytes of a message may be exposed in<br>cleartext on encryption and are not covered by the authentication tag,<br>allowing an attacker to read or tamper with those bytes without detection.<br><br>The low-level OCB encrypt and decrypt routines in the hardware-accelerated<br>stream path process full 16-byte blocks but do not advance the input/output<br>pointers. The subsequent tail-handling code then operates on the original<br>base pointers, effectively reprocessing the beginning of the buffer while<br>leaving the actual trailing bytes unprocessed. The authentication checksum<br>also excludes the true tail bytes.<br><br>However, typical OpenSSL consumers using EVP are not affected because the<br>higher-level EVP and provider OCB implementations split inputs so that full<br>blocks and trailing partial blocks are processed in separate calls, avoiding<br>the problematic code path. Additionally, TLS does not use OCB ciphersuites.<br>The vulnerability only affects applications that call the low-level<br>CRYPTO_ocb128_encrypt() or CRYPTO_ocb128_decrypt() functions directly with<br>non-block-aligned lengths in a single call on hardware-accelerated builds.<br>For these reasons the issue was assessed as Low severity.<br><br>The FIPS modules in 3.6, 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected<br>by this issue, as OCB mode is not a FIPS-approved algorithm.<br><br>OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.<br><br>OpenSSL 1.0.2 is not affected by this issue.'
     Severity: MEDIUM
@@ -4561,14 +4561,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69420
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:912c64f423e5b11b79efd08625d6d425f0f7ca8e76381a49273737871fc7f5a0
+    Fingerprint: sha256:00cebcfa657e4dd78618549d9f5a9b7d6ac1db84aaf1425050b29ae9f03ddaf7
     Title: 'openssl: OpenSSL: Denial of Service via malformed TimeStamp Response'
     Description: |-
       Issue summary: A type confusion vulnerability exists in the TimeStamp Response
@@ -4676,14 +4676,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69421
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:043d19ab90ae9dd54218c78407eb00e4ca34e32bfeecf69dcc36564b93f0b7a3
+    Fingerprint: sha256:ae29928b60670d2fbda5478fcf2cb47aa4c5c00602a223ce3ee73bd33c8a63a7
     Title: 'openssl: OpenSSL: Denial of Service via malformed PKCS#12 file processing'
     Description: |-
       Issue summary: Processing a malformed PKCS#12 file can trigger a NULL pointer
@@ -4784,14 +4784,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22795
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:4ff645c1d45a8c021d115c13f91ce884bd3fca33bfc0e4964c157b41fe5c89a3
+    Fingerprint: sha256:e6d2376371b9b4d690c72ce25a9be89c1af71d8e87d325d83e5f9eb61ae651ca
     Title: 'openssl: OpenSSL: Denial of Service due to type confusion in PKCS#12 file processing'
     Description: |-
       Issue summary: An invalid or NULL pointer dereference can happen in
@@ -4899,14 +4899,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22796
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:51ef9d19ddc671791ead0d04f0f4ac71005bd998f8216680e7ee9723453e970e
+    Fingerprint: sha256:7f141a4105603505d84f38e803662145070a9e410cbd1feefaa35865634626b0
     Title: 'openssl: OpenSSL: Denial of Service via type confusion in PKCS#7 signature verification'
     Description: |-
       Issue summary: A type confusion vulnerability exists in the signature
@@ -5013,14 +5013,14 @@
     FixedVersion: 4.21.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13151
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:1fd1bd6f83067327f5d81b0ca6989a040a41f6b9a4061a0f057913f9d3b8ffff
+    Fingerprint: sha256:2acca9e5c9149203a92dac529f6bd38c9266eb4f9538a6b82c98af1d4bf33a35
     Title: 'libtasn1: libtasn1: Denial of Service via stack-based buffer overflow in asn1_expend_octet_string'
     Description: 'Stack-based buffer overflow in libtasn1 version: v4.20.0. The function fails to validate the size of input data resulting in a buffer overflow in asn1_expend_octet_string.'
     Severity: MEDIUM
@@ -5052,14 +5052,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21932
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f8553afc6553a77c6291761e11fef980aecd07fec04a833b3f8b4c36336cd8cb
+    Fingerprint: sha256:35047ad81fcff3fdfd52a1373df3a983e0224a97c7dfa6b88992a9677adabd79
     Title: 'openjdk: Enhance Handling of URIs (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: AWT, JavaFX).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N).'
     Severity: HIGH
@@ -5086,14 +5086,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21945
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:20b638872041e57a600e1fe85db6ef1d3712bada2e6e929ba3267637a8179532
+    Fingerprint: sha256:976dd461288dc21e33f061649852761a9b2706dcd2458569fe18f5bd757190ad
     Title: 'openjdk: Enhance Certificate Checking (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).'
     Severity: HIGH
@@ -5109,7 +5109,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0932
+    - https://access.redhat.com/errata/RHSA-2026:0933
     - https://access.redhat.com/security/cve/CVE-2026-21945
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
@@ -5121,7 +5121,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
-    - https://errata.almalinux.org/8/ALSA-2026-0932.html
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
     - https://errata.rockylinux.org/RLSA-2026:0932
     - https://linux.oracle.com/cve/CVE-2026-21945.html
     - https://linux.oracle.com/errata/ELSA-2026-0932.html
@@ -5140,14 +5140,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21925
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:83529203a510aac48a5aa5640ab22b1f55c2520216d21a5f5861626297e8e6c7
+    Fingerprint: sha256:14364ce27fbc70891d62670f84ca436356d7bfc3f86c6264910d23c4dcf1428d
     Title: 'openjdk: Improve JMX connections (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: RMI).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
@@ -5161,7 +5161,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0932
+    - https://access.redhat.com/errata/RHSA-2026:0933
     - https://access.redhat.com/security/cve/CVE-2026-21925
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
@@ -5173,7 +5173,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
-    - https://errata.almalinux.org/8/ALSA-2026-0932.html
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
     - https://errata.rockylinux.org/RLSA-2026:0932
     - https://linux.oracle.com/cve/CVE-2026-21925.html
     - https://linux.oracle.com/errata/ELSA-2026-0932.html
@@ -5192,14 +5192,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21933
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:550dcdc144fc2227401805df713c5f8bc5d209828f0bdd06ceec56d29829bc50
+    Fingerprint: sha256:0268e28b152180e233943896d0d74695bfb7ed09375ddd7a04dc8940fa15a3b3
     Title: 'openjdk: Improve HttpServer Request handling (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).'
     Severity: MEDIUM
@@ -5213,7 +5213,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0932
+    - https://access.redhat.com/errata/RHSA-2026:0933
     - https://access.redhat.com/security/cve/CVE-2026-21933
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
@@ -5225,7 +5225,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
-    - https://errata.almalinux.org/8/ALSA-2026-0932.html
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
     - https://errata.rockylinux.org/RLSA-2026:0932
     - https://linux.oracle.com/cve/CVE-2026-21933.html
     - https://linux.oracle.com/errata/ELSA-2026-0932.html
@@ -5244,14 +5244,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21932
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:70bdd893d2098b541f62cb7035dbd61edd63163df615e37a94e31b5c7c1eeb57
+    Fingerprint: sha256:917994cf48130b0861e262ad33a6fe53be4ca50f735799aef6c426e310af7302
     Title: 'openjdk: Enhance Handling of URIs (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: AWT, JavaFX).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N).'
     Severity: HIGH
@@ -5278,14 +5278,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21945
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:310c47220b67c1a222a5a9e049fbff21f6b896c99a804648496f781c31b08375
+    Fingerprint: sha256:534cb88d70de798641c47ea33818de725788933c8d6fb4fcb08cbf465a886db3
     Title: 'openjdk: Enhance Certificate Checking (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).'
     Severity: HIGH
@@ -5301,7 +5301,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0932
+    - https://access.redhat.com/errata/RHSA-2026:0933
     - https://access.redhat.com/security/cve/CVE-2026-21945
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
@@ -5313,7 +5313,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
-    - https://errata.almalinux.org/8/ALSA-2026-0932.html
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
     - https://errata.rockylinux.org/RLSA-2026:0932
     - https://linux.oracle.com/cve/CVE-2026-21945.html
     - https://linux.oracle.com/errata/ELSA-2026-0932.html
@@ -5332,14 +5332,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21925
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:6710d6b1f83ab8c945e5d3e44d5c905cfca0c1fa43d88a46e8562872680b475e
+    Fingerprint: sha256:d0e52e16f1bdd5ee5a673e4c43c6291b7dc3ca60681fd9efc93d287a307f0254
     Title: 'openjdk: Improve JMX connections (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: RMI).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
@@ -5353,7 +5353,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0932
+    - https://access.redhat.com/errata/RHSA-2026:0933
     - https://access.redhat.com/security/cve/CVE-2026-21925
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
@@ -5365,7 +5365,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
-    - https://errata.almalinux.org/8/ALSA-2026-0932.html
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
     - https://errata.rockylinux.org/RLSA-2026:0932
     - https://linux.oracle.com/cve/CVE-2026-21925.html
     - https://linux.oracle.com/errata/ELSA-2026-0932.html
@@ -5384,14 +5384,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21933
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:c4aa90fdba5f9e69eb1c43ca6310783a453a500e9c33f31c8777776b584cc4d8
+    Fingerprint: sha256:96719bd47414ba5c5c2fd708f7c93cb77ee52101cc489c6fdbda6966e6096268
     Title: 'openjdk: Improve HttpServer Request handling (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).'
     Severity: MEDIUM
@@ -5405,7 +5405,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0932
+    - https://access.redhat.com/errata/RHSA-2026:0933
     - https://access.redhat.com/security/cve/CVE-2026-21933
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
@@ -5417,7 +5417,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
-    - https://errata.almalinux.org/8/ALSA-2026-0932.html
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
     - https://errata.rockylinux.org/RLSA-2026:0932
     - https://linux.oracle.com/cve/CVE-2026-21933.html
     - https://linux.oracle.com/errata/ELSA-2026-0932.html
@@ -5436,14 +5436,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15467
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:92f3d193b0c55e2f39a3a131c431f0ee9d6b5c2b731fbac14b846f27120be738
+    Fingerprint: sha256:9629bcefe1def7bd00d8f4d45982093eb37b407933aa42b3c4b9ee8b885ff6ac
     Title: 'openssl: OpenSSL: Remote code execution or Denial of Service via oversized Initialization Vector in CMS parsing'
     Description: |-
       Issue summary: Parsing CMS AuthEnvelopedData message with maliciously
@@ -5551,14 +5551,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69419
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:e0084ba2ab9530073e7a7da05bff4e1ef8400fa8008d0f0c94636f7416761a71
+    Fingerprint: sha256:476dbaa839b7aa9ee70a3376dbc98706c4e20316c9ad9524ec4d5569a5888611
     Title: 'openssl: OpenSSL: Arbitrary code execution due to out-of-bounds write in PKCS#12 processing'
     Description: |-
       Issue summary: Calling PKCS12_get_friendlyname() function on a maliciously
@@ -5672,14 +5672,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-11187
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:77fdb053c3985d0e0523897c691790f880f1e50323878ab7f174d93c07fba599
+    Fingerprint: sha256:dbae927214f334af4b7180906d5dbc0203b7699816c46a2f7c30c3e5406b6f4d
     Title: 'openssl: OpenSSL: Arbitrary code execution or denial of service through crafted PKCS#12 file'
     Description: |-
       Issue summary: PBMAC1 parameters in PKCS#12 files are missing validation
@@ -5788,14 +5788,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15468
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:720e286ebe7932ef69cd98642d0520793f661919e9142abacad925f8b8b1981a
+    Fingerprint: sha256:136199a8f16a5c52fb267c677d863420e617746eecb1c7d818d01bdb5164dd1d
     Title: 'openssl: OpenSSL: Denial of Service via NULL pointer dereference in QUIC protocol handling'
     Description: |-
       Issue summary: If an application using the SSL_CIPHER_find() function in
@@ -5899,14 +5899,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15469
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:92eed3e5c2d6f2676e048cb58aae3ea4fc2fb22cef6f0fed11da39a8d6531d8e
+    Fingerprint: sha256:fe55abcb7c445ea40954604d811e0196a117cb10bc96f9c286d2ec1f4b589957
     Title: 'openssl: OpenSSL: Data integrity bypass in `openssl dgst` command due to silent truncation'
     Description: |-
       Issue summary: The 'openssl dgst' command-line tool silently truncates input
@@ -6011,14 +6011,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66199
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:cddddb46810caa7a5be884acbf4607b33d9d936f612c41c817c4e3ffffcde4ac
+    Fingerprint: sha256:3124f1c43a376a0550d0044119d8278e66bd44333dbe6cd23f68f104b0271c57
     Title: 'openssl: OpenSSL: Denial of Service due to excessive memory allocation in TLS 1.3 certificate compression'
     Description: |-
       Issue summary: A TLS 1.3 connection using certificate compression can be
@@ -6129,14 +6129,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68160
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:3ba8236694d8ffe951eb0049865a02ca8291b2ef2db9cea1c1c758664fcebc6c
+    Fingerprint: sha256:729bcf354be50f595791f40038aae01ecd81b6cf00850bf745261454efbd3749
     Title: 'openssl: OpenSSL: Denial of Service due to out-of-bounds write in BIO filter'
     Description: |-
       Issue summary: Writing large, newline-free data into a BIO chain using the
@@ -6238,14 +6238,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69418
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:175b0d5b06b212dca54b2860117dfb8639753255a1dbda42b63a0ee354ee41c4
+    Fingerprint: sha256:b2a0df0b6cd90eb64f4c45a5e3291f749f2dec49ad4b7ec384573a30100fd7a7
     Title: 'openssl: OpenSSL: Information disclosure and data tampering via specific low-level OCB encryption/decryption calls'
     Description: 'Issue summary: When using the low-level OCB API directly with AES-NI or<br>other hardware-accelerated code paths, inputs whose length is not a multiple<br>of 16 bytes can leave the final partial block unencrypted and unauthenticated.<br><br>Impact summary: The trailing 1-15 bytes of a message may be exposed in<br>cleartext on encryption and are not covered by the authentication tag,<br>allowing an attacker to read or tamper with those bytes without detection.<br><br>The low-level OCB encrypt and decrypt routines in the hardware-accelerated<br>stream path process full 16-byte blocks but do not advance the input/output<br>pointers. The subsequent tail-handling code then operates on the original<br>base pointers, effectively reprocessing the beginning of the buffer while<br>leaving the actual trailing bytes unprocessed. The authentication checksum<br>also excludes the true tail bytes.<br><br>However, typical OpenSSL consumers using EVP are not affected because the<br>higher-level EVP and provider OCB implementations split inputs so that full<br>blocks and trailing partial blocks are processed in separate calls, avoiding<br>the problematic code path. Additionally, TLS does not use OCB ciphersuites.<br>The vulnerability only affects applications that call the low-level<br>CRYPTO_ocb128_encrypt() or CRYPTO_ocb128_decrypt() functions directly with<br>non-block-aligned lengths in a single call on hardware-accelerated builds.<br>For these reasons the issue was assessed as Low severity.<br><br>The FIPS modules in 3.6, 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected<br>by this issue, as OCB mode is not a FIPS-approved algorithm.<br><br>OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.<br><br>OpenSSL 1.0.2 is not affected by this issue.'
     Severity: MEDIUM
@@ -6326,14 +6326,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69420
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:90311d35cf95e54e9dda4a141354b947a6262c5dfd9881301e0f85b2939792ca
+    Fingerprint: sha256:f11d31a5f483172a9b40e0961f84db0cc03c2e8b547dd2123c579b72eda5307a
     Title: 'openssl: OpenSSL: Denial of Service via malformed TimeStamp Response'
     Description: |-
       Issue summary: A type confusion vulnerability exists in the TimeStamp Response
@@ -6441,14 +6441,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69421
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:cf68260ca10526c270f8833c464dadc1d4b44ee2ed99ab34657f3914ef87fc01
+    Fingerprint: sha256:1dec936ad7f27147e58eb73e53125c2c0e6adc8a1b5caf2af487c22bdc62e3d0
     Title: 'openssl: OpenSSL: Denial of Service via malformed PKCS#12 file processing'
     Description: |-
       Issue summary: Processing a malformed PKCS#12 file can trigger a NULL pointer
@@ -6549,14 +6549,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22795
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:c4f54b2c9eaf1af409e0117d0057a2045e88a65f119381fbc33cd49f5fc58f6d
+    Fingerprint: sha256:7bcb83f4d096621d4f9f0e30f705a2078b7dd4b0e2e28df7e280dc6603269449
     Title: 'openssl: OpenSSL: Denial of Service due to type confusion in PKCS#12 file processing'
     Description: |-
       Issue summary: An invalid or NULL pointer dereference can happen in
@@ -6664,14 +6664,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22796
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0e2bd2dee97ba8efc5a9eff316176498a891354ecab18ad48789a9e58b3f9b76
+    Fingerprint: sha256:09217cf425aa03604835a8e88f783568408541e663bee15d645a21aa55dfcdf0
     Title: 'openssl: OpenSSL: Denial of Service via type confusion in PKCS#7 signature verification'
     Description: |-
       Issue summary: A type confusion vulnerability exists in the signature
@@ -6778,8 +6778,8 @@
       UID: 58b3f59746021d4b
     Version: '2.20'
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.fasterxml.jackson.core:jackson-core
@@ -6788,8 +6788,8 @@
       UID: 1996e2d8cd1022b9
     Version: 2.20.1
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.fasterxml.jackson.core:jackson-databind
@@ -6798,8 +6798,8 @@
       UID: 6c556f8b9b0117ec
     Version: 2.20.1
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.fasterxml.jackson.dataformat:jackson-dataformat-toml
@@ -6808,8 +6808,8 @@
       UID: cd502bd403e61f97
     Version: 2.19.2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.github.bbottema:java-socks-proxy-server
@@ -6818,8 +6818,8 @@
       UID: 44bca168140e1b53
     Version: 2.2.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/SocksServer/java-socks-proxy-server-2.2.0.jar
     AnalyzedBy: jar
   - Name: com.github.mwiede:jsch
@@ -6828,8 +6828,8 @@
       UID: 7c5f9c834d8395f
     Version: 2.27.6
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.github.vertical-blank:sql-formatter
@@ -6838,8 +6838,8 @@
       UID: b476ea318a48e65d
     Version: 2.0.5
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.google.code.gson:gson
@@ -6848,8 +6848,8 @@
       UID: 55058bf256f684f6
     Version: 2.13.2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.googlecode.juniversalchardet:juniversalchardet
@@ -6858,8 +6858,8 @@
       UID: 5447189855b6db87
     Version: 1.0.3
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.connector-factory
@@ -6868,8 +6868,8 @@
       UID: a99fffa9ec19f7cf
     Version: 0.0.9
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.core
@@ -6878,8 +6878,8 @@
       UID: afb96fc5c6b4a255
     Version: 0.0.9
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.jsch
@@ -6888,8 +6888,8 @@
       UID: 8066e61c44eb14ea
     Version: 0.0.9
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.pageant
@@ -6898,8 +6898,8 @@
       UID: c0284278b99b17bc
     Version: 0.0.9
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.sshagent
@@ -6908,8 +6908,8 @@
       UID: bd9e5fa40773f9dc
     Version: 0.0.9
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2
@@ -6918,8 +6918,8 @@
       UID: 4bc35c3b9b6add62
     Version: 0.0.9
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.usocket-jna
@@ -6928,8 +6928,8 @@
       UID: c30290a3390d8666
     Version: 0.0.9
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.usocket-nc
@@ -6938,8 +6938,8 @@
       UID: 48390e4cf4a3666a
     Version: 0.0.9
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.sun.activation:javax.activation
@@ -6948,8 +6948,8 @@
       UID: 76398eb1d6d13adc
     Version: 1.2.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.sun.mail:javax.mail
@@ -6958,8 +6958,8 @@
       UID: 1e7beb37baabc57a
     Version: 1.6.2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.warrenstrange:googleauth
@@ -6968,8 +6968,8 @@
       UID: 99ee628fb0243c8d
     Version: 1.5.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-cli:commons-cli
@@ -6978,8 +6978,8 @@
       UID: 3475d2ee4b04dbe0
     Version: 1.11.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-codec:commons-codec
@@ -6988,8 +6988,8 @@
       UID: 7de4c84c0e3f3115
     Version: 1.20.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-io:commons-io
@@ -6998,8 +6998,8 @@
       UID: 2061cef217097cbb
     Version: 2.21.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-logging:commons-logging
@@ -7008,8 +7008,8 @@
       UID: 8120d86e07931c92
     Version: 1.3.5
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-net:commons-net
@@ -7018,8 +7018,8 @@
       UID: f30479acbb8d626f
     Version: 3.12.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: de.vandermeer:asciilist-j7
@@ -7028,8 +7028,8 @@
       UID: 5d38f221ce7d2a1
     Version: 1.0.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: de.vandermeer:asciitable-j7
@@ -7038,8 +7038,8 @@
       UID: 4ec0aaacbd72cc14
     Version: 1.0.1
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: dnsjava:dnsjava
@@ -7048,8 +7048,8 @@
       UID: 5943d2f91aeed918
     Version: 3.6.3
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-api
@@ -7058,8 +7058,8 @@
       UID: fe506a80a2899a4a
     Version: 0.13.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-gson
@@ -7068,8 +7068,8 @@
       UID: cc7c47a353e36bec
     Version: 0.13.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-impl
@@ -7078,8 +7078,8 @@
       UID: fb75cc968ac3dc0d
     Version: 0.13.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: io.sigpipe:jbsdiff
@@ -7088,8 +7088,8 @@
       UID: e618a95843fba36b
     Version: '1.0'
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: jakarta.activation:jakarta.activation-api
@@ -7098,8 +7098,8 @@
       UID: 5d2ee0e1a121653f
     Version: 1.2.2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: javax.xml.bind:jaxb-api
@@ -7108,8 +7108,8 @@
       UID: d465243f613cf5b8
     Version: 2.3.1
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: jline:jline
@@ -7118,8 +7118,8 @@
       UID: 509c1c4b5bcd42a1
     Version: 2.14.6
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-collections4
@@ -7128,8 +7128,8 @@
       UID: 72513cdccf1d063
     Version: 4.5.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-compress
@@ -7138,8 +7138,8 @@
       UID: a82eeb62843349ae
     Version: 1.28.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-csv
@@ -7148,8 +7148,8 @@
       UID: 250a69832ed56f8d
     Version: 1.14.1
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-email
@@ -7158,8 +7158,8 @@
       UID: 973048c510561123
     Version: 1.6.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-lang3
@@ -7168,8 +7168,8 @@
       UID: f267aeee188ae905
     Version: 3.19.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-math3
@@ -7178,8 +7178,8 @@
       UID: ce9b8a6c7e85850
     Version: 3.6.1
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.compression:jetty-compression-common
@@ -7188,8 +7188,8 @@
       UID: f37e5e834b4a703f
     Version: 12.1.4
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-core-client
@@ -7198,8 +7198,8 @@
       UID: 580e7ee2f5e0631d
     Version: 12.1.4
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-core-common
@@ -7208,8 +7208,8 @@
       UID: e7b817f228319546
     Version: 12.1.4
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-api
@@ -7218,8 +7218,8 @@
       UID: 884cadec5b8bc19f
     Version: 12.1.4
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-client
@@ -7228,8 +7228,8 @@
       UID: 35d5b28501b6a385
     Version: 12.1.4
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-common
@@ -7238,8 +7238,8 @@
       UID: 82dbeb6fdddb95cf
     Version: 12.1.4
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-client
@@ -7248,8 +7248,8 @@
       UID: 7786ea18dd55a07c
     Version: 12.1.3
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-http
@@ -7258,8 +7258,8 @@
       UID: ca9ccff3501f06b9
     Version: 12.1.4
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-io
@@ -7268,8 +7268,8 @@
       UID: f8351b3bbf480fcd
     Version: 12.1.3
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-util
@@ -7278,8 +7278,8 @@
       UID: 9c4d92131b8724cc
     Version: 12.1.3
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.hawtjni:hawtjni-runtime
@@ -7288,8 +7288,8 @@
       UID: cf88955c9d0ae18b
     Version: '1.17'
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi
@@ -7298,8 +7298,8 @@
       UID: 8ad8d3ab8ae11065
     Version: '1.18'
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-freebsd32
@@ -7308,8 +7308,8 @@
       UID: 87b73bc3f694180c
     Version: '1.8'
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-freebsd64
@@ -7318,8 +7318,8 @@
       UID: 68d99c3788225531
     Version: '1.8'
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-linux32
@@ -7328,8 +7328,8 @@
       UID: b748a87749ace306
     Version: '1.8'
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-linux64
@@ -7338,8 +7338,8 @@
       UID: 26eee13eafbc9417
     Version: '1.8'
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-native
@@ -7348,8 +7348,8 @@
       UID: 6fdce73a584d6707
     Version: '1.8'
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-osx
@@ -7358,8 +7358,8 @@
       UID: 907023130116e83c
     Version: '1.8'
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-windows32
@@ -7368,8 +7368,8 @@
       UID: ab926f311d1d4210
     Version: '1.8'
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-windows64
@@ -7378,8 +7378,8 @@
       UID: edf1cd987a2068b8
     Version: '1.8'
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.projectlombok:lombok
@@ -7388,8 +7388,8 @@
       UID: 2d55df6eda708744
     Version: 1.18.42
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/SocksServer/lombok-1.18.42.jar
     AnalyzedBy: jar
   - Name: org.semver4j:semver4j
@@ -7398,8 +7398,8 @@
       UID: 452bf269462d8b69
     Version: 6.0.0
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.slf4j:slf4j-api
@@ -7408,8 +7408,8 @@
       UID: e6e431b8b5e0302a
     Version: 2.0.17
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.slf4j:slf4j-nop
@@ -7418,8 +7418,8 @@
       UID: 67713c09148cf9b
     Version: 2.0.17
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.snmp4j:snmp4j
@@ -7428,8 +7428,8 @@
       UID: fc06219dfaa6f987
     Version: 3.9.6
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.snmp4j:snmp4j-agent
@@ -7438,7 +7438,7 @@
       UID: 8910657e688649b8
     Version: 3.8.2
     Layer:
-      Digest: sha256:bec2cb7a413861e57f771c20940b6ca791ec2f549aeb3b9b840025b79cc341d1
-      DiffID: sha256:d6a2e9dba903b278474ecdca151bb0afe9e9c5d4b8abe5670142210cddcc21fd
+      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
+      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
