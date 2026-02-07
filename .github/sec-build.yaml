@@ -18,8 +18,8 @@
     - alpine-baselayout-data@3.7.1-r8
     - busybox-binsh@1.37.0-r29
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:9a137c3c8e738bcabac13326c9fc5472fa58aaf4
     InstalledFiles:
     - etc/motd
@@ -49,8 +49,8 @@
     - GPL-2.0-only
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:9a60b0edb4559ab279cf004b7e685cfd78dd0c15
     InstalledFiles:
     - etc/fstab
@@ -82,8 +82,8 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:5c45a821cd6b84d543bbd7ff12a7de1855c5cd13
     InstalledFiles:
     - etc/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub
@@ -143,8 +143,8 @@
     DependsOn:
     - alpine-keys@2.6-r0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:d85ddacf795775c3637989a1a5e3332e1add193a
     InstalledFiles:
     - etc/alpine-release
@@ -168,8 +168,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:dfb787005e07d66c2db231863d54ab01c2cfb350
     InstalledFiles:
     - usr/bin/aserver
@@ -275,8 +275,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:e4a5f9f4d9383b7a3b744f626228ebd3db0bcf94
     InstalledFiles:
     - sbin/apk
@@ -296,8 +296,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:0814694602f35d2741e916fdcb4c9a1e0ec50b42
     InstalledFiles:
     - usr/lib/libbrotlicommon.so.1
@@ -322,8 +322,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:0541a8e4f11caa1b595f3d53857726d81bf3d754
     InstalledFiles:
     - bin/busybox
@@ -349,8 +349,8 @@
     DependsOn:
     - busybox@1.37.0-r29
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:0430c7a2208bee624182f50cb4dee02943103230
     InstalledFiles:
     - bin/sh
@@ -370,8 +370,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:dc29a655702c8c8ce80f0142cbfeac546a9ae2b8
     InstalledFiles:
     - usr/lib/libcares.so.2
@@ -395,8 +395,8 @@
     - libcrypto3@3.5.4-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:3b10fd335b2af819c4fd3562900e76fd6ea304c5
     InstalledFiles:
     - etc/ca-certificates.conf
@@ -567,8 +567,8 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:63ebe72ba79f548b6cdc8a9894e16a90d80f42b0
     InstalledFiles:
     - etc/ssl/cert.pem
@@ -593,8 +593,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:c467d4938a8ffc55afe3b1a6223787e0ecd60036
     InstalledFiles:
     - usr/bin/curl
@@ -620,8 +620,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:e227f29a00edd7ed5b1e62a050da6532183e60be
     InstalledFiles:
     - usr/lib/libfreetype.so.6
@@ -642,8 +642,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:18c5a46dd282cbd6aba1f8246985d992a160e9b5
     InstalledFiles:
     - usr/lib/libgif.so.7
@@ -667,8 +667,8 @@
     - p11-kit-trust@0.25.5-r2
     - p11-kit@0.25.5-r2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:dd6d704f5e91ed26d9c026eac28bcd716f49a753
     InstalledFiles:
     - etc/ca-certificates/update.d/java-cacerts
@@ -688,8 +688,8 @@
     DependsOn:
     - busybox-binsh@1.37.0-r29
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:52205baa8687d26c879a55110a0a258d4dbfe8a6
     InstalledFiles:
     - usr/bin/java
@@ -709,8 +709,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:4b9df8b110088ab37a048d0be4bae4d06ce0747f
     InstalledFiles:
     - usr/lib/liblcms2.so.2
@@ -734,8 +734,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:6146a4ecfe76efa5fa8cce5aedee1a1c475dc8f2
     InstalledFiles:
     - usr/lib/libapk.so.3.0.0
@@ -756,8 +756,8 @@
     - libmd@1.1.0-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:33970b157edad359d05a2c3e6f3460e725549c8b
     InstalledFiles:
     - usr/lib/libbsd.so.0
@@ -778,8 +778,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:864d363da11ee24c7920e0d052d2da7f8429251e
     InstalledFiles:
     - usr/lib/libbz2.so.1
@@ -800,8 +800,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:adcd00253f51f9cd8f76189d94a5953da688365b
     InstalledFiles:
     - etc/ssl/ct_log_list.cnf
@@ -841,8 +841,8 @@
     - zlib@1.3.1-r2
     - zstd-libs@1.5.7-r2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:4018e686de80aa87659e95c1e62a3539c1d2542f
     InstalledFiles:
     - usr/lib/libcurl.so.4
@@ -863,8 +863,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:fa51bf028f40768bfe1c7ef494b1fe3f8590c19f
     InstalledFiles:
     - usr/lib/libffi.so.8
@@ -887,8 +887,8 @@
     - libunistring@1.4.1-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:b8c5bfa365da5c360a01230db4d71e65af94af3d
     InstalledFiles:
     - usr/lib/libidn2.so.0
@@ -911,8 +911,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:aa025fb7ecf9bd65ef2afe47e3740639521e09ce
     InstalledFiles:
     - usr/lib/libjpeg.so.8
@@ -938,8 +938,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:ce7c57bd1f6628da8ba0d3f2ac18f6d8c93c0346
     InstalledFiles:
     - usr/lib/libmd.so.0
@@ -961,8 +961,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:bf233e45a996ce2ff4da18ec31de3b911fcfe087
     InstalledFiles:
     - usr/lib/libpng16.so.16
@@ -985,8 +985,8 @@
     - libunistring@1.4.1-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:b663c00f920a93be49c825555aa1a212e4287393
     InstalledFiles:
     - usr/lib/libpsl.so.5
@@ -1008,8 +1008,8 @@
     - libcrypto3@3.5.4-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:e328b24da910b652aadc87242828d43db30bad67
     InstalledFiles:
     - usr/lib/libssl.so.3
@@ -1029,8 +1029,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:9136bfc0b214e8914f439b72250339a38feaf2c2
     InstalledFiles:
     - usr/lib/libtasn1.so.6
@@ -1052,8 +1052,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:6e56562bde456bee5971787d3d95c34e84ced797
     InstalledFiles:
     - usr/lib/libunistring.so.5
@@ -1075,8 +1075,8 @@
     - libxcb@1.17.0-r1
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:689b36ec47d6c9abb9cbd0c7067ba4636568dbd5
     InstalledFiles:
     - usr/lib/libX11-xcb.so.1
@@ -1290,8 +1290,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:89d2bc9daae3cb0e2ae095db6866357b7653f341
     InstalledFiles:
     - usr/lib/libXau.so.6
@@ -1314,8 +1314,8 @@
     - libxdmcp@1.1.5-r1
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:61b06f883e8f8d2d8ee360e4dac04ac037fcca13
     InstalledFiles:
     - usr/lib/libxcb-composite.so.0
@@ -1385,8 +1385,8 @@
     - libbsd@0.12.2-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:99a24c0fa12282b5ef89a6e732a8d494b7696d9d
     InstalledFiles:
     - usr/lib/libXdmcp.so.6
@@ -1408,8 +1408,8 @@
     - libx11@1.8.12-r1
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:92fb4f12c2170403d6a48c7485ecaee40c84bee2
     InstalledFiles:
     - usr/lib/libXext.so.6
@@ -1433,8 +1433,8 @@
     - libxext@1.3.6-r2
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:78ea3cdf1dfa3c07aa965866bb9e64be2254fc5e
     InstalledFiles:
     - usr/lib/libXi.so.6
@@ -1456,8 +1456,8 @@
     - libx11@1.8.12-r1
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:16accdec4598ad42a3201234aab60e44d607f1b0
     InstalledFiles:
     - usr/lib/libXrender.so.1
@@ -1480,8 +1480,8 @@
     - libxext@1.3.6-r2
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:6c021814b3a61c34ad3d6c83b916c68159e8316f
     InstalledFiles:
     - usr/lib/libXtst.so.6
@@ -1500,8 +1500,8 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:d05a75ec13e1a7a8bab56ce7cd3dc79bd727e698
     InstalledFiles:
     - lib/ld-musl-x86_64.so.1
@@ -1525,8 +1525,8 @@
     - musl@1.2.5-r21
     - scanelf@1.3.8-r2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:daa79528d2cf877f6d656207a818d43c8dea9a30
     InstalledFiles:
     - sbin/ldconfig
@@ -1550,8 +1550,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:584b6a1b0aed58a3f543bfd77729b0d8a8b1745b
     InstalledFiles:
     - usr/lib/libnghttp2.so.14
@@ -1572,8 +1572,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:e48fcb3e81f7e46a42e3926d8513c83b7798774b
     InstalledFiles:
     - usr/lib/libnghttp3.so.9
@@ -1606,8 +1606,8 @@
     - musl@1.2.5-r21
     - openjdk21-jre-headless@21.0.9_p10-r0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:328af842b01e787bfeb37bd8c345d6d08f0feddb
     InstalledFiles:
     - usr/lib/jvm/java-21-openjdk/lib/libawt_xawt.so
@@ -1636,8 +1636,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:cc17d54ecb7c46da305d1f71ba727969a65a9419
     InstalledFiles:
     - usr/lib/jvm/java-21-openjdk/ASSEMBLY_EXCEPTION
@@ -1970,8 +1970,8 @@
     - libssl3@3.5.4-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:c2a94fa9b033f8a1066e3545cbe6b4e86e54e9b8
     InstalledFiles:
     - usr/bin/openssl
@@ -1993,8 +1993,8 @@
     - libtasn1@4.20.0-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:b03c9c498fc8b875d694659827c39e791b0dce51
     InstalledFiles:
     - etc/pkcs11/pkcs11.conf.example
@@ -2021,8 +2021,8 @@
     - musl@1.2.5-r21
     - p11-kit@0.25.5-r2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:566b28378ea154f29cc0c26050403949573a7cd1
     InstalledFiles:
     - usr/bin/trust
@@ -2044,8 +2044,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:6ea36dd44ef9f6364f0cdfabe09ea15d2fdbe229
     InstalledFiles:
     - usr/bin/scanelf
@@ -2067,8 +2067,8 @@
     - libssl3@3.5.4-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:c4cef5aa030704c1f7a32bbb31574326869c51dc
     InstalledFiles:
     - usr/bin/ssl_client
@@ -2090,8 +2090,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:130531eafa71df74c196ee9c1fbdaedc1b92a1cd
     InstalledFiles:
     - etc/sudo.conf
@@ -2130,8 +2130,8 @@
     - busybox-binsh@1.37.0-r29
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:a491b36b05d6af4a92dfd9810785b5def1a0ddac
     InstalledFiles:
     - etc/tinyproxy/tinyproxy.conf
@@ -2155,8 +2155,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:3e8e8e76dfefb4efd27658ada6d792e66ba2775e
     InstalledFiles:
     - usr/lib/libz.so.1
@@ -2178,8 +2178,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     Digest: sha1:d507b8ac3c4335a40405ac20e49bac9d43642be6
     InstalledFiles:
     - usr/lib/libzstd.so.1
@@ -2196,14 +2196,14 @@
     FixedVersion: 1.34.6-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-62408
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:d4a6e8e99a6ff3fb4ea19dc6933f6df8e77162ab4682510e9b4b4673ffd97c20
+    Fingerprint: sha256:1c6fc970862291643fc9404263b6ff063399b3983a2dc714514f0fc4e021d09c
     Title: 'c-ares: c-ares: Denial of Service due to query termination after maximum attempts'
     Description: c-ares is an asynchronous resolver library. Versions 1.32.3 through 1.34.5  terminate a query after maximum attempts when using read_answer() and process_answer(), which can cause a Denial of Service. This issue is fixed in version 1.34.6.
     Severity: MEDIUM
@@ -2237,14 +2237,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15467
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:963b8c3dc346d97e128b8248a36a2b1c212b93cc3cd1089d23fdfed3b0a1869e
+    Fingerprint: sha256:4c7c49c98388b5a0589ab6b1097fe2e6a7fa027e65f4a36f7a87695382e51808
     Title: 'openssl: OpenSSL: Remote code execution or Denial of Service via oversized Initialization Vector in CMS parsing'
     Description: |-
       Issue summary: Parsing CMS AuthEnvelopedData message with maliciously
@@ -2279,6 +2279,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 4
       oracle-oval: 3
       photon: 4
       redhat: 3
@@ -2290,7 +2291,7 @@
         V3Score: 9.8
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/27/10
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-15467
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -2328,7 +2329,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
@@ -2353,14 +2354,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69419
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:afbc1050869f8811d5f4a211331731d56d1eedaa912f4d324df95770b558e87e
+    Fingerprint: sha256:23f7d58869532892ed8d801183028c831503712352c05b6f0207f0491a5364b8
     Title: 'openssl: OpenSSL: Arbitrary code execution due to out-of-bounds write in PKCS#12 processing'
     Description: |-
       Issue summary: Calling PKCS12_get_friendlyname() function on a maliciously
@@ -2401,6 +2402,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 3
       oracle-oval: 3
       photon: 3
       redhat: 2
@@ -2411,7 +2413,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-69419
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -2449,7 +2451,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
@@ -2475,15 +2477,15 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69421
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:a8ac9dba65c8b17834764f86db7cf6ebfeb28950aab57c814aed10c6651201e0
+    Fingerprint: sha256:5c01241d9d2f44e078e49f32dc47a4b1d1f7123767c009c3d0e4a3d217237cdf
     Title: 'openssl: OpenSSL: Denial of Service via malformed PKCS#12 file processing'
     Description: |-
       Issue summary: Processing a malformed PKCS#12 file can trigger a NULL pointer
@@ -2511,6 +2513,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -2525,7 +2528,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-69421
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -2563,7 +2566,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
@@ -2589,14 +2592,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-11187
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:e43b6baf14fe8f933dc87689fcf184648509f2b5586cd8c817683a5572e5a719
+    Fingerprint: sha256:01c5d0919a93b06ce1526983bf2e56153b1619204125f140c2cd47bd08147bf3
     Title: 'openssl: OpenSSL: Arbitrary code execution or denial of service through crafted PKCS#12 file'
     Description: |-
       Issue summary: PBMAC1 parameters in PKCS#12 files are missing validation
@@ -2644,7 +2647,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:H
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-11187
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -2682,7 +2685,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
@@ -2705,14 +2708,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15468
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:7120d044cbd808cef6b0102f6bd8c001971253291d0ab38b4a7bf1af2c02e9de
+    Fingerprint: sha256:dfdb8f1f2e43ab54c1eabe179e3fcf97a5090fbf2ab5547e4fe908069390ff55
     Title: 'openssl: OpenSSL: Denial of Service via NULL pointer dereference in QUIC protocol handling'
     Description: |-
       Issue summary: If an application using the SSL_CIPHER_find() function in
@@ -2745,6 +2748,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -2755,7 +2759,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-15468
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -2793,7 +2797,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
@@ -2817,14 +2821,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15469
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:745706352559960aee93865b781d66417811f5ff95c34b82f84e9b104bbb5362
+    Fingerprint: sha256:0e9a3e54773de988ed32e72ebd268a404e3c129573f43324b2ddac67f04002ef
     Title: 'openssl: OpenSSL: Data integrity bypass in `openssl dgst` command due to silent truncation'
     Description: |-
       Issue summary: The 'openssl dgst' command-line tool silently truncates input
@@ -2870,7 +2874,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-15469
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -2908,7 +2912,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
@@ -2930,14 +2934,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66199
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f9727f9fb803aa631bca0ea6d14c51ee1f37bbd5d910a13fe1978134e2a27ec1
+    Fingerprint: sha256:ca8c7882cda07dc6bdfbe1cb7840bbdbd11d46edbc6dd344eb08a860d83134a9
     Title: 'openssl: OpenSSL: Denial of Service due to excessive memory allocation in TLS 1.3 certificate compression'
     Description: |-
       Issue summary: A TLS 1.3 connection using certificate compression can be
@@ -2977,6 +2981,7 @@
     - CWE-789
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -2987,7 +2992,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-66199
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -3025,7 +3030,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
@@ -3049,14 +3054,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68160
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:869b1a73155c3e7421cef0495e068f3cb4bf4cc0fe986856303d4e85e69c1f31
+    Fingerprint: sha256:451546bf6ab004e83e63b68e92918c7b862ce00b844f3af647bef964fd3905de
     Title: 'openssl: OpenSSL: Denial of Service due to out-of-bounds write in BIO filter'
     Description: |-
       Issue summary: Writing large, newline-free data into a BIO chain using the
@@ -3085,6 +3090,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -3095,7 +3101,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 4.7
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-68160
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -3133,7 +3139,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
@@ -3159,14 +3165,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69418
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:a325926afbd3cddbebe385748288c841ba68d6e7c4b60af1ed276291c2246e77
+    Fingerprint: sha256:7fe74536e9205fde89392c30822ddb194273f00e378799d488d73c1ff0914287
     Title: 'openssl: OpenSSL: Information disclosure and data tampering via specific low-level OCB encryption/decryption calls'
     Description: 'Issue summary: When using the low-level OCB API directly with AES-NI or<br>other hardware-accelerated code paths, inputs whose length is not a multiple<br>of 16 bytes can leave the final partial block unencrypted and unauthenticated.<br><br>Impact summary: The trailing 1-15 bytes of a message may be exposed in<br>cleartext on encryption and are not covered by the authentication tag,<br>allowing an attacker to read or tamper with those bytes without detection.<br><br>The low-level OCB encrypt and decrypt routines in the hardware-accelerated<br>stream path process full 16-byte blocks but do not advance the input/output<br>pointers. The subsequent tail-handling code then operates on the original<br>base pointers, effectively reprocessing the beginning of the buffer while<br>leaving the actual trailing bytes unprocessed. The authentication checksum<br>also excludes the true tail bytes.<br><br>However, typical OpenSSL consumers using EVP are not affected because the<br>higher-level EVP and provider OCB implementations split inputs so that full<br>blocks and trailing partial blocks are processed in separate calls, avoiding<br>the problematic code path. Additionally, TLS does not use OCB ciphersuites.<br>The vulnerability only affects applications that call the low-level<br>CRYPTO_ocb128_encrypt() or CRYPTO_ocb128_decrypt() functions directly with<br>non-block-aligned lengths in a single call on hardware-accelerated builds.<br>For these reasons the issue was assessed as Low severity.<br><br>The FIPS modules in 3.6, 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected<br>by this issue, as OCB mode is not a FIPS-approved algorithm.<br><br>OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.<br><br>OpenSSL 1.0.2 is not affected by this issue.'
     Severity: MEDIUM
@@ -3174,6 +3180,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -3184,7 +3191,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-69418
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -3222,7 +3229,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
@@ -3248,14 +3255,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69420
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:518139103962306a35a4a64986a008c9bacc31f9394abf7f1785e65c32609959
+    Fingerprint: sha256:f0c29f2666fd914c34a0c01c055d36f15beab3b74363acbcee23450018937cbc
     Title: 'openssl: OpenSSL: Denial of Service via malformed TimeStamp Response'
     Description: |-
       Issue summary: A type confusion vulnerability exists in the TimeStamp Response
@@ -3290,6 +3297,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 3
       redhat: 1
@@ -3300,7 +3308,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-69420
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -3338,7 +3346,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
@@ -3364,14 +3372,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22795
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:5e0c9aa6ca2a83b215b2638a3a23d9b7e7fe0a83d1009e299ea9b9f325109079
+    Fingerprint: sha256:37f43d0877297c4208a2f5bbd8c4f271f9518e29116f24ba15e4959908ba333a
     Title: 'openssl: OpenSSL: Denial of Service due to type confusion in PKCS#12 file processing'
     Description: |-
       Issue summary: An invalid or NULL pointer dereference can happen in
@@ -3406,6 +3414,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -3416,7 +3425,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2026-22795
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -3454,7 +3463,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
@@ -3480,14 +3489,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22796
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f0677692243ee26eb4a5f9f918d606f17dad91774225a83fe9cbc0f3c5c9d7bc
+    Fingerprint: sha256:45f922de06d06b6a5a1ea15bc112ce511225d218cacf43c4db22af69d1de556d
     Title: 'openssl: OpenSSL: Denial of Service via type confusion in PKCS#7 signature verification'
     Description: |-
       Issue summary: A type confusion vulnerability exists in the signature
@@ -3521,6 +3530,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -3531,7 +3541,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2026-22796
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -3569,7 +3579,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
@@ -3595,15 +3605,15 @@
     FixedVersion: 1.6.54-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22695
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:09b67ff1ad51e341c4f45d744f3a394806543b5a4e3f264a3c1f13db54b5c7f9
+    Fingerprint: sha256:8ca84bad93d85eece7b8d503cf8bca717832eed59ed024e16f834ac5e894e7f6
     Title: 'libpng: libpng: Denial of service and information disclosure via heap buffer over-read in png_image_finish_read'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.51 to 1.6.53, there is a heap buffer over-read in the libpng simplified API function png_image_finish_read when processing interlaced 16-bit PNGs with 8-bit output format and non-minimal row stride. This is a regression introduced by the fix for CVE-2025-65018. This vulnerability is fixed in 1.6.54.
     Severity: HIGH
@@ -3642,15 +3652,15 @@
     FixedVersion: 1.6.54-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22801
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:5349e3e9312cdcd5e80f1bdb148c6083930923b7f6a81aea3a9e91c616437c61
+    Fingerprint: sha256:6febafde6d494ba6183d3a1fd8c2b21351eecde51a59c140d3adbba0c479b6f4
     Title: 'libpng: libpng: Information disclosure and denial of service via integer truncation in simplified write API'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.26 to 1.6.53, there is an integer truncation in the libpng simplified write API functions png_write_image_16bit and png_write_image_8bit causes heap buffer over-read when the caller provides a negative row stride (for bottom-up image layouts) or a stride exceeding 65535 bytes. The bug was introduced in libpng 1.6.26 (October 2016) by casts added to silence compiler warnings on 16-bit systems. This vulnerability is fixed in 1.6.54.
     Severity: HIGH
@@ -3687,14 +3697,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15467
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:07c1c1793dcd0b0b68ce435dcaf6d29739337afc05035a92944caa965c686878
+    Fingerprint: sha256:d4dd080e07795f2b2553207f66c54581c92c5e5dbed9c7c57b053870494a2fa7
     Title: 'openssl: OpenSSL: Remote code execution or Denial of Service via oversized Initialization Vector in CMS parsing'
     Description: |-
       Issue summary: Parsing CMS AuthEnvelopedData message with maliciously
@@ -3729,6 +3739,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 4
       oracle-oval: 3
       photon: 4
       redhat: 3
@@ -3740,7 +3751,7 @@
         V3Score: 9.8
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/27/10
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-15467
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -3778,7 +3789,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
@@ -3803,14 +3814,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69419
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:b27dd9eba17c19c4dfbb2c8bd4537cf8389bab89a480913d231cd191e7054814
+    Fingerprint: sha256:c44308d165209e90da4e7076aed06ed6147dd5c15e4833f4d0c0bc6aabd82136
     Title: 'openssl: OpenSSL: Arbitrary code execution due to out-of-bounds write in PKCS#12 processing'
     Description: |-
       Issue summary: Calling PKCS12_get_friendlyname() function on a maliciously
@@ -3851,6 +3862,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 3
       oracle-oval: 3
       photon: 3
       redhat: 2
@@ -3861,7 +3873,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-69419
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -3899,7 +3911,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
@@ -3925,15 +3937,15 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69421
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:ae29928b60670d2fbda5478fcf2cb47aa4c5c00602a223ce3ee73bd33c8a63a7
+    Fingerprint: sha256:363403f3d1d56582217210c8865e61c6baa252a5612155b3ca02c3a55e8ce5f3
     Title: 'openssl: OpenSSL: Denial of Service via malformed PKCS#12 file processing'
     Description: |-
       Issue summary: Processing a malformed PKCS#12 file can trigger a NULL pointer
@@ -3961,6 +3973,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -3975,7 +3988,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-69421
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -4013,7 +4026,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
@@ -4039,14 +4052,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-11187
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0de5c11cccb09f1cd2e0337d9ac10ec68c951672f9e50edd27cdf7eed8112290
+    Fingerprint: sha256:6e93cfea50b603cf67761ff6bf3dd0b5a65bc3dca1439c8b39695b904c43c0f8
     Title: 'openssl: OpenSSL: Arbitrary code execution or denial of service through crafted PKCS#12 file'
     Description: |-
       Issue summary: PBMAC1 parameters in PKCS#12 files are missing validation
@@ -4094,7 +4107,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:H
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-11187
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -4132,7 +4145,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
@@ -4155,14 +4168,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15468
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:b5c532373cef3f41491c1a390d8057a08d16f586cc6bd68821d1a063afaaf880
+    Fingerprint: sha256:fd3c40729992fce1ff88b5cea8bd2b6edd639f3d3ffee50361d0dd9b2d5ef2b5
     Title: 'openssl: OpenSSL: Denial of Service via NULL pointer dereference in QUIC protocol handling'
     Description: |-
       Issue summary: If an application using the SSL_CIPHER_find() function in
@@ -4195,6 +4208,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -4205,7 +4219,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-15468
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -4243,7 +4257,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
@@ -4267,14 +4281,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15469
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:a20f4a2e31dd895460eb3e4431412519fdcd05f27f53e1994b30584c2d2f570a
+    Fingerprint: sha256:b949b5ad7528dfc5b529a01794b3dcc03cff8ebd2dd1246d6a10f154c590ab59
     Title: 'openssl: OpenSSL: Data integrity bypass in `openssl dgst` command due to silent truncation'
     Description: |-
       Issue summary: The 'openssl dgst' command-line tool silently truncates input
@@ -4320,7 +4334,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-15469
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -4358,7 +4372,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
@@ -4380,14 +4394,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66199
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:3d600a903f437f86dd70806ad641db20960174293e2fa645c4c5c179c3f1f683
+    Fingerprint: sha256:f66267a8c76cdbdcf8f13b254fc8ac43bcbf918dbe032e7a6774e9b42b198d70
     Title: 'openssl: OpenSSL: Denial of Service due to excessive memory allocation in TLS 1.3 certificate compression'
     Description: |-
       Issue summary: A TLS 1.3 connection using certificate compression can be
@@ -4427,6 +4441,7 @@
     - CWE-789
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -4437,7 +4452,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-66199
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -4475,7 +4490,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
@@ -4499,14 +4514,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68160
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:2f45e2daf0cbb08f046b79158309cccc2bd29e2f6b25e7bf684b849d3048f211
+    Fingerprint: sha256:b2baf29ee7b0cd039e59c5dcf220bfb695673411133f832b649d406c6ad9104b
     Title: 'openssl: OpenSSL: Denial of Service due to out-of-bounds write in BIO filter'
     Description: |-
       Issue summary: Writing large, newline-free data into a BIO chain using the
@@ -4535,6 +4550,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -4545,7 +4561,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 4.7
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-68160
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -4583,7 +4599,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
@@ -4609,14 +4625,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69418
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:772676cab2822ba593f2172b1105325a566538cb5651bc5304becc8991588a81
+    Fingerprint: sha256:eca9026466432534f942c4ab99d8dbd8e62ac2a582efb0ff6c0065a8f08699e7
     Title: 'openssl: OpenSSL: Information disclosure and data tampering via specific low-level OCB encryption/decryption calls'
     Description: 'Issue summary: When using the low-level OCB API directly with AES-NI or<br>other hardware-accelerated code paths, inputs whose length is not a multiple<br>of 16 bytes can leave the final partial block unencrypted and unauthenticated.<br><br>Impact summary: The trailing 1-15 bytes of a message may be exposed in<br>cleartext on encryption and are not covered by the authentication tag,<br>allowing an attacker to read or tamper with those bytes without detection.<br><br>The low-level OCB encrypt and decrypt routines in the hardware-accelerated<br>stream path process full 16-byte blocks but do not advance the input/output<br>pointers. The subsequent tail-handling code then operates on the original<br>base pointers, effectively reprocessing the beginning of the buffer while<br>leaving the actual trailing bytes unprocessed. The authentication checksum<br>also excludes the true tail bytes.<br><br>However, typical OpenSSL consumers using EVP are not affected because the<br>higher-level EVP and provider OCB implementations split inputs so that full<br>blocks and trailing partial blocks are processed in separate calls, avoiding<br>the problematic code path. Additionally, TLS does not use OCB ciphersuites.<br>The vulnerability only affects applications that call the low-level<br>CRYPTO_ocb128_encrypt() or CRYPTO_ocb128_decrypt() functions directly with<br>non-block-aligned lengths in a single call on hardware-accelerated builds.<br>For these reasons the issue was assessed as Low severity.<br><br>The FIPS modules in 3.6, 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected<br>by this issue, as OCB mode is not a FIPS-approved algorithm.<br><br>OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.<br><br>OpenSSL 1.0.2 is not affected by this issue.'
     Severity: MEDIUM
@@ -4624,6 +4640,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -4634,7 +4651,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-69418
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -4672,7 +4689,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
@@ -4698,14 +4715,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69420
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:00cebcfa657e4dd78618549d9f5a9b7d6ac1db84aaf1425050b29ae9f03ddaf7
+    Fingerprint: sha256:746d75402ed63404ab3e0b8506859a0411e132b2ba685eb4983f8ad6b188d5d0
     Title: 'openssl: OpenSSL: Denial of Service via malformed TimeStamp Response'
     Description: |-
       Issue summary: A type confusion vulnerability exists in the TimeStamp Response
@@ -4740,6 +4757,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 3
       redhat: 1
@@ -4750,7 +4768,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-69420
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -4788,7 +4806,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
@@ -4814,14 +4832,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22795
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:e6d2376371b9b4d690c72ce25a9be89c1af71d8e87d325d83e5f9eb61ae651ca
+    Fingerprint: sha256:7953a00d8892b646cf9e88c5e9f7bb754a7f78514470cb6410abaa114790eb54
     Title: 'openssl: OpenSSL: Denial of Service due to type confusion in PKCS#12 file processing'
     Description: |-
       Issue summary: An invalid or NULL pointer dereference can happen in
@@ -4856,6 +4874,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -4866,7 +4885,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2026-22795
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -4904,7 +4923,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
@@ -4930,14 +4949,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22796
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:7f141a4105603505d84f38e803662145070a9e410cbd1feefaa35865634626b0
+    Fingerprint: sha256:6e9592911cd65ff4998d1e3099c2b2055ae48b7b7f04feec3d04a578a57e451a
     Title: 'openssl: OpenSSL: Denial of Service via type confusion in PKCS#7 signature verification'
     Description: |-
       Issue summary: A type confusion vulnerability exists in the signature
@@ -4971,6 +4990,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -4981,7 +5001,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2026-22796
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -5019,7 +5039,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
@@ -5045,14 +5065,14 @@
     FixedVersion: 4.21.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13151
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:2acca9e5c9149203a92dac529f6bd38c9266eb4f9538a6b82c98af1d4bf33a35
+    Fingerprint: sha256:f6bf084eb3ba9a1e2d13c69c03666e02785e2914f62db54c8d68a8c564ea69b0
     Title: 'libtasn1: libtasn1: Denial of Service via stack-based buffer overflow in asn1_expend_octet_string'
     Description: 'Stack-based buffer overflow in libtasn1 version: v4.20.0. The function fails to validate the size of input data resulting in a buffer overflow in asn1_expend_octet_string.'
     Severity: MEDIUM
@@ -5087,19 +5107,20 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21932
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:35047ad81fcff3fdfd52a1373df3a983e0224a97c7dfa6b88992a9677adabd79
+    Fingerprint: sha256:3dc889f74c6ebcb3f0563bb5977ea4978ebcb0d461cf50bf00d3522f3fd6d5e3
     Title: 'openjdk: Enhance Handling of URIs (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: AWT, JavaFX).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N).'
     Severity: HIGH
     VendorSeverity:
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N
@@ -5107,6 +5128,14 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-21932
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21932
+    - https://ubuntu.com/security/notices/USN-7995-1
+    - https://ubuntu.com/security/notices/USN-7996-1
+    - https://ubuntu.com/security/notices/USN-7997-1
+    - https://ubuntu.com/security/notices/USN-7998-1
+    - https://ubuntu.com/security/notices/USN-8000-1
+    - https://ubuntu.com/security/notices/USN-8001-1
+    - https://ubuntu.com/security/notices/USN-8002-1
+    - https://ubuntu.com/security/notices/USN-8003-1
     - https://www.cve.org/CVERecord?id=CVE-2026-21932
     - https://www.oracle.com/security-alerts/cpujan2026.html
     PublishedDate: '2026-01-20T22:15:55.793Z'
@@ -5121,14 +5150,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21945
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:976dd461288dc21e33f061649852761a9b2706dcd2458569fe18f5bd757190ad
+    Fingerprint: sha256:dc6b0d63d75a3a7ca8ab47592be5942847cae2f78d948a21335a4d2c8859144d
     Title: 'openjdk: Enhance Certificate Checking (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).'
     Severity: HIGH
@@ -5139,12 +5168,13 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0932
+    - https://access.redhat.com/errata/RHSA-2026:0933
     - https://access.redhat.com/security/cve/CVE-2026-21945
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
@@ -5156,11 +5186,19 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
-    - https://errata.almalinux.org/8/ALSA-2026-0932.html
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
     - https://errata.rockylinux.org/RLSA-2026:0932
     - https://linux.oracle.com/cve/CVE-2026-21945.html
     - https://linux.oracle.com/errata/ELSA-2026-0932.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21945
+    - https://ubuntu.com/security/notices/USN-7995-1
+    - https://ubuntu.com/security/notices/USN-7996-1
+    - https://ubuntu.com/security/notices/USN-7997-1
+    - https://ubuntu.com/security/notices/USN-7998-1
+    - https://ubuntu.com/security/notices/USN-8000-1
+    - https://ubuntu.com/security/notices/USN-8001-1
+    - https://ubuntu.com/security/notices/USN-8002-1
+    - https://ubuntu.com/security/notices/USN-8003-1
     - https://www.cve.org/CVERecord?id=CVE-2026-21945
     - https://www.oracle.com/security-alerts/cpujan2026.html
     PublishedDate: '2026-01-20T22:15:57.39Z'
@@ -5175,14 +5213,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21925
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:14364ce27fbc70891d62670f84ca436356d7bfc3f86c6264910d23c4dcf1428d
+    Fingerprint: sha256:8fdb5b2f6ffe78d371aa7d0df17243cb2b156f7728566659c12e1fd0fd996f47
     Title: 'openjdk: Improve JMX connections (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: RMI).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
@@ -5191,12 +5229,13 @@
       oracle-oval: 3
       redhat: 2
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0932
+    - https://access.redhat.com/errata/RHSA-2026:0933
     - https://access.redhat.com/security/cve/CVE-2026-21925
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
@@ -5208,11 +5247,19 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
-    - https://errata.almalinux.org/8/ALSA-2026-0932.html
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
     - https://errata.rockylinux.org/RLSA-2026:0932
     - https://linux.oracle.com/cve/CVE-2026-21925.html
     - https://linux.oracle.com/errata/ELSA-2026-0932.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21925
+    - https://ubuntu.com/security/notices/USN-7995-1
+    - https://ubuntu.com/security/notices/USN-7996-1
+    - https://ubuntu.com/security/notices/USN-7997-1
+    - https://ubuntu.com/security/notices/USN-7998-1
+    - https://ubuntu.com/security/notices/USN-8000-1
+    - https://ubuntu.com/security/notices/USN-8001-1
+    - https://ubuntu.com/security/notices/USN-8002-1
+    - https://ubuntu.com/security/notices/USN-8003-1
     - https://www.cve.org/CVERecord?id=CVE-2026-21925
     - https://www.oracle.com/security-alerts/cpujan2026.html
     PublishedDate: '2026-01-20T22:15:54.917Z'
@@ -5227,14 +5274,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21933
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0268e28b152180e233943896d0d74695bfb7ed09375ddd7a04dc8940fa15a3b3
+    Fingerprint: sha256:c9fbbd69b5cb1c36d9ec3ee98beef676583968ee41128526d43314f10d73d2c0
     Title: 'openjdk: Improve HttpServer Request handling (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).'
     Severity: MEDIUM
@@ -5243,12 +5290,13 @@
       oracle-oval: 3
       redhat: 2
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0932
+    - https://access.redhat.com/errata/RHSA-2026:0933
     - https://access.redhat.com/security/cve/CVE-2026-21933
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
@@ -5260,11 +5308,19 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
-    - https://errata.almalinux.org/8/ALSA-2026-0932.html
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
     - https://errata.rockylinux.org/RLSA-2026:0932
     - https://linux.oracle.com/cve/CVE-2026-21933.html
     - https://linux.oracle.com/errata/ELSA-2026-0932.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21933
+    - https://ubuntu.com/security/notices/USN-7995-1
+    - https://ubuntu.com/security/notices/USN-7996-1
+    - https://ubuntu.com/security/notices/USN-7997-1
+    - https://ubuntu.com/security/notices/USN-7998-1
+    - https://ubuntu.com/security/notices/USN-8000-1
+    - https://ubuntu.com/security/notices/USN-8001-1
+    - https://ubuntu.com/security/notices/USN-8002-1
+    - https://ubuntu.com/security/notices/USN-8003-1
     - https://www.cve.org/CVERecord?id=CVE-2026-21933
     - https://www.oracle.com/security-alerts/cpujan2026.html
     PublishedDate: '2026-01-20T22:15:55.917Z'
@@ -5279,19 +5335,20 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21932
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:917994cf48130b0861e262ad33a6fe53be4ca50f735799aef6c426e310af7302
+    Fingerprint: sha256:54033969dfe8e9ce94749283340601605ea5fdf00a6cea3ab796f2a842d4c025
     Title: 'openjdk: Enhance Handling of URIs (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: AWT, JavaFX).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N).'
     Severity: HIGH
     VendorSeverity:
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N
@@ -5299,6 +5356,14 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-21932
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21932
+    - https://ubuntu.com/security/notices/USN-7995-1
+    - https://ubuntu.com/security/notices/USN-7996-1
+    - https://ubuntu.com/security/notices/USN-7997-1
+    - https://ubuntu.com/security/notices/USN-7998-1
+    - https://ubuntu.com/security/notices/USN-8000-1
+    - https://ubuntu.com/security/notices/USN-8001-1
+    - https://ubuntu.com/security/notices/USN-8002-1
+    - https://ubuntu.com/security/notices/USN-8003-1
     - https://www.cve.org/CVERecord?id=CVE-2026-21932
     - https://www.oracle.com/security-alerts/cpujan2026.html
     PublishedDate: '2026-01-20T22:15:55.793Z'
@@ -5313,14 +5378,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21945
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:534cb88d70de798641c47ea33818de725788933c8d6fb4fcb08cbf465a886db3
+    Fingerprint: sha256:36011167e96db682cf5b7175fe15dcc56c26848f80486d4b9c0f218651e0a94d
     Title: 'openjdk: Enhance Certificate Checking (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).'
     Severity: HIGH
@@ -5331,12 +5396,13 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0932
+    - https://access.redhat.com/errata/RHSA-2026:0933
     - https://access.redhat.com/security/cve/CVE-2026-21945
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
@@ -5348,11 +5414,19 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
-    - https://errata.almalinux.org/8/ALSA-2026-0932.html
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
     - https://errata.rockylinux.org/RLSA-2026:0932
     - https://linux.oracle.com/cve/CVE-2026-21945.html
     - https://linux.oracle.com/errata/ELSA-2026-0932.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21945
+    - https://ubuntu.com/security/notices/USN-7995-1
+    - https://ubuntu.com/security/notices/USN-7996-1
+    - https://ubuntu.com/security/notices/USN-7997-1
+    - https://ubuntu.com/security/notices/USN-7998-1
+    - https://ubuntu.com/security/notices/USN-8000-1
+    - https://ubuntu.com/security/notices/USN-8001-1
+    - https://ubuntu.com/security/notices/USN-8002-1
+    - https://ubuntu.com/security/notices/USN-8003-1
     - https://www.cve.org/CVERecord?id=CVE-2026-21945
     - https://www.oracle.com/security-alerts/cpujan2026.html
     PublishedDate: '2026-01-20T22:15:57.39Z'
@@ -5367,14 +5441,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21925
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:d0e52e16f1bdd5ee5a673e4c43c6291b7dc3ca60681fd9efc93d287a307f0254
+    Fingerprint: sha256:cbfd5df130efc4af8e4f7272f5a36d8f1dd0993b20023d1315932347dcd165a8
     Title: 'openjdk: Improve JMX connections (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: RMI).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
@@ -5383,12 +5457,13 @@
       oracle-oval: 3
       redhat: 2
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0932
+    - https://access.redhat.com/errata/RHSA-2026:0933
     - https://access.redhat.com/security/cve/CVE-2026-21925
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
@@ -5400,11 +5475,19 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
-    - https://errata.almalinux.org/8/ALSA-2026-0932.html
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
     - https://errata.rockylinux.org/RLSA-2026:0932
     - https://linux.oracle.com/cve/CVE-2026-21925.html
     - https://linux.oracle.com/errata/ELSA-2026-0932.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21925
+    - https://ubuntu.com/security/notices/USN-7995-1
+    - https://ubuntu.com/security/notices/USN-7996-1
+    - https://ubuntu.com/security/notices/USN-7997-1
+    - https://ubuntu.com/security/notices/USN-7998-1
+    - https://ubuntu.com/security/notices/USN-8000-1
+    - https://ubuntu.com/security/notices/USN-8001-1
+    - https://ubuntu.com/security/notices/USN-8002-1
+    - https://ubuntu.com/security/notices/USN-8003-1
     - https://www.cve.org/CVERecord?id=CVE-2026-21925
     - https://www.oracle.com/security-alerts/cpujan2026.html
     PublishedDate: '2026-01-20T22:15:54.917Z'
@@ -5419,14 +5502,14 @@
     FixedVersion: 21.0.10_p7-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-21933
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:96719bd47414ba5c5c2fd708f7c93cb77ee52101cc489c6fdbda6966e6096268
+    Fingerprint: sha256:997ac2392b9d4d204861a66db47fbad60f945e481ab0903f71dcd13b0a241425
     Title: 'openjdk: Improve HttpServer Request handling (Oracle CPU 2026-01)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).'
     Severity: MEDIUM
@@ -5435,12 +5518,13 @@
       oracle-oval: 3
       redhat: 2
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0932
+    - https://access.redhat.com/errata/RHSA-2026:0933
     - https://access.redhat.com/security/cve/CVE-2026-21933
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
@@ -5452,11 +5536,19 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21925
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21933
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21945
-    - https://errata.almalinux.org/8/ALSA-2026-0932.html
+    - https://errata.almalinux.org/9/ALSA-2026-0933.html
     - https://errata.rockylinux.org/RLSA-2026:0932
     - https://linux.oracle.com/cve/CVE-2026-21933.html
     - https://linux.oracle.com/errata/ELSA-2026-0932.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-21933
+    - https://ubuntu.com/security/notices/USN-7995-1
+    - https://ubuntu.com/security/notices/USN-7996-1
+    - https://ubuntu.com/security/notices/USN-7997-1
+    - https://ubuntu.com/security/notices/USN-7998-1
+    - https://ubuntu.com/security/notices/USN-8000-1
+    - https://ubuntu.com/security/notices/USN-8001-1
+    - https://ubuntu.com/security/notices/USN-8002-1
+    - https://ubuntu.com/security/notices/USN-8003-1
     - https://www.cve.org/CVERecord?id=CVE-2026-21933
     - https://www.oracle.com/security-alerts/cpujan2026.html
     PublishedDate: '2026-01-20T22:15:55.917Z'
@@ -5471,14 +5563,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15467
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:9629bcefe1def7bd00d8f4d45982093eb37b407933aa42b3c4b9ee8b885ff6ac
+    Fingerprint: sha256:09bf20e0243343a391442ecefa76ba54c2e308ac2729004564e7020241b13b6b
     Title: 'openssl: OpenSSL: Remote code execution or Denial of Service via oversized Initialization Vector in CMS parsing'
     Description: |-
       Issue summary: Parsing CMS AuthEnvelopedData message with maliciously
@@ -5513,6 +5605,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 4
       oracle-oval: 3
       photon: 4
       redhat: 3
@@ -5524,7 +5617,7 @@
         V3Score: 9.8
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/27/10
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-15467
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -5562,7 +5655,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
@@ -5587,14 +5680,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69419
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:476dbaa839b7aa9ee70a3376dbc98706c4e20316c9ad9524ec4d5569a5888611
+    Fingerprint: sha256:e62523b6b44d2745c720294fa98377e2d13e1b12d0177c596cd816cebb5977f9
     Title: 'openssl: OpenSSL: Arbitrary code execution due to out-of-bounds write in PKCS#12 processing'
     Description: |-
       Issue summary: Calling PKCS12_get_friendlyname() function on a maliciously
@@ -5635,6 +5728,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 3
       oracle-oval: 3
       photon: 3
       redhat: 2
@@ -5645,7 +5739,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-69419
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -5683,7 +5777,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
@@ -5709,15 +5803,15 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69421
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:1dec936ad7f27147e58eb73e53125c2c0e6adc8a1b5caf2af487c22bdc62e3d0
+    Fingerprint: sha256:15f60dd886857287c04955b13e981c8464578c7d8453665928a6c4d6e0f06c11
     Title: 'openssl: OpenSSL: Denial of Service via malformed PKCS#12 file processing'
     Description: |-
       Issue summary: Processing a malformed PKCS#12 file can trigger a NULL pointer
@@ -5745,6 +5839,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -5759,7 +5854,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-69421
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -5797,7 +5892,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
@@ -5823,14 +5918,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-11187
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:dbae927214f334af4b7180906d5dbc0203b7699816c46a2f7c30c3e5406b6f4d
+    Fingerprint: sha256:befa8dd1666ca9b7eb94a7b4e6031bd58fbdec2e8bda1dcc34f48a99ea97102e
     Title: 'openssl: OpenSSL: Arbitrary code execution or denial of service through crafted PKCS#12 file'
     Description: |-
       Issue summary: PBMAC1 parameters in PKCS#12 files are missing validation
@@ -5878,7 +5973,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:H
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-11187
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -5916,7 +6011,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
@@ -5939,14 +6034,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15468
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:136199a8f16a5c52fb267c677d863420e617746eecb1c7d818d01bdb5164dd1d
+    Fingerprint: sha256:51c2b4ef0381f20edb3fed92abc2674f14a1069d847ec8cbc4884a2e6af190a3
     Title: 'openssl: OpenSSL: Denial of Service via NULL pointer dereference in QUIC protocol handling'
     Description: |-
       Issue summary: If an application using the SSL_CIPHER_find() function in
@@ -5979,6 +6074,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -5989,7 +6085,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-15468
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -6027,7 +6123,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
@@ -6051,14 +6147,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15469
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:fe55abcb7c445ea40954604d811e0196a117cb10bc96f9c286d2ec1f4b589957
+    Fingerprint: sha256:9049ae7e39bb6a8c97f3956e1eb16ee380e22401ce890d58598c2a56d4546ef8
     Title: 'openssl: OpenSSL: Data integrity bypass in `openssl dgst` command due to silent truncation'
     Description: |-
       Issue summary: The 'openssl dgst' command-line tool silently truncates input
@@ -6104,7 +6200,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-15469
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -6142,7 +6238,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
@@ -6164,14 +6260,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66199
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:3124f1c43a376a0550d0044119d8278e66bd44333dbe6cd23f68f104b0271c57
+    Fingerprint: sha256:d9e08bb1b15a4ef2cf4f6fbec4f6621d6fbed43b66472eb02f7662d2fae2a808
     Title: 'openssl: OpenSSL: Denial of Service due to excessive memory allocation in TLS 1.3 certificate compression'
     Description: |-
       Issue summary: A TLS 1.3 connection using certificate compression can be
@@ -6211,6 +6307,7 @@
     - CWE-789
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -6221,7 +6318,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-66199
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -6259,7 +6356,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
@@ -6283,14 +6380,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68160
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:729bcf354be50f595791f40038aae01ecd81b6cf00850bf745261454efbd3749
+    Fingerprint: sha256:de0e367f1151e84686c9d8e56fbd232f812e69cee1f9a1c433ec10c98eea1b84
     Title: 'openssl: OpenSSL: Denial of Service due to out-of-bounds write in BIO filter'
     Description: |-
       Issue summary: Writing large, newline-free data into a BIO chain using the
@@ -6319,6 +6416,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -6329,7 +6427,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 4.7
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-68160
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -6367,7 +6465,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
@@ -6393,14 +6491,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69418
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:b2a0df0b6cd90eb64f4c45a5e3291f749f2dec49ad4b7ec384573a30100fd7a7
+    Fingerprint: sha256:9a5e22dc9ee5a6325767bdd6abb70313c77ceebe4b84842237fdd04bf004705d
     Title: 'openssl: OpenSSL: Information disclosure and data tampering via specific low-level OCB encryption/decryption calls'
     Description: 'Issue summary: When using the low-level OCB API directly with AES-NI or<br>other hardware-accelerated code paths, inputs whose length is not a multiple<br>of 16 bytes can leave the final partial block unencrypted and unauthenticated.<br><br>Impact summary: The trailing 1-15 bytes of a message may be exposed in<br>cleartext on encryption and are not covered by the authentication tag,<br>allowing an attacker to read or tamper with those bytes without detection.<br><br>The low-level OCB encrypt and decrypt routines in the hardware-accelerated<br>stream path process full 16-byte blocks but do not advance the input/output<br>pointers. The subsequent tail-handling code then operates on the original<br>base pointers, effectively reprocessing the beginning of the buffer while<br>leaving the actual trailing bytes unprocessed. The authentication checksum<br>also excludes the true tail bytes.<br><br>However, typical OpenSSL consumers using EVP are not affected because the<br>higher-level EVP and provider OCB implementations split inputs so that full<br>blocks and trailing partial blocks are processed in separate calls, avoiding<br>the problematic code path. Additionally, TLS does not use OCB ciphersuites.<br>The vulnerability only affects applications that call the low-level<br>CRYPTO_ocb128_encrypt() or CRYPTO_ocb128_decrypt() functions directly with<br>non-block-aligned lengths in a single call on hardware-accelerated builds.<br>For these reasons the issue was assessed as Low severity.<br><br>The FIPS modules in 3.6, 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected<br>by this issue, as OCB mode is not a FIPS-approved algorithm.<br><br>OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.<br><br>OpenSSL 1.0.2 is not affected by this issue.'
     Severity: MEDIUM
@@ -6408,6 +6506,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -6418,7 +6517,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-69418
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -6456,7 +6555,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
@@ -6482,14 +6581,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-69420
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f11d31a5f483172a9b40e0961f84db0cc03c2e8b547dd2123c579b72eda5307a
+    Fingerprint: sha256:24c3bc4be088ff7a9288b800d25f952fe89fdb358c1aa0f358b7687d7d15f0de
     Title: 'openssl: OpenSSL: Denial of Service via malformed TimeStamp Response'
     Description: |-
       Issue summary: A type confusion vulnerability exists in the TimeStamp Response
@@ -6524,6 +6623,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 3
       redhat: 1
@@ -6534,7 +6634,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-69420
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -6572,7 +6672,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
@@ -6598,14 +6698,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22795
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:7bcb83f4d096621d4f9f0e30f705a2078b7dd4b0e2e28df7e280dc6603269449
+    Fingerprint: sha256:48590086522bdc105f5785bc47b9abd64e20e769ccc06f22f0a03e6657c6e888
     Title: 'openssl: OpenSSL: Denial of Service due to type confusion in PKCS#12 file processing'
     Description: |-
       Issue summary: An invalid or NULL pointer dereference can happen in
@@ -6640,6 +6740,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -6650,7 +6751,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2026-22795
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -6688,7 +6789,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
@@ -6714,14 +6815,14 @@
     FixedVersion: 3.5.5-r0
     Status: fixed
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22796
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:09217cf425aa03604835a8e88f783568408541e663bee15d645a21aa55dfcdf0
+    Fingerprint: sha256:fcc67c02fd24017d215a522bbdca695b12e1a39f29b2e37a3edf7b2752b2e36c
     Title: 'openssl: OpenSSL: Denial of Service via type confusion in PKCS#7 signature verification'
     Description: |-
       Issue summary: A type confusion vulnerability exists in the signature
@@ -6755,6 +6856,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -6765,7 +6867,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:1472
+    - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2026-22796
     - https://bugzilla.redhat.com/2430375
     - https://bugzilla.redhat.com/2430376
@@ -6803,7 +6905,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-69421
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
-    - https://errata.almalinux.org/10/ALSA-2026-1472.html
+    - https://errata.almalinux.org/9/ALSA-2026-1473.html
     - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
@@ -6829,8 +6931,8 @@
       UID: 58b3f59746021d4b
     Version: '2.20'
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.fasterxml.jackson.core:jackson-core
@@ -6839,8 +6941,8 @@
       UID: 1996e2d8cd1022b9
     Version: 2.20.1
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.fasterxml.jackson.core:jackson-databind
@@ -6849,8 +6951,8 @@
       UID: 6c556f8b9b0117ec
     Version: 2.20.1
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.fasterxml.jackson.dataformat:jackson-dataformat-toml
@@ -6859,8 +6961,8 @@
       UID: cd502bd403e61f97
     Version: 2.19.2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.github.bbottema:java-socks-proxy-server
@@ -6869,8 +6971,8 @@
       UID: 44bca168140e1b53
     Version: 2.2.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/SocksServer/java-socks-proxy-server-2.2.0.jar
     AnalyzedBy: jar
   - Name: com.github.mwiede:jsch
@@ -6879,8 +6981,8 @@
       UID: 7c5f9c834d8395f
     Version: 2.27.6
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.github.vertical-blank:sql-formatter
@@ -6889,8 +6991,8 @@
       UID: b476ea318a48e65d
     Version: 2.0.5
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.google.code.gson:gson
@@ -6899,8 +7001,8 @@
       UID: 55058bf256f684f6
     Version: 2.13.2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.googlecode.juniversalchardet:juniversalchardet
@@ -6909,8 +7011,8 @@
       UID: 5447189855b6db87
     Version: 1.0.3
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.connector-factory
@@ -6919,8 +7021,8 @@
       UID: a99fffa9ec19f7cf
     Version: 0.0.9
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.core
@@ -6929,8 +7031,8 @@
       UID: afb96fc5c6b4a255
     Version: 0.0.9
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.jsch
@@ -6939,8 +7041,8 @@
       UID: 8066e61c44eb14ea
     Version: 0.0.9
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.pageant
@@ -6949,8 +7051,8 @@
       UID: c0284278b99b17bc
     Version: 0.0.9
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.sshagent
@@ -6959,8 +7061,8 @@
       UID: bd9e5fa40773f9dc
     Version: 0.0.9
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2
@@ -6969,8 +7071,8 @@
       UID: 4bc35c3b9b6add62
     Version: 0.0.9
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.usocket-jna
@@ -6979,8 +7081,8 @@
       UID: c30290a3390d8666
     Version: 0.0.9
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.usocket-nc
@@ -6989,8 +7091,8 @@
       UID: 48390e4cf4a3666a
     Version: 0.0.9
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.sun.activation:javax.activation
@@ -6999,8 +7101,8 @@
       UID: 76398eb1d6d13adc
     Version: 1.2.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.sun.mail:javax.mail
@@ -7009,8 +7111,8 @@
       UID: 1e7beb37baabc57a
     Version: 1.6.2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.warrenstrange:googleauth
@@ -7019,8 +7121,8 @@
       UID: 99ee628fb0243c8d
     Version: 1.5.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-cli:commons-cli
@@ -7029,8 +7131,8 @@
       UID: 3475d2ee4b04dbe0
     Version: 1.11.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-codec:commons-codec
@@ -7039,8 +7141,8 @@
       UID: 7de4c84c0e3f3115
     Version: 1.20.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-io:commons-io
@@ -7049,8 +7151,8 @@
       UID: 2061cef217097cbb
     Version: 2.21.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-logging:commons-logging
@@ -7059,8 +7161,8 @@
       UID: 8120d86e07931c92
     Version: 1.3.5
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-net:commons-net
@@ -7069,8 +7171,8 @@
       UID: f30479acbb8d626f
     Version: 3.12.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: de.vandermeer:asciilist-j7
@@ -7079,8 +7181,8 @@
       UID: 5d38f221ce7d2a1
     Version: 1.0.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: de.vandermeer:asciitable-j7
@@ -7089,8 +7191,8 @@
       UID: 4ec0aaacbd72cc14
     Version: 1.0.1
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: dnsjava:dnsjava
@@ -7099,8 +7201,8 @@
       UID: 5943d2f91aeed918
     Version: 3.6.3
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-api
@@ -7109,8 +7211,8 @@
       UID: fe506a80a2899a4a
     Version: 0.13.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-gson
@@ -7119,8 +7221,8 @@
       UID: cc7c47a353e36bec
     Version: 0.13.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-impl
@@ -7129,8 +7231,8 @@
       UID: fb75cc968ac3dc0d
     Version: 0.13.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: io.sigpipe:jbsdiff
@@ -7139,8 +7241,8 @@
       UID: e618a95843fba36b
     Version: '1.0'
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: jakarta.activation:jakarta.activation-api
@@ -7149,8 +7251,8 @@
       UID: 5d2ee0e1a121653f
     Version: 1.2.2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: javax.xml.bind:jaxb-api
@@ -7159,8 +7261,8 @@
       UID: d465243f613cf5b8
     Version: 2.3.1
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: jline:jline
@@ -7169,8 +7271,8 @@
       UID: 509c1c4b5bcd42a1
     Version: 2.14.6
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-collections4
@@ -7179,8 +7281,8 @@
       UID: 72513cdccf1d063
     Version: 4.5.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-compress
@@ -7189,8 +7291,8 @@
       UID: a82eeb62843349ae
     Version: 1.28.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-csv
@@ -7199,8 +7301,8 @@
       UID: 250a69832ed56f8d
     Version: 1.14.1
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-email
@@ -7209,8 +7311,8 @@
       UID: 973048c510561123
     Version: 1.6.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-lang3
@@ -7219,8 +7321,8 @@
       UID: f267aeee188ae905
     Version: 3.19.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-math3
@@ -7229,8 +7331,8 @@
       UID: ce9b8a6c7e85850
     Version: 3.6.1
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.compression:jetty-compression-common
@@ -7239,8 +7341,8 @@
       UID: f37e5e834b4a703f
     Version: 12.1.4
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-core-client
@@ -7249,8 +7351,8 @@
       UID: 580e7ee2f5e0631d
     Version: 12.1.4
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-core-common
@@ -7259,8 +7361,8 @@
       UID: e7b817f228319546
     Version: 12.1.4
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-api
@@ -7269,8 +7371,8 @@
       UID: 884cadec5b8bc19f
     Version: 12.1.4
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-client
@@ -7279,8 +7381,8 @@
       UID: 35d5b28501b6a385
     Version: 12.1.4
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-common
@@ -7289,8 +7391,8 @@
       UID: 82dbeb6fdddb95cf
     Version: 12.1.4
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-client
@@ -7299,8 +7401,8 @@
       UID: 7786ea18dd55a07c
     Version: 12.1.3
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-http
@@ -7309,8 +7411,8 @@
       UID: ca9ccff3501f06b9
     Version: 12.1.4
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-io
@@ -7319,8 +7421,8 @@
       UID: f8351b3bbf480fcd
     Version: 12.1.3
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-util
@@ -7329,8 +7431,8 @@
       UID: 9c4d92131b8724cc
     Version: 12.1.3
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.hawtjni:hawtjni-runtime
@@ -7339,8 +7441,8 @@
       UID: cf88955c9d0ae18b
     Version: '1.17'
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi
@@ -7349,8 +7451,8 @@
       UID: 8ad8d3ab8ae11065
     Version: '1.18'
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-freebsd32
@@ -7359,8 +7461,8 @@
       UID: 87b73bc3f694180c
     Version: '1.8'
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-freebsd64
@@ -7369,8 +7471,8 @@
       UID: 68d99c3788225531
     Version: '1.8'
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-linux32
@@ -7379,8 +7481,8 @@
       UID: b748a87749ace306
     Version: '1.8'
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-linux64
@@ -7389,8 +7491,8 @@
       UID: 26eee13eafbc9417
     Version: '1.8'
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-native
@@ -7399,8 +7501,8 @@
       UID: 6fdce73a584d6707
     Version: '1.8'
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-osx
@@ -7409,8 +7511,8 @@
       UID: 907023130116e83c
     Version: '1.8'
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-windows32
@@ -7419,8 +7521,8 @@
       UID: ab926f311d1d4210
     Version: '1.8'
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-windows64
@@ -7429,8 +7531,8 @@
       UID: edf1cd987a2068b8
     Version: '1.8'
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.projectlombok:lombok
@@ -7439,8 +7541,8 @@
       UID: 2d55df6eda708744
     Version: 1.18.42
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/SocksServer/lombok-1.18.42.jar
     AnalyzedBy: jar
   - Name: org.semver4j:semver4j
@@ -7449,8 +7551,8 @@
       UID: 452bf269462d8b69
     Version: 6.0.0
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.slf4j:slf4j-api
@@ -7459,8 +7561,8 @@
       UID: e6e431b8b5e0302a
     Version: 2.0.17
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.slf4j:slf4j-nop
@@ -7469,8 +7571,8 @@
       UID: 67713c09148cf9b
     Version: 2.0.17
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.snmp4j:snmp4j
@@ -7479,8 +7581,8 @@
       UID: fc06219dfaa6f987
     Version: 3.9.6
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.snmp4j:snmp4j-agent
@@ -7489,7 +7591,7 @@
       UID: 8910657e688649b8
     Version: 3.8.2
     Layer:
-      Digest: sha256:4bf5ed510fcd4b377e34058b6f80f903fda5f616da0c91a8c09bfb9ebdab718f
-      DiffID: sha256:5b6e98021d347ff3855de8ead98dc3133aedfe0904a5083f8e6b21dc742a241d
+      Digest: sha256:3b16f70d268824e996788e9cc9ff745bddb4169bda41c9a017a0dd04c0a4a13c
+      DiffID: sha256:ea28287df221b72a59029686350025b169b741a77a932cc1fd1295d220dc28e5
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
