@@ -2279,6 +2279,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 4
       oracle-oval: 3
       photon: 4
@@ -2330,7 +2331,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
     - https://github.com/openssl/openssl/commit/6ced0fe6b10faa560e410e3ee8d6c82f06c65ea3
@@ -2452,7 +2453,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
     - https://github.com/openssl/openssl/commit/a26a90d38edec3748566129d824e664b54bee2e2
@@ -2567,7 +2568,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
     - https://github.com/openssl/openssl/commit/4bbc8d41a72c842ce4077a8a3eccd1109aaf74bd
@@ -2686,7 +2687,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
     - https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e
@@ -2798,7 +2799,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
     - https://github.com/openssl/openssl/commit/b2539639400288a4580fe2d76247541b976bade4
@@ -2913,7 +2914,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
     - https://linux.oracle.com/cve/CVE-2025-15469.html
@@ -3031,7 +3032,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
     - https://github.com/openssl/openssl/commit/895150b5e021d16b52fb32b97e1dd12f20448be5
@@ -3140,7 +3141,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
     - https://github.com/openssl/openssl/commit/4c96fbba618e1940f038012506ee9e21d32ee12c
@@ -3230,7 +3231,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
     - https://github.com/openssl/openssl/commit/52d23c86a54adab5ee9f80e48b242b52c4cc2347
@@ -3347,7 +3348,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
     - https://github.com/openssl/openssl/commit/564fd9c73787f25693bf9e75faf7bf6bb1305d4e
@@ -3464,7 +3465,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -3580,7 +3581,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -3620,6 +3621,8 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      amazon: 2
+      cbl-mariner: 2
       nvd: 3
       redhat: 2
       ubuntu: 2
@@ -3668,6 +3671,8 @@
     - CWE-125
     - CWE-190
     VendorSeverity:
+      amazon: 2
+      cbl-mariner: 2
       nvd: 3
       redhat: 2
       ubuntu: 2
@@ -3739,6 +3744,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 4
       oracle-oval: 3
       photon: 4
@@ -3790,7 +3796,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
     - https://github.com/openssl/openssl/commit/6ced0fe6b10faa560e410e3ee8d6c82f06c65ea3
@@ -3912,7 +3918,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
     - https://github.com/openssl/openssl/commit/a26a90d38edec3748566129d824e664b54bee2e2
@@ -4027,7 +4033,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
     - https://github.com/openssl/openssl/commit/4bbc8d41a72c842ce4077a8a3eccd1109aaf74bd
@@ -4146,7 +4152,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
     - https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e
@@ -4258,7 +4264,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
     - https://github.com/openssl/openssl/commit/b2539639400288a4580fe2d76247541b976bade4
@@ -4373,7 +4379,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
     - https://linux.oracle.com/cve/CVE-2025-15469.html
@@ -4491,7 +4497,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
     - https://github.com/openssl/openssl/commit/895150b5e021d16b52fb32b97e1dd12f20448be5
@@ -4600,7 +4606,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
     - https://github.com/openssl/openssl/commit/4c96fbba618e1940f038012506ee9e21d32ee12c
@@ -4690,7 +4696,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
     - https://github.com/openssl/openssl/commit/52d23c86a54adab5ee9f80e48b242b52c4cc2347
@@ -4807,7 +4813,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
     - https://github.com/openssl/openssl/commit/564fd9c73787f25693bf9e75faf7bf6bb1305d4e
@@ -4924,7 +4930,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -5040,7 +5046,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -5079,6 +5085,8 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 3
+      cbl-mariner: 1
       photon: 3
       redhat: 1
       ubuntu: 2
@@ -5119,6 +5127,7 @@
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: AWT, JavaFX).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N).'
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -5165,6 +5174,7 @@
     - CWE-400
     VendorSeverity:
       alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -5226,6 +5236,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -5287,6 +5298,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -5347,6 +5359,7 @@
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: AWT, JavaFX).  Supported versions that are affected are Oracle Java SE: 8u471, 8u471-b50, 8u471-perf, 11.0.29, 17.0.17, 21.0.9, 25.0.1; Oracle GraalVM for JDK: 17.0.17 and  21.0.9; Oracle GraalVM Enterprise Edition: 21.3.16. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N).'
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -5393,6 +5406,7 @@
     - CWE-400
     VendorSeverity:
       alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -5454,6 +5468,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -5515,6 +5530,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -5605,6 +5621,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 4
       oracle-oval: 3
       photon: 4
@@ -5656,7 +5673,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
     - https://github.com/openssl/openssl/commit/6ced0fe6b10faa560e410e3ee8d6c82f06c65ea3
@@ -5778,7 +5795,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
     - https://github.com/openssl/openssl/commit/a26a90d38edec3748566129d824e664b54bee2e2
@@ -5893,7 +5910,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
     - https://github.com/openssl/openssl/commit/4bbc8d41a72c842ce4077a8a3eccd1109aaf74bd
@@ -6012,7 +6029,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
     - https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e
@@ -6124,7 +6141,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
     - https://github.com/openssl/openssl/commit/b2539639400288a4580fe2d76247541b976bade4
@@ -6239,7 +6256,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
     - https://linux.oracle.com/cve/CVE-2025-15469.html
@@ -6357,7 +6374,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
     - https://github.com/openssl/openssl/commit/895150b5e021d16b52fb32b97e1dd12f20448be5
@@ -6466,7 +6483,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
     - https://github.com/openssl/openssl/commit/4c96fbba618e1940f038012506ee9e21d32ee12c
@@ -6556,7 +6573,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
     - https://github.com/openssl/openssl/commit/52d23c86a54adab5ee9f80e48b242b52c4cc2347
@@ -6673,7 +6690,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
     - https://github.com/openssl/openssl/commit/564fd9c73787f25693bf9e75faf7bf6bb1305d4e
@@ -6790,7 +6807,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -6906,7 +6923,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
