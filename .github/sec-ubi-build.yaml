@@ -35534,6 +35534,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -35571,6 +35572,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -35608,6 +35610,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -35645,6 +35648,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
     CVSS:
@@ -35874,6 +35878,7 @@
       unintentionally disable the feature for other threads as well.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       photon: 2
       redhat: 2
@@ -36446,10 +36451,12 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      azure: 1
       cbl-mariner: 1
       nvd: 1
       photon: 4
       redhat: 1
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
@@ -36461,6 +36468,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-24515
     - https://github.com/libexpat/libexpat/pull/1131
     - https://nvd.nist.gov/vuln/detail/CVE-2026-24515
+    - https://ubuntu.com/security/notices/USN-8022-1
+    - https://ubuntu.com/security/notices/USN-8023-1
     - https://www.cve.org/CVERecord?id=CVE-2026-24515
     PublishedDate: '2026-01-23T08:16:01.49Z'
     LastModifiedDate: '2026-02-05T17:27:53.29Z'
@@ -36611,6 +36620,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      azure: 1
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -36880,6 +36890,7 @@
     - CWE-908
     VendorSeverity:
       alma: 2
+      azure: 1
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -36931,6 +36942,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -36973,6 +36985,7 @@
     - CWE-190
     VendorSeverity:
       alma: 2
+      azure: 2
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -37025,6 +37038,7 @@
     - CWE-908
     VendorSeverity:
       alma: 2
+      azure: 1
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -37076,6 +37090,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -37118,6 +37133,7 @@
     - CWE-190
     VendorSeverity:
       alma: 2
+      azure: 2
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -37170,6 +37186,7 @@
     - CWE-908
     VendorSeverity:
       alma: 2
+      azure: 1
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -37221,6 +37238,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -37263,6 +37281,7 @@
     - CWE-190
     VendorSeverity:
       alma: 2
+      azure: 2
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -37474,6 +37493,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 1
     CVSS:
@@ -37540,7 +37560,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/9/ALSA-2026-0238.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.rockylinux.org/RLSA-2026:0237
     - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
     - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
     - https://github.com/pnggroup/libpng/issues/764
@@ -37648,7 +37668,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -37732,6 +37752,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -37769,6 +37790,7 @@
     - CWE-125
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       nvd: 3
       redhat: 2
@@ -37814,6 +37836,7 @@
     - CWE-190
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       nvd: 3
       redhat: 2
@@ -37893,6 +37916,7 @@
     - CWE-400
     - CWE-835
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       photon: 2
       redhat: 2
@@ -38160,18 +38184,20 @@
     - https://access.redhat.com/errata/RHSA-2026:1696
     - https://access.redhat.com/errata/RHSA-2026:1852
     - https://access.redhat.com/errata/RHSA-2026:1913
+    - https://access.redhat.com/errata/RHSA-2026:2485
+    - https://access.redhat.com/errata/RHSA-2026:2563
     - https://access.redhat.com/security/cve/CVE-2025-14104
     - https://bugzilla.redhat.com/2419369
     - https://bugzilla.redhat.com/show_bug.cgi?id=2419369
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14104
     - https://errata.almalinux.org/9/ALSA-2026-1913.html
-    - https://errata.rockylinux.org/RLSA-2026:1913
+    - https://errata.rockylinux.org/RLSA-2026:1696
     - https://linux.oracle.com/cve/CVE-2025-14104.html
     - https://linux.oracle.com/errata/ELSA-2026-1913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14104
     - https://www.cve.org/CVERecord?id=CVE-2025-14104
     PublishedDate: '2025-12-05T17:16:03.117Z'
-    LastModifiedDate: '2026-02-04T20:16:02.57Z'
+    LastModifiedDate: '2026-02-11T15:16:12.893Z'
   - VulnerabilityID: CVE-2025-14017
     PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: libcurl-minimal
@@ -38196,6 +38222,7 @@
       unintentionally disable the feature for other threads as well.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       photon: 2
       redhat: 2
@@ -38791,18 +38818,20 @@
     - https://access.redhat.com/errata/RHSA-2026:1696
     - https://access.redhat.com/errata/RHSA-2026:1852
     - https://access.redhat.com/errata/RHSA-2026:1913
+    - https://access.redhat.com/errata/RHSA-2026:2485
+    - https://access.redhat.com/errata/RHSA-2026:2563
     - https://access.redhat.com/security/cve/CVE-2025-14104
     - https://bugzilla.redhat.com/2419369
     - https://bugzilla.redhat.com/show_bug.cgi?id=2419369
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14104
     - https://errata.almalinux.org/9/ALSA-2026-1913.html
-    - https://errata.rockylinux.org/RLSA-2026:1913
+    - https://errata.rockylinux.org/RLSA-2026:1696
     - https://linux.oracle.com/cve/CVE-2025-14104.html
     - https://linux.oracle.com/errata/ELSA-2026-1913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14104
     - https://www.cve.org/CVERecord?id=CVE-2025-14104
     PublishedDate: '2025-12-05T17:16:03.117Z'
-    LastModifiedDate: '2026-02-04T20:16:02.57Z'
+    LastModifiedDate: '2026-02-11T15:16:12.893Z'
   - VulnerabilityID: CVE-2023-24056
     PkgID: libpkgconf@1.7.3-10.el9.x86_64
     PkgName: libpkgconf
@@ -38878,18 +38907,20 @@
     - https://access.redhat.com/errata/RHSA-2026:1696
     - https://access.redhat.com/errata/RHSA-2026:1852
     - https://access.redhat.com/errata/RHSA-2026:1913
+    - https://access.redhat.com/errata/RHSA-2026:2485
+    - https://access.redhat.com/errata/RHSA-2026:2563
     - https://access.redhat.com/security/cve/CVE-2025-14104
     - https://bugzilla.redhat.com/2419369
     - https://bugzilla.redhat.com/show_bug.cgi?id=2419369
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14104
     - https://errata.almalinux.org/9/ALSA-2026-1913.html
-    - https://errata.rockylinux.org/RLSA-2026:1913
+    - https://errata.rockylinux.org/RLSA-2026:1696
     - https://linux.oracle.com/cve/CVE-2025-14104.html
     - https://linux.oracle.com/errata/ELSA-2026-1913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14104
     - https://www.cve.org/CVERecord?id=CVE-2025-14104
     PublishedDate: '2025-12-05T17:16:03.117Z'
-    LastModifiedDate: '2026-02-04T20:16:02.57Z'
+    LastModifiedDate: '2026-02-11T15:16:12.893Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++@11.5.0-11.el9.x86_64
     PkgName: libstdc++
@@ -38957,6 +38988,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 3
+      azure: 1
       cbl-mariner: 1
       photon: 3
       redhat: 1
@@ -38972,6 +39004,7 @@
     - https://gitlab.com/gnutls/libtasn1/-/merge_requests/121
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13151
     - https://ubuntu.com/security/notices/USN-7954-1
+    - https://ubuntu.com/security/notices/USN-7954-2
     - https://www.cve.org/CVERecord?id=CVE-2025-13151
     - https://www.kb.cert.org/vuls/id/271649
     PublishedDate: '2026-01-07T22:15:43.2Z'
@@ -39011,18 +39044,20 @@
     - https://access.redhat.com/errata/RHSA-2026:1696
     - https://access.redhat.com/errata/RHSA-2026:1852
     - https://access.redhat.com/errata/RHSA-2026:1913
+    - https://access.redhat.com/errata/RHSA-2026:2485
+    - https://access.redhat.com/errata/RHSA-2026:2563
     - https://access.redhat.com/security/cve/CVE-2025-14104
     - https://bugzilla.redhat.com/2419369
     - https://bugzilla.redhat.com/show_bug.cgi?id=2419369
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14104
     - https://errata.almalinux.org/9/ALSA-2026-1913.html
-    - https://errata.rockylinux.org/RLSA-2026:1913
+    - https://errata.rockylinux.org/RLSA-2026:1696
     - https://linux.oracle.com/cve/CVE-2025-14104.html
     - https://linux.oracle.com/errata/ELSA-2026-1913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14104
     - https://www.cve.org/CVERecord?id=CVE-2025-14104
     PublishedDate: '2025-12-05T17:16:03.117Z'
-    LastModifiedDate: '2026-02-04T20:16:02.57Z'
+    LastModifiedDate: '2026-02-11T15:16:12.893Z'
   - VulnerabilityID: CVE-2026-0990
     PkgID: libxml2@2.9.13-14.el9_7.x86_64
     PkgName: libxml2
@@ -40858,6 +40893,7 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -41129,7 +41165,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -41222,6 +41258,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -41266,6 +41303,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -41416,6 +41454,7 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -41687,7 +41726,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -41780,6 +41819,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -41824,6 +41864,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -41974,6 +42015,7 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -42245,7 +42287,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -42338,6 +42380,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -42382,6 +42425,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
