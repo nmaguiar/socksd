@@ -35536,6 +35536,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -35573,6 +35574,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -35610,6 +35612,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -35647,6 +35650,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
     CVSS:
@@ -35876,6 +35880,7 @@
       unintentionally disable the feature for other threads as well.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       photon: 2
       redhat: 2
@@ -35932,7 +35937,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -35952,7 +35957,7 @@
     - https://curl.se/docs/CVE-2025-9086.json
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
     - https://errata.almalinux.org/9/ALSA-2026-1350.html
-    - https://errata.rockylinux.org/RLSA-2026:1350
+    - https://errata.rockylinux.org/RLSA-2026:1825
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
@@ -36518,10 +36523,12 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      azure: 1
       cbl-mariner: 1
       nvd: 1
       photon: 4
       redhat: 1
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
@@ -36533,6 +36540,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-24515
     - https://github.com/libexpat/libexpat/pull/1131
     - https://nvd.nist.gov/vuln/detail/CVE-2026-24515
+    - https://ubuntu.com/security/notices/USN-8022-1
+    - https://ubuntu.com/security/notices/USN-8023-1
     - https://www.cve.org/CVERecord?id=CVE-2026-24515
     PublishedDate: '2026-01-23T08:16:01.49Z'
     LastModifiedDate: '2026-02-05T17:27:53.29Z'
@@ -36632,22 +36641,25 @@
     - https://access.redhat.com/errata/RHSA-2026:1627
     - https://access.redhat.com/errata/RHSA-2026:1652
     - https://access.redhat.com/errata/RHSA-2026:1736
+    - https://access.redhat.com/errata/RHSA-2026:2072
+    - https://access.redhat.com/errata/RHSA-2026:2485
+    - https://access.redhat.com/errata/RHSA-2026:2563
     - https://access.redhat.com/security/cve/CVE-2025-13601
     - https://bugzilla.redhat.com/2416741
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416741
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13601
     - https://errata.almalinux.org/9/ALSA-2026-0936.html
-    - https://errata.rockylinux.org/RLSA-2026:0936
+    - https://errata.rockylinux.org/RLSA-2026:0975
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3827
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4914
     - https://linux.oracle.com/cve/CVE-2025-13601.html
-    - https://linux.oracle.com/errata/ELSA-2026-0991.html
+    - https://linux.oracle.com/errata/ELSA-2026-1608.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13601
     - https://ubuntu.com/security/notices/USN-7942-1
     - https://ubuntu.com/security/notices/USN-7942-2
     - https://www.cve.org/CVERecord?id=CVE-2025-13601
     PublishedDate: '2025-11-26T15:15:51.723Z'
-    LastModifiedDate: '2026-02-06T19:19:25.343Z'
+    LastModifiedDate: '2026-02-11T15:16:12.64Z'
   - VulnerabilityID: CVE-2025-14087
     PkgID: glib2@2.68.4-18.el9_7.x86_64
     PkgName: glib2
@@ -36751,6 +36763,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      azure: 1
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -37020,6 +37033,7 @@
     - CWE-908
     VendorSeverity:
       alma: 2
+      azure: 1
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -37071,6 +37085,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -37113,6 +37128,7 @@
     - CWE-190
     VendorSeverity:
       alma: 2
+      azure: 2
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -37165,6 +37181,7 @@
     - CWE-908
     VendorSeverity:
       alma: 2
+      azure: 1
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -37216,6 +37233,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -37258,6 +37276,7 @@
     - CWE-190
     VendorSeverity:
       alma: 2
+      azure: 2
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -37310,6 +37329,7 @@
     - CWE-908
     VendorSeverity:
       alma: 2
+      azure: 1
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -37361,6 +37381,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -37403,6 +37424,7 @@
     - CWE-190
     VendorSeverity:
       alma: 2
+      azure: 2
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -37614,6 +37636,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 1
     CVSS:
@@ -37655,7 +37678,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -37677,7 +37700,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/9/ALSA-2026-0933.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.rockylinux.org/RLSA-2026:0237
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643 (v1.6.51)
     - https://github.com/pnggroup/libpng/issues/686
@@ -37738,7 +37761,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/9/ALSA-2026-0933.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.rockylinux.org/RLSA-2026:0237
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d (v1.6.51)
     - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
@@ -37803,7 +37826,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/9/ALSA-2026-0238.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.rockylinux.org/RLSA-2026:0237
     - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
     - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
     - https://github.com/pnggroup/libpng/issues/764
@@ -37974,7 +37997,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -38180,6 +38203,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -38217,6 +38241,7 @@
     - CWE-125
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       nvd: 3
       redhat: 2
@@ -38262,6 +38287,7 @@
     - CWE-190
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       nvd: 3
       redhat: 2
@@ -38341,6 +38367,7 @@
     - CWE-400
     - CWE-835
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       photon: 2
       redhat: 2
@@ -38608,18 +38635,20 @@
     - https://access.redhat.com/errata/RHSA-2026:1696
     - https://access.redhat.com/errata/RHSA-2026:1852
     - https://access.redhat.com/errata/RHSA-2026:1913
+    - https://access.redhat.com/errata/RHSA-2026:2485
+    - https://access.redhat.com/errata/RHSA-2026:2563
     - https://access.redhat.com/security/cve/CVE-2025-14104
     - https://bugzilla.redhat.com/2419369
     - https://bugzilla.redhat.com/show_bug.cgi?id=2419369
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14104
     - https://errata.almalinux.org/9/ALSA-2026-1913.html
-    - https://errata.rockylinux.org/RLSA-2026:1913
+    - https://errata.rockylinux.org/RLSA-2026:1696
     - https://linux.oracle.com/cve/CVE-2025-14104.html
     - https://linux.oracle.com/errata/ELSA-2026-1913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14104
     - https://www.cve.org/CVERecord?id=CVE-2025-14104
     PublishedDate: '2025-12-05T17:16:03.117Z'
-    LastModifiedDate: '2026-02-04T20:16:02.57Z'
+    LastModifiedDate: '2026-02-11T15:16:12.893Z'
   - VulnerabilityID: CVE-2025-14017
     PkgID: libcurl-minimal@7.76.1-34.el9.x86_64
     PkgName: libcurl-minimal
@@ -38644,6 +38673,7 @@
       unintentionally disable the feature for other threads as well.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       photon: 2
       redhat: 2
@@ -38700,7 +38730,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -38720,7 +38750,7 @@
     - https://curl.se/docs/CVE-2025-9086.json
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
     - https://errata.almalinux.org/9/ALSA-2026-1350.html
-    - https://errata.rockylinux.org/RLSA-2026:1350
+    - https://errata.rockylinux.org/RLSA-2026:1825
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
@@ -39309,18 +39339,20 @@
     - https://access.redhat.com/errata/RHSA-2026:1696
     - https://access.redhat.com/errata/RHSA-2026:1852
     - https://access.redhat.com/errata/RHSA-2026:1913
+    - https://access.redhat.com/errata/RHSA-2026:2485
+    - https://access.redhat.com/errata/RHSA-2026:2563
     - https://access.redhat.com/security/cve/CVE-2025-14104
     - https://bugzilla.redhat.com/2419369
     - https://bugzilla.redhat.com/show_bug.cgi?id=2419369
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14104
     - https://errata.almalinux.org/9/ALSA-2026-1913.html
-    - https://errata.rockylinux.org/RLSA-2026:1913
+    - https://errata.rockylinux.org/RLSA-2026:1696
     - https://linux.oracle.com/cve/CVE-2025-14104.html
     - https://linux.oracle.com/errata/ELSA-2026-1913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14104
     - https://www.cve.org/CVERecord?id=CVE-2025-14104
     PublishedDate: '2025-12-05T17:16:03.117Z'
-    LastModifiedDate: '2026-02-04T20:16:02.57Z'
+    LastModifiedDate: '2026-02-11T15:16:12.893Z'
   - VulnerabilityID: CVE-2023-24056
     PkgID: libpkgconf@1.7.3-10.el9.x86_64
     PkgName: libpkgconf
@@ -39396,18 +39428,20 @@
     - https://access.redhat.com/errata/RHSA-2026:1696
     - https://access.redhat.com/errata/RHSA-2026:1852
     - https://access.redhat.com/errata/RHSA-2026:1913
+    - https://access.redhat.com/errata/RHSA-2026:2485
+    - https://access.redhat.com/errata/RHSA-2026:2563
     - https://access.redhat.com/security/cve/CVE-2025-14104
     - https://bugzilla.redhat.com/2419369
     - https://bugzilla.redhat.com/show_bug.cgi?id=2419369
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14104
     - https://errata.almalinux.org/9/ALSA-2026-1913.html
-    - https://errata.rockylinux.org/RLSA-2026:1913
+    - https://errata.rockylinux.org/RLSA-2026:1696
     - https://linux.oracle.com/cve/CVE-2025-14104.html
     - https://linux.oracle.com/errata/ELSA-2026-1913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14104
     - https://www.cve.org/CVERecord?id=CVE-2025-14104
     PublishedDate: '2025-12-05T17:16:03.117Z'
-    LastModifiedDate: '2026-02-04T20:16:02.57Z'
+    LastModifiedDate: '2026-02-11T15:16:12.893Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++@11.5.0-11.el9.x86_64
     PkgName: libstdc++
@@ -39475,6 +39509,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 3
+      azure: 1
       cbl-mariner: 1
       photon: 3
       redhat: 1
@@ -39490,6 +39525,7 @@
     - https://gitlab.com/gnutls/libtasn1/-/merge_requests/121
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13151
     - https://ubuntu.com/security/notices/USN-7954-1
+    - https://ubuntu.com/security/notices/USN-7954-2
     - https://www.cve.org/CVERecord?id=CVE-2025-13151
     - https://www.kb.cert.org/vuls/id/271649
     PublishedDate: '2026-01-07T22:15:43.2Z'
@@ -39529,18 +39565,20 @@
     - https://access.redhat.com/errata/RHSA-2026:1696
     - https://access.redhat.com/errata/RHSA-2026:1852
     - https://access.redhat.com/errata/RHSA-2026:1913
+    - https://access.redhat.com/errata/RHSA-2026:2485
+    - https://access.redhat.com/errata/RHSA-2026:2563
     - https://access.redhat.com/security/cve/CVE-2025-14104
     - https://bugzilla.redhat.com/2419369
     - https://bugzilla.redhat.com/show_bug.cgi?id=2419369
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14104
     - https://errata.almalinux.org/9/ALSA-2026-1913.html
-    - https://errata.rockylinux.org/RLSA-2026:1913
+    - https://errata.rockylinux.org/RLSA-2026:1696
     - https://linux.oracle.com/cve/CVE-2025-14104.html
     - https://linux.oracle.com/errata/ELSA-2026-1913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14104
     - https://www.cve.org/CVERecord?id=CVE-2025-14104
     PublishedDate: '2025-12-05T17:16:03.117Z'
-    LastModifiedDate: '2026-02-04T20:16:02.57Z'
+    LastModifiedDate: '2026-02-11T15:16:12.893Z'
   - VulnerabilityID: CVE-2026-0990
     PkgID: libxml2@2.9.13-14.el9_7.x86_64
     PkgName: libxml2
@@ -40579,7 +40617,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
     - https://github.com/openssl/openssl/commit/6ced0fe6b10faa560e410e3ee8d6c82f06c65ea3
@@ -40696,7 +40734,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
     - https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e
@@ -40815,7 +40853,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
     - https://github.com/openssl/openssl/commit/a26a90d38edec3748566129d824e664b54bee2e2
@@ -41201,7 +41239,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
     - https://github.com/openssl/openssl/commit/b2539639400288a4580fe2d76247541b976bade4
@@ -41315,7 +41353,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
     - https://linux.oracle.com/cve/CVE-2025-15469.html
@@ -41432,7 +41470,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
     - https://github.com/openssl/openssl/commit/895150b5e021d16b52fb32b97e1dd12f20448be5
@@ -41540,7 +41578,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
     - https://github.com/openssl/openssl/commit/4c96fbba618e1940f038012506ee9e21d32ee12c
@@ -41629,7 +41667,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
     - https://github.com/openssl/openssl/commit/52d23c86a54adab5ee9f80e48b242b52c4cc2347
@@ -41695,7 +41733,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
-      azure: 2
+      azure: 3
       oracle-oval: 3
       photon: 3
       redhat: 1
@@ -41745,7 +41783,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
     - https://github.com/openssl/openssl/commit/564fd9c73787f25693bf9e75faf7bf6bb1305d4e
@@ -41858,7 +41896,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
     - https://github.com/openssl/openssl/commit/4bbc8d41a72c842ce4077a8a3eccd1109aaf74bd
@@ -42041,7 +42079,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -42156,7 +42194,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -42274,7 +42312,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
     - https://github.com/openssl/openssl/commit/6ced0fe6b10faa560e410e3ee8d6c82f06c65ea3
@@ -42391,7 +42429,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
     - https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e
@@ -42510,7 +42548,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
     - https://github.com/openssl/openssl/commit/a26a90d38edec3748566129d824e664b54bee2e2
@@ -42896,7 +42934,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
     - https://github.com/openssl/openssl/commit/b2539639400288a4580fe2d76247541b976bade4
@@ -43010,7 +43048,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
     - https://linux.oracle.com/cve/CVE-2025-15469.html
@@ -43127,7 +43165,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
     - https://github.com/openssl/openssl/commit/895150b5e021d16b52fb32b97e1dd12f20448be5
@@ -43235,7 +43273,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
     - https://github.com/openssl/openssl/commit/4c96fbba618e1940f038012506ee9e21d32ee12c
@@ -43324,7 +43362,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
     - https://github.com/openssl/openssl/commit/52d23c86a54adab5ee9f80e48b242b52c4cc2347
@@ -43390,7 +43428,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
-      azure: 2
+      azure: 3
       oracle-oval: 3
       photon: 3
       redhat: 1
@@ -43440,7 +43478,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
     - https://github.com/openssl/openssl/commit/564fd9c73787f25693bf9e75faf7bf6bb1305d4e
@@ -43553,7 +43591,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
     - https://github.com/openssl/openssl/commit/4bbc8d41a72c842ce4077a8a3eccd1109aaf74bd
@@ -43736,7 +43774,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -43851,7 +43889,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/9/ALSA-2026-1473.html
-    - https://errata.rockylinux.org/RLSA-2026:1473
+    - https://errata.rockylinux.org/RLSA-2026:1472
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -44088,6 +44126,7 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -44151,10 +44190,12 @@
     - https://access.redhat.com/errata/RHSA-2026:1478
     - https://access.redhat.com/security/cve/CVE-2025-12084
     - https://bugzilla.redhat.com/2418655
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418078
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418655
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12084
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13836
     - https://errata.almalinux.org/9/ALSA-2026-1478.html
-    - https://errata.rockylinux.org/RLSA-2026:1478
+    - https://errata.rockylinux.org/RLSA-2026:1828
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
     - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
@@ -44426,7 +44467,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -44519,6 +44560,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -44563,6 +44605,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -44713,6 +44756,7 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -44776,10 +44820,12 @@
     - https://access.redhat.com/errata/RHSA-2026:1478
     - https://access.redhat.com/security/cve/CVE-2025-12084
     - https://bugzilla.redhat.com/2418655
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418078
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418655
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12084
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13836
     - https://errata.almalinux.org/9/ALSA-2026-1478.html
-    - https://errata.rockylinux.org/RLSA-2026:1478
+    - https://errata.rockylinux.org/RLSA-2026:1828
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
     - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
@@ -45051,7 +45097,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -45144,6 +45190,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -45188,6 +45235,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -45338,6 +45386,7 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -45401,10 +45450,12 @@
     - https://access.redhat.com/errata/RHSA-2026:1478
     - https://access.redhat.com/security/cve/CVE-2025-12084
     - https://bugzilla.redhat.com/2418655
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418078
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418655
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12084
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13836
     - https://errata.almalinux.org/9/ALSA-2026-1478.html
-    - https://errata.rockylinux.org/RLSA-2026:1478
+    - https://errata.rockylinux.org/RLSA-2026:1828
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
     - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
@@ -45676,7 +45727,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -45769,6 +45820,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -45813,6 +45865,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
