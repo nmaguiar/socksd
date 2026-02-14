@@ -5134,6 +5134,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -5182,6 +5183,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       rocky: 3
       ubuntu: 2
@@ -5244,6 +5246,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 2
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -5306,6 +5309,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 2
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -5366,6 +5370,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -5414,6 +5419,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       rocky: 3
       ubuntu: 2
@@ -5476,6 +5482,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 2
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -5538,6 +5545,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 2
       redhat: 2
       rocky: 3
       ubuntu: 2
