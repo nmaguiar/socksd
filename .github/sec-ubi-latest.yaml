@@ -36645,6 +36645,7 @@
     - https://access.redhat.com/errata/RHSA-2026:1627
     - https://access.redhat.com/errata/RHSA-2026:1652
     - https://access.redhat.com/errata/RHSA-2026:1736
+    - https://access.redhat.com/errata/RHSA-2026:2064
     - https://access.redhat.com/errata/RHSA-2026:2072
     - https://access.redhat.com/errata/RHSA-2026:2485
     - https://access.redhat.com/errata/RHSA-2026:2563
@@ -36663,7 +36664,7 @@
     - https://ubuntu.com/security/notices/USN-7942-2
     - https://www.cve.org/CVERecord?id=CVE-2025-13601
     PublishedDate: '2025-11-26T15:15:51.723Z'
-    LastModifiedDate: '2026-02-11T15:16:12.64Z'
+    LastModifiedDate: '2026-02-13T17:16:10.62Z'
   - VulnerabilityID: CVE-2025-14087
     PkgID: glib2@2.68.4-18.el9_7.x86_64
     PkgName: glib2
@@ -37090,6 +37091,7 @@
     - CWE-908
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -37238,6 +37240,7 @@
     - CWE-908
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -37386,6 +37389,7 @@
     - CWE-908
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -37869,6 +37873,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       rocky: 3
       ubuntu: 2
@@ -38090,6 +38095,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 2
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -38151,6 +38157,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 2
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -44630,6 +44637,7 @@
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/2f840249550e082dc351743f474ba56da10478d2
     - https://github.com/python/cpython/commit/4802b96a2cde58570c24c13ef3289490980961c5
+    - https://github.com/python/cpython/commit/66da7bf6fe7b81e3ecc9c0a25bd47d4616c8d1a6
     - https://github.com/python/cpython/commit/e4846a93ac07a8ae9aa18203af0dd13d6e7a6995
     - https://github.com/python/cpython/commit/f7fceed79ca1bceae8dbe5ba5bc8928564da7211
     - https://github.com/python/cpython/issues/143916
@@ -44641,7 +44649,7 @@
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0865
     PublishedDate: '2026-01-20T22:15:52.8Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
+    LastModifiedDate: '2026-02-13T17:16:12.82Z'
   - VulnerabilityID: CVE-2026-1299
     PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
     PkgName: python-unversioned-command
@@ -44688,6 +44696,7 @@
     - https://github.com/python/cpython/commit/7877fe424415bc4a13045e62a90a7277413d8cb9
     - https://github.com/python/cpython/commit/842ce19a0c0b58d61591e8f6a708c38db1fb94e4
     - https://github.com/python/cpython/commit/8cdf6204f4ae821f32993f8fc6bad0d318f95f36
+    - https://github.com/python/cpython/commit/e417f05ad77a4c30ddc07f99e90fc0cef43e831a
     - https://github.com/python/cpython/issues/144125
     - https://github.com/python/cpython/pull/144126
     - https://linux.oracle.com/cve/CVE-2026-1299.html
@@ -44696,7 +44705,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1299
     - https://www.cve.org/CVERecord?id=CVE-2026-1299
     PublishedDate: '2026-01-23T17:16:12.977Z'
-    LastModifiedDate: '2026-01-26T15:16:07.237Z'
+    LastModifiedDate: '2026-02-13T17:16:12.943Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
     PkgName: python-unversioned-command
@@ -45258,6 +45267,7 @@
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/2f840249550e082dc351743f474ba56da10478d2
     - https://github.com/python/cpython/commit/4802b96a2cde58570c24c13ef3289490980961c5
+    - https://github.com/python/cpython/commit/66da7bf6fe7b81e3ecc9c0a25bd47d4616c8d1a6
     - https://github.com/python/cpython/commit/e4846a93ac07a8ae9aa18203af0dd13d6e7a6995
     - https://github.com/python/cpython/commit/f7fceed79ca1bceae8dbe5ba5bc8928564da7211
     - https://github.com/python/cpython/issues/143916
@@ -45269,7 +45279,7 @@
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0865
     PublishedDate: '2026-01-20T22:15:52.8Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
+    LastModifiedDate: '2026-02-13T17:16:12.82Z'
   - VulnerabilityID: CVE-2026-1299
     PkgID: python3@3.9.25-2.el9_7.x86_64
     PkgName: python3
@@ -45316,6 +45326,7 @@
     - https://github.com/python/cpython/commit/7877fe424415bc4a13045e62a90a7277413d8cb9
     - https://github.com/python/cpython/commit/842ce19a0c0b58d61591e8f6a708c38db1fb94e4
     - https://github.com/python/cpython/commit/8cdf6204f4ae821f32993f8fc6bad0d318f95f36
+    - https://github.com/python/cpython/commit/e417f05ad77a4c30ddc07f99e90fc0cef43e831a
     - https://github.com/python/cpython/issues/144125
     - https://github.com/python/cpython/pull/144126
     - https://linux.oracle.com/cve/CVE-2026-1299.html
@@ -45324,7 +45335,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1299
     - https://www.cve.org/CVERecord?id=CVE-2026-1299
     PublishedDate: '2026-01-23T17:16:12.977Z'
-    LastModifiedDate: '2026-01-26T15:16:07.237Z'
+    LastModifiedDate: '2026-02-13T17:16:12.943Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3@3.9.25-2.el9_7.x86_64
     PkgName: python3
@@ -45886,6 +45897,7 @@
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/2f840249550e082dc351743f474ba56da10478d2
     - https://github.com/python/cpython/commit/4802b96a2cde58570c24c13ef3289490980961c5
+    - https://github.com/python/cpython/commit/66da7bf6fe7b81e3ecc9c0a25bd47d4616c8d1a6
     - https://github.com/python/cpython/commit/e4846a93ac07a8ae9aa18203af0dd13d6e7a6995
     - https://github.com/python/cpython/commit/f7fceed79ca1bceae8dbe5ba5bc8928564da7211
     - https://github.com/python/cpython/issues/143916
@@ -45897,7 +45909,7 @@
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0865
     PublishedDate: '2026-01-20T22:15:52.8Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
+    LastModifiedDate: '2026-02-13T17:16:12.82Z'
   - VulnerabilityID: CVE-2026-1299
     PkgID: python3-libs@3.9.25-2.el9_7.x86_64
     PkgName: python3-libs
@@ -45944,6 +45956,7 @@
     - https://github.com/python/cpython/commit/7877fe424415bc4a13045e62a90a7277413d8cb9
     - https://github.com/python/cpython/commit/842ce19a0c0b58d61591e8f6a708c38db1fb94e4
     - https://github.com/python/cpython/commit/8cdf6204f4ae821f32993f8fc6bad0d318f95f36
+    - https://github.com/python/cpython/commit/e417f05ad77a4c30ddc07f99e90fc0cef43e831a
     - https://github.com/python/cpython/issues/144125
     - https://github.com/python/cpython/pull/144126
     - https://linux.oracle.com/cve/CVE-2026-1299.html
@@ -45952,7 +45965,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1299
     - https://www.cve.org/CVERecord?id=CVE-2026-1299
     PublishedDate: '2026-01-23T17:16:12.977Z'
-    LastModifiedDate: '2026-01-26T15:16:07.237Z'
+    LastModifiedDate: '2026-02-13T17:16:12.943Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3-libs@3.9.25-2.el9_7.x86_64
     PkgName: python3-libs
