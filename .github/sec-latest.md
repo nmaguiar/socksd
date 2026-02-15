@@ -6135,7 +6135,7 @@
 │                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-21945 
 │                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-0933.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0932 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0933 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-21945.html 
 │                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-0932.html 
 │                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-21945 
@@ -6225,7 +6225,7 @@
 │                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-21945 
 │                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-0933.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0932 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0933 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-21925.html 
 │                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-0932.html 
 │                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-21925 
@@ -6321,7 +6321,7 @@
 │                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-21945 
 │                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-0933.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0932 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0933 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-21933.html 
 │                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-0932.html 
 │                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-21933 
@@ -6480,7 +6480,7 @@
 │                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-21945 
 │                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-0933.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0932 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0933 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-21945.html 
 │                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-0932.html 
 │                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-21945 
@@ -6570,7 +6570,7 @@
 │                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-21945 
 │                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-0933.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0932 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0933 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-21925.html 
 │                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-0932.html 
 │                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-21925 
@@ -6666,7 +6666,7 @@
 │                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-21945 
 │                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-0933.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0932 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0933 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-21933.html 
 │                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-0932.html 
 │                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-21933 
