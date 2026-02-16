@@ -37676,7 +37676,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -41175,7 +41175,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -41738,7 +41738,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -42301,7 +42301,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
