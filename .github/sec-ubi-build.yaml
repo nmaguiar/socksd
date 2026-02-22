@@ -37461,7 +37461,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0915.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -37508,7 +37508,7 @@
     - https://bugzilla.redhat.com/2431196
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
     - https://linux.oracle.com/cve/CVE-2025-15281.html
-    - https://linux.oracle.com/errata/ELSA-2026-2786.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -37567,7 +37567,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0861.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
@@ -37621,7 +37621,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0915.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -37668,7 +37668,7 @@
     - https://bugzilla.redhat.com/2431196
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
     - https://linux.oracle.com/cve/CVE-2025-15281.html
-    - https://linux.oracle.com/errata/ELSA-2026-2786.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -37727,7 +37727,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0861.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
@@ -37781,7 +37781,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0915.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -37828,7 +37828,7 @@
     - https://bugzilla.redhat.com/2431196
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
     - https://linux.oracle.com/cve/CVE-2025-15281.html
-    - https://linux.oracle.com/errata/ELSA-2026-2786.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -37887,7 +37887,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0861.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
@@ -37941,7 +37941,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0915.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -37988,7 +37988,7 @@
     - https://bugzilla.redhat.com/2431196
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
     - https://linux.oracle.com/cve/CVE-2025-15281.html
-    - https://linux.oracle.com/errata/ELSA-2026-2786.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -38047,7 +38047,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0861.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
