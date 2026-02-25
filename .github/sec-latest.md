@@ -4258,7 +4258,68 @@
 │                       │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2026/01/12/7 
 │                       │      ├ PublishedDate   : 2026-01-12T23:15:52.907Z 
 │                       │      ╰ LastModifiedDate: 2026-01-21T18:58:18.27Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2025-15467 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-25646 
+│                       │      ├ PkgID           : libpng@1.6.53-r0 
+│                       │      ├ PkgName         : libpng 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.53-r0?arch=x86_64&distro=3.
+│                       │      │                  │       23.0 
+│                       │      │                  ╰ UID : fc90ccd7b47f1ac7 
+│                       │      ├ InstalledVersion: 1.6.53-r0 
+│                       │      ├ FixedVersion    : 1.6.55-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:403eec8224aa30f2aea8db670dd1ab5a6b9a92cb34fb
+│                       │      │                  │         a941949859ce82d485c7 
+│                       │      │                  ╰ DiffID: sha256:50b61b75761024e5aaa436828be93a617a29bf44d40d
+│                       │      │                            4af8b32534c2a5b1a88a 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25646 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:92f8107abdc61f305d995257653e23642725f5f3e5e0992c4e64e
+│                       │      │                   5d4a28a9068 
+│                       │      ├ Title           : libpng: LIBPNG has a heap buffer overflow in png_set_quantize 
+│                       │      ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │      │                    raster image files. Prior to 1.6.55, an out-of-bounds read
+│                       │      │                   vulnerability exists in the png_set_quantize() API function.
+│                       │      │                    When the function is called with no histogram and the
+│                       │      │                   number of colors in the palette is more than twice the
+│                       │      │                   maximum supported by the user's display, certain palettes
+│                       │      │                   will cause the function to enter into an infinite loop that
+│                       │      │                   reads past the end of an internal heap-allocated buffer. The
+│                       │      │                    images that trigger this vulnerability are valid per the
+│                       │      │                   PNG specification. This vulnerability is fixed in 1.6.55. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ╭ [0]: CWE-122 
+│                       │      │                  ╰ [1]: CWE-126 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 8.1 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/09/7 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-25646 
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/commit/01d03b8453eb
+│                       │      │                  │      30ade759cd45c707e5a1c7277d88 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-g8hp-mq4h-rqm3 
+│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2026-25646.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2026-3031.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-25646 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8035-1 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8039-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-25646 
+│                       │      ├ PublishedDate   : 2026-02-10T18:16:37.817Z 
+│                       │      ╰ LastModifiedDate: 2026-02-13T20:43:44.69Z 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2025-15467 
 │                       │      ├ PkgID           : libssl3@3.5.4-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.
@@ -4402,7 +4463,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-15467 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.257Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:38:55.073Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2025-69419 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2025-69419 
 │                       │      ├ PkgID           : libssl3@3.5.4-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.
@@ -4548,7 +4609,7 @@
 │                       │      │                  ╰ [40]: https://www.cve.org/CVERecord?id=CVE-2025-69419 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.113Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:35:02.177Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2025-69421 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2025-69421 
 │                       │      ├ PkgID           : libssl3@3.5.4-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.
@@ -4687,7 +4748,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69421 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.437Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:29:59.693Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2025-11187 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2025-11187 
 │                       │      ├ PkgID           : libssl3@3.5.4-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.
@@ -4828,7 +4889,7 @@
 │                       │      │                  ╰ [48]: https://www.cve.org/CVERecord?id=CVE-2025-11187 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.093Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:39:21.74Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2025-15468 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2025-15468 
 │                       │      ├ PkgID           : libssl3@3.5.4-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.
@@ -4960,7 +5021,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2025-15468 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.4Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:38:00.947Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2025-15469 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2025-15469 
 │                       │      ├ PkgID           : libssl3@3.5.4-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.
@@ -5098,7 +5159,7 @@
 │                       │      │                  ╰ [47]: https://www.cve.org/CVERecord?id=CVE-2025-15469 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.523Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:37:39.313Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2025-66199 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2025-66199 
 │                       │      ├ PkgID           : libssl3@3.5.4-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.
@@ -5245,7 +5306,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2025-66199 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:15.777Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:37:19.613Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2025-68160 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2025-68160 
 │                       │      ├ PkgID           : libssl3@3.5.4-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.
@@ -5383,7 +5444,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-68160 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:15.9Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:36:57.727Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2025-69418 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2025-69418 
 │                       │      ├ PkgID           : libssl3@3.5.4-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.
@@ -5521,7 +5582,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69418 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:33.253Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:36:03.557Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2025-69420 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2025-69420 
 │                       │      ├ PkgID           : libssl3@3.5.4-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.
@@ -5665,7 +5726,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69420 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.317Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:33:30.557Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2026-22795 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2026-22795 
 │                       │      ├ PkgID           : libssl3@3.5.4-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.
@@ -5809,7 +5870,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-22795 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:35.43Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:41:14.917Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2026-22796 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2026-22796 
 │                       │      ├ PkgID           : libssl3@3.5.4-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=3.
@@ -5952,7 +6013,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-22796 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:35.543Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:40:27.467Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2025-13151 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2025-13151 
 │                       │      ├ PkgID           : libtasn1@4.20.0-r0 
 │                       │      ├ PkgName         : libtasn1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libtasn1@4.20.0-r0?arch=x86_64&distro=
@@ -5998,7 +6059,7 @@
 │                       │      │                  ╰ [8]: https://www.kb.cert.org/vuls/id/271649 
 │                       │      ├ PublishedDate   : 2026-01-07T22:15:43.2Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T19:27:23.07Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2026-21932 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2026-21932 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.9_p10-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.9_p10-r0?arch=x86_6
@@ -6068,7 +6129,7 @@
 │                       │      │                  ╰ [11]: https://www.oracle.com/security-alerts/cpujan2026.html 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:55.793Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:08:39.917Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2026-21945 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2026-21945 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.9_p10-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.9_p10-r0?arch=x86_6
@@ -6157,7 +6218,7 @@
 │                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:57.39Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:03:26.53Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2026-21925 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2026-21925 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.9_p10-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.9_p10-r0?arch=x86_6
@@ -6247,7 +6308,7 @@
 │                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:54.917Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:11:07.073Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2026-21933 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2026-21933 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.9_p10-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.9_p10-r0?arch=x86_6
@@ -6343,7 +6404,7 @@
 │                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:55.917Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:07:09.417Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2026-21932 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2026-21932 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.9_p10-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.9_p10-r0?a
@@ -6413,7 +6474,7 @@
 │                       │      │                  ╰ [11]: https://www.oracle.com/security-alerts/cpujan2026.html 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:55.793Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:08:39.917Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2026-21945 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2026-21945 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.9_p10-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.9_p10-r0?a
@@ -6502,7 +6563,7 @@
 │                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:57.39Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:03:26.53Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2026-21925 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2026-21925 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.9_p10-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.9_p10-r0?a
@@ -6592,7 +6653,7 @@
 │                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:54.917Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:11:07.073Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2026-21933 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2026-21933 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.9_p10-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.9_p10-r0?a
@@ -6688,7 +6749,7 @@
 │                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:55.917Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:07:09.417Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2025-15467 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2025-15467 
 │                       │      ├ PkgID           : openssl@3.5.4-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.
@@ -6832,7 +6893,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-15467 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.257Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:38:55.073Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2025-69419 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2025-69419 
 │                       │      ├ PkgID           : openssl@3.5.4-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.
@@ -6978,7 +7039,7 @@
 │                       │      │                  ╰ [40]: https://www.cve.org/CVERecord?id=CVE-2025-69419 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.113Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:35:02.177Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2025-69421 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2025-69421 
 │                       │      ├ PkgID           : openssl@3.5.4-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.
@@ -7117,7 +7178,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69421 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.437Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:29:59.693Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2025-11187 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2025-11187 
 │                       │      ├ PkgID           : openssl@3.5.4-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.
@@ -7258,7 +7319,7 @@
 │                       │      │                  ╰ [48]: https://www.cve.org/CVERecord?id=CVE-2025-11187 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.093Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:39:21.74Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2025-15468 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2025-15468 
 │                       │      ├ PkgID           : openssl@3.5.4-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.
@@ -7390,7 +7451,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2025-15468 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.4Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:38:00.947Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2025-15469 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2025-15469 
 │                       │      ├ PkgID           : openssl@3.5.4-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.
@@ -7528,7 +7589,7 @@
 │                       │      │                  ╰ [47]: https://www.cve.org/CVERecord?id=CVE-2025-15469 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.523Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:37:39.313Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2025-66199 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2025-66199 
 │                       │      ├ PkgID           : openssl@3.5.4-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.
@@ -7675,7 +7736,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2025-66199 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:15.777Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:37:19.613Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2025-68160 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2025-68160 
 │                       │      ├ PkgID           : openssl@3.5.4-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.
@@ -7813,7 +7874,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-68160 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:15.9Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:36:57.727Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2025-69418 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2025-69418 
 │                       │      ├ PkgID           : openssl@3.5.4-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.
@@ -7951,7 +8012,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69418 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:33.253Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:36:03.557Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2025-69420 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2025-69420 
 │                       │      ├ PkgID           : openssl@3.5.4-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.
@@ -8095,7 +8156,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69420 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.317Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:33:30.557Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2026-22795 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2026-22795 
 │                       │      ├ PkgID           : openssl@3.5.4-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.
@@ -8239,7 +8300,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-22795 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:35.43Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:41:14.917Z 
-│                       ╰ [47] ╭ VulnerabilityID : CVE-2026-22796 
+│                       ╰ [48] ╭ VulnerabilityID : CVE-2026-22796 
 │                              ├ PkgID           : openssl@3.5.4-r0 
 │                              ├ PkgName         : openssl 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.4-r0?arch=x86_64&distro=3.
