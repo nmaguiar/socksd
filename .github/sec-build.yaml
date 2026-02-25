@@ -2185,6 +2185,59 @@
     - usr/lib/libzstd.so.1
     - usr/lib/libzstd.so.1.5.7
     AnalyzedBy: apk
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2026-25646
+    PkgID: libpng@1.6.54-r0
+    PkgName: libpng
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libpng@1.6.54-r0?arch=x86_64&distro=3.23.3
+      UID: 72123ca33a149751
+    InstalledVersion: 1.6.54-r0
+    FixedVersion: 1.6.55-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:85eab20ab8baa1f2a990206bf7054d50374c1a959e8c2d53c54b7986b1d2d3ec
+      DiffID: sha256:edeead5f3e69404ef2b371f5219a016d6ccaf61555d70828886587038b6e9957
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25646
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:50fea2b27b9d2450c50c659dee6b4f4ad91dc0d8b090be1e4b42532f264aef4b
+    Title: 'libpng: LIBPNG has a heap buffer overflow in png_set_quantize'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to 1.6.55, an out-of-bounds read vulnerability exists in the png_set_quantize() API function. When the function is called with no histogram and the number of colors in the palette is more than twice the maximum supported by the user's display, certain palettes will cause the function to enter into an infinite loop that reads past the end of an internal heap-allocated buffer. The images that trigger this vulnerability are valid per the PNG specification. This vulnerability is fixed in 1.6.55.
+    Severity: HIGH
+    CweIDs:
+    - CWE-122
+    - CWE-126
+    VendorSeverity:
+      azure: 3
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 7
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/09/7
+    - https://access.redhat.com/security/cve/CVE-2026-25646
+    - https://github.com/pnggroup/libpng/commit/01d03b8453eb30ade759cd45c707e5a1c7277d88
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-g8hp-mq4h-rqm3
+    - https://linux.oracle.com/cve/CVE-2026-25646.html
+    - https://linux.oracle.com/errata/ELSA-2026-3031.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25646
+    - https://ubuntu.com/security/notices/USN-8035-1
+    - https://ubuntu.com/security/notices/USN-8039-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-25646
+    PublishedDate: '2026-02-10T18:16:37.817Z'
+    LastModifiedDate: '2026-02-13T20:43:44.69Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
