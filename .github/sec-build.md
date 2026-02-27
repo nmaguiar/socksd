@@ -2436,11 +2436,13 @@
 │                             ├ Severity        : HIGH 
 │                             ├ CweIDs           ╭ [0]: CWE-122 
 │                             │                  ╰ [1]: CWE-126 
-│                             ├ VendorSeverity   ╭ azure      : 3 
+│                             ├ VendorSeverity   ╭ alma       : 3 
+│                             │                  ├ azure      : 3 
 │                             │                  ├ nvd        : 3 
 │                             │                  ├ oracle-oval: 3 
 │                             │                  ├ photon     : 3 
 │                             │                  ├ redhat     : 3 
+│                             │                  ├ rocky      : 3 
 │                             │                  ╰ ubuntu     : 2 
 │                             ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                             │                  │        │           A:H 
@@ -2448,18 +2450,25 @@
 │                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                             │                           │           A:H 
 │                             │                           ╰ V3Score : 7 
-│                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/09/7 
-│                             │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-25646 
-│                             │                  ├ [2]: https://github.com/pnggroup/libpng/commit/01d03b8453eb3
-│                             │                  │      0ade759cd45c707e5a1c7277d88 
-│                             │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories/
-│                             │                  │      GHSA-g8hp-mq4h-rqm3 
-│                             │                  ├ [4]: https://linux.oracle.com/cve/CVE-2026-25646.html 
-│                             │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2026-3031.html 
-│                             │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-25646 
-│                             │                  ├ [7]: https://ubuntu.com/security/notices/USN-8035-1 
-│                             │                  ├ [8]: https://ubuntu.com/security/notices/USN-8039-1 
-│                             │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-25646 
+│                             ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/02/09/7 
+│                             │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:3031 
+│                             │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-25646 
+│                             │                  ├ [3] : https://bugzilla.redhat.com/2438542 
+│                             │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2438542 
+│                             │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-25646 
+│                             │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-3031.html 
+│                             │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:3031 
+│                             │                  ├ [8] : https://github.com/pnggroup/libpng/commit/01d03b8453eb
+│                             │                  │       30ade759cd45c707e5a1c7277d88 
+│                             │                  ├ [9] : https://github.com/pnggroup/libpng/security/advisories
+│                             │                  │       /GHSA-g8hp-mq4h-rqm3 
+│                             │                  ├ [10]: https://linux.oracle.com/cve/CVE-2026-25646.html 
+│                             │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-3031.html 
+│                             │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-25646 
+│                             │                  ├ [13]: https://ubuntu.com/security/notices/USN-8035-1 
+│                             │                  ├ [14]: https://ubuntu.com/security/notices/USN-8039-1 
+│                             │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-25646 
 │                             ├ PublishedDate   : 2026-02-10T18:16:37.817Z 
 │                             ╰ LastModifiedDate: 2026-02-13T20:43:44.69Z 
 ╰ [1] ╭ Target  : Java 
