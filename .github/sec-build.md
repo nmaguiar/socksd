@@ -2451,30 +2451,32 @@
 │                             │                           │           A:H 
 │                             │                           ╰ V3Score : 7 
 │                             ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/02/09/7 
-│                             │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:3031 
+│                             │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:3405 
 │                             │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-25646 
-│                             │                  ├ [3] : https://bugzilla.redhat.com/2438542 
-│                             │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2428824 
-│                             │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2428825 
-│                             │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2438542 
-│                             │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
-│                             │                  │       6-22695 
-│                             │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
-│                             │                  │       6-22801 
+│                             │                  ├ [3] : https://bugzilla.redhat.com/2428824 
+│                             │                  ├ [4] : https://bugzilla.redhat.com/2428825 
+│                             │                  ├ [5] : https://bugzilla.redhat.com/2438542 
+│                             │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2428824 
+│                             │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2428825 
+│                             │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2438542 
 │                             │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-22695 
+│                             │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-22801 
+│                             │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
 │                             │                  │       6-25646 
-│                             │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2026-3031.html 
-│                             │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:3405 
-│                             │                  ├ [12]: https://github.com/pnggroup/libpng/commit/01d03b8453eb
+│                             │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-3405.html 
+│                             │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:3405 
+│                             │                  ├ [14]: https://github.com/pnggroup/libpng/commit/01d03b8453eb
 │                             │                  │       30ade759cd45c707e5a1c7277d88 
-│                             │                  ├ [13]: https://github.com/pnggroup/libpng/security/advisories
+│                             │                  ├ [15]: https://github.com/pnggroup/libpng/security/advisories
 │                             │                  │       /GHSA-g8hp-mq4h-rqm3 
-│                             │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-25646.html 
-│                             │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-3405.html 
-│                             │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-25646 
-│                             │                  ├ [17]: https://ubuntu.com/security/notices/USN-8035-1 
-│                             │                  ├ [18]: https://ubuntu.com/security/notices/USN-8039-1 
-│                             │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2026-25646 
+│                             │                  ├ [16]: https://linux.oracle.com/cve/CVE-2026-25646.html 
+│                             │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2026-3551.html 
+│                             │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-25646 
+│                             │                  ├ [19]: https://ubuntu.com/security/notices/USN-8035-1 
+│                             │                  ├ [20]: https://ubuntu.com/security/notices/USN-8039-1 
+│                             │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2026-25646 
 │                             ├ PublishedDate   : 2026-02-10T18:16:37.817Z 
 │                             ╰ LastModifiedDate: 2026-02-13T20:43:44.69Z 
 ╰ [1] ╭ Target         : Java 
