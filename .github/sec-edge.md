@@ -1885,11 +1885,11 @@
                               │                         │            N/VA:H/SC:N/SI:N/SA:N 
                               │                         ╰ V40Score : 8.7 
                               ├ References       ╭ [0]: https://github.com/FasterXML/jackson-core 
-                              │                  ├ [1]: https://github.com/FasterXML/jackson-core/commit/a004e9
-                              │                  │      789c2cc6b41b379d02d229d58474d9a738 
-                              │                  ├ [2]: https://github.com/FasterXML/jackson-core/issues/1538 
+                              │                  ├ [1]: https://github.com/FasterXML/jackson-core/commit/b0c428
+                              │                  │      e6f993e1b5ece5c1c3cb2523e887cd52cf 
+                              │                  ├ [2]: https://github.com/FasterXML/jackson-core/pull/1555 
                               │                  ╰ [3]: https://github.com/FasterXML/jackson-core/security/advi
                               │                         sories/GHSA-72hv-8253-57qq 
                               ├ PublishedDate   : 2026-02-28T02:01:05Z 
-                              ╰ LastModifiedDate: 2026-02-28T02:01:06Z 
+                              ╰ LastModifiedDate: 2026-03-03T16:59:14Z 
 ````
