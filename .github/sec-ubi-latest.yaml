@@ -35905,6 +35905,7 @@
     - https://curl.se/docs/CVE-2025-14017.json
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://ubuntu.com/security/notices/USN-8062-1
+    - https://ubuntu.com/security/notices/USN-8062-2
     - https://www.cve.org/CVERecord?id=CVE-2025-14017
     PublishedDate: '2026-01-08T10:15:45.667Z'
     LastModifiedDate: '2026-01-27T21:29:39.953Z'
@@ -38839,6 +38840,7 @@
     - https://curl.se/docs/CVE-2025-14017.json
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://ubuntu.com/security/notices/USN-8062-1
+    - https://ubuntu.com/security/notices/USN-8062-2
     - https://www.cve.org/CVERecord?id=CVE-2025-14017
     PublishedDate: '2026-01-08T10:15:45.667Z'
     LastModifiedDate: '2026-01-27T21:29:39.953Z'
@@ -47579,8 +47581,8 @@
         V40Score: 8.7
     References:
     - https://github.com/FasterXML/jackson-core
-    - https://github.com/FasterXML/jackson-core/commit/a004e9789c2cc6b41b379d02d229d58474d9a738
-    - https://github.com/FasterXML/jackson-core/issues/1538
+    - https://github.com/FasterXML/jackson-core/commit/b0c428e6f993e1b5ece5c1c3cb2523e887cd52cf
+    - https://github.com/FasterXML/jackson-core/pull/1555
     - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-72hv-8253-57qq
     PublishedDate: '2026-02-28T02:01:05Z'
-    LastModifiedDate: '2026-02-28T02:01:06Z'
+    LastModifiedDate: '2026-03-03T16:59:14Z'
