@@ -38434,6 +38434,7 @@
     Description: Buffer Overflow vulnerability in libpng 1.6.43-1.6.46 allows a local attacker to cause a denial of service via png_create_read_struct() function.
     Severity: MEDIUM
     CweIDs:
+    - CWE-401
     - CWE-120
     VendorSeverity:
       amazon: 2
@@ -38452,7 +38453,7 @@
     - https://ubuntu.com/security/notices/USN-7993-1
     - https://www.cve.org/CVERecord?id=CVE-2025-28164
     PublishedDate: '2026-01-27T16:16:14.76Z'
-    LastModifiedDate: '2026-02-06T20:04:17.79Z'
+    LastModifiedDate: '2026-03-04T19:42:07.987Z'
   - VulnerabilityID: CVE-2025-64505
     PkgID: java-21-openjdk-headless@21.0.10.0.7-1.el9.x86_64
     PkgName: java-21-openjdk-headless
