@@ -9548,10 +9548,14 @@
                               ├ Severity        : LOW 
                               ├ CweIDs           ─ [0]: CWE-20 
                               ├ VendorSeverity   ╭ ghsa  : 1 
+                              │                  ├ nvd   : 2 
                               │                  ╰ redhat: 1 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
                               │                  │        │           A:N 
                               │                  │        ╰ V3Score : 3.7 
+                              │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
+                              │                  │        │           A:N 
+                              │                  │        ╰ V3Score : 6.5 
                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
                               │                           │           A:N 
                               │                           ╰ V3Score : 3.7 
@@ -9574,5 +9578,5 @@
                               │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-11143 
                               │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-11143 
                               ├ PublishedDate   : 2026-03-05T10:15:54.68Z 
-                              ╰ LastModifiedDate: 2026-03-05T19:38:33.877Z 
+                              ╰ LastModifiedDate: 2026-03-06T20:30:58.117Z 
 ````
