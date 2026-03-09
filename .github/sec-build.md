@@ -2453,7 +2453,7 @@
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 7 
 │                       │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/02/09/7 
-│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:3405 
+│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:3551 
 │                       │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-25646 
 │                       │     │                  ├ [3] : https://bugzilla.redhat.com/2428824 
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2428825 
@@ -2467,7 +2467,7 @@
 │                       │     │                  │       6-22801 
 │                       │     │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
 │                       │     │                  │       6-25646 
-│                       │     │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-3405.html 
+│                       │     │                  ├ [12]: https://errata.almalinux.org/10/ALSA-2026-3551.html 
 │                       │     │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:3405 
 │                       │     │                  ├ [14]: https://github.com/pnggroup/libpng/commit/01d03b8453eb
 │                       │     │                  │       30ade759cd45c707e5a1c7277d88 
