@@ -4075,6 +4075,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -6023,6 +6024,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -8467,6 +8469,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
