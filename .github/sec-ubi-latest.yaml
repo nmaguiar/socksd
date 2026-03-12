@@ -35464,6 +35464,7 @@
     - CWE-129
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -37112,6 +37113,7 @@
     VendorSeverity:
       alma: 2
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 2
       photon: 3
       redhat: 1
@@ -37284,6 +37286,7 @@
     VendorSeverity:
       alma: 2
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 2
       photon: 3
       redhat: 1
@@ -37456,6 +37459,7 @@
     VendorSeverity:
       alma: 2
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 2
       photon: 3
       redhat: 1
@@ -37743,6 +37747,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/11/20/2
     - https://access.redhat.com/errata/RHSA-2026:3477
+    - https://access.redhat.com/errata/RHSA-2026:4188
     - https://access.redhat.com/security/cve/CVE-2025-9820
     - https://bugzilla.redhat.com/2392528
     - https://bugzilla.redhat.com/2423177
@@ -37757,7 +37762,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9820
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-11-18
     PublishedDate: '2026-01-26T20:16:09.37Z'
-    LastModifiedDate: '2026-03-02T18:16:25.787Z'
+    LastModifiedDate: '2026-03-11T10:16:12.573Z'
   - VulnerabilityID: CVE-2025-64720
     VendorIDs:
     - RHSA-2026:0928
@@ -42329,6 +42334,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -44040,6 +44046,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -44383,6 +44390,7 @@
       amazon: 2
       azure: 2
       bitnami: 2
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -44421,7 +44429,7 @@
     - https://github.com/python/cpython/issues/142145
     - https://github.com/python/cpython/pull/142146
     - https://linux.oracle.com/cve/CVE-2025-12084.html
-    - https://linux.oracle.com/errata/ELSA-2026-1828.html
+    - https://linux.oracle.com/errata/ELSA-2026-2713.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-12084
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
@@ -44598,18 +44606,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4165
     - https://access.redhat.com/security/cve/CVE-2025-15366
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
-    - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.almalinux.org/9/ALSA-2026-4165.html
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/issues/143921
     - https://github.com/python/cpython/pull/143922
     - https://linux.oracle.com/cve/CVE-2025-15366.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4168.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/DD7C7JZJYTBXMDOWKCEIEBJLBRU64OMR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15366
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -44648,18 +44655,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4165
     - https://access.redhat.com/security/cve/CVE-2025-15367
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
-    - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.almalinux.org/9/ALSA-2026-4165.html
     - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
     - https://github.com/python/cpython/issues/143923
     - https://github.com/python/cpython/pull/143924
     - https://linux.oracle.com/cve/CVE-2025-15367.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4168.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/CBFBOWVGGUJFSGITQCCBZS4GEYYZ7ZNE/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15367
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -44837,6 +44843,7 @@
       amazon: 2
       azure: 2
       bitnami: 2
+      cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -44915,14 +44922,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4165
     - https://access.redhat.com/security/cve/CVE-2026-1299
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
     - https://cve.org/CVERecord?id=CVE-2024-6923
-    - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.almalinux.org/9/ALSA-2026-4165.html
     - https://github.com/python/cpython/commit/052e55e7d44718fe46cbba0ca995cb8fcc359413
     - https://github.com/python/cpython/commit/0a925ab591c45d6638f37b5e57796f36fa0e56d8
     - https://github.com/python/cpython/commit/7877fe424415bc4a13045e62a90a7277413d8cb9
@@ -44932,7 +44938,7 @@
     - https://github.com/python/cpython/issues/144125
     - https://github.com/python/cpython/pull/144126
     - https://linux.oracle.com/cve/CVE-2026-1299.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4168.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/6ZZULGALJTITEAGEXLDJE2C6FORDXPBT/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1299
     - https://www.cve.org/CVERecord?id=CVE-2026-1299
@@ -45062,6 +45068,7 @@
       amazon: 2
       azure: 2
       bitnami: 2
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -45100,7 +45107,7 @@
     - https://github.com/python/cpython/issues/142145
     - https://github.com/python/cpython/pull/142146
     - https://linux.oracle.com/cve/CVE-2025-12084.html
-    - https://linux.oracle.com/errata/ELSA-2026-1828.html
+    - https://linux.oracle.com/errata/ELSA-2026-2713.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-12084
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
@@ -45277,18 +45284,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4165
     - https://access.redhat.com/security/cve/CVE-2025-15366
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
-    - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.almalinux.org/9/ALSA-2026-4165.html
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/issues/143921
     - https://github.com/python/cpython/pull/143922
     - https://linux.oracle.com/cve/CVE-2025-15366.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4168.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/DD7C7JZJYTBXMDOWKCEIEBJLBRU64OMR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15366
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -45327,18 +45333,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4165
     - https://access.redhat.com/security/cve/CVE-2025-15367
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
-    - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.almalinux.org/9/ALSA-2026-4165.html
     - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
     - https://github.com/python/cpython/issues/143923
     - https://github.com/python/cpython/pull/143924
     - https://linux.oracle.com/cve/CVE-2025-15367.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4168.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/CBFBOWVGGUJFSGITQCCBZS4GEYYZ7ZNE/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15367
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -45516,6 +45521,7 @@
       amazon: 2
       azure: 2
       bitnami: 2
+      cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -45594,14 +45600,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4165
     - https://access.redhat.com/security/cve/CVE-2026-1299
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
     - https://cve.org/CVERecord?id=CVE-2024-6923
-    - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.almalinux.org/9/ALSA-2026-4165.html
     - https://github.com/python/cpython/commit/052e55e7d44718fe46cbba0ca995cb8fcc359413
     - https://github.com/python/cpython/commit/0a925ab591c45d6638f37b5e57796f36fa0e56d8
     - https://github.com/python/cpython/commit/7877fe424415bc4a13045e62a90a7277413d8cb9
@@ -45611,7 +45616,7 @@
     - https://github.com/python/cpython/issues/144125
     - https://github.com/python/cpython/pull/144126
     - https://linux.oracle.com/cve/CVE-2026-1299.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4168.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/6ZZULGALJTITEAGEXLDJE2C6FORDXPBT/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1299
     - https://www.cve.org/CVERecord?id=CVE-2026-1299
@@ -45741,6 +45746,7 @@
       amazon: 2
       azure: 2
       bitnami: 2
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -45779,7 +45785,7 @@
     - https://github.com/python/cpython/issues/142145
     - https://github.com/python/cpython/pull/142146
     - https://linux.oracle.com/cve/CVE-2025-12084.html
-    - https://linux.oracle.com/errata/ELSA-2026-1828.html
+    - https://linux.oracle.com/errata/ELSA-2026-2713.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-12084
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2025-12084
@@ -45956,18 +45962,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4165
     - https://access.redhat.com/security/cve/CVE-2025-15366
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
-    - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.almalinux.org/9/ALSA-2026-4165.html
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/issues/143921
     - https://github.com/python/cpython/pull/143922
     - https://linux.oracle.com/cve/CVE-2025-15366.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4168.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/DD7C7JZJYTBXMDOWKCEIEBJLBRU64OMR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15366
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -46006,18 +46011,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4165
     - https://access.redhat.com/security/cve/CVE-2025-15367
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
-    - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.almalinux.org/9/ALSA-2026-4165.html
     - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
     - https://github.com/python/cpython/issues/143923
     - https://github.com/python/cpython/pull/143924
     - https://linux.oracle.com/cve/CVE-2025-15367.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4168.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/CBFBOWVGGUJFSGITQCCBZS4GEYYZ7ZNE/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15367
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -46195,6 +46199,7 @@
       amazon: 2
       azure: 2
       bitnami: 2
+      cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -46273,14 +46278,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4165
     - https://access.redhat.com/security/cve/CVE-2026-1299
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
     - https://cve.org/CVERecord?id=CVE-2024-6923
-    - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.almalinux.org/9/ALSA-2026-4165.html
     - https://github.com/python/cpython/commit/052e55e7d44718fe46cbba0ca995cb8fcc359413
     - https://github.com/python/cpython/commit/0a925ab591c45d6638f37b5e57796f36fa0e56d8
     - https://github.com/python/cpython/commit/7877fe424415bc4a13045e62a90a7277413d8cb9
@@ -46290,7 +46294,7 @@
     - https://github.com/python/cpython/issues/144125
     - https://github.com/python/cpython/pull/144126
     - https://linux.oracle.com/cve/CVE-2026-1299.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4168.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/6ZZULGALJTITEAGEXLDJE2C6FORDXPBT/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1299
     - https://www.cve.org/CVERecord?id=CVE-2026-1299
