@@ -4392,7 +4392,8 @@
 │                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-25646 
 │                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-8035-1 
 │                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-8039-1 
-│                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2026-25646 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-8081-1 
+│                       │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2026-25646 
 │                       │      ├ PublishedDate   : 2026-02-10T18:16:37.817Z 
 │                       │      ╰ LastModifiedDate: 2026-02-13T20:43:44.69Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2025-15467 
@@ -8625,7 +8626,8 @@
 │                              │                    within a loop that has no termination condition. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-1284 
-│                              ├ VendorSeverity   ╭ nvd   : 2 
+│                              ├ VendorSeverity   ╭ azure : 1 
+│                              │                  ├ nvd   : 2 
 │                              │                  ├ redhat: 1 
 │                              │                  ╰ ubuntu: 1 
 │                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
