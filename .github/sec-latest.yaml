@@ -3814,6 +3814,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-25646
     - https://ubuntu.com/security/notices/USN-8035-1
     - https://ubuntu.com/security/notices/USN-8039-1
+    - https://ubuntu.com/security/notices/USN-8081-1
     - https://www.cve.org/CVERecord?id=CVE-2026-25646
     PublishedDate: '2026-02-10T18:16:37.817Z'
     LastModifiedDate: '2026-02-13T20:43:44.69Z'
@@ -7177,6 +7178,7 @@
     CweIDs:
     - CWE-1284
     VendorSeverity:
+      azure: 1
       nvd: 2
       redhat: 1
       ubuntu: 1
