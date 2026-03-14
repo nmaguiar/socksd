@@ -4226,7 +4226,7 @@
 │                       │      │                  ├ [16]: https://github.com/pnggroup/libpng/security/advisorie
 │                       │      │                  │       s/GHSA-mmq5-27w3-rxpp 
 │                       │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2026-22695.html 
-│                       │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2026-3551.html 
+│                       │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2026-4306.html 
 │                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2026-22695 
 │                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7963-1 
 │                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-8035-1 
@@ -4306,7 +4306,7 @@
 │                       │      │                  ├ [13]: https://github.com/pnggroup/libpng/security/advisorie
 │                       │      │                  │       s/GHSA-vgjq-8cw5-ggw8 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-22801.html 
-│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-3551.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-4306.html 
 │                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-22801 
 │                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7963-1 
 │                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-8035-1 
@@ -4388,7 +4388,7 @@
 │                       │      │                  ├ [15]: https://github.com/pnggroup/libpng/security/advisorie
 │                       │      │                  │       s/GHSA-g8hp-mq4h-rqm3 
 │                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2026-25646.html 
-│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2026-3551.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2026-4306.html 
 │                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-25646 
 │                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-8035-1 
 │                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-8039-1 
@@ -6218,7 +6218,9 @@
 │                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8002-1 
 │                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8003-1 
 │                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-21932 
-│                       │      │                  ╰ [11]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │      │                  ├ [11]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpujan2026.htm
+│                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:55.793Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:08:39.917Z 
 │                       ├ [30] ╭ VulnerabilityID : CVE-2026-21945 
@@ -6307,7 +6309,9 @@
 │                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-8002-1 
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-8003-1 
 │                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2026-21945 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │      │                  ├ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpujan2026.htm
+│                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:57.39Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:03:26.53Z 
 │                       ├ [31] ╭ VulnerabilityID : CVE-2026-21925 
@@ -6397,7 +6401,9 @@
 │                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-8002-1 
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-8003-1 
 │                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2026-21925 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │      │                  ├ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpujan2026.htm
+│                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:54.917Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:11:07.073Z 
 │                       ├ [32] ╭ VulnerabilityID : CVE-2026-21933 
@@ -6563,7 +6569,9 @@
 │                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8002-1 
 │                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8003-1 
 │                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-21932 
-│                       │      │                  ╰ [11]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │      │                  ├ [11]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpujan2026.htm
+│                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:55.793Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:08:39.917Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2026-21945 
@@ -6652,7 +6660,9 @@
 │                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-8002-1 
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-8003-1 
 │                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2026-21945 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │      │                  ├ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpujan2026.htm
+│                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:57.39Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:03:26.53Z 
 │                       ├ [35] ╭ VulnerabilityID : CVE-2026-21925 
@@ -6742,7 +6752,9 @@
 │                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-8002-1 
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-8003-1 
 │                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2026-21925 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │      │                  ├ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpujan2026.htm
+│                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:54.917Z 
 │                       │      ╰ LastModifiedDate: 2026-01-30T16:11:07.073Z 
 │                       ├ [36] ╭ VulnerabilityID : CVE-2026-21933 
