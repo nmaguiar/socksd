@@ -35951,7 +35951,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 1
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -37608,7 +37608,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2423177
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14831
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9820
-    - https://errata.almalinux.org/10/ALSA-2026-3477.html
+    - https://errata.almalinux.org/9/ALSA-2026-4188.html
     - https://errata.rockylinux.org/RLSA-2026:4188
     - https://gitlab.com/gnutls/gnutls/-/issues/1773
     - https://linux.oracle.com/cve/CVE-2025-14831.html
@@ -37663,7 +37663,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2423177
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14831
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9820
-    - https://errata.almalinux.org/10/ALSA-2026-3477.html
+    - https://errata.almalinux.org/9/ALSA-2026-4188.html
     - https://errata.rockylinux.org/RLSA-2026:4188
     - https://gitlab.com/gnutls/gnutls/-/commit/1d56f96f6ab5034d677136b9d50b5a75dff0faf5
     - https://gitlab.com/gnutls/gnutls/-/issues/1732
@@ -37699,7 +37699,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -38087,7 +38087,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -38558,6 +38558,39 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-27171
     PublishedDate: '2026-02-18T04:16:01.263Z'
     LastModifiedDate: '2026-02-20T16:45:28.827Z'
+  - VulnerabilityID: CVE-2026-4111
+    PkgID: libarchive@3.5.3-6.el9_6.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-6.el9_6?arch=x86_64&distro=redhat-9.7
+      UID: 2471398f3a84d924
+    InstalledVersion: 3.5.3-6.el9_6
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4111
+    Fingerprint: sha256:8b779484bf025a376bf8b329720ca4cee19cce4e9c8a8e2bc1596efe2f9e4d98
+    Title: 'libarchive: Infinite Loop Denial of Service in RAR5 Decompression via archive_read_data() in libarchive'
+    Description: A flaw was identified in the RAR5 archive decompression logic of the libarchive library, specifically within the archive_read_data() processing path. When a specially crafted RAR5 archive is processed, the decompression routine may enter a state where internal logic prevents forward progress. This condition results in an infinite loop that continuously consumes CPU resources. Because the archive passes checksum validation and appears structurally valid, affected applications cannot detect the issue before processing. This can allow attackers to cause persistent denial-of-service conditions in services that automatically process archives.
+    Severity: HIGH
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-4111
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2446453
+    - https://github.com/libarchive/libarchive/pull/2877
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-4111
+    - https://www.cve.org/CVERecord?id=CVE-2026-4111
+    PublishedDate: '2026-03-13T19:55:13.917Z'
+    LastModifiedDate: '2026-03-13T19:55:13.917Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-6.el9_6.x86_64
     PkgName: libarchive
@@ -38990,7 +39023,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 1
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -42697,6 +42730,267 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-22796
     PublishedDate: '2026-01-27T16:16:35.543Z'
     LastModifiedDate: '2026-02-02T18:40:27.467Z'
+  - VulnerabilityID: CVE-2026-2673
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 5db6c2af1fac68af
+    InstalledVersion: 1:3.5.1-5.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2673
+    Fingerprint: sha256:12a16223ce27ec6da4e627716881d377288100ef6ef250c00edbda509532d172
+    Title: 'openssl: OpenSSL TLS 1.3 server may choose unexpected key agreement group'
+    Description: |-
+      Issue summary: An OpenSSL TLS 1.3 server may fail to negotiate the expected
+      preferred key exchange group when its key exchange group configuration includes
+      the default by using the 'DEFAULT' keyword.
+
+      Impact summary: A less preferred key exchange may be used even when a more
+      preferred group is supported by both client and server, if the group
+      was not included among the client's initial predicated keyshares.
+      This will sometimes be the case with the new hybrid post-quantum groups,
+      if the client chooses to defer their use until specifically requested by
+      the server.
+
+      If an OpenSSL TLS 1.3 server's configuration uses the 'DEFAULT' keyword to
+      interpolate the built-in default group list into its own configuration, perhaps
+      adding or removing specific elements, then an implementation defect causes the
+      'DEFAULT' list to lose its 'tuple' structure, and all server-supported groups
+      were treated as a single sufficiently secure 'tuple', with the server not
+      sending a Hello Retry Request (HRR) even when a group in a more preferred tuple
+      was mutually supported.
+
+      As a result, the client and server might fail to negotiate a mutually supported
+      post-quantum key agreement group, such as 'X25519MLKEM768', if the client's
+      configuration results in only 'classical' groups (such as 'X25519' being the
+      only ones in the client's initial keyshare prediction).
+
+      OpenSSL 3.5 and later support a new syntax for selecting the most preferred TLS
+      1.3 key agreement group on TLS servers.  The old syntax had a single 'flat'
+      list of groups, and treated all the supported groups as sufficiently secure.
+      If any of the keyshares predicted by the client were supported by the server
+      the most preferred among these was selected, even if other groups supported by
+      the client, but not included in the list of predicted keyshares would have been
+      more preferred, if included.
+
+      The new syntax partitions the groups into distinct 'tuples' of roughly
+      equivalent security.  Within each tuple the most preferred group included among
+      the client's predicted keyshares is chosen, but if the client supports a group
+      from a more preferred tuple, but did not predict any corresponding keyshares,
+      the server will ask the client to retry the ClientHello (by issuing a Hello
+      Retry Request or HRR) with the most preferred mutually supported group.
+
+      The above works as expected when the server's configuration uses the built-in
+      default group list, or explicitly defines its own list by directly defining the
+      various desired groups and group 'tuples'.
+
+      No OpenSSL FIPS modules are affected by this issue, the code in question lies
+      outside the FIPS boundary.
+
+      OpenSSL 3.6 and 3.5 are vulnerable to this issue.
+
+      OpenSSL 3.6 users should upgrade to OpenSSL 3.6.2 once it is released.
+      OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it is released.
+
+      OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-757
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/13/3
+    - https://access.redhat.com/security/cve/CVE-2026-2673
+    - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
+    - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
+    - https://openssl-library.org/news/secadv/20260313.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-2673
+    PublishedDate: '2026-03-13T19:54:34.033Z'
+    LastModifiedDate: '2026-03-13T19:54:34.033Z'
+  - VulnerabilityID: CVE-2026-2673
+    PkgID: openssl-fips-provider@3.0.7-8.el9.x86_64
+    PkgName: openssl-fips-provider
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-fips-provider@3.0.7-8.el9?arch=x86_64&distro=redhat-9.7
+      UID: 8260b44d53e212aa
+    InstalledVersion: 3.0.7-8.el9
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2673
+    Fingerprint: sha256:eb500f03818bfe4b6eeca066135beb0e0dce3e8959abdd50526060cf568474a1
+    Title: 'openssl: OpenSSL TLS 1.3 server may choose unexpected key agreement group'
+    Description: |-
+      Issue summary: An OpenSSL TLS 1.3 server may fail to negotiate the expected
+      preferred key exchange group when its key exchange group configuration includes
+      the default by using the 'DEFAULT' keyword.
+
+      Impact summary: A less preferred key exchange may be used even when a more
+      preferred group is supported by both client and server, if the group
+      was not included among the client's initial predicated keyshares.
+      This will sometimes be the case with the new hybrid post-quantum groups,
+      if the client chooses to defer their use until specifically requested by
+      the server.
+
+      If an OpenSSL TLS 1.3 server's configuration uses the 'DEFAULT' keyword to
+      interpolate the built-in default group list into its own configuration, perhaps
+      adding or removing specific elements, then an implementation defect causes the
+      'DEFAULT' list to lose its 'tuple' structure, and all server-supported groups
+      were treated as a single sufficiently secure 'tuple', with the server not
+      sending a Hello Retry Request (HRR) even when a group in a more preferred tuple
+      was mutually supported.
+
+      As a result, the client and server might fail to negotiate a mutually supported
+      post-quantum key agreement group, such as 'X25519MLKEM768', if the client's
+      configuration results in only 'classical' groups (such as 'X25519' being the
+      only ones in the client's initial keyshare prediction).
+
+      OpenSSL 3.5 and later support a new syntax for selecting the most preferred TLS
+      1.3 key agreement group on TLS servers.  The old syntax had a single 'flat'
+      list of groups, and treated all the supported groups as sufficiently secure.
+      If any of the keyshares predicted by the client were supported by the server
+      the most preferred among these was selected, even if other groups supported by
+      the client, but not included in the list of predicted keyshares would have been
+      more preferred, if included.
+
+      The new syntax partitions the groups into distinct 'tuples' of roughly
+      equivalent security.  Within each tuple the most preferred group included among
+      the client's predicted keyshares is chosen, but if the client supports a group
+      from a more preferred tuple, but did not predict any corresponding keyshares,
+      the server will ask the client to retry the ClientHello (by issuing a Hello
+      Retry Request or HRR) with the most preferred mutually supported group.
+
+      The above works as expected when the server's configuration uses the built-in
+      default group list, or explicitly defines its own list by directly defining the
+      various desired groups and group 'tuples'.
+
+      No OpenSSL FIPS modules are affected by this issue, the code in question lies
+      outside the FIPS boundary.
+
+      OpenSSL 3.6 and 3.5 are vulnerable to this issue.
+
+      OpenSSL 3.6 users should upgrade to OpenSSL 3.6.2 once it is released.
+      OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it is released.
+
+      OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-757
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/13/3
+    - https://access.redhat.com/security/cve/CVE-2026-2673
+    - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
+    - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
+    - https://openssl-library.org/news/secadv/20260313.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-2673
+    PublishedDate: '2026-03-13T19:54:34.033Z'
+    LastModifiedDate: '2026-03-13T19:54:34.033Z'
+  - VulnerabilityID: CVE-2026-2673
+    PkgID: openssl-fips-provider-so@3.0.7-8.el9.x86_64
+    PkgName: openssl-fips-provider-so
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-fips-provider-so@3.0.7-8.el9?arch=x86_64&distro=redhat-9.7
+      UID: 12e86dd48a6346f8
+    InstalledVersion: 3.0.7-8.el9
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2673
+    Fingerprint: sha256:d8a9b1d7728d02ab885c3d0ed829e1bfc02054dd83ac5faad074c39271ff5363
+    Title: 'openssl: OpenSSL TLS 1.3 server may choose unexpected key agreement group'
+    Description: |-
+      Issue summary: An OpenSSL TLS 1.3 server may fail to negotiate the expected
+      preferred key exchange group when its key exchange group configuration includes
+      the default by using the 'DEFAULT' keyword.
+
+      Impact summary: A less preferred key exchange may be used even when a more
+      preferred group is supported by both client and server, if the group
+      was not included among the client's initial predicated keyshares.
+      This will sometimes be the case with the new hybrid post-quantum groups,
+      if the client chooses to defer their use until specifically requested by
+      the server.
+
+      If an OpenSSL TLS 1.3 server's configuration uses the 'DEFAULT' keyword to
+      interpolate the built-in default group list into its own configuration, perhaps
+      adding or removing specific elements, then an implementation defect causes the
+      'DEFAULT' list to lose its 'tuple' structure, and all server-supported groups
+      were treated as a single sufficiently secure 'tuple', with the server not
+      sending a Hello Retry Request (HRR) even when a group in a more preferred tuple
+      was mutually supported.
+
+      As a result, the client and server might fail to negotiate a mutually supported
+      post-quantum key agreement group, such as 'X25519MLKEM768', if the client's
+      configuration results in only 'classical' groups (such as 'X25519' being the
+      only ones in the client's initial keyshare prediction).
+
+      OpenSSL 3.5 and later support a new syntax for selecting the most preferred TLS
+      1.3 key agreement group on TLS servers.  The old syntax had a single 'flat'
+      list of groups, and treated all the supported groups as sufficiently secure.
+      If any of the keyshares predicted by the client were supported by the server
+      the most preferred among these was selected, even if other groups supported by
+      the client, but not included in the list of predicted keyshares would have been
+      more preferred, if included.
+
+      The new syntax partitions the groups into distinct 'tuples' of roughly
+      equivalent security.  Within each tuple the most preferred group included among
+      the client's predicted keyshares is chosen, but if the client supports a group
+      from a more preferred tuple, but did not predict any corresponding keyshares,
+      the server will ask the client to retry the ClientHello (by issuing a Hello
+      Retry Request or HRR) with the most preferred mutually supported group.
+
+      The above works as expected when the server's configuration uses the built-in
+      default group list, or explicitly defines its own list by directly defining the
+      various desired groups and group 'tuples'.
+
+      No OpenSSL FIPS modules are affected by this issue, the code in question lies
+      outside the FIPS boundary.
+
+      OpenSSL 3.6 and 3.5 are vulnerable to this issue.
+
+      OpenSSL 3.6 users should upgrade to OpenSSL 3.6.2 once it is released.
+      OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it is released.
+
+      OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-757
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/13/3
+    - https://access.redhat.com/security/cve/CVE-2026-2673
+    - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
+    - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
+    - https://openssl-library.org/news/secadv/20260313.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-2673
+    PublishedDate: '2026-03-13T19:54:34.033Z'
+    LastModifiedDate: '2026-03-13T19:54:34.033Z'
   - VulnerabilityID: CVE-2025-15467
     VendorIDs:
     - RHSA-2026:1473
@@ -44409,6 +44703,93 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-22796
     PublishedDate: '2026-01-27T16:16:35.543Z'
     LastModifiedDate: '2026-02-02T18:40:27.467Z'
+  - VulnerabilityID: CVE-2026-2673
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 6efd234734728205
+    InstalledVersion: 1:3.5.1-5.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2673
+    Fingerprint: sha256:599f560b0ef3e4cdeec6a4a151c875321d2407fa631fdc5e90351db9d1b4e39d
+    Title: 'openssl: OpenSSL TLS 1.3 server may choose unexpected key agreement group'
+    Description: |-
+      Issue summary: An OpenSSL TLS 1.3 server may fail to negotiate the expected
+      preferred key exchange group when its key exchange group configuration includes
+      the default by using the 'DEFAULT' keyword.
+
+      Impact summary: A less preferred key exchange may be used even when a more
+      preferred group is supported by both client and server, if the group
+      was not included among the client's initial predicated keyshares.
+      This will sometimes be the case with the new hybrid post-quantum groups,
+      if the client chooses to defer their use until specifically requested by
+      the server.
+
+      If an OpenSSL TLS 1.3 server's configuration uses the 'DEFAULT' keyword to
+      interpolate the built-in default group list into its own configuration, perhaps
+      adding or removing specific elements, then an implementation defect causes the
+      'DEFAULT' list to lose its 'tuple' structure, and all server-supported groups
+      were treated as a single sufficiently secure 'tuple', with the server not
+      sending a Hello Retry Request (HRR) even when a group in a more preferred tuple
+      was mutually supported.
+
+      As a result, the client and server might fail to negotiate a mutually supported
+      post-quantum key agreement group, such as 'X25519MLKEM768', if the client's
+      configuration results in only 'classical' groups (such as 'X25519' being the
+      only ones in the client's initial keyshare prediction).
+
+      OpenSSL 3.5 and later support a new syntax for selecting the most preferred TLS
+      1.3 key agreement group on TLS servers.  The old syntax had a single 'flat'
+      list of groups, and treated all the supported groups as sufficiently secure.
+      If any of the keyshares predicted by the client were supported by the server
+      the most preferred among these was selected, even if other groups supported by
+      the client, but not included in the list of predicted keyshares would have been
+      more preferred, if included.
+
+      The new syntax partitions the groups into distinct 'tuples' of roughly
+      equivalent security.  Within each tuple the most preferred group included among
+      the client's predicted keyshares is chosen, but if the client supports a group
+      from a more preferred tuple, but did not predict any corresponding keyshares,
+      the server will ask the client to retry the ClientHello (by issuing a Hello
+      Retry Request or HRR) with the most preferred mutually supported group.
+
+      The above works as expected when the server's configuration uses the built-in
+      default group list, or explicitly defines its own list by directly defining the
+      various desired groups and group 'tuples'.
+
+      No OpenSSL FIPS modules are affected by this issue, the code in question lies
+      outside the FIPS boundary.
+
+      OpenSSL 3.6 and 3.5 are vulnerable to this issue.
+
+      OpenSSL 3.6 users should upgrade to OpenSSL 3.6.2 once it is released.
+      OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it is released.
+
+      OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-757
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/13/3
+    - https://access.redhat.com/security/cve/CVE-2026-2673
+    - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
+    - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
+    - https://openssl-library.org/news/secadv/20260313.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-2673
+    PublishedDate: '2026-03-13T19:54:34.033Z'
+    LastModifiedDate: '2026-03-13T19:54:34.033Z'
   - VulnerabilityID: CVE-2026-2100
     PkgID: p11-kit@0.25.3-3.el9_5.x86_64
     PkgName: p11-kit
@@ -44962,7 +45343,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:4165
+    - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15366
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
@@ -44975,7 +45356,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.almalinux.org/9/ALSA-2026-4216.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/issues/143921
@@ -45024,7 +45405,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:4165
+    - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
@@ -45037,7 +45418,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.almalinux.org/9/ALSA-2026-4216.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
     - https://github.com/python/cpython/issues/143923
@@ -45071,7 +45452,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -45237,9 +45618,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4168
     - https://access.redhat.com/security/cve/CVE-2026-0865
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
@@ -45251,7 +45631,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.almalinux.org/9/ALSA-2026-4168.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/22e4d55285cee52bc4dbe061324e5f30bd4dee58
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
@@ -45318,7 +45698,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:4165
+    - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2026-1299
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
@@ -45332,7 +45712,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://cve.org/CVERecord?id=CVE-2024-6923
-    - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.almalinux.org/9/ALSA-2026-4216.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/052e55e7d44718fe46cbba0ca995cb8fcc359413
     - https://github.com/python/cpython/commit/0a925ab591c45d6638f37b5e57796f36fa0e56d8
@@ -45734,7 +46114,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:4165
+    - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15366
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
@@ -45747,7 +46127,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.almalinux.org/9/ALSA-2026-4216.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/issues/143921
@@ -45796,7 +46176,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:4165
+    - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
@@ -45809,7 +46189,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.almalinux.org/9/ALSA-2026-4216.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
     - https://github.com/python/cpython/issues/143923
@@ -45843,7 +46223,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -46009,9 +46389,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4168
     - https://access.redhat.com/security/cve/CVE-2026-0865
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
@@ -46023,7 +46402,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.almalinux.org/9/ALSA-2026-4168.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/22e4d55285cee52bc4dbe061324e5f30bd4dee58
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
@@ -46090,7 +46469,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:4165
+    - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2026-1299
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
@@ -46104,7 +46483,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://cve.org/CVERecord?id=CVE-2024-6923
-    - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.almalinux.org/9/ALSA-2026-4216.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/052e55e7d44718fe46cbba0ca995cb8fcc359413
     - https://github.com/python/cpython/commit/0a925ab591c45d6638f37b5e57796f36fa0e56d8
@@ -46506,7 +46885,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:4165
+    - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15366
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
@@ -46519,7 +46898,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.almalinux.org/9/ALSA-2026-4216.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/issues/143921
@@ -46568,7 +46947,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:4165
+    - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
@@ -46581,7 +46960,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.almalinux.org/9/ALSA-2026-4216.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
     - https://github.com/python/cpython/issues/143923
@@ -46615,7 +46994,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -46781,9 +47160,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4168
     - https://access.redhat.com/security/cve/CVE-2026-0865
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
@@ -46795,7 +47173,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.almalinux.org/9/ALSA-2026-4168.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/22e4d55285cee52bc4dbe061324e5f30bd4dee58
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
@@ -46862,7 +47240,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:4165
+    - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2026-1299
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
@@ -46876,7 +47254,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://cve.org/CVERecord?id=CVE-2024-6923
-    - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.almalinux.org/9/ALSA-2026-4216.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/052e55e7d44718fe46cbba0ca995cb8fcc359413
     - https://github.com/python/cpython/commit/0a925ab591c45d6638f37b5e57796f36fa0e56d8
@@ -47409,17 +47787,22 @@
     Title: 'systemd: systemd: Privilege escalation via improper access control in RegisterMachine D-Bus method'
     Description: A flaw was found in systemd. The systemd-machined service contains an Improper Access Control vulnerability due to insufficient validation of the class parameter in the RegisterMachine D-Bus (Desktop Bus) method. A local unprivileged user can exploit this by attempting to register a machine with a specific class value, which may leave behind a usable, attacker-controlled machine object. This allows the attacker to invoke methods on the privileged object, leading to the execution of arbitrary commands with root privileges on the host system.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-284
     VendorSeverity:
       redhat: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7.8
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 6.7
     References:
     - https://access.redhat.com/security/cve/CVE-2026-4105
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2447262
     - https://github.com/systemd/systemd/security/advisories/GHSA-4h6x-r8vx-3862
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4105
     - https://www.cve.org/CVERecord?id=CVE-2026-4105
+    PublishedDate: '2026-03-13T19:55:13.673Z'
+    LastModifiedDate: '2026-03-13T19:55:13.673Z'
   - VulnerabilityID: CVE-2005-2541
     PkgID: tar@1.34-9.el9_7.x86_64
     PkgName: tar
