@@ -2430,13 +2430,13 @@
 │                       │     │                    untgz command with an excessively long archive name supplied
 │                       │     │                    via the command line, leading to an out-of-bounds write in a
 │                       │     │                    fixed-size global buffer. 
-│                       │     ├ Severity        : CRITICAL 
+│                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ─ [0]: CWE-787 
-│                       │     ├ VendorSeverity   ╭ nvd   : 4 
+│                       │     ├ VendorSeverity   ╭ nvd   : 3 
 │                       │     │                  ╰ redhat: 3 
-│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
 │                       │     │                  │        │           A:H 
-│                       │     │                  │        ╰ V3Score : 9.8 
+│                       │     │                  │        ╰ V3Score : 7.8 
 │                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.6 
@@ -2450,7 +2450,7 @@
 │                       │     │                  │      buffer-overflow-in-tgzfname 
 │                       │     │                  ╰ [7]: https://zlib.net/ 
 │                       │     ├ PublishedDate   : 2026-01-07T21:16:01.563Z 
-│                       │     ╰ LastModifiedDate: 2026-01-15T14:16:27.047Z 
+│                       │     ╰ LastModifiedDate: 2026-03-18T16:26:31.14Z 
 │                       ╰ [1] ╭ VulnerabilityID : CVE-2026-27171 
 │                             ├ PkgID           : zlib@1.3.1-r2 
 │                             ├ PkgName         : zlib 
