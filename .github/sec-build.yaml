@@ -2207,16 +2207,16 @@
     Fingerprint: sha256:033ba9c68ba306e3701ab99c765a60154ab14b59d49673f467a29a54f1d80020
     Title: 'zlib: zlib: Arbitrary code execution via buffer overflow in untgz utility'
     Description: zlib versions up to and including 1.3.1.2 include a global buffer overflow in the untgz utility located under contrib/untgz. The vulnerability is limited to the standalone demonstration utility and does not affect the core zlib compression library. The flaw occurs when a user executes the untgz command with an excessively long archive name supplied via the command line, leading to an out-of-bounds write in a fixed-size global buffer.
-    Severity: CRITICAL
+    Severity: HIGH
     CweIDs:
     - CWE-787
     VendorSeverity:
-      nvd: 4
+      nvd: 3
       redhat: 3
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 8.6
@@ -2230,7 +2230,7 @@
     - https://www.vulncheck.com/advisories/zlib-untgz-global-buffer-overflow-in-tgzfname
     - https://zlib.net/
     PublishedDate: '2026-01-07T21:16:01.563Z'
-    LastModifiedDate: '2026-01-15T14:16:27.047Z'
+    LastModifiedDate: '2026-03-18T16:26:31.14Z'
   - VulnerabilityID: CVE-2026-27171
     PkgID: zlib@1.3.1-r2
     PkgName: zlib
