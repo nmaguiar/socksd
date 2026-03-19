@@ -35956,6 +35956,7 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -35968,6 +35969,7 @@
     - https://curl.se/docs/CVE-2026-1965.json
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1965
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-1965
     PublishedDate: '2026-03-11T11:15:59.177Z'
     LastModifiedDate: '2026-03-12T14:11:19.07Z'
@@ -35998,6 +36000,7 @@
     CweIDs:
     - CWE-522
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -36012,6 +36015,7 @@
     - https://hackerone.com/reports/3583983
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3783
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3783
     PublishedDate: '2026-03-11T11:16:00.08Z'
     LastModifiedDate: '2026-03-12T14:10:37.3Z'
@@ -36038,6 +36042,7 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -36052,6 +36057,7 @@
     - https://hackerone.com/reports/3584903
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3784
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3784
     PublishedDate: '2026-03-11T11:16:00.437Z'
     LastModifiedDate: '2026-03-12T14:09:50.47Z'
@@ -36077,6 +36083,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -36286,7 +36293,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
     - https://errata.almalinux.org/9/ALSA-2025-1671.html
-    - https://errata.rockylinux.org/RLSA-2025:1671
+    - https://errata.rockylinux.org/RLSA-2025:1673
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -36499,7 +36506,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
     - https://errata.almalinux.org/9/ALSA-2025-1671.html
-    - https://errata.rockylinux.org/RLSA-2025:1671
+    - https://errata.rockylinux.org/RLSA-2025:1673
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -36592,6 +36599,119 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2025-11-03T21:18:48.67Z'
+  - VulnerabilityID: CVE-2026-32776
+    PkgID: expat@2.5.0-5.el9_7.1.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-5.el9_7.1?arch=x86_64&distro=redhat-9.7
+      UID: ce40aeddf460d01f
+    InstalledVersion: 2.5.0-5.el9_7.1
+    Status: affected
+    Layer:
+      Digest: sha256:f51be5b0ccbe1a7b46913603dffac2c65978a24bd4398332265a38ef17c53343
+      DiffID: sha256:a9f5c08cf215e3203c4a18a20795c66abc732c80b62ffa7c5702a1002ad45d01
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-32776
+    Fingerprint: sha256:95192e13da892327918ce95f9f8079edeb20dd61049adbef54ff4dc38d9e1c38
+    Title: 'libexpat: libexpat: Denial of Service due to NULL pointer dereference'
+    Description: libexpat before 2.7.5 allows a NULL pointer dereference with empty external parameter entity content.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-32776
+    - https://github.com/libexpat/libexpat/pull/1158
+    - https://github.com/libexpat/libexpat/pull/1159
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-32776
+    - https://www.cve.org/CVERecord?id=CVE-2026-32776
+    PublishedDate: '2026-03-16T14:19:44.6Z'
+    LastModifiedDate: '2026-03-17T15:52:09.023Z'
+  - VulnerabilityID: CVE-2026-32777
+    PkgID: expat@2.5.0-5.el9_7.1.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-5.el9_7.1?arch=x86_64&distro=redhat-9.7
+      UID: ce40aeddf460d01f
+    InstalledVersion: 2.5.0-5.el9_7.1
+    Status: affected
+    Layer:
+      Digest: sha256:f51be5b0ccbe1a7b46913603dffac2c65978a24bd4398332265a38ef17c53343
+      DiffID: sha256:a9f5c08cf215e3203c4a18a20795c66abc732c80b62ffa7c5702a1002ad45d01
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-32777
+    Fingerprint: sha256:3b41334bb0073a06d03f053557e9f5a4c3e2178e4710bc44d2d23afc73653077
+    Title: 'libexpat: libexpat: Denial of Service via infinite loop in DTD content parsing'
+    Description: libexpat before 2.7.5 allows an infinite loop while parsing DTD content.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-32777
+    - https://github.com/libexpat/libexpat/issues/1161
+    - https://github.com/libexpat/libexpat/pull/1159
+    - https://github.com/libexpat/libexpat/pull/1162
+    - https://issues.oss-fuzz.com/issues/486993411
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-32777
+    - https://www.cve.org/CVERecord?id=CVE-2026-32777
+    PublishedDate: '2026-03-16T14:19:44.78Z'
+    LastModifiedDate: '2026-03-17T15:52:34.357Z'
+  - VulnerabilityID: CVE-2026-32778
+    PkgID: expat@2.5.0-5.el9_7.1.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-5.el9_7.1?arch=x86_64&distro=redhat-9.7
+      UID: ce40aeddf460d01f
+    InstalledVersion: 2.5.0-5.el9_7.1
+    Status: affected
+    Layer:
+      Digest: sha256:f51be5b0ccbe1a7b46913603dffac2c65978a24bd4398332265a38ef17c53343
+      DiffID: sha256:a9f5c08cf215e3203c4a18a20795c66abc732c80b62ffa7c5702a1002ad45d01
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-32778
+    Fingerprint: sha256:b61780159f08ee130972829554c7d3054969e4e59965bfaaf7527f58326b2c00
+    Title: 'libexpat: libexpat: Denial of Service via NULL pointer dereference after out-of-memory condition'
+    Description: libexpat before 2.7.5 allows a NULL pointer dereference in the function setContext on retry after an earlier ouf-of-memory condition.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-32778
+    - https://github.com/libexpat/libexpat/pull/1159
+    - https://github.com/libexpat/libexpat/pull/1163
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-32778
+    - https://www.cve.org/CVERecord?id=CVE-2026-32778
+    PublishedDate: '2026-03-16T14:19:44.97Z'
+    LastModifiedDate: '2026-03-17T15:52:53.16Z'
   - VulnerabilityID: CVE-2025-66382
     PkgID: expat@2.5.0-5.el9_7.1.x86_64
     PkgName: expat
@@ -36754,6 +36874,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-14087
     - https://bugzilla.redhat.com/show_bug.cgi?id=2419093
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3834
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4933
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4934
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14087
@@ -36761,7 +36882,7 @@
     - https://ubuntu.com/security/notices/USN-7942-2
     - https://www.cve.org/CVERecord?id=CVE-2025-14087
     PublishedDate: '2025-12-10T09:15:47.053Z'
-    LastModifiedDate: '2026-02-06T17:19:39.453Z'
+    LastModifiedDate: '2026-03-18T17:16:03.597Z'
   - VulnerabilityID: CVE-2025-14512
     PkgID: glib2@2.68.4-18.el9_7.1.x86_64
     PkgName: glib2
@@ -37067,11 +37188,12 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-1485
     - https://bugzilla.redhat.com/show_bug.cgi?id=2433325
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3871
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1485
     - https://ubuntu.com/security/notices/USN-8017-1
     - https://www.cve.org/CVERecord?id=CVE-2026-1485
     PublishedDate: '2026-01-27T14:15:56.223Z'
-    LastModifiedDate: '2026-02-03T21:16:12.23Z'
+    LastModifiedDate: '2026-03-18T17:16:05.69Z'
   - VulnerabilityID: CVE-2025-68972
     PkgID: gnupg2@2.3.3-5.el9_7.x86_64
     PkgName: gnupg2
@@ -37281,7 +37403,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/9/ALSA-2026-0238.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.rockylinux.org/RLSA-2026:0241
     - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
     - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
     - https://github.com/pnggroup/libpng/issues/764
@@ -37314,12 +37436,12 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      nvd: 4
+      nvd: 3
       redhat: 3
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 8.6
@@ -37333,7 +37455,7 @@
     - https://www.vulncheck.com/advisories/zlib-untgz-global-buffer-overflow-in-tgzfname
     - https://zlib.net/
     PublishedDate: '2026-01-07T21:16:01.563Z'
-    LastModifiedDate: '2026-01-15T14:16:27.047Z'
+    LastModifiedDate: '2026-03-18T16:26:31.14Z'
   - VulnerabilityID: CVE-2026-25646
     PkgID: java-21-openjdk-headless@21.0.10.0.7-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -37386,11 +37508,11 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
     - https://errata.almalinux.org/9/ALSA-2026-3405.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
+    - https://errata.rockylinux.org/RLSA-2026:3551
     - https://github.com/pnggroup/libpng/commit/01d03b8453eb30ade759cd45c707e5a1c7277d88
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-g8hp-mq4h-rqm3
     - https://linux.oracle.com/cve/CVE-2026-25646.html
-    - https://linux.oracle.com/errata/ELSA-2026-4306.html
+    - https://linux.oracle.com/errata/ELSA-2026-4728.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-25646
     - https://ubuntu.com/security/notices/USN-8035-1
     - https://ubuntu.com/security/notices/USN-8039-1
@@ -37609,13 +37731,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
     - https://errata.almalinux.org/9/ALSA-2026-3405.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
+    - https://errata.rockylinux.org/RLSA-2026:3551
     - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
     - https://github.com/pnggroup/libpng/commit/e4f7ad4ea2
     - https://github.com/pnggroup/libpng/issues/778
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-mmq5-27w3-rxpp
     - https://linux.oracle.com/cve/CVE-2026-22695.html
-    - https://linux.oracle.com/errata/ELSA-2026-4306.html
+    - https://linux.oracle.com/errata/ELSA-2026-4728.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-22695
     - https://ubuntu.com/security/notices/USN-7963-1
     - https://ubuntu.com/security/notices/USN-8035-1
@@ -37674,10 +37796,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
     - https://errata.almalinux.org/9/ALSA-2026-3405.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
+    - https://errata.rockylinux.org/RLSA-2026:3551
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-vgjq-8cw5-ggw8
     - https://linux.oracle.com/cve/CVE-2026-22801.html
-    - https://linux.oracle.com/errata/ELSA-2026-4306.html
+    - https://linux.oracle.com/errata/ELSA-2026-4728.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-22801
     - https://ubuntu.com/security/notices/USN-7963-1
     - https://ubuntu.com/security/notices/USN-8035-1
@@ -38221,6 +38343,7 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -38233,6 +38356,7 @@
     - https://curl.se/docs/CVE-2026-1965.json
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1965
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-1965
     PublishedDate: '2026-03-11T11:15:59.177Z'
     LastModifiedDate: '2026-03-12T14:11:19.07Z'
@@ -38263,6 +38387,7 @@
     CweIDs:
     - CWE-522
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -38277,6 +38402,7 @@
     - https://hackerone.com/reports/3583983
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3783
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3783
     PublishedDate: '2026-03-11T11:16:00.08Z'
     LastModifiedDate: '2026-03-12T14:10:37.3Z'
@@ -38303,6 +38429,7 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -38317,6 +38444,7 @@
     - https://hackerone.com/reports/3584903
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3784
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3784
     PublishedDate: '2026-03-11T11:16:00.437Z'
     LastModifiedDate: '2026-03-12T14:09:50.47Z'
@@ -38342,6 +38470,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -38551,7 +38680,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
     - https://errata.almalinux.org/9/ALSA-2025-1671.html
-    - https://errata.rockylinux.org/RLSA-2025:1671
+    - https://errata.rockylinux.org/RLSA-2025:1673
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -38764,7 +38893,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21555
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21559
     - https://errata.almalinux.org/9/ALSA-2025-1671.html
-    - https://errata.rockylinux.org/RLSA-2025:1671
+    - https://errata.rockylinux.org/RLSA-2025:1673
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -40383,6 +40512,7 @@
     - CWE-757
     VendorSeverity:
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
@@ -40396,7 +40526,7 @@
     - https://openssl-library.org/news/secadv/20260313.txt
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-03-16T14:54:11.293Z'
+    LastModifiedDate: '2026-03-17T18:16:15.6Z'
   - VulnerabilityID: CVE-2026-2673
     PkgID: openssl-fips-provider@3.0.7-8.el9.x86_64
     PkgName: openssl-fips-provider
@@ -40470,6 +40600,7 @@
     - CWE-757
     VendorSeverity:
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
@@ -40483,7 +40614,7 @@
     - https://openssl-library.org/news/secadv/20260313.txt
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-03-16T14:54:11.293Z'
+    LastModifiedDate: '2026-03-17T18:16:15.6Z'
   - VulnerabilityID: CVE-2026-2673
     PkgID: openssl-fips-provider-so@3.0.7-8.el9.x86_64
     PkgName: openssl-fips-provider-so
@@ -40557,6 +40688,7 @@
     - CWE-757
     VendorSeverity:
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
@@ -40570,7 +40702,7 @@
     - https://openssl-library.org/news/secadv/20260313.txt
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-03-16T14:54:11.293Z'
+    LastModifiedDate: '2026-03-17T18:16:15.6Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
     PkgName: openssl-libs
@@ -40983,6 +41115,7 @@
     - CWE-757
     VendorSeverity:
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
@@ -40996,7 +41129,7 @@
     - https://openssl-library.org/news/secadv/20260313.txt
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-03-16T14:54:11.293Z'
+    LastModifiedDate: '2026-03-17T18:16:15.6Z'
   - VulnerabilityID: CVE-2026-2100
     PkgID: p11-kit@0.25.3-3.el9_5.x86_64
     PkgName: p11-kit
@@ -41592,6 +41725,93 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-0672
     PublishedDate: '2026-01-20T22:15:52.68Z'
     LastModifiedDate: '2026-01-26T15:16:07.033Z'
+  - VulnerabilityID: CVE-2026-3644
+    PkgID: python-unversioned-command@3.9.25-3.el9_7.1.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-3.el9_7.1?arch=noarch&distro=redhat-9.7
+      UID: db240ab480da3b12
+    InstalledVersion: 3.9.25-3.el9_7.1
+    Status: affected
+    Layer:
+      Digest: sha256:f51be5b0ccbe1a7b46913603dffac2c65978a24bd4398332265a38ef17c53343
+      DiffID: sha256:a9f5c08cf215e3203c4a18a20795c66abc732c80b62ffa7c5702a1002ad45d01
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3644
+    Fingerprint: sha256:684e8cbf8a907b1e44c2b63c4f5bf70f4ff034ba1941e0f0258f2b7241fbe1c9
+    Title: 'cpython: Incomplete control character validation in http.cookies'
+    Description: The fix for CVE-2026-0672, which rejected control characters in http.cookies.Morsel, was incomplete. The Morsel.update(), |= operator, and unpickling paths were not patched, allowing control characters to bypass input validation. Additionally, BaseCookie.js_output() lacked the output validation applied to BaseCookie.output().
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    - CWE-116
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:L/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-3644
+    - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
+    - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
+    - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
+    - https://github.com/python/cpython/issues/145599
+    - https://github.com/python/cpython/pull/145600
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/H6CADMBCDRFGWCMOXWUIHFJNV43GABJ7/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3644
+    - https://www.cve.org/CVERecord?id=CVE-2026-3644
+    PublishedDate: '2026-03-16T18:16:09.907Z'
+    LastModifiedDate: '2026-03-17T14:20:01.67Z'
+  - VulnerabilityID: CVE-2026-4224
+    PkgID: python-unversioned-command@3.9.25-3.el9_7.1.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-3.el9_7.1?arch=noarch&distro=redhat-9.7
+      UID: db240ab480da3b12
+    InstalledVersion: 3.9.25-3.el9_7.1
+    Status: affected
+    Layer:
+      Digest: sha256:f51be5b0ccbe1a7b46913603dffac2c65978a24bd4398332265a38ef17c53343
+      DiffID: sha256:a9f5c08cf215e3203c4a18a20795c66abc732c80b62ffa7c5702a1002ad45d01
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4224
+    Fingerprint: sha256:59907f25a7f9602313ec6fc6dc30837fe0fc81df84f6499f4e55de11a0103b00
+    Title: 'cpython: Stack overflow parsing XML with deeply nested DTD content models'
+    Description: |-
+      When an Expat parser with a registered ElementDeclHandler parses an inline
+      document type definition containing a deeply nested content model a C stack
+      overflow occurs.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/16/4
+    - https://access.redhat.com/security/cve/CVE-2026-4224
+    - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
+    - https://github.com/python/cpython/commit/e0a8a6da90597a924b300debe045cdb4628ee1f3
+    - https://github.com/python/cpython/commit/eb0e8be3a7e11b87d198a2c3af1ed0eccf532768
+    - https://github.com/python/cpython/issues/145986
+    - https://github.com/python/cpython/pull/145987
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/5M7CGUW3XBRY7II4DK43KF7NQQ3TPZ6R/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-4224
+    - https://www.cve.org/CVERecord?id=CVE-2026-4224
+    PublishedDate: '2026-03-16T18:16:10.07Z'
+    LastModifiedDate: '2026-03-17T14:20:01.67Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python-unversioned-command@3.9.25-3.el9_7.1.noarch
     PkgName: python-unversioned-command
@@ -42019,6 +42239,93 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-0672
     PublishedDate: '2026-01-20T22:15:52.68Z'
     LastModifiedDate: '2026-01-26T15:16:07.033Z'
+  - VulnerabilityID: CVE-2026-3644
+    PkgID: python3@3.9.25-3.el9_7.1.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.25-3.el9_7.1?arch=x86_64&distro=redhat-9.7
+      UID: 69d0f4d235eb0c86
+    InstalledVersion: 3.9.25-3.el9_7.1
+    Status: affected
+    Layer:
+      Digest: sha256:f51be5b0ccbe1a7b46913603dffac2c65978a24bd4398332265a38ef17c53343
+      DiffID: sha256:a9f5c08cf215e3203c4a18a20795c66abc732c80b62ffa7c5702a1002ad45d01
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3644
+    Fingerprint: sha256:8059883908e9accd20be65d782c613c41da889d0a5d5382650c65566f19c2cb4
+    Title: 'cpython: Incomplete control character validation in http.cookies'
+    Description: The fix for CVE-2026-0672, which rejected control characters in http.cookies.Morsel, was incomplete. The Morsel.update(), |= operator, and unpickling paths were not patched, allowing control characters to bypass input validation. Additionally, BaseCookie.js_output() lacked the output validation applied to BaseCookie.output().
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    - CWE-116
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:L/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-3644
+    - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
+    - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
+    - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
+    - https://github.com/python/cpython/issues/145599
+    - https://github.com/python/cpython/pull/145600
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/H6CADMBCDRFGWCMOXWUIHFJNV43GABJ7/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3644
+    - https://www.cve.org/CVERecord?id=CVE-2026-3644
+    PublishedDate: '2026-03-16T18:16:09.907Z'
+    LastModifiedDate: '2026-03-17T14:20:01.67Z'
+  - VulnerabilityID: CVE-2026-4224
+    PkgID: python3@3.9.25-3.el9_7.1.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.25-3.el9_7.1?arch=x86_64&distro=redhat-9.7
+      UID: 69d0f4d235eb0c86
+    InstalledVersion: 3.9.25-3.el9_7.1
+    Status: affected
+    Layer:
+      Digest: sha256:f51be5b0ccbe1a7b46913603dffac2c65978a24bd4398332265a38ef17c53343
+      DiffID: sha256:a9f5c08cf215e3203c4a18a20795c66abc732c80b62ffa7c5702a1002ad45d01
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4224
+    Fingerprint: sha256:79732fb39e838178a29c988ab1c858147b4b5b7a2fff907191812c0a942664b1
+    Title: 'cpython: Stack overflow parsing XML with deeply nested DTD content models'
+    Description: |-
+      When an Expat parser with a registered ElementDeclHandler parses an inline
+      document type definition containing a deeply nested content model a C stack
+      overflow occurs.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/16/4
+    - https://access.redhat.com/security/cve/CVE-2026-4224
+    - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
+    - https://github.com/python/cpython/commit/e0a8a6da90597a924b300debe045cdb4628ee1f3
+    - https://github.com/python/cpython/commit/eb0e8be3a7e11b87d198a2c3af1ed0eccf532768
+    - https://github.com/python/cpython/issues/145986
+    - https://github.com/python/cpython/pull/145987
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/5M7CGUW3XBRY7II4DK43KF7NQQ3TPZ6R/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-4224
+    - https://www.cve.org/CVERecord?id=CVE-2026-4224
+    PublishedDate: '2026-03-16T18:16:10.07Z'
+    LastModifiedDate: '2026-03-17T14:20:01.67Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3@3.9.25-3.el9_7.1.x86_64
     PkgName: python3
@@ -42446,6 +42753,93 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-0672
     PublishedDate: '2026-01-20T22:15:52.68Z'
     LastModifiedDate: '2026-01-26T15:16:07.033Z'
+  - VulnerabilityID: CVE-2026-3644
+    PkgID: python3-libs@3.9.25-3.el9_7.1.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.25-3.el9_7.1?arch=x86_64&distro=redhat-9.7
+      UID: 29ecaefdc9235e1a
+    InstalledVersion: 3.9.25-3.el9_7.1
+    Status: affected
+    Layer:
+      Digest: sha256:f51be5b0ccbe1a7b46913603dffac2c65978a24bd4398332265a38ef17c53343
+      DiffID: sha256:a9f5c08cf215e3203c4a18a20795c66abc732c80b62ffa7c5702a1002ad45d01
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3644
+    Fingerprint: sha256:6a47324c8ef2dc1a8b3b10d4e87040a4cce28cfe3b7479ddd5152a5817e92a67
+    Title: 'cpython: Incomplete control character validation in http.cookies'
+    Description: The fix for CVE-2026-0672, which rejected control characters in http.cookies.Morsel, was incomplete. The Morsel.update(), |= operator, and unpickling paths were not patched, allowing control characters to bypass input validation. Additionally, BaseCookie.js_output() lacked the output validation applied to BaseCookie.output().
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    - CWE-116
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:L/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-3644
+    - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
+    - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
+    - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
+    - https://github.com/python/cpython/issues/145599
+    - https://github.com/python/cpython/pull/145600
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/H6CADMBCDRFGWCMOXWUIHFJNV43GABJ7/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3644
+    - https://www.cve.org/CVERecord?id=CVE-2026-3644
+    PublishedDate: '2026-03-16T18:16:09.907Z'
+    LastModifiedDate: '2026-03-17T14:20:01.67Z'
+  - VulnerabilityID: CVE-2026-4224
+    PkgID: python3-libs@3.9.25-3.el9_7.1.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.25-3.el9_7.1?arch=x86_64&distro=redhat-9.7
+      UID: 29ecaefdc9235e1a
+    InstalledVersion: 3.9.25-3.el9_7.1
+    Status: affected
+    Layer:
+      Digest: sha256:f51be5b0ccbe1a7b46913603dffac2c65978a24bd4398332265a38ef17c53343
+      DiffID: sha256:a9f5c08cf215e3203c4a18a20795c66abc732c80b62ffa7c5702a1002ad45d01
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4224
+    Fingerprint: sha256:1b423d20852fd419bd4d290d3f2a476636de268bf60f1ac95bc6410fa4919154
+    Title: 'cpython: Stack overflow parsing XML with deeply nested DTD content models'
+    Description: |-
+      When an Expat parser with a registered ElementDeclHandler parses an inline
+      document type definition containing a deeply nested content model a C stack
+      overflow occurs.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/16/4
+    - https://access.redhat.com/security/cve/CVE-2026-4224
+    - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
+    - https://github.com/python/cpython/commit/e0a8a6da90597a924b300debe045cdb4628ee1f3
+    - https://github.com/python/cpython/commit/eb0e8be3a7e11b87d198a2c3af1ed0eccf532768
+    - https://github.com/python/cpython/issues/145986
+    - https://github.com/python/cpython/pull/145987
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/5M7CGUW3XBRY7II4DK43KF7NQQ3TPZ6R/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-4224
+    - https://www.cve.org/CVERecord?id=CVE-2026-4224
+    PublishedDate: '2026-03-16T18:16:10.07Z'
+    LastModifiedDate: '2026-03-17T14:20:01.67Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3-libs@3.9.25-3.el9_7.1.x86_64
     PkgName: python3-libs
@@ -42585,10 +42979,40 @@
     - https://bugzilla.redhat.com/2246840
     - https://bugzilla.redhat.com/2257028
     - https://bugzilla.redhat.com/2257854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1983596
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1989575
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2132867
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2132868
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2132872
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2228743
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237773
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237776
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237777
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237778
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2244340
     - https://bugzilla.redhat.com/show_bug.cgi?id=2246840
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2253193
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2253330
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2254210
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262272
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25091
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33198
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34558
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2879
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2880
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41715
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29409
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39318
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39319
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39321
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39322
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39326
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45287
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45803
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23650
     - https://errata.almalinux.org/9/ALSA-2024-2132.html
-    - https://errata.rockylinux.org/RLSA-2024:11238
+    - https://errata.rockylinux.org/RLSA-2024:2988
     - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-212.yaml
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/4e50fbc5db74e32cabd5ccc1ab81fc103adfe0b3
@@ -43121,11 +43545,15 @@
     - CWE-22
     VendorSeverity:
       ghsa: 3
+      nvd: 2
       redhat: 2
     CVSS:
       ghsa:
         V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:H/SA:N
         V40Score: 8.2
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 6.2
@@ -43137,7 +43565,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-31802
     - https://www.cve.org/CVERecord?id=CVE-2026-31802
     PublishedDate: '2026-03-10T07:44:58.02Z'
-    LastModifiedDate: '2026-03-11T13:53:47.157Z'
+    LastModifiedDate: '2026-03-18T18:13:34.703Z'
   - VulnerabilityID: CVE-2023-39804
     PkgID: tar@1.34-9.el9_7.x86_64
     PkgName: tar
