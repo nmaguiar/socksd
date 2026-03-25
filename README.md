@@ -140,6 +140,7 @@ curl http://nginx.default.svc --proxy socks5h://127.0.0.1:1080
 ### Other examples
 
 * [AWS EKS example with AWS Route 53](docs/AWS-EKS.md)
+* [Kubernetes LoadBalancer service](docs/K8S-LoadBalancer.md)
 
 ## Usage examples:
 
