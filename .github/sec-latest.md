@@ -3067,7 +3067,8 @@
 │                       │      │                   as the QUIC implementation is outside the OpenSSL FIPS
 │                       │      │                   module boundary.
 │                       │      │                   OpenSSL 3.6, 3.5, 3.4 and 3.3 are vulnerable to this issue.
-│                       │      │                   OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue. 
+│                       │      │                   OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this
+│                       │      │                   issue. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
@@ -3352,7 +3353,8 @@
 │                       │      │                   as the TLS implementation is outside the OpenSSL FIPS module
 │                       │      │                    boundary.
 │                       │      │                   OpenSSL 3.6, 3.5, 3.4 and 3.3 are vulnerable to this issue.
-│                       │      │                   OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue. 
+│                       │      │                   OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this
+│                       │      │                   issue. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-789 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
@@ -5006,7 +5008,8 @@
 │                       │      │                   as the QUIC implementation is outside the OpenSSL FIPS
 │                       │      │                   module boundary.
 │                       │      │                   OpenSSL 3.6, 3.5, 3.4 and 3.3 are vulnerable to this issue.
-│                       │      │                   OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue. 
+│                       │      │                   OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this
+│                       │      │                   issue. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
@@ -5291,7 +5294,8 @@
 │                       │      │                   as the TLS implementation is outside the OpenSSL FIPS module
 │                       │      │                    boundary.
 │                       │      │                   OpenSSL 3.6, 3.5, 3.4 and 3.3 are vulnerable to this issue.
-│                       │      │                   OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue. 
+│                       │      │                   OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this
+│                       │      │                   issue. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-789 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
@@ -6106,7 +6110,8 @@
 │                       │      │                    overflow in asn1_expend_octet_string 
 │                       │      ├ Description     : Stack-based buffer overflow in libtasn1 version: v4.20.0.
 │                       │      │                   The function fails to validate the size of input data
-│                       │      │                   resulting in a buffer overflow in asn1_expend_octet_string. 
+│                       │      │                   resulting in a buffer overflow in
+│                       │      │                   asn1_expend_octet_string. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon     : 3 
@@ -6433,8 +6438,8 @@
 │                       │      │                   load and run untrusted code (e.g., code that comes from the
 │                       │      │                   internet) and rely on the Java sandbox for security. CVSS
 │                       │      │                   3.1 Base Score 6.1 (Confidentiality and Integrity impacts). 
-│                       │      │                    CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N)
-│                       │      │                   . 
+│                       │      │                    CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
@@ -6786,8 +6791,8 @@
 │                       │      │                   load and run untrusted code (e.g., code that comes from the
 │                       │      │                   internet) and rely on the Java sandbox for security. CVSS
 │                       │      │                   3.1 Base Score 6.1 (Confidentiality and Integrity impacts). 
-│                       │      │                    CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N)
-│                       │      │                   . 
+│                       │      │                    CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
@@ -7456,7 +7461,8 @@
 │                       │      │                   as the QUIC implementation is outside the OpenSSL FIPS
 │                       │      │                   module boundary.
 │                       │      │                   OpenSSL 3.6, 3.5, 3.4 and 3.3 are vulnerable to this issue.
-│                       │      │                   OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue. 
+│                       │      │                   OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this
+│                       │      │                   issue. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
@@ -7741,7 +7747,8 @@
 │                       │      │                   as the TLS implementation is outside the OpenSSL FIPS module
 │                       │      │                    boundary.
 │                       │      │                   OpenSSL 3.6, 3.5, 3.4 and 3.3 are vulnerable to this issue.
-│                       │      │                   OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue. 
+│                       │      │                   OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this
+│                       │      │                   issue. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-789 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
