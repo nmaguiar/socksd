@@ -38539,6 +38539,8 @@
     - https://access.redhat.com/errata/RHSA-2026:6630
     - https://access.redhat.com/errata/RHSA-2026:6737
     - https://access.redhat.com/errata/RHSA-2026:6738
+    - https://access.redhat.com/errata/RHSA-2026:7329
+    - https://access.redhat.com/errata/RHSA-2026:7335
     - https://access.redhat.com/security/cve/CVE-2025-14831
     - https://bugzilla.redhat.com/2392528
     - https://bugzilla.redhat.com/2423177
@@ -38555,7 +38557,7 @@
     - https://ubuntu.com/security/notices/USN-8043-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14831
     PublishedDate: '2026-02-09T15:16:09.937Z'
-    LastModifiedDate: '2026-04-07T12:16:20.707Z'
+    LastModifiedDate: '2026-04-09T21:16:06.35Z'
   - VulnerabilityID: CVE-2025-9820
     VendorIDs:
     - RHSA-2026:4188
@@ -38598,6 +38600,7 @@
     - https://access.redhat.com/errata/RHSA-2026:4943
     - https://access.redhat.com/errata/RHSA-2026:5585
     - https://access.redhat.com/errata/RHSA-2026:5606
+    - https://access.redhat.com/errata/RHSA-2026:7329
     - https://access.redhat.com/security/cve/CVE-2025-9820
     - https://bugzilla.redhat.com/2392528
     - https://bugzilla.redhat.com/2423177
@@ -38616,7 +38619,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9820
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-11-18
     PublishedDate: '2026-01-26T20:16:09.37Z'
-    LastModifiedDate: '2026-03-24T11:16:22.723Z'
+    LastModifiedDate: '2026-04-09T16:16:25.84Z'
   - VulnerabilityID: CVE-2025-64720
     VendorIDs:
     - RHSA-2026:0928
@@ -39574,6 +39577,8 @@
     - https://access.redhat.com/errata/RHSA-2026:7093
     - https://access.redhat.com/errata/RHSA-2026:7105
     - https://access.redhat.com/errata/RHSA-2026:7106
+    - https://access.redhat.com/errata/RHSA-2026:7329
+    - https://access.redhat.com/errata/RHSA-2026:7335
     - https://access.redhat.com/security/cve/CVE-2026-4111
     - https://bugzilla.redhat.com/2446453
     - https://bugzilla.redhat.com/show_bug.cgi?id=2446453
@@ -39587,7 +39592,7 @@
     - https://ubuntu.com/security/notices/USN-8147-1
     - https://www.cve.org/CVERecord?id=CVE-2026-4111
     PublishedDate: '2026-03-13T19:55:13.917Z'
-    LastModifiedDate: '2026-04-08T18:26:06.947Z'
+    LastModifiedDate: '2026-04-09T21:16:12.467Z'
   - VulnerabilityID: CVE-2026-4424
     PkgID: libarchive@3.5.3-6.el9_6.x86_64
     PkgName: libarchive
@@ -39754,6 +39759,7 @@
     - CWE-190
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     References:
     - https://access.redhat.com/security/cve/CVE-2026-5121
     - https://github.com/libarchive/libarchive/pull/2934
@@ -39782,6 +39788,7 @@
     - CWE-476
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -41295,6 +41302,7 @@
     VendorSeverity:
       azure: 3
       cbl-mariner: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -41306,6 +41314,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-27135
     - https://github.com/nghttp2/nghttp2/commit/5c7df8fa815ac1004d9ecb9d1f7595c4d37f46e1
     - https://github.com/nghttp2/nghttp2/security/advisories/GHSA-6933-cjhr-5qg6
+    - https://linux.oracle.com/cve/CVE-2026-27135.html
+    - https://linux.oracle.com/errata/ELSA-2026-7123.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27135
     - https://www.cve.org/CVERecord?id=CVE-2026-27135
     PublishedDate: '2026-03-18T18:16:26.723Z'
@@ -41654,11 +41664,12 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-0990
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429959
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/1018
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0990
     - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0990
     PublishedDate: '2026-01-15T15:15:52.503Z'
-    LastModifiedDate: '2026-01-16T15:55:33.063Z'
+    LastModifiedDate: '2026-04-09T18:16:43.713Z'
   - VulnerabilityID: CVE-2026-1757
     PkgID: libxml2@2.9.13-14.el9_7.x86_64
     PkgName: libxml2
@@ -41911,12 +41922,13 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-0989
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429933
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/998
     - https://gitlab.gnome.org/GNOME/libxml2/-/merge_requests/374
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0989
     - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0989
     PublishedDate: '2026-01-15T15:15:52.35Z'
-    LastModifiedDate: '2026-01-16T15:55:33.063Z'
+    LastModifiedDate: '2026-04-09T18:16:43.537Z'
   - VulnerabilityID: CVE-2026-0992
     PkgID: libxml2@2.9.13-14.el9_7.x86_64
     PkgName: libxml2
@@ -41949,11 +41961,12 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-0992
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429975
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/1019
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0992
     - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0992
     PublishedDate: '2026-01-15T15:15:52.657Z'
-    LastModifiedDate: '2026-01-16T15:55:33.063Z'
+    LastModifiedDate: '2026-04-09T18:16:43.88Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-base@6.2-12.20210508.el9.noarch
     PkgName: ncurses-base
@@ -42924,7 +42937,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28390
     Fingerprint: sha256:e93f4a6426e76884919e40d938e88adaf7fe1c67b92dd4961c23483f3895414f
-    Title: 'Issue summary: During processing of a crafted CMS EnvelopedData messag ...'
+    Title: 'openssl: OpenSSL: Denial of Service due to NULL pointer dereference in CMS EnvelopedData processing'
     Description: |-
       Issue summary: During processing of a crafted CMS EnvelopedData message
       with KeyTransportRecipientInfo a NULL pointer dereference can happen.
@@ -42950,18 +42963,25 @@
     VendorSeverity:
       redhat: 2
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-28390
     - https://github.com/openssl/openssl/commit/01194a8f1941115cd0383bfa91c736dd3993c8bc
     - https://github.com/openssl/openssl/commit/2e39b7a6993be445fddb9fbce316fa756e0397b6
     - https://github.com/openssl/openssl/commit/af2a5fecd3e71a29e7568f9c1453dec5cebbaff4
     - https://github.com/openssl/openssl/commit/ea7b4ea4f9f853521ba34830cbcadc970d2e0788
     - https://github.com/openssl/openssl/commit/fd2f1a6cf53b9ceeca723a001aa4b825d7c7ee75
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28390
     - https://openssl-library.org/news/secadv/20260407.txt
     - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
     - https://www.cve.org/CVERecord?id=CVE-2026-28390
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.19Z'
-    LastModifiedDate: '2026-04-08T21:27:00.663Z'
+    LastModifiedDate: '2026-04-10T21:16:23.67Z'
   - VulnerabilityID: CVE-2026-31790
     PkgID: openssl@3.5.1-5.el9_7.x86_64
     PkgName: openssl
@@ -45014,7 +45034,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28390
     Fingerprint: sha256:196a7087a4d43b0d8d432cc242039f9fca7e4b00fb62488c92257991f2dbc153
-    Title: 'Issue summary: During processing of a crafted CMS EnvelopedData messag ...'
+    Title: 'openssl: OpenSSL: Denial of Service due to NULL pointer dereference in CMS EnvelopedData processing'
     Description: |-
       Issue summary: During processing of a crafted CMS EnvelopedData message
       with KeyTransportRecipientInfo a NULL pointer dereference can happen.
@@ -45040,18 +45060,25 @@
     VendorSeverity:
       redhat: 2
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-28390
     - https://github.com/openssl/openssl/commit/01194a8f1941115cd0383bfa91c736dd3993c8bc
     - https://github.com/openssl/openssl/commit/2e39b7a6993be445fddb9fbce316fa756e0397b6
     - https://github.com/openssl/openssl/commit/af2a5fecd3e71a29e7568f9c1453dec5cebbaff4
     - https://github.com/openssl/openssl/commit/ea7b4ea4f9f853521ba34830cbcadc970d2e0788
     - https://github.com/openssl/openssl/commit/fd2f1a6cf53b9ceeca723a001aa4b825d7c7ee75
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28390
     - https://openssl-library.org/news/secadv/20260407.txt
     - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
     - https://www.cve.org/CVERecord?id=CVE-2026-28390
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.19Z'
-    LastModifiedDate: '2026-04-08T21:27:00.663Z'
+    LastModifiedDate: '2026-04-10T21:16:23.67Z'
   - VulnerabilityID: CVE-2026-31790
     PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
     PkgName: openssl-libs
