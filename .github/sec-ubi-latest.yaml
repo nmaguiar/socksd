@@ -35702,6 +35702,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - http://www.openwall.com/lists/oss-security/2026/04/11/9
     - https://access.redhat.com/security/cve/CVE-2026-34933
     - https://github.com/avahi/avahi/commit/625ca0fac19229f6dfa3a6c6b698ae657187e50c
     - https://github.com/avahi/avahi/pull/891
@@ -35709,7 +35710,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34933
     - https://www.cve.org/CVERecord?id=CVE-2026-34933
     PublishedDate: '2026-04-03T23:17:05.377Z'
-    LastModifiedDate: '2026-04-07T13:20:55.2Z'
+    LastModifiedDate: '2026-04-13T17:26:03.063Z'
   - VulnerabilityID: CVE-2017-6519
     PkgID: avahi-libs@0.8-23.el9.x86_64
     PkgName: avahi-libs
@@ -36256,7 +36257,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -37757,6 +37758,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-7039
     - https://bugzilla.redhat.com/show_bug.cgi?id=2392423
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3716
     - https://nvd.nist.gov/vuln/detail/CVE-2025-7039
     - https://ubuntu.com/security/notices/USN-7942-1
     - https://ubuntu.com/security/notices/USN-7942-2
@@ -37953,6 +37955,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -38183,6 +38186,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -38290,6 +38294,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -38644,7 +38649,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -39024,7 +39029,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -39438,7 +39443,9 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 2
     CVSS:
@@ -39453,6 +39460,8 @@
     - https://github.com/pnggroup/libpng/commit/c1b0318b393c90679e6fa5bc1d329fd5d5012ec1
     - https://github.com/pnggroup/libpng/pull/824
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-m4pc-p4q3-4c7j
+    - https://linux.oracle.com/cve/CVE-2026-33416.html
+    - https://linux.oracle.com/errata/ELSA-2026-7672.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33416
     - https://www.cve.org/CVERecord?id=CVE-2026-33416
     PublishedDate: '2026-03-26T17:16:38.443Z'
@@ -39478,7 +39487,9 @@
     - CWE-125
     - CWE-787
     VendorSeverity:
+      amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 2
     CVSS:
@@ -39490,10 +39501,48 @@
     - https://github.com/pnggroup/libpng/commit/7734cda20cf1236aef60f3bbd2267c97bbb40869
     - https://github.com/pnggroup/libpng/commit/aba9f18eba870d14fb52c5ba5d73451349e339c3
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-wjr5-c57x-95m2
+    - https://linux.oracle.com/cve/CVE-2026-33636.html
+    - https://linux.oracle.com/errata/ELSA-2026-7672.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33636
     - https://www.cve.org/CVERecord?id=CVE-2026-33636
     PublishedDate: '2026-03-26T17:16:41.477Z'
     LastModifiedDate: '2026-04-02T18:42:02.667Z'
+  - VulnerabilityID: CVE-2026-34757
+    PkgID: java-21-openjdk-headless@21.0.9.0.10-2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: d3d52cd83b878811
+    InstalledVersion: 1:21.0.9.0.10-2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-34757
+    Fingerprint: sha256:965463ddef5ec51dcd197524ca1915a6ce8654ba5c029abf31c42879b7888082
+    Title: 'libpng: libpng: Information disclosure and data corruption via use-after-free vulnerability'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.0.9 to before 1.6.57, passing a pointer obtained from png_get_PLTE, png_get_tRNS, or png_get_hIST back into the corresponding setter on the same png_struct/png_info pair causes the setter to read from freed memory and copy its contents into the replacement buffer. The setter frees the internal buffer before copying from the caller-supplied pointer, which now dangles. The freed region may contain stale data (producing silently corrupted chunk metadata) or data from subsequent heap allocations (leaking unrelated heap contents into the chunk struct). This vulnerability is fixed in 1.6.57.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-34757
+    - https://github.com/pnggroup/libpng/commit/398cbe3df03f4e11bb031e07f416dfdde3684e8a
+    - https://github.com/pnggroup/libpng/commit/55d20aaa322c9274491cda82c5cd4f99b48c6bcc
+    - https://github.com/pnggroup/libpng/issues/836
+    - https://github.com/pnggroup/libpng/issues/837
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-6fr7-g8h7-v645
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-34757
+    - https://www.cve.org/CVERecord?id=CVE-2026-34757
+    PublishedDate: '2026-04-09T15:16:11.003Z'
+    LastModifiedDate: '2026-04-13T15:02:47.353Z'
   - VulnerabilityID: CVE-2026-27171
     PkgID: java-21-openjdk-headless@21.0.9.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -39762,11 +39811,13 @@
       ubuntu: 2
     References:
     - https://access.redhat.com/security/cve/CVE-2026-5121
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2452945
+    - https://github.com/advisories/GHSA-2vwv-vqpv-v8vc
     - https://github.com/libarchive/libarchive/pull/2934
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5121
     - https://www.cve.org/CVERecord?id=CVE-2026-5121
     PublishedDate: '2026-03-30T08:16:18.78Z'
-    LastModifiedDate: '2026-03-31T15:16:22.173Z'
+    LastModifiedDate: '2026-04-14T17:16:52.727Z'
   - VulnerabilityID: CVE-2026-5745
     PkgID: libarchive@3.5.3-6.el9_6.x86_64
     PkgName: libarchive
@@ -40113,6 +40164,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-27456
     PublishedDate: '2026-04-03T22:16:25.4Z'
     LastModifiedDate: '2026-04-07T13:20:55.2Z'
+  - VulnerabilityID: CVE-2026-4878
+    PkgID: libcap@2.48-10.el9.x86_64
+    PkgName: libcap
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libcap@2.48-10.el9?arch=x86_64&distro=redhat-9.7
+      UID: 9aca1fce2b35332
+    InstalledVersion: 2.48-10.el9
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4878
+    Fingerprint: sha256:16a40daa64e8fefdf011cf6645c430df70de2c8bb284bfccd39fcfcdd4405de8
+    Title: 'libcap: libcap: Privilege escalation via TOCTOU race condition in cap_set_file()'
+    Description: A flaw was found in libcap. A local unprivileged user can exploit a Time-of-check-to-time-of-use (TOCTOU) race condition in the `cap_set_file()` function. This allows an attacker with write access to a parent directory to redirect file capability updates to an attacker-controlled file. By doing so, capabilities can be injected into or stripped from unintended executables, leading to privilege escalation.
+    Severity: HIGH
+    CweIDs:
+    - CWE-367
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 6.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/04/07/14
+    - http://www.openwall.com/lists/oss-security/2026/04/07/4
+    - http://www.openwall.com/lists/oss-security/2026/04/08/9
+    - http://www.openwall.com/lists/oss-security/2026/04/09/5
+    - http://www.openwall.com/lists/oss-security/2026/04/09/6
+    - https://access.redhat.com/security/cve/CVE-2026-4878
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2447554
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2451615
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-4878
+    - https://www.cve.org/CVERecord?id=CVE-2026-4878
+    PublishedDate: '2026-04-09T16:16:31.987Z'
+    LastModifiedDate: '2026-04-13T15:02:47.353Z'
   - VulnerabilityID: CVE-2025-13034
     PkgID: libcurl-minimal@7.76.1-34.el9.x86_64
     PkgName: libcurl-minimal
@@ -40244,7 +40333,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -41281,13 +41370,16 @@
     PublishedDate: '2026-04-03T22:16:25.4Z'
     LastModifiedDate: '2026-04-07T13:20:55.2Z'
   - VulnerabilityID: CVE-2026-27135
+    VendorIDs:
+    - RHSA-2026:7668
     PkgID: libnghttp2@1.43.0-6.el9.x86_64
     PkgName: libnghttp2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libnghttp2@1.43.0-6.el9?arch=x86_64&distro=redhat-9.7
       UID: 1c02ae36fe55bc24
     InstalledVersion: 1.43.0-6.el9
-    Status: affected
+    FixedVersion: 1.43.0-6.el9_7.1
+    Status: fixed
     Layer:
       Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
       DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
@@ -41300,6 +41392,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -41315,7 +41408,7 @@
     - https://github.com/nghttp2/nghttp2/commit/5c7df8fa815ac1004d9ecb9d1f7595c4d37f46e1
     - https://github.com/nghttp2/nghttp2/security/advisories/GHSA-6933-cjhr-5qg6
     - https://linux.oracle.com/cve/CVE-2026-27135.html
-    - https://linux.oracle.com/errata/ELSA-2026-7123.html
+    - https://linux.oracle.com/errata/ELSA-2026-7675.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27135
     - https://www.cve.org/CVERecord?id=CVE-2026-27135
     PublishedDate: '2026-03-18T18:16:26.723Z'
@@ -42961,6 +43054,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 3
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -43027,6 +43122,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      amazon: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -44492,6 +44589,315 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
     LastModifiedDate: '2026-03-17T18:16:15.6Z'
+  - VulnerabilityID: CVE-2026-28386
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 5db6c2af1fac68af
+    InstalledVersion: 1:3.5.1-5.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28386
+    Fingerprint: sha256:b0f1a45c95b346f7461059f9d3f35235174a244a047d5df11b0d082af7683b9f
+    Title: 'openssl: openssl: Denial of Service due to out-of-bounds read in AES-CFB128'
+    Description: |-
+      Issue summary: Applications using AES-CFB128 encryption or decryption on
+      systems with AVX-512 and VAES support can trigger an out-of-bounds read
+      of up to 15 bytes when processing partial cipher blocks.
+
+      Impact summary: This out-of-bounds read may trigger a crash which leads to
+      Denial of Service for an application if the input buffer ends at a memory
+      page boundary and the following page is unmapped. There is no information
+      disclosure as the over-read bytes are not written to output.
+
+      The vulnerable code path is only reached when processing partial blocks
+      (when a previous call left an incomplete block and the current call provides
+      fewer bytes than needed to complete it). Additionally, the input buffer
+      must be positioned at a page boundary with the following page unmapped.
+      CFB mode is not used in TLS/DTLS protocols, which use CBC, GCM, CCM, or
+      ChaCha20-Poly1305 instead. For these reasons the issue was assessed as
+      Low severity according to our Security Policy.
+
+      Only x86-64 systems with AVX-512 and VAES instruction support are affected.
+      Other architectures and systems without VAES support use different code
+      paths that are not affected.
+
+      OpenSSL FIPS module in 3.6 version is affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28386
+    - https://github.com/openssl/openssl/commit/61f428a2fc6671ede184a19f71e6e495f0689621
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28386
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-28386
+    PublishedDate: '2026-04-07T22:16:20.513Z'
+    LastModifiedDate: '2026-04-10T21:16:22.3Z'
+  - VulnerabilityID: CVE-2026-28387
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 5db6c2af1fac68af
+    InstalledVersion: 1:3.5.1-5.el9_7
+    Status: under_investigation
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28387
+    Fingerprint: sha256:71801300f0509f61dc742a23da0d2de038607afc03751bffe74b1c74483c9a50
+    Title: 'openssl: OpenSSL: Arbitrary code execution due to use-after-free in DANE TLSA authentication'
+    Description: |-
+      Issue summary: An uncommon configuration of clients performing DANE TLSA-based
+      server authentication, when paired with uncommon server DANE TLSA records, may
+      result in a use-after-free and/or double-free on the client side.
+
+      Impact summary: A use after free can have a range of potential consequences
+      such as the corruption of valid data, crashes or execution of arbitrary code.
+
+      However, the issue only affects clients that make use of TLSA records with both
+      the PKIX-TA(0/PKIX-EE(1) certificate usages and the DANE-TA(2) certificate
+      usage.
+
+      By far the most common deployment of DANE is in SMTP MTAs for which RFC7672
+      recommends that clients treat as 'unusable' any TLSA records that have the PKIX
+      certificate usages.  These SMTP (or other similar) clients are not vulnerable
+      to this issue.  Conversely, any clients that support only the PKIX usages, and
+      ignore the DANE-TA(2) usage are also not vulnerable.
+
+      The client would also need to be communicating with a server that publishes a
+      TLSA RRset with both types of TLSA records.
+
+      No FIPS modules are affected by this issue, the problem code is outside the
+      FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28387
+    - https://github.com/openssl/openssl/commit/07e727d304746edb49a98ee8f6ab00256e1f012b
+    - https://github.com/openssl/openssl/commit/258a8f63b26995ba357f4326da00e19e29c6acbe
+    - https://github.com/openssl/openssl/commit/444958deaf450aea819171f97ae69eaedede42c3
+    - https://github.com/openssl/openssl/commit/7a4e08cee62a728d32e60b0de89e6764339df0a7
+    - https://github.com/openssl/openssl/commit/ec03fa050b3346997ed9c5fef3d0e16ad7db8177
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28387
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28387
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:20.7Z'
+    LastModifiedDate: '2026-04-08T21:27:00.663Z'
+  - VulnerabilityID: CVE-2026-28388
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 5db6c2af1fac68af
+    InstalledVersion: 1:3.5.1-5.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28388
+    Fingerprint: sha256:18338eb3ea3d4744d4094474061d49424f561006744d2867ea9bd31784fa410a
+    Title: 'openssl: OpenSSL: Denial of Service due to NULL pointer dereference in delta CRL processing'
+    Description: |-
+      Issue summary: When a delta CRL that contains a Delta CRL Indicator extension
+      is processed a NULL pointer dereference might happen if the required CRL
+      Number extension is missing.
+
+      Impact summary: A NULL pointer dereference can trigger a crash which
+      leads to a Denial of Service for an application.
+
+      When CRL processing and delta CRL processing is enabled during X.509
+      certificate verification, the delta CRL processing does not check
+      whether the CRL Number extension is NULL before dereferencing it.
+      When a malformed delta CRL file is being processed, this parameter
+      can be NULL, causing a NULL pointer dereference.
+
+      Exploiting this issue requires the X509_V_FLAG_USE_DELTAS flag to be enabled in
+      the verification context, the certificate being verified to contain a
+      freshestCRL extension or the base CRL to have the EXFLAG_FRESHEST flag set, and
+      an attacker to provide a malformed CRL to an application that processes it.
+
+      The vulnerability is limited to Denial of Service and cannot be escalated to
+      achieve code execution or memory disclosure. For that reason the issue was
+      assessed as Low severity according to our Security Policy.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the affected code is outside the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      amazon: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28388
+    - https://github.com/openssl/openssl/commit/59c3b3158553ab53275bbbccca5cb305d591cf2e
+    - https://github.com/openssl/openssl/commit/5a0b4930779cd2408880979db765db919da55139
+    - https://github.com/openssl/openssl/commit/602542f2c0c2d5edb47128f93eac10b62aeeefb3
+    - https://github.com/openssl/openssl/commit/a9d187dd1000130100fa7ab915f8513532cb3bb8
+    - https://github.com/openssl/openssl/commit/d3a901e8d9f021f3e67d6cfbc12e768129862726
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28388
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28388
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:20.863Z'
+    LastModifiedDate: '2026-04-10T21:16:23.157Z'
+  - VulnerabilityID: CVE-2026-28389
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 5db6c2af1fac68af
+    InstalledVersion: 1:3.5.1-5.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28389
+    Fingerprint: sha256:77cd2001891052f6a6f603d2c646513165f277e7c13f33d49828cf0cfcbd9437
+    Title: 'openssl: OpenSSL: Denial of Service vulnerability in CMS processing'
+    Description: |-
+      Issue summary: During processing of a crafted CMS EnvelopedData message
+      with KeyAgreeRecipientInfo a NULL pointer dereference can happen.
+
+      Impact summary: Applications that process attacker-controlled CMS data may
+      crash before authentication or cryptographic operations occur resulting in
+      Denial of Service.
+
+      When a CMS EnvelopedData message that uses KeyAgreeRecipientInfo is
+      processed, the optional parameters field of KeyEncryptionAlgorithmIdentifier
+      is examined without checking for its presence. This results in a NULL
+      pointer dereference if the field is missing.
+
+      Applications and services that call CMS_decrypt() on untrusted input
+      (e.g., S/MIME processing or CMS-based protocols) are vulnerable.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this
+      issue, as the affected code is outside the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      amazon: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28389
+    - https://github.com/openssl/openssl/commit/16cea4188e0ea567deb4f93f85902247e67384f5
+    - https://github.com/openssl/openssl/commit/785cbf7ea3b5a6f5adf0c1ccb92b79d89c35c616
+    - https://github.com/openssl/openssl/commit/7b5274e812400cacb6f3be4c2df5340923fa807f
+    - https://github.com/openssl/openssl/commit/c6725634e089eb2b634b10ede33944be7248172a
+    - https://github.com/openssl/openssl/commit/f80f83bc5fd036bc47d773e8b15a001e2b4ce686
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28389
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28389
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:21.03Z'
+    LastModifiedDate: '2026-04-10T21:16:23.41Z'
+  - VulnerabilityID: CVE-2026-31789
+    PkgID: openssl@3.5.1-5.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 5db6c2af1fac68af
+    InstalledVersion: 1:3.5.1-5.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-31789
+    Fingerprint: sha256:f233d47eceddd1dfd0c369651616119ecf4d692a6914a3afde9025b080a551d8
+    Title: 'openssl: OpenSSL: Heap buffer overflow on 32-bit systems from large X.509 certificate processing'
+    Description: |-
+      Issue summary: Converting an excessively large OCTET STRING value to
+      a hexadecimal string leads to a heap buffer overflow on 32 bit platforms.
+
+      Impact summary: A heap buffer overflow may lead to a crash or possibly
+      an attacker controlled code execution or other undefined behavior.
+
+      If an attacker can supply a crafted X.509 certificate with an excessively
+      large OCTET STRING value in extensions such as the Subject Key Identifier
+      (SKID) or Authority Key Identifier (AKID) which are being converted to hex,
+      the size of the buffer needed for the result is calculated as multiplication
+      of the input length by 3. On 32 bit platforms, this multiplication may overflow
+      resulting in the allocation of a smaller buffer and a heap buffer overflow.
+
+      Applications and services that print or log contents of untrusted X.509
+      certificates are vulnerable to this issue. As the certificates would have
+      to have sizes of over 1 Gigabyte, printing or logging such certificates
+      is a fairly unlikely operation and only 32 bit platforms are affected,
+      this issue was assigned Low severity.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this
+      issue, as the affected code is outside the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-31789
+    - https://github.com/openssl/openssl/commit/364f095b80601db632b0def6a33316967f863bde
+    - https://github.com/openssl/openssl/commit/7a9087efd769f362ad9c0e30c7baaa6bbfa65ecf
+    - https://github.com/openssl/openssl/commit/945b935ac66cc7f1a41f1b849c7c25adb5351f49
+    - https://github.com/openssl/openssl/commit/a24216018e1ede8ff01a4ff5afff7dfbd443e2f9
+    - https://github.com/openssl/openssl/commit/a91e537d16d74050dbde50bb0dfb1fe9930f0521
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-31789
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-31789
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:21.617Z'
+    LastModifiedDate: '2026-04-08T21:27:00.663Z'
   - VulnerabilityID: CVE-2026-2673
     PkgID: openssl-fips-provider@3.0.7-8.el9.x86_64
     PkgName: openssl-fips-provider
@@ -45058,6 +45464,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 3
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -45124,6 +45532,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      amazon: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -46589,6 +46999,315 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
     LastModifiedDate: '2026-03-17T18:16:15.6Z'
+  - VulnerabilityID: CVE-2026-28386
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 6efd234734728205
+    InstalledVersion: 1:3.5.1-5.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28386
+    Fingerprint: sha256:27fcad13ad8572d8b75e6efe17d178411129e5b0facff63691c47f6d4df7e53c
+    Title: 'openssl: openssl: Denial of Service due to out-of-bounds read in AES-CFB128'
+    Description: |-
+      Issue summary: Applications using AES-CFB128 encryption or decryption on
+      systems with AVX-512 and VAES support can trigger an out-of-bounds read
+      of up to 15 bytes when processing partial cipher blocks.
+
+      Impact summary: This out-of-bounds read may trigger a crash which leads to
+      Denial of Service for an application if the input buffer ends at a memory
+      page boundary and the following page is unmapped. There is no information
+      disclosure as the over-read bytes are not written to output.
+
+      The vulnerable code path is only reached when processing partial blocks
+      (when a previous call left an incomplete block and the current call provides
+      fewer bytes than needed to complete it). Additionally, the input buffer
+      must be positioned at a page boundary with the following page unmapped.
+      CFB mode is not used in TLS/DTLS protocols, which use CBC, GCM, CCM, or
+      ChaCha20-Poly1305 instead. For these reasons the issue was assessed as
+      Low severity according to our Security Policy.
+
+      Only x86-64 systems with AVX-512 and VAES instruction support are affected.
+      Other architectures and systems without VAES support use different code
+      paths that are not affected.
+
+      OpenSSL FIPS module in 3.6 version is affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28386
+    - https://github.com/openssl/openssl/commit/61f428a2fc6671ede184a19f71e6e495f0689621
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28386
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-28386
+    PublishedDate: '2026-04-07T22:16:20.513Z'
+    LastModifiedDate: '2026-04-10T21:16:22.3Z'
+  - VulnerabilityID: CVE-2026-28387
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 6efd234734728205
+    InstalledVersion: 1:3.5.1-5.el9_7
+    Status: under_investigation
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28387
+    Fingerprint: sha256:982180593e63a74313632e0ed816bcaeffd2b7a5c737a44b0a083636d5aca079
+    Title: 'openssl: OpenSSL: Arbitrary code execution due to use-after-free in DANE TLSA authentication'
+    Description: |-
+      Issue summary: An uncommon configuration of clients performing DANE TLSA-based
+      server authentication, when paired with uncommon server DANE TLSA records, may
+      result in a use-after-free and/or double-free on the client side.
+
+      Impact summary: A use after free can have a range of potential consequences
+      such as the corruption of valid data, crashes or execution of arbitrary code.
+
+      However, the issue only affects clients that make use of TLSA records with both
+      the PKIX-TA(0/PKIX-EE(1) certificate usages and the DANE-TA(2) certificate
+      usage.
+
+      By far the most common deployment of DANE is in SMTP MTAs for which RFC7672
+      recommends that clients treat as 'unusable' any TLSA records that have the PKIX
+      certificate usages.  These SMTP (or other similar) clients are not vulnerable
+      to this issue.  Conversely, any clients that support only the PKIX usages, and
+      ignore the DANE-TA(2) usage are also not vulnerable.
+
+      The client would also need to be communicating with a server that publishes a
+      TLSA RRset with both types of TLSA records.
+
+      No FIPS modules are affected by this issue, the problem code is outside the
+      FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28387
+    - https://github.com/openssl/openssl/commit/07e727d304746edb49a98ee8f6ab00256e1f012b
+    - https://github.com/openssl/openssl/commit/258a8f63b26995ba357f4326da00e19e29c6acbe
+    - https://github.com/openssl/openssl/commit/444958deaf450aea819171f97ae69eaedede42c3
+    - https://github.com/openssl/openssl/commit/7a4e08cee62a728d32e60b0de89e6764339df0a7
+    - https://github.com/openssl/openssl/commit/ec03fa050b3346997ed9c5fef3d0e16ad7db8177
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28387
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28387
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:20.7Z'
+    LastModifiedDate: '2026-04-08T21:27:00.663Z'
+  - VulnerabilityID: CVE-2026-28388
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 6efd234734728205
+    InstalledVersion: 1:3.5.1-5.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28388
+    Fingerprint: sha256:5ffa2be66e1f4df5f1c57f5e87b09d6e2dd25ac71ba21a772b28da50de39bb7b
+    Title: 'openssl: OpenSSL: Denial of Service due to NULL pointer dereference in delta CRL processing'
+    Description: |-
+      Issue summary: When a delta CRL that contains a Delta CRL Indicator extension
+      is processed a NULL pointer dereference might happen if the required CRL
+      Number extension is missing.
+
+      Impact summary: A NULL pointer dereference can trigger a crash which
+      leads to a Denial of Service for an application.
+
+      When CRL processing and delta CRL processing is enabled during X.509
+      certificate verification, the delta CRL processing does not check
+      whether the CRL Number extension is NULL before dereferencing it.
+      When a malformed delta CRL file is being processed, this parameter
+      can be NULL, causing a NULL pointer dereference.
+
+      Exploiting this issue requires the X509_V_FLAG_USE_DELTAS flag to be enabled in
+      the verification context, the certificate being verified to contain a
+      freshestCRL extension or the base CRL to have the EXFLAG_FRESHEST flag set, and
+      an attacker to provide a malformed CRL to an application that processes it.
+
+      The vulnerability is limited to Denial of Service and cannot be escalated to
+      achieve code execution or memory disclosure. For that reason the issue was
+      assessed as Low severity according to our Security Policy.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the affected code is outside the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      amazon: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28388
+    - https://github.com/openssl/openssl/commit/59c3b3158553ab53275bbbccca5cb305d591cf2e
+    - https://github.com/openssl/openssl/commit/5a0b4930779cd2408880979db765db919da55139
+    - https://github.com/openssl/openssl/commit/602542f2c0c2d5edb47128f93eac10b62aeeefb3
+    - https://github.com/openssl/openssl/commit/a9d187dd1000130100fa7ab915f8513532cb3bb8
+    - https://github.com/openssl/openssl/commit/d3a901e8d9f021f3e67d6cfbc12e768129862726
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28388
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28388
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:20.863Z'
+    LastModifiedDate: '2026-04-10T21:16:23.157Z'
+  - VulnerabilityID: CVE-2026-28389
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 6efd234734728205
+    InstalledVersion: 1:3.5.1-5.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28389
+    Fingerprint: sha256:4e149c80314fe915dc88186a9a9eb561cef87e44b1bcdff92d3ad4f73b3250d1
+    Title: 'openssl: OpenSSL: Denial of Service vulnerability in CMS processing'
+    Description: |-
+      Issue summary: During processing of a crafted CMS EnvelopedData message
+      with KeyAgreeRecipientInfo a NULL pointer dereference can happen.
+
+      Impact summary: Applications that process attacker-controlled CMS data may
+      crash before authentication or cryptographic operations occur resulting in
+      Denial of Service.
+
+      When a CMS EnvelopedData message that uses KeyAgreeRecipientInfo is
+      processed, the optional parameters field of KeyEncryptionAlgorithmIdentifier
+      is examined without checking for its presence. This results in a NULL
+      pointer dereference if the field is missing.
+
+      Applications and services that call CMS_decrypt() on untrusted input
+      (e.g., S/MIME processing or CMS-based protocols) are vulnerable.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this
+      issue, as the affected code is outside the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      amazon: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28389
+    - https://github.com/openssl/openssl/commit/16cea4188e0ea567deb4f93f85902247e67384f5
+    - https://github.com/openssl/openssl/commit/785cbf7ea3b5a6f5adf0c1ccb92b79d89c35c616
+    - https://github.com/openssl/openssl/commit/7b5274e812400cacb6f3be4c2df5340923fa807f
+    - https://github.com/openssl/openssl/commit/c6725634e089eb2b634b10ede33944be7248172a
+    - https://github.com/openssl/openssl/commit/f80f83bc5fd036bc47d773e8b15a001e2b4ce686
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28389
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28389
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:21.03Z'
+    LastModifiedDate: '2026-04-10T21:16:23.41Z'
+  - VulnerabilityID: CVE-2026-31789
+    PkgID: openssl-libs@3.5.1-5.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-5.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 6efd234734728205
+    InstalledVersion: 1:3.5.1-5.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-31789
+    Fingerprint: sha256:4a70ebe4ea6106ddae5e2dc9fa60851c1e1757b523aad2af3614b5c70b4d40f8
+    Title: 'openssl: OpenSSL: Heap buffer overflow on 32-bit systems from large X.509 certificate processing'
+    Description: |-
+      Issue summary: Converting an excessively large OCTET STRING value to
+      a hexadecimal string leads to a heap buffer overflow on 32 bit platforms.
+
+      Impact summary: A heap buffer overflow may lead to a crash or possibly
+      an attacker controlled code execution or other undefined behavior.
+
+      If an attacker can supply a crafted X.509 certificate with an excessively
+      large OCTET STRING value in extensions such as the Subject Key Identifier
+      (SKID) or Authority Key Identifier (AKID) which are being converted to hex,
+      the size of the buffer needed for the result is calculated as multiplication
+      of the input length by 3. On 32 bit platforms, this multiplication may overflow
+      resulting in the allocation of a smaller buffer and a heap buffer overflow.
+
+      Applications and services that print or log contents of untrusted X.509
+      certificates are vulnerable to this issue. As the certificates would have
+      to have sizes of over 1 Gigabyte, printing or logging such certificates
+      is a fairly unlikely operation and only 32 bit platforms are affected,
+      this issue was assigned Low severity.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this
+      issue, as the affected code is outside the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-31789
+    - https://github.com/openssl/openssl/commit/364f095b80601db632b0def6a33316967f863bde
+    - https://github.com/openssl/openssl/commit/7a9087efd769f362ad9c0e30c7baaa6bbfa65ecf
+    - https://github.com/openssl/openssl/commit/945b935ac66cc7f1a41f1b849c7c25adb5351f49
+    - https://github.com/openssl/openssl/commit/a24216018e1ede8ff01a4ff5afff7dfbd443e2f9
+    - https://github.com/openssl/openssl/commit/a91e537d16d74050dbde50bb0dfb1fe9930f0521
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-31789
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-31789
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:21.617Z'
+    LastModifiedDate: '2026-04-08T21:27:00.663Z'
   - VulnerabilityID: CVE-2026-2100
     PkgID: p11-kit@0.25.3-3.el9_5.x86_64
     PkgName: p11-kit
@@ -46887,6 +47606,7 @@
     - CWE-20
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -46927,6 +47647,79 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-4519
     PublishedDate: '2026-03-20T15:16:24.057Z'
     LastModifiedDate: '2026-04-07T18:16:47.223Z'
+  - VulnerabilityID: CVE-2026-4786
+    PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-2.el9_7?arch=noarch&distro=redhat-9.7
+      UID: 521962b083b4f4ae
+    InstalledVersion: 3.9.25-2.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4786
+    Fingerprint: sha256:9a421c4776519269885813df5bf3e358abd2e11579a09907f485af09f292d32c
+    Description: "Mitgation of\_CVE-2026-4519 was incomplete. If the URL contained \"%action\" the mitigation could be bypassed for certain browser types the \"webbrowser.open()\" API could have commands injected into the underlying shell. See\_CVE-2026-4519 for details."
+    Severity: HIGH
+    CweIDs:
+    - CWE-77
+    VendorSeverity:
+      redhat: 3
+    References:
+    - https://github.com/python/cpython/commit/c5767a72838a8dda9d6dc5d3558075b055c56bca
+    - https://github.com/python/cpython/commit/d22922c8a7958353689dc4763dd72da2dea03fff
+    - https://github.com/python/cpython/commit/f4654824ae0850ac87227fb270f9057477946769
+    - https://github.com/python/cpython/issues/148169
+    - https://github.com/python/cpython/pull/148170
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/JQDUNJVB4AQNTJECSUKOBDU3XCJIPSE5/
+    PublishedDate: '2026-04-13T22:16:30.413Z'
+    LastModifiedDate: '2026-04-14T15:16:39.417Z'
+  - VulnerabilityID: CVE-2026-6100
+    PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-2.el9_7?arch=noarch&distro=redhat-9.7
+      UID: 521962b083b4f4ae
+    InstalledVersion: 3.9.25-2.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6100
+    Fingerprint: sha256:1491ff8b47a57d644c4d2e66fbffc0b274e5cfd095f5cf1dadc19cf93630b172
+    Title: 'python: Python: Arbitrary code execution or information disclosure via use-after-free in decompression modules'
+    Description: |-
+      Use-after-free (UAF) was possible in the `lzma.LZMADecompressor`, `bz2.BZ2Decompressor`, and `gzip.GzipFile` when a memory allocation fails with a `MemoryError` and the decompression instance is re-used. This scenario can be triggered if the process is under memory pressure. The fix cleans up the dangling pointer in this specific error condition.
+
+      The vulnerability is only present if the program re-uses decompressor instances across multiple decompression calls even after a `MemoryError` is raised during decompression. Using the helper functions to one-shot decompress data such as `lzma.decompress()`, `bz2.decompress()`, `gzip.decompress()`, and `zlib.decompress()` are not affected as a new decompressor instance is used per call. If the decompressor instance is not re-used after an error condition, this usage is similarly not vulnerable.
+    Severity: HIGH
+    CweIDs:
+    - CWE-416
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/04/13/10
+    - https://access.redhat.com/security/cve/CVE-2026-6100
+    - https://github.com/python/cpython/commit/47128e64f98c3a20271138a98c2922bea2a3ee0e
+    - https://github.com/python/cpython/commit/6a5f79c8d7bbf22b083b240910c7a8781a59437d
+    - https://github.com/python/cpython/commit/8fc66aef6d7b3ae58f43f5c66f9366cc8cbbfcd2
+    - https://github.com/python/cpython/commit/c3cf71c3366fe49acb776a639405c0eea6169c20
+    - https://github.com/python/cpython/commit/e20c6c9667c99ecaab96e1a2b3767082841ffc8b
+    - https://github.com/python/cpython/issues/148395
+    - https://github.com/python/cpython/pull/148396
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HTWB2Z6KT5QQX4RYEZAFININDHNOSIF3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6100
+    - https://www.cve.org/CVERecord?id=CVE-2026-6100
+    PublishedDate: '2026-04-13T18:16:31.297Z'
+    LastModifiedDate: '2026-04-14T15:16:41.247Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
     PkgName: python-unversioned-command
@@ -46947,7 +47740,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       redhat: 2
@@ -47163,7 +47956,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       bitnami: 2
       redhat: 2
       ubuntu: 2
@@ -47329,7 +48122,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -47426,7 +48219,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -47480,7 +48273,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -47562,7 +48355,7 @@
     - CWE-93
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -47608,6 +48401,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-1299
     PublishedDate: '2026-01-23T17:16:12.977Z'
     LastModifiedDate: '2026-02-13T17:16:12.943Z'
+  - VulnerabilityID: CVE-2026-1502
+    PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-2.el9_7?arch=noarch&distro=redhat-9.7
+      UID: 521962b083b4f4ae
+    InstalledVersion: 3.9.25-2.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1502
+    Fingerprint: sha256:97404061886c21c892b43114259623809a30139dd9251876da9a4ae4e742e7eb
+    Title: 'python: Python: HTTP header injection via CR/LF in proxy tunnel headers'
+    Description: CR/LF bytes were not rejected by HTTP client proxy tunnel headers or host.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 4.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/04/11/4
+    - https://access.redhat.com/security/cve/CVE-2026-1502
+    - https://github.com/python/cpython/commit/05ed7ce7ae9e17c23a04085b2539fe6d6d3cef69
+    - https://github.com/python/cpython/issues/146211
+    - https://github.com/python/cpython/pull/146212
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/2IVPAEQWUJBCTQZEJEVTYCIKSMQPGRZ3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1502
+    - https://www.cve.org/CVERecord?id=CVE-2026-1502
+    PublishedDate: '2026-04-10T18:16:40.97Z'
+    LastModifiedDate: '2026-04-13T15:02:06.187Z'
   - VulnerabilityID: CVE-2026-3644
     PkgID: python-unversioned-command@3.9.25-2.el9_7.noarch
     PkgName: python-unversioned-command
@@ -47670,7 +48497,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -47760,6 +48587,7 @@
     CweIDs:
     - CWE-668
     VendorSeverity:
+      amazon: 3
       redhat: 1
     CVSS:
       redhat:
@@ -47800,6 +48628,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -47847,6 +48676,7 @@
     - CWE-20
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -47887,6 +48717,79 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-4519
     PublishedDate: '2026-03-20T15:16:24.057Z'
     LastModifiedDate: '2026-04-07T18:16:47.223Z'
+  - VulnerabilityID: CVE-2026-4786
+    PkgID: python3@3.9.25-2.el9_7.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.25-2.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 979f48da73334394
+    InstalledVersion: 3.9.25-2.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4786
+    Fingerprint: sha256:33ee7017e43b56ffb49ac31500ede4dc685cef4976e9496c29da8093a9bf8dd3
+    Description: "Mitgation of\_CVE-2026-4519 was incomplete. If the URL contained \"%action\" the mitigation could be bypassed for certain browser types the \"webbrowser.open()\" API could have commands injected into the underlying shell. See\_CVE-2026-4519 for details."
+    Severity: HIGH
+    CweIDs:
+    - CWE-77
+    VendorSeverity:
+      redhat: 3
+    References:
+    - https://github.com/python/cpython/commit/c5767a72838a8dda9d6dc5d3558075b055c56bca
+    - https://github.com/python/cpython/commit/d22922c8a7958353689dc4763dd72da2dea03fff
+    - https://github.com/python/cpython/commit/f4654824ae0850ac87227fb270f9057477946769
+    - https://github.com/python/cpython/issues/148169
+    - https://github.com/python/cpython/pull/148170
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/JQDUNJVB4AQNTJECSUKOBDU3XCJIPSE5/
+    PublishedDate: '2026-04-13T22:16:30.413Z'
+    LastModifiedDate: '2026-04-14T15:16:39.417Z'
+  - VulnerabilityID: CVE-2026-6100
+    PkgID: python3@3.9.25-2.el9_7.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.25-2.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 979f48da73334394
+    InstalledVersion: 3.9.25-2.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6100
+    Fingerprint: sha256:46424e593354e0d7117dfbda39931bc132acc2f984b197a897dce8da7ac6ab7f
+    Title: 'python: Python: Arbitrary code execution or information disclosure via use-after-free in decompression modules'
+    Description: |-
+      Use-after-free (UAF) was possible in the `lzma.LZMADecompressor`, `bz2.BZ2Decompressor`, and `gzip.GzipFile` when a memory allocation fails with a `MemoryError` and the decompression instance is re-used. This scenario can be triggered if the process is under memory pressure. The fix cleans up the dangling pointer in this specific error condition.
+
+      The vulnerability is only present if the program re-uses decompressor instances across multiple decompression calls even after a `MemoryError` is raised during decompression. Using the helper functions to one-shot decompress data such as `lzma.decompress()`, `bz2.decompress()`, `gzip.decompress()`, and `zlib.decompress()` are not affected as a new decompressor instance is used per call. If the decompressor instance is not re-used after an error condition, this usage is similarly not vulnerable.
+    Severity: HIGH
+    CweIDs:
+    - CWE-416
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/04/13/10
+    - https://access.redhat.com/security/cve/CVE-2026-6100
+    - https://github.com/python/cpython/commit/47128e64f98c3a20271138a98c2922bea2a3ee0e
+    - https://github.com/python/cpython/commit/6a5f79c8d7bbf22b083b240910c7a8781a59437d
+    - https://github.com/python/cpython/commit/8fc66aef6d7b3ae58f43f5c66f9366cc8cbbfcd2
+    - https://github.com/python/cpython/commit/c3cf71c3366fe49acb776a639405c0eea6169c20
+    - https://github.com/python/cpython/commit/e20c6c9667c99ecaab96e1a2b3767082841ffc8b
+    - https://github.com/python/cpython/issues/148395
+    - https://github.com/python/cpython/pull/148396
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HTWB2Z6KT5QQX4RYEZAFININDHNOSIF3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6100
+    - https://www.cve.org/CVERecord?id=CVE-2026-6100
+    PublishedDate: '2026-04-13T18:16:31.297Z'
+    LastModifiedDate: '2026-04-14T15:16:41.247Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: python3@3.9.25-2.el9_7.x86_64
     PkgName: python3
@@ -47907,7 +48810,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       redhat: 2
@@ -48123,7 +49026,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       bitnami: 2
       redhat: 2
       ubuntu: 2
@@ -48289,7 +49192,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -48386,7 +49289,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -48440,7 +49343,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -48522,7 +49425,7 @@
     - CWE-93
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -48568,6 +49471,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-1299
     PublishedDate: '2026-01-23T17:16:12.977Z'
     LastModifiedDate: '2026-02-13T17:16:12.943Z'
+  - VulnerabilityID: CVE-2026-1502
+    PkgID: python3@3.9.25-2.el9_7.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.25-2.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 979f48da73334394
+    InstalledVersion: 3.9.25-2.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1502
+    Fingerprint: sha256:56217dd2469afd05c7a81181a1b90942e86b4c14a0e7051f7633b309edcec58b
+    Title: 'python: Python: HTTP header injection via CR/LF in proxy tunnel headers'
+    Description: CR/LF bytes were not rejected by HTTP client proxy tunnel headers or host.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 4.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/04/11/4
+    - https://access.redhat.com/security/cve/CVE-2026-1502
+    - https://github.com/python/cpython/commit/05ed7ce7ae9e17c23a04085b2539fe6d6d3cef69
+    - https://github.com/python/cpython/issues/146211
+    - https://github.com/python/cpython/pull/146212
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/2IVPAEQWUJBCTQZEJEVTYCIKSMQPGRZ3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1502
+    - https://www.cve.org/CVERecord?id=CVE-2026-1502
+    PublishedDate: '2026-04-10T18:16:40.97Z'
+    LastModifiedDate: '2026-04-13T15:02:06.187Z'
   - VulnerabilityID: CVE-2026-3644
     PkgID: python3@3.9.25-2.el9_7.x86_64
     PkgName: python3
@@ -48630,7 +49567,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -48720,6 +49657,7 @@
     CweIDs:
     - CWE-668
     VendorSeverity:
+      amazon: 3
       redhat: 1
     CVSS:
       redhat:
@@ -48760,6 +49698,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -48807,6 +49746,7 @@
     - CWE-20
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -48847,6 +49787,79 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-4519
     PublishedDate: '2026-03-20T15:16:24.057Z'
     LastModifiedDate: '2026-04-07T18:16:47.223Z'
+  - VulnerabilityID: CVE-2026-4786
+    PkgID: python3-libs@3.9.25-2.el9_7.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.25-2.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: ea07bbeb1e877860
+    InstalledVersion: 3.9.25-2.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4786
+    Fingerprint: sha256:eb111c8c0dd14646e614706b94aaf101a8798e21238d46b22e108488eb56ca37
+    Description: "Mitgation of\_CVE-2026-4519 was incomplete. If the URL contained \"%action\" the mitigation could be bypassed for certain browser types the \"webbrowser.open()\" API could have commands injected into the underlying shell. See\_CVE-2026-4519 for details."
+    Severity: HIGH
+    CweIDs:
+    - CWE-77
+    VendorSeverity:
+      redhat: 3
+    References:
+    - https://github.com/python/cpython/commit/c5767a72838a8dda9d6dc5d3558075b055c56bca
+    - https://github.com/python/cpython/commit/d22922c8a7958353689dc4763dd72da2dea03fff
+    - https://github.com/python/cpython/commit/f4654824ae0850ac87227fb270f9057477946769
+    - https://github.com/python/cpython/issues/148169
+    - https://github.com/python/cpython/pull/148170
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/JQDUNJVB4AQNTJECSUKOBDU3XCJIPSE5/
+    PublishedDate: '2026-04-13T22:16:30.413Z'
+    LastModifiedDate: '2026-04-14T15:16:39.417Z'
+  - VulnerabilityID: CVE-2026-6100
+    PkgID: python3-libs@3.9.25-2.el9_7.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.25-2.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: ea07bbeb1e877860
+    InstalledVersion: 3.9.25-2.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6100
+    Fingerprint: sha256:3c9ed43f2f9741ddc725078529bf342e9f3518a1a8af39024d3a6f668ecb09a1
+    Title: 'python: Python: Arbitrary code execution or information disclosure via use-after-free in decompression modules'
+    Description: |-
+      Use-after-free (UAF) was possible in the `lzma.LZMADecompressor`, `bz2.BZ2Decompressor`, and `gzip.GzipFile` when a memory allocation fails with a `MemoryError` and the decompression instance is re-used. This scenario can be triggered if the process is under memory pressure. The fix cleans up the dangling pointer in this specific error condition.
+
+      The vulnerability is only present if the program re-uses decompressor instances across multiple decompression calls even after a `MemoryError` is raised during decompression. Using the helper functions to one-shot decompress data such as `lzma.decompress()`, `bz2.decompress()`, `gzip.decompress()`, and `zlib.decompress()` are not affected as a new decompressor instance is used per call. If the decompressor instance is not re-used after an error condition, this usage is similarly not vulnerable.
+    Severity: HIGH
+    CweIDs:
+    - CWE-416
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/04/13/10
+    - https://access.redhat.com/security/cve/CVE-2026-6100
+    - https://github.com/python/cpython/commit/47128e64f98c3a20271138a98c2922bea2a3ee0e
+    - https://github.com/python/cpython/commit/6a5f79c8d7bbf22b083b240910c7a8781a59437d
+    - https://github.com/python/cpython/commit/8fc66aef6d7b3ae58f43f5c66f9366cc8cbbfcd2
+    - https://github.com/python/cpython/commit/c3cf71c3366fe49acb776a639405c0eea6169c20
+    - https://github.com/python/cpython/commit/e20c6c9667c99ecaab96e1a2b3767082841ffc8b
+    - https://github.com/python/cpython/issues/148395
+    - https://github.com/python/cpython/pull/148396
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HTWB2Z6KT5QQX4RYEZAFININDHNOSIF3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6100
+    - https://www.cve.org/CVERecord?id=CVE-2026-6100
+    PublishedDate: '2026-04-13T18:16:31.297Z'
+    LastModifiedDate: '2026-04-14T15:16:41.247Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: python3-libs@3.9.25-2.el9_7.x86_64
     PkgName: python3-libs
@@ -48867,7 +49880,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       redhat: 2
@@ -49083,7 +50096,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       bitnami: 2
       redhat: 2
       ubuntu: 2
@@ -49249,7 +50262,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -49346,7 +50359,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -49400,7 +50413,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -49482,7 +50495,7 @@
     - CWE-93
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -49528,6 +50541,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-1299
     PublishedDate: '2026-01-23T17:16:12.977Z'
     LastModifiedDate: '2026-02-13T17:16:12.943Z'
+  - VulnerabilityID: CVE-2026-1502
+    PkgID: python3-libs@3.9.25-2.el9_7.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.25-2.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: ea07bbeb1e877860
+    InstalledVersion: 3.9.25-2.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1502
+    Fingerprint: sha256:eaa09fdbb605aae94ac27be9d21a8a3fdc4d20ef3eede9d286afb42cf8a82edf
+    Title: 'python: Python: HTTP header injection via CR/LF in proxy tunnel headers'
+    Description: CR/LF bytes were not rejected by HTTP client proxy tunnel headers or host.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 4.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/04/11/4
+    - https://access.redhat.com/security/cve/CVE-2026-1502
+    - https://github.com/python/cpython/commit/05ed7ce7ae9e17c23a04085b2539fe6d6d3cef69
+    - https://github.com/python/cpython/issues/146211
+    - https://github.com/python/cpython/pull/146212
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/2IVPAEQWUJBCTQZEJEVTYCIKSMQPGRZ3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1502
+    - https://www.cve.org/CVERecord?id=CVE-2026-1502
+    PublishedDate: '2026-04-10T18:16:40.97Z'
+    LastModifiedDate: '2026-04-13T15:02:06.187Z'
   - VulnerabilityID: CVE-2026-3644
     PkgID: python3-libs@3.9.25-2.el9_7.x86_64
     PkgName: python3-libs
@@ -49590,7 +50637,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -49680,6 +50727,7 @@
     CweIDs:
     - CWE-668
     VendorSeverity:
+      amazon: 3
       redhat: 1
     CVSS:
       redhat:
@@ -49720,6 +50768,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -50246,6 +51295,8 @@
     CweIDs:
     - CWE-271
     VendorSeverity:
+      amazon: 3
+      photon: 3
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -50286,6 +51337,7 @@
     - CWE-269
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -50441,6 +51493,7 @@
     CweIDs:
     - CWE-61
     VendorSeverity:
+      amazon: 2
       azure: 2
       ghsa: 2
       nvd: 2
@@ -50467,6 +51520,7 @@
     - https://rustsec.org/advisories/RUSTSEC-2026-0067.html
     - https://ubuntu.com/security/notices/USN-8138-1
     - https://ubuntu.com/security/notices/USN-8139-1
+    - https://ubuntu.com/security/notices/USN-8168-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33056
     PublishedDate: '2026-03-20T08:16:11.603Z'
     LastModifiedDate: '2026-03-24T16:17:11.623Z'
@@ -50496,12 +51550,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 5
     References:
+    - http://www.openwall.com/lists/oss-security/2026/04/11/10
+    - http://www.openwall.com/lists/oss-security/2026/04/11/11
+    - http://www.openwall.com/lists/oss-security/2026/04/12/2
     - https://access.redhat.com/security/cve/CVE-2026-5704
     - https://bugzilla.redhat.com/show_bug.cgi?id=2455360
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5704
     - https://www.cve.org/CVERecord?id=CVE-2026-5704
     PublishedDate: '2026-04-06T16:16:42.14Z'
-    LastModifiedDate: '2026-04-07T13:20:11.643Z'
+    LastModifiedDate: '2026-04-12T06:16:21.607Z'
   - VulnerabilityID: CVE-2023-39804
     PkgID: tar@1.34-9.el9_7.x86_64
     PkgName: tar
@@ -51327,6 +52384,46 @@
     - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-72hv-8253-57qq
     PublishedDate: '2026-02-28T02:01:05Z'
     LastModifiedDate: '2026-04-07T16:30:17Z'
+  - VulnerabilityID: CVE-2026-2332
+    VendorIDs:
+    - GHSA-355h-qmc2-wpwf
+    PkgName: org.eclipse.jetty:jetty-http
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/org.eclipse.jetty/jetty-http@12.1.4
+      UID: ca9ccff3501f06b9
+    InstalledVersion: 12.1.4
+    FixedVersion: 12.1.7, 12.0.33, 11.0.28, 10.0.28, 9.4.60
+    Status: fixed
+    Layer:
+      Digest: sha256:b12753202e4f0d8d0b6a84c0588065db56b58cfa6532710972abd2682f5ff2f0
+      DiffID: sha256:14dbff1cfdc0cd9fedc0e923b95cd14a31bf314c300207d84777cbeafa6743b7
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2332
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:9e761641d6e1ae5be18083172b878b46422b427e975494f3dbf5fe36f5a7f855
+    Title: In Eclipse Jetty, the HTTP/1.1 parser is vulnerable to request smuggli ...
+    Description: "In Eclipse Jetty, the HTTP/1.1 parser is vulnerable to request smuggling when chunk extensions are used, similar to the \"funky chunks\" techniques outlined here:\n  *  https://w4ke.info/2025/06/18/funky-chunks.html\n\n  *  https://w4ke.info/2025/10/29/funky-chunks-2.html\n\n\nJetty terminates chunk extension parsing at\_\\r\\n\_inside quoted strings instead of treating this as an error.\n\n\nPOST / HTTP/1.1\nHost: localhost\nTransfer-Encoding: chunked\n\n1;ext=\"val\nX\n0\n\nGET /smuggled HTTP/1.1\n...\n\n\n\n\n\nNote how the chunk extension does not close the double quotes, and it is able to inject a smuggled request."
+    Severity: HIGH
+    CweIDs:
+    - CWE-444
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://github.com/jetty/jetty.project
+    - https://github.com/jetty/jetty.project/security/advisories/GHSA-355h-qmc2-wpwf
+    - https://gitlab.eclipse.org/security/cve-assignment/-/issues/89
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-2332
+    - https://w4ke.info/2025/06/18/funky-chunks.html
+    PublishedDate: '2026-04-14T12:16:21.333Z'
+    LastModifiedDate: '2026-04-14T12:16:21.333Z'
   - VulnerabilityID: CVE-2025-11143
     VendorIDs:
     - GHSA-wjpw-4j6x-6rwh
