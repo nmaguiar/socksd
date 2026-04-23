@@ -3052,30 +3052,56 @@
 │                       │      │                   `info_ptr` buffer. Version 1.6.56 fixes the issue. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-33416 
-│                       │      │                  ├ [1] : https://github.com/pnggroup/libpng/commit/23019269764
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:8459 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-33416 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2451805 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2451819 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2455897 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2455901 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2455908 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2451805 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2451819 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2455897 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2455901 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2455908 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-33416 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-33636 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-5731 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-5732 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-5734 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-8459.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2026:8459 
+│                       │      │                  ├ [19]: https://github.com/pnggroup/libpng/commit/23019269764
 │                       │      │                  │       e35ed8458e517f1897bd3c54820eb 
-│                       │      │                  ├ [2] : https://github.com/pnggroup/libpng/commit/7ea9eea884a
+│                       │      │                  ├ [20]: https://github.com/pnggroup/libpng/commit/7ea9eea884a
 │                       │      │                  │       2328cc7fdcb3c0c00246a50d90667 
-│                       │      │                  ├ [3] : https://github.com/pnggroup/libpng/commit/a3a21443ed1
+│                       │      │                  ├ [21]: https://github.com/pnggroup/libpng/commit/a3a21443ed1
 │                       │      │                  │       2bfa1ef46fa0d4fb2b74a0fa34a25 
-│                       │      │                  ├ [4] : https://github.com/pnggroup/libpng/commit/c1b0318b393
+│                       │      │                  ├ [22]: https://github.com/pnggroup/libpng/commit/c1b0318b393
 │                       │      │                  │       c90679e6fa5bc1d329fd5d5012ec1 
-│                       │      │                  ├ [5] : https://github.com/pnggroup/libpng/pull/824 
-│                       │      │                  ├ [6] : https://github.com/pnggroup/libpng/security/advisorie
+│                       │      │                  ├ [23]: https://github.com/pnggroup/libpng/pull/824 
+│                       │      │                  ├ [24]: https://github.com/pnggroup/libpng/security/advisorie
 │                       │      │                  │       s/GHSA-m4pc-p4q3-4c7j 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2026-33416.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2026-8052.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-33416 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-33416 
+│                       │      │                  ├ [25]: https://linux.oracle.com/cve/CVE-2026-33416.html 
+│                       │      │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2026-9345.html 
+│                       │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2026-33416 
+│                       │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2026-33416 
 │                       │      ├ PublishedDate   : 2026-03-26T17:16:38.443Z 
 │                       │      ╰ LastModifiedDate: 2026-04-02T20:28:33.973Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2026-33636 
@@ -3116,25 +3142,51 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ╭ [0]: CWE-125 
 │                       │      │                  ╰ [1]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.6 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-33636 
-│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/7734cda20cf1
-│                       │      │                  │      236aef60f3bbd2267c97bbb40869 
-│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/commit/aba9f18eba87
-│                       │      │                  │      0d14fb52c5ba5d73451349e339c3 
-│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories
-│                       │      │                  │      /GHSA-wjr5-c57x-95m2 
-│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2026-33636.html 
-│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2026-8052.html 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-33636 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-33636 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:8459 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-33636 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2451805 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2451819 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2455897 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2455901 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2455908 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2451805 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2451819 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2455897 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2455901 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2455908 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-33416 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-33636 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-5731 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-5732 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-5734 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-8459.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2026:8459 
+│                       │      │                  ├ [19]: https://github.com/pnggroup/libpng/commit/7734cda20cf
+│                       │      │                  │       1236aef60f3bbd2267c97bbb40869 
+│                       │      │                  ├ [20]: https://github.com/pnggroup/libpng/commit/aba9f18eba8
+│                       │      │                  │       70d14fb52c5ba5d73451349e339c3 
+│                       │      │                  ├ [21]: https://github.com/pnggroup/libpng/security/advisorie
+│                       │      │                  │       s/GHSA-wjr5-c57x-95m2 
+│                       │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2026-33636.html 
+│                       │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2026-9345.html 
+│                       │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2026-33636 
+│                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2026-33636 
 │                       │      ├ PublishedDate   : 2026-03-26T17:16:41.477Z 
 │                       │      ╰ LastModifiedDate: 2026-04-02T18:42:02.667Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2026-34757 
@@ -3173,7 +3225,8 @@
 │                       │      │                   struct). This vulnerability is fixed in 1.6.57. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ╰ redhat: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.4 
@@ -4658,10 +4711,11 @@
 │                              │                    within a loop that has no termination condition. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-1284 
-│                              ├ VendorSeverity   ╭ azure : 1 
-│                              │                  ├ nvd   : 2 
-│                              │                  ├ redhat: 1 
-│                              │                  ╰ ubuntu: 1 
+│                              ├ VendorSeverity   ╭ azure      : 1 
+│                              │                  ├ cbl-mariner: 1 
+│                              │                  ├ nvd        : 2 
+│                              │                  ├ redhat     : 1 
+│                              │                  ╰ ubuntu     : 1 
 │                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
 │                              │                  │        │           /A:H 
 │                              │                  │        ╰ V3Score : 5.5 
