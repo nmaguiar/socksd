@@ -1178,6 +1178,7 @@
     - CWE-1284
     VendorSeverity:
       azure: 1
+      cbl-mariner: 1
       nvd: 2
       redhat: 1
       ubuntu: 1
