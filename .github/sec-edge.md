@@ -940,7 +940,9 @@
 │     │                 │      ╰ AnalyzedBy    : apk 
 │     │                 ├ [26] ╭ ID            : sudo@1.9.17_p2-r1 
 │     │                 │      ├ Name          : sudo 
-
+│     │                 │      ├ Identifier     ╭ PURL: pkg:apk/alpine/sudo@1.9.17_p2-r1?arch=x86_64&distro=3.2
+│     │                 │      │                │       4.0_alpha20260127 
+│     │                 │      │                ╰ UID : ca7594332f0d5924 
 │     │                 │      ├ Version       : 1.9.17_p2-r1 
 │     │                 │      ├ Arch          : x86_64 
 │     │                 │      ├ SrcName       : sudo 
@@ -1294,10 +1296,11 @@
 │                             │                   within a loop that has no termination condition. 
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-1284 
-│                             ├ VendorSeverity   ╭ azure : 1 
-│                             │                  ├ nvd   : 2 
-│                             │                  ├ redhat: 1 
-│                             │                  ╰ ubuntu: 1 
+│                             ├ VendorSeverity   ╭ azure      : 1 
+│                             │                  ├ cbl-mariner: 1 
+│                             │                  ├ nvd        : 2 
+│                             │                  ├ redhat     : 1 
+│                             │                  ╰ ubuntu     : 1 
 │                             ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/
 │                             │                  │        │           A:H 
 │                             │                  │        ╰ V3Score : 5.5 
@@ -1343,7 +1346,10 @@
                  │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.1 
                  │      │            ╰ UID : f5a07e107dd30f70 
                  │      ├ Version   : 2.21.1 
-
+                 │      ├ Layer      ╭ Digest: sha256:99217012bc93b5b03d69e932a9c08ab2adff1821c3a17d3b1656b8b5a
+                 │      │            │         69af8e0 
+                 │      │            ╰ DiffID: sha256:afe4549404377bf6cb1202478a9ed79b5708356a9fb183a4c41d4d66b
+                 │      │                      c2bfc4f 
                  │      ├ FilePath  : openaf/openaf.jar 
                  │      ╰ AnalyzedBy: jar 
                  ├ [3]  ╭ Name      : com.fasterxml.jackson.dataformat:jackson-dataformat-toml 
