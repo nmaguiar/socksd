@@ -2471,21 +2471,22 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.8 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31789 
-│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/364f095b806
+│                       │      │                  ├ [1] : https://github.com/advisories/GHSA-j79m-9jxq-788r 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/364f095b806
 │                       │      │                  │       01db632b0def6a33316967f863bde 
-│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/7a9087efd76
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/7a9087efd76
 │                       │      │                  │       9f362ad9c0e30c7baaa6bbfa65ecf 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/945b935ac66
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/945b935ac66
 │                       │      │                  │       cc7f1a41f1b849c7c25adb5351f49 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/a24216018e1
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/a24216018e1
 │                       │      │                  │       ede8ff01a4ff5afff7dfbd443e2f9 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/a91e537d16d
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/a91e537d16d
 │                       │      │                  │       74050dbde50bb0dfb1fe9930f0521 
-│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-31789 
-│                       │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2026-31789 
-│                       │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2026/04/0
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-31789 
+│                       │      │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-31789 
+│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/0
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:34.377Z 
@@ -2636,11 +2637,15 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
 │                       │      │                  ├ azure : 2 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ nvd   : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
@@ -2717,33 +2722,38 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
 │                       │      │                  ├ azure : 2 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ nvd   : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28389 
-│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/16cea4188e0
+│                       │      │                  ├ [1] : https://github.com/advisories/GHSA-7x88-9hgc-69gf 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/16cea4188e0
 │                       │      │                  │       ea567deb4f93f85902247e67384f5 
-│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/785cbf7ea3b
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/785cbf7ea3b
 │                       │      │                  │       5a6f5adf0c1ccb92b79d89c35c616 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/7b5274e8124
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/7b5274e8124
 │                       │      │                  │       00cacb6f3be4c2df5340923fa807f 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/c6725634e08
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/c6725634e08
 │                       │      │                  │       9eb2b634b10ede33944be7248172a 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/f80f83bc5fd
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/f80f83bc5fd
 │                       │      │                  │       036bc47d773e8b15a001e2b4ce686 
-│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-28389 
-│                       │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-2 
-│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-28389 
-│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/0
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-28389 
+│                       │      │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-2 
+│                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-28389 
+│                       │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2026/04/0
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:40:00.107Z 
@@ -2800,11 +2810,15 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
 │                       │      │                  ├ azure : 2 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ nvd   : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
@@ -2891,28 +2905,33 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
 │                       │      │                  ├ azure : 2 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31790 
-│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/001e01db3e9
+│                       │      │                  ├ [1] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/001e01db3e9
 │                       │      │                  │       96e13ffc72386fe79d03a6683b5ac 
-│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/abd8b2eec7e
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/abd8b2eec7e
 │                       │      │                  │       3f3fda60ecfb68498b246b52af482 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/b922e24e5b2
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/b922e24e5b2
 │                       │      │                  │       3ffb9cb9e14cadff23d91e9f7e406 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/d5f8e71cd0a
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/d5f8e71cd0a
 │                       │      │                  │       54e961d0c3b174348f8308486f790 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/eed200f58cd
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/eed200f58cd
 │                       │      │                  │       8645ed77e46b7e9f764e284df379e 
-│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
-│                       │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2026-31790 
-│                       │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2026/04/0
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
+│                       │      │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
+│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/0
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:44.033Z 
@@ -3016,21 +3035,26 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-757 
 │                       │      ├ VendorSeverity   ╭ amazon: 1 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/13/3 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-2673 
-│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/2157c9d81f7b
+│                       │      │                  ├ [2]: https://github.com/advisories/GHSA-wj64-gh9j-xm82 
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/2157c9d81f7b
 │                       │      │                  │      0bd7dfa25b960e928ec28e8dd63f 
-│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/85977e013f32
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/85977e013f32
 │                       │      │                  │      ceb96aa034c0e741adddc1a05e34 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
-│                       │      │                  ├ [5]: https://openssl-library.org/news/secadv/20260313.txt 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
+│                       │      │                  ├ [6]: https://openssl-library.org/news/secadv/20260313.txt 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │      ╰ LastModifiedDate: 2026-03-17T18:16:15.6Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2026-33416 
@@ -3105,8 +3129,8 @@
 │                       │      │                  │       26-5732 
 │                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-5734 
-│                       │      │                  ├ [12]: https://errata.almalinux.org/10/ALSA-2026-9693.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:8052 
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:8459 
 │                       │      │                  ├ [14]: https://github.com/pnggroup/libpng/commit/23019269764
 │                       │      │                  │       e35ed8458e517f1897bd3c54820eb 
 │                       │      │                  ├ [15]: https://github.com/pnggroup/libpng/commit/7ea9eea884a
@@ -3190,8 +3214,8 @@
 │                       │      │                  │       26-5732 
 │                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-5734 
-│                       │      │                  ├ [12]: https://errata.almalinux.org/10/ALSA-2026-9693.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:8052 
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:8459 
 │                       │      │                  ├ [14]: https://github.com/pnggroup/libpng/commit/7734cda20cf
 │                       │      │                  │       1236aef60f3bbd2267c97bbb40869 
 │                       │      │                  ├ [15]: https://github.com/pnggroup/libpng/commit/aba9f18eba8
@@ -3328,21 +3352,22 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.8 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31789 
-│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/364f095b806
+│                       │      │                  ├ [1] : https://github.com/advisories/GHSA-j79m-9jxq-788r 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/364f095b806
 │                       │      │                  │       01db632b0def6a33316967f863bde 
-│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/7a9087efd76
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/7a9087efd76
 │                       │      │                  │       9f362ad9c0e30c7baaa6bbfa65ecf 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/945b935ac66
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/945b935ac66
 │                       │      │                  │       cc7f1a41f1b849c7c25adb5351f49 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/a24216018e1
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/a24216018e1
 │                       │      │                  │       ede8ff01a4ff5afff7dfbd443e2f9 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/a91e537d16d
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/a91e537d16d
 │                       │      │                  │       74050dbde50bb0dfb1fe9930f0521 
-│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-31789 
-│                       │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2026-31789 
-│                       │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2026/04/0
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-31789 
+│                       │      │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-31789 
+│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/0
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:34.377Z 
@@ -3493,11 +3518,15 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
 │                       │      │                  ├ azure : 2 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ nvd   : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
@@ -3574,33 +3603,38 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
 │                       │      │                  ├ azure : 2 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ nvd   : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28389 
-│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/16cea4188e0
+│                       │      │                  ├ [1] : https://github.com/advisories/GHSA-7x88-9hgc-69gf 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/16cea4188e0
 │                       │      │                  │       ea567deb4f93f85902247e67384f5 
-│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/785cbf7ea3b
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/785cbf7ea3b
 │                       │      │                  │       5a6f5adf0c1ccb92b79d89c35c616 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/7b5274e8124
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/7b5274e8124
 │                       │      │                  │       00cacb6f3be4c2df5340923fa807f 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/c6725634e08
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/c6725634e08
 │                       │      │                  │       9eb2b634b10ede33944be7248172a 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/f80f83bc5fd
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/f80f83bc5fd
 │                       │      │                  │       036bc47d773e8b15a001e2b4ce686 
-│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-28389 
-│                       │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-2 
-│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-28389 
-│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/0
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-28389 
+│                       │      │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-2 
+│                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-28389 
+│                       │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2026/04/0
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:40:00.107Z 
@@ -3657,11 +3691,15 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
 │                       │      │                  ├ azure : 2 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ nvd   : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
@@ -3748,28 +3786,33 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
 │                       │      │                  ├ azure : 2 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31790 
-│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/001e01db3e9
+│                       │      │                  ├ [1] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/001e01db3e9
 │                       │      │                  │       96e13ffc72386fe79d03a6683b5ac 
-│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/abd8b2eec7e
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/abd8b2eec7e
 │                       │      │                  │       3f3fda60ecfb68498b246b52af482 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/b922e24e5b2
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/b922e24e5b2
 │                       │      │                  │       3ffb9cb9e14cadff23d91e9f7e406 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/d5f8e71cd0a
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/d5f8e71cd0a
 │                       │      │                  │       54e961d0c3b174348f8308486f790 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/eed200f58cd
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/eed200f58cd
 │                       │      │                  │       8645ed77e46b7e9f764e284df379e 
-│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
-│                       │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2026-31790 
-│                       │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2026/04/0
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
+│                       │      │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
+│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/0
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:44.033Z 
@@ -3873,21 +3916,26 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-757 
 │                       │      ├ VendorSeverity   ╭ amazon: 1 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/13/3 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-2673 
-│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/2157c9d81f7b
+│                       │      │                  ├ [2]: https://github.com/advisories/GHSA-wj64-gh9j-xm82 
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/2157c9d81f7b
 │                       │      │                  │      0bd7dfa25b960e928ec28e8dd63f 
-│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/85977e013f32
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/85977e013f32
 │                       │      │                  │      ceb96aa034c0e741adddc1a05e34 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
-│                       │      │                  ├ [5]: https://openssl-library.org/news/secadv/20260313.txt 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
+│                       │      │                  ├ [6]: https://openssl-library.org/news/secadv/20260313.txt 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │      ╰ LastModifiedDate: 2026-03-17T18:16:15.6Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2026-40200 
@@ -4138,21 +4186,22 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.8 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31789 
-│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/364f095b806
+│                       │      │                  ├ [1] : https://github.com/advisories/GHSA-j79m-9jxq-788r 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/364f095b806
 │                       │      │                  │       01db632b0def6a33316967f863bde 
-│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/7a9087efd76
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/7a9087efd76
 │                       │      │                  │       9f362ad9c0e30c7baaa6bbfa65ecf 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/945b935ac66
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/945b935ac66
 │                       │      │                  │       cc7f1a41f1b849c7c25adb5351f49 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/a24216018e1
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/a24216018e1
 │                       │      │                  │       ede8ff01a4ff5afff7dfbd443e2f9 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/a91e537d16d
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/a91e537d16d
 │                       │      │                  │       74050dbde50bb0dfb1fe9930f0521 
-│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-31789 
-│                       │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2026-31789 
-│                       │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2026/04/0
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-31789 
+│                       │      │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-31789 
+│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/0
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:34.377Z 
@@ -4303,11 +4352,15 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
 │                       │      │                  ├ azure : 2 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ nvd   : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
@@ -4384,33 +4437,38 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
 │                       │      │                  ├ azure : 2 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ nvd   : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28389 
-│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/16cea4188e0
+│                       │      │                  ├ [1] : https://github.com/advisories/GHSA-7x88-9hgc-69gf 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/16cea4188e0
 │                       │      │                  │       ea567deb4f93f85902247e67384f5 
-│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/785cbf7ea3b
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/785cbf7ea3b
 │                       │      │                  │       5a6f5adf0c1ccb92b79d89c35c616 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/7b5274e8124
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/7b5274e8124
 │                       │      │                  │       00cacb6f3be4c2df5340923fa807f 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/c6725634e08
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/c6725634e08
 │                       │      │                  │       9eb2b634b10ede33944be7248172a 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/f80f83bc5fd
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/f80f83bc5fd
 │                       │      │                  │       036bc47d773e8b15a001e2b4ce686 
-│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-28389 
-│                       │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-2 
-│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-28389 
-│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/0
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-28389 
+│                       │      │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-2 
+│                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-28389 
+│                       │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2026/04/0
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:40:00.107Z 
@@ -4467,11 +4525,15 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
 │                       │      │                  ├ azure : 2 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ nvd   : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
@@ -4558,28 +4620,33 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
 │                       │      │                  ├ azure : 2 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31790 
-│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/001e01db3e9
+│                       │      │                  ├ [1] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/001e01db3e9
 │                       │      │                  │       96e13ffc72386fe79d03a6683b5ac 
-│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/abd8b2eec7e
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/abd8b2eec7e
 │                       │      │                  │       3f3fda60ecfb68498b246b52af482 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/b922e24e5b2
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/b922e24e5b2
 │                       │      │                  │       3ffb9cb9e14cadff23d91e9f7e406 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/d5f8e71cd0a
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/d5f8e71cd0a
 │                       │      │                  │       54e961d0c3b174348f8308486f790 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/eed200f58cd
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/eed200f58cd
 │                       │      │                  │       8645ed77e46b7e9f764e284df379e 
-│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
-│                       │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2026-31790 
-│                       │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2026/04/0
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
+│                       │      │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
+│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/0
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:44.033Z 
@@ -4683,21 +4750,26 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-757 
 │                       │      ├ VendorSeverity   ╭ amazon: 1 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/13/3 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-2673 
-│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/2157c9d81f7b
+│                       │      │                  ├ [2]: https://github.com/advisories/GHSA-wj64-gh9j-xm82 
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/2157c9d81f7b
 │                       │      │                  │      0bd7dfa25b960e928ec28e8dd63f 
-│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/85977e013f32
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/85977e013f32
 │                       │      │                  │      ceb96aa034c0e741adddc1a05e34 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
-│                       │      │                  ├ [5]: https://openssl-library.org/news/secadv/20260313.txt 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
+│                       │      │                  ├ [6]: https://openssl-library.org/news/secadv/20260313.txt 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │      ╰ LastModifiedDate: 2026-03-17T18:16:15.6Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2026-22184 
