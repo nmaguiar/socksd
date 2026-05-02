@@ -2401,7 +2401,60 @@
 │     │                        ├ InstalledFiles ╭ [0]: usr/lib/libzstd.so.1 
 │     │                        │                ╰ [1]: usr/lib/libzstd.so.1.5.7 
 │     │                        ╰ AnalyzedBy    : apk 
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2026-31789 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2026-41254 
+│                       │      ├ PkgID           : lcms2@2.17-r0 
+│                       │      ├ PkgName         : lcms2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/lcms2@2.17-r0?arch=x86_64&distro=3.23.3 
+│                       │      │                  ╰ UID : d4cf67fbd685ea22 
+│                       │      ├ InstalledVersion: 2.17-r0 
+│                       │      ├ FixedVersion    : 2.19-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41254 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:cedec026f0cb7a0a2405d1ad323ef79eed64e7a1666a6c3274857
+│                       │      │                   7ea7848708d 
+│                       │      ├ Title           : Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information
+│                       │      │                   disclosure or denial of service via integer overflow in
+│                       │      │                   CubeSize 
+│                       │      ├ Description     : Little CMS (lcms2) through 2.18 has an integer overflow in
+│                       │      │                   CubeSize in cmslut.c because the overflow check is performed
+│                       │      │                    after the multiplication. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ╭ [0]: CWE-696 
+│                       │      │                  ╰ [1]: CWE-190 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.1 
+│                       │      ├ References       ╭ [0]: https://abhinavagarwal07.github.io/posts/lcms2-cubesiz
+│                       │      │                  │      e-overflow/ 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-41254 
+│                       │      │                  ├ [2]: https://github.com/mm2/Little-CMS/commit/da6110b1d14ab
+│                       │      │                  │      c394633a388209abd5ebedd7ab0 
+│                       │      │                  ├ [3]: https://github.com/mm2/Little-CMS/commit/e0641b1828d0a
+│                       │      │                  │      1af5ecb1b11fe22f24fceefd4bc 
+│                       │      │                  ├ [4]: https://github.com/mm2/Little-CMS/security/advisories/
+│                       │      │                  │      GHSA-4xp6-rcgg-m9qq 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-41254 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8209-1 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-41254 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/04/17
+│                       │      │                         /16 
+│                       │      ├ PublishedDate   : 2026-04-18T07:16:10.807Z 
+│                       │      ╰ LastModifiedDate: 2026-04-22T18:34:23.33Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-31789 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -2490,7 +2543,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:34.377Z 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-28387 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-28387 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -2576,7 +2629,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:25.323Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-28388 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-28388 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -2671,7 +2724,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:40:08.41Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-28389 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-28389 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -2757,7 +2810,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:40:00.107Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-28390 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-28390 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -2844,7 +2897,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:52.52Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-31790 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-31790 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -2935,7 +2988,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:44.033Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-2673 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -3057,7 +3110,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │      ╰ LastModifiedDate: 2026-03-17T18:16:15.6Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-33416 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-33416 
 │                       │      ├ PkgID           : libpng@1.6.55-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.55-r0?arch=x86_64&distro=3.
@@ -3148,7 +3201,7 @@
 │                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2026-33416 
 │                       │      ├ PublishedDate   : 2026-03-26T17:16:38.443Z 
 │                       │      ╰ LastModifiedDate: 2026-04-02T20:28:33.973Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-33636 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-33636 
 │                       │      ├ PkgID           : libpng@1.6.55-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.55-r0?arch=x86_64&distro=3.
@@ -3228,7 +3281,7 @@
 │                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2026-33636 
 │                       │      ├ PublishedDate   : 2026-03-26T17:16:41.477Z 
 │                       │      ╰ LastModifiedDate: 2026-04-02T18:42:02.667Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-34757 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2026-34757 
 │                       │      ├ PkgID           : libpng@1.6.55-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.55-r0?arch=x86_64&distro=3.
@@ -3264,7 +3317,8 @@
 │                       │      │                   struct). This vulnerability is fixed in 1.6.57. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ╰ redhat: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -3282,7 +3336,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-34757 
 │                       │      ├ PublishedDate   : 2026-04-09T15:16:11.003Z 
 │                       │      ╰ LastModifiedDate: 2026-04-13T15:02:47.353Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2026-31789 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -3371,7 +3425,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:34.377Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2026-28387 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-28387 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -3457,7 +3511,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:25.323Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2026-28388 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -3552,7 +3606,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:40:08.41Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2026-28389 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -3638,7 +3692,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:40:00.107Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2026-28390 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-28390 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -3725,7 +3779,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:52.52Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2026-31790 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -3816,7 +3870,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:44.033Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -3938,7 +3992,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │      ╰ LastModifiedDate: 2026-03-17T18:16:15.6Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2026-40200 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2026-40200 
 │                       │      ├ PkgID           : musl@1.2.5-r21 
 │                       │      ├ PkgName         : musl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.5-r21?arch=x86_64&distro=3.23.3 
@@ -3979,8 +4033,8 @@
 │                       │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2026/04/10
 │                       │      │                         /13 
 │                       │      ├ PublishedDate   : 2026-04-10T17:17:14.107Z 
-│                       │      ╰ LastModifiedDate: 2026-04-13T15:02:06.187Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2026-6042 
+│                       │      ╰ LastModifiedDate: 2026-04-27T19:18:46.69Z 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2026-6042 
 │                       │      ├ PkgID           : musl@1.2.5-r21 
 │                       │      ├ PkgName         : musl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.5-r21?arch=x86_64&distro=3.23.3 
@@ -4026,7 +4080,7 @@
 │                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/04/03/2 
 │                       │      ├ PublishedDate   : 2026-04-10T09:16:25.45Z 
 │                       │      ╰ LastModifiedDate: 2026-04-24T18:01:13.913Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2026-40200 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2026-40200 
 │                       │      ├ PkgID           : musl-utils@1.2.5-r21 
 │                       │      ├ PkgName         : musl-utils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.5-r21?arch=x86_64&distr
@@ -4068,8 +4122,8 @@
 │                       │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2026/04/10
 │                       │      │                         /13 
 │                       │      ├ PublishedDate   : 2026-04-10T17:17:14.107Z 
-│                       │      ╰ LastModifiedDate: 2026-04-13T15:02:06.187Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2026-6042 
+│                       │      ╰ LastModifiedDate: 2026-04-27T19:18:46.69Z 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2026-6042 
 │                       │      ├ PkgID           : musl-utils@1.2.5-r21 
 │                       │      ├ PkgName         : musl-utils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.5-r21?arch=x86_64&distr
@@ -4116,7 +4170,76 @@
 │                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/04/03/2 
 │                       │      ├ PublishedDate   : 2026-04-10T09:16:25.45Z 
 │                       │      ╰ LastModifiedDate: 2026-04-24T18:01:13.913Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2026-31789 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2026-27135 
+│                       │      ├ PkgID           : nghttp2-libs@1.68.0-r0 
+│                       │      ├ PkgName         : nghttp2-libs 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/nghttp2-libs@1.68.0-r0?arch=x86_64&dis
+│                       │      │                  │       tro=3.23.3 
+│                       │      │                  ╰ UID : 802c936f9e7891b2 
+│                       │      ├ InstalledVersion: 1.68.0-r0 
+│                       │      ├ FixedVersion    : 1.68.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27135 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:727b7401a505c9447e9d33e840d7f1f74fbfb773a357bf955dd93
+│                       │      │                   3fa6d097666 
+│                       │      ├ Title           : nghttp2: nghttp2: Denial of Service via malformed HTTP/2
+│                       │      │                   frames after session termination 
+│                       │      ├ Description     : nghttp2 is an implementation of the Hypertext Transfer
+│                       │      │                   Protocol version 2 in C. Prior to version 1.68.1, the
+│                       │      │                   nghttp2 library stops reading the incoming data when user
+│                       │      │                   facing public API `nghttp2_session_terminate_session` or
+│                       │      │                   `nghttp2_session_terminate_session2` is called by the
+│                       │      │                   application. They might be called internally by the library
+│                       │      │                   when it detects the situation that is subject to connection
+│                       │      │                   error. Due to the missing internal state validation, the
+│                       │      │                   library keeps reading the rest of the data after one of
+│                       │      │                   those APIs is called. Then receiving a malformed frame that
+│                       │      │                   causes FRAME_SIZE_ERROR causes assertion failure. nghttp2
+│                       │      │                   v1.68.1 adds missing state validation to avoid assertion
+│                       │      │                   failure. No known workarounds are available. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-617 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/20/3 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:7896 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-27135 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2441268 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2442922 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2448754 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2453151 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2448754 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-27135 
+│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2026-7896.html 
+│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:7668 
+│                       │      │                  ├ [11]: https://github.com/nghttp2/nghttp2/commit/5c7df8fa815
+│                       │      │                  │       ac1004d9ecb9d1f7595c4d37f46e1 
+│                       │      │                  ├ [12]: https://github.com/nghttp2/nghttp2/security/advisorie
+│                       │      │                  │       s/GHSA-6933-cjhr-5qg6 
+│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2026-27135.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2026-8339.html 
+│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2026-27135 
+│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2026-27135 
+│                       │      ├ PublishedDate   : 2026-03-18T18:16:26.723Z 
+│                       │      ╰ LastModifiedDate: 2026-03-23T17:51:17.017Z 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -4205,7 +4328,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:34.377Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2026-28387 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2026-28387 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -4291,7 +4414,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:25.323Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2026-28388 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -4386,7 +4509,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:40:08.41Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2026-28389 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -4472,7 +4595,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:40:00.107Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2026-28390 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2026-28390 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -4559,7 +4682,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:52.52Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2026-31790 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -4650,7 +4773,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │      ╰ LastModifiedDate: 2026-04-23T15:39:44.033Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -4772,7 +4895,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │      ╰ LastModifiedDate: 2026-03-17T18:16:15.6Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2026-22184 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2026-22184 
 │                       │      ├ PkgID           : zlib@1.3.1-r2 
 │                       │      ├ PkgName         : zlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.23.3 
@@ -4822,7 +4945,7 @@
 │                       │      │                  ╰ [7]: https://zlib.net/ 
 │                       │      ├ PublishedDate   : 2026-01-07T21:16:01.563Z 
 │                       │      ╰ LastModifiedDate: 2026-03-18T16:26:31.14Z 
-│                       ╰ [29] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ╰ [31] ╭ VulnerabilityID : CVE-2026-27171 
 │                              ├ PkgID           : zlib@1.3.1-r2 
 │                              ├ PkgName         : zlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.23.3 
@@ -4848,7 +4971,8 @@
 │                              │                    within a loop that has no termination condition. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-1284 
-│                              ├ VendorSeverity   ╭ azure      : 1 
+│                              ├ VendorSeverity   ╭ amazon     : 1 
+│                              │                  ├ azure      : 1 
 │                              │                  ├ cbl-mariner: 1 
 │                              │                  ├ nvd        : 2 
 │                              │                  ├ redhat     : 1 
