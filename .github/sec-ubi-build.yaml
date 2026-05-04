@@ -38833,12 +38833,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:13274
     - https://access.redhat.com/security/cve/CVE-2026-33845
     - https://bugzilla.redhat.com/show_bug.cgi?id=2450624
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33845
     - https://www.cve.org/CVERecord?id=CVE-2026-33845
     PublishedDate: '2026-04-30T18:16:28.003Z'
-    LastModifiedDate: '2026-04-30T19:14:49.917Z'
+    LastModifiedDate: '2026-05-03T20:16:02.377Z'
   - VulnerabilityID: CVE-2026-3833
     PkgID: gnutls@3.8.3-10.el9_7.x86_64
     PkgName: gnutls
@@ -38865,13 +38866,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:13274
     - https://access.redhat.com/security/cve/CVE-2026-3833
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445763
     - https://gitlab.com/gnutls/gnutls/-/issues/1803
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3833
     - https://www.cve.org/CVERecord?id=CVE-2026-3833
     PublishedDate: '2026-04-30T18:16:30.577Z'
-    LastModifiedDate: '2026-04-30T19:16:09.663Z'
+    LastModifiedDate: '2026-05-03T20:16:02.713Z'
   - VulnerabilityID: CVE-2026-3832
     PkgID: gnutls@3.8.3-10.el9_7.x86_64
     PkgName: gnutls
@@ -38898,13 +38900,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:13274
     - https://access.redhat.com/security/cve/CVE-2026-3832
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445762
     - https://gitlab.com/gnutls/gnutls/-/issues/1801
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3832
     - https://www.cve.org/CVERecord?id=CVE-2026-3832
     PublishedDate: '2026-04-30T18:16:30.433Z'
-    LastModifiedDate: '2026-04-30T19:16:09.533Z'
+    LastModifiedDate: '2026-05-03T20:16:02.537Z'
   - VulnerabilityID: CVE-2025-66293
     PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -38942,7 +38945,7 @@
     - http://www.openwall.com/lists/oss-security/2025/12/03/6
     - http://www.openwall.com/lists/oss-security/2025/12/03/7
     - http://www.openwall.com/lists/oss-security/2025/12/03/8
-    - https://access.redhat.com/errata/RHSA-2026:0237
+    - https://access.redhat.com/errata/RHSA-2026:0238
     - https://access.redhat.com/security/cve/CVE-2025-66293
     - https://bugzilla.redhat.com/2416904
     - https://bugzilla.redhat.com/2416907
@@ -38953,8 +38956,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
-    - https://errata.almalinux.org/10/ALSA-2026-0237.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.almalinux.org/9/ALSA-2026-0238.html
+    - https://errata.rockylinux.org/RLSA-2026:0237
     - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
     - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
     - https://github.com/pnggroup/libpng/issues/764
@@ -39035,7 +39038,7 @@
         V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2026/02/09/7
-    - https://access.redhat.com/errata/RHSA-2026:3551
+    - https://access.redhat.com/errata/RHSA-2026:3405
     - https://access.redhat.com/security/cve/CVE-2026-25646
     - https://bugzilla.redhat.com/2428824
     - https://bugzilla.redhat.com/2428825
@@ -39046,8 +39049,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22695
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
-    - https://errata.almalinux.org/10/ALSA-2026-3551.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
+    - https://errata.almalinux.org/9/ALSA-2026-3405.html
+    - https://errata.rockylinux.org/RLSA-2026:3551
     - https://github.com/pnggroup/libpng/commit/01d03b8453eb30ade759cd45c707e5a1c7277d88
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-g8hp-mq4h-rqm3
     - https://linux.oracle.com/cve/CVE-2026-25646.html
@@ -39090,7 +39093,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:9693
     - https://access.redhat.com/security/cve/CVE-2026-26740
-    - https://errata.almalinux.org/10/ALSA-2026-9693.html
+    - https://errata.almalinux.org/9/ALSA-2026-9693.html
     - https://github.com/zakkanijia/POC/blob/main/giflib/giftool/giflib_giftool_gce_len_heap_oobwrite_disclosure.md
     - https://linux.oracle.com/cve/CVE-2026-26740.html
     - https://linux.oracle.com/errata/ELSA-2026-9693.html
@@ -39156,7 +39159,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -39297,7 +39300,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:3551
+    - https://access.redhat.com/errata/RHSA-2026:3405
     - https://access.redhat.com/security/cve/CVE-2026-22695
     - https://bugzilla.redhat.com/2428824
     - https://bugzilla.redhat.com/2428825
@@ -39308,8 +39311,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22695
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
-    - https://errata.almalinux.org/10/ALSA-2026-3551.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
+    - https://errata.almalinux.org/9/ALSA-2026-3405.html
+    - https://errata.rockylinux.org/RLSA-2026:3551
     - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
     - https://github.com/pnggroup/libpng/commit/e4f7ad4ea2
     - https://github.com/pnggroup/libpng/issues/778
@@ -39362,7 +39365,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H
         V3Score: 6.6
     References:
-    - https://access.redhat.com/errata/RHSA-2026:3551
+    - https://access.redhat.com/errata/RHSA-2026:3405
     - https://access.redhat.com/security/cve/CVE-2026-22801
     - https://bugzilla.redhat.com/2428824
     - https://bugzilla.redhat.com/2428825
@@ -39373,8 +39376,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22695
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
-    - https://errata.almalinux.org/10/ALSA-2026-3551.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
+    - https://errata.almalinux.org/9/ALSA-2026-3405.html
+    - https://errata.rockylinux.org/RLSA-2026:3551
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-vgjq-8cw5-ggw8
     - https://linux.oracle.com/cve/CVE-2026-22801.html
     - https://linux.oracle.com/errata/ELSA-2026-4728.html
@@ -39430,8 +39433,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5731
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5732
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5734
-    - https://errata.almalinux.org/10/ALSA-2026-9693.html
-    - https://errata.rockylinux.org/RLSA-2026:8459
+    - https://errata.almalinux.org/9/ALSA-2026-9693.html
+    - https://errata.rockylinux.org/RLSA-2026:9638
     - https://github.com/pnggroup/libpng/commit/23019269764e35ed8458e517f1897bd3c54820eb
     - https://github.com/pnggroup/libpng/commit/7ea9eea884a2328cc7fdcb3c0c00246a50d90667
     - https://github.com/pnggroup/libpng/commit/a3a21443ed12bfa1ef46fa0d4fb2b74a0fa34a25
@@ -39490,8 +39493,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5731
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5732
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5734
-    - https://errata.almalinux.org/10/ALSA-2026-9693.html
-    - https://errata.rockylinux.org/RLSA-2026:8459
+    - https://errata.almalinux.org/9/ALSA-2026-9693.html
+    - https://errata.rockylinux.org/RLSA-2026:9638
     - https://github.com/pnggroup/libpng/commit/7734cda20cf1236aef60f3bbd2267c97bbb40869
     - https://github.com/pnggroup/libpng/commit/aba9f18eba870d14fb52c5ba5d73451349e339c3
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-wjr5-c57x-95m2
@@ -39800,13 +39803,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:8944
     - https://access.redhat.com/security/cve/CVE-2026-4426
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449010
     - https://github.com/libarchive/libarchive/pull/2897
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4426
     - https://www.cve.org/CVERecord?id=CVE-2026-4426
     PublishedDate: '2026-03-19T15:16:28.51Z'
-    LastModifiedDate: '2026-04-28T21:38:00.25Z'
+    LastModifiedDate: '2026-05-03T21:16:11.863Z'
   - VulnerabilityID: CVE-2026-5745
     PkgID: libarchive@3.5.3-9.el9_7.x86_64
     PkgName: libarchive
@@ -39834,12 +39838,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:8944
     - https://access.redhat.com/security/cve/CVE-2026-5745
     - https://bugzilla.redhat.com/show_bug.cgi?id=2455921
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5745
     - https://www.cve.org/CVERecord?id=CVE-2026-5745
     PublishedDate: '2026-04-07T16:16:32.307Z'
-    LastModifiedDate: '2026-04-28T20:18:38.933Z'
+    LastModifiedDate: '2026-05-03T15:15:58.543Z'
   - VulnerabilityID: CVE-2025-1632
     PkgID: libarchive@3.5.3-9.el9_7.x86_64
     PkgName: libarchive
@@ -42842,7 +42847,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:15699
+    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -43002,7 +43007,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/10/ALSA-2025-15699.html
+    - https://errata.almalinux.org/9/ALSA-2025-16046.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/advisories/GHSA-r9fv-h47r-823f
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
@@ -43964,7 +43969,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:15699
+    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -44124,7 +44129,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/10/ALSA-2025-15699.html
+    - https://errata.almalinux.org/9/ALSA-2025-16046.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/advisories/GHSA-r9fv-h47r-823f
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
@@ -44939,7 +44944,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       redhat: 2
@@ -45124,7 +45129,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       redhat: 2
@@ -45213,7 +45218,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -45311,7 +45316,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -45483,7 +45488,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -45565,7 +45570,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -45901,7 +45906,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       redhat: 2
@@ -46086,7 +46091,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       redhat: 2
@@ -46175,7 +46180,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -46273,7 +46278,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -46445,7 +46450,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -46527,7 +46532,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -46863,7 +46868,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       redhat: 2
@@ -47048,7 +47053,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       redhat: 2
@@ -47137,7 +47142,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -47235,7 +47240,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -47407,7 +47412,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -47489,7 +47494,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
