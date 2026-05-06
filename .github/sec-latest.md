@@ -3183,7 +3183,7 @@
 │                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-5734 
 │                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:8459 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:9638 
 │                       │      │                  ├ [14]: https://github.com/pnggroup/libpng/commit/23019269764
 │                       │      │                  │       e35ed8458e517f1897bd3c54820eb 
 │                       │      │                  ├ [15]: https://github.com/pnggroup/libpng/commit/7ea9eea884a
@@ -3268,7 +3268,7 @@
 │                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-5734 
 │                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:8459 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:9638 
 │                       │      │                  ├ [14]: https://github.com/pnggroup/libpng/commit/7734cda20cf
 │                       │      │                  │       1236aef60f3bbd2267c97bbb40869 
 │                       │      │                  ├ [15]: https://github.com/pnggroup/libpng/commit/aba9f18eba8
@@ -4213,7 +4213,8 @@
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
@@ -4228,7 +4229,7 @@
 │                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-27135 
 │                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2026-7896.html 
-│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:7668 
+│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:7666 
 │                       │      │                  ├ [11]: https://github.com/nghttp2/nghttp2/commit/5c7df8fa815
 │                       │      │                  │       ac1004d9ecb9d1f7595c4d37f46e1 
 │                       │      │                  ├ [12]: https://github.com/nghttp2/nghttp2/security/advisorie
@@ -4236,7 +4237,8 @@
 │                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2026-27135.html 
 │                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2026-8339.html 
 │                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2026-27135 
-│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2026-27135 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-8233-1 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2026-27135 
 │                       │      ├ PublishedDate   : 2026-03-18T18:16:26.723Z 
 │                       │      ╰ LastModifiedDate: 2026-03-23T17:51:17.017Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2026-31789 
