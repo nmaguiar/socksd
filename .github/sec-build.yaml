@@ -2263,6 +2263,7 @@
       photon: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -2278,12 +2279,13 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448754
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27135
     - https://errata.almalinux.org/9/ALSA-2026-7896.html
-    - https://errata.rockylinux.org/RLSA-2026:7668
+    - https://errata.rockylinux.org/RLSA-2026:7666
     - https://github.com/nghttp2/nghttp2/commit/5c7df8fa815ac1004d9ecb9d1f7595c4d37f46e1
     - https://github.com/nghttp2/nghttp2/security/advisories/GHSA-6933-cjhr-5qg6
     - https://linux.oracle.com/cve/CVE-2026-27135.html
     - https://linux.oracle.com/errata/ELSA-2026-8339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27135
+    - https://ubuntu.com/security/notices/USN-8233-1
     - https://www.cve.org/CVERecord?id=CVE-2026-27135
     PublishedDate: '2026-03-18T18:16:26.723Z'
     LastModifiedDate: '2026-03-23T17:51:17.017Z'
