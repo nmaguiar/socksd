@@ -179,58 +179,7 @@
 │                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/04/03/2 
 │                       │     ├ PublishedDate   : 2026-04-10T09:16:25.45Z 
 │                       │     ╰ LastModifiedDate: 2026-04-24T18:01:13.913Z 
-│                       ├ [4] ╭ VulnerabilityID : CVE-2026-22184 
-│                       │     ├ PkgID           : zlib@1.3.1-r2 
-│                       │     ├ PkgName         : zlib 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.24.0
-│                       │     │                  │       _alpha20260127 
-│                       │     │                  ╰ UID : c6f558cca1be2488 
-│                       │     ├ InstalledVersion: 1.3.1-r2 
-│                       │     ├ FixedVersion    : 1.3.2-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:0ef3a91c36726efab1269dd9c3abc8a440685bc969c07
-│                       │     │                  │         90d25a02b13fce6211c 
-│                       │     │                  ╰ DiffID: sha256:e59422f95c0cb1102cc1878ace1b679abc675b89621ce
-│                       │     │                            d12149eed6c33c73148 
-│                       │     ├ SeveritySource  : nvd 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22184 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:cfbe4f0077616cedb6da604982bfa6f1400b4c5003e815886c5ee2
-│                       │     │                   83dfe1bf26 
-│                       │     ├ Title           : zlib: zlib: Arbitrary code execution via buffer overflow in
-│                       │     │                   untgz utility 
-│                       │     ├ Description     : zlib versions up to and including 1.3.1.2 include a global
-│                       │     │                   buffer overflow in the untgz utility located under
-│                       │     │                   contrib/untgz. The vulnerability is limited to the standalone
-│                       │     │                    demonstration utility and does not affect the core zlib
-│                       │     │                   compression library. The flaw occurs when a user executes the
-│                       │     │                    untgz command with an excessively long archive name supplied
-│                       │     │                    via the command line, leading to an out-of-bounds write in a
-│                       │     │                    fixed-size global buffer. 
-│                       │     ├ Severity        : HIGH 
-│                       │     ├ CweIDs           ─ [0]: CWE-787 
-│                       │     ├ VendorSeverity   ╭ nvd   : 3 
-│                       │     │                  ╰ redhat: 3 
-│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
-│                       │     │                  │        │           A:H 
-│                       │     │                  │        ╰ V3Score : 7.8 
-│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
-│                       │     │                           │           A:H 
-│                       │     │                           ╰ V3Score : 8.6 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-22184 
-│                       │     │                  ├ [1]: https://github.com/madler/zlib 
-│                       │     │                  ├ [2]: https://github.com/madler/zlib/issues/1142 
-│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-22184 
-│                       │     │                  ├ [4]: https://seclists.org/fulldisclosure/2026/Jan/3 
-│                       │     │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2026-22184 
-│                       │     │                  ├ [6]: https://www.vulncheck.com/advisories/zlib-untgz-global-
-│                       │     │                  │      buffer-overflow-in-tgzfname 
-│                       │     │                  ╰ [7]: https://zlib.net/ 
-│                       │     ├ PublishedDate   : 2026-01-07T21:16:01.563Z 
-│                       │     ╰ LastModifiedDate: 2026-03-18T16:26:31.14Z 
-│                       ╰ [5] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ╰ [4] ╭ VulnerabilityID : CVE-2026-27171 
 │                             ├ PkgID           : zlib@1.3.1-r2 
 │                             ├ PkgName         : zlib 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.24.0
