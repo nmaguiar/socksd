@@ -117,7 +117,7 @@
 │                             │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
 │                             │                  │       6-27135 
 │                             │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2026-7896.html 
-│                             │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:7667 
+│                             │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:7668 
 │                             │                  ├ [11]: https://github.com/nghttp2/nghttp2/commit/5c7df8fa815a
 │                             │                  │       c1004d9ecb9d1f7595c4d37f46e1 
 │                             │                  ├ [12]: https://github.com/nghttp2/nghttp2/security/advisories
