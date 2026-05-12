@@ -789,7 +789,7 @@
 │                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-5734 
 │                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:9345 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:8459 
 │                       │      │                  ├ [14]: https://github.com/pnggroup/libpng/commit/23019269764
 │                       │      │                  │       e35ed8458e517f1897bd3c54820eb 
 │                       │      │                  ├ [15]: https://github.com/pnggroup/libpng/commit/7ea9eea884a
@@ -876,7 +876,7 @@
 │                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-5734 
 │                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:9345 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:8459 
 │                       │      │                  ├ [14]: https://github.com/pnggroup/libpng/commit/7734cda20cf
 │                       │      │                  │       1236aef60f3bbd2267c97bbb40869 
 │                       │      │                  ├ [15]: https://github.com/pnggroup/libpng/commit/aba9f18eba8
@@ -1842,7 +1842,7 @@
 │                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-27135 
 │                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2026-7896.html 
-│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:7667 
+│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:7668 
 │                       │      │                  ├ [11]: https://github.com/nghttp2/nghttp2/commit/5c7df8fa815
 │                       │      │                  │       ac1004d9ecb9d1f7595c4d37f46e1 
 │                       │      │                  ├ [12]: https://github.com/nghttp2/nghttp2/security/advisorie
