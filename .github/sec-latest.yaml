@@ -113,6 +113,7 @@
         V3Score: 5.8
     References:
     - https://access.redhat.com/security/cve/CVE-2026-31789
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
     - https://github.com/advisories/GHSA-j79m-9jxq-788r
     - https://github.com/openssl/openssl/commit/364f095b80601db632b0def6a33316967f863bde
     - https://github.com/openssl/openssl/commit/7a9087efd769f362ad9c0e30c7baaa6bbfa65ecf
@@ -125,7 +126,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-31789
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.617Z'
-    LastModifiedDate: '2026-05-10T21:16:28.84Z'
+    LastModifiedDate: '2026-05-12T13:17:34.57Z'
   - VulnerabilityID: CVE-2026-28387
     PkgID: libcrypto3@3.5.5-r0
     PkgName: libcrypto3
@@ -187,6 +188,8 @@
         V3Score: 3.7
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28387
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-265688.html
     - https://github.com/openssl/openssl/commit/07e727d304746edb49a98ee8f6ab00256e1f012b
     - https://github.com/openssl/openssl/commit/258a8f63b26995ba357f4326da00e19e29c6acbe
     - https://github.com/openssl/openssl/commit/444958deaf450aea819171f97ae69eaedede42c3
@@ -199,7 +202,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28387
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:20.7Z'
-    LastModifiedDate: '2026-05-10T21:16:28.503Z'
+    LastModifiedDate: '2026-05-12T13:17:33.27Z'
   - VulnerabilityID: CVE-2026-28388
     PkgID: libcrypto3@3.5.5-r0
     PkgName: libcrypto3
@@ -268,6 +271,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28388
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-265688.html
     - https://github.com/openssl/openssl/commit/59c3b3158553ab53275bbbccca5cb305d591cf2e
     - https://github.com/openssl/openssl/commit/5a0b4930779cd2408880979db765db919da55139
     - https://github.com/openssl/openssl/commit/602542f2c0c2d5edb47128f93eac10b62aeeefb3
@@ -280,7 +285,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28388
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:20.863Z'
-    LastModifiedDate: '2026-04-23T15:40:08.41Z'
+    LastModifiedDate: '2026-05-12T13:17:33.453Z'
   - VulnerabilityID: CVE-2026-28389
     PkgID: libcrypto3@3.5.5-r0
     PkgName: libcrypto3
@@ -342,6 +347,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28389
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-265688.html
     - https://github.com/advisories/GHSA-7x88-9hgc-69gf
     - https://github.com/openssl/openssl/commit/16cea4188e0ea567deb4f93f85902247e67384f5
     - https://github.com/openssl/openssl/commit/785cbf7ea3b5a6f5adf0c1ccb92b79d89c35c616
@@ -355,7 +362,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28389
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.03Z'
-    LastModifiedDate: '2026-04-23T15:40:00.107Z'
+    LastModifiedDate: '2026-05-12T13:17:33.637Z'
   - VulnerabilityID: CVE-2026-28390
     PkgID: libcrypto3@3.5.5-r0
     PkgName: libcrypto3
@@ -418,6 +425,8 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28390
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-265688.html
     - https://github.com/openssl/openssl/commit/01194a8f1941115cd0383bfa91c736dd3993c8bc
     - https://github.com/openssl/openssl/commit/2e39b7a6993be445fddb9fbce316fa756e0397b6
     - https://github.com/openssl/openssl/commit/af2a5fecd3e71a29e7568f9c1453dec5cebbaff4
@@ -430,7 +439,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28390
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.19Z'
-    LastModifiedDate: '2026-04-23T15:39:52.52Z'
+    LastModifiedDate: '2026-05-12T13:17:33.81Z'
   - VulnerabilityID: CVE-2026-2673
     PkgID: libcrypto3@3.5.5-r0
     PkgName: libcrypto3
@@ -521,6 +530,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/13/3
     - https://access.redhat.com/security/cve/CVE-2026-2673
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
     - https://github.com/advisories/GHSA-wj64-gh9j-xm82
     - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
     - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
@@ -529,7 +539,7 @@
     - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-03-17T18:16:15.6Z'
+    LastModifiedDate: '2026-05-12T13:17:34.043Z'
   - VulnerabilityID: CVE-2026-31790
     PkgID: libcrypto3@3.5.5-r0
     PkgName: libcrypto3
@@ -594,6 +604,7 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-31790
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
     - https://github.com/advisories/GHSA-vgxx-5xj5-q97x
     - https://github.com/openssl/openssl/commit/001e01db3e996e13ffc72386fe79d03a6683b5ac
     - https://github.com/openssl/openssl/commit/abd8b2eec7e3f3fda60ecfb68498b246b52af482
@@ -606,7 +617,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-31790
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.77Z'
-    LastModifiedDate: '2026-04-23T15:39:44.033Z'
+    LastModifiedDate: '2026-05-12T13:17:34.75Z'
   - VulnerabilityID: CVE-2026-33416
     PkgID: libpng@1.6.55-r0
     PkgName: libpng
@@ -840,6 +851,7 @@
         V3Score: 5.8
     References:
     - https://access.redhat.com/security/cve/CVE-2026-31789
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
     - https://github.com/advisories/GHSA-j79m-9jxq-788r
     - https://github.com/openssl/openssl/commit/364f095b80601db632b0def6a33316967f863bde
     - https://github.com/openssl/openssl/commit/7a9087efd769f362ad9c0e30c7baaa6bbfa65ecf
@@ -852,7 +864,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-31789
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.617Z'
-    LastModifiedDate: '2026-05-10T21:16:28.84Z'
+    LastModifiedDate: '2026-05-12T13:17:34.57Z'
   - VulnerabilityID: CVE-2026-28387
     PkgID: libssl3@3.5.5-r0
     PkgName: libssl3
@@ -914,6 +926,8 @@
         V3Score: 3.7
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28387
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-265688.html
     - https://github.com/openssl/openssl/commit/07e727d304746edb49a98ee8f6ab00256e1f012b
     - https://github.com/openssl/openssl/commit/258a8f63b26995ba357f4326da00e19e29c6acbe
     - https://github.com/openssl/openssl/commit/444958deaf450aea819171f97ae69eaedede42c3
@@ -926,7 +940,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28387
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:20.7Z'
-    LastModifiedDate: '2026-05-10T21:16:28.503Z'
+    LastModifiedDate: '2026-05-12T13:17:33.27Z'
   - VulnerabilityID: CVE-2026-28388
     PkgID: libssl3@3.5.5-r0
     PkgName: libssl3
@@ -995,6 +1009,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28388
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-265688.html
     - https://github.com/openssl/openssl/commit/59c3b3158553ab53275bbbccca5cb305d591cf2e
     - https://github.com/openssl/openssl/commit/5a0b4930779cd2408880979db765db919da55139
     - https://github.com/openssl/openssl/commit/602542f2c0c2d5edb47128f93eac10b62aeeefb3
@@ -1007,7 +1023,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28388
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:20.863Z'
-    LastModifiedDate: '2026-04-23T15:40:08.41Z'
+    LastModifiedDate: '2026-05-12T13:17:33.453Z'
   - VulnerabilityID: CVE-2026-28389
     PkgID: libssl3@3.5.5-r0
     PkgName: libssl3
@@ -1069,6 +1085,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28389
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-265688.html
     - https://github.com/advisories/GHSA-7x88-9hgc-69gf
     - https://github.com/openssl/openssl/commit/16cea4188e0ea567deb4f93f85902247e67384f5
     - https://github.com/openssl/openssl/commit/785cbf7ea3b5a6f5adf0c1ccb92b79d89c35c616
@@ -1082,7 +1100,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28389
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.03Z'
-    LastModifiedDate: '2026-04-23T15:40:00.107Z'
+    LastModifiedDate: '2026-05-12T13:17:33.637Z'
   - VulnerabilityID: CVE-2026-28390
     PkgID: libssl3@3.5.5-r0
     PkgName: libssl3
@@ -1145,6 +1163,8 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28390
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-265688.html
     - https://github.com/openssl/openssl/commit/01194a8f1941115cd0383bfa91c736dd3993c8bc
     - https://github.com/openssl/openssl/commit/2e39b7a6993be445fddb9fbce316fa756e0397b6
     - https://github.com/openssl/openssl/commit/af2a5fecd3e71a29e7568f9c1453dec5cebbaff4
@@ -1157,7 +1177,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28390
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.19Z'
-    LastModifiedDate: '2026-04-23T15:39:52.52Z'
+    LastModifiedDate: '2026-05-12T13:17:33.81Z'
   - VulnerabilityID: CVE-2026-2673
     PkgID: libssl3@3.5.5-r0
     PkgName: libssl3
@@ -1248,6 +1268,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/13/3
     - https://access.redhat.com/security/cve/CVE-2026-2673
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
     - https://github.com/advisories/GHSA-wj64-gh9j-xm82
     - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
     - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
@@ -1256,7 +1277,7 @@
     - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-03-17T18:16:15.6Z'
+    LastModifiedDate: '2026-05-12T13:17:34.043Z'
   - VulnerabilityID: CVE-2026-31790
     PkgID: libssl3@3.5.5-r0
     PkgName: libssl3
@@ -1321,6 +1342,7 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-31790
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
     - https://github.com/advisories/GHSA-vgxx-5xj5-q97x
     - https://github.com/openssl/openssl/commit/001e01db3e996e13ffc72386fe79d03a6683b5ac
     - https://github.com/openssl/openssl/commit/abd8b2eec7e3f3fda60ecfb68498b246b52af482
@@ -1333,7 +1355,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-31790
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.77Z'
-    LastModifiedDate: '2026-04-23T15:39:44.033Z'
+    LastModifiedDate: '2026-05-12T13:17:34.75Z'
   - VulnerabilityID: CVE-2026-40200
     PkgID: musl@1.2.5-r21
     PkgName: musl
@@ -1613,6 +1635,7 @@
         V3Score: 5.8
     References:
     - https://access.redhat.com/security/cve/CVE-2026-31789
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
     - https://github.com/advisories/GHSA-j79m-9jxq-788r
     - https://github.com/openssl/openssl/commit/364f095b80601db632b0def6a33316967f863bde
     - https://github.com/openssl/openssl/commit/7a9087efd769f362ad9c0e30c7baaa6bbfa65ecf
@@ -1625,7 +1648,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-31789
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.617Z'
-    LastModifiedDate: '2026-05-10T21:16:28.84Z'
+    LastModifiedDate: '2026-05-12T13:17:34.57Z'
   - VulnerabilityID: CVE-2026-28387
     PkgID: openssl@3.5.5-r0
     PkgName: openssl
@@ -1687,6 +1710,8 @@
         V3Score: 3.7
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28387
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-265688.html
     - https://github.com/openssl/openssl/commit/07e727d304746edb49a98ee8f6ab00256e1f012b
     - https://github.com/openssl/openssl/commit/258a8f63b26995ba357f4326da00e19e29c6acbe
     - https://github.com/openssl/openssl/commit/444958deaf450aea819171f97ae69eaedede42c3
@@ -1699,7 +1724,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28387
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:20.7Z'
-    LastModifiedDate: '2026-05-10T21:16:28.503Z'
+    LastModifiedDate: '2026-05-12T13:17:33.27Z'
   - VulnerabilityID: CVE-2026-28388
     PkgID: openssl@3.5.5-r0
     PkgName: openssl
@@ -1768,6 +1793,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28388
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-265688.html
     - https://github.com/openssl/openssl/commit/59c3b3158553ab53275bbbccca5cb305d591cf2e
     - https://github.com/openssl/openssl/commit/5a0b4930779cd2408880979db765db919da55139
     - https://github.com/openssl/openssl/commit/602542f2c0c2d5edb47128f93eac10b62aeeefb3
@@ -1780,7 +1807,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28388
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:20.863Z'
-    LastModifiedDate: '2026-04-23T15:40:08.41Z'
+    LastModifiedDate: '2026-05-12T13:17:33.453Z'
   - VulnerabilityID: CVE-2026-28389
     PkgID: openssl@3.5.5-r0
     PkgName: openssl
@@ -1842,6 +1869,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28389
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-265688.html
     - https://github.com/advisories/GHSA-7x88-9hgc-69gf
     - https://github.com/openssl/openssl/commit/16cea4188e0ea567deb4f93f85902247e67384f5
     - https://github.com/openssl/openssl/commit/785cbf7ea3b5a6f5adf0c1ccb92b79d89c35c616
@@ -1855,7 +1884,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28389
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.03Z'
-    LastModifiedDate: '2026-04-23T15:40:00.107Z'
+    LastModifiedDate: '2026-05-12T13:17:33.637Z'
   - VulnerabilityID: CVE-2026-28390
     PkgID: openssl@3.5.5-r0
     PkgName: openssl
@@ -1918,6 +1947,8 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28390
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-265688.html
     - https://github.com/openssl/openssl/commit/01194a8f1941115cd0383bfa91c736dd3993c8bc
     - https://github.com/openssl/openssl/commit/2e39b7a6993be445fddb9fbce316fa756e0397b6
     - https://github.com/openssl/openssl/commit/af2a5fecd3e71a29e7568f9c1453dec5cebbaff4
@@ -1930,7 +1961,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28390
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.19Z'
-    LastModifiedDate: '2026-04-23T15:39:52.52Z'
+    LastModifiedDate: '2026-05-12T13:17:33.81Z'
   - VulnerabilityID: CVE-2026-2673
     PkgID: openssl@3.5.5-r0
     PkgName: openssl
@@ -2021,6 +2052,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/13/3
     - https://access.redhat.com/security/cve/CVE-2026-2673
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
     - https://github.com/advisories/GHSA-wj64-gh9j-xm82
     - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
     - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
@@ -2029,7 +2061,7 @@
     - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-03-17T18:16:15.6Z'
+    LastModifiedDate: '2026-05-12T13:17:34.043Z'
   - VulnerabilityID: CVE-2026-31790
     PkgID: openssl@3.5.5-r0
     PkgName: openssl
@@ -2094,6 +2126,7 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-31790
+    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
     - https://github.com/advisories/GHSA-vgxx-5xj5-q97x
     - https://github.com/openssl/openssl/commit/001e01db3e996e13ffc72386fe79d03a6683b5ac
     - https://github.com/openssl/openssl/commit/abd8b2eec7e3f3fda60ecfb68498b246b52af482
@@ -2106,7 +2139,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-31790
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.77Z'
-    LastModifiedDate: '2026-04-23T15:39:44.033Z'
+    LastModifiedDate: '2026-05-12T13:17:34.75Z'
   - VulnerabilityID: CVE-2026-22184
     PkgID: zlib@1.3.1-r2
     PkgName: zlib
