@@ -411,7 +411,7 @@
 │                       │       │                  ├ [13]: https://www.kb.cert.org/vuls/id/550620 
 │                       │       │                  ╰ [14]: https://www.secfu.net/advisories 
 │                       │       ├ PublishedDate   : 2017-05-01T01:59:00.297Z 
-│                       │       ╰ LastModifiedDate: 2025-12-03T22:15:49.323Z 
+│                       │       ╰ LastModifiedDate: 2026-05-13T00:24:29.033Z 
 │                       ├ [8]   ╭ VulnerabilityID : CVE-2025-5278 
 │                       │       ├ PkgID           : coreutils-single@8.32-39.el9.x86_64 
 │                       │       ├ PkgName         : coreutils-single 
@@ -1139,7 +1139,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 1 
 │                       │       │                  ├ julia      : 3 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
@@ -2638,11 +2638,13 @@
 │                       │       │                           ╰ V3Score : 2.9 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/12/02/1 
 │                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-66382 
-│                       │       │                  ├ [2]: https://github.com/libexpat/libexpat/issues/1076 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-66382 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
+│                       │       │                  ├ [2]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                       │       │                  │      082556.html 
+│                       │       │                  ├ [3]: https://github.com/libexpat/libexpat/issues/1076 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-66382 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
 │                       │       ├ PublishedDate   : 2025-11-28T07:15:57.9Z 
-│                       │       ╰ LastModifiedDate: 2025-12-19T16:05:03.557Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:23.933Z 
 │                       ├ [43]  ╭ VulnerabilityID : CVE-2026-24515 
 │                       │       ├ PkgID           : expat@2.5.0-5.el9_7.1.x86_64 
 │                       │       ├ PkgName         : expat 
@@ -2883,11 +2885,13 @@
 │                       │       │                   maliciously crafted input strings. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ VendorSeverity   ╭ amazon     : 3 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ julia      : 2 
 │                       │       │                  ├ nvd        : 4 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 4 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 2 
@@ -2905,17 +2909,22 @@
 │                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:15971 
 │                       │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:7461 
 │                       │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2025-14087 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2419093 
-│                       │       │                  ├ [6] : https://github.com/advisories/GHSA-frh9-7wfp-w73p 
-│                       │       │                  ├ [7] : https://gitlab.gnome.org/GNOME/glib/-/issues/3834 
-│                       │       │                  ├ [8] : https://gitlab.gnome.org/GNOME/glib/-/merge_requests
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2419093 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2421339 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2419093 
+│                       │       │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-15971.html 
+│                       │       │                  ├ [9] : https://github.com/advisories/GHSA-frh9-7wfp-w73p 
+│                       │       │                  ├ [10]: https://gitlab.gnome.org/GNOME/glib/-/issues/3834 
+│                       │       │                  ├ [11]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests
 │                       │       │                  │       /4933 
-│                       │       │                  ├ [9] : https://gitlab.gnome.org/GNOME/glib/-/merge_requests
+│                       │       │                  ├ [12]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests
 │                       │       │                  │       /4934 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-14087 
-│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7942-1 
-│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7942-2 
-│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-14087 
+│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-14087.html 
+│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2026-15971.html 
+│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-14087 
+│                       │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-7942-1 
+│                       │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-7942-2 
+│                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-14087 
 │                       │       ├ PublishedDate   : 2025-12-10T09:15:47.053Z 
 │                       │       ╰ LastModifiedDate: 2026-05-11T23:17:17.797Z 
 │                       ├ [48]  ╭ VulnerabilityID : CVE-2025-14512 
@@ -2945,9 +2954,11 @@
 │                       │       │                   file or remote filesystem attribute values. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ VendorSeverity   ╭ azure      : 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ julia      : 2 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 2 
@@ -2962,15 +2973,20 @@
 │                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:15971 
 │                       │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:7461 
 │                       │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2025-14512 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2421339 
-│                       │       │                  ├ [6] : https://github.com/advisories/GHSA-2p5v-p767-wqv5 
-│                       │       │                  ├ [7] : https://gitlab.gnome.org/GNOME/glib/-/issues/3845 
-│                       │       │                  ├ [8] : https://gitlab.gnome.org/GNOME/glib/-/merge_requests
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2419093 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2421339 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2421339 
+│                       │       │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-15971.html 
+│                       │       │                  ├ [9] : https://github.com/advisories/GHSA-2p5v-p767-wqv5 
+│                       │       │                  ├ [10]: https://gitlab.gnome.org/GNOME/glib/-/issues/3845 
+│                       │       │                  ├ [11]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests
 │                       │       │                  │       /4935 
-│                       │       │                  ├ [9] : https://gitlab.gnome.org/GNOME/glib/-/merge_requests
+│                       │       │                  ├ [12]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests
 │                       │       │                  │       /4936 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-14512 
-│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-14512 
+│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-14512.html 
+│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2026-15971.html 
+│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-14512 
+│                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-14512 
 │                       │       ├ PublishedDate   : 2025-12-11T07:16:00.463Z 
 │                       │       ╰ LastModifiedDate: 2026-05-11T23:17:18.027Z 
 │                       ├ [49]  ╭ VulnerabilityID : CVE-2026-1484 
@@ -4631,41 +4647,44 @@
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:13812 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:3477 
-│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:4188 
-│                       │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:4655 
-│                       │       │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:4943 
-│                       │       │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:5585 
-│                       │       │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:5606 
-│                       │       │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:6618 
-│                       │       │                  ├ [8] : https://access.redhat.com/errata/RHSA-2026:6630 
-│                       │       │                  ├ [9] : https://access.redhat.com/errata/RHSA-2026:6737 
-│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2026:6738 
-│                       │       │                  ├ [11]: https://access.redhat.com/errata/RHSA-2026:7329 
-│                       │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2026:7335 
-│                       │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2026:7477 
-│                       │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2026:8746 
-│                       │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2026:8747 
-│                       │       │                  ├ [16]: https://access.redhat.com/errata/RHSA-2026:8748 
-│                       │       │                  ├ [17]: https://access.redhat.com/security/cve/CVE-2025-14831 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/2392528 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/2423177 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2392528 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2423177 
-│                       │       │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:16174 
+│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:3477 
+│                       │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:4188 
+│                       │       │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:4655 
+│                       │       │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:4943 
+│                       │       │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:5585 
+│                       │       │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:5606 
+│                       │       │                  ├ [8] : https://access.redhat.com/errata/RHSA-2026:6618 
+│                       │       │                  ├ [9] : https://access.redhat.com/errata/RHSA-2026:6630 
+│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2026:6737 
+│                       │       │                  ├ [11]: https://access.redhat.com/errata/RHSA-2026:6738 
+│                       │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2026:7329 
+│                       │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2026:7335 
+│                       │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2026:7477 
+│                       │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2026:8746 
+│                       │       │                  ├ [16]: https://access.redhat.com/errata/RHSA-2026:8747 
+│                       │       │                  ├ [17]: https://access.redhat.com/errata/RHSA-2026:8748 
+│                       │       │                  ├ [18]: https://access.redhat.com/security/cve/CVE-2025-14831 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/2392528 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/2423177 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2392528 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2423177 
+│                       │       │                  ├ [23]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-14831 
-│                       │       │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-9820 
-│                       │       │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2026-4188.html 
-│                       │       │                  ├ [25]: https://errata.rockylinux.org/RLSA-2026:4188 
-│                       │       │                  ├ [26]: https://gitlab.com/gnutls/gnutls/-/issues/1773 
-│                       │       │                  ├ [27]: https://linux.oracle.com/cve/CVE-2025-14831.html 
-│                       │       │                  ├ [28]: https://linux.oracle.com/errata/ELSA-2026-5585.html 
-│                       │       │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2025-14831 
-│                       │       │                  ├ [30]: https://ubuntu.com/security/notices/USN-8043-1 
-│                       │       │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-14831 
+│                       │       │                  ├ [26]: https://errata.almalinux.org/9/ALSA-2026-4188.html 
+│                       │       │                  ├ [27]: https://errata.rockylinux.org/RLSA-2026:4188 
+│                       │       │                  ├ [28]: https://gitlab.com/gnutls/gnutls/-/issues/1773 
+│                       │       │                  ├ [29]: https://linux.oracle.com/cve/CVE-2025-14831.html 
+│                       │       │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2026-5585.html 
+│                       │       │                  ├ [31]: https://nvd.nist.gov/vuln/detail/CVE-2025-14831 
+│                       │       │                  ├ [32]: https://ubuntu.com/security/notices/USN-8043-1 
+│                       │       │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2025-14831 
 │                       │       ├ PublishedDate   : 2026-02-09T15:16:09.937Z 
-│                       │       ╰ LastModifiedDate: 2026-05-05T18:16:00.41Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:16:29.723Z 
 │                       ├ [85]  ╭ VulnerabilityID : CVE-2026-3833 
 │                       │       ├ PkgID           : gnutls@3.8.3-9.el9.x86_64 
 │                       │       ├ PkgName         : gnutls 
@@ -4809,24 +4828,26 @@
 │                       │       │                  ├ [12]: https://bugzilla.redhat.com/2423177 
 │                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2392528 
 │                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2423177 
-│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-14831 
+│                       │       │                  ├ [15]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
 │                       │       │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       025-14831 
+│                       │       │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-9820 
-│                       │       │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-4188.html 
-│                       │       │                  ├ [18]: https://errata.rockylinux.org/RLSA-2026:4188 
-│                       │       │                  ├ [19]: https://gitlab.com/gnutls/gnutls/-/commit/1d56f96f6a
+│                       │       │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-4188.html 
+│                       │       │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:4188 
+│                       │       │                  ├ [20]: https://gitlab.com/gnutls/gnutls/-/commit/1d56f96f6a
 │                       │       │                  │       b5034d677136b9d50b5a75dff0faf5 
-│                       │       │                  ├ [20]: https://gitlab.com/gnutls/gnutls/-/issues/1732 
-│                       │       │                  ├ [21]: https://linux.oracle.com/cve/CVE-2025-9820.html 
-│                       │       │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2026-5585.html 
-│                       │       │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2025-9820 
-│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-8043-1 
-│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2025-9820 
-│                       │       │                  ╰ [26]: https://www.gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │       │                  ├ [21]: https://gitlab.com/gnutls/gnutls/-/issues/1732 
+│                       │       │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-9820.html 
+│                       │       │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2026-5585.html 
+│                       │       │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-9820 
+│                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-8043-1 
+│                       │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2025-9820 
+│                       │       │                  ╰ [27]: https://www.gnutls.org/security-new.html#GNUTLS-SA-2
 │                       │       │                          025-11-18 
 │                       │       ├ PublishedDate   : 2026-01-26T20:16:09.37Z 
-│                       │       ╰ LastModifiedDate: 2026-05-05T19:16:21.023Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:30.487Z 
 │                       ├ [88]  ╭ VulnerabilityID : CVE-2026-3832 
 │                       │       ├ PkgID           : gnutls@3.8.3-9.el9.x86_64 
 │                       │       ├ PkgName         : gnutls 
@@ -4900,7 +4921,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 3 
 │                       │       │                  ├ cbl-mariner: 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -5161,35 +5182,37 @@
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2429924 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2429926 
 │                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2429927 
-│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-64720 
+│                       │       │                  ├ [7] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
 │                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-65018 
+│                       │       │                  │       025-64720 
 │                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-21925 
+│                       │       │                  │       025-65018 
 │                       │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-21933 
+│                       │       │                  │       026-21925 
 │                       │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-21933 
+│                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-21945 
-│                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-0933.html 
-│                       │       │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0933 
-│                       │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-21945.html 
-│                       │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-0932.html 
-│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-21945 
-│                       │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-7995-1 
-│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-7996-1 
-│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-7997-1 
-│                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-7998-1 
-│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-8000-1 
-│                       │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-8001-1 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-8002-1 
-│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-8003-1 
-│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2026-21945 
-│                       │       │                  ├ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
-│                       │       │                  ╰ [27]: https://www.oracle.com/security-alerts/cpujan2026.ht
+│                       │       │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2026-0933.html 
+│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2026:0933 
+│                       │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2026-21945.html 
+│                       │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2026-0932.html 
+│                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-21945 
+│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-7995-1 
+│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-7996-1 
+│                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-7997-1 
+│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-7998-1 
+│                       │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-8000-1 
+│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-8001-1 
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-8002-1 
+│                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-8003-1 
+│                       │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2026-21945 
+│                       │       │                  ├ [27]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │       │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujan2026.ht
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:57.39Z 
-│                       │       ╰ LastModifiedDate: 2026-01-30T16:03:26.53Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:31.613Z 
 │                       ├ [93]  ╭ VulnerabilityID : CVE-2026-22016 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:9689 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.9.0.10-2.el9.x86_64 
@@ -5600,7 +5623,7 @@
 │                       │       │                   patched in version 1.6.51. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ amazon     : 3 
+│                       │       ├ VendorSeverity   ╭ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ photon     : 2 
@@ -5747,35 +5770,37 @@
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2429924 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2429926 
 │                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2429927 
-│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-64720 
+│                       │       │                  ├ [7] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
 │                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-65018 
+│                       │       │                  │       025-64720 
 │                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-21925 
+│                       │       │                  │       025-65018 
 │                       │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-21933 
+│                       │       │                  │       026-21925 
 │                       │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-21933 
+│                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-21945 
-│                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-0933.html 
-│                       │       │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0933 
-│                       │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-21925.html 
-│                       │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-0932.html 
-│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-21925 
-│                       │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-7995-1 
-│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-7996-1 
-│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-7997-1 
-│                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-7998-1 
-│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-8000-1 
-│                       │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-8001-1 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-8002-1 
-│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-8003-1 
-│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2026-21925 
-│                       │       │                  ├ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
-│                       │       │                  ╰ [27]: https://www.oracle.com/security-alerts/cpujan2026.ht
+│                       │       │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2026-0933.html 
+│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2026:0933 
+│                       │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2026-21925.html 
+│                       │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2026-0932.html 
+│                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-21925 
+│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-7995-1 
+│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-7996-1 
+│                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-7997-1 
+│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-7998-1 
+│                       │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-8000-1 
+│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-8001-1 
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-8002-1 
+│                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-8003-1 
+│                       │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2026-21925 
+│                       │       │                  ├ [27]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │       │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujan2026.ht
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:54.917Z 
-│                       │       ╰ LastModifiedDate: 2026-01-30T16:11:07.073Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:31.18Z 
 │                       ├ [102] ╭ VulnerabilityID : CVE-2026-21933 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:0928 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.9.0.10-2.el9.x86_64 
@@ -5849,35 +5874,37 @@
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2429924 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2429926 
 │                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2429927 
-│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-64720 
+│                       │       │                  ├ [7] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
 │                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-65018 
+│                       │       │                  │       025-64720 
 │                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-21925 
+│                       │       │                  │       025-65018 
 │                       │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-21933 
+│                       │       │                  │       026-21925 
 │                       │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-21933 
+│                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-21945 
-│                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-0933.html 
-│                       │       │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:0933 
-│                       │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-21933.html 
-│                       │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-0932.html 
-│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-21933 
-│                       │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-7995-1 
-│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-7996-1 
-│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-7997-1 
-│                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-7998-1 
-│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-8000-1 
-│                       │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-8001-1 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-8002-1 
-│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-8003-1 
-│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2026-21933 
-│                       │       │                  ├ [26]: https://www.oracle.com/security-alerts/cpujan2026.html 
-│                       │       │                  ╰ [27]: https://www.oracle.com/security-alerts/cpujan2026.ht
+│                       │       │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2026-0933.html 
+│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2026:0933 
+│                       │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2026-21933.html 
+│                       │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2026-0932.html 
+│                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-21933 
+│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-7995-1 
+│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-7996-1 
+│                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-7997-1 
+│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-7998-1 
+│                       │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-8000-1 
+│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-8001-1 
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-8002-1 
+│                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-8003-1 
+│                       │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2026-21933 
+│                       │       │                  ├ [27]: https://www.oracle.com/security-alerts/cpujan2026.html 
+│                       │       │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujan2026.ht
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:55.917Z 
-│                       │       ╰ LastModifiedDate: 2026-01-30T16:07:09.417Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:31.473Z 
 │                       ├ [103] ╭ VulnerabilityID : CVE-2026-22013 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:9689 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.9.0.10-2.el9.x86_64 
@@ -7109,37 +7136,38 @@
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:10065 
 │                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:10081 
 │                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:10097 
-│                       │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:5063 
-│                       │       │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:5080 
-│                       │       │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:6647 
-│                       │       │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:7093 
-│                       │       │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:7105 
-│                       │       │                  ├ [8] : https://access.redhat.com/errata/RHSA-2026:7106 
-│                       │       │                  ├ [9] : https://access.redhat.com/errata/RHSA-2026:7239 
-│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2026:7329 
-│                       │       │                  ├ [11]: https://access.redhat.com/errata/RHSA-2026:7335 
-│                       │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2026:8423 
-│                       │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2026:8746 
-│                       │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2026:8747 
-│                       │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2026:8748 
-│                       │       │                  ├ [16]: https://access.redhat.com/errata/RHSA-2026:8865 
-│                       │       │                  ├ [17]: https://access.redhat.com/errata/RHSA-2026:8944 
-│                       │       │                  ├ [18]: https://access.redhat.com/errata/RHSA-2026:9832 
-│                       │       │                  ├ [19]: https://access.redhat.com/security/cve/CVE-2026-4111 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/2446453 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2446453 
-│                       │       │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:16174 
+│                       │       │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:5063 
+│                       │       │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:5080 
+│                       │       │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:6647 
+│                       │       │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:7093 
+│                       │       │                  ├ [8] : https://access.redhat.com/errata/RHSA-2026:7105 
+│                       │       │                  ├ [9] : https://access.redhat.com/errata/RHSA-2026:7106 
+│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2026:7239 
+│                       │       │                  ├ [11]: https://access.redhat.com/errata/RHSA-2026:7329 
+│                       │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2026:7335 
+│                       │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2026:8423 
+│                       │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2026:8746 
+│                       │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2026:8747 
+│                       │       │                  ├ [16]: https://access.redhat.com/errata/RHSA-2026:8748 
+│                       │       │                  ├ [17]: https://access.redhat.com/errata/RHSA-2026:8865 
+│                       │       │                  ├ [18]: https://access.redhat.com/errata/RHSA-2026:8944 
+│                       │       │                  ├ [19]: https://access.redhat.com/errata/RHSA-2026:9832 
+│                       │       │                  ├ [20]: https://access.redhat.com/security/cve/CVE-2026-4111 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/2446453 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2446453 
+│                       │       │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4111 
-│                       │       │                  ├ [23]: https://errata.almalinux.org/9/ALSA-2026-5080.html 
-│                       │       │                  ├ [24]: https://errata.rockylinux.org/RLSA-2026:5080 
-│                       │       │                  ├ [25]: https://github.com/libarchive/libarchive/pull/2877 
-│                       │       │                  ├ [26]: https://linux.oracle.com/cve/CVE-2026-4111.html 
-│                       │       │                  ├ [27]: https://linux.oracle.com/errata/ELSA-2026-5080.html 
-│                       │       │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2026-4111 
-│                       │       │                  ├ [29]: https://ubuntu.com/security/notices/USN-8147-1 
-│                       │       │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2026-4111 
+│                       │       │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2026-5080.html 
+│                       │       │                  ├ [25]: https://errata.rockylinux.org/RLSA-2026:5080 
+│                       │       │                  ├ [26]: https://github.com/libarchive/libarchive/pull/2877 
+│                       │       │                  ├ [27]: https://linux.oracle.com/cve/CVE-2026-4111.html 
+│                       │       │                  ├ [28]: https://linux.oracle.com/errata/ELSA-2026-5080.html 
+│                       │       │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2026-4111 
+│                       │       │                  ├ [30]: https://ubuntu.com/security/notices/USN-8147-1 
+│                       │       │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2026-4111 
 │                       │       ├ PublishedDate   : 2026-03-13T19:55:13.917Z 
-│                       │       ╰ LastModifiedDate: 2026-04-30T13:16:03.36Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T10:16:46.7Z 
 │                       ├ [120] ╭ VulnerabilityID : CVE-2026-4424 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:8510 
 │                       │       ├ PkgID           : libarchive@3.5.3-6.el9_6.x86_64 
@@ -7187,39 +7215,40 @@
 │                       │       │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:12274 
 │                       │       │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:13812 
 │                       │       │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:14937 
-│                       │       │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:8492 
-│                       │       │                  ├ [8] : https://access.redhat.com/errata/RHSA-2026:8510 
-│                       │       │                  ├ [9] : https://access.redhat.com/errata/RHSA-2026:8517 
-│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2026:8521 
-│                       │       │                  ├ [11]: https://access.redhat.com/errata/RHSA-2026:8534 
-│                       │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2026:8864 
-│                       │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2026:8865 
-│                       │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2026:8866 
-│                       │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2026:8867 
-│                       │       │                  ├ [16]: https://access.redhat.com/errata/RHSA-2026:8873 
-│                       │       │                  ├ [17]: https://access.redhat.com/errata/RHSA-2026:8908 
-│                       │       │                  ├ [18]: https://access.redhat.com/errata/RHSA-2026:8944 
-│                       │       │                  ├ [19]: https://access.redhat.com/errata/RHSA-2026:9026 
-│                       │       │                  ├ [20]: https://access.redhat.com/errata/RHSA-2026:9592 
-│                       │       │                  ├ [21]: https://access.redhat.com/errata/RHSA-2026:9832 
-│                       │       │                  ├ [22]: https://access.redhat.com/security/cve/CVE-2026-4424 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/2449006 
-│                       │       │                  ├ [24]: https://bugzilla.redhat.com/2452945 
-│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2449006 
-│                       │       │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2452945 
-│                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4424 
+│                       │       │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:16174 
+│                       │       │                  ├ [8] : https://access.redhat.com/errata/RHSA-2026:8492 
+│                       │       │                  ├ [9] : https://access.redhat.com/errata/RHSA-2026:8510 
+│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2026:8517 
+│                       │       │                  ├ [11]: https://access.redhat.com/errata/RHSA-2026:8521 
+│                       │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2026:8534 
+│                       │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2026:8864 
+│                       │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2026:8865 
+│                       │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2026:8866 
+│                       │       │                  ├ [16]: https://access.redhat.com/errata/RHSA-2026:8867 
+│                       │       │                  ├ [17]: https://access.redhat.com/errata/RHSA-2026:8873 
+│                       │       │                  ├ [18]: https://access.redhat.com/errata/RHSA-2026:8908 
+│                       │       │                  ├ [19]: https://access.redhat.com/errata/RHSA-2026:8944 
+│                       │       │                  ├ [20]: https://access.redhat.com/errata/RHSA-2026:9026 
+│                       │       │                  ├ [21]: https://access.redhat.com/errata/RHSA-2026:9592 
+│                       │       │                  ├ [22]: https://access.redhat.com/errata/RHSA-2026:9832 
+│                       │       │                  ├ [23]: https://access.redhat.com/security/cve/CVE-2026-4424 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/2449006 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/2452945 
+│                       │       │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2449006 
+│                       │       │                  ├ [27]: https://bugzilla.redhat.com/show_bug.cgi?id=2452945 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4424 
+│                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-5121 
-│                       │       │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-8510.html 
-│                       │       │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:8510 
-│                       │       │                  ├ [31]: https://github.com/libarchive/libarchive/pull/2898 
-│                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-4424.html 
-│                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-8534.html 
-│                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-4424 
-│                       │       │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2026-4424 
+│                       │       │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-8510.html 
+│                       │       │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:8510 
+│                       │       │                  ├ [32]: https://github.com/libarchive/libarchive/pull/2898 
+│                       │       │                  ├ [33]: https://linux.oracle.com/cve/CVE-2026-4424.html 
+│                       │       │                  ├ [34]: https://linux.oracle.com/errata/ELSA-2026-8534.html 
+│                       │       │                  ├ [35]: https://nvd.nist.gov/vuln/detail/CVE-2026-4424 
+│                       │       │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2026-4424 
 │                       │       ├ PublishedDate   : 2026-03-19T15:16:28.3Z 
-│                       │       ╰ LastModifiedDate: 2026-05-11T10:16:14.187Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T10:16:46.96Z 
 │                       ├ [121] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │       ├ PkgID           : libarchive@3.5.3-6.el9_6.x86_64 
 │                       │       ├ PkgName         : libarchive 
@@ -7397,38 +7426,39 @@
 │                       │       │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:12274 
 │                       │       │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:13812 
 │                       │       │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:14937 
-│                       │       │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:8510 
-│                       │       │                  ├ [8] : https://access.redhat.com/errata/RHSA-2026:8517 
-│                       │       │                  ├ [9] : https://access.redhat.com/errata/RHSA-2026:8521 
-│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2026:8534 
-│                       │       │                  ├ [11]: https://access.redhat.com/errata/RHSA-2026:8864 
-│                       │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2026:8866 
-│                       │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2026:8867 
-│                       │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2026:8873 
-│                       │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2026:8908 
-│                       │       │                  ├ [16]: https://access.redhat.com/errata/RHSA-2026:8944 
-│                       │       │                  ├ [17]: https://access.redhat.com/errata/RHSA-2026:9026 
-│                       │       │                  ├ [18]: https://access.redhat.com/errata/RHSA-2026:9592 
-│                       │       │                  ├ [19]: https://access.redhat.com/errata/RHSA-2026:9832 
-│                       │       │                  ├ [20]: https://access.redhat.com/security/cve/CVE-2026-5121 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/2449006 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/2452945 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2449006 
-│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2452945 
-│                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4424 
+│                       │       │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:16174 
+│                       │       │                  ├ [8] : https://access.redhat.com/errata/RHSA-2026:8510 
+│                       │       │                  ├ [9] : https://access.redhat.com/errata/RHSA-2026:8517 
+│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2026:8521 
+│                       │       │                  ├ [11]: https://access.redhat.com/errata/RHSA-2026:8534 
+│                       │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2026:8864 
+│                       │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2026:8866 
+│                       │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2026:8867 
+│                       │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2026:8873 
+│                       │       │                  ├ [16]: https://access.redhat.com/errata/RHSA-2026:8908 
+│                       │       │                  ├ [17]: https://access.redhat.com/errata/RHSA-2026:8944 
+│                       │       │                  ├ [18]: https://access.redhat.com/errata/RHSA-2026:9026 
+│                       │       │                  ├ [19]: https://access.redhat.com/errata/RHSA-2026:9592 
+│                       │       │                  ├ [20]: https://access.redhat.com/errata/RHSA-2026:9832 
+│                       │       │                  ├ [21]: https://access.redhat.com/security/cve/CVE-2026-5121 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/2449006 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/2452945 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2449006 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2452945 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4424 
+│                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-5121 
-│                       │       │                  ├ [27]: https://errata.almalinux.org/9/ALSA-2026-8510.html 
-│                       │       │                  ├ [28]: https://errata.rockylinux.org/RLSA-2026:8510 
-│                       │       │                  ├ [29]: https://github.com/advisories/GHSA-2vwv-vqpv-v8vc 
-│                       │       │                  ├ [30]: https://github.com/libarchive/libarchive/pull/2934 
-│                       │       │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-5121.html 
-│                       │       │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-8534.html 
-│                       │       │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-5121 
-│                       │       │                  ╰ [34]: https://www.cve.org/CVERecord?id=CVE-2026-5121 
+│                       │       │                  ├ [28]: https://errata.almalinux.org/9/ALSA-2026-8510.html 
+│                       │       │                  ├ [29]: https://errata.rockylinux.org/RLSA-2026:8510 
+│                       │       │                  ├ [30]: https://github.com/advisories/GHSA-2vwv-vqpv-v8vc 
+│                       │       │                  ├ [31]: https://github.com/libarchive/libarchive/pull/2934 
+│                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-5121.html 
+│                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-8534.html 
+│                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-5121 
+│                       │       │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2026-5121 
 │                       │       ├ PublishedDate   : 2026-03-30T08:16:18.78Z 
-│                       │       ╰ LastModifiedDate: 2026-05-11T10:16:14.57Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T10:16:47.453Z 
 │                       ├ [125] ╭ VulnerabilityID : CVE-2026-5745 
 │                       │       ├ PkgID           : libarchive@3.5.3-6.el9_6.x86_64 
 │                       │       ├ PkgName         : libarchive 
@@ -8089,7 +8119,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 1 
 │                       │       │                  ├ julia      : 3 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
@@ -9546,7 +9576,8 @@
 │                       │       │                    attacker-controlled data. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ─ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 3.3 
@@ -11730,52 +11761,54 @@
 │                       │       │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [15]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [27]: https://errata.almalinux.org/9/ALSA-2026-4472.html 
-│                       │       │                  ├ [28]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [29]: https://github.com/advisories/GHSA-x77r-97gw-wh89 
-│                       │       │                  ├ [30]: https://github.com/openssl/openssl/commit/41be0f2164
+│                       │       │                  ├ [28]: https://errata.almalinux.org/9/ALSA-2026-4472.html 
+│                       │       │                  ├ [29]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [30]: https://github.com/advisories/GHSA-x77r-97gw-wh89 
+│                       │       │                  ├ [31]: https://github.com/openssl/openssl/commit/41be0f2164
 │                       │       │                  │       04f14457bbf3b9cc488dba60b49296 
-│                       │       │                  ├ [31]: https://github.com/openssl/openssl/commit/7e9cac9832
+│                       │       │                  ├ [32]: https://github.com/openssl/openssl/commit/7e9cac9832
 │                       │       │                  │       e4705b91987c2474ed06a37a93cecb 
-│                       │       │                  ├ [32]: https://github.com/openssl/openssl/commit/a26a90d38e
+│                       │       │                  ├ [33]: https://github.com/openssl/openssl/commit/a26a90d38e
 │                       │       │                  │       dec3748566129d824e664b54bee2e2 
-│                       │       │                  ├ [33]: https://github.com/openssl/openssl/commit/cda12de3bc
+│                       │       │                  ├ [34]: https://github.com/openssl/openssl/commit/cda12de3bc
 │                       │       │                  │       0e333ea8d2c6fd15001dbdaf280015 
-│                       │       │                  ├ [34]: https://github.com/openssl/openssl/commit/ff62893375
+│                       │       │                  ├ [35]: https://github.com/openssl/openssl/commit/ff62893375
 │                       │       │                  │       5075446bca8307e8417c14d164b535 
-│                       │       │                  ├ [35]: https://linux.oracle.com/cve/CVE-2025-69419.html 
-│                       │       │                  ├ [36]: https://linux.oracle.com/errata/ELSA-2026-50131.html 
-│                       │       │                  ├ [37]: https://nvd.nist.gov/vuln/detail/CVE-2025-69419 
-│                       │       │                  ├ [38]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [39]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [40]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2025-69419 
+│                       │       │                  ├ [36]: https://linux.oracle.com/cve/CVE-2025-69419.html 
+│                       │       │                  ├ [37]: https://linux.oracle.com/errata/ELSA-2026-50131.html 
+│                       │       │                  ├ [38]: https://nvd.nist.gov/vuln/detail/CVE-2025-69419 
+│                       │       │                  ├ [39]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [40]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [41]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [42]: https://www.cve.org/CVERecord?id=CVE-2025-69419 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:34.113Z 
-│                       │       ╰ LastModifiedDate: 2026-02-02T18:35:02.177Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:26.19Z 
 │                       ├ [194] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl 
@@ -11884,17 +11917,19 @@
 │                       │       │                           ╰ V3Score : 4.2 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/13/3 
 │                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-2673 
-│                       │       │                  ├ [2]: https://github.com/advisories/GHSA-wj64-gh9j-xm82 
-│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/2157c9d81f7
+│                       │       │                  ├ [2]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                       │       │                  │      032379.html 
+│                       │       │                  ├ [3]: https://github.com/advisories/GHSA-wj64-gh9j-xm82 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/2157c9d81f7
 │                       │       │                  │      b0bd7dfa25b960e928ec28e8dd63f 
-│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/85977e013f3
+│                       │       │                  ├ [5]: https://github.com/openssl/openssl/commit/85977e013f3
 │                       │       │                  │      2ceb96aa034c0e741adddc1a05e34 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
-│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260313.txt 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
+│                       │       │                  ├ [7]: https://openssl-library.org/news/secadv/20260313.txt 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │       ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
-│                       │       ╰ LastModifiedDate: 2026-03-17T18:16:15.6Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.043Z 
 │                       ├ [195] ╭ VulnerabilityID : CVE-2026-28386 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl 
@@ -12029,25 +12064,29 @@
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28390 
-│                       │       │                  ├ [1] : https://github.com/openssl/openssl/commit/01194a8f19
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/01194a8f19
 │                       │       │                  │       41115cd0383bfa91c736dd3993c8bc 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/2e39b7a699
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/2e39b7a699
 │                       │       │                  │       3be445fddb9fbce316fa756e0397b6 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/af2a5fecd3
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/af2a5fecd3
 │                       │       │                  │       e71a29e7568f9c1453dec5cebbaff4 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/ea7b4ea4f9
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/ea7b4ea4f9
 │                       │       │                  │       f853521ba34830cbcadc970d2e0788 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/fd2f1a6cf5
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/fd2f1a6cf5
 │                       │       │                  │       3b9ceeca723a001aa4b825d7c7ee75 
-│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-28390 
-│                       │       │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-2 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-28390 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-28390 
+│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8155-2 
+│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-28390 
+│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
-│                       │       ╰ LastModifiedDate: 2026-04-23T15:39:52.52Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.81Z 
 │                       ├ [197] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl 
@@ -12117,25 +12156,27 @@
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31790 
-│                       │       │                  ├ [1] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/001e01db3e
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/001e01db3e
 │                       │       │                  │       996e13ffc72386fe79d03a6683b5ac 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/abd8b2eec7
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/abd8b2eec7
 │                       │       │                  │       e3f3fda60ecfb68498b246b52af482 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/b922e24e5b
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/b922e24e5b
 │                       │       │                  │       23ffb9cb9e14cadff23d91e9f7e406 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/d5f8e71cd0
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/d5f8e71cd0
 │                       │       │                  │       a54e961d0c3b174348f8308486f790 
-│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/eed200f58c
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/eed200f58c
 │                       │       │                  │       d8645ed77e46b7e9f764e284df379e 
-│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
-│                       │       │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
+│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
+│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
-│                       │       ╰ LastModifiedDate: 2026-04-23T15:39:44.033Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.75Z 
 │                       ├ [198] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl 
@@ -12491,18 +12532,24 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-41996 
-│                       │       │                  ├ [1]: https://dheatattack.gitlab.io/details/ 
-│                       │       │                  ├ [2]: https://dheatattack.gitlab.io/faq/ 
-│                       │       │                  ├ [3]: https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a7
-│                       │       │                  │      7fa5ca255d1 
-│                       │       │                  ├ [4]: https://github.com/openssl/openssl/issues/17374 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-41996 
-│                       │       │                  ├ [6]: https://openssl-library.org/post/2022-10-21-tls-group
-│                       │       │                  │      s-configuration/ 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-41996 
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -089022.html 
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
+│                       │       │                  ├ [3] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -485750.html 
+│                       │       │                  ├ [4] : https://dheatattack.gitlab.io/details/ 
+│                       │       │                  ├ [5] : https://dheatattack.gitlab.io/faq/ 
+│                       │       │                  ├ [6] : https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a
+│                       │       │                  │       77fa5ca255d1 
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/issues/17374 
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-41996 
+│                       │       │                  ├ [9] : https://openssl-library.org/post/2022-10-21-tls-grou
+│                       │       │                  │       ps-configuration/ 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │       ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
-│                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T12:17:03.257Z 
 │                       ├ [200] ╭ VulnerabilityID : CVE-2025-15468 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:1473 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
@@ -13033,52 +13080,54 @@
 │                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [26]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [40]: https://github.com/advisories/GHSA-g78j-46j5-97cr 
-│                       │       │                  ├ [41]: https://github.com/openssl/openssl/commit/384011202a
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [41]: https://github.com/advisories/GHSA-g78j-46j5-97cr 
+│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/384011202a
 │                       │       │                  │       f92605d926fafe4a0bcd6b65d162ad 
-│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/475c466ef2
+│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/475c466ef2
 │                       │       │                  │       fbd8fc1df6fae1c3eed9c813fc8ff6 
-│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/4c96fbba61
+│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/4c96fbba61
 │                       │       │                  │       8e1940f038012506ee9e21d32ee12c 
-│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/6845c3b646
+│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/6845c3b646
 │                       │       │                  │       0a98b1ec4e463baa2ea1a63a32d7c0 
-│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/68a7cd2e28
+│                       │       │                  ├ [46]: https://github.com/openssl/openssl/commit/68a7cd2e28
 │                       │       │                  │       16c3a02f4d45a2ce43fc04fac97096 
-│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-68160.html 
-│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-68160 
-│                       │       │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-68160 
+│                       │       │                  ├ [47]: https://linux.oracle.com/cve/CVE-2025-68160.html 
+│                       │       │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-68160 
+│                       │       │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [52]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2025-68160 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:15.9Z 
-│                       │       ╰ LastModifiedDate: 2026-02-02T18:36:57.727Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:24.08Z 
 │                       ├ [204] ╭ VulnerabilityID : CVE-2025-69418 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:1473 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
@@ -13176,52 +13225,54 @@
 │                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [26]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [40]: https://github.com/advisories/GHSA-78qr-24v5-7q73 
-│                       │       │                  ├ [41]: https://github.com/openssl/openssl/commit/372fc5c775
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [41]: https://github.com/advisories/GHSA-78qr-24v5-7q73 
+│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/372fc5c775
 │                       │       │                  │       29695b05b4f5b5187691a57ef5dffc 
-│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/4016975d44
+│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/4016975d44
 │                       │       │                  │       69cd6b94927c607f7c511385f928d8 
-│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/52d23c86a5
+│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/52d23c86a5
 │                       │       │                  │       4adab5ee9f80e48b242b52c4cc2347 
-│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/a758923035
+│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/a758923035
 │                       │       │                  │       6d908c0eca4b969ec4f62106f4f5ae 
-│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/ed40856d7d
+│                       │       │                  ├ [46]: https://github.com/openssl/openssl/commit/ed40856d7d
 │                       │       │                  │       4ba6cb42779b6770666a65f19cb977 
-│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-69418.html 
-│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-69418 
-│                       │       │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-69418 
+│                       │       │                  ├ [47]: https://linux.oracle.com/cve/CVE-2025-69418.html 
+│                       │       │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-69418 
+│                       │       │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [52]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2025-69418 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:33.253Z 
-│                       │       ╰ LastModifiedDate: 2026-02-02T18:36:03.557Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:24.297Z 
 │                       ├ [205] ╭ VulnerabilityID : CVE-2025-69420 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:1473 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
@@ -13324,52 +13375,54 @@
 │                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [26]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [40]: https://github.com/advisories/GHSA-w42r-ph9f-9x66 
-│                       │       │                  ├ [41]: https://github.com/openssl/openssl/commit/27c7012c91
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [41]: https://github.com/advisories/GHSA-w42r-ph9f-9x66 
+│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/27c7012c91
 │                       │       │                  │       cc986a598d7540f3079dfde2416eb9 
-│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/4e254b48ad
+│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/4e254b48ad
 │                       │       │                  │       93cc092be3dd62d97015f33f73133a 
-│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/564fd9c737
+│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/564fd9c737
 │                       │       │                  │       87f25693bf9e75faf7bf6bb1305d4e 
-│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/5eb0770ffc
+│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/5eb0770ffc
 │                       │       │                  │       f11b785cf374ff3c19196245e54f1b 
-│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/a99349ebfc
+│                       │       │                  ├ [46]: https://github.com/openssl/openssl/commit/a99349ebfc
 │                       │       │                  │       519999edc50620abe24d599b9eb085 
-│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-69420.html 
-│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-69420 
-│                       │       │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-69420 
+│                       │       │                  ├ [47]: https://linux.oracle.com/cve/CVE-2025-69420.html 
+│                       │       │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-69420 
+│                       │       │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [52]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2025-69420 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:34.317Z 
-│                       │       ╰ LastModifiedDate: 2026-02-02T18:33:30.557Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:26.427Z 
 │                       ├ [206] ╭ VulnerabilityID : CVE-2025-69421 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:1473 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
@@ -13467,52 +13520,54 @@
 │                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [26]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [40]: https://github.com/advisories/GHSA-w9rv-xc8m-cmqp 
-│                       │       │                  ├ [41]: https://github.com/openssl/openssl/commit/3524a29271
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [41]: https://github.com/advisories/GHSA-w9rv-xc8m-cmqp 
+│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/3524a29271
 │                       │       │                  │       f8191b8fd8a5257eb05173982a097b 
-│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/36ecb49608
+│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/36ecb49608
 │                       │       │                  │       72a4ce04bf6f1e1f4e78d75ec0c0c7 
-│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/4bbc8d41a7
+│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/4bbc8d41a7
 │                       │       │                  │       2c842ce4077a8a3eccd1109aaf74bd 
-│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/643986985c
+│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/643986985c
 │                       │       │                  │       d1c21221f941129d76fe0c2785aeb3 
-│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/a2dbc539f0
+│                       │       │                  ├ [46]: https://github.com/openssl/openssl/commit/a2dbc539f0
 │                       │       │                  │       f9cc63832709fa5aa33ad9495eb19c 
-│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-69421.html 
-│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-69421 
-│                       │       │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-69421 
+│                       │       │                  ├ [47]: https://linux.oracle.com/cve/CVE-2025-69421.html 
+│                       │       │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-69421 
+│                       │       │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [52]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2025-69421 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:34.437Z 
-│                       │       ╰ LastModifiedDate: 2026-02-28T04:16:17.457Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:26.71Z 
 │                       ├ [207] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl 
@@ -13581,24 +13636,32 @@
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/3
 │                       │       │                  │       0/5 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-9232 
-│                       │       │                  ├ [2] : https://github.com/advisories/GHSA-76r2-c3cg-f5r9 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/2b4ec20e47
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [3] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -082556.html 
+│                       │       │                  ├ [4] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -089022.html 
+│                       │       │                  ├ [5] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -485750.html 
+│                       │       │                  ├ [6] : https://github.com/advisories/GHSA-76r2-c3cg-f5r9 
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/2b4ec20e47
 │                       │       │                  │       959170422922eaff25346d362dcb35 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/654dc11d23
+│                       │       │                  ├ [8] : https://github.com/openssl/openssl/commit/654dc11d23
 │                       │       │                  │       468a74fc8ea4672b702dd3feb7be4b 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/7cf21a3051
+│                       │       │                  ├ [9] : https://github.com/openssl/openssl/commit/7cf21a3051
 │                       │       │                  │       3c9e43c4bc3836c237cf086e194af3 
-│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/89e790ac43
+│                       │       │                  ├ [10]: https://github.com/openssl/openssl/commit/89e790ac43
 │                       │       │                  │       1125a4849992858490bed6b225eadf 
-│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/bbf38c034c
+│                       │       │                  ├ [11]: https://github.com/openssl/openssl/commit/bbf38c034c
 │                       │       │                  │       dabd0a13330abcc4855c866f53d2e0 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
-│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20250930.txt 
-│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7786-1 
-│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7894-1 
-│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
+│                       │       │                  ├ [13]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-7894-1 
+│                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │       ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
-│                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:30.117Z 
 │                       ├ [208] ╭ VulnerabilityID : CVE-2026-22795 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:1473 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
@@ -13701,52 +13764,54 @@
 │                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [26]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [40]: https://github.com/advisories/GHSA-3vqq-45qg-2xf6 
-│                       │       │                  ├ [41]: https://github.com/openssl/openssl/commit/2502e7b7d4
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [41]: https://github.com/advisories/GHSA-3vqq-45qg-2xf6 
+│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/2502e7b7d4
 │                       │       │                  │       c0cf4f972a881641fe09edc67aeec4 
-│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/572844beca
+│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/572844beca
 │                       │       │                  │       95068394c916626a6d3a490f831a49 
-│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/7bbca05be5
+│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/7bbca05be5
 │                       │       │                  │       5b129651d9df4bdb92becc45002c12 
-│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/eeee3cbd4d
+│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/eeee3cbd4d
 │                       │       │                  │       682095ed431052f00403004596373e 
-│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/ef2fb66ec5
+│                       │       │                  ├ [46]: https://github.com/openssl/openssl/commit/ef2fb66ec5
 │                       │       │                  │       71564d64d1c74a12e388a2a54d05d2 
-│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2026-22795.html 
-│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2026-22795 
-│                       │       │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-22795 
+│                       │       │                  ├ [47]: https://linux.oracle.com/cve/CVE-2026-22795.html 
+│                       │       │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2026-22795 
+│                       │       │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [52]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2026-22795 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:35.43Z 
-│                       │       ╰ LastModifiedDate: 2026-02-02T18:41:14.917Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:32.247Z 
 │                       ├ [209] ╭ VulnerabilityID : CVE-2026-22796 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:1473 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
@@ -13849,52 +13914,54 @@
 │                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [26]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [40]: https://github.com/advisories/GHSA-r9hf-rxjm-gv2f 
-│                       │       │                  ├ [41]: https://github.com/openssl/openssl/commit/2502e7b7d4
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [41]: https://github.com/advisories/GHSA-r9hf-rxjm-gv2f 
+│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/2502e7b7d4
 │                       │       │                  │       c0cf4f972a881641fe09edc67aeec4 
-│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/572844beca
+│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/572844beca
 │                       │       │                  │       95068394c916626a6d3a490f831a49 
-│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/7bbca05be5
+│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/7bbca05be5
 │                       │       │                  │       5b129651d9df4bdb92becc45002c12 
-│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/eeee3cbd4d
+│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/eeee3cbd4d
 │                       │       │                  │       682095ed431052f00403004596373e 
-│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/ef2fb66ec5
+│                       │       │                  ├ [46]: https://github.com/openssl/openssl/commit/ef2fb66ec5
 │                       │       │                  │       71564d64d1c74a12e388a2a54d05d2 
-│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2026-22796.html 
-│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2026-22796 
-│                       │       │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-22796 
+│                       │       │                  ├ [47]: https://linux.oracle.com/cve/CVE-2026-22796.html 
+│                       │       │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2026-22796 
+│                       │       │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [52]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2026-22796 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:35.543Z 
-│                       │       ╰ LastModifiedDate: 2026-02-02T18:40:27.467Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:32.48Z 
 │                       ├ [210] ╭ VulnerabilityID : CVE-2026-28387 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl 
@@ -13958,25 +14025,29 @@
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 3.7 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28387 
-│                       │       │                  ├ [1] : https://github.com/openssl/openssl/commit/07e727d304
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/07e727d304
 │                       │       │                  │       746edb49a98ee8f6ab00256e1f012b 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/258a8f63b2
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/258a8f63b2
 │                       │       │                  │       6995ba357f4326da00e19e29c6acbe 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/444958deaf
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/444958deaf
 │                       │       │                  │       450aea819171f97ae69eaedede42c3 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/7a4e08cee6
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/7a4e08cee6
 │                       │       │                  │       2a728d32e60b0de89e6764339df0a7 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/ec03fa050b
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/ec03fa050b
 │                       │       │                  │       3346997ed9c5fef3d0e16ad7db8177 
-│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-28387 
-│                       │       │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-2 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-28387 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-28387 
+│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8155-2 
+│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-28387 
+│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
-│                       │       ╰ LastModifiedDate: 2026-05-10T21:16:28.503Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.27Z 
 │                       ├ [211] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl 
@@ -14049,25 +14120,29 @@
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28388 
-│                       │       │                  ├ [1] : https://github.com/openssl/openssl/commit/59c3b31585
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/59c3b31585
 │                       │       │                  │       53ab53275bbbccca5cb305d591cf2e 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/5a0b493077
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/5a0b493077
 │                       │       │                  │       9cd2408880979db765db919da55139 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/602542f2c0
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/602542f2c0
 │                       │       │                  │       c2d5edb47128f93eac10b62aeeefb3 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/a9d187dd10
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/a9d187dd10
 │                       │       │                  │       00130100fa7ab915f8513532cb3bb8 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/d3a901e8d9
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/d3a901e8d9
 │                       │       │                  │       f021f3e67d6cfbc12e768129862726 
-│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-28388 
-│                       │       │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-2 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-28388 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-28388 
+│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8155-2 
+│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-28388 
+│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
-│                       │       ╰ LastModifiedDate: 2026-04-23T15:40:08.41Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.453Z 
 │                       ├ [212] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl 
@@ -14130,26 +14205,30 @@
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28389 
-│                       │       │                  ├ [1] : https://github.com/advisories/GHSA-7x88-9hgc-69gf 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/16cea4188e
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
+│                       │       │                  ├ [3] : https://github.com/advisories/GHSA-7x88-9hgc-69gf 
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/16cea4188e
 │                       │       │                  │       0ea567deb4f93f85902247e67384f5 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/785cbf7ea3
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/785cbf7ea3
 │                       │       │                  │       b5a6f5adf0c1ccb92b79d89c35c616 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/7b5274e812
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/7b5274e812
 │                       │       │                  │       400cacb6f3be4c2df5340923fa807f 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/c6725634e0
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/c6725634e0
 │                       │       │                  │       89eb2b634b10ede33944be7248172a 
-│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/f80f83bc5f
+│                       │       │                  ├ [8] : https://github.com/openssl/openssl/commit/f80f83bc5f
 │                       │       │                  │       d036bc47d773e8b15a001e2b4ce686 
-│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-28389 
-│                       │       │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-2 
-│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-28389 
-│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-28389 
+│                       │       │                  ├ [10]: https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-8155-2 
+│                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2026-28389 
+│                       │       │                  ╰ [14]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
-│                       │       ╰ LastModifiedDate: 2026-04-23T15:40:00.107Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.637Z 
 │                       ├ [213] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │       ├ PkgID           : openssl@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl 
@@ -14216,25 +14295,27 @@
 │                       │       │                           │           L/A:H 
 │                       │       │                           ╰ V3Score : 5.8 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31789 
-│                       │       │                  ├ [1] : https://github.com/advisories/GHSA-j79m-9jxq-788r 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/364f095b80
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://github.com/advisories/GHSA-j79m-9jxq-788r 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/364f095b80
 │                       │       │                  │       601db632b0def6a33316967f863bde 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/7a9087efd7
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/7a9087efd7
 │                       │       │                  │       69f362ad9c0e30c7baaa6bbfa65ecf 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/945b935ac6
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/945b935ac6
 │                       │       │                  │       6cc7f1a41f1b849c7c25adb5351f49 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/a24216018e
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/a24216018e
 │                       │       │                  │       1ede8ff01a4ff5afff7dfbd443e2f9 
-│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/a91e537d16
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/a91e537d16
 │                       │       │                  │       d74050dbde50bb0dfb1fe9930f0521 
-│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-31789 
-│                       │       │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-31789 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-31789 
+│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-31789 
+│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
-│                       │       ╰ LastModifiedDate: 2026-05-10T21:16:28.84Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.57Z 
 │                       ├ [214] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │       ├ PkgID           : openssl-fips-provider@3.0.7-8.el9.x86_64 
 │                       │       ├ PkgName         : openssl-fips-provider 
@@ -14343,17 +14424,19 @@
 │                       │       │                           ╰ V3Score : 4.2 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/13/3 
 │                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-2673 
-│                       │       │                  ├ [2]: https://github.com/advisories/GHSA-wj64-gh9j-xm82 
-│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/2157c9d81f7
+│                       │       │                  ├ [2]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                       │       │                  │      032379.html 
+│                       │       │                  ├ [3]: https://github.com/advisories/GHSA-wj64-gh9j-xm82 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/2157c9d81f7
 │                       │       │                  │      b0bd7dfa25b960e928ec28e8dd63f 
-│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/85977e013f3
+│                       │       │                  ├ [5]: https://github.com/openssl/openssl/commit/85977e013f3
 │                       │       │                  │      2ceb96aa034c0e741adddc1a05e34 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
-│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260313.txt 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
+│                       │       │                  ├ [7]: https://openssl-library.org/news/secadv/20260313.txt 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │       ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
-│                       │       ╰ LastModifiedDate: 2026-03-17T18:16:15.6Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.043Z 
 │                       ├ [215] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │       ├ PkgID           : openssl-fips-provider@3.0.7-8.el9.x86_64 
 │                       │       ├ PkgName         : openssl-fips-provider 
@@ -14423,25 +14506,27 @@
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31790 
-│                       │       │                  ├ [1] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/001e01db3e
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/001e01db3e
 │                       │       │                  │       996e13ffc72386fe79d03a6683b5ac 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/abd8b2eec7
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/abd8b2eec7
 │                       │       │                  │       e3f3fda60ecfb68498b246b52af482 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/b922e24e5b
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/b922e24e5b
 │                       │       │                  │       23ffb9cb9e14cadff23d91e9f7e406 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/d5f8e71cd0
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/d5f8e71cd0
 │                       │       │                  │       a54e961d0c3b174348f8308486f790 
-│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/eed200f58c
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/eed200f58c
 │                       │       │                  │       d8645ed77e46b7e9f764e284df379e 
-│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
-│                       │       │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
+│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
+│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
-│                       │       ╰ LastModifiedDate: 2026-04-23T15:39:44.033Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.75Z 
 │                       ├ [216] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │       ├ PkgID           : openssl-fips-provider-so@3.0.7-8.el9.x86_64 
 │                       │       ├ PkgName         : openssl-fips-provider-so 
@@ -14550,17 +14635,19 @@
 │                       │       │                           ╰ V3Score : 4.2 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/13/3 
 │                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-2673 
-│                       │       │                  ├ [2]: https://github.com/advisories/GHSA-wj64-gh9j-xm82 
-│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/2157c9d81f7
+│                       │       │                  ├ [2]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                       │       │                  │      032379.html 
+│                       │       │                  ├ [3]: https://github.com/advisories/GHSA-wj64-gh9j-xm82 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/2157c9d81f7
 │                       │       │                  │      b0bd7dfa25b960e928ec28e8dd63f 
-│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/85977e013f3
+│                       │       │                  ├ [5]: https://github.com/openssl/openssl/commit/85977e013f3
 │                       │       │                  │      2ceb96aa034c0e741adddc1a05e34 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
-│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260313.txt 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
+│                       │       │                  ├ [7]: https://openssl-library.org/news/secadv/20260313.txt 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │       ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
-│                       │       ╰ LastModifiedDate: 2026-03-17T18:16:15.6Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.043Z 
 │                       ├ [217] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │       ├ PkgID           : openssl-fips-provider-so@3.0.7-8.el9.x86_64 
 │                       │       ├ PkgName         : openssl-fips-provider-so 
@@ -14630,25 +14717,27 @@
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31790 
-│                       │       │                  ├ [1] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/001e01db3e
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/001e01db3e
 │                       │       │                  │       996e13ffc72386fe79d03a6683b5ac 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/abd8b2eec7
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/abd8b2eec7
 │                       │       │                  │       e3f3fda60ecfb68498b246b52af482 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/b922e24e5b
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/b922e24e5b
 │                       │       │                  │       23ffb9cb9e14cadff23d91e9f7e406 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/d5f8e71cd0
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/d5f8e71cd0
 │                       │       │                  │       a54e961d0c3b174348f8308486f790 
-│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/eed200f58c
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/eed200f58c
 │                       │       │                  │       d8645ed77e46b7e9f764e284df379e 
-│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
-│                       │       │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
+│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
+│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
-│                       │       ╰ LastModifiedDate: 2026-04-23T15:39:44.033Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.75Z 
 │                       ├ [218] ╭ VulnerabilityID : CVE-2025-15467 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:1473 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
@@ -15052,52 +15141,54 @@
 │                       │       │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [15]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [27]: https://errata.almalinux.org/9/ALSA-2026-4472.html 
-│                       │       │                  ├ [28]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [29]: https://github.com/advisories/GHSA-x77r-97gw-wh89 
-│                       │       │                  ├ [30]: https://github.com/openssl/openssl/commit/41be0f2164
+│                       │       │                  ├ [28]: https://errata.almalinux.org/9/ALSA-2026-4472.html 
+│                       │       │                  ├ [29]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [30]: https://github.com/advisories/GHSA-x77r-97gw-wh89 
+│                       │       │                  ├ [31]: https://github.com/openssl/openssl/commit/41be0f2164
 │                       │       │                  │       04f14457bbf3b9cc488dba60b49296 
-│                       │       │                  ├ [31]: https://github.com/openssl/openssl/commit/7e9cac9832
+│                       │       │                  ├ [32]: https://github.com/openssl/openssl/commit/7e9cac9832
 │                       │       │                  │       e4705b91987c2474ed06a37a93cecb 
-│                       │       │                  ├ [32]: https://github.com/openssl/openssl/commit/a26a90d38e
+│                       │       │                  ├ [33]: https://github.com/openssl/openssl/commit/a26a90d38e
 │                       │       │                  │       dec3748566129d824e664b54bee2e2 
-│                       │       │                  ├ [33]: https://github.com/openssl/openssl/commit/cda12de3bc
+│                       │       │                  ├ [34]: https://github.com/openssl/openssl/commit/cda12de3bc
 │                       │       │                  │       0e333ea8d2c6fd15001dbdaf280015 
-│                       │       │                  ├ [34]: https://github.com/openssl/openssl/commit/ff62893375
+│                       │       │                  ├ [35]: https://github.com/openssl/openssl/commit/ff62893375
 │                       │       │                  │       5075446bca8307e8417c14d164b535 
-│                       │       │                  ├ [35]: https://linux.oracle.com/cve/CVE-2025-69419.html 
-│                       │       │                  ├ [36]: https://linux.oracle.com/errata/ELSA-2026-50131.html 
-│                       │       │                  ├ [37]: https://nvd.nist.gov/vuln/detail/CVE-2025-69419 
-│                       │       │                  ├ [38]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [39]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [40]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2025-69419 
+│                       │       │                  ├ [36]: https://linux.oracle.com/cve/CVE-2025-69419.html 
+│                       │       │                  ├ [37]: https://linux.oracle.com/errata/ELSA-2026-50131.html 
+│                       │       │                  ├ [38]: https://nvd.nist.gov/vuln/detail/CVE-2025-69419 
+│                       │       │                  ├ [39]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [40]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [41]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [42]: https://www.cve.org/CVERecord?id=CVE-2025-69419 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:34.113Z 
-│                       │       ╰ LastModifiedDate: 2026-02-02T18:35:02.177Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:26.19Z 
 │                       ├ [221] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
@@ -15206,17 +15297,19 @@
 │                       │       │                           ╰ V3Score : 4.2 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/13/3 
 │                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-2673 
-│                       │       │                  ├ [2]: https://github.com/advisories/GHSA-wj64-gh9j-xm82 
-│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/2157c9d81f7
+│                       │       │                  ├ [2]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                       │       │                  │      032379.html 
+│                       │       │                  ├ [3]: https://github.com/advisories/GHSA-wj64-gh9j-xm82 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/2157c9d81f7
 │                       │       │                  │      b0bd7dfa25b960e928ec28e8dd63f 
-│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/85977e013f3
+│                       │       │                  ├ [5]: https://github.com/openssl/openssl/commit/85977e013f3
 │                       │       │                  │      2ceb96aa034c0e741adddc1a05e34 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
-│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260313.txt 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-2673 
+│                       │       │                  ├ [7]: https://openssl-library.org/news/secadv/20260313.txt 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │       ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
-│                       │       ╰ LastModifiedDate: 2026-03-17T18:16:15.6Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.043Z 
 │                       ├ [222] ╭ VulnerabilityID : CVE-2026-28386 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
@@ -15351,25 +15444,29 @@
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28390 
-│                       │       │                  ├ [1] : https://github.com/openssl/openssl/commit/01194a8f19
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/01194a8f19
 │                       │       │                  │       41115cd0383bfa91c736dd3993c8bc 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/2e39b7a699
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/2e39b7a699
 │                       │       │                  │       3be445fddb9fbce316fa756e0397b6 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/af2a5fecd3
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/af2a5fecd3
 │                       │       │                  │       e71a29e7568f9c1453dec5cebbaff4 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/ea7b4ea4f9
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/ea7b4ea4f9
 │                       │       │                  │       f853521ba34830cbcadc970d2e0788 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/fd2f1a6cf5
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/fd2f1a6cf5
 │                       │       │                  │       3b9ceeca723a001aa4b825d7c7ee75 
-│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-28390 
-│                       │       │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-2 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-28390 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-28390 
+│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8155-2 
+│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-28390 
+│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
-│                       │       ╰ LastModifiedDate: 2026-04-23T15:39:52.52Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.81Z 
 │                       ├ [224] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
@@ -15439,25 +15536,27 @@
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31790 
-│                       │       │                  ├ [1] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/001e01db3e
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/001e01db3e
 │                       │       │                  │       996e13ffc72386fe79d03a6683b5ac 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/abd8b2eec7
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/abd8b2eec7
 │                       │       │                  │       e3f3fda60ecfb68498b246b52af482 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/b922e24e5b
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/b922e24e5b
 │                       │       │                  │       23ffb9cb9e14cadff23d91e9f7e406 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/d5f8e71cd0
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/d5f8e71cd0
 │                       │       │                  │       a54e961d0c3b174348f8308486f790 
-│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/eed200f58c
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/eed200f58c
 │                       │       │                  │       d8645ed77e46b7e9f764e284df379e 
-│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
-│                       │       │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
+│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
+│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
-│                       │       ╰ LastModifiedDate: 2026-04-23T15:39:44.033Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.75Z 
 │                       ├ [225] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
@@ -15813,18 +15912,24 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-41996 
-│                       │       │                  ├ [1]: https://dheatattack.gitlab.io/details/ 
-│                       │       │                  ├ [2]: https://dheatattack.gitlab.io/faq/ 
-│                       │       │                  ├ [3]: https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a7
-│                       │       │                  │      7fa5ca255d1 
-│                       │       │                  ├ [4]: https://github.com/openssl/openssl/issues/17374 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-41996 
-│                       │       │                  ├ [6]: https://openssl-library.org/post/2022-10-21-tls-group
-│                       │       │                  │      s-configuration/ 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-41996 
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -089022.html 
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
+│                       │       │                  ├ [3] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -485750.html 
+│                       │       │                  ├ [4] : https://dheatattack.gitlab.io/details/ 
+│                       │       │                  ├ [5] : https://dheatattack.gitlab.io/faq/ 
+│                       │       │                  ├ [6] : https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a
+│                       │       │                  │       77fa5ca255d1 
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/issues/17374 
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-41996 
+│                       │       │                  ├ [9] : https://openssl-library.org/post/2022-10-21-tls-grou
+│                       │       │                  │       ps-configuration/ 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │       ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
-│                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T12:17:03.257Z 
 │                       ├ [227] ╭ VulnerabilityID : CVE-2025-15468 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:1473 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
@@ -16355,52 +16460,54 @@
 │                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [26]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [40]: https://github.com/advisories/GHSA-g78j-46j5-97cr 
-│                       │       │                  ├ [41]: https://github.com/openssl/openssl/commit/384011202a
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [41]: https://github.com/advisories/GHSA-g78j-46j5-97cr 
+│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/384011202a
 │                       │       │                  │       f92605d926fafe4a0bcd6b65d162ad 
-│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/475c466ef2
+│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/475c466ef2
 │                       │       │                  │       fbd8fc1df6fae1c3eed9c813fc8ff6 
-│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/4c96fbba61
+│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/4c96fbba61
 │                       │       │                  │       8e1940f038012506ee9e21d32ee12c 
-│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/6845c3b646
+│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/6845c3b646
 │                       │       │                  │       0a98b1ec4e463baa2ea1a63a32d7c0 
-│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/68a7cd2e28
+│                       │       │                  ├ [46]: https://github.com/openssl/openssl/commit/68a7cd2e28
 │                       │       │                  │       16c3a02f4d45a2ce43fc04fac97096 
-│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-68160.html 
-│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-68160 
-│                       │       │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-68160 
+│                       │       │                  ├ [47]: https://linux.oracle.com/cve/CVE-2025-68160.html 
+│                       │       │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-68160 
+│                       │       │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [52]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2025-68160 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:15.9Z 
-│                       │       ╰ LastModifiedDate: 2026-02-02T18:36:57.727Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:24.08Z 
 │                       ├ [231] ╭ VulnerabilityID : CVE-2025-69418 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:1473 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
@@ -16498,52 +16605,54 @@
 │                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [26]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [40]: https://github.com/advisories/GHSA-78qr-24v5-7q73 
-│                       │       │                  ├ [41]: https://github.com/openssl/openssl/commit/372fc5c775
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [41]: https://github.com/advisories/GHSA-78qr-24v5-7q73 
+│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/372fc5c775
 │                       │       │                  │       29695b05b4f5b5187691a57ef5dffc 
-│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/4016975d44
+│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/4016975d44
 │                       │       │                  │       69cd6b94927c607f7c511385f928d8 
-│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/52d23c86a5
+│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/52d23c86a5
 │                       │       │                  │       4adab5ee9f80e48b242b52c4cc2347 
-│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/a758923035
+│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/a758923035
 │                       │       │                  │       6d908c0eca4b969ec4f62106f4f5ae 
-│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/ed40856d7d
+│                       │       │                  ├ [46]: https://github.com/openssl/openssl/commit/ed40856d7d
 │                       │       │                  │       4ba6cb42779b6770666a65f19cb977 
-│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-69418.html 
-│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-69418 
-│                       │       │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-69418 
+│                       │       │                  ├ [47]: https://linux.oracle.com/cve/CVE-2025-69418.html 
+│                       │       │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-69418 
+│                       │       │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [52]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2025-69418 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:33.253Z 
-│                       │       ╰ LastModifiedDate: 2026-02-02T18:36:03.557Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:24.297Z 
 │                       ├ [232] ╭ VulnerabilityID : CVE-2025-69420 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:1473 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
@@ -16646,52 +16755,54 @@
 │                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [26]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [40]: https://github.com/advisories/GHSA-w42r-ph9f-9x66 
-│                       │       │                  ├ [41]: https://github.com/openssl/openssl/commit/27c7012c91
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [41]: https://github.com/advisories/GHSA-w42r-ph9f-9x66 
+│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/27c7012c91
 │                       │       │                  │       cc986a598d7540f3079dfde2416eb9 
-│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/4e254b48ad
+│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/4e254b48ad
 │                       │       │                  │       93cc092be3dd62d97015f33f73133a 
-│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/564fd9c737
+│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/564fd9c737
 │                       │       │                  │       87f25693bf9e75faf7bf6bb1305d4e 
-│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/5eb0770ffc
+│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/5eb0770ffc
 │                       │       │                  │       f11b785cf374ff3c19196245e54f1b 
-│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/a99349ebfc
+│                       │       │                  ├ [46]: https://github.com/openssl/openssl/commit/a99349ebfc
 │                       │       │                  │       519999edc50620abe24d599b9eb085 
-│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-69420.html 
-│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-69420 
-│                       │       │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-69420 
+│                       │       │                  ├ [47]: https://linux.oracle.com/cve/CVE-2025-69420.html 
+│                       │       │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-69420 
+│                       │       │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [52]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2025-69420 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:34.317Z 
-│                       │       ╰ LastModifiedDate: 2026-02-02T18:33:30.557Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:26.427Z 
 │                       ├ [233] ╭ VulnerabilityID : CVE-2025-69421 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:1473 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
@@ -16789,52 +16900,54 @@
 │                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [26]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [40]: https://github.com/advisories/GHSA-w9rv-xc8m-cmqp 
-│                       │       │                  ├ [41]: https://github.com/openssl/openssl/commit/3524a29271
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [41]: https://github.com/advisories/GHSA-w9rv-xc8m-cmqp 
+│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/3524a29271
 │                       │       │                  │       f8191b8fd8a5257eb05173982a097b 
-│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/36ecb49608
+│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/36ecb49608
 │                       │       │                  │       72a4ce04bf6f1e1f4e78d75ec0c0c7 
-│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/4bbc8d41a7
+│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/4bbc8d41a7
 │                       │       │                  │       2c842ce4077a8a3eccd1109aaf74bd 
-│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/643986985c
+│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/643986985c
 │                       │       │                  │       d1c21221f941129d76fe0c2785aeb3 
-│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/a2dbc539f0
+│                       │       │                  ├ [46]: https://github.com/openssl/openssl/commit/a2dbc539f0
 │                       │       │                  │       f9cc63832709fa5aa33ad9495eb19c 
-│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-69421.html 
-│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-69421 
-│                       │       │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-69421 
+│                       │       │                  ├ [47]: https://linux.oracle.com/cve/CVE-2025-69421.html 
+│                       │       │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-69421 
+│                       │       │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [52]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2025-69421 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:34.437Z 
-│                       │       ╰ LastModifiedDate: 2026-02-28T04:16:17.457Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:26.71Z 
 │                       ├ [234] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
@@ -16903,24 +17016,32 @@
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/3
 │                       │       │                  │       0/5 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-9232 
-│                       │       │                  ├ [2] : https://github.com/advisories/GHSA-76r2-c3cg-f5r9 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/2b4ec20e47
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [3] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -082556.html 
+│                       │       │                  ├ [4] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -089022.html 
+│                       │       │                  ├ [5] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -485750.html 
+│                       │       │                  ├ [6] : https://github.com/advisories/GHSA-76r2-c3cg-f5r9 
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/2b4ec20e47
 │                       │       │                  │       959170422922eaff25346d362dcb35 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/654dc11d23
+│                       │       │                  ├ [8] : https://github.com/openssl/openssl/commit/654dc11d23
 │                       │       │                  │       468a74fc8ea4672b702dd3feb7be4b 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/7cf21a3051
+│                       │       │                  ├ [9] : https://github.com/openssl/openssl/commit/7cf21a3051
 │                       │       │                  │       3c9e43c4bc3836c237cf086e194af3 
-│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/89e790ac43
+│                       │       │                  ├ [10]: https://github.com/openssl/openssl/commit/89e790ac43
 │                       │       │                  │       1125a4849992858490bed6b225eadf 
-│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/bbf38c034c
+│                       │       │                  ├ [11]: https://github.com/openssl/openssl/commit/bbf38c034c
 │                       │       │                  │       dabd0a13330abcc4855c866f53d2e0 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
-│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20250930.txt 
-│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7786-1 
-│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7894-1 
-│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
+│                       │       │                  ├ [13]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-7894-1 
+│                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │       ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
-│                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:30.117Z 
 │                       ├ [235] ╭ VulnerabilityID : CVE-2026-22795 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:1473 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
@@ -17023,52 +17144,54 @@
 │                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [26]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [40]: https://github.com/advisories/GHSA-3vqq-45qg-2xf6 
-│                       │       │                  ├ [41]: https://github.com/openssl/openssl/commit/2502e7b7d4
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [41]: https://github.com/advisories/GHSA-3vqq-45qg-2xf6 
+│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/2502e7b7d4
 │                       │       │                  │       c0cf4f972a881641fe09edc67aeec4 
-│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/572844beca
+│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/572844beca
 │                       │       │                  │       95068394c916626a6d3a490f831a49 
-│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/7bbca05be5
+│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/7bbca05be5
 │                       │       │                  │       5b129651d9df4bdb92becc45002c12 
-│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/eeee3cbd4d
+│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/eeee3cbd4d
 │                       │       │                  │       682095ed431052f00403004596373e 
-│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/ef2fb66ec5
+│                       │       │                  ├ [46]: https://github.com/openssl/openssl/commit/ef2fb66ec5
 │                       │       │                  │       71564d64d1c74a12e388a2a54d05d2 
-│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2026-22795.html 
-│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2026-22795 
-│                       │       │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-22795 
+│                       │       │                  ├ [47]: https://linux.oracle.com/cve/CVE-2026-22795.html 
+│                       │       │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2026-22795 
+│                       │       │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [52]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2026-22795 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:35.43Z 
-│                       │       ╰ LastModifiedDate: 2026-02-02T18:41:14.917Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:32.247Z 
 │                       ├ [236] ╭ VulnerabilityID : CVE-2026-22796 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:1473 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
@@ -17171,52 +17294,54 @@
 │                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
 │                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
 │                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-11187 
+│                       │       │                  ├ [26]: https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15467 
+│                       │       │                  │       025-11187 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15468 
+│                       │       │                  │       025-15467 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15469 
+│                       │       │                  │       025-15468 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-66199 
+│                       │       │                  │       025-15469 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-68160 
+│                       │       │                  │       025-66199 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69418 
+│                       │       │                  │       025-68160 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69419 
+│                       │       │                  │       025-69418 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69420 
+│                       │       │                  │       025-69419 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-69421 
+│                       │       │                  │       025-69420 
 │                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22795 
+│                       │       │                  │       025-69421 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22795 
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-22796 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │       │                  ├ [40]: https://github.com/advisories/GHSA-r9hf-rxjm-gv2f 
-│                       │       │                  ├ [41]: https://github.com/openssl/openssl/commit/2502e7b7d4
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │       │                  ├ [41]: https://github.com/advisories/GHSA-r9hf-rxjm-gv2f 
+│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/2502e7b7d4
 │                       │       │                  │       c0cf4f972a881641fe09edc67aeec4 
-│                       │       │                  ├ [42]: https://github.com/openssl/openssl/commit/572844beca
+│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/572844beca
 │                       │       │                  │       95068394c916626a6d3a490f831a49 
-│                       │       │                  ├ [43]: https://github.com/openssl/openssl/commit/7bbca05be5
+│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/7bbca05be5
 │                       │       │                  │       5b129651d9df4bdb92becc45002c12 
-│                       │       │                  ├ [44]: https://github.com/openssl/openssl/commit/eeee3cbd4d
+│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/eeee3cbd4d
 │                       │       │                  │       682095ed431052f00403004596373e 
-│                       │       │                  ├ [45]: https://github.com/openssl/openssl/commit/ef2fb66ec5
+│                       │       │                  ├ [46]: https://github.com/openssl/openssl/commit/ef2fb66ec5
 │                       │       │                  │       71564d64d1c74a12e388a2a54d05d2 
-│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2026-22796.html 
-│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2026-22796 
-│                       │       │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-2 
-│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-22796 
+│                       │       │                  ├ [47]: https://linux.oracle.com/cve/CVE-2026-22796.html 
+│                       │       │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2026-22796 
+│                       │       │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │       │                  ├ [52]: https://ubuntu.com/security/notices/USN-7980-2 
+│                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2026-22796 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:35.543Z 
-│                       │       ╰ LastModifiedDate: 2026-02-02T18:40:27.467Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:32.48Z 
 │                       ├ [237] ╭ VulnerabilityID : CVE-2026-28387 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
@@ -17280,25 +17405,29 @@
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 3.7 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28387 
-│                       │       │                  ├ [1] : https://github.com/openssl/openssl/commit/07e727d304
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/07e727d304
 │                       │       │                  │       746edb49a98ee8f6ab00256e1f012b 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/258a8f63b2
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/258a8f63b2
 │                       │       │                  │       6995ba357f4326da00e19e29c6acbe 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/444958deaf
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/444958deaf
 │                       │       │                  │       450aea819171f97ae69eaedede42c3 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/7a4e08cee6
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/7a4e08cee6
 │                       │       │                  │       2a728d32e60b0de89e6764339df0a7 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/ec03fa050b
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/ec03fa050b
 │                       │       │                  │       3346997ed9c5fef3d0e16ad7db8177 
-│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-28387 
-│                       │       │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-2 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-28387 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-28387 
+│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8155-2 
+│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-28387 
+│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
-│                       │       ╰ LastModifiedDate: 2026-05-10T21:16:28.503Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.27Z 
 │                       ├ [238] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
@@ -17371,25 +17500,29 @@
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28388 
-│                       │       │                  ├ [1] : https://github.com/openssl/openssl/commit/59c3b31585
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/59c3b31585
 │                       │       │                  │       53ab53275bbbccca5cb305d591cf2e 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/5a0b493077
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/5a0b493077
 │                       │       │                  │       9cd2408880979db765db919da55139 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/602542f2c0
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/602542f2c0
 │                       │       │                  │       c2d5edb47128f93eac10b62aeeefb3 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/a9d187dd10
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/a9d187dd10
 │                       │       │                  │       00130100fa7ab915f8513532cb3bb8 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/d3a901e8d9
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/d3a901e8d9
 │                       │       │                  │       f021f3e67d6cfbc12e768129862726 
-│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-28388 
-│                       │       │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-2 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-28388 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-28388 
+│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8155-2 
+│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-28388 
+│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
-│                       │       ╰ LastModifiedDate: 2026-04-23T15:40:08.41Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.453Z 
 │                       ├ [239] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
@@ -17452,26 +17585,30 @@
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28389 
-│                       │       │                  ├ [1] : https://github.com/advisories/GHSA-7x88-9hgc-69gf 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/16cea4188e
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -265688.html 
+│                       │       │                  ├ [3] : https://github.com/advisories/GHSA-7x88-9hgc-69gf 
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/16cea4188e
 │                       │       │                  │       0ea567deb4f93f85902247e67384f5 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/785cbf7ea3
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/785cbf7ea3
 │                       │       │                  │       b5a6f5adf0c1ccb92b79d89c35c616 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/7b5274e812
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/7b5274e812
 │                       │       │                  │       400cacb6f3be4c2df5340923fa807f 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/c6725634e0
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/c6725634e0
 │                       │       │                  │       89eb2b634b10ede33944be7248172a 
-│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/f80f83bc5f
+│                       │       │                  ├ [8] : https://github.com/openssl/openssl/commit/f80f83bc5f
 │                       │       │                  │       d036bc47d773e8b15a001e2b4ce686 
-│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-28389 
-│                       │       │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-2 
-│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-28389 
-│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-28389 
+│                       │       │                  ├ [10]: https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-8155-2 
+│                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2026-28389 
+│                       │       │                  ╰ [14]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
-│                       │       ╰ LastModifiedDate: 2026-04-23T15:40:00.107Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.637Z 
 │                       ├ [240] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │       ├ PkgID           : openssl-libs@3.5.1-5.el9_7.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
@@ -17538,25 +17675,27 @@
 │                       │       │                           │           L/A:H 
 │                       │       │                           ╰ V3Score : 5.8 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31789 
-│                       │       │                  ├ [1] : https://github.com/advisories/GHSA-j79m-9jxq-788r 
-│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/364f095b80
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  │       -032379.html 
+│                       │       │                  ├ [2] : https://github.com/advisories/GHSA-j79m-9jxq-788r 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/364f095b80
 │                       │       │                  │       601db632b0def6a33316967f863bde 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/7a9087efd7
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/7a9087efd7
 │                       │       │                  │       69f362ad9c0e30c7baaa6bbfa65ecf 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/945b935ac6
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/945b935ac6
 │                       │       │                  │       6cc7f1a41f1b849c7c25adb5351f49 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/a24216018e
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/a24216018e
 │                       │       │                  │       1ede8ff01a4ff5afff7dfbd443e2f9 
-│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/a91e537d16
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/a91e537d16
 │                       │       │                  │       d74050dbde50bb0dfb1fe9930f0521 
-│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-31789 
-│                       │       │                  ├ [8] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2026-31789 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-31789 
+│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-31789 
+│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
-│                       │       ╰ LastModifiedDate: 2026-05-10T21:16:28.84Z 
+│                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.57Z 
 │                       ├ [241] ╭ VulnerabilityID : CVE-2026-2100 
 │                       │       ├ PkgID           : p11-kit@0.25.3-3.el9_5.x86_64 
 │                       │       ├ PkgName         : p11-kit 
@@ -18139,7 +18278,7 @@
 │                       │       │                    not sanitized. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
-│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 2 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ redhat : 2 
@@ -18472,7 +18611,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
@@ -18713,7 +18852,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -18837,7 +18976,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -18949,7 +19088,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-74 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -19050,7 +19189,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -19233,7 +19372,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
@@ -19331,7 +19470,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
@@ -19997,7 +20136,7 @@
 │                       │       │                    not sanitized. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
-│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 2 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ redhat : 2 
@@ -20330,7 +20469,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
@@ -20571,7 +20710,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -20695,7 +20834,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -20807,7 +20946,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-74 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -20908,7 +21047,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -21091,7 +21230,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
@@ -21189,7 +21328,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
@@ -21855,7 +21994,7 @@
 │                       │       │                    not sanitized. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
-│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 2 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ redhat : 2 
@@ -22188,7 +22327,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
@@ -22429,7 +22568,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -22553,7 +22692,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -22665,7 +22804,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-74 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -22766,7 +22905,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -22949,7 +23088,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
@@ -23047,7 +23186,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
