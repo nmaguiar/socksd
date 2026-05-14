@@ -643,7 +643,7 @@
 │                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8155-1 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
-│                       │      ╰ LastModifiedDate: 2026-05-12T13:17:34.043Z 
+│                       │      ╰ LastModifiedDate: 2026-05-13T19:17:04.947Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2026-31790 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
@@ -925,6 +925,7 @@
 │                       │      │                  │         f07231cbb380a60efdd6 
 │                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
 │                       │      │                            697b6672eda8317f344c 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34757 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -950,9 +951,13 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ azure : 2 
+│                       │      │                  ├ nvd   : 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 4.4 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.4 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-34757 
@@ -970,7 +975,7 @@
 │                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8251-1 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-34757 
 │                       │      ├ PublishedDate   : 2026-04-09T15:16:11.003Z 
-│                       │      ╰ LastModifiedDate: 2026-05-09T11:16:26.96Z 
+│                       │      ╰ LastModifiedDate: 2026-05-13T23:07:51.863Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
@@ -1555,7 +1560,7 @@
 │                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8155-1 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
-│                       │      ╰ LastModifiedDate: 2026-05-12T13:17:34.043Z 
+│                       │      ╰ LastModifiedDate: 2026-05-13T19:17:04.947Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
@@ -1893,12 +1898,14 @@
 │                       │      │                  │       s/GHSA-6933-cjhr-5qg6 
 │                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2026-27135.html 
 │                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2026-8339.html 
-│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2026-27135 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-8233-1 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-8233-2 
-│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-27135 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2026/05/
+│                       │      │                  │       msg00025.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-27135 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-8233-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-8233-2 
+│                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2026-27135 
 │                       │      ├ PublishedDate   : 2026-03-18T18:16:26.723Z 
-│                       │      ╰ LastModifiedDate: 2026-03-23T17:51:17.017Z 
+│                       │      ╰ LastModifiedDate: 2026-05-13T22:16:42.337Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
@@ -2483,7 +2490,7 @@
 │                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8155-1 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
-│                       │      ╰ LastModifiedDate: 2026-05-12T13:17:34.043Z 
+│                       │      ╰ LastModifiedDate: 2026-05-13T19:17:04.947Z 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
