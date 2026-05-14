@@ -1098,8 +1098,15 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4873
     Fingerprint: sha256:4ac81d640f5175efd28aa86145ef1eb9b0bed496f845875ec4dcbeb8d5bf1b81
     Title: 'curl: curl: Information disclosure due to incorrect TLS connection reuse'
-    Description: A flaw was found in curl. A remote attacker could exploit this by initiating an unencrypted connection (via IMAP, SMTP, or POP3) and then making a subsequent request to the same host that requires Transport Layer Security (TLS). Due to incorrect connection reuse, the subsequent request would bypass the TLS requirement, leading to the transmission of sensitive information in cleartext. This vulnerability, categorized as Cleartext Transmission of Sensitive Information (CWE-319), results in information disclosure.
+    Description: |-
+      A vulnerability exists where a connection requiring TLS incorrectly reuses an
+      existing unencrypted connection from the same connection pool. If an initial
+      transfer is made in clear-text (via IMAP, SMTP, or POP3), a subsequent request
+      to that same host bypasses the TLS requirement and instead transmit data
+      unencrypted.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-319
     VendorSeverity:
       photon: 2
       redhat: 2
@@ -1109,11 +1116,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2026/04/29/7
     - https://access.redhat.com/security/cve/CVE-2026-4873
     - https://curl.se/docs/CVE-2026-4873.html
+    - https://curl.se/docs/CVE-2026-4873.json
+    - https://hackerone.com/reports/3621851
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4873
     - https://ubuntu.com/security/notices/USN-8227-1
     - https://www.cve.org/CVERecord?id=CVE-2026-4873
+    PublishedDate: '2026-05-13T13:01:55.893Z'
+    LastModifiedDate: '2026-05-13T20:16:23.353Z'
   - VulnerabilityID: CVE-2026-5545
     PkgID: curl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: curl-minimal
@@ -1129,22 +1141,51 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-5545
     Fingerprint: sha256:060064852d024a08b9a7cbb90ef234dcb8ada0523086cdbce8cb91952d20b2a8
     Title: 'curl: libcurl: Authentication bypass due to incorrect HTTP Negotiate connection reuse'
-    Description: A flaw was found in libcurl. An application using libcurl that performs an authenticated HTTP(S) request after a Negotiate-authenticated one to the same host may incorrectly reuse the previous connection. This authentication bypass vulnerability allows the second request to be sent over a connection authenticated with different credentials, potentially leading to unauthorized access or information disclosure.
+    Description: |-
+      libcurl might in some circumstances reuse the wrong connection when asked to
+      do an authenticated HTTP(S) request after a Negotiate-authenticated one, when
+      both use the same host.
+
+      libcurl features a pool of recent connections so that subsequent requests can
+      reuse an existing connection to avoid overhead.
+
+      When reusing a connection a range of criteria must be met. Due to a logical
+      error in the code, a request that was issued by an application could
+      wrongfully reuse an existing connection to the same server that was
+      authenticated using different credentials.
+
+      An application that first uses Negotiate authentication to a server with
+      `user1:password1` and then does another operation to the same server asking
+      for any authentication method but for `user2:password2` (while the previous
+      connection is still alive) - the second request gets confused and wrongly
+      reuses the same connection and sends the new request over that connection
+      thinking it uses a mix of user1's and user2's credentials when it is in fact
+      still using the connection authenticated for user1...
     Severity: MEDIUM
+    CweIDs:
+    - CWE-613
     VendorSeverity:
+      nvd: 2
       photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:N
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-5545
     - https://curl.se/docs/CVE-2026-5545.html
+    - https://curl.se/docs/CVE-2026-5545.json
+    - https://hackerone.com/reports/3642555
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5545
     - https://ubuntu.com/security/notices/USN-8227-1
     - https://www.cve.org/CVERecord?id=CVE-2026-5545
+    PublishedDate: '2026-05-13T13:01:56.19Z'
+    LastModifiedDate: '2026-05-13T19:31:07.633Z'
   - VulnerabilityID: CVE-2026-5773
     PkgID: curl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: curl-minimal
@@ -1160,22 +1201,48 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-5773
     Fingerprint: sha256:3c5a92c92b54ad0712581aa6b8ac9099f695224d4a81898cf40377dcff213310
     Title: 'curl: libcurl: Wrong file transfer due to incorrect SMB connection reuse'
-    Description: A flaw was found in libcurl. Due to a logical error in the connection reuse mechanism for SMB (Server Message Block) transfers, libcurl might reuse an existing SMB connection with a different share than intended. This vulnerability, categorized as CWE-488 (Exposure of Data Element to Wrong Session), could lead to the download of an incorrect file or the upload of a file to an unintended location when an application uses libcurl for SMB transfers.
+    Description: |-
+      libcurl might in some circumstances reuse the wrong connection for SMB(S)
+      transfers.
+
+      libcurl features a pool of recent connections so that subsequent requests can
+      reuse an existing connection to avoid overhead.
+
+      When reusing a connection a range of criteria must be met. Due to a logical
+      error in the code, a network transfer operation that was requested by an
+      application could wrongfully reuse an existing SMB connection to the same
+      server that was using a different 'share' than the new subsequent transfer
+      should.
+
+      This could in unlucky situations lead to the download of the wrong file or the
+      upload of a file to the wrong place. When this happens, the same credentials
+      are used and the server name is the same.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-918
     VendorSeverity:
+      nvd: 3
       photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2026/04/29/9
     - https://access.redhat.com/security/cve/CVE-2026-5773
     - https://curl.se/docs/CVE-2026-5773.html
+    - https://curl.se/docs/CVE-2026-5773.json
+    - https://hackerone.com/reports/3650689
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5773
     - https://ubuntu.com/security/notices/USN-8227-1
     - https://www.cve.org/CVERecord?id=CVE-2026-5773
+    PublishedDate: '2026-05-13T13:01:56.307Z'
+    LastModifiedDate: '2026-05-13T19:13:14.097Z'
   - VulnerabilityID: CVE-2026-6253
     PkgID: curl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: curl-minimal
@@ -1191,7 +1258,18 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6253
     Fingerprint: sha256:0796d5000c394ca0bc2de712fd20dd622d12049554f481ddfaba99380e2d00ea
     Title: 'curl: curl: Proxy credential disclosure via redirects to unauthenticated proxies'
-    Description: A flaw was found in curl. When curl is configured to use distinct proxies for different URL schemes, a redirect from a URL using an authenticated proxy to one using an unauthenticated proxy can inadvertently expose the initial proxy's credentials. This improper credential management (CWE-522) may allow an attacker to gain unauthorized access or information by intercepting these disclosed credentials.
+    Description: |-
+      curl might erroneously pass on credentials for a first proxy to a second
+      proxy.
+
+      This can happen when the following conditions are true:
+
+      1. curl is setup to use specific different proxies for different URL schemes
+      2. the first proxy needs credentials
+      3. the second proxy uses no credentials
+      4. while using the first proxy (using say `http://`), curl is asked to follow
+         a redirect to a URL using another scheme (say `https://`), accessed using a
+         second, different, proxy
     Severity: MEDIUM
     VendorSeverity:
       photon: 3
@@ -1202,11 +1280,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2026/04/29/11
     - https://access.redhat.com/security/cve/CVE-2026-6253
     - https://curl.se/docs/CVE-2026-6253.html
+    - https://curl.se/docs/CVE-2026-6253.json
+    - https://hackerone.com/reports/3669637
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6253
     - https://ubuntu.com/security/notices/USN-8227-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6253
+    PublishedDate: '2026-05-13T13:01:56.57Z'
+    LastModifiedDate: '2026-05-13T18:16:20.09Z'
   - VulnerabilityID: CVE-2026-6429
     PkgID: curl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: curl-minimal
@@ -1222,7 +1305,10 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6429
     Fingerprint: sha256:d4184c6b1ef7a25e60c2ac80d658a00d190268b358ec3ca1fc6457fb00d2a1f3
     Title: 'curl: libcurl: Credential leak via reused proxy connection during HTTP redirects'
-    Description: A flaw was found in libcurl. When configured to use a .netrc file for credentials and follow HTTP redirects, libcurl can inadvertently send the password from the initial connection to the redirected host. This sensitive information disclosure occurs when both the original and redirect URLs use clear text HTTP, are performed over the same HTTP proxy, and the same connection is reused. This vulnerability, categorized as an Exposure of Sensitive Information to an Unauthorized Actor (CWE-200), could allow an attacker to obtain user credentials.
+    Description: |-
+      When asked to both use a `.netrc` file for credentials and to follow HTTP
+      redirects, libcurl could leak the password used for the first host to the
+      followed-to host under certain circumstances.
     Severity: MEDIUM
     VendorSeverity:
       photon: 3
@@ -1235,9 +1321,13 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-6429
     - https://curl.se/docs/CVE-2026-6429.html
+    - https://curl.se/docs/CVE-2026-6429.json
+    - https://hackerone.com/reports/3677759
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6429
     - https://ubuntu.com/security/notices/USN-8227-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6429
+    PublishedDate: '2026-05-13T13:01:56.93Z'
+    LastModifiedDate: '2026-05-13T14:50:58.767Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: curl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: curl-minimal
@@ -1960,7 +2050,12 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6276
     Fingerprint: sha256:73f8f57072ec3dc231a7a77950071537331810608627f553b40214bf5efe547a
     Title: 'curl: libcurl: Information disclosure due to cookie leak when reusing connections with custom Host headers'
-    Description: A flaw was found in libcurl. This vulnerability allows for information disclosure when a custom `Host:` header is used in an initial HTTP request, and a subsequent request reuses the same connection without specifying a new `Host:` header. This can lead to libcurl incorrectly sending cookies intended for the first host to the second host, resulting in a cookie leak. This issue is categorized as an Origin Validation Error (CWE-346). Exploitation typically requires specific debugging configurations.
+    Description: |-
+      Using libcurl, when a custom `Host:` header is first set for an HTTP request
+      and a second request is subsequently done using the same *easy handle* but
+      without the custom `Host:` header set, the second request would use stale
+      information and pass on cookies meant for the first host in the second
+      request. Leak them.
     Severity: LOW
     VendorSeverity:
       photon: 2
@@ -1971,11 +2066,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2026/04/29/13
     - https://access.redhat.com/security/cve/CVE-2026-6276
     - https://curl.se/docs/CVE-2026-6276.html
+    - https://curl.se/docs/CVE-2026-6276.json
+    - https://hackerone.com/reports/3671818
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6276
     - https://ubuntu.com/security/notices/USN-8227-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6276
+    PublishedDate: '2026-05-13T13:01:56.8Z'
+    LastModifiedDate: '2026-05-13T18:16:20.403Z'
   - VulnerabilityID: CVE-2026-32776
     PkgID: expat@2.5.0-5.el9_7.1.x86_64
     PkgName: expat
@@ -3573,8 +3673,12 @@
     CweIDs:
     - CWE-626
     VendorSeverity:
+      nvd: 4
       redhat: 3
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N
         V3Score: 7.1
@@ -3584,7 +3688,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42010
     - https://www.cve.org/CVERecord?id=CVE-2026-42010
     PublishedDate: '2026-05-07T12:16:17.977Z'
-    LastModifiedDate: '2026-05-07T15:16:09.64Z'
+    LastModifiedDate: '2026-05-13T13:54:56.233Z'
   - VulnerabilityID: CVE-2026-3833
     PkgID: gnutls@3.8.3-10.el9_7.x86_64
     PkgName: gnutls
@@ -3940,7 +4044,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -4311,9 +4415,13 @@
     VendorSeverity:
       amazon: 2
       azure: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.4
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.4
@@ -4329,7 +4437,7 @@
     - https://ubuntu.com/security/notices/USN-8251-1
     - https://www.cve.org/CVERecord?id=CVE-2026-34757
     PublishedDate: '2026-04-09T15:16:11.003Z'
-    LastModifiedDate: '2026-05-09T11:16:26.96Z'
+    LastModifiedDate: '2026-05-13T23:07:51.863Z'
   - VulnerabilityID: CVE-2026-41254
     PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -4446,14 +4554,19 @@
     CweIDs:
     - CWE-191
     VendorSeverity:
+      alma: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:16799
     - https://access.redhat.com/security/cve/CVE-2026-40356
+    - https://bugzilla.redhat.com/2463368
+    - https://bugzilla.redhat.com/2463370
     - https://cems.fun/2026/04/27/krb5-two-unauthenticated-network-vulnerabilities.html
+    - https://errata.almalinux.org/8/ALSA-2026-16799.html
     - https://github.com/krb5/krb5/commit/2e75f0d9362fb979f5fc92829431a590a130929f
     - https://nvd.nist.gov/vuln/detail/CVE-2026-40356
     - https://web.mit.edu/kerberos/advisories/
@@ -4480,14 +4593,19 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
       redhat: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:16799
     - https://access.redhat.com/security/cve/CVE-2026-40355
+    - https://bugzilla.redhat.com/2463368
+    - https://bugzilla.redhat.com/2463370
     - https://cems.fun/2026/04/27/krb5-two-unauthenticated-network-vulnerabilities.html
+    - https://errata.almalinux.org/8/ALSA-2026-16799.html
     - https://github.com/krb5/krb5/commit/2e75f0d9362fb979f5fc92829431a590a130929f
     - https://nvd.nist.gov/vuln/detail/CVE-2026-40355
     - https://web.mit.edu/kerberos/advisories/
@@ -5237,8 +5355,15 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4873
     Fingerprint: sha256:f90cda9159c8080c2fb6eea969b3632264188b58768ff99c6c98ad0d3097b35f
     Title: 'curl: curl: Information disclosure due to incorrect TLS connection reuse'
-    Description: A flaw was found in curl. A remote attacker could exploit this by initiating an unencrypted connection (via IMAP, SMTP, or POP3) and then making a subsequent request to the same host that requires Transport Layer Security (TLS). Due to incorrect connection reuse, the subsequent request would bypass the TLS requirement, leading to the transmission of sensitive information in cleartext. This vulnerability, categorized as Cleartext Transmission of Sensitive Information (CWE-319), results in information disclosure.
+    Description: |-
+      A vulnerability exists where a connection requiring TLS incorrectly reuses an
+      existing unencrypted connection from the same connection pool. If an initial
+      transfer is made in clear-text (via IMAP, SMTP, or POP3), a subsequent request
+      to that same host bypasses the TLS requirement and instead transmit data
+      unencrypted.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-319
     VendorSeverity:
       photon: 2
       redhat: 2
@@ -5248,11 +5373,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2026/04/29/7
     - https://access.redhat.com/security/cve/CVE-2026-4873
     - https://curl.se/docs/CVE-2026-4873.html
+    - https://curl.se/docs/CVE-2026-4873.json
+    - https://hackerone.com/reports/3621851
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4873
     - https://ubuntu.com/security/notices/USN-8227-1
     - https://www.cve.org/CVERecord?id=CVE-2026-4873
+    PublishedDate: '2026-05-13T13:01:55.893Z'
+    LastModifiedDate: '2026-05-13T20:16:23.353Z'
   - VulnerabilityID: CVE-2026-5545
     PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: libcurl-minimal
@@ -5268,22 +5398,51 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-5545
     Fingerprint: sha256:138e8cb87ff4af04ade5019760a4c4b1262d3ce60de697fe63a572454416c422
     Title: 'curl: libcurl: Authentication bypass due to incorrect HTTP Negotiate connection reuse'
-    Description: A flaw was found in libcurl. An application using libcurl that performs an authenticated HTTP(S) request after a Negotiate-authenticated one to the same host may incorrectly reuse the previous connection. This authentication bypass vulnerability allows the second request to be sent over a connection authenticated with different credentials, potentially leading to unauthorized access or information disclosure.
+    Description: |-
+      libcurl might in some circumstances reuse the wrong connection when asked to
+      do an authenticated HTTP(S) request after a Negotiate-authenticated one, when
+      both use the same host.
+
+      libcurl features a pool of recent connections so that subsequent requests can
+      reuse an existing connection to avoid overhead.
+
+      When reusing a connection a range of criteria must be met. Due to a logical
+      error in the code, a request that was issued by an application could
+      wrongfully reuse an existing connection to the same server that was
+      authenticated using different credentials.
+
+      An application that first uses Negotiate authentication to a server with
+      `user1:password1` and then does another operation to the same server asking
+      for any authentication method but for `user2:password2` (while the previous
+      connection is still alive) - the second request gets confused and wrongly
+      reuses the same connection and sends the new request over that connection
+      thinking it uses a mix of user1's and user2's credentials when it is in fact
+      still using the connection authenticated for user1...
     Severity: MEDIUM
+    CweIDs:
+    - CWE-613
     VendorSeverity:
+      nvd: 2
       photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:N
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-5545
     - https://curl.se/docs/CVE-2026-5545.html
+    - https://curl.se/docs/CVE-2026-5545.json
+    - https://hackerone.com/reports/3642555
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5545
     - https://ubuntu.com/security/notices/USN-8227-1
     - https://www.cve.org/CVERecord?id=CVE-2026-5545
+    PublishedDate: '2026-05-13T13:01:56.19Z'
+    LastModifiedDate: '2026-05-13T19:31:07.633Z'
   - VulnerabilityID: CVE-2026-5773
     PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: libcurl-minimal
@@ -5299,22 +5458,48 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-5773
     Fingerprint: sha256:260075efc54177c3240083961722b97dbf03bd423c8b72e4ccf80c3444c39fe5
     Title: 'curl: libcurl: Wrong file transfer due to incorrect SMB connection reuse'
-    Description: A flaw was found in libcurl. Due to a logical error in the connection reuse mechanism for SMB (Server Message Block) transfers, libcurl might reuse an existing SMB connection with a different share than intended. This vulnerability, categorized as CWE-488 (Exposure of Data Element to Wrong Session), could lead to the download of an incorrect file or the upload of a file to an unintended location when an application uses libcurl for SMB transfers.
+    Description: |-
+      libcurl might in some circumstances reuse the wrong connection for SMB(S)
+      transfers.
+
+      libcurl features a pool of recent connections so that subsequent requests can
+      reuse an existing connection to avoid overhead.
+
+      When reusing a connection a range of criteria must be met. Due to a logical
+      error in the code, a network transfer operation that was requested by an
+      application could wrongfully reuse an existing SMB connection to the same
+      server that was using a different 'share' than the new subsequent transfer
+      should.
+
+      This could in unlucky situations lead to the download of the wrong file or the
+      upload of a file to the wrong place. When this happens, the same credentials
+      are used and the server name is the same.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-918
     VendorSeverity:
+      nvd: 3
       photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2026/04/29/9
     - https://access.redhat.com/security/cve/CVE-2026-5773
     - https://curl.se/docs/CVE-2026-5773.html
+    - https://curl.se/docs/CVE-2026-5773.json
+    - https://hackerone.com/reports/3650689
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5773
     - https://ubuntu.com/security/notices/USN-8227-1
     - https://www.cve.org/CVERecord?id=CVE-2026-5773
+    PublishedDate: '2026-05-13T13:01:56.307Z'
+    LastModifiedDate: '2026-05-13T19:13:14.097Z'
   - VulnerabilityID: CVE-2026-6253
     PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: libcurl-minimal
@@ -5330,7 +5515,18 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6253
     Fingerprint: sha256:cd8dfaea8d6a6d9a7a7145ce387f7a21c205d47fd5a8e6282519255cf04895dc
     Title: 'curl: curl: Proxy credential disclosure via redirects to unauthenticated proxies'
-    Description: A flaw was found in curl. When curl is configured to use distinct proxies for different URL schemes, a redirect from a URL using an authenticated proxy to one using an unauthenticated proxy can inadvertently expose the initial proxy's credentials. This improper credential management (CWE-522) may allow an attacker to gain unauthorized access or information by intercepting these disclosed credentials.
+    Description: |-
+      curl might erroneously pass on credentials for a first proxy to a second
+      proxy.
+
+      This can happen when the following conditions are true:
+
+      1. curl is setup to use specific different proxies for different URL schemes
+      2. the first proxy needs credentials
+      3. the second proxy uses no credentials
+      4. while using the first proxy (using say `http://`), curl is asked to follow
+         a redirect to a URL using another scheme (say `https://`), accessed using a
+         second, different, proxy
     Severity: MEDIUM
     VendorSeverity:
       photon: 3
@@ -5341,11 +5537,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2026/04/29/11
     - https://access.redhat.com/security/cve/CVE-2026-6253
     - https://curl.se/docs/CVE-2026-6253.html
+    - https://curl.se/docs/CVE-2026-6253.json
+    - https://hackerone.com/reports/3669637
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6253
     - https://ubuntu.com/security/notices/USN-8227-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6253
+    PublishedDate: '2026-05-13T13:01:56.57Z'
+    LastModifiedDate: '2026-05-13T18:16:20.09Z'
   - VulnerabilityID: CVE-2026-6429
     PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: libcurl-minimal
@@ -5361,7 +5562,10 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6429
     Fingerprint: sha256:c2362b01a0030cf5cec70d383f0fd00e7b36ace7530ba73953086f9bfcba7884
     Title: 'curl: libcurl: Credential leak via reused proxy connection during HTTP redirects'
-    Description: A flaw was found in libcurl. When configured to use a .netrc file for credentials and follow HTTP redirects, libcurl can inadvertently send the password from the initial connection to the redirected host. This sensitive information disclosure occurs when both the original and redirect URLs use clear text HTTP, are performed over the same HTTP proxy, and the same connection is reused. This vulnerability, categorized as an Exposure of Sensitive Information to an Unauthorized Actor (CWE-200), could allow an attacker to obtain user credentials.
+    Description: |-
+      When asked to both use a `.netrc` file for credentials and to follow HTTP
+      redirects, libcurl could leak the password used for the first host to the
+      followed-to host under certain circumstances.
     Severity: MEDIUM
     VendorSeverity:
       photon: 3
@@ -5374,9 +5578,13 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-6429
     - https://curl.se/docs/CVE-2026-6429.html
+    - https://curl.se/docs/CVE-2026-6429.json
+    - https://hackerone.com/reports/3677759
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6429
     - https://ubuntu.com/security/notices/USN-8227-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6429
+    PublishedDate: '2026-05-13T13:01:56.93Z'
+    LastModifiedDate: '2026-05-13T14:50:58.767Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: libcurl-minimal
@@ -6099,7 +6307,12 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6276
     Fingerprint: sha256:4efb10b2691bd6d957abc93a85a22db7c4b9cc66865e3335375538299eb78ef6
     Title: 'curl: libcurl: Information disclosure due to cookie leak when reusing connections with custom Host headers'
-    Description: A flaw was found in libcurl. This vulnerability allows for information disclosure when a custom `Host:` header is used in an initial HTTP request, and a subsequent request reuses the same connection without specifying a new `Host:` header. This can lead to libcurl incorrectly sending cookies intended for the first host to the second host, resulting in a cookie leak. This issue is categorized as an Origin Validation Error (CWE-346). Exploitation typically requires specific debugging configurations.
+    Description: |-
+      Using libcurl, when a custom `Host:` header is first set for an HTTP request
+      and a second request is subsequently done using the same *easy handle* but
+      without the custom `Host:` header set, the second request would use stale
+      information and pass on cookies meant for the first host in the second
+      request. Leak them.
     Severity: LOW
     VendorSeverity:
       photon: 2
@@ -6110,11 +6323,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2026/04/29/13
     - https://access.redhat.com/security/cve/CVE-2026-6276
     - https://curl.se/docs/CVE-2026-6276.html
+    - https://curl.se/docs/CVE-2026-6276.json
+    - https://hackerone.com/reports/3671818
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6276
     - https://ubuntu.com/security/notices/USN-8227-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6276
+    PublishedDate: '2026-05-13T13:01:56.8Z'
+    LastModifiedDate: '2026-05-13T18:16:20.403Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.5.0-11.el9.x86_64
     PkgName: libgcc
@@ -7571,7 +7789,7 @@
     - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-05-12T13:17:34.043Z'
+    LastModifiedDate: '2026-05-13T19:17:04.947Z'
   - VulnerabilityID: CVE-2026-28386
     PkgID: openssl@3.5.1-7.el9_7.x86_64
     PkgName: openssl
@@ -8521,7 +8739,7 @@
     - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-05-12T13:17:34.043Z'
+    LastModifiedDate: '2026-05-13T19:17:04.947Z'
   - VulnerabilityID: CVE-2026-31790
     PkgID: openssl-fips-provider@3.0.7-8.el9.x86_64
     PkgName: openssl-fips-provider
@@ -8691,7 +8909,7 @@
     - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-05-12T13:17:34.043Z'
+    LastModifiedDate: '2026-05-13T19:17:04.947Z'
   - VulnerabilityID: CVE-2026-31790
     PkgID: openssl-fips-provider-so@3.0.7-8.el9.x86_64
     PkgName: openssl-fips-provider-so
@@ -8861,7 +9079,7 @@
     - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-05-12T13:17:34.043Z'
+    LastModifiedDate: '2026-05-13T19:17:04.947Z'
   - VulnerabilityID: CVE-2026-28386
     PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
     PkgName: openssl-libs
@@ -10016,7 +10234,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       redhat: 2
@@ -10201,7 +10419,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       redhat: 2
@@ -10290,7 +10508,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -10388,7 +10606,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -10562,7 +10780,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -10644,7 +10862,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -10981,7 +11199,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       redhat: 2
@@ -11166,7 +11384,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       redhat: 2
@@ -11255,7 +11473,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -11353,7 +11571,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -11527,7 +11745,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -11609,7 +11827,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -11946,7 +12164,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       redhat: 2
@@ -12131,7 +12349,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       redhat: 2
@@ -12220,7 +12438,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -12318,7 +12536,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -12492,7 +12710,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -12574,7 +12792,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
