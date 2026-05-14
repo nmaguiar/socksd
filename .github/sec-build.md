@@ -124,12 +124,14 @@
 │                             │                  │       /GHSA-6933-cjhr-5qg6 
 │                             │                  ├ [13]: https://linux.oracle.com/cve/CVE-2026-27135.html 
 │                             │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2026-8339.html 
-│                             │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2026-27135 
-│                             │                  ├ [16]: https://ubuntu.com/security/notices/USN-8233-1 
-│                             │                  ├ [17]: https://ubuntu.com/security/notices/USN-8233-2 
-│                             │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-27135 
+│                             │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2026/05/m
+│                             │                  │       sg00025.html 
+│                             │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-27135 
+│                             │                  ├ [17]: https://ubuntu.com/security/notices/USN-8233-1 
+│                             │                  ├ [18]: https://ubuntu.com/security/notices/USN-8233-2 
+│                             │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2026-27135 
 │                             ├ PublishedDate   : 2026-03-18T18:16:26.723Z 
-│                             ╰ LastModifiedDate: 2026-03-23T17:51:17.017Z 
+│                             ╰ LastModifiedDate: 2026-05-13T22:16:42.337Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
