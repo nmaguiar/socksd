@@ -3,7 +3,408 @@
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
 │     ├ Packages        
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2026-41254 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2025-14017 
+│                       │      ├ PkgID           : curl@8.17.0-r1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.3 
+│                       │      │                  ╰ UID : c4e4a99c2363a971 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14017 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:278cea193225a8b539180ee3feaa89d7f8bac1e97d260b00ac80b
+│                       │      │                   a360a8a09e9 
+│                       │      ├ Title           : curl: curl: Security bypass due to global TLS option changes
+│                       │      │                    in multi-threaded LDAPS transfers 
+│                       │      ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
+│                       │      │                   with libcurl,
+│                       │      │                   changing TLS options in one thread would inadvertently
+│                       │      │                   change them globally
+│                       │      │                   and therefore possibly also affect other concurrently setup
+│                       │      │                   transfers.
+│                       │      │                   
+│                       │      │                   Disabling certificate verification for a specific transfer
+│                       │      │                   could
+│                       │      │                   unintentionally disable the feature for other threads as
+│                       │      │                   well. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ julia      : 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 6.3 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/3 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14017 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14017.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14017.json 
+│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-jh4h-2cg6-889h 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8062-2 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
+│                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
+│                       │      ╰ LastModifiedDate: 2026-01-27T21:29:39.953Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2025-14524 
+│                       │      ├ PkgID           : curl@8.17.0-r1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.3 
+│                       │      │                  ╰ UID : c4e4a99c2363a971 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:1f1f69bd8f20fc974724635d095145ca60ac1e4f0cbc8eb070bef
+│                       │      │                   978c412a2dd 
+│                       │      ├ Title           : curl: Information disclosure via cross-protocol redirect
+│                       │      │                   with OAuth2 bearer token 
+│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
+│                       │      │                    and that transfer
+│                       │      │                   performs a cross-protocol redirect to a second URL that uses
+│                       │      │                    an IMAP, LDAP,
+│                       │      │                   POP3 or SMTP scheme, curl might wrongly pass on the bearer
+│                       │      │                   token to the new
+│                       │      │                   target host. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-601 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ julia      : 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 5.3 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14524 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14524.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14524.json 
+│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-g897-jvjx-78vg 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3459417 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-14524 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
+│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
+│                       │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-14819 
+│                       │      ├ PkgID           : curl@8.17.0-r1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.3 
+│                       │      │                  ╰ UID : c4e4a99c2363a971 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14819 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:a42475292c50071dd2da60fcd12220cd3c0cb0a6229d443bf6625
+│                       │      │                   3c71de7ed69 
+│                       │      ├ Title           : curl: libcurl: Improper certificate validation due to cached
+│                       │      │                    TLS settings reuse 
+│                       │      ├ Description     : When doing TLS related transfers with reused easy or multi
+│                       │      │                   handles and
+│                       │      │                   altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl
+│                       │      │                   could accidentally
+│                       │      │                   reuse a CA store cached in memory for which the partial
+│                       │      │                   chain option was
+│                       │      │                   reversed. Contrary to the user's wishes and expectations.
+│                       │      │                   This could make
+│                       │      │                   libcurl find and accept a trust chain that it otherwise
+│                       │      │                   would not. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-295 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ julia : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 5.3 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/5 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14819 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14819.json 
+│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-vqhr-m87q-9jqh 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-14819 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
+│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
+│                       │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-1965 
+│                       │      ├ PkgID           : curl@8.17.0-r1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.3 
+│                       │      │                  ╰ UID : c4e4a99c2363a971 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1965 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:2f9e9ecdaa5b1172456bacec793b7ac1e2e4a643cb15443e4a292
+│                       │      │                   567c05da249 
+│                       │      ├ Title           : curl: curl: Authentication bypass due to incorrect
+│                       │      │                   connection reuse with Negotiate authentication 
+│                       │      ├ Description     : libcurl can in some circumstances reuse the wrong connection
+│                       │      │                    when asked to do
+│                       │      │                   an Negotiate-authenticated HTTP or HTTPS request.
+│                       │      │                   
+│                       │      │                   libcurl features a pool of recent connections so that
+│                       │      │                   subsequent requests can
+│                       │      │                   reuse an existing connection to avoid overhead.
+│                       │      │                   When reusing a connection a range of criterion must first be
+│                       │      │                    met. Due to a
+│                       │      │                   logical error in the code, a request that was issued by an
+│                       │      │                   application could
+│                       │      │                   wrongfully reuse an existing connection to the same server
+│                       │      │                   that was
+│                       │      │                   authenticated using different credentials. One underlying
+│                       │      │                   reason being that
+│                       │      │                   Negotiate sometimes authenticates *connections* and not
+│                       │      │                   *requests*, contrary
+│                       │      │                   to how HTTP is designed to work.
+│                       │      │                   An application that allows Negotiate authentication to a
+│                       │      │                   server (that responds
+│                       │      │                   wanting Negotiate) with `user1:password1` and then does
+│                       │      │                   another operation to
+│                       │      │                   the same server also using Negotiate but with
+│                       │      │                   `user2:password2` (while the
+│                       │      │                   previous connection is still alive) - the second request
+│                       │      │                   wrongly reused the
+│                       │      │                   same connection and since it then sees that the Negotiate
+│                       │      │                   negotiation is
+│                       │      │                   already made, it just sends the request over that connection
+│                       │      │                    thinking it uses
+│                       │      │                   the user2 credentials when it is in fact still using the
+│                       │      │                   connection
+│                       │      │                   authenticated for user1...
+│                       │      │                   The set of authentication methods to use is set with 
+│                       │      │                   `CURLOPT_HTTPAUTH`.
+│                       │      │                   Applications can disable libcurl's reuse of connections and
+│                       │      │                   thus mitigate this
+│                       │      │                   problem, by using one of the following libcurl options to
+│                       │      │                   alter how
+│                       │      │                   connections are or are not reused: `CURLOPT_FRESH_CONNECT`,
+│                       │      │                   `CURLOPT_MAXCONNECTS` and `CURLMOPT_MAX_HOST_CONNECTIONS`
+│                       │      │                   (if using the
+│                       │      │                   curl_multi API). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-305 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ julia : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 6.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-1965 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-1965.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-1965.json 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-1965 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
+│                       │      ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:11:19.07Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-3783 
+│                       │      ├ PkgID           : curl@8.17.0-r1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.3 
+│                       │      │                  ╰ UID : c4e4a99c2363a971 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3783 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:6455587b8806a05b79506e381c15c92ed88bbad40362ea280e3a5
+│                       │      │                   ad6a2a0333b 
+│                       │      ├ Title           : curl: curl: Information disclosure via OAuth2 bearer token
+│                       │      │                   leakage during HTTP(S) redirect 
+│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
+│                       │      │                    and that transfer
+│                       │      │                   performs a redirect to a second URL, curl could leak that
+│                       │      │                   token to the second
+│                       │      │                   hostname under some circumstances.
+│                       │      │                   
+│                       │      │                   If the hostname that the first request is redirected to has
+│                       │      │                   information in the
+│                       │      │                   used .netrc file, with either of the `machine` or `default`
+│                       │      │                   keywords, curl
+│                       │      │                   would pass on the bearer token set for the first host also
+│                       │      │                   to the second one. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-522 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ julia : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 5.3 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.7 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3783 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3783.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-3783.json 
+│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-8whr-249c-vfjp 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3583983 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3783 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
+│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:10:37.3Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-3784 
+│                       │      ├ PkgID           : curl@8.17.0-r1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.3 
+│                       │      │                  ╰ UID : c4e4a99c2363a971 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3784 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:c94e0abe239121f1e04d70c56a112c427578f692aa595099a8075
+│                       │      │                   5cb0a5549d5 
+│                       │      ├ Title           : curl: curl: Unauthorized access due to improper HTTP proxy
+│                       │      │                   connection reuse 
+│                       │      ├ Description     : curl would wrongly reuse an existing HTTP proxy connection
+│                       │      │                   doing CONNECT to a
+│                       │      │                   server, even if the new request uses different credentials
+│                       │      │                   for the HTTP proxy.
+│                       │      │                   The proper behavior is to create or use a separate
+│                       │      │                   connection. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-305 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ julia : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 6.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/3 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3784 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3784.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-3784.json 
+│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-5q3w-6p3j-mw6p 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3584903 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3784 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
+│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.437Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:09:50.47Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-3805 
+│                       │      ├ PkgID           : curl@8.17.0-r1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.3 
+│                       │      │                  ╰ UID : c4e4a99c2363a971 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3805 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:e578d10a2bc8c03cd717dae733eec380650c29b8d240bbac60a70
+│                       │      │                   e78d2d05d1a 
+│                       │      ├ Title           : curl: curl: Arbitrary code execution or Denial of Service
+│                       │      │                   via use-after-free in SMB request handling 
+│                       │      ├ Description     : When doing a second SMB request to the same host again, curl
+│                       │      │                    would wrongly use
+│                       │      │                   a data pointer pointing into already freed memory. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-416 
+│                       │      ├ VendorSeverity   ╭ julia : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 6.3 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/4 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3805 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3805.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-3805.json 
+│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-2289-hhfc-p684 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3591944 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3805 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-3805 
+│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.967Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:08:56.79Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-41254 
 │                       │      ├ PkgID           : lcms2@2.17-r0 
 │                       │      ├ PkgName         : lcms2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/lcms2@2.17-r0?arch=x86_64&distro=3.23.3 
@@ -31,7 +432,8 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ╭ [0]: CWE-696 
 │                       │      │                  ╰ [1]: CWE-190 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ nvd   : 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
@@ -59,7 +461,7 @@
 │                       │      │                         /16 
 │                       │      ├ PublishedDate   : 2026-04-18T07:16:10.807Z 
 │                       │      ╰ LastModifiedDate: 2026-05-07T18:16:19.3Z 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-31789 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-31789 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -119,7 +521,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
 │                       │      │                  ├ nvd   : 4 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 4 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
@@ -150,7 +552,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:34.57Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-28387 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-28387 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -240,7 +642,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:33.27Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-28388 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -339,7 +741,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:33.453Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-28389 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -429,7 +831,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:33.637Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-28390 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-28390 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -520,7 +922,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:33.81Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -626,9 +1028,9 @@
 │                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                  │        │           /A:N 
 │                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 4.2 
+│                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/13/3 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-2673 
 │                       │      │                  ├ [2]: https://cert-portal.siemens.com/productcert/html/ssa-0
@@ -644,7 +1046,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │      ╰ LastModifiedDate: 2026-05-13T19:17:04.947Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-31790 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │      ├ PkgID           : libcrypto3@3.5.5-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.5-r0?arch=x86_64&distro
@@ -737,7 +1139,415 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:34.75Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-33416 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2025-14017 
+│                       │      ├ PkgID           : libcurl@8.17.0-r1 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
+│                       │      │                  │       .23.3 
+│                       │      │                  ╰ UID : 85c7760f5617ed48 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14017 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:cc9929eb7b8a2d14c4020d271f814cc725d25670fb06d328c2161
+│                       │      │                   ce5f0e0fc8f 
+│                       │      ├ Title           : curl: curl: Security bypass due to global TLS option changes
+│                       │      │                    in multi-threaded LDAPS transfers 
+│                       │      ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
+│                       │      │                   with libcurl,
+│                       │      │                   changing TLS options in one thread would inadvertently
+│                       │      │                   change them globally
+│                       │      │                   and therefore possibly also affect other concurrently setup
+│                       │      │                   transfers.
+│                       │      │                   
+│                       │      │                   Disabling certificate verification for a specific transfer
+│                       │      │                   could
+│                       │      │                   unintentionally disable the feature for other threads as
+│                       │      │                   well. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ julia      : 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 6.3 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/3 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14017 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14017.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14017.json 
+│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-jh4h-2cg6-889h 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8062-2 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
+│                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
+│                       │      ╰ LastModifiedDate: 2026-01-27T21:29:39.953Z 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2025-14524 
+│                       │      ├ PkgID           : libcurl@8.17.0-r1 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
+│                       │      │                  │       .23.3 
+│                       │      │                  ╰ UID : 85c7760f5617ed48 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:45eb5e50cb1438e0a23560ffca732e59eab2f868b6fc3b9ce75b6
+│                       │      │                   3d762b48f70 
+│                       │      ├ Title           : curl: Information disclosure via cross-protocol redirect
+│                       │      │                   with OAuth2 bearer token 
+│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
+│                       │      │                    and that transfer
+│                       │      │                   performs a cross-protocol redirect to a second URL that uses
+│                       │      │                    an IMAP, LDAP,
+│                       │      │                   POP3 or SMTP scheme, curl might wrongly pass on the bearer
+│                       │      │                   token to the new
+│                       │      │                   target host. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-601 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ julia      : 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 5.3 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14524 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14524.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14524.json 
+│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-g897-jvjx-78vg 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3459417 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-14524 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
+│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
+│                       │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2025-14819 
+│                       │      ├ PkgID           : libcurl@8.17.0-r1 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
+│                       │      │                  │       .23.3 
+│                       │      │                  ╰ UID : 85c7760f5617ed48 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14819 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:a9eb38b08d74ab24a18f26be7b27b57dabc9558fe5bb5086e7130
+│                       │      │                   e142bc04e8d 
+│                       │      ├ Title           : curl: libcurl: Improper certificate validation due to cached
+│                       │      │                    TLS settings reuse 
+│                       │      ├ Description     : When doing TLS related transfers with reused easy or multi
+│                       │      │                   handles and
+│                       │      │                   altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl
+│                       │      │                   could accidentally
+│                       │      │                   reuse a CA store cached in memory for which the partial
+│                       │      │                   chain option was
+│                       │      │                   reversed. Contrary to the user's wishes and expectations.
+│                       │      │                   This could make
+│                       │      │                   libcurl find and accept a trust chain that it otherwise
+│                       │      │                   would not. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-295 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ julia : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 5.3 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/5 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14819 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14819.json 
+│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-vqhr-m87q-9jqh 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-14819 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
+│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
+│                       │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2026-1965 
+│                       │      ├ PkgID           : libcurl@8.17.0-r1 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
+│                       │      │                  │       .23.3 
+│                       │      │                  ╰ UID : 85c7760f5617ed48 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1965 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:58678a5574f8df7b59d572308c7773ef10d3511ba5a03e57e9e94
+│                       │      │                   a3d5f0faa55 
+│                       │      ├ Title           : curl: curl: Authentication bypass due to incorrect
+│                       │      │                   connection reuse with Negotiate authentication 
+│                       │      ├ Description     : libcurl can in some circumstances reuse the wrong connection
+│                       │      │                    when asked to do
+│                       │      │                   an Negotiate-authenticated HTTP or HTTPS request.
+│                       │      │                   
+│                       │      │                   libcurl features a pool of recent connections so that
+│                       │      │                   subsequent requests can
+│                       │      │                   reuse an existing connection to avoid overhead.
+│                       │      │                   When reusing a connection a range of criterion must first be
+│                       │      │                    met. Due to a
+│                       │      │                   logical error in the code, a request that was issued by an
+│                       │      │                   application could
+│                       │      │                   wrongfully reuse an existing connection to the same server
+│                       │      │                   that was
+│                       │      │                   authenticated using different credentials. One underlying
+│                       │      │                   reason being that
+│                       │      │                   Negotiate sometimes authenticates *connections* and not
+│                       │      │                   *requests*, contrary
+│                       │      │                   to how HTTP is designed to work.
+│                       │      │                   An application that allows Negotiate authentication to a
+│                       │      │                   server (that responds
+│                       │      │                   wanting Negotiate) with `user1:password1` and then does
+│                       │      │                   another operation to
+│                       │      │                   the same server also using Negotiate but with
+│                       │      │                   `user2:password2` (while the
+│                       │      │                   previous connection is still alive) - the second request
+│                       │      │                   wrongly reused the
+│                       │      │                   same connection and since it then sees that the Negotiate
+│                       │      │                   negotiation is
+│                       │      │                   already made, it just sends the request over that connection
+│                       │      │                    thinking it uses
+│                       │      │                   the user2 credentials when it is in fact still using the
+│                       │      │                   connection
+│                       │      │                   authenticated for user1...
+│                       │      │                   The set of authentication methods to use is set with 
+│                       │      │                   `CURLOPT_HTTPAUTH`.
+│                       │      │                   Applications can disable libcurl's reuse of connections and
+│                       │      │                   thus mitigate this
+│                       │      │                   problem, by using one of the following libcurl options to
+│                       │      │                   alter how
+│                       │      │                   connections are or are not reused: `CURLOPT_FRESH_CONNECT`,
+│                       │      │                   `CURLOPT_MAXCONNECTS` and `CURLMOPT_MAX_HOST_CONNECTIONS`
+│                       │      │                   (if using the
+│                       │      │                   curl_multi API). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-305 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ julia : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 6.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-1965 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-1965.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-1965.json 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-1965 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
+│                       │      ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:11:19.07Z 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2026-3783 
+│                       │      ├ PkgID           : libcurl@8.17.0-r1 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
+│                       │      │                  │       .23.3 
+│                       │      │                  ╰ UID : 85c7760f5617ed48 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3783 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:6629f56571e5f77e9e903871476682e3ca439ad7a8cc99efb7064
+│                       │      │                   31c521cba5a 
+│                       │      ├ Title           : curl: curl: Information disclosure via OAuth2 bearer token
+│                       │      │                   leakage during HTTP(S) redirect 
+│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
+│                       │      │                    and that transfer
+│                       │      │                   performs a redirect to a second URL, curl could leak that
+│                       │      │                   token to the second
+│                       │      │                   hostname under some circumstances.
+│                       │      │                   
+│                       │      │                   If the hostname that the first request is redirected to has
+│                       │      │                   information in the
+│                       │      │                   used .netrc file, with either of the `machine` or `default`
+│                       │      │                   keywords, curl
+│                       │      │                   would pass on the bearer token set for the first host also
+│                       │      │                   to the second one. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-522 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ julia : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 5.3 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.7 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3783 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3783.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-3783.json 
+│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-8whr-249c-vfjp 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3583983 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3783 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
+│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:10:37.3Z 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2026-3784 
+│                       │      ├ PkgID           : libcurl@8.17.0-r1 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
+│                       │      │                  │       .23.3 
+│                       │      │                  ╰ UID : 85c7760f5617ed48 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3784 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:526f1d67b245188865bf32a228a932e668dae035d096fbdfcc072
+│                       │      │                   50a73c96908 
+│                       │      ├ Title           : curl: curl: Unauthorized access due to improper HTTP proxy
+│                       │      │                   connection reuse 
+│                       │      ├ Description     : curl would wrongly reuse an existing HTTP proxy connection
+│                       │      │                   doing CONNECT to a
+│                       │      │                   server, even if the new request uses different credentials
+│                       │      │                   for the HTTP proxy.
+│                       │      │                   The proper behavior is to create or use a separate
+│                       │      │                   connection. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-305 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ julia : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 6.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/3 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3784 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3784.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-3784.json 
+│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-5q3w-6p3j-mw6p 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3584903 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3784 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
+│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.437Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:09:50.47Z 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2026-3805 
+│                       │      ├ PkgID           : libcurl@8.17.0-r1 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
+│                       │      │                  │       .23.3 
+│                       │      │                  ╰ UID : 85c7760f5617ed48 
+│                       │      ├ InstalledVersion: 8.17.0-r1 
+│                       │      ├ FixedVersion    : 8.19.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7a20a4be9cb6719d0dfac86a90eaaf877cd9f35bb14c
+│                       │      │                  │         f07231cbb380a60efdd6 
+│                       │      │                  ╰ DiffID: sha256:58b12cfd103e9e4df80c4392b109377bb1916c9ed9b0
+│                       │      │                            697b6672eda8317f344c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3805 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:eb245da6945775a527d81a248552a36e5496d9b891ec004f71eee
+│                       │      │                   b858a59e241 
+│                       │      ├ Title           : curl: curl: Arbitrary code execution or Denial of Service
+│                       │      │                   via use-after-free in SMB request handling 
+│                       │      ├ Description     : When doing a second SMB request to the same host again, curl
+│                       │      │                    would wrongly use
+│                       │      │                   a data pointer pointing into already freed memory. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-416 
+│                       │      ├ VendorSeverity   ╭ julia : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 6.3 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/4 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3805 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3805.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-3805.json 
+│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-2289-hhfc-p684 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3591944 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3805 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-3805 
+│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.967Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:08:56.79Z 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2026-33416 
 │                       │      ├ PkgID           : libpng@1.6.55-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.55-r0?arch=x86_64&distro=3.
@@ -830,7 +1640,7 @@
 │                       │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2026-33416 
 │                       │      ├ PublishedDate   : 2026-03-26T17:16:38.443Z 
 │                       │      ╰ LastModifiedDate: 2026-04-02T20:28:33.973Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-33636 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2026-33636 
 │                       │      ├ PkgID           : libpng@1.6.55-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.55-r0?arch=x86_64&distro=3.
@@ -875,44 +1685,32 @@
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
-│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.6 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-33636 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2451805 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2451819 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2455897 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2455901 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2455908 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       26-33416 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2451819 
+│                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-33636 
-│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       26-5731 
-│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       26-5732 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       26-5734 
-│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:8459 
-│                       │      │                  ├ [14]: https://github.com/pnggroup/libpng/commit/7734cda20cf
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2026-9693.html 
+│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2026:14791 
+│                       │      │                  ├ [6] : https://github.com/pnggroup/libpng/commit/7734cda20cf
 │                       │      │                  │       1236aef60f3bbd2267c97bbb40869 
-│                       │      │                  ├ [15]: https://github.com/pnggroup/libpng/commit/aba9f18eba8
+│                       │      │                  ├ [7] : https://github.com/pnggroup/libpng/commit/aba9f18eba8
 │                       │      │                  │       70d14fb52c5ba5d73451349e339c3 
-│                       │      │                  ├ [16]: https://github.com/pnggroup/libpng/security/advisorie
+│                       │      │                  ├ [8] : https://github.com/pnggroup/libpng/security/advisorie
 │                       │      │                  │       s/GHSA-wjr5-c57x-95m2 
-│                       │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2026-33636.html 
-│                       │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
-│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2026-33636 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-8251-1 
-│                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2026-33636 
+│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2026-33636.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-33636 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-8251-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-33636 
 │                       │      ├ PublishedDate   : 2026-03-26T17:16:41.477Z 
 │                       │      ╰ LastModifiedDate: 2026-04-02T18:42:02.667Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2026-34757 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2026-34757 
 │                       │      ├ PkgID           : libpng@1.6.55-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.55-r0?arch=x86_64&distro=3.
@@ -976,7 +1774,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-34757 
 │                       │      ├ PublishedDate   : 2026-04-09T15:16:11.003Z 
 │                       │      ╰ LastModifiedDate: 2026-05-13T23:07:51.863Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2026-31789 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -1036,7 +1834,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
 │                       │      │                  ├ nvd   : 4 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 4 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
@@ -1067,7 +1865,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:34.57Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2026-28387 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2026-28387 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -1157,7 +1955,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:33.27Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2026-28388 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -1256,7 +2054,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:33.453Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2026-28389 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -1346,7 +2144,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:33.637Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2026-28390 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2026-28390 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -1437,7 +2235,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:33.81Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -1543,9 +2341,9 @@
 │                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                  │        │           /A:N 
 │                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 4.2 
+│                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/13/3 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-2673 
 │                       │      │                  ├ [2]: https://cert-portal.siemens.com/productcert/html/ssa-0
@@ -1561,7 +2359,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │      ╰ LastModifiedDate: 2026-05-13T19:17:04.947Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2026-31790 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │      ├ PkgID           : libssl3@3.5.5-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.5-r0?arch=x86_64&distro=3.
@@ -1654,7 +2452,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:34.75Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2026-40200 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2026-40200 
 │                       │      ├ PkgID           : musl@1.2.5-r21 
 │                       │      ├ PkgName         : musl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.5-r21?arch=x86_64&distro=3.23.3 
@@ -1696,7 +2494,7 @@
 │                       │      │                         /13 
 │                       │      ├ PublishedDate   : 2026-04-10T17:17:14.107Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T19:18:46.69Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2026-6042 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2026-6042 
 │                       │      ├ PkgID           : musl@1.2.5-r21 
 │                       │      ├ PkgName         : musl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.5-r21?arch=x86_64&distro=3.23.3 
@@ -1742,7 +2540,7 @@
 │                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/04/03/2 
 │                       │      ├ PublishedDate   : 2026-04-10T09:16:25.45Z 
 │                       │      ╰ LastModifiedDate: 2026-04-24T18:01:13.913Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2026-40200 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2026-40200 
 │                       │      ├ PkgID           : musl-utils@1.2.5-r21 
 │                       │      ├ PkgName         : musl-utils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.5-r21?arch=x86_64&distr
@@ -1785,7 +2583,7 @@
 │                       │      │                         /13 
 │                       │      ├ PublishedDate   : 2026-04-10T17:17:14.107Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T19:18:46.69Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2026-6042 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2026-6042 
 │                       │      ├ PkgID           : musl-utils@1.2.5-r21 
 │                       │      ├ PkgName         : musl-utils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.5-r21?arch=x86_64&distr
@@ -1832,7 +2630,7 @@
 │                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/04/03/2 
 │                       │      ├ PublishedDate   : 2026-04-10T09:16:25.45Z 
 │                       │      ╰ LastModifiedDate: 2026-04-24T18:01:13.913Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2026-27135 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2026-27135 
 │                       │      ├ PkgID           : nghttp2-libs@1.68.0-r0 
 │                       │      ├ PkgName         : nghttp2-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/nghttp2-libs@1.68.0-r0?arch=x86_64&dis
@@ -1906,7 +2704,7 @@
 │                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2026-27135 
 │                       │      ├ PublishedDate   : 2026-03-18T18:16:26.723Z 
 │                       │      ╰ LastModifiedDate: 2026-05-13T22:16:42.337Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2026-31789 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -1966,7 +2764,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
 │                       │      │                  ├ nvd   : 4 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 4 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
@@ -1997,7 +2795,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:34.57Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2026-28387 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2026-28387 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -2087,7 +2885,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:33.27Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2026-28388 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -2186,7 +2984,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:33.453Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2026-28389 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -2276,7 +3074,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:33.637Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2026-28390 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2026-28390 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -2367,7 +3165,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:33.81Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -2473,9 +3271,9 @@
 │                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                  │        │           /A:N 
 │                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 4.2 
+│                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/13/3 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-2673 
 │                       │      │                  ├ [2]: https://cert-portal.siemens.com/productcert/html/ssa-0
@@ -2491,7 +3289,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │      ╰ LastModifiedDate: 2026-05-13T19:17:04.947Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2026-31790 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │      ├ PkgID           : openssl@3.5.5-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.5-r0?arch=x86_64&distro=3.
@@ -2584,7 +3382,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │      ╰ LastModifiedDate: 2026-05-12T13:17:34.75Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2026-22184 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2026-22184 
 │                       │      ├ PkgID           : zlib@1.3.1-r2 
 │                       │      ├ PkgName         : zlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.23.3 
@@ -2634,7 +3432,7 @@
 │                       │      │                  ╰ [7]: https://zlib.net/ 
 │                       │      ├ PublishedDate   : 2026-01-07T21:16:01.563Z 
 │                       │      ╰ LastModifiedDate: 2026-03-18T16:26:31.14Z 
-│                       ╰ [31] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ╰ [45] ╭ VulnerabilityID : CVE-2026-27171 
 │                              ├ PkgID           : zlib@1.3.1-r2 
 │                              ├ PkgName         : zlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.23.3 
