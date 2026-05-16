@@ -12,16 +12,16 @@
 │                       │     ├ InstalledVersion: 1.2.5-r21 
 │                       │     ├ FixedVersion    : 1.2.6-r2 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:0ef3a91c36726efab1269dd9c3abc8a440685bc969c07
-│                       │     │                  │         90d25a02b13fce6211c 
-│                       │     │                  ╰ DiffID: sha256:e59422f95c0cb1102cc1878ace1b679abc675b89621ce
-│                       │     │                            d12149eed6c33c73148 
+│                       │     ├ Layer            ╭ Digest: sha256:ed2220f07a5ae25c88220577bd661852f0988882c89d1
+│                       │     │                  │         b2eb84f70ac831f7fe0 
+│                       │     │                  ╰ DiffID: sha256:2093bb861d16dece8af7c6d8f278cc2be9939d45afdc1
+│                       │     │                            ab96816089b86ca2e2e 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-40200 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:25ebb20ac3175581209e744c18b50969eea4d057dc4e663ed6a4bb
-│                       │     │                   f8432905ad 
+│                       │     ├ Fingerprint     : sha256:749ed71dd08fee74cf457f91c1f0f2bf0656a5f15cbc9d05ce61e1
+│                       │     │                   1275a34e50 
 │                       │     ├ Title           : musl: musl libc: Arbitrary code execution and denial of
 │                       │     │                   service via stack-based memory corruption in qsort 
 │                       │     ├ Description     : An issue was discovered in musl libc 0.7.10 through 1.2.6.
@@ -54,16 +54,16 @@
 │                       │     ├ InstalledVersion: 1.2.5-r21 
 │                       │     ├ FixedVersion    : 1.2.6-r1 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:0ef3a91c36726efab1269dd9c3abc8a440685bc969c07
-│                       │     │                  │         90d25a02b13fce6211c 
-│                       │     │                  ╰ DiffID: sha256:e59422f95c0cb1102cc1878ace1b679abc675b89621ce
-│                       │     │                            d12149eed6c33c73148 
+│                       │     ├ Layer            ╭ Digest: sha256:ed2220f07a5ae25c88220577bd661852f0988882c89d1
+│                       │     │                  │         b2eb84f70ac831f7fe0 
+│                       │     │                  ╰ DiffID: sha256:2093bb861d16dece8af7c6d8f278cc2be9939d45afdc1
+│                       │     │                            ab96816089b86ca2e2e 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6042 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:c42d7ea2ed67741425037ec4f862d6faa2c3664c33bb46d33a242f
-│                       │     │                   f903809e5a 
+│                       │     ├ Fingerprint     : sha256:0bc88463ee12b1fc2c15d9e8cdab23466e65542f65d9b31a36592f
+│                       │     │                   0ee9a19e43 
 │                       │     ├ Title           : musl libc: GB18030 4-byte Decoder: musl libc: Denial of
 │                       │     │                   Service via inefficient algorithmic complexity in iconv 
 │                       │     ├ Description     : A security flaw has been discovered in musl libc up to 1.2.6.
@@ -100,16 +100,16 @@
 │                       │     ├ InstalledVersion: 1.2.5-r21 
 │                       │     ├ FixedVersion    : 1.2.6-r2 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:0ef3a91c36726efab1269dd9c3abc8a440685bc969c07
-│                       │     │                  │         90d25a02b13fce6211c 
-│                       │     │                  ╰ DiffID: sha256:e59422f95c0cb1102cc1878ace1b679abc675b89621ce
-│                       │     │                            d12149eed6c33c73148 
+│                       │     ├ Layer            ╭ Digest: sha256:ed2220f07a5ae25c88220577bd661852f0988882c89d1
+│                       │     │                  │         b2eb84f70ac831f7fe0 
+│                       │     │                  ╰ DiffID: sha256:2093bb861d16dece8af7c6d8f278cc2be9939d45afdc1
+│                       │     │                            ab96816089b86ca2e2e 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-40200 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:6f991fba3e3cee3bffdfc1562841d834181390950b0688b9568fc4
-│                       │     │                   96e4a3d0dd 
+│                       │     ├ Fingerprint     : sha256:5cf825f9664489f22a40c017514fd3812649a7029dd3c6ba2d6a02
+│                       │     │                   f5b658a55c 
 │                       │     ├ Title           : musl: musl libc: Arbitrary code execution and denial of
 │                       │     │                   service via stack-based memory corruption in qsort 
 │                       │     ├ Description     : An issue was discovered in musl libc 0.7.10 through 1.2.6.
@@ -142,16 +142,16 @@
 │                       │     ├ InstalledVersion: 1.2.5-r21 
 │                       │     ├ FixedVersion    : 1.2.6-r1 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:0ef3a91c36726efab1269dd9c3abc8a440685bc969c07
-│                       │     │                  │         90d25a02b13fce6211c 
-│                       │     │                  ╰ DiffID: sha256:e59422f95c0cb1102cc1878ace1b679abc675b89621ce
-│                       │     │                            d12149eed6c33c73148 
+│                       │     ├ Layer            ╭ Digest: sha256:ed2220f07a5ae25c88220577bd661852f0988882c89d1
+│                       │     │                  │         b2eb84f70ac831f7fe0 
+│                       │     │                  ╰ DiffID: sha256:2093bb861d16dece8af7c6d8f278cc2be9939d45afdc1
+│                       │     │                            ab96816089b86ca2e2e 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6042 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:51e726ea4a916e983d8e929f5feb199c9f4a3c58af4712367531e7
-│                       │     │                   44dc9b0096 
+│                       │     ├ Fingerprint     : sha256:fbd67b144ef9d52341caa3b0fd5ec520aa252ab5cfb400a01e42af
+│                       │     │                   68b369305d 
 │                       │     ├ Title           : musl libc: GB18030 4-byte Decoder: musl libc: Denial of
 │                       │     │                   Service via inefficient algorithmic complexity in iconv 
 │                       │     ├ Description     : A security flaw has been discovered in musl libc up to 1.2.6.
@@ -188,17 +188,17 @@
 │                       │     ├ InstalledVersion: 1.3.1-r2 
 │                       │     ├ FixedVersion    : 1.3.2-r0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:0ef3a91c36726efab1269dd9c3abc8a440685bc969c07
-│                       │     │                  │         90d25a02b13fce6211c 
-│                       │     │                  ╰ DiffID: sha256:e59422f95c0cb1102cc1878ace1b679abc675b89621ce
-│                       │     │                            d12149eed6c33c73148 
+│                       │     ├ Layer            ╭ Digest: sha256:ed2220f07a5ae25c88220577bd661852f0988882c89d1
+│                       │     │                  │         b2eb84f70ac831f7fe0 
+│                       │     │                  ╰ DiffID: sha256:2093bb861d16dece8af7c6d8f278cc2be9939d45afdc1
+│                       │     │                            ab96816089b86ca2e2e 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22184 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:cfbe4f0077616cedb6da604982bfa6f1400b4c5003e815886c5ee2
-│                       │     │                   83dfe1bf26 
+│                       │     ├ Fingerprint     : sha256:73a81e67d474e260cc1797c2dde1f444a28e1df6fdfe30a0427372
+│                       │     │                   54c375c7cd 
 │                       │     ├ Title           : zlib: zlib: Arbitrary code execution via buffer overflow in
 │                       │     │                   untgz utility 
 │                       │     ├ Description     : zlib versions up to and including 1.3.1.2 include a global
@@ -239,17 +239,17 @@
 │                             ├ InstalledVersion: 1.3.1-r2 
 │                             ├ FixedVersion    : 1.3.2-r0 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:0ef3a91c36726efab1269dd9c3abc8a440685bc969c07
-│                             │                  │         90d25a02b13fce6211c 
-│                             │                  ╰ DiffID: sha256:e59422f95c0cb1102cc1878ace1b679abc675b89621ce
-│                             │                            d12149eed6c33c73148 
+│                             ├ Layer            ╭ Digest: sha256:ed2220f07a5ae25c88220577bd661852f0988882c89d1
+│                             │                  │         b2eb84f70ac831f7fe0 
+│                             │                  ╰ DiffID: sha256:2093bb861d16dece8af7c6d8f278cc2be9939d45afdc1
+│                             │                            ab96816089b86ca2e2e 
 │                             ├ SeveritySource  : nvd 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27171 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:b9b7d27aeaf9887274a3d3595b5f8aded4da099dd158b9ea4a14fa
-│                             │                   023b113797 
+│                             ├ Fingerprint     : sha256:1baa31af80065fcf6a1f9608e30c949177b9b7431da2a47df7aaad
+│                             │                   a80437b61f 
 │                             ├ Title           : zlib: zlib: Denial of Service via infinite loop in CRC32
 │                             │                   combine functions 
 │                             ├ Description     : zlib before 1.3.2 allows CPU consumption via crc32_combine64
