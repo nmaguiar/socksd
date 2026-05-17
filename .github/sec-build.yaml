@@ -372,6 +372,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 2
       julia: 3
       photon: 3
       redhat: 2
@@ -764,6 +765,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 2
       julia: 3
       photon: 3
       redhat: 2
