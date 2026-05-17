@@ -1064,6 +1064,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 2
       julia: 3
       photon: 3
       redhat: 2
@@ -1897,54 +1898,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-14524
     PublishedDate: '2026-01-08T10:15:46.607Z'
     LastModifiedDate: '2026-01-20T14:53:11.017Z'
-  - VulnerabilityID: CVE-2025-14819
-    PkgID: curl-minimal@7.76.1-35.el9_7.3.x86_64
-    PkgName: curl-minimal
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-35.el9_7.3?arch=x86_64&distro=redhat-9.7
-      UID: 5c3c37110f1a69df
-    InstalledVersion: 7.76.1-35.el9_7.3
-    Status: affected
-    Layer:
-      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
-      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14819
-    Fingerprint: sha256:0aedc78d8acf60676d1180a1251c1af257dd24800b178fc835cacfc469985820
-    Title: 'curl: libcurl: Improper certificate validation due to cached TLS settings reuse'
-    Description: |-
-      When doing TLS related transfers with reused easy or multi handles and
-      altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl could accidentally
-      reuse a CA store cached in memory for which the partial chain option was
-      reversed. Contrary to the user's wishes and expectations. This could make
-      libcurl find and accept a trust chain that it otherwise would not.
-    Severity: LOW
-    CweIDs:
-    - CWE-295
-    VendorSeverity:
-      amazon: 2
-      julia: 2
-      photon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      julia:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
-        V3Score: 6.8
-    References:
-    - http://www.openwall.com/lists/oss-security/2026/01/07/5
-    - https://access.redhat.com/security/cve/CVE-2025-14819
-    - https://curl.se/docs/CVE-2025-14819.html
-    - https://curl.se/docs/CVE-2025-14819.json
-    - https://github.com/advisories/GHSA-vqhr-m87q-9jqh
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-14819
-    - https://ubuntu.com/security/notices/USN-8062-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-14819
-    PublishedDate: '2026-01-08T10:15:46.73Z'
-    LastModifiedDate: '2026-01-20T14:51:26.263Z'
   - VulnerabilityID: CVE-2025-15079
     PkgID: curl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: curl-minimal
@@ -2313,6 +2266,7 @@
     CweIDs:
     - CWE-331
     VendorSeverity:
+      amazon: 1
       photon: 3
       redhat: 1
     CVSS:
@@ -5222,6 +5176,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 2
       julia: 3
       photon: 3
       redhat: 2
@@ -6055,54 +6010,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-14524
     PublishedDate: '2026-01-08T10:15:46.607Z'
     LastModifiedDate: '2026-01-20T14:53:11.017Z'
-  - VulnerabilityID: CVE-2025-14819
-    PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
-    PkgName: libcurl-minimal
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-35.el9_7.3?arch=x86_64&distro=redhat-9.7
-      UID: a76262d92731cf12
-    InstalledVersion: 7.76.1-35.el9_7.3
-    Status: affected
-    Layer:
-      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
-      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14819
-    Fingerprint: sha256:4bffaa0dbf9071de54d4f89ede33b61c98cd3c26f63988fc4eab312806333a43
-    Title: 'curl: libcurl: Improper certificate validation due to cached TLS settings reuse'
-    Description: |-
-      When doing TLS related transfers with reused easy or multi handles and
-      altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl could accidentally
-      reuse a CA store cached in memory for which the partial chain option was
-      reversed. Contrary to the user's wishes and expectations. This could make
-      libcurl find and accept a trust chain that it otherwise would not.
-    Severity: LOW
-    CweIDs:
-    - CWE-295
-    VendorSeverity:
-      amazon: 2
-      julia: 2
-      photon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      julia:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
-        V3Score: 6.8
-    References:
-    - http://www.openwall.com/lists/oss-security/2026/01/07/5
-    - https://access.redhat.com/security/cve/CVE-2025-14819
-    - https://curl.se/docs/CVE-2025-14819.html
-    - https://curl.se/docs/CVE-2025-14819.json
-    - https://github.com/advisories/GHSA-vqhr-m87q-9jqh
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-14819
-    - https://ubuntu.com/security/notices/USN-8062-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-14819
-    PublishedDate: '2026-01-08T10:15:46.73Z'
-    LastModifiedDate: '2026-01-20T14:51:26.263Z'
   - VulnerabilityID: CVE-2025-15079
     PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: libcurl-minimal
@@ -6313,6 +6220,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       azure: 1
       julia: 2
       redhat: 2
@@ -10161,6 +10069,7 @@
       amazon: 3
       azure: 2
       bitnami: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -10347,6 +10256,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      photon: 2
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -10865,7 +10775,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42308
     Fingerprint: sha256:ebe9a84a2d957f962049b30f69593842404314f5643159d0946fe0ab611299dd
-    Title: Pillow is a Python imaging library. Prior to version 12.2.0, if a font ...
+    Title: 'Pillow: python: Pillow: Denial of Service via integer overflow in font processing'
     Description: Pillow is a Python imaging library. Prior to version 12.2.0, if a font advances for each glyph by an exceeding large amount, when Pillow keeps track of the current position, it may lead to an integer overflow. This issue has been patched in version 12.2.0.
     Severity: MEDIUM
     CweIDs:
@@ -10887,11 +10797,16 @@
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-42308
     - https://github.com/python-pillow/Pillow
     - https://github.com/python-pillow/Pillow/releases/tag/12.2.0
     - https://github.com/python-pillow/Pillow/security/advisories/GHSA-wjx4-4jcj-g98j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42308
+    - https://www.cve.org/CVERecord?id=CVE-2026-42308
     PublishedDate: '2026-05-09T06:16:09.793Z'
     LastModifiedDate: '2026-05-12T17:57:20.027Z'
   - VulnerabilityID: CVE-2026-5713
@@ -11174,6 +11089,7 @@
       amazon: 3
       azure: 2
       bitnami: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -11360,6 +11276,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      photon: 2
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -11878,7 +11795,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42308
     Fingerprint: sha256:2796ec699b20a81661571fbf917fd5242475c17f55b36624fc0ded8f1366706a
-    Title: Pillow is a Python imaging library. Prior to version 12.2.0, if a font ...
+    Title: 'Pillow: python: Pillow: Denial of Service via integer overflow in font processing'
     Description: Pillow is a Python imaging library. Prior to version 12.2.0, if a font advances for each glyph by an exceeding large amount, when Pillow keeps track of the current position, it may lead to an integer overflow. This issue has been patched in version 12.2.0.
     Severity: MEDIUM
     CweIDs:
@@ -11900,11 +11817,16 @@
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-42308
     - https://github.com/python-pillow/Pillow
     - https://github.com/python-pillow/Pillow/releases/tag/12.2.0
     - https://github.com/python-pillow/Pillow/security/advisories/GHSA-wjx4-4jcj-g98j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42308
+    - https://www.cve.org/CVERecord?id=CVE-2026-42308
     PublishedDate: '2026-05-09T06:16:09.793Z'
     LastModifiedDate: '2026-05-12T17:57:20.027Z'
   - VulnerabilityID: CVE-2026-5713
@@ -12187,6 +12109,7 @@
       amazon: 3
       azure: 2
       bitnami: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -12373,6 +12296,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      photon: 2
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -12891,7 +12815,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42308
     Fingerprint: sha256:e856e6aeea8b20a156a9c6268339ad9195b02c0a01e51f2cb131678bf02a95c2
-    Title: Pillow is a Python imaging library. Prior to version 12.2.0, if a font ...
+    Title: 'Pillow: python: Pillow: Denial of Service via integer overflow in font processing'
     Description: Pillow is a Python imaging library. Prior to version 12.2.0, if a font advances for each glyph by an exceeding large amount, when Pillow keeps track of the current position, it may lead to an integer overflow. This issue has been patched in version 12.2.0.
     Severity: MEDIUM
     CweIDs:
@@ -12913,11 +12837,16 @@
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-42308
     - https://github.com/python-pillow/Pillow
     - https://github.com/python-pillow/Pillow/releases/tag/12.2.0
     - https://github.com/python-pillow/Pillow/security/advisories/GHSA-wjx4-4jcj-g98j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42308
+    - https://www.cve.org/CVERecord?id=CVE-2026-42308
     PublishedDate: '2026-05-09T06:16:09.793Z'
     LastModifiedDate: '2026-05-12T17:57:20.027Z'
   - VulnerabilityID: CVE-2026-5713
