@@ -383,7 +383,8 @@
 │                       │      │                   a data pointer pointing into already freed memory. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ julia : 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ julia : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
@@ -791,7 +792,8 @@
 │                              │                   a data pointer pointing into already freed memory. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-416 
-│                              ├ VendorSeverity   ╭ julia : 3 
+│                              ├ VendorSeverity   ╭ amazon: 2 
+│                              │                  ├ julia : 3 
 │                              │                  ├ photon: 3 
 │                              │                  ├ redhat: 2 
 │                              │                  ╰ ubuntu: 2 
