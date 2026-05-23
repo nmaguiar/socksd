@@ -3,818 +3,7 @@
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
 │     ├ Packages        
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2025-14017 
-│                       │      ├ PkgID           : curl@8.17.0-r1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.4 
-│                       │      │                  ╰ UID : 1681fc3d2c57fb44 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14017 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1b7ce7a2593935c67af0a33a506b3eadd8f2849ff7f42a3b6fdfc
-│                       │      │                   8e70155ae59 
-│                       │      ├ Title           : curl: curl: Security bypass due to global TLS option changes
-│                       │      │                    in multi-threaded LDAPS transfers 
-│                       │      ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
-│                       │      │                   with libcurl,
-│                       │      │                   changing TLS options in one thread would inadvertently
-│                       │      │                   change them globally
-│                       │      │                   and therefore possibly also affect other concurrently setup
-│                       │      │                   transfers.
-│                       │      │                   
-│                       │      │                   Disabling certificate verification for a specific transfer
-│                       │      │                   could
-│                       │      │                   unintentionally disable the feature for other threads as
-│                       │      │                   well. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ julia      : 2 
-│                       │      │                  ├ photon     : 2 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H
-│                       │      │                  │        │           /A:N 
-│                       │      │                  │        ╰ V3Score : 6.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/3 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14017 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14017.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14017.json 
-│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-jh4h-2cg6-889h 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8062-2 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
-│                       │      ╰ LastModifiedDate: 2026-01-27T21:29:39.953Z 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-1965 
-│                       │      ├ PkgID           : curl@8.17.0-r1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.4 
-│                       │      │                  ╰ UID : 1681fc3d2c57fb44 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1965 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1d178f178005e999f65f0d615aca273304d5b38adb576b33316ad
-│                       │      │                   c518c33ad8a 
-│                       │      ├ Title           : curl: curl: Authentication bypass due to incorrect
-│                       │      │                   connection reuse with Negotiate authentication 
-│                       │      ├ Description     : libcurl can in some circumstances reuse the wrong connection
-│                       │      │                    when asked to do
-│                       │      │                   an Negotiate-authenticated HTTP or HTTPS request.
-│                       │      │                   
-│                       │      │                   libcurl features a pool of recent connections so that
-│                       │      │                   subsequent requests can
-│                       │      │                   reuse an existing connection to avoid overhead.
-│                       │      │                   When reusing a connection a range of criterion must first be
-│                       │      │                    met. Due to a
-│                       │      │                   logical error in the code, a request that was issued by an
-│                       │      │                   application could
-│                       │      │                   wrongfully reuse an existing connection to the same server
-│                       │      │                   that was
-│                       │      │                   authenticated using different credentials. One underlying
-│                       │      │                   reason being that
-│                       │      │                   Negotiate sometimes authenticates *connections* and not
-│                       │      │                   *requests*, contrary
-│                       │      │                   to how HTTP is designed to work.
-│                       │      │                   An application that allows Negotiate authentication to a
-│                       │      │                   server (that responds
-│                       │      │                   wanting Negotiate) with `user1:password1` and then does
-│                       │      │                   another operation to
-│                       │      │                   the same server also using Negotiate but with
-│                       │      │                   `user2:password2` (while the
-│                       │      │                   previous connection is still alive) - the second request
-│                       │      │                   wrongly reused the
-│                       │      │                   same connection and since it then sees that the Negotiate
-│                       │      │                   negotiation is
-│                       │      │                   already made, it just sends the request over that connection
-│                       │      │                    thinking it uses
-│                       │      │                   the user2 credentials when it is in fact still using the
-│                       │      │                   connection
-│                       │      │                   authenticated for user1...
-│                       │      │                   The set of authentication methods to use is set with 
-│                       │      │                   `CURLOPT_HTTPAUTH`.
-│                       │      │                   Applications can disable libcurl's reuse of connections and
-│                       │      │                   thus mitigate this
-│                       │      │                   problem, by using one of the following libcurl options to
-│                       │      │                   alter how
-│                       │      │                   connections are or are not reused: `CURLOPT_FRESH_CONNECT`,
-│                       │      │                   `CURLOPT_MAXCONNECTS` and `CURLMOPT_MAX_HOST_CONNECTIONS`
-│                       │      │                   (if using the
-│                       │      │                   curl_multi API). 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-305 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
-│                       │      │                  ├ julia : 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H
-│                       │      │                  │        │           /A:N 
-│                       │      │                  │        ╰ V3Score : 6.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 6.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-1965 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-1965.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-1965.json 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-1965 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8099-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
-│                       │      ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
-│                       │      ╰ LastModifiedDate: 2026-03-12T14:11:19.07Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-3783 
-│                       │      ├ PkgID           : curl@8.17.0-r1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.4 
-│                       │      │                  ╰ UID : 1681fc3d2c57fb44 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3783 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1c55c96e747a8fec1172cae883f8f7b730cc51ee0dcae8ec36530
-│                       │      │                   6e1083ee83f 
-│                       │      ├ Title           : curl: curl: Information disclosure via OAuth2 bearer token
-│                       │      │                   leakage during HTTP(S) redirect 
-│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
-│                       │      │                    and that transfer
-│                       │      │                   performs a redirect to a second URL, curl could leak that
-│                       │      │                   token to the second
-│                       │      │                   hostname under some circumstances.
-│                       │      │                   
-│                       │      │                   If the hostname that the first request is redirected to has
-│                       │      │                   information in the
-│                       │      │                   used .netrc file, with either of the `machine` or `default`
-│                       │      │                   keywords, curl
-│                       │      │                   would pass on the bearer token set for the first host also
-│                       │      │                   to the second one. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-522 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
-│                       │      │                  ├ julia : 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
-│                       │      │                  │        │           /A:N 
-│                       │      │                  │        ╰ V3Score : 5.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 5.7 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/2 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3783 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3783.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-3783.json 
-│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-8whr-249c-vfjp 
-│                       │      │                  ├ [5]: https://hackerone.com/reports/3583983 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3783 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8099-1 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
-│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
-│                       │      ╰ LastModifiedDate: 2026-03-12T14:10:37.3Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-3784 
-│                       │      ├ PkgID           : curl@8.17.0-r1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.4 
-│                       │      │                  ╰ UID : 1681fc3d2c57fb44 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3784 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e83ef614d7ebb2dd865427a4fd56cc092e3309f9e5713c3e7b4de
-│                       │      │                   efcb1f4bbed 
-│                       │      ├ Title           : curl: curl: Unauthorized access due to improper HTTP proxy
-│                       │      │                   connection reuse 
-│                       │      ├ Description     : curl would wrongly reuse an existing HTTP proxy connection
-│                       │      │                   doing CONNECT to a
-│                       │      │                   server, even if the new request uses different credentials
-│                       │      │                   for the HTTP proxy.
-│                       │      │                   The proper behavior is to create or use a separate
-│                       │      │                   connection. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-305 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
-│                       │      │                  ├ julia : 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
-│                       │      │                  │        │           /A:N 
-│                       │      │                  │        ╰ V3Score : 6.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/3 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3784 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3784.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-3784.json 
-│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-5q3w-6p3j-mw6p 
-│                       │      │                  ├ [5]: https://hackerone.com/reports/3584903 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3784 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8099-1 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
-│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.437Z 
-│                       │      ╰ LastModifiedDate: 2026-03-12T14:09:50.47Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-3805 
-│                       │      ├ PkgID           : curl@8.17.0-r1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.4 
-│                       │      │                  ╰ UID : 1681fc3d2c57fb44 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3805 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c4981a109f3f868743aa83f00d4c152a8ba9787a125a34da3ff98
-│                       │      │                   73bff2dbce5 
-│                       │      ├ Title           : curl: curl: Arbitrary code execution or Denial of Service
-│                       │      │                   via use-after-free in SMB request handling 
-│                       │      ├ Description     : When doing a second SMB request to the same host again, curl
-│                       │      │                    would wrongly use
-│                       │      │                   a data pointer pointing into already freed memory. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ julia : 3 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                  │        │           /A:H 
-│                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/4 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3805 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3805.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-3805.json 
-│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-2289-hhfc-p684 
-│                       │      │                  ├ [5]: https://hackerone.com/reports/3591944 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3805 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-3805 
-│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.967Z 
-│                       │      ╰ LastModifiedDate: 2026-03-12T14:08:56.79Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-14524 
-│                       │      ├ PkgID           : curl@8.17.0-r1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.4 
-│                       │      │                  ╰ UID : 1681fc3d2c57fb44 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:58b00a39f00bd60595cff7cfb93a05cc2e8193a7d2923f8033af8
-│                       │      │                   bfbc76bd6cc 
-│                       │      ├ Title           : curl: Information disclosure via cross-protocol redirect
-│                       │      │                   with OAuth2 bearer token 
-│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
-│                       │      │                    and that transfer
-│                       │      │                   performs a cross-protocol redirect to a second URL that uses
-│                       │      │                    an IMAP, LDAP,
-│                       │      │                   POP3 or SMTP scheme, curl might wrongly pass on the bearer
-│                       │      │                   token to the new
-│                       │      │                   target host. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-601 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ julia      : 2 
-│                       │      │                  ├ photon     : 2 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 1 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
-│                       │      │                  │        │           /A:N 
-│                       │      │                  │        ╰ V3Score : 5.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14524 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14524.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14524.json 
-│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-g897-jvjx-78vg 
-│                       │      │                  ├ [5]: https://hackerone.com/reports/3459417 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-14524 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-14819 
-│                       │      ├ PkgID           : curl@8.17.0-r1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r1?arch=x86_64&distro=3.23.4 
-│                       │      │                  ╰ UID : 1681fc3d2c57fb44 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14819 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a515e820a5b81469c84df247cad45bbf21fcff057cb88a1e15635
-│                       │      │                   fd790ab7417 
-│                       │      ├ Title           : curl: libcurl: Improper certificate validation due to cached
-│                       │      │                    TLS settings reuse 
-│                       │      ├ Description     : When doing TLS related transfers with reused easy or multi
-│                       │      │                   handles and
-│                       │      │                   altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl
-│                       │      │                   could accidentally
-│                       │      │                   reuse a CA store cached in memory for which the partial
-│                       │      │                   chain option was
-│                       │      │                   reversed. Contrary to the user's wishes and expectations.
-│                       │      │                   This could make
-│                       │      │                   libcurl find and accept a trust chain that it otherwise
-│                       │      │                   would not. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-295 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ julia : 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
-│                       │      │                  │        │           /A:N 
-│                       │      │                  │        ╰ V3Score : 5.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 6.8 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/5 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14819 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14819.json 
-│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-vqhr-m87q-9jqh 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-14819 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-14017 
-│                       │      ├ PkgID           : libcurl@8.17.0-r1 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
-│                       │      │                  │       .23.4 
-│                       │      │                  ╰ UID : 67c003c6efbeb161 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14017 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0e2b189e846143589d3addbf27dc35828ec5ce231867015707e17
-│                       │      │                   050de6c437d 
-│                       │      ├ Title           : curl: curl: Security bypass due to global TLS option changes
-│                       │      │                    in multi-threaded LDAPS transfers 
-│                       │      ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
-│                       │      │                   with libcurl,
-│                       │      │                   changing TLS options in one thread would inadvertently
-│                       │      │                   change them globally
-│                       │      │                   and therefore possibly also affect other concurrently setup
-│                       │      │                   transfers.
-│                       │      │                   
-│                       │      │                   Disabling certificate verification for a specific transfer
-│                       │      │                   could
-│                       │      │                   unintentionally disable the feature for other threads as
-│                       │      │                   well. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ julia      : 2 
-│                       │      │                  ├ photon     : 2 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H
-│                       │      │                  │        │           /A:N 
-│                       │      │                  │        ╰ V3Score : 6.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/3 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14017 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14017.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14017.json 
-│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-jh4h-2cg6-889h 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8062-2 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
-│                       │      ╰ LastModifiedDate: 2026-01-27T21:29:39.953Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-1965 
-│                       │      ├ PkgID           : libcurl@8.17.0-r1 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
-│                       │      │                  │       .23.4 
-│                       │      │                  ╰ UID : 67c003c6efbeb161 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1965 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:8da89a9e4c2aa00a5dce153fec98b727b73a5952a400c7832c027
-│                       │      │                   de415789000 
-│                       │      ├ Title           : curl: curl: Authentication bypass due to incorrect
-│                       │      │                   connection reuse with Negotiate authentication 
-│                       │      ├ Description     : libcurl can in some circumstances reuse the wrong connection
-│                       │      │                    when asked to do
-│                       │      │                   an Negotiate-authenticated HTTP or HTTPS request.
-│                       │      │                   
-│                       │      │                   libcurl features a pool of recent connections so that
-│                       │      │                   subsequent requests can
-│                       │      │                   reuse an existing connection to avoid overhead.
-│                       │      │                   When reusing a connection a range of criterion must first be
-│                       │      │                    met. Due to a
-│                       │      │                   logical error in the code, a request that was issued by an
-│                       │      │                   application could
-│                       │      │                   wrongfully reuse an existing connection to the same server
-│                       │      │                   that was
-│                       │      │                   authenticated using different credentials. One underlying
-│                       │      │                   reason being that
-│                       │      │                   Negotiate sometimes authenticates *connections* and not
-│                       │      │                   *requests*, contrary
-│                       │      │                   to how HTTP is designed to work.
-│                       │      │                   An application that allows Negotiate authentication to a
-│                       │      │                   server (that responds
-│                       │      │                   wanting Negotiate) with `user1:password1` and then does
-│                       │      │                   another operation to
-│                       │      │                   the same server also using Negotiate but with
-│                       │      │                   `user2:password2` (while the
-│                       │      │                   previous connection is still alive) - the second request
-│                       │      │                   wrongly reused the
-│                       │      │                   same connection and since it then sees that the Negotiate
-│                       │      │                   negotiation is
-│                       │      │                   already made, it just sends the request over that connection
-│                       │      │                    thinking it uses
-│                       │      │                   the user2 credentials when it is in fact still using the
-│                       │      │                   connection
-│                       │      │                   authenticated for user1...
-│                       │      │                   The set of authentication methods to use is set with 
-│                       │      │                   `CURLOPT_HTTPAUTH`.
-│                       │      │                   Applications can disable libcurl's reuse of connections and
-│                       │      │                   thus mitigate this
-│                       │      │                   problem, by using one of the following libcurl options to
-│                       │      │                   alter how
-│                       │      │                   connections are or are not reused: `CURLOPT_FRESH_CONNECT`,
-│                       │      │                   `CURLOPT_MAXCONNECTS` and `CURLMOPT_MAX_HOST_CONNECTIONS`
-│                       │      │                   (if using the
-│                       │      │                   curl_multi API). 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-305 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
-│                       │      │                  ├ julia : 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H
-│                       │      │                  │        │           /A:N 
-│                       │      │                  │        ╰ V3Score : 6.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 6.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-1965 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-1965.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-1965.json 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-1965 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8099-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
-│                       │      ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
-│                       │      ╰ LastModifiedDate: 2026-03-12T14:11:19.07Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-3783 
-│                       │      ├ PkgID           : libcurl@8.17.0-r1 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
-│                       │      │                  │       .23.4 
-│                       │      │                  ╰ UID : 67c003c6efbeb161 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3783 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:57dd9c7d98d8c2d0c28eec90d9b688a1775980496c17867738efc
-│                       │      │                   51994a1930f 
-│                       │      ├ Title           : curl: curl: Information disclosure via OAuth2 bearer token
-│                       │      │                   leakage during HTTP(S) redirect 
-│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
-│                       │      │                    and that transfer
-│                       │      │                   performs a redirect to a second URL, curl could leak that
-│                       │      │                   token to the second
-│                       │      │                   hostname under some circumstances.
-│                       │      │                   
-│                       │      │                   If the hostname that the first request is redirected to has
-│                       │      │                   information in the
-│                       │      │                   used .netrc file, with either of the `machine` or `default`
-│                       │      │                   keywords, curl
-│                       │      │                   would pass on the bearer token set for the first host also
-│                       │      │                   to the second one. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-522 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
-│                       │      │                  ├ julia : 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
-│                       │      │                  │        │           /A:N 
-│                       │      │                  │        ╰ V3Score : 5.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 5.7 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/2 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3783 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3783.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-3783.json 
-│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-8whr-249c-vfjp 
-│                       │      │                  ├ [5]: https://hackerone.com/reports/3583983 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3783 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8099-1 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
-│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
-│                       │      ╰ LastModifiedDate: 2026-03-12T14:10:37.3Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2026-3784 
-│                       │      ├ PkgID           : libcurl@8.17.0-r1 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
-│                       │      │                  │       .23.4 
-│                       │      │                  ╰ UID : 67c003c6efbeb161 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3784 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:121483d362ba584ddf829f5b7b04468a9dbaccdd3798a110d2edb
-│                       │      │                   90e5440543c 
-│                       │      ├ Title           : curl: curl: Unauthorized access due to improper HTTP proxy
-│                       │      │                   connection reuse 
-│                       │      ├ Description     : curl would wrongly reuse an existing HTTP proxy connection
-│                       │      │                   doing CONNECT to a
-│                       │      │                   server, even if the new request uses different credentials
-│                       │      │                   for the HTTP proxy.
-│                       │      │                   The proper behavior is to create or use a separate
-│                       │      │                   connection. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-305 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
-│                       │      │                  ├ julia : 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
-│                       │      │                  │        │           /A:N 
-│                       │      │                  │        ╰ V3Score : 6.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/3 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3784 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3784.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-3784.json 
-│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-5q3w-6p3j-mw6p 
-│                       │      │                  ├ [5]: https://hackerone.com/reports/3584903 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3784 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8099-1 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
-│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.437Z 
-│                       │      ╰ LastModifiedDate: 2026-03-12T14:09:50.47Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2026-3805 
-│                       │      ├ PkgID           : libcurl@8.17.0-r1 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
-│                       │      │                  │       .23.4 
-│                       │      │                  ╰ UID : 67c003c6efbeb161 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3805 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a0feb3d09328cc2c215320a5c7d2f4d9933734c50079fc8edb431
-│                       │      │                   0a7efd2dd48 
-│                       │      ├ Title           : curl: curl: Arbitrary code execution or Denial of Service
-│                       │      │                   via use-after-free in SMB request handling 
-│                       │      ├ Description     : When doing a second SMB request to the same host again, curl
-│                       │      │                    would wrongly use
-│                       │      │                   a data pointer pointing into already freed memory. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ julia : 3 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                  │        │           /A:H 
-│                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/4 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3805 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3805.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-3805.json 
-│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-2289-hhfc-p684 
-│                       │      │                  ├ [5]: https://hackerone.com/reports/3591944 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3805 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-3805 
-│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.967Z 
-│                       │      ╰ LastModifiedDate: 2026-03-12T14:08:56.79Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2025-14524 
-│                       │      ├ PkgID           : libcurl@8.17.0-r1 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
-│                       │      │                  │       .23.4 
-│                       │      │                  ╰ UID : 67c003c6efbeb161 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:57be71b3a96d132fca6c783e0c79468c158ec0452198b6de19b10
-│                       │      │                   bff0cb3cd51 
-│                       │      ├ Title           : curl: Information disclosure via cross-protocol redirect
-│                       │      │                   with OAuth2 bearer token 
-│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
-│                       │      │                    and that transfer
-│                       │      │                   performs a cross-protocol redirect to a second URL that uses
-│                       │      │                    an IMAP, LDAP,
-│                       │      │                   POP3 or SMTP scheme, curl might wrongly pass on the bearer
-│                       │      │                   token to the new
-│                       │      │                   target host. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-601 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ julia      : 2 
-│                       │      │                  ├ photon     : 2 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 1 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
-│                       │      │                  │        │           /A:N 
-│                       │      │                  │        ╰ V3Score : 5.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14524 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14524.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14524.json 
-│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-g897-jvjx-78vg 
-│                       │      │                  ├ [5]: https://hackerone.com/reports/3459417 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-14524 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2025-14819 
-│                       │      ├ PkgID           : libcurl@8.17.0-r1 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r1?arch=x86_64&distro=3
-│                       │      │                  │       .23.4 
-│                       │      │                  ╰ UID : 67c003c6efbeb161 
-│                       │      ├ InstalledVersion: 8.17.0-r1 
-│                       │      ├ FixedVersion    : 8.19.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14819 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9832e124bba33b24a995d2be378d4c1c70b8e95e329cc35d86386
-│                       │      │                   3145d8c6791 
-│                       │      ├ Title           : curl: libcurl: Improper certificate validation due to cached
-│                       │      │                    TLS settings reuse 
-│                       │      ├ Description     : When doing TLS related transfers with reused easy or multi
-│                       │      │                   handles and
-│                       │      │                   altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl
-│                       │      │                   could accidentally
-│                       │      │                   reuse a CA store cached in memory for which the partial
-│                       │      │                   chain option was
-│                       │      │                   reversed. Contrary to the user's wishes and expectations.
-│                       │      │                   This could make
-│                       │      │                   libcurl find and accept a trust chain that it otherwise
-│                       │      │                   would not. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-295 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ julia : 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
-│                       │      │                  │        │           /A:N 
-│                       │      │                  │        ╰ V3Score : 5.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 6.8 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/5 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14819 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14819.json 
-│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-vqhr-m87q-9jqh 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-14819 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2026-40930 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2026-40930 
 │                       │      ├ PkgID           : libpng@1.6.57-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.57-r0?arch=x86_64&distro=3.
@@ -823,18 +12,18 @@
 │                       │      ├ InstalledVersion: 1.6.57-r0 
 │                       │      ├ FixedVersion    : 1.6.58-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-40930 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:42ece2547a82b23b6f4c105a5fac7e64e8d1381596a660ae17b0b
-│                       │      │                   d60863c31cd 
+│                       │      ├ Fingerprint     : sha256:de8e7a3201d04c33f1fba37c33807d5f6eee9fac312dedf01947b
+│                       │      │                   5d13d830d6c 
 │                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2026-22016 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-22016 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_6
@@ -843,16 +32,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22016 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5d1180b7adf77790ef82a3005d07c6c1618b40ed6f516d825b262
-│                       │      │                   d9959e76886 
+│                       │      ├ Fingerprint     : sha256:73e6fff23addcae90140cb8408d44a8655a8187435cdb3e3a7f2e
+│                       │      │                   846746dbfa7 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance Path Factories Redux (Oracle CPU
 │                       │      │                   2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -930,7 +119,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-04-21T21:16:28.47Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T12:16:20.87Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2026-34282 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-34282 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_6
@@ -939,16 +128,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34282 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ca314e817cce96b5b408211cd70e8f8760e0fe61313203bcf19dc
-│                       │      │                   991d56d57a6 
+│                       │      ├ Fingerprint     : sha256:c152cd2fd0c5f22c287dcbba7ff15b8256b4d01ad661c63ecb43e
+│                       │      │                   2528f3c43c6 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance TLS connection handling (Oracle
 │                       │      │                   CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1025,7 +214,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-04-21T21:16:32.643Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T12:20:14.86Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2026-22013 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-22013 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_6
@@ -1034,16 +223,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22013 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b4c2a13c5eb3dadbb4f45ade070b7f18d1a7b8c0e43364f8aae0e
-│                       │      │                   172c612d9d3 
+│                       │      ├ Fingerprint     : sha256:72c0d9fb9ed01ed90a39370bdb3d21674cda526566a869836d6fa
+│                       │      │                   5195dbbf93d 
 │                       │      ├ Title           : openjdk: OpenJDK: Improve Kerberos credentialing (Oracle CPU
 │                       │      │                    2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1122,7 +311,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-04-21T21:16:27.923Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T12:15:33.847Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2026-22021 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-22021 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_6
@@ -1131,16 +320,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22021 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2bdd7cc03eacb9be732c773790b8405a7ae7562bf9666b02b9b35
-│                       │      │                   d2b277968ee 
+│                       │      ├ Fingerprint     : sha256:6b9bdfd6bba3538bc3550019e5dc9528bbc7abbfc178c1e617ea5
+│                       │      │                   be4aa10ec2f 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance certificate chain validation
 │                       │      │                   (Oracle CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1216,7 +405,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-04-21T21:16:29.193Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T12:18:05.093Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2026-23865 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-23865 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_6
@@ -1225,16 +414,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-23865 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ada8384a85865f32baac6ecfb5373ad20b929e7514d4a75d077b2
-│                       │      │                   89012b00a98 
+│                       │      ├ Fingerprint     : sha256:1cb35619588771d0fa34994ad7630e9e74bfdb50b13e7b6e982d7
+│                       │      │                   a1dec90069e 
 │                       │      ├ Title           : freetype: Freetype: Information disclosure or denial of
 │                       │      │                   service via specially crafted font files 
 │                       │      ├ Description     : An integer overflow in the tt_var_load_item_variation_store
@@ -1310,7 +499,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-03-02T17:16:32.1Z 
 │                       │      ╰ LastModifiedDate: 2026-05-01T17:41:13.433Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2026-22007 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-22007 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_6
@@ -1319,16 +508,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22007 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9938e44267b39a871203b6b5b36210ed5f2c52a20bb21d1563981
-│                       │      │                   9c7edc685a2 
+│                       │      ├ Fingerprint     : sha256:b74ec5a080f26391063469ff08b9b6cd40f02fdd64268f91712cd
+│                       │      │                   80d3e4739a5 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance crypto algorithm support (Oracle
 │                       │      │                   CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1406,7 +595,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-04-21T21:16:26.44Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T12:14:24.013Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2026-22018 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-22018 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_6
@@ -1415,16 +604,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22018 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c0dd83e2cb9393370c2c0c02a6a8bf26e86690d0cf57f3d4c63e2
-│                       │      │                   67f861eb768 
+│                       │      ├ Fingerprint     : sha256:a83d22182c78ac89087a25c58a5ff85af45f6bef6fece2937a1e2
+│                       │      │                   0131136368e 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance Zip file reading (Oracle CPU
 │                       │      │                   2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1501,7 +690,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-04-21T21:16:28.833Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T12:17:18.483Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2026-34268 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-34268 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_6
@@ -1510,16 +699,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34268 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:53837e57bdbe199e7f4378e35db0801d7880db330363d9edb12b9
-│                       │      │                   2820d6170e1 
+│                       │      ├ Fingerprint     : sha256:a230358a7606c44bb2767b2545612a2437d7a4739ea540455007d
+│                       │      │                   01c77565348 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance key generation (Oracle CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1596,7 +785,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-04-21T21:16:30.353Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T12:19:01.973Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2026-22016 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-22016 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?a
@@ -1605,16 +794,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22016 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c9bb96e49413a6d415aaf1e45b89554027a5435f9de0c4ef3c4da
-│                       │      │                   5859009d5a2 
+│                       │      ├ Fingerprint     : sha256:591d5bdcd8de5594f3bef2cdc348e5bbbe45fa5bedae48e52e0d2
+│                       │      │                   2cf73813bd2 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance Path Factories Redux (Oracle CPU
 │                       │      │                   2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1692,7 +881,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-04-21T21:16:28.47Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T12:16:20.87Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2026-34282 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2026-34282 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?a
@@ -1701,16 +890,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34282 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:717ca84a649dd3cb1c101752cea9b884115015f533bd224a1e882
-│                       │      │                   52ddbcb2e49 
+│                       │      ├ Fingerprint     : sha256:404551d337ba4ab4cc81c931acb257d9036dadde63badae912b51
+│                       │      │                   0a442350fac 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance TLS connection handling (Oracle
 │                       │      │                   CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1787,7 +976,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-04-21T21:16:32.643Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T12:20:14.86Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2026-22013 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2026-22013 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?a
@@ -1796,16 +985,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22013 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:69479f44cb05dcc7ee87bd36b25c74a1bf5f51f4aa2d715fdac6d
-│                       │      │                   063f3eec760 
+│                       │      ├ Fingerprint     : sha256:1fc3eea6546567fec4faf888f70d5c23eb449124062dec3cdcf83
+│                       │      │                   6733e9f5320 
 │                       │      ├ Title           : openjdk: OpenJDK: Improve Kerberos credentialing (Oracle CPU
 │                       │      │                    2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1884,7 +1073,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-04-21T21:16:27.923Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T12:15:33.847Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2026-22021 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-22021 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?a
@@ -1893,16 +1082,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22021 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4ec5d5c670cd9bfc449734917e1a8e655022ec8c1cccee92755b1
-│                       │      │                   a029d5e3b93 
+│                       │      ├ Fingerprint     : sha256:e146a050dfcd967742b21dbc7d12912ab7d4dbab97b59a5080abe
+│                       │      │                   0155bfbaad2 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance certificate chain validation
 │                       │      │                   (Oracle CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1978,7 +1167,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-04-21T21:16:29.193Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T12:18:05.093Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2026-23865 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-23865 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?a
@@ -1987,16 +1176,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-23865 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4a95bafbf710d495ad3ebb906aec82c7433f95b6e41fdc6a64a13
-│                       │      │                   b92dc3c0254 
+│                       │      ├ Fingerprint     : sha256:f00fec0af9075e7d13593bd2c37a29282e1ed51d85ab15656f8c2
+│                       │      │                   0bd3513e6f8 
 │                       │      ├ Title           : freetype: Freetype: Information disclosure or denial of
 │                       │      │                   service via specially crafted font files 
 │                       │      ├ Description     : An integer overflow in the tt_var_load_item_variation_store
@@ -2072,7 +1261,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-03-02T17:16:32.1Z 
 │                       │      ╰ LastModifiedDate: 2026-05-01T17:41:13.433Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2026-22007 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-22007 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?a
@@ -2081,16 +1270,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22007 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0bd5f19b2b32e226803eae8f5e9cb09cdbd828b9182d16ac106a3
-│                       │      │                   4b2a4d3abf2 
+│                       │      ├ Fingerprint     : sha256:3dab86dc46082a8ee361fe8d70c80ccad2a09edbb914a3173bb71
+│                       │      │                   8c16ee4f793 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance crypto algorithm support (Oracle
 │                       │      │                   CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -2168,7 +1357,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-04-21T21:16:26.44Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T12:14:24.013Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2026-22018 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-22018 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?a
@@ -2177,16 +1366,16 @@
 │                       │      ├ InstalledVersion: 21.0.10_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.11_p10-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                       │      │                  │         2a1511164eecdee7a8f8 
-│                       │      │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                       │      │                            864c591a0203e94e7edc 
+│                       │      ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                       │      │                  │         261f7eea4e66bb70a227 
+│                       │      │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                       │      │                            906d5c48fdc6d6fef6b4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22018 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:18c553aef8a89d76c01ea6738d280e44f2fafe5f9a9acd6b76351
-│                       │      │                   cabc81e44a7 
+│                       │      ├ Fingerprint     : sha256:8de0cb06711b0663ec8428b67a21b9450c198a8913cb033580d8d
+│                       │      │                   51f79026475 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance Zip file reading (Oracle CPU
 │                       │      │                   2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -2263,7 +1452,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2026-04-21T21:16:28.833Z 
 │                       │      ╰ LastModifiedDate: 2026-04-27T12:17:18.483Z 
-│                       ╰ [30] ╭ VulnerabilityID : CVE-2026-34268 
+│                       ╰ [16] ╭ VulnerabilityID : CVE-2026-34268 
 │                              ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                              ├ PkgName         : openjdk21-jre-headless 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?a
@@ -2272,16 +1461,16 @@
 │                              ├ InstalledVersion: 21.0.10_p7-r0 
 │                              ├ FixedVersion    : 21.0.11_p10-r0 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b7
-│                              │                  │         2a1511164eecdee7a8f8 
-│                              │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf86
-│                              │                            864c591a0203e94e7edc 
+│                              ├ Layer            ╭ Digest: sha256:7b78013e4e2f825fc68de0c624fbc22d2cb3cf01851d
+│                              │                  │         261f7eea4e66bb70a227 
+│                              │                  ╰ DiffID: sha256:ed9bdc64c270d772bee56169b93269145da66da4808d
+│                              │                            906d5c48fdc6d6fef6b4 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34268 
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:0b94065b7a84bb60e4969b403c1e13b283d3e8128c818b5d2afab
-│                              │                   153fcc0bdc7 
+│                              ├ Fingerprint     : sha256:7e59fb355e2aef37d04271c78b5f037a7c4af69fc75ebf19b0918
+│                              │                   56542d35157 
 │                              ├ Title           : openjdk: OpenJDK: Enhance key generation (Oracle CPU 2026-04) 
 │                              ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                              │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
