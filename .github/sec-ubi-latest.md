@@ -2888,7 +2888,7 @@
 │                       │       │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-14512 
 │                       │       │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2026-15971.html 
-│                       │       │                  ├ [23]: https://errata.rockylinux.org/RLSA-2026:15971 
+│                       │       │                  ├ [23]: https://errata.rockylinux.org/RLSA-2026:15969 
 │                       │       │                  ├ [24]: https://github.com/advisories/GHSA-frh9-7wfp-w73p 
 │                       │       │                  ├ [25]: https://gitlab.gnome.org/GNOME/glib/-/issues/3834 
 │                       │       │                  ├ [26]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests
@@ -2969,7 +2969,7 @@
 │                       │       │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-14512 
 │                       │       │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2026-15971.html 
-│                       │       │                  ├ [22]: https://errata.rockylinux.org/RLSA-2026:15971 
+│                       │       │                  ├ [22]: https://errata.rockylinux.org/RLSA-2026:15969 
 │                       │       │                  ├ [23]: https://github.com/advisories/GHSA-2p5v-p767-wqv5 
 │                       │       │                  ├ [24]: https://gitlab.gnome.org/GNOME/glib/-/issues/3845 
 │                       │       │                  ├ [25]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests
@@ -3332,6 +3332,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-617 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -3594,6 +3595,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-617 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -3856,6 +3858,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-617 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -4652,7 +4655,7 @@
 │                       │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-66293 
 │                       │       │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2026-0238.html 
-│                       │       │                  ├ [15]: https://errata.rockylinux.org/RLSA-2026:0238 
+│                       │       │                  ├ [15]: https://errata.rockylinux.org/RLSA-2026:0237 
 │                       │       │                  ├ [16]: https://github.com/pnggroup/libpng/commit/788a624d73
 │                       │       │                  │       87a758ffd5c7ab010f1870dea753a1 
 │                       │       │                  ├ [17]: https://github.com/pnggroup/libpng/commit/a05a48b756
@@ -4761,7 +4764,7 @@
 │                       │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-25646 
 │                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-3405.html 
-│                       │       │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:3405 
+│                       │       │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:3551 
 │                       │       │                  ├ [14]: https://github.com/pnggroup/libpng/commit/01d03b8453
 │                       │       │                  │       eb30ade759cd45c707e5a1c7277d88 
 │                       │       │                  ├ [15]: https://github.com/pnggroup/libpng/security/advisori
@@ -4889,7 +4892,7 @@
 │                       │       │                   patched in version 1.6.51. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ amazon     : 2 
+│                       │       ├ VendorSeverity   ╭ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ photon     : 2 
@@ -5079,7 +5082,7 @@
 │                       │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-25646 
 │                       │       │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2026-3405.html 
-│                       │       │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:3405 
+│                       │       │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:3551 
 │                       │       │                  ├ [13]: https://github.com/pnggroup/libpng/commit/218612ddd6
 │                       │       │                  │       b17944e21eda56caf8b4bf7779d1ea 
 │                       │       │                  ├ [14]: https://github.com/pnggroup/libpng/commit/e4f7ad4ea2 
@@ -5159,7 +5162,7 @@
 │                       │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-25646 
 │                       │       │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2026-3405.html 
-│                       │       │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:3405 
+│                       │       │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:3551 
 │                       │       │                  ├ [13]: https://github.com/pnggroup/libpng/security/advisori
 │                       │       │                  │       es/GHSA-vgjq-8cw5-ggw8 
 │                       │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-22801.html 
@@ -5243,7 +5246,7 @@
 │                       │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-5734 
 │                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
-│                       │       │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:8459 
+│                       │       │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:9638 
 │                       │       │                  ├ [14]: https://github.com/pnggroup/libpng/commit/2301926976
 │                       │       │                  │       4e35ed8458e517f1897bd3c54820eb 
 │                       │       │                  ├ [15]: https://github.com/pnggroup/libpng/commit/7ea9eea884
@@ -5316,7 +5319,7 @@
 │                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-33636 
 │                       │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2026-9693.html 
-│                       │       │                  ├ [5] : https://errata.rockylinux.org/RLSA-2026:14791 
+│                       │       │                  ├ [5] : https://errata.rockylinux.org/RLSA-2026:14790 
 │                       │       │                  ├ [6] : https://github.com/pnggroup/libpng/commit/7734cda20c
 │                       │       │                  │       f1236aef60f3bbd2267c97bbb40869 
 │                       │       │                  ├ [7] : https://github.com/pnggroup/libpng/commit/aba9f18eba
@@ -5745,7 +5748,8 @@
 │                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2449010 
 │                       │       │                  ├ [3]: https://github.com/libarchive/libarchive/pull/2897 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-4426 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-4426 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8292-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-4426 
 │                       │       ├ PublishedDate   : 2026-03-19T15:16:28.51Z 
 │                       │       ╰ LastModifiedDate: 2026-05-03T21:16:11.863Z 
 │                       ├ [104] ╭ VulnerabilityID : CVE-2026-5745 
@@ -6182,7 +6186,7 @@
 │                       │       │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4878 
 │                       │       │                  ├ [20]: https://errata.almalinux.org/9/ALSA-2026-12441.html 
-│                       │       │                  ├ [21]: https://errata.rockylinux.org/RLSA-2026:12441 
+│                       │       │                  ├ [21]: https://errata.rockylinux.org/RLSA-2026:12423 
 │                       │       │                  ├ [22]: https://github.com/AndrewGMorgan/libcap_mirror/secur
 │                       │       │                  │       ity/advisories/GHSA-f78v-p5hx-m7hh 
 │                       │       │                  ├ [23]: https://linux.oracle.com/cve/CVE-2026-4878.html 
@@ -12815,7 +12819,7 @@
 │                       │       │                    not sanitized. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -13062,7 +13066,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -13175,7 +13179,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -13299,7 +13303,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -13412,7 +13416,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-74 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -13444,7 +13448,7 @@
 │                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-1299 
 │                       │       │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2026-4168.html 
-│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2026:4168 
+│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2026:4713 
 │                       │       │                  ├ [15]: https://github.com/python/cpython/commit/22e4d55285c
 │                       │       │                  │       ee52bc4dbe061324e5f30bd4dee58 
 │                       │       │                  ├ [16]: https://github.com/python/cpython/commit/23e3c0ae867
@@ -13608,7 +13612,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
@@ -13707,7 +13711,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -14439,7 +14443,7 @@
 │                       │       │                    not sanitized. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -14686,7 +14690,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -14799,7 +14803,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -14923,7 +14927,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -15036,7 +15040,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-74 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -15068,7 +15072,7 @@
 │                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-1299 
 │                       │       │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2026-4168.html 
-│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2026:4168 
+│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2026:4713 
 │                       │       │                  ├ [15]: https://github.com/python/cpython/commit/22e4d55285c
 │                       │       │                  │       ee52bc4dbe061324e5f30bd4dee58 
 │                       │       │                  ├ [16]: https://github.com/python/cpython/commit/23e3c0ae867
@@ -15232,7 +15236,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
@@ -15331,7 +15335,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -16063,7 +16067,7 @@
 │                       │       │                    not sanitized. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -16310,7 +16314,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -16423,7 +16427,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -16547,7 +16551,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -16660,7 +16664,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-74 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -16692,7 +16696,7 @@
 │                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-1299 
 │                       │       │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2026-4168.html 
-│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2026:4168 
+│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2026:4713 
 │                       │       │                  ├ [15]: https://github.com/python/cpython/commit/22e4d55285c
 │                       │       │                  │       ee52bc4dbe061324e5f30bd4dee58 
 │                       │       │                  ├ [16]: https://github.com/python/cpython/commit/23e3c0ae867
@@ -16856,7 +16860,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
@@ -16955,7 +16959,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -18104,7 +18108,7 @@
 │                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-35535 
 │                       │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2026-12310.html 
-│                       │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:12310 
+│                       │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:10758 
 │                       │       │                  ├ [9] : https://github.com/sudo-project/sudo/commit/3e474c2f
 │                       │       │                  │       201484be83d994ae10a4e20e8c81bb69 
 │                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2026-35535.html 
