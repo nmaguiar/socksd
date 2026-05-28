@@ -69,7 +69,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-59529 
 │                       │       ├ Fingerprint     : sha256:4bd275d92473bcb41054d56b24b5c1d4e9dc5c0f56e0ce9590ac
 │                       │       │                   e0c76a35f308 
-│                       │       ├ Title           : avahi: simple clients denial-of-service 
+│                       │       ├ Title           : Avahi is a system which facilitates service discovery on a
+│                       │       │                   local netwo ... 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
 │                       │       │                   local network via the mDNS/DNS-SD protocol suite. In
 │                       │       │                   versions up to and including 0.9-rc2, the simple protocol
@@ -106,17 +107,12 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-400 
 │                       │       ├ VendorSeverity   ╭ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.5 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/12/19/1 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-59529 
-│                       │       │                  ├ [2]: https://github.com/avahi/avahi/pull/808 
-│                       │       │                  ├ [3]: https://github.com/avahi/avahi/security/advisories/GH
+│                       │       │                  ├ [1]: https://github.com/avahi/avahi/pull/808 
+│                       │       │                  ├ [2]: https://github.com/avahi/avahi/security/advisories/GH
 │                       │       │                  │      SA-73wf-3xmj-x82q 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-59529 
-│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-59529 
-│                       │       │                  ╰ [6]: https://zeropath.com/blog/avahi-simple-protocol-serve
+│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-59529 
+│                       │       │                  ╰ [4]: https://zeropath.com/blog/avahi-simple-protocol-serve
 │                       │       │                         r-dos-cve-2025-59529 
 │                       │       ├ PublishedDate   : 2025-12-18T21:15:53.637Z 
 │                       │       ╰ LastModifiedDate: 2026-01-16T16:50:20.183Z 
@@ -430,8 +426,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5278 
 │                       │       ├ Fingerprint     : sha256:5e8d8c6fb7d3c16b7a8044ae8db5c21cefd3fcd3595ec1724f2a
 │                       │       │                   f3d23a8d825d 
-│                       │       ├ Title           : coreutils: Heap Buffer Under-Read in GNU Coreutils sort via
-│                       │       │                    Key Specification 
+│                       │       ├ Title           : A flaw was found in GNU Coreutils. The sort utility's
+│                       │       │                   begfield() funct ... 
 │                       │       ├ Description     : A flaw was found in GNU Coreutils. The sort utility's
 │                       │       │                   begfield() function is vulnerable to a heap buffer
 │                       │       │                   under-read. The program may access memory outside the
@@ -443,28 +439,20 @@
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ╰ redhat: 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 4.4 
-│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/2
-│                       │       │                  │       7/2 
-│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/2
-│                       │       │                  │       9/1 
-│                       │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/05/2
-│                       │       │                  │       9/2 
-│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-5278 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2368764 
-│                       │       │                  ├ [5] : https://cgit.git.savannah.gnu.org/cgit/coreutils.git
-│                       │       │                  │       /commit/?id=8c9602e3a145e9596dc1a63c6ed67865814b6633
-│                       │       │                  │        
-│                       │       │                  ├ [6] : https://cgit.git.savannah.gnu.org/cgit/coreutils.git
-│                       │       │                  │       /tree/NEWS?id=8c9602e3a145e9596dc1a63c6ed67865814b66
-│                       │       │                  │       33#n14 
-│                       │       │                  ├ [7] : https://debbugs.gnu.org/cgi/bugreport.cgi?bug=78507 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-5278 
-│                       │       │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-2025
-│                       │       │                  │       -5278 
-│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-5278 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/27/2 
+│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/29/1 
+│                       │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/05/29/2 
+│                       │       │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-5278 
+│                       │       │                  ├ [4]: https://bugzilla.redhat.com/show_bug.cgi?id=2368764 
+│                       │       │                  ├ [5]: https://cgit.git.savannah.gnu.org/cgit/coreutils.git/
+│                       │       │                  │      commit/?id=8c9602e3a145e9596dc1a63c6ed67865814b6633[
+│                       │       │                  │      m 
+│                       │       │                  ├ [6]: https://cgit.git.savannah.gnu.org/cgit/coreutils.git/
+│                       │       │                  │      tree/NEWS?id=8c9602e3a145e9596dc1a63c6ed67865814b6633
+│                       │       │                  │      #n14 
+│                       │       │                  ├ [7]: https://debbugs.gnu.org/cgi/bugreport.cgi?bug=78507 
+│                       │       │                  ╰ [8]: https://security-tracker.debian.org/tracker/CVE-2025-
+│                       │       │                         5278 
 │                       │       ├ PublishedDate   : 2025-05-27T21:15:23.197Z 
 │                       │       ╰ LastModifiedDate: 2026-05-19T17:16:21.153Z 
 │                       ├ [9]   ╭ VulnerabilityID : CVE-2023-4504 
@@ -1662,7 +1650,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11053 
 │                       │       ├ Fingerprint     : sha256:acaefe42c1907bef0131f2cc8afcda1778f6731f6d51e137c8b3
 │                       │       │                   b83ae74812d6 
-│                       │       ├ Title           : curl: curl netrc password leak 
+│                       │       ├ Title           : When asked to both use a `.netrc` file for credentials and
+│                       │       │                   to follow H ... 
 │                       │       ├ Description     : When asked to both use a `.netrc` file for credentials and
 │                       │       │                   to follow HTTP
 │                       │       │                   redirects, curl could leak the password used for the first
@@ -1685,237 +1674,231 @@
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:
-│                       │       │                  │        │           N/A:N 
-│                       │       │                  │        ╰ V3Score : 3.4 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 5.9 
+│                       │       ├ CVSS             ─ julia ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N
+│                       │       │                          │           /A:N 
+│                       │       │                          ╰ V3Score : 3.4 
 │                       │       ├ References       ╭ [0]  : http://www.openwall.com/lists/oss-security/2024/12/
 │                       │       │                  │        11/1 
-│                       │       │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2025:1673 
-│                       │       │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-2024-11053 
-│                       │       │                  ├ [3]  : https://bugzilla.redhat.com/2294581 
-│                       │       │                  ├ [4]  : https://bugzilla.redhat.com/2294676 
-│                       │       │                  ├ [5]  : https://bugzilla.redhat.com/2301888 
-│                       │       │                  ├ [6]  : https://bugzilla.redhat.com/2318857 
-│                       │       │                  ├ [7]  : https://bugzilla.redhat.com/2318858 
-│                       │       │                  ├ [8]  : https://bugzilla.redhat.com/2318870 
-│                       │       │                  ├ [9]  : https://bugzilla.redhat.com/2318873 
-│                       │       │                  ├ [10] : https://bugzilla.redhat.com/2318874 
-│                       │       │                  ├ [11] : https://bugzilla.redhat.com/2318876 
-│                       │       │                  ├ [12] : https://bugzilla.redhat.com/2318882 
-│                       │       │                  ├ [13] : https://bugzilla.redhat.com/2318883 
-│                       │       │                  ├ [14] : https://bugzilla.redhat.com/2318884 
-│                       │       │                  ├ [15] : https://bugzilla.redhat.com/2318885 
-│                       │       │                  ├ [16] : https://bugzilla.redhat.com/2318886 
-│                       │       │                  ├ [17] : https://bugzilla.redhat.com/2318897 
-│                       │       │                  ├ [18] : https://bugzilla.redhat.com/2318900 
-│                       │       │                  ├ [19] : https://bugzilla.redhat.com/2318905 
-│                       │       │                  ├ [20] : https://bugzilla.redhat.com/2318914 
-│                       │       │                  ├ [21] : https://bugzilla.redhat.com/2318922 
-│                       │       │                  ├ [22] : https://bugzilla.redhat.com/2318923 
-│                       │       │                  ├ [23] : https://bugzilla.redhat.com/2318925 
-│                       │       │                  ├ [24] : https://bugzilla.redhat.com/2318926 
-│                       │       │                  ├ [25] : https://bugzilla.redhat.com/2318927 
-│                       │       │                  ├ [26] : https://bugzilla.redhat.com/2331191 
-│                       │       │                  ├ [27] : https://bugzilla.redhat.com/2339218 
-│                       │       │                  ├ [28] : https://bugzilla.redhat.com/2339220 
-│                       │       │                  ├ [29] : https://bugzilla.redhat.com/2339221 
-│                       │       │                  ├ [30] : https://bugzilla.redhat.com/2339226 
-│                       │       │                  ├ [31] : https://bugzilla.redhat.com/2339231 
-│                       │       │                  ├ [32] : https://bugzilla.redhat.com/2339236 
-│                       │       │                  ├ [33] : https://bugzilla.redhat.com/2339238 
-│                       │       │                  ├ [34] : https://bugzilla.redhat.com/2339243 
-│                       │       │                  ├ [35] : https://bugzilla.redhat.com/2339247 
-│                       │       │                  ├ [36] : https://bugzilla.redhat.com/2339252 
-│                       │       │                  ├ [37] : https://bugzilla.redhat.com/2339259 
-│                       │       │                  ├ [38] : https://bugzilla.redhat.com/2339266 
-│                       │       │                  ├ [39] : https://bugzilla.redhat.com/2339270 
-│                       │       │                  ├ [40] : https://bugzilla.redhat.com/2339271 
-│                       │       │                  ├ [41] : https://bugzilla.redhat.com/2339275 
-│                       │       │                  ├ [42] : https://bugzilla.redhat.com/2339277 
-│                       │       │                  ├ [43] : https://bugzilla.redhat.com/2339281 
-│                       │       │                  ├ [44] : https://bugzilla.redhat.com/2339284 
-│                       │       │                  ├ [45] : https://bugzilla.redhat.com/2339291 
-│                       │       │                  ├ [46] : https://bugzilla.redhat.com/2339293 
-│                       │       │                  ├ [47] : https://bugzilla.redhat.com/2339295 
-│                       │       │                  ├ [48] : https://bugzilla.redhat.com/2339299 
-│                       │       │                  ├ [49] : https://bugzilla.redhat.com/2339300 
-│                       │       │                  ├ [50] : https://bugzilla.redhat.com/2339304 
-│                       │       │                  ├ [51] : https://bugzilla.redhat.com/2339305 
-│                       │       │                  ├ [52] : https://bugzilla.redhat.com/show_bug.cgi?id=2294581 
-│                       │       │                  ├ [53] : https://bugzilla.redhat.com/show_bug.cgi?id=2294676 
-│                       │       │                  ├ [54] : https://bugzilla.redhat.com/show_bug.cgi?id=2301888 
-│                       │       │                  ├ [55] : https://bugzilla.redhat.com/show_bug.cgi?id=2318857 
-│                       │       │                  ├ [56] : https://bugzilla.redhat.com/show_bug.cgi?id=2318858 
-│                       │       │                  ├ [57] : https://bugzilla.redhat.com/show_bug.cgi?id=2318870 
-│                       │       │                  ├ [58] : https://bugzilla.redhat.com/show_bug.cgi?id=2318873 
-│                       │       │                  ├ [59] : https://bugzilla.redhat.com/show_bug.cgi?id=2318874 
-│                       │       │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=2318876 
-│                       │       │                  ├ [61] : https://bugzilla.redhat.com/show_bug.cgi?id=2318882 
-│                       │       │                  ├ [62] : https://bugzilla.redhat.com/show_bug.cgi?id=2318883 
-│                       │       │                  ├ [63] : https://bugzilla.redhat.com/show_bug.cgi?id=2318884 
-│                       │       │                  ├ [64] : https://bugzilla.redhat.com/show_bug.cgi?id=2318885 
-│                       │       │                  ├ [65] : https://bugzilla.redhat.com/show_bug.cgi?id=2318886 
-│                       │       │                  ├ [66] : https://bugzilla.redhat.com/show_bug.cgi?id=2318897 
-│                       │       │                  ├ [67] : https://bugzilla.redhat.com/show_bug.cgi?id=2318900 
-│                       │       │                  ├ [68] : https://bugzilla.redhat.com/show_bug.cgi?id=2318905 
-│                       │       │                  ├ [69] : https://bugzilla.redhat.com/show_bug.cgi?id=2318914 
-│                       │       │                  ├ [70] : https://bugzilla.redhat.com/show_bug.cgi?id=2318922 
-│                       │       │                  ├ [71] : https://bugzilla.redhat.com/show_bug.cgi?id=2318923 
-│                       │       │                  ├ [72] : https://bugzilla.redhat.com/show_bug.cgi?id=2318925 
-│                       │       │                  ├ [73] : https://bugzilla.redhat.com/show_bug.cgi?id=2318926 
-│                       │       │                  ├ [74] : https://bugzilla.redhat.com/show_bug.cgi?id=2318927 
-│                       │       │                  ├ [75] : https://bugzilla.redhat.com/show_bug.cgi?id=2331191 
-│                       │       │                  ├ [76] : https://bugzilla.redhat.com/show_bug.cgi?id=2339218 
-│                       │       │                  ├ [77] : https://bugzilla.redhat.com/show_bug.cgi?id=2339220 
-│                       │       │                  ├ [78] : https://bugzilla.redhat.com/show_bug.cgi?id=2339221 
-│                       │       │                  ├ [79] : https://bugzilla.redhat.com/show_bug.cgi?id=2339226 
-│                       │       │                  ├ [80] : https://bugzilla.redhat.com/show_bug.cgi?id=2339231 
-│                       │       │                  ├ [81] : https://bugzilla.redhat.com/show_bug.cgi?id=2339236 
-│                       │       │                  ├ [82] : https://bugzilla.redhat.com/show_bug.cgi?id=2339238 
-│                       │       │                  ├ [83] : https://bugzilla.redhat.com/show_bug.cgi?id=2339243 
-│                       │       │                  ├ [84] : https://bugzilla.redhat.com/show_bug.cgi?id=2339247 
-│                       │       │                  ├ [85] : https://bugzilla.redhat.com/show_bug.cgi?id=2339252 
-│                       │       │                  ├ [86] : https://bugzilla.redhat.com/show_bug.cgi?id=2339259 
-│                       │       │                  ├ [87] : https://bugzilla.redhat.com/show_bug.cgi?id=2339266 
-│                       │       │                  ├ [88] : https://bugzilla.redhat.com/show_bug.cgi?id=2339270 
-│                       │       │                  ├ [89] : https://bugzilla.redhat.com/show_bug.cgi?id=2339271 
-│                       │       │                  ├ [90] : https://bugzilla.redhat.com/show_bug.cgi?id=2339275 
-│                       │       │                  ├ [91] : https://bugzilla.redhat.com/show_bug.cgi?id=2339277 
-│                       │       │                  ├ [92] : https://bugzilla.redhat.com/show_bug.cgi?id=2339281 
-│                       │       │                  ├ [93] : https://bugzilla.redhat.com/show_bug.cgi?id=2339284 
-│                       │       │                  ├ [94] : https://bugzilla.redhat.com/show_bug.cgi?id=2339291 
-│                       │       │                  ├ [95] : https://bugzilla.redhat.com/show_bug.cgi?id=2339293 
-│                       │       │                  ├ [96] : https://bugzilla.redhat.com/show_bug.cgi?id=2339295 
-│                       │       │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2339299 
-│                       │       │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2339300 
-│                       │       │                  ├ [99] : https://bugzilla.redhat.com/show_bug.cgi?id=2339304 
-│                       │       │                  ├ [100]: https://bugzilla.redhat.com/show_bug.cgi?id=2339305 
-│                       │       │                  ├ [101]: https://curl.se/docs/CVE-2024-11053.html 
-│                       │       │                  ├ [102]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │       │                  ├ [103]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2025:1671 
+│                       │       │                  ├ [2]  : https://bugzilla.redhat.com/2294581 
+│                       │       │                  ├ [3]  : https://bugzilla.redhat.com/2294676 
+│                       │       │                  ├ [4]  : https://bugzilla.redhat.com/2301888 
+│                       │       │                  ├ [5]  : https://bugzilla.redhat.com/2318857 
+│                       │       │                  ├ [6]  : https://bugzilla.redhat.com/2318858 
+│                       │       │                  ├ [7]  : https://bugzilla.redhat.com/2318870 
+│                       │       │                  ├ [8]  : https://bugzilla.redhat.com/2318873 
+│                       │       │                  ├ [9]  : https://bugzilla.redhat.com/2318874 
+│                       │       │                  ├ [10] : https://bugzilla.redhat.com/2318876 
+│                       │       │                  ├ [11] : https://bugzilla.redhat.com/2318882 
+│                       │       │                  ├ [12] : https://bugzilla.redhat.com/2318883 
+│                       │       │                  ├ [13] : https://bugzilla.redhat.com/2318884 
+│                       │       │                  ├ [14] : https://bugzilla.redhat.com/2318885 
+│                       │       │                  ├ [15] : https://bugzilla.redhat.com/2318886 
+│                       │       │                  ├ [16] : https://bugzilla.redhat.com/2318897 
+│                       │       │                  ├ [17] : https://bugzilla.redhat.com/2318900 
+│                       │       │                  ├ [18] : https://bugzilla.redhat.com/2318905 
+│                       │       │                  ├ [19] : https://bugzilla.redhat.com/2318914 
+│                       │       │                  ├ [20] : https://bugzilla.redhat.com/2318922 
+│                       │       │                  ├ [21] : https://bugzilla.redhat.com/2318923 
+│                       │       │                  ├ [22] : https://bugzilla.redhat.com/2318925 
+│                       │       │                  ├ [23] : https://bugzilla.redhat.com/2318926 
+│                       │       │                  ├ [24] : https://bugzilla.redhat.com/2318927 
+│                       │       │                  ├ [25] : https://bugzilla.redhat.com/2331191 
+│                       │       │                  ├ [26] : https://bugzilla.redhat.com/2339218 
+│                       │       │                  ├ [27] : https://bugzilla.redhat.com/2339220 
+│                       │       │                  ├ [28] : https://bugzilla.redhat.com/2339221 
+│                       │       │                  ├ [29] : https://bugzilla.redhat.com/2339226 
+│                       │       │                  ├ [30] : https://bugzilla.redhat.com/2339231 
+│                       │       │                  ├ [31] : https://bugzilla.redhat.com/2339236 
+│                       │       │                  ├ [32] : https://bugzilla.redhat.com/2339238 
+│                       │       │                  ├ [33] : https://bugzilla.redhat.com/2339243 
+│                       │       │                  ├ [34] : https://bugzilla.redhat.com/2339247 
+│                       │       │                  ├ [35] : https://bugzilla.redhat.com/2339252 
+│                       │       │                  ├ [36] : https://bugzilla.redhat.com/2339259 
+│                       │       │                  ├ [37] : https://bugzilla.redhat.com/2339266 
+│                       │       │                  ├ [38] : https://bugzilla.redhat.com/2339270 
+│                       │       │                  ├ [39] : https://bugzilla.redhat.com/2339271 
+│                       │       │                  ├ [40] : https://bugzilla.redhat.com/2339275 
+│                       │       │                  ├ [41] : https://bugzilla.redhat.com/2339277 
+│                       │       │                  ├ [42] : https://bugzilla.redhat.com/2339281 
+│                       │       │                  ├ [43] : https://bugzilla.redhat.com/2339284 
+│                       │       │                  ├ [44] : https://bugzilla.redhat.com/2339291 
+│                       │       │                  ├ [45] : https://bugzilla.redhat.com/2339293 
+│                       │       │                  ├ [46] : https://bugzilla.redhat.com/2339295 
+│                       │       │                  ├ [47] : https://bugzilla.redhat.com/2339299 
+│                       │       │                  ├ [48] : https://bugzilla.redhat.com/2339300 
+│                       │       │                  ├ [49] : https://bugzilla.redhat.com/2339304 
+│                       │       │                  ├ [50] : https://bugzilla.redhat.com/2339305 
+│                       │       │                  ├ [51] : https://bugzilla.redhat.com/show_bug.cgi?id=2294581 
+│                       │       │                  ├ [52] : https://bugzilla.redhat.com/show_bug.cgi?id=2294676 
+│                       │       │                  ├ [53] : https://bugzilla.redhat.com/show_bug.cgi?id=2301888 
+│                       │       │                  ├ [54] : https://bugzilla.redhat.com/show_bug.cgi?id=2318857 
+│                       │       │                  ├ [55] : https://bugzilla.redhat.com/show_bug.cgi?id=2318858 
+│                       │       │                  ├ [56] : https://bugzilla.redhat.com/show_bug.cgi?id=2318870 
+│                       │       │                  ├ [57] : https://bugzilla.redhat.com/show_bug.cgi?id=2318873 
+│                       │       │                  ├ [58] : https://bugzilla.redhat.com/show_bug.cgi?id=2318874 
+│                       │       │                  ├ [59] : https://bugzilla.redhat.com/show_bug.cgi?id=2318876 
+│                       │       │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=2318882 
+│                       │       │                  ├ [61] : https://bugzilla.redhat.com/show_bug.cgi?id=2318883 
+│                       │       │                  ├ [62] : https://bugzilla.redhat.com/show_bug.cgi?id=2318884 
+│                       │       │                  ├ [63] : https://bugzilla.redhat.com/show_bug.cgi?id=2318885 
+│                       │       │                  ├ [64] : https://bugzilla.redhat.com/show_bug.cgi?id=2318886 
+│                       │       │                  ├ [65] : https://bugzilla.redhat.com/show_bug.cgi?id=2318897 
+│                       │       │                  ├ [66] : https://bugzilla.redhat.com/show_bug.cgi?id=2318900 
+│                       │       │                  ├ [67] : https://bugzilla.redhat.com/show_bug.cgi?id=2318905 
+│                       │       │                  ├ [68] : https://bugzilla.redhat.com/show_bug.cgi?id=2318914 
+│                       │       │                  ├ [69] : https://bugzilla.redhat.com/show_bug.cgi?id=2318922 
+│                       │       │                  ├ [70] : https://bugzilla.redhat.com/show_bug.cgi?id=2318923 
+│                       │       │                  ├ [71] : https://bugzilla.redhat.com/show_bug.cgi?id=2318925 
+│                       │       │                  ├ [72] : https://bugzilla.redhat.com/show_bug.cgi?id=2318926 
+│                       │       │                  ├ [73] : https://bugzilla.redhat.com/show_bug.cgi?id=2318927 
+│                       │       │                  ├ [74] : https://bugzilla.redhat.com/show_bug.cgi?id=2331191 
+│                       │       │                  ├ [75] : https://bugzilla.redhat.com/show_bug.cgi?id=2339218 
+│                       │       │                  ├ [76] : https://bugzilla.redhat.com/show_bug.cgi?id=2339220 
+│                       │       │                  ├ [77] : https://bugzilla.redhat.com/show_bug.cgi?id=2339221 
+│                       │       │                  ├ [78] : https://bugzilla.redhat.com/show_bug.cgi?id=2339226 
+│                       │       │                  ├ [79] : https://bugzilla.redhat.com/show_bug.cgi?id=2339231 
+│                       │       │                  ├ [80] : https://bugzilla.redhat.com/show_bug.cgi?id=2339236 
+│                       │       │                  ├ [81] : https://bugzilla.redhat.com/show_bug.cgi?id=2339238 
+│                       │       │                  ├ [82] : https://bugzilla.redhat.com/show_bug.cgi?id=2339243 
+│                       │       │                  ├ [83] : https://bugzilla.redhat.com/show_bug.cgi?id=2339247 
+│                       │       │                  ├ [84] : https://bugzilla.redhat.com/show_bug.cgi?id=2339252 
+│                       │       │                  ├ [85] : https://bugzilla.redhat.com/show_bug.cgi?id=2339259 
+│                       │       │                  ├ [86] : https://bugzilla.redhat.com/show_bug.cgi?id=2339266 
+│                       │       │                  ├ [87] : https://bugzilla.redhat.com/show_bug.cgi?id=2339270 
+│                       │       │                  ├ [88] : https://bugzilla.redhat.com/show_bug.cgi?id=2339271 
+│                       │       │                  ├ [89] : https://bugzilla.redhat.com/show_bug.cgi?id=2339275 
+│                       │       │                  ├ [90] : https://bugzilla.redhat.com/show_bug.cgi?id=2339277 
+│                       │       │                  ├ [91] : https://bugzilla.redhat.com/show_bug.cgi?id=2339281 
+│                       │       │                  ├ [92] : https://bugzilla.redhat.com/show_bug.cgi?id=2339284 
+│                       │       │                  ├ [93] : https://bugzilla.redhat.com/show_bug.cgi?id=2339291 
+│                       │       │                  ├ [94] : https://bugzilla.redhat.com/show_bug.cgi?id=2339293 
+│                       │       │                  ├ [95] : https://bugzilla.redhat.com/show_bug.cgi?id=2339295 
+│                       │       │                  ├ [96] : https://bugzilla.redhat.com/show_bug.cgi?id=2339299 
+│                       │       │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2339300 
+│                       │       │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2339304 
+│                       │       │                  ├ [99] : https://bugzilla.redhat.com/show_bug.cgi?id=2339305 
+│                       │       │                  ├ [100]: https://curl.se/docs/CVE-2024-11053.html 
+│                       │       │                  ├ [101]: https://curl.se/docs/CVE-2024-11053.json 
+│                       │       │                  ├ [102]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-11053 
-│                       │       │                  ├ [104]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [103]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21193 
-│                       │       │                  ├ [105]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [104]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21194 
-│                       │       │                  ├ [106]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [105]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21196 
-│                       │       │                  ├ [107]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [106]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21197 
-│                       │       │                  ├ [108]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [107]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21198 
-│                       │       │                  ├ [109]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [108]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21199 
-│                       │       │                  ├ [110]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [109]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21201 
-│                       │       │                  ├ [111]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [110]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21203 
-│                       │       │                  ├ [112]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [111]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21212 
-│                       │       │                  ├ [113]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [112]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21213 
-│                       │       │                  ├ [114]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [113]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21218 
-│                       │       │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [114]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21219 
-│                       │       │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21230 
-│                       │       │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21231 
-│                       │       │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21236 
-│                       │       │                  ├ [119]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21237 
-│                       │       │                  ├ [120]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [119]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21238 
-│                       │       │                  ├ [121]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [120]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21239 
-│                       │       │                  ├ [122]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [121]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21241 
-│                       │       │                  ├ [123]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [122]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21247 
-│                       │       │                  ├ [124]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [123]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-37371 
-│                       │       │                  ├ [125]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [124]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-5535 
-│                       │       │                  ├ [126]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [125]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-7264 
-│                       │       │                  ├ [127]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [126]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21490 
-│                       │       │                  ├ [128]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [127]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21491 
-│                       │       │                  ├ [129]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [128]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21494 
-│                       │       │                  ├ [130]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [129]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21497 
-│                       │       │                  ├ [131]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [130]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21500 
-│                       │       │                  ├ [132]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [131]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21501 
-│                       │       │                  ├ [133]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [132]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21503 
-│                       │       │                  ├ [134]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [133]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21504 
-│                       │       │                  ├ [135]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [134]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21505 
-│                       │       │                  ├ [136]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [135]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21518 
-│                       │       │                  ├ [137]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [136]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21519 
-│                       │       │                  ├ [138]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [137]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21520 
-│                       │       │                  ├ [139]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [138]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21521 
-│                       │       │                  ├ [140]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [139]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21522 
-│                       │       │                  ├ [141]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [140]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21523 
-│                       │       │                  ├ [142]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [141]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21525 
-│                       │       │                  ├ [143]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [142]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21529 
-│                       │       │                  ├ [144]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [143]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21531 
-│                       │       │                  ├ [145]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [144]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21534 
-│                       │       │                  ├ [146]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [145]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21536 
-│                       │       │                  ├ [147]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [146]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21540 
-│                       │       │                  ├ [148]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [147]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21543 
-│                       │       │                  ├ [149]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [148]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21546 
-│                       │       │                  ├ [150]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [149]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21555 
-│                       │       │                  ├ [151]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [150]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21559 
-│                       │       │                  ├ [152]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
-│                       │       │                  ├ [153]: https://errata.rockylinux.org/RLSA-2025:1671 
-│                       │       │                  ├ [154]: https://github.com/advisories/GHSA-h288-5fq8-5pfw 
-│                       │       │                  ├ [155]: https://hackerone.com/reports/2829063 
-│                       │       │                  ├ [156]: https://linux.oracle.com/cve/CVE-2024-11053.html 
-│                       │       │                  ├ [157]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
-│                       │       │                  ├ [158]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
-│                       │       │                  ├ [159]: https://security.netapp.com/advisory/ntap-20250124-
+│                       │       │                  ├ [151]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
+│                       │       │                  ├ [152]: https://errata.rockylinux.org/RLSA-2025:1671 
+│                       │       │                  ├ [153]: https://github.com/advisories/GHSA-h288-5fq8-5pfw 
+│                       │       │                  ├ [154]: https://hackerone.com/reports/2829063 
+│                       │       │                  ├ [155]: https://linux.oracle.com/cve/CVE-2024-11053.html 
+│                       │       │                  ├ [156]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
+│                       │       │                  ├ [157]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
+│                       │       │                  ├ [158]: https://security.netapp.com/advisory/ntap-20250124-
 │                       │       │                  │        0012 
-│                       │       │                  ├ [160]: https://security.netapp.com/advisory/ntap-20250124-
+│                       │       │                  ├ [159]: https://security.netapp.com/advisory/ntap-20250124-
 │                       │       │                  │        0012/ 
-│                       │       │                  ├ [161]: https://security.netapp.com/advisory/ntap-20250131-
+│                       │       │                  ├ [160]: https://security.netapp.com/advisory/ntap-20250131-
 │                       │       │                  │        0003 
-│                       │       │                  ├ [162]: https://security.netapp.com/advisory/ntap-20250131-
+│                       │       │                  ├ [161]: https://security.netapp.com/advisory/ntap-20250131-
 │                       │       │                  │        0003/ 
-│                       │       │                  ├ [163]: https://security.netapp.com/advisory/ntap-20250131-
+│                       │       │                  ├ [162]: https://security.netapp.com/advisory/ntap-20250131-
 │                       │       │                  │        0004 
-│                       │       │                  ├ [164]: https://security.netapp.com/advisory/ntap-20250131-
+│                       │       │                  ├ [163]: https://security.netapp.com/advisory/ntap-20250131-
 │                       │       │                  │        0004/ 
-│                       │       │                  ├ [165]: https://ubuntu.com/security/notices/USN-7162-1 
-│                       │       │                  ├ [166]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
-│                       │       │                  ╰ [167]: https://www.oracle.com/security-alerts/cpujan2025.h
-│                       │       │                           tml#AppendixMSQL 
+│                       │       │                  ├ [164]: https://ubuntu.com/security/notices/USN-7162-1 
+│                       │       │                  ╰ [165]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
 │                       │       ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                       │       ╰ LastModifiedDate: 2025-11-03T21:16:04.243Z 
 │                       ├ [32]  ╭ VulnerabilityID : CVE-2024-7264 
@@ -1934,7 +1917,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7264 
 │                       │       ├ Fingerprint     : sha256:1068e98c770a0a80b4165e3e68d2709737816956c10032b46c61
 │                       │       │                   8882f1c53624 
-│                       │       ├ Title           : curl: libcurl: ASN.1 date parser overread 
+│                       │       ├ Title           : libcurl's ASN1 parser code has the `GTime2str()` function,
+│                       │       │                   used for pa ... 
 │                       │       ├ Description     : libcurl's ASN1 parser code has the `GTime2str()` function,
 │                       │       │                   used for parsing an
 │                       │       │                   ASN.1 Generalized Time field. If given an syntactically
@@ -1962,233 +1946,226 @@
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 6.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+│                       │       │                        ╰ V3Score : 6.5 
 │                       │       ├ References       ╭ [0]  : http://www.openwall.com/lists/oss-security/2024/07/
 │                       │       │                  │        31/1 
-│                       │       │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2025:1673 
-│                       │       │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-2024-7264 
-│                       │       │                  ├ [3]  : https://bugzilla.redhat.com/2294581 
-│                       │       │                  ├ [4]  : https://bugzilla.redhat.com/2294676 
-│                       │       │                  ├ [5]  : https://bugzilla.redhat.com/2301888 
-│                       │       │                  ├ [6]  : https://bugzilla.redhat.com/2318857 
-│                       │       │                  ├ [7]  : https://bugzilla.redhat.com/2318858 
-│                       │       │                  ├ [8]  : https://bugzilla.redhat.com/2318870 
-│                       │       │                  ├ [9]  : https://bugzilla.redhat.com/2318873 
-│                       │       │                  ├ [10] : https://bugzilla.redhat.com/2318874 
-│                       │       │                  ├ [11] : https://bugzilla.redhat.com/2318876 
-│                       │       │                  ├ [12] : https://bugzilla.redhat.com/2318882 
-│                       │       │                  ├ [13] : https://bugzilla.redhat.com/2318883 
-│                       │       │                  ├ [14] : https://bugzilla.redhat.com/2318884 
-│                       │       │                  ├ [15] : https://bugzilla.redhat.com/2318885 
-│                       │       │                  ├ [16] : https://bugzilla.redhat.com/2318886 
-│                       │       │                  ├ [17] : https://bugzilla.redhat.com/2318897 
-│                       │       │                  ├ [18] : https://bugzilla.redhat.com/2318900 
-│                       │       │                  ├ [19] : https://bugzilla.redhat.com/2318905 
-│                       │       │                  ├ [20] : https://bugzilla.redhat.com/2318914 
-│                       │       │                  ├ [21] : https://bugzilla.redhat.com/2318922 
-│                       │       │                  ├ [22] : https://bugzilla.redhat.com/2318923 
-│                       │       │                  ├ [23] : https://bugzilla.redhat.com/2318925 
-│                       │       │                  ├ [24] : https://bugzilla.redhat.com/2318926 
-│                       │       │                  ├ [25] : https://bugzilla.redhat.com/2318927 
-│                       │       │                  ├ [26] : https://bugzilla.redhat.com/2331191 
-│                       │       │                  ├ [27] : https://bugzilla.redhat.com/2339218 
-│                       │       │                  ├ [28] : https://bugzilla.redhat.com/2339220 
-│                       │       │                  ├ [29] : https://bugzilla.redhat.com/2339221 
-│                       │       │                  ├ [30] : https://bugzilla.redhat.com/2339226 
-│                       │       │                  ├ [31] : https://bugzilla.redhat.com/2339231 
-│                       │       │                  ├ [32] : https://bugzilla.redhat.com/2339236 
-│                       │       │                  ├ [33] : https://bugzilla.redhat.com/2339238 
-│                       │       │                  ├ [34] : https://bugzilla.redhat.com/2339243 
-│                       │       │                  ├ [35] : https://bugzilla.redhat.com/2339247 
-│                       │       │                  ├ [36] : https://bugzilla.redhat.com/2339252 
-│                       │       │                  ├ [37] : https://bugzilla.redhat.com/2339259 
-│                       │       │                  ├ [38] : https://bugzilla.redhat.com/2339266 
-│                       │       │                  ├ [39] : https://bugzilla.redhat.com/2339270 
-│                       │       │                  ├ [40] : https://bugzilla.redhat.com/2339271 
-│                       │       │                  ├ [41] : https://bugzilla.redhat.com/2339275 
-│                       │       │                  ├ [42] : https://bugzilla.redhat.com/2339277 
-│                       │       │                  ├ [43] : https://bugzilla.redhat.com/2339281 
-│                       │       │                  ├ [44] : https://bugzilla.redhat.com/2339284 
-│                       │       │                  ├ [45] : https://bugzilla.redhat.com/2339291 
-│                       │       │                  ├ [46] : https://bugzilla.redhat.com/2339293 
-│                       │       │                  ├ [47] : https://bugzilla.redhat.com/2339295 
-│                       │       │                  ├ [48] : https://bugzilla.redhat.com/2339299 
-│                       │       │                  ├ [49] : https://bugzilla.redhat.com/2339300 
-│                       │       │                  ├ [50] : https://bugzilla.redhat.com/2339304 
-│                       │       │                  ├ [51] : https://bugzilla.redhat.com/2339305 
-│                       │       │                  ├ [52] : https://bugzilla.redhat.com/show_bug.cgi?id=2294581 
-│                       │       │                  ├ [53] : https://bugzilla.redhat.com/show_bug.cgi?id=2294676 
-│                       │       │                  ├ [54] : https://bugzilla.redhat.com/show_bug.cgi?id=2301888 
-│                       │       │                  ├ [55] : https://bugzilla.redhat.com/show_bug.cgi?id=2318857 
-│                       │       │                  ├ [56] : https://bugzilla.redhat.com/show_bug.cgi?id=2318858 
-│                       │       │                  ├ [57] : https://bugzilla.redhat.com/show_bug.cgi?id=2318870 
-│                       │       │                  ├ [58] : https://bugzilla.redhat.com/show_bug.cgi?id=2318873 
-│                       │       │                  ├ [59] : https://bugzilla.redhat.com/show_bug.cgi?id=2318874 
-│                       │       │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=2318876 
-│                       │       │                  ├ [61] : https://bugzilla.redhat.com/show_bug.cgi?id=2318882 
-│                       │       │                  ├ [62] : https://bugzilla.redhat.com/show_bug.cgi?id=2318883 
-│                       │       │                  ├ [63] : https://bugzilla.redhat.com/show_bug.cgi?id=2318884 
-│                       │       │                  ├ [64] : https://bugzilla.redhat.com/show_bug.cgi?id=2318885 
-│                       │       │                  ├ [65] : https://bugzilla.redhat.com/show_bug.cgi?id=2318886 
-│                       │       │                  ├ [66] : https://bugzilla.redhat.com/show_bug.cgi?id=2318897 
-│                       │       │                  ├ [67] : https://bugzilla.redhat.com/show_bug.cgi?id=2318900 
-│                       │       │                  ├ [68] : https://bugzilla.redhat.com/show_bug.cgi?id=2318905 
-│                       │       │                  ├ [69] : https://bugzilla.redhat.com/show_bug.cgi?id=2318914 
-│                       │       │                  ├ [70] : https://bugzilla.redhat.com/show_bug.cgi?id=2318922 
-│                       │       │                  ├ [71] : https://bugzilla.redhat.com/show_bug.cgi?id=2318923 
-│                       │       │                  ├ [72] : https://bugzilla.redhat.com/show_bug.cgi?id=2318925 
-│                       │       │                  ├ [73] : https://bugzilla.redhat.com/show_bug.cgi?id=2318926 
-│                       │       │                  ├ [74] : https://bugzilla.redhat.com/show_bug.cgi?id=2318927 
-│                       │       │                  ├ [75] : https://bugzilla.redhat.com/show_bug.cgi?id=2331191 
-│                       │       │                  ├ [76] : https://bugzilla.redhat.com/show_bug.cgi?id=2339218 
-│                       │       │                  ├ [77] : https://bugzilla.redhat.com/show_bug.cgi?id=2339220 
-│                       │       │                  ├ [78] : https://bugzilla.redhat.com/show_bug.cgi?id=2339221 
-│                       │       │                  ├ [79] : https://bugzilla.redhat.com/show_bug.cgi?id=2339226 
-│                       │       │                  ├ [80] : https://bugzilla.redhat.com/show_bug.cgi?id=2339231 
-│                       │       │                  ├ [81] : https://bugzilla.redhat.com/show_bug.cgi?id=2339236 
-│                       │       │                  ├ [82] : https://bugzilla.redhat.com/show_bug.cgi?id=2339238 
-│                       │       │                  ├ [83] : https://bugzilla.redhat.com/show_bug.cgi?id=2339243 
-│                       │       │                  ├ [84] : https://bugzilla.redhat.com/show_bug.cgi?id=2339247 
-│                       │       │                  ├ [85] : https://bugzilla.redhat.com/show_bug.cgi?id=2339252 
-│                       │       │                  ├ [86] : https://bugzilla.redhat.com/show_bug.cgi?id=2339259 
-│                       │       │                  ├ [87] : https://bugzilla.redhat.com/show_bug.cgi?id=2339266 
-│                       │       │                  ├ [88] : https://bugzilla.redhat.com/show_bug.cgi?id=2339270 
-│                       │       │                  ├ [89] : https://bugzilla.redhat.com/show_bug.cgi?id=2339271 
-│                       │       │                  ├ [90] : https://bugzilla.redhat.com/show_bug.cgi?id=2339275 
-│                       │       │                  ├ [91] : https://bugzilla.redhat.com/show_bug.cgi?id=2339277 
-│                       │       │                  ├ [92] : https://bugzilla.redhat.com/show_bug.cgi?id=2339281 
-│                       │       │                  ├ [93] : https://bugzilla.redhat.com/show_bug.cgi?id=2339284 
-│                       │       │                  ├ [94] : https://bugzilla.redhat.com/show_bug.cgi?id=2339291 
-│                       │       │                  ├ [95] : https://bugzilla.redhat.com/show_bug.cgi?id=2339293 
-│                       │       │                  ├ [96] : https://bugzilla.redhat.com/show_bug.cgi?id=2339295 
-│                       │       │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2339299 
-│                       │       │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2339300 
-│                       │       │                  ├ [99] : https://bugzilla.redhat.com/show_bug.cgi?id=2339304 
-│                       │       │                  ├ [100]: https://bugzilla.redhat.com/show_bug.cgi?id=2339305 
-│                       │       │                  ├ [101]: https://curl.se/docs/CVE-2024-7264.html 
-│                       │       │                  ├ [102]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │       │                  ├ [103]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2025:1671 
+│                       │       │                  ├ [2]  : https://bugzilla.redhat.com/2294581 
+│                       │       │                  ├ [3]  : https://bugzilla.redhat.com/2294676 
+│                       │       │                  ├ [4]  : https://bugzilla.redhat.com/2301888 
+│                       │       │                  ├ [5]  : https://bugzilla.redhat.com/2318857 
+│                       │       │                  ├ [6]  : https://bugzilla.redhat.com/2318858 
+│                       │       │                  ├ [7]  : https://bugzilla.redhat.com/2318870 
+│                       │       │                  ├ [8]  : https://bugzilla.redhat.com/2318873 
+│                       │       │                  ├ [9]  : https://bugzilla.redhat.com/2318874 
+│                       │       │                  ├ [10] : https://bugzilla.redhat.com/2318876 
+│                       │       │                  ├ [11] : https://bugzilla.redhat.com/2318882 
+│                       │       │                  ├ [12] : https://bugzilla.redhat.com/2318883 
+│                       │       │                  ├ [13] : https://bugzilla.redhat.com/2318884 
+│                       │       │                  ├ [14] : https://bugzilla.redhat.com/2318885 
+│                       │       │                  ├ [15] : https://bugzilla.redhat.com/2318886 
+│                       │       │                  ├ [16] : https://bugzilla.redhat.com/2318897 
+│                       │       │                  ├ [17] : https://bugzilla.redhat.com/2318900 
+│                       │       │                  ├ [18] : https://bugzilla.redhat.com/2318905 
+│                       │       │                  ├ [19] : https://bugzilla.redhat.com/2318914 
+│                       │       │                  ├ [20] : https://bugzilla.redhat.com/2318922 
+│                       │       │                  ├ [21] : https://bugzilla.redhat.com/2318923 
+│                       │       │                  ├ [22] : https://bugzilla.redhat.com/2318925 
+│                       │       │                  ├ [23] : https://bugzilla.redhat.com/2318926 
+│                       │       │                  ├ [24] : https://bugzilla.redhat.com/2318927 
+│                       │       │                  ├ [25] : https://bugzilla.redhat.com/2331191 
+│                       │       │                  ├ [26] : https://bugzilla.redhat.com/2339218 
+│                       │       │                  ├ [27] : https://bugzilla.redhat.com/2339220 
+│                       │       │                  ├ [28] : https://bugzilla.redhat.com/2339221 
+│                       │       │                  ├ [29] : https://bugzilla.redhat.com/2339226 
+│                       │       │                  ├ [30] : https://bugzilla.redhat.com/2339231 
+│                       │       │                  ├ [31] : https://bugzilla.redhat.com/2339236 
+│                       │       │                  ├ [32] : https://bugzilla.redhat.com/2339238 
+│                       │       │                  ├ [33] : https://bugzilla.redhat.com/2339243 
+│                       │       │                  ├ [34] : https://bugzilla.redhat.com/2339247 
+│                       │       │                  ├ [35] : https://bugzilla.redhat.com/2339252 
+│                       │       │                  ├ [36] : https://bugzilla.redhat.com/2339259 
+│                       │       │                  ├ [37] : https://bugzilla.redhat.com/2339266 
+│                       │       │                  ├ [38] : https://bugzilla.redhat.com/2339270 
+│                       │       │                  ├ [39] : https://bugzilla.redhat.com/2339271 
+│                       │       │                  ├ [40] : https://bugzilla.redhat.com/2339275 
+│                       │       │                  ├ [41] : https://bugzilla.redhat.com/2339277 
+│                       │       │                  ├ [42] : https://bugzilla.redhat.com/2339281 
+│                       │       │                  ├ [43] : https://bugzilla.redhat.com/2339284 
+│                       │       │                  ├ [44] : https://bugzilla.redhat.com/2339291 
+│                       │       │                  ├ [45] : https://bugzilla.redhat.com/2339293 
+│                       │       │                  ├ [46] : https://bugzilla.redhat.com/2339295 
+│                       │       │                  ├ [47] : https://bugzilla.redhat.com/2339299 
+│                       │       │                  ├ [48] : https://bugzilla.redhat.com/2339300 
+│                       │       │                  ├ [49] : https://bugzilla.redhat.com/2339304 
+│                       │       │                  ├ [50] : https://bugzilla.redhat.com/2339305 
+│                       │       │                  ├ [51] : https://bugzilla.redhat.com/show_bug.cgi?id=2294581 
+│                       │       │                  ├ [52] : https://bugzilla.redhat.com/show_bug.cgi?id=2294676 
+│                       │       │                  ├ [53] : https://bugzilla.redhat.com/show_bug.cgi?id=2301888 
+│                       │       │                  ├ [54] : https://bugzilla.redhat.com/show_bug.cgi?id=2318857 
+│                       │       │                  ├ [55] : https://bugzilla.redhat.com/show_bug.cgi?id=2318858 
+│                       │       │                  ├ [56] : https://bugzilla.redhat.com/show_bug.cgi?id=2318870 
+│                       │       │                  ├ [57] : https://bugzilla.redhat.com/show_bug.cgi?id=2318873 
+│                       │       │                  ├ [58] : https://bugzilla.redhat.com/show_bug.cgi?id=2318874 
+│                       │       │                  ├ [59] : https://bugzilla.redhat.com/show_bug.cgi?id=2318876 
+│                       │       │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=2318882 
+│                       │       │                  ├ [61] : https://bugzilla.redhat.com/show_bug.cgi?id=2318883 
+│                       │       │                  ├ [62] : https://bugzilla.redhat.com/show_bug.cgi?id=2318884 
+│                       │       │                  ├ [63] : https://bugzilla.redhat.com/show_bug.cgi?id=2318885 
+│                       │       │                  ├ [64] : https://bugzilla.redhat.com/show_bug.cgi?id=2318886 
+│                       │       │                  ├ [65] : https://bugzilla.redhat.com/show_bug.cgi?id=2318897 
+│                       │       │                  ├ [66] : https://bugzilla.redhat.com/show_bug.cgi?id=2318900 
+│                       │       │                  ├ [67] : https://bugzilla.redhat.com/show_bug.cgi?id=2318905 
+│                       │       │                  ├ [68] : https://bugzilla.redhat.com/show_bug.cgi?id=2318914 
+│                       │       │                  ├ [69] : https://bugzilla.redhat.com/show_bug.cgi?id=2318922 
+│                       │       │                  ├ [70] : https://bugzilla.redhat.com/show_bug.cgi?id=2318923 
+│                       │       │                  ├ [71] : https://bugzilla.redhat.com/show_bug.cgi?id=2318925 
+│                       │       │                  ├ [72] : https://bugzilla.redhat.com/show_bug.cgi?id=2318926 
+│                       │       │                  ├ [73] : https://bugzilla.redhat.com/show_bug.cgi?id=2318927 
+│                       │       │                  ├ [74] : https://bugzilla.redhat.com/show_bug.cgi?id=2331191 
+│                       │       │                  ├ [75] : https://bugzilla.redhat.com/show_bug.cgi?id=2339218 
+│                       │       │                  ├ [76] : https://bugzilla.redhat.com/show_bug.cgi?id=2339220 
+│                       │       │                  ├ [77] : https://bugzilla.redhat.com/show_bug.cgi?id=2339221 
+│                       │       │                  ├ [78] : https://bugzilla.redhat.com/show_bug.cgi?id=2339226 
+│                       │       │                  ├ [79] : https://bugzilla.redhat.com/show_bug.cgi?id=2339231 
+│                       │       │                  ├ [80] : https://bugzilla.redhat.com/show_bug.cgi?id=2339236 
+│                       │       │                  ├ [81] : https://bugzilla.redhat.com/show_bug.cgi?id=2339238 
+│                       │       │                  ├ [82] : https://bugzilla.redhat.com/show_bug.cgi?id=2339243 
+│                       │       │                  ├ [83] : https://bugzilla.redhat.com/show_bug.cgi?id=2339247 
+│                       │       │                  ├ [84] : https://bugzilla.redhat.com/show_bug.cgi?id=2339252 
+│                       │       │                  ├ [85] : https://bugzilla.redhat.com/show_bug.cgi?id=2339259 
+│                       │       │                  ├ [86] : https://bugzilla.redhat.com/show_bug.cgi?id=2339266 
+│                       │       │                  ├ [87] : https://bugzilla.redhat.com/show_bug.cgi?id=2339270 
+│                       │       │                  ├ [88] : https://bugzilla.redhat.com/show_bug.cgi?id=2339271 
+│                       │       │                  ├ [89] : https://bugzilla.redhat.com/show_bug.cgi?id=2339275 
+│                       │       │                  ├ [90] : https://bugzilla.redhat.com/show_bug.cgi?id=2339277 
+│                       │       │                  ├ [91] : https://bugzilla.redhat.com/show_bug.cgi?id=2339281 
+│                       │       │                  ├ [92] : https://bugzilla.redhat.com/show_bug.cgi?id=2339284 
+│                       │       │                  ├ [93] : https://bugzilla.redhat.com/show_bug.cgi?id=2339291 
+│                       │       │                  ├ [94] : https://bugzilla.redhat.com/show_bug.cgi?id=2339293 
+│                       │       │                  ├ [95] : https://bugzilla.redhat.com/show_bug.cgi?id=2339295 
+│                       │       │                  ├ [96] : https://bugzilla.redhat.com/show_bug.cgi?id=2339299 
+│                       │       │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2339300 
+│                       │       │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2339304 
+│                       │       │                  ├ [99] : https://bugzilla.redhat.com/show_bug.cgi?id=2339305 
+│                       │       │                  ├ [100]: https://curl.se/docs/CVE-2024-7264.html 
+│                       │       │                  ├ [101]: https://curl.se/docs/CVE-2024-7264.json 
+│                       │       │                  ├ [102]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-11053 
-│                       │       │                  ├ [104]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [103]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21193 
-│                       │       │                  ├ [105]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [104]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21194 
-│                       │       │                  ├ [106]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [105]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21196 
-│                       │       │                  ├ [107]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [106]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21197 
-│                       │       │                  ├ [108]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [107]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21198 
-│                       │       │                  ├ [109]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [108]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21199 
-│                       │       │                  ├ [110]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [109]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21201 
-│                       │       │                  ├ [111]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [110]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21203 
-│                       │       │                  ├ [112]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [111]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21212 
-│                       │       │                  ├ [113]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [112]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21213 
-│                       │       │                  ├ [114]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [113]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21218 
-│                       │       │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [114]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21219 
-│                       │       │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21230 
-│                       │       │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21231 
-│                       │       │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21236 
-│                       │       │                  ├ [119]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21237 
-│                       │       │                  ├ [120]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [119]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21238 
-│                       │       │                  ├ [121]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [120]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21239 
-│                       │       │                  ├ [122]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [121]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21241 
-│                       │       │                  ├ [123]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [122]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21247 
-│                       │       │                  ├ [124]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [123]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-37371 
-│                       │       │                  ├ [125]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [124]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-5535 
-│                       │       │                  ├ [126]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [125]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-7264 
-│                       │       │                  ├ [127]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [126]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21490 
-│                       │       │                  ├ [128]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [127]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21491 
-│                       │       │                  ├ [129]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [128]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21494 
-│                       │       │                  ├ [130]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [129]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21497 
-│                       │       │                  ├ [131]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [130]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21500 
-│                       │       │                  ├ [132]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [131]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21501 
-│                       │       │                  ├ [133]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [132]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21503 
-│                       │       │                  ├ [134]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [133]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21504 
-│                       │       │                  ├ [135]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [134]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21505 
-│                       │       │                  ├ [136]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [135]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21518 
-│                       │       │                  ├ [137]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [136]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21519 
-│                       │       │                  ├ [138]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [137]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21520 
-│                       │       │                  ├ [139]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [138]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21521 
-│                       │       │                  ├ [140]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [139]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21522 
-│                       │       │                  ├ [141]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [140]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21523 
-│                       │       │                  ├ [142]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [141]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21525 
-│                       │       │                  ├ [143]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [142]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21529 
-│                       │       │                  ├ [144]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [143]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21531 
-│                       │       │                  ├ [145]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [144]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21534 
-│                       │       │                  ├ [146]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [145]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21536 
-│                       │       │                  ├ [147]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [146]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21540 
-│                       │       │                  ├ [148]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [147]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21543 
-│                       │       │                  ├ [149]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [148]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21546 
-│                       │       │                  ├ [150]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [149]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21555 
-│                       │       │                  ├ [151]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [150]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21559 
-│                       │       │                  ├ [152]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
-│                       │       │                  ├ [153]: https://errata.rockylinux.org/RLSA-2025:1671 
-│                       │       │                  ├ [154]: https://github.com/curl/curl/commit/27959ecce75cdb2
+│                       │       │                  ├ [151]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
+│                       │       │                  ├ [152]: https://errata.rockylinux.org/RLSA-2025:1671 
+│                       │       │                  ├ [153]: https://github.com/curl/curl/commit/27959ecce75cdb2
 │                       │       │                  │        809c0bdb3286e60e08fadb519 
-│                       │       │                  ├ [155]: https://hackerone.com/reports/2629968 
-│                       │       │                  ├ [156]: https://linux.oracle.com/cve/CVE-2024-7264.html 
-│                       │       │                  ├ [157]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
-│                       │       │                  ├ [158]: https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
-│                       │       │                  ├ [159]: https://security.netapp.com/advisory/ntap-20240828-
+│                       │       │                  ├ [154]: https://hackerone.com/reports/2629968 
+│                       │       │                  ├ [155]: https://linux.oracle.com/cve/CVE-2024-7264.html 
+│                       │       │                  ├ [156]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
+│                       │       │                  ├ [157]: https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
+│                       │       │                  ├ [158]: https://security.netapp.com/advisory/ntap-20240828-
 │                       │       │                  │        0008/ 
-│                       │       │                  ├ [160]: https://security.netapp.com/advisory/ntap-20241025-
+│                       │       │                  ├ [159]: https://security.netapp.com/advisory/ntap-20241025-
 │                       │       │                  │        0006/ 
-│                       │       │                  ├ [161]: https://security.netapp.com/advisory/ntap-20241025-
+│                       │       │                  ├ [160]: https://security.netapp.com/advisory/ntap-20241025-
 │                       │       │                  │        0010/ 
-│                       │       │                  ├ [162]: https://ubuntu.com/security/notices/USN-6944-1 
-│                       │       │                  ├ [163]: https://ubuntu.com/security/notices/USN-6944-2 
-│                       │       │                  ├ [164]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
-│                       │       │                  ╰ [165]: https://www.oracle.com/security-alerts/cpuoct2024.h
-│                       │       │                           tml#AppendixMSQL 
+│                       │       │                  ├ [161]: https://ubuntu.com/security/notices/USN-6944-1 
+│                       │       │                  ├ [162]: https://ubuntu.com/security/notices/USN-6944-2 
+│                       │       │                  ╰ [163]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
 │                       │       ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
 │                       │       ╰ LastModifiedDate: 2025-11-03T23:17:31.647Z 
 │                       ├ [33]  ╭ VulnerabilityID : CVE-2024-9681 
@@ -2207,7 +2184,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
 │                       │       ├ Fingerprint     : sha256:cdbe802e6cb023ab772ca78ef9edd7e023893b49d334cfc0328e
 │                       │       │                   7515063c3f39 
-│                       │       ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
+│                       │       ├ Title           : When curl is asked to use HSTS, the expiry time for a
+│                       │       │                   subdomain might  ... 
 │                       │       ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                       │       │                   subdomain might
 │                       │       │                   overwrite a parent domain's cache entry, making it end
@@ -2254,15 +2232,12 @@
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           H/A:N 
-│                       │       │                  │        ╰ V3Score : 5.9 
-│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           H/A:L 
-│                       │       │                  │        ╰ V3Score : 6.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
-│                       │       │                           │           L/A:L 
-│                       │       │                           ╰ V3Score : 3.9 
+│                       │       ├ CVSS             ╭ julia ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
+│                       │       │                  │       │           /A:N 
+│                       │       │                  │       ╰ V3Score : 5.9 
+│                       │       │                  ╰ nvd   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
+│                       │       │                          │           /A:L 
+│                       │       │                          ╰ V3Score : 6.5 
 │                       │       ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2025/Apr/10 
 │                       │       │                  ├ [1] : http://seclists.org/fulldisclosure/2025/Apr/11 
 │                       │       │                  ├ [2] : http://seclists.org/fulldisclosure/2025/Apr/12 
@@ -2273,18 +2248,17 @@
 │                       │       │                  ├ [7] : http://seclists.org/fulldisclosure/2025/Apr/9 
 │                       │       │                  ├ [8] : http://www.openwall.com/lists/oss-security/2024/11/0
 │                       │       │                  │       6/2 
-│                       │       │                  ├ [9] : https://access.redhat.com/security/cve/CVE-2024-9681 
-│                       │       │                  ├ [10]: https://curl.se/docs/CVE-2024-9681.html 
-│                       │       │                  ├ [11]: https://curl.se/docs/CVE-2024-9681.json 
-│                       │       │                  ├ [12]: https://github.com/advisories/GHSA-g337-g667-mjvw 
-│                       │       │                  ├ [13]: https://hackerone.com/reports/2764830 
-│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │       │                  ├ [15]: https://security.netapp.com/advisory/ntap-20241213-0
+│                       │       │                  ├ [9] : https://curl.se/docs/CVE-2024-9681.html 
+│                       │       │                  ├ [10]: https://curl.se/docs/CVE-2024-9681.json 
+│                       │       │                  ├ [11]: https://github.com/advisories/GHSA-g337-g667-mjvw 
+│                       │       │                  ├ [12]: https://hackerone.com/reports/2764830 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
+│                       │       │                  ├ [14]: https://security.netapp.com/advisory/ntap-20241213-0
 │                       │       │                  │       006 
-│                       │       │                  ├ [16]: https://security.netapp.com/advisory/ntap-20241213-0
+│                       │       │                  ├ [15]: https://security.netapp.com/advisory/ntap-20241213-0
 │                       │       │                  │       006/ 
-│                       │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-7104-1 
-│                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │       ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │       ╰ LastModifiedDate: 2025-11-03T21:18:48.67Z 
 │                       ├ [34]  ╭ VulnerabilityID : CVE-2025-14524 
@@ -2506,7 +2480,8 @@
 │                       │       │                   via moderately sized crafted XML input. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-407 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 3 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -2662,8 +2637,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-66382 
 │                       │       ├ Fingerprint     : sha256:a818b6040e645d23263ab6e8e51ef69222e9d59807cfa59df275
 │                       │       │                   9cedfb0f9bde 
-│                       │       ├ Title           : libexpat: libexpat: Denial of service via crafted file
-│                       │       │                   processing 
+│                       │       ├ Title           : In libexpat through 2.7.3, a crafted file with an
+│                       │       │                   approximate size of  ... 
 │                       │       ├ Description     : In libexpat through 2.7.3, a crafted file with an
 │                       │       │                   approximate size of 2 MiB can lead to dozens of seconds of
 │                       │       │                   processing time. 
@@ -2672,19 +2647,13 @@
 │                       │       ├ VendorSeverity   ╭ nvd   : 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 5.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 2.9 
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+│                       │       │                        ╰ V3Score : 5.5 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/12/02/1 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-66382 
-│                       │       │                  ├ [2]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                       │       │                  ├ [1]: https://cert-portal.siemens.com/productcert/html/ssa-
 │                       │       │                  │      082556.html 
-│                       │       │                  ├ [3]: https://github.com/libexpat/libexpat/issues/1076 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-66382 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
+│                       │       │                  ├ [2]: https://github.com/libexpat/libexpat/issues/1076 
+│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
 │                       │       ├ PublishedDate   : 2025-11-28T07:15:57.9Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:23.933Z 
 │                       ├ [43]  ╭ VulnerabilityID : CVE-2026-24515 
@@ -2980,10 +2949,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-3360 
 │                       │       ├ Fingerprint     : sha256:c8722dce525c21aad120c446983ea501b8fcb4a6f3075cf954ab
 │                       │       │                   798252ba291b 
-│                       │       ├ Title           : glibc: GLib prior to 2.82.5 is vulnerable to integer 
-│                       │       │                   overflow and buffer under-read when parsing a very long
-│                       │       │                   invalid ISO  8601 timestamp with
-│                       │       │                   g_date_time_new_from_iso8601(). 
+│                       │       ├ Title           : A flaw was found in GLib. An integer overflow and buffer
+│                       │       │                   under-read oc ... 
 │                       │       ├ Description     : A flaw was found in GLib. An integer overflow and buffer
 │                       │       │                   under-read occur when parsing a long invalid ISO 8601
 │                       │       │                   timestamp with the g_date_time_new_from_iso8601()
@@ -2995,9 +2962,6 @@
 │                       │       │                  ├ cbl-mariner: 1 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 3.7 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3360 
 │                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2357754 
 │                       │       │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/04/
@@ -3024,8 +2988,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-7039 
 │                       │       ├ Fingerprint     : sha256:6324a0705c98aded547368e1180cf9299146770e4ba6c765c992
 │                       │       │                   f72f98cab22f 
-│                       │       ├ Title           : glib: Buffer Under-read on GLib through glib/gfileutils.c
-│                       │       │                   via get_tmp_file() 
+│                       │       ├ Title           : A flaw was found in glib. An integer overflow during
+│                       │       │                   temporary file cr ... 
 │                       │       ├ Description     : A flaw was found in glib. An integer overflow during
 │                       │       │                   temporary file creation leads to an out-of-bounds memory
 │                       │       │                   access, allowing an attacker to potentially perform path
@@ -3040,16 +3004,12 @@
 │                       │       │                  ├ cbl-mariner: 1 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           L/A:N 
-│                       │       │                           ╰ V3Score : 3.7 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-7039 
 │                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2392423 
-│                       │       │                  ├ [2]: https://gitlab.gnome.org/GNOME/glib/-/issues/3716 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-7039 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7942-1 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7942-2 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-7039 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-7039 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-7942-1 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7942-2 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-7039 
 │                       │       ├ PublishedDate   : 2025-09-03T02:15:38.12Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
 │                       ├ [51]  ╭ VulnerabilityID : CVE-2026-0988 
@@ -3138,13 +3098,15 @@
 │                       │       ├ PublishedDate   : 2026-01-27T14:15:56.223Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
 │                       ├ [53]  ╭ VulnerabilityID : CVE-2026-4046 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2026:20597 
 │                       │       ├ PkgID           : glibc@2.34-266.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-266.el9_8?arch=x86_64&dist
 │                       │       │                  │       ro=redhat-9.8 
 │                       │       │                  ╰ UID : 76eac1e1e96d0962 
 │                       │       ├ InstalledVersion: 2.34-266.el9_8 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-270.el9_8 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
 │                       │       │                  │         17452c5d079b445284f6b 
 │                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
@@ -3165,36 +3127,45 @@
 │                       │       │                    not need them. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-617 
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
-│                       │       │                  ├ azure : 3 
-│                       │       │                  ├ photon: 3 
-│                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 3 
+│                       │       │                  ├ oracle-oval: 2 
+│                       │       │                  ├ photon     : 3 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-4046 
-│                       │       │                  ├ [1]: https://inbox.sourceware.org/libc-announce/76814edf-c
-│                       │       │                  │      f7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
-│                       │       │                  ├ [3]: https://packages.fedoraproject.org/pkgs/glibc/glibc-g
-│                       │       │                  │      conv-extra/ 
-│                       │       │                  ├ [4]: https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
-│                       │       │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
-│                       │       │                  │      f=advisories/GLIBC-SA-2026-0007 
-│                       │       │                  ├ [6]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
-│                       │       │                  │      f=advisories/GLIBC-SA-2026-0007;hb=HEAD 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
+│                       │       │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
+│                       │       │                  ├ [4] : https://inbox.sourceware.org/libc-announce/76814edf-
+│                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
+│                       │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2026-4046.html 
+│                       │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2026-20587.html 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
+│                       │       │                  ├ [8] : https://packages.fedoraproject.org/pkgs/glibc/glibc-
+│                       │       │                  │       gconv-extra/ 
+│                       │       │                  ├ [9] : https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
+│                       │       │                  ├ [10]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007 
+│                       │       │                  ├ [11]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007;hb=HEAD 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
 │                       │       ├ PublishedDate   : 2026-03-30T18:16:19.573Z 
 │                       │       ╰ LastModifiedDate: 2026-04-20T22:16:23.623Z 
 │                       ├ [54]  ╭ VulnerabilityID : CVE-2026-4437 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2026:20597 
 │                       │       ├ PkgID           : glibc@2.34-266.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-266.el9_8?arch=x86_64&dist
 │                       │       │                  │       ro=redhat-9.8 
 │                       │       │                  ╰ UID : 76eac1e1e96d0962 
 │                       │       ├ InstalledVersion: 2.34-266.el9_8 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-270.el9_8 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
 │                       │       │                  │         17452c5d079b445284f6b 
 │                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
@@ -3214,18 +3185,23 @@
 │                       │       │                   response as a valid answer. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ alma  : 2 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-4437 
-│                       │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
-│                       │       │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
-│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
-│                       │       │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2026/03/2
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:19061 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-4437 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2449777 
+│                       │       │                  ├ [3]: https://bugzilla.redhat.com/2449783 
+│                       │       │                  ├ [4]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
+│                       │       │                  ├ [6]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
+│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
+│                       │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/03/2
 │                       │       │                         3/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.477Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:41:36.647Z 
@@ -3360,13 +3336,15 @@
 │                       │       ├ PublishedDate   : 2026-04-20T21:16:36.963Z 
 │                       │       ╰ LastModifiedDate: 2026-04-23T15:33:43.69Z 
 │                       ├ [58]  ╭ VulnerabilityID : CVE-2026-4438 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2026:20597 
 │                       │       ├ PkgID           : glibc@2.34-266.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-266.el9_8?arch=x86_64&dist
 │                       │       │                  │       ro=redhat-9.8 
 │                       │       │                  ╰ UID : 76eac1e1e96d0962 
 │                       │       ├ InstalledVersion: 2.34-266.el9_8 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-270.el9_8 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
 │                       │       │                  │         17452c5d079b445284f6b 
 │                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
@@ -3385,29 +3363,36 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-88 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ alma  : 2 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 4 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-4438 
-│                       │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
-│                       │       │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
-│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
-│                       │       │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2026/03/2
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:19061 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-4438 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2449777 
+│                       │       │                  ├ [3]: https://bugzilla.redhat.com/2449783 
+│                       │       │                  ├ [4]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
+│                       │       │                  ├ [6]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
+│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
+│                       │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/03/2
 │                       │       │                         3/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.623Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:40:02.177Z 
 │                       ├ [59]  ╭ VulnerabilityID : CVE-2026-4046 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2026:20597 
 │                       │       ├ PkgID           : glibc-common@2.34-266.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-266.el9_8?arch=x86_
 │                       │       │                  │       64&distro=redhat-9.8 
 │                       │       │                  ╰ UID : e9d53a89291193d1 
 │                       │       ├ InstalledVersion: 2.34-266.el9_8 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-270.el9_8 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
 │                       │       │                  │         17452c5d079b445284f6b 
 │                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
@@ -3428,36 +3413,45 @@
 │                       │       │                    not need them. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-617 
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
-│                       │       │                  ├ azure : 3 
-│                       │       │                  ├ photon: 3 
-│                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 3 
+│                       │       │                  ├ oracle-oval: 2 
+│                       │       │                  ├ photon     : 3 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-4046 
-│                       │       │                  ├ [1]: https://inbox.sourceware.org/libc-announce/76814edf-c
-│                       │       │                  │      f7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
-│                       │       │                  ├ [3]: https://packages.fedoraproject.org/pkgs/glibc/glibc-g
-│                       │       │                  │      conv-extra/ 
-│                       │       │                  ├ [4]: https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
-│                       │       │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
-│                       │       │                  │      f=advisories/GLIBC-SA-2026-0007 
-│                       │       │                  ├ [6]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
-│                       │       │                  │      f=advisories/GLIBC-SA-2026-0007;hb=HEAD 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
+│                       │       │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
+│                       │       │                  ├ [4] : https://inbox.sourceware.org/libc-announce/76814edf-
+│                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
+│                       │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2026-4046.html 
+│                       │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2026-20587.html 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
+│                       │       │                  ├ [8] : https://packages.fedoraproject.org/pkgs/glibc/glibc-
+│                       │       │                  │       gconv-extra/ 
+│                       │       │                  ├ [9] : https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
+│                       │       │                  ├ [10]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007 
+│                       │       │                  ├ [11]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007;hb=HEAD 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
 │                       │       ├ PublishedDate   : 2026-03-30T18:16:19.573Z 
 │                       │       ╰ LastModifiedDate: 2026-04-20T22:16:23.623Z 
 │                       ├ [60]  ╭ VulnerabilityID : CVE-2026-4437 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2026:20597 
 │                       │       ├ PkgID           : glibc-common@2.34-266.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-266.el9_8?arch=x86_
 │                       │       │                  │       64&distro=redhat-9.8 
 │                       │       │                  ╰ UID : e9d53a89291193d1 
 │                       │       ├ InstalledVersion: 2.34-266.el9_8 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-270.el9_8 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
 │                       │       │                  │         17452c5d079b445284f6b 
 │                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
@@ -3477,18 +3471,23 @@
 │                       │       │                   response as a valid answer. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ alma  : 2 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-4437 
-│                       │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
-│                       │       │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
-│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
-│                       │       │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2026/03/2
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:19061 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-4437 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2449777 
+│                       │       │                  ├ [3]: https://bugzilla.redhat.com/2449783 
+│                       │       │                  ├ [4]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
+│                       │       │                  ├ [6]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
+│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
+│                       │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/03/2
 │                       │       │                         3/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.477Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:41:36.647Z 
@@ -3623,13 +3622,15 @@
 │                       │       ├ PublishedDate   : 2026-04-20T21:16:36.963Z 
 │                       │       ╰ LastModifiedDate: 2026-04-23T15:33:43.69Z 
 │                       ├ [64]  ╭ VulnerabilityID : CVE-2026-4438 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2026:20597 
 │                       │       ├ PkgID           : glibc-common@2.34-266.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-266.el9_8?arch=x86_
 │                       │       │                  │       64&distro=redhat-9.8 
 │                       │       │                  ╰ UID : e9d53a89291193d1 
 │                       │       ├ InstalledVersion: 2.34-266.el9_8 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-270.el9_8 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
 │                       │       │                  │         17452c5d079b445284f6b 
 │                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
@@ -3648,29 +3649,36 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-88 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ alma  : 2 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 4 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-4438 
-│                       │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
-│                       │       │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
-│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
-│                       │       │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2026/03/2
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:19061 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-4438 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2449777 
+│                       │       │                  ├ [3]: https://bugzilla.redhat.com/2449783 
+│                       │       │                  ├ [4]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
+│                       │       │                  ├ [6]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
+│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
+│                       │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/03/2
 │                       │       │                         3/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.623Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:40:02.177Z 
 │                       ├ [65]  ╭ VulnerabilityID : CVE-2026-4046 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2026:20597 
 │                       │       ├ PkgID           : glibc-langpack-en@2.34-266.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-langpack-en 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-langpack-en@2.34-266.el9_8?arch
 │                       │       │                  │       =x86_64&distro=redhat-9.8 
 │                       │       │                  ╰ UID : 5197b26f87f37e2f 
 │                       │       ├ InstalledVersion: 2.34-266.el9_8 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-270.el9_8 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
 │                       │       │                  │         17452c5d079b445284f6b 
 │                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
@@ -3691,36 +3699,45 @@
 │                       │       │                    not need them. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-617 
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
-│                       │       │                  ├ azure : 3 
-│                       │       │                  ├ photon: 3 
-│                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 3 
+│                       │       │                  ├ oracle-oval: 2 
+│                       │       │                  ├ photon     : 3 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-4046 
-│                       │       │                  ├ [1]: https://inbox.sourceware.org/libc-announce/76814edf-c
-│                       │       │                  │      f7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
-│                       │       │                  ├ [3]: https://packages.fedoraproject.org/pkgs/glibc/glibc-g
-│                       │       │                  │      conv-extra/ 
-│                       │       │                  ├ [4]: https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
-│                       │       │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
-│                       │       │                  │      f=advisories/GLIBC-SA-2026-0007 
-│                       │       │                  ├ [6]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
-│                       │       │                  │      f=advisories/GLIBC-SA-2026-0007;hb=HEAD 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
+│                       │       │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
+│                       │       │                  ├ [4] : https://inbox.sourceware.org/libc-announce/76814edf-
+│                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
+│                       │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2026-4046.html 
+│                       │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2026-20587.html 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
+│                       │       │                  ├ [8] : https://packages.fedoraproject.org/pkgs/glibc/glibc-
+│                       │       │                  │       gconv-extra/ 
+│                       │       │                  ├ [9] : https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
+│                       │       │                  ├ [10]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007 
+│                       │       │                  ├ [11]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007;hb=HEAD 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
 │                       │       ├ PublishedDate   : 2026-03-30T18:16:19.573Z 
 │                       │       ╰ LastModifiedDate: 2026-04-20T22:16:23.623Z 
 │                       ├ [66]  ╭ VulnerabilityID : CVE-2026-4437 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2026:20597 
 │                       │       ├ PkgID           : glibc-langpack-en@2.34-266.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-langpack-en 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-langpack-en@2.34-266.el9_8?arch
 │                       │       │                  │       =x86_64&distro=redhat-9.8 
 │                       │       │                  ╰ UID : 5197b26f87f37e2f 
 │                       │       ├ InstalledVersion: 2.34-266.el9_8 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-270.el9_8 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
 │                       │       │                  │         17452c5d079b445284f6b 
 │                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
@@ -3740,18 +3757,23 @@
 │                       │       │                   response as a valid answer. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ alma  : 2 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-4437 
-│                       │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
-│                       │       │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
-│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
-│                       │       │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2026/03/2
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:19061 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-4437 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2449777 
+│                       │       │                  ├ [3]: https://bugzilla.redhat.com/2449783 
+│                       │       │                  ├ [4]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
+│                       │       │                  ├ [6]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
+│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
+│                       │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/03/2
 │                       │       │                         3/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.477Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:41:36.647Z 
@@ -3886,13 +3908,15 @@
 │                       │       ├ PublishedDate   : 2026-04-20T21:16:36.963Z 
 │                       │       ╰ LastModifiedDate: 2026-04-23T15:33:43.69Z 
 │                       ├ [70]  ╭ VulnerabilityID : CVE-2026-4438 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2026:20597 
 │                       │       ├ PkgID           : glibc-langpack-en@2.34-266.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-langpack-en 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-langpack-en@2.34-266.el9_8?arch
 │                       │       │                  │       =x86_64&distro=redhat-9.8 
 │                       │       │                  ╰ UID : 5197b26f87f37e2f 
 │                       │       ├ InstalledVersion: 2.34-266.el9_8 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-270.el9_8 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
 │                       │       │                  │         17452c5d079b445284f6b 
 │                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
@@ -3911,29 +3935,36 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-88 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ alma  : 2 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 4 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-4438 
-│                       │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
-│                       │       │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
-│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
-│                       │       │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2026/03/2
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:19061 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-4438 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2449777 
+│                       │       │                  ├ [3]: https://bugzilla.redhat.com/2449783 
+│                       │       │                  ├ [4]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
+│                       │       │                  ├ [6]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
+│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
+│                       │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/03/2
 │                       │       │                         3/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.623Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:40:02.177Z 
 │                       ├ [71]  ╭ VulnerabilityID : CVE-2026-4046 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2026:20597 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-266.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-266.el9_8
 │                       │       │                  │       ?arch=x86_64&distro=redhat-9.8 
 │                       │       │                  ╰ UID : 7996c381b45528b7 
 │                       │       ├ InstalledVersion: 2.34-266.el9_8 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-270.el9_8 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
 │                       │       │                  │         17452c5d079b445284f6b 
 │                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
@@ -3954,36 +3985,45 @@
 │                       │       │                    not need them. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-617 
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
-│                       │       │                  ├ azure : 3 
-│                       │       │                  ├ photon: 3 
-│                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 3 
+│                       │       │                  ├ oracle-oval: 2 
+│                       │       │                  ├ photon     : 3 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-4046 
-│                       │       │                  ├ [1]: https://inbox.sourceware.org/libc-announce/76814edf-c
-│                       │       │                  │      f7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
-│                       │       │                  ├ [3]: https://packages.fedoraproject.org/pkgs/glibc/glibc-g
-│                       │       │                  │      conv-extra/ 
-│                       │       │                  ├ [4]: https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
-│                       │       │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
-│                       │       │                  │      f=advisories/GLIBC-SA-2026-0007 
-│                       │       │                  ├ [6]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
-│                       │       │                  │      f=advisories/GLIBC-SA-2026-0007;hb=HEAD 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
+│                       │       │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
+│                       │       │                  ├ [4] : https://inbox.sourceware.org/libc-announce/76814edf-
+│                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
+│                       │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2026-4046.html 
+│                       │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2026-20587.html 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
+│                       │       │                  ├ [8] : https://packages.fedoraproject.org/pkgs/glibc/glibc-
+│                       │       │                  │       gconv-extra/ 
+│                       │       │                  ├ [9] : https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
+│                       │       │                  ├ [10]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007 
+│                       │       │                  ├ [11]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007;hb=HEAD 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
 │                       │       ├ PublishedDate   : 2026-03-30T18:16:19.573Z 
 │                       │       ╰ LastModifiedDate: 2026-04-20T22:16:23.623Z 
 │                       ├ [72]  ╭ VulnerabilityID : CVE-2026-4437 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2026:20597 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-266.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-266.el9_8
 │                       │       │                  │       ?arch=x86_64&distro=redhat-9.8 
 │                       │       │                  ╰ UID : 7996c381b45528b7 
 │                       │       ├ InstalledVersion: 2.34-266.el9_8 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-270.el9_8 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
 │                       │       │                  │         17452c5d079b445284f6b 
 │                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
@@ -4003,18 +4043,23 @@
 │                       │       │                   response as a valid answer. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ alma  : 2 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-4437 
-│                       │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
-│                       │       │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
-│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
-│                       │       │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2026/03/2
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:19061 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-4437 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2449777 
+│                       │       │                  ├ [3]: https://bugzilla.redhat.com/2449783 
+│                       │       │                  ├ [4]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
+│                       │       │                  ├ [6]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
+│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
+│                       │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/03/2
 │                       │       │                         3/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.477Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:41:36.647Z 
@@ -4149,13 +4194,15 @@
 │                       │       ├ PublishedDate   : 2026-04-20T21:16:36.963Z 
 │                       │       ╰ LastModifiedDate: 2026-04-23T15:33:43.69Z 
 │                       ├ [76]  ╭ VulnerabilityID : CVE-2026-4438 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2026:20597 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-266.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-266.el9_8
 │                       │       │                  │       ?arch=x86_64&distro=redhat-9.8 
 │                       │       │                  ╰ UID : 7996c381b45528b7 
 │                       │       ├ InstalledVersion: 2.34-266.el9_8 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-270.el9_8 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
 │                       │       │                  │         17452c5d079b445284f6b 
 │                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
@@ -4174,18 +4221,23 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-88 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ alma  : 2 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 4 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-4438 
-│                       │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
-│                       │       │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
-│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
-│                       │       │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2026/03/2
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:19061 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-4438 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2449777 
+│                       │       │                  ├ [3]: https://bugzilla.redhat.com/2449783 
+│                       │       │                  ├ [4]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
+│                       │       │                  ├ [6]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
+│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
+│                       │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/03/2
 │                       │       │                         3/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.623Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:40:02.177Z 
@@ -4205,8 +4257,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
 │                       │       ├ Fingerprint     : sha256:e4e82230d1efc712b728c664b896a3f3ad80f39d8564c6bc787c
 │                       │       │                   be5079086cdc 
-│                       │       ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
-│                       │       │                   signed messages 
+│                       │       ├ Title           : In GnuPG through 2.4.8, if a signed message has \f at the
+│                       │       │                   end of a pla ... 
 │                       │       ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
 │                       │       │                   end of a plaintext line, an adversary can construct a
 │                       │       │                   modified message that places additional text after the
@@ -4218,21 +4270,21 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-347 
 │                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ julia : 2 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ╰ redhat: 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           H/A:N 
-│                       │       │                  │        ╰ V3Score : 4.7 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
-│                       │       │                           │           H/A:N 
-│                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-68972 
+│                       │       ├ CVSS             ╭ julia ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H
+│                       │       │                  │       │           /A:N 
+│                       │       │                  │       ╰ V3Score : 5.9 
+│                       │       │                  ╰ nvd   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H
+│                       │       │                          │           /A:N 
+│                       │       │                          ╰ V3Score : 4.7 
+│                       │       ├ References       ╭ [0]: https://github.com/advisories/GHSA-w789-3q45-984r 
 │                       │       │                  ├ [1]: https://gpg.fail/formfeed 
 │                       │       │                  ├ [2]: https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-pr
 │                       │       │                  │      actical-vulnerabilities-i 
 │                       │       │                  ├ [3]: https://news.ycombinator.com/item?id=46404339 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-68972 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
+│                       │       │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-68972 
 │                       │       ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
 │                       │       ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
 │                       ├ [78]  ╭ VulnerabilityID : CVE-2022-3219 
@@ -4293,8 +4345,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
 │                       │       ├ Fingerprint     : sha256:d616a759dbcdc2072392b098ac424544f9d9593e17e825298283
 │                       │       │                   d30048f4454f 
-│                       │       ├ Title           : gnupg: verification DoS due to a malicious subkey in the
-│                       │       │                   keyring 
+│                       │       ├ Title           : In GnuPG before 2.5.5, if a user chooses to import a
+│                       │       │                   certificate with  ... 
 │                       │       ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
 │                       │       │                   certificate with certain crafted subkey data that lacks a
 │                       │       │                   valid backsig or that has incorrect usage flags, the user
@@ -4307,22 +4359,17 @@
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 4.7 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 2.7 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30258 
-│                       │       │                  ├ [1]: https://dev.gnupg.org/T7527 
-│                       │       │                  ├ [2]: https://dev.gnupg.org/rG48978ccb4e20866472ef18436a327
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H 
+│                       │       │                        ╰ V3Score : 4.7 
+│                       │       ├ References       ╭ [0]: https://dev.gnupg.org/T7527 
+│                       │       │                  ├ [1]: https://dev.gnupg.org/rG48978ccb4e20866472ef18436a327
 │                       │       │                  │      44350a65158 
-│                       │       │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2025
+│                       │       │                  ├ [2]: https://lists.gnupg.org/pipermail/gnupg-announce/2025
 │                       │       │                  │      q1/000491.html 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-30258 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7412-1 
-│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7412-3 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-30258 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-30258 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7412-1 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7412-3 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30258 
 │                       │       ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
 │                       │       ╰ LastModifiedDate: 2025-10-16T16:53:07.557Z 
 │                       ├ [80]  ╭ VulnerabilityID : CVE-2026-24883 
@@ -4349,9 +4396,13 @@
 │                       │       │                   (application crash). 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-476 
-│                       │       ├ VendorSeverity   ╭ nvd   : 2 
+│                       │       ├ VendorSeverity   ╭ julia : 1 
+│                       │       │                  ├ nvd   : 2 
 │                       │       │                  ╰ redhat: 1 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
+│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                  │        │           N/A:L 
+│                       │       │                  │        ╰ V3Score : 3.7 
+│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                       │       │                  │        │           N/A:H 
 │                       │       │                  │        ╰ V3Score : 5.5 
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
@@ -4359,9 +4410,10 @@
 │                       │       │                           ╰ V3Score : 3.7 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-24883 
 │                       │       │                  ├ [1]: https://dev.gnupg.org/T8049 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-24883 
-│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-24883 
-│                       │       │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2026/01/2
+│                       │       │                  ├ [2]: https://github.com/advisories/GHSA-7246-cvp4-g68w 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-24883 
+│                       │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2026-24883 
+│                       │       │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2026/01/2
 │                       │       │                         7/8 
 │                       │       ├ PublishedDate   : 2026-01-27T19:16:16.823Z 
 │                       │       ╰ LastModifiedDate: 2026-02-06T18:06:07.76Z 
@@ -4390,7 +4442,8 @@
 │                       │       │                   may cause information disclosure or denial of service. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-191 
-│                       │       ├ VendorSeverity   ╭ azure : 3 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ nvd   : 4 
 │                       │       │                  ├ photon: 4 
 │                       │       │                  ├ redhat: 3 
@@ -4401,16 +4454,24 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:13274 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-33845 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2450624 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33845 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8284-1 
-│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2026-33845 
-│                       │       │                  ╰ [6]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
-│                       │       │                         26-04-29-3 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:13274 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:20611 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-33845 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2445763 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2450624 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2450625 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2467279 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2467289 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2467437 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2450624 
+│                       │       │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2026-20611.html 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-33845 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-8284-1 
+│                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2026-33845 
+│                       │       │                  ╰ [14]: https://www.gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │       │                          026-04-29-3 
 │                       │       ├ PublishedDate   : 2026-04-30T18:16:28.003Z 
-│                       │       ╰ LastModifiedDate: 2026-05-05T03:03:19.247Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T04:16:26.953Z 
 │                       ├ [82]  ╭ VulnerabilityID : CVE-2026-33846 
 │                       │       ├ PkgID           : gnutls@3.8.10-3.el9.x86_64 
 │                       │       ├ PkgName         : gnutls 
@@ -4448,22 +4509,32 @@
 │                       │       │                   potential memory corruption. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-130 
-│                       │       ├ VendorSeverity   ╭ photon: 3 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ amazon: 3 
+│                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:13274 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-33846 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2450625 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33846 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8284-1 
-│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2026-33846 
-│                       │       │                  ╰ [6]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
-│                       │       │                         26-04-29-1 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:13274 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:20611 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-33846 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2445763 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2450624 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2450625 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2467279 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2467289 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2467437 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2450625 
+│                       │       │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2026-20611.html 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-33846 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-8284-1 
+│                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2026-33846 
+│                       │       │                  ╰ [14]: https://www.gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │       │                          026-04-29-1 
 │                       │       ├ PublishedDate   : 2026-05-04T10:15:59.69Z 
-│                       │       ╰ LastModifiedDate: 2026-05-04T15:22:52.85Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T04:16:29.873Z 
 │                       ├ [83]  ╭ VulnerabilityID : CVE-2026-42009 
 │                       │       ├ PkgID           : gnutls@3.8.10-3.el9.x86_64 
 │                       │       ├ PkgName         : gnutls 
@@ -4491,20 +4562,31 @@
 │                       │       │                   undefined behavior, resulting in a denial of service. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-475 
-│                       │       ├ VendorSeverity   ╭ redhat: 3 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ amazon: 3 
+│                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-42009 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2467279 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-42009 
-│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8284-1 
-│                       │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2026-42009 
-│                       │       │                  ╰ [5]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
-│                       │       │                         26-04-29-2 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:13274 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:20611 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-42009 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2445763 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2450624 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2450625 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2467279 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2467289 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2467437 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2467279 
+│                       │       │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2026-20611.html 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-42009 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-8284-1 
+│                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2026-42009 
+│                       │       │                  ╰ [14]: https://www.gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │       │                          026-04-29-2 
 │                       │       ├ PublishedDate   : 2026-05-18T13:16:32.707Z 
-│                       │       ╰ LastModifiedDate: 2026-05-18T19:32:38.777Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T04:16:30.23Z 
 │                       ├ [84]  ╭ VulnerabilityID : CVE-2026-42010 
 │                       │       ├ PkgID           : gnutls@3.8.10-3.el9.x86_64 
 │                       │       ├ PkgName         : gnutls 
@@ -4533,7 +4615,9 @@
 │                       │       │                   process. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-626 
-│                       │       ├ VendorSeverity   ╭ nvd   : 4 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ amazon: 3 
+│                       │       │                  ├ nvd   : 4 
 │                       │       │                  ├ photon: 4 
 │                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
@@ -4543,16 +4627,24 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 7.1 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:13274 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-42010 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2467289 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-42010 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8284-1 
-│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2026-42010 
-│                       │       │                  ╰ [6]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
-│                       │       │                         26-04-29-4 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:13274 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:20611 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-42010 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2445763 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2450624 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2450625 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2467279 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2467289 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2467437 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2467289 
+│                       │       │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2026-20611.html 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-42010 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-8284-1 
+│                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2026-42010 
+│                       │       │                  ╰ [14]: https://www.gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │       │                          026-04-29-4 
 │                       │       ├ PublishedDate   : 2026-05-07T12:16:17.977Z 
-│                       │       ╰ LastModifiedDate: 2026-05-14T23:16:36.52Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T04:16:30.43Z 
 │                       ├ [85]  ╭ VulnerabilityID : CVE-2026-3833 
 │                       │       ├ PkgID           : gnutls@3.8.10-3.el9.x86_64 
 │                       │       ├ PkgName         : gnutls 
@@ -4583,7 +4675,9 @@
 │                       │       │                   in unauthorized access or information disclosure. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-178 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ amazon: 3 
+│                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -4593,17 +4687,25 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:13274 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3833 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2445763 
-│                       │       │                  ├ [3]: https://gitlab.com/gnutls/gnutls/-/issues/1803 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-3833 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8284-1 
-│                       │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2026-3833 
-│                       │       │                  ╰ [7]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
-│                       │       │                         26-04-29-5 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:13274 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:20611 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-3833 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2445763 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2450624 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2450625 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2467279 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2467289 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2467437 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2445763 
+│                       │       │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2026-20611.html 
+│                       │       │                  ├ [11]: https://gitlab.com/gnutls/gnutls/-/issues/1803 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-3833 
+│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-8284-1 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-3833 
+│                       │       │                  ╰ [15]: https://www.gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │       │                          026-04-29-5 
 │                       │       ├ PublishedDate   : 2026-04-30T18:16:30.577Z 
-│                       │       ╰ LastModifiedDate: 2026-05-07T02:09:04.47Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T04:16:30.053Z 
 │                       ├ [86]  ╭ VulnerabilityID : CVE-2026-42011 
 │                       │       ├ PkgID           : gnutls@3.8.10-3.el9.x86_64 
 │                       │       ├ PkgName         : gnutls 
@@ -4633,23 +4735,272 @@
 │                       │       │                   systems. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-295 
-│                       │       ├ VendorSeverity   ╭ photon: 3 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 7.4 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:13274 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-42011 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2467437 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-42011 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8284-1 
-│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2026-42011 
-│                       │       │                  ╰ [6]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
-│                       │       │                         26-04-29-6 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:13274 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:20611 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-42011 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2445763 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2450624 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2450625 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2467279 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2467289 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2467437 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2467437 
+│                       │       │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2026-20611.html 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-42011 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-8284-1 
+│                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2026-42011 
+│                       │       │                  ╰ [14]: https://www.gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │       │                          026-04-29-6 
 │                       │       ├ PublishedDate   : 2026-05-07T15:16:09.76Z 
-│                       │       ╰ LastModifiedDate: 2026-05-14T23:16:36.667Z 
-│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-3832 
+│                       │       ╰ LastModifiedDate: 2026-05-27T04:16:30.6Z 
+│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-42012 
+│                       │       ├ PkgID           : gnutls@3.8.10-3.el9.x86_64 
+│                       │       ├ PkgName         : gnutls 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnutls@3.8.10-3.el9?arch=x86_64&distr
+│                       │       │                  │       o=redhat-9.8 
+│                       │       │                  ╰ UID : 7fd352030695405b 
+│                       │       ├ InstalledVersion: 3.8.10-3.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
+│                       │       │                  │         17452c5d079b445284f6b 
+│                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
+│                       │       │                            cb53f08109547def80414 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42012 
+│                       │       ├ Fingerprint     : sha256:fbba886ed148c8a9a4e2e13cbe3864bc3691e1cb049d0a65d864
+│                       │       │                   1975e34b7c9c 
+│                       │       ├ Title           : gnutls: gnutls: Certificate validation bypass due to
+│                       │       │                   improper handling of URI and SRV SANs 
+│                       │       ├ Description     : A flaw was found in gnutls. A remote attacker could exploit
+│                       │       │                    this vulnerability by presenting a specially crafted
+│                       │       │                   certificate that contains Uniform Resource Identifier (URI)
+│                       │       │                    or Service (SRV) Subject Alternative Names (SANs). This
+│                       │       │                   could cause the certificate validation process to
+│                       │       │                   incorrectly fall back to checking DNS hostnames against the
+│                       │       │                    Common Name (CN), potentially allowing the attacker to
+│                       │       │                   spoof legitimate services or intercept sensitive
+│                       │       │                   information. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-295 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                           │           H/A:N 
+│                       │       │                           ╰ V3Score : 7.1 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20611 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42012 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2445763 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2450624 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2450625 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2467279 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2467289 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2467437 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2467441 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20611.html 
+│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-42012 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8284-1 
+│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-42012 
+│                       │       │                  ╰ [13]: https://www.gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │       │                          026-04-29-7 
+│                       │       ├ PublishedDate   : 2026-05-26T22:16:41.913Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T14:54:20.16Z 
+│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-42013 
+│                       │       ├ PkgID           : gnutls@3.8.10-3.el9.x86_64 
+│                       │       ├ PkgName         : gnutls 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnutls@3.8.10-3.el9?arch=x86_64&distr
+│                       │       │                  │       o=redhat-9.8 
+│                       │       │                  ╰ UID : 7fd352030695405b 
+│                       │       ├ InstalledVersion: 3.8.10-3.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
+│                       │       │                  │         17452c5d079b445284f6b 
+│                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
+│                       │       │                            cb53f08109547def80414 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42013 
+│                       │       ├ Fingerprint     : sha256:a37b1ceffb7253580fa85a9c19af8798ac7e6474dc3e3e0715d5
+│                       │       │                   84a292bb0566 
+│                       │       ├ Title           : gnutls: gnutls: Certificate validation bypass due to
+│                       │       │                   oversized Subject Alternative Name 
+│                       │       ├ Description     : A flaw was found in gnutls. When validating certificates,
+│                       │       │                   an oversized Subject Alternative Name (SAN) could cause the
+│                       │       │                    validation process to incorrectly fall back to checking
+│                       │       │                   the Common Name (CN) field. This could allow a remote
+│                       │       │                   attacker to bypass proper certificate validation,
+│                       │       │                   potentially leading to spoofing or man-in-the-middle
+│                       │       │                   attacks. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-1284 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                       │       │                           │           H/A:N 
+│                       │       │                           ╰ V3Score : 8.2 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20611 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42013 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2445763 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2450624 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2450625 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2467279 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2467289 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2467437 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2467448 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20611.html 
+│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-42013 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8284-1 
+│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-42013 
+│                       │       │                  ╰ [13]: https://www.gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │       │                          026-04-29-8 
+│                       │       ├ PublishedDate   : 2026-05-26T22:16:42.05Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T14:54:20.16Z 
+│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-42014 
+│                       │       ├ PkgID           : gnutls@3.8.10-3.el9.x86_64 
+│                       │       ├ PkgName         : gnutls 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnutls@3.8.10-3.el9?arch=x86_64&distr
+│                       │       │                  │       o=redhat-9.8 
+│                       │       │                  ╰ UID : 7fd352030695405b 
+│                       │       ├ InstalledVersion: 3.8.10-3.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
+│                       │       │                  │         17452c5d079b445284f6b 
+│                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
+│                       │       │                            cb53f08109547def80414 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42014 
+│                       │       ├ Fingerprint     : sha256:dee3907832d99fe0a96da2ad0068bd51fca8e8f6094994bdea3a
+│                       │       │                   99fc7174ca55 
+│                       │       ├ Title           : gnutls: Fix use-after-free in gnutls_pkcs11_token_set_pin 
+│                       │       ├ Description     : No description is available for this CVE. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ amazon: 3 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20611 
+│                       │                          ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42014 
+│                       │                          ├ [2] : https://bugzilla.redhat.com/2445763 
+│                       │                          ├ [3] : https://bugzilla.redhat.com/2450624 
+│                       │                          ├ [4] : https://bugzilla.redhat.com/2450625 
+│                       │                          ├ [5] : https://bugzilla.redhat.com/2467279 
+│                       │                          ├ [6] : https://bugzilla.redhat.com/2467289 
+│                       │                          ├ [7] : https://bugzilla.redhat.com/2467437 
+│                       │                          ├ [8] : https://errata.almalinux.org/8/ALSA-2026-20611.html 
+│                       │                          ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-42014 
+│                       │                          ├ [10]: https://ubuntu.com/security/notices/USN-8284-1 
+│                       │                          ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-42014 
+│                       │                          ╰ [12]: https://www.gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │                                  026-04-29-9 
+│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-42015 
+│                       │       ├ PkgID           : gnutls@3.8.10-3.el9.x86_64 
+│                       │       ├ PkgName         : gnutls 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnutls@3.8.10-3.el9?arch=x86_64&distr
+│                       │       │                  │       o=redhat-9.8 
+│                       │       │                  ╰ UID : 7fd352030695405b 
+│                       │       ├ InstalledVersion: 3.8.10-3.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
+│                       │       │                  │         17452c5d079b445284f6b 
+│                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
+│                       │       │                            cb53f08109547def80414 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42015 
+│                       │       ├ Fingerprint     : sha256:fc54e99afda2f9dcc7584f751f51f965e29bd186bd917981bb37
+│                       │       │                   e63a1737c67f 
+│                       │       ├ Title           : gnutls: gnutls: Memory corruption due to off-by-one error
+│                       │       │                   in PKCS#12 bag handling 
+│                       │       ├ Description     : A flaw was found in gnutls. An off-by-one error exists in
+│                       │       │                   the PKCS#12 bag element bounds check. This vulnerability
+│                       │       │                   allows an remote attacker to write past the internal array
+│                       │       │                   of a PKCS#12 bag when appending to a bag that already
+│                       │       │                   contains 32 elements. This memory corruption could lead to
+│                       │       │                   a denial of service (DoS) or potentially other unspecified
+│                       │       │                   impacts. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-193 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ amazon: 3 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:L 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20611 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42015 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2445763 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2450624 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2450625 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2467279 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2467289 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2467437 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2467678 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20611.html 
+│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-42015 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8284-1 
+│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-42015 
+│                       │       │                  ╰ [13]: https://www.gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │       │                          026-04-29-11 
+│                       │       ├ PublishedDate   : 2026-05-26T22:16:42.18Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T14:54:20.16Z 
+│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-5260 
+│                       │       ├ PkgID           : gnutls@3.8.10-3.el9.x86_64 
+│                       │       ├ PkgName         : gnutls 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnutls@3.8.10-3.el9?arch=x86_64&distr
+│                       │       │                  │       o=redhat-9.8 
+│                       │       │                  ╰ UID : 7fd352030695405b 
+│                       │       ├ InstalledVersion: 3.8.10-3.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
+│                       │       │                  │         17452c5d079b445284f6b 
+│                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
+│                       │       │                            cb53f08109547def80414 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5260 
+│                       │       ├ Fingerprint     : sha256:a366bc6019f8c75611a3c35c9293a80ca39f52c9e5d16d00c3ae
+│                       │       │                   f2d9b0062cf0 
+│                       │       ├ Title           : gnutls: gnutls: Information disclosure via heap overread in
+│                       │       │                    RSA key exchange 
+│                       │       ├ Description     : A flaw was found in libgnutls. A remote attacker, by
+│                       │       │                   sending an extremely short premaster secret during an RSA
+│                       │       │                   key exchange to a server using an RSA key backed by a
+│                       │       │                   PKCS#11 token, could trigger a short heap overread. This
+│                       │       │                   memory corruption vulnerability could lead to information
+│                       │       │                   disclosure. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-1284 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ amazon: 3 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 8.2 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20611 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-5260 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2445763 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2450624 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2450625 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2467279 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2467289 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2467437 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2467450 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20611.html 
+│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-5260 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8284-1 
+│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-5260 
+│                       │       │                  ╰ [13]: https://www.gnutls.org/security-new.html#GNUTLS-SA-2
+│                       │       │                          026-04-29-10 
+│                       │       ├ PublishedDate   : 2026-05-26T22:16:44.17Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T14:54:20.16Z 
+│                       ├ [92]  ╭ VulnerabilityID : CVE-2026-3832 
 │                       │       ├ PkgID           : gnutls@3.8.10-3.el9.x86_64 
 │                       │       ├ PkgName         : gnutls 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnutls@3.8.10-3.el9?arch=x86_64&distr
@@ -4693,7 +5044,7 @@
 │                       │       │                         26-04-29-12 
 │                       │       ├ PublishedDate   : 2026-04-30T18:16:30.433Z 
 │                       │       ╰ LastModifiedDate: 2026-05-11T19:15:57.277Z 
-│                       ├ [88]  ╭ VulnerabilityID : CVE-2025-66293 
+│                       ├ [93]  ╭ VulnerabilityID : CVE-2025-66293 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -4709,7 +5060,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-66293 
 │                       │       ├ Fingerprint     : sha256:bfb7739ed68dc70a86e02d04d25251a740714ed2d7b9e23ae926
 │                       │       │                   e2cbbb61aaf9 
-│                       │       ├ Title           : libpng: LIBPNG out-of-bounds read in png_image_read_composite 
+│                       │       ├ Title           : LIBPNG is a reference library for use in applications that
+│                       │       │                   read, creat ... 
 │                       │       ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │       │                   read, create, and manipulate PNG (Portable Network
 │                       │       │                   Graphics) raster image files. Prior to 1.6.52, an
@@ -4731,47 +5083,43 @@
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 7.1 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/12/0
 │                       │       │                  │       3/6 
 │                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/12/0
 │                       │       │                  │       3/7 
 │                       │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/12/0
 │                       │       │                  │       3/8 
-│                       │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:0241 
-│                       │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2025-66293 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2416904 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2416907 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2418711 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2416904 
-│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2416907 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2418711 
-│                       │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:0238 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2416904 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2416907 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2418711 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2416904 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2416907 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2418711 
+│                       │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-64720 
-│                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-65018 
-│                       │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-66293 
-│                       │       │                  ├ [14]: https://errata.almalinux.org/8/ALSA-2026-0241.html 
-│                       │       │                  ├ [15]: https://errata.rockylinux.org/RLSA-2026:0238 
-│                       │       │                  ├ [16]: https://github.com/pnggroup/libpng/commit/788a624d73
+│                       │       │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2026-0238.html 
+│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2026:0238 
+│                       │       │                  ├ [15]: https://github.com/pnggroup/libpng/commit/788a624d73
 │                       │       │                  │       87a758ffd5c7ab010f1870dea753a1 
-│                       │       │                  ├ [17]: https://github.com/pnggroup/libpng/commit/a05a48b756
+│                       │       │                  ├ [16]: https://github.com/pnggroup/libpng/commit/a05a48b756
 │                       │       │                  │       de63e3234ea6b3b938b8f5f862484a 
-│                       │       │                  ├ [18]: https://github.com/pnggroup/libpng/issues/764 
-│                       │       │                  ├ [19]: https://github.com/pnggroup/libpng/security/advisori
+│                       │       │                  ├ [17]: https://github.com/pnggroup/libpng/issues/764 
+│                       │       │                  ├ [18]: https://github.com/pnggroup/libpng/security/advisori
 │                       │       │                  │       es/GHSA-9mpm-9pxh-mg4f 
-│                       │       │                  ├ [20]: https://linux.oracle.com/cve/CVE-2025-66293.html 
-│                       │       │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-0241.html 
-│                       │       │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2025-66293 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-7963-1 
-│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-8035-1 
-│                       │       │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-66293 
+│                       │       │                  ├ [19]: https://linux.oracle.com/cve/CVE-2025-66293.html 
+│                       │       │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2026-0241.html 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2025-66293 
+│                       │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-7963-1 
+│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-8035-1 
+│                       │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-66293 
 │                       │       ├ PublishedDate   : 2025-12-03T21:15:53.06Z 
 │                       │       ╰ LastModifiedDate: 2025-12-16T19:12:50.35Z 
-│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-22020 
+│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-22020 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -4787,7 +5135,7 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22020 
 │                       │       ├ Fingerprint     : sha256:f1f028ef03d56134330a4cbb2c96d0cf27f5b694cfad067bae04
 │                       │       │                   b2b71a453446 
-│                       │       ├ Title           : openjdk: OpenJDK: Update LibPNG (Oracle CPU 2026-04) 
+│                       │       ├ Title           : openjdk: Update LibPNG (Oracle CPU 2026-04) 
 │                       │       ├ Description     : No description is available for this CVE. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ VendorSeverity   ─ redhat: 3 
@@ -4799,7 +5147,7 @@
 │                       │                          ├ [2]: https://www.cve.org/CVERecord?id=CVE-2026-22020 
 │                       │                          ╰ [3]: https://www.oracle.com/security-alerts/cpuapr2026.htm
 │                       │                                 l#AppendixJAVA 
-│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-25646 
+│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-25646 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -4849,34 +5197,36 @@
 │                       │       │                           ╰ V3Score : 7 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/02/0
 │                       │       │                  │       9/7 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:6445 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:3405 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-25646 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2438542 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2428824 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2428825 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2438542 
-│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22695 
-│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-22801 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2428824 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2428825 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2438542 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2428824 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2428825 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2438542 
 │                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22695 
+│                       │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-22801 
+│                       │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-25646 
-│                       │       │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2026-6445.html 
-│                       │       │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:3405 
-│                       │       │                  ├ [12]: https://github.com/pnggroup/libpng/commit/01d03b8453
+│                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-3405.html 
+│                       │       │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:3405 
+│                       │       │                  ├ [14]: https://github.com/pnggroup/libpng/commit/01d03b8453
 │                       │       │                  │       eb30ade759cd45c707e5a1c7277d88 
-│                       │       │                  ├ [13]: https://github.com/pnggroup/libpng/security/advisori
+│                       │       │                  ├ [15]: https://github.com/pnggroup/libpng/security/advisori
 │                       │       │                  │       es/GHSA-g8hp-mq4h-rqm3 
-│                       │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-25646.html 
-│                       │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-7032.html 
-│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-25646 
-│                       │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-8035-1 
-│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-8039-1 
-│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-8081-1 
-│                       │       │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2026-25646 
+│                       │       │                  ├ [16]: https://linux.oracle.com/cve/CVE-2026-25646.html 
+│                       │       │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2026-7032.html 
+│                       │       │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-25646 
+│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-8035-1 
+│                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-8039-1 
+│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-8081-1 
+│                       │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2026-25646 
 │                       │       ├ PublishedDate   : 2026-02-10T18:16:37.817Z 
 │                       │       ╰ LastModifiedDate: 2026-02-13T20:43:44.69Z 
-│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-26740 
+│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-26740 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -4909,7 +5259,7 @@
 │                       │       │                           ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-26740 
-│                       │       │                  ├ [2]: https://errata.almalinux.org/10/ALSA-2026-9693.html 
+│                       │       │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │       │                  ├ [3]: https://github.com/zakkanijia/POC/blob/main/giflib/gi
 │                       │       │                  │      ftool/giflib_giftool_gce_len_heap_oobwrite_disclosure
 │                       │       │                  │      .md 
@@ -4919,7 +5269,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-26740 
 │                       │       ├ PublishedDate   : 2026-03-18T18:16:26.22Z 
 │                       │       ╰ LastModifiedDate: 2026-03-21T00:09:00.92Z 
-│                       ├ [92]  ╭ VulnerabilityID : CVE-2025-28164 
+│                       ├ [97]  ╭ VulnerabilityID : CVE-2025-28164 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -4959,7 +5309,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-28164 
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:14.76Z 
 │                       │       ╰ LastModifiedDate: 2026-03-04T19:42:07.987Z 
-│                       ├ [93]  ╭ VulnerabilityID : CVE-2025-64505 
+│                       ├ [98]  ╭ VulnerabilityID : CVE-2025-64505 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -4975,8 +5325,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64505 
 │                       │       ├ Fingerprint     : sha256:a178dcc0e334104cb02f84ec8eb89b72ae4d22b9176849467bee
 │                       │       │                   724611d66b5f 
-│                       │       ├ Title           : libpng: LIBPNG heap buffer overflow via malformed palette
-│                       │       │                   index 
+│                       │       ├ Title           : LIBPNG is a reference library for use in applications that
+│                       │       │                   read, creat ... 
 │                       │       ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │       │                   read, create, and manipulate PNG (Portable Network
 │                       │       │                   Graphics) raster image files. Prior to version 1.6.51, a
@@ -4996,26 +5346,22 @@
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 4.4 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64505 
-│                       │       │                  ├ [1]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0
+│                       │       ├ References       ╭ [0]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0
 │                       │       │                  │      dd7f6de1c39d30de0e41473431c37 
-│                       │       │                  ├ [2]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0
+│                       │       │                  ├ [1]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0
 │                       │       │                  │      dd7f6de1c39d30de0e41473431c37 (v1.6.51) 
-│                       │       │                  ├ [3]: https://github.com/pnggroup/libpng/pull/748 
-│                       │       │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisorie
+│                       │       │                  ├ [2]: https://github.com/pnggroup/libpng/pull/748 
+│                       │       │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisorie
 │                       │       │                  │      s/GHSA-4952-h5wq-4m42 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
-│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7924-1 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8081-1 
-│                       │       │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
-│                       │       │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2025/11/2
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7924-1 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8081-1 
+│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
+│                       │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/2
 │                       │       │                         2/1 
 │                       │       ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
 │                       │       ╰ LastModifiedDate: 2025-11-26T18:28:32.22Z 
-│                       ├ [94]  ╭ VulnerabilityID : CVE-2025-64506 
+│                       ├ [99]  ╭ VulnerabilityID : CVE-2025-64506 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -5031,7 +5377,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64506 
 │                       │       ├ Fingerprint     : sha256:d8b6ca6a9a6677ed304184382985f0c2836ccf509fe9769b4077
 │                       │       │                   11308f2e6719 
-│                       │       ├ Title           : libpng: LIBPNG heap buffer over-read 
+│                       │       ├ Title           : LIBPNG is a reference library for use in applications that
+│                       │       │                   read, creat ... 
 │                       │       ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │       │                   read, create, and manipulate PNG (Portable Network
 │                       │       │                   Graphics) raster image files. From version 1.6.0 to before
@@ -5052,25 +5399,21 @@
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 6.1 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64506 
-│                       │       │                  ├ [1]: https://github.com/pnggroup/libpng/commit/2bd84c019c3
+│                       │       ├ References       ╭ [0]: https://github.com/pnggroup/libpng/commit/2bd84c019c3
 │                       │       │                  │      00b78e811743fbcddb67c9d9bf821 
-│                       │       │                  ├ [2]: https://github.com/pnggroup/libpng/commit/2bd84c019c3
+│                       │       │                  ├ [1]: https://github.com/pnggroup/libpng/commit/2bd84c019c3
 │                       │       │                  │      00b78e811743fbcddb67c9d9bf821 (v1.6.51) 
-│                       │       │                  ├ [3]: https://github.com/pnggroup/libpng/pull/749 
-│                       │       │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisorie
+│                       │       │                  ├ [2]: https://github.com/pnggroup/libpng/pull/749 
+│                       │       │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisorie
 │                       │       │                  │      s/GHSA-qpr4-xm66-hww6 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64506 
-│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7924-1 
-│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
-│                       │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/2
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-64506 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7924-1 
+│                       │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
+│                       │       │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2025/11/2
 │                       │       │                         2/1 
 │                       │       ├ PublishedDate   : 2025-11-25T00:15:47.3Z 
 │                       │       ╰ LastModifiedDate: 2025-11-26T18:34:38.24Z 
-│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-22693 
+│                       ├ [100] ╭ VulnerabilityID : CVE-2026-22693 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -5120,7 +5463,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-22693 
 │                       │       ├ PublishedDate   : 2026-01-10T06:15:52.063Z 
 │                       │       ╰ LastModifiedDate: 2026-02-18T17:49:22.59Z 
-│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-22695 
+│                       ├ [101] ╭ VulnerabilityID : CVE-2026-22695 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -5165,7 +5508,7 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 6.1 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4728 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:3405 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-22695 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2428824 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2428825 
@@ -5179,7 +5522,7 @@
 │                       │       │                  │       026-22801 
 │                       │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-25646 
-│                       │       │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2026-4728.html 
+│                       │       │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2026-3405.html 
 │                       │       │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:3405 
 │                       │       │                  ├ [13]: https://github.com/pnggroup/libpng/commit/218612ddd6
 │                       │       │                  │       b17944e21eda56caf8b4bf7779d1ea 
@@ -5197,7 +5540,7 @@
 │                       │       │                          12/7 
 │                       │       ├ PublishedDate   : 2026-01-12T23:15:52.597Z 
 │                       │       ╰ LastModifiedDate: 2026-01-21T18:58:55.787Z 
-│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-22801 
+│                       ├ [102] ╭ VulnerabilityID : CVE-2026-22801 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -5245,7 +5588,7 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
 │                       │       │                           │           L/A:H 
 │                       │       │                           ╰ V3Score : 6.6 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4728 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:3405 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-22801 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2428824 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2428825 
@@ -5259,7 +5602,7 @@
 │                       │       │                  │       026-22801 
 │                       │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-25646 
-│                       │       │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2026-4728.html 
+│                       │       │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2026-3405.html 
 │                       │       │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:3405 
 │                       │       │                  ├ [13]: https://github.com/pnggroup/libpng/security/advisori
 │                       │       │                  │       es/GHSA-vgjq-8cw5-ggw8 
@@ -5273,7 +5616,7 @@
 │                       │       │                          12/7 
 │                       │       ├ PublishedDate   : 2026-01-12T23:15:52.907Z 
 │                       │       ╰ LastModifiedDate: 2026-01-21T18:58:18.27Z 
-│                       ├ [98]  ╭ VulnerabilityID : CVE-2026-33416 
+│                       ├ [103] ╭ VulnerabilityID : CVE-2026-33416 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -5321,54 +5664,37 @@
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
-│                       │       │                  ├ rocky      : 3 
+│                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                       │       │                           │           H/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9345 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-33416 
-│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2451805 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2451819 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2455897 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2455901 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2455908 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2451805 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2451819 
-│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2455897 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2455901 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2455908 
-│                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2451805 
+│                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-33416 
-│                       │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-33636 
-│                       │       │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-5731 
-│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-5732 
-│                       │       │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-5734 
-│                       │       │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2026-9345.html 
-│                       │       │                  ├ [18]: https://errata.rockylinux.org/RLSA-2026:8459 
-│                       │       │                  ├ [19]: https://github.com/pnggroup/libpng/commit/2301926976
+│                       │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2026-9693.html 
+│                       │       │                  ├ [5] : https://errata.rockylinux.org/RLSA-2026:18028 
+│                       │       │                  ├ [6] : https://github.com/pnggroup/libpng/commit/2301926976
 │                       │       │                  │       4e35ed8458e517f1897bd3c54820eb 
-│                       │       │                  ├ [20]: https://github.com/pnggroup/libpng/commit/7ea9eea884
+│                       │       │                  ├ [7] : https://github.com/pnggroup/libpng/commit/7ea9eea884
 │                       │       │                  │       a2328cc7fdcb3c0c00246a50d90667 
-│                       │       │                  ├ [21]: https://github.com/pnggroup/libpng/commit/a3a21443ed
+│                       │       │                  ├ [8] : https://github.com/pnggroup/libpng/commit/a3a21443ed
 │                       │       │                  │       12bfa1ef46fa0d4fb2b74a0fa34a25 
-│                       │       │                  ├ [22]: https://github.com/pnggroup/libpng/commit/c1b0318b39
+│                       │       │                  ├ [9] : https://github.com/pnggroup/libpng/commit/c1b0318b39
 │                       │       │                  │       3c90679e6fa5bc1d329fd5d5012ec1 
-│                       │       │                  ├ [23]: https://github.com/pnggroup/libpng/pull/824 
-│                       │       │                  ├ [24]: https://github.com/pnggroup/libpng/security/advisori
+│                       │       │                  ├ [10]: https://github.com/pnggroup/libpng/pull/824 
+│                       │       │                  ├ [11]: https://github.com/pnggroup/libpng/security/advisori
 │                       │       │                  │       es/GHSA-m4pc-p4q3-4c7j 
-│                       │       │                  ├ [25]: https://linux.oracle.com/cve/CVE-2026-33416.html 
-│                       │       │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
-│                       │       │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2026-33416 
-│                       │       │                  ├ [28]: https://ubuntu.com/security/notices/USN-8251-1 
-│                       │       │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2026-33416 
+│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-33416.html 
+│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
+│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-33416 
+│                       │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-8251-1 
+│                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2026-33416 
 │                       │       ├ PublishedDate   : 2026-03-26T17:16:38.443Z 
 │                       │       ╰ LastModifiedDate: 2026-04-02T20:28:33.973Z 
-│                       ├ [99]  ╭ VulnerabilityID : CVE-2026-33636 
+│                       ├ [104] ╭ VulnerabilityID : CVE-2026-33636 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -5416,32 +5742,27 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:
 │                       │       │                           │           L/A:H 
 │                       │       │                           ╰ V3Score : 7.6 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9345 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-33636 
-│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2451805 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2451819 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2455897 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2455901 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2455908 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2451819 
-│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2451819 
+│                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-33636 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-9345.html 
-│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:14791 
-│                       │       │                  ├ [11]: https://github.com/pnggroup/libpng/commit/7734cda20c
+│                       │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2026-9693.html 
+│                       │       │                  ├ [5] : https://errata.rockylinux.org/RLSA-2026:14791 
+│                       │       │                  ├ [6] : https://github.com/pnggroup/libpng/commit/7734cda20c
 │                       │       │                  │       f1236aef60f3bbd2267c97bbb40869 
-│                       │       │                  ├ [12]: https://github.com/pnggroup/libpng/commit/aba9f18eba
+│                       │       │                  ├ [7] : https://github.com/pnggroup/libpng/commit/aba9f18eba
 │                       │       │                  │       870d14fb52c5ba5d73451349e339c3 
-│                       │       │                  ├ [13]: https://github.com/pnggroup/libpng/security/advisori
+│                       │       │                  ├ [8] : https://github.com/pnggroup/libpng/security/advisori
 │                       │       │                  │       es/GHSA-wjr5-c57x-95m2 
-│                       │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-33636.html 
-│                       │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
-│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-33636 
-│                       │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-8251-1 
-│                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-33636 
+│                       │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2026-33636.html 
+│                       │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-33636 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-8251-1 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-33636 
 │                       │       ├ PublishedDate   : 2026-03-26T17:16:41.477Z 
 │                       │       ╰ LastModifiedDate: 2026-04-02T18:42:02.667Z 
-│                       ├ [100] ╭ VulnerabilityID : CVE-2026-34757 
+│                       ├ [105] ╭ VulnerabilityID : CVE-2026-34757 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -5501,7 +5822,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-34757 
 │                       │       ├ PublishedDate   : 2026-04-09T15:16:11.003Z 
 │                       │       ╰ LastModifiedDate: 2026-05-13T23:07:51.863Z 
-│                       ├ [101] ╭ VulnerabilityID : CVE-2026-41254 
+│                       ├ [106] ╭ VulnerabilityID : CVE-2026-41254 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -5555,7 +5876,7 @@
 │                       │       │                         7/16 
 │                       │       ├ PublishedDate   : 2026-04-18T07:16:10.807Z 
 │                       │       ╰ LastModifiedDate: 2026-05-07T18:16:19.3Z 
-│                       ├ [102] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ├ [107] ╭ VulnerabilityID : CVE-2026-27171 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10
@@ -5611,7 +5932,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-27171 
 │                       │       ├ PublishedDate   : 2026-02-18T04:16:01.263Z 
 │                       │       ╰ LastModifiedDate: 2026-03-25T21:27:04.603Z 
-│                       ├ [103] ╭ VulnerabilityID : CVE-2023-30571 
+│                       ├ [108] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │       ├ PkgID           : libarchive@3.5.3-9.el9_7.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-9.el9_7?arch=x86_64&
@@ -5656,7 +5977,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-30571 
 │                       │       ├ PublishedDate   : 2023-05-29T20:15:09.513Z 
 │                       │       ╰ LastModifiedDate: 2025-01-14T17:15:11.673Z 
-│                       ├ [104] ╭ VulnerabilityID : CVE-2025-60753 
+│                       ├ [109] ╭ VulnerabilityID : CVE-2025-60753 
 │                       │       ├ PkgID           : libarchive@3.5.3-9.el9_7.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-9.el9_7?arch=x86_64&
@@ -5672,8 +5993,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-60753 
 │                       │       ├ Fingerprint     : sha256:f8b124e7b583182c9d4756f66e281e887605783621f70cd1b817
 │                       │       │                   387b040a56e0 
-│                       │       ├ Title           : libarchive: bsdtar hangs and OOMs with zero-length pattern
-│                       │       │                   matches 
+│                       │       ├ Title           : An issue was discovered in libarchive bsdtar before version
+│                       │       │                    3.8.1 in f ... 
 │                       │       ├ Description     : An issue was discovered in libarchive bsdtar before version
 │                       │       │                    3.8.1 in function apply_substitution in file tar/subst.c
 │                       │       │                   when processing crafted -s substitution rules. This can
@@ -5687,18 +6008,14 @@
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-60753 
-│                       │       │                  ├ [1]: https://github.com/Papya-j/CVE/tree/main/CVE-2025-60753 
-│                       │       │                  ├ [2]: https://github.com/libarchive/libarchive/issues/2725 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-60753 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8147-1 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-60753 
+│                       │       ├ References       ╭ [0]: https://github.com/Papya-j/CVE/tree/main/CVE-2025-60753 
+│                       │       │                  ├ [1]: https://github.com/libarchive/libarchive/issues/2725 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-60753 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8147-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-60753 
 │                       │       ├ PublishedDate   : 2025-11-05T16:15:40.43Z 
 │                       │       ╰ LastModifiedDate: 2026-02-04T21:19:45.61Z 
-│                       ├ [105] ╭ VulnerabilityID : CVE-2026-4426 
+│                       ├ [110] ╭ VulnerabilityID : CVE-2026-4426 
 │                       │       ├ PkgID           : libarchive@3.5.3-9.el9_7.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-9.el9_7?arch=x86_64&
@@ -5742,7 +6059,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-4426 
 │                       │       ├ PublishedDate   : 2026-03-19T15:16:28.51Z 
 │                       │       ╰ LastModifiedDate: 2026-05-03T21:16:11.863Z 
-│                       ├ [106] ╭ VulnerabilityID : CVE-2026-5745 
+│                       ├ [111] ╭ VulnerabilityID : CVE-2026-5745 
 │                       │       ├ PkgID           : libarchive@3.5.3-9.el9_7.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-9.el9_7?arch=x86_64&
@@ -5784,7 +6101,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-5745 
 │                       │       ├ PublishedDate   : 2026-04-07T16:16:32.307Z 
 │                       │       ╰ LastModifiedDate: 2026-05-03T15:15:58.543Z 
-│                       ├ [107] ╭ VulnerabilityID : CVE-2025-1632 
+│                       ├ [112] ╭ VulnerabilityID : CVE-2025-1632 
 │                       │       ├ PkgID           : libarchive@3.5.3-9.el9_7.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-9.el9_7?arch=x86_64&
@@ -5800,7 +6117,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1632 
 │                       │       ├ Fingerprint     : sha256:90131d2298e5b887243443140eb5afe1028b23c29e258676951c
 │                       │       │                   6f17a9a045a8 
-│                       │       ├ Title           : libarchive: null pointer dereference in bsdunzip.c 
+│                       │       ├ Title           : A vulnerability was found in libarchive up to 3.7.7. It has
+│                       │       │                    been class ... 
 │                       │       ├ Description     : A vulnerability was found in libarchive up to 3.7.7. It has
 │                       │       │                    been classified as problematic. This affects the function
 │                       │       │                   list of the file bsdunzip.c. The manipulation leads to null
@@ -5816,23 +6134,18 @@
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 5.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 3.3 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1632 
-│                       │       │                  ├ [1]: https://github.com/Ekkosun/pocs/blob/main/bsdunzip-poc 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-1632 
-│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-7454-1 
-│                       │       │                  ├ [4]: https://vuldb.com/?ctiid.296619 
-│                       │       │                  ├ [5]: https://vuldb.com/?id.296619 
-│                       │       │                  ├ [6]: https://vuldb.com/?submit.496460 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-1632 
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H 
+│                       │       │                        ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://github.com/Ekkosun/pocs/blob/main/bsdunzip-poc 
+│                       │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-1632 
+│                       │       │                  ├ [2]: https://ubuntu.com/security/notices/USN-7454-1 
+│                       │       │                  ├ [3]: https://vuldb.com/?ctiid.296619 
+│                       │       │                  ├ [4]: https://vuldb.com/?id.296619 
+│                       │       │                  ├ [5]: https://vuldb.com/?submit.496460 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-1632 
 │                       │       ├ PublishedDate   : 2025-02-24T14:15:11.59Z 
 │                       │       ╰ LastModifiedDate: 2025-03-25T15:41:41.683Z 
-│                       ├ [108] ╭ VulnerabilityID : CVE-2025-5915 
+│                       ├ [113] ╭ VulnerabilityID : CVE-2025-5915 
 │                       │       ├ PkgID           : libarchive@3.5.3-9.el9_7.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-9.el9_7?arch=x86_64&
@@ -5848,9 +6161,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5915 
 │                       │       ├ Fingerprint     : sha256:7f21ce3356e289d6e14d6f5bb3ac6d6bbc2545e27fb1a1c0a9d6
 │                       │       │                   10921e99cbbe 
-│                       │       ├ Title           : libarchive: Heap buffer over read in
-│                       │       │                   copy_from_lzss_window() at
-│                       │       │                   archive_read_support_format_rar.c 
+│                       │       ├ Title           : A vulnerability has been identified in the libarchive
+│                       │       │                   library. This fl ... 
 │                       │       ├ Description     : A vulnerability has been identified in the libarchive
 │                       │       │                   library. This flaw can lead to a heap buffer over-read due
 │                       │       │                   to the size of a filter block potentially exceeding the
@@ -5868,12 +6180,8 @@
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 6.6 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 6.6 
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H 
+│                       │       │                        ╰ V3Score : 6.6 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5915 
 │                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2370865 
 │                       │       │                  ├ [2]: https://github.com/libarchive/libarchive/pull/2599 
@@ -5884,7 +6192,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5915 
 │                       │       ├ PublishedDate   : 2025-06-09T20:15:26.317Z 
 │                       │       ╰ LastModifiedDate: 2026-01-08T04:15:55.353Z 
-│                       ├ [109] ╭ VulnerabilityID : CVE-2025-5916 
+│                       ├ [114] ╭ VulnerabilityID : CVE-2025-5916 
 │                       │       ├ PkgID           : libarchive@3.5.3-9.el9_7.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-9.el9_7?arch=x86_64&
@@ -5900,8 +6208,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5916 
 │                       │       ├ Fingerprint     : sha256:ee006a6e0a865902306660246f278b47c0d258be025cfa849690
 │                       │       │                   adc8f2d3f920 
-│                       │       ├ Title           : libarchive: Integer overflow while reading warc files at
-│                       │       │                   archive_read_support_format_warc.c 
+│                       │       ├ Title           : A vulnerability has been identified in the libarchive
+│                       │       │                   library. This fl ... 
 │                       │       ├ Description     : A vulnerability has been identified in the libarchive
 │                       │       │                   library. This flaw involves an integer overflow that can be
 │                       │       │                    triggered when processing a Web Archive (WARC) file that
@@ -5920,12 +6228,8 @@
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 5.6 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 3.9 
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:H 
+│                       │       │                        ╰ V3Score : 5.6 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5916 
 │                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2370872 
 │                       │       │                  ├ [2]: https://github.com/libarchive/libarchive/pull/2568 
@@ -5939,7 +6243,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-5916 
 │                       │       ├ PublishedDate   : 2025-06-09T20:15:27.17Z 
 │                       │       ╰ LastModifiedDate: 2025-12-12T01:15:46.36Z 
-│                       ├ [110] ╭ VulnerabilityID : CVE-2025-5917 
+│                       ├ [115] ╭ VulnerabilityID : CVE-2025-5917 
 │                       │       ├ PkgID           : libarchive@3.5.3-9.el9_7.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-9.el9_7?arch=x86_64&
@@ -5955,8 +6259,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5917 
 │                       │       ├ Fingerprint     : sha256:4a95bf86d514c97afa5c8d5a382f8dc08292ce2d221c721f3250
 │                       │       │                   0a97b0722ba6 
-│                       │       ├ Title           : libarchive: Off by one error in build_ustar_entry_name() at
-│                       │       │                    archive_write_set_format_pax.c 
+│                       │       ├ Title           : A vulnerability has been identified in the libarchive
+│                       │       │                   library. This fl ... 
 │                       │       ├ Description     : A vulnerability has been identified in the libarchive
 │                       │       │                   library. This flaw involves an 'off-by-one' miscalculation
 │                       │       │                   when handling prefixes and suffixes for file names. This
@@ -5975,12 +6279,8 @@
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 2.8 
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H 
+│                       │       │                        ╰ V3Score : 5 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5917 
 │                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2370874 
 │                       │       │                  ├ [2]: https://github.com/libarchive/libarchive/pull/2588 
@@ -5992,7 +6292,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-5917 
 │                       │       ├ PublishedDate   : 2025-06-09T20:15:27.33Z 
 │                       │       ╰ LastModifiedDate: 2025-12-12T01:15:46.527Z 
-│                       ├ [111] ╭ VulnerabilityID : CVE-2025-5918 
+│                       ├ [116] ╭ VulnerabilityID : CVE-2025-5918 
 │                       │       ├ PkgID           : libarchive@3.5.3-9.el9_7.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-9.el9_7?arch=x86_64&
@@ -6008,8 +6308,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5918 
 │                       │       ├ Fingerprint     : sha256:de5fb10c13cfb30aba2ffc39585d198777769b10c4e7e6241adf
 │                       │       │                   55d62eab1afe 
-│                       │       ├ Title           : libarchive: Reading past EOF may be triggered for piped
-│                       │       │                   file streams 
+│                       │       ├ Title           : A vulnerability has been identified in the libarchive
+│                       │       │                   library. This fl ... 
 │                       │       ├ Description     : A vulnerability has been identified in the libarchive
 │                       │       │                   library. This flaw can be triggered when file streams are
 │                       │       │                   piped into bsdtar, potentially allowing for reading past
@@ -6025,12 +6325,8 @@
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 6.6 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 3.9 
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H 
+│                       │       │                        ╰ V3Score : 6.6 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5918 
 │                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2370877 
 │                       │       │                  ├ [2]: https://github.com/libarchive/libarchive/pull/2584 
@@ -6041,7 +6337,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5918 
 │                       │       ├ PublishedDate   : 2025-06-09T20:15:27.493Z 
 │                       │       ╰ LastModifiedDate: 2025-08-15T18:35:04.39Z 
-│                       ├ [112] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [117] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : libblkid@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libblkid 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libblkid@2.37.4-25.el9?arch=x86_64&di
@@ -6106,7 +6402,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T16:08:55.1Z 
-│                       ├ [113] ╭ VulnerabilityID : CVE-2025-13034 
+│                       ├ [118] ╭ VulnerabilityID : CVE-2025-13034 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -6161,7 +6457,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-13034 
 │                       │       ├ PublishedDate   : 2026-01-08T10:15:45.407Z 
 │                       │       ╰ LastModifiedDate: 2026-01-20T14:54:02.73Z 
-│                       ├ [114] ╭ VulnerabilityID : CVE-2025-14017 
+│                       ├ [119] ╭ VulnerabilityID : CVE-2025-14017 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -6215,7 +6511,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
 │                       │       ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
 │                       │       ╰ LastModifiedDate: 2026-01-27T21:29:39.953Z 
-│                       ├ [115] ╭ VulnerabilityID : CVE-2026-1965 
+│                       ├ [120] ╭ VulnerabilityID : CVE-2026-1965 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -6299,7 +6595,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
 │                       │       ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
 │                       │       ╰ LastModifiedDate: 2026-03-12T14:11:19.07Z 
-│                       ├ [116] ╭ VulnerabilityID : CVE-2026-3783 
+│                       ├ [121] ╭ VulnerabilityID : CVE-2026-3783 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -6354,7 +6650,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
 │                       │       ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
 │                       │       ╰ LastModifiedDate: 2026-03-12T14:10:37.3Z 
-│                       ├ [117] ╭ VulnerabilityID : CVE-2026-3784 
+│                       ├ [122] ╭ VulnerabilityID : CVE-2026-3784 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -6403,7 +6699,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
 │                       │       ├ PublishedDate   : 2026-03-11T11:16:00.437Z 
 │                       │       ╰ LastModifiedDate: 2026-03-12T14:09:50.47Z 
-│                       ├ [118] ╭ VulnerabilityID : CVE-2026-3805 
+│                       ├ [123] ╭ VulnerabilityID : CVE-2026-3805 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -6448,7 +6744,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-3805 
 │                       │       ├ PublishedDate   : 2026-03-11T11:16:00.967Z 
 │                       │       ╰ LastModifiedDate: 2026-03-12T14:08:56.79Z 
-│                       ├ [119] ╭ VulnerabilityID : CVE-2026-4873 
+│                       ├ [124] ╭ VulnerabilityID : CVE-2026-4873 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -6494,7 +6790,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4873 
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:55.893Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:45:11.407Z 
-│                       ├ [120] ╭ VulnerabilityID : CVE-2026-5545 
+│                       ├ [125] ╭ VulnerabilityID : CVE-2026-5545 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -6562,7 +6858,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-5545 
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:56.19Z 
 │                       │       ╰ LastModifiedDate: 2026-05-13T19:31:07.633Z 
-│                       ├ [121] ╭ VulnerabilityID : CVE-2026-5773 
+│                       ├ [126] ╭ VulnerabilityID : CVE-2026-5773 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -6623,7 +6919,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-5773 
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:56.307Z 
 │                       │       ╰ LastModifiedDate: 2026-05-13T19:13:14.097Z 
-│                       ├ [122] ╭ VulnerabilityID : CVE-2026-6253 
+│                       ├ [127] ╭ VulnerabilityID : CVE-2026-6253 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -6674,7 +6970,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-6253 
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:56.57Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:40:53.19Z 
-│                       ├ [123] ╭ VulnerabilityID : CVE-2026-6429 
+│                       ├ [128] ╭ VulnerabilityID : CVE-2026-6429 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -6713,7 +7009,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-6429 
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:56.93Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T14:18:02.24Z 
-│                       ├ [124] ╭ VulnerabilityID : CVE-2026-7168 
+│                       ├ [129] ╭ VulnerabilityID : CVE-2026-7168 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -6763,7 +7059,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-7168 
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:57.2Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T14:12:48.457Z 
-│                       ├ [125] ╭ VulnerabilityID : CVE-2024-11053 
+│                       ├ [130] ╭ VulnerabilityID : CVE-2024-11053 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -6779,7 +7075,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11053 
 │                       │       ├ Fingerprint     : sha256:cfbf7daf8b4bab342cfdc51f678511ad9463daf74f4427ef1f47
 │                       │       │                   51221d0d2d95 
-│                       │       ├ Title           : curl: curl netrc password leak 
+│                       │       ├ Title           : When asked to both use a `.netrc` file for credentials and
+│                       │       │                   to follow H ... 
 │                       │       ├ Description     : When asked to both use a `.netrc` file for credentials and
 │                       │       │                   to follow HTTP
 │                       │       │                   redirects, curl could leak the password used for the first
@@ -6802,240 +7099,234 @@
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:
-│                       │       │                  │        │           N/A:N 
-│                       │       │                  │        ╰ V3Score : 3.4 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 5.9 
+│                       │       ├ CVSS             ─ julia ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N
+│                       │       │                          │           /A:N 
+│                       │       │                          ╰ V3Score : 3.4 
 │                       │       ├ References       ╭ [0]  : http://www.openwall.com/lists/oss-security/2024/12/
 │                       │       │                  │        11/1 
-│                       │       │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2025:1673 
-│                       │       │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-2024-11053 
-│                       │       │                  ├ [3]  : https://bugzilla.redhat.com/2294581 
-│                       │       │                  ├ [4]  : https://bugzilla.redhat.com/2294676 
-│                       │       │                  ├ [5]  : https://bugzilla.redhat.com/2301888 
-│                       │       │                  ├ [6]  : https://bugzilla.redhat.com/2318857 
-│                       │       │                  ├ [7]  : https://bugzilla.redhat.com/2318858 
-│                       │       │                  ├ [8]  : https://bugzilla.redhat.com/2318870 
-│                       │       │                  ├ [9]  : https://bugzilla.redhat.com/2318873 
-│                       │       │                  ├ [10] : https://bugzilla.redhat.com/2318874 
-│                       │       │                  ├ [11] : https://bugzilla.redhat.com/2318876 
-│                       │       │                  ├ [12] : https://bugzilla.redhat.com/2318882 
-│                       │       │                  ├ [13] : https://bugzilla.redhat.com/2318883 
-│                       │       │                  ├ [14] : https://bugzilla.redhat.com/2318884 
-│                       │       │                  ├ [15] : https://bugzilla.redhat.com/2318885 
-│                       │       │                  ├ [16] : https://bugzilla.redhat.com/2318886 
-│                       │       │                  ├ [17] : https://bugzilla.redhat.com/2318897 
-│                       │       │                  ├ [18] : https://bugzilla.redhat.com/2318900 
-│                       │       │                  ├ [19] : https://bugzilla.redhat.com/2318905 
-│                       │       │                  ├ [20] : https://bugzilla.redhat.com/2318914 
-│                       │       │                  ├ [21] : https://bugzilla.redhat.com/2318922 
-│                       │       │                  ├ [22] : https://bugzilla.redhat.com/2318923 
-│                       │       │                  ├ [23] : https://bugzilla.redhat.com/2318925 
-│                       │       │                  ├ [24] : https://bugzilla.redhat.com/2318926 
-│                       │       │                  ├ [25] : https://bugzilla.redhat.com/2318927 
-│                       │       │                  ├ [26] : https://bugzilla.redhat.com/2331191 
-│                       │       │                  ├ [27] : https://bugzilla.redhat.com/2339218 
-│                       │       │                  ├ [28] : https://bugzilla.redhat.com/2339220 
-│                       │       │                  ├ [29] : https://bugzilla.redhat.com/2339221 
-│                       │       │                  ├ [30] : https://bugzilla.redhat.com/2339226 
-│                       │       │                  ├ [31] : https://bugzilla.redhat.com/2339231 
-│                       │       │                  ├ [32] : https://bugzilla.redhat.com/2339236 
-│                       │       │                  ├ [33] : https://bugzilla.redhat.com/2339238 
-│                       │       │                  ├ [34] : https://bugzilla.redhat.com/2339243 
-│                       │       │                  ├ [35] : https://bugzilla.redhat.com/2339247 
-│                       │       │                  ├ [36] : https://bugzilla.redhat.com/2339252 
-│                       │       │                  ├ [37] : https://bugzilla.redhat.com/2339259 
-│                       │       │                  ├ [38] : https://bugzilla.redhat.com/2339266 
-│                       │       │                  ├ [39] : https://bugzilla.redhat.com/2339270 
-│                       │       │                  ├ [40] : https://bugzilla.redhat.com/2339271 
-│                       │       │                  ├ [41] : https://bugzilla.redhat.com/2339275 
-│                       │       │                  ├ [42] : https://bugzilla.redhat.com/2339277 
-│                       │       │                  ├ [43] : https://bugzilla.redhat.com/2339281 
-│                       │       │                  ├ [44] : https://bugzilla.redhat.com/2339284 
-│                       │       │                  ├ [45] : https://bugzilla.redhat.com/2339291 
-│                       │       │                  ├ [46] : https://bugzilla.redhat.com/2339293 
-│                       │       │                  ├ [47] : https://bugzilla.redhat.com/2339295 
-│                       │       │                  ├ [48] : https://bugzilla.redhat.com/2339299 
-│                       │       │                  ├ [49] : https://bugzilla.redhat.com/2339300 
-│                       │       │                  ├ [50] : https://bugzilla.redhat.com/2339304 
-│                       │       │                  ├ [51] : https://bugzilla.redhat.com/2339305 
-│                       │       │                  ├ [52] : https://bugzilla.redhat.com/show_bug.cgi?id=2294581 
-│                       │       │                  ├ [53] : https://bugzilla.redhat.com/show_bug.cgi?id=2294676 
-│                       │       │                  ├ [54] : https://bugzilla.redhat.com/show_bug.cgi?id=2301888 
-│                       │       │                  ├ [55] : https://bugzilla.redhat.com/show_bug.cgi?id=2318857 
-│                       │       │                  ├ [56] : https://bugzilla.redhat.com/show_bug.cgi?id=2318858 
-│                       │       │                  ├ [57] : https://bugzilla.redhat.com/show_bug.cgi?id=2318870 
-│                       │       │                  ├ [58] : https://bugzilla.redhat.com/show_bug.cgi?id=2318873 
-│                       │       │                  ├ [59] : https://bugzilla.redhat.com/show_bug.cgi?id=2318874 
-│                       │       │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=2318876 
-│                       │       │                  ├ [61] : https://bugzilla.redhat.com/show_bug.cgi?id=2318882 
-│                       │       │                  ├ [62] : https://bugzilla.redhat.com/show_bug.cgi?id=2318883 
-│                       │       │                  ├ [63] : https://bugzilla.redhat.com/show_bug.cgi?id=2318884 
-│                       │       │                  ├ [64] : https://bugzilla.redhat.com/show_bug.cgi?id=2318885 
-│                       │       │                  ├ [65] : https://bugzilla.redhat.com/show_bug.cgi?id=2318886 
-│                       │       │                  ├ [66] : https://bugzilla.redhat.com/show_bug.cgi?id=2318897 
-│                       │       │                  ├ [67] : https://bugzilla.redhat.com/show_bug.cgi?id=2318900 
-│                       │       │                  ├ [68] : https://bugzilla.redhat.com/show_bug.cgi?id=2318905 
-│                       │       │                  ├ [69] : https://bugzilla.redhat.com/show_bug.cgi?id=2318914 
-│                       │       │                  ├ [70] : https://bugzilla.redhat.com/show_bug.cgi?id=2318922 
-│                       │       │                  ├ [71] : https://bugzilla.redhat.com/show_bug.cgi?id=2318923 
-│                       │       │                  ├ [72] : https://bugzilla.redhat.com/show_bug.cgi?id=2318925 
-│                       │       │                  ├ [73] : https://bugzilla.redhat.com/show_bug.cgi?id=2318926 
-│                       │       │                  ├ [74] : https://bugzilla.redhat.com/show_bug.cgi?id=2318927 
-│                       │       │                  ├ [75] : https://bugzilla.redhat.com/show_bug.cgi?id=2331191 
-│                       │       │                  ├ [76] : https://bugzilla.redhat.com/show_bug.cgi?id=2339218 
-│                       │       │                  ├ [77] : https://bugzilla.redhat.com/show_bug.cgi?id=2339220 
-│                       │       │                  ├ [78] : https://bugzilla.redhat.com/show_bug.cgi?id=2339221 
-│                       │       │                  ├ [79] : https://bugzilla.redhat.com/show_bug.cgi?id=2339226 
-│                       │       │                  ├ [80] : https://bugzilla.redhat.com/show_bug.cgi?id=2339231 
-│                       │       │                  ├ [81] : https://bugzilla.redhat.com/show_bug.cgi?id=2339236 
-│                       │       │                  ├ [82] : https://bugzilla.redhat.com/show_bug.cgi?id=2339238 
-│                       │       │                  ├ [83] : https://bugzilla.redhat.com/show_bug.cgi?id=2339243 
-│                       │       │                  ├ [84] : https://bugzilla.redhat.com/show_bug.cgi?id=2339247 
-│                       │       │                  ├ [85] : https://bugzilla.redhat.com/show_bug.cgi?id=2339252 
-│                       │       │                  ├ [86] : https://bugzilla.redhat.com/show_bug.cgi?id=2339259 
-│                       │       │                  ├ [87] : https://bugzilla.redhat.com/show_bug.cgi?id=2339266 
-│                       │       │                  ├ [88] : https://bugzilla.redhat.com/show_bug.cgi?id=2339270 
-│                       │       │                  ├ [89] : https://bugzilla.redhat.com/show_bug.cgi?id=2339271 
-│                       │       │                  ├ [90] : https://bugzilla.redhat.com/show_bug.cgi?id=2339275 
-│                       │       │                  ├ [91] : https://bugzilla.redhat.com/show_bug.cgi?id=2339277 
-│                       │       │                  ├ [92] : https://bugzilla.redhat.com/show_bug.cgi?id=2339281 
-│                       │       │                  ├ [93] : https://bugzilla.redhat.com/show_bug.cgi?id=2339284 
-│                       │       │                  ├ [94] : https://bugzilla.redhat.com/show_bug.cgi?id=2339291 
-│                       │       │                  ├ [95] : https://bugzilla.redhat.com/show_bug.cgi?id=2339293 
-│                       │       │                  ├ [96] : https://bugzilla.redhat.com/show_bug.cgi?id=2339295 
-│                       │       │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2339299 
-│                       │       │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2339300 
-│                       │       │                  ├ [99] : https://bugzilla.redhat.com/show_bug.cgi?id=2339304 
-│                       │       │                  ├ [100]: https://bugzilla.redhat.com/show_bug.cgi?id=2339305 
-│                       │       │                  ├ [101]: https://curl.se/docs/CVE-2024-11053.html 
-│                       │       │                  ├ [102]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │       │                  ├ [103]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2025:1671 
+│                       │       │                  ├ [2]  : https://bugzilla.redhat.com/2294581 
+│                       │       │                  ├ [3]  : https://bugzilla.redhat.com/2294676 
+│                       │       │                  ├ [4]  : https://bugzilla.redhat.com/2301888 
+│                       │       │                  ├ [5]  : https://bugzilla.redhat.com/2318857 
+│                       │       │                  ├ [6]  : https://bugzilla.redhat.com/2318858 
+│                       │       │                  ├ [7]  : https://bugzilla.redhat.com/2318870 
+│                       │       │                  ├ [8]  : https://bugzilla.redhat.com/2318873 
+│                       │       │                  ├ [9]  : https://bugzilla.redhat.com/2318874 
+│                       │       │                  ├ [10] : https://bugzilla.redhat.com/2318876 
+│                       │       │                  ├ [11] : https://bugzilla.redhat.com/2318882 
+│                       │       │                  ├ [12] : https://bugzilla.redhat.com/2318883 
+│                       │       │                  ├ [13] : https://bugzilla.redhat.com/2318884 
+│                       │       │                  ├ [14] : https://bugzilla.redhat.com/2318885 
+│                       │       │                  ├ [15] : https://bugzilla.redhat.com/2318886 
+│                       │       │                  ├ [16] : https://bugzilla.redhat.com/2318897 
+│                       │       │                  ├ [17] : https://bugzilla.redhat.com/2318900 
+│                       │       │                  ├ [18] : https://bugzilla.redhat.com/2318905 
+│                       │       │                  ├ [19] : https://bugzilla.redhat.com/2318914 
+│                       │       │                  ├ [20] : https://bugzilla.redhat.com/2318922 
+│                       │       │                  ├ [21] : https://bugzilla.redhat.com/2318923 
+│                       │       │                  ├ [22] : https://bugzilla.redhat.com/2318925 
+│                       │       │                  ├ [23] : https://bugzilla.redhat.com/2318926 
+│                       │       │                  ├ [24] : https://bugzilla.redhat.com/2318927 
+│                       │       │                  ├ [25] : https://bugzilla.redhat.com/2331191 
+│                       │       │                  ├ [26] : https://bugzilla.redhat.com/2339218 
+│                       │       │                  ├ [27] : https://bugzilla.redhat.com/2339220 
+│                       │       │                  ├ [28] : https://bugzilla.redhat.com/2339221 
+│                       │       │                  ├ [29] : https://bugzilla.redhat.com/2339226 
+│                       │       │                  ├ [30] : https://bugzilla.redhat.com/2339231 
+│                       │       │                  ├ [31] : https://bugzilla.redhat.com/2339236 
+│                       │       │                  ├ [32] : https://bugzilla.redhat.com/2339238 
+│                       │       │                  ├ [33] : https://bugzilla.redhat.com/2339243 
+│                       │       │                  ├ [34] : https://bugzilla.redhat.com/2339247 
+│                       │       │                  ├ [35] : https://bugzilla.redhat.com/2339252 
+│                       │       │                  ├ [36] : https://bugzilla.redhat.com/2339259 
+│                       │       │                  ├ [37] : https://bugzilla.redhat.com/2339266 
+│                       │       │                  ├ [38] : https://bugzilla.redhat.com/2339270 
+│                       │       │                  ├ [39] : https://bugzilla.redhat.com/2339271 
+│                       │       │                  ├ [40] : https://bugzilla.redhat.com/2339275 
+│                       │       │                  ├ [41] : https://bugzilla.redhat.com/2339277 
+│                       │       │                  ├ [42] : https://bugzilla.redhat.com/2339281 
+│                       │       │                  ├ [43] : https://bugzilla.redhat.com/2339284 
+│                       │       │                  ├ [44] : https://bugzilla.redhat.com/2339291 
+│                       │       │                  ├ [45] : https://bugzilla.redhat.com/2339293 
+│                       │       │                  ├ [46] : https://bugzilla.redhat.com/2339295 
+│                       │       │                  ├ [47] : https://bugzilla.redhat.com/2339299 
+│                       │       │                  ├ [48] : https://bugzilla.redhat.com/2339300 
+│                       │       │                  ├ [49] : https://bugzilla.redhat.com/2339304 
+│                       │       │                  ├ [50] : https://bugzilla.redhat.com/2339305 
+│                       │       │                  ├ [51] : https://bugzilla.redhat.com/show_bug.cgi?id=2294581 
+│                       │       │                  ├ [52] : https://bugzilla.redhat.com/show_bug.cgi?id=2294676 
+│                       │       │                  ├ [53] : https://bugzilla.redhat.com/show_bug.cgi?id=2301888 
+│                       │       │                  ├ [54] : https://bugzilla.redhat.com/show_bug.cgi?id=2318857 
+│                       │       │                  ├ [55] : https://bugzilla.redhat.com/show_bug.cgi?id=2318858 
+│                       │       │                  ├ [56] : https://bugzilla.redhat.com/show_bug.cgi?id=2318870 
+│                       │       │                  ├ [57] : https://bugzilla.redhat.com/show_bug.cgi?id=2318873 
+│                       │       │                  ├ [58] : https://bugzilla.redhat.com/show_bug.cgi?id=2318874 
+│                       │       │                  ├ [59] : https://bugzilla.redhat.com/show_bug.cgi?id=2318876 
+│                       │       │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=2318882 
+│                       │       │                  ├ [61] : https://bugzilla.redhat.com/show_bug.cgi?id=2318883 
+│                       │       │                  ├ [62] : https://bugzilla.redhat.com/show_bug.cgi?id=2318884 
+│                       │       │                  ├ [63] : https://bugzilla.redhat.com/show_bug.cgi?id=2318885 
+│                       │       │                  ├ [64] : https://bugzilla.redhat.com/show_bug.cgi?id=2318886 
+│                       │       │                  ├ [65] : https://bugzilla.redhat.com/show_bug.cgi?id=2318897 
+│                       │       │                  ├ [66] : https://bugzilla.redhat.com/show_bug.cgi?id=2318900 
+│                       │       │                  ├ [67] : https://bugzilla.redhat.com/show_bug.cgi?id=2318905 
+│                       │       │                  ├ [68] : https://bugzilla.redhat.com/show_bug.cgi?id=2318914 
+│                       │       │                  ├ [69] : https://bugzilla.redhat.com/show_bug.cgi?id=2318922 
+│                       │       │                  ├ [70] : https://bugzilla.redhat.com/show_bug.cgi?id=2318923 
+│                       │       │                  ├ [71] : https://bugzilla.redhat.com/show_bug.cgi?id=2318925 
+│                       │       │                  ├ [72] : https://bugzilla.redhat.com/show_bug.cgi?id=2318926 
+│                       │       │                  ├ [73] : https://bugzilla.redhat.com/show_bug.cgi?id=2318927 
+│                       │       │                  ├ [74] : https://bugzilla.redhat.com/show_bug.cgi?id=2331191 
+│                       │       │                  ├ [75] : https://bugzilla.redhat.com/show_bug.cgi?id=2339218 
+│                       │       │                  ├ [76] : https://bugzilla.redhat.com/show_bug.cgi?id=2339220 
+│                       │       │                  ├ [77] : https://bugzilla.redhat.com/show_bug.cgi?id=2339221 
+│                       │       │                  ├ [78] : https://bugzilla.redhat.com/show_bug.cgi?id=2339226 
+│                       │       │                  ├ [79] : https://bugzilla.redhat.com/show_bug.cgi?id=2339231 
+│                       │       │                  ├ [80] : https://bugzilla.redhat.com/show_bug.cgi?id=2339236 
+│                       │       │                  ├ [81] : https://bugzilla.redhat.com/show_bug.cgi?id=2339238 
+│                       │       │                  ├ [82] : https://bugzilla.redhat.com/show_bug.cgi?id=2339243 
+│                       │       │                  ├ [83] : https://bugzilla.redhat.com/show_bug.cgi?id=2339247 
+│                       │       │                  ├ [84] : https://bugzilla.redhat.com/show_bug.cgi?id=2339252 
+│                       │       │                  ├ [85] : https://bugzilla.redhat.com/show_bug.cgi?id=2339259 
+│                       │       │                  ├ [86] : https://bugzilla.redhat.com/show_bug.cgi?id=2339266 
+│                       │       │                  ├ [87] : https://bugzilla.redhat.com/show_bug.cgi?id=2339270 
+│                       │       │                  ├ [88] : https://bugzilla.redhat.com/show_bug.cgi?id=2339271 
+│                       │       │                  ├ [89] : https://bugzilla.redhat.com/show_bug.cgi?id=2339275 
+│                       │       │                  ├ [90] : https://bugzilla.redhat.com/show_bug.cgi?id=2339277 
+│                       │       │                  ├ [91] : https://bugzilla.redhat.com/show_bug.cgi?id=2339281 
+│                       │       │                  ├ [92] : https://bugzilla.redhat.com/show_bug.cgi?id=2339284 
+│                       │       │                  ├ [93] : https://bugzilla.redhat.com/show_bug.cgi?id=2339291 
+│                       │       │                  ├ [94] : https://bugzilla.redhat.com/show_bug.cgi?id=2339293 
+│                       │       │                  ├ [95] : https://bugzilla.redhat.com/show_bug.cgi?id=2339295 
+│                       │       │                  ├ [96] : https://bugzilla.redhat.com/show_bug.cgi?id=2339299 
+│                       │       │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2339300 
+│                       │       │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2339304 
+│                       │       │                  ├ [99] : https://bugzilla.redhat.com/show_bug.cgi?id=2339305 
+│                       │       │                  ├ [100]: https://curl.se/docs/CVE-2024-11053.html 
+│                       │       │                  ├ [101]: https://curl.se/docs/CVE-2024-11053.json 
+│                       │       │                  ├ [102]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-11053 
-│                       │       │                  ├ [104]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [103]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21193 
-│                       │       │                  ├ [105]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [104]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21194 
-│                       │       │                  ├ [106]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [105]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21196 
-│                       │       │                  ├ [107]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [106]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21197 
-│                       │       │                  ├ [108]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [107]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21198 
-│                       │       │                  ├ [109]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [108]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21199 
-│                       │       │                  ├ [110]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [109]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21201 
-│                       │       │                  ├ [111]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [110]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21203 
-│                       │       │                  ├ [112]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [111]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21212 
-│                       │       │                  ├ [113]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [112]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21213 
-│                       │       │                  ├ [114]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [113]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21218 
-│                       │       │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [114]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21219 
-│                       │       │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21230 
-│                       │       │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21231 
-│                       │       │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21236 
-│                       │       │                  ├ [119]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21237 
-│                       │       │                  ├ [120]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [119]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21238 
-│                       │       │                  ├ [121]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [120]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21239 
-│                       │       │                  ├ [122]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [121]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21241 
-│                       │       │                  ├ [123]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [122]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21247 
-│                       │       │                  ├ [124]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [123]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-37371 
-│                       │       │                  ├ [125]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [124]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-5535 
-│                       │       │                  ├ [126]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [125]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-7264 
-│                       │       │                  ├ [127]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [126]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21490 
-│                       │       │                  ├ [128]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [127]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21491 
-│                       │       │                  ├ [129]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [128]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21494 
-│                       │       │                  ├ [130]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [129]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21497 
-│                       │       │                  ├ [131]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [130]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21500 
-│                       │       │                  ├ [132]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [131]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21501 
-│                       │       │                  ├ [133]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [132]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21503 
-│                       │       │                  ├ [134]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [133]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21504 
-│                       │       │                  ├ [135]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [134]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21505 
-│                       │       │                  ├ [136]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [135]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21518 
-│                       │       │                  ├ [137]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [136]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21519 
-│                       │       │                  ├ [138]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [137]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21520 
-│                       │       │                  ├ [139]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [138]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21521 
-│                       │       │                  ├ [140]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [139]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21522 
-│                       │       │                  ├ [141]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [140]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21523 
-│                       │       │                  ├ [142]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [141]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21525 
-│                       │       │                  ├ [143]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [142]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21529 
-│                       │       │                  ├ [144]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [143]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21531 
-│                       │       │                  ├ [145]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [144]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21534 
-│                       │       │                  ├ [146]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [145]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21536 
-│                       │       │                  ├ [147]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [146]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21540 
-│                       │       │                  ├ [148]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [147]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21543 
-│                       │       │                  ├ [149]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [148]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21546 
-│                       │       │                  ├ [150]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [149]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21555 
-│                       │       │                  ├ [151]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [150]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21559 
-│                       │       │                  ├ [152]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
-│                       │       │                  ├ [153]: https://errata.rockylinux.org/RLSA-2025:1671 
-│                       │       │                  ├ [154]: https://github.com/advisories/GHSA-h288-5fq8-5pfw 
-│                       │       │                  ├ [155]: https://hackerone.com/reports/2829063 
-│                       │       │                  ├ [156]: https://linux.oracle.com/cve/CVE-2024-11053.html 
-│                       │       │                  ├ [157]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
-│                       │       │                  ├ [158]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
-│                       │       │                  ├ [159]: https://security.netapp.com/advisory/ntap-20250124-
+│                       │       │                  ├ [151]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
+│                       │       │                  ├ [152]: https://errata.rockylinux.org/RLSA-2025:1671 
+│                       │       │                  ├ [153]: https://github.com/advisories/GHSA-h288-5fq8-5pfw 
+│                       │       │                  ├ [154]: https://hackerone.com/reports/2829063 
+│                       │       │                  ├ [155]: https://linux.oracle.com/cve/CVE-2024-11053.html 
+│                       │       │                  ├ [156]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
+│                       │       │                  ├ [157]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
+│                       │       │                  ├ [158]: https://security.netapp.com/advisory/ntap-20250124-
 │                       │       │                  │        0012 
-│                       │       │                  ├ [160]: https://security.netapp.com/advisory/ntap-20250124-
+│                       │       │                  ├ [159]: https://security.netapp.com/advisory/ntap-20250124-
 │                       │       │                  │        0012/ 
-│                       │       │                  ├ [161]: https://security.netapp.com/advisory/ntap-20250131-
+│                       │       │                  ├ [160]: https://security.netapp.com/advisory/ntap-20250131-
 │                       │       │                  │        0003 
-│                       │       │                  ├ [162]: https://security.netapp.com/advisory/ntap-20250131-
+│                       │       │                  ├ [161]: https://security.netapp.com/advisory/ntap-20250131-
 │                       │       │                  │        0003/ 
-│                       │       │                  ├ [163]: https://security.netapp.com/advisory/ntap-20250131-
+│                       │       │                  ├ [162]: https://security.netapp.com/advisory/ntap-20250131-
 │                       │       │                  │        0004 
-│                       │       │                  ├ [164]: https://security.netapp.com/advisory/ntap-20250131-
+│                       │       │                  ├ [163]: https://security.netapp.com/advisory/ntap-20250131-
 │                       │       │                  │        0004/ 
-│                       │       │                  ├ [165]: https://ubuntu.com/security/notices/USN-7162-1 
-│                       │       │                  ├ [166]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
-│                       │       │                  ╰ [167]: https://www.oracle.com/security-alerts/cpujan2025.h
-│                       │       │                           tml#AppendixMSQL 
+│                       │       │                  ├ [164]: https://ubuntu.com/security/notices/USN-7162-1 
+│                       │       │                  ╰ [165]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
 │                       │       ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                       │       ╰ LastModifiedDate: 2025-11-03T21:16:04.243Z 
-│                       ├ [126] ╭ VulnerabilityID : CVE-2024-7264 
+│                       ├ [131] ╭ VulnerabilityID : CVE-2024-7264 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -7051,7 +7342,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7264 
 │                       │       ├ Fingerprint     : sha256:ece34c9b85ca0d910f07aefc63f81e86c191bddaf9717476cc8f
 │                       │       │                   f6e58038b6d1 
-│                       │       ├ Title           : curl: libcurl: ASN.1 date parser overread 
+│                       │       ├ Title           : libcurl's ASN1 parser code has the `GTime2str()` function,
+│                       │       │                   used for pa ... 
 │                       │       ├ Description     : libcurl's ASN1 parser code has the `GTime2str()` function,
 │                       │       │                   used for parsing an
 │                       │       │                   ASN.1 Generalized Time field. If given an syntactically
@@ -7079,236 +7371,229 @@
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 6.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+│                       │       │                        ╰ V3Score : 6.5 
 │                       │       ├ References       ╭ [0]  : http://www.openwall.com/lists/oss-security/2024/07/
 │                       │       │                  │        31/1 
-│                       │       │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2025:1673 
-│                       │       │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-2024-7264 
-│                       │       │                  ├ [3]  : https://bugzilla.redhat.com/2294581 
-│                       │       │                  ├ [4]  : https://bugzilla.redhat.com/2294676 
-│                       │       │                  ├ [5]  : https://bugzilla.redhat.com/2301888 
-│                       │       │                  ├ [6]  : https://bugzilla.redhat.com/2318857 
-│                       │       │                  ├ [7]  : https://bugzilla.redhat.com/2318858 
-│                       │       │                  ├ [8]  : https://bugzilla.redhat.com/2318870 
-│                       │       │                  ├ [9]  : https://bugzilla.redhat.com/2318873 
-│                       │       │                  ├ [10] : https://bugzilla.redhat.com/2318874 
-│                       │       │                  ├ [11] : https://bugzilla.redhat.com/2318876 
-│                       │       │                  ├ [12] : https://bugzilla.redhat.com/2318882 
-│                       │       │                  ├ [13] : https://bugzilla.redhat.com/2318883 
-│                       │       │                  ├ [14] : https://bugzilla.redhat.com/2318884 
-│                       │       │                  ├ [15] : https://bugzilla.redhat.com/2318885 
-│                       │       │                  ├ [16] : https://bugzilla.redhat.com/2318886 
-│                       │       │                  ├ [17] : https://bugzilla.redhat.com/2318897 
-│                       │       │                  ├ [18] : https://bugzilla.redhat.com/2318900 
-│                       │       │                  ├ [19] : https://bugzilla.redhat.com/2318905 
-│                       │       │                  ├ [20] : https://bugzilla.redhat.com/2318914 
-│                       │       │                  ├ [21] : https://bugzilla.redhat.com/2318922 
-│                       │       │                  ├ [22] : https://bugzilla.redhat.com/2318923 
-│                       │       │                  ├ [23] : https://bugzilla.redhat.com/2318925 
-│                       │       │                  ├ [24] : https://bugzilla.redhat.com/2318926 
-│                       │       │                  ├ [25] : https://bugzilla.redhat.com/2318927 
-│                       │       │                  ├ [26] : https://bugzilla.redhat.com/2331191 
-│                       │       │                  ├ [27] : https://bugzilla.redhat.com/2339218 
-│                       │       │                  ├ [28] : https://bugzilla.redhat.com/2339220 
-│                       │       │                  ├ [29] : https://bugzilla.redhat.com/2339221 
-│                       │       │                  ├ [30] : https://bugzilla.redhat.com/2339226 
-│                       │       │                  ├ [31] : https://bugzilla.redhat.com/2339231 
-│                       │       │                  ├ [32] : https://bugzilla.redhat.com/2339236 
-│                       │       │                  ├ [33] : https://bugzilla.redhat.com/2339238 
-│                       │       │                  ├ [34] : https://bugzilla.redhat.com/2339243 
-│                       │       │                  ├ [35] : https://bugzilla.redhat.com/2339247 
-│                       │       │                  ├ [36] : https://bugzilla.redhat.com/2339252 
-│                       │       │                  ├ [37] : https://bugzilla.redhat.com/2339259 
-│                       │       │                  ├ [38] : https://bugzilla.redhat.com/2339266 
-│                       │       │                  ├ [39] : https://bugzilla.redhat.com/2339270 
-│                       │       │                  ├ [40] : https://bugzilla.redhat.com/2339271 
-│                       │       │                  ├ [41] : https://bugzilla.redhat.com/2339275 
-│                       │       │                  ├ [42] : https://bugzilla.redhat.com/2339277 
-│                       │       │                  ├ [43] : https://bugzilla.redhat.com/2339281 
-│                       │       │                  ├ [44] : https://bugzilla.redhat.com/2339284 
-│                       │       │                  ├ [45] : https://bugzilla.redhat.com/2339291 
-│                       │       │                  ├ [46] : https://bugzilla.redhat.com/2339293 
-│                       │       │                  ├ [47] : https://bugzilla.redhat.com/2339295 
-│                       │       │                  ├ [48] : https://bugzilla.redhat.com/2339299 
-│                       │       │                  ├ [49] : https://bugzilla.redhat.com/2339300 
-│                       │       │                  ├ [50] : https://bugzilla.redhat.com/2339304 
-│                       │       │                  ├ [51] : https://bugzilla.redhat.com/2339305 
-│                       │       │                  ├ [52] : https://bugzilla.redhat.com/show_bug.cgi?id=2294581 
-│                       │       │                  ├ [53] : https://bugzilla.redhat.com/show_bug.cgi?id=2294676 
-│                       │       │                  ├ [54] : https://bugzilla.redhat.com/show_bug.cgi?id=2301888 
-│                       │       │                  ├ [55] : https://bugzilla.redhat.com/show_bug.cgi?id=2318857 
-│                       │       │                  ├ [56] : https://bugzilla.redhat.com/show_bug.cgi?id=2318858 
-│                       │       │                  ├ [57] : https://bugzilla.redhat.com/show_bug.cgi?id=2318870 
-│                       │       │                  ├ [58] : https://bugzilla.redhat.com/show_bug.cgi?id=2318873 
-│                       │       │                  ├ [59] : https://bugzilla.redhat.com/show_bug.cgi?id=2318874 
-│                       │       │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=2318876 
-│                       │       │                  ├ [61] : https://bugzilla.redhat.com/show_bug.cgi?id=2318882 
-│                       │       │                  ├ [62] : https://bugzilla.redhat.com/show_bug.cgi?id=2318883 
-│                       │       │                  ├ [63] : https://bugzilla.redhat.com/show_bug.cgi?id=2318884 
-│                       │       │                  ├ [64] : https://bugzilla.redhat.com/show_bug.cgi?id=2318885 
-│                       │       │                  ├ [65] : https://bugzilla.redhat.com/show_bug.cgi?id=2318886 
-│                       │       │                  ├ [66] : https://bugzilla.redhat.com/show_bug.cgi?id=2318897 
-│                       │       │                  ├ [67] : https://bugzilla.redhat.com/show_bug.cgi?id=2318900 
-│                       │       │                  ├ [68] : https://bugzilla.redhat.com/show_bug.cgi?id=2318905 
-│                       │       │                  ├ [69] : https://bugzilla.redhat.com/show_bug.cgi?id=2318914 
-│                       │       │                  ├ [70] : https://bugzilla.redhat.com/show_bug.cgi?id=2318922 
-│                       │       │                  ├ [71] : https://bugzilla.redhat.com/show_bug.cgi?id=2318923 
-│                       │       │                  ├ [72] : https://bugzilla.redhat.com/show_bug.cgi?id=2318925 
-│                       │       │                  ├ [73] : https://bugzilla.redhat.com/show_bug.cgi?id=2318926 
-│                       │       │                  ├ [74] : https://bugzilla.redhat.com/show_bug.cgi?id=2318927 
-│                       │       │                  ├ [75] : https://bugzilla.redhat.com/show_bug.cgi?id=2331191 
-│                       │       │                  ├ [76] : https://bugzilla.redhat.com/show_bug.cgi?id=2339218 
-│                       │       │                  ├ [77] : https://bugzilla.redhat.com/show_bug.cgi?id=2339220 
-│                       │       │                  ├ [78] : https://bugzilla.redhat.com/show_bug.cgi?id=2339221 
-│                       │       │                  ├ [79] : https://bugzilla.redhat.com/show_bug.cgi?id=2339226 
-│                       │       │                  ├ [80] : https://bugzilla.redhat.com/show_bug.cgi?id=2339231 
-│                       │       │                  ├ [81] : https://bugzilla.redhat.com/show_bug.cgi?id=2339236 
-│                       │       │                  ├ [82] : https://bugzilla.redhat.com/show_bug.cgi?id=2339238 
-│                       │       │                  ├ [83] : https://bugzilla.redhat.com/show_bug.cgi?id=2339243 
-│                       │       │                  ├ [84] : https://bugzilla.redhat.com/show_bug.cgi?id=2339247 
-│                       │       │                  ├ [85] : https://bugzilla.redhat.com/show_bug.cgi?id=2339252 
-│                       │       │                  ├ [86] : https://bugzilla.redhat.com/show_bug.cgi?id=2339259 
-│                       │       │                  ├ [87] : https://bugzilla.redhat.com/show_bug.cgi?id=2339266 
-│                       │       │                  ├ [88] : https://bugzilla.redhat.com/show_bug.cgi?id=2339270 
-│                       │       │                  ├ [89] : https://bugzilla.redhat.com/show_bug.cgi?id=2339271 
-│                       │       │                  ├ [90] : https://bugzilla.redhat.com/show_bug.cgi?id=2339275 
-│                       │       │                  ├ [91] : https://bugzilla.redhat.com/show_bug.cgi?id=2339277 
-│                       │       │                  ├ [92] : https://bugzilla.redhat.com/show_bug.cgi?id=2339281 
-│                       │       │                  ├ [93] : https://bugzilla.redhat.com/show_bug.cgi?id=2339284 
-│                       │       │                  ├ [94] : https://bugzilla.redhat.com/show_bug.cgi?id=2339291 
-│                       │       │                  ├ [95] : https://bugzilla.redhat.com/show_bug.cgi?id=2339293 
-│                       │       │                  ├ [96] : https://bugzilla.redhat.com/show_bug.cgi?id=2339295 
-│                       │       │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2339299 
-│                       │       │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2339300 
-│                       │       │                  ├ [99] : https://bugzilla.redhat.com/show_bug.cgi?id=2339304 
-│                       │       │                  ├ [100]: https://bugzilla.redhat.com/show_bug.cgi?id=2339305 
-│                       │       │                  ├ [101]: https://curl.se/docs/CVE-2024-7264.html 
-│                       │       │                  ├ [102]: https://curl.se/docs/CVE-2024-7264.json 
-│                       │       │                  ├ [103]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2025:1671 
+│                       │       │                  ├ [2]  : https://bugzilla.redhat.com/2294581 
+│                       │       │                  ├ [3]  : https://bugzilla.redhat.com/2294676 
+│                       │       │                  ├ [4]  : https://bugzilla.redhat.com/2301888 
+│                       │       │                  ├ [5]  : https://bugzilla.redhat.com/2318857 
+│                       │       │                  ├ [6]  : https://bugzilla.redhat.com/2318858 
+│                       │       │                  ├ [7]  : https://bugzilla.redhat.com/2318870 
+│                       │       │                  ├ [8]  : https://bugzilla.redhat.com/2318873 
+│                       │       │                  ├ [9]  : https://bugzilla.redhat.com/2318874 
+│                       │       │                  ├ [10] : https://bugzilla.redhat.com/2318876 
+│                       │       │                  ├ [11] : https://bugzilla.redhat.com/2318882 
+│                       │       │                  ├ [12] : https://bugzilla.redhat.com/2318883 
+│                       │       │                  ├ [13] : https://bugzilla.redhat.com/2318884 
+│                       │       │                  ├ [14] : https://bugzilla.redhat.com/2318885 
+│                       │       │                  ├ [15] : https://bugzilla.redhat.com/2318886 
+│                       │       │                  ├ [16] : https://bugzilla.redhat.com/2318897 
+│                       │       │                  ├ [17] : https://bugzilla.redhat.com/2318900 
+│                       │       │                  ├ [18] : https://bugzilla.redhat.com/2318905 
+│                       │       │                  ├ [19] : https://bugzilla.redhat.com/2318914 
+│                       │       │                  ├ [20] : https://bugzilla.redhat.com/2318922 
+│                       │       │                  ├ [21] : https://bugzilla.redhat.com/2318923 
+│                       │       │                  ├ [22] : https://bugzilla.redhat.com/2318925 
+│                       │       │                  ├ [23] : https://bugzilla.redhat.com/2318926 
+│                       │       │                  ├ [24] : https://bugzilla.redhat.com/2318927 
+│                       │       │                  ├ [25] : https://bugzilla.redhat.com/2331191 
+│                       │       │                  ├ [26] : https://bugzilla.redhat.com/2339218 
+│                       │       │                  ├ [27] : https://bugzilla.redhat.com/2339220 
+│                       │       │                  ├ [28] : https://bugzilla.redhat.com/2339221 
+│                       │       │                  ├ [29] : https://bugzilla.redhat.com/2339226 
+│                       │       │                  ├ [30] : https://bugzilla.redhat.com/2339231 
+│                       │       │                  ├ [31] : https://bugzilla.redhat.com/2339236 
+│                       │       │                  ├ [32] : https://bugzilla.redhat.com/2339238 
+│                       │       │                  ├ [33] : https://bugzilla.redhat.com/2339243 
+│                       │       │                  ├ [34] : https://bugzilla.redhat.com/2339247 
+│                       │       │                  ├ [35] : https://bugzilla.redhat.com/2339252 
+│                       │       │                  ├ [36] : https://bugzilla.redhat.com/2339259 
+│                       │       │                  ├ [37] : https://bugzilla.redhat.com/2339266 
+│                       │       │                  ├ [38] : https://bugzilla.redhat.com/2339270 
+│                       │       │                  ├ [39] : https://bugzilla.redhat.com/2339271 
+│                       │       │                  ├ [40] : https://bugzilla.redhat.com/2339275 
+│                       │       │                  ├ [41] : https://bugzilla.redhat.com/2339277 
+│                       │       │                  ├ [42] : https://bugzilla.redhat.com/2339281 
+│                       │       │                  ├ [43] : https://bugzilla.redhat.com/2339284 
+│                       │       │                  ├ [44] : https://bugzilla.redhat.com/2339291 
+│                       │       │                  ├ [45] : https://bugzilla.redhat.com/2339293 
+│                       │       │                  ├ [46] : https://bugzilla.redhat.com/2339295 
+│                       │       │                  ├ [47] : https://bugzilla.redhat.com/2339299 
+│                       │       │                  ├ [48] : https://bugzilla.redhat.com/2339300 
+│                       │       │                  ├ [49] : https://bugzilla.redhat.com/2339304 
+│                       │       │                  ├ [50] : https://bugzilla.redhat.com/2339305 
+│                       │       │                  ├ [51] : https://bugzilla.redhat.com/show_bug.cgi?id=2294581 
+│                       │       │                  ├ [52] : https://bugzilla.redhat.com/show_bug.cgi?id=2294676 
+│                       │       │                  ├ [53] : https://bugzilla.redhat.com/show_bug.cgi?id=2301888 
+│                       │       │                  ├ [54] : https://bugzilla.redhat.com/show_bug.cgi?id=2318857 
+│                       │       │                  ├ [55] : https://bugzilla.redhat.com/show_bug.cgi?id=2318858 
+│                       │       │                  ├ [56] : https://bugzilla.redhat.com/show_bug.cgi?id=2318870 
+│                       │       │                  ├ [57] : https://bugzilla.redhat.com/show_bug.cgi?id=2318873 
+│                       │       │                  ├ [58] : https://bugzilla.redhat.com/show_bug.cgi?id=2318874 
+│                       │       │                  ├ [59] : https://bugzilla.redhat.com/show_bug.cgi?id=2318876 
+│                       │       │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=2318882 
+│                       │       │                  ├ [61] : https://bugzilla.redhat.com/show_bug.cgi?id=2318883 
+│                       │       │                  ├ [62] : https://bugzilla.redhat.com/show_bug.cgi?id=2318884 
+│                       │       │                  ├ [63] : https://bugzilla.redhat.com/show_bug.cgi?id=2318885 
+│                       │       │                  ├ [64] : https://bugzilla.redhat.com/show_bug.cgi?id=2318886 
+│                       │       │                  ├ [65] : https://bugzilla.redhat.com/show_bug.cgi?id=2318897 
+│                       │       │                  ├ [66] : https://bugzilla.redhat.com/show_bug.cgi?id=2318900 
+│                       │       │                  ├ [67] : https://bugzilla.redhat.com/show_bug.cgi?id=2318905 
+│                       │       │                  ├ [68] : https://bugzilla.redhat.com/show_bug.cgi?id=2318914 
+│                       │       │                  ├ [69] : https://bugzilla.redhat.com/show_bug.cgi?id=2318922 
+│                       │       │                  ├ [70] : https://bugzilla.redhat.com/show_bug.cgi?id=2318923 
+│                       │       │                  ├ [71] : https://bugzilla.redhat.com/show_bug.cgi?id=2318925 
+│                       │       │                  ├ [72] : https://bugzilla.redhat.com/show_bug.cgi?id=2318926 
+│                       │       │                  ├ [73] : https://bugzilla.redhat.com/show_bug.cgi?id=2318927 
+│                       │       │                  ├ [74] : https://bugzilla.redhat.com/show_bug.cgi?id=2331191 
+│                       │       │                  ├ [75] : https://bugzilla.redhat.com/show_bug.cgi?id=2339218 
+│                       │       │                  ├ [76] : https://bugzilla.redhat.com/show_bug.cgi?id=2339220 
+│                       │       │                  ├ [77] : https://bugzilla.redhat.com/show_bug.cgi?id=2339221 
+│                       │       │                  ├ [78] : https://bugzilla.redhat.com/show_bug.cgi?id=2339226 
+│                       │       │                  ├ [79] : https://bugzilla.redhat.com/show_bug.cgi?id=2339231 
+│                       │       │                  ├ [80] : https://bugzilla.redhat.com/show_bug.cgi?id=2339236 
+│                       │       │                  ├ [81] : https://bugzilla.redhat.com/show_bug.cgi?id=2339238 
+│                       │       │                  ├ [82] : https://bugzilla.redhat.com/show_bug.cgi?id=2339243 
+│                       │       │                  ├ [83] : https://bugzilla.redhat.com/show_bug.cgi?id=2339247 
+│                       │       │                  ├ [84] : https://bugzilla.redhat.com/show_bug.cgi?id=2339252 
+│                       │       │                  ├ [85] : https://bugzilla.redhat.com/show_bug.cgi?id=2339259 
+│                       │       │                  ├ [86] : https://bugzilla.redhat.com/show_bug.cgi?id=2339266 
+│                       │       │                  ├ [87] : https://bugzilla.redhat.com/show_bug.cgi?id=2339270 
+│                       │       │                  ├ [88] : https://bugzilla.redhat.com/show_bug.cgi?id=2339271 
+│                       │       │                  ├ [89] : https://bugzilla.redhat.com/show_bug.cgi?id=2339275 
+│                       │       │                  ├ [90] : https://bugzilla.redhat.com/show_bug.cgi?id=2339277 
+│                       │       │                  ├ [91] : https://bugzilla.redhat.com/show_bug.cgi?id=2339281 
+│                       │       │                  ├ [92] : https://bugzilla.redhat.com/show_bug.cgi?id=2339284 
+│                       │       │                  ├ [93] : https://bugzilla.redhat.com/show_bug.cgi?id=2339291 
+│                       │       │                  ├ [94] : https://bugzilla.redhat.com/show_bug.cgi?id=2339293 
+│                       │       │                  ├ [95] : https://bugzilla.redhat.com/show_bug.cgi?id=2339295 
+│                       │       │                  ├ [96] : https://bugzilla.redhat.com/show_bug.cgi?id=2339299 
+│                       │       │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2339300 
+│                       │       │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2339304 
+│                       │       │                  ├ [99] : https://bugzilla.redhat.com/show_bug.cgi?id=2339305 
+│                       │       │                  ├ [100]: https://curl.se/docs/CVE-2024-7264.html 
+│                       │       │                  ├ [101]: https://curl.se/docs/CVE-2024-7264.json 
+│                       │       │                  ├ [102]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-11053 
-│                       │       │                  ├ [104]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [103]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21193 
-│                       │       │                  ├ [105]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [104]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21194 
-│                       │       │                  ├ [106]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [105]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21196 
-│                       │       │                  ├ [107]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [106]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21197 
-│                       │       │                  ├ [108]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [107]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21198 
-│                       │       │                  ├ [109]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [108]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21199 
-│                       │       │                  ├ [110]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [109]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21201 
-│                       │       │                  ├ [111]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [110]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21203 
-│                       │       │                  ├ [112]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [111]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21212 
-│                       │       │                  ├ [113]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [112]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21213 
-│                       │       │                  ├ [114]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [113]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21218 
-│                       │       │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [114]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21219 
-│                       │       │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21230 
-│                       │       │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21231 
-│                       │       │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21236 
-│                       │       │                  ├ [119]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21237 
-│                       │       │                  ├ [120]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [119]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21238 
-│                       │       │                  ├ [121]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [120]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21239 
-│                       │       │                  ├ [122]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [121]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21241 
-│                       │       │                  ├ [123]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [122]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-21247 
-│                       │       │                  ├ [124]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [123]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-37371 
-│                       │       │                  ├ [125]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [124]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-5535 
-│                       │       │                  ├ [126]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [125]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-7264 
-│                       │       │                  ├ [127]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [126]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21490 
-│                       │       │                  ├ [128]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [127]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21491 
-│                       │       │                  ├ [129]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [128]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21494 
-│                       │       │                  ├ [130]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [129]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21497 
-│                       │       │                  ├ [131]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [130]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21500 
-│                       │       │                  ├ [132]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [131]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21501 
-│                       │       │                  ├ [133]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [132]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21503 
-│                       │       │                  ├ [134]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [133]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21504 
-│                       │       │                  ├ [135]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [134]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21505 
-│                       │       │                  ├ [136]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [135]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21518 
-│                       │       │                  ├ [137]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [136]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21519 
-│                       │       │                  ├ [138]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [137]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21520 
-│                       │       │                  ├ [139]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [138]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21521 
-│                       │       │                  ├ [140]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [139]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21522 
-│                       │       │                  ├ [141]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [140]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21523 
-│                       │       │                  ├ [142]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [141]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21525 
-│                       │       │                  ├ [143]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [142]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21529 
-│                       │       │                  ├ [144]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [143]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21531 
-│                       │       │                  ├ [145]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [144]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21534 
-│                       │       │                  ├ [146]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [145]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21536 
-│                       │       │                  ├ [147]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [146]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21540 
-│                       │       │                  ├ [148]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [147]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21543 
-│                       │       │                  ├ [149]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [148]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21546 
-│                       │       │                  ├ [150]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [149]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21555 
-│                       │       │                  ├ [151]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [150]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21559 
-│                       │       │                  ├ [152]: https://errata.almalinux.org/8/ALSA-2025-1673.html 
-│                       │       │                  ├ [153]: https://errata.rockylinux.org/RLSA-2025:1671 
-│                       │       │                  ├ [154]: https://github.com/curl/curl/commit/27959ecce75cdb2
+│                       │       │                  ├ [151]: https://errata.almalinux.org/9/ALSA-2025-1671.html 
+│                       │       │                  ├ [152]: https://errata.rockylinux.org/RLSA-2025:1671 
+│                       │       │                  ├ [153]: https://github.com/curl/curl/commit/27959ecce75cdb2
 │                       │       │                  │        809c0bdb3286e60e08fadb519 
-│                       │       │                  ├ [155]: https://hackerone.com/reports/2629968 
-│                       │       │                  ├ [156]: https://linux.oracle.com/cve/CVE-2024-7264.html 
-│                       │       │                  ├ [157]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
-│                       │       │                  ├ [158]: https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
-│                       │       │                  ├ [159]: https://security.netapp.com/advisory/ntap-20240828-
+│                       │       │                  ├ [154]: https://hackerone.com/reports/2629968 
+│                       │       │                  ├ [155]: https://linux.oracle.com/cve/CVE-2024-7264.html 
+│                       │       │                  ├ [156]: https://linux.oracle.com/errata/ELSA-2025-1673.html 
+│                       │       │                  ├ [157]: https://nvd.nist.gov/vuln/detail/CVE-2024-7264 
+│                       │       │                  ├ [158]: https://security.netapp.com/advisory/ntap-20240828-
 │                       │       │                  │        0008/ 
-│                       │       │                  ├ [160]: https://security.netapp.com/advisory/ntap-20241025-
+│                       │       │                  ├ [159]: https://security.netapp.com/advisory/ntap-20241025-
 │                       │       │                  │        0006/ 
-│                       │       │                  ├ [161]: https://security.netapp.com/advisory/ntap-20241025-
+│                       │       │                  ├ [160]: https://security.netapp.com/advisory/ntap-20241025-
 │                       │       │                  │        0010/ 
-│                       │       │                  ├ [162]: https://ubuntu.com/security/notices/USN-6944-1 
-│                       │       │                  ├ [163]: https://ubuntu.com/security/notices/USN-6944-2 
-│                       │       │                  ├ [164]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
-│                       │       │                  ╰ [165]: https://www.oracle.com/security-alerts/cpuoct2024.h
-│                       │       │                           tml#AppendixMSQL 
+│                       │       │                  ├ [161]: https://ubuntu.com/security/notices/USN-6944-1 
+│                       │       │                  ├ [162]: https://ubuntu.com/security/notices/USN-6944-2 
+│                       │       │                  ╰ [163]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
 │                       │       ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
 │                       │       ╰ LastModifiedDate: 2025-11-03T23:17:31.647Z 
-│                       ├ [127] ╭ VulnerabilityID : CVE-2024-9681 
+│                       ├ [132] ╭ VulnerabilityID : CVE-2024-9681 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -7324,7 +7609,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
 │                       │       ├ Fingerprint     : sha256:6a8009fad1491526fe93c07b80af036f22b324c7aa35962d5a42
 │                       │       │                   61596734f548 
-│                       │       ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
+│                       │       ├ Title           : When curl is asked to use HSTS, the expiry time for a
+│                       │       │                   subdomain might  ... 
 │                       │       ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                       │       │                   subdomain might
 │                       │       │                   overwrite a parent domain's cache entry, making it end
@@ -7371,15 +7657,12 @@
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           H/A:N 
-│                       │       │                  │        ╰ V3Score : 5.9 
-│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           H/A:L 
-│                       │       │                  │        ╰ V3Score : 6.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
-│                       │       │                           │           L/A:L 
-│                       │       │                           ╰ V3Score : 3.9 
+│                       │       ├ CVSS             ╭ julia ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
+│                       │       │                  │       │           /A:N 
+│                       │       │                  │       ╰ V3Score : 5.9 
+│                       │       │                  ╰ nvd   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
+│                       │       │                          │           /A:L 
+│                       │       │                          ╰ V3Score : 6.5 
 │                       │       ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2025/Apr/10 
 │                       │       │                  ├ [1] : http://seclists.org/fulldisclosure/2025/Apr/11 
 │                       │       │                  ├ [2] : http://seclists.org/fulldisclosure/2025/Apr/12 
@@ -7390,21 +7673,20 @@
 │                       │       │                  ├ [7] : http://seclists.org/fulldisclosure/2025/Apr/9 
 │                       │       │                  ├ [8] : http://www.openwall.com/lists/oss-security/2024/11/0
 │                       │       │                  │       6/2 
-│                       │       │                  ├ [9] : https://access.redhat.com/security/cve/CVE-2024-9681 
-│                       │       │                  ├ [10]: https://curl.se/docs/CVE-2024-9681.html 
-│                       │       │                  ├ [11]: https://curl.se/docs/CVE-2024-9681.json 
-│                       │       │                  ├ [12]: https://github.com/advisories/GHSA-g337-g667-mjvw 
-│                       │       │                  ├ [13]: https://hackerone.com/reports/2764830 
-│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │       │                  ├ [15]: https://security.netapp.com/advisory/ntap-20241213-0
+│                       │       │                  ├ [9] : https://curl.se/docs/CVE-2024-9681.html 
+│                       │       │                  ├ [10]: https://curl.se/docs/CVE-2024-9681.json 
+│                       │       │                  ├ [11]: https://github.com/advisories/GHSA-g337-g667-mjvw 
+│                       │       │                  ├ [12]: https://hackerone.com/reports/2764830 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
+│                       │       │                  ├ [14]: https://security.netapp.com/advisory/ntap-20241213-0
 │                       │       │                  │       006 
-│                       │       │                  ├ [16]: https://security.netapp.com/advisory/ntap-20241213-0
+│                       │       │                  ├ [15]: https://security.netapp.com/advisory/ntap-20241213-0
 │                       │       │                  │       006/ 
-│                       │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-7104-1 
-│                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │       ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │       ╰ LastModifiedDate: 2025-11-03T21:18:48.67Z 
-│                       ├ [128] ╭ VulnerabilityID : CVE-2025-14524 
+│                       ├ [133] ╭ VulnerabilityID : CVE-2025-14524 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -7455,7 +7737,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
 │                       │       ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
 │                       │       ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
-│                       ├ [129] ╭ VulnerabilityID : CVE-2025-15079 
+│                       ├ [134] ╭ VulnerabilityID : CVE-2025-15079 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -7504,7 +7786,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-15079 
 │                       │       ├ PublishedDate   : 2026-01-08T10:15:47.1Z 
 │                       │       ╰ LastModifiedDate: 2026-01-20T14:50:24.33Z 
-│                       ├ [130] ╭ VulnerabilityID : CVE-2025-15224 
+│                       ├ [135] ╭ VulnerabilityID : CVE-2025-15224 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -7551,7 +7833,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-15224 
 │                       │       ├ PublishedDate   : 2026-01-08T10:15:47.207Z 
 │                       │       ╰ LastModifiedDate: 2026-01-20T14:47:52.71Z 
-│                       ├ [131] ╭ VulnerabilityID : CVE-2026-6276 
+│                       ├ [136] ╭ VulnerabilityID : CVE-2026-6276 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9?arch=x8
@@ -7601,7 +7883,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-6276 
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:56.8Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T14:21:06.997Z 
-│                       ├ [132] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [137] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │       ├ PkgID           : libgcc@11.5.0-14.el9.x86_64 
 │                       │       ├ PkgName         : libgcc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libgcc@11.5.0-14.el9?arch=x86_64&dist
@@ -7654,7 +7936,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │       ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
-│                       ├ [133] ╭ VulnerabilityID : CVE-2026-41989 
+│                       ├ [138] ╭ VulnerabilityID : CVE-2026-41989 
 │                       │       ├ PkgID           : libgcrypt@1.10.0-11.el9.x86_64 
 │                       │       ├ PkgName         : libgcrypt 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libgcrypt@1.10.0-11.el9?arch=x86_64&d
@@ -7680,7 +7962,8 @@
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ azure : 1 
 │                       │       │                  ├ julia : 2 
-│                       │       │                  ╰ redhat: 2 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                  │        │           H/A:H 
 │                       │       │                  │        ╰ V3Score : 6.7 
@@ -7693,12 +7976,13 @@
 │                       │       │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2026
 │                       │       │                  │      q2/000503.html 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-41989 
-│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2026-41989 
-│                       │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2026/04/2
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8319-1 
+│                       │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2026-41989 
+│                       │       │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2026/04/2
 │                       │       │                         1/1 
 │                       │       ├ PublishedDate   : 2026-04-23T05:16:05.75Z 
 │                       │       ╰ LastModifiedDate: 2026-04-27T18:33:18.157Z 
-│                       ├ [134] ╭ VulnerabilityID : CVE-2026-41990 
+│                       ├ [139] ╭ VulnerabilityID : CVE-2026-41990 
 │                       │       ├ PkgID           : libgcrypt@1.10.0-11.el9.x86_64 
 │                       │       ├ PkgName         : libgcrypt 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libgcrypt@1.10.0-11.el9?arch=x86_64&d
@@ -7737,12 +8021,13 @@
 │                       │       │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2026
 │                       │       │                  │      q2/000503.html 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-41990 
-│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2026-41990 
-│                       │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2026/04/2
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8319-1 
+│                       │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2026-41990 
+│                       │       │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2026/04/2
 │                       │       │                         1/1 
 │                       │       ├ PublishedDate   : 2026-04-23T05:16:05.897Z 
 │                       │       ╰ LastModifiedDate: 2026-04-27T18:33:27.05Z 
-│                       ├ [135] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [140] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : libmount@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libmount 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libmount@2.37.4-25.el9?arch=x86_64&di
@@ -7807,7 +8092,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T16:08:55.1Z 
-│                       ├ [136] ╭ VulnerabilityID : CVE-2023-24056 
+│                       ├ [141] ╭ VulnerabilityID : CVE-2023-24056 
 │                       │       ├ PkgID           : libpkgconf@1.7.3-10.el9.x86_64 
 │                       │       ├ PkgName         : libpkgconf 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libpkgconf@1.7.3-10.el9?arch=x86_64&d
@@ -7851,7 +8136,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-24056 
 │                       │       ├ PublishedDate   : 2023-01-22T04:15:11.617Z 
 │                       │       ╰ LastModifiedDate: 2025-04-02T16:15:33.967Z 
-│                       ├ [137] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [142] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : libsmartcols@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libsmartcols 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libsmartcols@2.37.4-25.el9?arch=x86_6
@@ -7916,7 +8201,46 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T16:08:55.1Z 
-│                       ├ [138] ╭ VulnerabilityID : CVE-2026-9149 
+│                       ├ [143] ╭ VulnerabilityID : CVE-2026-48864 
+│                       │       ├ PkgID           : libsolv@0.7.24-4.el9.x86_64 
+│                       │       ├ PkgName         : libsolv 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libsolv@0.7.24-4.el9?arch=x86_64&dist
+│                       │       │                  │       ro=redhat-9.8 
+│                       │       │                  ╰ UID : c492ecfb18ffca4d 
+│                       │       ├ InstalledVersion: 0.7.24-4.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
+│                       │       │                  │         17452c5d079b445284f6b 
+│                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
+│                       │       │                            cb53f08109547def80414 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-48864 
+│                       │       ├ Fingerprint     : sha256:8bf2009c89af5f0e370011731d0651f971c2c53370d1158da3f8
+│                       │       │                   b4393ddec21d 
+│                       │       ├ Title           : libsolv: Heap buffer overflow in libsolv repopagestore via
+│                       │       │                   unchecked decompression of malicious .solv page data 
+│                       │       ├ Description     : A flaw was found in libsolv. This heap buffer overflow
+│                       │       │                   occurs during the decompression of attacker-controlled
+│                       │       │                   compressed data within `.solv` files due to insufficient
+│                       │       │                   input validation. An attacker can provide a specially
+│                       │       │                   crafted `.solv` file, which, when processed by a vulnerable
+│                       │       │                    application, can lead to out-of-bounds memory access. This
+│                       │       │                    could result in information disclosure, alteration of
+│                       │       │                   program execution, or a denial of service. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:21333 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-48864 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2460425 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-48864 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-48864 
+│                       │       ├ PublishedDate   : 2026-05-26T17:16:54.05Z 
+│                       │       ╰ LastModifiedDate: 2026-05-28T03:16:42.903Z 
+│                       ├ [144] ╭ VulnerabilityID : CVE-2026-9149 
 │                       │       ├ PkgID           : libsolv@0.7.24-4.el9.x86_64 
 │                       │       ├ PkgName         : libsolv 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libsolv@0.7.24-4.el9?arch=x86_64&dist
@@ -7954,7 +8278,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-9149 
 │                       │       ├ PublishedDate   : 2026-05-21T00:16:35.63Z 
 │                       │       ╰ LastModifiedDate: 2026-05-21T15:26:35.653Z 
-│                       ├ [139] ╭ VulnerabilityID : CVE-2026-9150 
+│                       ├ [145] ╭ VulnerabilityID : CVE-2026-9150 
 │                       │       ├ PkgID           : libsolv@0.7.24-4.el9.x86_64 
 │                       │       ├ PkgName         : libsolv 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libsolv@0.7.24-4.el9?arch=x86_64&dist
@@ -7992,7 +8316,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-9150 
 │                       │       ├ PublishedDate   : 2026-05-20T23:16:36.01Z 
 │                       │       ╰ LastModifiedDate: 2026-05-21T15:26:35.653Z 
-│                       ├ [140] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [146] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │       ├ PkgID           : libstdc++@11.5.0-14.el9.x86_64 
 │                       │       ├ PkgName         : libstdc++ 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libstdc%2B%2B@11.5.0-14.el9?arch=x86_
@@ -8045,7 +8369,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │       ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
-│                       ├ [141] ╭ VulnerabilityID : CVE-2025-13151 
+│                       ├ [147] ╭ VulnerabilityID : CVE-2025-13151 
 │                       │       ├ PkgID           : libtasn1@4.16.0-9.el9.x86_64 
 │                       │       ├ PkgName         : libtasn1 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libtasn1@4.16.0-9.el9?arch=x86_64&dis
@@ -8089,7 +8413,7 @@
 │                       │       │                  ╰ [8]: https://www.kb.cert.org/vuls/id/271649 
 │                       │       ├ PublishedDate   : 2026-01-07T22:15:43.2Z 
 │                       │       ╰ LastModifiedDate: 2026-02-02T19:27:23.07Z 
-│                       ├ [142] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [148] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : libuuid@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libuuid 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libuuid@2.37.4-25.el9?arch=x86_64&dis
@@ -8154,7 +8478,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T16:08:55.1Z 
-│                       ├ [143] ╭ VulnerabilityID : CVE-2026-0990 
+│                       ├ [149] ╭ VulnerabilityID : CVE-2026-0990 
 │                       │       ├ PkgID           : libxml2@2.9.13-14.el9_7.x86_64 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_7?arch=x86_64&d
@@ -8201,7 +8525,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-0990 
 │                       │       ├ PublishedDate   : 2026-01-15T15:15:52.503Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T10:16:50.113Z 
-│                       ├ [144] ╭ VulnerabilityID : CVE-2026-1757 
+│                       ├ [150] ╭ VulnerabilityID : CVE-2026-1757 
 │                       │       ├ PkgID           : libxml2@2.9.13-14.el9_7.x86_64 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_7?arch=x86_64&d
@@ -8245,7 +8569,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-1757 
 │                       │       ├ PublishedDate   : 2026-02-02T13:15:58.58Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T10:16:50.683Z 
-│                       ├ [145] ╭ VulnerabilityID : CVE-2026-6732 
+│                       ├ [151] ╭ VulnerabilityID : CVE-2026-6732 
 │                       │       ├ PkgID           : libxml2@2.9.13-14.el9_7.x86_64 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_7?arch=x86_64&d
@@ -8291,7 +8615,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-6732 
 │                       │       ├ PublishedDate   : 2026-04-23T23:16:16.443Z 
 │                       │       ╰ LastModifiedDate: 2026-05-15T14:36:35.823Z 
-│                       ├ [146] ╭ VulnerabilityID : CVE-2023-45322 
+│                       ├ [152] ╭ VulnerabilityID : CVE-2023-45322 
 │                       │       ├ PkgID           : libxml2@2.9.13-14.el9_7.x86_64 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_7?arch=x86_64&d
@@ -8338,7 +8662,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-45322 
 │                       │       ├ PublishedDate   : 2023-10-06T22:15:11.66Z 
 │                       │       ╰ LastModifiedDate: 2025-11-03T21:16:01.673Z 
-│                       ├ [147] ╭ VulnerabilityID : CVE-2024-34459 
+│                       ├ [153] ╭ VulnerabilityID : CVE-2024-34459 
 │                       │       ├ PkgID           : libxml2@2.9.13-14.el9_7.x86_64 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_7?arch=x86_64&d
@@ -8354,8 +8678,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34459 
 │                       │       ├ Fingerprint     : sha256:4e2ae92111bebc3298c4adae3bb348df5b5722b517f0deea8d35
 │                       │       │                   ea8d74a90302 
-│                       │       ├ Title           : libxml2: buffer over-read in xmlHTMLPrintFileContext in
-│                       │       │                   xmllint.c 
+│                       │       ├ Title           : An issue was discovered in xmllint (from libxml2) before
+│                       │       │                   2.11.8 and 2. ... 
 │                       │       ├ Description     : An issue was discovered in xmllint (from libxml2) before
 │                       │       │                   2.11.8 and 2.12.x before 2.12.7. Formatting error messages
 │                       │       │                   with xmllint --htmlout can result in a buffer over-read in
@@ -8368,42 +8692,38 @@
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-34459 
-│                       │       │                  ├ [1] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/720 
-│                       │       │                  ├ [2] : https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2
+│                       │       ├ References       ╭ [0] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/720 
+│                       │       │                  ├ [1] : https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2
 │                       │       │                  │       .11.8 
-│                       │       │                  ├ [3] : https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2
+│                       │       │                  ├ [2] : https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2
 │                       │       │                  │       .12.7 
-│                       │       │                  ├ [4] : https://lists.debian.org/debian-lts-announce/2025/07
+│                       │       │                  ├ [3] : https://lists.debian.org/debian-lts-announce/2025/07
 │                       │       │                  │       /msg00014.html 
-│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/packag
+│                       │       │                  ├ [4] : https://lists.fedoraproject.org/archives/list/packag
 │                       │       │                  │       e-announce%40lists.fedoraproject.org/message/5HVUXKY
 │                       │       │                  │       TBWT3G5DEEQX62STJQBY367NL/ 
-│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/packag
+│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/packag
 │                       │       │                  │       e-announce%40lists.fedoraproject.org/message/INKSSLW
 │                       │       │                  │       5VMZIXHRPZBAW4TJUX5SQKARG/ 
-│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/packag
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/packag
 │                       │       │                  │       e-announce%40lists.fedoraproject.org/message/VRDJCNQ
 │                       │       │                  │       P32LV56KESUQ5SNZKAJWSZZRI/ 
-│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/packag
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/packag
 │                       │       │                  │       e-announce@lists.fedoraproject.org/message/5HVUXKYTB
 │                       │       │                  │       WT3G5DEEQX62STJQBY367NL/ 
-│                       │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/packag
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/packag
 │                       │       │                  │       e-announce@lists.fedoraproject.org/message/INKSSLW5V
 │                       │       │                  │       MZIXHRPZBAW4TJUX5SQKARG/ 
-│                       │       │                  ├ [10]: https://lists.fedoraproject.org/archives/list/packag
+│                       │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/packag
 │                       │       │                  │       e-announce@lists.fedoraproject.org/message/VRDJCNQP3
 │                       │       │                  │       2LV56KESUQ5SNZKAJWSZZRI/ 
-│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-34459 
-│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7240-1 
-│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7302-1 
-│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-34459 
+│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-34459 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7240-1 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7302-1 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-34459 
 │                       │       ├ PublishedDate   : 2024-05-14T15:39:11.917Z 
 │                       │       ╰ LastModifiedDate: 2025-11-04T22:16:01.42Z 
-│                       ├ [148] ╭ VulnerabilityID : CVE-2025-27113 
+│                       ├ [154] ╭ VulnerabilityID : CVE-2025-27113 
 │                       │       ├ PkgID           : libxml2@2.9.13-14.el9_7.x86_64 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_7?arch=x86_64&d
@@ -8419,7 +8739,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-27113 
 │                       │       ├ Fingerprint     : sha256:81f1962f8b5ddeb5106031edbdafe49dfae70bb605f53cc5c256
 │                       │       │                   12e94ae25003 
-│                       │       ├ Title           : libxml2: NULL Pointer Dereference in libxml2 xmlPatMatch 
+│                       │       ├ Title           : libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a NULL
+│                       │       │                   pointer der ... 
 │                       │       ├ Description     : libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a NULL
 │                       │       │                   pointer dereference in xmlPatMatch in pattern.c. 
 │                       │       ├ Severity        : LOW 
@@ -8435,12 +8756,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :N/A:H 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │       │                  │         │           :N/A:H 
-│                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I
-│                       │       │                            │           :N/A:L 
-│                       │       │                            ╰ V3Score : 3.1 
+│                       │       │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :N/A:H 
+│                       │       │                            ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2025/Apr/10 
 │                       │       │                  ├ [1] : http://seclists.org/fulldisclosure/2025/Apr/11 
 │                       │       │                  ├ [2] : http://seclists.org/fulldisclosure/2025/Apr/12 
@@ -8449,20 +8767,19 @@
 │                       │       │                  ├ [5] : http://seclists.org/fulldisclosure/2025/Apr/5 
 │                       │       │                  ├ [6] : http://seclists.org/fulldisclosure/2025/Apr/8 
 │                       │       │                  ├ [7] : http://seclists.org/fulldisclosure/2025/Apr/9 
-│                       │       │                  ├ [8] : https://access.redhat.com/security/cve/CVE-2025-27113 
-│                       │       │                  ├ [9] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/861 
-│                       │       │                  ├ [10]: https://lists.debian.org/debian-lts-announce/2025/02
+│                       │       │                  ├ [8] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/861 
+│                       │       │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/02
 │                       │       │                  │       /msg00028.html 
-│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-27113 
-│                       │       │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250306-0
+│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-27113 
+│                       │       │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250306-0
 │                       │       │                  │       004/ 
-│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7302-1 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-27113 
-│                       │       │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2025/02/
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7302-1 
+│                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-27113 
+│                       │       │                  ╰ [14]: https://www.openwall.com/lists/oss-security/2025/02/
 │                       │       │                          18/2 
 │                       │       ├ PublishedDate   : 2025-02-18T23:15:10.96Z 
 │                       │       ╰ LastModifiedDate: 2025-11-03T22:18:43.34Z 
-│                       ├ [149] ╭ VulnerabilityID : CVE-2025-6170 
+│                       ├ [155] ╭ VulnerabilityID : CVE-2025-6170 
 │                       │       ├ PkgID           : libxml2@2.9.13-14.el9_7.x86_64 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_7?arch=x86_64&d
@@ -8478,8 +8795,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6170 
 │                       │       ├ Fingerprint     : sha256:947819561d32e11a9ee9e33180d7d9671e4fd7d52e0961d53872
 │                       │       │                   c00b60e73f6f 
-│                       │       ├ Title           : libxml2: Stack Buffer Overflow in xmllint Interactive Shell
-│                       │       │                    Command Handling 
+│                       │       ├ Title           : A flaw was found in the interactive shell of the xmllint
+│                       │       │                   command-line  ... 
 │                       │       ├ Description     : A flaw was found in the interactive shell of the xmllint
 │                       │       │                   command-line tool, used for parsing XML files. When a user
 │                       │       │                   inputs an overly long command, the program does not check
@@ -8494,12 +8811,8 @@
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                  │        │           N/A:L 
-│                       │       │                  │        ╰ V3Score : 2.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 2.5 
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L 
+│                       │       │                        ╰ V3Score : 2.5 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:7519 
 │                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6170 
 │                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372952 
@@ -8511,7 +8824,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-6170 
 │                       │       ├ PublishedDate   : 2025-06-16T16:15:20.43Z 
 │                       │       ╰ LastModifiedDate: 2026-04-19T20:16:22.797Z 
-│                       ├ [150] ╭ VulnerabilityID : CVE-2026-0989 
+│                       ├ [156] ╭ VulnerabilityID : CVE-2026-0989 
 │                       │       ├ PkgID           : libxml2@2.9.13-14.el9_7.x86_64 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_7?arch=x86_64&d
@@ -8555,7 +8868,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-0989 
 │                       │       ├ PublishedDate   : 2026-01-15T15:15:52.35Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T10:16:49.007Z 
-│                       ├ [151] ╭ VulnerabilityID : CVE-2026-0992 
+│                       ├ [157] ╭ VulnerabilityID : CVE-2026-0992 
 │                       │       ├ PkgID           : libxml2@2.9.13-14.el9_7.x86_64 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_7?arch=x86_64&d
@@ -8600,7 +8913,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-0992 
 │                       │       ├ PublishedDate   : 2026-01-15T15:15:52.657Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T10:16:50.273Z 
-│                       ├ [152] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [158] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │       ├ PkgID           : ncurses-base@6.2-12.20210508.el9.noarch 
 │                       │       ├ PkgName         : ncurses-base 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-base@6.2-12.20210508.el9?arch
@@ -8649,7 +8962,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │       ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │       ╰ LastModifiedDate: 2025-11-04T19:16:14.45Z 
-│                       ├ [153] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [159] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │       ├ PkgID           : ncurses-libs@6.2-12.20210508.el9.x86_64 
 │                       │       ├ PkgName         : ncurses-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-libs@6.2-12.20210508.el9?arch
@@ -8698,7 +9011,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │       ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │       ╰ LastModifiedDate: 2025-11-04T19:16:14.45Z 
-│                       ├ [154] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [160] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │       ├ PkgID           : nspr@4.36.0-8.el9_4.x86_64 
 │                       │       ├ PkgName         : nspr 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nspr@4.36.0-8.el9_4?arch=x86_64&distr
@@ -8739,7 +9052,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │       ╰ LastModifiedDate: 2025-03-19T16:15:14.643Z 
-│                       ├ [155] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [161] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │       ├ PkgID           : nspr@4.36.0-8.el9_4.x86_64 
 │                       │       ├ PkgName         : nspr 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nspr@4.36.0-8.el9_4?arch=x86_64&distr
@@ -8755,8 +9068,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
 │                       │       ├ Fingerprint     : sha256:e5f04759fed2a96498139e883668692163012215a44bea140a7f
 │                       │       │                   27dd94e9c024 
-│                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
-│                       │       │                   plaintext on Intel Sandy Bridge machines 
+│                       │       ├ Title           : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
+│                       │       │                   same buffer ... 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
 │                       │       │                   same buffer for input and output can result in plaintext on
 │                       │       │                    an Intel Sandy Bridge processor. In Firefox this only
@@ -8773,30 +9086,24 @@
 │                       │       ├ VendorSeverity   ╭ nvd   : 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
-│                       │       │                  │        │           N/A:N 
-│                       │       │                  │        ╰ V3Score : 6.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 3.1 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-7531 
-│                       │       │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-7531 
-│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-6966-1 
-│                       │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
-│                       │       │                  ├ [5]: https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N 
+│                       │       │                        ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
+│                       │       │                  ├ [1]: https://ubuntu.com/security/notices/USN-6966-1 
+│                       │       │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
+│                       │       │                  ├ [3]: https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │       │                  │      a2024-33/#CVE-2024-7531 
-│                       │       │                  ├ [6]: https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │       │                  ├ [4]: https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │       │                  │      a2024-34/#CVE-2024-7531 
-│                       │       │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ├ [5]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                  │      33/ 
-│                       │       │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ├ [6]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                  │      34/ 
-│                       │       │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ╰ [7]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                         35/ 
 │                       │       ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │       ╰ LastModifiedDate: 2025-03-19T16:15:29.57Z 
-│                       ├ [156] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [162] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │       ├ PkgID           : nss@3.112.0-8.el9_4.x86_64 
 │                       │       ├ PkgName         : nss 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss@3.112.0-8.el9_4?arch=x86_64&distr
@@ -8837,7 +9144,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │       ╰ LastModifiedDate: 2025-03-19T16:15:14.643Z 
-│                       ├ [157] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [163] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │       ├ PkgID           : nss@3.112.0-8.el9_4.x86_64 
 │                       │       ├ PkgName         : nss 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss@3.112.0-8.el9_4?arch=x86_64&distr
@@ -8853,8 +9160,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
 │                       │       ├ Fingerprint     : sha256:bf0e1a7a5786878b96b6c4d0dea137ac28d910560ea9093de1f7
 │                       │       │                   54469215eb21 
-│                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
-│                       │       │                   plaintext on Intel Sandy Bridge machines 
+│                       │       ├ Title           : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
+│                       │       │                   same buffer ... 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
 │                       │       │                   same buffer for input and output can result in plaintext on
 │                       │       │                    an Intel Sandy Bridge processor. In Firefox this only
@@ -8871,30 +9178,24 @@
 │                       │       ├ VendorSeverity   ╭ nvd   : 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
-│                       │       │                  │        │           N/A:N 
-│                       │       │                  │        ╰ V3Score : 6.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 3.1 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-7531 
-│                       │       │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-7531 
-│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-6966-1 
-│                       │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
-│                       │       │                  ├ [5]: https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N 
+│                       │       │                        ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
+│                       │       │                  ├ [1]: https://ubuntu.com/security/notices/USN-6966-1 
+│                       │       │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
+│                       │       │                  ├ [3]: https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │       │                  │      a2024-33/#CVE-2024-7531 
-│                       │       │                  ├ [6]: https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │       │                  ├ [4]: https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │       │                  │      a2024-34/#CVE-2024-7531 
-│                       │       │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ├ [5]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                  │      33/ 
-│                       │       │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ├ [6]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                  │      34/ 
-│                       │       │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ╰ [7]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                         35/ 
 │                       │       ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │       ╰ LastModifiedDate: 2025-03-19T16:15:29.57Z 
-│                       ├ [158] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [164] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │       ├ PkgID           : nss-softokn@3.112.0-8.el9_4.x86_64 
 │                       │       ├ PkgName         : nss-softokn 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn@3.112.0-8.el9_4?arch=x86_
@@ -8935,7 +9236,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │       ╰ LastModifiedDate: 2025-03-19T16:15:14.643Z 
-│                       ├ [159] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [165] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │       ├ PkgID           : nss-softokn@3.112.0-8.el9_4.x86_64 
 │                       │       ├ PkgName         : nss-softokn 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn@3.112.0-8.el9_4?arch=x86_
@@ -8951,8 +9252,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
 │                       │       ├ Fingerprint     : sha256:2c78cd12d82ef64549b8cb91847a3f75174663e1a56f8467a0ac
 │                       │       │                   08d02115129d 
-│                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
-│                       │       │                   plaintext on Intel Sandy Bridge machines 
+│                       │       ├ Title           : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
+│                       │       │                   same buffer ... 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
 │                       │       │                   same buffer for input and output can result in plaintext on
 │                       │       │                    an Intel Sandy Bridge processor. In Firefox this only
@@ -8969,30 +9270,24 @@
 │                       │       ├ VendorSeverity   ╭ nvd   : 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
-│                       │       │                  │        │           N/A:N 
-│                       │       │                  │        ╰ V3Score : 6.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 3.1 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-7531 
-│                       │       │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-7531 
-│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-6966-1 
-│                       │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
-│                       │       │                  ├ [5]: https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N 
+│                       │       │                        ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
+│                       │       │                  ├ [1]: https://ubuntu.com/security/notices/USN-6966-1 
+│                       │       │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
+│                       │       │                  ├ [3]: https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │       │                  │      a2024-33/#CVE-2024-7531 
-│                       │       │                  ├ [6]: https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │       │                  ├ [4]: https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │       │                  │      a2024-34/#CVE-2024-7531 
-│                       │       │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ├ [5]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                  │      33/ 
-│                       │       │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ├ [6]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                  │      34/ 
-│                       │       │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ╰ [7]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                         35/ 
 │                       │       ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │       ╰ LastModifiedDate: 2025-03-19T16:15:29.57Z 
-│                       ├ [160] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [166] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │       ├ PkgID           : nss-softokn-freebl@3.112.0-8.el9_4.x86_64 
 │                       │       ├ PkgName         : nss-softokn-freebl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn-freebl@3.112.0-8.el9_4?ar
@@ -9033,7 +9328,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │       ╰ LastModifiedDate: 2025-03-19T16:15:14.643Z 
-│                       ├ [161] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [167] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │       ├ PkgID           : nss-softokn-freebl@3.112.0-8.el9_4.x86_64 
 │                       │       ├ PkgName         : nss-softokn-freebl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn-freebl@3.112.0-8.el9_4?ar
@@ -9049,8 +9344,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
 │                       │       ├ Fingerprint     : sha256:4d7d2008119d06c8a35482ddcf96103670723b2b005d6d2e90ed
 │                       │       │                   395342b8b79e 
-│                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
-│                       │       │                   plaintext on Intel Sandy Bridge machines 
+│                       │       ├ Title           : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
+│                       │       │                   same buffer ... 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
 │                       │       │                   same buffer for input and output can result in plaintext on
 │                       │       │                    an Intel Sandy Bridge processor. In Firefox this only
@@ -9067,30 +9362,24 @@
 │                       │       ├ VendorSeverity   ╭ nvd   : 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
-│                       │       │                  │        │           N/A:N 
-│                       │       │                  │        ╰ V3Score : 6.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 3.1 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-7531 
-│                       │       │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-7531 
-│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-6966-1 
-│                       │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
-│                       │       │                  ├ [5]: https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N 
+│                       │       │                        ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
+│                       │       │                  ├ [1]: https://ubuntu.com/security/notices/USN-6966-1 
+│                       │       │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
+│                       │       │                  ├ [3]: https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │       │                  │      a2024-33/#CVE-2024-7531 
-│                       │       │                  ├ [6]: https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │       │                  ├ [4]: https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │       │                  │      a2024-34/#CVE-2024-7531 
-│                       │       │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ├ [5]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                  │      33/ 
-│                       │       │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ├ [6]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                  │      34/ 
-│                       │       │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ╰ [7]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                         35/ 
 │                       │       ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │       ╰ LastModifiedDate: 2025-03-19T16:15:29.57Z 
-│                       ├ [162] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [168] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │       ├ PkgID           : nss-sysinit@3.112.0-8.el9_4.x86_64 
 │                       │       ├ PkgName         : nss-sysinit 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-sysinit@3.112.0-8.el9_4?arch=x86_
@@ -9131,7 +9420,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │       ╰ LastModifiedDate: 2025-03-19T16:15:14.643Z 
-│                       ├ [163] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [169] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │       ├ PkgID           : nss-sysinit@3.112.0-8.el9_4.x86_64 
 │                       │       ├ PkgName         : nss-sysinit 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-sysinit@3.112.0-8.el9_4?arch=x86_
@@ -9147,8 +9436,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
 │                       │       ├ Fingerprint     : sha256:362d629deee9627e2d7dbc15c9f41471de80aac8fc545ed84d1b
 │                       │       │                   98e2dc7bc2af 
-│                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
-│                       │       │                   plaintext on Intel Sandy Bridge machines 
+│                       │       ├ Title           : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
+│                       │       │                   same buffer ... 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
 │                       │       │                   same buffer for input and output can result in plaintext on
 │                       │       │                    an Intel Sandy Bridge processor. In Firefox this only
@@ -9165,30 +9454,24 @@
 │                       │       ├ VendorSeverity   ╭ nvd   : 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
-│                       │       │                  │        │           N/A:N 
-│                       │       │                  │        ╰ V3Score : 6.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 3.1 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-7531 
-│                       │       │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-7531 
-│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-6966-1 
-│                       │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
-│                       │       │                  ├ [5]: https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N 
+│                       │       │                        ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
+│                       │       │                  ├ [1]: https://ubuntu.com/security/notices/USN-6966-1 
+│                       │       │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
+│                       │       │                  ├ [3]: https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │       │                  │      a2024-33/#CVE-2024-7531 
-│                       │       │                  ├ [6]: https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │       │                  ├ [4]: https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │       │                  │      a2024-34/#CVE-2024-7531 
-│                       │       │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ├ [5]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                  │      33/ 
-│                       │       │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ├ [6]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                  │      34/ 
-│                       │       │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ╰ [7]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                         35/ 
 │                       │       ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │       ╰ LastModifiedDate: 2025-03-19T16:15:29.57Z 
-│                       ├ [164] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [170] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │       ├ PkgID           : nss-util@3.112.0-8.el9_4.x86_64 
 │                       │       ├ PkgName         : nss-util 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-util@3.112.0-8.el9_4?arch=x86_64&
@@ -9229,7 +9512,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │       ╰ LastModifiedDate: 2025-03-19T16:15:14.643Z 
-│                       ├ [165] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [171] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │       ├ PkgID           : nss-util@3.112.0-8.el9_4.x86_64 
 │                       │       ├ PkgName         : nss-util 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-util@3.112.0-8.el9_4?arch=x86_64&
@@ -9245,8 +9528,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
 │                       │       ├ Fingerprint     : sha256:afffc23931835b0314aea9f5aaef6dadc8d6927e7b2c7c13fb7d
 │                       │       │                   4e0c57996964 
-│                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
-│                       │       │                   plaintext on Intel Sandy Bridge machines 
+│                       │       ├ Title           : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
+│                       │       │                   same buffer ... 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
 │                       │       │                   same buffer for input and output can result in plaintext on
 │                       │       │                    an Intel Sandy Bridge processor. In Firefox this only
@@ -9263,30 +9546,24 @@
 │                       │       ├ VendorSeverity   ╭ nvd   : 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
-│                       │       │                  │        │           N/A:N 
-│                       │       │                  │        ╰ V3Score : 6.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 3.1 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-7531 
-│                       │       │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-7531 
-│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-6966-1 
-│                       │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
-│                       │       │                  ├ [5]: https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N 
+│                       │       │                        ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://bugzilla.mozilla.org/show_bug.cgi?id=1905691 
+│                       │       │                  ├ [1]: https://ubuntu.com/security/notices/USN-6966-1 
+│                       │       │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-7531 
+│                       │       │                  ├ [3]: https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │       │                  │      a2024-33/#CVE-2024-7531 
-│                       │       │                  ├ [6]: https://www.mozilla.org/en-US/security/advisories/mfs
+│                       │       │                  ├ [4]: https://www.mozilla.org/en-US/security/advisories/mfs
 │                       │       │                  │      a2024-34/#CVE-2024-7531 
-│                       │       │                  ├ [7]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ├ [5]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                  │      33/ 
-│                       │       │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ├ [6]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                  │      34/ 
-│                       │       │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-
+│                       │       │                  ╰ [7]: https://www.mozilla.org/security/advisories/mfsa2024-
 │                       │       │                         35/ 
 │                       │       ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │       ╰ LastModifiedDate: 2025-03-19T16:15:29.57Z 
-│                       ├ [166] ╭ VulnerabilityID : CVE-2026-22185 
+│                       ├ [172] ╭ VulnerabilityID : CVE-2026-22185 
 │                       │       ├ PkgID           : openldap@2.6.8-4.el9.x86_64 
 │                       │       ├ PkgName         : openldap 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openldap@2.6.8-4.el9?arch=x86_64&dist
@@ -9332,7 +9609,7 @@
 │                       │       │                         b-load-heap-buffer-underflow-in-readline 
 │                       │       ├ PublishedDate   : 2026-01-07T21:16:01.733Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [167] ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [173] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │       ├ PkgID           : openssl@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.5-2.el9_8?arch=x86_64&dis
@@ -9453,7 +9730,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │       ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │       ╰ LastModifiedDate: 2026-05-18T20:16:37.763Z 
-│                       ├ [168] ╭ VulnerabilityID : CVE-2026-28390 
+│                       ├ [174] ╭ VulnerabilityID : CVE-2026-28390 
 │                       │       ├ PkgID           : openssl@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.5-2.el9_8?arch=x86_64&dis
@@ -9540,7 +9817,7 @@
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.81Z 
-│                       ├ [169] ╭ VulnerabilityID : CVE-2024-13176 
+│                       ├ [175] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │       ├ PkgID           : openssl@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.5-2.el9_8?arch=x86_64&dis
@@ -9556,7 +9833,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-13176 
 │                       │       ├ Fingerprint     : sha256:ed7e65a4f761d5cbb7e48508ebcdc37e78d9061a20f33cb47f29
 │                       │       │                   975deee7a9df 
-│                       │       ├ Title           : openssl: Timing side-channel in ECDSA signature computation 
+│                       │       ├ Title           : Issue summary: A timing side-channel which could
+│                       │       │                   potentially allow rec ... 
 │                       │       ├ Description     : Issue summary: A timing side-channel which could
 │                       │       │                   potentially allow recovering
 │                       │       │                   the private key exists in the ECDSA signature computation.
@@ -9594,273 +9872,267 @@
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:L/I:
-│                       │       │                  │        │           L/A:L 
-│                       │       │                  │        ╰ V3Score : 4.1 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 4.7 
+│                       │       ├ CVSS             ─ julia ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:L/I:L
+│                       │       │                          │           /A:L 
+│                       │       │                          ╰ V3Score : 4.1 
 │                       │       ├ References       ╭ [0]  : http://www.openwall.com/lists/oss-security/2025/01/
 │                       │       │                  │        20/2 
-│                       │       │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2025:15699 
-│                       │       │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-2024-13176 
-│                       │       │                  ├ [3]  : https://bugzilla.redhat.com/2359885 
-│                       │       │                  ├ [4]  : https://bugzilla.redhat.com/2359888 
-│                       │       │                  ├ [5]  : https://bugzilla.redhat.com/2359892 
-│                       │       │                  ├ [6]  : https://bugzilla.redhat.com/2359894 
-│                       │       │                  ├ [7]  : https://bugzilla.redhat.com/2359895 
-│                       │       │                  ├ [8]  : https://bugzilla.redhat.com/2359899 
-│                       │       │                  ├ [9]  : https://bugzilla.redhat.com/2359900 
-│                       │       │                  ├ [10] : https://bugzilla.redhat.com/2359902 
-│                       │       │                  ├ [11] : https://bugzilla.redhat.com/2359903 
-│                       │       │                  ├ [12] : https://bugzilla.redhat.com/2359911 
-│                       │       │                  ├ [13] : https://bugzilla.redhat.com/2359918 
-│                       │       │                  ├ [14] : https://bugzilla.redhat.com/2359920 
-│                       │       │                  ├ [15] : https://bugzilla.redhat.com/2359924 
-│                       │       │                  ├ [16] : https://bugzilla.redhat.com/2359928 
-│                       │       │                  ├ [17] : https://bugzilla.redhat.com/2359930 
-│                       │       │                  ├ [18] : https://bugzilla.redhat.com/2359932 
-│                       │       │                  ├ [19] : https://bugzilla.redhat.com/2359934 
-│                       │       │                  ├ [20] : https://bugzilla.redhat.com/2359938 
-│                       │       │                  ├ [21] : https://bugzilla.redhat.com/2359940 
-│                       │       │                  ├ [22] : https://bugzilla.redhat.com/2359943 
-│                       │       │                  ├ [23] : https://bugzilla.redhat.com/2359944 
-│                       │       │                  ├ [24] : https://bugzilla.redhat.com/2359945 
-│                       │       │                  ├ [25] : https://bugzilla.redhat.com/2359947 
-│                       │       │                  ├ [26] : https://bugzilla.redhat.com/2359950 
-│                       │       │                  ├ [27] : https://bugzilla.redhat.com/2359963 
-│                       │       │                  ├ [28] : https://bugzilla.redhat.com/2359964 
-│                       │       │                  ├ [29] : https://bugzilla.redhat.com/2359972 
-│                       │       │                  ├ [30] : https://bugzilla.redhat.com/2370920 
-│                       │       │                  ├ [31] : https://bugzilla.redhat.com/2380264 
-│                       │       │                  ├ [32] : https://bugzilla.redhat.com/2380273 
-│                       │       │                  ├ [33] : https://bugzilla.redhat.com/2380274 
-│                       │       │                  ├ [34] : https://bugzilla.redhat.com/2380278 
-│                       │       │                  ├ [35] : https://bugzilla.redhat.com/2380280 
-│                       │       │                  ├ [36] : https://bugzilla.redhat.com/2380283 
-│                       │       │                  ├ [37] : https://bugzilla.redhat.com/2380284 
-│                       │       │                  ├ [38] : https://bugzilla.redhat.com/2380290 
-│                       │       │                  ├ [39] : https://bugzilla.redhat.com/2380291 
-│                       │       │                  ├ [40] : https://bugzilla.redhat.com/2380295 
-│                       │       │                  ├ [41] : https://bugzilla.redhat.com/2380298 
-│                       │       │                  ├ [42] : https://bugzilla.redhat.com/2380306 
-│                       │       │                  ├ [43] : https://bugzilla.redhat.com/2380308 
-│                       │       │                  ├ [44] : https://bugzilla.redhat.com/2380309 
-│                       │       │                  ├ [45] : https://bugzilla.redhat.com/2380310 
-│                       │       │                  ├ [46] : https://bugzilla.redhat.com/2380312 
-│                       │       │                  ├ [47] : https://bugzilla.redhat.com/2380313 
-│                       │       │                  ├ [48] : https://bugzilla.redhat.com/2380320 
-│                       │       │                  ├ [49] : https://bugzilla.redhat.com/2380321 
-│                       │       │                  ├ [50] : https://bugzilla.redhat.com/2380322 
-│                       │       │                  ├ [51] : https://bugzilla.redhat.com/2380326 
-│                       │       │                  ├ [52] : https://bugzilla.redhat.com/2380327 
-│                       │       │                  ├ [53] : https://bugzilla.redhat.com/2380334 
-│                       │       │                  ├ [54] : https://bugzilla.redhat.com/2380335 
-│                       │       │                  ├ [55] : https://bugzilla.redhat.com/show_bug.cgi?id=2338999 
-│                       │       │                  ├ [56] : https://bugzilla.redhat.com/show_bug.cgi?id=2359885 
-│                       │       │                  ├ [57] : https://bugzilla.redhat.com/show_bug.cgi?id=2359888 
-│                       │       │                  ├ [58] : https://bugzilla.redhat.com/show_bug.cgi?id=2359892 
-│                       │       │                  ├ [59] : https://bugzilla.redhat.com/show_bug.cgi?id=2359894 
-│                       │       │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=2359895 
-│                       │       │                  ├ [61] : https://bugzilla.redhat.com/show_bug.cgi?id=2359899 
-│                       │       │                  ├ [62] : https://bugzilla.redhat.com/show_bug.cgi?id=2359900 
-│                       │       │                  ├ [63] : https://bugzilla.redhat.com/show_bug.cgi?id=2359902 
-│                       │       │                  ├ [64] : https://bugzilla.redhat.com/show_bug.cgi?id=2359903 
-│                       │       │                  ├ [65] : https://bugzilla.redhat.com/show_bug.cgi?id=2359911 
-│                       │       │                  ├ [66] : https://bugzilla.redhat.com/show_bug.cgi?id=2359918 
-│                       │       │                  ├ [67] : https://bugzilla.redhat.com/show_bug.cgi?id=2359920 
-│                       │       │                  ├ [68] : https://bugzilla.redhat.com/show_bug.cgi?id=2359924 
-│                       │       │                  ├ [69] : https://bugzilla.redhat.com/show_bug.cgi?id=2359928 
-│                       │       │                  ├ [70] : https://bugzilla.redhat.com/show_bug.cgi?id=2359930 
-│                       │       │                  ├ [71] : https://bugzilla.redhat.com/show_bug.cgi?id=2359932 
-│                       │       │                  ├ [72] : https://bugzilla.redhat.com/show_bug.cgi?id=2359934 
-│                       │       │                  ├ [73] : https://bugzilla.redhat.com/show_bug.cgi?id=2359938 
-│                       │       │                  ├ [74] : https://bugzilla.redhat.com/show_bug.cgi?id=2359940 
-│                       │       │                  ├ [75] : https://bugzilla.redhat.com/show_bug.cgi?id=2359943 
-│                       │       │                  ├ [76] : https://bugzilla.redhat.com/show_bug.cgi?id=2359944 
-│                       │       │                  ├ [77] : https://bugzilla.redhat.com/show_bug.cgi?id=2359945 
-│                       │       │                  ├ [78] : https://bugzilla.redhat.com/show_bug.cgi?id=2359947 
-│                       │       │                  ├ [79] : https://bugzilla.redhat.com/show_bug.cgi?id=2359950 
-│                       │       │                  ├ [80] : https://bugzilla.redhat.com/show_bug.cgi?id=2359963 
-│                       │       │                  ├ [81] : https://bugzilla.redhat.com/show_bug.cgi?id=2359964 
-│                       │       │                  ├ [82] : https://bugzilla.redhat.com/show_bug.cgi?id=2359972 
-│                       │       │                  ├ [83] : https://bugzilla.redhat.com/show_bug.cgi?id=2370920 
-│                       │       │                  ├ [84] : https://bugzilla.redhat.com/show_bug.cgi?id=2380264 
-│                       │       │                  ├ [85] : https://bugzilla.redhat.com/show_bug.cgi?id=2380273 
-│                       │       │                  ├ [86] : https://bugzilla.redhat.com/show_bug.cgi?id=2380274 
-│                       │       │                  ├ [87] : https://bugzilla.redhat.com/show_bug.cgi?id=2380278 
-│                       │       │                  ├ [88] : https://bugzilla.redhat.com/show_bug.cgi?id=2380280 
-│                       │       │                  ├ [89] : https://bugzilla.redhat.com/show_bug.cgi?id=2380283 
-│                       │       │                  ├ [90] : https://bugzilla.redhat.com/show_bug.cgi?id=2380284 
-│                       │       │                  ├ [91] : https://bugzilla.redhat.com/show_bug.cgi?id=2380290 
-│                       │       │                  ├ [92] : https://bugzilla.redhat.com/show_bug.cgi?id=2380291 
-│                       │       │                  ├ [93] : https://bugzilla.redhat.com/show_bug.cgi?id=2380295 
-│                       │       │                  ├ [94] : https://bugzilla.redhat.com/show_bug.cgi?id=2380298 
-│                       │       │                  ├ [95] : https://bugzilla.redhat.com/show_bug.cgi?id=2380306 
-│                       │       │                  ├ [96] : https://bugzilla.redhat.com/show_bug.cgi?id=2380308 
-│                       │       │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2380309 
-│                       │       │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2380310 
-│                       │       │                  ├ [99] : https://bugzilla.redhat.com/show_bug.cgi?id=2380312 
-│                       │       │                  ├ [100]: https://bugzilla.redhat.com/show_bug.cgi?id=2380313 
-│                       │       │                  ├ [101]: https://bugzilla.redhat.com/show_bug.cgi?id=2380320 
-│                       │       │                  ├ [102]: https://bugzilla.redhat.com/show_bug.cgi?id=2380321 
-│                       │       │                  ├ [103]: https://bugzilla.redhat.com/show_bug.cgi?id=2380322 
-│                       │       │                  ├ [104]: https://bugzilla.redhat.com/show_bug.cgi?id=2380326 
-│                       │       │                  ├ [105]: https://bugzilla.redhat.com/show_bug.cgi?id=2380327 
-│                       │       │                  ├ [106]: https://bugzilla.redhat.com/show_bug.cgi?id=2380334 
-│                       │       │                  ├ [107]: https://bugzilla.redhat.com/show_bug.cgi?id=2380335 
-│                       │       │                  ├ [108]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2025:16046 
+│                       │       │                  ├ [2]  : https://bugzilla.redhat.com/2359885 
+│                       │       │                  ├ [3]  : https://bugzilla.redhat.com/2359888 
+│                       │       │                  ├ [4]  : https://bugzilla.redhat.com/2359892 
+│                       │       │                  ├ [5]  : https://bugzilla.redhat.com/2359894 
+│                       │       │                  ├ [6]  : https://bugzilla.redhat.com/2359895 
+│                       │       │                  ├ [7]  : https://bugzilla.redhat.com/2359899 
+│                       │       │                  ├ [8]  : https://bugzilla.redhat.com/2359900 
+│                       │       │                  ├ [9]  : https://bugzilla.redhat.com/2359902 
+│                       │       │                  ├ [10] : https://bugzilla.redhat.com/2359903 
+│                       │       │                  ├ [11] : https://bugzilla.redhat.com/2359911 
+│                       │       │                  ├ [12] : https://bugzilla.redhat.com/2359918 
+│                       │       │                  ├ [13] : https://bugzilla.redhat.com/2359920 
+│                       │       │                  ├ [14] : https://bugzilla.redhat.com/2359924 
+│                       │       │                  ├ [15] : https://bugzilla.redhat.com/2359928 
+│                       │       │                  ├ [16] : https://bugzilla.redhat.com/2359930 
+│                       │       │                  ├ [17] : https://bugzilla.redhat.com/2359932 
+│                       │       │                  ├ [18] : https://bugzilla.redhat.com/2359934 
+│                       │       │                  ├ [19] : https://bugzilla.redhat.com/2359938 
+│                       │       │                  ├ [20] : https://bugzilla.redhat.com/2359940 
+│                       │       │                  ├ [21] : https://bugzilla.redhat.com/2359943 
+│                       │       │                  ├ [22] : https://bugzilla.redhat.com/2359944 
+│                       │       │                  ├ [23] : https://bugzilla.redhat.com/2359945 
+│                       │       │                  ├ [24] : https://bugzilla.redhat.com/2359947 
+│                       │       │                  ├ [25] : https://bugzilla.redhat.com/2359950 
+│                       │       │                  ├ [26] : https://bugzilla.redhat.com/2359963 
+│                       │       │                  ├ [27] : https://bugzilla.redhat.com/2359964 
+│                       │       │                  ├ [28] : https://bugzilla.redhat.com/2359972 
+│                       │       │                  ├ [29] : https://bugzilla.redhat.com/2370920 
+│                       │       │                  ├ [30] : https://bugzilla.redhat.com/2380264 
+│                       │       │                  ├ [31] : https://bugzilla.redhat.com/2380273 
+│                       │       │                  ├ [32] : https://bugzilla.redhat.com/2380274 
+│                       │       │                  ├ [33] : https://bugzilla.redhat.com/2380278 
+│                       │       │                  ├ [34] : https://bugzilla.redhat.com/2380280 
+│                       │       │                  ├ [35] : https://bugzilla.redhat.com/2380283 
+│                       │       │                  ├ [36] : https://bugzilla.redhat.com/2380284 
+│                       │       │                  ├ [37] : https://bugzilla.redhat.com/2380290 
+│                       │       │                  ├ [38] : https://bugzilla.redhat.com/2380291 
+│                       │       │                  ├ [39] : https://bugzilla.redhat.com/2380295 
+│                       │       │                  ├ [40] : https://bugzilla.redhat.com/2380298 
+│                       │       │                  ├ [41] : https://bugzilla.redhat.com/2380306 
+│                       │       │                  ├ [42] : https://bugzilla.redhat.com/2380308 
+│                       │       │                  ├ [43] : https://bugzilla.redhat.com/2380309 
+│                       │       │                  ├ [44] : https://bugzilla.redhat.com/2380310 
+│                       │       │                  ├ [45] : https://bugzilla.redhat.com/2380312 
+│                       │       │                  ├ [46] : https://bugzilla.redhat.com/2380313 
+│                       │       │                  ├ [47] : https://bugzilla.redhat.com/2380320 
+│                       │       │                  ├ [48] : https://bugzilla.redhat.com/2380321 
+│                       │       │                  ├ [49] : https://bugzilla.redhat.com/2380322 
+│                       │       │                  ├ [50] : https://bugzilla.redhat.com/2380326 
+│                       │       │                  ├ [51] : https://bugzilla.redhat.com/2380327 
+│                       │       │                  ├ [52] : https://bugzilla.redhat.com/2380334 
+│                       │       │                  ├ [53] : https://bugzilla.redhat.com/2380335 
+│                       │       │                  ├ [54] : https://bugzilla.redhat.com/show_bug.cgi?id=2338999 
+│                       │       │                  ├ [55] : https://bugzilla.redhat.com/show_bug.cgi?id=2359885 
+│                       │       │                  ├ [56] : https://bugzilla.redhat.com/show_bug.cgi?id=2359888 
+│                       │       │                  ├ [57] : https://bugzilla.redhat.com/show_bug.cgi?id=2359892 
+│                       │       │                  ├ [58] : https://bugzilla.redhat.com/show_bug.cgi?id=2359894 
+│                       │       │                  ├ [59] : https://bugzilla.redhat.com/show_bug.cgi?id=2359895 
+│                       │       │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=2359899 
+│                       │       │                  ├ [61] : https://bugzilla.redhat.com/show_bug.cgi?id=2359900 
+│                       │       │                  ├ [62] : https://bugzilla.redhat.com/show_bug.cgi?id=2359902 
+│                       │       │                  ├ [63] : https://bugzilla.redhat.com/show_bug.cgi?id=2359903 
+│                       │       │                  ├ [64] : https://bugzilla.redhat.com/show_bug.cgi?id=2359911 
+│                       │       │                  ├ [65] : https://bugzilla.redhat.com/show_bug.cgi?id=2359918 
+│                       │       │                  ├ [66] : https://bugzilla.redhat.com/show_bug.cgi?id=2359920 
+│                       │       │                  ├ [67] : https://bugzilla.redhat.com/show_bug.cgi?id=2359924 
+│                       │       │                  ├ [68] : https://bugzilla.redhat.com/show_bug.cgi?id=2359928 
+│                       │       │                  ├ [69] : https://bugzilla.redhat.com/show_bug.cgi?id=2359930 
+│                       │       │                  ├ [70] : https://bugzilla.redhat.com/show_bug.cgi?id=2359932 
+│                       │       │                  ├ [71] : https://bugzilla.redhat.com/show_bug.cgi?id=2359934 
+│                       │       │                  ├ [72] : https://bugzilla.redhat.com/show_bug.cgi?id=2359938 
+│                       │       │                  ├ [73] : https://bugzilla.redhat.com/show_bug.cgi?id=2359940 
+│                       │       │                  ├ [74] : https://bugzilla.redhat.com/show_bug.cgi?id=2359943 
+│                       │       │                  ├ [75] : https://bugzilla.redhat.com/show_bug.cgi?id=2359944 
+│                       │       │                  ├ [76] : https://bugzilla.redhat.com/show_bug.cgi?id=2359945 
+│                       │       │                  ├ [77] : https://bugzilla.redhat.com/show_bug.cgi?id=2359947 
+│                       │       │                  ├ [78] : https://bugzilla.redhat.com/show_bug.cgi?id=2359950 
+│                       │       │                  ├ [79] : https://bugzilla.redhat.com/show_bug.cgi?id=2359963 
+│                       │       │                  ├ [80] : https://bugzilla.redhat.com/show_bug.cgi?id=2359964 
+│                       │       │                  ├ [81] : https://bugzilla.redhat.com/show_bug.cgi?id=2359972 
+│                       │       │                  ├ [82] : https://bugzilla.redhat.com/show_bug.cgi?id=2370920 
+│                       │       │                  ├ [83] : https://bugzilla.redhat.com/show_bug.cgi?id=2380264 
+│                       │       │                  ├ [84] : https://bugzilla.redhat.com/show_bug.cgi?id=2380273 
+│                       │       │                  ├ [85] : https://bugzilla.redhat.com/show_bug.cgi?id=2380274 
+│                       │       │                  ├ [86] : https://bugzilla.redhat.com/show_bug.cgi?id=2380278 
+│                       │       │                  ├ [87] : https://bugzilla.redhat.com/show_bug.cgi?id=2380280 
+│                       │       │                  ├ [88] : https://bugzilla.redhat.com/show_bug.cgi?id=2380283 
+│                       │       │                  ├ [89] : https://bugzilla.redhat.com/show_bug.cgi?id=2380284 
+│                       │       │                  ├ [90] : https://bugzilla.redhat.com/show_bug.cgi?id=2380290 
+│                       │       │                  ├ [91] : https://bugzilla.redhat.com/show_bug.cgi?id=2380291 
+│                       │       │                  ├ [92] : https://bugzilla.redhat.com/show_bug.cgi?id=2380295 
+│                       │       │                  ├ [93] : https://bugzilla.redhat.com/show_bug.cgi?id=2380298 
+│                       │       │                  ├ [94] : https://bugzilla.redhat.com/show_bug.cgi?id=2380306 
+│                       │       │                  ├ [95] : https://bugzilla.redhat.com/show_bug.cgi?id=2380308 
+│                       │       │                  ├ [96] : https://bugzilla.redhat.com/show_bug.cgi?id=2380309 
+│                       │       │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2380310 
+│                       │       │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2380312 
+│                       │       │                  ├ [99] : https://bugzilla.redhat.com/show_bug.cgi?id=2380313 
+│                       │       │                  ├ [100]: https://bugzilla.redhat.com/show_bug.cgi?id=2380320 
+│                       │       │                  ├ [101]: https://bugzilla.redhat.com/show_bug.cgi?id=2380321 
+│                       │       │                  ├ [102]: https://bugzilla.redhat.com/show_bug.cgi?id=2380322 
+│                       │       │                  ├ [103]: https://bugzilla.redhat.com/show_bug.cgi?id=2380326 
+│                       │       │                  ├ [104]: https://bugzilla.redhat.com/show_bug.cgi?id=2380327 
+│                       │       │                  ├ [105]: https://bugzilla.redhat.com/show_bug.cgi?id=2380334 
+│                       │       │                  ├ [106]: https://bugzilla.redhat.com/show_bug.cgi?id=2380335 
+│                       │       │                  ├ [107]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-13176 
-│                       │       │                  ├ [109]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [108]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21574 
-│                       │       │                  ├ [110]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [109]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21575 
-│                       │       │                  ├ [111]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [110]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21577 
-│                       │       │                  ├ [112]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [111]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21579 
-│                       │       │                  ├ [113]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [112]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21580 
-│                       │       │                  ├ [114]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [113]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21581 
-│                       │       │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [114]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21584 
-│                       │       │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21585 
-│                       │       │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21588 
-│                       │       │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30681 
-│                       │       │                  ├ [119]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30682 
-│                       │       │                  ├ [120]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [119]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30683 
-│                       │       │                  ├ [121]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [120]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30684 
-│                       │       │                  ├ [122]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [121]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30685 
-│                       │       │                  ├ [123]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [122]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30687 
-│                       │       │                  ├ [124]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [123]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30688 
-│                       │       │                  ├ [125]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [124]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30689 
-│                       │       │                  ├ [126]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [125]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30693 
-│                       │       │                  ├ [127]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [126]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30695 
-│                       │       │                  ├ [128]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [127]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30696 
-│                       │       │                  ├ [129]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [128]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30699 
-│                       │       │                  ├ [130]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [129]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30703 
-│                       │       │                  ├ [131]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [130]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30704 
-│                       │       │                  ├ [132]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [131]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30705 
-│                       │       │                  ├ [133]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [132]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30715 
-│                       │       │                  ├ [134]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [133]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30721 
-│                       │       │                  ├ [135]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [134]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30722 
-│                       │       │                  ├ [136]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [135]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50077 
-│                       │       │                  ├ [137]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [136]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50078 
-│                       │       │                  ├ [138]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [137]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50079 
-│                       │       │                  ├ [139]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [138]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50080 
-│                       │       │                  ├ [140]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [139]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50081 
-│                       │       │                  ├ [141]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [140]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50082 
-│                       │       │                  ├ [142]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [141]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50083 
-│                       │       │                  ├ [143]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [142]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50084 
-│                       │       │                  ├ [144]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [143]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50085 
-│                       │       │                  ├ [145]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [144]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50086 
-│                       │       │                  ├ [146]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [145]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50087 
-│                       │       │                  ├ [147]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [146]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50088 
-│                       │       │                  ├ [148]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [147]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50091 
-│                       │       │                  ├ [149]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [148]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50092 
-│                       │       │                  ├ [150]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [149]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50093 
-│                       │       │                  ├ [151]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [150]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50094 
-│                       │       │                  ├ [152]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [151]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50096 
-│                       │       │                  ├ [153]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [152]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50097 
-│                       │       │                  ├ [154]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [153]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50098 
-│                       │       │                  ├ [155]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [154]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50099 
-│                       │       │                  ├ [156]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [155]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50100 
-│                       │       │                  ├ [157]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [156]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50101 
-│                       │       │                  ├ [158]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [157]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50102 
-│                       │       │                  ├ [159]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [158]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50104 
-│                       │       │                  ├ [160]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [159]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-5399 
-│                       │       │                  ├ [161]: https://errata.almalinux.org/10/ALSA-2025-15699.html 
-│                       │       │                  ├ [162]: https://errata.rockylinux.org/RLSA-2025:15699 
-│                       │       │                  ├ [163]: https://github.com/advisories/GHSA-r9fv-h47r-823f 
-│                       │       │                  ├ [164]: https://github.com/openssl/openssl/commit/07272b05b
+│                       │       │                  ├ [160]: https://errata.almalinux.org/9/ALSA-2025-16046.html 
+│                       │       │                  ├ [161]: https://errata.rockylinux.org/RLSA-2025:15699 
+│                       │       │                  ├ [162]: https://github.com/advisories/GHSA-r9fv-h47r-823f 
+│                       │       │                  ├ [163]: https://github.com/openssl/openssl/commit/07272b05b
 │                       │       │                  │        04836a762b4baa874958af51d513844 
-│                       │       │                  ├ [165]: https://github.com/openssl/openssl/commit/2af62e74f
+│                       │       │                  ├ [164]: https://github.com/openssl/openssl/commit/2af62e74f
 │                       │       │                  │        b59bc469506bc37eb2990ea408d9467 
-│                       │       │                  ├ [166]: https://github.com/openssl/openssl/commit/392dcb336
+│                       │       │                  ├ [165]: https://github.com/openssl/openssl/commit/392dcb336
 │                       │       │                  │        405a0c94486aa6655057f59fd3a0902 
-│                       │       │                  ├ [167]: https://github.com/openssl/openssl/commit/4b1cb94a7
+│                       │       │                  ├ [166]: https://github.com/openssl/openssl/commit/4b1cb94a7
 │                       │       │                  │        34a7d4ec363ac0a215a25c181e11f65 
-│                       │       │                  ├ [168]: https://github.com/openssl/openssl/commit/77c608f4c
+│                       │       │                  ├ [167]: https://github.com/openssl/openssl/commit/77c608f4c
 │                       │       │                  │        8857e63e98e66444e2e761c9627916f 
-│                       │       │                  ├ [169]: https://github.openssl.org/openssl/extended-release
+│                       │       │                  ├ [168]: https://github.openssl.org/openssl/extended-release
 │                       │       │                  │        s/commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded[
 │                       │       │                  │        m 
-│                       │       │                  ├ [170]: https://github.openssl.org/openssl/extended-release
+│                       │       │                  ├ [169]: https://github.openssl.org/openssl/extended-release
 │                       │       │                  │        s/commit/a2639000db19878d5d89586ae7b725080592ae86[
 │                       │       │                  │        m 
-│                       │       │                  ├ [171]: https://linux.oracle.com/cve/CVE-2024-13176.html 
-│                       │       │                  ├ [172]: https://linux.oracle.com/errata/ELSA-2025-16046.html 
-│                       │       │                  ├ [173]: https://lists.debian.org/debian-lts-announce/2025/0
+│                       │       │                  ├ [170]: https://linux.oracle.com/cve/CVE-2024-13176.html 
+│                       │       │                  ├ [171]: https://linux.oracle.com/errata/ELSA-2025-16046.html 
+│                       │       │                  ├ [172]: https://lists.debian.org/debian-lts-announce/2025/0
 │                       │       │                  │        5/msg00028.html 
-│                       │       │                  ├ [174]: https://nvd.nist.gov/vuln/detail/CVE-2024-13176 
-│                       │       │                  ├ [175]: https://openssl-library.org/news/secadv/20250120.txt 
-│                       │       │                  ├ [176]: https://security.netapp.com/advisory/ntap-20250124-
+│                       │       │                  ├ [173]: https://nvd.nist.gov/vuln/detail/CVE-2024-13176 
+│                       │       │                  ├ [174]: https://openssl-library.org/news/secadv/20250120.txt 
+│                       │       │                  ├ [175]: https://security.netapp.com/advisory/ntap-20250124-
 │                       │       │                  │        0005 
-│                       │       │                  ├ [177]: https://security.netapp.com/advisory/ntap-20250124-
+│                       │       │                  ├ [176]: https://security.netapp.com/advisory/ntap-20250124-
 │                       │       │                  │        0005/ 
-│                       │       │                  ├ [178]: https://security.netapp.com/advisory/ntap-20250418-
+│                       │       │                  ├ [177]: https://security.netapp.com/advisory/ntap-20250418-
 │                       │       │                  │        0010 
-│                       │       │                  ├ [179]: https://security.netapp.com/advisory/ntap-20250418-
+│                       │       │                  ├ [178]: https://security.netapp.com/advisory/ntap-20250418-
 │                       │       │                  │        0010/ 
-│                       │       │                  ├ [180]: https://security.netapp.com/advisory/ntap-20250502-
+│                       │       │                  ├ [179]: https://security.netapp.com/advisory/ntap-20250502-
 │                       │       │                  │        0006 
-│                       │       │                  ├ [181]: https://security.netapp.com/advisory/ntap-20250502-
+│                       │       │                  ├ [180]: https://security.netapp.com/advisory/ntap-20250502-
 │                       │       │                  │        0006/ 
-│                       │       │                  ├ [182]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │       │                  ├ [183]: https://ubuntu.com/security/notices/USN-7278-1 
-│                       │       │                  ├ [184]: https://ubuntu.com/security/notices/USN-7894-1 
-│                       │       │                  ├ [185]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
-│                       │       │                  ╰ [186]: https://www.oracle.com/security-alerts/cpuapr2025.h
-│                       │       │                           tml#AppendixMSQL 
+│                       │       │                  ├ [181]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │       │                  ├ [182]: https://ubuntu.com/security/notices/USN-7278-1 
+│                       │       │                  ├ [183]: https://ubuntu.com/security/notices/USN-7894-1 
+│                       │       │                  ╰ [184]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │       ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [170] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [176] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │       ├ PkgID           : openssl@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.5-2.el9_8?arch=x86_64&dis
@@ -9876,9 +10148,6 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
 │                       │       ├ Fingerprint     : sha256:3824e8518a55ac2cd2264dc0be971a14ec72f25e7609fd98e54d
 │                       │       │                   86ca72665fcc 
-│                       │       ├ Title           : openssl: remote attackers (from the client side) to trigger
-│                       │       │                    unnecessarily expensive server-side DHE
-│                       │       │                   modular-exponentiation calculations 
 │                       │       ├ Description     : Validating the order of the public keys in the
 │                       │       │                   Diffie-Hellman Key Agreement Protocol, when an approved
 │                       │       │                   safe prime is used, allows remote attackers (from the
@@ -9892,28 +10161,19 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ╰ redhat: 1 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-41996 
-│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
-│                       │       │                  │       -089022.html 
-│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
-│                       │       │                  │       -265688.html 
-│                       │       │                  ├ [3] : https://cert-portal.siemens.com/productcert/html/ssa
-│                       │       │                  │       -485750.html 
-│                       │       │                  ├ [4] : https://dheatattack.gitlab.io/details/ 
-│                       │       │                  ├ [5] : https://dheatattack.gitlab.io/faq/ 
-│                       │       │                  ├ [6] : https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a
-│                       │       │                  │       77fa5ca255d1 
-│                       │       │                  ├ [7] : https://github.com/openssl/openssl/issues/17374 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-41996 
-│                       │       │                  ├ [9] : https://openssl-library.org/post/2022-10-21-tls-grou
-│                       │       │                  │       ps-configuration/ 
-│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
+│                       │       ├ References       ╭ [0]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                       │       │                  │      089022.html 
+│                       │       │                  ├ [1]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                       │       │                  │      265688.html 
+│                       │       │                  ├ [2]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                       │       │                  │      485750.html 
+│                       │       │                  ├ [3]: https://dheatattack.gitlab.io/details/ 
+│                       │       │                  ├ [4]: https://dheatattack.gitlab.io/faq/ 
+│                       │       │                  ╰ [5]: https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a7
+│                       │       │                         7fa5ca255d1 
 │                       │       ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T12:17:03.257Z 
-│                       ├ [171] ╭ VulnerabilityID : CVE-2025-9232 
+│                       ├ [177] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │       ├ PkgID           : openssl@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.5-2.el9_8?arch=x86_64&dis
@@ -9929,7 +10189,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9232 
 │                       │       ├ Fingerprint     : sha256:d5d30039ca3beccc748b3b00b7234d737e47ffeb817067088aa9
 │                       │       │                   06c01ec1eaf3 
-│                       │       ├ Title           : openssl: Out-of-bounds read in HTTP client no_proxy handling 
+│                       │       ├ Title           : Issue summary: An application using the OpenSSL HTTP client
+│                       │       │                    API functi ... 
 │                       │       ├ Description     : Issue summary: An application using the OpenSSL HTTP client
 │                       │       │                    API functions may
 │                       │       │                   trigger an out-of-bounds read if the 'no_proxy' environment
@@ -9972,42 +10233,38 @@
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
-│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 5.9 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 3.1 
+│                       │       ├ CVSS             ─ julia ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │       │                          │           /A:H 
+│                       │       │                          ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/3
 │                       │       │                  │       0/5 
-│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-9232 
-│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
 │                       │       │                  │       -032379.html 
-│                       │       │                  ├ [3] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
 │                       │       │                  │       -082556.html 
-│                       │       │                  ├ [4] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  ├ [3] : https://cert-portal.siemens.com/productcert/html/ssa
 │                       │       │                  │       -089022.html 
-│                       │       │                  ├ [5] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  ├ [4] : https://cert-portal.siemens.com/productcert/html/ssa
 │                       │       │                  │       -485750.html 
-│                       │       │                  ├ [6] : https://github.com/advisories/GHSA-76r2-c3cg-f5r9 
-│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/2b4ec20e47
+│                       │       │                  ├ [5] : https://github.com/advisories/GHSA-76r2-c3cg-f5r9 
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/2b4ec20e47
 │                       │       │                  │       959170422922eaff25346d362dcb35 
-│                       │       │                  ├ [8] : https://github.com/openssl/openssl/commit/654dc11d23
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/654dc11d23
 │                       │       │                  │       468a74fc8ea4672b702dd3feb7be4b 
-│                       │       │                  ├ [9] : https://github.com/openssl/openssl/commit/7cf21a3051
+│                       │       │                  ├ [8] : https://github.com/openssl/openssl/commit/7cf21a3051
 │                       │       │                  │       3c9e43c4bc3836c237cf086e194af3 
-│                       │       │                  ├ [10]: https://github.com/openssl/openssl/commit/89e790ac43
+│                       │       │                  ├ [9] : https://github.com/openssl/openssl/commit/89e790ac43
 │                       │       │                  │       1125a4849992858490bed6b225eadf 
-│                       │       │                  ├ [11]: https://github.com/openssl/openssl/commit/bbf38c034c
+│                       │       │                  ├ [10]: https://github.com/openssl/openssl/commit/bbf38c034c
 │                       │       │                  │       dabd0a13330abcc4855c866f53d2e0 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
-│                       │       │                  ├ [13]: https://openssl-library.org/news/secadv/20250930.txt 
-│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7786-1 
-│                       │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-7894-1 
-│                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
+│                       │       │                  ├ [12]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7894-1 
+│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │       ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:30.117Z 
-│                       ├ [172] ╭ VulnerabilityID : CVE-2026-28387 
+│                       ├ [178] ╭ VulnerabilityID : CVE-2026-28387 
 │                       │       ├ PkgID           : openssl@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.5-2.el9_8?arch=x86_64&dis
@@ -10093,7 +10350,7 @@
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.27Z 
-│                       ├ [173] ╭ VulnerabilityID : CVE-2026-28388 
+│                       ├ [179] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │       ├ PkgID           : openssl@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.5-2.el9_8?arch=x86_64&dis
@@ -10188,7 +10445,7 @@
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.453Z 
-│                       ├ [174] ╭ VulnerabilityID : CVE-2026-28389 
+│                       ├ [180] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │       ├ PkgID           : openssl@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.5-2.el9_8?arch=x86_64&dis
@@ -10274,7 +10531,7 @@
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.637Z 
-│                       ├ [175] ╭ VulnerabilityID : CVE-2026-31789 
+│                       ├ [181] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │       ├ PkgID           : openssl@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.5-2.el9_8?arch=x86_64&dis
@@ -10361,7 +10618,7 @@
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.57Z 
-│                       ├ [176] ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [182] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │       ├ PkgID           : openssl-fips-provider@3.0.7-8.el9.x86_64 
 │                       │       ├ PkgName         : openssl-fips-provider 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-fips-provider@3.0.7-8.el9?arc
@@ -10482,7 +10739,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │       ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │       ╰ LastModifiedDate: 2026-05-18T20:16:37.763Z 
-│                       ├ [177] ╭ VulnerabilityID : CVE-2026-31790 
+│                       ├ [183] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │       ├ PkgID           : openssl-fips-provider@3.0.7-8.el9.x86_64 
 │                       │       ├ PkgName         : openssl-fips-provider 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-fips-provider@3.0.7-8.el9?arc
@@ -10538,7 +10795,8 @@
 │                       │       │                   affected by this issue. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-754 
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ alma  : 2 
+│                       │       │                  ├ amazon: 3 
 │                       │       │                  ├ azure : 2 
 │                       │       │                  ├ julia : 3 
 │                       │       │                  ├ photon: 3 
@@ -10550,29 +10808,32 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31790 
-│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19218 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-31790 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2451094 
+│                       │       │                  ├ [3] : https://cert-portal.siemens.com/productcert/html/ssa
 │                       │       │                  │       -032379.html 
-│                       │       │                  ├ [2] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/001e01db3e
+│                       │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2026-19218.html 
+│                       │       │                  ├ [5] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/001e01db3e
 │                       │       │                  │       996e13ffc72386fe79d03a6683b5ac 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/abd8b2eec7
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/abd8b2eec7
 │                       │       │                  │       e3f3fda60ecfb68498b246b52af482 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/b922e24e5b
+│                       │       │                  ├ [8] : https://github.com/openssl/openssl/commit/b922e24e5b
 │                       │       │                  │       23ffb9cb9e14cadff23d91e9f7e406 
-│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/d5f8e71cd0
+│                       │       │                  ├ [9] : https://github.com/openssl/openssl/commit/d5f8e71cd0
 │                       │       │                  │       a54e961d0c3b174348f8308486f790 
-│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/eed200f58c
+│                       │       │                  ├ [10]: https://github.com/openssl/openssl/commit/eed200f58c
 │                       │       │                  │       d8645ed77e46b7e9f764e284df379e 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
-│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
-│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
+│                       │       │                  ├ [12]: https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
+│                       │       │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.75Z 
-│                       ├ [178] ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [184] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │       ├ PkgID           : openssl-fips-provider-so@3.0.7-8.el9.x86_64 
 │                       │       ├ PkgName         : openssl-fips-provider-so 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-fips-provider-so@3.0.7-8.el9?
@@ -10693,7 +10954,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │       ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │       ╰ LastModifiedDate: 2026-05-18T20:16:37.763Z 
-│                       ├ [179] ╭ VulnerabilityID : CVE-2026-31790 
+│                       ├ [185] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │       ├ PkgID           : openssl-fips-provider-so@3.0.7-8.el9.x86_64 
 │                       │       ├ PkgName         : openssl-fips-provider-so 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-fips-provider-so@3.0.7-8.el9?
@@ -10749,7 +11010,8 @@
 │                       │       │                   affected by this issue. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-754 
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ alma  : 2 
+│                       │       │                  ├ amazon: 3 
 │                       │       │                  ├ azure : 2 
 │                       │       │                  ├ julia : 3 
 │                       │       │                  ├ photon: 3 
@@ -10761,29 +11023,32 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-31790 
-│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19218 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-31790 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2451094 
+│                       │       │                  ├ [3] : https://cert-portal.siemens.com/productcert/html/ssa
 │                       │       │                  │       -032379.html 
-│                       │       │                  ├ [2] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
-│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/001e01db3e
+│                       │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2026-19218.html 
+│                       │       │                  ├ [5] : https://github.com/advisories/GHSA-vgxx-5xj5-q97x 
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/001e01db3e
 │                       │       │                  │       996e13ffc72386fe79d03a6683b5ac 
-│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/abd8b2eec7
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/abd8b2eec7
 │                       │       │                  │       e3f3fda60ecfb68498b246b52af482 
-│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/b922e24e5b
+│                       │       │                  ├ [8] : https://github.com/openssl/openssl/commit/b922e24e5b
 │                       │       │                  │       23ffb9cb9e14cadff23d91e9f7e406 
-│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/d5f8e71cd0
+│                       │       │                  ├ [9] : https://github.com/openssl/openssl/commit/d5f8e71cd0
 │                       │       │                  │       a54e961d0c3b174348f8308486f790 
-│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/eed200f58c
+│                       │       │                  ├ [10]: https://github.com/openssl/openssl/commit/eed200f58c
 │                       │       │                  │       d8645ed77e46b7e9f764e284df379e 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
-│                       │       │                  ├ [9] : https://openssl-library.org/news/secadv/20260407.txt 
-│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8155-1 
-│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
-│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-31790 
+│                       │       │                  ├ [12]: https://openssl-library.org/news/secadv/20260407.txt 
+│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-8155-1 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-31790 
+│                       │       │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.75Z 
-│                       ├ [180] ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [186] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │       ├ PkgID           : openssl-libs@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.5-2.el9_8?arch=x86_6
@@ -10904,7 +11169,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │       ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │       ╰ LastModifiedDate: 2026-05-18T20:16:37.763Z 
-│                       ├ [181] ╭ VulnerabilityID : CVE-2026-28390 
+│                       ├ [187] ╭ VulnerabilityID : CVE-2026-28390 
 │                       │       ├ PkgID           : openssl-libs@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.5-2.el9_8?arch=x86_6
@@ -10991,7 +11256,7 @@
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.81Z 
-│                       ├ [182] ╭ VulnerabilityID : CVE-2024-13176 
+│                       ├ [188] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │       ├ PkgID           : openssl-libs@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.5-2.el9_8?arch=x86_6
@@ -11007,7 +11272,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-13176 
 │                       │       ├ Fingerprint     : sha256:661ea05f9a7d476b08efffe156cfb349bb84b631987dda3ffd83
 │                       │       │                   f7446c29bdda 
-│                       │       ├ Title           : openssl: Timing side-channel in ECDSA signature computation 
+│                       │       ├ Title           : Issue summary: A timing side-channel which could
+│                       │       │                   potentially allow rec ... 
 │                       │       ├ Description     : Issue summary: A timing side-channel which could
 │                       │       │                   potentially allow recovering
 │                       │       │                   the private key exists in the ECDSA signature computation.
@@ -11045,273 +11311,267 @@
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:L/I:
-│                       │       │                  │        │           L/A:L 
-│                       │       │                  │        ╰ V3Score : 4.1 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 4.7 
+│                       │       ├ CVSS             ─ julia ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:L/I:L
+│                       │       │                          │           /A:L 
+│                       │       │                          ╰ V3Score : 4.1 
 │                       │       ├ References       ╭ [0]  : http://www.openwall.com/lists/oss-security/2025/01/
 │                       │       │                  │        20/2 
-│                       │       │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2025:15699 
-│                       │       │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-2024-13176 
-│                       │       │                  ├ [3]  : https://bugzilla.redhat.com/2359885 
-│                       │       │                  ├ [4]  : https://bugzilla.redhat.com/2359888 
-│                       │       │                  ├ [5]  : https://bugzilla.redhat.com/2359892 
-│                       │       │                  ├ [6]  : https://bugzilla.redhat.com/2359894 
-│                       │       │                  ├ [7]  : https://bugzilla.redhat.com/2359895 
-│                       │       │                  ├ [8]  : https://bugzilla.redhat.com/2359899 
-│                       │       │                  ├ [9]  : https://bugzilla.redhat.com/2359900 
-│                       │       │                  ├ [10] : https://bugzilla.redhat.com/2359902 
-│                       │       │                  ├ [11] : https://bugzilla.redhat.com/2359903 
-│                       │       │                  ├ [12] : https://bugzilla.redhat.com/2359911 
-│                       │       │                  ├ [13] : https://bugzilla.redhat.com/2359918 
-│                       │       │                  ├ [14] : https://bugzilla.redhat.com/2359920 
-│                       │       │                  ├ [15] : https://bugzilla.redhat.com/2359924 
-│                       │       │                  ├ [16] : https://bugzilla.redhat.com/2359928 
-│                       │       │                  ├ [17] : https://bugzilla.redhat.com/2359930 
-│                       │       │                  ├ [18] : https://bugzilla.redhat.com/2359932 
-│                       │       │                  ├ [19] : https://bugzilla.redhat.com/2359934 
-│                       │       │                  ├ [20] : https://bugzilla.redhat.com/2359938 
-│                       │       │                  ├ [21] : https://bugzilla.redhat.com/2359940 
-│                       │       │                  ├ [22] : https://bugzilla.redhat.com/2359943 
-│                       │       │                  ├ [23] : https://bugzilla.redhat.com/2359944 
-│                       │       │                  ├ [24] : https://bugzilla.redhat.com/2359945 
-│                       │       │                  ├ [25] : https://bugzilla.redhat.com/2359947 
-│                       │       │                  ├ [26] : https://bugzilla.redhat.com/2359950 
-│                       │       │                  ├ [27] : https://bugzilla.redhat.com/2359963 
-│                       │       │                  ├ [28] : https://bugzilla.redhat.com/2359964 
-│                       │       │                  ├ [29] : https://bugzilla.redhat.com/2359972 
-│                       │       │                  ├ [30] : https://bugzilla.redhat.com/2370920 
-│                       │       │                  ├ [31] : https://bugzilla.redhat.com/2380264 
-│                       │       │                  ├ [32] : https://bugzilla.redhat.com/2380273 
-│                       │       │                  ├ [33] : https://bugzilla.redhat.com/2380274 
-│                       │       │                  ├ [34] : https://bugzilla.redhat.com/2380278 
-│                       │       │                  ├ [35] : https://bugzilla.redhat.com/2380280 
-│                       │       │                  ├ [36] : https://bugzilla.redhat.com/2380283 
-│                       │       │                  ├ [37] : https://bugzilla.redhat.com/2380284 
-│                       │       │                  ├ [38] : https://bugzilla.redhat.com/2380290 
-│                       │       │                  ├ [39] : https://bugzilla.redhat.com/2380291 
-│                       │       │                  ├ [40] : https://bugzilla.redhat.com/2380295 
-│                       │       │                  ├ [41] : https://bugzilla.redhat.com/2380298 
-│                       │       │                  ├ [42] : https://bugzilla.redhat.com/2380306 
-│                       │       │                  ├ [43] : https://bugzilla.redhat.com/2380308 
-│                       │       │                  ├ [44] : https://bugzilla.redhat.com/2380309 
-│                       │       │                  ├ [45] : https://bugzilla.redhat.com/2380310 
-│                       │       │                  ├ [46] : https://bugzilla.redhat.com/2380312 
-│                       │       │                  ├ [47] : https://bugzilla.redhat.com/2380313 
-│                       │       │                  ├ [48] : https://bugzilla.redhat.com/2380320 
-│                       │       │                  ├ [49] : https://bugzilla.redhat.com/2380321 
-│                       │       │                  ├ [50] : https://bugzilla.redhat.com/2380322 
-│                       │       │                  ├ [51] : https://bugzilla.redhat.com/2380326 
-│                       │       │                  ├ [52] : https://bugzilla.redhat.com/2380327 
-│                       │       │                  ├ [53] : https://bugzilla.redhat.com/2380334 
-│                       │       │                  ├ [54] : https://bugzilla.redhat.com/2380335 
-│                       │       │                  ├ [55] : https://bugzilla.redhat.com/show_bug.cgi?id=2338999 
-│                       │       │                  ├ [56] : https://bugzilla.redhat.com/show_bug.cgi?id=2359885 
-│                       │       │                  ├ [57] : https://bugzilla.redhat.com/show_bug.cgi?id=2359888 
-│                       │       │                  ├ [58] : https://bugzilla.redhat.com/show_bug.cgi?id=2359892 
-│                       │       │                  ├ [59] : https://bugzilla.redhat.com/show_bug.cgi?id=2359894 
-│                       │       │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=2359895 
-│                       │       │                  ├ [61] : https://bugzilla.redhat.com/show_bug.cgi?id=2359899 
-│                       │       │                  ├ [62] : https://bugzilla.redhat.com/show_bug.cgi?id=2359900 
-│                       │       │                  ├ [63] : https://bugzilla.redhat.com/show_bug.cgi?id=2359902 
-│                       │       │                  ├ [64] : https://bugzilla.redhat.com/show_bug.cgi?id=2359903 
-│                       │       │                  ├ [65] : https://bugzilla.redhat.com/show_bug.cgi?id=2359911 
-│                       │       │                  ├ [66] : https://bugzilla.redhat.com/show_bug.cgi?id=2359918 
-│                       │       │                  ├ [67] : https://bugzilla.redhat.com/show_bug.cgi?id=2359920 
-│                       │       │                  ├ [68] : https://bugzilla.redhat.com/show_bug.cgi?id=2359924 
-│                       │       │                  ├ [69] : https://bugzilla.redhat.com/show_bug.cgi?id=2359928 
-│                       │       │                  ├ [70] : https://bugzilla.redhat.com/show_bug.cgi?id=2359930 
-│                       │       │                  ├ [71] : https://bugzilla.redhat.com/show_bug.cgi?id=2359932 
-│                       │       │                  ├ [72] : https://bugzilla.redhat.com/show_bug.cgi?id=2359934 
-│                       │       │                  ├ [73] : https://bugzilla.redhat.com/show_bug.cgi?id=2359938 
-│                       │       │                  ├ [74] : https://bugzilla.redhat.com/show_bug.cgi?id=2359940 
-│                       │       │                  ├ [75] : https://bugzilla.redhat.com/show_bug.cgi?id=2359943 
-│                       │       │                  ├ [76] : https://bugzilla.redhat.com/show_bug.cgi?id=2359944 
-│                       │       │                  ├ [77] : https://bugzilla.redhat.com/show_bug.cgi?id=2359945 
-│                       │       │                  ├ [78] : https://bugzilla.redhat.com/show_bug.cgi?id=2359947 
-│                       │       │                  ├ [79] : https://bugzilla.redhat.com/show_bug.cgi?id=2359950 
-│                       │       │                  ├ [80] : https://bugzilla.redhat.com/show_bug.cgi?id=2359963 
-│                       │       │                  ├ [81] : https://bugzilla.redhat.com/show_bug.cgi?id=2359964 
-│                       │       │                  ├ [82] : https://bugzilla.redhat.com/show_bug.cgi?id=2359972 
-│                       │       │                  ├ [83] : https://bugzilla.redhat.com/show_bug.cgi?id=2370920 
-│                       │       │                  ├ [84] : https://bugzilla.redhat.com/show_bug.cgi?id=2380264 
-│                       │       │                  ├ [85] : https://bugzilla.redhat.com/show_bug.cgi?id=2380273 
-│                       │       │                  ├ [86] : https://bugzilla.redhat.com/show_bug.cgi?id=2380274 
-│                       │       │                  ├ [87] : https://bugzilla.redhat.com/show_bug.cgi?id=2380278 
-│                       │       │                  ├ [88] : https://bugzilla.redhat.com/show_bug.cgi?id=2380280 
-│                       │       │                  ├ [89] : https://bugzilla.redhat.com/show_bug.cgi?id=2380283 
-│                       │       │                  ├ [90] : https://bugzilla.redhat.com/show_bug.cgi?id=2380284 
-│                       │       │                  ├ [91] : https://bugzilla.redhat.com/show_bug.cgi?id=2380290 
-│                       │       │                  ├ [92] : https://bugzilla.redhat.com/show_bug.cgi?id=2380291 
-│                       │       │                  ├ [93] : https://bugzilla.redhat.com/show_bug.cgi?id=2380295 
-│                       │       │                  ├ [94] : https://bugzilla.redhat.com/show_bug.cgi?id=2380298 
-│                       │       │                  ├ [95] : https://bugzilla.redhat.com/show_bug.cgi?id=2380306 
-│                       │       │                  ├ [96] : https://bugzilla.redhat.com/show_bug.cgi?id=2380308 
-│                       │       │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2380309 
-│                       │       │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2380310 
-│                       │       │                  ├ [99] : https://bugzilla.redhat.com/show_bug.cgi?id=2380312 
-│                       │       │                  ├ [100]: https://bugzilla.redhat.com/show_bug.cgi?id=2380313 
-│                       │       │                  ├ [101]: https://bugzilla.redhat.com/show_bug.cgi?id=2380320 
-│                       │       │                  ├ [102]: https://bugzilla.redhat.com/show_bug.cgi?id=2380321 
-│                       │       │                  ├ [103]: https://bugzilla.redhat.com/show_bug.cgi?id=2380322 
-│                       │       │                  ├ [104]: https://bugzilla.redhat.com/show_bug.cgi?id=2380326 
-│                       │       │                  ├ [105]: https://bugzilla.redhat.com/show_bug.cgi?id=2380327 
-│                       │       │                  ├ [106]: https://bugzilla.redhat.com/show_bug.cgi?id=2380334 
-│                       │       │                  ├ [107]: https://bugzilla.redhat.com/show_bug.cgi?id=2380335 
-│                       │       │                  ├ [108]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2025:16046 
+│                       │       │                  ├ [2]  : https://bugzilla.redhat.com/2359885 
+│                       │       │                  ├ [3]  : https://bugzilla.redhat.com/2359888 
+│                       │       │                  ├ [4]  : https://bugzilla.redhat.com/2359892 
+│                       │       │                  ├ [5]  : https://bugzilla.redhat.com/2359894 
+│                       │       │                  ├ [6]  : https://bugzilla.redhat.com/2359895 
+│                       │       │                  ├ [7]  : https://bugzilla.redhat.com/2359899 
+│                       │       │                  ├ [8]  : https://bugzilla.redhat.com/2359900 
+│                       │       │                  ├ [9]  : https://bugzilla.redhat.com/2359902 
+│                       │       │                  ├ [10] : https://bugzilla.redhat.com/2359903 
+│                       │       │                  ├ [11] : https://bugzilla.redhat.com/2359911 
+│                       │       │                  ├ [12] : https://bugzilla.redhat.com/2359918 
+│                       │       │                  ├ [13] : https://bugzilla.redhat.com/2359920 
+│                       │       │                  ├ [14] : https://bugzilla.redhat.com/2359924 
+│                       │       │                  ├ [15] : https://bugzilla.redhat.com/2359928 
+│                       │       │                  ├ [16] : https://bugzilla.redhat.com/2359930 
+│                       │       │                  ├ [17] : https://bugzilla.redhat.com/2359932 
+│                       │       │                  ├ [18] : https://bugzilla.redhat.com/2359934 
+│                       │       │                  ├ [19] : https://bugzilla.redhat.com/2359938 
+│                       │       │                  ├ [20] : https://bugzilla.redhat.com/2359940 
+│                       │       │                  ├ [21] : https://bugzilla.redhat.com/2359943 
+│                       │       │                  ├ [22] : https://bugzilla.redhat.com/2359944 
+│                       │       │                  ├ [23] : https://bugzilla.redhat.com/2359945 
+│                       │       │                  ├ [24] : https://bugzilla.redhat.com/2359947 
+│                       │       │                  ├ [25] : https://bugzilla.redhat.com/2359950 
+│                       │       │                  ├ [26] : https://bugzilla.redhat.com/2359963 
+│                       │       │                  ├ [27] : https://bugzilla.redhat.com/2359964 
+│                       │       │                  ├ [28] : https://bugzilla.redhat.com/2359972 
+│                       │       │                  ├ [29] : https://bugzilla.redhat.com/2370920 
+│                       │       │                  ├ [30] : https://bugzilla.redhat.com/2380264 
+│                       │       │                  ├ [31] : https://bugzilla.redhat.com/2380273 
+│                       │       │                  ├ [32] : https://bugzilla.redhat.com/2380274 
+│                       │       │                  ├ [33] : https://bugzilla.redhat.com/2380278 
+│                       │       │                  ├ [34] : https://bugzilla.redhat.com/2380280 
+│                       │       │                  ├ [35] : https://bugzilla.redhat.com/2380283 
+│                       │       │                  ├ [36] : https://bugzilla.redhat.com/2380284 
+│                       │       │                  ├ [37] : https://bugzilla.redhat.com/2380290 
+│                       │       │                  ├ [38] : https://bugzilla.redhat.com/2380291 
+│                       │       │                  ├ [39] : https://bugzilla.redhat.com/2380295 
+│                       │       │                  ├ [40] : https://bugzilla.redhat.com/2380298 
+│                       │       │                  ├ [41] : https://bugzilla.redhat.com/2380306 
+│                       │       │                  ├ [42] : https://bugzilla.redhat.com/2380308 
+│                       │       │                  ├ [43] : https://bugzilla.redhat.com/2380309 
+│                       │       │                  ├ [44] : https://bugzilla.redhat.com/2380310 
+│                       │       │                  ├ [45] : https://bugzilla.redhat.com/2380312 
+│                       │       │                  ├ [46] : https://bugzilla.redhat.com/2380313 
+│                       │       │                  ├ [47] : https://bugzilla.redhat.com/2380320 
+│                       │       │                  ├ [48] : https://bugzilla.redhat.com/2380321 
+│                       │       │                  ├ [49] : https://bugzilla.redhat.com/2380322 
+│                       │       │                  ├ [50] : https://bugzilla.redhat.com/2380326 
+│                       │       │                  ├ [51] : https://bugzilla.redhat.com/2380327 
+│                       │       │                  ├ [52] : https://bugzilla.redhat.com/2380334 
+│                       │       │                  ├ [53] : https://bugzilla.redhat.com/2380335 
+│                       │       │                  ├ [54] : https://bugzilla.redhat.com/show_bug.cgi?id=2338999 
+│                       │       │                  ├ [55] : https://bugzilla.redhat.com/show_bug.cgi?id=2359885 
+│                       │       │                  ├ [56] : https://bugzilla.redhat.com/show_bug.cgi?id=2359888 
+│                       │       │                  ├ [57] : https://bugzilla.redhat.com/show_bug.cgi?id=2359892 
+│                       │       │                  ├ [58] : https://bugzilla.redhat.com/show_bug.cgi?id=2359894 
+│                       │       │                  ├ [59] : https://bugzilla.redhat.com/show_bug.cgi?id=2359895 
+│                       │       │                  ├ [60] : https://bugzilla.redhat.com/show_bug.cgi?id=2359899 
+│                       │       │                  ├ [61] : https://bugzilla.redhat.com/show_bug.cgi?id=2359900 
+│                       │       │                  ├ [62] : https://bugzilla.redhat.com/show_bug.cgi?id=2359902 
+│                       │       │                  ├ [63] : https://bugzilla.redhat.com/show_bug.cgi?id=2359903 
+│                       │       │                  ├ [64] : https://bugzilla.redhat.com/show_bug.cgi?id=2359911 
+│                       │       │                  ├ [65] : https://bugzilla.redhat.com/show_bug.cgi?id=2359918 
+│                       │       │                  ├ [66] : https://bugzilla.redhat.com/show_bug.cgi?id=2359920 
+│                       │       │                  ├ [67] : https://bugzilla.redhat.com/show_bug.cgi?id=2359924 
+│                       │       │                  ├ [68] : https://bugzilla.redhat.com/show_bug.cgi?id=2359928 
+│                       │       │                  ├ [69] : https://bugzilla.redhat.com/show_bug.cgi?id=2359930 
+│                       │       │                  ├ [70] : https://bugzilla.redhat.com/show_bug.cgi?id=2359932 
+│                       │       │                  ├ [71] : https://bugzilla.redhat.com/show_bug.cgi?id=2359934 
+│                       │       │                  ├ [72] : https://bugzilla.redhat.com/show_bug.cgi?id=2359938 
+│                       │       │                  ├ [73] : https://bugzilla.redhat.com/show_bug.cgi?id=2359940 
+│                       │       │                  ├ [74] : https://bugzilla.redhat.com/show_bug.cgi?id=2359943 
+│                       │       │                  ├ [75] : https://bugzilla.redhat.com/show_bug.cgi?id=2359944 
+│                       │       │                  ├ [76] : https://bugzilla.redhat.com/show_bug.cgi?id=2359945 
+│                       │       │                  ├ [77] : https://bugzilla.redhat.com/show_bug.cgi?id=2359947 
+│                       │       │                  ├ [78] : https://bugzilla.redhat.com/show_bug.cgi?id=2359950 
+│                       │       │                  ├ [79] : https://bugzilla.redhat.com/show_bug.cgi?id=2359963 
+│                       │       │                  ├ [80] : https://bugzilla.redhat.com/show_bug.cgi?id=2359964 
+│                       │       │                  ├ [81] : https://bugzilla.redhat.com/show_bug.cgi?id=2359972 
+│                       │       │                  ├ [82] : https://bugzilla.redhat.com/show_bug.cgi?id=2370920 
+│                       │       │                  ├ [83] : https://bugzilla.redhat.com/show_bug.cgi?id=2380264 
+│                       │       │                  ├ [84] : https://bugzilla.redhat.com/show_bug.cgi?id=2380273 
+│                       │       │                  ├ [85] : https://bugzilla.redhat.com/show_bug.cgi?id=2380274 
+│                       │       │                  ├ [86] : https://bugzilla.redhat.com/show_bug.cgi?id=2380278 
+│                       │       │                  ├ [87] : https://bugzilla.redhat.com/show_bug.cgi?id=2380280 
+│                       │       │                  ├ [88] : https://bugzilla.redhat.com/show_bug.cgi?id=2380283 
+│                       │       │                  ├ [89] : https://bugzilla.redhat.com/show_bug.cgi?id=2380284 
+│                       │       │                  ├ [90] : https://bugzilla.redhat.com/show_bug.cgi?id=2380290 
+│                       │       │                  ├ [91] : https://bugzilla.redhat.com/show_bug.cgi?id=2380291 
+│                       │       │                  ├ [92] : https://bugzilla.redhat.com/show_bug.cgi?id=2380295 
+│                       │       │                  ├ [93] : https://bugzilla.redhat.com/show_bug.cgi?id=2380298 
+│                       │       │                  ├ [94] : https://bugzilla.redhat.com/show_bug.cgi?id=2380306 
+│                       │       │                  ├ [95] : https://bugzilla.redhat.com/show_bug.cgi?id=2380308 
+│                       │       │                  ├ [96] : https://bugzilla.redhat.com/show_bug.cgi?id=2380309 
+│                       │       │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2380310 
+│                       │       │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2380312 
+│                       │       │                  ├ [99] : https://bugzilla.redhat.com/show_bug.cgi?id=2380313 
+│                       │       │                  ├ [100]: https://bugzilla.redhat.com/show_bug.cgi?id=2380320 
+│                       │       │                  ├ [101]: https://bugzilla.redhat.com/show_bug.cgi?id=2380321 
+│                       │       │                  ├ [102]: https://bugzilla.redhat.com/show_bug.cgi?id=2380322 
+│                       │       │                  ├ [103]: https://bugzilla.redhat.com/show_bug.cgi?id=2380326 
+│                       │       │                  ├ [104]: https://bugzilla.redhat.com/show_bug.cgi?id=2380327 
+│                       │       │                  ├ [105]: https://bugzilla.redhat.com/show_bug.cgi?id=2380334 
+│                       │       │                  ├ [106]: https://bugzilla.redhat.com/show_bug.cgi?id=2380335 
+│                       │       │                  ├ [107]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2024-13176 
-│                       │       │                  ├ [109]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [108]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21574 
-│                       │       │                  ├ [110]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [109]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21575 
-│                       │       │                  ├ [111]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [110]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21577 
-│                       │       │                  ├ [112]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [111]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21579 
-│                       │       │                  ├ [113]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [112]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21580 
-│                       │       │                  ├ [114]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [113]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21581 
-│                       │       │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [114]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21584 
-│                       │       │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21585 
-│                       │       │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-21588 
-│                       │       │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30681 
-│                       │       │                  ├ [119]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30682 
-│                       │       │                  ├ [120]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [119]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30683 
-│                       │       │                  ├ [121]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [120]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30684 
-│                       │       │                  ├ [122]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [121]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30685 
-│                       │       │                  ├ [123]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [122]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30687 
-│                       │       │                  ├ [124]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [123]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30688 
-│                       │       │                  ├ [125]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [124]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30689 
-│                       │       │                  ├ [126]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [125]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30693 
-│                       │       │                  ├ [127]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [126]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30695 
-│                       │       │                  ├ [128]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [127]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30696 
-│                       │       │                  ├ [129]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [128]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30699 
-│                       │       │                  ├ [130]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [129]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30703 
-│                       │       │                  ├ [131]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [130]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30704 
-│                       │       │                  ├ [132]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [131]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30705 
-│                       │       │                  ├ [133]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [132]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30715 
-│                       │       │                  ├ [134]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [133]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30721 
-│                       │       │                  ├ [135]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [134]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-30722 
-│                       │       │                  ├ [136]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [135]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50077 
-│                       │       │                  ├ [137]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [136]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50078 
-│                       │       │                  ├ [138]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [137]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50079 
-│                       │       │                  ├ [139]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [138]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50080 
-│                       │       │                  ├ [140]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [139]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50081 
-│                       │       │                  ├ [141]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [140]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50082 
-│                       │       │                  ├ [142]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [141]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50083 
-│                       │       │                  ├ [143]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [142]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50084 
-│                       │       │                  ├ [144]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [143]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50085 
-│                       │       │                  ├ [145]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [144]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50086 
-│                       │       │                  ├ [146]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [145]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50087 
-│                       │       │                  ├ [147]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [146]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50088 
-│                       │       │                  ├ [148]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [147]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50091 
-│                       │       │                  ├ [149]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [148]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50092 
-│                       │       │                  ├ [150]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [149]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50093 
-│                       │       │                  ├ [151]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [150]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50094 
-│                       │       │                  ├ [152]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [151]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50096 
-│                       │       │                  ├ [153]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [152]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50097 
-│                       │       │                  ├ [154]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [153]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50098 
-│                       │       │                  ├ [155]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [154]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50099 
-│                       │       │                  ├ [156]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [155]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50100 
-│                       │       │                  ├ [157]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [156]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50101 
-│                       │       │                  ├ [158]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [157]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50102 
-│                       │       │                  ├ [159]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [158]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-50104 
-│                       │       │                  ├ [160]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                       │       │                  ├ [159]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                       │       │                  │        2025-5399 
-│                       │       │                  ├ [161]: https://errata.almalinux.org/10/ALSA-2025-15699.html 
-│                       │       │                  ├ [162]: https://errata.rockylinux.org/RLSA-2025:15699 
-│                       │       │                  ├ [163]: https://github.com/advisories/GHSA-r9fv-h47r-823f 
-│                       │       │                  ├ [164]: https://github.com/openssl/openssl/commit/07272b05b
+│                       │       │                  ├ [160]: https://errata.almalinux.org/9/ALSA-2025-16046.html 
+│                       │       │                  ├ [161]: https://errata.rockylinux.org/RLSA-2025:15699 
+│                       │       │                  ├ [162]: https://github.com/advisories/GHSA-r9fv-h47r-823f 
+│                       │       │                  ├ [163]: https://github.com/openssl/openssl/commit/07272b05b
 │                       │       │                  │        04836a762b4baa874958af51d513844 
-│                       │       │                  ├ [165]: https://github.com/openssl/openssl/commit/2af62e74f
+│                       │       │                  ├ [164]: https://github.com/openssl/openssl/commit/2af62e74f
 │                       │       │                  │        b59bc469506bc37eb2990ea408d9467 
-│                       │       │                  ├ [166]: https://github.com/openssl/openssl/commit/392dcb336
+│                       │       │                  ├ [165]: https://github.com/openssl/openssl/commit/392dcb336
 │                       │       │                  │        405a0c94486aa6655057f59fd3a0902 
-│                       │       │                  ├ [167]: https://github.com/openssl/openssl/commit/4b1cb94a7
+│                       │       │                  ├ [166]: https://github.com/openssl/openssl/commit/4b1cb94a7
 │                       │       │                  │        34a7d4ec363ac0a215a25c181e11f65 
-│                       │       │                  ├ [168]: https://github.com/openssl/openssl/commit/77c608f4c
+│                       │       │                  ├ [167]: https://github.com/openssl/openssl/commit/77c608f4c
 │                       │       │                  │        8857e63e98e66444e2e761c9627916f 
-│                       │       │                  ├ [169]: https://github.openssl.org/openssl/extended-release
+│                       │       │                  ├ [168]: https://github.openssl.org/openssl/extended-release
 │                       │       │                  │        s/commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded[
 │                       │       │                  │        m 
-│                       │       │                  ├ [170]: https://github.openssl.org/openssl/extended-release
+│                       │       │                  ├ [169]: https://github.openssl.org/openssl/extended-release
 │                       │       │                  │        s/commit/a2639000db19878d5d89586ae7b725080592ae86[
 │                       │       │                  │        m 
-│                       │       │                  ├ [171]: https://linux.oracle.com/cve/CVE-2024-13176.html 
-│                       │       │                  ├ [172]: https://linux.oracle.com/errata/ELSA-2025-16046.html 
-│                       │       │                  ├ [173]: https://lists.debian.org/debian-lts-announce/2025/0
+│                       │       │                  ├ [170]: https://linux.oracle.com/cve/CVE-2024-13176.html 
+│                       │       │                  ├ [171]: https://linux.oracle.com/errata/ELSA-2025-16046.html 
+│                       │       │                  ├ [172]: https://lists.debian.org/debian-lts-announce/2025/0
 │                       │       │                  │        5/msg00028.html 
-│                       │       │                  ├ [174]: https://nvd.nist.gov/vuln/detail/CVE-2024-13176 
-│                       │       │                  ├ [175]: https://openssl-library.org/news/secadv/20250120.txt 
-│                       │       │                  ├ [176]: https://security.netapp.com/advisory/ntap-20250124-
+│                       │       │                  ├ [173]: https://nvd.nist.gov/vuln/detail/CVE-2024-13176 
+│                       │       │                  ├ [174]: https://openssl-library.org/news/secadv/20250120.txt 
+│                       │       │                  ├ [175]: https://security.netapp.com/advisory/ntap-20250124-
 │                       │       │                  │        0005 
-│                       │       │                  ├ [177]: https://security.netapp.com/advisory/ntap-20250124-
+│                       │       │                  ├ [176]: https://security.netapp.com/advisory/ntap-20250124-
 │                       │       │                  │        0005/ 
-│                       │       │                  ├ [178]: https://security.netapp.com/advisory/ntap-20250418-
+│                       │       │                  ├ [177]: https://security.netapp.com/advisory/ntap-20250418-
 │                       │       │                  │        0010 
-│                       │       │                  ├ [179]: https://security.netapp.com/advisory/ntap-20250418-
+│                       │       │                  ├ [178]: https://security.netapp.com/advisory/ntap-20250418-
 │                       │       │                  │        0010/ 
-│                       │       │                  ├ [180]: https://security.netapp.com/advisory/ntap-20250502-
+│                       │       │                  ├ [179]: https://security.netapp.com/advisory/ntap-20250502-
 │                       │       │                  │        0006 
-│                       │       │                  ├ [181]: https://security.netapp.com/advisory/ntap-20250502-
+│                       │       │                  ├ [180]: https://security.netapp.com/advisory/ntap-20250502-
 │                       │       │                  │        0006/ 
-│                       │       │                  ├ [182]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │       │                  ├ [183]: https://ubuntu.com/security/notices/USN-7278-1 
-│                       │       │                  ├ [184]: https://ubuntu.com/security/notices/USN-7894-1 
-│                       │       │                  ├ [185]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
-│                       │       │                  ╰ [186]: https://www.oracle.com/security-alerts/cpuapr2025.h
-│                       │       │                           tml#AppendixMSQL 
+│                       │       │                  ├ [181]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │       │                  ├ [182]: https://ubuntu.com/security/notices/USN-7278-1 
+│                       │       │                  ├ [183]: https://ubuntu.com/security/notices/USN-7894-1 
+│                       │       │                  ╰ [184]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │       ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [183] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [189] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │       ├ PkgID           : openssl-libs@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.5-2.el9_8?arch=x86_6
@@ -11327,9 +11587,6 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
 │                       │       ├ Fingerprint     : sha256:cf7b5534d238372b387ed668512161827cada0efef68ae42875d
 │                       │       │                   bcc08d6fad67 
-│                       │       ├ Title           : openssl: remote attackers (from the client side) to trigger
-│                       │       │                    unnecessarily expensive server-side DHE
-│                       │       │                   modular-exponentiation calculations 
 │                       │       ├ Description     : Validating the order of the public keys in the
 │                       │       │                   Diffie-Hellman Key Agreement Protocol, when an approved
 │                       │       │                   safe prime is used, allows remote attackers (from the
@@ -11343,28 +11600,19 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ╰ redhat: 1 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-41996 
-│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
-│                       │       │                  │       -089022.html 
-│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
-│                       │       │                  │       -265688.html 
-│                       │       │                  ├ [3] : https://cert-portal.siemens.com/productcert/html/ssa
-│                       │       │                  │       -485750.html 
-│                       │       │                  ├ [4] : https://dheatattack.gitlab.io/details/ 
-│                       │       │                  ├ [5] : https://dheatattack.gitlab.io/faq/ 
-│                       │       │                  ├ [6] : https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a
-│                       │       │                  │       77fa5ca255d1 
-│                       │       │                  ├ [7] : https://github.com/openssl/openssl/issues/17374 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-41996 
-│                       │       │                  ├ [9] : https://openssl-library.org/post/2022-10-21-tls-grou
-│                       │       │                  │       ps-configuration/ 
-│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
+│                       │       ├ References       ╭ [0]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                       │       │                  │      089022.html 
+│                       │       │                  ├ [1]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                       │       │                  │      265688.html 
+│                       │       │                  ├ [2]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                       │       │                  │      485750.html 
+│                       │       │                  ├ [3]: https://dheatattack.gitlab.io/details/ 
+│                       │       │                  ├ [4]: https://dheatattack.gitlab.io/faq/ 
+│                       │       │                  ╰ [5]: https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a7
+│                       │       │                         7fa5ca255d1 
 │                       │       ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T12:17:03.257Z 
-│                       ├ [184] ╭ VulnerabilityID : CVE-2025-9232 
+│                       ├ [190] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │       ├ PkgID           : openssl-libs@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.5-2.el9_8?arch=x86_6
@@ -11380,7 +11628,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9232 
 │                       │       ├ Fingerprint     : sha256:cfd38fbfde6e172262a097b9218f3d80df063a7c08e1ed833961
 │                       │       │                   f1ed957a3689 
-│                       │       ├ Title           : openssl: Out-of-bounds read in HTTP client no_proxy handling 
+│                       │       ├ Title           : Issue summary: An application using the OpenSSL HTTP client
+│                       │       │                    API functi ... 
 │                       │       ├ Description     : Issue summary: An application using the OpenSSL HTTP client
 │                       │       │                    API functions may
 │                       │       │                   trigger an out-of-bounds read if the 'no_proxy' environment
@@ -11423,42 +11672,38 @@
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
-│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 5.9 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 3.1 
+│                       │       ├ CVSS             ─ julia ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │       │                          │           /A:H 
+│                       │       │                          ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/3
 │                       │       │                  │       0/5 
-│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-9232 
-│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  ├ [1] : https://cert-portal.siemens.com/productcert/html/ssa
 │                       │       │                  │       -032379.html 
-│                       │       │                  ├ [3] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  ├ [2] : https://cert-portal.siemens.com/productcert/html/ssa
 │                       │       │                  │       -082556.html 
-│                       │       │                  ├ [4] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  ├ [3] : https://cert-portal.siemens.com/productcert/html/ssa
 │                       │       │                  │       -089022.html 
-│                       │       │                  ├ [5] : https://cert-portal.siemens.com/productcert/html/ssa
+│                       │       │                  ├ [4] : https://cert-portal.siemens.com/productcert/html/ssa
 │                       │       │                  │       -485750.html 
-│                       │       │                  ├ [6] : https://github.com/advisories/GHSA-76r2-c3cg-f5r9 
-│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/2b4ec20e47
+│                       │       │                  ├ [5] : https://github.com/advisories/GHSA-76r2-c3cg-f5r9 
+│                       │       │                  ├ [6] : https://github.com/openssl/openssl/commit/2b4ec20e47
 │                       │       │                  │       959170422922eaff25346d362dcb35 
-│                       │       │                  ├ [8] : https://github.com/openssl/openssl/commit/654dc11d23
+│                       │       │                  ├ [7] : https://github.com/openssl/openssl/commit/654dc11d23
 │                       │       │                  │       468a74fc8ea4672b702dd3feb7be4b 
-│                       │       │                  ├ [9] : https://github.com/openssl/openssl/commit/7cf21a3051
+│                       │       │                  ├ [8] : https://github.com/openssl/openssl/commit/7cf21a3051
 │                       │       │                  │       3c9e43c4bc3836c237cf086e194af3 
-│                       │       │                  ├ [10]: https://github.com/openssl/openssl/commit/89e790ac43
+│                       │       │                  ├ [9] : https://github.com/openssl/openssl/commit/89e790ac43
 │                       │       │                  │       1125a4849992858490bed6b225eadf 
-│                       │       │                  ├ [11]: https://github.com/openssl/openssl/commit/bbf38c034c
+│                       │       │                  ├ [10]: https://github.com/openssl/openssl/commit/bbf38c034c
 │                       │       │                  │       dabd0a13330abcc4855c866f53d2e0 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
-│                       │       │                  ├ [13]: https://openssl-library.org/news/secadv/20250930.txt 
-│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7786-1 
-│                       │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-7894-1 
-│                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
+│                       │       │                  ├ [12]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7894-1 
+│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │       ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:30.117Z 
-│                       ├ [185] ╭ VulnerabilityID : CVE-2026-28387 
+│                       ├ [191] ╭ VulnerabilityID : CVE-2026-28387 
 │                       │       ├ PkgID           : openssl-libs@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.5-2.el9_8?arch=x86_6
@@ -11544,7 +11789,7 @@
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.27Z 
-│                       ├ [186] ╭ VulnerabilityID : CVE-2026-28388 
+│                       ├ [192] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │       ├ PkgID           : openssl-libs@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.5-2.el9_8?arch=x86_6
@@ -11639,7 +11884,7 @@
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.453Z 
-│                       ├ [187] ╭ VulnerabilityID : CVE-2026-28389 
+│                       ├ [193] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │       ├ PkgID           : openssl-libs@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.5-2.el9_8?arch=x86_6
@@ -11725,7 +11970,7 @@
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:33.637Z 
-│                       ├ [188] ╭ VulnerabilityID : CVE-2026-31789 
+│                       ├ [194] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │       ├ PkgID           : openssl-libs@3.5.5-2.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.5-2.el9_8?arch=x86_6
@@ -11812,7 +12057,7 @@
 │                       │       │                          07/11 
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:34.57Z 
-│                       ├ [189] ╭ VulnerabilityID : CVE-2022-41409 
+│                       ├ [195] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │       ├ PkgID           : pcre2@10.40-6.el9.x86_64 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2@10.40-6.el9?arch=x86_64&distro=
@@ -11856,7 +12101,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                       │       ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T07:23:10.577Z 
-│                       ├ [190] ╭ VulnerabilityID : CVE-2022-41409 
+│                       ├ [196] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │       ├ PkgID           : pcre2-syntax@10.40-6.el9.noarch 
 │                       │       ├ PkgName         : pcre2-syntax 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-6.el9?arch=noarch&
@@ -11900,7 +12145,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                       │       ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T07:23:10.577Z 
-│                       ├ [191] ╭ VulnerabilityID : CVE-2023-24056 
+│                       ├ [197] ╭ VulnerabilityID : CVE-2023-24056 
 │                       │       ├ PkgID           : pkgconf@1.7.3-10.el9.x86_64 
 │                       │       ├ PkgName         : pkgconf 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pkgconf@1.7.3-10.el9?arch=x86_64&dist
@@ -11944,7 +12189,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-24056 
 │                       │       ├ PublishedDate   : 2023-01-22T04:15:11.617Z 
 │                       │       ╰ LastModifiedDate: 2025-04-02T16:15:33.967Z 
-│                       ├ [192] ╭ VulnerabilityID : CVE-2023-24056 
+│                       ├ [198] ╭ VulnerabilityID : CVE-2023-24056 
 │                       │       ├ PkgID           : pkgconf-m4@1.7.3-10.el9.noarch 
 │                       │       ├ PkgName         : pkgconf-m4 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pkgconf-m4@1.7.3-10.el9?arch=noarch&d
@@ -11988,7 +12233,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-24056 
 │                       │       ├ PublishedDate   : 2023-01-22T04:15:11.617Z 
 │                       │       ╰ LastModifiedDate: 2025-04-02T16:15:33.967Z 
-│                       ├ [193] ╭ VulnerabilityID : CVE-2023-24056 
+│                       ├ [199] ╭ VulnerabilityID : CVE-2023-24056 
 │                       │       ├ PkgID           : pkgconf-pkg-config@1.7.3-10.el9.x86_64 
 │                       │       ├ PkgName         : pkgconf-pkg-config 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pkgconf-pkg-config@1.7.3-10.el9?arch=
@@ -12032,7 +12277,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-24056 
 │                       │       ├ PublishedDate   : 2023-01-22T04:15:11.617Z 
 │                       │       ╰ LastModifiedDate: 2025-04-02T16:15:33.967Z 
-│                       ├ [194] ╭ VulnerabilityID : CVE-2025-11468 
+│                       ├ [200] ╭ VulnerabilityID : CVE-2025-11468 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -12091,7 +12336,7 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-11468 
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.69Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [195] ╭ VulnerabilityID : CVE-2025-12781 
+│                       ├ [201] ╭ VulnerabilityID : CVE-2025-12781 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -12166,7 +12411,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-12781 
 │                       │       ├ PublishedDate   : 2026-01-21T20:16:04.423Z 
 │                       │       ╰ LastModifiedDate: 2026-02-02T17:25:23.933Z 
-│                       ├ [196] ╭ VulnerabilityID : CVE-2025-13837 
+│                       ├ [202] ╭ VulnerabilityID : CVE-2025-13837 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -12182,7 +12427,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13837 
 │                       │       ├ Fingerprint     : sha256:8f437b73117129a79675b5559d90e3570864ef3c5a9b81223b0a
 │                       │       │                   7f32f2e2d35a 
-│                       │       ├ Title           : cpython: Out-of-memory when loading Plist 
+│                       │       ├ Title           : When loading a plist file, the plistlib module reads data
+│                       │       │                   in size spec ... 
 │                       │       ├ Description     : When loading a plist file, the plistlib module reads data
 │                       │       │                   in size specified by the file itself, meaning a malicious
 │                       │       │                   file can cause OOM and DoS issues 
@@ -12201,22 +12447,19 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:
 │                       │       │                  │         │            N/VI:N/VA:L/SC:N/SI:L/SA:N 
 │                       │       │                  │         ╰ V40Score : 2.1 
-│                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
-│                       │       │                  │         │           :N/A:H 
-│                       │       │                  │         ╰ V3Score : 5.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I
+│                       │       │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
 │                       │       │                            │           :N/A:H 
-│                       │       │                            ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:10950 
-│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-13837 
-│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2418084 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2431366 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2431374 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2444691 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448168 
-│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448181 
+│                       │       │                            ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://bugzilla.redhat.com/2395108 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2408891 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2418084 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2431366 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2431374 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2444691 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2448168 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448181 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2449649 
 │                       │       │                  ├ [10]: https://bugzilla.redhat.com/2457409 
 │                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457932 
 │                       │       │                  ├ [12]: https://bugzilla.redhat.com/2458049 
@@ -12253,7 +12496,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [35]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
+│                       │       │                  ├ [35]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
 │                       │       │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:10950 
 │                       │       │                  ├ [37]: https://github.com/python/cpython/commit/568342cfc8f
 │                       │       │                  │       002d9a15f30238f26b9d2e0e79036 
@@ -12279,7 +12522,7 @@
 │                       │       │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2025-13837 
 │                       │       ├ PublishedDate   : 2025-12-01T18:16:04.38Z 
 │                       │       ╰ LastModifiedDate: 2026-03-03T15:16:14.483Z 
-│                       ├ [197] ╭ VulnerabilityID : CVE-2025-15282 
+│                       ├ [203] ╭ VulnerabilityID : CVE-2025-15282 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -12316,7 +12559,7 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
 │                       │       │                            ╰ V3Score : 4.8 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-15282 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
@@ -12326,70 +12569,71 @@
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
 │                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
+│                       │       │                  │       025-13837 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
+│                       │       │                  │       025-15282 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
+│                       │       │                  │       025-59375 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
+│                       │       │                  │       025-6075 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
+│                       │       │                  │       026-0672 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
+│                       │       │                  │       026-1502 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
+│                       │       │                  │       026-2297 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
+│                       │       │                  │       026-3644 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
+│                       │       │                  │       026-4224 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [35]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [37]: https://github.com/python/cpython/commit/05356b1cc15
+│                       │       │                  ├ [36]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/05356b1cc15
 │                       │       │                  │       3108aaf27f3b72ce438af4aa218c0 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/34d76b00dab
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/34d76b00dab
 │                       │       │                  │       de81a793bd06dd8ecb057838c4b38 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/3f396ca9d7b
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/3f396ca9d7b
 │                       │       │                  │       be2a50ea6b8c9b27c0082884d9f80 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/4ed11d3cd28
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/4ed11d3cd28
 │                       │       │                  │       8e6b90196a15c5a825a45d318fe47 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/a35ca3be584
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/a35ca3be584
 │                       │       │                  │       2505dab74dc0b90b89cde0405017a 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/f25509e78e8
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/f25509e78e8
 │                       │       │                  │       be6ea73c811ac2b8c928c28841b9f 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/issues/143925 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/pull/143926 
-│                       │       │                  ├ [45]: https://linux.oracle.com/cve/CVE-2025-15282.html 
-│                       │       │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [47]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [44]: https://github.com/python/cpython/issues/143925 
+│                       │       │                  ├ [45]: https://github.com/python/cpython/pull/143926 
+│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-15282.html 
+│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [48]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/X66HL7SISGJT33J53OHXMZT4DFLMHV
 │                       │       │                  │       KF/ 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-15282 
-│                       │       │                  ├ [49]: https://ubuntu.com/security/notices/USN-8018-1 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-8018-3 
-│                       │       │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-15282 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-15282 
+│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-8018-1 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-8018-3 
+│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-15282 
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.883Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [198] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [204] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -12405,7 +12649,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
 │                       │       ├ Fingerprint     : sha256:c3315036f981279b47d0a8330fdcb7a56bd006e5f6eb8d170531
 │                       │       │                   00bd5492f519 
-│                       │       ├ Title           : cpython: python: CPython DecodeError Handling Vulnerability 
+│                       │       ├ Title           : There is an issue in CPython when using
+│                       │       │                   `bytes.decode("unicode_escape" ... 
 │                       │       ├ Description     : There is an issue in CPython when using
 │                       │       │                   `bytes.decode("unicode_escape", error="ignore|replace")`.
 │                       │       │                   If you are not using the "unicode_escape" encoding or an
@@ -12424,99 +12669,95 @@
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:H/AT:P/PR:N/UI:N/VC:
-│                       │       │                  │         │            N/VI:N/VA:H/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 5.9 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I
-│                       │       │                            │           :N/A:H 
-│                       │       │                            ╰ V3Score : 5.1 
+│                       │       ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:H/AT:P/PR:N/UI:N/VC:
+│                       │       │                            │            N/VI:N/VA:H/SC:N/SI:N/SA:N 
+│                       │       │                            ╰ V40Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/1
 │                       │       │                  │       6/4 
 │                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/1
 │                       │       │                  │       9/1 
 │                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:23530 
-│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-4516 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2294682 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2321440 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2325776 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2343237 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2366509 
-│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2370010 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2370014 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2370016 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2372426 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2373234 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2402342 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/2408891 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2294682 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2325776 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2343237 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2366509 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2370010 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2370014 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2370016 
-│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2372426 
-│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2373234 
-│                       │       │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2402342 
-│                       │       │                  ├ [27]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2294682 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2321440 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2325776 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2343237 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2366509 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2370010 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2370014 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2370016 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2372426 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2373234 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2402342 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2408891 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2294682 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2325776 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2343237 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2366509 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2370010 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2370014 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2370016 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2372426 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2373234 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2402342 
+│                       │       │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-11168 
-│                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-5642 
-│                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-9287 
-│                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-0938 
-│                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4138 
-│                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4330 
-│                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4435 
-│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4516 
-│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4517 
-│                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-6069 
-│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-6075 
-│                       │       │                  ├ [39]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-8291 
-│                       │       │                  ├ [40]: https://errata.almalinux.org/8/ALSA-2025-23530.html 
-│                       │       │                  ├ [41]: https://errata.rockylinux.org/RLSA-2025:23530 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/4398b788ffc
+│                       │       │                  ├ [39]: https://errata.almalinux.org/8/ALSA-2025-23530.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2025:23530 
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/4398b788ffc
 │                       │       │                  │       1f954a2c552da285477d42a571292 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/56466486782
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/56466486782
 │                       │       │                  │       95a44aa82636c6e92826651baf33a 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/commit/6279eb8c076
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/6279eb8c076
 │                       │       │                  │       d89d3739a6edb393e43c7929b429d 
-│                       │       │                  ├ [45]: https://github.com/python/cpython/commit/69b4387f78f
+│                       │       │                  ├ [44]: https://github.com/python/cpython/commit/69b4387f78f
 │                       │       │                  │       413e8c47572a85b3478c47eba8142 
-│                       │       │                  ├ [46]: https://github.com/python/cpython/commit/73b3040f592
+│                       │       │                  ├ [45]: https://github.com/python/cpython/commit/73b3040f592
 │                       │       │                  │       436385007918887b7e2132aa8431f 
-│                       │       │                  ├ [47]: https://github.com/python/cpython/commit/8d35fd1b349
+│                       │       │                  ├ [46]: https://github.com/python/cpython/commit/8d35fd1b349
 │                       │       │                  │       35221aff23a1ab69a429dd156be77 
-│                       │       │                  ├ [48]: https://github.com/python/cpython/commit/9f69a58623b
+│                       │       │                  ├ [47]: https://github.com/python/cpython/commit/9f69a58623b
 │                       │       │                  │       d01349a18ba0c7a9cb1dad6a51e8e 
-│                       │       │                  ├ [49]: https://github.com/python/cpython/commit/9f69a58623b
+│                       │       │                  ├ [48]: https://github.com/python/cpython/commit/9f69a58623b
 │                       │       │                  │       d01349a18ba0c7a9cb1dad6a51e8e (main) 
-│                       │       │                  ├ [50]: https://github.com/python/cpython/commit/ab9893c4060
+│                       │       │                  ├ [49]: https://github.com/python/cpython/commit/ab9893c4060
 │                       │       │                  │       9935e0d40a6d2a7307ea51aec598b 
-│                       │       │                  ├ [51]: https://github.com/python/cpython/issues/133767 
-│                       │       │                  ├ [52]: https://github.com/python/cpython/pull/129648 
-│                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2025-4516.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2025-23530.html 
-│                       │       │                  ├ [55]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [50]: https://github.com/python/cpython/issues/133767 
+│                       │       │                  ├ [51]: https://github.com/python/cpython/pull/129648 
+│                       │       │                  ├ [52]: https://linux.oracle.com/cve/CVE-2025-4516.html 
+│                       │       │                  ├ [53]: https://linux.oracle.com/errata/ELSA-2025-23530.html 
+│                       │       │                  ├ [54]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY
 │                       │       │                  │       74/ 
-│                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
-│                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-7570-1 
-│                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
+│                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │       │                  ├ [56]: https://ubuntu.com/security/notices/USN-7570-1 
+│                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [199] ╭ VulnerabilityID : CVE-2026-0672 
+│                       ├ [205] ╭ VulnerabilityID : CVE-2026-0672 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -12555,7 +12796,7 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
 │                       │       │                            ╰ V3Score : 4.8 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-0672 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
@@ -12565,114 +12806,7 @@
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
-│                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
-│                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
-│                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
-│                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
-│                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
-│                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
-│                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
-│                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
-│                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-6100 
-│                       │       │                  ├ [35]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [37]: https://github.com/python/cpython/commit/62700107418
-│                       │       │                  │       eb2cca3fc88da036a243ea975f172 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/712452e6f1d
-│                       │       │                  │       4b9f7f8c4c92ebfcaac1705faa440 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/7852d72b653
-│                       │       │                  │       fea0199acf5fc2a84f6f8b84eba8d 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/918387e4912
-│                       │       │                  │       d12ffc166c8f2a38df92b6ec756ca 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/95746b3a13a
-│                       │       │                  │       985787ef53b977129041971ed7f70 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/b1869ff648b
-│                       │       │                  │       bee0717221d09e6deff46617f3e85 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/issues/143919 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/pull/143920 
-│                       │       │                  ├ [45]: https://linux.oracle.com/cve/CVE-2026-0672.html 
-│                       │       │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [47]: https://mail.python.org/archives/list/security-annou
-│                       │       │                  │       nce@python.org/thread/6VFLQQEIX673KXKFUZXCUNE5AZOGZ4
-│                       │       │                  │       5M/ 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2026-0672 
-│                       │       │                  ├ [49]: https://ubuntu.com/security/notices/USN-8018-1 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-8018-3 
-│                       │       │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-0672 
-│                       │       ├ PublishedDate   : 2026-01-20T22:15:52.68Z 
-│                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [200] ╭ VulnerabilityID : CVE-2026-1502 
-│                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
-│                       │       ├ PkgName         : python-unversioned-command 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
-│                       │       │                  │       l9_8?arch=noarch&distro=redhat-9.8 
-│                       │       │                  ╰ UID : 639b1e9ece0d59db 
-│                       │       ├ InstalledVersion: 3.9.25-7.el9_8 
-│                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
-│                       │       │                  │         17452c5d079b445284f6b 
-│                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
-│                       │       │                            cb53f08109547def80414 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1502 
-│                       │       ├ Fingerprint     : sha256:820ce63c71e961f74f148afa19f26ef8812a126d21ddc51d3ee9
-│                       │       │                   1d68c4d93b2f 
-│                       │       ├ Title           : python: Python: HTTP header injection via CR/LF in proxy
-│                       │       │                   tunnel headers 
-│                       │       ├ Description     : CR/LF bytes were not rejected by HTTP client proxy tunnel
-│                       │       │                   headers or host. 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs           ─ [0]: CWE-93 
-│                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ bitnami    : 2 
-│                       │       │                  ├ oracle-oval: 3 
-│                       │       │                  ├ redhat     : 2 
-│                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:P/VC:
-│                       │       │                  │         │            N/VI:H/VA:N/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 5.7 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I
-│                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 4.5 
-│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/04/1
-│                       │       │                  │       1/4 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:10950 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-1502 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2418084 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2431366 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2431374 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2444691 
-│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448168 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2448181 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2449649 
 │                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
 │                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
 │                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
@@ -12709,24 +12843,133 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [36]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
+│                       │       │                  ├ [36]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
 │                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/05ed7ce7ae9
+│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/62700107418
+│                       │       │                  │       eb2cca3fc88da036a243ea975f172 
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/712452e6f1d
+│                       │       │                  │       4b9f7f8c4c92ebfcaac1705faa440 
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/7852d72b653
+│                       │       │                  │       fea0199acf5fc2a84f6f8b84eba8d 
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/918387e4912
+│                       │       │                  │       d12ffc166c8f2a38df92b6ec756ca 
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/95746b3a13a
+│                       │       │                  │       985787ef53b977129041971ed7f70 
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/b1869ff648b
+│                       │       │                  │       bee0717221d09e6deff46617f3e85 
+│                       │       │                  ├ [44]: https://github.com/python/cpython/issues/143919 
+│                       │       │                  ├ [45]: https://github.com/python/cpython/pull/143920 
+│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2026-0672.html 
+│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [48]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/6VFLQQEIX673KXKFUZXCUNE5AZOGZ4
+│                       │       │                  │       5M/ 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2026-0672 
+│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-8018-1 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-8018-3 
+│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-0672 
+│                       │       ├ PublishedDate   : 2026-01-20T22:15:52.68Z 
+│                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
+│                       ├ [206] ╭ VulnerabilityID : CVE-2026-1502 
+│                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
+│                       │       ├ PkgName         : python-unversioned-command 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
+│                       │       │                  │       l9_8?arch=noarch&distro=redhat-9.8 
+│                       │       │                  ╰ UID : 639b1e9ece0d59db 
+│                       │       ├ InstalledVersion: 3.9.25-7.el9_8 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
+│                       │       │                  │         17452c5d079b445284f6b 
+│                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
+│                       │       │                            cb53f08109547def80414 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1502 
+│                       │       ├ Fingerprint     : sha256:820ce63c71e961f74f148afa19f26ef8812a126d21ddc51d3ee9
+│                       │       │                   1d68c4d93b2f 
+│                       │       ├ Title           : python: Python: HTTP header injection via CR/LF in proxy
+│                       │       │                   tunnel headers 
+│                       │       ├ Description     : CR/LF bytes were not rejected by HTTP client proxy tunnel
+│                       │       │                   headers or host. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-93 
+│                       │       ├ VendorSeverity   ╭ alma       : 3 
+│                       │       │                  ├ bitnami    : 2 
+│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ rocky      : 3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:P/VC:
+│                       │       │                  │         │            N/VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 5.7 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 4.5 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/04/1
+│                       │       │                  │       1/4 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-1502 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2418084 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2431366 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2431374 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2444691 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448168 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2448181 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
+│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       025-13837 
+│                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       025-15282 
+│                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       025-59375 
+│                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       025-6075 
+│                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-0672 
+│                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-1502 
+│                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-2297 
+│                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-3644 
+│                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4224 
+│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-6100 
+│                       │       │                  ├ [37]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [38]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/05ed7ce7ae9
 │                       │       │                  │       e17c23a04085b2539fe6d6d3cef69 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/b1cf9016335
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/b1cf9016335
 │                       │       │                  │       cb637c5a425032e8274a224f4b2ed 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/issues/146211 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/pull/146212 
-│                       │       │                  ├ [42]: https://linux.oracle.com/cve/CVE-2026-1502.html 
-│                       │       │                  ├ [43]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [44]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [41]: https://github.com/python/cpython/issues/146211 
+│                       │       │                  ├ [42]: https://github.com/python/cpython/pull/146212 
+│                       │       │                  ├ [43]: https://linux.oracle.com/cve/CVE-2026-1502.html 
+│                       │       │                  ├ [44]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [45]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/2IVPAEQWUJBCTQZEJEVTYCIKSMQPGR
 │                       │       │                  │       Z3/ 
-│                       │       │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2026-1502 
-│                       │       │                  ╰ [46]: https://www.cve.org/CVERecord?id=CVE-2026-1502 
+│                       │       │                  ├ [46]: https://nvd.nist.gov/vuln/detail/CVE-2026-1502 
+│                       │       │                  ╰ [47]: https://www.cve.org/CVERecord?id=CVE-2026-1502 
 │                       │       ├ PublishedDate   : 2026-04-10T18:16:40.97Z 
 │                       │       ╰ LastModifiedDate: 2026-05-10T21:16:28.247Z 
-│                       ├ [201] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [207] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -12762,7 +13005,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.4 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-3644 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
@@ -12772,62 +13015,63 @@
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
 │                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
+│                       │       │                  │       025-13837 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
+│                       │       │                  │       025-15282 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
+│                       │       │                  │       025-59375 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
+│                       │       │                  │       025-6075 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
+│                       │       │                  │       026-0672 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
+│                       │       │                  │       026-1502 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
+│                       │       │                  │       026-2297 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
+│                       │       │                  │       026-3644 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
+│                       │       │                  │       026-4224 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [35]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [37]: https://github.com/python/cpython/commit/57e88c1cf95
+│                       │       │                  ├ [36]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/57e88c1cf95
 │                       │       │                  │       e1481b94ae57abe1010469d47a6b4 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/62ceb396fcb
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/62ceb396fcb
 │                       │       │                  │       e69da1ded3702de586f4072b590dd 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/d16ecc6c362
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/d16ecc6c362
 │                       │       │                  │       6f0e2cc8f08c309c83934e8a979dd 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/issues/145599 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/pull/145600 
-│                       │       │                  ├ [42]: https://linux.oracle.com/cve/CVE-2026-3644.html 
-│                       │       │                  ├ [43]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [44]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [41]: https://github.com/python/cpython/issues/145599 
+│                       │       │                  ├ [42]: https://github.com/python/cpython/pull/145600 
+│                       │       │                  ├ [43]: https://linux.oracle.com/cve/CVE-2026-3644.html 
+│                       │       │                  ├ [44]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [45]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/H6CADMBCDRFGWCMOXWUIHFJNV43GAB
 │                       │       │                  │       J7/ 
-│                       │       │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2026-3644 
-│                       │       │                  ╰ [46]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
+│                       │       │                  ├ [46]: https://nvd.nist.gov/vuln/detail/CVE-2026-3644 
+│                       │       │                  ╰ [47]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-03-17T14:20:01.67Z 
-│                       ├ [202] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [208] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -12867,7 +13111,7 @@
 │                       │       │                            ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/1
 │                       │       │                  │       6/4 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-4224 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -12877,66 +13121,67 @@
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [10]: https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
+│                       │       │                  │       025-13837 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
+│                       │       │                  │       025-15282 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
+│                       │       │                  │       025-59375 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
+│                       │       │                  │       025-6075 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
+│                       │       │                  │       026-0672 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
+│                       │       │                  │       026-1502 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
+│                       │       │                  │       026-2297 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
+│                       │       │                  │       026-3644 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
+│                       │       │                  │       026-4224 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [36]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/196edfb06a7
+│                       │       │                  ├ [37]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [38]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/196edfb06a7
 │                       │       │                  │       458377d4d0f4b3cd41724c1f3bd4a 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/642865ddf4b
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/642865ddf4b
 │                       │       │                  │       232da1f3b1f7abcfa3254c4bfe785 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/af856a71773
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/af856a71773
 │                       │       │                  │       26ac25d9f66cc6dd28b554d914fee 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/e0a8a6da905
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/e0a8a6da905
 │                       │       │                  │       97a924b300debe045cdb4628ee1f3 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/eb0e8be3a7e
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/eb0e8be3a7e
 │                       │       │                  │       11b87d198a2c3af1ed0eccf532768 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/issues/145986 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/pull/145987 
-│                       │       │                  ├ [45]: https://linux.oracle.com/cve/CVE-2026-4224.html 
-│                       │       │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [47]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [44]: https://github.com/python/cpython/issues/145986 
+│                       │       │                  ├ [45]: https://github.com/python/cpython/pull/145987 
+│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2026-4224.html 
+│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [48]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/5M7CGUW3XBRY7II4DK43KF7NQQ3TPZ
 │                       │       │                  │       6R/ 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2026-4224 
-│                       │       │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2026-4224 
+│                       │       │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-04-08T13:16:41.977Z 
-│                       ├ [203] ╭ VulnerabilityID : CVE-2026-42308 
+│                       ├ [209] ╭ VulnerabilityID : CVE-2026-42308 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -12961,7 +13206,8 @@
 │                       │       │                   has been patched in version 12.2.0. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ ghsa   : 2 
 │                       │       │                  ├ nvd    : 2 
 │                       │       │                  ╰ redhat : 2 
@@ -12990,7 +13236,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-42308 
 │                       │       ├ PublishedDate   : 2026-05-09T06:16:09.793Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T17:57:20.027Z 
-│                       ├ [204] ╭ VulnerabilityID : CVE-2026-5713 
+│                       ├ [210] ╭ VulnerabilityID : CVE-2026-5713 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -13021,7 +13267,8 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ╭ [0]: CWE-121 
 │                       │       │                  ╰ [1]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ alma   : 3 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ╰ redhat : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:H/AT:P/PR:H/UI:A/VC:
 │                       │       │                  │         │            H/VI:H/VA:N/SC:N/SI:N/SA:N 
@@ -13029,20 +13276,32 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I
 │                       │       │                            │           :H/A:N 
 │                       │       │                            ╰ V3Score : 6 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/04/15/6 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-5713 
-│                       │       │                  ├ [2]: https://github.com/python/cpython/commit/289fd2c97a7e
-│                       │       │                  │      5aecb8b69f94f5e838ccfeee7e67 
-│                       │       │                  ├ [3]: https://github.com/python/cpython/issues/148178 
-│                       │       │                  ├ [4]: https://github.com/python/cpython/pull/148187 
-│                       │       │                  ├ [5]: https://mail.python.org/archives/list/security-announ
-│                       │       │                  │      ce@python.org/thread/OG4RHARYSNIE22GGOMVMCRH76L5HKPLM
-│                       │       │                  │      / 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-5713 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-5713 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/04/1
+│                       │       │                  │       5/6 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19176 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-5713 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2431367 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2444691 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2448168 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2448181 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2458239 
+│                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-19176.html 
+│                       │       │                  ├ [13]: https://github.com/python/cpython/commit/289fd2c97a7
+│                       │       │                  │       e5aecb8b69f94f5e838ccfeee7e67 
+│                       │       │                  ├ [14]: https://github.com/python/cpython/issues/148178 
+│                       │       │                  ├ [15]: https://github.com/python/cpython/pull/148187 
+│                       │       │                  ├ [16]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/OG4RHARYSNIE22GGOMVMCRH76L5HKP
+│                       │       │                  │       LM/ 
+│                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-5713 
+│                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-5713 
 │                       │       ├ PublishedDate   : 2026-04-14T16:16:48.717Z 
 │                       │       ╰ LastModifiedDate: 2026-04-17T15:11:35.84Z 
-│                       ├ [205] ╭ VulnerabilityID : CVE-2026-6019 
+│                       ├ [211] ╭ VulnerabilityID : CVE-2026-6019 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -13097,7 +13356,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-6019 
 │                       │       ├ PublishedDate   : 2026-04-22T20:16:42.617Z 
 │                       │       ╰ LastModifiedDate: 2026-05-18T17:08:04.33Z 
-│                       ├ [206] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [212] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -13113,8 +13372,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1795 
 │                       │       ├ Fingerprint     : sha256:2ba1080d0e0fea1fa9e974e733ba8687a380963f61c1f9434e9d
 │                       │       │                   db840b480a95 
-│                       │       ├ Title           : python: Mishandling of comma during folding and
-│                       │       │                   unicode-encoding of email headers 
+│                       │       ├ Title           : During an address list folding when a separating comma ends
+│                       │       │                    up on a fo ... 
 │                       │       ├ Description     : During an address list folding when a separating comma ends
 │                       │       │                    up on a folded line and that line is to be unicode-encoded
 │                       │       │                    then the separator itself is also unicode-encoded.
@@ -13129,37 +13388,33 @@
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:
-│                       │       │                  │         │            L/VI:N/VA:N/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 2.3 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I
-│                       │       │                            │           :N/A:N 
-│                       │       │                            ╰ V3Score : 3.1 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-1795 
-│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/09fab93c3d8
+│                       │       ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:
+│                       │       │                            │            L/VI:N/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                            ╰ V40Score : 2.3 
+│                       │       ├ References       ╭ [0] : https://github.com/python/cpython/commit/09fab93c3d8
 │                       │       │                  │       57496c0bd162797fab816c311ee48 
-│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/70754d21c28
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/70754d21c28
 │                       │       │                  │       8535e86070ca7a6e90dcb670b8593 
-│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/9148b77e0af
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/9148b77e0af
 │                       │       │                  │       91cdacaa7fe3dfac09635c3fe9a74 
-│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/a4ef689ce67
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/a4ef689ce67
 │                       │       │                  │       0684ec132204b1cd03720c8e0a03d 
-│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/d4df3c55e4c
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/d4df3c55e4c
 │                       │       │                  │       5513947f907f24766b34d2ae8c090 
-│                       │       │                  ├ [6] : https://github.com/python/cpython/issues/100884 
-│                       │       │                  ├ [7] : https://github.com/python/cpython/pull/100885 
-│                       │       │                  ├ [8] : https://github.com/python/cpython/pull/119099 
-│                       │       │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/03
+│                       │       │                  ├ [5] : https://github.com/python/cpython/issues/100884 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/pull/100885 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/pull/119099 
+│                       │       │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/03
 │                       │       │                  │       /msg00013.html 
-│                       │       │                  ├ [10]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [9] : https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4Z
 │                       │       │                  │       UR/ 
-│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-1795 
-│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7570-1 
-│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
+│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-1795 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7570-1 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
 │                       │       ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [207] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [213] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -13194,7 +13449,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -13204,63 +13459,64 @@
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [10]: https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
+│                       │       │                  │       025-13837 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
+│                       │       │                  │       025-15282 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
+│                       │       │                  │       025-59375 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
+│                       │       │                  │       025-6075 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
+│                       │       │                  │       026-0672 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
+│                       │       │                  │       026-1502 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
+│                       │       │                  │       026-2297 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
+│                       │       │                  │       026-3644 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
+│                       │       │                  │       026-4224 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [36]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/482d6f8bdba
+│                       │       │                  ├ [37]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [38]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/69ddd9bb2cc
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/69ddd9bb2cc
 │                       │       │                  │       4bd69b1565647c18659c6a789ccd9 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/876858c9f65
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/876858c9f65
 │                       │       │                  │       d9ab656c7fa639f268ce7856d89dd 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/a51b1b512de
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/a51b1b512de
 │                       │       │                  │       1d56b3714b65628a2eae2b07e535e 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/e58e9802b9b
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/e58e9802b9b
 │                       │       │                  │       ec5cdbf48fc9bf1da5f4fda482e86 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/issues/145506 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/pull/145507 
-│                       │       │                  ├ [45]: https://linux.oracle.com/cve/CVE-2026-2297.html 
-│                       │       │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [47]: https://nvd.nist.gov/vuln/detail/CVE-2026-2297 
-│                       │       │                  ╰ [48]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
+│                       │       │                  ├ [44]: https://github.com/python/cpython/issues/145506 
+│                       │       │                  ├ [45]: https://github.com/python/cpython/pull/145507 
+│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2026-2297.html 
+│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2026-2297 
+│                       │       │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T16:16:30.11Z 
-│                       ├ [208] ╭ VulnerabilityID : CVE-2026-3479 
+│                       ├ [214] ╭ VulnerabilityID : CVE-2026-3479 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -13312,7 +13568,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3479 
 │                       │       ├ PublishedDate   : 2026-03-18T19:16:06.81Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:16:46.74Z 
-│                       ├ [209] ╭ VulnerabilityID : CVE-2025-11468 
+│                       ├ [215] ╭ VulnerabilityID : CVE-2025-11468 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -13371,7 +13627,7 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-11468 
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.69Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [210] ╭ VulnerabilityID : CVE-2025-12781 
+│                       ├ [216] ╭ VulnerabilityID : CVE-2025-12781 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -13446,7 +13702,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-12781 
 │                       │       ├ PublishedDate   : 2026-01-21T20:16:04.423Z 
 │                       │       ╰ LastModifiedDate: 2026-02-02T17:25:23.933Z 
-│                       ├ [211] ╭ VulnerabilityID : CVE-2025-13837 
+│                       ├ [217] ╭ VulnerabilityID : CVE-2025-13837 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -13462,7 +13718,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13837 
 │                       │       ├ Fingerprint     : sha256:bd8745baaa08a7eb3ac6a621f13ff4d87de33202dc7adc723949
 │                       │       │                   f7f931773d8c 
-│                       │       ├ Title           : cpython: Out-of-memory when loading Plist 
+│                       │       ├ Title           : When loading a plist file, the plistlib module reads data
+│                       │       │                   in size spec ... 
 │                       │       ├ Description     : When loading a plist file, the plistlib module reads data
 │                       │       │                   in size specified by the file itself, meaning a malicious
 │                       │       │                   file can cause OOM and DoS issues 
@@ -13481,22 +13738,19 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:
 │                       │       │                  │         │            N/VI:N/VA:L/SC:N/SI:L/SA:N 
 │                       │       │                  │         ╰ V40Score : 2.1 
-│                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
-│                       │       │                  │         │           :N/A:H 
-│                       │       │                  │         ╰ V3Score : 5.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I
+│                       │       │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
 │                       │       │                            │           :N/A:H 
-│                       │       │                            ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:10950 
-│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-13837 
-│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2418084 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2431366 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2431374 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2444691 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448168 
-│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448181 
+│                       │       │                            ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://bugzilla.redhat.com/2395108 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2408891 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2418084 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2431366 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2431374 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2444691 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2448168 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448181 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2449649 
 │                       │       │                  ├ [10]: https://bugzilla.redhat.com/2457409 
 │                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457932 
 │                       │       │                  ├ [12]: https://bugzilla.redhat.com/2458049 
@@ -13533,7 +13787,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [35]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
+│                       │       │                  ├ [35]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
 │                       │       │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:10950 
 │                       │       │                  ├ [37]: https://github.com/python/cpython/commit/568342cfc8f
 │                       │       │                  │       002d9a15f30238f26b9d2e0e79036 
@@ -13559,7 +13813,7 @@
 │                       │       │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2025-13837 
 │                       │       ├ PublishedDate   : 2025-12-01T18:16:04.38Z 
 │                       │       ╰ LastModifiedDate: 2026-03-03T15:16:14.483Z 
-│                       ├ [212] ╭ VulnerabilityID : CVE-2025-15282 
+│                       ├ [218] ╭ VulnerabilityID : CVE-2025-15282 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -13596,7 +13850,7 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
 │                       │       │                            ╰ V3Score : 4.8 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-15282 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
@@ -13606,70 +13860,71 @@
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
 │                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
+│                       │       │                  │       025-13837 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
+│                       │       │                  │       025-15282 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
+│                       │       │                  │       025-59375 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
+│                       │       │                  │       025-6075 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
+│                       │       │                  │       026-0672 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
+│                       │       │                  │       026-1502 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
+│                       │       │                  │       026-2297 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
+│                       │       │                  │       026-3644 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
+│                       │       │                  │       026-4224 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [35]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [37]: https://github.com/python/cpython/commit/05356b1cc15
+│                       │       │                  ├ [36]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/05356b1cc15
 │                       │       │                  │       3108aaf27f3b72ce438af4aa218c0 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/34d76b00dab
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/34d76b00dab
 │                       │       │                  │       de81a793bd06dd8ecb057838c4b38 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/3f396ca9d7b
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/3f396ca9d7b
 │                       │       │                  │       be2a50ea6b8c9b27c0082884d9f80 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/4ed11d3cd28
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/4ed11d3cd28
 │                       │       │                  │       8e6b90196a15c5a825a45d318fe47 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/a35ca3be584
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/a35ca3be584
 │                       │       │                  │       2505dab74dc0b90b89cde0405017a 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/f25509e78e8
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/f25509e78e8
 │                       │       │                  │       be6ea73c811ac2b8c928c28841b9f 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/issues/143925 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/pull/143926 
-│                       │       │                  ├ [45]: https://linux.oracle.com/cve/CVE-2025-15282.html 
-│                       │       │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [47]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [44]: https://github.com/python/cpython/issues/143925 
+│                       │       │                  ├ [45]: https://github.com/python/cpython/pull/143926 
+│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-15282.html 
+│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [48]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/X66HL7SISGJT33J53OHXMZT4DFLMHV
 │                       │       │                  │       KF/ 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-15282 
-│                       │       │                  ├ [49]: https://ubuntu.com/security/notices/USN-8018-1 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-8018-3 
-│                       │       │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-15282 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-15282 
+│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-8018-1 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-8018-3 
+│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-15282 
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.883Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [213] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [219] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -13685,7 +13940,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
 │                       │       ├ Fingerprint     : sha256:fcef5ed283e15811dff89d38769bae39e2291e793809f4a3a98a
 │                       │       │                   951a99680e74 
-│                       │       ├ Title           : cpython: python: CPython DecodeError Handling Vulnerability 
+│                       │       ├ Title           : There is an issue in CPython when using
+│                       │       │                   `bytes.decode("unicode_escape" ... 
 │                       │       ├ Description     : There is an issue in CPython when using
 │                       │       │                   `bytes.decode("unicode_escape", error="ignore|replace")`.
 │                       │       │                   If you are not using the "unicode_escape" encoding or an
@@ -13704,99 +13960,95 @@
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:H/AT:P/PR:N/UI:N/VC:
-│                       │       │                  │         │            N/VI:N/VA:H/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 5.9 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I
-│                       │       │                            │           :N/A:H 
-│                       │       │                            ╰ V3Score : 5.1 
+│                       │       ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:H/AT:P/PR:N/UI:N/VC:
+│                       │       │                            │            N/VI:N/VA:H/SC:N/SI:N/SA:N 
+│                       │       │                            ╰ V40Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/1
 │                       │       │                  │       6/4 
 │                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/1
 │                       │       │                  │       9/1 
 │                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:23530 
-│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-4516 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2294682 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2321440 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2325776 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2343237 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2366509 
-│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2370010 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2370014 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2370016 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2372426 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2373234 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2402342 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/2408891 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2294682 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2325776 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2343237 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2366509 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2370010 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2370014 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2370016 
-│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2372426 
-│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2373234 
-│                       │       │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2402342 
-│                       │       │                  ├ [27]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2294682 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2321440 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2325776 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2343237 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2366509 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2370010 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2370014 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2370016 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2372426 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2373234 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2402342 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2408891 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2294682 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2325776 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2343237 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2366509 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2370010 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2370014 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2370016 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2372426 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2373234 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2402342 
+│                       │       │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-11168 
-│                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-5642 
-│                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-9287 
-│                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-0938 
-│                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4138 
-│                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4330 
-│                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4435 
-│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4516 
-│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4517 
-│                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-6069 
-│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-6075 
-│                       │       │                  ├ [39]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-8291 
-│                       │       │                  ├ [40]: https://errata.almalinux.org/8/ALSA-2025-23530.html 
-│                       │       │                  ├ [41]: https://errata.rockylinux.org/RLSA-2025:23530 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/4398b788ffc
+│                       │       │                  ├ [39]: https://errata.almalinux.org/8/ALSA-2025-23530.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2025:23530 
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/4398b788ffc
 │                       │       │                  │       1f954a2c552da285477d42a571292 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/56466486782
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/56466486782
 │                       │       │                  │       95a44aa82636c6e92826651baf33a 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/commit/6279eb8c076
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/6279eb8c076
 │                       │       │                  │       d89d3739a6edb393e43c7929b429d 
-│                       │       │                  ├ [45]: https://github.com/python/cpython/commit/69b4387f78f
+│                       │       │                  ├ [44]: https://github.com/python/cpython/commit/69b4387f78f
 │                       │       │                  │       413e8c47572a85b3478c47eba8142 
-│                       │       │                  ├ [46]: https://github.com/python/cpython/commit/73b3040f592
+│                       │       │                  ├ [45]: https://github.com/python/cpython/commit/73b3040f592
 │                       │       │                  │       436385007918887b7e2132aa8431f 
-│                       │       │                  ├ [47]: https://github.com/python/cpython/commit/8d35fd1b349
+│                       │       │                  ├ [46]: https://github.com/python/cpython/commit/8d35fd1b349
 │                       │       │                  │       35221aff23a1ab69a429dd156be77 
-│                       │       │                  ├ [48]: https://github.com/python/cpython/commit/9f69a58623b
+│                       │       │                  ├ [47]: https://github.com/python/cpython/commit/9f69a58623b
 │                       │       │                  │       d01349a18ba0c7a9cb1dad6a51e8e 
-│                       │       │                  ├ [49]: https://github.com/python/cpython/commit/9f69a58623b
+│                       │       │                  ├ [48]: https://github.com/python/cpython/commit/9f69a58623b
 │                       │       │                  │       d01349a18ba0c7a9cb1dad6a51e8e (main) 
-│                       │       │                  ├ [50]: https://github.com/python/cpython/commit/ab9893c4060
+│                       │       │                  ├ [49]: https://github.com/python/cpython/commit/ab9893c4060
 │                       │       │                  │       9935e0d40a6d2a7307ea51aec598b 
-│                       │       │                  ├ [51]: https://github.com/python/cpython/issues/133767 
-│                       │       │                  ├ [52]: https://github.com/python/cpython/pull/129648 
-│                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2025-4516.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2025-23530.html 
-│                       │       │                  ├ [55]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [50]: https://github.com/python/cpython/issues/133767 
+│                       │       │                  ├ [51]: https://github.com/python/cpython/pull/129648 
+│                       │       │                  ├ [52]: https://linux.oracle.com/cve/CVE-2025-4516.html 
+│                       │       │                  ├ [53]: https://linux.oracle.com/errata/ELSA-2025-23530.html 
+│                       │       │                  ├ [54]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY
 │                       │       │                  │       74/ 
-│                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
-│                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-7570-1 
-│                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
+│                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │       │                  ├ [56]: https://ubuntu.com/security/notices/USN-7570-1 
+│                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [214] ╭ VulnerabilityID : CVE-2026-0672 
+│                       ├ [220] ╭ VulnerabilityID : CVE-2026-0672 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -13835,7 +14087,7 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
 │                       │       │                            ╰ V3Score : 4.8 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-0672 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
@@ -13845,114 +14097,7 @@
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
-│                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
-│                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
-│                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
-│                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
-│                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
-│                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
-│                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
-│                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
-│                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-6100 
-│                       │       │                  ├ [35]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [37]: https://github.com/python/cpython/commit/62700107418
-│                       │       │                  │       eb2cca3fc88da036a243ea975f172 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/712452e6f1d
-│                       │       │                  │       4b9f7f8c4c92ebfcaac1705faa440 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/7852d72b653
-│                       │       │                  │       fea0199acf5fc2a84f6f8b84eba8d 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/918387e4912
-│                       │       │                  │       d12ffc166c8f2a38df92b6ec756ca 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/95746b3a13a
-│                       │       │                  │       985787ef53b977129041971ed7f70 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/b1869ff648b
-│                       │       │                  │       bee0717221d09e6deff46617f3e85 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/issues/143919 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/pull/143920 
-│                       │       │                  ├ [45]: https://linux.oracle.com/cve/CVE-2026-0672.html 
-│                       │       │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [47]: https://mail.python.org/archives/list/security-annou
-│                       │       │                  │       nce@python.org/thread/6VFLQQEIX673KXKFUZXCUNE5AZOGZ4
-│                       │       │                  │       5M/ 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2026-0672 
-│                       │       │                  ├ [49]: https://ubuntu.com/security/notices/USN-8018-1 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-8018-3 
-│                       │       │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-0672 
-│                       │       ├ PublishedDate   : 2026-01-20T22:15:52.68Z 
-│                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [215] ╭ VulnerabilityID : CVE-2026-1502 
-│                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
-│                       │       ├ PkgName         : python3 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
-│                       │       │                  │       stro=redhat-9.8 
-│                       │       │                  ╰ UID : 2778ac9ff3f80309 
-│                       │       ├ InstalledVersion: 3.9.25-7.el9_8 
-│                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
-│                       │       │                  │         17452c5d079b445284f6b 
-│                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
-│                       │       │                            cb53f08109547def80414 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1502 
-│                       │       ├ Fingerprint     : sha256:94f7005f5ca3d02115fe646c7cb9c0dab15f3c1afdf296fb12d5
-│                       │       │                   7a3ef05e5386 
-│                       │       ├ Title           : python: Python: HTTP header injection via CR/LF in proxy
-│                       │       │                   tunnel headers 
-│                       │       ├ Description     : CR/LF bytes were not rejected by HTTP client proxy tunnel
-│                       │       │                   headers or host. 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs           ─ [0]: CWE-93 
-│                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ bitnami    : 2 
-│                       │       │                  ├ oracle-oval: 3 
-│                       │       │                  ├ redhat     : 2 
-│                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:P/VC:
-│                       │       │                  │         │            N/VI:H/VA:N/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 5.7 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I
-│                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 4.5 
-│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/04/1
-│                       │       │                  │       1/4 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:10950 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-1502 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2418084 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2431366 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2431374 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2444691 
-│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448168 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2448181 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2449649 
 │                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
 │                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
 │                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
@@ -13989,24 +14134,133 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [36]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
+│                       │       │                  ├ [36]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
 │                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/05ed7ce7ae9
+│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/62700107418
+│                       │       │                  │       eb2cca3fc88da036a243ea975f172 
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/712452e6f1d
+│                       │       │                  │       4b9f7f8c4c92ebfcaac1705faa440 
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/7852d72b653
+│                       │       │                  │       fea0199acf5fc2a84f6f8b84eba8d 
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/918387e4912
+│                       │       │                  │       d12ffc166c8f2a38df92b6ec756ca 
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/95746b3a13a
+│                       │       │                  │       985787ef53b977129041971ed7f70 
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/b1869ff648b
+│                       │       │                  │       bee0717221d09e6deff46617f3e85 
+│                       │       │                  ├ [44]: https://github.com/python/cpython/issues/143919 
+│                       │       │                  ├ [45]: https://github.com/python/cpython/pull/143920 
+│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2026-0672.html 
+│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [48]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/6VFLQQEIX673KXKFUZXCUNE5AZOGZ4
+│                       │       │                  │       5M/ 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2026-0672 
+│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-8018-1 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-8018-3 
+│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-0672 
+│                       │       ├ PublishedDate   : 2026-01-20T22:15:52.68Z 
+│                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
+│                       ├ [221] ╭ VulnerabilityID : CVE-2026-1502 
+│                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
+│                       │       ├ PkgName         : python3 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
+│                       │       │                  │       stro=redhat-9.8 
+│                       │       │                  ╰ UID : 2778ac9ff3f80309 
+│                       │       ├ InstalledVersion: 3.9.25-7.el9_8 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
+│                       │       │                  │         17452c5d079b445284f6b 
+│                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
+│                       │       │                            cb53f08109547def80414 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1502 
+│                       │       ├ Fingerprint     : sha256:94f7005f5ca3d02115fe646c7cb9c0dab15f3c1afdf296fb12d5
+│                       │       │                   7a3ef05e5386 
+│                       │       ├ Title           : python: Python: HTTP header injection via CR/LF in proxy
+│                       │       │                   tunnel headers 
+│                       │       ├ Description     : CR/LF bytes were not rejected by HTTP client proxy tunnel
+│                       │       │                   headers or host. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-93 
+│                       │       ├ VendorSeverity   ╭ alma       : 3 
+│                       │       │                  ├ bitnami    : 2 
+│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ rocky      : 3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:P/VC:
+│                       │       │                  │         │            N/VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 5.7 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 4.5 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/04/1
+│                       │       │                  │       1/4 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-1502 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2418084 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2431366 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2431374 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2444691 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448168 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2448181 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
+│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       025-13837 
+│                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       025-15282 
+│                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       025-59375 
+│                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       025-6075 
+│                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-0672 
+│                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-1502 
+│                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-2297 
+│                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-3644 
+│                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4224 
+│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-6100 
+│                       │       │                  ├ [37]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [38]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/05ed7ce7ae9
 │                       │       │                  │       e17c23a04085b2539fe6d6d3cef69 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/b1cf9016335
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/b1cf9016335
 │                       │       │                  │       cb637c5a425032e8274a224f4b2ed 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/issues/146211 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/pull/146212 
-│                       │       │                  ├ [42]: https://linux.oracle.com/cve/CVE-2026-1502.html 
-│                       │       │                  ├ [43]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [44]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [41]: https://github.com/python/cpython/issues/146211 
+│                       │       │                  ├ [42]: https://github.com/python/cpython/pull/146212 
+│                       │       │                  ├ [43]: https://linux.oracle.com/cve/CVE-2026-1502.html 
+│                       │       │                  ├ [44]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [45]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/2IVPAEQWUJBCTQZEJEVTYCIKSMQPGR
 │                       │       │                  │       Z3/ 
-│                       │       │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2026-1502 
-│                       │       │                  ╰ [46]: https://www.cve.org/CVERecord?id=CVE-2026-1502 
+│                       │       │                  ├ [46]: https://nvd.nist.gov/vuln/detail/CVE-2026-1502 
+│                       │       │                  ╰ [47]: https://www.cve.org/CVERecord?id=CVE-2026-1502 
 │                       │       ├ PublishedDate   : 2026-04-10T18:16:40.97Z 
 │                       │       ╰ LastModifiedDate: 2026-05-10T21:16:28.247Z 
-│                       ├ [216] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [222] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -14042,7 +14296,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.4 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-3644 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
@@ -14052,62 +14306,63 @@
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
 │                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
+│                       │       │                  │       025-13837 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
+│                       │       │                  │       025-15282 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
+│                       │       │                  │       025-59375 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
+│                       │       │                  │       025-6075 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
+│                       │       │                  │       026-0672 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
+│                       │       │                  │       026-1502 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
+│                       │       │                  │       026-2297 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
+│                       │       │                  │       026-3644 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
+│                       │       │                  │       026-4224 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [35]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [37]: https://github.com/python/cpython/commit/57e88c1cf95
+│                       │       │                  ├ [36]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/57e88c1cf95
 │                       │       │                  │       e1481b94ae57abe1010469d47a6b4 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/62ceb396fcb
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/62ceb396fcb
 │                       │       │                  │       e69da1ded3702de586f4072b590dd 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/d16ecc6c362
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/d16ecc6c362
 │                       │       │                  │       6f0e2cc8f08c309c83934e8a979dd 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/issues/145599 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/pull/145600 
-│                       │       │                  ├ [42]: https://linux.oracle.com/cve/CVE-2026-3644.html 
-│                       │       │                  ├ [43]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [44]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [41]: https://github.com/python/cpython/issues/145599 
+│                       │       │                  ├ [42]: https://github.com/python/cpython/pull/145600 
+│                       │       │                  ├ [43]: https://linux.oracle.com/cve/CVE-2026-3644.html 
+│                       │       │                  ├ [44]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [45]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/H6CADMBCDRFGWCMOXWUIHFJNV43GAB
 │                       │       │                  │       J7/ 
-│                       │       │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2026-3644 
-│                       │       │                  ╰ [46]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
+│                       │       │                  ├ [46]: https://nvd.nist.gov/vuln/detail/CVE-2026-3644 
+│                       │       │                  ╰ [47]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-03-17T14:20:01.67Z 
-│                       ├ [217] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [223] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -14147,7 +14402,7 @@
 │                       │       │                            ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/1
 │                       │       │                  │       6/4 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-4224 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -14157,66 +14412,67 @@
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [10]: https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
+│                       │       │                  │       025-13837 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
+│                       │       │                  │       025-15282 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
+│                       │       │                  │       025-59375 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
+│                       │       │                  │       025-6075 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
+│                       │       │                  │       026-0672 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
+│                       │       │                  │       026-1502 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
+│                       │       │                  │       026-2297 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
+│                       │       │                  │       026-3644 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
+│                       │       │                  │       026-4224 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [36]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/196edfb06a7
+│                       │       │                  ├ [37]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [38]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/196edfb06a7
 │                       │       │                  │       458377d4d0f4b3cd41724c1f3bd4a 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/642865ddf4b
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/642865ddf4b
 │                       │       │                  │       232da1f3b1f7abcfa3254c4bfe785 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/af856a71773
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/af856a71773
 │                       │       │                  │       26ac25d9f66cc6dd28b554d914fee 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/e0a8a6da905
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/e0a8a6da905
 │                       │       │                  │       97a924b300debe045cdb4628ee1f3 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/eb0e8be3a7e
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/eb0e8be3a7e
 │                       │       │                  │       11b87d198a2c3af1ed0eccf532768 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/issues/145986 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/pull/145987 
-│                       │       │                  ├ [45]: https://linux.oracle.com/cve/CVE-2026-4224.html 
-│                       │       │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [47]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [44]: https://github.com/python/cpython/issues/145986 
+│                       │       │                  ├ [45]: https://github.com/python/cpython/pull/145987 
+│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2026-4224.html 
+│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [48]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/5M7CGUW3XBRY7II4DK43KF7NQQ3TPZ
 │                       │       │                  │       6R/ 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2026-4224 
-│                       │       │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2026-4224 
+│                       │       │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-04-08T13:16:41.977Z 
-│                       ├ [218] ╭ VulnerabilityID : CVE-2026-42308 
+│                       ├ [224] ╭ VulnerabilityID : CVE-2026-42308 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -14241,7 +14497,8 @@
 │                       │       │                   has been patched in version 12.2.0. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ ghsa   : 2 
 │                       │       │                  ├ nvd    : 2 
 │                       │       │                  ╰ redhat : 2 
@@ -14270,7 +14527,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-42308 
 │                       │       ├ PublishedDate   : 2026-05-09T06:16:09.793Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T17:57:20.027Z 
-│                       ├ [219] ╭ VulnerabilityID : CVE-2026-5713 
+│                       ├ [225] ╭ VulnerabilityID : CVE-2026-5713 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -14301,7 +14558,8 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ╭ [0]: CWE-121 
 │                       │       │                  ╰ [1]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ alma   : 3 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ╰ redhat : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:H/AT:P/PR:H/UI:A/VC:
 │                       │       │                  │         │            H/VI:H/VA:N/SC:N/SI:N/SA:N 
@@ -14309,20 +14567,32 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I
 │                       │       │                            │           :H/A:N 
 │                       │       │                            ╰ V3Score : 6 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/04/15/6 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-5713 
-│                       │       │                  ├ [2]: https://github.com/python/cpython/commit/289fd2c97a7e
-│                       │       │                  │      5aecb8b69f94f5e838ccfeee7e67 
-│                       │       │                  ├ [3]: https://github.com/python/cpython/issues/148178 
-│                       │       │                  ├ [4]: https://github.com/python/cpython/pull/148187 
-│                       │       │                  ├ [5]: https://mail.python.org/archives/list/security-announ
-│                       │       │                  │      ce@python.org/thread/OG4RHARYSNIE22GGOMVMCRH76L5HKPLM
-│                       │       │                  │      / 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-5713 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-5713 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/04/1
+│                       │       │                  │       5/6 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19176 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-5713 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2431367 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2444691 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2448168 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2448181 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2458239 
+│                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-19176.html 
+│                       │       │                  ├ [13]: https://github.com/python/cpython/commit/289fd2c97a7
+│                       │       │                  │       e5aecb8b69f94f5e838ccfeee7e67 
+│                       │       │                  ├ [14]: https://github.com/python/cpython/issues/148178 
+│                       │       │                  ├ [15]: https://github.com/python/cpython/pull/148187 
+│                       │       │                  ├ [16]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/OG4RHARYSNIE22GGOMVMCRH76L5HKP
+│                       │       │                  │       LM/ 
+│                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-5713 
+│                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-5713 
 │                       │       ├ PublishedDate   : 2026-04-14T16:16:48.717Z 
 │                       │       ╰ LastModifiedDate: 2026-04-17T15:11:35.84Z 
-│                       ├ [220] ╭ VulnerabilityID : CVE-2026-6019 
+│                       ├ [226] ╭ VulnerabilityID : CVE-2026-6019 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -14377,7 +14647,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-6019 
 │                       │       ├ PublishedDate   : 2026-04-22T20:16:42.617Z 
 │                       │       ╰ LastModifiedDate: 2026-05-18T17:08:04.33Z 
-│                       ├ [221] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [227] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -14393,8 +14663,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1795 
 │                       │       ├ Fingerprint     : sha256:230bb0956fc6839ca28f01d07822dcf463277d117a07f154f8fe
 │                       │       │                   51338e79acc9 
-│                       │       ├ Title           : python: Mishandling of comma during folding and
-│                       │       │                   unicode-encoding of email headers 
+│                       │       ├ Title           : During an address list folding when a separating comma ends
+│                       │       │                    up on a fo ... 
 │                       │       ├ Description     : During an address list folding when a separating comma ends
 │                       │       │                    up on a folded line and that line is to be unicode-encoded
 │                       │       │                    then the separator itself is also unicode-encoded.
@@ -14409,37 +14679,33 @@
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:
-│                       │       │                  │         │            L/VI:N/VA:N/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 2.3 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I
-│                       │       │                            │           :N/A:N 
-│                       │       │                            ╰ V3Score : 3.1 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-1795 
-│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/09fab93c3d8
+│                       │       ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:
+│                       │       │                            │            L/VI:N/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                            ╰ V40Score : 2.3 
+│                       │       ├ References       ╭ [0] : https://github.com/python/cpython/commit/09fab93c3d8
 │                       │       │                  │       57496c0bd162797fab816c311ee48 
-│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/70754d21c28
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/70754d21c28
 │                       │       │                  │       8535e86070ca7a6e90dcb670b8593 
-│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/9148b77e0af
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/9148b77e0af
 │                       │       │                  │       91cdacaa7fe3dfac09635c3fe9a74 
-│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/a4ef689ce67
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/a4ef689ce67
 │                       │       │                  │       0684ec132204b1cd03720c8e0a03d 
-│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/d4df3c55e4c
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/d4df3c55e4c
 │                       │       │                  │       5513947f907f24766b34d2ae8c090 
-│                       │       │                  ├ [6] : https://github.com/python/cpython/issues/100884 
-│                       │       │                  ├ [7] : https://github.com/python/cpython/pull/100885 
-│                       │       │                  ├ [8] : https://github.com/python/cpython/pull/119099 
-│                       │       │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/03
+│                       │       │                  ├ [5] : https://github.com/python/cpython/issues/100884 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/pull/100885 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/pull/119099 
+│                       │       │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/03
 │                       │       │                  │       /msg00013.html 
-│                       │       │                  ├ [10]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [9] : https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4Z
 │                       │       │                  │       UR/ 
-│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-1795 
-│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7570-1 
-│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
+│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-1795 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7570-1 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
 │                       │       ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [222] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [228] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -14474,7 +14740,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -14484,63 +14750,64 @@
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [10]: https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
+│                       │       │                  │       025-13837 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
+│                       │       │                  │       025-15282 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
+│                       │       │                  │       025-59375 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
+│                       │       │                  │       025-6075 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
+│                       │       │                  │       026-0672 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
+│                       │       │                  │       026-1502 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
+│                       │       │                  │       026-2297 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
+│                       │       │                  │       026-3644 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
+│                       │       │                  │       026-4224 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [36]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/482d6f8bdba
+│                       │       │                  ├ [37]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [38]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/69ddd9bb2cc
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/69ddd9bb2cc
 │                       │       │                  │       4bd69b1565647c18659c6a789ccd9 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/876858c9f65
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/876858c9f65
 │                       │       │                  │       d9ab656c7fa639f268ce7856d89dd 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/a51b1b512de
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/a51b1b512de
 │                       │       │                  │       1d56b3714b65628a2eae2b07e535e 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/e58e9802b9b
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/e58e9802b9b
 │                       │       │                  │       ec5cdbf48fc9bf1da5f4fda482e86 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/issues/145506 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/pull/145507 
-│                       │       │                  ├ [45]: https://linux.oracle.com/cve/CVE-2026-2297.html 
-│                       │       │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [47]: https://nvd.nist.gov/vuln/detail/CVE-2026-2297 
-│                       │       │                  ╰ [48]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
+│                       │       │                  ├ [44]: https://github.com/python/cpython/issues/145506 
+│                       │       │                  ├ [45]: https://github.com/python/cpython/pull/145507 
+│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2026-2297.html 
+│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2026-2297 
+│                       │       │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T16:16:30.11Z 
-│                       ├ [223] ╭ VulnerabilityID : CVE-2026-3479 
+│                       ├ [229] ╭ VulnerabilityID : CVE-2026-3479 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8?arch=x86_64&di
@@ -14592,7 +14859,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3479 
 │                       │       ├ PublishedDate   : 2026-03-18T19:16:06.81Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:16:46.74Z 
-│                       ├ [224] ╭ VulnerabilityID : CVE-2025-11468 
+│                       ├ [230] ╭ VulnerabilityID : CVE-2025-11468 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -14651,7 +14918,7 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-11468 
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.69Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [225] ╭ VulnerabilityID : CVE-2025-12781 
+│                       ├ [231] ╭ VulnerabilityID : CVE-2025-12781 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -14726,7 +14993,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-12781 
 │                       │       ├ PublishedDate   : 2026-01-21T20:16:04.423Z 
 │                       │       ╰ LastModifiedDate: 2026-02-02T17:25:23.933Z 
-│                       ├ [226] ╭ VulnerabilityID : CVE-2025-13837 
+│                       ├ [232] ╭ VulnerabilityID : CVE-2025-13837 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -14742,7 +15009,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13837 
 │                       │       ├ Fingerprint     : sha256:3b3efb3d56e9d8962228e6c360c615731ab0a38463ebfe2cc8c4
 │                       │       │                   3940cc15b4dc 
-│                       │       ├ Title           : cpython: Out-of-memory when loading Plist 
+│                       │       ├ Title           : When loading a plist file, the plistlib module reads data
+│                       │       │                   in size spec ... 
 │                       │       ├ Description     : When loading a plist file, the plistlib module reads data
 │                       │       │                   in size specified by the file itself, meaning a malicious
 │                       │       │                   file can cause OOM and DoS issues 
@@ -14761,22 +15029,19 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:
 │                       │       │                  │         │            N/VI:N/VA:L/SC:N/SI:L/SA:N 
 │                       │       │                  │         ╰ V40Score : 2.1 
-│                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
-│                       │       │                  │         │           :N/A:H 
-│                       │       │                  │         ╰ V3Score : 5.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I
+│                       │       │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
 │                       │       │                            │           :N/A:H 
-│                       │       │                            ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:10950 
-│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-13837 
-│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2418084 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2431366 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2431374 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2444691 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448168 
-│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448181 
+│                       │       │                            ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://bugzilla.redhat.com/2395108 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2408891 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2418084 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2431366 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2431374 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2444691 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2448168 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448181 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2449649 
 │                       │       │                  ├ [10]: https://bugzilla.redhat.com/2457409 
 │                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457932 
 │                       │       │                  ├ [12]: https://bugzilla.redhat.com/2458049 
@@ -14813,7 +15078,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [35]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
+│                       │       │                  ├ [35]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
 │                       │       │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:10950 
 │                       │       │                  ├ [37]: https://github.com/python/cpython/commit/568342cfc8f
 │                       │       │                  │       002d9a15f30238f26b9d2e0e79036 
@@ -14839,7 +15104,7 @@
 │                       │       │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2025-13837 
 │                       │       ├ PublishedDate   : 2025-12-01T18:16:04.38Z 
 │                       │       ╰ LastModifiedDate: 2026-03-03T15:16:14.483Z 
-│                       ├ [227] ╭ VulnerabilityID : CVE-2025-15282 
+│                       ├ [233] ╭ VulnerabilityID : CVE-2025-15282 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -14876,7 +15141,7 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
 │                       │       │                            ╰ V3Score : 4.8 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-15282 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
@@ -14886,70 +15151,71 @@
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
 │                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
+│                       │       │                  │       025-13837 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
+│                       │       │                  │       025-15282 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
+│                       │       │                  │       025-59375 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
+│                       │       │                  │       025-6075 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
+│                       │       │                  │       026-0672 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
+│                       │       │                  │       026-1502 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
+│                       │       │                  │       026-2297 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
+│                       │       │                  │       026-3644 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
+│                       │       │                  │       026-4224 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [35]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [37]: https://github.com/python/cpython/commit/05356b1cc15
+│                       │       │                  ├ [36]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/05356b1cc15
 │                       │       │                  │       3108aaf27f3b72ce438af4aa218c0 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/34d76b00dab
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/34d76b00dab
 │                       │       │                  │       de81a793bd06dd8ecb057838c4b38 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/3f396ca9d7b
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/3f396ca9d7b
 │                       │       │                  │       be2a50ea6b8c9b27c0082884d9f80 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/4ed11d3cd28
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/4ed11d3cd28
 │                       │       │                  │       8e6b90196a15c5a825a45d318fe47 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/a35ca3be584
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/a35ca3be584
 │                       │       │                  │       2505dab74dc0b90b89cde0405017a 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/f25509e78e8
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/f25509e78e8
 │                       │       │                  │       be6ea73c811ac2b8c928c28841b9f 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/issues/143925 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/pull/143926 
-│                       │       │                  ├ [45]: https://linux.oracle.com/cve/CVE-2025-15282.html 
-│                       │       │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [47]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [44]: https://github.com/python/cpython/issues/143925 
+│                       │       │                  ├ [45]: https://github.com/python/cpython/pull/143926 
+│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-15282.html 
+│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [48]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/X66HL7SISGJT33J53OHXMZT4DFLMHV
 │                       │       │                  │       KF/ 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-15282 
-│                       │       │                  ├ [49]: https://ubuntu.com/security/notices/USN-8018-1 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-8018-3 
-│                       │       │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-15282 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-15282 
+│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-8018-1 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-8018-3 
+│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-15282 
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.883Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [228] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [234] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -14965,7 +15231,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
 │                       │       ├ Fingerprint     : sha256:6dfe80e738c1b64e8badaa7618782662d386ae59a29885146870
 │                       │       │                   80fa285e3826 
-│                       │       ├ Title           : cpython: python: CPython DecodeError Handling Vulnerability 
+│                       │       ├ Title           : There is an issue in CPython when using
+│                       │       │                   `bytes.decode("unicode_escape" ... 
 │                       │       ├ Description     : There is an issue in CPython when using
 │                       │       │                   `bytes.decode("unicode_escape", error="ignore|replace")`.
 │                       │       │                   If you are not using the "unicode_escape" encoding or an
@@ -14984,99 +15251,95 @@
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:H/AT:P/PR:N/UI:N/VC:
-│                       │       │                  │         │            N/VI:N/VA:H/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 5.9 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I
-│                       │       │                            │           :N/A:H 
-│                       │       │                            ╰ V3Score : 5.1 
+│                       │       ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:H/AT:P/PR:N/UI:N/VC:
+│                       │       │                            │            N/VI:N/VA:H/SC:N/SI:N/SA:N 
+│                       │       │                            ╰ V40Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/1
 │                       │       │                  │       6/4 
 │                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/1
 │                       │       │                  │       9/1 
 │                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:23530 
-│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-4516 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2294682 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2321440 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2325776 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2343237 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2366509 
-│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2370010 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2370014 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2370016 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2372426 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2373234 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2402342 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/2408891 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2294682 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2325776 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2343237 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2366509 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2370010 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2370014 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2370016 
-│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2372426 
-│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2373234 
-│                       │       │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2402342 
-│                       │       │                  ├ [27]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2294682 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2321440 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2325776 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2343237 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2366509 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2370010 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2370014 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2370016 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2372426 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2373234 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2402342 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2408891 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2294682 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2325776 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2343237 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2366509 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2370010 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2370014 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2370016 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2372426 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2373234 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2402342 
+│                       │       │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-11168 
-│                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-5642 
-│                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-9287 
-│                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-0938 
-│                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4138 
-│                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4330 
-│                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4435 
-│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4516 
-│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-4517 
-│                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-6069 
-│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-6075 
-│                       │       │                  ├ [39]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-8291 
-│                       │       │                  ├ [40]: https://errata.almalinux.org/8/ALSA-2025-23530.html 
-│                       │       │                  ├ [41]: https://errata.rockylinux.org/RLSA-2025:23530 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/4398b788ffc
+│                       │       │                  ├ [39]: https://errata.almalinux.org/8/ALSA-2025-23530.html 
+│                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2025:23530 
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/4398b788ffc
 │                       │       │                  │       1f954a2c552da285477d42a571292 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/56466486782
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/56466486782
 │                       │       │                  │       95a44aa82636c6e92826651baf33a 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/commit/6279eb8c076
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/6279eb8c076
 │                       │       │                  │       d89d3739a6edb393e43c7929b429d 
-│                       │       │                  ├ [45]: https://github.com/python/cpython/commit/69b4387f78f
+│                       │       │                  ├ [44]: https://github.com/python/cpython/commit/69b4387f78f
 │                       │       │                  │       413e8c47572a85b3478c47eba8142 
-│                       │       │                  ├ [46]: https://github.com/python/cpython/commit/73b3040f592
+│                       │       │                  ├ [45]: https://github.com/python/cpython/commit/73b3040f592
 │                       │       │                  │       436385007918887b7e2132aa8431f 
-│                       │       │                  ├ [47]: https://github.com/python/cpython/commit/8d35fd1b349
+│                       │       │                  ├ [46]: https://github.com/python/cpython/commit/8d35fd1b349
 │                       │       │                  │       35221aff23a1ab69a429dd156be77 
-│                       │       │                  ├ [48]: https://github.com/python/cpython/commit/9f69a58623b
+│                       │       │                  ├ [47]: https://github.com/python/cpython/commit/9f69a58623b
 │                       │       │                  │       d01349a18ba0c7a9cb1dad6a51e8e 
-│                       │       │                  ├ [49]: https://github.com/python/cpython/commit/9f69a58623b
+│                       │       │                  ├ [48]: https://github.com/python/cpython/commit/9f69a58623b
 │                       │       │                  │       d01349a18ba0c7a9cb1dad6a51e8e (main) 
-│                       │       │                  ├ [50]: https://github.com/python/cpython/commit/ab9893c4060
+│                       │       │                  ├ [49]: https://github.com/python/cpython/commit/ab9893c4060
 │                       │       │                  │       9935e0d40a6d2a7307ea51aec598b 
-│                       │       │                  ├ [51]: https://github.com/python/cpython/issues/133767 
-│                       │       │                  ├ [52]: https://github.com/python/cpython/pull/129648 
-│                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2025-4516.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2025-23530.html 
-│                       │       │                  ├ [55]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [50]: https://github.com/python/cpython/issues/133767 
+│                       │       │                  ├ [51]: https://github.com/python/cpython/pull/129648 
+│                       │       │                  ├ [52]: https://linux.oracle.com/cve/CVE-2025-4516.html 
+│                       │       │                  ├ [53]: https://linux.oracle.com/errata/ELSA-2025-23530.html 
+│                       │       │                  ├ [54]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY
 │                       │       │                  │       74/ 
-│                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
-│                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-7570-1 
-│                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
+│                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │       │                  ├ [56]: https://ubuntu.com/security/notices/USN-7570-1 
+│                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [229] ╭ VulnerabilityID : CVE-2026-0672 
+│                       ├ [235] ╭ VulnerabilityID : CVE-2026-0672 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -15115,7 +15378,7 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
 │                       │       │                            ╰ V3Score : 4.8 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-0672 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
@@ -15125,114 +15388,7 @@
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
-│                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
-│                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
-│                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
-│                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
-│                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
-│                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
-│                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
-│                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
-│                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-6100 
-│                       │       │                  ├ [35]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [37]: https://github.com/python/cpython/commit/62700107418
-│                       │       │                  │       eb2cca3fc88da036a243ea975f172 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/712452e6f1d
-│                       │       │                  │       4b9f7f8c4c92ebfcaac1705faa440 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/7852d72b653
-│                       │       │                  │       fea0199acf5fc2a84f6f8b84eba8d 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/918387e4912
-│                       │       │                  │       d12ffc166c8f2a38df92b6ec756ca 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/95746b3a13a
-│                       │       │                  │       985787ef53b977129041971ed7f70 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/b1869ff648b
-│                       │       │                  │       bee0717221d09e6deff46617f3e85 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/issues/143919 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/pull/143920 
-│                       │       │                  ├ [45]: https://linux.oracle.com/cve/CVE-2026-0672.html 
-│                       │       │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [47]: https://mail.python.org/archives/list/security-annou
-│                       │       │                  │       nce@python.org/thread/6VFLQQEIX673KXKFUZXCUNE5AZOGZ4
-│                       │       │                  │       5M/ 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2026-0672 
-│                       │       │                  ├ [49]: https://ubuntu.com/security/notices/USN-8018-1 
-│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-8018-3 
-│                       │       │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-0672 
-│                       │       ├ PublishedDate   : 2026-01-20T22:15:52.68Z 
-│                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [230] ╭ VulnerabilityID : CVE-2026-1502 
-│                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
-│                       │       ├ PkgName         : python3-libs 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
-│                       │       │                  │       64&distro=redhat-9.8 
-│                       │       │                  ╰ UID : 2a76acddc74d020a 
-│                       │       ├ InstalledVersion: 3.9.25-7.el9_8 
-│                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
-│                       │       │                  │         17452c5d079b445284f6b 
-│                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
-│                       │       │                            cb53f08109547def80414 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1502 
-│                       │       ├ Fingerprint     : sha256:3de291c31ac9eee97b67eee4e3fd591d9fa1f94cae0051f901cd
-│                       │       │                   a09477906ca1 
-│                       │       ├ Title           : python: Python: HTTP header injection via CR/LF in proxy
-│                       │       │                   tunnel headers 
-│                       │       ├ Description     : CR/LF bytes were not rejected by HTTP client proxy tunnel
-│                       │       │                   headers or host. 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs           ─ [0]: CWE-93 
-│                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ bitnami    : 2 
-│                       │       │                  ├ oracle-oval: 3 
-│                       │       │                  ├ redhat     : 2 
-│                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:P/VC:
-│                       │       │                  │         │            N/VI:H/VA:N/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 5.7 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I
-│                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 4.5 
-│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/04/1
-│                       │       │                  │       1/4 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:10950 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-1502 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2418084 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2431366 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2431374 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2444691 
-│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448168 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2448181 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2449649 
 │                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
 │                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
 │                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
@@ -15269,24 +15425,133 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [36]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
+│                       │       │                  ├ [36]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
 │                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/05ed7ce7ae9
+│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/62700107418
+│                       │       │                  │       eb2cca3fc88da036a243ea975f172 
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/712452e6f1d
+│                       │       │                  │       4b9f7f8c4c92ebfcaac1705faa440 
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/7852d72b653
+│                       │       │                  │       fea0199acf5fc2a84f6f8b84eba8d 
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/918387e4912
+│                       │       │                  │       d12ffc166c8f2a38df92b6ec756ca 
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/95746b3a13a
+│                       │       │                  │       985787ef53b977129041971ed7f70 
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/b1869ff648b
+│                       │       │                  │       bee0717221d09e6deff46617f3e85 
+│                       │       │                  ├ [44]: https://github.com/python/cpython/issues/143919 
+│                       │       │                  ├ [45]: https://github.com/python/cpython/pull/143920 
+│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2026-0672.html 
+│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [48]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/6VFLQQEIX673KXKFUZXCUNE5AZOGZ4
+│                       │       │                  │       5M/ 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2026-0672 
+│                       │       │                  ├ [50]: https://ubuntu.com/security/notices/USN-8018-1 
+│                       │       │                  ├ [51]: https://ubuntu.com/security/notices/USN-8018-3 
+│                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-0672 
+│                       │       ├ PublishedDate   : 2026-01-20T22:15:52.68Z 
+│                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
+│                       ├ [236] ╭ VulnerabilityID : CVE-2026-1502 
+│                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
+│                       │       ├ PkgName         : python3-libs 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
+│                       │       │                  │       64&distro=redhat-9.8 
+│                       │       │                  ╰ UID : 2a76acddc74d020a 
+│                       │       ├ InstalledVersion: 3.9.25-7.el9_8 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:266afd306615bef5a2aa278e0b68e1763adba83d7a4
+│                       │       │                  │         17452c5d079b445284f6b 
+│                       │       │                  ╰ DiffID: sha256:8186e1b5b90e7c6e692f8756b9ce5aa4619940f6460
+│                       │       │                            cb53f08109547def80414 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1502 
+│                       │       ├ Fingerprint     : sha256:3de291c31ac9eee97b67eee4e3fd591d9fa1f94cae0051f901cd
+│                       │       │                   a09477906ca1 
+│                       │       ├ Title           : python: Python: HTTP header injection via CR/LF in proxy
+│                       │       │                   tunnel headers 
+│                       │       ├ Description     : CR/LF bytes were not rejected by HTTP client proxy tunnel
+│                       │       │                   headers or host. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-93 
+│                       │       ├ VendorSeverity   ╭ alma       : 3 
+│                       │       │                  ├ bitnami    : 2 
+│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ rocky      : 3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:P/VC:
+│                       │       │                  │         │            N/VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 5.7 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 4.5 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/04/1
+│                       │       │                  │       1/4 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-1502 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2418084 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2431366 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2431374 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2444691 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448168 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2448181 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
+│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       025-13837 
+│                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       025-15282 
+│                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       025-59375 
+│                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       025-6075 
+│                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-0672 
+│                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-1502 
+│                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-2297 
+│                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-3644 
+│                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4224 
+│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-6100 
+│                       │       │                  ├ [37]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [38]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/05ed7ce7ae9
 │                       │       │                  │       e17c23a04085b2539fe6d6d3cef69 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/b1cf9016335
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/b1cf9016335
 │                       │       │                  │       cb637c5a425032e8274a224f4b2ed 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/issues/146211 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/pull/146212 
-│                       │       │                  ├ [42]: https://linux.oracle.com/cve/CVE-2026-1502.html 
-│                       │       │                  ├ [43]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [44]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [41]: https://github.com/python/cpython/issues/146211 
+│                       │       │                  ├ [42]: https://github.com/python/cpython/pull/146212 
+│                       │       │                  ├ [43]: https://linux.oracle.com/cve/CVE-2026-1502.html 
+│                       │       │                  ├ [44]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [45]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/2IVPAEQWUJBCTQZEJEVTYCIKSMQPGR
 │                       │       │                  │       Z3/ 
-│                       │       │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2026-1502 
-│                       │       │                  ╰ [46]: https://www.cve.org/CVERecord?id=CVE-2026-1502 
+│                       │       │                  ├ [46]: https://nvd.nist.gov/vuln/detail/CVE-2026-1502 
+│                       │       │                  ╰ [47]: https://www.cve.org/CVERecord?id=CVE-2026-1502 
 │                       │       ├ PublishedDate   : 2026-04-10T18:16:40.97Z 
 │                       │       ╰ LastModifiedDate: 2026-05-10T21:16:28.247Z 
-│                       ├ [231] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [237] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -15322,7 +15587,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.4 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-3644 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
@@ -15332,62 +15597,63 @@
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
 │                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
+│                       │       │                  │       025-13837 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
+│                       │       │                  │       025-15282 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
+│                       │       │                  │       025-59375 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
+│                       │       │                  │       025-6075 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
+│                       │       │                  │       026-0672 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
+│                       │       │                  │       026-1502 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
+│                       │       │                  │       026-2297 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
+│                       │       │                  │       026-3644 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
+│                       │       │                  │       026-4224 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [35]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [37]: https://github.com/python/cpython/commit/57e88c1cf95
+│                       │       │                  ├ [36]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/57e88c1cf95
 │                       │       │                  │       e1481b94ae57abe1010469d47a6b4 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/62ceb396fcb
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/62ceb396fcb
 │                       │       │                  │       e69da1ded3702de586f4072b590dd 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/d16ecc6c362
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/d16ecc6c362
 │                       │       │                  │       6f0e2cc8f08c309c83934e8a979dd 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/issues/145599 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/pull/145600 
-│                       │       │                  ├ [42]: https://linux.oracle.com/cve/CVE-2026-3644.html 
-│                       │       │                  ├ [43]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [44]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [41]: https://github.com/python/cpython/issues/145599 
+│                       │       │                  ├ [42]: https://github.com/python/cpython/pull/145600 
+│                       │       │                  ├ [43]: https://linux.oracle.com/cve/CVE-2026-3644.html 
+│                       │       │                  ├ [44]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [45]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/H6CADMBCDRFGWCMOXWUIHFJNV43GAB
 │                       │       │                  │       J7/ 
-│                       │       │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2026-3644 
-│                       │       │                  ╰ [46]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
+│                       │       │                  ├ [46]: https://nvd.nist.gov/vuln/detail/CVE-2026-3644 
+│                       │       │                  ╰ [47]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-03-17T14:20:01.67Z 
-│                       ├ [232] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [238] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -15427,7 +15693,7 @@
 │                       │       │                            ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/1
 │                       │       │                  │       6/4 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-4224 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -15437,66 +15703,67 @@
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [10]: https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
+│                       │       │                  │       025-13837 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
+│                       │       │                  │       025-15282 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
+│                       │       │                  │       025-59375 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
+│                       │       │                  │       025-6075 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
+│                       │       │                  │       026-0672 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
+│                       │       │                  │       026-1502 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
+│                       │       │                  │       026-2297 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
+│                       │       │                  │       026-3644 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
+│                       │       │                  │       026-4224 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [36]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/196edfb06a7
+│                       │       │                  ├ [37]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [38]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/196edfb06a7
 │                       │       │                  │       458377d4d0f4b3cd41724c1f3bd4a 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/642865ddf4b
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/642865ddf4b
 │                       │       │                  │       232da1f3b1f7abcfa3254c4bfe785 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/af856a71773
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/af856a71773
 │                       │       │                  │       26ac25d9f66cc6dd28b554d914fee 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/e0a8a6da905
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/e0a8a6da905
 │                       │       │                  │       97a924b300debe045cdb4628ee1f3 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/eb0e8be3a7e
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/eb0e8be3a7e
 │                       │       │                  │       11b87d198a2c3af1ed0eccf532768 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/issues/145986 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/pull/145987 
-│                       │       │                  ├ [45]: https://linux.oracle.com/cve/CVE-2026-4224.html 
-│                       │       │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [47]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [44]: https://github.com/python/cpython/issues/145986 
+│                       │       │                  ├ [45]: https://github.com/python/cpython/pull/145987 
+│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2026-4224.html 
+│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [48]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/5M7CGUW3XBRY7II4DK43KF7NQQ3TPZ
 │                       │       │                  │       6R/ 
-│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2026-4224 
-│                       │       │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
+│                       │       │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2026-4224 
+│                       │       │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-04-08T13:16:41.977Z 
-│                       ├ [233] ╭ VulnerabilityID : CVE-2026-42308 
+│                       ├ [239] ╭ VulnerabilityID : CVE-2026-42308 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -15521,7 +15788,8 @@
 │                       │       │                   has been patched in version 12.2.0. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ ghsa   : 2 
 │                       │       │                  ├ nvd    : 2 
 │                       │       │                  ╰ redhat : 2 
@@ -15550,7 +15818,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-42308 
 │                       │       ├ PublishedDate   : 2026-05-09T06:16:09.793Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T17:57:20.027Z 
-│                       ├ [234] ╭ VulnerabilityID : CVE-2026-5713 
+│                       ├ [240] ╭ VulnerabilityID : CVE-2026-5713 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -15581,7 +15849,8 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ╭ [0]: CWE-121 
 │                       │       │                  ╰ [1]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ alma   : 3 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ╰ redhat : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:H/AT:P/PR:H/UI:A/VC:
 │                       │       │                  │         │            H/VI:H/VA:N/SC:N/SI:N/SA:N 
@@ -15589,20 +15858,32 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I
 │                       │       │                            │           :H/A:N 
 │                       │       │                            ╰ V3Score : 6 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/04/15/6 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-5713 
-│                       │       │                  ├ [2]: https://github.com/python/cpython/commit/289fd2c97a7e
-│                       │       │                  │      5aecb8b69f94f5e838ccfeee7e67 
-│                       │       │                  ├ [3]: https://github.com/python/cpython/issues/148178 
-│                       │       │                  ├ [4]: https://github.com/python/cpython/pull/148187 
-│                       │       │                  ├ [5]: https://mail.python.org/archives/list/security-announ
-│                       │       │                  │      ce@python.org/thread/OG4RHARYSNIE22GGOMVMCRH76L5HKPLM
-│                       │       │                  │      / 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-5713 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-5713 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/04/1
+│                       │       │                  │       5/6 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19176 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-5713 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2431367 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2444691 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2448168 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2448181 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2458239 
+│                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-19176.html 
+│                       │       │                  ├ [13]: https://github.com/python/cpython/commit/289fd2c97a7
+│                       │       │                  │       e5aecb8b69f94f5e838ccfeee7e67 
+│                       │       │                  ├ [14]: https://github.com/python/cpython/issues/148178 
+│                       │       │                  ├ [15]: https://github.com/python/cpython/pull/148187 
+│                       │       │                  ├ [16]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/OG4RHARYSNIE22GGOMVMCRH76L5HKP
+│                       │       │                  │       LM/ 
+│                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-5713 
+│                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-5713 
 │                       │       ├ PublishedDate   : 2026-04-14T16:16:48.717Z 
 │                       │       ╰ LastModifiedDate: 2026-04-17T15:11:35.84Z 
-│                       ├ [235] ╭ VulnerabilityID : CVE-2026-6019 
+│                       ├ [241] ╭ VulnerabilityID : CVE-2026-6019 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -15657,7 +15938,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-6019 
 │                       │       ├ PublishedDate   : 2026-04-22T20:16:42.617Z 
 │                       │       ╰ LastModifiedDate: 2026-05-18T17:08:04.33Z 
-│                       ├ [236] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [242] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -15673,8 +15954,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1795 
 │                       │       ├ Fingerprint     : sha256:6e889fcfd1d4fe687b8a895e6c0102c81dde5d9bc5d052904f8e
 │                       │       │                   6aeb785905b3 
-│                       │       ├ Title           : python: Mishandling of comma during folding and
-│                       │       │                   unicode-encoding of email headers 
+│                       │       ├ Title           : During an address list folding when a separating comma ends
+│                       │       │                    up on a fo ... 
 │                       │       ├ Description     : During an address list folding when a separating comma ends
 │                       │       │                    up on a folded line and that line is to be unicode-encoded
 │                       │       │                    then the separator itself is also unicode-encoded.
@@ -15689,37 +15970,33 @@
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:
-│                       │       │                  │         │            L/VI:N/VA:N/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 2.3 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I
-│                       │       │                            │           :N/A:N 
-│                       │       │                            ╰ V3Score : 3.1 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-1795 
-│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/09fab93c3d8
+│                       │       ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:
+│                       │       │                            │            L/VI:N/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                            ╰ V40Score : 2.3 
+│                       │       ├ References       ╭ [0] : https://github.com/python/cpython/commit/09fab93c3d8
 │                       │       │                  │       57496c0bd162797fab816c311ee48 
-│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/70754d21c28
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/70754d21c28
 │                       │       │                  │       8535e86070ca7a6e90dcb670b8593 
-│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/9148b77e0af
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/9148b77e0af
 │                       │       │                  │       91cdacaa7fe3dfac09635c3fe9a74 
-│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/a4ef689ce67
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/a4ef689ce67
 │                       │       │                  │       0684ec132204b1cd03720c8e0a03d 
-│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/d4df3c55e4c
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/d4df3c55e4c
 │                       │       │                  │       5513947f907f24766b34d2ae8c090 
-│                       │       │                  ├ [6] : https://github.com/python/cpython/issues/100884 
-│                       │       │                  ├ [7] : https://github.com/python/cpython/pull/100885 
-│                       │       │                  ├ [8] : https://github.com/python/cpython/pull/119099 
-│                       │       │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/03
+│                       │       │                  ├ [5] : https://github.com/python/cpython/issues/100884 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/pull/100885 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/pull/119099 
+│                       │       │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/03
 │                       │       │                  │       /msg00013.html 
-│                       │       │                  ├ [10]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [9] : https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4Z
 │                       │       │                  │       UR/ 
-│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-1795 
-│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7570-1 
-│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
+│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-1795 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7570-1 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-1795 
 │                       │       ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [237] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [243] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -15754,7 +16031,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:10950 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -15764,63 +16041,64 @@
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2444691 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2448168 
 │                       │       │                  ├ [10]: https://bugzilla.redhat.com/2448181 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2457409 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457932 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2458049 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
-│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
-│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
-│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
-│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
-│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
-│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
-│                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-13837 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2449649 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2457409 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2457932 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/2458049 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2408891 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2418084 
+│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2431366 
+│                       │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2431374 
+│                       │       │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2444691 
+│                       │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448168 
+│                       │       │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2448181 
+│                       │       │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2457409 
+│                       │       │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2457932 
+│                       │       │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2458049 
 │                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-15282 
+│                       │       │                  │       025-13837 
 │                       │       │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-59375 
+│                       │       │                  │       025-15282 
 │                       │       │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       025-6075 
+│                       │       │                  │       025-59375 
 │                       │       │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-0672 
+│                       │       │                  │       025-6075 
 │                       │       │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-1502 
+│                       │       │                  │       026-0672 
 │                       │       │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-2297 
+│                       │       │                  │       026-1502 
 │                       │       │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-3644 
+│                       │       │                  │       026-2297 
 │                       │       │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4224 
+│                       │       │                  │       026-3644 
 │                       │       │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4786 
+│                       │       │                  │       026-4224 
 │                       │       │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4786 
+│                       │       │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [36]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [37]: https://errata.rockylinux.org/RLSA-2026:10950 
-│                       │       │                  ├ [38]: https://github.com/python/cpython/commit/482d6f8bdba
+│                       │       │                  ├ [37]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [38]: https://errata.rockylinux.org/RLSA-2026:10950 
+│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
-│                       │       │                  ├ [39]: https://github.com/python/cpython/commit/69ddd9bb2cc
+│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/69ddd9bb2cc
 │                       │       │                  │       4bd69b1565647c18659c6a789ccd9 
-│                       │       │                  ├ [40]: https://github.com/python/cpython/commit/876858c9f65
+│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/876858c9f65
 │                       │       │                  │       d9ab656c7fa639f268ce7856d89dd 
-│                       │       │                  ├ [41]: https://github.com/python/cpython/commit/a51b1b512de
+│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/a51b1b512de
 │                       │       │                  │       1d56b3714b65628a2eae2b07e535e 
-│                       │       │                  ├ [42]: https://github.com/python/cpython/commit/e58e9802b9b
+│                       │       │                  ├ [43]: https://github.com/python/cpython/commit/e58e9802b9b
 │                       │       │                  │       ec5cdbf48fc9bf1da5f4fda482e86 
-│                       │       │                  ├ [43]: https://github.com/python/cpython/issues/145506 
-│                       │       │                  ├ [44]: https://github.com/python/cpython/pull/145507 
-│                       │       │                  ├ [45]: https://linux.oracle.com/cve/CVE-2026-2297.html 
-│                       │       │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
-│                       │       │                  ├ [47]: https://nvd.nist.gov/vuln/detail/CVE-2026-2297 
-│                       │       │                  ╰ [48]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
+│                       │       │                  ├ [44]: https://github.com/python/cpython/issues/145506 
+│                       │       │                  ├ [45]: https://github.com/python/cpython/pull/145507 
+│                       │       │                  ├ [46]: https://linux.oracle.com/cve/CVE-2026-2297.html 
+│                       │       │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-10950.html 
+│                       │       │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2026-2297 
+│                       │       │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T16:16:30.11Z 
-│                       ├ [238] ╭ VulnerabilityID : CVE-2026-3479 
+│                       ├ [244] ╭ VulnerabilityID : CVE-2026-3479 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8?arch=x86_
@@ -15872,7 +16150,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3479 
 │                       │       ├ PublishedDate   : 2026-03-18T19:16:06.81Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:16:46.74Z 
-│                       ├ [239] ╭ VulnerabilityID : CVE-2023-45803 
+│                       ├ [245] ╭ VulnerabilityID : CVE-2023-45803 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -15945,7 +16223,7 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 4.2 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:2968 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:2132 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-45803 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2246840 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2257028 
@@ -15953,7 +16231,7 @@
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2246840 
 │                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       023-45803 
-│                       │       │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-2968.html 
+│                       │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2132.html 
 │                       │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:11238 
 │                       │       │                  ├ [9] : https://github.com/pypa/advisory-database/tree/main/
 │                       │       │                  │       vulns/urllib3/PYSEC-2023-212.yaml 
@@ -15999,7 +16277,7 @@
 │                       │       │                  ╰ [31]: https://www.rfc-editor.org/rfc/rfc9110.html#name-get 
 │                       │       ├ PublishedDate   : 2023-10-17T20:15:10.07Z 
 │                       │       ╰ LastModifiedDate: 2025-11-03T22:16:28.17Z 
-│                       ├ [240] ╭ VulnerabilityID : CVE-2025-50181 
+│                       ├ [246] ╭ VulnerabilityID : CVE-2025-50181 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -16015,8 +16293,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-50181 
 │                       │       ├ Fingerprint     : sha256:02f624e75c799ec03027686e8230f5b7504327f6a775a6b10cac
 │                       │       │                   5407d5ae1049 
-│                       │       ├ Title           : urllib3: urllib3 redirects are not disabled when retries
-│                       │       │                   are disabled on PoolManager instantiation 
+│                       │       ├ Title           : urllib3 is a user-friendly HTTP client library for Python.
+│                       │       │                   Prior to 2. ... 
 │                       │       ├ Description     : urllib3 is a user-friendly HTTP client library for Python.
 │                       │       │                   Prior to 2.5.0, it is possible to disable redirects for all
 │                       │       │                    requests by instantiating a PoolManager and specifying
@@ -16036,29 +16314,25 @@
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:
-│                       │       │                  │        │           N/A:N 
-│                       │       │                  │        ╰ V3Score : 5.3 
-│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:
-│                       │       │                  │        │           L/A:N 
-│                       │       │                  │        ╰ V3Score : 6.1 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-50181 
-│                       │       │                  ├ [1]: https://github.com/urllib3/urllib3 
-│                       │       │                  ├ [2]: https://github.com/urllib3/urllib3/commit/f05b1329126
+│                       │       ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/
+│                       │       │                  │      │           A:N 
+│                       │       │                  │      ╰ V3Score : 5.3 
+│                       │       │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/
+│                       │       │                         │           A:N 
+│                       │       │                         ╰ V3Score : 6.1 
+│                       │       ├ References       ╭ [0]: https://github.com/urllib3/urllib3 
+│                       │       │                  ├ [1]: https://github.com/urllib3/urllib3/commit/f05b1329126
 │                       │       │                  │      d5be6de501f9d1e3e36738bc08857 
-│                       │       │                  ├ [3]: https://github.com/urllib3/urllib3/releases/tag/2.5.0 
-│                       │       │                  ├ [4]: https://github.com/urllib3/urllib3/security/advisorie
+│                       │       │                  ├ [2]: https://github.com/urllib3/urllib3/releases/tag/2.5.0 
+│                       │       │                  ├ [3]: https://github.com/urllib3/urllib3/security/advisorie
 │                       │       │                  │      s/GHSA-pq67-6m6q-mj2v 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50181 
-│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7599-1 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-7599-2 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-50181 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-50181 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7599-1 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7599-2 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-50181 
 │                       │       ├ PublishedDate   : 2025-06-19T01:15:24.453Z 
 │                       │       ╰ LastModifiedDate: 2025-12-22T19:15:49.04Z 
-│                       ├ [241] ╭ VulnerabilityID : CVE-2025-50182 
+│                       ├ [247] ╭ VulnerabilityID : CVE-2025-50182 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -16074,8 +16348,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-50182 
 │                       │       ├ Fingerprint     : sha256:ed7f35564e0ac2549fca96599a851c5ea1efb7ea8663e227532e
 │                       │       │                   709688a78634 
-│                       │       ├ Title           : urllib3: urllib3 does not control redirects in browsers and
-│                       │       │                    Node.js 
+│                       │       ├ Title           : urllib3 is a user-friendly HTTP client library for Python.
+│                       │       │                   Starting in ... 
 │                       │       ├ Description     : urllib3 is a user-friendly HTTP client library for Python.
 │                       │       │                   Starting in version 2.2.0 and prior to 2.5.0, urllib3 does
 │                       │       │                   not control redirects in browsers and Node.js. urllib3
@@ -16093,28 +16367,24 @@
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:
-│                       │       │                  │        │           N/A:N 
-│                       │       │                  │        ╰ V3Score : 5.3 
-│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:
-│                       │       │                  │        │           L/A:N 
-│                       │       │                  │        ╰ V3Score : 6.1 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-50182 
-│                       │       │                  ├ [1]: https://github.com/urllib3/urllib3 
-│                       │       │                  ├ [2]: https://github.com/urllib3/urllib3/commit/7eb4a2aafe4
+│                       │       ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/
+│                       │       │                  │      │           A:N 
+│                       │       │                  │      ╰ V3Score : 5.3 
+│                       │       │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/
+│                       │       │                         │           A:N 
+│                       │       │                         ╰ V3Score : 6.1 
+│                       │       ├ References       ╭ [0]: https://github.com/urllib3/urllib3 
+│                       │       │                  ├ [1]: https://github.com/urllib3/urllib3/commit/7eb4a2aafe4
 │                       │       │                  │      9a279c29b6d1f0ed0f42e9736194f 
-│                       │       │                  ├ [3]: https://github.com/urllib3/urllib3/releases/tag/2.5.0 
-│                       │       │                  ├ [4]: https://github.com/urllib3/urllib3/security/advisorie
+│                       │       │                  ├ [2]: https://github.com/urllib3/urllib3/releases/tag/2.5.0 
+│                       │       │                  ├ [3]: https://github.com/urllib3/urllib3/security/advisorie
 │                       │       │                  │      s/GHSA-48p4-8xcf-vxj5 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50182 
-│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7599-1 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-50182 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-50182 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7599-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50182 
 │                       │       ├ PublishedDate   : 2025-06-19T02:15:17.967Z 
 │                       │       ╰ LastModifiedDate: 2025-12-22T19:15:49.177Z 
-│                       ├ [242] ╭ VulnerabilityID : CVE-2026-25645 
+│                       ├ [248] ╭ VulnerabilityID : CVE-2026-25645 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -16174,7 +16444,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-25645 
 │                       │       ├ PublishedDate   : 2026-03-25T17:16:52.97Z 
 │                       │       ╰ LastModifiedDate: 2026-03-30T14:23:16.127Z 
-│                       ├ [243] ╭ VulnerabilityID : CVE-2026-32284 
+│                       ├ [249] ╭ VulnerabilityID : CVE-2026-32284 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -16217,7 +16487,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-32284 
 │                       │       ├ PublishedDate   : 2026-03-26T20:16:12.087Z 
 │                       │       ╰ LastModifiedDate: 2026-03-30T15:16:27.78Z 
-│                       ├ [244] ╭ VulnerabilityID : CVE-2021-3572 
+│                       ├ [250] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -16327,7 +16597,7 @@
 │                       │       │                  ╰ [40]: https://www.oracle.com/security-alerts/cpujul2022.html 
 │                       │       ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:21:52.473Z 
-│                       ├ [245] ╭ VulnerabilityID : CVE-2024-0232 
+│                       ├ [251] ╭ VulnerabilityID : CVE-2024-0232 
 │                       │       ├ PkgID           : sqlite-libs@3.34.1-10.el9_8.x86_64 
 │                       │       ├ PkgName         : sqlite-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-10.el9_8?arch=x86_
@@ -16375,7 +16645,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
 │                       │       ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T08:46:06.907Z 
-│                       ├ [246] ╭ VulnerabilityID : CVE-2025-70873 
+│                       ├ [252] ╭ VulnerabilityID : CVE-2025-70873 
 │                       │       ├ PkgID           : sqlite-libs@3.34.1-10.el9_8.x86_64 
 │                       │       ├ PkgName         : sqlite-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-10.el9_8?arch=x86_
@@ -16417,7 +16687,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-70873 
 │                       │       ├ PublishedDate   : 2026-03-12T19:16:15.933Z 
 │                       │       ╰ LastModifiedDate: 2026-04-16T21:15:47.01Z 
-│                       ├ [247] ╭ VulnerabilityID : CVE-2026-4105 
+│                       ├ [253] ╭ VulnerabilityID : CVE-2026-4105 
 │                       │       ├ PkgID           : systemd-libs@252-67.el9_8.2.x86_64 
 │                       │       ├ PkgName         : systemd-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-67.el9_8.2?arch=x86_
@@ -16460,7 +16730,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-4105 
 │                       │       ├ PublishedDate   : 2026-03-13T19:55:13.673Z 
 │                       │       ╰ LastModifiedDate: 2026-04-30T17:16:26.697Z 
-│                       ├ [248] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [254] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │       ├ PkgID           : tar@1.34-11.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-11.el9?arch=x86_64&distro=re
@@ -16498,7 +16768,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │       ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │       ╰ LastModifiedDate: 2026-04-16T00:27:16.627Z 
-│                       ├ [249] ╭ VulnerabilityID : CVE-2025-64118 
+│                       ├ [255] ╭ VulnerabilityID : CVE-2025-64118 
 │                       │       ├ PkgID           : tar@1.34-11.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-11.el9?arch=x86_64&distro=re
@@ -16514,8 +16784,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64118 
 │                       │       ├ Fingerprint     : sha256:977eaaa7a97f0f55c2b2904d74a03a41f9e0b4ffa7925857c12f
 │                       │       │                   3bd6d7f15366 
-│                       │       ├ Title           : node-tar: tar: node-tar: Information disclosure via reading
-│                       │       │                    a truncated tar file 
+│                       │       ├ Title           : node-tar has a race condition leading to uninitialized
+│                       │       │                   memory exposure 
 │                       │       ├ Description     : node-tar is a Tar for Node.js. In 7.5.1, using .t (aka
 │                       │       │                   .list) with { sync: true } to read tar entry contents
 │                       │       │                   returns uninitialized memory contents if tar file was
@@ -16526,27 +16796,22 @@
 │                       │       │                  ╰ [1]: CWE-367 
 │                       │       ├ VendorSeverity   ╭ ghsa  : 2 
 │                       │       │                  ╰ redhat: 2 
-│                       │       ├ CVSS             ╭ ghsa   ╭ V40Vector: CVSS:4.0/AV:L/AC:H/AT:P/PR:L/UI:P/VC:H
-│                       │       │                  │        │            /VI:L/VA:L/SC:H/SI:H/SA:H 
-│                       │       │                  │        ╰ V40Score : 6.1 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64118 
-│                       │       │                  ├ [1]: https://github.com/isaacs/node-tar 
-│                       │       │                  ├ [2]: https://github.com/isaacs/node-tar/commit/5330eb04bc4
+│                       │       ├ CVSS             ─ ghsa ╭ V40Vector: CVSS:4.0/AV:L/AC:H/AT:P/PR:L/UI:P/VC:H/V
+│                       │       │                         │            I:L/VA:L/SC:H/SI:H/SA:H 
+│                       │       │                         ╰ V40Score : 6.1 
+│                       │       ├ References       ╭ [0]: https://github.com/isaacs/node-tar 
+│                       │       │                  ├ [1]: https://github.com/isaacs/node-tar/commit/5330eb04bc4
 │                       │       │                  │      3014f216e5c271b40d5c00d45224d 
-│                       │       │                  ├ [3]: https://github.com/isaacs/node-tar/commit/5e1a8e63860
+│                       │       │                  ├ [2]: https://github.com/isaacs/node-tar/commit/5e1a8e63860
 │                       │       │                  │      0d3c3a2969b4de6a6ec44fa8d74c9 
-│                       │       │                  ├ [4]: https://github.com/isaacs/node-tar/issues/445 
-│                       │       │                  ├ [5]: https://github.com/isaacs/node-tar/pull/446 
-│                       │       │                  ├ [6]: https://github.com/isaacs/node-tar/security/advisorie
+│                       │       │                  ├ [3]: https://github.com/isaacs/node-tar/issues/445 
+│                       │       │                  ├ [4]: https://github.com/isaacs/node-tar/pull/446 
+│                       │       │                  ├ [5]: https://github.com/isaacs/node-tar/security/advisorie
 │                       │       │                  │      s/GHSA-29xp-372q-xqph 
-│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-64118 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-64118 
+│                       │       │                  ╰ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-64118 
 │                       │       ├ PublishedDate   : 2025-10-30T18:15:33.673Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [250] ╭ VulnerabilityID : CVE-2026-33056 
+│                       ├ [256] ╭ VulnerabilityID : CVE-2026-33056 
 │                       │       ├ PkgID           : tar@1.34-11.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-11.el9?arch=x86_64&distro=re
@@ -16610,7 +16875,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-33056 
 │                       │       ├ PublishedDate   : 2026-03-20T08:16:11.603Z 
 │                       │       ╰ LastModifiedDate: 2026-03-24T16:17:11.623Z 
-│                       ├ [251] ╭ VulnerabilityID : CVE-2026-5704 
+│                       ├ [257] ╭ VulnerabilityID : CVE-2026-5704 
 │                       │       ├ PkgID           : tar@1.34-11.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-11.el9?arch=x86_64&distro=re
@@ -16655,7 +16920,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-5704 
 │                       │       ├ PublishedDate   : 2026-04-06T16:16:42.14Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T20:08:59.92Z 
-│                       ├ [252] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ├ [258] ╭ VulnerabilityID : CVE-2023-39804 
 │                       │       ├ PkgID           : tar@1.34-11.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-11.el9?arch=x86_64&distro=re
@@ -16699,7 +16964,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-39804 
 │                       │       ├ PublishedDate   : 2024-03-27T04:15:08.897Z 
 │                       │       ╰ LastModifiedDate: 2025-11-04T19:15:55.43Z 
-│                       ├ [253] ╭ VulnerabilityID : CVE-2026-34743 
+│                       ├ [259] ╭ VulnerabilityID : CVE-2026-34743 
 │                       │       ├ PkgID           : xz-libs@5.2.5-8.el9_0.x86_64 
 │                       │       ├ PkgName         : xz-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/xz-libs@5.2.5-8.el9_0?arch=x86_64&dis
@@ -16749,7 +17014,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-34743 
 │                       │       ├ PublishedDate   : 2026-04-02T19:21:33.187Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T17:33:17.68Z 
-│                       ╰ [254] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ╰ [260] ╭ VulnerabilityID : CVE-2026-27171 
 │                               ├ PkgID           : zlib@1.2.11-40.el9.x86_64 
 │                               ├ PkgName         : zlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/zlib@1.2.11-40.el9?arch=x86_64&distro
