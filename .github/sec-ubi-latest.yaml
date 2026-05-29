@@ -621,6 +621,7 @@
       nvd: 2
       photon: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -2450,7 +2451,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14087
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14512
     - https://errata.almalinux.org/9/ALSA-2026-19361.html
-    - https://errata.rockylinux.org/RLSA-2026:15971
+    - https://errata.rockylinux.org/RLSA-2026:15969
     - https://github.com/advisories/GHSA-frh9-7wfp-w73p
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3834
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4933
@@ -2523,7 +2524,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14087
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14512
     - https://errata.almalinux.org/9/ALSA-2026-19361.html
-    - https://errata.rockylinux.org/RLSA-2026:15971
+    - https://errata.rockylinux.org/RLSA-2026:15969
     - https://github.com/advisories/GHSA-2p5v-p767-wqv5
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3845
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4935
@@ -2996,6 +2997,7 @@
     CweIDs:
     - CWE-127
     VendorSeverity:
+      photon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -3244,6 +3246,7 @@
     CweIDs:
     - CWE-127
     VendorSeverity:
+      photon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -3492,6 +3495,7 @@
     CweIDs:
     - CWE-127
     VendorSeverity:
+      photon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -4297,7 +4301,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/9/ALSA-2026-0238.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.rockylinux.org/RLSA-2026:0237
     - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
     - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
     - https://github.com/pnggroup/libpng/issues/764
@@ -4390,7 +4394,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
     - https://errata.almalinux.org/9/ALSA-2026-3405.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
+    - https://errata.rockylinux.org/RLSA-2026:3551
     - https://github.com/pnggroup/libpng/commit/01d03b8453eb30ade759cd45c707e5a1c7277d88
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-g8hp-mq4h-rqm3
     - https://linux.oracle.com/cve/CVE-2026-25646.html
@@ -4425,6 +4429,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -4433,7 +4438,32 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:9693
     - https://access.redhat.com/security/cve/CVE-2026-26740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2443891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448747
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2451805
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2451819
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460029
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460038
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460039
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460040
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460041
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460042
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460043
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460044
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22007
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22008
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22013
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22016
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22018
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22021
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-23865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-26740
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33416
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33636
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34268
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34282
     - https://errata.almalinux.org/9/ALSA-2026-9693.html
+    - https://errata.rockylinux.org/RLSA-2026:9693
     - https://github.com/zakkanijia/POC/blob/main/giflib/giftool/giflib_giftool_gce_len_heap_oobwrite_disclosure.md
     - https://linux.oracle.com/cve/CVE-2026-26740.html
     - https://linux.oracle.com/errata/ELSA-2026-9693.html
@@ -4642,7 +4672,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
     - https://errata.almalinux.org/9/ALSA-2026-3405.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
+    - https://errata.rockylinux.org/RLSA-2026:3551
     - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
     - https://github.com/pnggroup/libpng/commit/e4f7ad4ea2
     - https://github.com/pnggroup/libpng/issues/778
@@ -4707,7 +4737,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
     - https://errata.almalinux.org/9/ALSA-2026-3405.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
+    - https://errata.rockylinux.org/RLSA-2026:3551
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-vgjq-8cw5-ggw8
     - https://linux.oracle.com/cve/CVE-2026-22801.html
     - https://linux.oracle.com/errata/ELSA-2026-4728.html
@@ -4757,7 +4787,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2451805
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33416
     - https://errata.almalinux.org/9/ALSA-2026-9693.html
-    - https://errata.rockylinux.org/RLSA-2026:18028
+    - https://errata.rockylinux.org/RLSA-2026:18064
     - https://github.com/pnggroup/libpng/commit/23019269764e35ed8458e517f1897bd3c54820eb
     - https://github.com/pnggroup/libpng/commit/7ea9eea884a2328cc7fdcb3c0c00246a50d90667
     - https://github.com/pnggroup/libpng/commit/a3a21443ed12bfa1ef46fa0d4fb2b74a0fa34a25
@@ -4811,7 +4841,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2451819
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33636
     - https://errata.almalinux.org/9/ALSA-2026-9693.html
-    - https://errata.rockylinux.org/RLSA-2026:14791
+    - https://errata.rockylinux.org/RLSA-2026:14790
     - https://github.com/pnggroup/libpng/commit/7734cda20cf1236aef60f3bbd2267c97bbb40869
     - https://github.com/pnggroup/libpng/commit/aba9f18eba870d14fb52c5ba5d73451349e339c3
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-wjr5-c57x-95m2
@@ -5521,7 +5551,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2451615
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4878
     - https://errata.almalinux.org/9/ALSA-2026-19346.html
-    - https://errata.rockylinux.org/RLSA-2026:19346
+    - https://errata.rockylinux.org/RLSA-2026:12423
     - https://github.com/AndrewGMorgan/libcap_mirror/security/advisories/GHSA-f78v-p5hx-m7hh
     - https://linux.oracle.com/cve/CVE-2026-4878.html
     - https://linux.oracle.com/errata/ELSA-2026-13285.html
@@ -7122,7 +7152,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-48864
     - https://www.cve.org/CVERecord?id=CVE-2026-48864
     PublishedDate: '2026-05-26T17:16:54.05Z'
-    LastModifiedDate: '2026-05-28T03:16:42.903Z'
+    LastModifiedDate: '2026-05-28T19:22:42.087Z'
   - VulnerabilityID: CVE-2026-9149
     PkgID: libsolv@0.7.24-3.el9.x86_64
     PkgName: libsolv
@@ -11390,7 +11420,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4168.html
-    - https://errata.rockylinux.org/RLSA-2026:4168
+    - https://errata.rockylinux.org/RLSA-2026:4713
     - https://github.com/python/cpython/commit/22e4d55285cee52bc4dbe061324e5f30bd4dee58
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/286e3ac39984fe85a17f4ab39c64d382137aae5f
@@ -11817,7 +11847,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6019
     - https://www.cve.org/CVERecord?id=CVE-2026-6019
     PublishedDate: '2026-04-22T20:16:42.617Z'
-    LastModifiedDate: '2026-05-18T17:08:04.33Z'
+    LastModifiedDate: '2026-05-28T19:15:28.54Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python-unversioned-command@3.9.25-3.el9_7.3.noarch
     PkgName: python-unversioned-command
@@ -12708,7 +12738,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4168.html
-    - https://errata.rockylinux.org/RLSA-2026:4168
+    - https://errata.rockylinux.org/RLSA-2026:4713
     - https://github.com/python/cpython/commit/22e4d55285cee52bc4dbe061324e5f30bd4dee58
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/286e3ac39984fe85a17f4ab39c64d382137aae5f
@@ -13135,7 +13165,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6019
     - https://www.cve.org/CVERecord?id=CVE-2026-6019
     PublishedDate: '2026-04-22T20:16:42.617Z'
-    LastModifiedDate: '2026-05-18T17:08:04.33Z'
+    LastModifiedDate: '2026-05-28T19:15:28.54Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3@3.9.25-3.el9_7.3.x86_64
     PkgName: python3
@@ -14026,7 +14056,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4168.html
-    - https://errata.rockylinux.org/RLSA-2026:4168
+    - https://errata.rockylinux.org/RLSA-2026:4713
     - https://github.com/python/cpython/commit/22e4d55285cee52bc4dbe061324e5f30bd4dee58
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/286e3ac39984fe85a17f4ab39c64d382137aae5f
@@ -14453,7 +14483,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6019
     - https://www.cve.org/CVERecord?id=CVE-2026-6019
     PublishedDate: '2026-04-22T20:16:42.617Z'
-    LastModifiedDate: '2026-05-18T17:08:04.33Z'
+    LastModifiedDate: '2026-05-28T19:15:28.54Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3-libs@3.9.25-3.el9_7.3.x86_64
     PkgName: python3-libs
@@ -14961,6 +14991,114 @@
     - https://www.oracle.com/security-alerts/cpujul2022.html
     PublishedDate: '2021-11-10T18:15:09.51Z'
     LastModifiedDate: '2024-11-21T06:21:52.473Z'
+  - VulnerabilityID: CVE-2026-44604
+    PkgID: rpm@4.16.1.3-39.el9.x86_64
+    PkgName: rpm
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/rpm@4.16.1.3-39.el9?arch=x86_64&distro=redhat-9.7
+      UID: 2307c1425ae34118
+    InstalledVersion: 4.16.1.3-39.el9
+    Status: under_investigation
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-44604
+    Fingerprint: sha256:3357c1b0e72054b6725da6de9beb13749938b23e5c62037b6234767247ab67f0
+    Title: 'rpm: Command injection in rpmuncompress doUntar() via unescaped archive top-level directory name in popen() shell command'
+    Description: A command injection vulnerability was discovered in the `rpmuncompress` utility of RPM. When extracting certain archive formats (ZIP, 7z, GEM) to a specified destination directory, the tool inserts the archive's top-level folder name into a shell command without properly sanitizing it. A specially crafted archive containing shell metacharacters in its folder name can execute arbitrary commands as the user running the extraction.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-44604
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460967
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-44604
+    - https://www.cve.org/CVERecord?id=CVE-2026-44604
+    PublishedDate: '2026-05-28T08:16:35.28Z'
+    LastModifiedDate: '2026-05-28T13:44:54.327Z'
+  - VulnerabilityID: CVE-2026-44604
+    PkgID: rpm-libs@4.16.1.3-39.el9.x86_64
+    PkgName: rpm-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-39.el9?arch=x86_64&distro=redhat-9.7
+      UID: 6ed70534dab99aac
+    InstalledVersion: 4.16.1.3-39.el9
+    Status: under_investigation
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-44604
+    Fingerprint: sha256:8c067723743276d9d309a6997c67d0990041d9a6d9857691843eb94ecf911f77
+    Title: 'rpm: Command injection in rpmuncompress doUntar() via unescaped archive top-level directory name in popen() shell command'
+    Description: A command injection vulnerability was discovered in the `rpmuncompress` utility of RPM. When extracting certain archive formats (ZIP, 7z, GEM) to a specified destination directory, the tool inserts the archive's top-level folder name into a shell command without properly sanitizing it. A specially crafted archive containing shell metacharacters in its folder name can execute arbitrary commands as the user running the extraction.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-44604
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460967
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-44604
+    - https://www.cve.org/CVERecord?id=CVE-2026-44604
+    PublishedDate: '2026-05-28T08:16:35.28Z'
+    LastModifiedDate: '2026-05-28T13:44:54.327Z'
+  - VulnerabilityID: CVE-2026-5958
+    PkgID: sed@4.8-9.el9.x86_64
+    PkgName: sed
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/sed@4.8-9.el9?arch=x86_64&distro=redhat-9.7
+      UID: af697e06e2c7c914
+    InstalledVersion: 4.8-9.el9
+    Status: affected
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-5958
+    Fingerprint: sha256:a4ad461fab9c32d1a7d60ad949652f324c9e88ece1ffed4e7dd155531a349e11
+    Title: 'sed: GNU sed TOCTOU race condition'
+    Description: "When sed is invoked with both -i (in-place edit) and --follow-symlinks, the function open_next_file() performs two separate, non-atomic filesystem operations on the same path: \n1. resolves symlink to its target and stores\_the resolved path for determining when output is written,\n2. opens the original symlink path\_(not the resolved one) to read the file. \nBetween these two calls there is a race window. If an attacker atomically replaces the symlink with a different target during that window, sed will: read content from the new (attacker-chosen) symlink target and write the processed result to the path recorded in step 1.\_This can lead to arbitrary file overwrite with attacker-controlled content in the context of the sed process.\n\n\nThis issue was fixed in version 4.10."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-367
+    VendorSeverity:
+      azure: 1
+      julia: 1
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N
+        V40Score: 2.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 6.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/13/1
+    - https://access.redhat.com/security/cve/CVE-2026-5958
+    - https://cert.pl/en/posts/2026/04/CVE-2026-5958
+    - https://github.com/advisories/GHSA-9r7w-j29g-xqx8
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-5958
+    - https://ubuntu.com/security/notices/USN-8229-1
+    - https://ubuntu.com/security/notices/USN-8229-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-5958
+    - https://www.gnu.org/software/sed
+    - https://www.gnu.org/software/sed/
+    PublishedDate: '2026-04-20T12:16:08.433Z'
+    LastModifiedDate: '2026-05-19T15:17:37.183Z'
   - VulnerabilityID: CVE-2024-0232
     PkgID: sqlite-libs@3.34.1-9.el9_7.x86_64
     PkgName: sqlite-libs
@@ -15087,7 +15225,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2454714
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-35535
     - https://errata.almalinux.org/9/ALSA-2026-19220.html
-    - https://errata.rockylinux.org/RLSA-2026:12310
+    - https://errata.rockylinux.org/RLSA-2026:10758
     - https://github.com/sudo-project/sudo/commit/3e474c2f201484be83d994ae10a4e20e8c81bb69
     - https://linux.oracle.com/cve/CVE-2026-35535.html
     - https://linux.oracle.com/errata/ELSA-2026-12310.html
@@ -15141,7 +15279,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2450505
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-29111
     - https://errata.almalinux.org/9/ALSA-2026-19213.html
-    - https://errata.rockylinux.org/RLSA-2026:13677
+    - https://errata.rockylinux.org/RLSA-2026:13651
     - https://github.com/systemd/systemd/commit/1d22f706bd04f45f8422e17fbde3f56ece17758a
     - https://github.com/systemd/systemd/commit/20021e7686426052e3a7505425d7e12085feb2a6
     - https://github.com/systemd/systemd/commit/21167006574d6b83813c7596759b474f56562412
@@ -15420,6 +15558,7 @@
       nvd: 2
       photon: 2
       redhat: 2
+      ubuntu: 1
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -15434,6 +15573,7 @@
     - https://github.com/tukaani-project/xz/releases/tag/v5.8.3
     - https://github.com/tukaani-project/xz/security/advisories/GHSA-x872-m794-cxhv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34743
+    - https://tukaani.org/xz/index-append-overflow.html
     - https://www.cve.org/CVERecord?id=CVE-2026-34743
     PublishedDate: '2026-04-02T19:21:33.187Z'
     LastModifiedDate: '2026-04-15T17:33:17.68Z'
