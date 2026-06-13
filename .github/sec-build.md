@@ -12,16 +12,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-45447 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1a293e9ed900ab844e498ff441bdbfe3bd0cf65c03119c835b4f5
-│                       │      │                   8c7014b7ba0 
+│                       │      ├ Fingerprint     : sha256:ff2b62c01b773e1e93a58ee8d8d6c347dbf84aa6c4d7aff067d4f
+│                       │      │                   c70329c8fa7 
 │                       │      ├ Title           : openssl: Heap Use-After-Free in OpenSSL PKCS7_verify() 
 │                       │      ├ Description     : Issue summary: A specially crafted PKCS#7 or S/MIME signed
 │                       │      │                   message could
@@ -67,7 +67,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 8.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45447 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -84,7 +84,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/3aad5eb7af4
 │                       │      │                  │       de4ee0633c30a8541a54d9bbde63c 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/7d4a980c622
@@ -111,16 +111,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34182 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0a21c915d02577ec64a0f7671e4c53da44d2d8fb700535de0658a
-│                       │      │                   70d1a928b02 
+│                       │      ├ Fingerprint     : sha256:cbe94bea682b26bf2dcab26a8f34fd49227e24263f9e84ea58a86
+│                       │      │                   d7f3acfe3a6 
 │                       │      ├ Title           : openssl: CMS AuthEnvelopedData Processing May Accept Forged
 │                       │      │                   Messages 
 │                       │      ├ Description     : Issue Summary: Cryptographic Message Services (CMS)
@@ -180,7 +180,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.4 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34182 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -197,7 +197,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/03c1f4d45fb
 │                       │      │                  │       963aee7d5833390c507cd290182bc 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/439ed7d2c09
@@ -224,16 +224,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34183 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2e7ee9b1d4afe79a9a7e473696a92863da233f60e604ad3ccde45
-│                       │      │                   d201f14b732 
+│                       │      ├ Fingerprint     : sha256:be1abcbd3b962b9fc957900673cd48e0370fbe044e224b41f598a
+│                       │      │                   f689e04ad98 
 │                       │      ├ Title           : openssl: Unbounded Memory Growth in the QUIC PATH_CHALLENGE
 │                       │      │                   Handler 
 │                       │      ├ Description     : Issue summary: Remote peer may exhaust heap memory of the
@@ -270,7 +270,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34183 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -287,7 +287,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/5b306efb0b3
 │                       │      │                  │       779dfdd0803b4afc9d08c91f11517 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/7d06955ebe0
@@ -311,16 +311,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42764 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:daf81fc510065a854f5088df9401a08fc46240b26d680631b25a7
-│                       │      │                   265a1e59b5c 
+│                       │      ├ Fingerprint     : sha256:a03beb94f3396c44681ece307a20d4898f71bd588103f561a35f2
+│                       │      │                   91e9bf48694 
 │                       │      ├ Title           : openssl: NULL pointer dereference in QUIC server initial
 │                       │      │                   packet handling 
 │                       │      ├ Description     : Issue summary: Receiving a QUIC initial packet with an
@@ -359,7 +359,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42764 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -376,7 +376,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/5e3ed291b8a
 │                       │      │                  │       f0b03d5d3b9e56a1da69a187e9729 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/a45a0aba809
@@ -398,16 +398,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-45445 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0d9c9d7243964800adabf35b171953ae4b04c8653fa20553ced0f
-│                       │      │                   4a8838802a4 
+│                       │      ├ Fingerprint     : sha256:6d5120ac292bd34ef91632a9f248d2676208eff154c403731179f
+│                       │      │                   7c5410a0abb 
 │                       │      ├ Title           : openssl: AES-OCB IV Ignored on EVP_Cipher() Path 
 │                       │      ├ Description     : Issue summary: When an application drives an AES-OCB context
 │                       │      │                    through the
@@ -479,7 +479,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 9.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45445 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -496,7 +496,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/323f0b6e7d5
 │                       │      │                  │       30a4cb4336d50c88cb70f3ac2a451 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/787a6dfba81
@@ -522,16 +522,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34180 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ed4169579b367b8920fba36bf09642b173d469624b2577542664d
-│                       │      │                   14f6ea9228e 
+│                       │      ├ Fingerprint     : sha256:8b7174c2427c077377f308ed2893b9795dd0cde2a9a4489bed9fb
+│                       │      │                   0059f4d410e 
 │                       │      ├ Title           : openssl: OpenSSL: Heap buffer over-read in ASN.1 decoding
 │                       │      │                   can lead to denial of service or information disclosure. 
 │                       │      ├ Description     : Issue summary: Parsing a crafted DER-encoded ASN.1 structure
@@ -578,7 +578,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34180 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -595,7 +595,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/1c6908e4fa5
 │                       │      │                  │       fa568752221d8eaf561a809751e5d 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/cbe418ae978
@@ -622,16 +622,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34181 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2ad949531766c92cdab648ff1826729e77110b6b0f3ed511b208e
-│                       │      │                   598ef621d33 
+│                       │      ├ Fingerprint     : sha256:735810fb52886bdd9dda13431f94b2db217fb5a2e6f76d7c5fb1a
+│                       │      │                   68e4418be77 
 │                       │      ├ Title           : openssl: PKCS#12 Files with PBMAC1 Are Accepted with Short
 │                       │      │                   HMAC Keys 
 │                       │      ├ Description     : Issue Summary: The PKCS#12 file processing fails to perform
@@ -667,7 +667,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34181 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -684,7 +684,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/0300eb9ddce
 │                       │      │                  │       7a0895bf301a4b0c03a9da2313a0f 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/79eb76a937e
@@ -708,16 +708,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42766 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:6123dacff7eb349e5286586b70e8129f637d34547534e776837ea
-│                       │      │                   9659d66a3de 
+│                       │      ├ Fingerprint     : sha256:9688a1f87b153dc73a17c34f72f4bf7c588d531a4d3700ac90a6a
+│                       │      │                   ffe2ea5d583 
 │                       │      ├ Title           : openssl: Possible NULL Dereference in Password-Based CMS
 │                       │      │                   Decryption 
 │                       │      ├ Description     : Issue summary: A specially crafted password-encrypted CMS
@@ -756,7 +756,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42766 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -773,7 +773,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/056d06c1918
 │                       │      │                  │       fafbb98c1c85a02e4c47cc4e199ce 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/12bc26ffb3a
@@ -800,16 +800,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42767 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:bebe28ec06fa9bf49fde450dfa9d8eda279d1ddaf5b5757799f77
-│                       │      │                   33067b09724 
+│                       │      ├ Fingerprint     : sha256:2f89ea15a906c753d739c19773e1dd69d61e508f91327372e3175
+│                       │      │                   8f0ec87a845 
 │                       │      ├ Title           : openssl: NULL Pointer Dereference in CRMF EncryptedValue
 │                       │      │                   Decryption 
 │                       │      ├ Description     : Issue summary: An attacker-controlled CMP (Certificate
@@ -845,7 +845,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42767 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -862,7 +862,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/61a86a8cd73
 │                       │      │                  │       546c9fea916f3d304c1293e05c046 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/665d5254083
@@ -888,16 +888,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42768 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:dfbec1d417d34b13e53a152e6a7327191d4ff673baa3d85217e39
-│                       │      │                   9c282d9ea97 
+│                       │      ├ Fingerprint     : sha256:ad6b93b319b44999053902deedb4236da894183c5987db5eb298d
+│                       │      │                   66a630d667b 
 │                       │      ├ Title           : openssl: Multi-RecipientInfo Bleichenbacher Oracle in
 │                       │      │                   CMS_decrypt() and PKCS7_decrypt() 
 │                       │      ├ Description     : Issue summary: The CMS_decrypt and PKCS7_decrypt functions
@@ -987,7 +987,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42768 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1004,7 +1004,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/a2ca7b2d73e
 │                       │      │                  │       0ffc1eae183fe6e1741dac767cb4f 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/bbb151a8304
@@ -1028,16 +1028,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42769 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a6844bf8efcea9f1c2ee1edf89b36fdb3020432445c154a1cedce
-│                       │      │                   9e67f2ce45a 
+│                       │      ├ Fingerprint     : sha256:0eed787f84b90b49ee494fef67639522f03acae796c01abff019d
+│                       │      │                   52a74b8f010 
 │                       │      ├ Title           : openssl: Trust-Anchor Substitution via cert/issuer Typo in
 │                       │      │                   CMP rootCaKeyUpdate 
 │                       │      ├ Description     : Issue Summary: An error in the callback used to verify the
@@ -1101,7 +1101,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42769 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1118,7 +1118,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/54d0989997e
 │                       │      │                  │       5fc26057009a9782c3441ce3842fb 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/777b363b16f
@@ -1142,16 +1142,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42770 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4cac57b23569368d6208e1b01b1d5a7221dad739523c2a269767f
-│                       │      │                   ff10994f124 
+│                       │      ├ Fingerprint     : sha256:630e22b4abeecf2bcf1008701293450f9b33f0138c79076730bec
+│                       │      │                   e41e208acd2 
 │                       │      ├ Title           : openssl: FFC-DH Peer Validation Uses Attacker-Supplied q 
 │                       │      ├ Description     : Issue summary: When EVP_PKEY_derive_set_peer() is called
 │                       │      │                   with a DHX (X9.42)
@@ -1204,7 +1204,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42770 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1221,7 +1221,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/3da5a516cd2
 │                       │      │                  │       635a320ff748503db2cef7c4b0f02 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/3ddbb7ab50b
@@ -1247,16 +1247,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-45446 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:18fd624626f62e2f50cc9ede51570f7bdceda0376916af64aa6b9
-│                       │      │                   c98344ea179 
+│                       │      ├ Fingerprint     : sha256:7277bda8cee460c79faf4b7d0a5b1da29c0d42789a6a9b115a2bb
+│                       │      │                   9ddf8414fcb 
 │                       │      ├ Title           : openssl: Incorrect Tag Processing for Empty Messages in
 │                       │      │                   AES-GCM-SIV and AES-SIV modes 
 │                       │      ├ Description     : Issue summary: The implementations of AES-SIV (RFC 5297) and
@@ -1322,7 +1322,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45446 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1339,7 +1339,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/25b32cd9d41
 │                       │      │                  │       d2bc01b6abc425bb4baf2c2236fdc 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/71e2a5d2635
@@ -1365,16 +1365,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7383 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5d653b0035973ee470f9d4dbcbfa9f93a9fb13510af095728d3eb
-│                       │      │                   d6a2b53bc5c 
+│                       │      ├ Fingerprint     : sha256:b8f6bfdf3521ec650e4038dcfe8c7456ec523a444aac87e17fead
+│                       │      │                   8d4cb8e0ebf 
 │                       │      ├ Title           : openssl: OpenSSL: Heap buffer overflow due to signed integer
 │                       │      │                    overflow in Unicode output sizing 
 │                       │      ├ Description     : Issue summary: A signed integer overflow when sizing the
@@ -1429,7 +1429,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-7383 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1446,7 +1446,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/4f8d2bddaa2
 │                       │      │                  │       c8e06f9c33390ee1717059a6e4be6 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/80c15faaf78
@@ -1473,16 +1473,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-9076 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:47bc3a2794fbb70de0d978c4515415911e1fd8bfb4552ee88adab
-│                       │      │                   dddd2c0030e 
+│                       │      ├ Fingerprint     : sha256:e8abe3ad3a036793eddc692122586b4b76f6c2fd23f642b34c7fd
+│                       │      │                   22089021a78 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service due to heap
 │                       │      │                   out-of-bounds read in CMS password-based decryption 
 │                       │      ├ Description     : Issue summary: When CMS password-based decryption (RFC 3211
@@ -1542,7 +1542,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-9076 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1559,7 +1559,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/05b06636684
 │                       │      │                  │       2f930fadd9a6e94df98030af431bb 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/3d8d5bc1056
@@ -1586,16 +1586,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-45447 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:88b25ac55dd55061c424e5743645bdf052e2fefacd6e9fa435ea3
-│                       │      │                   f27ef85097f 
+│                       │      ├ Fingerprint     : sha256:281e0dac09dff9920d7bb3e7d50ca704c93f71272b75793a8f4dd
+│                       │      │                   c8ba841daee 
 │                       │      ├ Title           : openssl: Heap Use-After-Free in OpenSSL PKCS7_verify() 
 │                       │      ├ Description     : Issue summary: A specially crafted PKCS#7 or S/MIME signed
 │                       │      │                   message could
@@ -1641,7 +1641,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 8.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45447 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1658,7 +1658,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/3aad5eb7af4
 │                       │      │                  │       de4ee0633c30a8541a54d9bbde63c 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/7d4a980c622
@@ -1685,16 +1685,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34182 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a23980029efb8f1d3a1c2105ec078728028b2cb6446117052402d
-│                       │      │                   16390c2ccb0 
+│                       │      ├ Fingerprint     : sha256:b010d1f46bf1e4dfccc4fbbc88d3aad978f2029479794dee53a13
+│                       │      │                   1d14806b51a 
 │                       │      ├ Title           : openssl: CMS AuthEnvelopedData Processing May Accept Forged
 │                       │      │                   Messages 
 │                       │      ├ Description     : Issue Summary: Cryptographic Message Services (CMS)
@@ -1754,7 +1754,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.4 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34182 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1771,7 +1771,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/03c1f4d45fb
 │                       │      │                  │       963aee7d5833390c507cd290182bc 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/439ed7d2c09
@@ -1798,16 +1798,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34183 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:52101d9994fa18753b4541e5e706932be21c659aa8f6110763ef1
-│                       │      │                   d9fa0353076 
+│                       │      ├ Fingerprint     : sha256:a5fdb7a0bda5ca9402c98c8757ed39b36c75cff416c905edcc4d2
+│                       │      │                   1f5653981ce 
 │                       │      ├ Title           : openssl: Unbounded Memory Growth in the QUIC PATH_CHALLENGE
 │                       │      │                   Handler 
 │                       │      ├ Description     : Issue summary: Remote peer may exhaust heap memory of the
@@ -1844,7 +1844,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34183 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1861,7 +1861,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/5b306efb0b3
 │                       │      │                  │       779dfdd0803b4afc9d08c91f11517 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/7d06955ebe0
@@ -1885,16 +1885,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42764 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d571df8fead1b666f2ebbc2dc1b6a9b5391f965e6b420d56327aa
-│                       │      │                   bef1b55200c 
+│                       │      ├ Fingerprint     : sha256:8a0bf40438b33266567319300b69448f59c2ef34cdfaddac78c64
+│                       │      │                   02c06833934 
 │                       │      ├ Title           : openssl: NULL pointer dereference in QUIC server initial
 │                       │      │                   packet handling 
 │                       │      ├ Description     : Issue summary: Receiving a QUIC initial packet with an
@@ -1933,7 +1933,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42764 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1950,7 +1950,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/5e3ed291b8a
 │                       │      │                  │       f0b03d5d3b9e56a1da69a187e9729 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/a45a0aba809
@@ -1972,16 +1972,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-45445 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:09d6470c63ca20b07ccb05474d22cadaa1a0070692ad5198d44d4
-│                       │      │                   b0be5b9f8d3 
+│                       │      ├ Fingerprint     : sha256:97a22faa2c0411d44549e9a8b3f1bf3f21616aa76e3d44dfdfdc8
+│                       │      │                   419cc02be9d 
 │                       │      ├ Title           : openssl: AES-OCB IV Ignored on EVP_Cipher() Path 
 │                       │      ├ Description     : Issue summary: When an application drives an AES-OCB context
 │                       │      │                    through the
@@ -2053,7 +2053,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 9.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45445 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2070,7 +2070,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/323f0b6e7d5
 │                       │      │                  │       30a4cb4336d50c88cb70f3ac2a451 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/787a6dfba81
@@ -2096,16 +2096,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34180 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1efc7d85c084e240fb6b0d73fcf25b1058c03f2fbc209784a988f
-│                       │      │                   d817c2eb943 
+│                       │      ├ Fingerprint     : sha256:8c0c77ddd5cb9b79ce48d8136694d48dd66fa61c7a9eff832a176
+│                       │      │                   e84664c3b02 
 │                       │      ├ Title           : openssl: OpenSSL: Heap buffer over-read in ASN.1 decoding
 │                       │      │                   can lead to denial of service or information disclosure. 
 │                       │      ├ Description     : Issue summary: Parsing a crafted DER-encoded ASN.1 structure
@@ -2152,7 +2152,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34180 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2169,7 +2169,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/1c6908e4fa5
 │                       │      │                  │       fa568752221d8eaf561a809751e5d 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/cbe418ae978
@@ -2196,16 +2196,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34181 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c23627f06b90f29c4b795e2f46e836d7626f56341141458b457cd
-│                       │      │                   6cf1d73e96d 
+│                       │      ├ Fingerprint     : sha256:1e12c4b3962ba6181be6f35b287f3cd59cf8f022eec3698b24795
+│                       │      │                   03ac896a20a 
 │                       │      ├ Title           : openssl: PKCS#12 Files with PBMAC1 Are Accepted with Short
 │                       │      │                   HMAC Keys 
 │                       │      ├ Description     : Issue Summary: The PKCS#12 file processing fails to perform
@@ -2241,7 +2241,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34181 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2258,7 +2258,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/0300eb9ddce
 │                       │      │                  │       7a0895bf301a4b0c03a9da2313a0f 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/79eb76a937e
@@ -2282,16 +2282,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42766 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:78e2ded049be1b4b2df2eec42cd78d7c565381529867805c03c4f
-│                       │      │                   c9e1d433c12 
+│                       │      ├ Fingerprint     : sha256:7e7497f31567176ded7b13b07703881483fd559c71d8eade19c5d
+│                       │      │                   04e2777bfd7 
 │                       │      ├ Title           : openssl: Possible NULL Dereference in Password-Based CMS
 │                       │      │                   Decryption 
 │                       │      ├ Description     : Issue summary: A specially crafted password-encrypted CMS
@@ -2330,7 +2330,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42766 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2347,7 +2347,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/056d06c1918
 │                       │      │                  │       fafbb98c1c85a02e4c47cc4e199ce 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/12bc26ffb3a
@@ -2374,16 +2374,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42767 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a29ecaac9da9dccff7f51302d59c60b3d5c1892f3ba2eb04f49b3
-│                       │      │                   e97d36b4d94 
+│                       │      ├ Fingerprint     : sha256:585810cc019c55a8a0158b1b0d359dad1c472b3f444e0e0167201
+│                       │      │                   19251a0500e 
 │                       │      ├ Title           : openssl: NULL Pointer Dereference in CRMF EncryptedValue
 │                       │      │                   Decryption 
 │                       │      ├ Description     : Issue summary: An attacker-controlled CMP (Certificate
@@ -2419,7 +2419,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42767 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2436,7 +2436,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/61a86a8cd73
 │                       │      │                  │       546c9fea916f3d304c1293e05c046 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/665d5254083
@@ -2462,16 +2462,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42768 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1c35c68109f0f547c0ac1db3a04e9250d7058673e7cae34569599
-│                       │      │                   d74d9c9bc2d 
+│                       │      ├ Fingerprint     : sha256:615dea06bbef664670aafe9bafcd2ea3f09a356c33225f8371a5d
+│                       │      │                   97c6bf47495 
 │                       │      ├ Title           : openssl: Multi-RecipientInfo Bleichenbacher Oracle in
 │                       │      │                   CMS_decrypt() and PKCS7_decrypt() 
 │                       │      ├ Description     : Issue summary: The CMS_decrypt and PKCS7_decrypt functions
@@ -2561,7 +2561,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42768 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2578,7 +2578,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/a2ca7b2d73e
 │                       │      │                  │       0ffc1eae183fe6e1741dac767cb4f 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/bbb151a8304
@@ -2602,16 +2602,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42769 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:16f04e8ee9b5c700a5abe468fd0d7be10467ceea0480a8f5283ae
-│                       │      │                   29da4d96a76 
+│                       │      ├ Fingerprint     : sha256:1bae49fd07d758d5f26f72f7f172611bafc6d6f85d0acf520ced7
+│                       │      │                   291c6636268 
 │                       │      ├ Title           : openssl: Trust-Anchor Substitution via cert/issuer Typo in
 │                       │      │                   CMP rootCaKeyUpdate 
 │                       │      ├ Description     : Issue Summary: An error in the callback used to verify the
@@ -2675,7 +2675,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42769 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2692,7 +2692,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/54d0989997e
 │                       │      │                  │       5fc26057009a9782c3441ce3842fb 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/777b363b16f
@@ -2716,16 +2716,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42770 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:804ff3a5817a364114660f252aae4f3caaad92c6c56d72c2f9a2e
-│                       │      │                   bb7e6beac8d 
+│                       │      ├ Fingerprint     : sha256:0ee2946e8bd958a4401fc0f7c3911e9d9cf5b573d30ace4c9483a
+│                       │      │                   d5d898e9eb6 
 │                       │      ├ Title           : openssl: FFC-DH Peer Validation Uses Attacker-Supplied q 
 │                       │      ├ Description     : Issue summary: When EVP_PKEY_derive_set_peer() is called
 │                       │      │                   with a DHX (X9.42)
@@ -2778,7 +2778,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42770 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2795,7 +2795,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/3da5a516cd2
 │                       │      │                  │       635a320ff748503db2cef7c4b0f02 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/3ddbb7ab50b
@@ -2821,16 +2821,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-45446 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:806a8fd645bc57a785078cb53a0cb30bcda87bb9738c75658ffe0
-│                       │      │                   66161c74567 
+│                       │      ├ Fingerprint     : sha256:e9f08227c4900f5f230d80ce1ae2140dd1ed36cb94978949e482c
+│                       │      │                   b4bf9560e69 
 │                       │      ├ Title           : openssl: Incorrect Tag Processing for Empty Messages in
 │                       │      │                   AES-GCM-SIV and AES-SIV modes 
 │                       │      ├ Description     : Issue summary: The implementations of AES-SIV (RFC 5297) and
@@ -2896,7 +2896,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45446 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2913,7 +2913,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/25b32cd9d41
 │                       │      │                  │       d2bc01b6abc425bb4baf2c2236fdc 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/71e2a5d2635
@@ -2939,16 +2939,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7383 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5f639b26318e4023a850c796a20d2dbb46358ea1340a75500c601
-│                       │      │                   decdd4368ad 
+│                       │      ├ Fingerprint     : sha256:0953fdbc0b024ad562cc6d7675c8d30d6ba1dfcb270f1de953524
+│                       │      │                   10a28b3ca5f 
 │                       │      ├ Title           : openssl: OpenSSL: Heap buffer overflow due to signed integer
 │                       │      │                    overflow in Unicode output sizing 
 │                       │      ├ Description     : Issue summary: A signed integer overflow when sizing the
@@ -3003,7 +3003,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-7383 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -3020,7 +3020,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/4f8d2bddaa2
 │                       │      │                  │       c8e06f9c33390ee1717059a6e4be6 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/80c15faaf78
@@ -3047,16 +3047,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-9076 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ae3ddf8cfe145c385f8d3c4cc5bfb80298022a24d239efaa36973
-│                       │      │                   d305d8e0623 
+│                       │      ├ Fingerprint     : sha256:3b522ed16acc9bdf118b19c48358f139c8efb205210f5e4721cce
+│                       │      │                   7c2f9917759 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service due to heap
 │                       │      │                   out-of-bounds read in CMS password-based decryption 
 │                       │      ├ Description     : Issue summary: When CMS password-based decryption (RFC 3211
@@ -3116,7 +3116,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-9076 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -3133,7 +3133,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/05b06636684
 │                       │      │                  │       2f930fadd9a6e94df98030af431bb 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/3d8d5bc1056
@@ -3160,16 +3160,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-45447 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:82b79dbab2f1086601fcb898e1e4400a268ce87a502f2301d4d7d
-│                       │      │                   fbe6392ff1c 
+│                       │      ├ Fingerprint     : sha256:b4a318588e2d807afe19d3dffb62bbec5871f0e758614b535fe1e
+│                       │      │                   87633edfb32 
 │                       │      ├ Title           : openssl: Heap Use-After-Free in OpenSSL PKCS7_verify() 
 │                       │      ├ Description     : Issue summary: A specially crafted PKCS#7 or S/MIME signed
 │                       │      │                   message could
@@ -3215,7 +3215,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 8.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45447 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -3232,7 +3232,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/3aad5eb7af4
 │                       │      │                  │       de4ee0633c30a8541a54d9bbde63c 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/7d4a980c622
@@ -3259,16 +3259,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34182 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:db6830fb1847b3144e7486a5639db4f9459993c929e8ec8ea9995
-│                       │      │                   d767dd393ad 
+│                       │      ├ Fingerprint     : sha256:60af95fc619d26bafb6c8ff09ed1b2f39cacbb9382573a036b03c
+│                       │      │                   7a5d6137f95 
 │                       │      ├ Title           : openssl: CMS AuthEnvelopedData Processing May Accept Forged
 │                       │      │                   Messages 
 │                       │      ├ Description     : Issue Summary: Cryptographic Message Services (CMS)
@@ -3328,7 +3328,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.4 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34182 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -3345,7 +3345,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/03c1f4d45fb
 │                       │      │                  │       963aee7d5833390c507cd290182bc 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/439ed7d2c09
@@ -3372,16 +3372,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34183 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:40e1d8bf613a832ba39a98da7114d481f36efcef7f6928903b843
-│                       │      │                   7c22dbb9637 
+│                       │      ├ Fingerprint     : sha256:87bcc2317bfbbdee5ab73cb452f23a1bbc7a760a6097bb3301991
+│                       │      │                   925d00c15a8 
 │                       │      ├ Title           : openssl: Unbounded Memory Growth in the QUIC PATH_CHALLENGE
 │                       │      │                   Handler 
 │                       │      ├ Description     : Issue summary: Remote peer may exhaust heap memory of the
@@ -3418,7 +3418,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34183 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -3435,7 +3435,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/5b306efb0b3
 │                       │      │                  │       779dfdd0803b4afc9d08c91f11517 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/7d06955ebe0
@@ -3459,16 +3459,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42764 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:621b664b662b7336ede01542ba3b2f331df3e02890400aaa5c9dd
-│                       │      │                   0cb87249789 
+│                       │      ├ Fingerprint     : sha256:4a43b474dc9f22a4e6118ebebaf0bbc091ca669d8883feb49bbf9
+│                       │      │                   2649ed2588e 
 │                       │      ├ Title           : openssl: NULL pointer dereference in QUIC server initial
 │                       │      │                   packet handling 
 │                       │      ├ Description     : Issue summary: Receiving a QUIC initial packet with an
@@ -3507,7 +3507,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42764 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -3524,7 +3524,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/5e3ed291b8a
 │                       │      │                  │       f0b03d5d3b9e56a1da69a187e9729 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/a45a0aba809
@@ -3546,16 +3546,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-45445 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:74fd71e32e48e13c3884eff1043cd5fb3e2b543efd812d1ba23ce
-│                       │      │                   94c846bc72f 
+│                       │      ├ Fingerprint     : sha256:fef7bc4c7e6b56f2ea382221582a04a2cce81cb25fb047bb42eaf
+│                       │      │                   fa38082beee 
 │                       │      ├ Title           : openssl: AES-OCB IV Ignored on EVP_Cipher() Path 
 │                       │      ├ Description     : Issue summary: When an application drives an AES-OCB context
 │                       │      │                    through the
@@ -3627,7 +3627,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 9.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45445 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -3644,7 +3644,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/323f0b6e7d5
 │                       │      │                  │       30a4cb4336d50c88cb70f3ac2a451 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/787a6dfba81
@@ -3670,16 +3670,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34180 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:89caa9dd7d38fcb2382dc913cabdbeadf7a7360a4c7cdccf4fe7e
-│                       │      │                   0e9c4e9daea 
+│                       │      ├ Fingerprint     : sha256:a6810af29cab28174aa87b6d4e2004e106a354e90ce3d954a65bd
+│                       │      │                   a0ae71f7c09 
 │                       │      ├ Title           : openssl: OpenSSL: Heap buffer over-read in ASN.1 decoding
 │                       │      │                   can lead to denial of service or information disclosure. 
 │                       │      ├ Description     : Issue summary: Parsing a crafted DER-encoded ASN.1 structure
@@ -3726,7 +3726,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34180 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -3743,7 +3743,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/1c6908e4fa5
 │                       │      │                  │       fa568752221d8eaf561a809751e5d 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/cbe418ae978
@@ -3770,16 +3770,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34181 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1ad8d9a9d17885870d4089a49970c3da0cacba092791f45cb3bbe
-│                       │      │                   06398294824 
+│                       │      ├ Fingerprint     : sha256:bd51c6897a53a39815f961a323b3e0acc15429d2d4fc67609fdc1
+│                       │      │                   b2415b13b01 
 │                       │      ├ Title           : openssl: PKCS#12 Files with PBMAC1 Are Accepted with Short
 │                       │      │                   HMAC Keys 
 │                       │      ├ Description     : Issue Summary: The PKCS#12 file processing fails to perform
@@ -3815,7 +3815,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34181 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -3832,7 +3832,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/0300eb9ddce
 │                       │      │                  │       7a0895bf301a4b0c03a9da2313a0f 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/79eb76a937e
@@ -3856,16 +3856,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42766 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ccd9767890a597fe3e6f163db8f2b83a2a083f2a09e7310802393
-│                       │      │                   b5ae9a931c6 
+│                       │      ├ Fingerprint     : sha256:ba99372f5c5dcf967aa4a69a9c01733bf0fd72d5a0fdf56e4ace1
+│                       │      │                   4da6a2c8c31 
 │                       │      ├ Title           : openssl: Possible NULL Dereference in Password-Based CMS
 │                       │      │                   Decryption 
 │                       │      ├ Description     : Issue summary: A specially crafted password-encrypted CMS
@@ -3904,7 +3904,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42766 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -3921,7 +3921,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/056d06c1918
 │                       │      │                  │       fafbb98c1c85a02e4c47cc4e199ce 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/12bc26ffb3a
@@ -3948,16 +3948,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42767 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:93fe83843d000412f936df66832c231ad605ba1937b9ad002e4a4
-│                       │      │                   309de05cc55 
+│                       │      ├ Fingerprint     : sha256:67fb04f3ed156b2ff600a20bf129b1895050ff770e2cf649389e7
+│                       │      │                   12d43e962b3 
 │                       │      ├ Title           : openssl: NULL Pointer Dereference in CRMF EncryptedValue
 │                       │      │                   Decryption 
 │                       │      ├ Description     : Issue summary: An attacker-controlled CMP (Certificate
@@ -3993,7 +3993,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42767 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -4010,7 +4010,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/61a86a8cd73
 │                       │      │                  │       546c9fea916f3d304c1293e05c046 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/665d5254083
@@ -4036,16 +4036,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42768 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:722191787355127eac4ef6ef81abe117dd5152b15695fe3011b3f
-│                       │      │                   5fb2251011d 
+│                       │      ├ Fingerprint     : sha256:81c56c116f2a296053251e43469f5f6eded4c64e7dda6639409c1
+│                       │      │                   3cec63ec506 
 │                       │      ├ Title           : openssl: Multi-RecipientInfo Bleichenbacher Oracle in
 │                       │      │                   CMS_decrypt() and PKCS7_decrypt() 
 │                       │      ├ Description     : Issue summary: The CMS_decrypt and PKCS7_decrypt functions
@@ -4135,7 +4135,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42768 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -4152,7 +4152,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/a2ca7b2d73e
 │                       │      │                  │       0ffc1eae183fe6e1741dac767cb4f 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/bbb151a8304
@@ -4176,16 +4176,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42769 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a5f068ee83f32c9a0aa74a7da02e19ff86170590f96e79c29efd3
-│                       │      │                   4250b318258 
+│                       │      ├ Fingerprint     : sha256:15396d0f668715b0e5cccc3aa9f0c0adfad2ef30206657be101d4
+│                       │      │                   e45acb4b05b 
 │                       │      ├ Title           : openssl: Trust-Anchor Substitution via cert/issuer Typo in
 │                       │      │                   CMP rootCaKeyUpdate 
 │                       │      ├ Description     : Issue Summary: An error in the callback used to verify the
@@ -4249,7 +4249,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42769 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -4266,7 +4266,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/54d0989997e
 │                       │      │                  │       5fc26057009a9782c3441ce3842fb 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/777b363b16f
@@ -4290,16 +4290,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42770 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:99894953f8c37836696201e1b7a8085da9c8a52b52ef76c424a56
-│                       │      │                   8ed9dee7ca2 
+│                       │      ├ Fingerprint     : sha256:c4d7dae772853aea2643bea4b010ef402251f625d8fbaf8d8d75e
+│                       │      │                   c57c69e9e53 
 │                       │      ├ Title           : openssl: FFC-DH Peer Validation Uses Attacker-Supplied q 
 │                       │      ├ Description     : Issue summary: When EVP_PKEY_derive_set_peer() is called
 │                       │      │                   with a DHX (X9.42)
@@ -4352,7 +4352,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42770 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -4369,7 +4369,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/3da5a516cd2
 │                       │      │                  │       635a320ff748503db2cef7c4b0f02 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/3ddbb7ab50b
@@ -4395,16 +4395,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-45446 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:42158b1a142da6b0b7fad90cbcd66e0146fc2d20e2e6aef63e407
-│                       │      │                   0a902cadc4f 
+│                       │      ├ Fingerprint     : sha256:190615913f0bcbc36fdc5c11a1104cabb6c57f01d7e8b4e594486
+│                       │      │                   42ebbdf2ab4 
 │                       │      ├ Title           : openssl: Incorrect Tag Processing for Empty Messages in
 │                       │      │                   AES-GCM-SIV and AES-SIV modes 
 │                       │      ├ Description     : Issue summary: The implementations of AES-SIV (RFC 5297) and
@@ -4470,7 +4470,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45446 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -4487,7 +4487,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/25b32cd9d41
 │                       │      │                  │       d2bc01b6abc425bb4baf2c2236fdc 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/71e2a5d2635
@@ -4513,16 +4513,16 @@
 │                       │      ├ InstalledVersion: 3.5.6-r0 
 │                       │      ├ FixedVersion    : 3.5.7-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                       │      │                  │         cf7f215cd40b3c05053f 
-│                       │      │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                       │      │                            d95a993d3a561e6f737e 
+│                       │      ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                       │      │                  │         4d9edc0fdf0ff7fe5451 
+│                       │      │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                       │      │                            5256a77dc2f4b29b1bd0 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7383 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:919e3a6b6edbd336aa2ae53355e52f8a712bd5d432c2e076c4146
-│                       │      │                   2fb8f1945bb 
+│                       │      ├ Fingerprint     : sha256:8bc4c3858c7b33bccc215ce0011fc22df1111fc29fc7f9b1013bf
+│                       │      │                   2429405fd23 
 │                       │      ├ Title           : openssl: OpenSSL: Heap buffer overflow due to signed integer
 │                       │      │                    overflow in Unicode output sizing 
 │                       │      ├ Description     : Issue summary: A signed integer overflow when sizing the
@@ -4577,7 +4577,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-7383 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -4594,7 +4594,7 @@
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                       │      │                  ├ [18]: https://github.com/openssl/openssl/commit/4f8d2bddaa2
 │                       │      │                  │       c8e06f9c33390ee1717059a6e4be6 
 │                       │      │                  ├ [19]: https://github.com/openssl/openssl/commit/80c15faaf78
@@ -4621,16 +4621,16 @@
 │                              ├ InstalledVersion: 3.5.6-r0 
 │                              ├ FixedVersion    : 3.5.7-r0 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:fc0741f6dbdab72ec7f71e09697e62ecd5bbdfaff0b9
-│                              │                  │         cf7f215cd40b3c05053f 
-│                              │                  ╰ DiffID: sha256:31befb7b6771df58eb8d8dbc3c2b89d3dd8fe6ce1a57
-│                              │                            d95a993d3a561e6f737e 
+│                              ├ Layer            ╭ Digest: sha256:40d4bfb15b6a7b03bdc9065aa7d119246f7731f9e3b6
+│                              │                  │         4d9edc0fdf0ff7fe5451 
+│                              │                  ╰ DiffID: sha256:ca8162971520408476315082bed2615b120a087b8866
+│                              │                            5256a77dc2f4b29b1bd0 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-9076 
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:6d6e22c41668d448e17cf4729f9fe08c05e31b9f5f9fdf1a37ec1
-│                              │                   8a64581b83b 
+│                              ├ Fingerprint     : sha256:2b94a109b89f6668e8f4be8540fd9f01cc615f58e644fcdd0ed96
+│                              │                   86493bece1c 
 │                              ├ Title           : openssl: OpenSSL: Denial of Service due to heap
 │                              │                   out-of-bounds read in CMS password-based decryption 
 │                              ├ Description     : Issue summary: When CMS password-based decryption (RFC 3211
@@ -4690,7 +4690,7 @@
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                              │                           │           /A:H 
 │                              │                           ╰ V3Score : 5.9 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
 │                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-9076 
 │                              │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                              │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -4707,7 +4707,7 @@
 │                              │                  ├ [14]: https://bugzilla.redhat.com/2481896 
 │                              │                  ├ [15]: https://bugzilla.redhat.com/2481897 
 │                              │                  ├ [16]: https://bugzilla.redhat.com/2481898 
-│                              │                  ├ [17]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
+│                              │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
 │                              │                  ├ [18]: https://github.com/openssl/openssl/commit/05b06636684
 │                              │                  │       2f930fadd9a6e94df98030af431bb 
 │                              │                  ├ [19]: https://github.com/openssl/openssl/commit/3d8d5bc1056
