@@ -1501,7 +1501,7 @@
 │                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2437308 
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-2100 
-│                       │      │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-18143.html 
+│                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2026-18599.html 
 │                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:18599 
 │                       │      │                  ├ [12]: https://github.com/p11-glue/p11-kit/pull/740 
 │                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2026-2100.html 
@@ -1564,7 +1564,7 @@
 │                              │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2437308 
 │                              │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                              │                  │       26-2100 
-│                              │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-18143.html 
+│                              │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2026-18599.html 
 │                              │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:18599 
 │                              │                  ├ [12]: https://github.com/p11-glue/p11-kit/pull/740 
 │                              │                  ├ [13]: https://linux.oracle.com/cve/CVE-2026-2100.html 
