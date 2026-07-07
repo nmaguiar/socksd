@@ -40,7 +40,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3793260 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11856 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:23.973Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T19:16:54.983Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2026-8925 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -75,7 +75,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8925 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:24.95Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:24.95Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2026-8927 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -116,7 +116,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8927 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.123Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.123Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2026-9079 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -152,7 +152,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9079 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.62Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.62Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2026-10536 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -192,7 +192,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3751697 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:23.563Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T19:16:54.473Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2026-11352 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -230,7 +230,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3783438 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:23.693Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:23.693Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T19:16:54.843Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2026-11564 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -268,7 +268,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3788984 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:23.79Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2026-11586 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -304,7 +304,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3788931 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:23.883Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:23.883Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2026-12064 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -352,7 +352,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3797526 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:24.217Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:24.217Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T19:16:55.27Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2026-8286 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -387,7 +387,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8286 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:24.453Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:24.453Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2026-8458 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -433,7 +433,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8458 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:24.63Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:24.63Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2026-8924 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -470,7 +470,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8924 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:24.793Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:24.793Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2026-8926 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -509,7 +509,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8926 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.037Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.037Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2026-9080 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -546,7 +546,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9080 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.713Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.713Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2026-9545 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -594,7 +594,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9545 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.807Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.807Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2026-9547 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -638,7 +638,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9547 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.99Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.99Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2026-8932 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -678,7 +678,7 @@
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-8932.json 
 │                       │      │                  ╰ [2]: https://hackerone.com/reports/3733910 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.363Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.363Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2026-9546 
 │                       │      ├ PkgID           : curl@8.20.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -715,7 +715,7 @@
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-9546.json 
 │                       │      │                  ╰ [2]: https://hackerone.com/reports/3754343 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.893Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.893Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2026-11856 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -754,7 +754,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3793260 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11856 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:23.973Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T19:16:54.983Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2026-8925 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -790,7 +790,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8925 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:24.95Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:24.95Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2026-8927 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -832,7 +832,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8927 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.123Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.123Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2026-9079 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -869,7 +869,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9079 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.62Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.62Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2026-10536 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -910,7 +910,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3751697 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:23.563Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T19:16:54.473Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2026-11352 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -949,7 +949,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3783438 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:23.693Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:23.693Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T19:16:54.843Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2026-11564 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -988,7 +988,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3788984 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:23.79Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2026-11586 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -1025,7 +1025,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3788931 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:23.883Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:23.883Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [26] ╭ VulnerabilityID : CVE-2026-12064 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -1074,7 +1074,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3797526 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:24.217Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:24.217Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T19:16:55.27Z 
 │                       ├ [27] ╭ VulnerabilityID : CVE-2026-8286 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -1110,7 +1110,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8286 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:24.453Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:24.453Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2026-8458 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -1157,7 +1157,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8458 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:24.63Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:24.63Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2026-8924 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -1195,7 +1195,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8924 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:24.793Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:24.793Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [30] ╭ VulnerabilityID : CVE-2026-8926 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -1235,7 +1235,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8926 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.037Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.037Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [31] ╭ VulnerabilityID : CVE-2026-9080 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -1273,7 +1273,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9080 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.713Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.713Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [32] ╭ VulnerabilityID : CVE-2026-9545 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -1322,7 +1322,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9545 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.807Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.807Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2026-9547 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -1367,7 +1367,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9547 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.99Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.99Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2026-8932 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -1408,7 +1408,7 @@
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-8932.json 
 │                       │      │                  ╰ [2]: https://hackerone.com/reports/3733910 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.363Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.363Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [35] ╭ VulnerabilityID : CVE-2026-9546 
 │                       │      ├ PkgID           : libcurl@8.20.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -1446,7 +1446,7 @@
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-9546.json 
 │                       │      │                  ╰ [2]: https://hackerone.com/reports/3754343 
 │                       │      ├ PublishedDate   : 2026-07-03T07:16:25.893Z 
-│                       │      ╰ LastModifiedDate: 2026-07-03T07:16:25.893Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T18:20:47.007Z 
 │                       ├ [36] ╭ VulnerabilityID : CVE-2026-2100 
 │                       │      ├ PkgID           : p11-kit@0.25.5-r2 
 │                       │      ├ PkgName         : p11-kit 
@@ -1501,7 +1501,7 @@
 │                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2437308 
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-2100 
-│                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2026-18599.html 
+│                       │      │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-18143.html 
 │                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:18599 
 │                       │      │                  ├ [12]: https://github.com/p11-glue/p11-kit/pull/740 
 │                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2026-2100.html 
@@ -1509,7 +1509,7 @@
 │                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2026-2100 
 │                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
 │                       │      ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
-│                       │      ╰ LastModifiedDate: 2026-06-22T20:16:28.86Z 
+│                       │      ╰ LastModifiedDate: 2026-07-06T21:16:55.03Z 
 │                       ╰ [37] ╭ VulnerabilityID : CVE-2026-2100 
 │                              ├ PkgID           : p11-kit-trust@0.25.5-r2 
 │                              ├ PkgName         : p11-kit-trust 
@@ -1564,7 +1564,7 @@
 │                              │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2437308 
 │                              │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                              │                  │       26-2100 
-│                              │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2026-18599.html 
+│                              │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-18143.html 
 │                              │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:18599 
 │                              │                  ├ [12]: https://github.com/p11-glue/p11-kit/pull/740 
 │                              │                  ├ [13]: https://linux.oracle.com/cve/CVE-2026-2100.html 
@@ -1572,7 +1572,7 @@
 │                              │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2026-2100 
 │                              │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
 │                              ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
-│                              ╰ LastModifiedDate: 2026-06-22T20:16:28.86Z 
+│                              ╰ LastModifiedDate: 2026-07-06T21:16:55.03Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
