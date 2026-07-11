@@ -7717,6 +7717,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5918
     PublishedDate: '2025-06-09T20:15:27.493Z'
     LastModifiedDate: '2026-06-30T11:16:25.93Z'
+  - VulnerabilityID: CVE-2026-15028
+    PkgID: libarchive@3.5.3-9.el9_7.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-9.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: d338a1584cf68e72
+    InstalledVersion: 3.5.3-9.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15028
+    Fingerprint: sha256:9f0ad7092006a026df44364acf32f140ad47796ec1caa1120cf5f4241c3fa3b9
+    Title: 'libarchive: heap overflow OOB read while parsing a tar archive contains a PAX extended header'
+    Description: A flaw was found in libarchive. This vulnerability allows a remote attacker to trigger a heap overflow by providing a specially crafted tar archive. The issue occurs during the parsing of a PAX extended header containing a malformed SUN.holesdata sparse-file attribute. Successful exploitation could lead to a denial of service, making the system unavailable, or potentially allow for arbitrary code execution, giving the attacker control over the affected system.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-15028
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2497970
+    - https://github.com/libarchive/libarchive/issues/3251
+    - https://github.com/libarchive/libarchive/pull/3253
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15028
+    - https://www.cve.org/CVERecord?id=CVE-2026-15028
+    PublishedDate: '2026-07-10T10:16:23.417Z'
+    LastModifiedDate: '2026-07-10T17:49:57.737Z'
   - VulnerabilityID: CVE-2026-54371
     PkgID: libattr@2.5.1-3.el9.x86_64
     PkgName: libattr
@@ -7932,7 +7964,7 @@
     - https://ubuntu.com/security/notices/USN-8193-2
     - https://www.cve.org/CVERecord?id=CVE-2026-4878
     PublishedDate: '2026-04-09T16:16:31.987Z'
-    LastModifiedDate: '2026-07-09T18:16:52.377Z'
+    LastModifiedDate: '2026-07-10T12:17:08.043Z'
   - VulnerabilityID: CVE-2026-11352
     PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: libcurl-minimal
@@ -17535,12 +17567,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
+    - https://access.redhat.com/errata/RHSA-2026:37469
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-07-08T03:34:36.15Z'
+    LastModifiedDate: '2026-07-10T01:16:28.783Z'
   - VulnerabilityID: CVE-2026-2100
     VendorIDs:
     - RHSA-2026:18599
@@ -17624,12 +17657,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
+    - https://access.redhat.com/errata/RHSA-2026:37469
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-07-08T03:34:36.15Z'
+    LastModifiedDate: '2026-07-10T01:16:28.783Z'
   - VulnerabilityID: CVE-2026-2100
     VendorIDs:
     - RHSA-2026:18599
@@ -17958,6 +17992,52 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-24056
     PublishedDate: '2023-01-22T04:15:11.617Z'
     LastModifiedDate: '2026-06-17T05:38:34.31Z'
+  - VulnerabilityID: CVE-2026-15308
+    PkgID: python-unversioned-command@3.9.25-3.el9_7.3.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-3.el9_7.3?arch=noarch&distro=redhat-9.7
+      UID: aaa480971d46f944
+    InstalledVersion: 3.9.25-3.el9_7.3
+    Status: affected
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15308
+    Fingerprint: sha256:1e5688a9827ec6cf0517e2c3ad1982355994b83be991b35741c9144ff0691b15
+    Title: 'python: Python: CPU Denial of Service in HTML parser via repeated unterminated markup declarations'
+    Description: |-
+      The incremental HTML parser (html.parser.HTMLParser) allows for CPU
+      denial-of-service through repeated unterminated markup declarations when
+      processing uncontrolled data.
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      nvd: 3
+      redhat: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/07/09/4
+    - https://access.redhat.com/security/cve/CVE-2026-15308
+    - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
+    - https://github.com/python/cpython/commit/7933f4bf7131aa4140750f9404f5de0aa2969ced
+    - https://github.com/python/cpython/commit/bcf98ddbc40ec9b3ee87da0124a5660b19b7e606
+    - https://github.com/python/cpython/commit/e9f92ac0b298292e7ff998e52cb8ccacfb27a0bd
+    - https://github.com/python/cpython/issues/153030
+    - https://github.com/python/cpython/pull/153031
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/F6453LWKSHKCTWFLCOURWPLETNUIW2Z5/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15308
+    - https://www.cve.org/CVERecord?id=CVE-2026-15308
+    PublishedDate: '2026-07-09T17:16:58.26Z'
+    LastModifiedDate: '2026-07-10T20:07:52.327Z'
   - VulnerabilityID: CVE-2026-4519
     VendorIDs:
     - RHSA-2026:19216
@@ -19728,6 +19808,52 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3479
     PublishedDate: '2026-03-18T19:16:06.81Z'
     LastModifiedDate: '2026-06-17T10:43:39.067Z'
+  - VulnerabilityID: CVE-2026-15308
+    PkgID: python3@3.9.25-3.el9_7.3.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.25-3.el9_7.3?arch=x86_64&distro=redhat-9.7
+      UID: dc7a2f1bde9f33e0
+    InstalledVersion: 3.9.25-3.el9_7.3
+    Status: affected
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15308
+    Fingerprint: sha256:086fa476096297d50493b8af38c79a99c8b31b3baefe88fb4037fd381def3062
+    Title: 'python: Python: CPU Denial of Service in HTML parser via repeated unterminated markup declarations'
+    Description: |-
+      The incremental HTML parser (html.parser.HTMLParser) allows for CPU
+      denial-of-service through repeated unterminated markup declarations when
+      processing uncontrolled data.
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      nvd: 3
+      redhat: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/07/09/4
+    - https://access.redhat.com/security/cve/CVE-2026-15308
+    - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
+    - https://github.com/python/cpython/commit/7933f4bf7131aa4140750f9404f5de0aa2969ced
+    - https://github.com/python/cpython/commit/bcf98ddbc40ec9b3ee87da0124a5660b19b7e606
+    - https://github.com/python/cpython/commit/e9f92ac0b298292e7ff998e52cb8ccacfb27a0bd
+    - https://github.com/python/cpython/issues/153030
+    - https://github.com/python/cpython/pull/153031
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/F6453LWKSHKCTWFLCOURWPLETNUIW2Z5/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15308
+    - https://www.cve.org/CVERecord?id=CVE-2026-15308
+    PublishedDate: '2026-07-09T17:16:58.26Z'
+    LastModifiedDate: '2026-07-10T20:07:52.327Z'
   - VulnerabilityID: CVE-2026-4519
     VendorIDs:
     - RHSA-2026:19216
@@ -21498,6 +21624,52 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3479
     PublishedDate: '2026-03-18T19:16:06.81Z'
     LastModifiedDate: '2026-06-17T10:43:39.067Z'
+  - VulnerabilityID: CVE-2026-15308
+    PkgID: python3-libs@3.9.25-3.el9_7.3.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.25-3.el9_7.3?arch=x86_64&distro=redhat-9.7
+      UID: fd971ec648ec0a1e
+    InstalledVersion: 3.9.25-3.el9_7.3
+    Status: affected
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15308
+    Fingerprint: sha256:aaae5cd8a105fdeebbd64cff48ea5010e590958e6e340bcc12f2795763c8c38f
+    Title: 'python: Python: CPU Denial of Service in HTML parser via repeated unterminated markup declarations'
+    Description: |-
+      The incremental HTML parser (html.parser.HTMLParser) allows for CPU
+      denial-of-service through repeated unterminated markup declarations when
+      processing uncontrolled data.
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      nvd: 3
+      redhat: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/07/09/4
+    - https://access.redhat.com/security/cve/CVE-2026-15308
+    - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
+    - https://github.com/python/cpython/commit/7933f4bf7131aa4140750f9404f5de0aa2969ced
+    - https://github.com/python/cpython/commit/bcf98ddbc40ec9b3ee87da0124a5660b19b7e606
+    - https://github.com/python/cpython/commit/e9f92ac0b298292e7ff998e52cb8ccacfb27a0bd
+    - https://github.com/python/cpython/issues/153030
+    - https://github.com/python/cpython/pull/153031
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/F6453LWKSHKCTWFLCOURWPLETNUIW2Z5/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15308
+    - https://www.cve.org/CVERecord?id=CVE-2026-15308
+    PublishedDate: '2026-07-09T17:16:58.26Z'
+    LastModifiedDate: '2026-07-10T20:07:52.327Z'
   - VulnerabilityID: CVE-2026-4519
     VendorIDs:
     - RHSA-2026:19216
@@ -23540,7 +23712,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-45409
     Fingerprint: sha256:12eb5a8c64172bb9f70b88ac5914b7ffafeeb0a0e00ca6d0d66edaf204ee0c06
-    Title: Internationalized Domain Names in Applications (IDNA) for Python provi ...
+    Title: 'python-idna: idna: Denial of Service via specially crafted long inputs'
     Description: Internationalized Domain Names in Applications (IDNA) for Python provides support for Internationalized Domain Names in Applications (IDNA) and Unicode IDNA Compatibility Processing. In versions prior to 3.15, payloads such as `"\u0660" * N` or `"\u30fb" * N + "\u6f22"` utilize the `valid_contexto` function prior to length rejection, and for high values of `N` will take a long time to process. This is the same issue as CVE-2024-3651, however the original remediation in 2024 was not a complete fix. A specially crafted argument to the `idna.encode()` function could consume significant resources. This may lead to a denial-of-service. Starting in version 3.14, the function rejects long inputs as soon as practicable prior to any further processing to minimize resource consumption. In version 3.15, this approach was extended to lesser used alternate functions (i.e. per-label conversions and codec support). A workaround is available. Domain names cannot exceed 253 characters in length. If this length limit is enforced prior to passing the domain to the `idna.encode()` function, it should no longer consume significant resources. This is triggered by arbitrarily large inputs that would not occur in normal usage, but may be passed to the library assuming there is no preliminary input validation by the higher-level application.
     Severity: MEDIUM
     CweIDs:
@@ -23558,11 +23730,16 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-45409
     - https://github.com/kjd/idna
     - https://github.com/kjd/idna/security/advisories/GHSA-65pc-fj4g-8rjx
     - https://github.com/pypa/advisory-database/tree/main/vulns/idna/PYSEC-2026-215.yaml
     - https://nvd.nist.gov/vuln/detail/CVE-2026-45409
+    - https://www.cve.org/CVERecord?id=CVE-2026-45409
     PublishedDate: '2026-06-05T23:16:43.343Z'
     LastModifiedDate: '2026-06-17T10:52:01.58Z'
   - VulnerabilityID: CVE-2021-3572
@@ -23962,6 +24139,7 @@
     - https://access.redhat.com/errata/RHSA-2026:23233
     - https://access.redhat.com/errata/RHSA-2026:28887
     - https://access.redhat.com/errata/RHSA-2026:30088
+    - https://access.redhat.com/errata/RHSA-2026:34098
     - https://access.redhat.com/security/cve/CVE-2026-35535
     - https://bugs.debian.org/1130593
     - https://bugs.launchpad.net/ubuntu/+source/sudo/+bug/2143042
@@ -23983,7 +24161,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-35535
     - https://www.qualys.com/2026/03/10/crack-armor.txt
     PublishedDate: '2026-04-03T03:16:18.233Z'
-    LastModifiedDate: '2026-07-02T12:17:11.45Z'
+    LastModifiedDate: '2026-07-10T12:16:43.683Z'
   - VulnerabilityID: CVE-2026-29111
     VendorIDs:
     - RHSA-2026:19213
@@ -24080,6 +24258,82 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-4105
     PublishedDate: '2026-03-13T19:55:13.673Z'
     LastModifiedDate: '2026-06-17T10:55:59.567Z'
+  - VulnerabilityID: CVE-2026-59873
+    PkgID: tar@1.34-9.el9_7.x86_64
+    PkgName: tar
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/tar@1.34-9.el9_7?arch=x86_64&distro=redhat-9.7&epoch=2
+      UID: 2b4e6861ae10be1d
+    InstalledVersion: 2:1.34-9.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59873
+    Fingerprint: sha256:629f64cff9e3ff6c3bf1ac3398dbc9e9ddf6fc78d64b3c767bc5f39e1d782796
+    Title: 'tar: node-tar: Denial of Service via crafted gzip bomb'
+    Description: node-tar is a tar archive manipulation library for Node.js. Prior to 7.5.19, node-tar does not enforce hard upper bounds on total decompressed data, entry counts, or decompression ratio in extraction and parsing paths such as src/extract.ts, allowing a small crafted gzip bomb to exhaust disk space and CPU. This issue is fixed in version 7.5.19.
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      nvd: 3
+      redhat: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-59873
+    - https://github.com/isaacs/node-tar/commit/2812e9338665659b183aa7226518c307044957d3
+    - https://github.com/isaacs/node-tar/releases/tag/v7.5.19
+    - https://github.com/isaacs/node-tar/security/advisories/GHSA-23hp-3jrh-7fpw
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59873
+    - https://www.cve.org/CVERecord?id=CVE-2026-59873
+    PublishedDate: '2026-07-08T16:16:33.867Z'
+    LastModifiedDate: '2026-07-10T18:57:17.907Z'
+  - VulnerabilityID: CVE-2026-59874
+    PkgID: tar@1.34-9.el9_7.x86_64
+    PkgName: tar
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/tar@1.34-9.el9_7?arch=x86_64&distro=redhat-9.7&epoch=2
+      UID: 2b4e6861ae10be1d
+    InstalledVersion: 2:1.34-9.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59874
+    Fingerprint: sha256:f9598a4fc8bb5c312b600cd0d241babbdf967a365c54ae9275ba6ecbc079d4c4
+    Title: 'tar: Node-tar: Denial of Service via malformed tar archive header'
+    Description: node-tar is a tar archive manipulation library for Node.js. Prior to 7.5.18, tar.replace accepts a checksum-valid tar header with a negative base-256 encoded entry size, causing the archive scanner to make no progress while repeatedly parsing the same header. This issue is fixed in version 7.5.18.
+    Severity: HIGH
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      nvd: 3
+      redhat: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-59874
+    - https://github.com/isaacs/node-tar/commit/9e78bf058b2c22dd4d52e00d8922d5c06fc2f7b5
+    - https://github.com/isaacs/node-tar/releases/tag/v7.5.18
+    - https://github.com/isaacs/node-tar/security/advisories/GHSA-8x88-c5mf-7j5w
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59874
+    - https://www.cve.org/CVERecord?id=CVE-2026-59874
+    PublishedDate: '2026-07-08T16:16:33.99Z'
+    LastModifiedDate: '2026-07-10T18:54:12.67Z'
   - VulnerabilityID: CVE-2005-2541
     PkgID: tar@1.34-9.el9_7.x86_64
     PkgName: tar
@@ -24208,6 +24462,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-33056
     PublishedDate: '2026-03-20T08:16:11.603Z'
     LastModifiedDate: '2026-06-17T10:36:52.55Z'
+  - VulnerabilityID: CVE-2026-53655
+    PkgID: tar@1.34-9.el9_7.x86_64
+    PkgName: tar
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/tar@1.34-9.el9_7?arch=x86_64&distro=redhat-9.7&epoch=2
+      UID: 2b4e6861ae10be1d
+    InstalledVersion: 2:1.34-9.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53655
+    Fingerprint: sha256:10d8af5fde06ea2163a138b1e3c5c8295b7fe27c280cea8ea62b76d98e812478
+    Title: 'node-tar: node-tar: File smuggling due to inconsistent tar archive parsing'
+    Description: 'node-tar is a full-featured Tar for Node.js. Prior to 7.5.16, tar (node-tar) applies a PAX extended header''s size= record (and other PAX overrides) to the next header entry of any type, including intermediary metadata headers such as a GNU long-name (L) or long-link (K) entry. Per POSIX pax, a PAX extended header (x) describes the next file entry, not the intermediary extension headers that may sit between the x header and the file it annotates. Because node-tar lets the PAX size override the byte length of an intervening L/K/x header, an attacker can desynchronize node-tar''s stream cursor relative to every other mainstream tar implementation (GNU tar, libarchive/bsdtar, Python tarfile, and the now-fixed tar-rs / astral-tokio-tar). The result is a tar parser interpretation differential (CWE-436): a single crafted archive yields a different set of members under node-tar than under the reference tar tools. An attacker can use this to hide a member from one parser while it is visible to another, which defeats security tooling whose scanner and extractor disagree on archive contents (e.g. a malware/secret scanner that lists entries with one library while a downstream step extracts with another) This vulnerability is fixed in 7.5.16.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-436
+    VendorSeverity:
+      ghsa: 2
+      nvd: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6.9
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:N
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53655
+    - https://github.com/isaacs/node-tar
+    - https://github.com/isaacs/node-tar/security/advisories/GHSA-vmf3-w455-68vh
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53655
+    - https://www.cve.org/CVERecord?id=CVE-2026-53655
+    PublishedDate: '2026-06-22T16:16:38.593Z'
+    LastModifiedDate: '2026-06-26T20:03:47.01Z'
   - VulnerabilityID: CVE-2026-5704
     PkgID: tar@1.34-9.el9_7.x86_64
     PkgName: tar
@@ -24249,6 +24544,78 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-5704
     PublishedDate: '2026-04-06T16:16:42.14Z'
     LastModifiedDate: '2026-06-17T10:59:31.78Z'
+  - VulnerabilityID: CVE-2026-59871
+    PkgID: tar@1.34-9.el9_7.x86_64
+    PkgName: tar
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/tar@1.34-9.el9_7?arch=x86_64&distro=redhat-9.7&epoch=2
+      UID: 2b4e6861ae10be1d
+    InstalledVersion: 2:1.34-9.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59871
+    Fingerprint: sha256:538cdbf6483063b48da0cc141df32ca45a6e15cb73d27923918553cc5d44e27e
+    Title: 'node-tar: node-tar: Denial of Service due to incorrect PAX path handling'
+    Description: node-tar is a tar archive manipulation library for Node.js. Prior to 7.5.18, node-tar coerces all-digit PAX path and linkpath values in src/pax.ts to JavaScript numbers, causing downstream path handling such as normalizeWindowsPath(entry.path).split('/') to throw an uncaught TypeError. This issue is fixed in version 7.5.18.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-704
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-59871
+    - https://github.com/isaacs/node-tar/commit/e02a4e9e013c4be95302e2eb2047a942b883c27b
+    - https://github.com/isaacs/node-tar/releases/tag/v7.5.18
+    - https://github.com/isaacs/node-tar/security/advisories/GHSA-w8wr-v893-vjvp
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59871
+    - https://www.cve.org/CVERecord?id=CVE-2026-59871
+    PublishedDate: '2026-07-08T16:16:33.723Z'
+    LastModifiedDate: '2026-07-10T19:02:55.14Z'
+  - VulnerabilityID: CVE-2026-59875
+    PkgID: tar@1.34-9.el9_7.x86_64
+    PkgName: tar
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/tar@1.34-9.el9_7?arch=x86_64&distro=redhat-9.7&epoch=2
+      UID: 2b4e6861ae10be1d
+    InstalledVersion: 2:1.34-9.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59875
+    Fingerprint: sha256:38b93b2cba6d3b9d0bb6bc511ac8c93774270d6b2c7e2f2f0dc4572b15a7d243
+    Title: 'node-tar: node-tar: Denial of Service via crafted archive with NUL bytes in metadata'
+    Description: node-tar is a tar archive manipulation library for Node.js. Prior to 7.5.17, node-tar does not strip NUL bytes from PAX path and linkpath records in src/pax.ts, allowing a crafted archive with values to reach fs.lstat or fs.open and terminate the process with an uncaught exception. This issue is fixed in version 7.5.17.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-248
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-59875
+    - https://github.com/isaacs/node-tar/commit/7a635c29f5edbf083557374d43984273ecfed5b3
+    - https://github.com/isaacs/node-tar/releases/tag/v7.5.17
+    - https://github.com/isaacs/node-tar/security/advisories/GHSA-gvwx-54wh-qm9j
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59875
+    - https://www.cve.org/CVERecord?id=CVE-2026-59875
+    PublishedDate: '2026-07-08T16:16:34.107Z'
+    LastModifiedDate: '2026-07-10T19:10:59.333Z'
   - VulnerabilityID: CVE-2023-39804
     PkgID: tar@1.34-9.el9_7.x86_64
     PkgName: tar
