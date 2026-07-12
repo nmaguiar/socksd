@@ -391,7 +391,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
-      photon: 2
+      photon: 3
       redhat: 2
       rocky: 2
     CVSS:
@@ -889,6 +889,7 @@
     - https://curl.se/docs/CVE-2026-11352.json
     - https://hackerone.com/reports/3783438
     - https://nvd.nist.gov/vuln/detail/CVE-2026-11352
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2026-11352
     PublishedDate: '2026-07-03T07:16:23.693Z'
     LastModifiedDate: '2026-07-07T18:01:19.013Z'
@@ -929,6 +930,7 @@
     - https://curl.se/docs/CVE-2026-11586.json
     - https://hackerone.com/reports/3788931
     - https://nvd.nist.gov/vuln/detail/CVE-2026-11586
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2026-11586
     PublishedDate: '2026-07-03T07:16:23.883Z'
     LastModifiedDate: '2026-07-07T17:59:46.92Z'
@@ -975,6 +977,7 @@
     - https://curl.se/docs/CVE-2026-12064.json
     - https://hackerone.com/reports/3797526
     - https://nvd.nist.gov/vuln/detail/CVE-2026-12064
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2026-12064
     PublishedDate: '2026-07-03T07:16:24.217Z'
     LastModifiedDate: '2026-07-07T19:43:11.187Z'
@@ -1561,6 +1564,7 @@
     - https://hackerone.com/reports/3642555
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5545
     - https://ubuntu.com/security/notices/USN-8227-1
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2026-5545
     PublishedDate: '2026-05-13T13:01:56.19Z'
     LastModifiedDate: '2026-06-17T10:59:12.847Z'
@@ -1618,6 +1622,7 @@
     - https://hackerone.com/reports/3650689
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5773
     - https://ubuntu.com/security/notices/USN-8227-1
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2026-5773
     PublishedDate: '2026-05-13T13:01:56.307Z'
     LastModifiedDate: '2026-06-17T10:59:37.34Z'
@@ -1755,6 +1760,7 @@
     - https://hackerone.com/reports/3697719
     - https://nvd.nist.gov/vuln/detail/CVE-2026-7168
     - https://ubuntu.com/security/notices/USN-8227-1
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2026-7168
     PublishedDate: '2026-05-13T13:01:57.2Z'
     LastModifiedDate: '2026-06-17T11:01:57.7Z'
@@ -2048,6 +2054,7 @@
     - https://security.netapp.com/advisory/ntap-20250131-0004
     - https://security.netapp.com/advisory/ntap-20250131-0004/
     - https://ubuntu.com/security/notices/USN-7162-1
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
@@ -6608,7 +6615,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -7748,7 +7755,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15028
     - https://www.cve.org/CVERecord?id=CVE-2026-15028
     PublishedDate: '2026-07-10T10:16:23.417Z'
-    LastModifiedDate: '2026-07-10T17:49:57.737Z'
+    LastModifiedDate: '2026-07-11T05:16:32.493Z'
   - VulnerabilityID: CVE-2026-54371
     PkgID: libattr@2.5.1-3.el9.x86_64
     PkgName: libattr
@@ -8003,6 +8010,7 @@
     - https://curl.se/docs/CVE-2026-11352.json
     - https://hackerone.com/reports/3783438
     - https://nvd.nist.gov/vuln/detail/CVE-2026-11352
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2026-11352
     PublishedDate: '2026-07-03T07:16:23.693Z'
     LastModifiedDate: '2026-07-07T18:01:19.013Z'
@@ -8043,6 +8051,7 @@
     - https://curl.se/docs/CVE-2026-11586.json
     - https://hackerone.com/reports/3788931
     - https://nvd.nist.gov/vuln/detail/CVE-2026-11586
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2026-11586
     PublishedDate: '2026-07-03T07:16:23.883Z'
     LastModifiedDate: '2026-07-07T17:59:46.92Z'
@@ -8089,6 +8098,7 @@
     - https://curl.se/docs/CVE-2026-12064.json
     - https://hackerone.com/reports/3797526
     - https://nvd.nist.gov/vuln/detail/CVE-2026-12064
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2026-12064
     PublishedDate: '2026-07-03T07:16:24.217Z'
     LastModifiedDate: '2026-07-07T19:43:11.187Z'
@@ -8675,6 +8685,7 @@
     - https://hackerone.com/reports/3642555
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5545
     - https://ubuntu.com/security/notices/USN-8227-1
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2026-5545
     PublishedDate: '2026-05-13T13:01:56.19Z'
     LastModifiedDate: '2026-06-17T10:59:12.847Z'
@@ -8732,6 +8743,7 @@
     - https://hackerone.com/reports/3650689
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5773
     - https://ubuntu.com/security/notices/USN-8227-1
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2026-5773
     PublishedDate: '2026-05-13T13:01:56.307Z'
     LastModifiedDate: '2026-06-17T10:59:37.34Z'
@@ -8869,6 +8881,7 @@
     - https://hackerone.com/reports/3697719
     - https://nvd.nist.gov/vuln/detail/CVE-2026-7168
     - https://ubuntu.com/security/notices/USN-8227-1
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2026-7168
     PublishedDate: '2026-05-13T13:01:57.2Z'
     LastModifiedDate: '2026-06-17T11:01:57.7Z'
@@ -9162,6 +9175,7 @@
     - https://security.netapp.com/advisory/ntap-20250131-0004
     - https://security.netapp.com/advisory/ntap-20250131-0004/
     - https://ubuntu.com/security/notices/USN-7162-1
+    - https://ubuntu.com/security/notices/USN-8525-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
@@ -13056,7 +13070,7 @@
     VendorSeverity:
       azure: 2
       nvd: 4
-      photon: 4
+      photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -16244,7 +16258,7 @@
     VendorSeverity:
       azure: 2
       nvd: 4
-      photon: 4
+      photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -17570,10 +17584,11 @@
     - https://access.redhat.com/errata/RHSA-2026:37469
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
+    - https://github.com/advisories/GHSA-p2wm-69qx-x25w
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-07-10T01:16:28.783Z'
+    LastModifiedDate: '2026-07-11T17:16:25Z'
   - VulnerabilityID: CVE-2026-2100
     VendorIDs:
     - RHSA-2026:18599
@@ -17660,10 +17675,11 @@
     - https://access.redhat.com/errata/RHSA-2026:37469
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
+    - https://github.com/advisories/GHSA-p2wm-69qx-x25w
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-07-10T01:16:28.783Z'
+    LastModifiedDate: '2026-07-11T17:16:25Z'
   - VulnerabilityID: CVE-2026-2100
     VendorIDs:
     - RHSA-2026:18599
@@ -18413,7 +18429,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -18603,7 +18619,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -18696,7 +18712,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -18794,7 +18810,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -18893,7 +18909,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -19161,7 +19177,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -19255,7 +19271,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -19599,7 +19615,7 @@
     - CWE-74
     - CWE-434
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 1
       nvd: 1
       photon: 1
@@ -19788,7 +19804,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -20229,7 +20245,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -20419,7 +20435,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -20512,7 +20528,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -20610,7 +20626,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -20709,7 +20725,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -20977,7 +20993,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -21071,7 +21087,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -21415,7 +21431,7 @@
     - CWE-74
     - CWE-434
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 1
       nvd: 1
       photon: 1
@@ -21604,7 +21620,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -22045,7 +22061,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -22235,7 +22251,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -22328,7 +22344,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -22426,7 +22442,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -22525,7 +22541,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -22793,7 +22809,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -22887,7 +22903,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -23231,7 +23247,7 @@
     - CWE-74
     - CWE-434
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 1
       nvd: 1
       photon: 1
@@ -23420,7 +23436,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
