@@ -906,6 +906,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 1
     CVSS:
@@ -946,6 +947,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 1
     CVSS:
@@ -1770,6 +1772,7 @@
     CweIDs:
     - CWE-522
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -3029,6 +3032,7 @@
     CweIDs:
     - CWE-191
     VendorSeverity:
+      azure: 2
       nvd: 4
       redhat: 3
     CVSS:
@@ -3148,6 +3152,7 @@
     CweIDs:
     - CWE-126
     VendorSeverity:
+      azure: 2
       nvd: 3
       redhat: 2
     CVSS:
@@ -3185,6 +3190,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       nvd: 3
       redhat: 2
     CVSS:
@@ -3223,6 +3229,7 @@
     CweIDs:
     - CWE-126
     VendorSeverity:
+      azure: 2
       nvd: 3
       redhat: 2
     CVSS:
@@ -3260,6 +3267,7 @@
     CweIDs:
     - CWE-126
     VendorSeverity:
+      azure: 2
       nvd: 3
       redhat: 2
     CVSS:
@@ -3297,6 +3305,7 @@
     CweIDs:
     - CWE-193
     VendorSeverity:
+      azure: 3
       nvd: 3
       redhat: 2
     CVSS:
@@ -3334,6 +3343,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      azure: 2
       nvd: 3
       redhat: 2
     CVSS:
@@ -5570,6 +5580,8 @@
     Title: 'libarchive: heap overflow OOB read while parsing a tar archive contains a PAX extended header'
     Description: A flaw was found in libarchive. This vulnerability allows a remote attacker to trigger a heap overflow by providing a specially crafted tar archive. The issue occurs during the parsing of a PAX extended header containing a malformed SUN.holesdata sparse-file attribute. Successful exploitation could lead to a denial of service, making the system unavailable, or potentially allow for arbitrary code execution, giving the attacker control over the affected system.
     Severity: LOW
+    CweIDs:
+    - CWE-122
     VendorSeverity:
       redhat: 1
     CVSS:
@@ -5577,6 +5589,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L
         V3Score: 3.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:38279
     - https://access.redhat.com/security/cve/CVE-2026-15028
     - https://bugzilla.redhat.com/show_bug.cgi?id=2497970
     - https://github.com/libarchive/libarchive/issues/3251
@@ -5584,7 +5597,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15028
     - https://www.cve.org/CVERecord?id=CVE-2026-15028
     PublishedDate: '2026-07-10T10:16:23.417Z'
-    LastModifiedDate: '2026-07-11T05:16:32.493Z'
+    LastModifiedDate: '2026-07-13T14:16:23.763Z'
   - VulnerabilityID: CVE-2026-54371
     PkgID: libattr@2.5.1-3.el9.x86_64
     PkgName: libattr
@@ -5820,6 +5833,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 1
     CVSS:
@@ -5860,6 +5874,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 1
     CVSS:
@@ -6684,6 +6699,7 @@
     CweIDs:
     - CWE-522
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -9887,7 +9903,7 @@
     VendorSeverity:
       azure: 2
       nvd: 4
-      photon: 3
+      photon: 4
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -10826,7 +10842,7 @@
     VendorSeverity:
       azure: 2
       nvd: 4
-      photon: 3
+      photon: 4
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -10880,13 +10896,14 @@
         V3Score: 6.2
     References:
     - https://access.redhat.com/errata/RHSA-2026:37469
+    - https://access.redhat.com/errata/RHSA-2026:38342
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
     - https://github.com/advisories/GHSA-p2wm-69qx-x25w
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-07-11T17:16:25Z'
+    LastModifiedDate: '2026-07-13T06:16:24.863Z'
   - VulnerabilityID: CVE-2026-13757
     PkgID: p11-kit-trust@0.26.2-1.el9.x86_64
     PkgName: p11-kit-trust
@@ -10915,13 +10932,14 @@
         V3Score: 6.2
     References:
     - https://access.redhat.com/errata/RHSA-2026:37469
+    - https://access.redhat.com/errata/RHSA-2026:38342
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
     - https://github.com/advisories/GHSA-p2wm-69qx-x25w
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-07-11T17:16:25Z'
+    LastModifiedDate: '2026-07-13T06:16:24.863Z'
   - VulnerabilityID: CVE-2026-12610
     PkgID: pam@1.5.1-28.el9.x86_64
     PkgName: pam
@@ -11217,9 +11235,13 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      bitnami: 3
       nvd: 3
       redhat: 3
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 8.7
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -12600,9 +12622,13 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      bitnami: 3
       nvd: 3
       redhat: 3
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 8.7
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -13983,9 +14009,13 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      bitnami: 3
       nvd: 3
       redhat: 3
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 8.7
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
