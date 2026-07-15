@@ -190,7 +190,7 @@
                         │     │                  │       26/cve-2026-54513.json 
                         │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │     ╰ LastModifiedDate: 2026-07-09T13:17:29.703Z 
+                        │     ╰ LastModifiedDate: 2026-07-14T12:17:12.863Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
                         │     ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
