@@ -34,6 +34,7 @@
     CweIDs:
     - CWE-915
     VendorSeverity:
+      amazon: 3
       ghsa: 2
       redhat: 2
     CVSS:
