@@ -59,7 +59,9 @@
                         │     ├ Severity        : HIGH 
                         │     ├ CweIDs           ╭ [0]: CWE-184 
                         │     │                  ╰ [1]: CWE-502 
-                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     ├ VendorSeverity   ╭ alma  : 3 
+                        │     │                  ├ amazon: 3 
+                        │     │                  ├ ghsa  : 3 
                         │     │                  ╰ redhat: 3 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
                         │     │                  │        │           A:H 
@@ -67,15 +69,20 @@
                         │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
                         │     │                           │           A:H 
                         │     │                           ╰ V3Score : 8.1 
-                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54512 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/43
-                        │     │                  │      4d6c511de7fdd9872f29157aafb6162d12d8d5 
-                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/issues/5988 
-                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                  │      advisories/GHSA-j3rv-43j4-c7qm 
-                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-54512 
-                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-54512 
+                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:40895 
+                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-54512 
+                        │     │                  ├ [2] : https://bugzilla.redhat.com/2492010 
+                        │     │                  ├ [3] : https://bugzilla.redhat.com/2492015 
+                        │     │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2026-40895.html 
+                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [6] : https://github.com/FasterXML/jackson-databind/commit/4
+                        │     │                  │       34d6c511de7fdd9872f29157aafb6162d12d8d5 
+                        │     │                  ├ [7] : https://github.com/FasterXML/jackson-databind/issues/5
+                        │     │                  │       988 
+                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/security
+                        │     │                  │       /advisories/GHSA-j3rv-43j4-c7qm 
+                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-54512 
+                        │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-54512 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.203Z 
                         │     ╰ LastModifiedDate: 2026-06-27T21:01:36.47Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2026-54513 
@@ -118,7 +125,9 @@
                         │     │                   in 2.18.8, 2.21.4, and 3.1.4. 
                         │     ├ Severity        : HIGH 
                         │     ├ CweIDs           ─ [0]: CWE-184 
-                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     ├ VendorSeverity   ╭ alma  : 3 
+                        │     │                  ├ amazon: 3 
+                        │     │                  ├ ghsa  : 3 
                         │     │                  ╰ redhat: 3 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
                         │     │                  │        │           A:H 
@@ -129,23 +138,26 @@
                         │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:36839 
                         │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:40895 
                         │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-54513 
-                        │     │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
-                        │     │                  ├ [4] : https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind/commit/0
+                        │     │                  ├ [3] : https://bugzilla.redhat.com/2492010 
+                        │     │                  ├ [4] : https://bugzilla.redhat.com/2492015 
+                        │     │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
+                        │     │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-40895.html 
+                        │     │                  ├ [7] : https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/commit/0
                         │     │                  │       1d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
-                        │     │                  ├ [6] : https://github.com/FasterXML/jackson-databind/commit/2
+                        │     │                  ├ [9] : https://github.com/FasterXML/jackson-databind/commit/2
                         │     │                  │       4529da29fdf46ff94ca38de9ebf31cd188f5e8e 
-                        │     │                  ├ [7] : https://github.com/FasterXML/jackson-databind/issues/5
+                        │     │                  ├ [10]: https://github.com/FasterXML/jackson-databind/issues/5
                         │     │                  │       981 
-                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/issues/5
+                        │     │                  ├ [11]: https://github.com/FasterXML/jackson-databind/issues/5
                         │     │                  │       983 
-                        │     │                  ├ [9] : https://github.com/FasterXML/jackson-databind/pull/5984 
-                        │     │                  ├ [10]: https://github.com/FasterXML/jackson-databind/security
+                        │     │                  ├ [12]: https://github.com/FasterXML/jackson-databind/pull/5984 
+                        │     │                  ├ [13]: https://github.com/FasterXML/jackson-databind/security
                         │     │                  │       /advisories/GHSA-rmj7-2vxq-3g9f 
-                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
-                        │     │                  ├ [12]: https://security.access.redhat.com/data/csaf/v2/vex/20
+                        │     │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
+                        │     │                  ├ [15]: https://security.access.redhat.com/data/csaf/v2/vex/20
                         │     │                  │       26/cve-2026-54513.json 
-                        │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
+                        │     │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
                         │     ╰ LastModifiedDate: 2026-07-17T13:18:57.98Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
@@ -187,7 +199,8 @@
                         │     │                   2.18.8, 2.21.4, and 3.1.4. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-918 
-                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+                        │     ├ VendorSeverity   ╭ amazon: 3 
+                        │     │                  ├ ghsa  : 2 
                         │     │                  ╰ redhat: 2 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/
                         │     │                  │        │           A:N 
@@ -248,7 +261,8 @@
                         │     │                   2.18.9, 2.21.5, and 3.1.4. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-915 
-                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+                        │     ├ VendorSeverity   ╭ amazon: 3 
+                        │     │                  ├ ghsa  : 2 
                         │     │                  ╰ redhat: 2 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
                         │     │                  │        │           A:N 
