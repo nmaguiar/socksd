@@ -35,6 +35,8 @@
     - CWE-184
     - CWE-502
     VendorSeverity:
+      alma: 3
+      amazon: 3
       ghsa: 3
       redhat: 3
     CVSS:
@@ -45,7 +47,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
     References:
+    - https://access.redhat.com/errata/RHSA-2026:40895
     - https://access.redhat.com/security/cve/CVE-2026-54512
+    - https://bugzilla.redhat.com/2492010
+    - https://bugzilla.redhat.com/2492015
+    - https://errata.almalinux.org/9/ALSA-2026-40895.html
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/434d6c511de7fdd9872f29157aafb6162d12d8d5
     - https://github.com/FasterXML/jackson-databind/issues/5988
@@ -81,6 +87,8 @@
     CweIDs:
     - CWE-184
     VendorSeverity:
+      alma: 3
+      amazon: 3
       ghsa: 3
       redhat: 3
     CVSS:
@@ -94,7 +102,10 @@
     - https://access.redhat.com/errata/RHSA-2026:36839
     - https://access.redhat.com/errata/RHSA-2026:40895
     - https://access.redhat.com/security/cve/CVE-2026-54513
+    - https://bugzilla.redhat.com/2492010
+    - https://bugzilla.redhat.com/2492015
     - https://bugzilla.redhat.com/show_bug.cgi?id=2492010
+    - https://errata.almalinux.org/9/ALSA-2026-40895.html
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5
     - https://github.com/FasterXML/jackson-databind/commit/24529da29fdf46ff94ca38de9ebf31cd188f5e8e
@@ -134,6 +145,7 @@
     CweIDs:
     - CWE-918
     VendorSeverity:
+      amazon: 3
       ghsa: 2
       redhat: 2
     CVSS:
@@ -180,6 +192,7 @@
     CweIDs:
     - CWE-915
     VendorSeverity:
+      amazon: 3
       ghsa: 2
       redhat: 2
     CVSS:
