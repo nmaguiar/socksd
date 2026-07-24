@@ -408,6 +408,7 @@
     - https://access.redhat.com/errata/RHSA-2026:33612
     - https://access.redhat.com/errata/RHSA-2026:34102
     - https://access.redhat.com/errata/RHSA-2026:39981
+    - https://access.redhat.com/errata/RHSA-2026:44481
     - https://access.redhat.com/security/cve/CVE-2025-5278
     - https://bugzilla.redhat.com/2368764
     - https://bugzilla.redhat.com/show_bug.cgi?id=2368764
@@ -423,7 +424,7 @@
     - https://security-tracker.debian.org/tracker/CVE-2025-5278
     - https://www.cve.org/CVERecord?id=CVE-2025-5278
     PublishedDate: '2025-05-27T21:15:23.197Z'
-    LastModifiedDate: '2026-07-21T05:16:33.507Z'
+    LastModifiedDate: '2026-07-23T14:16:58.293Z'
   - VulnerabilityID: CVE-2023-4504
     PkgID: cups-libs@2.3.3op2-34.el9_7.2.x86_64
     PkgName: cups-libs
@@ -2744,7 +2745,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-50219
     - https://www.cve.org/CVERecord?id=CVE-2026-50219
     PublishedDate: '2026-06-04T06:16:25.05Z'
-    LastModifiedDate: '2026-06-17T10:57:38.927Z'
+    LastModifiedDate: '2026-07-22T20:10:00.127Z'
   - VulnerabilityID: CVE-2026-56132
     PkgID: expat@2.5.0-5.el9_7.1.x86_64
     PkgName: expat
@@ -3141,6 +3142,7 @@
       nvd: 4
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
@@ -3152,17 +3154,20 @@
     - https://access.redhat.com/errata/RHSA-2026:42063
     - https://access.redhat.com/errata/RHSA-2026:42089
     - https://access.redhat.com/errata/RHSA-2026:42090
+    - https://access.redhat.com/errata/RHSA-2026:44481
     - https://access.redhat.com/security/cve/CVE-2026-58016
     - https://bugzilla.redhat.com/2492257
     - https://bugzilla.redhat.com/show_bug.cgi?id=2492257
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58016
     - https://errata.almalinux.org/9/ALSA-2026-42089.html
+    - https://errata.rockylinux.org/RLSA-2026:42089
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3932
     - https://linux.oracle.com/cve/CVE-2026-58016.html
     - https://linux.oracle.com/errata/ELSA-2026-42090.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58016
     - https://www.cve.org/CVERecord?id=CVE-2026-58016
     PublishedDate: '2026-06-30T13:19:17.84Z'
-    LastModifiedDate: '2026-07-21T04:16:51.263Z'
+    LastModifiedDate: '2026-07-23T14:17:27.133Z'
   - VulnerabilityID: CVE-2025-14087
     VendorIDs:
     - RHSA-2026:19361
@@ -3475,7 +3480,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-16118
     - https://www.cve.org/CVERecord?id=CVE-2026-16118
     PublishedDate: '2026-07-17T20:17:16.167Z'
-    LastModifiedDate: '2026-07-21T18:31:51.68Z'
+    LastModifiedDate: '2026-07-22T19:16:55.893Z'
   - VulnerabilityID: CVE-2026-58010
     PkgID: glib2@2.68.4-18.el9_7.2.x86_64
     PkgName: glib2
@@ -3710,7 +3715,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58015
     - https://www.cve.org/CVERecord?id=CVE-2026-58015
     PublishedDate: '2026-06-30T13:19:17.707Z'
-    LastModifiedDate: '2026-07-02T02:16:28.58Z'
+    LastModifiedDate: '2026-07-23T23:16:49.317Z'
   - VulnerabilityID: CVE-2023-32636
     PkgID: glib2@2.68.4-18.el9_7.2.x86_64
     PkgName: glib2
@@ -4052,13 +4057,16 @@
     PublishedDate: '2026-03-20T20:16:49.477Z'
     LastModifiedDate: '2026-07-14T13:18:57.923Z'
   - VulnerabilityID: CVE-2026-5435
+    VendorIDs:
+    - RHSA-2026:42952
     PkgID: glibc@2.34-231.el9_7.10.x86_64
     PkgName: glibc
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc@2.34-231.el9_7.10?arch=x86_64&distro=redhat-9.7
       UID: 58ae7d8a108463b8
     InstalledVersion: 2.34-231.el9_7.10
-    Status: affected
+    FixedVersion: 2.34-274.el9_8
+    Status: fixed
     Layer:
       Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
       DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
@@ -4071,17 +4079,34 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-5435
+    - https://bugzilla.redhat.com/2459854
+    - https://bugzilla.redhat.com/2463465
+    - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-5435.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5435
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34033
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0011
@@ -4140,13 +4165,16 @@
     PublishedDate: '2026-04-20T21:16:36.85Z'
     LastModifiedDate: '2026-07-14T13:19:01.52Z'
   - VulnerabilityID: CVE-2026-5928
+    VendorIDs:
+    - RHSA-2026:42952
     PkgID: glibc@2.34-231.el9_7.10.x86_64
     PkgName: glibc
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc@2.34-231.el9_7.10?arch=x86_64&distro=redhat-9.7
       UID: 58ae7d8a108463b8
     InstalledVersion: 2.34-231.el9_7.10
-    Status: affected
+    FixedVersion: 2.34-274.el9_8
+    Status: fixed
     Layer:
       Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
       DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
@@ -4162,28 +4190,48 @@
     CweIDs:
     - CWE-127
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:H
         V3Score: 5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-5928
+    - https://bugzilla.redhat.com/2459854
+    - https://bugzilla.redhat.com/2463465
+    - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
+    - https://linux.oracle.com/cve/CVE-2026-5928.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5928
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33998
     - https://www.cve.org/CVERecord?id=CVE-2026-5928
     PublishedDate: '2026-04-20T21:16:36.963Z'
     LastModifiedDate: '2026-07-14T13:19:01.69Z'
   - VulnerabilityID: CVE-2026-6238
+    VendorIDs:
+    - RHSA-2026:42952
     PkgID: glibc@2.34-231.el9_7.10.x86_64
     PkgName: glibc
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc@2.34-231.el9_7.10?arch=x86_64&distro=redhat-9.7
       UID: 58ae7d8a108463b8
     InstalledVersion: 2.34-231.el9_7.10
-    Status: affected
+    FixedVersion: 2.34-274.el9_8
+    Status: fixed
     Layer:
       Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
       DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
@@ -4199,17 +4247,34 @@
     CweIDs:
     - CWE-126
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-6238
+    - https://bugzilla.redhat.com/2459854
+    - https://bugzilla.redhat.com/2463465
+    - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-6238.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6238
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34069
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0012
@@ -4398,13 +4463,16 @@
     PublishedDate: '2026-03-20T20:16:49.477Z'
     LastModifiedDate: '2026-07-14T13:18:57.923Z'
   - VulnerabilityID: CVE-2026-5435
+    VendorIDs:
+    - RHSA-2026:42952
     PkgID: glibc-common@2.34-231.el9_7.10.x86_64
     PkgName: glibc-common
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc-common@2.34-231.el9_7.10?arch=x86_64&distro=redhat-9.7
       UID: ec8ce00583e29fc5
     InstalledVersion: 2.34-231.el9_7.10
-    Status: affected
+    FixedVersion: 2.34-274.el9_8
+    Status: fixed
     Layer:
       Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
       DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
@@ -4417,17 +4485,34 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-5435
+    - https://bugzilla.redhat.com/2459854
+    - https://bugzilla.redhat.com/2463465
+    - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-5435.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5435
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34033
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0011
@@ -4486,13 +4571,16 @@
     PublishedDate: '2026-04-20T21:16:36.85Z'
     LastModifiedDate: '2026-07-14T13:19:01.52Z'
   - VulnerabilityID: CVE-2026-5928
+    VendorIDs:
+    - RHSA-2026:42952
     PkgID: glibc-common@2.34-231.el9_7.10.x86_64
     PkgName: glibc-common
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc-common@2.34-231.el9_7.10?arch=x86_64&distro=redhat-9.7
       UID: ec8ce00583e29fc5
     InstalledVersion: 2.34-231.el9_7.10
-    Status: affected
+    FixedVersion: 2.34-274.el9_8
+    Status: fixed
     Layer:
       Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
       DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
@@ -4508,28 +4596,48 @@
     CweIDs:
     - CWE-127
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:H
         V3Score: 5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-5928
+    - https://bugzilla.redhat.com/2459854
+    - https://bugzilla.redhat.com/2463465
+    - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
+    - https://linux.oracle.com/cve/CVE-2026-5928.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5928
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33998
     - https://www.cve.org/CVERecord?id=CVE-2026-5928
     PublishedDate: '2026-04-20T21:16:36.963Z'
     LastModifiedDate: '2026-07-14T13:19:01.69Z'
   - VulnerabilityID: CVE-2026-6238
+    VendorIDs:
+    - RHSA-2026:42952
     PkgID: glibc-common@2.34-231.el9_7.10.x86_64
     PkgName: glibc-common
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc-common@2.34-231.el9_7.10?arch=x86_64&distro=redhat-9.7
       UID: ec8ce00583e29fc5
     InstalledVersion: 2.34-231.el9_7.10
-    Status: affected
+    FixedVersion: 2.34-274.el9_8
+    Status: fixed
     Layer:
       Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
       DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
@@ -4545,17 +4653,34 @@
     CweIDs:
     - CWE-126
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-6238
+    - https://bugzilla.redhat.com/2459854
+    - https://bugzilla.redhat.com/2463465
+    - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-6238.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6238
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34069
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0012
@@ -4744,13 +4869,16 @@
     PublishedDate: '2026-03-20T20:16:49.477Z'
     LastModifiedDate: '2026-07-14T13:18:57.923Z'
   - VulnerabilityID: CVE-2026-5435
+    VendorIDs:
+    - RHSA-2026:42952
     PkgID: glibc-minimal-langpack@2.34-231.el9_7.10.x86_64
     PkgName: glibc-minimal-langpack
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-231.el9_7.10?arch=x86_64&distro=redhat-9.7
       UID: dfc6d40c5080c8f4
     InstalledVersion: 2.34-231.el9_7.10
-    Status: affected
+    FixedVersion: 2.34-274.el9_8
+    Status: fixed
     Layer:
       Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
       DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
@@ -4763,17 +4891,34 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-5435
+    - https://bugzilla.redhat.com/2459854
+    - https://bugzilla.redhat.com/2463465
+    - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-5435.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5435
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34033
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0011
@@ -4832,13 +4977,16 @@
     PublishedDate: '2026-04-20T21:16:36.85Z'
     LastModifiedDate: '2026-07-14T13:19:01.52Z'
   - VulnerabilityID: CVE-2026-5928
+    VendorIDs:
+    - RHSA-2026:42952
     PkgID: glibc-minimal-langpack@2.34-231.el9_7.10.x86_64
     PkgName: glibc-minimal-langpack
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-231.el9_7.10?arch=x86_64&distro=redhat-9.7
       UID: dfc6d40c5080c8f4
     InstalledVersion: 2.34-231.el9_7.10
-    Status: affected
+    FixedVersion: 2.34-274.el9_8
+    Status: fixed
     Layer:
       Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
       DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
@@ -4854,28 +5002,48 @@
     CweIDs:
     - CWE-127
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:H
         V3Score: 5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-5928
+    - https://bugzilla.redhat.com/2459854
+    - https://bugzilla.redhat.com/2463465
+    - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
+    - https://linux.oracle.com/cve/CVE-2026-5928.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5928
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33998
     - https://www.cve.org/CVERecord?id=CVE-2026-5928
     PublishedDate: '2026-04-20T21:16:36.963Z'
     LastModifiedDate: '2026-07-14T13:19:01.69Z'
   - VulnerabilityID: CVE-2026-6238
+    VendorIDs:
+    - RHSA-2026:42952
     PkgID: glibc-minimal-langpack@2.34-231.el9_7.10.x86_64
     PkgName: glibc-minimal-langpack
     PkgIdentifier:
       PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-231.el9_7.10?arch=x86_64&distro=redhat-9.7
       UID: dfc6d40c5080c8f4
     InstalledVersion: 2.34-231.el9_7.10
-    Status: affected
+    FixedVersion: 2.34-274.el9_8
+    Status: fixed
     Layer:
       Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
       DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
@@ -4891,17 +5059,34 @@
     CweIDs:
     - CWE-126
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-6238
+    - https://bugzilla.redhat.com/2459854
+    - https://bugzilla.redhat.com/2463465
+    - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-6238.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6238
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34069
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0012
@@ -5430,6 +5615,7 @@
     - https://access.redhat.com/errata/RHSA-2026:36004
     - https://access.redhat.com/errata/RHSA-2026:36005
     - https://access.redhat.com/errata/RHSA-2026:36006
+    - https://access.redhat.com/errata/RHSA-2026:40762
     - https://access.redhat.com/errata/RHSA-2026:41921
     - https://access.redhat.com/security/cve/CVE-2026-42009
     - https://bugzilla.redhat.com/2445763
@@ -5475,7 +5661,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42009
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-2
     PublishedDate: '2026-05-18T13:16:32.707Z'
-    LastModifiedDate: '2026-07-20T12:19:10.52Z'
+    LastModifiedDate: '2026-07-23T12:17:54.21Z'
   - VulnerabilityID: CVE-2026-42010
     VendorIDs:
     - RHSA-2026:20612
@@ -5535,6 +5721,7 @@
     - https://access.redhat.com/errata/RHSA-2026:36004
     - https://access.redhat.com/errata/RHSA-2026:36005
     - https://access.redhat.com/errata/RHSA-2026:36006
+    - https://access.redhat.com/errata/RHSA-2026:40762
     - https://access.redhat.com/errata/RHSA-2026:41921
     - https://access.redhat.com/security/cve/CVE-2026-42010
     - https://bugzilla.redhat.com/2445763
@@ -5580,7 +5767,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42010
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-4
     PublishedDate: '2026-05-07T12:16:17.977Z'
-    LastModifiedDate: '2026-07-20T12:19:11.067Z'
+    LastModifiedDate: '2026-07-23T12:17:55.39Z'
   - VulnerabilityID: CVE-2026-3833
     VendorIDs:
     - RHSA-2026:20612
@@ -5633,6 +5820,7 @@
     - https://access.redhat.com/errata/RHSA-2026:32962
     - https://access.redhat.com/errata/RHSA-2026:33125
     - https://access.redhat.com/errata/RHSA-2026:41921
+    - https://access.redhat.com/errata/RHSA-2026:43575
     - https://access.redhat.com/security/cve/CVE-2026-3833
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -5677,7 +5865,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3833
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-5
     PublishedDate: '2026-04-30T18:16:30.577Z'
-    LastModifiedDate: '2026-07-20T12:19:03.883Z'
+    LastModifiedDate: '2026-07-22T16:17:18.3Z'
   - VulnerabilityID: CVE-2026-42011
     VendorIDs:
     - RHSA-2026:20612
@@ -5725,7 +5913,9 @@
     - https://access.redhat.com/errata/RHSA-2026:30850
     - https://access.redhat.com/errata/RHSA-2026:32962
     - https://access.redhat.com/errata/RHSA-2026:33125
+    - https://access.redhat.com/errata/RHSA-2026:40762
     - https://access.redhat.com/errata/RHSA-2026:41921
+    - https://access.redhat.com/errata/RHSA-2026:43575
     - https://access.redhat.com/security/cve/CVE-2026-42011
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -5769,7 +5959,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42011
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-6
     PublishedDate: '2026-05-07T15:16:09.76Z'
-    LastModifiedDate: '2026-07-20T12:19:11.62Z'
+    LastModifiedDate: '2026-07-22T16:17:19.94Z'
   - VulnerabilityID: CVE-2026-42012
     VendorIDs:
     - RHSA-2026:20612
@@ -5818,6 +6008,7 @@
     - https://access.redhat.com/errata/RHSA-2026:32962
     - https://access.redhat.com/errata/RHSA-2026:33125
     - https://access.redhat.com/errata/RHSA-2026:41921
+    - https://access.redhat.com/errata/RHSA-2026:43575
     - https://access.redhat.com/security/cve/CVE-2026-42012
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -5861,7 +6052,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42012
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-7
     PublishedDate: '2026-05-26T22:16:41.913Z'
-    LastModifiedDate: '2026-07-20T12:19:11.913Z'
+    LastModifiedDate: '2026-07-23T11:10:00.12Z'
   - VulnerabilityID: CVE-2026-42013
     VendorIDs:
     - RHSA-2026:20612
@@ -5909,7 +6100,9 @@
     - https://access.redhat.com/errata/RHSA-2026:30850
     - https://access.redhat.com/errata/RHSA-2026:32962
     - https://access.redhat.com/errata/RHSA-2026:33125
+    - https://access.redhat.com/errata/RHSA-2026:40762
     - https://access.redhat.com/errata/RHSA-2026:41921
+    - https://access.redhat.com/errata/RHSA-2026:43575
     - https://access.redhat.com/security/cve/CVE-2026-42013
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -5953,7 +6146,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42013
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-8
     PublishedDate: '2026-05-26T22:16:42.05Z'
-    LastModifiedDate: '2026-07-20T12:19:12.22Z'
+    LastModifiedDate: '2026-07-23T11:10:00.12Z'
   - VulnerabilityID: CVE-2026-42014
     VendorIDs:
     - RHSA-2026:20612
@@ -6002,6 +6195,7 @@
     - https://access.redhat.com/errata/RHSA-2026:32962
     - https://access.redhat.com/errata/RHSA-2026:33125
     - https://access.redhat.com/errata/RHSA-2026:41921
+    - https://access.redhat.com/errata/RHSA-2026:43575
     - https://access.redhat.com/security/cve/CVE-2026-42014
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -6046,7 +6240,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42014
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-9
     PublishedDate: '2026-06-16T02:16:19.14Z'
-    LastModifiedDate: '2026-07-20T12:19:12.507Z'
+    LastModifiedDate: '2026-07-22T16:17:20.867Z'
   - VulnerabilityID: CVE-2026-42015
     VendorIDs:
     - RHSA-2026:20612
@@ -6095,6 +6289,7 @@
     - https://access.redhat.com/errata/RHSA-2026:32962
     - https://access.redhat.com/errata/RHSA-2026:33125
     - https://access.redhat.com/errata/RHSA-2026:41921
+    - https://access.redhat.com/errata/RHSA-2026:43575
     - https://access.redhat.com/security/cve/CVE-2026-42015
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -6138,7 +6333,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42015
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-11
     PublishedDate: '2026-05-26T22:16:42.18Z'
-    LastModifiedDate: '2026-07-20T12:19:12.81Z'
+    LastModifiedDate: '2026-07-23T11:10:00.12Z'
   - VulnerabilityID: CVE-2026-5260
     VendorIDs:
     - RHSA-2026:20612
@@ -6186,6 +6381,7 @@
     - https://access.redhat.com/errata/RHSA-2026:30850
     - https://access.redhat.com/errata/RHSA-2026:32962
     - https://access.redhat.com/errata/RHSA-2026:33125
+    - https://access.redhat.com/errata/RHSA-2026:40762
     - https://access.redhat.com/errata/RHSA-2026:41921
     - https://access.redhat.com/security/cve/CVE-2026-5260
     - https://bugzilla.redhat.com/2445763
@@ -6230,7 +6426,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-5260
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-10
     PublishedDate: '2026-05-26T22:16:44.17Z'
-    LastModifiedDate: '2026-07-20T12:19:41.59Z'
+    LastModifiedDate: '2026-07-23T11:10:00.12Z'
   - VulnerabilityID: CVE-2026-3832
     VendorIDs:
     - RHSA-2026:20612
@@ -6400,7 +6596,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-5419
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-13
     PublishedDate: '2026-06-01T21:16:47.48Z'
-    LastModifiedDate: '2026-07-15T15:16:46.94Z'
+    LastModifiedDate: '2026-07-22T08:10:00.117Z'
   - VulnerabilityID: CVE-2026-41991
     PkgID: gzip@1.12-1.el9.x86_64
     PkgName: gzip
@@ -6445,72 +6641,6 @@
     - https://www.gnu.org/software/gzip/
     PublishedDate: '2026-06-29T12:16:29.77Z'
     LastModifiedDate: '2026-07-01T14:02:24.45Z'
-  - VulnerabilityID: CVE-2025-66293
-    PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
-    PkgName: java-21-openjdk-headless
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
-      UID: 821db010eeba72a9
-    InstalledVersion: 1:21.0.11.0.10-2.el9
-    Status: affected
-    Layer:
-      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
-      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66293
-    Fingerprint: sha256:17b2c1e6edb8703e8c01ab86425fc01cd5a72130ddc2442580da83553f1374c6
-    Title: 'libpng: LIBPNG out-of-bounds read in png_image_read_composite'
-    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to 1.6.52, an out-of-bounds read vulnerability in libpng's simplified API allows reading up to 1012 bytes beyond the png_sRGB_base[512] array when processing valid palette PNG images with partial transparency and gamma correction. The PNG files that trigger this vulnerability are valid per the PNG specification; the bug is in libpng's internal state management. Upgrade to libpng 1.6.52 or later.
-    Severity: HIGH
-    CweIDs:
-    - CWE-125
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      azure: 3
-      cbl-mariner: 3
-      julia: 3
-      oracle-oval: 3
-      photon: 3
-      redhat: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      julia:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
-        V3Score: 7.1
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
-        V3Score: 7.1
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/12/03/6
-    - http://www.openwall.com/lists/oss-security/2025/12/03/7
-    - http://www.openwall.com/lists/oss-security/2025/12/03/8
-    - https://access.redhat.com/errata/RHSA-2026:0238
-    - https://access.redhat.com/security/cve/CVE-2025-66293
-    - https://bugzilla.redhat.com/2416904
-    - https://bugzilla.redhat.com/2416907
-    - https://bugzilla.redhat.com/2418711
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2418711
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
-    - https://errata.almalinux.org/9/ALSA-2026-0238.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
-    - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
-    - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
-    - https://github.com/pnggroup/libpng/issues/764
-    - https://github.com/pnggroup/libpng/security/advisories/GHSA-9mpm-9pxh-mg4f
-    - https://linux.oracle.com/cve/CVE-2025-66293.html
-    - https://linux.oracle.com/errata/ELSA-2026-0241.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-66293
-    - https://ubuntu.com/security/notices/USN-7963-1
-    - https://ubuntu.com/security/notices/USN-8035-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-66293
-    PublishedDate: '2025-12-03T21:15:53.06Z'
-    LastModifiedDate: '2026-06-17T09:56:37.45Z'
   - VulnerabilityID: CVE-2026-22020
     PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -6578,126 +6708,41 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34268
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34282
     - https://errata.rockylinux.org/RLSA-2026:9686
-  - VulnerabilityID: CVE-2026-25646
+  - VulnerabilityID: CVE-2026-47063
+    VendorIDs:
+    - RHSA-2026:42895
     PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
     PkgIdentifier:
       PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
       UID: 821db010eeba72a9
     InstalledVersion: 1:21.0.11.0.10-2.el9
-    Status: will_not_fix
+    FixedVersion: 1:21.0.12.0.8-1.2.el9
+    Status: fixed
     Layer:
       Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
       DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
     SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25646
-    Fingerprint: sha256:52dc133dc88ff1eaecfa83d81da6ade3999b628945e5bcb96998e27e3b22615c
-    Title: 'libpng: LIBPNG has a heap buffer overflow in png_set_quantize'
-    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to 1.6.55, an out-of-bounds read vulnerability exists in the png_set_quantize() API function. When the function is called with no histogram and the number of colors in the palette is more than twice the maximum supported by the user's display, certain palettes will cause the function to enter into an infinite loop that reads past the end of an internal heap-allocated buffer. The images that trigger this vulnerability are valid per the PNG specification. This vulnerability is fixed in 1.6.55.
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47063
+    Fingerprint: sha256:4a8b4f9f0402a9e8fe5f59cf7aca7a5e2872f853e2afc685eee3a70e02004050
+    Title: 'openjdk: OpenJDK: Enhance Jar handling (Oracle CPU 2026-07)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.5 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N).'
     Severity: HIGH
     CweIDs:
-    - CWE-122
-    - CWE-126
-    - CWE-125
+    - CWE-284
     VendorSeverity:
-      alma: 3
-      amazon: 2
-      azure: 3
-      cbl-mariner: 3
-      julia: 3
-      nvd: 3
-      oracle-oval: 3
-      photon: 3
       redhat: 3
-      rocky: 3
-      ubuntu: 2
     CVSS:
-      julia:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:L/VI:L/VA:H/SC:N/SI:N/SA:N
-        V3Score: 8.1
-        V40Score: 8.3
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
-        V3Score: 7
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
     References:
-    - http://www.openwall.com/lists/oss-security/2026/02/09/7
-    - https://access.redhat.com/errata/RHSA-2026:10097
-    - https://access.redhat.com/errata/RHSA-2026:12274
-    - https://access.redhat.com/errata/RHSA-2026:14773
-    - https://access.redhat.com/errata/RHSA-2026:15087
-    - https://access.redhat.com/errata/RHSA-2026:16174
-    - https://access.redhat.com/errata/RHSA-2026:17596
-    - https://access.redhat.com/errata/RHSA-2026:3031
-    - https://access.redhat.com/errata/RHSA-2026:3405
-    - https://access.redhat.com/errata/RHSA-2026:3551
-    - https://access.redhat.com/errata/RHSA-2026:3573
-    - https://access.redhat.com/errata/RHSA-2026:3574
-    - https://access.redhat.com/errata/RHSA-2026:3575
-    - https://access.redhat.com/errata/RHSA-2026:3576
-    - https://access.redhat.com/errata/RHSA-2026:3577
-    - https://access.redhat.com/errata/RHSA-2026:3968
-    - https://access.redhat.com/errata/RHSA-2026:3969
-    - https://access.redhat.com/errata/RHSA-2026:4221
-    - https://access.redhat.com/errata/RHSA-2026:4222
-    - https://access.redhat.com/errata/RHSA-2026:4306
-    - https://access.redhat.com/errata/RHSA-2026:4501
-    - https://access.redhat.com/errata/RHSA-2026:4728
-    - https://access.redhat.com/errata/RHSA-2026:4729
-    - https://access.redhat.com/errata/RHSA-2026:4730
-    - https://access.redhat.com/errata/RHSA-2026:4731
-    - https://access.redhat.com/errata/RHSA-2026:4732
-    - https://access.redhat.com/errata/RHSA-2026:4756
-    - https://access.redhat.com/errata/RHSA-2026:5606
-    - https://access.redhat.com/errata/RHSA-2026:6439
-    - https://access.redhat.com/errata/RHSA-2026:6445
-    - https://access.redhat.com/errata/RHSA-2026:6466
-    - https://access.redhat.com/errata/RHSA-2026:6467
-    - https://access.redhat.com/errata/RHSA-2026:6468
-    - https://access.redhat.com/errata/RHSA-2026:6469
-    - https://access.redhat.com/errata/RHSA-2026:6553
-    - https://access.redhat.com/errata/RHSA-2026:6732
-    - https://access.redhat.com/errata/RHSA-2026:7032
-    - https://access.redhat.com/errata/RHSA-2026:7033
-    - https://access.redhat.com/errata/RHSA-2026:7034
-    - https://access.redhat.com/errata/RHSA-2026:7035
-    - https://access.redhat.com/errata/RHSA-2026:7036
-    - https://access.redhat.com/errata/RHSA-2026:7239
-    - https://access.redhat.com/errata/RHSA-2026:7243
-    - https://access.redhat.com/errata/RHSA-2026:8746
-    - https://access.redhat.com/errata/RHSA-2026:8747
-    - https://access.redhat.com/errata/RHSA-2026:8748
-    - https://access.redhat.com/errata/RHSA-2026:9254
-    - https://access.redhat.com/errata/RHSA-2026:9255
-    - https://access.redhat.com/errata/RHSA-2026:9686
-    - https://access.redhat.com/errata/RHSA-2026:9687
-    - https://access.redhat.com/security/cve/CVE-2026-25646
-    - https://bugzilla.redhat.com/2428824
-    - https://bugzilla.redhat.com/2428825
-    - https://bugzilla.redhat.com/2438542
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2428824
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2428825
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2438542
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22695
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
-    - https://errata.almalinux.org/9/ALSA-2026-3405.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
-    - https://github.com/pnggroup/libpng/commit/01d03b8453eb30ade759cd45c707e5a1c7277d88
-    - https://github.com/pnggroup/libpng/security/advisories/GHSA-g8hp-mq4h-rqm3
-    - https://linux.oracle.com/cve/CVE-2026-25646.html
-    - https://linux.oracle.com/errata/ELSA-2026-7032.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-25646
-    - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-25646.json
-    - https://ubuntu.com/security/notices/USN-8035-1
-    - https://ubuntu.com/security/notices/USN-8039-1
-    - https://ubuntu.com/security/notices/USN-8081-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-25646
-    PublishedDate: '2026-02-10T18:16:37.817Z'
-    LastModifiedDate: '2026-07-15T02:18:55.657Z'
+    - https://access.redhat.com/security/cve/CVE-2026-47063
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-47063
+    - https://www.cve.org/CVERecord?id=CVE-2026-47063
+    - https://www.oracle.com/security-alerts/cpujul2026.html
+    PublishedDate: '2026-07-21T22:17:12.19Z'
+    LastModifiedDate: '2026-07-23T18:30:55.46Z'
   - VulnerabilityID: CVE-2025-28164
     PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -6760,7 +6805,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       julia: 2
@@ -6875,256 +6920,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-22693
     PublishedDate: '2026-01-10T06:15:52.063Z'
     LastModifiedDate: '2026-06-17T10:20:14.783Z'
-  - VulnerabilityID: CVE-2026-22695
-    PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
-    PkgName: java-21-openjdk-headless
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
-      UID: 821db010eeba72a9
-    InstalledVersion: 1:21.0.11.0.10-2.el9
-    Status: affected
-    Layer:
-      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
-      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22695
-    Fingerprint: sha256:028b648822c9ab2766e0787d0c6d95cb15ceda3970e205d574b1b4520a50e83e
-    Title: 'libpng: libpng: Denial of service and information disclosure via heap buffer over-read in png_image_finish_read'
-    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.51 to 1.6.53, there is a heap buffer over-read in the libpng simplified API function png_image_finish_read when processing interlaced 16-bit PNGs with 8-bit output format and non-minimal row stride. This is a regression introduced by the fix for CVE-2025-65018. This vulnerability is fixed in 1.6.54.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-125
-    VendorSeverity:
-      alma: 3
-      amazon: 2
-      azure: 2
-      cbl-mariner: 2
-      julia: 3
-      nvd: 3
-      oracle-oval: 3
-      photon: 3
-      redhat: 2
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      julia:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H
-        V3Score: 7.1
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H
-        V3Score: 7.1
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:3405
-    - https://access.redhat.com/security/cve/CVE-2026-22695
-    - https://bugzilla.redhat.com/2428824
-    - https://bugzilla.redhat.com/2428825
-    - https://bugzilla.redhat.com/2438542
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2428824
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2428825
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2438542
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22695
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
-    - https://errata.almalinux.org/9/ALSA-2026-3405.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
-    - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
-    - https://github.com/pnggroup/libpng/commit/e4f7ad4ea2
-    - https://github.com/pnggroup/libpng/issues/778
-    - https://github.com/pnggroup/libpng/security/advisories/GHSA-mmq5-27w3-rxpp
-    - https://linux.oracle.com/cve/CVE-2026-22695.html
-    - https://linux.oracle.com/errata/ELSA-2026-4728.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-22695
-    - https://ubuntu.com/security/notices/USN-7963-1
-    - https://ubuntu.com/security/notices/USN-8035-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-22695
-    - https://www.openwall.com/lists/oss-security/2026/01/12/7
-    PublishedDate: '2026-01-12T23:15:52.597Z'
-    LastModifiedDate: '2026-06-17T10:20:15.007Z'
-  - VulnerabilityID: CVE-2026-22801
-    PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
-    PkgName: java-21-openjdk-headless
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
-      UID: 821db010eeba72a9
-    InstalledVersion: 1:21.0.11.0.10-2.el9
-    Status: affected
-    Layer:
-      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
-      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22801
-    Fingerprint: sha256:d3688caa9457ce0a00ba3e142fecd1affcefdaf651605148fc11bc0a0d92dd82
-    Title: 'libpng: libpng: Information disclosure and denial of service via integer truncation in simplified write API'
-    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.26 to 1.6.53, there is an integer truncation in the libpng simplified write API functions png_write_image_16bit and png_write_image_8bit causes heap buffer over-read when the caller provides a negative row stride (for bottom-up image layouts) or a stride exceeding 65535 bytes. The bug was introduced in libpng 1.6.26 (October 2016) by casts added to silence compiler warnings on 16-bit systems. This vulnerability is fixed in 1.6.54.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-125
-    - CWE-190
-    VendorSeverity:
-      alma: 3
-      amazon: 2
-      azure: 2
-      cbl-mariner: 2
-      julia: 3
-      nvd: 3
-      oracle-oval: 3
-      photon: 3
-      redhat: 2
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      julia:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H
-        V3Score: 6.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:3405
-    - https://access.redhat.com/security/cve/CVE-2026-22801
-    - https://bugzilla.redhat.com/2428824
-    - https://bugzilla.redhat.com/2428825
-    - https://bugzilla.redhat.com/2438542
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2428824
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2428825
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2438542
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22695
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
-    - https://errata.almalinux.org/9/ALSA-2026-3405.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
-    - https://github.com/pnggroup/libpng/security/advisories/GHSA-vgjq-8cw5-ggw8
-    - https://linux.oracle.com/cve/CVE-2026-22801.html
-    - https://linux.oracle.com/errata/ELSA-2026-4728.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-22801
-    - https://ubuntu.com/security/notices/USN-7963-1
-    - https://ubuntu.com/security/notices/USN-8035-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-22801
-    - https://www.openwall.com/lists/oss-security/2026/01/12/7
-    PublishedDate: '2026-01-12T23:15:52.907Z'
-    LastModifiedDate: '2026-06-17T10:20:27.327Z'
-  - VulnerabilityID: CVE-2026-33416
-    PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
-    PkgName: java-21-openjdk-headless
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
-      UID: 821db010eeba72a9
-    InstalledVersion: 1:21.0.11.0.10-2.el9
-    Status: affected
-    Layer:
-      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
-      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33416
-    Fingerprint: sha256:9ef529f67e0bec07a086ffb99322ee58b84a647c910e83924508366be5c1cd4b
-    Title: 'libpng: libpng: Arbitrary code execution due to use-after-free vulnerability'
-    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. In versions 1.2.1 through 1.6.55, `png_set_tRNS` and `png_set_PLTE` each alias a heap-allocated buffer between `png_struct` and `png_info`, sharing a single allocation across two structs with independent lifetimes. The `trans_alpha` aliasing has been present since at least libpng 1.0, and the `palette` aliasing since at least 1.2.1. Both affect all prior release lines `png_set_tRNS` sets `png_ptr->trans_alpha = info_ptr->trans_alpha` (256-byte buffer) and `png_set_PLTE` sets `info_ptr->palette = png_ptr->palette` (768-byte buffer). In both cases, calling `png_free_data` (with `PNG_FREE_TRNS` or `PNG_FREE_PLTE`) frees the buffer through `info_ptr` while the corresponding `png_ptr` pointer remains dangling. Subsequent row-transform functions dereference and, in some code paths, write to the freed memory. A second call to `png_set_tRNS` or `png_set_PLTE` has the same effect, because both functions call `png_free_data` internally before reallocating the `info_ptr` buffer. Version 1.6.56 fixes the issue.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      azure: 3
-      cbl-mariner: 3
-      julia: 3
-      oracle-oval: 3
-      photon: 3
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      julia:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:9693
-    - https://access.redhat.com/security/cve/CVE-2026-33416
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2451805
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2451819
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33416
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33636
-    - https://errata.almalinux.org/9/ALSA-2026-9693.html
-    - https://errata.rockylinux.org/RLSA-2026:28255
-    - https://github.com/pnggroup/libpng/commit/23019269764e35ed8458e517f1897bd3c54820eb
-    - https://github.com/pnggroup/libpng/commit/7ea9eea884a2328cc7fdcb3c0c00246a50d90667
-    - https://github.com/pnggroup/libpng/commit/a3a21443ed12bfa1ef46fa0d4fb2b74a0fa34a25
-    - https://github.com/pnggroup/libpng/commit/c1b0318b393c90679e6fa5bc1d329fd5d5012ec1
-    - https://github.com/pnggroup/libpng/pull/824
-    - https://github.com/pnggroup/libpng/security/advisories/GHSA-m4pc-p4q3-4c7j
-    - https://linux.oracle.com/cve/CVE-2026-33416.html
-    - https://linux.oracle.com/errata/ELSA-2026-9693.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-33416
-    - https://ubuntu.com/security/notices/USN-8251-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-33416
-    PublishedDate: '2026-03-26T17:16:38.443Z'
-    LastModifiedDate: '2026-06-17T10:37:27.583Z'
-  - VulnerabilityID: CVE-2026-33636
-    PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
-    PkgName: java-21-openjdk-headless
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
-      UID: 821db010eeba72a9
-    InstalledVersion: 1:21.0.11.0.10-2.el9
-    Status: affected
-    Layer:
-      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
-      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33636
-    Fingerprint: sha256:681b6c3bdcf913e2df223d8d8d82d25b24d2fd331d65036e94af5a3cd819bb0b
-    Title: 'libpng: libpng: Information disclosure and denial of service via out-of-bounds read/write in Neon palette expansion'
-    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. In versions 1.6.36 through 1.6.55, an out-of-bounds read and write exists in libpng's ARM/AArch64 Neon-optimized palette expansion path. When expanding 8-bit paletted rows to RGB or RGBA, the Neon loop processes a final partial chunk without verifying that enough input pixels remain. Because the implementation works backward from the end of the row, the final iteration dereferences pointers before the start of the row buffer (OOB read) and writes expanded pixel data to the same underflowed positions (OOB write). This is reachable via normal decoding of attacker-controlled PNG input if Neon is enabled. Version 1.6.56 fixes the issue.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-125
-    - CWE-787
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      azure: 3
-      cbl-mariner: 3
-      julia: 3
-      oracle-oval: 3
-      photon: 3
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      julia:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H
-        V3Score: 7.6
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H
-        V3Score: 7.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:9693
-    - https://access.redhat.com/security/cve/CVE-2026-33636
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2451805
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2451819
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33416
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33636
-    - https://errata.almalinux.org/9/ALSA-2026-9693.html
-    - https://errata.rockylinux.org/RLSA-2026:28255
-    - https://github.com/pnggroup/libpng/commit/7734cda20cf1236aef60f3bbd2267c97bbb40869
-    - https://github.com/pnggroup/libpng/commit/aba9f18eba870d14fb52c5ba5d73451349e339c3
-    - https://github.com/pnggroup/libpng/security/advisories/GHSA-wjr5-c57x-95m2
-    - https://linux.oracle.com/cve/CVE-2026-33636.html
-    - https://linux.oracle.com/errata/ELSA-2026-9693.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-33636
-    - https://ubuntu.com/security/notices/USN-8251-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-33636
-    PublishedDate: '2026-03-26T17:16:41.477Z'
-    LastModifiedDate: '2026-06-17T10:37:49.46Z'
   - VulnerabilityID: CVE-2026-34757
     PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -7176,13 +6971,16 @@
     PublishedDate: '2026-04-09T15:16:11.003Z'
     LastModifiedDate: '2026-06-17T10:39:34.22Z'
   - VulnerabilityID: CVE-2026-41254
+    VendorIDs:
+    - RHSA-2026:42895
     PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
     PkgIdentifier:
       PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
       UID: 821db010eeba72a9
     InstalledVersion: 1:21.0.11.0.10-2.el9
-    Status: affected
+    FixedVersion: 1:21.0.12.0.8-1.2.el9
+    Status: fixed
     Layer:
       Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
       DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
@@ -7226,6 +7024,181 @@
     - https://www.openwall.com/lists/oss-security/2026/04/17/16
     PublishedDate: '2026-04-18T07:16:10.807Z'
     LastModifiedDate: '2026-06-17T10:46:23.47Z'
+  - VulnerabilityID: CVE-2026-46917
+    VendorIDs:
+    - RHSA-2026:42895
+    PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 821db010eeba72a9
+    InstalledVersion: 1:21.0.11.0.10-2.el9
+    FixedVersion: 1:21.0.12.0.8-1.2.el9
+    Status: fixed
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-46917
+    Fingerprint: sha256:9c1637e7ee2f9520ae7e9c46ea9a17c0d28841c5342a5db3fa0c3de6faacdf69
+    Title: 'openjdk: OpenJDK: Improve DTLS handshaking (Oracle CPU 2026-07)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-46917
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-46917
+    - https://www.cve.org/CVERecord?id=CVE-2026-46917
+    - https://www.oracle.com/security-alerts/cpujul2026.html
+    PublishedDate: '2026-07-21T22:17:01.81Z'
+    LastModifiedDate: '2026-07-23T18:30:55.46Z'
+  - VulnerabilityID: CVE-2026-46968
+    VendorIDs:
+    - RHSA-2026:42895
+    PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 821db010eeba72a9
+    InstalledVersion: 1:21.0.11.0.10-2.el9
+    FixedVersion: 1:21.0.12.0.8-1.2.el9
+    Status: fixed
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-46968
+    Fingerprint: sha256:9da0aba26f6887803a547e3fd35e85fe24453e3e06511aceb87149b1b310cea3
+    Title: 'openjdk: Enhance TLS certificate handling'
+    Description: 'Vulnerability in Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.9 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-46968
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-46968
+    - https://www.cve.org/CVERecord?id=CVE-2026-46968
+    - https://www.oracle.com/security-alerts/cpujul2026.html
+    PublishedDate: '2026-07-21T22:17:02.76Z'
+    LastModifiedDate: '2026-07-23T18:30:55.46Z'
+  - VulnerabilityID: CVE-2026-47021
+    VendorIDs:
+    - RHSA-2026:42895
+    PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 821db010eeba72a9
+    InstalledVersion: 1:21.0.11.0.10-2.el9
+    FixedVersion: 1:21.0.12.0.8-1.2.el9
+    Status: fixed
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47021
+    Fingerprint: sha256:2e8b7f8740f07bd6a9dde21feedb445d6fdab1ea89528b02870bc2ad5699dc9a
+    Title: 'openjdk: OpenJDK: Enhance XBM image support (Oracle CPU 2026-07)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-47021
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-47021
+    - https://www.cve.org/CVERecord?id=CVE-2026-47021
+    - https://www.oracle.com/security-alerts/cpujul2026.html
+    PublishedDate: '2026-07-21T22:17:07.67Z'
+    LastModifiedDate: '2026-07-23T18:30:55.46Z'
+  - VulnerabilityID: CVE-2026-47027
+    VendorIDs:
+    - RHSA-2026:42895
+    PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 821db010eeba72a9
+    InstalledVersion: 1:21.0.11.0.10-2.el9
+    FixedVersion: 1:21.0.12.0.8-1.2.el9
+    Status: fixed
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47027
+    Fingerprint: sha256:4f5a3b8defeaa472134a2759c0075bdf6fb50f665a83a4ae97fa96ec36aa8b21
+    Title: 'openjdk: OpenJDK: Enhance Jar file processing (Oracle CPU 2026-07)'
+    Description: 'Vulnerability in Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-47027
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-47027
+    - https://www.cve.org/CVERecord?id=CVE-2026-47027
+    - https://www.oracle.com/security-alerts/cpujul2026.html
+    PublishedDate: '2026-07-21T22:17:08.25Z'
+    LastModifiedDate: '2026-07-23T18:30:55.46Z'
+  - VulnerabilityID: CVE-2026-60147
+    VendorIDs:
+    - RHSA-2026:42895
+    PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 821db010eeba72a9
+    InstalledVersion: 1:21.0.11.0.10-2.el9
+    FixedVersion: 1:21.0.12.0.8-1.2.el9
+    Status: fixed
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-60147
+    Fingerprint: sha256:5f7cf4cceaf80aefd30dbd6ac89737237b69b6d33eff7b4982c42d8503f2b51c
+    Title: 'openjdk: OpenJDK: Improve certification checking (Oracle CPU 2026-07)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.5 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-60147
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-60147
+    - https://www.cve.org/CVERecord?id=CVE-2026-60147
+    - https://www.oracle.com/security-alerts/cpujul2026.html
+    PublishedDate: '2026-07-21T22:17:15.407Z'
+    LastModifiedDate: '2026-07-23T18:30:55.46Z'
   - VulnerabilityID: CVE-2026-27171
     PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -7278,6 +7251,76 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-27171
     PublishedDate: '2026-02-18T04:16:01.263Z'
     LastModifiedDate: '2026-06-17T10:26:47.357Z'
+  - VulnerabilityID: CVE-2026-47010
+    VendorIDs:
+    - RHSA-2026:42895
+    PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 821db010eeba72a9
+    InstalledVersion: 1:21.0.11.0.10-2.el9
+    FixedVersion: 1:21.0.12.0.8-1.2.el9
+    Status: fixed
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47010
+    Fingerprint: sha256:c3c6e9202e0a8975eb968875a1ab4775f0cc18afec90c8aa4668063c027f87b7
+    Title: 'openjdk: OpenJDK: Enhance JPEG handling (Oracle CPU 2026-07)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-47010
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-47010
+    - https://www.cve.org/CVERecord?id=CVE-2026-47010
+    - https://www.oracle.com/security-alerts/cpujul2026.html
+    PublishedDate: '2026-07-21T22:17:06.497Z'
+    LastModifiedDate: '2026-07-23T18:30:55.46Z'
+  - VulnerabilityID: CVE-2026-47059
+    VendorIDs:
+    - RHSA-2026:42895
+    PkgID: java-21-openjdk-headless@21.0.11.0.10-2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.11.0.10-2.el9?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 821db010eeba72a9
+    InstalledVersion: 1:21.0.11.0.10-2.el9
+    FixedVersion: 1:21.0.12.0.8-1.2.el9
+    Status: fixed
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47059
+    Fingerprint: sha256:88a1ffb2ed7e2095cc1e8eae3cfe32f66412edb059dcb4096cbc0d03c8e6d58b
+    Title: 'openjdk: OpenJDK: Enhance AWT ImagingLib (Oracle CPU 2026-07)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: LOW
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-47059
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-47059
+    - https://www.cve.org/CVERecord?id=CVE-2026-47059
+    - https://www.oracle.com/security-alerts/cpujul2026.html
+    PublishedDate: '2026-07-21T22:17:11.727Z'
+    LastModifiedDate: '2026-07-23T18:30:55.46Z'
   - VulnerabilityID: CVE-2026-11850
     PkgID: krb5-libs@1.21.1-9.el9_7.x86_64
     PkgName: krb5-libs
@@ -7303,6 +7346,7 @@
       amazon: 2
       photon: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:H
@@ -7312,6 +7356,7 @@
     - https://access.redhat.com/security/cve/CVE-2026-11850
     - https://bugzilla.redhat.com/show_bug.cgi?id=2459970
     - https://nvd.nist.gov/vuln/detail/CVE-2026-11850
+    - https://ubuntu.com/security/notices/USN-8585-1
     - https://www.cve.org/CVERecord?id=CVE-2026-11850
     PublishedDate: '2026-06-11T10:16:21.217Z'
     LastModifiedDate: '2026-06-17T10:14:30.383Z'
@@ -7345,6 +7390,7 @@
       oracle-oval: 3
       redhat: 2
       rocky: 3
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -7370,6 +7416,7 @@
     - https://linux.oracle.com/cve/CVE-2026-40355.html
     - https://linux.oracle.com/errata/ELSA-2026-19357.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-40355
+    - https://ubuntu.com/security/notices/USN-8585-1
     - https://web.mit.edu/kerberos/advisories/
     - https://www.cve.org/CVERecord?id=CVE-2026-40355
     PublishedDate: '2026-04-28T06:16:03.663Z'
@@ -7404,6 +7451,7 @@
       oracle-oval: 3
       redhat: 2
       rocky: 3
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -7427,18 +7475,22 @@
     - https://linux.oracle.com/cve/CVE-2026-40356.html
     - https://linux.oracle.com/errata/ELSA-2026-19357.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-40356
+    - https://ubuntu.com/security/notices/USN-8585-1
     - https://web.mit.edu/kerberos/advisories/
     - https://www.cve.org/CVERecord?id=CVE-2026-40356
     PublishedDate: '2026-04-28T07:16:03.197Z'
     LastModifiedDate: '2026-07-08T12:48:10.117Z'
   - VulnerabilityID: CVE-2026-54369
+    VendorIDs:
+    - RHSA-2026:42736
     PkgID: libacl@2.3.1-4.el9.x86_64
     PkgName: libacl
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libacl@2.3.1-4.el9?arch=x86_64&distro=redhat-9.7
       UID: d20f62b36d746508
     InstalledVersion: 2.3.1-4.el9
-    Status: affected
+    FixedVersion: 2.4.0-1.el9_8
+    Status: fixed
     Layer:
       Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
       DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
@@ -7451,32 +7503,50 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.1
     References:
     - https://access.redhat.com/errata/RHSA-2026:34351
+    - https://access.redhat.com/errata/RHSA-2026:42736
+    - https://access.redhat.com/errata/RHSA-2026:42739
+    - https://access.redhat.com/errata/RHSA-2026:43420
     - https://access.redhat.com/security/cve/CVE-2026-54369
+    - https://bugzilla.redhat.com/2490277
+    - https://bugzilla.redhat.com/2490279
     - https://bugzilla.redhat.com/show_bug.cgi?id=2490277
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2490279
     - https://cgit.git.savannah.nongnu.org/cgit/acl.git/commit/?id=24a227d0ab8576612194f8a56c2314389adc74a5
     - https://cgit.git.savannah.nongnu.org/cgit/acl.git/commit/?id=3589787cd589b34bdd9265936e17190b6d3f17d1
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54369
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54370
+    - https://errata.almalinux.org/9/ALSA-2026-42736.html
+    - https://errata.rockylinux.org/RLSA-2026:42736
+    - https://linux.oracle.com/cve/CVE-2026-54369.html
+    - https://linux.oracle.com/errata/ELSA-2026-43420.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54369
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-54369.json
     - https://www.cve.org/CVERecord?id=CVE-2026-54369
     - https://www.vulncheck.com/advisories/acl-symlink-traversal-privilege-escalation-via-libacl-functions
     PublishedDate: '2026-06-29T14:16:57.487Z'
-    LastModifiedDate: '2026-07-15T01:16:35.277Z'
+    LastModifiedDate: '2026-07-22T12:18:13.81Z'
   - VulnerabilityID: CVE-2026-54370
+    VendorIDs:
+    - RHSA-2026:42736
     PkgID: libacl@2.3.1-4.el9.x86_64
     PkgName: libacl
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libacl@2.3.1-4.el9?arch=x86_64&distro=redhat-9.7
       UID: d20f62b36d746508
     InstalledVersion: 2.3.1-4.el9
-    Status: affected
+    FixedVersion: 2.4.0-1.el9_8
+    Status: fixed
     Layer:
       Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
       DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
@@ -7489,16 +7559,30 @@
     CweIDs:
     - CWE-367
     VendorSeverity:
+      alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
         V3Score: 6.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42736
     - https://access.redhat.com/security/cve/CVE-2026-54370
+    - https://bugzilla.redhat.com/2490277
+    - https://bugzilla.redhat.com/2490279
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2490277
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2490279
     - https://cgit.git.savannah.nongnu.org/cgit/acl.git/commit/?id=24a227d0ab8576612194f8a56c2314389adc74a5
     - https://cgit.git.savannah.nongnu.org/cgit/acl.git/commit/?id=3589787cd589b34bdd9265936e17190b6d3f17d1
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54369
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54370
+    - https://errata.almalinux.org/9/ALSA-2026-42736.html
+    - https://errata.rockylinux.org/RLSA-2026:42736
+    - https://linux.oracle.com/cve/CVE-2026-54370.html
+    - https://linux.oracle.com/errata/ELSA-2026-43420.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54370
     - https://www.cve.org/CVERecord?id=CVE-2026-54370
     - https://www.vulncheck.com/advisories/acl-toctou-symlink-traversal-via-getfacl-setfacl-chacl
@@ -7622,6 +7706,7 @@
     - https://github.com/libarchive/libarchive/issues/3069
     - https://github.com/libarchive/libarchive/pull/3071
     - https://nvd.nist.gov/vuln/detail/CVE-2026-14164
+    - https://ubuntu.com/security/notices/USN-8581-1
     - https://www.cve.org/CVERecord?id=CVE-2026-14164
     PublishedDate: '2026-06-30T07:16:32.17Z'
     LastModifiedDate: '2026-06-30T18:16:44.457Z'
@@ -7695,6 +7780,7 @@
     - https://access.redhat.com/security/cve/CVE-2026-5745
     - https://bugzilla.redhat.com/show_bug.cgi?id=2455921
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5745
+    - https://ubuntu.com/security/notices/USN-8581-1
     - https://www.cve.org/CVERecord?id=CVE-2026-5745
     PublishedDate: '2026-04-07T16:16:32.307Z'
     LastModifiedDate: '2026-06-17T10:59:35.357Z'
@@ -7974,9 +8060,43 @@
     - https://github.com/libarchive/libarchive/issues/3251
     - https://github.com/libarchive/libarchive/pull/3253
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15028
+    - https://ubuntu.com/security/notices/USN-8581-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15028
     PublishedDate: '2026-07-10T10:16:23.417Z'
     LastModifiedDate: '2026-07-15T10:16:45.283Z'
+  - VulnerabilityID: CVE-2026-16517
+    PkgID: libarchive@3.5.3-9.el9_7.x86_64
+    PkgName: libarchive
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libarchive@3.5.3-9.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: d338a1584cf68e72
+    InstalledVersion: 3.5.3-9.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-16517
+    Fingerprint: sha256:3e9810bc91f0710caf21fc97ffbbc94da878d2bb41f2a92471a01279b0a7742d
+    Title: 'libarchive: libarchive: Signed Integer Overflow in archive_write_zip_header'
+    Description: A signed integer overflow vulnerability was found in libarchive's ZIP writer. In the archive_write_zip_header function in archive_write_set_format_zip.c, when ZIP encryption is enabled and the entry file size is close to INT64_MAX, the addition of the encryption overhead to the entry size overflows int64_t, resulting in undefined behavior. This could lead to incorrect Zip64 extension decisions or potential memory corruption.
+    Severity: LOW
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:43818
+    - https://access.redhat.com/security/cve/CVE-2026-16517
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2505492
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-16517
+    - https://www.cve.org/CVERecord?id=CVE-2026-16517
+    PublishedDate: '2026-07-21T23:17:00.587Z'
+    LastModifiedDate: '2026-07-22T19:16:57.76Z'
   - VulnerabilityID: CVE-2026-54371
     PkgID: libattr@2.5.1-3.el9.x86_64
     PkgName: libattr
@@ -10365,6 +10485,7 @@
     - https://access.redhat.com/errata/RHSA-2026:28236
     - https://access.redhat.com/errata/RHSA-2026:36730
     - https://access.redhat.com/errata/RHSA-2026:39315
+    - https://access.redhat.com/errata/RHSA-2026:44481
     - https://access.redhat.com/security/cve/CVE-2026-48864
     - https://bugzilla.redhat.com/2460425
     - https://bugzilla.redhat.com/show_bug.cgi?id=2460425
@@ -10376,7 +10497,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-48864
     - https://www.cve.org/CVERecord?id=CVE-2026-48864
     PublishedDate: '2026-05-26T17:16:54.05Z'
-    LastModifiedDate: '2026-07-21T19:10:00.107Z'
+    LastModifiedDate: '2026-07-23T14:17:21.203Z'
   - VulnerabilityID: CVE-2026-9149
     PkgID: libsolv@0.7.24-3.el9.x86_64
     PkgName: libsolv
@@ -10433,7 +10554,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-9149
     - https://www.cve.org/CVERecord?id=CVE-2026-9149
     PublishedDate: '2026-05-21T00:16:35.63Z'
-    LastModifiedDate: '2026-06-27T00:16:49.25Z'
+    LastModifiedDate: '2026-07-23T11:10:00.12Z'
   - VulnerabilityID: CVE-2026-9150
     PkgID: libsolv@0.7.24-3.el9.x86_64
     PkgName: libsolv
@@ -10487,7 +10608,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-9150
     - https://www.cve.org/CVERecord?id=CVE-2026-9150
     PublishedDate: '2026-05-20T23:16:36.01Z'
-    LastModifiedDate: '2026-06-29T17:16:30.9Z'
+    LastModifiedDate: '2026-07-23T15:10:00.137Z'
   - VulnerabilityID: CVE-2021-46195
     PkgID: libstdc++@11.5.0-11.el9.x86_64
     PkgName: libstdc++
@@ -11138,6 +11259,7 @@
     - https://access.redhat.com/errata/RHSA-2026:36734
     - https://access.redhat.com/errata/RHSA-2026:39304
     - https://access.redhat.com/errata/RHSA-2026:39317
+    - https://access.redhat.com/errata/RHSA-2026:44481
     - https://access.redhat.com/errata/RHSA-2026:7519
     - https://access.redhat.com/security/cve/CVE-2025-6170
     - https://bugzilla.redhat.com/2372952
@@ -11154,7 +11276,7 @@
     - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6170
     PublishedDate: '2025-06-16T16:15:20.43Z'
-    LastModifiedDate: '2026-07-14T22:16:51.97Z'
+    LastModifiedDate: '2026-07-23T14:16:58.83Z'
   - VulnerabilityID: CVE-2026-0989
     PkgID: libxml2@2.9.13-14.el9_7.x86_64
     PkgName: libxml2
@@ -11976,7 +12098,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-45447
     PublishedDate: '2026-06-09T17:17:19.277Z'
-    LastModifiedDate: '2026-07-20T12:19:30.657Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-2673
     PkgID: openssl@3.5.1-7.el9_7.x86_64
     PkgName: openssl
@@ -12377,7 +12499,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-34182
     PublishedDate: '2026-06-09T17:17:04.857Z'
-    LastModifiedDate: '2026-06-17T10:38:36.97Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-34183
     VendorIDs:
     - RHSA-2026:25239
@@ -12492,7 +12614,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-34183
     PublishedDate: '2026-06-09T17:17:05Z'
-    LastModifiedDate: '2026-06-17T10:38:37.143Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-42764
     VendorIDs:
     - RHSA-2026:25239
@@ -12606,7 +12728,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42764
     PublishedDate: '2026-06-09T17:17:07.693Z'
-    LastModifiedDate: '2026-06-17T10:48:21.63Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-45445
     VendorIDs:
     - RHSA-2026:25239
@@ -12742,7 +12864,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-45445
     PublishedDate: '2026-06-09T17:17:18.993Z'
-    LastModifiedDate: '2026-06-17T10:52:03.793Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl@3.5.1-7.el9_7.x86_64
     PkgName: openssl
@@ -13525,7 +13647,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-34180
     PublishedDate: '2026-06-09T17:17:04.6Z'
-    LastModifiedDate: '2026-06-17T10:38:36.66Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-34181
     VendorIDs:
     - RHSA-2026:25239
@@ -13638,7 +13760,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-34181
     PublishedDate: '2026-06-09T17:17:04.74Z'
-    LastModifiedDate: '2026-06-17T10:38:36.82Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-42766
     VendorIDs:
     - RHSA-2026:25239
@@ -13757,7 +13879,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-42766
     PublishedDate: '2026-06-09T17:17:07.97Z'
-    LastModifiedDate: '2026-06-17T10:48:21.947Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-42767
     VendorIDs:
     - RHSA-2026:25239
@@ -13872,7 +13994,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42767
     PublishedDate: '2026-06-09T17:17:08.093Z'
-    LastModifiedDate: '2026-06-17T10:48:22.107Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-42768
     VendorIDs:
     - RHSA-2026:25239
@@ -14023,7 +14145,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42768
     PublishedDate: '2026-06-09T17:17:08.223Z'
-    LastModifiedDate: '2026-06-17T10:48:22.263Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-42769
     VendorIDs:
     - RHSA-2026:25239
@@ -14084,6 +14206,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 2
       oracle-oval: 2
       photon: 2
       redhat: 1
@@ -14154,7 +14277,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42769
     PublishedDate: '2026-06-09T17:17:08.377Z'
-    LastModifiedDate: '2026-06-17T10:48:22.467Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-42770
     VendorIDs:
     - RHSA-2026:25239
@@ -14208,6 +14331,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 1
       oracle-oval: 2
       photon: 1
       redhat: 1
@@ -14279,7 +14403,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42770
     PublishedDate: '2026-06-09T17:17:08.523Z'
-    LastModifiedDate: '2026-07-20T17:17:08.87Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-45446
     VendorIDs:
     - RHSA-2026:25239
@@ -14414,7 +14538,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-45446
     PublishedDate: '2026-06-09T17:17:19.137Z'
-    LastModifiedDate: '2026-06-17T10:52:03.967Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-7383
     VendorIDs:
     - RHSA-2026:25239
@@ -14543,7 +14667,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-7383
     PublishedDate: '2026-06-09T17:17:50.337Z'
-    LastModifiedDate: '2026-06-17T11:02:19.433Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-9076
     VendorIDs:
     - RHSA-2026:25239
@@ -14673,7 +14797,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-9076
     PublishedDate: '2026-06-09T17:17:50.997Z'
-    LastModifiedDate: '2026-06-17T11:04:47.973Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-2673
     PkgID: openssl-fips-provider@3.0.7-8.el9.x86_64
     PkgName: openssl-fips-provider
@@ -15177,7 +15301,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-45447
     PublishedDate: '2026-06-09T17:17:19.277Z'
-    LastModifiedDate: '2026-07-20T12:19:30.657Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-2673
     PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
     PkgName: openssl-libs
@@ -15578,7 +15702,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-34182
     PublishedDate: '2026-06-09T17:17:04.857Z'
-    LastModifiedDate: '2026-06-17T10:38:36.97Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-34183
     VendorIDs:
     - RHSA-2026:25239
@@ -15693,7 +15817,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-34183
     PublishedDate: '2026-06-09T17:17:05Z'
-    LastModifiedDate: '2026-06-17T10:38:37.143Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-42764
     VendorIDs:
     - RHSA-2026:25239
@@ -15807,7 +15931,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42764
     PublishedDate: '2026-06-09T17:17:07.693Z'
-    LastModifiedDate: '2026-06-17T10:48:21.63Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-45445
     VendorIDs:
     - RHSA-2026:25239
@@ -15943,7 +16067,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-45445
     PublishedDate: '2026-06-09T17:17:18.993Z'
-    LastModifiedDate: '2026-06-17T10:52:03.793Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
     PkgName: openssl-libs
@@ -16726,7 +16850,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-34180
     PublishedDate: '2026-06-09T17:17:04.6Z'
-    LastModifiedDate: '2026-06-17T10:38:36.66Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-34181
     VendorIDs:
     - RHSA-2026:25239
@@ -16839,7 +16963,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-34181
     PublishedDate: '2026-06-09T17:17:04.74Z'
-    LastModifiedDate: '2026-06-17T10:38:36.82Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-42766
     VendorIDs:
     - RHSA-2026:25239
@@ -16958,7 +17082,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-42766
     PublishedDate: '2026-06-09T17:17:07.97Z'
-    LastModifiedDate: '2026-06-17T10:48:21.947Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-42767
     VendorIDs:
     - RHSA-2026:25239
@@ -17073,7 +17197,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42767
     PublishedDate: '2026-06-09T17:17:08.093Z'
-    LastModifiedDate: '2026-06-17T10:48:22.107Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-42768
     VendorIDs:
     - RHSA-2026:25239
@@ -17224,7 +17348,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42768
     PublishedDate: '2026-06-09T17:17:08.223Z'
-    LastModifiedDate: '2026-06-17T10:48:22.263Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-42769
     VendorIDs:
     - RHSA-2026:25239
@@ -17285,6 +17409,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 2
       oracle-oval: 2
       photon: 2
       redhat: 1
@@ -17355,7 +17480,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42769
     PublishedDate: '2026-06-09T17:17:08.377Z'
-    LastModifiedDate: '2026-06-17T10:48:22.467Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-42770
     VendorIDs:
     - RHSA-2026:25239
@@ -17409,6 +17534,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 1
       oracle-oval: 2
       photon: 1
       redhat: 1
@@ -17480,7 +17606,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42770
     PublishedDate: '2026-06-09T17:17:08.523Z'
-    LastModifiedDate: '2026-07-20T17:17:08.87Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-45446
     VendorIDs:
     - RHSA-2026:25239
@@ -17615,7 +17741,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-45446
     PublishedDate: '2026-06-09T17:17:19.137Z'
-    LastModifiedDate: '2026-06-17T10:52:03.967Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-7383
     VendorIDs:
     - RHSA-2026:25239
@@ -17744,7 +17870,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-7383
     PublishedDate: '2026-06-09T17:17:50.337Z'
-    LastModifiedDate: '2026-06-17T11:02:19.433Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-9076
     VendorIDs:
     - RHSA-2026:25239
@@ -17874,7 +18000,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-9076
     PublishedDate: '2026-06-09T17:17:50.997Z'
-    LastModifiedDate: '2026-06-17T11:04:47.973Z'
+    LastModifiedDate: '2026-07-23T08:10:00.137Z'
   - VulnerabilityID: CVE-2026-13757
     PkgID: p11-kit@0.25.3-3.el9_5.x86_64
     PkgName: p11-kit
@@ -18114,6 +18240,7 @@
     - CWE-208
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
@@ -18125,9 +18252,10 @@
     - https://github.com/linux-pam/linux-pam/blob/master/libpam/include/pam_inline.h
     - https://github.com/linux-pam/linux-pam/blob/master/modules/pam_userdb/pam_userdb.c#L327
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54411
+    - https://ubuntu.com/security/notices/USN-8601-1
     - https://www.cve.org/CVERecord?id=CVE-2026-54411
     PublishedDate: '2026-06-14T18:17:20.587Z'
-    LastModifiedDate: '2026-06-17T10:58:13.407Z'
+    LastModifiedDate: '2026-07-23T11:10:00.12Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
@@ -18390,7 +18518,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498608
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15308
     - https://errata.almalinux.org/9/ALSA-2026-41949.html
-    - https://errata.rockylinux.org/RLSA-2026:39320
+    - https://errata.rockylinux.org/RLSA-2026:39798
     - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
     - https://github.com/python/cpython/commit/7933f4bf7131aa4140750f9404f5de0aa2969ced
     - https://github.com/python/cpython/commit/bcf98ddbc40ec9b3ee87da0124a5660b19b7e606
@@ -18398,12 +18526,12 @@
     - https://github.com/python/cpython/issues/153030
     - https://github.com/python/cpython/pull/153031
     - https://linux.oracle.com/cve/CVE-2026-15308.html
-    - https://linux.oracle.com/errata/ELSA-2026-40856.html
+    - https://linux.oracle.com/errata/ELSA-2026-41949.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/F6453LWKSHKCTWFLCOURWPLETNUIW2Z5/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15308
     - https://www.cve.org/CVERecord?id=CVE-2026-15308
     PublishedDate: '2026-07-09T17:16:58.26Z'
-    LastModifiedDate: '2026-07-10T20:07:52.327Z'
+    LastModifiedDate: '2026-07-23T19:16:53.247Z'
   - VulnerabilityID: CVE-2026-4519
     VendorIDs:
     - RHSA-2026:19216
@@ -18637,7 +18765,7 @@
     - https://github.com/python/cpython/issues/148169
     - https://github.com/python/cpython/pull/148170
     - https://linux.oracle.com/cve/CVE-2026-4786.html
-    - https://linux.oracle.com/errata/ELSA-2026-28581.html
+    - https://linux.oracle.com/errata/ELSA-2026-35838.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JQDUNJVB4AQNTJECSUKOBDU3XCJIPSE5/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4786
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-4786.json
@@ -18779,7 +18907,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -18969,7 +19097,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -19062,7 +19190,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -19160,7 +19288,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -19259,7 +19387,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -19360,7 +19488,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-11972
     - https://www.cve.org/CVERecord?id=CVE-2026-11972
     PublishedDate: '2026-06-23T23:16:49.033Z'
-    LastModifiedDate: '2026-06-30T16:16:43.19Z'
+    LastModifiedDate: '2026-07-23T19:16:53.05Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python-unversioned-command@3.9.25-3.el9_7.3.noarch
     PkgName: python-unversioned-command
@@ -19505,7 +19633,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3276
     - https://www.openwall.com/lists/oss-security/2026/06/03/15
     PublishedDate: '2026-06-03T16:16:29.253Z'
-    LastModifiedDate: '2026-06-17T10:43:19.58Z'
+    LastModifiedDate: '2026-07-22T19:10:00.12Z'
   - VulnerabilityID: CVE-2026-3644
     PkgID: python-unversioned-command@3.9.25-3.el9_7.3.noarch
     PkgName: python-unversioned-command
@@ -19528,7 +19656,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -19622,7 +19750,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -19852,7 +19980,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -20155,7 +20283,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -20225,7 +20353,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498608
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15308
     - https://errata.almalinux.org/9/ALSA-2026-41949.html
-    - https://errata.rockylinux.org/RLSA-2026:39320
+    - https://errata.rockylinux.org/RLSA-2026:39798
     - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
     - https://github.com/python/cpython/commit/7933f4bf7131aa4140750f9404f5de0aa2969ced
     - https://github.com/python/cpython/commit/bcf98ddbc40ec9b3ee87da0124a5660b19b7e606
@@ -20233,12 +20361,12 @@
     - https://github.com/python/cpython/issues/153030
     - https://github.com/python/cpython/pull/153031
     - https://linux.oracle.com/cve/CVE-2026-15308.html
-    - https://linux.oracle.com/errata/ELSA-2026-40856.html
+    - https://linux.oracle.com/errata/ELSA-2026-41949.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/F6453LWKSHKCTWFLCOURWPLETNUIW2Z5/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15308
     - https://www.cve.org/CVERecord?id=CVE-2026-15308
     PublishedDate: '2026-07-09T17:16:58.26Z'
-    LastModifiedDate: '2026-07-10T20:07:52.327Z'
+    LastModifiedDate: '2026-07-23T19:16:53.247Z'
   - VulnerabilityID: CVE-2026-4519
     VendorIDs:
     - RHSA-2026:19216
@@ -20472,7 +20600,7 @@
     - https://github.com/python/cpython/issues/148169
     - https://github.com/python/cpython/pull/148170
     - https://linux.oracle.com/cve/CVE-2026-4786.html
-    - https://linux.oracle.com/errata/ELSA-2026-28581.html
+    - https://linux.oracle.com/errata/ELSA-2026-35838.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JQDUNJVB4AQNTJECSUKOBDU3XCJIPSE5/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4786
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-4786.json
@@ -20614,7 +20742,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -20804,7 +20932,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -20897,7 +21025,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -20995,7 +21123,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -21094,7 +21222,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -21195,7 +21323,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-11972
     - https://www.cve.org/CVERecord?id=CVE-2026-11972
     PublishedDate: '2026-06-23T23:16:49.033Z'
-    LastModifiedDate: '2026-06-30T16:16:43.19Z'
+    LastModifiedDate: '2026-07-23T19:16:53.05Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python3@3.9.25-3.el9_7.3.x86_64
     PkgName: python3
@@ -21340,7 +21468,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3276
     - https://www.openwall.com/lists/oss-security/2026/06/03/15
     PublishedDate: '2026-06-03T16:16:29.253Z'
-    LastModifiedDate: '2026-06-17T10:43:19.58Z'
+    LastModifiedDate: '2026-07-22T19:10:00.12Z'
   - VulnerabilityID: CVE-2026-3644
     PkgID: python3@3.9.25-3.el9_7.3.x86_64
     PkgName: python3
@@ -21363,7 +21491,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -21457,7 +21585,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -21687,7 +21815,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -21990,7 +22118,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -22060,7 +22188,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498608
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15308
     - https://errata.almalinux.org/9/ALSA-2026-41949.html
-    - https://errata.rockylinux.org/RLSA-2026:39320
+    - https://errata.rockylinux.org/RLSA-2026:39798
     - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
     - https://github.com/python/cpython/commit/7933f4bf7131aa4140750f9404f5de0aa2969ced
     - https://github.com/python/cpython/commit/bcf98ddbc40ec9b3ee87da0124a5660b19b7e606
@@ -22068,12 +22196,12 @@
     - https://github.com/python/cpython/issues/153030
     - https://github.com/python/cpython/pull/153031
     - https://linux.oracle.com/cve/CVE-2026-15308.html
-    - https://linux.oracle.com/errata/ELSA-2026-40856.html
+    - https://linux.oracle.com/errata/ELSA-2026-41949.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/F6453LWKSHKCTWFLCOURWPLETNUIW2Z5/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15308
     - https://www.cve.org/CVERecord?id=CVE-2026-15308
     PublishedDate: '2026-07-09T17:16:58.26Z'
-    LastModifiedDate: '2026-07-10T20:07:52.327Z'
+    LastModifiedDate: '2026-07-23T19:16:53.247Z'
   - VulnerabilityID: CVE-2026-4519
     VendorIDs:
     - RHSA-2026:19216
@@ -22307,7 +22435,7 @@
     - https://github.com/python/cpython/issues/148169
     - https://github.com/python/cpython/pull/148170
     - https://linux.oracle.com/cve/CVE-2026-4786.html
-    - https://linux.oracle.com/errata/ELSA-2026-28581.html
+    - https://linux.oracle.com/errata/ELSA-2026-35838.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JQDUNJVB4AQNTJECSUKOBDU3XCJIPSE5/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4786
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-4786.json
@@ -22449,7 +22577,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -22639,7 +22767,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -22732,7 +22860,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -22830,7 +22958,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -22929,7 +23057,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -23030,7 +23158,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-11972
     - https://www.cve.org/CVERecord?id=CVE-2026-11972
     PublishedDate: '2026-06-23T23:16:49.033Z'
-    LastModifiedDate: '2026-06-30T16:16:43.19Z'
+    LastModifiedDate: '2026-07-23T19:16:53.05Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python3-libs@3.9.25-3.el9_7.3.x86_64
     PkgName: python3-libs
@@ -23175,7 +23303,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3276
     - https://www.openwall.com/lists/oss-security/2026/06/03/15
     PublishedDate: '2026-06-03T16:16:29.253Z'
-    LastModifiedDate: '2026-06-17T10:43:19.58Z'
+    LastModifiedDate: '2026-07-22T19:10:00.12Z'
   - VulnerabilityID: CVE-2026-3644
     PkgID: python3-libs@3.9.25-3.el9_7.3.x86_64
     PkgName: python3-libs
@@ -23198,7 +23326,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -23292,7 +23420,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -23522,7 +23650,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -23825,7 +23953,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -24148,7 +24276,7 @@
     - https://ubuntu.com/security/notices/USN-8549-1
     - https://www.cve.org/CVERecord?id=CVE-2026-45409
     PublishedDate: '2026-06-05T23:16:43.343Z'
-    LastModifiedDate: '2026-06-17T10:52:01.58Z'
+    LastModifiedDate: '2026-07-23T07:10:00.113Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
@@ -24963,6 +25091,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5704
     - https://ubuntu.com/security/notices/USN-8477-1
     - https://ubuntu.com/security/notices/USN-8477-2
+    - https://ubuntu.com/security/notices/USN-8477-3
     - https://www.cve.org/CVERecord?id=CVE-2026-5704
     PublishedDate: '2026-04-06T16:16:42.14Z'
     LastModifiedDate: '2026-06-17T10:59:31.78Z'
@@ -25557,7 +25686,9 @@
       alma: 3
       amazon: 3
       ghsa: 3
+      oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -25570,11 +25701,18 @@
     - https://access.redhat.com/security/cve/CVE-2026-54512
     - https://bugzilla.redhat.com/2492010
     - https://bugzilla.redhat.com/2492015
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2492010
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2492015
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54512
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54513
     - https://errata.almalinux.org/9/ALSA-2026-40895.html
+    - https://errata.rockylinux.org/RLSA-2026:40895
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/434d6c511de7fdd9872f29157aafb6162d12d8d5
     - https://github.com/FasterXML/jackson-databind/issues/5988
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-j3rv-43j4-c7qm
+    - https://linux.oracle.com/cve/CVE-2026-54512.html
+    - https://linux.oracle.com/errata/ELSA-2026-43400.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54512
     - https://www.cve.org/CVERecord?id=CVE-2026-54512
     PublishedDate: '2026-06-23T21:17:02.203Z'
@@ -25609,7 +25747,9 @@
       alma: 3
       amazon: 3
       ghsa: 3
+      oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -25621,11 +25761,24 @@
     - https://access.redhat.com/errata/RHSA-2026:36839
     - https://access.redhat.com/errata/RHSA-2026:40895
     - https://access.redhat.com/errata/RHSA-2026:41951
+    - https://access.redhat.com/errata/RHSA-2026:43218
+    - https://access.redhat.com/errata/RHSA-2026:43400
+    - https://access.redhat.com/errata/RHSA-2026:44061
+    - https://access.redhat.com/errata/RHSA-2026:44062
+    - https://access.redhat.com/errata/RHSA-2026:44063
+    - https://access.redhat.com/errata/RHSA-2026:44064
+    - https://access.redhat.com/errata/RHSA-2026:44065
+    - https://access.redhat.com/errata/RHSA-2026:44066
+    - https://access.redhat.com/errata/RHSA-2026:44271
     - https://access.redhat.com/security/cve/CVE-2026-54513
     - https://bugzilla.redhat.com/2492010
     - https://bugzilla.redhat.com/2492015
     - https://bugzilla.redhat.com/show_bug.cgi?id=2492010
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2492015
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54512
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54513
     - https://errata.almalinux.org/9/ALSA-2026-40895.html
+    - https://errata.rockylinux.org/RLSA-2026:40895
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5
     - https://github.com/FasterXML/jackson-databind/commit/24529da29fdf46ff94ca38de9ebf31cd188f5e8e
@@ -25633,11 +25786,13 @@
     - https://github.com/FasterXML/jackson-databind/issues/5983
     - https://github.com/FasterXML/jackson-databind/pull/5984
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-rmj7-2vxq-3g9f
+    - https://linux.oracle.com/cve/CVE-2026-54513.html
+    - https://linux.oracle.com/errata/ELSA-2026-43400.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54513
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-54513.json
     - https://www.cve.org/CVERecord?id=CVE-2026-54513
     PublishedDate: '2026-06-23T21:17:02.333Z'
-    LastModifiedDate: '2026-07-21T12:18:57.163Z'
+    LastModifiedDate: '2026-07-23T12:18:26.847Z'
   - VulnerabilityID: CVE-2026-54514
     VendorIDs:
     - GHSA-hgj6-7826-r7m5
@@ -26120,3 +26275,99 @@
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-mhm7-754m-9p8w
     PublishedDate: '2026-07-21T19:40:12Z'
     LastModifiedDate: '2026-07-21T19:40:12Z'
+  - VulnerabilityID: CVE-2026-8384
+    VendorIDs:
+    - GHSA-w7x5-g22v-xqhr
+    PkgName: org.eclipse.jetty:jetty-util
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/org.eclipse.jetty/jetty-util@12.1.7
+      UID: 55174ef89c50ef33
+    InstalledVersion: 12.1.7
+    FixedVersion: 12.0.35, 12.1.9
+    Status: fixed
+    Layer:
+      Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef58d5cccf62b95afae90cfd
+      DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e23a7db4be4520c3394be6
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8384
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:37e665b5d44d6af6a766b474ecac4051c76b6360761ecd3aea28b04c54202abb
+    Title: 'In Eclipse Jetty, an HTTP URI of this form:      /public;/../admin/sec ...'
+    Description: |-
+      In Eclipse Jetty, an HTTP URI of this form:
+
+
+
+
+
+      /public;/../admin/secret.txt
+
+
+
+
+
+
+
+
+      results in an unresolved path of:
+
+
+
+
+
+      /public/../admin/secret.txt
+
+
+
+
+
+
+
+
+      instead of the expected:
+
+
+
+
+
+      /admin/secret.txt
+
+
+
+
+
+
+
+
+      Jetty itself is not affected, as it will not serve the secret.txt file because it will not pass the alias checker (only resolved resources are served).
+
+
+
+
+      However, web applications that rely on resolved paths being provided by Jetty may be confused when receiving an unresolved path.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-647
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://github.com/jetty/jetty.project
+    - https://github.com/jetty/jetty.project/commit/82969c77f6da46e27008b10b3c14840cd31db084
+    - https://github.com/jetty/jetty.project/commit/ade27ce93a37c33278720250d85c48601230ae3f
+    - https://github.com/jetty/jetty.project/pull/14969
+    - https://github.com/jetty/jetty.project/pull/14973
+    - https://github.com/jetty/jetty.project/releases/tag/jetty-12.0.35
+    - https://github.com/jetty/jetty.project/releases/tag/jetty-12.1.9
+    - https://github.com/jetty/jetty.project/security/advisories/GHSA-w7x5-g22v-xqhr
+    - https://gitlab.eclipse.org/security/cve-assignment/-/work_items/108
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-8384
+    PublishedDate: '2026-07-14T09:16:42.05Z'
+    LastModifiedDate: '2026-07-14T18:39:51.587Z'
