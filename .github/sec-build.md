@@ -16,18 +16,18 @@
                         │      ├ InstalledVersion: 2.21.1 
                         │      ├ FixedVersion    : 2.18.8, 2.21.4, 2.22.1 
                         │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
-                        │      │                  │         853f161bdeaf4554604f 
-                        │      │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
-                        │      │                            d38c63687efc14b65fca 
+                        │      ├ Layer            ╭ Digest: sha256:b64c23f81b97044b97eac636b6c5a40b1418d3b23653
+                        │      │                  │         60a0e991ee41a4f1972f 
+                        │      │                  ╰ DiffID: sha256:ef54da291e53e8546689e3ac160ac598b0a9df3e95bd
+                        │      │                            99c5440ceee3834bb0dd 
                         │      ├ SeveritySource  : ghsa 
                         │      ├ PrimaryURL      : https://github.com/advisories/GHSA-r7wm-3cxj-wff9 
                         │      ├ DataSource       ╭ ID  : ghsa 
                         │      │                  ├ Name: GitHub Security Advisory Maven 
                         │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
                         │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:9703dc70df9f8612d4b981f9fb43c62ab11e9df210da3dd92127e
-                        │      │                   9249685a798 
+                        │      ├ Fingerprint     : sha256:1677415be5ef6f5dba5be956a9e3734de7eb582442cb419f56c1b
+                        │      │                   c191b6f1b46 
                         │      ├ Title           : jackson-core: Async parser maxNumberLength bypass via
                         │      │                   chunked digit accumulation (incomplete fix for
                         │      │                   GHSA-72hv-8253-57qq) 
@@ -402,18 +402,18 @@
                         │      ├ InstalledVersion: 2.21.1 
                         │      ├ FixedVersion    : 2.18.8, 3.1.4, 2.21.4 
                         │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
-                        │      │                  │         853f161bdeaf4554604f 
-                        │      │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
-                        │      │                            d38c63687efc14b65fca 
+                        │      ├ Layer            ╭ Digest: sha256:b64c23f81b97044b97eac636b6c5a40b1418d3b23653
+                        │      │                  │         60a0e991ee41a4f1972f 
+                        │      │                  ╰ DiffID: sha256:ef54da291e53e8546689e3ac160ac598b0a9df3e95bd
+                        │      │                            99c5440ceee3834bb0dd 
                         │      ├ SeveritySource  : ghsa 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54512 
                         │      ├ DataSource       ╭ ID  : ghsa 
                         │      │                  ├ Name: GitHub Security Advisory Maven 
                         │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
                         │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:4a15b614a1296751f561d1b921a8015fc8e52cfc9acf4a95d322c
-                        │      │                   11f69713dcb 
+                        │      ├ Fingerprint     : sha256:d25a6013353bda833958dd9d5b216e7e3162ee7ce285112591ae9
+                        │      │                   368beb78b64 
                         │      ├ Title           : jackson-databind: jackson-databind: Arbitrary code execution
                         │      │                    via PolymorphicTypeValidator bypass 
                         │      ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -493,18 +493,18 @@
                         │      ├ InstalledVersion: 2.21.1 
                         │      ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
                         │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
-                        │      │                  │         853f161bdeaf4554604f 
-                        │      │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
-                        │      │                            d38c63687efc14b65fca 
+                        │      ├ Layer            ╭ Digest: sha256:b64c23f81b97044b97eac636b6c5a40b1418d3b23653
+                        │      │                  │         60a0e991ee41a4f1972f 
+                        │      │                  ╰ DiffID: sha256:ef54da291e53e8546689e3ac160ac598b0a9df3e95bd
+                        │      │                            99c5440ceee3834bb0dd 
                         │      ├ SeveritySource  : ghsa 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54513 
                         │      ├ DataSource       ╭ ID  : ghsa 
                         │      │                  ├ Name: GitHub Security Advisory Maven 
                         │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
                         │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:4ed11f96b84561cab116af222630d14ba40ec33b1ac5bf1eb3a8c
-                        │      │                   ba9fdeaf9ae 
+                        │      ├ Fingerprint     : sha256:b4761807eb2e4c982635a1c9e7808fc794fe1cd57761e31c08bdc
+                        │      │                   f93493bf4d2 
                         │      ├ Title           : jackson-databind: Jackson-databind: Security bypass allows
                         │      │                   arbitrary code execution 
                         │      ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -588,18 +588,18 @@
                         │      ├ InstalledVersion: 2.21.1 
                         │      ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
                         │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
-                        │      │                  │         853f161bdeaf4554604f 
-                        │      │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
-                        │      │                            d38c63687efc14b65fca 
+                        │      ├ Layer            ╭ Digest: sha256:b64c23f81b97044b97eac636b6c5a40b1418d3b23653
+                        │      │                  │         60a0e991ee41a4f1972f 
+                        │      │                  ╰ DiffID: sha256:ef54da291e53e8546689e3ac160ac598b0a9df3e95bd
+                        │      │                            99c5440ceee3834bb0dd 
                         │      ├ SeveritySource  : ghsa 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54514 
                         │      ├ DataSource       ╭ ID  : ghsa 
                         │      │                  ├ Name: GitHub Security Advisory Maven 
                         │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
                         │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:a0720f8e76e44dc57bab03facf62c2ac5d69514ef5d5d21ce31f2
-                        │      │                   1d9b2863160 
+                        │      ├ Fingerprint     : sha256:86ad8497aac095644cbdc7d019e5596c42c6c124f43b6f60d228a
+                        │      │                   67afb19a133 
                         │      ├ Title           : jackson-databind: jackson-databind: Information Disclosure
                         │      │                   via Eager DNS Resolution 
                         │      ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -647,18 +647,18 @@
                         │      ├ InstalledVersion: 2.21.1 
                         │      ├ FixedVersion    : 3.1.4, 2.18.9, 2.21.5, 2.22.1 
                         │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
-                        │      │                  │         853f161bdeaf4554604f 
-                        │      │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
-                        │      │                            d38c63687efc14b65fca 
+                        │      ├ Layer            ╭ Digest: sha256:b64c23f81b97044b97eac636b6c5a40b1418d3b23653
+                        │      │                  │         60a0e991ee41a4f1972f 
+                        │      │                  ╰ DiffID: sha256:ef54da291e53e8546689e3ac160ac598b0a9df3e95bd
+                        │      │                            99c5440ceee3834bb0dd 
                         │      ├ SeveritySource  : ghsa 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54515 
                         │      ├ DataSource       ╭ ID  : ghsa 
                         │      │                  ├ Name: GitHub Security Advisory Maven 
                         │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
                         │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:188f1bef9f80c0481b8d99507883ec79aba1ed4347d934ccda920
-                        │      │                   d5a81193639 
+                        │      ├ Fingerprint     : sha256:aedc858bc8fa31e8bb38ebd84848c7576737d05733a5b468e9eff
+                        │      │                   842b92acdd0 
                         │      ├ Title           : jackson-databind: jackson-databind: Ignored properties can
                         │      │                   be unexpectedly modified 
                         │      ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -712,18 +712,18 @@
                         │      ├ InstalledVersion: 2.21.1 
                         │      ├ FixedVersion    : 2.21.4, 3.1.4 
                         │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
-                        │      │                  │         853f161bdeaf4554604f 
-                        │      │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
-                        │      │                            d38c63687efc14b65fca 
+                        │      ├ Layer            ╭ Digest: sha256:b64c23f81b97044b97eac636b6c5a40b1418d3b23653
+                        │      │                  │         60a0e991ee41a4f1972f 
+                        │      │                  ╰ DiffID: sha256:ef54da291e53e8546689e3ac160ac598b0a9df3e95bd
+                        │      │                            99c5440ceee3834bb0dd 
                         │      ├ SeveritySource  : ghsa 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54516 
                         │      ├ DataSource       ╭ ID  : ghsa 
                         │      │                  ├ Name: GitHub Security Advisory Maven 
                         │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
                         │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:c072383cae5497dd542912da0cc385830fffc15438833f5672b8a
-                        │      │                   d2e3e169c9d 
+                        │      ├ Fingerprint     : sha256:f5e327d0d0d3d92fe70b3402dfe79a80874761ac627cd98c25d5e
+                        │      │                   d2f86064771 
                         │      ├ Title           : jackson-databind: jackson-databind: Security bypass due to
                         │      │                   improper handling of renamed properties 
                         │      ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -774,18 +774,18 @@
                         │      ├ InstalledVersion: 2.21.1 
                         │      ├ FixedVersion    : 2.21.4, 3.1.4 
                         │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
-                        │      │                  │         853f161bdeaf4554604f 
-                        │      │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
-                        │      │                            d38c63687efc14b65fca 
+                        │      ├ Layer            ╭ Digest: sha256:b64c23f81b97044b97eac636b6c5a40b1418d3b23653
+                        │      │                  │         60a0e991ee41a4f1972f 
+                        │      │                  ╰ DiffID: sha256:ef54da291e53e8546689e3ac160ac598b0a9df3e95bd
+                        │      │                            99c5440ceee3834bb0dd 
                         │      ├ SeveritySource  : ghsa 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54517 
                         │      ├ DataSource       ╭ ID  : ghsa 
                         │      │                  ├ Name: GitHub Security Advisory Maven 
                         │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
                         │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:bd63bd94cce7f7d15b2adabff996491d21fae8dac621e36378ccd
-                        │      │                   d1f5c729a20 
+                        │      ├ Fingerprint     : sha256:45a0ef2878b6f20393351db30a7d031c759a08264643357cef150
+                        │      │                   ef20cf2910d 
                         │      ├ Title           : jackson-databind: jackson-databind: Information disclosure
                         │      │                   via improper JsonView filter application 
                         │      ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -835,18 +835,18 @@
                         │      ├ InstalledVersion: 2.21.1 
                         │      ├ FixedVersion    : 2.21.4 
                         │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
-                        │      │                  │         853f161bdeaf4554604f 
-                        │      │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
-                        │      │                            d38c63687efc14b65fca 
+                        │      ├ Layer            ╭ Digest: sha256:b64c23f81b97044b97eac636b6c5a40b1418d3b23653
+                        │      │                  │         60a0e991ee41a4f1972f 
+                        │      │                  ╰ DiffID: sha256:ef54da291e53e8546689e3ac160ac598b0a9df3e95bd
+                        │      │                            99c5440ceee3834bb0dd 
                         │      ├ SeveritySource  : ghsa 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54518 
                         │      ├ DataSource       ╭ ID  : ghsa 
                         │      │                  ├ Name: GitHub Security Advisory Maven 
                         │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
                         │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:d09c806089573b8dfcfc8d789d75624d8145217ab31f023b455d0
-                        │      │                   de0ed80626e 
+                        │      ├ Fingerprint     : sha256:d71d986cb16059cbed0e970a1d18725ad20124c1855e16716f5e8
+                        │      │                   79e82501756 
                         │      ├ Title           : jackson-databind: jackson-databind: Information disclosure
                         │      │                   and data manipulation via view-based access control bypass[
                         │      │                   m 
@@ -896,18 +896,18 @@
                         │      ├ InstalledVersion: 2.21.1 
                         │      ├ FixedVersion    : 2.18.8, 2.21.4 
                         │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
-                        │      │                  │         853f161bdeaf4554604f 
-                        │      │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
-                        │      │                            d38c63687efc14b65fca 
+                        │      ├ Layer            ╭ Digest: sha256:b64c23f81b97044b97eac636b6c5a40b1418d3b23653
+                        │      │                  │         60a0e991ee41a4f1972f 
+                        │      │                  ╰ DiffID: sha256:ef54da291e53e8546689e3ac160ac598b0a9df3e95bd
+                        │      │                            99c5440ceee3834bb0dd 
                         │      ├ SeveritySource  : ghsa 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59888 
                         │      ├ DataSource       ╭ ID  : ghsa 
                         │      │                  ├ Name: GitHub Security Advisory Maven 
                         │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
                         │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:c93d0ffacde2da924d95b0e07d49e20d08352e448b4a482334da0
-                        │      │                   0df493ebf40 
+                        │      ├ Fingerprint     : sha256:b372127ae920715d9bf2cd5b6ed71d73302aefc2870802269501b
+                        │      │                   ff0448d5d95 
                         │      ├ Title           : jackson-databind: @JsonIgnore on a Record property is
                         │      │                   bypassed with a PropertyNamingStrategy 
                         │      ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -946,18 +946,18 @@
                         │      ├ InstalledVersion: 2.21.1 
                         │      ├ FixedVersion    : 2.21.5, 2.18.9, 2.22.1 
                         │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
-                        │      │                  │         853f161bdeaf4554604f 
-                        │      │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
-                        │      │                            d38c63687efc14b65fca 
+                        │      ├ Layer            ╭ Digest: sha256:b64c23f81b97044b97eac636b6c5a40b1418d3b23653
+                        │      │                  │         60a0e991ee41a4f1972f 
+                        │      │                  ╰ DiffID: sha256:ef54da291e53e8546689e3ac160ac598b0a9df3e95bd
+                        │      │                            99c5440ceee3834bb0dd 
                         │      ├ SeveritySource  : ghsa 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59889 
                         │      ├ DataSource       ╭ ID  : ghsa 
                         │      │                  ├ Name: GitHub Security Advisory Maven 
                         │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
                         │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:ceaa1a509e69074e7ea551579f9a7965e149a6623a3de60abccad
-                        │      │                   058185915a5 
+                        │      ├ Fingerprint     : sha256:9dd28c5cb23c7169a4b676688290c853245d2f6ab265c89954db2
+                        │      │                   091534c895d 
                         │      ├ Title           : jackson-databind: @JsonView ypassed for @JsonUnwrapped
                         │      │                   container properties on deserialization 
                         │      ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -996,18 +996,18 @@
                         │      ├ InstalledVersion: 2.21.1 
                         │      ├ FixedVersion    : 2.18.9, 2.21.5 
                         │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
-                        │      │                  │         853f161bdeaf4554604f 
-                        │      │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
-                        │      │                            d38c63687efc14b65fca 
+                        │      ├ Layer            ╭ Digest: sha256:b64c23f81b97044b97eac636b6c5a40b1418d3b23653
+                        │      │                  │         60a0e991ee41a4f1972f 
+                        │      │                  ╰ DiffID: sha256:ef54da291e53e8546689e3ac160ac598b0a9df3e95bd
+                        │      │                            99c5440ceee3834bb0dd 
                         │      ├ SeveritySource  : ghsa 
                         │      ├ PrimaryURL      : https://github.com/advisories/GHSA-mhm7-754m-9p8w 
                         │      ├ DataSource       ╭ ID  : ghsa 
                         │      │                  ├ Name: GitHub Security Advisory Maven 
                         │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
                         │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:3afe54b0227e5cc2f895b307c957a3d236ba0f5b230cddd8e33f8
-                        │      │                   84ab84b45d8 
+                        │      ├ Fingerprint     : sha256:63a17419eef9427fa2867a19af1f5efe1e54647e8b2a66c0a99ae
+                        │      │                   7977920a551 
                         │      ├ Title           : jackson-databind: `@JsonView` bypass for creator properties
                         │      │                   with `@JsonTypeInfo(include=As.EXTERNAL_PROPERTY)` 
                         │      ├ Description     : ## Summary
@@ -1186,18 +1186,18 @@
                                ├ InstalledVersion: 12.1.7 
                                ├ FixedVersion    : 12.0.35, 12.1.9 
                                ├ Status          : fixed 
-                               ├ Layer            ╭ Digest: sha256:f6d19c232fb74a3e035c096c166125e7b47080791562
-                               │                  │         853f161bdeaf4554604f 
-                               │                  ╰ DiffID: sha256:859460a4f7f72d8a5f8ffba79faa5d43934d29ca222a
-                               │                            d38c63687efc14b65fca 
+                               ├ Layer            ╭ Digest: sha256:b64c23f81b97044b97eac636b6c5a40b1418d3b23653
+                               │                  │         60a0e991ee41a4f1972f 
+                               │                  ╰ DiffID: sha256:ef54da291e53e8546689e3ac160ac598b0a9df3e95bd
+                               │                            99c5440ceee3834bb0dd 
                                ├ SeveritySource  : ghsa 
                                ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8384 
                                ├ DataSource       ╭ ID  : ghsa 
                                │                  ├ Name: GitHub Security Advisory Maven 
                                │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
                                │                          cosystem%3Amaven 
-                               ├ Fingerprint     : sha256:29bb35bde83f478205907fd0405efb00d6e0f4fc385e59082ee77
-                               │                   0e591bcdf9d 
+                               ├ Fingerprint     : sha256:aa09b285a41fe28dade456bb8f2e1d310e1702c517b233b4037af
+                               │                   76ba588145a 
                                ├ Title           : In Eclipse Jetty, an HTTP URI of this form:     
                                │                   /public;/../admin/sec ... 
                                ├ Description     : In Eclipse Jetty, an HTTP URI of this form:
