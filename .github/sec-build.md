@@ -12,17 +12,17 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41254 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:bca435be99119c2930499ee23e3391d6ae276ab61dc432bee1a80
-│                       │      │                   7583b9ff035 
+│                       │      ├ Fingerprint     : sha256:85f545d3d6188c2e70e6ebdef3c2f321d3f7d05cd37c61ff1f588
+│                       │      │                   fa7d344c2a7 
 │                       │      ├ Title           : Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information
 │                       │      │                   disclosure or denial of service via integer overflow in
 │                       │      │                   CubeSize 
@@ -52,7 +52,7 @@
 │                       │      │                           ╰ V3Score : 6.1 
 │                       │      ├ References       ╭ [0] : https://abhinavagarwal07.github.io/posts/lcms2-cubesi
 │                       │      │                  │       ze-overflow/ 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-41254 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502751 
@@ -90,7 +90,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://github.com/mm2/Little-CMS/commit/da6110b1d14a
 │                       │      │                  │       bc394633a388209abd5ebedd7ab0 
@@ -119,16 +119,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47063 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5e171aed1ed6d519f5f77b53fefac5b8c2836afe10c7af9b0b7b3
-│                       │      │                   e643beba955 
+│                       │      ├ Fingerprint     : sha256:5bdd58aec6946a9d8f4b410dc7deedb41293140429ea733bb3e2a
+│                       │      │                   0ca0e1c1ee6 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance Jar handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -163,7 +163,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47063 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -201,7 +201,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47063.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -219,16 +219,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46917 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b0950178f3ba2b6531f2de41a8740c210fe26f1a034ae386ff34c
-│                       │      │                   f8189e036e6 
+│                       │      ├ Fingerprint     : sha256:922354d4966a43cbbd96998cdaadf2f539f9805139fd29dc2db3f
+│                       │      │                   7366a32ffa6 
 │                       │      ├ Title           : openjdk: OpenJDK: Improve DTLS handshaking (Oracle CPU
 │                       │      │                   2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -260,7 +260,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46917 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -298,7 +298,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46917.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -316,17 +316,17 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46968 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:006668e74c25a824d5c6122e26e1286608eab23511c921ff556ac
-│                       │      │                   65c305b5991 
-│                       │      ├ Title           : openjdk: Enhance TLS certificate handling 
+│                       │      ├ Fingerprint     : sha256:5ca13c3ddc1946172b5f0f5af2794eb03e80def9572abd4597f18
+│                       │      │                   8260c47e4ed 
+│                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
 │                       │      │                   8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3,
@@ -353,7 +353,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46968 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -391,7 +391,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46968.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -409,16 +409,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47021 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b987f08dfacf3cccd566616e8cdd5879de3ac4c904ab363891edf
-│                       │      │                   d6217a9408e 
+│                       │      ├ Fingerprint     : sha256:172cff815532da1095c51bf47cbee762a336df3804539b46027b8
+│                       │      │                   ad42633c5be 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance XBM image support (Oracle CPU
 │                       │      │                   2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -453,7 +453,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47021 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -491,7 +491,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47021.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -509,16 +509,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47027 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e18a830727399c4f1877e696a8e7bc443c76beb4eec59cd5491a2
-│                       │      │                   a3f051ef462 
+│                       │      ├ Fingerprint     : sha256:a877d16f5554539b95cbaf0a00dd276a2c2ae233c8d2501ecaba0
+│                       │      │                   0041e277fcd 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance Jar file processing (Oracle CPU
 │                       │      │                   2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
@@ -550,7 +550,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47027 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -588,7 +588,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47027.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -606,16 +606,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-60147 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1aa263e2f7d06bdb4898b8ce17ac012754ebfbe271032f89f7c19
-│                       │      │                   641f2bd1f91 
+│                       │      ├ Fingerprint     : sha256:ca7ed2f7189e03d9c915495bdbb4f94755b1806e03512acbe0921
+│                       │      │                   ac2d8c7a9e8 
 │                       │      ├ Title           : openjdk: OpenJDK: Improve certification checking (Oracle CPU
 │                       │      │                    2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -654,7 +654,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-60147 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -692,7 +692,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-60147.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -710,16 +710,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47010 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e9597689d58344a1f148f702afc4c1441e820d0e15f3522174334
-│                       │      │                   7cbe3fc5f30 
+│                       │      ├ Fingerprint     : sha256:30e1393c8046513c07250872a2c859a956d6e6cae640c6e910492
+│                       │      │                   c7e59e36544 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance JPEG handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -753,7 +753,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47010 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -791,7 +791,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47010.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -809,16 +809,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47059 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:fb3abd6a02d387490f6907c7f2ba0237d02dcffb6fc2e8513f130
-│                       │      │                   5d8ddc89625 
+│                       │      ├ Fingerprint     : sha256:859c2aebf57116a0e8a1c226b3d7d3a42aee487aaf6bb98714c47
+│                       │      │                   0acbb22af4d 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -853,7 +853,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47059 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -891,7 +891,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47059.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -909,16 +909,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-62574 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:84909bc5eb6d174d06b685048517df5cc5dad3038e95a897f09a5
-│                       │      │                   f9629e6d00a 
+│                       │      ├ Fingerprint     : sha256:148dbcc73ac369b86ae5abfd3927156c31483551ccf6aedc8b354
+│                       │      │                   3e598af4faa 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: Install).  Supported versions that are affected
@@ -949,17 +949,17 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41254 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1526ca2b729cec66ad0634c047794a042caed6c8d6d28cb9c4a53
-│                       │      │                   605cb6c590f 
+│                       │      ├ Fingerprint     : sha256:3ded486723bacf67f76da04d33149be88f692c7c8574237fd2acc
+│                       │      │                   c19b087d364 
 │                       │      ├ Title           : Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information
 │                       │      │                   disclosure or denial of service via integer overflow in
 │                       │      │                   CubeSize 
@@ -989,7 +989,7 @@
 │                       │      │                           ╰ V3Score : 6.1 
 │                       │      ├ References       ╭ [0] : https://abhinavagarwal07.github.io/posts/lcms2-cubesi
 │                       │      │                  │       ze-overflow/ 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-41254 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502751 
@@ -1027,7 +1027,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://github.com/mm2/Little-CMS/commit/da6110b1d14a
 │                       │      │                  │       bc394633a388209abd5ebedd7ab0 
@@ -1056,16 +1056,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47063 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:30dcbe36560016169334d160239f86e62cb8e51a20147c3d8135e
-│                       │      │                   5c42c52b250 
+│                       │      ├ Fingerprint     : sha256:c91e23c85606a8ea2f00e38880c710907bd5cee5833d2ea26a5b4
+│                       │      │                   8793cb61be4 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance Jar handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1100,7 +1100,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47063 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1138,7 +1138,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47063.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1156,16 +1156,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46917 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:33dc30a1e370a7513828aa5b5a6646165bc8d8fbc08457162952d
-│                       │      │                   a59709ab375 
+│                       │      ├ Fingerprint     : sha256:afd212bd852c7f197fd83bb0f27b57948510d655b742600b7b46d
+│                       │      │                   068641ac31a 
 │                       │      ├ Title           : openjdk: OpenJDK: Improve DTLS handshaking (Oracle CPU
 │                       │      │                   2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1197,7 +1197,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46917 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1235,7 +1235,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46917.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1253,17 +1253,17 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46968 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:f82ce05448aa7925444d536c17e75aa5222ff4b14fba5303a61ea
-│                       │      │                   b350c953400 
-│                       │      ├ Title           : openjdk: Enhance TLS certificate handling 
+│                       │      ├ Fingerprint     : sha256:34888d15ce2c1da8370faac24e1570b32db76d0efeefe324048a0
+│                       │      │                   c2872601f44 
+│                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
 │                       │      │                   8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3,
@@ -1290,7 +1290,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46968 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1328,7 +1328,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46968.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1346,16 +1346,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47021 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:630764fa4b09bf92b320a3b95157ca4f0ceaec2f9f402839e19fa
-│                       │      │                   4e66e421857 
+│                       │      ├ Fingerprint     : sha256:386818868541c47d9d320d3e63d6d405d25016e7921df2f06efd1
+│                       │      │                   1a89b06ba15 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance XBM image support (Oracle CPU
 │                       │      │                   2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1390,7 +1390,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47021 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1428,7 +1428,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47021.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1446,16 +1446,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47027 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a6c98ac314bb933796cf01d5f0991875be09230a6ada91238a2de
-│                       │      │                   6ca6fa3bb50 
+│                       │      ├ Fingerprint     : sha256:0e7d9d29f7bc008aebaf1cab66a641d21905b9005056d70e186da
+│                       │      │                   2733c9de364 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance Jar file processing (Oracle CPU
 │                       │      │                   2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
@@ -1487,7 +1487,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47027 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1525,7 +1525,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47027.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1543,16 +1543,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-60147 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:85cd612430faa296e7ccb4c03a51d15d076c46420c827e2933670
-│                       │      │                   e426e275b3f 
+│                       │      ├ Fingerprint     : sha256:a89035741fe20a0da573312656c736a2defeab1bff2932245ef2e
+│                       │      │                   cb4c43aff7c 
 │                       │      ├ Title           : openjdk: OpenJDK: Improve certification checking (Oracle CPU
 │                       │      │                    2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1591,7 +1591,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-60147 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1629,7 +1629,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-60147.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1647,16 +1647,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47010 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c06fd1d24aaf81ebda4b67fca2e8ffd335e9f6d988631fb9bee1e
-│                       │      │                   1088644b340 
+│                       │      ├ Fingerprint     : sha256:6cc8bf406d0292337122bc41ad50038565645afcc49eddf0ffad7
+│                       │      │                   88a47b87a80 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance JPEG handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1690,7 +1690,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47010 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1728,7 +1728,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47010.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1746,16 +1746,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                       │      │                  │         220039b05e9c5344cfd2 
-│                       │      │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                       │      │                            efe97cecaccfa5d58c20 
+│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                       │      │                  │         01aab70d0e93d23fc900 
+│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                       │      │                            b85aa6d1efd91581eecc 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47059 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5ffbe1117ce28954aa07b4dd062bbe4637877ce8984d60f6c9ad8
-│                       │      │                   c754674f5c4 
+│                       │      ├ Fingerprint     : sha256:a5e893947e93d53bed6f2280e552b408121eef7b931378af5a966
+│                       │      │                   f7e12b91daa 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1790,7 +1790,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47059 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1828,7 +1828,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47059.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1846,16 +1846,16 @@
 │                              ├ InstalledVersion: 21.0.11_p10-r0 
 │                              ├ FixedVersion    : 21.0.12_p8-r0 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:c839e5edc078500ac200791a430090573c787c0cfe47
-│                              │                  │         220039b05e9c5344cfd2 
-│                              │                  ╰ DiffID: sha256:f22ba0e8da6a697ef4d81d2595832bae000dfaf7db54
-│                              │                            efe97cecaccfa5d58c20 
+│                              ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
+│                              │                  │         01aab70d0e93d23fc900 
+│                              │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
+│                              │                            b85aa6d1efd91581eecc 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-62574 
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:065e5ab3d645c1a4685e53b1da90074ef29584d2b93b1929985f7
-│                              │                   0ec98881979 
+│                              ├ Fingerprint     : sha256:52dcb2f878843c01d032f3f910b6220c3ee95fe84002acf34d114
+│                              │                   9e750f8a8d7 
 │                              ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                              │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                              │                    (component: Install).  Supported versions that are affected
