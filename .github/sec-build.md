@@ -90,7 +90,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://github.com/mm2/Little-CMS/commit/da6110b1d14a
 │                       │      │                  │       bc394633a388209abd5ebedd7ab0 
@@ -129,7 +129,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:5bdd58aec6946a9d8f4b410dc7deedb41293140429ea733bb3e2a
 │                       │      │                   0ca0e1c1ee6 
-│                       │      ├ Title           : openjdk: OpenJDK: Enhance Jar handling (Oracle CPU 2026-07) 
+│                       │      ├ Title           : openjdk: Enhance Jar handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: Libraries).  Supported versions that are
@@ -201,7 +201,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47063.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -229,8 +229,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:922354d4966a43cbbd96998cdaadf2f539f9805139fd29dc2db3f
 │                       │      │                   7366a32ffa6 
-│                       │      ├ Title           : openjdk: OpenJDK: Improve DTLS handshaking (Oracle CPU
-│                       │      │                   2026-07) 
+│                       │      ├ Title           : openjdk: Improve DTLS handshaking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: JSSE).  Supported versions that are affected
@@ -298,7 +297,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46917.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -391,7 +390,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46968.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -419,8 +418,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:172cff815532da1095c51bf47cbee762a336df3804539b46027b8
 │                       │      │                   ad42633c5be 
-│                       │      ├ Title           : openjdk: OpenJDK: Enhance XBM image support (Oracle CPU
-│                       │      │                   2026-07) 
+│                       │      ├ Title           : openjdk: Enhance XBM image support (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: 2D).  Supported versions that are affected are
@@ -491,7 +489,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47021.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -519,8 +517,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:a877d16f5554539b95cbaf0a00dd276a2c2ae233c8d2501ecaba0
 │                       │      │                   0041e277fcd 
-│                       │      ├ Title           : openjdk: OpenJDK: Enhance Jar file processing (Oracle CPU
-│                       │      │                   2026-07) 
+│                       │      ├ Title           : openjdk: Enhance Jar file processing (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
 │                       │      │                   8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3,
@@ -588,7 +585,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47027.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -616,8 +613,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:ca7ed2f7189e03d9c915495bdbb4f94755b1806e03512acbe0921
 │                       │      │                   ac2d8c7a9e8 
-│                       │      ├ Title           : openjdk: OpenJDK: Improve certification checking (Oracle CPU
-│                       │      │                    2026-07) 
+│                       │      ├ Title           : openjdk: Improve certification checking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: Security).  Supported versions that are
@@ -692,7 +688,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-60147.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -720,7 +716,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:30e1393c8046513c07250872a2c859a956d6e6cae640c6e910492
 │                       │      │                   c7e59e36544 
-│                       │      ├ Title           : openjdk: OpenJDK: Enhance JPEG handling (Oracle CPU 2026-07) 
+│                       │      ├ Title           : openjdk: Enhance JPEG handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: ImageIO).  Supported versions that are affected
@@ -791,7 +787,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47010.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -819,7 +815,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:859c2aebf57116a0e8a1c226b3d7d3a42aee487aaf6bb98714c47
 │                       │      │                   0acbb22af4d 
-│                       │      ├ Title           : openjdk: OpenJDK: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
+│                       │      ├ Title           : openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: 2D).  Supported versions that are affected are
@@ -891,7 +887,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47059.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1027,7 +1023,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://github.com/mm2/Little-CMS/commit/da6110b1d14a
 │                       │      │                  │       bc394633a388209abd5ebedd7ab0 
@@ -1066,7 +1062,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:c91e23c85606a8ea2f00e38880c710907bd5cee5833d2ea26a5b4
 │                       │      │                   8793cb61be4 
-│                       │      ├ Title           : openjdk: OpenJDK: Enhance Jar handling (Oracle CPU 2026-07) 
+│                       │      ├ Title           : openjdk: Enhance Jar handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: Libraries).  Supported versions that are
@@ -1138,7 +1134,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47063.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1166,8 +1162,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:afd212bd852c7f197fd83bb0f27b57948510d655b742600b7b46d
 │                       │      │                   068641ac31a 
-│                       │      ├ Title           : openjdk: OpenJDK: Improve DTLS handshaking (Oracle CPU
-│                       │      │                   2026-07) 
+│                       │      ├ Title           : openjdk: Improve DTLS handshaking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: JSSE).  Supported versions that are affected
@@ -1235,7 +1230,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46917.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1328,7 +1323,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46968.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1356,8 +1351,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:386818868541c47d9d320d3e63d6d405d25016e7921df2f06efd1
 │                       │      │                   1a89b06ba15 
-│                       │      ├ Title           : openjdk: OpenJDK: Enhance XBM image support (Oracle CPU
-│                       │      │                   2026-07) 
+│                       │      ├ Title           : openjdk: Enhance XBM image support (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: 2D).  Supported versions that are affected are
@@ -1428,7 +1422,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47021.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1456,8 +1450,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:0e7d9d29f7bc008aebaf1cab66a641d21905b9005056d70e186da
 │                       │      │                   2733c9de364 
-│                       │      ├ Title           : openjdk: OpenJDK: Enhance Jar file processing (Oracle CPU
-│                       │      │                   2026-07) 
+│                       │      ├ Title           : openjdk: Enhance Jar file processing (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
 │                       │      │                   8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3,
@@ -1525,7 +1518,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47027.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1553,8 +1546,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:a89035741fe20a0da573312656c736a2defeab1bff2932245ef2e
 │                       │      │                   cb4c43aff7c 
-│                       │      ├ Title           : openjdk: OpenJDK: Improve certification checking (Oracle CPU
-│                       │      │                    2026-07) 
+│                       │      ├ Title           : openjdk: Improve certification checking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: Security).  Supported versions that are
@@ -1629,7 +1621,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-60147.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1657,7 +1649,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:6cc8bf406d0292337122bc41ad50038565645afcc49eddf0ffad7
 │                       │      │                   88a47b87a80 
-│                       │      ├ Title           : openjdk: OpenJDK: Enhance JPEG handling (Oracle CPU 2026-07) 
+│                       │      ├ Title           : openjdk: Enhance JPEG handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: ImageIO).  Supported versions that are affected
@@ -1728,7 +1720,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47010.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1756,7 +1748,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:a5e893947e93d53bed6f2280e552b408121eef7b931378af5a966
 │                       │      │                   f7e12b91daa 
-│                       │      ├ Title           : openjdk: OpenJDK: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
+│                       │      ├ Title           : openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: 2D).  Supported versions that are affected are
@@ -1828,7 +1820,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47059.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
