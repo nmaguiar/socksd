@@ -79,7 +79,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://github.com/mm2/Little-CMS/commit/da6110b1d14abc394633a388209abd5ebedd7ab0
     - https://github.com/mm2/Little-CMS/commit/e0641b1828d0a1af5ecb1b11fe22f24fceefd4bc
@@ -112,7 +112,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:5bdd58aec6946a9d8f4b410dc7deedb41293140429ea733bb3e2a0ca0e1c1ee6
-    Title: 'openjdk: OpenJDK: Enhance Jar handling (Oracle CPU 2026-07)'
+    Title: 'openjdk: Enhance Jar handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.5 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N).'
     Severity: HIGH
     CweIDs:
@@ -157,7 +157,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47063.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -184,7 +184,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:922354d4966a43cbbd96998cdaadf2f539f9805139fd29dc2db3f7366a32ffa6
-    Title: 'openjdk: OpenJDK: Improve DTLS handshaking (Oracle CPU 2026-07)'
+    Title: 'openjdk: Improve DTLS handshaking (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
     CweIDs:
@@ -229,7 +229,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-46917.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -301,7 +301,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-46968.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -328,7 +328,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:172cff815532da1095c51bf47cbee762a336df3804539b46027b8ad42633c5be
-    Title: 'openjdk: OpenJDK: Enhance XBM image support (Oracle CPU 2026-07)'
+    Title: 'openjdk: Enhance XBM image support (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
     CweIDs:
@@ -373,7 +373,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47021.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -400,7 +400,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:a877d16f5554539b95cbaf0a00dd276a2c2ae233c8d2501ecaba00041e277fcd
-    Title: 'openjdk: OpenJDK: Enhance Jar file processing (Oracle CPU 2026-07)'
+    Title: 'openjdk: Enhance Jar file processing (Oracle CPU 2026-07)'
     Description: 'Vulnerability in Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
     CweIDs:
@@ -445,7 +445,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47027.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -472,7 +472,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:ca7ed2f7189e03d9c915495bdbb4f94755b1806e03512acbe0921ac2d8c7a9e8
-    Title: 'openjdk: OpenJDK: Improve certification checking (Oracle CPU 2026-07)'
+    Title: 'openjdk: Improve certification checking (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.5 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
     CweIDs:
@@ -517,7 +517,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-60147.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -544,7 +544,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:30e1393c8046513c07250872a2c859a956d6e6cae640c6e910492c7e59e36544
-    Title: 'openjdk: OpenJDK: Enhance JPEG handling (Oracle CPU 2026-07)'
+    Title: 'openjdk: Enhance JPEG handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: LOW
     CweIDs:
@@ -589,7 +589,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47010.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -616,7 +616,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:859c2aebf57116a0e8a1c226b3d7d3a42aee487aaf6bb98714c470acbb22af4d
-    Title: 'openjdk: OpenJDK: Enhance AWT ImagingLib (Oracle CPU 2026-07)'
+    Title: 'openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: LOW
     CweIDs:
@@ -661,7 +661,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47059.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -772,7 +772,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://github.com/mm2/Little-CMS/commit/da6110b1d14abc394633a388209abd5ebedd7ab0
     - https://github.com/mm2/Little-CMS/commit/e0641b1828d0a1af5ecb1b11fe22f24fceefd4bc
@@ -805,7 +805,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:c91e23c85606a8ea2f00e38880c710907bd5cee5833d2ea26a5b48793cb61be4
-    Title: 'openjdk: OpenJDK: Enhance Jar handling (Oracle CPU 2026-07)'
+    Title: 'openjdk: Enhance Jar handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.5 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N).'
     Severity: HIGH
     CweIDs:
@@ -850,7 +850,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47063.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -877,7 +877,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:afd212bd852c7f197fd83bb0f27b57948510d655b742600b7b46d068641ac31a
-    Title: 'openjdk: OpenJDK: Improve DTLS handshaking (Oracle CPU 2026-07)'
+    Title: 'openjdk: Improve DTLS handshaking (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
     CweIDs:
@@ -922,7 +922,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-46917.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -994,7 +994,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-46968.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -1021,7 +1021,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:386818868541c47d9d320d3e63d6d405d25016e7921df2f06efd11a89b06ba15
-    Title: 'openjdk: OpenJDK: Enhance XBM image support (Oracle CPU 2026-07)'
+    Title: 'openjdk: Enhance XBM image support (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
     CweIDs:
@@ -1066,7 +1066,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47021.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -1093,7 +1093,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:0e7d9d29f7bc008aebaf1cab66a641d21905b9005056d70e186da2733c9de364
-    Title: 'openjdk: OpenJDK: Enhance Jar file processing (Oracle CPU 2026-07)'
+    Title: 'openjdk: Enhance Jar file processing (Oracle CPU 2026-07)'
     Description: 'Vulnerability in Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
     CweIDs:
@@ -1138,7 +1138,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47027.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -1165,7 +1165,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:a89035741fe20a0da573312656c736a2defeab1bff2932245ef2ecb4c43aff7c
-    Title: 'openjdk: OpenJDK: Improve certification checking (Oracle CPU 2026-07)'
+    Title: 'openjdk: Improve certification checking (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.5 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
     CweIDs:
@@ -1210,7 +1210,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-60147.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -1237,7 +1237,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:6cc8bf406d0292337122bc41ad50038565645afcc49eddf0ffad788a47b87a80
-    Title: 'openjdk: OpenJDK: Enhance JPEG handling (Oracle CPU 2026-07)'
+    Title: 'openjdk: Enhance JPEG handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: LOW
     CweIDs:
@@ -1282,7 +1282,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47010.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -1309,7 +1309,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:a5e893947e93d53bed6f2280e552b408121eef7b931378af5a966f7e12b91daa
-    Title: 'openjdk: OpenJDK: Enhance AWT ImagingLib (Oracle CPU 2026-07)'
+    Title: 'openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: LOW
     CweIDs:
@@ -1354,7 +1354,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/9/ALSA-2026-42899.html
+    - https://errata.almalinux.org/10/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47059.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
