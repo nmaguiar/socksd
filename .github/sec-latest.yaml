@@ -10833,7 +10833,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-2100
     - https://www.cve.org/CVERecord?id=CVE-2026-2100
     PublishedDate: '2026-03-26T21:17:04.247Z'
-    LastModifiedDate: '2026-08-08T16:16:48.87Z'
+    LastModifiedDate: '2026-08-15T23:16:21.073Z'
   - VulnerabilityID: CVE-2026-2100
     PkgID: p11-kit-trust@0.25.5-r2
     PkgName: p11-kit-trust
@@ -10892,7 +10892,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-2100
     - https://www.cve.org/CVERecord?id=CVE-2026-2100
     PublishedDate: '2026-03-26T21:17:04.247Z'
-    LastModifiedDate: '2026-08-08T16:16:48.87Z'
+    LastModifiedDate: '2026-08-15T23:16:21.073Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -11349,6 +11349,7 @@
     - https://access.redhat.com/errata/RHSA-2026:50848
     - https://access.redhat.com/errata/RHSA-2026:50849
     - https://access.redhat.com/errata/RHSA-2026:54435
+    - https://access.redhat.com/errata/RHSA-2026:54622
     - https://access.redhat.com/security/cve/CVE-2026-54513
     - https://bugzilla.redhat.com/2492010
     - https://bugzilla.redhat.com/2492015
@@ -11372,7 +11373,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-54513.json
     - https://www.cve.org/CVERecord?id=CVE-2026-54513
     PublishedDate: '2026-06-23T21:17:02.333Z'
-    LastModifiedDate: '2026-08-13T13:19:12.537Z'
+    LastModifiedDate: '2026-08-14T13:19:03.37Z'
   - VulnerabilityID: CVE-2026-54514
     VendorIDs:
     - GHSA-hgj6-7826-r7m5
