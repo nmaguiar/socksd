@@ -12,17 +12,17 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41254 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:85f545d3d6188c2e70e6ebdef3c2f321d3f7d05cd37c61ff1f588
-│                       │      │                   fa7d344c2a7 
+│                       │      ├ Fingerprint     : sha256:293bc7eee2157f87d812d0ffc13250acfa36ee02aced5b5d52b87
+│                       │      │                   b88eef4f104 
 │                       │      ├ Title           : Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information
 │                       │      │                   disclosure or denial of service via integer overflow in
 │                       │      │                   CubeSize 
@@ -120,16 +120,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47063 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5bdd58aec6946a9d8f4b410dc7deedb41293140429ea733bb3e2a
-│                       │      │                   0ca0e1c1ee6 
+│                       │      ├ Fingerprint     : sha256:59f81f18e50e5a9088e80305a4830f4e929ee3f4688a9679ce084
+│                       │      │                   15a8141971f 
 │                       │      ├ Title           : openjdk: Enhance Jar handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -221,16 +221,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46917 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:922354d4966a43cbbd96998cdaadf2f539f9805139fd29dc2db3f
-│                       │      │                   7366a32ffa6 
+│                       │      ├ Fingerprint     : sha256:82dd48fd5f50b26bcc80e54385e05b757d16a7779854b00528916
+│                       │      │                   409877d1c97 
 │                       │      ├ Title           : openjdk: Improve DTLS handshaking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -318,16 +318,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46968 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5ca13c3ddc1946172b5f0f5af2794eb03e80def9572abd4597f18
-│                       │      │                   8260c47e4ed 
+│                       │      ├ Fingerprint     : sha256:770526d248c4bb75c78f77c25bebd984c2502226f44bda12226c2
+│                       │      │                   cdc91c6cde8 
 │                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -412,16 +412,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47021 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:172cff815532da1095c51bf47cbee762a336df3804539b46027b8
-│                       │      │                   ad42633c5be 
+│                       │      ├ Fingerprint     : sha256:ec194130e57de21e7e65d1377f16521133210b2bfe64c4e25976c
+│                       │      │                   c7425c18887 
 │                       │      ├ Title           : openjdk: Enhance XBM image support (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -512,16 +512,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47027 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a877d16f5554539b95cbaf0a00dd276a2c2ae233c8d2501ecaba0
-│                       │      │                   0041e277fcd 
+│                       │      ├ Fingerprint     : sha256:aea6a6b6900f03f47613acca2b083fbbdd3ab519b62e631714a40
+│                       │      │                   5e94eb22a01 
 │                       │      ├ Title           : openjdk: Enhance Jar file processing (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -609,16 +609,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-60147 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ca7ed2f7189e03d9c915495bdbb4f94755b1806e03512acbe0921
-│                       │      │                   ac2d8c7a9e8 
+│                       │      ├ Fingerprint     : sha256:5567ea3f43dfe92546a4a079457514687d4e4906eba7467e5cd6d
+│                       │      │                   328d5a8ec30 
 │                       │      ├ Title           : openjdk: Improve certification checking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -713,16 +713,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47010 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:30e1393c8046513c07250872a2c859a956d6e6cae640c6e910492
-│                       │      │                   c7e59e36544 
+│                       │      ├ Fingerprint     : sha256:b4d77d54f6c53c95786058184b1465c45dae658459e8e7db042a2
+│                       │      │                   f940c2eda3e 
 │                       │      ├ Title           : openjdk: Enhance JPEG handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -813,16 +813,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47059 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:859c2aebf57116a0e8a1c226b3d7d3a42aee487aaf6bb98714c47
-│                       │      │                   0acbb22af4d 
+│                       │      ├ Fingerprint     : sha256:7eb333845d31389733af90d253a69edd814b4fdac8ffc84eee0ab
+│                       │      │                   2eb3ef699d5 
 │                       │      ├ Title           : openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -914,16 +914,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-62574 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:148dbcc73ac369b86ae5abfd3927156c31483551ccf6aedc8b354
-│                       │      │                   3e598af4faa 
+│                       │      ├ Fingerprint     : sha256:366c3f8b1714219a6213c1c12bde3c466ef825ea01ce27a21f25c
+│                       │      │                   119de02ddb1 
 │                       │      ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Orac ... 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -956,17 +956,17 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41254 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:3ded486723bacf67f76da04d33149be88f692c7c8574237fd2acc
-│                       │      │                   c19b087d364 
+│                       │      ├ Fingerprint     : sha256:04d1a7d9457c6b24a34450e94549c958bfd48426a905684c5c33d
+│                       │      │                   dc109a2e663 
 │                       │      ├ Title           : Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information
 │                       │      │                   disclosure or denial of service via integer overflow in
 │                       │      │                   CubeSize 
@@ -1064,16 +1064,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47063 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c91e23c85606a8ea2f00e38880c710907bd5cee5833d2ea26a5b4
-│                       │      │                   8793cb61be4 
+│                       │      ├ Fingerprint     : sha256:2976c3a6fa0aefdcc78385edf7c776ae1e499ec49e862b32750df
+│                       │      │                   fc30e702206 
 │                       │      ├ Title           : openjdk: Enhance Jar handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1165,16 +1165,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46917 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:afd212bd852c7f197fd83bb0f27b57948510d655b742600b7b46d
-│                       │      │                   068641ac31a 
+│                       │      ├ Fingerprint     : sha256:0b49526f96064477f0f19294f5ce718860efc90fb5b5c86230f08
+│                       │      │                   9ea85b93022 
 │                       │      ├ Title           : openjdk: Improve DTLS handshaking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1262,16 +1262,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46968 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:34888d15ce2c1da8370faac24e1570b32db76d0efeefe324048a0
-│                       │      │                   c2872601f44 
+│                       │      ├ Fingerprint     : sha256:c32c5973394a8a475b5d3230fc92920f9fd31c4a99ac113717a6e
+│                       │      │                   d4a3475b88c 
 │                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -1356,16 +1356,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47021 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:386818868541c47d9d320d3e63d6d405d25016e7921df2f06efd1
-│                       │      │                   1a89b06ba15 
+│                       │      ├ Fingerprint     : sha256:a72012b011399a158d12ef0aa770be14f51800dc6316660115683
+│                       │      │                   6a0ce87fd9e 
 │                       │      ├ Title           : openjdk: Enhance XBM image support (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1456,16 +1456,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47027 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0e7d9d29f7bc008aebaf1cab66a641d21905b9005056d70e186da
-│                       │      │                   2733c9de364 
+│                       │      ├ Fingerprint     : sha256:164cf9a842211505fc8748cad840dfe39aff348b9d663b691086c
+│                       │      │                   16b3d0c90b1 
 │                       │      ├ Title           : openjdk: Enhance Jar file processing (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -1553,16 +1553,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-60147 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a89035741fe20a0da573312656c736a2defeab1bff2932245ef2e
-│                       │      │                   cb4c43aff7c 
+│                       │      ├ Fingerprint     : sha256:79746f640ef1b1e6decaeb73de066f9690456a0aa309a7a3aec80
+│                       │      │                   e9eb66db795 
 │                       │      ├ Title           : openjdk: Improve certification checking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1657,16 +1657,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47010 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:6cc8bf406d0292337122bc41ad50038565645afcc49eddf0ffad7
-│                       │      │                   88a47b87a80 
+│                       │      ├ Fingerprint     : sha256:90a1fa3deacc31ae982f5d3f636644efd505f50f8069ccad90806
+│                       │      │                   0c524c64d74 
 │                       │      ├ Title           : openjdk: Enhance JPEG handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1757,16 +1757,16 @@
 │                       │      ├ InstalledVersion: 21.0.11_p10-r0 
 │                       │      ├ FixedVersion    : 21.0.12_p8-r0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                       │      │                  │         01aab70d0e93d23fc900 
-│                       │      │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                       │      │                            b85aa6d1efd91581eecc 
+│                       │      ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                       │      │                  │         fbfc3799d41eec151818 
+│                       │      │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                       │      │                            3d2389fa7d03fb23e7f9 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47059 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a5e893947e93d53bed6f2280e552b408121eef7b931378af5a966
-│                       │      │                   f7e12b91daa 
+│                       │      ├ Fingerprint     : sha256:02232570589c15cfef0c654da621b8722d6b3fefb6afa3fcd2734
+│                       │      │                   82be2733ce9 
 │                       │      ├ Title           : openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1858,16 +1858,16 @@
 │                              ├ InstalledVersion: 21.0.11_p10-r0 
 │                              ├ FixedVersion    : 21.0.12_p8-r0 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:36d7e1fdb7cd43d211c73a5600f5785ca7b37a5834a8
-│                              │                  │         01aab70d0e93d23fc900 
-│                              │                  ╰ DiffID: sha256:83b5cbfb0cfa581a8f062d430ed7b96eb040ab31ec9c
-│                              │                            b85aa6d1efd91581eecc 
+│                              ├ Layer            ╭ Digest: sha256:8e2811001ceab575b4e955e3335b85518fb85b84756a
+│                              │                  │         fbfc3799d41eec151818 
+│                              │                  ╰ DiffID: sha256:0a14fe4f68187972410f8a0e1e9c8ba4d92a09f21a8c
+│                              │                            3d2389fa7d03fb23e7f9 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-62574 
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:52dcb2f878843c01d032f3f910b6220c3ee95fe84002acf34d114
-│                              │                   9e750f8a8d7 
+│                              ├ Fingerprint     : sha256:40d7a667c81eec4877cbefb5ecbc2fe5ad0830bd4ff14b6259bf6
+│                              │                   75c0c0a3020 
 │                              ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                              │                    Orac ... 
 │                              ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
