@@ -489,6 +489,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-121 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
 │                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
@@ -533,7 +534,7 @@
 │                       │       │                  │       -5278 
 │                       │       │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-5278 
 │                       │       ├ PublishedDate   : 2025-05-27T21:15:23.197Z 
-│                       │       ╰ LastModifiedDate: 2026-08-09T18:16:42.113Z 
+│                       │       ╰ LastModifiedDate: 2026-08-15T23:16:20.653Z 
 │                       ├ [10]  ╭ VulnerabilityID : CVE-2026-56391 
 │                       │       ├ PkgID           : coreutils-single@8.32-39.el9.x86_64 
 │                       │       ├ PkgName         : coreutils-single 
@@ -4057,7 +4058,8 @@
 │                       │       │                    crash or system hang. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-770 
-│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
@@ -8300,7 +8302,7 @@
 │                       │       │                   patched in version 1.6.51. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ amazon     : 2 
+│                       │       ├ VendorSeverity   ╭ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ julia      : 2 
@@ -10601,7 +10603,7 @@
 │                       │       │                  ├ [53]: https://ubuntu.com/security/notices/USN-8193-2 
 │                       │       │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2026-4878 
 │                       │       ├ PublishedDate   : 2026-04-09T16:16:31.987Z 
-│                       │       ╰ LastModifiedDate: 2026-08-10T13:19:48.283Z 
+│                       │       ╰ LastModifiedDate: 2026-08-15T21:16:23.77Z 
 │                       ├ [156] ╭ VulnerabilityID : CVE-2026-11352 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-35.el9_7.3.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
@@ -12835,13 +12837,15 @@
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T22:10:00.14Z 
 │                       ├ [188] ╭ VulnerabilityID : CVE-2026-58055 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2026:54662 
 │                       │       ├ PkgID           : libnghttp2@1.43.0-6.el9_7.1.x86_64 
 │                       │       ├ PkgName         : libnghttp2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libnghttp2@1.43.0-6.el9_7.1?arch=x86_
 │                       │       │                  │       64&distro=redhat-9.7 
 │                       │       │                  ╰ UID : 5d733377e9af2500 
 │                       │       ├ InstalledVersion: 1.43.0-6.el9_7.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.43.0-6.el9_8.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:1146bbb7c94a7da45277634f4f3e851e000ffa27ef5
 │                       │       │                  │         8d5cccf62b95afae90cfd 
 │                       │       │                  ╰ DiffID: sha256:1ae57a3dfa44e923e71826d59008fc75285eadcae2e
@@ -12863,10 +12867,12 @@
 │                       │       │                   response-queue poisoning. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-444 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
-│                       │       │                  ├ julia : 2 
-│                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ azure      : 2 
+│                       │       │                  ├ julia      : 2 
+│                       │       │                  ├ oracle-oval: 2 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I
 │                       │       │                  │        │            :L/A:N 
 │                       │       │                  │        ├ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L
@@ -12876,18 +12882,23 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.4 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-58055 
-│                       │       │                  ├ [1]: https://github.com/advisories/GHSA-xrr7-82jr-v58x 
-│                       │       │                  ├ [2]: https://github.com/bikini/exploitarium/tree/main/nght
-│                       │       │                  │      tp2-nghttpx-upgrade-queue-poison-poc 
-│                       │       │                  ├ [3]: https://github.com/nghttp2/nghttp2/commit/ab28105c4a0
-│                       │       │                  │      197da24f8bfc414bc116055249e1e 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-58055 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8495-1 
-│                       │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2026-58055 
-│                       │       │                  ╰ [7]: https://www.vulncheck.com/advisories/nghttp2-nghttpx-
-│                       │       │                         http-request-response-smuggling-via-upgrade-request-w
-│                       │       │                         ith-content-length 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:54662 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-58055 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2493954 
+│                       │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2026-54662.html 
+│                       │       │                  ├ [4] : https://github.com/advisories/GHSA-xrr7-82jr-v58x 
+│                       │       │                  ├ [5] : https://github.com/bikini/exploitarium/tree/main/ngh
+│                       │       │                  │       ttp2-nghttpx-upgrade-queue-poison-poc 
+│                       │       │                  ├ [6] : https://github.com/nghttp2/nghttp2/commit/ab28105c4a
+│                       │       │                  │       0197da24f8bfc414bc116055249e1e 
+│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2026-58055.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2026-54662.html 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-58055 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8495-1 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-58055 
+│                       │       │                  ╰ [12]: https://www.vulncheck.com/advisories/nghttp2-nghttpx
+│                       │       │                          -http-request-response-smuggling-via-upgrade-request
+│                       │       │                          -with-content-length 
 │                       │       ├ PublishedDate   : 2026-06-28T02:16:32.677Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T17:41:26.433Z 
 │                       ├ [189] ╭ VulnerabilityID : CVE-2023-24056 
@@ -22973,7 +22984,7 @@
 │                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-2100 
 │                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
 │                       │       ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
-│                       │       ╰ LastModifiedDate: 2026-08-08T16:16:48.87Z 
+│                       │       ╰ LastModifiedDate: 2026-08-15T23:16:21.073Z 
 │                       ├ [282] ╭ VulnerabilityID : CVE-2026-13757 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:49667 
 │                       │       ├ PkgID           : p11-kit-trust@0.25.3-3.el9_5.x86_64 
@@ -23101,7 +23112,7 @@
 │                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-2100 
 │                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
 │                       │       ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
-│                       │       ╰ LastModifiedDate: 2026-08-08T16:16:48.87Z 
+│                       │       ╰ LastModifiedDate: 2026-08-15T23:16:21.073Z 
 │                       ├ [284] ╭ VulnerabilityID : CVE-2026-12610 
 │                       │       ├ PkgID           : pam@1.5.1-26.el9_6.x86_64 
 │                       │       ├ PkgName         : pam 
@@ -24023,7 +24034,7 @@
 │                       │       │                    not sanitized. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -24275,7 +24286,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -24393,7 +24404,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -24518,7 +24529,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -24637,7 +24648,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-74 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -24980,7 +24991,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -25097,7 +25108,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -25385,7 +25396,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-150 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 1 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -25486,19 +25497,21 @@
 │                       │       │                  │       a611a646d507c1cbca265c588fc56 
 │                       │       │                  ├ [6] : https://github.com/python/cpython/commit/e37df2a6a71
 │                       │       │                  │       d6538698e2d3188a7c345b827640b 
-│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/eeea765cb9d
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/ea70712d1a8
+│                       │       │                  │       508e14e9677d44f838dab04dc0286 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/eeea765cb9d
 │                       │       │                  │       8f1fc3d8918b272ac3c477983f27a 
-│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/fc9b11ff49c
+│                       │       │                  ├ [9] : https://github.com/python/cpython/commit/fc9b11ff49c
 │                       │       │                  │       bc82e6f917d07a61517a2b5f3145f 
-│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/149018 
-│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/149023 
-│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [10]: https://github.com/python/cpython/issues/149018 
+│                       │       │                  ├ [11]: https://github.com/python/cpython/pull/149023 
+│                       │       │                  ├ [12]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/PNY5OMBDPM2FRUZTWFFPJ6LISWKV62
 │                       │       │                  │       7K/ 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-7210 
-│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-7210 
+│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
 │                       │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
-│                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.607Z 
+│                       │       ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
 │                       ├ [312] ╭ VulnerabilityID : CVE-2025-13462 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-3.el9_7.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
@@ -25763,7 +25776,7 @@
 │                       │       │                   as documented, allowing path traversals. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -26395,7 +26408,7 @@
 │                       │       │                    not sanitized. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -26647,7 +26660,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -26765,7 +26778,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -26890,7 +26903,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -27009,7 +27022,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-74 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -27352,7 +27365,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -27469,7 +27482,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -27757,7 +27770,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-150 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 1 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -27858,19 +27871,21 @@
 │                       │       │                  │       a611a646d507c1cbca265c588fc56 
 │                       │       │                  ├ [6] : https://github.com/python/cpython/commit/e37df2a6a71
 │                       │       │                  │       d6538698e2d3188a7c345b827640b 
-│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/eeea765cb9d
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/ea70712d1a8
+│                       │       │                  │       508e14e9677d44f838dab04dc0286 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/eeea765cb9d
 │                       │       │                  │       8f1fc3d8918b272ac3c477983f27a 
-│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/fc9b11ff49c
+│                       │       │                  ├ [9] : https://github.com/python/cpython/commit/fc9b11ff49c
 │                       │       │                  │       bc82e6f917d07a61517a2b5f3145f 
-│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/149018 
-│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/149023 
-│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [10]: https://github.com/python/cpython/issues/149018 
+│                       │       │                  ├ [11]: https://github.com/python/cpython/pull/149023 
+│                       │       │                  ├ [12]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/PNY5OMBDPM2FRUZTWFFPJ6LISWKV62
 │                       │       │                  │       7K/ 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-7210 
-│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-7210 
+│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
 │                       │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
-│                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.607Z 
+│                       │       ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
 │                       ├ [337] ╭ VulnerabilityID : CVE-2025-13462 
 │                       │       ├ PkgID           : python3@3.9.25-3.el9_7.3.x86_64 
 │                       │       ├ PkgName         : python3 
@@ -28135,7 +28150,7 @@
 │                       │       │                   as documented, allowing path traversals. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -28767,7 +28782,7 @@
 │                       │       │                    not sanitized. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -29019,7 +29034,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -29137,7 +29152,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -29262,7 +29277,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-93 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -29381,7 +29396,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-74 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -29724,7 +29739,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -29841,7 +29856,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -30129,7 +30144,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-150 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 1 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -30230,19 +30245,21 @@
 │                       │       │                  │       a611a646d507c1cbca265c588fc56 
 │                       │       │                  ├ [6] : https://github.com/python/cpython/commit/e37df2a6a71
 │                       │       │                  │       d6538698e2d3188a7c345b827640b 
-│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/eeea765cb9d
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/ea70712d1a8
+│                       │       │                  │       508e14e9677d44f838dab04dc0286 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/eeea765cb9d
 │                       │       │                  │       8f1fc3d8918b272ac3c477983f27a 
-│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/fc9b11ff49c
+│                       │       │                  ├ [9] : https://github.com/python/cpython/commit/fc9b11ff49c
 │                       │       │                  │       bc82e6f917d07a61517a2b5f3145f 
-│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/149018 
-│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/149023 
-│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  ├ [10]: https://github.com/python/cpython/issues/149018 
+│                       │       │                  ├ [11]: https://github.com/python/cpython/pull/149023 
+│                       │       │                  ├ [12]: https://mail.python.org/archives/list/security-annou
 │                       │       │                  │       nce@python.org/thread/PNY5OMBDPM2FRUZTWFFPJ6LISWKV62
 │                       │       │                  │       7K/ 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-7210 
-│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-7210 
+│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
 │                       │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
-│                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.607Z 
+│                       │       ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
 │                       ├ [362] ╭ VulnerabilityID : CVE-2025-13462 
 │                       │       ├ PkgID           : python3-libs@3.9.25-3.el9_7.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
@@ -30507,7 +30524,7 @@
 │                       │       │                   as documented, allowing path traversals. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -30928,6 +30945,7 @@
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
+│                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ ghsa   ╭ V3Vector : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │        │            :N/A:L 
@@ -30944,17 +30962,22 @@
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:54484 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45409 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2485616 
-│                       │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2026-54484.html 
-│                       │       │                  ├ [4] : https://github.com/kjd/idna 
-│                       │       │                  ├ [5] : https://github.com/kjd/idna/security/advisories/GHSA
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2485616 
+│                       │       │                  ├ [4] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-45409 
+│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-54484.html 
+│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:54484 
+│                       │       │                  ├ [8] : https://github.com/kjd/idna 
+│                       │       │                  ├ [9] : https://github.com/kjd/idna/security/advisories/GHSA
 │                       │       │                  │       -65pc-fj4g-8rjx 
-│                       │       │                  ├ [6] : https://github.com/pypa/advisory-database/tree/main/
+│                       │       │                  ├ [10]: https://github.com/pypa/advisory-database/tree/main/
 │                       │       │                  │       vulns/idna/PYSEC-2026-215.yaml 
-│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2026-45409.html 
-│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2026-54290.html 
-│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-45409 
-│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8549-1 
-│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-45409 
+│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2026-45409.html 
+│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-54484.html 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-45409 
+│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-8549-1 
+│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-45409 
 │                       │       ├ PublishedDate   : 2026-06-05T23:16:43.343Z 
 │                       │       ╰ LastModifiedDate: 2026-07-23T07:10:00.113Z 
 │                       ├ [372] ╭ VulnerabilityID : CVE-2021-3572 
@@ -32677,38 +32700,39 @@
                         │      │                  ├ [16]: https://access.redhat.com/errata/RHSA-2026:50848 
                         │      │                  ├ [17]: https://access.redhat.com/errata/RHSA-2026:50849 
                         │      │                  ├ [18]: https://access.redhat.com/errata/RHSA-2026:54435 
-                        │      │                  ├ [19]: https://access.redhat.com/security/cve/CVE-2026-54513 
-                        │      │                  ├ [20]: https://bugzilla.redhat.com/2492010 
-                        │      │                  ├ [21]: https://bugzilla.redhat.com/2492015 
-                        │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
-                        │      │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2492015 
-                        │      │                  ├ [24]: https://creativecommons.org/licenses/by/4.0/ 
-                        │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-                        │      │                  │       26-54512 
+                        │      │                  ├ [19]: https://access.redhat.com/errata/RHSA-2026:54622 
+                        │      │                  ├ [20]: https://access.redhat.com/security/cve/CVE-2026-54513 
+                        │      │                  ├ [21]: https://bugzilla.redhat.com/2492010 
+                        │      │                  ├ [22]: https://bugzilla.redhat.com/2492015 
+                        │      │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
+                        │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2492015 
+                        │      │                  ├ [25]: https://creativecommons.org/licenses/by/4.0/ 
                         │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │      │                  │       26-54512 
+                        │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
                         │      │                  │       26-54513 
-                        │      │                  ├ [27]: https://errata.almalinux.org/9/ALSA-2026-40895.html 
-                        │      │                  ├ [28]: https://errata.rockylinux.org/RLSA-2026:40895 
-                        │      │                  ├ [29]: https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [30]: https://github.com/FasterXML/jackson-databind/commit/
-                        │      │                  │       01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
+                        │      │                  ├ [28]: https://errata.almalinux.org/9/ALSA-2026-40895.html 
+                        │      │                  ├ [29]: https://errata.rockylinux.org/RLSA-2026:40895 
+                        │      │                  ├ [30]: https://github.com/FasterXML/jackson-databind 
                         │      │                  ├ [31]: https://github.com/FasterXML/jackson-databind/commit/
+                        │      │                  │       01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
+                        │      │                  ├ [32]: https://github.com/FasterXML/jackson-databind/commit/
                         │      │                  │       24529da29fdf46ff94ca38de9ebf31cd188f5e8e 
-                        │      │                  ├ [32]: https://github.com/FasterXML/jackson-databind/issues/
-                        │      │                  │       5981 
                         │      │                  ├ [33]: https://github.com/FasterXML/jackson-databind/issues/
+                        │      │                  │       5981 
+                        │      │                  ├ [34]: https://github.com/FasterXML/jackson-databind/issues/
                         │      │                  │       5983 
-                        │      │                  ├ [34]: https://github.com/FasterXML/jackson-databind/pull/5984 
-                        │      │                  ├ [35]: https://github.com/FasterXML/jackson-databind/securit
+                        │      │                  ├ [35]: https://github.com/FasterXML/jackson-databind/pull/5984 
+                        │      │                  ├ [36]: https://github.com/FasterXML/jackson-databind/securit
                         │      │                  │       y/advisories/GHSA-rmj7-2vxq-3g9f 
-                        │      │                  ├ [36]: https://linux.oracle.com/cve/CVE-2026-54513.html 
-                        │      │                  ├ [37]: https://linux.oracle.com/errata/ELSA-2026-43400.html 
-                        │      │                  ├ [38]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
-                        │      │                  ├ [39]: https://security.access.redhat.com/data/csaf/v2/vex/2
+                        │      │                  ├ [37]: https://linux.oracle.com/cve/CVE-2026-54513.html 
+                        │      │                  ├ [38]: https://linux.oracle.com/errata/ELSA-2026-43400.html 
+                        │      │                  ├ [39]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
+                        │      │                  ├ [40]: https://security.access.redhat.com/data/csaf/v2/vex/2
                         │      │                  │       026/cve-2026-54513.json 
-                        │      │                  ╰ [40]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
+                        │      │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │      ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │      ╰ LastModifiedDate: 2026-08-13T13:19:12.537Z 
+                        │      ╰ LastModifiedDate: 2026-08-14T13:19:03.37Z 
                         ├ [3]  ╭ VulnerabilityID : CVE-2026-54514 
                         │      ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
