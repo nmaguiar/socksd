@@ -534,7 +534,7 @@
 │                       │       │                  │       -5278 
 │                       │       │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-5278 
 │                       │       ├ PublishedDate   : 2025-05-27T21:15:23.197Z 
-│                       │       ╰ LastModifiedDate: 2026-08-15T23:16:20.653Z 
+│                       │       ╰ LastModifiedDate: 2026-08-16T14:16:54.133Z 
 │                       ├ [10]  ╭ VulnerabilityID : CVE-2026-56391 
 │                       │       ├ PkgID           : coreutils-single@8.32-39.el9.x86_64 
 │                       │       ├ PkgName         : coreutils-single 
@@ -10603,7 +10603,7 @@
 │                       │       │                  ├ [53]: https://ubuntu.com/security/notices/USN-8193-2 
 │                       │       │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2026-4878 
 │                       │       ├ PublishedDate   : 2026-04-09T16:16:31.987Z 
-│                       │       ╰ LastModifiedDate: 2026-08-15T21:16:23.77Z 
+│                       │       ╰ LastModifiedDate: 2026-08-16T13:16:56.47Z 
 │                       ├ [156] ╭ VulnerabilityID : CVE-2026-11352 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-35.el9_7.3.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
@@ -12872,6 +12872,7 @@
 │                       │       │                  ├ julia      : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
+│                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I
 │                       │       │                  │        │            :L/A:N 
@@ -12885,18 +12886,23 @@
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:54662 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-58055 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2493954 
-│                       │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2026-54662.html 
-│                       │       │                  ├ [4] : https://github.com/advisories/GHSA-xrr7-82jr-v58x 
-│                       │       │                  ├ [5] : https://github.com/bikini/exploitarium/tree/main/ngh
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2493954 
+│                       │       │                  ├ [4] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-58055 
+│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-54662.html 
+│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:54662 
+│                       │       │                  ├ [8] : https://github.com/advisories/GHSA-xrr7-82jr-v58x 
+│                       │       │                  ├ [9] : https://github.com/bikini/exploitarium/tree/main/ngh
 │                       │       │                  │       ttp2-nghttpx-upgrade-queue-poison-poc 
-│                       │       │                  ├ [6] : https://github.com/nghttp2/nghttp2/commit/ab28105c4a
+│                       │       │                  ├ [10]: https://github.com/nghttp2/nghttp2/commit/ab28105c4a
 │                       │       │                  │       0197da24f8bfc414bc116055249e1e 
-│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2026-58055.html 
-│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2026-54662.html 
-│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-58055 
-│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8495-1 
-│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-58055 
-│                       │       │                  ╰ [12]: https://www.vulncheck.com/advisories/nghttp2-nghttpx
+│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2026-58055.html 
+│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-54662.html 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-58055 
+│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-8495-1 
+│                       │       │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2026-58055 
+│                       │       │                  ╰ [16]: https://www.vulncheck.com/advisories/nghttp2-nghttpx
 │                       │       │                          -http-request-response-smuggling-via-upgrade-request
 │                       │       │                          -with-content-length 
 │                       │       ├ PublishedDate   : 2026-06-28T02:16:32.677Z 
