@@ -316,10 +316,12 @@
 │                       │       │                   curl_multi API). 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-305 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ julia : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 2 
+│                       │       │                  ├ rocky : 3 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                       │       │                  │        │           H/A:N 
@@ -327,13 +329,33 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 6.8 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-1965 
-│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-1965.html 
-│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-1965.json 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-1965 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8099-1 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:55439 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-1965 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2446448 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2446450 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2496758 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2496763 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2446448 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2446450 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2496758 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2496763 
+│                       │       │                  ├ [10]: https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [11]: https://curl.se/docs/CVE-2026-1965.html 
+│                       │       │                  ├ [12]: https://curl.se/docs/CVE-2026-1965.json 
+│                       │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-1965 
+│                       │       │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-3783 
+│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-8286 
+│                       │       │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-9547 
+│                       │       │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-55439.html 
+│                       │       │                  ├ [18]: https://errata.rockylinux.org/RLSA-2026:55439 
+│                       │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2026-1965 
+│                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
 │                       │       ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:16:47.627Z 
 │                       ├ [5]   ╭ VulnerabilityID : CVE-2026-3783 
@@ -371,10 +393,12 @@
 │                       │       │                   to the second one. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-522 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ julia : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 2 
+│                       │       │                  ├ rocky : 3 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                  │        │           N/A:N 
@@ -382,16 +406,37 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 5.7 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/2 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3783 
-│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-3783.html 
-│                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-3783.json 
-│                       │       │                  ├ [4]: https://github.com/advisories/GHSA-8whr-249c-vfjp 
-│                       │       │                  ├ [5]: https://hackerone.com/reports/3583983 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3783 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-8099-1 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/1
+│                       │       │                  │       1/2 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:55439 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-3783 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2446448 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2446450 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2496758 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2496763 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2446448 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2446450 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2496758 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2496763 
+│                       │       │                  ├ [11]: https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [12]: https://curl.se/docs/CVE-2026-3783.html 
+│                       │       │                  ├ [13]: https://curl.se/docs/CVE-2026-3783.json 
+│                       │       │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-1965 
+│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-3783 
+│                       │       │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-8286 
+│                       │       │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-9547 
+│                       │       │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-55439.html 
+│                       │       │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:55439 
+│                       │       │                  ├ [20]: https://github.com/advisories/GHSA-8whr-249c-vfjp 
+│                       │       │                  ├ [21]: https://hackerone.com/reports/3583983 
+│                       │       │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2026-3783 
+│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │       │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
 │                       │       ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:44:12.537Z 
 │                       ├ [6]   ╭ VulnerabilityID : CVE-2026-3784 
@@ -1132,7 +1177,7 @@
 │                       │       │                  ├ [67]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [68]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
-│                       │       ╰ LastModifiedDate: 2026-08-10T13:19:41.017Z 
+│                       │       ╰ LastModifiedDate: 2026-08-17T12:18:44.17Z 
 │                       ├ [17]  ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -3818,10 +3863,12 @@
 │                       │       │                   curl_multi API). 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-305 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ julia : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 2 
+│                       │       │                  ├ rocky : 3 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                       │       │                  │        │           H/A:N 
@@ -3829,13 +3876,33 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 6.8 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-1965 
-│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-1965.html 
-│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-1965.json 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-1965 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8099-1 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:55439 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-1965 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2446448 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2446450 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2496758 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2496763 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2446448 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2446450 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2496758 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2496763 
+│                       │       │                  ├ [10]: https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [11]: https://curl.se/docs/CVE-2026-1965.html 
+│                       │       │                  ├ [12]: https://curl.se/docs/CVE-2026-1965.json 
+│                       │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-1965 
+│                       │       │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-3783 
+│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-8286 
+│                       │       │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-9547 
+│                       │       │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-55439.html 
+│                       │       │                  ├ [18]: https://errata.rockylinux.org/RLSA-2026:55439 
+│                       │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2026-1965 
+│                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
 │                       │       ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:16:47.627Z 
 │                       ├ [35]  ╭ VulnerabilityID : CVE-2026-3783 
@@ -3873,10 +3940,12 @@
 │                       │       │                   to the second one. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-522 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ julia : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 2 
+│                       │       │                  ├ rocky : 3 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                  │        │           N/A:N 
@@ -3884,16 +3953,37 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 5.7 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/2 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-3783 
-│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-3783.html 
-│                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-3783.json 
-│                       │       │                  ├ [4]: https://github.com/advisories/GHSA-8whr-249c-vfjp 
-│                       │       │                  ├ [5]: https://hackerone.com/reports/3583983 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-3783 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-8099-1 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/1
+│                       │       │                  │       1/2 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:55439 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-3783 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2446448 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2446450 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2496758 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2496763 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2446448 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2446450 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2496758 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2496763 
+│                       │       │                  ├ [11]: https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [12]: https://curl.se/docs/CVE-2026-3783.html 
+│                       │       │                  ├ [13]: https://curl.se/docs/CVE-2026-3783.json 
+│                       │       │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-1965 
+│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-3783 
+│                       │       │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-8286 
+│                       │       │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-9547 
+│                       │       │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-55439.html 
+│                       │       │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:55439 
+│                       │       │                  ├ [20]: https://github.com/advisories/GHSA-8whr-249c-vfjp 
+│                       │       │                  ├ [21]: https://hackerone.com/reports/3583983 
+│                       │       │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2026-3783 
+│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │       │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
 │                       │       ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:44:12.537Z 
 │                       ├ [36]  ╭ VulnerabilityID : CVE-2026-3784 
@@ -4505,7 +4595,8 @@
 │                       │       │                  │      b62d7c1654b5ceddedbde66ffadb4 
 │                       │       │                  ├ [2]: https://github.com/pnggroup/libpng/security/advisorie
 │                       │       │                  │      s/GHSA-c4v6-gxrq-6g2x 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-40930 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8639-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-40930 
 │                       │       ├ PublishedDate   : 2026-06-04T16:16:36.633Z 
 │                       │       ╰ LastModifiedDate: 2026-07-22T20:10:00.127Z 
 │                       ├ [47]  ╭ VulnerabilityID : CVE-2026-45447 
@@ -4678,7 +4769,7 @@
 │                       │       │                  ├ [67]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [68]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
-│                       │       ╰ LastModifiedDate: 2026-08-10T13:19:41.017Z 
+│                       │       ╰ LastModifiedDate: 2026-08-17T12:18:44.17Z 
 │                       ├ [48]  ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -7393,21 +7484,25 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
+│                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ julia      : 3 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 7.5 
-│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 6.1 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 7.5 
+│                       │       │                  ├ julia   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 7.5 
+│                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I
+│                       │       │                            │           :N/A:H 
+│                       │       │                            ╰ V3Score : 6.1 
 │                       │       ├ References       ╭ [0] : https://abhinavagarwal07.github.io/posts/lcms2-cubes
 │                       │       │                  │       ize-overflow/ 
 │                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:42899 
@@ -7455,17 +7550,22 @@
 │                       │       │                  │       abc394633a388209abd5ebedd7ab0 
 │                       │       │                  ├ [34]: https://github.com/mm2/Little-CMS/commit/e0641b1828d
 │                       │       │                  │       0a1af5ecb1b11fe22f24fceefd4bc 
-│                       │       │                  ├ [35]: https://github.com/mm2/Little-CMS/security/advisorie
+│                       │       │                  ├ [35]: https://github.com/mm2/Little-CMS/commit/e0641b1828d
+│                       │       │                  │       0a1af5ecb1b11fe22f24fceefd4bc#commitcomment-18328413
+│                       │       │                  │       6 
+│                       │       │                  ├ [36]: https://github.com/mm2/Little-CMS/security/advisorie
 │                       │       │                  │       s/GHSA-4xp6-rcgg-m9qq 
-│                       │       │                  ├ [36]: https://linux.oracle.com/cve/CVE-2026-41254.html 
-│                       │       │                  ├ [37]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
-│                       │       │                  ├ [38]: https://lists.debian.org/debian-lts-announce/2026/05
+│                       │       │                  ├ [37]: https://linux.oracle.com/cve/CVE-2026-41254.html 
+│                       │       │                  ├ [38]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │       │                  ├ [39]: https://lists.debian.org/debian-lts-announce/2026/05
 │                       │       │                  │       /msg00014.html 
-│                       │       │                  ├ [39]: https://nvd.nist.gov/vuln/detail/CVE-2026-41254 
-│                       │       │                  ├ [40]: https://ubuntu.com/security/notices/USN-8209-1 
-│                       │       │                  ├ [41]: https://ubuntu.com/security/notices/USN-8209-2 
-│                       │       │                  ├ [42]: https://www.cve.org/CVERecord?id=CVE-2026-41254 
-│                       │       │                  ╰ [43]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [40]: https://nvd.nist.gov/vuln/detail/CVE-2026-41254 
+│                       │       │                  ├ [41]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [42]: https://ubuntu.com/security/notices/USN-8209-1 
+│                       │       │                  ├ [43]: https://ubuntu.com/security/notices/USN-8209-2 
+│                       │       │                  ├ [44]: https://www.cve.org/CVERecord?id=CVE-2026-41254 
+│                       │       │                  ╰ [45]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          17/16 
 │                       │       ├ PublishedDate   : 2026-04-18T07:16:10.807Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:46:23.47Z 
@@ -7517,12 +7617,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           H/A:N 
-│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :H/A:N 
+│                       │       │                  │         ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47063 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -7567,11 +7671,64 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47063.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-47063 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-47063 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-47063 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:12.19Z 
 │                       │       ╰ LastModifiedDate: 2026-08-03T18:50:40.373Z 
-│                       ├ [66]  ╭ VulnerabilityID : CVE-2026-22013 
+│                       ├ [66]  ╭ VulnerabilityID : CVE-2026-62574 
+│                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
+│                       │       ├ PkgName         : openjdk21-jre 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
+│                       │       │                  │       64&distro=3.23.4 
+│                       │       │                  ╰ UID : 7775cc54b6be71ba 
+│                       │       ├ InstalledVersion: 21.0.10_p7-r0 
+│                       │       ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b
+│                       │       │                  │         72a1511164eecdee7a8f8 
+│                       │       │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf8
+│                       │       │                            6864c591a0203e94e7edc 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-62574 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:a78bb308b91a089bc7a9e3f1dde1f842e49402da97ab8d039a5e
+│                       │       │                   25b12adeec81 
+│                       │       ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for
+│                       │       │                   JDK, Orac ... 
+│                       │       ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for
+│                       │       │                   JDK, Oracle GraalVM Enterprise Edition product of Oracle
+│                       │       │                   Java SE (component: Install).  Supported versions that are
+│                       │       │                   affected are Oracle Java SE: 8u501, 11.0.32, 17.0.20,
+│                       │       │                   21.0.12, 25.0.4, 26.0.2; Oracle GraalVM for JDK: 17.0.20
+│                       │       │                   and  21.0.12; Oracle GraalVM Enterprise Edition: 21.3.19.
+│                       │       │                   Easily exploitable vulnerability allows low privileged
+│                       │       │                   attacker with logon to the infrastructure where Oracle Java
+│                       │       │                    SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │       │                   Edition executes to compromise Oracle Java SE, Oracle
+│                       │       │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition. 
+│                       │       │                   Successful attacks of this vulnerability can result in
+│                       │       │                   takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │       │                   GraalVM Enterprise Edition. CVSS 3.1 Base Score 7.8
+│                       │       │                   (Confidentiality, Integrity and Availability impacts). 
+│                       │       │                   CVSS Vector:
+│                       │       │                   (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs           ─ [0]: CWE-284 
+│                       │       ├ VendorSeverity   ─ bitnami: 3 
+│                       │       ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I
+│                       │       │                            │           :H/A:H 
+│                       │       │                            ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://nvd.nist.gov/vuln/detail/CVE-2026-62574 
+│                       │       │                  ├ [1]: https://openjdk.org/groups/vulnerability/advisories/2
+│                       │       │                  │      026-07-21 
+│                       │       │                  ├ [2]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ╰ [3]: https://www.oracle.com/security-alerts/cspuaug2026.html 
+│                       │       ├ PublishedDate   : 2026-07-21T22:19:09.667Z 
+│                       │       ╰ LastModifiedDate: 2026-08-18T21:17:09.31Z 
+│                       ├ [67]  ╭ VulnerabilityID : CVE-2026-22013 
 │                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
@@ -7681,7 +7838,7 @@
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-04-21T21:16:27.923Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:19:21.413Z 
-│                       ├ [67]  ╭ VulnerabilityID : CVE-2026-22021 
+│                       ├ [68]  ╭ VulnerabilityID : CVE-2026-22021 
 │                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
@@ -7790,7 +7947,7 @@
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-04-21T21:16:29.193Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:19:22.217Z 
-│                       ├ [68]  ╭ VulnerabilityID : CVE-2026-23865 
+│                       ├ [69]  ╭ VulnerabilityID : CVE-2026-23865 
 │                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
@@ -7897,7 +8054,7 @@
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-03-02T17:16:32.1Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:22:13.563Z 
-│                       ├ [69]  ╭ VulnerabilityID : CVE-2026-46917 
+│                       ├ [70]  ╭ VulnerabilityID : CVE-2026-46917 
 │                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
@@ -7940,12 +8097,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:L 
+│                       │       │                  │         ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :N/A:L 
+│                       │       │                            ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46917 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -7990,11 +8151,13 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-46917.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-46917 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-46917 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-46917 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:01.81Z 
 │                       │       ╰ LastModifiedDate: 2026-08-03T18:55:54.35Z 
-│                       ├ [70]  ╭ VulnerabilityID : CVE-2026-46968 
+│                       ├ [71]  ╭ VulnerabilityID : CVE-2026-46968 
 │                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
@@ -8035,12 +8198,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           H/A:N 
-│                       │       │                           ╰ V3Score : 5.9 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :H/A:N 
+│                       │       │                  │         ╰ V3Score : 5.9 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46968 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -8085,11 +8252,13 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-46968.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-46968 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-46968 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-46968 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:02.76Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T15:27:29.943Z 
-│                       ├ [71]  ╭ VulnerabilityID : CVE-2026-47021 
+│                       ├ [72]  ╭ VulnerabilityID : CVE-2026-47021 
 │                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
@@ -8136,12 +8305,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-400 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:L 
+│                       │       │                  │         ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :N/A:L 
+│                       │       │                            ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47021 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -8186,11 +8359,13 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47021.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-47021 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-47021 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-47021 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:07.67Z 
 │                       │       ╰ LastModifiedDate: 2026-08-12T20:17:44.44Z 
-│                       ├ [72]  ╭ VulnerabilityID : CVE-2026-47027 
+│                       ├ [73]  ╭ VulnerabilityID : CVE-2026-47027 
 │                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
@@ -8234,12 +8409,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:L 
+│                       │       │                  │         ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :N/A:L 
+│                       │       │                            ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47027 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -8284,11 +8463,13 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47027.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-47027 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-47027 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-47027 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:08.25Z 
 │                       │       ╰ LastModifiedDate: 2026-08-03T18:55:05.263Z 
-│                       ├ [73]  ╭ VulnerabilityID : CVE-2026-60147 
+│                       ├ [74]  ╭ VulnerabilityID : CVE-2026-60147 
 │                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
@@ -8338,12 +8519,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
-│                       │       │                           │           L/A:N 
-│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                       │       │                  │         │           :L/A:N 
+│                       │       │                  │         ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                       │       │                            │           :L/A:N 
+│                       │       │                            ╰ V3Score : 6.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-60147 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -8388,11 +8573,13 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-60147.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-60147 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-60147 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-60147 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:15.407Z 
 │                       │       ╰ LastModifiedDate: 2026-08-03T18:49:46.977Z 
-│                       ├ [74]  ╭ VulnerabilityID : CVE-2026-22007 
+│                       ├ [75]  ╭ VulnerabilityID : CVE-2026-22007 
 │                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
@@ -8501,7 +8688,7 @@
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-04-21T21:16:26.44Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:19:20.81Z 
-│                       ├ [75]  ╭ VulnerabilityID : CVE-2026-22018 
+│                       ├ [76]  ╭ VulnerabilityID : CVE-2026-22018 
 │                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
@@ -8609,7 +8796,7 @@
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-04-21T21:16:28.833Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:19:21.987Z 
-│                       ├ [76]  ╭ VulnerabilityID : CVE-2026-34268 
+│                       ├ [77]  ╭ VulnerabilityID : CVE-2026-34268 
 │                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
@@ -8717,7 +8904,7 @@
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-04-21T21:16:30.353Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:45.09Z 
-│                       ├ [77]  ╭ VulnerabilityID : CVE-2026-47010 
+│                       ├ [78]  ╭ VulnerabilityID : CVE-2026-47010 
 │                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
@@ -8764,12 +8951,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 1 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           L/A:N 
-│                       │       │                           ╰ V3Score : 3.7 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :L/A:N 
+│                       │       │                  │         ╰ V3Score : 3.7 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :L/A:N 
+│                       │       │                            ╰ V3Score : 3.7 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47010 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -8814,11 +9005,13 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47010.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-47010 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-47010 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-47010 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:06.497Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T15:13:21.283Z 
-│                       ├ [78]  ╭ VulnerabilityID : CVE-2026-47059 
+│                       ├ [79]  ╭ VulnerabilityID : CVE-2026-47059 
 │                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
@@ -8865,12 +9058,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 1 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 3.7 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:L 
+│                       │       │                  │         ╰ V3Score : 3.7 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :N/A:L 
+│                       │       │                            ╰ V3Score : 3.7 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47059 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -8915,53 +9112,12 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47059.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-47059 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-47059 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-47059 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:11.727Z 
 │                       │       ╰ LastModifiedDate: 2026-08-03T18:51:30.65Z 
-│                       ├ [79]  ╭ VulnerabilityID : CVE-2026-62574 
-│                       │       ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
-│                       │       ├ PkgName         : openjdk21-jre 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.10_p7-r0?arch=x86_
-│                       │       │                  │       64&distro=3.23.4 
-│                       │       │                  ╰ UID : 7775cc54b6be71ba 
-│                       │       ├ InstalledVersion: 21.0.10_p7-r0 
-│                       │       ├ FixedVersion    : 21.0.12_p8-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b
-│                       │       │                  │         72a1511164eecdee7a8f8 
-│                       │       │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf8
-│                       │       │                            6864c591a0203e94e7edc 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-62574 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:a78bb308b91a089bc7a9e3f1dde1f842e49402da97ab8d039a5e
-│                       │       │                   25b12adeec81 
-│                       │       ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for
-│                       │       │                   JDK, Orac ... 
-│                       │       ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for
-│                       │       │                   JDK, Oracle GraalVM Enterprise Edition product of Oracle
-│                       │       │                   Java SE (component: Install).  Supported versions that are
-│                       │       │                   affected are Oracle Java SE: 8u491, 11.0.31, 17.0.19,
-│                       │       │                   21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19
-│                       │       │                   and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18.
-│                       │       │                   Easily exploitable vulnerability allows low privileged
-│                       │       │                   attacker with logon to the infrastructure where Oracle Java
-│                       │       │                    SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
-│                       │       │                   Edition executes to compromise Oracle Java SE, Oracle
-│                       │       │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition. 
-│                       │       │                   Successful attacks of this vulnerability can result in
-│                       │       │                   takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle
-│                       │       │                   GraalVM Enterprise Edition. CVSS 3.1 Base Score 7.8
-│                       │       │                   (Confidentiality, Integrity and Availability impacts). 
-│                       │       │                   CVSS Vector:
-│                       │       │                   (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). 
-│                       │       ├ Severity        : UNKNOWN 
-│                       │       ├ CweIDs           ─ [0]: CWE-284 
-│                       │       ├ References       ─ [0]: https://www.oracle.com/security-alerts/cpujul2026.html 
-│                       │       ├ PublishedDate   : 2026-07-21T22:19:09.667Z 
-│                       │       ╰ LastModifiedDate: 2026-08-03T18:37:03.21Z 
 │                       ├ [80]  ╭ VulnerabilityID : CVE-2026-22016 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
@@ -9246,21 +9402,25 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
+│                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ julia      : 3 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 7.5 
-│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 6.1 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 7.5 
+│                       │       │                  ├ julia   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 7.5 
+│                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I
+│                       │       │                            │           :N/A:H 
+│                       │       │                            ╰ V3Score : 6.1 
 │                       │       ├ References       ╭ [0] : https://abhinavagarwal07.github.io/posts/lcms2-cubes
 │                       │       │                  │       ize-overflow/ 
 │                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:42899 
@@ -9308,17 +9468,22 @@
 │                       │       │                  │       abc394633a388209abd5ebedd7ab0 
 │                       │       │                  ├ [34]: https://github.com/mm2/Little-CMS/commit/e0641b1828d
 │                       │       │                  │       0a1af5ecb1b11fe22f24fceefd4bc 
-│                       │       │                  ├ [35]: https://github.com/mm2/Little-CMS/security/advisorie
+│                       │       │                  ├ [35]: https://github.com/mm2/Little-CMS/commit/e0641b1828d
+│                       │       │                  │       0a1af5ecb1b11fe22f24fceefd4bc#commitcomment-18328413
+│                       │       │                  │       6 
+│                       │       │                  ├ [36]: https://github.com/mm2/Little-CMS/security/advisorie
 │                       │       │                  │       s/GHSA-4xp6-rcgg-m9qq 
-│                       │       │                  ├ [36]: https://linux.oracle.com/cve/CVE-2026-41254.html 
-│                       │       │                  ├ [37]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
-│                       │       │                  ├ [38]: https://lists.debian.org/debian-lts-announce/2026/05
+│                       │       │                  ├ [37]: https://linux.oracle.com/cve/CVE-2026-41254.html 
+│                       │       │                  ├ [38]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │       │                  ├ [39]: https://lists.debian.org/debian-lts-announce/2026/05
 │                       │       │                  │       /msg00014.html 
-│                       │       │                  ├ [39]: https://nvd.nist.gov/vuln/detail/CVE-2026-41254 
-│                       │       │                  ├ [40]: https://ubuntu.com/security/notices/USN-8209-1 
-│                       │       │                  ├ [41]: https://ubuntu.com/security/notices/USN-8209-2 
-│                       │       │                  ├ [42]: https://www.cve.org/CVERecord?id=CVE-2026-41254 
-│                       │       │                  ╰ [43]: https://www.openwall.com/lists/oss-security/2026/04/
+│                       │       │                  ├ [40]: https://nvd.nist.gov/vuln/detail/CVE-2026-41254 
+│                       │       │                  ├ [41]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [42]: https://ubuntu.com/security/notices/USN-8209-1 
+│                       │       │                  ├ [43]: https://ubuntu.com/security/notices/USN-8209-2 
+│                       │       │                  ├ [44]: https://www.cve.org/CVERecord?id=CVE-2026-41254 
+│                       │       │                  ╰ [45]: https://www.openwall.com/lists/oss-security/2026/04/
 │                       │       │                          17/16 
 │                       │       ├ PublishedDate   : 2026-04-18T07:16:10.807Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:46:23.47Z 
@@ -9370,12 +9535,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           H/A:N 
-│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :H/A:N 
+│                       │       │                  │         ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47063 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -9420,11 +9589,64 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47063.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-47063 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-47063 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-47063 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:12.19Z 
 │                       │       ╰ LastModifiedDate: 2026-08-03T18:50:40.373Z 
-│                       ├ [84]  ╭ VulnerabilityID : CVE-2026-22013 
+│                       ├ [84]  ╭ VulnerabilityID : CVE-2026-62574 
+│                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
+│                       │       ├ PkgName         : openjdk21-jre-headless 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
+│                       │       │                  │       arch=x86_64&distro=3.23.4 
+│                       │       │                  ╰ UID : ac9a6ccdba670539 
+│                       │       ├ InstalledVersion: 21.0.10_p7-r0 
+│                       │       ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b
+│                       │       │                  │         72a1511164eecdee7a8f8 
+│                       │       │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf8
+│                       │       │                            6864c591a0203e94e7edc 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-62574 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:2a1fe407e03954c535a93e9f310c0d6cfaccd957ae277af7864e
+│                       │       │                   8cf635318961 
+│                       │       ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for
+│                       │       │                   JDK, Orac ... 
+│                       │       ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for
+│                       │       │                   JDK, Oracle GraalVM Enterprise Edition product of Oracle
+│                       │       │                   Java SE (component: Install).  Supported versions that are
+│                       │       │                   affected are Oracle Java SE: 8u501, 11.0.32, 17.0.20,
+│                       │       │                   21.0.12, 25.0.4, 26.0.2; Oracle GraalVM for JDK: 17.0.20
+│                       │       │                   and  21.0.12; Oracle GraalVM Enterprise Edition: 21.3.19.
+│                       │       │                   Easily exploitable vulnerability allows low privileged
+│                       │       │                   attacker with logon to the infrastructure where Oracle Java
+│                       │       │                    SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │       │                   Edition executes to compromise Oracle Java SE, Oracle
+│                       │       │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition. 
+│                       │       │                   Successful attacks of this vulnerability can result in
+│                       │       │                   takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │       │                   GraalVM Enterprise Edition. CVSS 3.1 Base Score 7.8
+│                       │       │                   (Confidentiality, Integrity and Availability impacts). 
+│                       │       │                   CVSS Vector:
+│                       │       │                   (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs           ─ [0]: CWE-284 
+│                       │       ├ VendorSeverity   ─ bitnami: 3 
+│                       │       ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I
+│                       │       │                            │           :H/A:H 
+│                       │       │                            ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://nvd.nist.gov/vuln/detail/CVE-2026-62574 
+│                       │       │                  ├ [1]: https://openjdk.org/groups/vulnerability/advisories/2
+│                       │       │                  │      026-07-21 
+│                       │       │                  ├ [2]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ╰ [3]: https://www.oracle.com/security-alerts/cspuaug2026.html 
+│                       │       ├ PublishedDate   : 2026-07-21T22:19:09.667Z 
+│                       │       ╰ LastModifiedDate: 2026-08-18T21:17:09.31Z 
+│                       ├ [85]  ╭ VulnerabilityID : CVE-2026-22013 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
@@ -9534,7 +9756,7 @@
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-04-21T21:16:27.923Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:19:21.413Z 
-│                       ├ [85]  ╭ VulnerabilityID : CVE-2026-22021 
+│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-22021 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
@@ -9643,7 +9865,7 @@
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-04-21T21:16:29.193Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:19:22.217Z 
-│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-23865 
+│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-23865 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
@@ -9750,7 +9972,7 @@
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-03-02T17:16:32.1Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:22:13.563Z 
-│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-46917 
+│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-46917 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
@@ -9793,12 +10015,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:L 
+│                       │       │                  │         ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :N/A:L 
+│                       │       │                            ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46917 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -9843,11 +10069,13 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-46917.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-46917 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-46917 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-46917 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:01.81Z 
 │                       │       ╰ LastModifiedDate: 2026-08-03T18:55:54.35Z 
-│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-46968 
+│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-46968 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
@@ -9888,12 +10116,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           H/A:N 
-│                       │       │                           ╰ V3Score : 5.9 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :H/A:N 
+│                       │       │                  │         ╰ V3Score : 5.9 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46968 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -9938,11 +10170,13 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-46968.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-46968 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-46968 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-46968 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:02.76Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T15:27:29.943Z 
-│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-47021 
+│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-47021 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
@@ -9989,12 +10223,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-400 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:L 
+│                       │       │                  │         ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :N/A:L 
+│                       │       │                            ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47021 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -10039,11 +10277,13 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47021.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-47021 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-47021 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-47021 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:07.67Z 
 │                       │       ╰ LastModifiedDate: 2026-08-12T20:17:44.44Z 
-│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-47027 
+│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-47027 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
@@ -10087,12 +10327,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:L 
+│                       │       │                  │         ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :N/A:L 
+│                       │       │                            ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47027 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -10137,11 +10381,13 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47027.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-47027 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-47027 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-47027 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:08.25Z 
 │                       │       ╰ LastModifiedDate: 2026-08-03T18:55:05.263Z 
-│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-60147 
+│                       ├ [92]  ╭ VulnerabilityID : CVE-2026-60147 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
@@ -10191,12 +10437,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
-│                       │       │                           │           L/A:N 
-│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                       │       │                  │         │           :L/A:N 
+│                       │       │                  │         ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                       │       │                            │           :L/A:N 
+│                       │       │                            ╰ V3Score : 6.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-60147 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -10241,11 +10491,13 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-60147.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-60147 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-60147 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-60147 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:15.407Z 
 │                       │       ╰ LastModifiedDate: 2026-08-03T18:49:46.977Z 
-│                       ├ [92]  ╭ VulnerabilityID : CVE-2026-22007 
+│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-22007 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
@@ -10354,7 +10606,7 @@
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-04-21T21:16:26.44Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:19:20.81Z 
-│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-22018 
+│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-22018 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
@@ -10462,7 +10714,7 @@
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-04-21T21:16:28.833Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:19:21.987Z 
-│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-34268 
+│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-34268 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
@@ -10570,7 +10822,7 @@
 │                       │       │                          ml#AppendixJAVA 
 │                       │       ├ PublishedDate   : 2026-04-21T21:16:30.353Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:45.09Z 
-│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-47010 
+│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-47010 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
@@ -10617,12 +10869,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 1 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           L/A:N 
-│                       │       │                           ╰ V3Score : 3.7 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :L/A:N 
+│                       │       │                  │         ╰ V3Score : 3.7 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :L/A:N 
+│                       │       │                            ╰ V3Score : 3.7 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47010 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -10667,11 +10923,13 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47010.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-47010 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-47010 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-47010 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:06.497Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T15:13:21.283Z 
-│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-47059 
+│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-47059 
 │                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
 │                       │       ├ PkgName         : openjdk21-jre-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
@@ -10718,12 +10976,16 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-284 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ bitnami    : 1 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ╰ rocky      : 3 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 3.7 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:L 
+│                       │       │                  │         ╰ V3Score : 3.7 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :N/A:L 
+│                       │       │                            ╰ V3Score : 3.7 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47059 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2459420 
@@ -10768,53 +11030,12 @@
 │                       │       │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47059.html 
 │                       │       │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
 │                       │       │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2026-47059 
-│                       │       │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2026-47059 
-│                       │       │                  ╰ [36]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │       │                  ├ [35]: https://openjdk.org/groups/vulnerability/advisories/
+│                       │       │                  │       2026-07-21 
+│                       │       │                  ├ [36]: https://www.cve.org/CVERecord?id=CVE-2026-47059 
+│                       │       │                  ╰ [37]: https://www.oracle.com/security-alerts/cpujul2026.html 
 │                       │       ├ PublishedDate   : 2026-07-21T22:17:11.727Z 
 │                       │       ╰ LastModifiedDate: 2026-08-03T18:51:30.65Z 
-│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-62574 
-│                       │       ├ PkgID           : openjdk21-jre-headless@21.0.10_p7-r0 
-│                       │       ├ PkgName         : openjdk21-jre-headless 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.10_p7-r0?
-│                       │       │                  │       arch=x86_64&distro=3.23.4 
-│                       │       │                  ╰ UID : ac9a6ccdba670539 
-│                       │       ├ InstalledVersion: 21.0.10_p7-r0 
-│                       │       ├ FixedVersion    : 21.0.12_p8-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:1a1c09fb7f33a8937da4714f2109acd5fae85f6247b
-│                       │       │                  │         72a1511164eecdee7a8f8 
-│                       │       │                  ╰ DiffID: sha256:01369faa910b8392bc69af6c838fe6d199c7182edf8
-│                       │       │                            6864c591a0203e94e7edc 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-62574 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:2a1fe407e03954c535a93e9f310c0d6cfaccd957ae277af7864e
-│                       │       │                   8cf635318961 
-│                       │       ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for
-│                       │       │                   JDK, Orac ... 
-│                       │       ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for
-│                       │       │                   JDK, Oracle GraalVM Enterprise Edition product of Oracle
-│                       │       │                   Java SE (component: Install).  Supported versions that are
-│                       │       │                   affected are Oracle Java SE: 8u491, 11.0.31, 17.0.19,
-│                       │       │                   21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19
-│                       │       │                   and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18.
-│                       │       │                   Easily exploitable vulnerability allows low privileged
-│                       │       │                   attacker with logon to the infrastructure where Oracle Java
-│                       │       │                    SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
-│                       │       │                   Edition executes to compromise Oracle Java SE, Oracle
-│                       │       │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition. 
-│                       │       │                   Successful attacks of this vulnerability can result in
-│                       │       │                   takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle
-│                       │       │                   GraalVM Enterprise Edition. CVSS 3.1 Base Score 7.8
-│                       │       │                   (Confidentiality, Integrity and Availability impacts). 
-│                       │       │                   CVSS Vector:
-│                       │       │                   (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). 
-│                       │       ├ Severity        : UNKNOWN 
-│                       │       ├ CweIDs           ─ [0]: CWE-284 
-│                       │       ├ References       ─ [0]: https://www.oracle.com/security-alerts/cpujul2026.html 
-│                       │       ├ PublishedDate   : 2026-07-21T22:19:09.667Z 
-│                       │       ╰ LastModifiedDate: 2026-08-03T18:37:03.21Z 
 │                       ├ [98]  ╭ VulnerabilityID : CVE-2026-45447 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -10985,7 +11206,7 @@
 │                       │       │                  ├ [67]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [68]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
-│                       │       ╰ LastModifiedDate: 2026-08-10T13:19:41.017Z 
+│                       │       ╰ LastModifiedDate: 2026-08-17T12:18:44.17Z 
 │                       ├ [99]  ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -13482,7 +13703,7 @@
 │                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-2100 
 │                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
 │                       │       ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
-│                       │       ╰ LastModifiedDate: 2026-08-15T23:16:21.073Z 
+│                       │       ╰ LastModifiedDate: 2026-08-17T13:16:52.143Z 
 │                       ╰ [114] ╭ VulnerabilityID : CVE-2026-2100 
 │                               ├ PkgID           : p11-kit-trust@0.25.5-r2 
 │                               ├ PkgName         : p11-kit-trust 
@@ -13549,7 +13770,7 @@
 │                               │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-2100 
 │                               │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
 │                               ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
-│                               ╰ LastModifiedDate: 2026-08-15T23:16:21.073Z 
+│                               ╰ LastModifiedDate: 2026-08-17T13:16:52.143Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
