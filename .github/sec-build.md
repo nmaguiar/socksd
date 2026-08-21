@@ -95,7 +95,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [31]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [31]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [32]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [33]: https://github.com/mm2/Little-CMS/commit/da6110b1d14a
 │                       │      │                  │       bc394633a388209abd5ebedd7ab0 
@@ -216,7 +216,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47063.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -369,7 +369,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-46917.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -469,7 +469,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-46968.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -575,7 +575,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47021.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -678,7 +678,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47027.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -788,7 +788,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-60147.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -894,7 +894,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47010.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1001,7 +1001,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47059.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1104,7 +1104,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [31]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [31]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [32]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [33]: https://github.com/mm2/Little-CMS/commit/da6110b1d14a
 │                       │      │                  │       bc394633a388209abd5ebedd7ab0 
@@ -1225,7 +1225,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47063.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1378,7 +1378,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-46917.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1478,7 +1478,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-46968.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1584,7 +1584,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47021.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1687,7 +1687,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47027.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1797,7 +1797,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-60147.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1903,7 +1903,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47010.html 
 │                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -2010,7 +2010,7 @@
 │                              │                  │       26-47063 
 │                              │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                              │                  │       26-60147 
-│                              │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42899.html 
+│                              │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                              │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                              │                  ├ [32]: https://linux.oracle.com/cve/CVE-2026-47059.html 
 │                              │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
