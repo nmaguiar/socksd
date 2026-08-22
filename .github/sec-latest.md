@@ -13727,7 +13727,7 @@
 │                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-2100 
 │                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
 │                       │       ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
-│                       │       ╰ LastModifiedDate: 2026-08-17T13:16:52.143Z 
+│                       │       ╰ LastModifiedDate: 2026-08-21T12:16:25.877Z 
 │                       ╰ [114] ╭ VulnerabilityID : CVE-2026-2100 
 │                               ├ PkgID           : p11-kit-trust@0.25.5-r2 
 │                               ├ PkgName         : p11-kit-trust 
@@ -13794,7 +13794,7 @@
 │                               │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-2100 
 │                               │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
 │                               ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
-│                               ╰ LastModifiedDate: 2026-08-17T13:16:52.143Z 
+│                               ╰ LastModifiedDate: 2026-08-21T12:16:25.877Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
