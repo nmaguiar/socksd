@@ -4374,6 +4374,7 @@
       oracle-oval: 2
       redhat: 2
       rocky: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
@@ -4395,9 +4396,10 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54371
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-54371.json
     - https://www.cve.org/CVERecord?id=CVE-2026-54371
+    - https://www.openwall.com/lists/oss-security/2026/06/29/1
     - https://www.vulncheck.com/advisories/attr-symlink-traversal-privilege-escalation-via-getfattr-setfattr
     PublishedDate: '2026-06-29T14:16:57.823Z'
-    LastModifiedDate: '2026-08-19T12:18:32.697Z'
+    LastModifiedDate: '2026-08-24T13:19:12.583Z'
   - VulnerabilityID: CVE-2026-13595
     PkgID: libblkid@2.37.4-25.el9.x86_64
     PkgName: libblkid
@@ -6843,7 +6845,7 @@
     - https://ubuntu.com/security/notices/USN-8460-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6732
     PublishedDate: '2026-04-23T23:16:16.443Z'
-    LastModifiedDate: '2026-06-30T20:16:50.03Z'
+    LastModifiedDate: '2026-08-24T12:16:54.173Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-14.el9_8.2.x86_64
     PkgName: libxml2
