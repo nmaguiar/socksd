@@ -5028,7 +5028,8 @@
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
-│                       │       │                  ╰ rocky      : 2 
+│                       │       │                  ├ rocky      : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 6.3 
@@ -5054,11 +5055,13 @@
 │                       │       │                  ├ [14]: https://security.access.redhat.com/data/csaf/v2/vex/
 │                       │       │                  │       2026/cve-2026-54371.json 
 │                       │       │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2026-54371 
-│                       │       │                  ╰ [16]: https://www.vulncheck.com/advisories/attr-symlink-tr
+│                       │       │                  ├ [16]: https://www.openwall.com/lists/oss-security/2026/06/
+│                       │       │                  │       29/1 
+│                       │       │                  ╰ [17]: https://www.vulncheck.com/advisories/attr-symlink-tr
 │                       │       │                          aversal-privilege-escalation-via-getfattr-setfattr[
 │                       │       │                          m 
 │                       │       ├ PublishedDate   : 2026-06-29T14:16:57.823Z 
-│                       │       ╰ LastModifiedDate: 2026-08-19T12:18:32.697Z 
+│                       │       ╰ LastModifiedDate: 2026-08-24T13:19:12.583Z 
 │                       ├ [89]  ╭ VulnerabilityID : CVE-2026-13595 
 │                       │       ├ PkgID           : libblkid@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libblkid 
@@ -7906,7 +7909,7 @@
 │                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8460-1 
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-6732 
 │                       │       ├ PublishedDate   : 2026-04-23T23:16:16.443Z 
-│                       │       ╰ LastModifiedDate: 2026-06-30T20:16:50.03Z 
+│                       │       ╰ LastModifiedDate: 2026-08-24T12:16:54.173Z 
 │                       ├ [132] ╭ VulnerabilityID : CVE-2023-45322 
 │                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.2.x86_64 
 │                       │       ├ PkgName         : libxml2 
