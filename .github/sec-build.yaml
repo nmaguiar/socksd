@@ -3,6 +3,77 @@
   Type: alpine
   Packages: []
   Vulnerabilities:
+  - VulnerabilityID: CVE-2026-26740
+    PkgID: giflib@5.2.2-r1
+    PkgName: giflib
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/giflib@5.2.2-r1?arch=x86_64&distro=3.24.1
+      UID: 82fb7ad92099da32
+    InstalledVersion: 5.2.2-r1
+    FixedVersion: 5.2.2-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
+      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-26740
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a8b35b4e9830baaa374a41625ee55f24b4d6129252af15587b1aa8c61eee3339
+    Title: 'giflib: giflib: Denial of Service via buffer overflow in EGifGCBToExtension'
+    Description: Buffer Overflow vulnerability in giflib v.5.2.2 allows a remote attacker to cause a denial of service via the EGifGCBToExtension overwriting an existing Graphic Control Extension block without validating its allocated size.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      julia: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 8.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:33447
+    - https://access.redhat.com/errata/RHSA-2026:33450
+    - https://access.redhat.com/errata/RHSA-2026:33451
+    - https://access.redhat.com/errata/RHSA-2026:33452
+    - https://access.redhat.com/errata/RHSA-2026:33455
+    - https://access.redhat.com/errata/RHSA-2026:33456
+    - https://access.redhat.com/errata/RHSA-2026:33501
+    - https://access.redhat.com/errata/RHSA-2026:33502
+    - https://access.redhat.com/errata/RHSA-2026:33503
+    - https://access.redhat.com/errata/RHSA-2026:33509
+    - https://access.redhat.com/errata/RHSA-2026:36004
+    - https://access.redhat.com/errata/RHSA-2026:36005
+    - https://access.redhat.com/errata/RHSA-2026:36006
+    - https://access.redhat.com/errata/RHSA-2026:9683
+    - https://access.redhat.com/errata/RHSA-2026:9686
+    - https://access.redhat.com/errata/RHSA-2026:9689
+    - https://access.redhat.com/errata/RHSA-2026:9693
+    - https://access.redhat.com/security/cve/CVE-2026-26740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448747
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-26740
+    - https://errata.almalinux.org/9/ALSA-2026-9693.html
+    - https://errata.rockylinux.org/RLSA-2026:33501
+    - https://github.com/zakkanijia/POC/blob/main/giflib/giftool/giflib_giftool_gce_len_heap_oobwrite_disclosure.md
+    - https://linux.oracle.com/cve/CVE-2026-26740.html
+    - https://linux.oracle.com/errata/ELSA-2026-9693.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-26740
+    - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-26740.json
+    - https://ubuntu.com/security/notices/USN-8583-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-26740
+    PublishedDate: '2026-03-18T18:16:26.22Z'
+    LastModifiedDate: '2026-07-23T12:17:15.66Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -76,7 +147,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-14456
     PublishedDate: '2026-08-13T15:19:31.82Z'
-    LastModifiedDate: '2026-08-13T18:17:18.367Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-18798
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -146,7 +217,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-18798
     PublishedDate: '2026-08-25T13:17:49.813Z'
-    LastModifiedDate: '2026-08-25T15:16:31.207Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63072
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -221,7 +292,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63072
     PublishedDate: '2026-08-25T13:19:26.01Z'
-    LastModifiedDate: '2026-08-25T15:16:36.06Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63076
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -298,7 +369,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63076
     PublishedDate: '2026-08-25T13:19:26.543Z'
-    LastModifiedDate: '2026-08-25T15:16:36.593Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-14457
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -368,7 +439,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-14457
     PublishedDate: '2026-08-25T13:17:49.533Z'
-    LastModifiedDate: '2026-08-25T14:16:49.727Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-54874
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -470,7 +541,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-54874
     PublishedDate: '2026-08-25T13:19:24.033Z'
-    LastModifiedDate: '2026-08-25T15:16:33.097Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63073
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -541,7 +612,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63073
     PublishedDate: '2026-08-25T13:19:26.147Z'
-    LastModifiedDate: '2026-08-25T13:19:26.147Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63074
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -612,7 +683,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63074
     PublishedDate: '2026-08-25T13:19:26.283Z'
-    LastModifiedDate: '2026-08-25T15:16:36.243Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63075
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -684,7 +755,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63075
     PublishedDate: '2026-08-25T13:19:26.413Z'
-    LastModifiedDate: '2026-08-25T15:16:36.417Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-75803
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -741,7 +812,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-08-25T13:19:29.57Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -815,7 +886,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-14456
     PublishedDate: '2026-08-13T15:19:31.82Z'
-    LastModifiedDate: '2026-08-13T18:17:18.367Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-18798
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -885,7 +956,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-18798
     PublishedDate: '2026-08-25T13:17:49.813Z'
-    LastModifiedDate: '2026-08-25T15:16:31.207Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63072
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -960,7 +1031,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63072
     PublishedDate: '2026-08-25T13:19:26.01Z'
-    LastModifiedDate: '2026-08-25T15:16:36.06Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63076
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -1037,7 +1108,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63076
     PublishedDate: '2026-08-25T13:19:26.543Z'
-    LastModifiedDate: '2026-08-25T15:16:36.593Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-14457
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -1107,7 +1178,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-14457
     PublishedDate: '2026-08-25T13:17:49.533Z'
-    LastModifiedDate: '2026-08-25T14:16:49.727Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-54874
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -1209,7 +1280,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-54874
     PublishedDate: '2026-08-25T13:19:24.033Z'
-    LastModifiedDate: '2026-08-25T15:16:33.097Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63073
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -1280,7 +1351,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63073
     PublishedDate: '2026-08-25T13:19:26.147Z'
-    LastModifiedDate: '2026-08-25T13:19:26.147Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63074
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -1351,7 +1422,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63074
     PublishedDate: '2026-08-25T13:19:26.283Z'
-    LastModifiedDate: '2026-08-25T15:16:36.243Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63075
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -1423,7 +1494,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63075
     PublishedDate: '2026-08-25T13:19:26.413Z'
-    LastModifiedDate: '2026-08-25T15:16:36.417Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-75803
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -1480,7 +1551,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-08-25T13:19:29.57Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-41254
     PkgID: openjdk21-jre@21.0.11_p10-r0
     PkgName: openjdk21-jre
@@ -1562,7 +1633,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://github.com/mm2/Little-CMS/commit/da6110b1d14abc394633a388209abd5ebedd7ab0
     - https://github.com/mm2/Little-CMS/commit/e0641b1828d0a1af5ecb1b11fe22f24fceefd4bc
@@ -1648,7 +1719,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47063.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -1768,7 +1839,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-46917.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -1851,7 +1922,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-46968.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -1935,7 +2006,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47021.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -2019,7 +2090,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47027.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -2103,7 +2174,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-60147.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -2187,7 +2258,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47010.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -2271,7 +2342,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47059.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -2367,7 +2438,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://github.com/mm2/Little-CMS/commit/da6110b1d14abc394633a388209abd5ebedd7ab0
     - https://github.com/mm2/Little-CMS/commit/e0641b1828d0a1af5ecb1b11fe22f24fceefd4bc
@@ -2453,7 +2524,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47063.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -2573,7 +2644,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-46917.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -2656,7 +2727,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-46968.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -2740,7 +2811,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47021.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -2824,7 +2895,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47027.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -2908,7 +2979,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-60147.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -2992,7 +3063,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47010.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -3076,7 +3147,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47059
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
-    - https://errata.almalinux.org/10/ALSA-2026-42899.html
+    - https://errata.almalinux.org/9/ALSA-2026-42899.html
     - https://errata.rockylinux.org/RLSA-2026:42899
     - https://linux.oracle.com/cve/CVE-2026-47059.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
@@ -3164,7 +3235,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-14456
     PublishedDate: '2026-08-13T15:19:31.82Z'
-    LastModifiedDate: '2026-08-13T18:17:18.367Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-18798
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -3234,7 +3305,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-18798
     PublishedDate: '2026-08-25T13:17:49.813Z'
-    LastModifiedDate: '2026-08-25T15:16:31.207Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63072
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -3309,7 +3380,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63072
     PublishedDate: '2026-08-25T13:19:26.01Z'
-    LastModifiedDate: '2026-08-25T15:16:36.06Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63076
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -3386,7 +3457,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63076
     PublishedDate: '2026-08-25T13:19:26.543Z'
-    LastModifiedDate: '2026-08-25T15:16:36.593Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-14457
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -3456,7 +3527,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-14457
     PublishedDate: '2026-08-25T13:17:49.533Z'
-    LastModifiedDate: '2026-08-25T14:16:49.727Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-54874
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -3558,7 +3629,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-54874
     PublishedDate: '2026-08-25T13:19:24.033Z'
-    LastModifiedDate: '2026-08-25T15:16:33.097Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63073
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -3629,7 +3700,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63073
     PublishedDate: '2026-08-25T13:19:26.147Z'
-    LastModifiedDate: '2026-08-25T13:19:26.147Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63074
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -3700,7 +3771,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63074
     PublishedDate: '2026-08-25T13:19:26.283Z'
-    LastModifiedDate: '2026-08-25T15:16:36.243Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-63075
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -3772,7 +3843,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63075
     PublishedDate: '2026-08-25T13:19:26.413Z'
-    LastModifiedDate: '2026-08-25T15:16:36.417Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-75803
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -3829,7 +3900,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-08-25T13:19:29.57Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
