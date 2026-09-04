@@ -3442,6 +3442,7 @@
       julia: 1
       photon: 1
       redhat: 1
+      ubuntu: 1
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -3489,6 +3490,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       julia:
@@ -3506,10 +3508,16 @@
     - https://access.redhat.com/errata/RHSA-2026:61623
     - https://access.redhat.com/security/cve/CVE-2026-41991
     - https://bugzilla.redhat.com/2494158
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494158
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494159
     - https://cert.pl/en/posts/2026/04/CVE-2026-41991
     - https://cert.pl/en/posts/2026/04/CVE-2026-41991/
     - https://cgit.git.savannah.gnu.org/cgit/gzip.git/commit/?id=4e6f8b24ab823146ab8776f0b7fe486ab34d4269
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-41991
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-41992
     - https://errata.almalinux.org/9/ALSA-2026-61623.html
+    - https://errata.rockylinux.org/RLSA-2026:61623
     - https://github.com/advisories/GHSA-67v8-88jf-4x6q
     - https://linux.oracle.com/cve/CVE-2026-41991.html
     - https://linux.oracle.com/errata/ELSA-2026-61623-0.html
@@ -6707,7 +6715,7 @@
     - https://errata.rockylinux.org/RLSA-2026:61247
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/c2e233fc1b341685fc99621b2768b503f777a72e
     - https://linux.oracle.com/cve/CVE-2026-11979.html
-    - https://linux.oracle.com/errata/ELSA-2026-60394-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-61247-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-11979
     - https://www.cve.org/CVERecord?id=CVE-2026-11979
     PublishedDate: '2026-06-29T14:16:40.593Z'
@@ -6775,6 +6783,7 @@
       amazon: 2
       julia: 3
       nvd: 4
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -6804,6 +6813,8 @@
     - https://errata.almalinux.org/9/ALSA-2026-61247.html
     - https://errata.rockylinux.org/RLSA-2026:61247
     - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1058
+    - https://linux.oracle.com/cve/CVE-2026-6653.html
+    - https://linux.oracle.com/errata/ELSA-2026-61247-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6653
     - https://ubuntu.com/security/notices/USN-8456-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6653
@@ -9395,6 +9406,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2490288
     - https://github.com/SSSD/sssd/issues/8796
     - https://nvd.nist.gov/vuln/detail/CVE-2026-12610
+    - https://ubuntu.com/security/notices/USN-8672-1
     - https://www.cve.org/CVERecord?id=CVE-2026-12610
     PublishedDate: '2026-06-30T10:16:34.397Z'
     LastModifiedDate: '2026-08-31T19:16:45.55Z'
@@ -9799,7 +9811,7 @@
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13837
     PublishedDate: '2025-12-01T18:16:04.38Z'
-    LastModifiedDate: '2026-06-17T08:34:50.89Z'
+    LastModifiedDate: '2026-09-03T03:15:21.037Z'
   - VulnerabilityID: CVE-2025-15282
     PkgID: python-unversioned-command@3.9.25-7.el9_8.3.noarch
     PkgName: python-unversioned-command
@@ -11162,7 +11174,7 @@
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13837
     PublishedDate: '2025-12-01T18:16:04.38Z'
-    LastModifiedDate: '2026-06-17T08:34:50.89Z'
+    LastModifiedDate: '2026-09-03T03:15:21.037Z'
   - VulnerabilityID: CVE-2025-15282
     PkgID: python3@3.9.25-7.el9_8.3.x86_64
     PkgName: python3
@@ -12525,7 +12537,7 @@
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13837
     PublishedDate: '2025-12-01T18:16:04.38Z'
-    LastModifiedDate: '2026-06-17T08:34:50.89Z'
+    LastModifiedDate: '2026-09-03T03:15:21.037Z'
   - VulnerabilityID: CVE-2025-15282
     PkgID: python3-libs@3.9.25-7.el9_8.3.x86_64
     PkgName: python3-libs
@@ -14593,7 +14605,9 @@
     VendorSeverity:
       alma: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -14614,7 +14628,16 @@
     - https://bugzilla.redhat.com/2509735
     - https://bugzilla.redhat.com/2509843
     - https://bugzilla.redhat.com/show_bug.cgi?id=2455360
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2509735
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2509843
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704
     - https://errata.almalinux.org/9/ALSA-2026-61581.html
+    - https://errata.rockylinux.org/RLSA-2026:61581
+    - https://linux.oracle.com/cve/CVE-2026-5704.html
+    - https://linux.oracle.com/errata/ELSA-2026-61581-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5704
     - https://ubuntu.com/security/notices/USN-8477-1
     - https://ubuntu.com/security/notices/USN-8477-2
