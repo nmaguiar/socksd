@@ -13,16 +13,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-13608
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:91db009ae61a4df0a096821e5a5c89735ff2486983df682897622a623b8c7d8b
-    Title: OpenLDAP SASL authentication bypass
-    Description: A flaw in the libcurl SASL negotiation for LDAP authentication allows an incomplete handshake sequence to be misinterpreted as a successful cryptographic verification. An attacker executing a Man-in-the-Middle (MITM) attack can inject a premature or shortcut response that bypasses complete peer validation.
+    Fingerprint: sha256:a58930a3c941cb4ea523ab09deadd3aaacb9a4a7be6a0175224032ba8b5aafc0
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-18924
     PkgID: curl@8.21.0-r0
@@ -34,16 +34,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18924
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:31f11fcedfd58722551b80f9e956bec5184095e10f197e08280c4ecfff881ded
-    Title: HTTP/2 server push UAF
-    Description: A flaw in libcurl's handling of HTTP/2 Server Push streams, when the parent handle is set to share connections with other handles, can lead to use-after-free in the cleanup process.
+    Fingerprint: sha256:10339bc414fcf76e9328785828088e911e0e005d65d31b48586b2786e5ff5807
+    Title: '[Unknown description]'
+    Description: '[Unknown description]'
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-19931
     PkgID: curl@8.21.0-r0
@@ -55,16 +55,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19931
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:5e1451938d0e04c216d6c4306726af52016468241faa69869227faf14477611f
-    Title: Negotiate ambient user conn reuse
-    Description: A flaw in libcurl makes it wrongly reuse an HTTP connection setup for a given hostname using Negotiate authentication, when the initial request is done using empty credentials. This can make user B's request get sent over user A's previously authenticated connection.
+    Fingerprint: sha256:d21fbed1d4e68b366eda6611270ab6388e2e4677d731d13c6ede7f7d2b3702f3
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80229
     PkgID: curl@8.21.0-r0
@@ -76,16 +76,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80229
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0a3667dc3e4a550d34e755f449c03c34617f2ecbd813fed4ff2a7f885e706ebb
-    Title: OpenSSL provider use-after-free
-    Description: When performing transfers via libcurl’s multi interface, pooled TLS connections can outlive their originating easy handles. In OpenSSL 3 provider configurations, libcurl attaches an allocated library context to the easy handle's state and passes it to OpenSSL without acquiring an ownership reference; destroying the easy handle prematurely frees this context while the active connection retains a dangling pointer, leading to a heap-use-after-free upon subsequent I/O or post-handshake operations.
+    Fingerprint: sha256:7fc87a49a265a0cc294138f0f9bd7f740856d94f55337d5b76de14aab4d1cac0
+    Title: '[Unknown description]'
+    Description: '[Unknown description]'
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80230
     PkgID: curl@8.21.0-r0
@@ -97,16 +97,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80230
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:efa69cc41fe5032239c6c620a2470842e89f731128b5d47d073b676f3b8e1a14
-    Title: OpenSSL pinning bypass
-    Description: When `CURLOPT_PINNEDPUBLICKEY` is configured alongside options that disable standard peer verification (`CURLOPT_SSL_VERIFYPEER = 0` and `CURLOPT_SSL_VERIFYHOST = 0`), libcurl fails to enforce public key pinning on connections established without a presented server certificate. Bypassing the pinning check under these disabled-verification conditions allows unauthenticated connections to succeed when they should be rejected.
+    Fingerprint: sha256:8a2d9be728a9545b46f5d8ae83ad67d0cffee93737bd120a01a78d5cbb19b449
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80231
     PkgID: curl@8.21.0-r0
@@ -118,16 +118,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80231
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:aca20fef3bf387898329c0e752b131b1c021e0043ebea898f674a825b0fa91e3
-    Title: native CA store conn reuse
-    Description: A flaw in libcurl makes it wrongly reuse an existing HTTPS connection setup for a given hostname even when using a different Native CA Store setting (`CURLSSLOPT_NATIVE_CA`) than when the connection was created.
+    Fingerprint: sha256:e26c243cf6aaaedb8461676b0814238874da2106bea059f85a962e84f28b3b9d
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80255
     PkgID: curl@8.21.0-r0
@@ -139,16 +139,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80255
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:e5836e6eb629fb1a8bc70f25fd348d7c41a98de0f07dc70853a1d9a111273787
-    Title: secure cookie attribute bypass with tab
-    Description: A `Set-Cookie:` header using tab (horizontal tab, ASCII code 9) instead of space (ascii code 32) immediately before the `Secure` attribute causes curl to store the cookie without its Secure flag. The cookie might then wrongfully be sent over plaintext HTTP on subsequent requests to the same host.
+    Fingerprint: sha256:6be54a7ff79a4d9693e21958b60687ee8c475fed5e5443a578330ce2fb21258a
+    Title: '[Unknown description]'
+    Description: '[Unknown description]'
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80256
     PkgID: curl@8.21.0-r0
@@ -160,13 +160,13 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:a2c4e5ffadd55d2cbf290f9faf5dc1e539bd0fabc06e4ff7b1042717cd7e3a2f
+    Fingerprint: sha256:9084ddc4bc1cda16465929d9061b30d5cb6727d0d81e719b4b2547c9551c987b
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-82208
     PkgID: curl@8.21.0-r0
@@ -178,16 +178,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82208
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:077e4d12091b50658f4507ddd7e0ba859b1fc1522bb511975a495e6578a66b1e
-    Title: Title Not Available
-    Description: Description Not Available
+    Fingerprint: sha256:1228880b4d41e7eee9d614d2dfb6ac91d2a91521a11821df6a93dabfbe5887a3
+    Title: '[Unknown description]'
+    Description: '[Unknown description]'
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-82209
     PkgID: curl@8.21.0-r0
@@ -199,16 +199,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82209
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:b6619206ec291283b47d379ad3d8acec4ae54746e42fafa85c05e6733a2a2ac2
-    Title: domain-scoped PSL domain cookie
-    Description: When libpsl support is enabled, libcurl fails to enforce the Public Suffix List boundary check when processing a `Set-Cookie` header where the `Domain` attribute explicitly matches an origin host that is itself a public suffix (e.g., `Domain=co.uk` set by `co.uk`). Instead of coercing it into a strict host-only cookie, libcurl saves the cookie with wildcard domain scope (`.co.uk`). Consequently, the cookie is inappropriately included in subsequent outbound requests or HTTP redirects to arbitrary sibling subdomains under the same public suffix (e.g., `attacker.co.uk`).
+    Fingerprint: sha256:eea3a314c4f1bb49125d30dbd5974bd09ac9d1e9f979d3079f21ae29b3f4381d
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-26740
     PkgID: giflib@5.2.2-r1
@@ -220,14 +220,14 @@
     FixedVersion: 5.2.2-r2
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-26740
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:a8b35b4e9830baaa374a41625ee55f24b4d6129252af15587b1aa8c61eee3339
+    Fingerprint: sha256:bf9738c1dacd7b349aee4493557d9a64db1a43af8a7050147272c20bd28ee98e
     Title: 'giflib: giflib: Denial of Service via buffer overflow in EGifGCBToExtension'
     Description: Buffer Overflow vulnerability in giflib v.5.2.2 allows a remote attacker to cause a denial of service via the EGifGCBToExtension overwriting an existing Graphic Control Extension block without validating its allocated size.
     Severity: HIGH
@@ -267,11 +267,33 @@
     - https://access.redhat.com/errata/RHSA-2026:9689
     - https://access.redhat.com/errata/RHSA-2026:9693
     - https://access.redhat.com/security/cve/CVE-2026-26740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418711
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2438542
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2443891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448747
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460038
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460039
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460040
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460041
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460042
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460043
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460044
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460045
     - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22007
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22013
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22016
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22018
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22020
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22021
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-23865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-26740
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34268
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34282
     - https://errata.almalinux.org/9/ALSA-2026-9693.html
-    - https://errata.rockylinux.org/RLSA-2026:33501
+    - https://errata.rockylinux.org/RLSA-2026:9686
     - https://github.com/zakkanijia/POC/blob/main/giflib/giftool/giflib_giftool_gce_len_heap_oobwrite_disclosure.md
     - https://linux.oracle.com/cve/CVE-2026-26740.html
     - https://linux.oracle.com/errata/ELSA-2026-9693.html
@@ -291,14 +313,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-14456
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:213a4455101a347c497359ef54e45abc041a1fa63a8113747480200e97afd593
+    Fingerprint: sha256:28cf46fa160d0385e280a2e00ddd31d72facea36946d17558ad8ae3ef123948b
     Title: 'openssl: OpenSSL: Denial of Service via unbounded memory growth in QUIC server'
     Description: |-
       Issue summary: When an OpenSSL QUIC server (Listener SSL object) processes
@@ -366,14 +388,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18798
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:2f5e30de84053feb8e50d4b291f9e4a579580045f59f828864963ed0474eaf3e
+    Fingerprint: sha256:5a1586863548861eee5b21282850ed023e50c64d6172f056e79f8c8a06be3245
     Title: 'openssl: QUIC server may trigger double free when processing INITIAL packet'
     Description: |-
       Issue summary: QUIC server may double free QRX (QUIC record layer RX) object
@@ -436,14 +458,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63072
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:12fa624273c782ff25e954c1da83e414a5e373282a8712fd49e6ecada9d7725c
+    Fingerprint: sha256:c708dc5b2b8eec0dad70b956a028be76e0491c486585516559de101861a4d9a1
     Title: 'openssl: heap buffer overflow in CMS key unwrapping'
     Description: |-
       Issue summary: OpenSSL CMS decryption sizes the key-unwrap output buffer based
@@ -511,14 +533,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63076
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:316236dd7b6a977976defcabf7ae3c755e62b67c2a2d1dde5c481bb13edca518
+    Fingerprint: sha256:eb592132ae4ce63611ad14332310143b868425dd20db21e528e594eccafacd0e
     Title: 'openssl: invalid pointer dereference in CMP server via crafted protectionAlg'
     Description: |-
       Issue summary: OpenSSL CMP password based protection verification only
@@ -588,14 +610,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-14457
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:b72887e2daee622732ee62abf6ac74a99846e303fab5ec52767b4aa3dde0b26f
+    Fingerprint: sha256:039da1f9be1832b1782f9028ab9b3bf4301825f02e4a89e025e934f4abd6c615
     Title: 'openssl: RPK server signature algorithm selection can dereference a missing certificate'
     Description: |-
       Issue summary: In a server or client configuration with RFC7250 Raw Public Keys (RPKs)
@@ -658,14 +680,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54874
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:7f2c98d700b8c7a445f66c439aa11178fbb01e1aa7fa31338100c0bb2138cfb8
+    Fingerprint: sha256:523b8966e0db4ac8f81f27c787c2e69c968c0d2aa9767186d10abbb6e743c942
     Title: 'openssl: excessive memory use buffering DTLS records for a future epoch'
     Description: |-
       Issue summary: Receiving a DTLS record for a future epoch while a handshake
@@ -760,14 +782,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63073
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:af4abf658f2feffd5e6b644fc4d560a7c78cfbdc15bfe12a36be77dec7ea0b13
+    Fingerprint: sha256:afca6519ef5eb03ef2a8a0a82df2ba918675ba29e393021e1eafa7a8101ef8dc
     Title: 'openssl: untrusted sender DN used as format string in CMP response validation'
     Description: |-
       Issue summary: OpenSSL CMP response validation passed an unexpected response
@@ -831,14 +853,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63074
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:08095bbcea77c8602da08281278f5fa72992cb9e999d23180783d6a0083a18b8
+    Fingerprint: sha256:f550da071691371ec1f888423ce94dbd2f764adc3fc118449d8c564774e1b453
     Title: 'openssl: CMP indefinite cache growth of ExtraCerts'
     Description: |-
       Issue summary: The OpenSSL Certificate Management Protocol (CMP) caches
@@ -902,14 +924,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63075
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0a797147e681326ca792675d65b0beb88a44a7c43152fc9ab1f19f389ca9e482
+    Fingerprint: sha256:c1b5ab92a91ad4b13a91ea89c959eefcf41ae6372b5eb8ade62833954cce272f
     Title: 'openssl: QUIC ACK-only packet retention can cause memory exhaustion'
     Description: |-
       Issue summary: When OpenSSL processes QUIC traffic from a peer that repeatedly
@@ -974,14 +996,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75803
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:3f3a9f5a37b7f6eb2556188c161eff61e9f6b05d73fcd4e4397913b7d66eea4f
+    Fingerprint: sha256:6715c830678fe0f2737d1e7cfbd6c3b020648d236c789803a802b1d746ca6cc0
     Title: 'Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty  ...'
     Description: |-
       Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
@@ -1032,16 +1054,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-13608
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:a5b5b1dd8c3be5a1597145293c6fcaaea0d77b46d10197f927674a0d4eabad6b
-    Title: OpenLDAP SASL authentication bypass
-    Description: A flaw in the libcurl SASL negotiation for LDAP authentication allows an incomplete handshake sequence to be misinterpreted as a successful cryptographic verification. An attacker executing a Man-in-the-Middle (MITM) attack can inject a premature or shortcut response that bypasses complete peer validation.
+    Fingerprint: sha256:8e8fd151b01ce723d24d19a6259be39ee85735c284c13d43354e2fa1994955b2
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-18924
     PkgID: libcurl@8.21.0-r0
@@ -1053,16 +1075,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18924
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:4c6669dc4c683d24bb4ee936511a971714f7f128193d41a98236e0d61eafccab
-    Title: HTTP/2 server push UAF
-    Description: A flaw in libcurl's handling of HTTP/2 Server Push streams, when the parent handle is set to share connections with other handles, can lead to use-after-free in the cleanup process.
+    Fingerprint: sha256:236439d07a3c4ce0e77a5db44629299640f2840a988beaae451556eca3b630af
+    Title: '[Unknown description]'
+    Description: '[Unknown description]'
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-19931
     PkgID: libcurl@8.21.0-r0
@@ -1074,16 +1096,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19931
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:188421fa8c08da8f0a66255d1ef394beb5abe4f69e3cada93fe6cb04a6d58aa4
-    Title: Negotiate ambient user conn reuse
-    Description: A flaw in libcurl makes it wrongly reuse an HTTP connection setup for a given hostname using Negotiate authentication, when the initial request is done using empty credentials. This can make user B's request get sent over user A's previously authenticated connection.
+    Fingerprint: sha256:f481c96563d414ed7958e0710891b448ecce0eae5d47ebf899952b649cd90573
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80229
     PkgID: libcurl@8.21.0-r0
@@ -1095,16 +1117,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80229
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:16eb110ed7b146136d048c94949c5794f280615b89acc0e821159196e05f88d4
-    Title: OpenSSL provider use-after-free
-    Description: When performing transfers via libcurl’s multi interface, pooled TLS connections can outlive their originating easy handles. In OpenSSL 3 provider configurations, libcurl attaches an allocated library context to the easy handle's state and passes it to OpenSSL without acquiring an ownership reference; destroying the easy handle prematurely frees this context while the active connection retains a dangling pointer, leading to a heap-use-after-free upon subsequent I/O or post-handshake operations.
+    Fingerprint: sha256:274d0c62cde324e5107466fc4de11007e06aa503ab15a1ad0fd62fe8aa350d14
+    Title: '[Unknown description]'
+    Description: '[Unknown description]'
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80230
     PkgID: libcurl@8.21.0-r0
@@ -1116,16 +1138,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80230
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:2f62992c928d54e8e389ca536b6307fc0ad6ece50aa7945a68724cd6559da336
-    Title: OpenSSL pinning bypass
-    Description: When `CURLOPT_PINNEDPUBLICKEY` is configured alongside options that disable standard peer verification (`CURLOPT_SSL_VERIFYPEER = 0` and `CURLOPT_SSL_VERIFYHOST = 0`), libcurl fails to enforce public key pinning on connections established without a presented server certificate. Bypassing the pinning check under these disabled-verification conditions allows unauthenticated connections to succeed when they should be rejected.
+    Fingerprint: sha256:25f54415c176d88a08212d7b9d46f1342ef88b294ad3b80165d8ac4a3b515004
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80231
     PkgID: libcurl@8.21.0-r0
@@ -1137,16 +1159,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80231
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:93042674665e896308d2628633ed9921d378a2da88388a6b695da737c5849ac8
-    Title: native CA store conn reuse
-    Description: A flaw in libcurl makes it wrongly reuse an existing HTTPS connection setup for a given hostname even when using a different Native CA Store setting (`CURLSSLOPT_NATIVE_CA`) than when the connection was created.
+    Fingerprint: sha256:e71b2a1d9dd2a3c683f6b594a2f91786dc1ab94e3e6371bf431d8eb22c7707fd
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80255
     PkgID: libcurl@8.21.0-r0
@@ -1158,16 +1180,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80255
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:989190c8dafdb726e312c6da0f583c0e8c8ca483866458b254731ac855ac179a
-    Title: secure cookie attribute bypass with tab
-    Description: A `Set-Cookie:` header using tab (horizontal tab, ASCII code 9) instead of space (ascii code 32) immediately before the `Secure` attribute causes curl to store the cookie without its Secure flag. The cookie might then wrongfully be sent over plaintext HTTP on subsequent requests to the same host.
+    Fingerprint: sha256:9dce9ea2971221e197a8f115069b878fde47c0cb1a27571cb23b37d2ca89973a
+    Title: '[Unknown description]'
+    Description: '[Unknown description]'
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80256
     PkgID: libcurl@8.21.0-r0
@@ -1179,13 +1201,13 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:840aa6a52e9d94965cf8a3146ef1b7ac6abdf6da5c032d8c8e049a024d3ad772
+    Fingerprint: sha256:0c07c35839ab6c9ff447bcde81302c3a54b11aea0312ab60ac3393bdc04fcde8
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-82208
     PkgID: libcurl@8.21.0-r0
@@ -1197,16 +1219,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82208
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:db2faa8f8e453c9395def236a3da6d5cccf2474c0017d83a7229718c64997a06
-    Title: Title Not Available
-    Description: Description Not Available
+    Fingerprint: sha256:cd982129fb113c812c6774c91db986c4a917274cfc7f3d8ed742578fe434f81b
+    Title: '[Unknown description]'
+    Description: '[Unknown description]'
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-82209
     PkgID: libcurl@8.21.0-r0
@@ -1218,16 +1240,16 @@
     FixedVersion: 8.22.0-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82209
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:ab8433d7c44ae9ebd84a9c60b3cbcf51ffe1ef458fd428c1df4a22f38825f7f5
-    Title: domain-scoped PSL domain cookie
-    Description: When libpsl support is enabled, libcurl fails to enforce the Public Suffix List boundary check when processing a `Set-Cookie` header where the `Domain` attribute explicitly matches an origin host that is itself a public suffix (e.g., `Domain=co.uk` set by `co.uk`). Instead of coercing it into a strict host-only cookie, libcurl saves the cookie with wildcard domain scope (`.co.uk`). Consequently, the cookie is inappropriately included in subsequent outbound requests or HTTP redirects to arbitrary sibling subdomains under the same public suffix (e.g., `attacker.co.uk`).
+    Fingerprint: sha256:6ab153bf028277accdd38b81b181c67007ae65f1273faccfd258c53ede28ee37
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-14456
     PkgID: libssl3@3.5.7-r0
@@ -1239,14 +1261,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-14456
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:24b597cba106817c79af620118ab5a8a6593120cde7ded9f0b3558047899dee0
+    Fingerprint: sha256:62c16ef693edb9d7b139eeff99ea6e682c9b0862ea8d577119b2ac51c8cd6efc
     Title: 'openssl: OpenSSL: Denial of Service via unbounded memory growth in QUIC server'
     Description: |-
       Issue summary: When an OpenSSL QUIC server (Listener SSL object) processes
@@ -1314,14 +1336,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18798
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:ad88bed007e2eb746c84fe7f238d8984d2168735e6e14b6a6848b2d8986b46c9
+    Fingerprint: sha256:e8ae61ab94e13fcc8368bb2124a5dba9c80009e386ebcb138784232ec45004ab
     Title: 'openssl: QUIC server may trigger double free when processing INITIAL packet'
     Description: |-
       Issue summary: QUIC server may double free QRX (QUIC record layer RX) object
@@ -1384,14 +1406,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63072
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:ceddaf1aba54889e8063cb67c685284f7182d1cacbaac9588c46dd96255b8bd7
+    Fingerprint: sha256:76ce5640c4f8dd6898c4386d744662a1f00f593daf917a5457a9e10a49daf2b5
     Title: 'openssl: heap buffer overflow in CMS key unwrapping'
     Description: |-
       Issue summary: OpenSSL CMS decryption sizes the key-unwrap output buffer based
@@ -1459,14 +1481,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63076
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:cfda7fd00888b58907fa784e07b48e74dd0ccb1e0b3b349903ad242849fe6def
+    Fingerprint: sha256:d10f5d4e0602d9bc7ead3dfcc4bb6d3990cd2a8c48e93d15e9ebbb837d0a52ec
     Title: 'openssl: invalid pointer dereference in CMP server via crafted protectionAlg'
     Description: |-
       Issue summary: OpenSSL CMP password based protection verification only
@@ -1536,14 +1558,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-14457
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:18433121bf6c594f2e7e1b0d1ba6616f3769a8d98b934e2efe1e881011dc94bd
+    Fingerprint: sha256:65375b666ad47f6cf230cc8f7d5208e2eb40c209090e8e7c7f14a2db48a0d1f3
     Title: 'openssl: RPK server signature algorithm selection can dereference a missing certificate'
     Description: |-
       Issue summary: In a server or client configuration with RFC7250 Raw Public Keys (RPKs)
@@ -1606,14 +1628,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54874
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:585e3afe7bdab27f3c0c2b0f53dd5bf25bb0db09d04cc8ff5f43707549d84b64
+    Fingerprint: sha256:c671ffacdae4d1c8f43a5eac97253afd9314c16c6caaea6553afc4d0838b1011
     Title: 'openssl: excessive memory use buffering DTLS records for a future epoch'
     Description: |-
       Issue summary: Receiving a DTLS record for a future epoch while a handshake
@@ -1708,14 +1730,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63073
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:b7808bdea0b774a57cf12b454d0af6815549993e80885f01718f2049666f2258
+    Fingerprint: sha256:631bc4ebe8a11cdc2d0740609bfbd0c8630249eb7c1b6e79bb47a8d68e69db49
     Title: 'openssl: untrusted sender DN used as format string in CMP response validation'
     Description: |-
       Issue summary: OpenSSL CMP response validation passed an unexpected response
@@ -1779,14 +1801,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63074
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:8c485a307a42ba8a251a894ce2d58d107516564bf74b910a556b6ba7510794fa
+    Fingerprint: sha256:0f0c9fba6325af557b7e046ffe0b04f76c53830e9ab553ad1c6b1d24cc10a7a7
     Title: 'openssl: CMP indefinite cache growth of ExtraCerts'
     Description: |-
       Issue summary: The OpenSSL Certificate Management Protocol (CMP) caches
@@ -1850,14 +1872,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63075
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:e7640d6423ad441f5dab3dad6782e468e14f249b603622872b04511597afa4ce
+    Fingerprint: sha256:50eb842dbf1c22845190732e4cf6e8319c3e13a0d7ee3858696439d8041c1f40
     Title: 'openssl: QUIC ACK-only packet retention can cause memory exhaustion'
     Description: |-
       Issue summary: When OpenSSL processes QUIC traffic from a peer that repeatedly
@@ -1922,14 +1944,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75803
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:2dc3fa4ec9f136cf4aabae6baab920b925319d6ec19542a750bcdd45e7f04a31
+    Fingerprint: sha256:02ab65794f70b34c9f8391ba1d3fe97bfee568976e0571cfb9c64f1918e14cd1
     Title: 'Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty  ...'
     Description: |-
       Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
@@ -1980,15 +2002,15 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-41254
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:ad66b9eb2120bcfac04433e12c309e82be28f885e5bfa3aa9bda61e4385b843b
+    Fingerprint: sha256:19f7380f0a869bf8ed0e46182639b36a37c99cc47a3992263d71dc3a9cd25855
     Title: 'Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information disclosure or denial of service via integer overflow in CubeSize'
     Description: Little CMS (lcms2) through 2.18 has an integer overflow in CubeSize in cmslut.c because the overflow check is performed after the multiplication.
     Severity: HIGH
@@ -2021,6 +2043,7 @@
         V3Score: 6.1
     References:
     - https://abhinavagarwal07.github.io/posts/lcms2-cubesize-overflow/
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-41254
     - https://bugzilla.redhat.com/2459420
@@ -2052,7 +2075,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://github.com/mm2/Little-CMS/commit/da6110b1d14abc394633a388209abd5ebedd7ab0
     - https://github.com/mm2/Little-CMS/commit/e0641b1828d0a1af5ecb1b11fe22f24fceefd4bc
     - https://github.com/mm2/Little-CMS/commit/e0641b1828d0a1af5ecb1b11fe22f24fceefd4bc#commitcomment-183284136
@@ -2078,14 +2101,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47063
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f25b4fd4f8c9d09799e5fec3f6914707b4a36873f78cdc2ae17dd1b5b69b386b
+    Fingerprint: sha256:7a49ab8a5028609d4048809c7033cd054d09cfb06fbff1ae3517b14090acfe00
     Title: 'openjdk: Enhance Jar handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.5 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N).'
     Severity: HIGH
@@ -2107,6 +2130,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-47063
     - https://bugzilla.redhat.com/2459420
@@ -2138,7 +2162,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-47063.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-47063
@@ -2166,14 +2190,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62574
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:00d389f0a66b055e751526d0a4b767cd18aa0a6ce06fd9efae8f6f7a8f71dca3
+    Fingerprint: sha256:6e53add3fb53168c332ad6c84d85dd3d1cc39322befa9607781bbf1ac8124590
     Title: Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Orac ...
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Install).  Supported versions that are affected are Oracle Java SE: 8u501, 11.0.32, 17.0.20, 21.0.12, 25.0.4, 26.0.2; Oracle GraalVM for JDK: 17.0.20 and  21.0.12; Oracle GraalVM Enterprise Edition: 21.3.19. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition executes to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).'
     Severity: HIGH
@@ -2202,14 +2226,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-46917
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:612fd51d670f6e71e290996c21522980dc27ce3d920121d6af33f569b8580bc9
+    Fingerprint: sha256:56d67558b1ab6dbfff21e0265045d9a0f4e92aa2339c4fffcb0475ce80a2bfe1
     Title: 'openjdk: Improve DTLS handshaking (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
@@ -2231,6 +2255,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-46917
     - https://bugzilla.redhat.com/2459420
@@ -2262,7 +2287,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-46917.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-46917
@@ -2289,14 +2314,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-46968
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:13101e20c6387d589c81ffc8fd826be20b2f52d0b2630fcc521f043ef2b23a67
+    Fingerprint: sha256:31e0fa941174176d144690854de9d83141905bed01f8771fb60e13ff36ce2ddc
     Title: 'openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.9 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N).'
     Severity: MEDIUM
@@ -2318,6 +2343,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-46968
     - https://bugzilla.redhat.com/2459420
@@ -2349,7 +2375,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-46968.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-46968
@@ -2377,14 +2403,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47021
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:d54b7d8c07aa356bc6fa81fde53b9119c300854d3407531c465d3abafeeec05e
+    Fingerprint: sha256:cd07a42c621d39595a3146a71c8f94d90d4e123b4f907c840090d2f7fd1630fb
     Title: 'openjdk: Enhance XBM image support (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
@@ -2406,6 +2432,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-47021
     - https://bugzilla.redhat.com/2459420
@@ -2437,7 +2464,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-47021.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-47021
@@ -2465,14 +2492,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47027
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:659ede87819f167a0a3c84a148e81f4aa3d6b208867d948a8e1dc375a0f6aef4
+    Fingerprint: sha256:485a5f56f8c03f503b2adc46ed32fa8860d0f33d5880708a2ffd19e3b55693e7
     Title: 'openjdk: Enhance Jar file processing (Oracle CPU 2026-07)'
     Description: 'Vulnerability in Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
@@ -2494,6 +2521,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-47027
     - https://bugzilla.redhat.com/2459420
@@ -2525,7 +2553,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-47027.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-47027
@@ -2553,14 +2581,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-60147
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:edd2e00ff42f7928fbb70a3885852bf1b3165700de97a6060ff6bee78c70d602
+    Fingerprint: sha256:acc5c68eb98af45f1cfe76ef3bd3ab0fee2036bcfef05e7991581d30feb03803
     Title: 'openjdk: Improve certification checking (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.5 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
@@ -2582,6 +2610,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-60147
     - https://bugzilla.redhat.com/2459420
@@ -2613,7 +2642,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-60147.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-60147
@@ -2641,14 +2670,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47010
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:ce1891a98babb159ad65cfd404cf32964351809ed7f3f1d2a339778bb43a61a2
+    Fingerprint: sha256:6400637349c56b6db5b33781316b3c7a560908de3ac5475f886fac528b5f364b
     Title: 'openjdk: Enhance JPEG handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: LOW
@@ -2670,6 +2699,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-47010
     - https://bugzilla.redhat.com/2459420
@@ -2701,7 +2731,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-47010.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-47010
@@ -2729,14 +2759,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47059
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:a3b5c33756e86d195fe3c0a1cba88b37873ecac4a0e4166cfe64500ffcf572dd
+    Fingerprint: sha256:04f1b246294d4f85aa1a801633ece053877705771d40021c42e843a738314a10
     Title: 'openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: LOW
@@ -2758,6 +2788,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-47059
     - https://bugzilla.redhat.com/2459420
@@ -2789,7 +2820,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-47059.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-47059
@@ -2817,15 +2848,15 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-41254
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:c81b135b9ee8a3dbfee8b8e20b2b5929b54dbd9486bbf3ef35e4fd9b1c2771e3
+    Fingerprint: sha256:3592bab2e172a5f742ffdb052f1c04277126f41f9b99a2eaf630a5bf22d2c2a9
     Title: 'Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information disclosure or denial of service via integer overflow in CubeSize'
     Description: Little CMS (lcms2) through 2.18 has an integer overflow in CubeSize in cmslut.c because the overflow check is performed after the multiplication.
     Severity: HIGH
@@ -2858,6 +2889,7 @@
         V3Score: 6.1
     References:
     - https://abhinavagarwal07.github.io/posts/lcms2-cubesize-overflow/
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-41254
     - https://bugzilla.redhat.com/2459420
@@ -2889,7 +2921,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://github.com/mm2/Little-CMS/commit/da6110b1d14abc394633a388209abd5ebedd7ab0
     - https://github.com/mm2/Little-CMS/commit/e0641b1828d0a1af5ecb1b11fe22f24fceefd4bc
     - https://github.com/mm2/Little-CMS/commit/e0641b1828d0a1af5ecb1b11fe22f24fceefd4bc#commitcomment-183284136
@@ -2915,14 +2947,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47063
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:570d2fb91f55b80d10bd19940c07e475320a94dd89735632f48dd29214d95a39
+    Fingerprint: sha256:d1d7bb2b1d6075b333e35a1d1ee6748b8669bced39d5ddfd2f017a2b565e640c
     Title: 'openjdk: Enhance Jar handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.5 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N).'
     Severity: HIGH
@@ -2944,6 +2976,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-47063
     - https://bugzilla.redhat.com/2459420
@@ -2975,7 +3008,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-47063.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-47063
@@ -3003,14 +3036,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62574
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:eb618715af21b4c59376bfd8e4c4a4d6a6f281af60f7e9e79d3c5e29c9260c79
+    Fingerprint: sha256:bd9732490621ea7e00457b2a5c3d2dfb36d9352d8652e01447ace870c962ac24
     Title: Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Orac ...
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Install).  Supported versions that are affected are Oracle Java SE: 8u501, 11.0.32, 17.0.20, 21.0.12, 25.0.4, 26.0.2; Oracle GraalVM for JDK: 17.0.20 and  21.0.12; Oracle GraalVM Enterprise Edition: 21.3.19. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition executes to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).'
     Severity: HIGH
@@ -3039,14 +3072,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-46917
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:eb1d190b15aaf060372f5795101bfe0d073ab80242868b3d521394def4ba2343
+    Fingerprint: sha256:fa4ad85b45b58ec493e920b95c842f4cd5dd7d3ed190708dcb946942182d9dd5
     Title: 'openjdk: Improve DTLS handshaking (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
@@ -3068,6 +3101,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-46917
     - https://bugzilla.redhat.com/2459420
@@ -3099,7 +3133,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-46917.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-46917
@@ -3126,14 +3160,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-46968
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:8223b49bc3a8785161a7971ebfdab8f762c7ff6eed90f3fcfb3c1006d14593f3
+    Fingerprint: sha256:31552609f78634b7b9a76bd6be2985cfa81240479a74a17018ca23e03c4bfa52
     Title: 'openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.9 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N).'
     Severity: MEDIUM
@@ -3155,6 +3189,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-46968
     - https://bugzilla.redhat.com/2459420
@@ -3186,7 +3221,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-46968.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-46968
@@ -3214,14 +3249,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47021
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f4847ae487588e2980749d0717e6ce142debfd4c738499acb7aae0dc6e1616af
+    Fingerprint: sha256:cdd10bbf8de10a179b76781b307b58a7e216939ae859a0e3497412c565cfaf7a
     Title: 'openjdk: Enhance XBM image support (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
@@ -3243,6 +3278,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-47021
     - https://bugzilla.redhat.com/2459420
@@ -3274,7 +3310,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-47021.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-47021
@@ -3302,14 +3338,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47027
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:9623836e5f5617618b6063ef2613ae887a775b37fe301b3dcbba4d20ce4c0448
+    Fingerprint: sha256:0b4d1efd4eba706bda04b40bb7b444588136505e2c5d226858f445769f89b5b9
     Title: 'openjdk: Enhance Jar file processing (Oracle CPU 2026-07)'
     Description: 'Vulnerability in Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
@@ -3331,6 +3367,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-47027
     - https://bugzilla.redhat.com/2459420
@@ -3362,7 +3399,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-47027.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-47027
@@ -3390,14 +3427,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-60147
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:4a236c6b5acba970c39cf531f0d3f517f6cf8f06c4d703711784bf845cd4f2e5
+    Fingerprint: sha256:ef550fcb44e3335ae2897da4a694381a90a05cfcab1e9d2d0777bd55fb665d05
     Title: 'openjdk: Improve certification checking (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.5 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
@@ -3419,6 +3456,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-60147
     - https://bugzilla.redhat.com/2459420
@@ -3450,7 +3488,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-60147.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-60147
@@ -3478,14 +3516,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47010
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:4026c9e73779db60e962bd5012fddadef6fb25806e39c8ddbf60ba3b3db3022e
+    Fingerprint: sha256:e7aa71ec2c2e5a90a4d4f617cfbdf4f65266cadad9b0e89716eafca081af5a27
     Title: 'openjdk: Enhance JPEG handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: LOW
@@ -3507,6 +3545,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-47010
     - https://bugzilla.redhat.com/2459420
@@ -3538,7 +3577,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-47010.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-47010
@@ -3566,14 +3605,14 @@
     FixedVersion: 21.0.12_p8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47059
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:a7fd61324e651237638f46b796923326b48937a954ebc0631cbbef836b91f1a2
+    Fingerprint: sha256:1bb5e664fc8595244d9bca0af9d770f0feb65ee9083faef42e48759eb4eddda0
     Title: 'openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: LOW
@@ -3595,6 +3634,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42887
     - https://access.redhat.com/errata/RHSA-2026:42899
     - https://access.redhat.com/security/cve/CVE-2026-47059
     - https://bugzilla.redhat.com/2459420
@@ -3626,7 +3666,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-47063
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60147
     - https://errata.almalinux.org/9/ALSA-2026-42899.html
-    - https://errata.rockylinux.org/RLSA-2026:42899
+    - https://errata.rockylinux.org/RLSA-2026:42887
     - https://linux.oracle.com/cve/CVE-2026-47059.html
     - https://linux.oracle.com/errata/ELSA-2026-42899.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-47059
@@ -3654,14 +3694,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-14456
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:6d48f3a4a87c44be29921f9b06c0a7f013acb18267a80adb42f5b0c8c90fa238
+    Fingerprint: sha256:3c6a0ba5e597e4d6c23936635d7593a5dfdaeb72b659b6b7b45e41b4e6f4f22f
     Title: 'openssl: OpenSSL: Denial of Service via unbounded memory growth in QUIC server'
     Description: |-
       Issue summary: When an OpenSSL QUIC server (Listener SSL object) processes
@@ -3729,14 +3769,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18798
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:1928b1f6f8117c01329a5de45cb471107e067fc253c680d313a67f2523ae1f85
+    Fingerprint: sha256:e1f50554cd15b5c2f44a3b418d7d153e1d936e2a1d544fb9aca7fb6307963d5e
     Title: 'openssl: QUIC server may trigger double free when processing INITIAL packet'
     Description: |-
       Issue summary: QUIC server may double free QRX (QUIC record layer RX) object
@@ -3799,14 +3839,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63072
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:081992daf178235e435a559fb82479048519e71f33c16cffe291d86ef38b5bcf
+    Fingerprint: sha256:7e436842dc6d7242c14fc0d29c4376c51843311e4f15aba6e98d83b135f878e7
     Title: 'openssl: heap buffer overflow in CMS key unwrapping'
     Description: |-
       Issue summary: OpenSSL CMS decryption sizes the key-unwrap output buffer based
@@ -3874,14 +3914,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63076
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0a8c11ed129f5d7215c1f97235c2c4eae856e3ab59da813cf85f1abf2d350df7
+    Fingerprint: sha256:b78215bf5859a46d67c3c0ff5b6f5791de46a5c54a65eaa06ab6493bd9a25391
     Title: 'openssl: invalid pointer dereference in CMP server via crafted protectionAlg'
     Description: |-
       Issue summary: OpenSSL CMP password based protection verification only
@@ -3951,14 +3991,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-14457
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:4e4327d2c4fee7c5f56fefad924c2d65ff9d849c97691e9650776544542e8bd2
+    Fingerprint: sha256:6eb83fdd6da532214dd0c3d7c29067c5965e9c7b9e77700d3c4057149dc9fe81
     Title: 'openssl: RPK server signature algorithm selection can dereference a missing certificate'
     Description: |-
       Issue summary: In a server or client configuration with RFC7250 Raw Public Keys (RPKs)
@@ -4021,14 +4061,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54874
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:7385ff92635ff69e9febda1a0051399cf21c59fb9c26628a800c62672fe3db8b
+    Fingerprint: sha256:62c88506ad73072e2e8ce3b390801c1eb96ed2db986d59a42fb117e141f24d45
     Title: 'openssl: excessive memory use buffering DTLS records for a future epoch'
     Description: |-
       Issue summary: Receiving a DTLS record for a future epoch while a handshake
@@ -4123,14 +4163,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63073
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:a16cc28156568398e0e4b40c9328cb031b15ea5fb0748ec54c33d515377af13e
+    Fingerprint: sha256:253348b576d419a07adafcd3c828c820d5546396ad0c35ed9ce8ca93cc1ffe11
     Title: 'openssl: untrusted sender DN used as format string in CMP response validation'
     Description: |-
       Issue summary: OpenSSL CMP response validation passed an unexpected response
@@ -4194,14 +4234,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63074
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:cfd5788acb74fbb4219e199e004bc64497a78146bfc056a313951311a4045747
+    Fingerprint: sha256:e7e0850ccf58e81827d6986eddb9dab081b2118f842b3c441203aaa444434f4a
     Title: 'openssl: CMP indefinite cache growth of ExtraCerts'
     Description: |-
       Issue summary: The OpenSSL Certificate Management Protocol (CMP) caches
@@ -4265,14 +4305,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63075
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:9a317a667e2e875b10ffc9da4de2ef48169b10957f74040238dae16132bc8afd
+    Fingerprint: sha256:b7461ef03d983076797b9944314eea2922adf8a208c4d10e4785fb68fd4b95ae
     Title: 'openssl: QUIC ACK-only packet retention can cause memory exhaustion'
     Description: |-
       Issue summary: When OpenSSL processes QUIC traffic from a peer that repeatedly
@@ -4337,14 +4377,14 @@
     FixedVersion: 3.5.8-r0
     Status: fixed
     Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+      Digest: sha256:d2aac034fa26fd89670397d114dffee34f1bb5f870d137d07e38897c29b1bba1
+      DiffID: sha256:5d4a69bf91adf1b0300e775d2a8db7a8502119171124f2aa32454757122927e7
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75803
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:7f64283fb6ceabd65179c8634c085d8064cc0b457842deabf92b490c74b6f044
+    Fingerprint: sha256:a295f097e961aee53f166e377926002bce3ca0ff00b74224a650e7421f98a01b
     Title: 'Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty  ...'
     Description: |-
       Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
