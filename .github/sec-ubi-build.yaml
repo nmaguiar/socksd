@@ -2505,10 +2505,12 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 2
       amazon: 3
       azure: 1
       julia: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2522,8 +2524,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 4.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:64812
     - https://access.redhat.com/security/cve/CVE-2026-50219
+    - https://bugzilla.redhat.com/2484620
+    - https://bugzilla.redhat.com/2490669
+    - https://errata.almalinux.org/9/ALSA-2026-64812.html
     - https://github.com/libexpat/libexpat/pull/1246
+    - https://linux.oracle.com/cve/CVE-2026-50219.html
+    - https://linux.oracle.com/errata/ELSA-2026-64812-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-50219
     - https://www.cve.org/CVERecord?id=CVE-2026-50219
     PublishedDate: '2026-06-04T06:16:25.05Z'
@@ -2548,10 +2556,12 @@
     CweIDs:
     - CWE-821
     VendorSeverity:
+      alma: 2
       amazon: 3
       azure: 2
       julia: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2565,8 +2575,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
         V3Score: 6.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:64812
     - https://access.redhat.com/security/cve/CVE-2026-56132
+    - https://bugzilla.redhat.com/2484620
+    - https://bugzilla.redhat.com/2490669
+    - https://errata.almalinux.org/9/ALSA-2026-64812.html
     - https://github.com/libexpat/libexpat/pull/1272
+    - https://linux.oracle.com/cve/CVE-2026-56132.html
+    - https://linux.oracle.com/errata/ELSA-2026-64812-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56132
     - https://www.cve.org/CVERecord?id=CVE-2026-56132
     PublishedDate: '2026-06-19T06:17:10.253Z'
@@ -3024,7 +3040,9 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      alma: 2
       amazon: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3032,14 +3050,20 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H
         V3Score: 7.1
     References:
+    - https://access.redhat.com/errata/RHSA-2026:64799
+    - https://access.redhat.com/errata/RHSA-2026:64800
     - https://access.redhat.com/security/cve/CVE-2026-16118
+    - https://bugzilla.redhat.com/2501732
     - https://bugzilla.redhat.com/show_bug.cgi?id=2501732
+    - https://errata.almalinux.org/9/ALSA-2026-64800.html
     - https://gitlab.freedesktop.org/xdg/xdgmime/-/work_items/41
     - https://gitlab.gnome.org/GNOME/glib/-/work_items/3992
+    - https://linux.oracle.com/cve/CVE-2026-16118.html
+    - https://linux.oracle.com/errata/ELSA-2026-64800-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-16118
     - https://www.cve.org/CVERecord?id=CVE-2026-16118
     PublishedDate: '2026-07-17T20:17:16.167Z'
-    LastModifiedDate: '2026-09-03T13:04:35.397Z'
+    LastModifiedDate: '2026-09-08T13:17:17.507Z'
   - VulnerabilityID: CVE-2023-32636
     PkgID: glib2@2.68.4-19.el9_8.9.x86_64
     PkgName: glib2
@@ -3537,6 +3561,7 @@
     - https://linux.oracle.com/errata/ELSA-2026-61625-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-41991
     - https://ubuntu.com/security/notices/USN-8512-1
+    - https://ubuntu.com/security/notices/USN-8733-1
     - https://www.cve.org/CVERecord?id=CVE-2026-41991
     - https://www.gnu.org/software/gzip
     - https://www.gnu.org/software/gzip/
@@ -3659,7 +3684,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       julia: 2
@@ -4391,7 +4416,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-16517
     - https://www.cve.org/CVERecord?id=CVE-2026-16517
     PublishedDate: '2026-07-21T23:17:00.587Z'
-    LastModifiedDate: '2026-09-01T13:18:11.36Z'
+    LastModifiedDate: '2026-09-09T06:17:15.167Z'
   - VulnerabilityID: CVE-2026-13595
     PkgID: libblkid@2.37.4-25.el9.x86_64
     PkgName: libblkid
@@ -9656,7 +9681,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -9847,7 +9872,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -9941,7 +9966,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -10040,7 +10065,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -10338,7 +10363,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -10435,7 +10460,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       nvd: 3
@@ -10669,7 +10694,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -10979,7 +11004,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -11019,7 +11044,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -11210,7 +11235,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -11304,7 +11329,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -11403,7 +11428,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -11701,7 +11726,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -11798,7 +11823,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       nvd: 3
@@ -12032,7 +12057,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -12342,7 +12367,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -12382,7 +12407,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -12573,7 +12598,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -12667,7 +12692,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -12766,7 +12791,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -13064,7 +13089,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -13161,7 +13186,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       nvd: 3
@@ -13395,7 +13420,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -13705,7 +13730,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -14805,9 +14830,11 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      alma: 2
       azure: 1
       julia: 1
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 1
@@ -14825,10 +14852,15 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/31/13
+    - https://access.redhat.com/errata/RHSA-2026:64787
     - https://access.redhat.com/security/cve/CVE-2026-34743
+    - https://bugzilla.redhat.com/2454589
+    - https://errata.almalinux.org/10/ALSA-2026-64787.html
     - https://github.com/tukaani-project/xz/commit/c8c22869e780ff57c96b46939c3d79ff99395f87
     - https://github.com/tukaani-project/xz/releases/tag/v5.8.3
     - https://github.com/tukaani-project/xz/security/advisories/GHSA-x872-m794-cxhv
+    - https://linux.oracle.com/cve/CVE-2026-34743.html
+    - https://linux.oracle.com/errata/ELSA-2026-64787-0.html
     - https://lists.debian.org/debian-lts-announce/2026/07/msg00034.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34743
     - https://tukaani.org/xz/index-append-overflow.html
