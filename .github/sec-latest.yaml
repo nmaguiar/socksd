@@ -600,6 +600,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -677,6 +678,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -991,6 +993,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1128,6 +1131,7 @@
     CweIDs:
     - CWE-354
     VendorSeverity:
+      azure: 1
       ubuntu: 1
     References:
     - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
@@ -1135,6 +1139,7 @@
     - https://github.com/openssl/openssl/commit/6c7aa6f8f6449b7fe0137ee8be65fcd239bd7d6a
     - https://github.com/openssl/openssl/commit/bdeb0cd994d915342787f117ee75044f0dc36f34
     - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75803
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://ubuntu.com/security/notices/USN-8678-3
@@ -1667,6 +1672,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1744,6 +1750,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2058,6 +2065,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2195,6 +2203,7 @@
     CweIDs:
     - CWE-354
     VendorSeverity:
+      azure: 1
       ubuntu: 1
     References:
     - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
@@ -2202,6 +2211,7 @@
     - https://github.com/openssl/openssl/commit/6c7aa6f8f6449b7fe0137ee8be65fcd239bd7d6a
     - https://github.com/openssl/openssl/commit/bdeb0cd994d915342787f117ee75044f0dc36f34
     - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75803
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://ubuntu.com/security/notices/USN-8678-3
@@ -4082,6 +4092,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -4159,6 +4170,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -4473,6 +4485,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -4610,6 +4623,7 @@
     CweIDs:
     - CWE-354
     VendorSeverity:
+      azure: 1
       ubuntu: 1
     References:
     - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
@@ -4617,6 +4631,7 @@
     - https://github.com/openssl/openssl/commit/6c7aa6f8f6449b7fe0137ee8be65fcd239bd7d6a
     - https://github.com/openssl/openssl/commit/bdeb0cd994d915342787f117ee75044f0dc36f34
     - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75803
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://ubuntu.com/security/notices/USN-8678-3
