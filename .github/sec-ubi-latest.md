@@ -2898,6 +2898,7 @@
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
+│                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                  │        │           L/A:L 
@@ -2908,16 +2909,24 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 4.9 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:64812 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-50219 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2484620 
-│                       │       │                  ├ [3]: https://bugzilla.redhat.com/2490669 
-│                       │       │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2026-64812.html 
-│                       │       │                  ├ [5]: https://github.com/libexpat/libexpat/pull/1246 
-│                       │       │                  ├ [6]: https://linux.oracle.com/cve/CVE-2026-50219.html 
-│                       │       │                  ├ [7]: https://linux.oracle.com/errata/ELSA-2026-64812-0.html 
-│                       │       │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2026-50219 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-50219 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:64812 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-50219 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2484620 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2490669 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2484620 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2490669 
+│                       │       │                  ├ [6] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-50219 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-56132 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2026-64812.html 
+│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:64812 
+│                       │       │                  ├ [11]: https://github.com/libexpat/libexpat/pull/1246 
+│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-50219.html 
+│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-64812-0.html 
+│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-50219 
+│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-50219 
 │                       │       ├ PublishedDate   : 2026-06-04T06:16:25.05Z 
 │                       │       ╰ LastModifiedDate: 2026-07-22T20:10:00.127Z 
 │                       ├ [46]  ╭ VulnerabilityID : CVE-2026-56132 
@@ -2951,6 +2960,7 @@
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
+│                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                  │        │           H/A:L 
@@ -2961,16 +2971,24 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:L 
 │                       │       │                           ╰ V3Score : 6.9 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:64812 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-56132 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2484620 
-│                       │       │                  ├ [3]: https://bugzilla.redhat.com/2490669 
-│                       │       │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2026-64812.html 
-│                       │       │                  ├ [5]: https://github.com/libexpat/libexpat/pull/1272 
-│                       │       │                  ├ [6]: https://linux.oracle.com/cve/CVE-2026-56132.html 
-│                       │       │                  ├ [7]: https://linux.oracle.com/errata/ELSA-2026-64812-0.html 
-│                       │       │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2026-56132 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-56132 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:64812 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-56132 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2484620 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2490669 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2484620 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2490669 
+│                       │       │                  ├ [6] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-50219 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-56132 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2026-64812.html 
+│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:64812 
+│                       │       │                  ├ [11]: https://github.com/libexpat/libexpat/pull/1272 
+│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-56132.html 
+│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-64812-0.html 
+│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-56132 
+│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-56132 
 │                       │       ├ PublishedDate   : 2026-06-19T06:17:10.253Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T20:15:26.23Z 
 │                       ├ [47]  ╭ VulnerabilityID : CVE-2026-56403 
@@ -3471,6 +3489,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
+│                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
 │                       │       │                           │           H/A:H 
@@ -3480,14 +3499,18 @@
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-16118 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2501732 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2501732 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2026-64800.html 
-│                       │       │                  ├ [6] : https://gitlab.freedesktop.org/xdg/xdgmime/-/work_it
+│                       │       │                  ├ [5] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-16118 
+│                       │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2026-64800.html 
+│                       │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:64800 
+│                       │       │                  ├ [9] : https://gitlab.freedesktop.org/xdg/xdgmime/-/work_it
 │                       │       │                  │       ems/41 
-│                       │       │                  ├ [7] : https://gitlab.gnome.org/GNOME/glib/-/work_items/3992 
-│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2026-16118.html 
-│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2026-64800-0.html 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-16118 
-│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-16118 
+│                       │       │                  ├ [10]: https://gitlab.gnome.org/GNOME/glib/-/work_items/3992 
+│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2026-16118.html 
+│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-64800-0.html 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-16118 
+│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-16118 
 │                       │       ├ PublishedDate   : 2026-07-17T20:17:16.167Z 
 │                       │       ╰ LastModifiedDate: 2026-09-08T13:17:17.507Z 
 │                       ├ [58]  ╭ VulnerabilityID : CVE-2023-32636 
@@ -4050,7 +4073,7 @@
 │                       │       │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:61623 
 │                       │       │                  ├ [13]: https://github.com/advisories/GHSA-67v8-88jf-4x6q 
 │                       │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-41991.html 
-│                       │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-61625-0.html 
+│                       │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-65998-0.html 
 │                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-41991 
 │                       │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-8512-1 
 │                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-8733-1 
@@ -11480,16 +11503,16 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 1 
-│                       │       │                  ├ bitnami    : 1 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:
-│                       │       │                  │         │            N/VI:N/VA:L/SC:N/SI:L/SA:N 
-│                       │       │                  │         ╰ V40Score : 2.1 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 5.5 
 │                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
 │                       │       │                  │         │           :N/A:H 
 │                       │       │                  │         ╰ V3Score : 5.5 
@@ -12294,7 +12317,8 @@
 │                       │       │                  │       J7/ 
 │                       │       │                  ├ [52]: https://nvd.nist.gov/vuln/detail/CVE-2026-3644 
 │                       │       │                  ├ [53]: https://ubuntu.com/security/notices/USN-8509-1 
-│                       │       │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
+│                       │       │                  ├ [54]: https://ubuntu.com/security/notices/USN-8744-1 
+│                       │       │                  ╰ [55]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.12Z 
 │                       ├ [184] ╭ VulnerabilityID : CVE-2026-4224 
@@ -12325,16 +12349,16 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ bitnami    : 2 
+│                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:
-│                       │       │                  │         │            N/VI:N/VA:H/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 6 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 7.5 
 │                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :N/A:H 
 │                       │       │                  │         ╰ V3Score : 7.5 
@@ -12417,7 +12441,8 @@
 │                       │       │                  │       6R/ 
 │                       │       │                  ├ [53]: https://nvd.nist.gov/vuln/detail/CVE-2026-4224 
 │                       │       │                  ├ [54]: https://ubuntu.com/security/notices/USN-8509-1 
-│                       │       │                  ╰ [55]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
+│                       │       │                  ├ [55]: https://ubuntu.com/security/notices/USN-8744-1 
+│                       │       │                  ╰ [56]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.273Z 
 │                       ├ [185] ╭ VulnerabilityID : CVE-2026-42308 
@@ -12613,16 +12638,16 @@
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ bitnami    : 1 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:
-│                       │       │                  │         │            L/VI:L/VA:N/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 2.1 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I
+│                       │       │                  │         │           :L/A:N 
+│                       │       │                  │         ╰ V3Score : 6.1 
 │                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I
 │                       │       │                  │         │           :L/A:N 
 │                       │       │                  │         ╰ V3Score : 6.1 
@@ -12657,7 +12682,8 @@
 │                       │       │                  │       X3/ 
 │                       │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2026-6019 
 │                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-8509-1 
-│                       │       │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2026-6019 
+│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-8744-1 
+│                       │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2026-6019 
 │                       │       ├ PublishedDate   : 2026-04-22T20:16:42.617Z 
 │                       │       ╰ LastModifiedDate: 2026-07-27T17:34:54.33Z 
 │                       ├ [188] ╭ VulnerabilityID : CVE-2026-7210 
@@ -12687,13 +12713,13 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-331 
 │                       │       ├ VendorSeverity   ╭ amazon : 2 
-│                       │       │                  ├ bitnami: 2 
+│                       │       │                  ├ bitnami: 3 
 │                       │       │                  ├ nvd    : 3 
 │                       │       │                  ├ photon : 3 
 │                       │       │                  ╰ redhat : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:
-│                       │       │                  │         │            N/VI:N/VA:L/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 6.3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 7.5 
 │                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :N/A:H 
 │                       │       │                  │         ╰ V3Score : 7.5 
@@ -13175,16 +13201,16 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 1 
-│                       │       │                  ├ bitnami    : 1 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:
-│                       │       │                  │         │            N/VI:N/VA:L/SC:N/SI:L/SA:N 
-│                       │       │                  │         ╰ V40Score : 2.1 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 5.5 
 │                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
 │                       │       │                  │         │           :N/A:H 
 │                       │       │                  │         ╰ V3Score : 5.5 
@@ -13989,7 +14015,8 @@
 │                       │       │                  │       J7/ 
 │                       │       │                  ├ [52]: https://nvd.nist.gov/vuln/detail/CVE-2026-3644 
 │                       │       │                  ├ [53]: https://ubuntu.com/security/notices/USN-8509-1 
-│                       │       │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
+│                       │       │                  ├ [54]: https://ubuntu.com/security/notices/USN-8744-1 
+│                       │       │                  ╰ [55]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.12Z 
 │                       ├ [203] ╭ VulnerabilityID : CVE-2026-4224 
@@ -14020,16 +14047,16 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ bitnami    : 2 
+│                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:
-│                       │       │                  │         │            N/VI:N/VA:H/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 6 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 7.5 
 │                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :N/A:H 
 │                       │       │                  │         ╰ V3Score : 7.5 
@@ -14112,7 +14139,8 @@
 │                       │       │                  │       6R/ 
 │                       │       │                  ├ [53]: https://nvd.nist.gov/vuln/detail/CVE-2026-4224 
 │                       │       │                  ├ [54]: https://ubuntu.com/security/notices/USN-8509-1 
-│                       │       │                  ╰ [55]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
+│                       │       │                  ├ [55]: https://ubuntu.com/security/notices/USN-8744-1 
+│                       │       │                  ╰ [56]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.273Z 
 │                       ├ [204] ╭ VulnerabilityID : CVE-2026-42308 
@@ -14308,16 +14336,16 @@
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ bitnami    : 1 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:
-│                       │       │                  │         │            L/VI:L/VA:N/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 2.1 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I
+│                       │       │                  │         │           :L/A:N 
+│                       │       │                  │         ╰ V3Score : 6.1 
 │                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I
 │                       │       │                  │         │           :L/A:N 
 │                       │       │                  │         ╰ V3Score : 6.1 
@@ -14352,7 +14380,8 @@
 │                       │       │                  │       X3/ 
 │                       │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2026-6019 
 │                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-8509-1 
-│                       │       │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2026-6019 
+│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-8744-1 
+│                       │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2026-6019 
 │                       │       ├ PublishedDate   : 2026-04-22T20:16:42.617Z 
 │                       │       ╰ LastModifiedDate: 2026-07-27T17:34:54.33Z 
 │                       ├ [207] ╭ VulnerabilityID : CVE-2026-7210 
@@ -14382,13 +14411,13 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-331 
 │                       │       ├ VendorSeverity   ╭ amazon : 2 
-│                       │       │                  ├ bitnami: 2 
+│                       │       │                  ├ bitnami: 3 
 │                       │       │                  ├ nvd    : 3 
 │                       │       │                  ├ photon : 3 
 │                       │       │                  ╰ redhat : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:
-│                       │       │                  │         │            N/VI:N/VA:L/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 6.3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 7.5 
 │                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :N/A:H 
 │                       │       │                  │         ╰ V3Score : 7.5 
@@ -14870,16 +14899,16 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 1 
-│                       │       │                  ├ bitnami    : 1 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:
-│                       │       │                  │         │            N/VI:N/VA:L/SC:N/SI:L/SA:N 
-│                       │       │                  │         ╰ V40Score : 2.1 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 5.5 
 │                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I
 │                       │       │                  │         │           :N/A:H 
 │                       │       │                  │         ╰ V3Score : 5.5 
@@ -15684,7 +15713,8 @@
 │                       │       │                  │       J7/ 
 │                       │       │                  ├ [52]: https://nvd.nist.gov/vuln/detail/CVE-2026-3644 
 │                       │       │                  ├ [53]: https://ubuntu.com/security/notices/USN-8509-1 
-│                       │       │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
+│                       │       │                  ├ [54]: https://ubuntu.com/security/notices/USN-8744-1 
+│                       │       │                  ╰ [55]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.12Z 
 │                       ├ [222] ╭ VulnerabilityID : CVE-2026-4224 
@@ -15715,16 +15745,16 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ bitnami    : 2 
+│                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:
-│                       │       │                  │         │            N/VI:N/VA:H/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 6 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 7.5 
 │                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :N/A:H 
 │                       │       │                  │         ╰ V3Score : 7.5 
@@ -15807,7 +15837,8 @@
 │                       │       │                  │       6R/ 
 │                       │       │                  ├ [53]: https://nvd.nist.gov/vuln/detail/CVE-2026-4224 
 │                       │       │                  ├ [54]: https://ubuntu.com/security/notices/USN-8509-1 
-│                       │       │                  ╰ [55]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
+│                       │       │                  ├ [55]: https://ubuntu.com/security/notices/USN-8744-1 
+│                       │       │                  ╰ [56]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.273Z 
 │                       ├ [223] ╭ VulnerabilityID : CVE-2026-42308 
@@ -16003,16 +16034,16 @@
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ bitnami    : 1 
+│                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:
-│                       │       │                  │         │            L/VI:L/VA:N/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 2.1 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I
+│                       │       │                  │         │           :L/A:N 
+│                       │       │                  │         ╰ V3Score : 6.1 
 │                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I
 │                       │       │                  │         │           :L/A:N 
 │                       │       │                  │         ╰ V3Score : 6.1 
@@ -16047,7 +16078,8 @@
 │                       │       │                  │       X3/ 
 │                       │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2026-6019 
 │                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-8509-1 
-│                       │       │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2026-6019 
+│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-8744-1 
+│                       │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2026-6019 
 │                       │       ├ PublishedDate   : 2026-04-22T20:16:42.617Z 
 │                       │       ╰ LastModifiedDate: 2026-07-27T17:34:54.33Z 
 │                       ├ [226] ╭ VulnerabilityID : CVE-2026-7210 
@@ -16077,13 +16109,13 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-331 
 │                       │       ├ VendorSeverity   ╭ amazon : 2 
-│                       │       │                  ├ bitnami: 2 
+│                       │       │                  ├ bitnami: 3 
 │                       │       │                  ├ nvd    : 3 
 │                       │       │                  ├ photon : 3 
 │                       │       │                  ╰ redhat : 2 
-│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:
-│                       │       │                  │         │            N/VI:N/VA:L/SC:N/SI:N/SA:N 
-│                       │       │                  │         ╰ V40Score : 6.3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                  │         │           :N/A:H 
+│                       │       │                  │         ╰ V3Score : 7.5 
 │                       │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :N/A:H 
 │                       │       │                  │         ╰ V3Score : 7.5 
@@ -17560,31 +17592,33 @@
 │                       │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:61581 
 │                       │       │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:61586 
 │                       │       │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:61783 
-│                       │       │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2026-5704 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2455360 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2509735 
-│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2509843 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2455360 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2509735 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2509843 
-│                       │       │                  ├ [13]: https://creativecommons.org/licenses/by/4.0/ 
-│                       │       │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-18477 
-│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-18508 
+│                       │       │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:66018 
+│                       │       │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:66514 
+│                       │       │                  ├ [8] : https://access.redhat.com/security/cve/CVE-2026-5704 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2455360 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2509735 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2509843 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2455360 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2509735 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2509843 
+│                       │       │                  ├ [15]: https://creativecommons.org/licenses/by/4.0/ 
 │                       │       │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-18477 
+│                       │       │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-18508 
+│                       │       │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-5704 
-│                       │       │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2026-61581.html 
-│                       │       │                  ├ [18]: https://errata.rockylinux.org/RLSA-2026:61581 
-│                       │       │                  ├ [19]: https://linux.oracle.com/cve/CVE-2026-5704.html 
-│                       │       │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2026-61586-0.html 
-│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2026-5704 
-│                       │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-8477-1 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-8477-2 
-│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-8477-3 
-│                       │       │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2026-5704 
+│                       │       │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2026-61581.html 
+│                       │       │                  ├ [20]: https://errata.rockylinux.org/RLSA-2026:61581 
+│                       │       │                  ├ [21]: https://linux.oracle.com/cve/CVE-2026-5704.html 
+│                       │       │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2026-61586-0.html 
+│                       │       │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2026-5704 
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-8477-1 
+│                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-8477-2 
+│                       │       │                  ├ [26]: https://ubuntu.com/security/notices/USN-8477-3 
+│                       │       │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2026-5704 
 │                       │       ├ PublishedDate   : 2026-04-06T16:16:42.14Z 
-│                       │       ╰ LastModifiedDate: 2026-09-01T15:17:22.563Z 
+│                       │       ╰ LastModifiedDate: 2026-09-10T22:16:58.033Z 
 │                       ├ [251] ╭ VulnerabilityID : CVE-2026-59871 
 │                       │       ├ PkgID           : tar@1.34-11.el9.x86_64 
 │                       │       ├ PkgName         : tar 
@@ -17764,6 +17798,7 @@
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
+│                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 1 
 │                       │       ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │        │            :N/A:L 
@@ -17782,21 +17817,26 @@
 │                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:64787 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-34743 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2454589 
-│                       │       │                  ├ [4] : https://errata.almalinux.org/10/ALSA-2026-64787.html 
-│                       │       │                  ├ [5] : https://github.com/tukaani-project/xz/commit/c8c2286
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2454589 
+│                       │       │                  ├ [5] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-34743 
+│                       │       │                  ├ [7] : https://errata.almalinux.org/10/ALSA-2026-64787.html 
+│                       │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:64787 
+│                       │       │                  ├ [9] : https://github.com/tukaani-project/xz/commit/c8c2286
 │                       │       │                  │       9e780ff57c96b46939c3d79ff99395f87 
-│                       │       │                  ├ [6] : https://github.com/tukaani-project/xz/releases/tag/v
+│                       │       │                  ├ [10]: https://github.com/tukaani-project/xz/releases/tag/v
 │                       │       │                  │       5.8.3 
-│                       │       │                  ├ [7] : https://github.com/tukaani-project/xz/security/advis
+│                       │       │                  ├ [11]: https://github.com/tukaani-project/xz/security/advis
 │                       │       │                  │       ories/GHSA-x872-m794-cxhv 
-│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2026-34743.html 
-│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2026-64787-0.html 
-│                       │       │                  ├ [10]: https://lists.debian.org/debian-lts-announce/2026/07
+│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-34743.html 
+│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-64787-0.html 
+│                       │       │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2026/07
 │                       │       │                  │       /msg00034.html 
-│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-34743 
-│                       │       │                  ├ [12]: https://tukaani.org/xz/index-append-overflow.html 
-│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-8362-1 
-│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-34743 
+│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2026-34743 
+│                       │       │                  ├ [16]: https://tukaani.org/xz/index-append-overflow.html 
+│                       │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-8362-1 
+│                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-34743 
 │                       │       ├ PublishedDate   : 2026-04-02T19:21:33.187Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T21:10:00.143Z 
 │                       ╰ [255] ╭ VulnerabilityID : CVE-2026-27171 
