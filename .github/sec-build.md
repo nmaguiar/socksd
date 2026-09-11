@@ -666,7 +666,8 @@
 │                       │      │                   modules are affected by this CVE. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -764,7 +765,8 @@
 │                       │      │                   are affected by this CVE. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -1134,7 +1136,8 @@
 │                       │      │                   modules are affected by this CVE. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-770 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -1299,7 +1302,8 @@
 │                       │      │                   in the FIPS module. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 1 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/119ab9555dc6
 │                       │      │                  │      2275bbd71f6f49529b1a44feba42 
 │                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/3621257986e2
@@ -1310,10 +1314,11 @@
 │                       │      │                  │      15342787f117ee75044f0dc36f34 
 │                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/bf95f5f772e9
 │                       │      │                  │      362f87b25cfa2f8cb15d984865b9 
-│                       │      │                  ├ [5]: https://openssl-library.org/news/secadv/20260825.txt 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8678-1 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-3 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-75803 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-75803 
+│                       │      │                  ├ [6]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8678-3 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-75803 
 │                       │      ├ PublishedDate   : 2026-08-25T13:19:29.57Z 
 │                       │      ╰ LastModifiedDate: 2026-09-01T19:17:27.543Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2026-13608 
@@ -1913,7 +1918,8 @@
 │                       │      │                   modules are affected by this CVE. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -2011,7 +2017,8 @@
 │                       │      │                   are affected by this CVE. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -2381,7 +2388,8 @@
 │                       │      │                   modules are affected by this CVE. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-770 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -2546,7 +2554,8 @@
 │                       │      │                   in the FIPS module. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 1 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/119ab9555dc6
 │                       │      │                  │      2275bbd71f6f49529b1a44feba42 
 │                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/3621257986e2
@@ -2557,10 +2566,11 @@
 │                       │      │                  │      15342787f117ee75044f0dc36f34 
 │                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/bf95f5f772e9
 │                       │      │                  │      362f87b25cfa2f8cb15d984865b9 
-│                       │      │                  ├ [5]: https://openssl-library.org/news/secadv/20260825.txt 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8678-1 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-3 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-75803 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-75803 
+│                       │      │                  ├ [6]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8678-3 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-75803 
 │                       │      ├ PublishedDate   : 2026-08-25T13:19:29.57Z 
 │                       │      ╰ LastModifiedDate: 2026-09-01T19:17:27.543Z 
 │                       ├ [41] ╭ VulnerabilityID : CVE-2026-41254 
@@ -4980,7 +4990,8 @@
 │                       │      │                   modules are affected by this CVE. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -5078,7 +5089,8 @@
 │                       │      │                   are affected by this CVE. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -5448,7 +5460,8 @@
 │                       │      │                   modules are affected by this CVE. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-770 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -5613,7 +5626,8 @@
 │                              │                   in the FIPS module. 
 │                              ├ Severity        : LOW 
 │                              ├ CweIDs           ─ [0]: CWE-354 
-│                              ├ VendorSeverity   ─ ubuntu: 1 
+│                              ├ VendorSeverity   ╭ azure : 1 
+│                              │                  ╰ ubuntu: 1 
 │                              ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/119ab9555dc6
 │                              │                  │      2275bbd71f6f49529b1a44feba42 
 │                              │                  ├ [1]: https://github.com/openssl/openssl/commit/3621257986e2
@@ -5624,10 +5638,11 @@
 │                              │                  │      15342787f117ee75044f0dc36f34 
 │                              │                  ├ [4]: https://github.com/openssl/openssl/commit/bf95f5f772e9
 │                              │                  │      362f87b25cfa2f8cb15d984865b9 
-│                              │                  ├ [5]: https://openssl-library.org/news/secadv/20260825.txt 
-│                              │                  ├ [6]: https://ubuntu.com/security/notices/USN-8678-1 
-│                              │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-3 
-│                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-75803 
+│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-75803 
+│                              │                  ├ [6]: https://openssl-library.org/news/secadv/20260825.txt 
+│                              │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                              │                  ├ [8]: https://ubuntu.com/security/notices/USN-8678-3 
+│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-75803 
 │                              ├ PublishedDate   : 2026-08-25T13:19:29.57Z 
 │                              ╰ LastModifiedDate: 2026-09-01T19:17:27.543Z 
 ╰ [1] ╭ Target  : Java 
