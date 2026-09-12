@@ -28,15 +28,19 @@
       cryptographic verification. An attacker executing a Man-in-the-Middle (MITM)
       attack can inject a premature or shortcut response that bypasses complete peer
       validation.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-923
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2026-13608.html
     - https://curl.se/docs/CVE-2026-13608.json
+    - https://github.com/curl/curl/pull/22213/changes/1a00e2a73675c9521d214aafd6c02b553bfeb022
     - https://hackerone.com/reports/3822248
+    - https://www.cve.org/CVERecord?id=CVE-2026-13608
     PublishedDate: '2026-09-06T18:17:19.81Z'
-    LastModifiedDate: '2026-09-08T16:18:00.317Z'
+    LastModifiedDate: '2026-09-11T19:59:55.2Z'
   - VulnerabilityID: CVE-2026-18924
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -60,15 +64,19 @@
       A flaw in libcurl's handling of HTTP/2 Server Push streams, when the parent
       handle is set to share connections with other handles, can lead to
       use-after-free in the cleanup process.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-416
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2026-18924.html
     - https://curl.se/docs/CVE-2026-18924.json
+    - https://github.com/curl/curl/commit/90325ff0444cbdff368bda5d26d6
     - https://hackerone.com/reports/3916059
+    - https://www.cve.org/CVERecord?id=CVE-2026-18924
     PublishedDate: '2026-09-06T18:17:20.553Z'
-    LastModifiedDate: '2026-09-08T16:18:06Z'
+    LastModifiedDate: '2026-09-11T20:01:29.6Z'
   - VulnerabilityID: CVE-2026-19931
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -93,15 +101,19 @@
       hostname using Negotiate authentication, when the initial request is done
       using empty credentials. This can make user B's request get sent over user A's
       previously authenticated connection.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-488
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2026-19931.html
     - https://curl.se/docs/CVE-2026-19931.json
+    - https://github.com/curl/curl/commit/7103a93b05bc69ea98ed9d
     - https://hackerone.com/reports/3923520
+    - https://www.cve.org/CVERecord?id=CVE-2026-19931
     PublishedDate: '2026-09-06T18:17:20.733Z'
-    LastModifiedDate: '2026-09-08T16:18:07.08Z'
+    LastModifiedDate: '2026-09-11T20:01:46.607Z'
   - VulnerabilityID: CVE-2026-80229
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -129,15 +141,19 @@
       reference; destroying the easy handle prematurely frees this context while the
       active connection retains a dangling pointer, leading to a heap-use-after-free
       upon subsequent I/O or post-handshake operations.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-416
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2026-80229.html
     - https://curl.se/docs/CVE-2026-80229.json
+    - https://github.com/curl/curl/commit/7ea37abc6ac0120ba5f6d9
     - https://hackerone.com/reports/3969255
+    - https://www.cve.org/CVERecord?id=CVE-2026-80229
     PublishedDate: '2026-09-06T18:17:22.217Z'
-    LastModifiedDate: '2026-09-08T16:18:15.72Z'
+    LastModifiedDate: '2026-09-11T20:06:12.563Z'
   - VulnerabilityID: CVE-2026-80230
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -164,47 +180,19 @@
       connections established without a presented server certificate. Bypassing the
       pinning check under these disabled-verification conditions allows
       unauthenticated connections to succeed when they should be rejected.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-295
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2026-80230.html
     - https://curl.se/docs/CVE-2026-80230.json
+    - https://github.com/curl/curl/commit/5267ed859d545534d0c21
     - https://hackerone.com/reports/3969300
+    - https://www.cve.org/CVERecord?id=CVE-2026-80230
     PublishedDate: '2026-09-06T18:17:22.327Z'
-    LastModifiedDate: '2026-09-08T19:19:54.063Z'
-  - VulnerabilityID: CVE-2026-80231
-    PkgID: curl@8.21.0-r0
-    PkgName: curl
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1
-      UID: eec4901c65f38f5a
-    InstalledVersion: 8.21.0-r0
-    FixedVersion: 8.22.0-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80231
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:17e369825f60511b3866c2c2e401d6dfee9b287056a74979826c7d8dcd3b9e07
-    Title: A flaw in libcurl makes it wrongly reuse an existing HTTPS connec ...
-    Description: |-
-      A flaw in libcurl makes it wrongly reuse an existing HTTPS connection setup
-      for a given hostname even when using a different Native CA Store setting
-      (`CURLSSLOPT_NATIVE_CA`) than when the connection was created.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-488
-    References:
-    - https://curl.se/docs/CVE-2026-80231.html
-    - https://curl.se/docs/CVE-2026-80231.json
-    - https://hackerone.com/reports/3969368
-    PublishedDate: '2026-09-06T18:17:22.5Z'
-    LastModifiedDate: '2026-09-08T19:19:54.307Z'
+    LastModifiedDate: '2026-09-11T20:05:56.143Z'
   - VulnerabilityID: CVE-2026-80255
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -229,15 +217,94 @@
       space (ascii code 32) immediately before the `Secure` attribute causes curl to
       store the cookie without its Secure flag. The cookie might then wrongfully be
       sent over plaintext HTTP on subsequent requests to the same host.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-201
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2026-80255.html
     - https://curl.se/docs/CVE-2026-80255.json
+    - https://github.com/curl/curl/commit/4f6aa41a0145e930e76677
     - https://hackerone.com/reports/3972395
+    - https://www.cve.org/CVERecord?id=CVE-2026-80255
     PublishedDate: '2026-09-06T18:17:22.623Z'
-    LastModifiedDate: '2026-09-08T19:19:54.52Z'
+    LastModifiedDate: '2026-09-11T20:02:30.16Z'
+  - VulnerabilityID: CVE-2026-82209
+    PkgID: curl@8.21.0-r0
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1
+      UID: eec4901c65f38f5a
+    InstalledVersion: 8.21.0-r0
+    FixedVersion: 8.22.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
+      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82209
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:f03c7955c59611b34bc3eb875989e9263f795432590c1438577b661608e18098
+    Title: When libpsl support is enabled, libcurl fails to enforce the Public Su ...
+    Description: |-
+      When libpsl support is enabled, libcurl fails to enforce the Public Suffix
+      List boundary check when processing a `Set-Cookie` header where the `Domain`
+      attribute explicitly matches an origin host that is itself a public suffix
+      (e.g., `Domain=co.uk` set by `co.uk`).
+
+      Instead of coercing it into a strict host-only cookie, libcurl saves the
+      cookie with wildcard domain scope (`.co.uk`). Consequently, the cookie is
+      inappropriately included in subsequent outbound requests or HTTP redirects to
+      arbitrary sibling subdomains under the same public suffix (e.g.,
+      `attacker.co.uk`).
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-201
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://curl.se/docs/CVE-2026-82209.html
+    - https://curl.se/docs/CVE-2026-82209.json
+    - https://github.com/curl/curl/commit/95c1e8915dce64606bd753fd47f
+    - https://hackerone.com/reports/3972385
+    - https://www.cve.org/CVERecord?id=CVE-2026-82209
+    PublishedDate: '2026-09-06T18:17:22.847Z'
+    LastModifiedDate: '2026-09-11T20:01:57.943Z'
+  - VulnerabilityID: CVE-2026-80231
+    PkgID: curl@8.21.0-r0
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1
+      UID: eec4901c65f38f5a
+    InstalledVersion: 8.21.0-r0
+    FixedVersion: 8.22.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
+      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80231
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:17e369825f60511b3866c2c2e401d6dfee9b287056a74979826c7d8dcd3b9e07
+    Title: native CA store conn reuse
+    Description: |-
+      A flaw in libcurl makes it wrongly reuse an existing HTTPS connection setup
+      for a given hostname even when using a different Native CA Store setting
+      (`CURLSSLOPT_NATIVE_CA`) than when the connection was created.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-488
+    References:
+    - https://curl.se/docs/CVE-2026-80231.html
+    - https://curl.se/docs/CVE-2026-80231.json
+    - https://hackerone.com/reports/3969368
+    PublishedDate: '2026-09-06T18:17:22.5Z'
+    LastModifiedDate: '2026-09-11T20:05:37.673Z'
   - VulnerabilityID: CVE-2026-80256
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -289,46 +356,7 @@
     - https://curl.se/docs/CVE-2026-82208.json
     - https://hackerone.com/reports/3973090
     PublishedDate: '2026-09-06T18:17:22.733Z'
-    LastModifiedDate: '2026-09-08T19:20:00.13Z'
-  - VulnerabilityID: CVE-2026-82209
-    PkgID: curl@8.21.0-r0
-    PkgName: curl
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1
-      UID: eec4901c65f38f5a
-    InstalledVersion: 8.21.0-r0
-    FixedVersion: 8.22.0-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82209
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f03c7955c59611b34bc3eb875989e9263f795432590c1438577b661608e18098
-    Title: When libpsl support is enabled, libcurl fails to enforce the Public Su ...
-    Description: |-
-      When libpsl support is enabled, libcurl fails to enforce the Public Suffix
-      List boundary check when processing a `Set-Cookie` header where the `Domain`
-      attribute explicitly matches an origin host that is itself a public suffix
-      (e.g., `Domain=co.uk` set by `co.uk`).
-
-      Instead of coercing it into a strict host-only cookie, libcurl saves the
-      cookie with wildcard domain scope (`.co.uk`). Consequently, the cookie is
-      inappropriately included in subsequent outbound requests or HTTP redirects to
-      arbitrary sibling subdomains under the same public suffix (e.g.,
-      `attacker.co.uk`).
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-201
-    References:
-    - https://curl.se/docs/CVE-2026-82209.html
-    - https://curl.se/docs/CVE-2026-82209.json
-    - https://hackerone.com/reports/3972385
-    PublishedDate: '2026-09-06T18:17:22.847Z'
-    LastModifiedDate: '2026-09-08T19:20:00.313Z'
+    LastModifiedDate: '2026-09-11T20:02:11.683Z'
   - VulnerabilityID: CVE-2026-26740
     PkgID: giflib@5.2.2-r1
     PkgName: giflib
@@ -620,7 +648,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63072
     PublishedDate: '2026-08-25T13:19:26.01Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:16:34.287Z'
   - VulnerabilityID: CVE-2026-63076
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -698,7 +726,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63076
     PublishedDate: '2026-08-25T13:19:26.543Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:17:12.46Z'
   - VulnerabilityID: CVE-2026-14457
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -768,7 +796,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-14457
     PublishedDate: '2026-08-25T13:17:49.533Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:14:35.873Z'
   - VulnerabilityID: CVE-2026-54874
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -870,7 +898,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-54874
     PublishedDate: '2026-08-25T13:19:24.033Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:16:28.067Z'
   - VulnerabilityID: CVE-2026-63073
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -941,7 +969,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63073
     PublishedDate: '2026-08-25T13:19:26.147Z'
-    LastModifiedDate: '2026-08-31T20:17:07.54Z'
+    LastModifiedDate: '2026-09-11T21:16:45.633Z'
   - VulnerabilityID: CVE-2026-63074
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -1013,7 +1041,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63074
     PublishedDate: '2026-08-25T13:19:26.283Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:16:58.127Z'
   - VulnerabilityID: CVE-2026-63075
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -1085,7 +1113,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63075
     PublishedDate: '2026-08-25T13:19:26.413Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:17:05.403Z'
   - VulnerabilityID: CVE-2026-75803
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -1145,7 +1173,7 @@
     - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-09-01T19:17:27.543Z'
+    LastModifiedDate: '2026-09-11T21:17:17.823Z'
   - VulnerabilityID: CVE-2026-13608
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -1171,15 +1199,19 @@
       cryptographic verification. An attacker executing a Man-in-the-Middle (MITM)
       attack can inject a premature or shortcut response that bypasses complete peer
       validation.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-923
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2026-13608.html
     - https://curl.se/docs/CVE-2026-13608.json
+    - https://github.com/curl/curl/pull/22213/changes/1a00e2a73675c9521d214aafd6c02b553bfeb022
     - https://hackerone.com/reports/3822248
+    - https://www.cve.org/CVERecord?id=CVE-2026-13608
     PublishedDate: '2026-09-06T18:17:19.81Z'
-    LastModifiedDate: '2026-09-08T16:18:00.317Z'
+    LastModifiedDate: '2026-09-11T19:59:55.2Z'
   - VulnerabilityID: CVE-2026-18924
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -1203,15 +1235,19 @@
       A flaw in libcurl's handling of HTTP/2 Server Push streams, when the parent
       handle is set to share connections with other handles, can lead to
       use-after-free in the cleanup process.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-416
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2026-18924.html
     - https://curl.se/docs/CVE-2026-18924.json
+    - https://github.com/curl/curl/commit/90325ff0444cbdff368bda5d26d6
     - https://hackerone.com/reports/3916059
+    - https://www.cve.org/CVERecord?id=CVE-2026-18924
     PublishedDate: '2026-09-06T18:17:20.553Z'
-    LastModifiedDate: '2026-09-08T16:18:06Z'
+    LastModifiedDate: '2026-09-11T20:01:29.6Z'
   - VulnerabilityID: CVE-2026-19931
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -1236,15 +1272,19 @@
       hostname using Negotiate authentication, when the initial request is done
       using empty credentials. This can make user B's request get sent over user A's
       previously authenticated connection.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-488
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2026-19931.html
     - https://curl.se/docs/CVE-2026-19931.json
+    - https://github.com/curl/curl/commit/7103a93b05bc69ea98ed9d
     - https://hackerone.com/reports/3923520
+    - https://www.cve.org/CVERecord?id=CVE-2026-19931
     PublishedDate: '2026-09-06T18:17:20.733Z'
-    LastModifiedDate: '2026-09-08T16:18:07.08Z'
+    LastModifiedDate: '2026-09-11T20:01:46.607Z'
   - VulnerabilityID: CVE-2026-80229
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -1272,15 +1312,19 @@
       reference; destroying the easy handle prematurely frees this context while the
       active connection retains a dangling pointer, leading to a heap-use-after-free
       upon subsequent I/O or post-handshake operations.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-416
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2026-80229.html
     - https://curl.se/docs/CVE-2026-80229.json
+    - https://github.com/curl/curl/commit/7ea37abc6ac0120ba5f6d9
     - https://hackerone.com/reports/3969255
+    - https://www.cve.org/CVERecord?id=CVE-2026-80229
     PublishedDate: '2026-09-06T18:17:22.217Z'
-    LastModifiedDate: '2026-09-08T16:18:15.72Z'
+    LastModifiedDate: '2026-09-11T20:06:12.563Z'
   - VulnerabilityID: CVE-2026-80230
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -1307,47 +1351,19 @@
       connections established without a presented server certificate. Bypassing the
       pinning check under these disabled-verification conditions allows
       unauthenticated connections to succeed when they should be rejected.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-295
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2026-80230.html
     - https://curl.se/docs/CVE-2026-80230.json
+    - https://github.com/curl/curl/commit/5267ed859d545534d0c21
     - https://hackerone.com/reports/3969300
+    - https://www.cve.org/CVERecord?id=CVE-2026-80230
     PublishedDate: '2026-09-06T18:17:22.327Z'
-    LastModifiedDate: '2026-09-08T19:19:54.063Z'
-  - VulnerabilityID: CVE-2026-80231
-    PkgID: libcurl@8.21.0-r0
-    PkgName: libcurl
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3.24.1
-      UID: 41bd97351e4e8b71
-    InstalledVersion: 8.21.0-r0
-    FixedVersion: 8.22.0-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80231
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:b4e776cd9aa7cbca6240255fbef6a452753ae572b46ba81a7b8d228d45c89959
-    Title: A flaw in libcurl makes it wrongly reuse an existing HTTPS connec ...
-    Description: |-
-      A flaw in libcurl makes it wrongly reuse an existing HTTPS connection setup
-      for a given hostname even when using a different Native CA Store setting
-      (`CURLSSLOPT_NATIVE_CA`) than when the connection was created.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-488
-    References:
-    - https://curl.se/docs/CVE-2026-80231.html
-    - https://curl.se/docs/CVE-2026-80231.json
-    - https://hackerone.com/reports/3969368
-    PublishedDate: '2026-09-06T18:17:22.5Z'
-    LastModifiedDate: '2026-09-08T19:19:54.307Z'
+    LastModifiedDate: '2026-09-11T20:05:56.143Z'
   - VulnerabilityID: CVE-2026-80255
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -1372,15 +1388,94 @@
       space (ascii code 32) immediately before the `Secure` attribute causes curl to
       store the cookie without its Secure flag. The cookie might then wrongfully be
       sent over plaintext HTTP on subsequent requests to the same host.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-201
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2026-80255.html
     - https://curl.se/docs/CVE-2026-80255.json
+    - https://github.com/curl/curl/commit/4f6aa41a0145e930e76677
     - https://hackerone.com/reports/3972395
+    - https://www.cve.org/CVERecord?id=CVE-2026-80255
     PublishedDate: '2026-09-06T18:17:22.623Z'
-    LastModifiedDate: '2026-09-08T19:19:54.52Z'
+    LastModifiedDate: '2026-09-11T20:02:30.16Z'
+  - VulnerabilityID: CVE-2026-82209
+    PkgID: libcurl@8.21.0-r0
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3.24.1
+      UID: 41bd97351e4e8b71
+    InstalledVersion: 8.21.0-r0
+    FixedVersion: 8.22.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
+      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82209
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:6cec3d7ee1d2c410e8d831ae0bafa65970054ac20e186129c715ad368300621b
+    Title: When libpsl support is enabled, libcurl fails to enforce the Public Su ...
+    Description: |-
+      When libpsl support is enabled, libcurl fails to enforce the Public Suffix
+      List boundary check when processing a `Set-Cookie` header where the `Domain`
+      attribute explicitly matches an origin host that is itself a public suffix
+      (e.g., `Domain=co.uk` set by `co.uk`).
+
+      Instead of coercing it into a strict host-only cookie, libcurl saves the
+      cookie with wildcard domain scope (`.co.uk`). Consequently, the cookie is
+      inappropriately included in subsequent outbound requests or HTTP redirects to
+      arbitrary sibling subdomains under the same public suffix (e.g.,
+      `attacker.co.uk`).
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-201
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://curl.se/docs/CVE-2026-82209.html
+    - https://curl.se/docs/CVE-2026-82209.json
+    - https://github.com/curl/curl/commit/95c1e8915dce64606bd753fd47f
+    - https://hackerone.com/reports/3972385
+    - https://www.cve.org/CVERecord?id=CVE-2026-82209
+    PublishedDate: '2026-09-06T18:17:22.847Z'
+    LastModifiedDate: '2026-09-11T20:01:57.943Z'
+  - VulnerabilityID: CVE-2026-80231
+    PkgID: libcurl@8.21.0-r0
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3.24.1
+      UID: 41bd97351e4e8b71
+    InstalledVersion: 8.21.0-r0
+    FixedVersion: 8.22.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
+      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80231
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:b4e776cd9aa7cbca6240255fbef6a452753ae572b46ba81a7b8d228d45c89959
+    Title: native CA store conn reuse
+    Description: |-
+      A flaw in libcurl makes it wrongly reuse an existing HTTPS connection setup
+      for a given hostname even when using a different Native CA Store setting
+      (`CURLSSLOPT_NATIVE_CA`) than when the connection was created.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-488
+    References:
+    - https://curl.se/docs/CVE-2026-80231.html
+    - https://curl.se/docs/CVE-2026-80231.json
+    - https://hackerone.com/reports/3969368
+    PublishedDate: '2026-09-06T18:17:22.5Z'
+    LastModifiedDate: '2026-09-11T20:05:37.673Z'
   - VulnerabilityID: CVE-2026-80256
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -1432,46 +1527,7 @@
     - https://curl.se/docs/CVE-2026-82208.json
     - https://hackerone.com/reports/3973090
     PublishedDate: '2026-09-06T18:17:22.733Z'
-    LastModifiedDate: '2026-09-08T19:20:00.13Z'
-  - VulnerabilityID: CVE-2026-82209
-    PkgID: libcurl@8.21.0-r0
-    PkgName: libcurl
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3.24.1
-      UID: 41bd97351e4e8b71
-    InstalledVersion: 8.21.0-r0
-    FixedVersion: 8.22.0-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82209
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:6cec3d7ee1d2c410e8d831ae0bafa65970054ac20e186129c715ad368300621b
-    Title: When libpsl support is enabled, libcurl fails to enforce the Public Su ...
-    Description: |-
-      When libpsl support is enabled, libcurl fails to enforce the Public Suffix
-      List boundary check when processing a `Set-Cookie` header where the `Domain`
-      attribute explicitly matches an origin host that is itself a public suffix
-      (e.g., `Domain=co.uk` set by `co.uk`).
-
-      Instead of coercing it into a strict host-only cookie, libcurl saves the
-      cookie with wildcard domain scope (`.co.uk`). Consequently, the cookie is
-      inappropriately included in subsequent outbound requests or HTTP redirects to
-      arbitrary sibling subdomains under the same public suffix (e.g.,
-      `attacker.co.uk`).
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-201
-    References:
-    - https://curl.se/docs/CVE-2026-82209.html
-    - https://curl.se/docs/CVE-2026-82209.json
-    - https://hackerone.com/reports/3972385
-    PublishedDate: '2026-09-06T18:17:22.847Z'
-    LastModifiedDate: '2026-09-08T19:20:00.313Z'
+    LastModifiedDate: '2026-09-11T20:02:11.683Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -1692,7 +1748,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63072
     PublishedDate: '2026-08-25T13:19:26.01Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:16:34.287Z'
   - VulnerabilityID: CVE-2026-63076
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -1770,7 +1826,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63076
     PublishedDate: '2026-08-25T13:19:26.543Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:17:12.46Z'
   - VulnerabilityID: CVE-2026-14457
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -1840,7 +1896,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-14457
     PublishedDate: '2026-08-25T13:17:49.533Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:14:35.873Z'
   - VulnerabilityID: CVE-2026-54874
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -1942,7 +1998,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-54874
     PublishedDate: '2026-08-25T13:19:24.033Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:16:28.067Z'
   - VulnerabilityID: CVE-2026-63073
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -2013,7 +2069,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63073
     PublishedDate: '2026-08-25T13:19:26.147Z'
-    LastModifiedDate: '2026-08-31T20:17:07.54Z'
+    LastModifiedDate: '2026-09-11T21:16:45.633Z'
   - VulnerabilityID: CVE-2026-63074
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -2085,7 +2141,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63074
     PublishedDate: '2026-08-25T13:19:26.283Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:16:58.127Z'
   - VulnerabilityID: CVE-2026-63075
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -2157,7 +2213,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63075
     PublishedDate: '2026-08-25T13:19:26.413Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:17:05.403Z'
   - VulnerabilityID: CVE-2026-75803
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -2217,7 +2273,7 @@
     - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-09-01T19:17:27.543Z'
+    LastModifiedDate: '2026-09-11T21:17:17.823Z'
   - VulnerabilityID: CVE-2026-41254
     PkgID: openjdk21-jre@21.0.11_p10-r0
     PkgName: openjdk21-jre
@@ -4112,7 +4168,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63072
     PublishedDate: '2026-08-25T13:19:26.01Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:16:34.287Z'
   - VulnerabilityID: CVE-2026-63076
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -4190,7 +4246,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63076
     PublishedDate: '2026-08-25T13:19:26.543Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:17:12.46Z'
   - VulnerabilityID: CVE-2026-14457
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -4260,7 +4316,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-14457
     PublishedDate: '2026-08-25T13:17:49.533Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:14:35.873Z'
   - VulnerabilityID: CVE-2026-54874
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -4362,7 +4418,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-54874
     PublishedDate: '2026-08-25T13:19:24.033Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:16:28.067Z'
   - VulnerabilityID: CVE-2026-63073
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -4433,7 +4489,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63073
     PublishedDate: '2026-08-25T13:19:26.147Z'
-    LastModifiedDate: '2026-08-31T20:17:07.54Z'
+    LastModifiedDate: '2026-09-11T21:16:45.633Z'
   - VulnerabilityID: CVE-2026-63074
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -4505,7 +4561,7 @@
     - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63074
     PublishedDate: '2026-08-25T13:19:26.283Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:16:58.127Z'
   - VulnerabilityID: CVE-2026-63075
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -4577,7 +4633,7 @@
     - https://ubuntu.com/security/notices/USN-8678-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63075
     PublishedDate: '2026-08-25T13:19:26.413Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-11T21:17:05.403Z'
   - VulnerabilityID: CVE-2026-75803
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -4637,7 +4693,7 @@
     - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-09-01T19:17:27.543Z'
+    LastModifiedDate: '2026-09-11T21:17:17.823Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
