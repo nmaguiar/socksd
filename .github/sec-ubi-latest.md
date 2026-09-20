@@ -502,6 +502,7 @@
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
+│                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:A/VC:L
 │                       │       │                  │        │            /VI:N/VA:L/SC:N/SI:N/SA:N 
@@ -516,19 +517,27 @@
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-56391 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2506691 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2506694 
-│                       │       │                  ├ [4] : https://cert.pl/en/posts/2026/07/CVE-2026-56391 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2026-67886.html 
-│                       │       │                  ├ [6] : https://git.savannah.gnu.org/cgit/coreutils.git 
-│                       │       │                  ├ [7] : https://git.savannah.gnu.org/cgit/coreutils.git/ 
-│                       │       │                  ├ [8] : https://git.savannah.gnu.org/cgit/coreutils.git/comm
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2506691 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2506694 
+│                       │       │                  ├ [6] : https://cert.pl/en/posts/2026/07/CVE-2026-56391 
+│                       │       │                  ├ [7] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-56391 
+│                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-56392 
+│                       │       │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-67886.html 
+│                       │       │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:67886 
+│                       │       │                  ├ [12]: https://git.savannah.gnu.org/cgit/coreutils.git 
+│                       │       │                  ├ [13]: https://git.savannah.gnu.org/cgit/coreutils.git/ 
+│                       │       │                  ├ [14]: https://git.savannah.gnu.org/cgit/coreutils.git/comm
 │                       │       │                  │       it/?id=d64e35a8a4c0e4608321433e0d84d917e4e36371 
-│                       │       │                  ├ [9] : https://github.com/advisories/GHSA-7xvj-m9x7-qgxq 
-│                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2026-56391.html 
-│                       │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-67886.html 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-56391 
-│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-8697-1 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-56391 
-│                       │       │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2026/07/
+│                       │       │                  ├ [15]: https://github.com/advisories/GHSA-7xvj-m9x7-qgxq 
+│                       │       │                  ├ [16]: https://linux.oracle.com/cve/CVE-2026-56391.html 
+│                       │       │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2026-67886.html 
+│                       │       │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-56391 
+│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-8697-1 
+│                       │       │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2026-56391 
+│                       │       │                  ╰ [21]: https://www.openwall.com/lists/oss-security/2026/07/
 │                       │       │                          25/2 
 │                       │       ├ PublishedDate   : 2026-07-24T09:16:25.003Z 
 │                       │       ╰ LastModifiedDate: 2026-08-26T13:52:50.66Z 
@@ -5195,7 +5204,7 @@
 │                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8581-1 
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-15028 
 │                       │       ├ PublishedDate   : 2026-07-10T10:16:23.417Z 
-│                       │       ╰ LastModifiedDate: 2026-08-31T16:17:52.67Z 
+│                       │       ╰ LastModifiedDate: 2026-09-18T20:17:08.87Z 
 │                       ├ [88]  ╭ VulnerabilityID : CVE-2026-16517 
 │                       │       ├ PkgID           : libarchive@3.5.3-11.el9_8.x86_64 
 │                       │       ├ PkgName         : libarchive 
@@ -12687,8 +12696,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42308 
 │                       │       ├ Fingerprint     : sha256:59fd0f430582777de51c3a89905dff71e336a43ccafaf3ffb30e
 │                       │       │                   a0f8fe5c75ab 
-│                       │       ├ Title           : Pillow: python: Pillow: Denial of Service via integer
-│                       │       │                   overflow in font processing 
+│                       │       ├ Title           : Pillow: Pillow: Denial of Service via integer overflow in
+│                       │       │                   font processing 
 │                       │       ├ Description     : Pillow is a Python imaging library. Prior to version
 │                       │       │                   12.2.0, if a font advances for each glyph by an exceeding
 │                       │       │                   large amount, when Pillow keeps track of the current
@@ -12930,8 +12939,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7210 
 │                       │       ├ Fingerprint     : sha256:315c50d5ccd9c9ccfb2c7e3907a8fb505f1b2d609c74db2a27fe
 │                       │       │                   6a60fb6a61be 
-│                       │       ├ Title           : python: expat: Python/Expat: Denial of Service via crafted
-│                       │       │                   XML document 
+│                       │       ├ Title           : python: Python/Expat: Denial of Service via crafted XML
+│                       │       │                   document 
 │                       │       ├ Description     : `xml.parsers.expat` and `xml.etree.ElementTree` use
 │                       │       │                   insufficient entropy for Expat hash-flooding protection,
 │                       │       │                   which allows a crafted XML document to trigger hash
@@ -14387,8 +14396,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42308 
 │                       │       ├ Fingerprint     : sha256:43c5d5598d1b7def25561288024e2e67e8af4559f6885e7fa983
 │                       │       │                   184893c43f7a 
-│                       │       ├ Title           : Pillow: python: Pillow: Denial of Service via integer
-│                       │       │                   overflow in font processing 
+│                       │       ├ Title           : Pillow: Pillow: Denial of Service via integer overflow in
+│                       │       │                   font processing 
 │                       │       ├ Description     : Pillow is a Python imaging library. Prior to version
 │                       │       │                   12.2.0, if a font advances for each glyph by an exceeding
 │                       │       │                   large amount, when Pillow keeps track of the current
@@ -14630,8 +14639,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7210 
 │                       │       ├ Fingerprint     : sha256:8f8f17b9d490c8255f9df7e910ecf130d3225975dce4e3ab3726
 │                       │       │                   0f11dae3d82a 
-│                       │       ├ Title           : python: expat: Python/Expat: Denial of Service via crafted
-│                       │       │                   XML document 
+│                       │       ├ Title           : python: Python/Expat: Denial of Service via crafted XML
+│                       │       │                   document 
 │                       │       ├ Description     : `xml.parsers.expat` and `xml.etree.ElementTree` use
 │                       │       │                   insufficient entropy for Expat hash-flooding protection,
 │                       │       │                   which allows a crafted XML document to trigger hash
@@ -16087,8 +16096,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42308 
 │                       │       ├ Fingerprint     : sha256:19bc2b61d9bf20cc581d3044ec13ed6618eb4e6aa5a28bd66c89
 │                       │       │                   1945366805cc 
-│                       │       ├ Title           : Pillow: python: Pillow: Denial of Service via integer
-│                       │       │                   overflow in font processing 
+│                       │       ├ Title           : Pillow: Pillow: Denial of Service via integer overflow in
+│                       │       │                   font processing 
 │                       │       ├ Description     : Pillow is a Python imaging library. Prior to version
 │                       │       │                   12.2.0, if a font advances for each glyph by an exceeding
 │                       │       │                   large amount, when Pillow keeps track of the current
@@ -16330,8 +16339,8 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7210 
 │                       │       ├ Fingerprint     : sha256:334ccec24fcdb0dbc2d743087760fb6b9328ecb3cdcdc0c6c520
 │                       │       │                   64c89bd5253a 
-│                       │       ├ Title           : python: expat: Python/Expat: Denial of Service via crafted
-│                       │       │                   XML document 
+│                       │       ├ Title           : python: Python/Expat: Denial of Service via crafted XML
+│                       │       │                   document 
 │                       │       ├ Description     : `xml.parsers.expat` and `xml.etree.ElementTree` use
 │                       │       │                   insufficient entropy for Expat hash-flooding protection,
 │                       │       │                   which allows a crafted XML document to trigger hash
