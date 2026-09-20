@@ -399,6 +399,7 @@
       nvd: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       julia:
@@ -415,8 +416,14 @@
     - https://access.redhat.com/security/cve/CVE-2026-56391
     - https://bugzilla.redhat.com/2506691
     - https://bugzilla.redhat.com/2506694
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2506691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2506694
     - https://cert.pl/en/posts/2026/07/CVE-2026-56391
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56391
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56392
     - https://errata.almalinux.org/10/ALSA-2026-67886.html
+    - https://errata.rockylinux.org/RLSA-2026:67886
     - https://git.savannah.gnu.org/cgit/coreutils.git
     - https://git.savannah.gnu.org/cgit/coreutils.git/
     - https://git.savannah.gnu.org/cgit/coreutils.git/commit/?id=d64e35a8a4c0e4608321433e0d84d917e4e36371
@@ -4533,7 +4540,7 @@
     - https://ubuntu.com/security/notices/USN-8581-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15028
     PublishedDate: '2026-07-10T10:16:23.417Z'
-    LastModifiedDate: '2026-08-31T16:17:52.67Z'
+    LastModifiedDate: '2026-09-18T20:17:08.87Z'
   - VulnerabilityID: CVE-2026-16517
     PkgID: libarchive@3.5.3-11.el9_8.x86_64
     PkgName: libarchive
@@ -10779,7 +10786,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42308
     Fingerprint: sha256:59fd0f430582777de51c3a89905dff71e336a43ccafaf3ffb30ea0f8fe5c75ab
-    Title: 'Pillow: python: Pillow: Denial of Service via integer overflow in font processing'
+    Title: 'Pillow: Pillow: Denial of Service via integer overflow in font processing'
     Description: Pillow is a Python imaging library. Prior to version 12.2.0, if a font advances for each glyph by an exceeding large amount, when Pillow keeps track of the current position, it may lead to an integer overflow. This issue has been patched in version 12.2.0.
     Severity: MEDIUM
     CweIDs:
@@ -10981,7 +10988,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-7210
     Fingerprint: sha256:315c50d5ccd9c9ccfb2c7e3907a8fb505f1b2d609c74db2a27fe6a60fb6a61be
-    Title: 'python: expat: Python/Expat: Denial of Service via crafted XML document'
+    Title: 'python: Python/Expat: Denial of Service via crafted XML document'
     Description: '`xml.parsers.expat` and `xml.etree.ElementTree` use insufficient entropy for Expat hash-flooding protection, which allows a crafted XML document to trigger hash flooding.\r\n\r\nFully mitigating this vulnerability requires both updating libexpat to 2.8.0 or later and applying this patch.'
     Severity: MEDIUM
     CweIDs:
@@ -12147,7 +12154,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42308
     Fingerprint: sha256:43c5d5598d1b7def25561288024e2e67e8af4559f6885e7fa983184893c43f7a
-    Title: 'Pillow: python: Pillow: Denial of Service via integer overflow in font processing'
+    Title: 'Pillow: Pillow: Denial of Service via integer overflow in font processing'
     Description: Pillow is a Python imaging library. Prior to version 12.2.0, if a font advances for each glyph by an exceeding large amount, when Pillow keeps track of the current position, it may lead to an integer overflow. This issue has been patched in version 12.2.0.
     Severity: MEDIUM
     CweIDs:
@@ -12349,7 +12356,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-7210
     Fingerprint: sha256:8f8f17b9d490c8255f9df7e910ecf130d3225975dce4e3ab37260f11dae3d82a
-    Title: 'python: expat: Python/Expat: Denial of Service via crafted XML document'
+    Title: 'python: Python/Expat: Denial of Service via crafted XML document'
     Description: '`xml.parsers.expat` and `xml.etree.ElementTree` use insufficient entropy for Expat hash-flooding protection, which allows a crafted XML document to trigger hash flooding.\r\n\r\nFully mitigating this vulnerability requires both updating libexpat to 2.8.0 or later and applying this patch.'
     Severity: MEDIUM
     CweIDs:
@@ -13515,7 +13522,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42308
     Fingerprint: sha256:19bc2b61d9bf20cc581d3044ec13ed6618eb4e6aa5a28bd66c891945366805cc
-    Title: 'Pillow: python: Pillow: Denial of Service via integer overflow in font processing'
+    Title: 'Pillow: Pillow: Denial of Service via integer overflow in font processing'
     Description: Pillow is a Python imaging library. Prior to version 12.2.0, if a font advances for each glyph by an exceeding large amount, when Pillow keeps track of the current position, it may lead to an integer overflow. This issue has been patched in version 12.2.0.
     Severity: MEDIUM
     CweIDs:
@@ -13717,7 +13724,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-7210
     Fingerprint: sha256:334ccec24fcdb0dbc2d743087760fb6b9328ecb3cdcdc0c6c52064c89bd5253a
-    Title: 'python: expat: Python/Expat: Denial of Service via crafted XML document'
+    Title: 'python: Python/Expat: Denial of Service via crafted XML document'
     Description: '`xml.parsers.expat` and `xml.etree.ElementTree` use insufficient entropy for Expat hash-flooding protection, which allows a crafted XML document to trigger hash flooding.\r\n\r\nFully mitigating this vulnerability requires both updating libexpat to 2.8.0 or later and applying this patch.'
     Severity: MEDIUM
     CweIDs:
