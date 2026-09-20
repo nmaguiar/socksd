@@ -213,55 +213,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-80255 
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
 │                       │      ╰ LastModifiedDate: 2026-09-15T07:16:30.77Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-82209 
-│                       │      ├ PkgID           : curl@8.21.0-r0 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1 
-│                       │      │                  ╰ UID : eec4901c65f38f5a 
-│                       │      ├ InstalledVersion: 8.21.0-r0 
-│                       │      ├ FixedVersion    : 8.22.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af224008
-│                       │      │                  │         4dd97d84aae99a7af3d2 
-│                       │      │                  ╰ DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699
-│                       │      │                            b0d2cf5557f45957087c 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82209 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:f03c7955c59611b34bc3eb875989e9263f795432590c1438577b6
-│                       │      │                   61608e18098 
-│                       │      ├ Title           : When libpsl support is enabled, libcurl fails to enforce the
-│                       │      │                    Public Su ... 
-│                       │      ├ Description     : When libpsl support is enabled, libcurl fails to enforce the
-│                       │      │                    Public Suffix
-│                       │      │                   List boundary check when processing a `Set-Cookie` header
-│                       │      │                   where the `Domain`
-│                       │      │                   attribute explicitly matches an origin host that is itself a
-│                       │      │                    public suffix
-│                       │      │                   (e.g., `Domain=co.uk` set by `co.uk`).
-│                       │      │                   
-│                       │      │                   Instead of coercing it into a strict host-only cookie,
-│                       │      │                   libcurl saves the
-│                       │      │                   cookie with wildcard domain scope (`.co.uk`). Consequently,
-│                       │      │                   the cookie is
-│                       │      │                   inappropriately included in subsequent outbound requests or
-│                       │      │                   HTTP redirects to
-│                       │      │                   arbitrary sibling subdomains under the same public suffix
-│                       │      │                   (e.g.,
-│                       │      │                   `attacker.co.uk`). 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-201 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-82209.html 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-82209.json 
-│                       │      │                  ├ [2]: https://github.com/curl/curl/commit/95c1e8915dce64606b
-│                       │      │                  │      d753fd47f 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/3972385 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-82209 
-│                       │      ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
-│                       │      ╰ LastModifiedDate: 2026-09-15T07:16:31.233Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-18924 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-18924 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
 │                       │      ├ PkgName         : curl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1 
@@ -303,6 +255,60 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-18924 
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
 │                       │      ╰ LastModifiedDate: 2026-09-15T07:16:27.063Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-82209 
+│                       │      ├ PkgID           : curl@8.21.0-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1 
+│                       │      │                  ╰ UID : eec4901c65f38f5a 
+│                       │      ├ InstalledVersion: 8.21.0-r0 
+│                       │      ├ FixedVersion    : 8.22.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af224008
+│                       │      │                  │         4dd97d84aae99a7af3d2 
+│                       │      │                  ╰ DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699
+│                       │      │                            b0d2cf5557f45957087c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82209 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:f03c7955c59611b34bc3eb875989e9263f795432590c1438577b6
+│                       │      │                   61608e18098 
+│                       │      ├ Title           : curl: libcurl: Information disclosure via improper Public
+│                       │      │                   Suffix List boundary check 
+│                       │      ├ Description     : When libpsl support is enabled, libcurl fails to enforce the
+│                       │      │                    Public Suffix
+│                       │      │                   List boundary check when processing a `Set-Cookie` header
+│                       │      │                   where the `Domain`
+│                       │      │                   attribute explicitly matches an origin host that is itself a
+│                       │      │                    public suffix
+│                       │      │                   (e.g., `Domain=co.uk` set by `co.uk`).
+│                       │      │                   
+│                       │      │                   Instead of coercing it into a strict host-only cookie,
+│                       │      │                   libcurl saves the
+│                       │      │                   cookie with wildcard domain scope (`.co.uk`). Consequently,
+│                       │      │                   the cookie is
+│                       │      │                   inappropriately included in subsequent outbound requests or
+│                       │      │                   HTTP redirects to
+│                       │      │                   arbitrary sibling subdomains under the same public suffix
+│                       │      │                   (e.g.,
+│                       │      │                   `attacker.co.uk`). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-201 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-82209 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-82209.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-82209.json 
+│                       │      │                  ├ [3]: https://github.com/curl/curl/commit/95c1e8915dce64606b
+│                       │      │                  │      d753fd47f 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/3972385 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-82209 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-82209 
+│                       │      ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
+│                       │      ╰ LastModifiedDate: 2026-09-15T07:16:31.233Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2026-80231 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -2007,56 +2013,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-80255 
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
 │                       │      ╰ LastModifiedDate: 2026-09-15T07:16:30.77Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2026-82209 
-│                       │      ├ PkgID           : libcurl@8.21.0-r0 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3
-│                       │      │                  │       .24.1 
-│                       │      │                  ╰ UID : 41bd97351e4e8b71 
-│                       │      ├ InstalledVersion: 8.21.0-r0 
-│                       │      ├ FixedVersion    : 8.22.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af224008
-│                       │      │                  │         4dd97d84aae99a7af3d2 
-│                       │      │                  ╰ DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699
-│                       │      │                            b0d2cf5557f45957087c 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82209 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:6cec3d7ee1d2c410e8d831ae0bafa65970054ac20e186129c715a
-│                       │      │                   d368300621b 
-│                       │      ├ Title           : When libpsl support is enabled, libcurl fails to enforce the
-│                       │      │                    Public Su ... 
-│                       │      ├ Description     : When libpsl support is enabled, libcurl fails to enforce the
-│                       │      │                    Public Suffix
-│                       │      │                   List boundary check when processing a `Set-Cookie` header
-│                       │      │                   where the `Domain`
-│                       │      │                   attribute explicitly matches an origin host that is itself a
-│                       │      │                    public suffix
-│                       │      │                   (e.g., `Domain=co.uk` set by `co.uk`).
-│                       │      │                   
-│                       │      │                   Instead of coercing it into a strict host-only cookie,
-│                       │      │                   libcurl saves the
-│                       │      │                   cookie with wildcard domain scope (`.co.uk`). Consequently,
-│                       │      │                   the cookie is
-│                       │      │                   inappropriately included in subsequent outbound requests or
-│                       │      │                   HTTP redirects to
-│                       │      │                   arbitrary sibling subdomains under the same public suffix
-│                       │      │                   (e.g.,
-│                       │      │                   `attacker.co.uk`). 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-201 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-82209.html 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-82209.json 
-│                       │      │                  ├ [2]: https://github.com/curl/curl/commit/95c1e8915dce64606b
-│                       │      │                  │      d753fd47f 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/3972385 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-82209 
-│                       │      ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
-│                       │      ╰ LastModifiedDate: 2026-09-15T07:16:31.233Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2026-18924 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2026-18924 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3
@@ -2099,6 +2056,61 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-18924 
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
 │                       │      ╰ LastModifiedDate: 2026-09-15T07:16:27.063Z 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2026-82209 
+│                       │      ├ PkgID           : libcurl@8.21.0-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3
+│                       │      │                  │       .24.1 
+│                       │      │                  ╰ UID : 41bd97351e4e8b71 
+│                       │      ├ InstalledVersion: 8.21.0-r0 
+│                       │      ├ FixedVersion    : 8.22.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af224008
+│                       │      │                  │         4dd97d84aae99a7af3d2 
+│                       │      │                  ╰ DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699
+│                       │      │                            b0d2cf5557f45957087c 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82209 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:6cec3d7ee1d2c410e8d831ae0bafa65970054ac20e186129c715a
+│                       │      │                   d368300621b 
+│                       │      ├ Title           : curl: libcurl: Information disclosure via improper Public
+│                       │      │                   Suffix List boundary check 
+│                       │      ├ Description     : When libpsl support is enabled, libcurl fails to enforce the
+│                       │      │                    Public Suffix
+│                       │      │                   List boundary check when processing a `Set-Cookie` header
+│                       │      │                   where the `Domain`
+│                       │      │                   attribute explicitly matches an origin host that is itself a
+│                       │      │                    public suffix
+│                       │      │                   (e.g., `Domain=co.uk` set by `co.uk`).
+│                       │      │                   
+│                       │      │                   Instead of coercing it into a strict host-only cookie,
+│                       │      │                   libcurl saves the
+│                       │      │                   cookie with wildcard domain scope (`.co.uk`). Consequently,
+│                       │      │                   the cookie is
+│                       │      │                   inappropriately included in subsequent outbound requests or
+│                       │      │                   HTTP redirects to
+│                       │      │                   arbitrary sibling subdomains under the same public suffix
+│                       │      │                   (e.g.,
+│                       │      │                   `attacker.co.uk`). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-201 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-82209 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-82209.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-82209.json 
+│                       │      │                  ├ [3]: https://github.com/curl/curl/commit/95c1e8915dce64606b
+│                       │      │                  │      d753fd47f 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/3972385 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-82209 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-82209 
+│                       │      ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
+│                       │      ╰ LastModifiedDate: 2026-09-15T07:16:31.233Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2026-80231 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
 │                       │      ├ PkgName         : libcurl 
