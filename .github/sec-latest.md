@@ -677,6 +677,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -809,6 +810,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -955,6 +957,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -1085,6 +1088,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -1249,6 +1253,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -1385,6 +1390,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -1655,6 +1661,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -2405,6 +2412,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -2537,6 +2545,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -2683,6 +2692,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -2813,6 +2823,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -2977,6 +2988,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -3113,6 +3125,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -3383,6 +3396,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -5926,6 +5940,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -6058,6 +6073,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -6204,6 +6220,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -6334,6 +6351,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -6498,6 +6516,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -6634,6 +6653,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -6904,6 +6924,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
