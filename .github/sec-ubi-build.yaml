@@ -10079,6 +10079,79 @@
     - https://www.vulncheck.com/advisories/openldap-lmdb-mdb-load-heap-buffer-underflow-in-readline
     PublishedDate: '2026-01-07T21:16:01.733Z'
     LastModifiedDate: '2026-06-17T10:19:30.257Z'
+  - VulnerabilityID: CVE-2026-54876
+    PkgID: openssl@3.5.8-1.el9_8.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: b8f9bf0a499769d3
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: under_investigation
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54876
+    Fingerprint: sha256:95fb89cc0dad8670475ebb3f0c7a3ef9ba2c0b4bc9ae21f61326f027144b421e
+    Title: 'openssl: openssl-src: OpenSSL: Memory leak leads to Denial of Service in OCSP response checking'
+    Description: |-
+      Issue summary: A malicious TLS server can cause a memory leak in a TLS
+      client that has enabled OCSP response checking by sending an OCSP
+      response that contains no single response entries.
+
+      Impact summary: An attacker can leak an attacker-tunable amount of memory
+      per TLS handshake in a victim client application. A long-running client
+      that repeatedly connects to a malicious server can have its memory
+      exhausted, resulting in a Denial of Service.
+
+      CWE: CWE-401: Missing Release of Memory after Effective Lifetime
+
+      Description: The affected function is called during X.509 certificate
+      chain verification when OCSP response checking is enabled
+      with the X509_V_FLAG_OCSP_RESP_CHECK or X509_V_FLAG_OCSP_RESP_CHECK_ALL
+      verification flags, for example when a TLS client verifies an OCSP
+      response stapled into the TLS handshake by the server.
+
+      When the received BasicOCSPResponse contains an empty SEQUENCE OF
+      SingleResponse, which is permitted on the wire and accepted by the
+      OpenSSL decoder, the OCSP_BASICRESP structure allocated by
+      OCSP_response_get1_basic() was not freed because an early return
+      bypassed the cleanup code at the end of the function.
+
+      The amount of memory leaked per handshake can be amplified by the
+      attacker by padding the certs field of the BasicOCSPResponse with
+      bogus certificates, which are parsed and stored in the leaked
+      structure before the empty response check triggers the early return.
+      A long-running TLS client that repeatedly connects to a malicious
+      server can have its memory exhausted over time.
+
+      OCSP response checking is not enabled by default. Only client
+      applications that explicitly enable the OCSP response check
+      verification flags are affected.
+
+      FIPS impact: no
+
+      The FIPS modules in 4.0 and 3.6 are not affected by this issue as the
+      affected code is outside the OpenSSL FIPS module boundary.
+    Severity: HIGH
+    CweIDs:
+    - CWE-401
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/05/8
+    - https://access.redhat.com/security/cve/CVE-2026-54876
+    - https://github.com/openssl/openssl/commit/155b5fe0f93365e6df1c56ee3606b121080c6c12
+    - https://github.com/openssl/openssl/commit/d8c51048ac037a21bae0f41cad7a3920dc7f3638
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54876
+    - https://openssl-library.org/news/secadv/20260805.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-54876
+    PublishedDate: '2026-08-05T15:16:53.487Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl@3.5.8-1.el9_8.x86_64
     PkgName: openssl
@@ -10136,7 +10209,6 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
     - https://access.redhat.com/errata/RHSA-2025:15699
-    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -10297,7 +10369,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/advisories/GHSA-r9fv-h47r-823f
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
@@ -10801,79 +10873,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42765
     PublishedDate: '2026-06-09T17:17:07.843Z'
     LastModifiedDate: '2026-07-23T08:10:00.137Z'
-  - VulnerabilityID: CVE-2026-54876
-    PkgID: openssl@3.5.8-1.el9_8.x86_64
-    PkgName: openssl
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
-      UID: b8f9bf0a499769d3
-    InstalledVersion: 1:3.5.8-1.el9_8
-    Status: under_investigation
-    Layer:
-      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
-      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54876
-    Fingerprint: sha256:95fb89cc0dad8670475ebb3f0c7a3ef9ba2c0b4bc9ae21f61326f027144b421e
-    Title: 'openssl: openssl-src: OpenSSL: Memory leak leads to Denial of Service in OCSP response checking'
-    Description: |-
-      Issue summary: A malicious TLS server can cause a memory leak in a TLS
-      client that has enabled OCSP response checking by sending an OCSP
-      response that contains no single response entries.
-
-      Impact summary: An attacker can leak an attacker-tunable amount of memory
-      per TLS handshake in a victim client application. A long-running client
-      that repeatedly connects to a malicious server can have its memory
-      exhausted, resulting in a Denial of Service.
-
-      CWE: CWE-401: Missing Release of Memory after Effective Lifetime
-
-      Description: The affected function is called during X.509 certificate
-      chain verification when OCSP response checking is enabled
-      with the X509_V_FLAG_OCSP_RESP_CHECK or X509_V_FLAG_OCSP_RESP_CHECK_ALL
-      verification flags, for example when a TLS client verifies an OCSP
-      response stapled into the TLS handshake by the server.
-
-      When the received BasicOCSPResponse contains an empty SEQUENCE OF
-      SingleResponse, which is permitted on the wire and accepted by the
-      OpenSSL decoder, the OCSP_BASICRESP structure allocated by
-      OCSP_response_get1_basic() was not freed because an early return
-      bypassed the cleanup code at the end of the function.
-
-      The amount of memory leaked per handshake can be amplified by the
-      attacker by padding the certs field of the BasicOCSPResponse with
-      bogus certificates, which are parsed and stored in the leaked
-      structure before the empty response check triggers the early return.
-      A long-running TLS client that repeatedly connects to a malicious
-      server can have its memory exhausted over time.
-
-      OCSP response checking is not enabled by default. Only client
-      applications that explicitly enable the OCSP response check
-      verification flags are affected.
-
-      FIPS impact: no
-
-      The FIPS modules in 4.0 and 3.6 are not affected by this issue as the
-      affected code is outside the OpenSSL FIPS module boundary.
-    Severity: LOW
-    CweIDs:
-    - CWE-401
-    VendorSeverity:
-      redhat: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - http://www.openwall.com/lists/oss-security/2026/08/05/8
-    - https://access.redhat.com/security/cve/CVE-2026-54876
-    - https://github.com/openssl/openssl/commit/155b5fe0f93365e6df1c56ee3606b121080c6c12
-    - https://github.com/openssl/openssl/commit/d8c51048ac037a21bae0f41cad7a3920dc7f3638
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-54876
-    - https://openssl-library.org/news/secadv/20260805.txt
-    - https://www.cve.org/CVERecord?id=CVE-2026-54876
-    PublishedDate: '2026-08-05T15:16:53.487Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-75803
     PkgID: openssl@3.5.8-1.el9_8.x86_64
     PkgName: openssl
@@ -11129,6 +11128,79 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
     LastModifiedDate: '2026-06-17T10:31:30.993Z'
+  - VulnerabilityID: CVE-2026-54876
+    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 6f693dfce3d35b14
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: under_investigation
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54876
+    Fingerprint: sha256:6f14f6bdc73caa712c6f923c5d1251f7c2da66cf50e6f341e7d37262dfc01d35
+    Title: 'openssl: openssl-src: OpenSSL: Memory leak leads to Denial of Service in OCSP response checking'
+    Description: |-
+      Issue summary: A malicious TLS server can cause a memory leak in a TLS
+      client that has enabled OCSP response checking by sending an OCSP
+      response that contains no single response entries.
+
+      Impact summary: An attacker can leak an attacker-tunable amount of memory
+      per TLS handshake in a victim client application. A long-running client
+      that repeatedly connects to a malicious server can have its memory
+      exhausted, resulting in a Denial of Service.
+
+      CWE: CWE-401: Missing Release of Memory after Effective Lifetime
+
+      Description: The affected function is called during X.509 certificate
+      chain verification when OCSP response checking is enabled
+      with the X509_V_FLAG_OCSP_RESP_CHECK or X509_V_FLAG_OCSP_RESP_CHECK_ALL
+      verification flags, for example when a TLS client verifies an OCSP
+      response stapled into the TLS handshake by the server.
+
+      When the received BasicOCSPResponse contains an empty SEQUENCE OF
+      SingleResponse, which is permitted on the wire and accepted by the
+      OpenSSL decoder, the OCSP_BASICRESP structure allocated by
+      OCSP_response_get1_basic() was not freed because an early return
+      bypassed the cleanup code at the end of the function.
+
+      The amount of memory leaked per handshake can be amplified by the
+      attacker by padding the certs field of the BasicOCSPResponse with
+      bogus certificates, which are parsed and stored in the leaked
+      structure before the empty response check triggers the early return.
+      A long-running TLS client that repeatedly connects to a malicious
+      server can have its memory exhausted over time.
+
+      OCSP response checking is not enabled by default. Only client
+      applications that explicitly enable the OCSP response check
+      verification flags are affected.
+
+      FIPS impact: no
+
+      The FIPS modules in 4.0 and 3.6 are not affected by this issue as the
+      affected code is outside the OpenSSL FIPS module boundary.
+    Severity: HIGH
+    CweIDs:
+    - CWE-401
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/05/8
+    - https://access.redhat.com/security/cve/CVE-2026-54876
+    - https://github.com/openssl/openssl/commit/155b5fe0f93365e6df1c56ee3606b121080c6c12
+    - https://github.com/openssl/openssl/commit/d8c51048ac037a21bae0f41cad7a3920dc7f3638
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54876
+    - https://openssl-library.org/news/secadv/20260805.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-54876
+    PublishedDate: '2026-08-05T15:16:53.487Z'
+    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
     PkgName: openssl-libs
@@ -11186,7 +11258,6 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
     - https://access.redhat.com/errata/RHSA-2025:15699
-    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -11347,7 +11418,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/advisories/GHSA-r9fv-h47r-823f
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
@@ -11851,79 +11922,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42765
     PublishedDate: '2026-06-09T17:17:07.843Z'
     LastModifiedDate: '2026-07-23T08:10:00.137Z'
-  - VulnerabilityID: CVE-2026-54876
-    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
-    PkgName: openssl-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
-      UID: 6f693dfce3d35b14
-    InstalledVersion: 1:3.5.8-1.el9_8
-    Status: under_investigation
-    Layer:
-      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
-      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54876
-    Fingerprint: sha256:6f14f6bdc73caa712c6f923c5d1251f7c2da66cf50e6f341e7d37262dfc01d35
-    Title: 'openssl: openssl-src: OpenSSL: Memory leak leads to Denial of Service in OCSP response checking'
-    Description: |-
-      Issue summary: A malicious TLS server can cause a memory leak in a TLS
-      client that has enabled OCSP response checking by sending an OCSP
-      response that contains no single response entries.
-
-      Impact summary: An attacker can leak an attacker-tunable amount of memory
-      per TLS handshake in a victim client application. A long-running client
-      that repeatedly connects to a malicious server can have its memory
-      exhausted, resulting in a Denial of Service.
-
-      CWE: CWE-401: Missing Release of Memory after Effective Lifetime
-
-      Description: The affected function is called during X.509 certificate
-      chain verification when OCSP response checking is enabled
-      with the X509_V_FLAG_OCSP_RESP_CHECK or X509_V_FLAG_OCSP_RESP_CHECK_ALL
-      verification flags, for example when a TLS client verifies an OCSP
-      response stapled into the TLS handshake by the server.
-
-      When the received BasicOCSPResponse contains an empty SEQUENCE OF
-      SingleResponse, which is permitted on the wire and accepted by the
-      OpenSSL decoder, the OCSP_BASICRESP structure allocated by
-      OCSP_response_get1_basic() was not freed because an early return
-      bypassed the cleanup code at the end of the function.
-
-      The amount of memory leaked per handshake can be amplified by the
-      attacker by padding the certs field of the BasicOCSPResponse with
-      bogus certificates, which are parsed and stored in the leaked
-      structure before the empty response check triggers the early return.
-      A long-running TLS client that repeatedly connects to a malicious
-      server can have its memory exhausted over time.
-
-      OCSP response checking is not enabled by default. Only client
-      applications that explicitly enable the OCSP response check
-      verification flags are affected.
-
-      FIPS impact: no
-
-      The FIPS modules in 4.0 and 3.6 are not affected by this issue as the
-      affected code is outside the OpenSSL FIPS module boundary.
-    Severity: LOW
-    CweIDs:
-    - CWE-401
-    VendorSeverity:
-      redhat: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - http://www.openwall.com/lists/oss-security/2026/08/05/8
-    - https://access.redhat.com/security/cve/CVE-2026-54876
-    - https://github.com/openssl/openssl/commit/155b5fe0f93365e6df1c56ee3606b121080c6c12
-    - https://github.com/openssl/openssl/commit/d8c51048ac037a21bae0f41cad7a3920dc7f3638
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-54876
-    - https://openssl-library.org/news/secadv/20260805.txt
-    - https://www.cve.org/CVERecord?id=CVE-2026-54876
-    PublishedDate: '2026-08-05T15:16:53.487Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
   - VulnerabilityID: CVE-2026-75803
     PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
     PkgName: openssl-libs
@@ -12920,6 +12918,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2025-13837
     - https://bugzilla.redhat.com/2395108
@@ -12959,7 +12958,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/568342cfc8f002d9a15f30238f26b9d2e0e79036
     - https://github.com/python/cpython/commit/5a8b19677d818fb41ee55f310233772e15aa1a2b
@@ -13013,6 +13012,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2025-15282
     - https://bugzilla.redhat.com/2395108
@@ -13052,7 +13052,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/05356b1cc153108aaf27f3b72ce438af4aa218c0
     - https://github.com/python/cpython/commit/34d76b00dabde81a793bd06dd8ecb057838c4b38
@@ -13208,6 +13208,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-0672
     - https://bugzilla.redhat.com/2395108
@@ -13247,7 +13248,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/62700107418eb2cca3fc88da036a243ea975f172
     - https://github.com/python/cpython/commit/712452e6f1d4b9f7f8c4c92ebfcaac1705faa440
@@ -13409,6 +13410,7 @@
         V3Score: 4.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/04/11/4
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-1502
     - https://bugzilla.redhat.com/2395108
@@ -13448,7 +13450,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/05ed7ce7ae9e17c23a04085b2539fe6d6d3cef69
     - https://github.com/python/cpython/commit/56b7100b04e44ea27989242b176beb8f016b2c53
@@ -13560,6 +13562,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 5.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-3644
     - https://bugzilla.redhat.com/2395108
@@ -13599,7 +13602,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/3974092b037f9a3b000fb15b48ea61ce3b25d330
     - https://github.com/python/cpython/commit/556aa098e738b127c714866f819b4abe2f7593d8
@@ -13663,6 +13666,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/16/4
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-4224
     - https://bugzilla.redhat.com/2395108
@@ -13702,7 +13706,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/24ce88b285f56ee11626cf5e472af3cd8cc7c621
@@ -13864,6 +13868,7 @@
         V3Score: 6
     References:
     - http://www.openwall.com/lists/oss-security/2026/04/15/6
+    - https://access.redhat.com/errata/RHSA-2026:19019
     - https://access.redhat.com/errata/RHSA-2026:19176
     - https://access.redhat.com/security/cve/CVE-2026-5713
     - https://bugzilla.redhat.com/2431367
@@ -13894,7 +13899,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5713
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19176.html
+    - https://errata.almalinux.org/10/ALSA-2026-19019.html
     - https://errata.rockylinux.org/RLSA-2026:19176
     - https://github.com/python/cpython/commit/289fd2c97a7e5aecb8b69f94f5e838ccfeee7e67
     - https://github.com/python/cpython/commit/316f6265b7f9ca4ffed5346b747475ef1943f35d
@@ -13950,6 +13955,7 @@
         V3Score: 6.8
     References:
     - https://access.redhat.com/errata/RHSA-2026:28247
+    - https://access.redhat.com/errata/RHSA-2026:28581
     - https://access.redhat.com/security/cve/CVE-2026-6019
     - https://bugzilla.redhat.com/2458049
     - https://bugzilla.redhat.com/2460869
@@ -13958,7 +13964,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6019
-    - https://errata.almalinux.org/9/ALSA-2026-28247.html
+    - https://errata.almalinux.org/10/ALSA-2026-28581.html
     - https://errata.rockylinux.org/RLSA-2026:28247
     - https://github.com/python/cpython/commit/3c59b8b53fc75c7f9578d16fb8201ceb43e8f76c
     - https://github.com/python/cpython/commit/76b3923d688c0efc580658476c5f525ec8735104
@@ -14262,6 +14268,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
@@ -14301,7 +14308,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -14494,6 +14501,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2025-13837
     - https://bugzilla.redhat.com/2395108
@@ -14533,7 +14541,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/568342cfc8f002d9a15f30238f26b9d2e0e79036
     - https://github.com/python/cpython/commit/5a8b19677d818fb41ee55f310233772e15aa1a2b
@@ -14587,6 +14595,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2025-15282
     - https://bugzilla.redhat.com/2395108
@@ -14626,7 +14635,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/05356b1cc153108aaf27f3b72ce438af4aa218c0
     - https://github.com/python/cpython/commit/34d76b00dabde81a793bd06dd8ecb057838c4b38
@@ -14782,6 +14791,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-0672
     - https://bugzilla.redhat.com/2395108
@@ -14821,7 +14831,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/62700107418eb2cca3fc88da036a243ea975f172
     - https://github.com/python/cpython/commit/712452e6f1d4b9f7f8c4c92ebfcaac1705faa440
@@ -14983,6 +14993,7 @@
         V3Score: 4.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/04/11/4
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-1502
     - https://bugzilla.redhat.com/2395108
@@ -15022,7 +15033,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/05ed7ce7ae9e17c23a04085b2539fe6d6d3cef69
     - https://github.com/python/cpython/commit/56b7100b04e44ea27989242b176beb8f016b2c53
@@ -15134,6 +15145,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 5.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-3644
     - https://bugzilla.redhat.com/2395108
@@ -15173,7 +15185,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/3974092b037f9a3b000fb15b48ea61ce3b25d330
     - https://github.com/python/cpython/commit/556aa098e738b127c714866f819b4abe2f7593d8
@@ -15237,6 +15249,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/16/4
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-4224
     - https://bugzilla.redhat.com/2395108
@@ -15276,7 +15289,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/24ce88b285f56ee11626cf5e472af3cd8cc7c621
@@ -15438,6 +15451,7 @@
         V3Score: 6
     References:
     - http://www.openwall.com/lists/oss-security/2026/04/15/6
+    - https://access.redhat.com/errata/RHSA-2026:19019
     - https://access.redhat.com/errata/RHSA-2026:19176
     - https://access.redhat.com/security/cve/CVE-2026-5713
     - https://bugzilla.redhat.com/2431367
@@ -15468,7 +15482,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5713
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19176.html
+    - https://errata.almalinux.org/10/ALSA-2026-19019.html
     - https://errata.rockylinux.org/RLSA-2026:19176
     - https://github.com/python/cpython/commit/289fd2c97a7e5aecb8b69f94f5e838ccfeee7e67
     - https://github.com/python/cpython/commit/316f6265b7f9ca4ffed5346b747475ef1943f35d
@@ -15524,6 +15538,7 @@
         V3Score: 6.8
     References:
     - https://access.redhat.com/errata/RHSA-2026:28247
+    - https://access.redhat.com/errata/RHSA-2026:28581
     - https://access.redhat.com/security/cve/CVE-2026-6019
     - https://bugzilla.redhat.com/2458049
     - https://bugzilla.redhat.com/2460869
@@ -15532,7 +15547,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6019
-    - https://errata.almalinux.org/9/ALSA-2026-28247.html
+    - https://errata.almalinux.org/10/ALSA-2026-28581.html
     - https://errata.rockylinux.org/RLSA-2026:28247
     - https://github.com/python/cpython/commit/3c59b8b53fc75c7f9578d16fb8201ceb43e8f76c
     - https://github.com/python/cpython/commit/76b3923d688c0efc580658476c5f525ec8735104
@@ -15836,6 +15851,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
@@ -15875,7 +15891,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -16068,6 +16084,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2025-13837
     - https://bugzilla.redhat.com/2395108
@@ -16107,7 +16124,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/568342cfc8f002d9a15f30238f26b9d2e0e79036
     - https://github.com/python/cpython/commit/5a8b19677d818fb41ee55f310233772e15aa1a2b
@@ -16161,6 +16178,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2025-15282
     - https://bugzilla.redhat.com/2395108
@@ -16200,7 +16218,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/05356b1cc153108aaf27f3b72ce438af4aa218c0
     - https://github.com/python/cpython/commit/34d76b00dabde81a793bd06dd8ecb057838c4b38
@@ -16356,6 +16374,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-0672
     - https://bugzilla.redhat.com/2395108
@@ -16395,7 +16414,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/62700107418eb2cca3fc88da036a243ea975f172
     - https://github.com/python/cpython/commit/712452e6f1d4b9f7f8c4c92ebfcaac1705faa440
@@ -16557,6 +16576,7 @@
         V3Score: 4.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/04/11/4
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-1502
     - https://bugzilla.redhat.com/2395108
@@ -16596,7 +16616,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/05ed7ce7ae9e17c23a04085b2539fe6d6d3cef69
     - https://github.com/python/cpython/commit/56b7100b04e44ea27989242b176beb8f016b2c53
@@ -16708,6 +16728,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 5.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-3644
     - https://bugzilla.redhat.com/2395108
@@ -16747,7 +16768,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/3974092b037f9a3b000fb15b48ea61ce3b25d330
     - https://github.com/python/cpython/commit/556aa098e738b127c714866f819b4abe2f7593d8
@@ -16811,6 +16832,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/16/4
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-4224
     - https://bugzilla.redhat.com/2395108
@@ -16850,7 +16872,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/24ce88b285f56ee11626cf5e472af3cd8cc7c621
@@ -17012,6 +17034,7 @@
         V3Score: 6
     References:
     - http://www.openwall.com/lists/oss-security/2026/04/15/6
+    - https://access.redhat.com/errata/RHSA-2026:19019
     - https://access.redhat.com/errata/RHSA-2026:19176
     - https://access.redhat.com/security/cve/CVE-2026-5713
     - https://bugzilla.redhat.com/2431367
@@ -17042,7 +17065,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5713
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19176.html
+    - https://errata.almalinux.org/10/ALSA-2026-19019.html
     - https://errata.rockylinux.org/RLSA-2026:19176
     - https://github.com/python/cpython/commit/289fd2c97a7e5aecb8b69f94f5e838ccfeee7e67
     - https://github.com/python/cpython/commit/316f6265b7f9ca4ffed5346b747475ef1943f35d
@@ -17098,6 +17121,7 @@
         V3Score: 6.8
     References:
     - https://access.redhat.com/errata/RHSA-2026:28247
+    - https://access.redhat.com/errata/RHSA-2026:28581
     - https://access.redhat.com/security/cve/CVE-2026-6019
     - https://bugzilla.redhat.com/2458049
     - https://bugzilla.redhat.com/2460869
@@ -17106,7 +17130,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6019
-    - https://errata.almalinux.org/9/ALSA-2026-28247.html
+    - https://errata.almalinux.org/10/ALSA-2026-28581.html
     - https://errata.rockylinux.org/RLSA-2026:28247
     - https://github.com/python/cpython/commit/3c59b8b53fc75c7f9578d16fb8201ceb43e8f76c
     - https://github.com/python/cpython/commit/76b3923d688c0efc580658476c5f525ec8735104
@@ -17410,6 +17434,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
@@ -17449,7 +17474,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -17864,13 +17889,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:54481
     - https://access.redhat.com/errata/RHSA-2026:54484
     - https://access.redhat.com/security/cve/CVE-2026-45409
     - https://bugzilla.redhat.com/2485616
     - https://bugzilla.redhat.com/show_bug.cgi?id=2485616
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-45409
-    - https://errata.almalinux.org/9/ALSA-2026-54484.html
+    - https://errata.almalinux.org/10/ALSA-2026-54481.html
     - https://errata.rockylinux.org/RLSA-2026:54484
     - https://github.com/kjd/idna
     - https://github.com/kjd/idna/security/advisories/GHSA-65pc-fj4g-8rjx
