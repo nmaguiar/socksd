@@ -6,3 +6,163 @@
   Class: lang-pkgs
   Type: jar
   Packages: []
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2026-68497
+    VendorIDs:
+    - GHSA-q4xh-88c3-wmh7
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.1
+      UID: eda04677809202ba
+    InstalledVersion: 2.22.1
+    FixedVersion: 2.18.10, 2.21.6, 2.22.2
+    Status: fixed
+    Layer:
+      Digest: sha256:943a527429491c45249c77b0553dcc1034fc07e3f179135395a085735cd88b82
+      DiffID: sha256:bb1a7937bbc82fa4c485fb5865aaa6035347b428c72d53ba8d0f4fff7adecb69
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-68497
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:b27db3d4f2bc4084b9acf7e3ff9ff9dd02e77f71822426d40cb7de61e2af4dbd
+    Title: 'com.fasterxml.jackson.core/jackson-databind: tools.jackson.core/jackson-databind: jackson-databind: CPU Denial of Service via unbounded numeric parsing'
+    Description: jackson-databind binds a JSON string to a javax.xml.datatype.Duration or javax.xml.datatype.XMLGregorianCalendar field by passing the raw string verbatim to DatatypeFactory.newDuration(value) or newXMLGregorianCalendar(value) in CoreXMLDeserializers.Std._deserialize. These deserializers are registered by default with no opt-in, so a plain ObjectMapper or JsonMapper with no polymorphic typing and no special configuration reaches this path. The XML Schema lexical grammar permits numeric components of arbitrary length, which the JDK materializes through the native BigInteger(String) and BigDecimal(String) constructors, both quadratic in digit count. Because the digits sit inside a JSON string token rather than a JSON number token, jackson-core's StreamReadConstraints.maxNumberLength guard never applies; jackson's own NumberDeserializers call validateIntegerLength or validateFPLength before parsing a stringified number, but the XML datatype deserializer omits that pre-check. An unauthenticated attacker can therefore submit a single request of a few megabytes, such as a Duration value consisting of the letter P followed by several million digits and the letter Y, and force tens of seconds to several minutes of single-threaded CPU work; a handful of concurrent requests can saturate a server's worker threads. This affects com.fasterxml.jackson.core:jackson-databind from 2.0.0 before 2.18.10, from 2.19.0 before 2.21.6, and from 2.22.0 before 2.22.2, and tools.jackson.core:jackson-databind from 3.0.0 before 3.1.6 and from 3.2.0 before 3.2.2. Users should upgrade to 2.18.10, 2.21.6, 2.22.2, 3.1.6, or 3.2.2.
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    - CWE-1333
+    VendorSeverity:
+      ghsa: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-68497
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/a99b7e74c8928f43f6975773a8c862c8316178bd
+    - https://github.com/FasterXML/jackson-databind/pull/6127
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.18.10
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.21.6
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.22.2
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.1.6
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.2
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-q4xh-88c3-wmh7
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-68497
+    - https://www.cve.org/CVERecord?id=CVE-2026-68497
+    PublishedDate: '2026-09-11T16:17:39.61Z'
+    LastModifiedDate: '2026-09-18T19:34:36.657Z'
+  - VulnerabilityID: CVE-2026-19032
+    VendorIDs:
+    - GHSA-wjgm-6hv5-3cvf
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.1
+      UID: eda04677809202ba
+    InstalledVersion: 2.22.1
+    FixedVersion: 2.18.10, 2.21.6, 2.22.2
+    Status: fixed
+    Layer:
+      Digest: sha256:943a527429491c45249c77b0553dcc1034fc07e3f179135395a085735cd88b82
+      DiffID: sha256:bb1a7937bbc82fa4c485fb5865aaa6035347b428c72d53ba8d0f4fff7adecb69
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19032
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:47d1d0879cbb0da70361495c6285d456e13b53f3e87e47bafe0c2d553afad31a
+    Title: 'com.fasterxml.jackson.core/jackson-databind: tools.jackson.core/jackson-databind: Jackson-databind: Uncontrolled URI scheme resolution in Path deserialization'
+    Description: jackson-databind's deserializer for java.nio.file.Path resolves an attacker-supplied URI without restricting the URI scheme. In JDKFromStringDeserializer.NioPathHelper.deserialize, a string bound from untrusted JSON is passed to new URI(value) and then to Path.of(uri). When that throws FileSystemNotFoundException, the code enumerates ServiceLoader<FileSystemProvider> and calls provider.getPath(uri) on the first provider whose scheme matches the attacker-chosen scheme. Untrusted JSON can therefore select and drive an arbitrary registered FileSystemProvider during readValue under a default JsonMapper, and forces provider class loading at the same time. With only the JDK built-in providers (file, jar/zipfs) present, the resolved path is inert and no mount or network I/O occurs; further impact requires a side-effecting third-party FileSystemProvider on the classpath. This affects com.fasterxml.jackson.core:jackson-databind from 2.8.0 before 2.18.10, from 2.19.0 before 2.21.6, and from 2.22.0 before 2.22.2, and tools.jackson.core:jackson-databind from 3.0.0 before 3.1.6 and from 3.2.0 before 3.2.2. Users should upgrade to 2.18.10, 2.21.6, 2.22.2, 3.1.6, or 3.2.2. Binding java.nio.file.Path from untrusted JSON should be avoided regardless of version.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-470
+    - CWE-610
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-19032
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/cc6756b61ed90b6b9227f670e0408d5d9bd48551
+    - https://github.com/FasterXML/jackson-databind/commit/ce26eda3481cd796f76ba4c53ffe1da23b53f166
+    - https://github.com/FasterXML/jackson-databind/commit/d94bb632becfe0ba96926b9909ab06d1f87aad6d
+    - https://github.com/FasterXML/jackson-databind/pull/6129
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.18.10
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.21.6
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.22.2
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.1.6
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.2
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-wjgm-6hv5-3cvf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19032
+    - https://www.cve.org/CVERecord?id=CVE-2026-19032
+    PublishedDate: '2026-09-01T04:18:00.433Z'
+    LastModifiedDate: '2026-09-08T19:29:32.2Z'
+  - VulnerabilityID: CVE-2026-83557
+    VendorIDs:
+    - GHSA-gx83-3vf8-gh7j
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.1
+      UID: eda04677809202ba
+    InstalledVersion: 2.22.1
+    FixedVersion: 2.18.10, 2.21.6, 2.22.2
+    Status: fixed
+    Layer:
+      Digest: sha256:943a527429491c45249c77b0553dcc1034fc07e3f179135395a085735cd88b82
+      DiffID: sha256:bb1a7937bbc82fa4c485fb5865aaa6035347b428c72d53ba8d0f4fff7adecb69
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-83557
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:52daf225e54bf4224c2cfef0099cc1eaa98fedf08fff3b1e2e4dc5b7e1585210
+    Title: 'com.fasterxml.jackson.core/jackson-databind: tools.jackson.core/jackson-databind: jackson-databind: Path traversal via incomplete type validation'
+    Description: DefaultBaseTypeLimitingValidator is the PolymorphicTypeValidator applied automatically whenever @JsonTypeInfo is used without an explicitly configured custom validator. It denies polymorphic resolution only for a fixed set of "unsafe base types", and its isSafeSubType method returns true unconditionally for every base type outside that set. java.lang.Comparable was absent from the list despite being implemented by a very large fraction of JDK and application classes, comparable in breadth to java.io.Serializable, which is on the list for that reason. An application declaring an @JsonTypeInfo-annotated property or class with Comparable as its base type, and no custom PolymorphicTypeValidator, will accept a type identifier for essentially any class implementing Comparable. This yields an attacker-controlled object instantiation primitive; a demonstrated case constructs a java.io.File for an arbitrary attacker-chosen path, which becomes path-traversal-adjacent if the application subsequently calls path-sensitive methods on the value. No class implementing Comparable has been identified that yields code execution through deserialization alone. Global Default Typing via activateDefaultTyping is not affected, because that method structurally requires an explicit PolymorphicTypeValidator argument. This affects com.fasterxml.jackson.core:jackson-databind from 2.11.0 before 2.18.10, from 2.19.0 before 2.21.6, and from 2.22.0 before 2.22.2, and tools.jackson.core:jackson-databind from 3.0.0 before 3.1.6 and from 3.2.0 before 3.2.2. Users should upgrade to 2.18.10, 2.21.6, 2.22.2, 3.1.6, or 3.2.2.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-502
+    - CWE-915
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-83557
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/eb3b7fc0f9c0d27f471550ac3316b17d1987388f
+    - https://github.com/FasterXML/jackson-databind/issues/6156
+    - https://github.com/FasterXML/jackson-databind/pull/6155
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.18.10
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.21.6
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.22.2
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.1.6
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.2
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-gx83-3vf8-gh7j
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-83557
+    - https://www.cve.org/CVERecord?id=CVE-2026-83557
+    PublishedDate: '2026-09-01T15:17:37.987Z'
+    LastModifiedDate: '2026-09-08T19:29:32.2Z'
