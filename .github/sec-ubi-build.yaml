@@ -1664,7 +1664,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 4
       oracle-oval: 3
@@ -2680,6 +2680,7 @@
       azure: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -2689,7 +2690,13 @@
     - https://access.redhat.com/errata/RHSA-2026:72448
     - https://access.redhat.com/security/cve/CVE-2026-66046
     - https://bugzilla.redhat.com/2538967
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2517901
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2538967
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-66046
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-93990
     - https://errata.almalinux.org/8/ALSA-2026-72448.html
+    - https://errata.rockylinux.org/RLSA-2026:72448
     - https://github.com/libexpat/libexpat/pull/1321
     - https://linux.oracle.com/cve/CVE-2026-66046.html
     - https://linux.oracle.com/errata/ELSA-2026-72663.html
@@ -2762,6 +2769,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -2771,7 +2779,13 @@
     - https://access.redhat.com/security/cve/CVE-2026-93990
     - https://blog.hartwork.org/posts/expat-2-8-5-released/
     - https://bugzilla.redhat.com/2538967
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2517901
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2538967
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-66046
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-93990
     - https://errata.almalinux.org/8/ALSA-2026-72448.html
+    - https://errata.rockylinux.org/RLSA-2026:72448
     - https://github.com/libexpat/libexpat
     - https://github.com/libexpat/libexpat/commit/ff6e1d7e750bbe245178f51a47a965dc8342861a
     - https://github.com/libexpat/libexpat/pull/1282
@@ -2783,6 +2797,42 @@
     - https://www.vulncheck.com/advisories/expat-through-2.8.4-malformed-utf-16-acceptance-via-unchecked-surrogate
     PublishedDate: '2026-09-19T23:17:10.203Z'
     LastModifiedDate: '2026-09-28T17:17:53.037Z'
+  - VulnerabilityID: CVE-2026-102633
+    PkgID: expat@2.5.0-6.el9_8.3.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&distro=redhat-9.8
+      UID: d230693b2613d411
+    InstalledVersion: 2.5.0-6.el9_8.3
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-102633
+    Fingerprint: sha256:5eb5f8c82ae0989b16c995cbb57910ee51f4a44e94617b145ea2f6841c4a24d3
+    Title: 'expat: expat: Denial of Service via integer overflow in expat_realloc'
+    Description: libexpat versions 2.7.2 through 2.8.5 contain an integer overflow vulnerability in expat_realloc() function on 32-bit platforms when computing allocation sizes. Attackers supplying malicious XML to applications parsing with vulnerable libexpat can cause heap buffer overflow, memory corruption, or denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-102633
+    - https://github.com/libexpat/libexpat
+    - https://github.com/libexpat/libexpat/blob/R_2_8_5/expat/lib/xmlparse.c#L1003
+    - https://github.com/libexpat/libexpat/commit/209801d7fbaf07ab74bae8cb32dd2ab9e5846118
+    - https://github.com/libexpat/libexpat/pull/1392
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-102633
+    - https://www.cve.org/CVERecord?id=CVE-2026-102633
+    - https://www.vulncheck.com/advisories/libexpat-2.7.2-through-2.8.5-integer-overflow-in-expat-realloc
+    PublishedDate: '2026-09-29T17:17:06.98Z'
+    LastModifiedDate: '2026-09-29T21:32:59.833Z'
   - VulnerabilityID: CVE-2026-32776
     PkgID: expat@2.5.0-6.el9_8.3.x86_64
     PkgName: expat
@@ -3404,13 +3454,16 @@
     PublishedDate: '2026-04-16T17:16:54.917Z'
     LastModifiedDate: '2026-07-14T13:18:51.257Z'
   - VulnerabilityID: CVE-2026-40467
+    VendorIDs:
+    - RHSA-2026:73512
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
     PkgIdentifier:
       PURL: pkg:rpm/redhat/gawk@5.1.0-6.el9?arch=x86_64&distro=redhat-9.8
       UID: 37963bde3f4b15cb
     InstalledVersion: 5.1.0-6.el9
-    Status: affected
+    FixedVersion: 5.1.0-6.el9_8.1
+    Status: fixed
     Layer:
       Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
       DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
@@ -3423,10 +3476,12 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 2
       amazon: 3
       azure: 2
       julia: 2
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -3443,22 +3498,32 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:73512
     - https://access.redhat.com/security/cve/CVE-2026-40467
+    - https://bugzilla.redhat.com/2499655
+    - https://bugzilla.redhat.com/2499657
+    - https://bugzilla.redhat.com/2499658
     - https://cert.pl/en/posts/2026/07/CVE-2026-40467
     - https://cgit.git.savannah.gnu.org/cgit/gawk.git/commit/?id=a2d18c74109e41bec29a23098eba2e00057286d8
+    - https://errata.almalinux.org/9/ALSA-2026-73512.html
+    - https://linux.oracle.com/cve/CVE-2026-40467.html
+    - https://linux.oracle.com/errata/ELSA-2026-73512.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-40467
     - https://ubuntu.com/security/notices/USN-8588-1
     - https://www.cve.org/CVERecord?id=CVE-2026-40467
     PublishedDate: '2026-07-13T13:16:36.77Z'
     LastModifiedDate: '2026-07-14T01:13:59.517Z'
   - VulnerabilityID: CVE-2026-40468
+    VendorIDs:
+    - RHSA-2026:73512
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
     PkgIdentifier:
       PURL: pkg:rpm/redhat/gawk@5.1.0-6.el9?arch=x86_64&distro=redhat-9.8
       UID: 37963bde3f4b15cb
     InstalledVersion: 5.1.0-6.el9
-    Status: affected
+    FixedVersion: 5.1.0-6.el9_8.1
+    Status: fixed
     Layer:
       Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
       DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
@@ -3471,10 +3536,12 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      alma: 2
       amazon: 3
       azure: 1
       julia: 1
       nvd: 4
+      oracle-oval: 2
       photon: 4
       redhat: 2
       ubuntu: 2
@@ -3491,22 +3558,32 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L
         V3Score: 4.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:73512
     - https://access.redhat.com/security/cve/CVE-2026-40468
+    - https://bugzilla.redhat.com/2499655
+    - https://bugzilla.redhat.com/2499657
+    - https://bugzilla.redhat.com/2499658
     - https://cert.pl/en/posts/2026/07/CVE-2026-40467
     - https://cgit.git.savannah.gnu.org/cgit/gawk.git/commit/?id=062f2f2581b991362c046f7f2e238ffa34e6f8c7
+    - https://errata.almalinux.org/9/ALSA-2026-73512.html
+    - https://linux.oracle.com/cve/CVE-2026-40468.html
+    - https://linux.oracle.com/errata/ELSA-2026-73512.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-40468
     - https://ubuntu.com/security/notices/USN-8588-1
     - https://www.cve.org/CVERecord?id=CVE-2026-40468
     PublishedDate: '2026-07-13T13:16:36.907Z'
     LastModifiedDate: '2026-07-14T01:12:11.343Z'
   - VulnerabilityID: CVE-2026-40553
+    VendorIDs:
+    - RHSA-2026:73512
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
     PkgIdentifier:
       PURL: pkg:rpm/redhat/gawk@5.1.0-6.el9?arch=x86_64&distro=redhat-9.8
       UID: 37963bde3f4b15cb
     InstalledVersion: 5.1.0-6.el9
-    Status: affected
+    FixedVersion: 5.1.0-6.el9_8.1
+    Status: fixed
     Layer:
       Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
       DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
@@ -3519,10 +3596,12 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      alma: 2
       amazon: 3
       azure: 2
       julia: 2
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -3539,9 +3618,16 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
+    - https://access.redhat.com/errata/RHSA-2026:73512
     - https://access.redhat.com/security/cve/CVE-2026-40553
+    - https://bugzilla.redhat.com/2499655
+    - https://bugzilla.redhat.com/2499657
+    - https://bugzilla.redhat.com/2499658
     - https://cert.pl/en/posts/2026/07/CVE-2026-40467
     - https://cgit.git.savannah.gnu.org/cgit/gawk.git/commit/?id=cca0366144336b49aaa7d5d949966ce8e2c70843
+    - https://errata.almalinux.org/9/ALSA-2026-73512.html
+    - https://linux.oracle.com/cve/CVE-2026-40553.html
+    - https://linux.oracle.com/errata/ELSA-2026-73512.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-40553
     - https://ubuntu.com/security/notices/USN-8588-1
     - https://www.cve.org/CVERecord?id=CVE-2026-40553
@@ -5865,7 +5951,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       julia: 2
@@ -7370,7 +7456,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 4
       oracle-oval: 3
@@ -8384,12 +8470,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:73642
     - https://access.redhat.com/security/cve/CVE-2026-102010
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478395
     - https://nvd.nist.gov/vuln/detail/CVE-2026-102010
     - https://www.cve.org/CVERecord?id=CVE-2026-102010
     PublishedDate: '2026-09-28T19:16:48.83Z'
-    LastModifiedDate: '2026-09-29T21:29:07.663Z'
+    LastModifiedDate: '2026-09-30T17:16:39.54Z'
   - VulnerabilityID: CVE-2026-95619
     PkgID: libgcc@11.5.0-14.el9.x86_64
     PkgName: libgcc
@@ -9018,12 +9105,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:73642
     - https://access.redhat.com/security/cve/CVE-2026-102010
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478395
     - https://nvd.nist.gov/vuln/detail/CVE-2026-102010
     - https://www.cve.org/CVERecord?id=CVE-2026-102010
     PublishedDate: '2026-09-28T19:16:48.83Z'
-    LastModifiedDate: '2026-09-29T21:29:07.663Z'
+    LastModifiedDate: '2026-09-30T17:16:39.54Z'
   - VulnerabilityID: CVE-2026-95619
     PkgID: libstdc++@11.5.0-14.el9.x86_64
     PkgName: libstdc++
@@ -10229,6 +10317,80 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-54876
     PublishedDate: '2026-08-05T15:16:53.487Z'
     LastModifiedDate: '2026-08-28T19:46:29.323Z'
+  - VulnerabilityID: CVE-2026-75804
+    PkgID: openssl@3.5.8-1.el9_8.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: b8f9bf0a499769d3
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75804
+    Fingerprint: sha256:de7136fdbf326e7fd92f55c4bba7b3f298c6c54cba65b22f20bf1e15ee20fcf6
+    Title: 'openssl: OpenSSL: Denial of Service via unenforced QUIC connection flow control'
+    Description: |-
+      Issue summary: OpenSSL QUIC stack does not enforce connection
+      level flow control for streams. Remote peers may send more bytes
+      as long as they fit within the stream flow control limits.
+
+      Impact summary: A malicious remote peer may exploit the lack of connection
+      flow control for streams to make the QUIC stack receive ~100MB of memory
+      instead of 768 KiB (default flow control window size).
+
+      CWE: CWE-770: Allocation of Resources Without Limits or Throttling
+
+      Description: The local QUIC stack advertises two flow control limits
+      to its remote peer: stream flow control limit and connection flow
+      control limit. The remote peer must follow both limits when transmitting
+      stream data.
+
+      Whenever the local QUIC stack receives a stream frame, it validates
+      that the size of the received stream frame stays within flow control limits.
+      If either limit is exceeded (stream level or connection level), then
+      the QUIC stack must close the connection with a flow control error.
+
+      The vulnerable OpenSSL QUIC stack enforces the stream-level but not
+      the connection-level limit. To exploit the issue, three conditions must be met:
+        - the remote peer opens several streams
+        - each stream must stay within the stream-level flow control limit
+        - there must be no zero-offset byte sent on any of the streams
+          (to prevent the vulnerable QUIC stack from consuming data).
+      By meeting the conditions above, the remote peer may make the local stack
+      allocate 2 x MAX_STREAMS x (stream flow control limit) bytes
+      of memory. MAX_STREAMS defaults to 100, and the limit applies to both
+      bidirectional and unidirectional streams, making it 200 in total. The default
+      flow control window for a stream is 512kB. The remote peer may
+      force the vulnerable QUIC stack to allocate 100MB of heap per connection.
+
+      FIPS impact: no
+      The FIPS module is not affected as the QUIC implementation is outside of
+      the OpenSSL FIPS module boundary.
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-75804
+    - https://github.com/openssl/openssl/commit/2e8f54666b3fb7b05ff5f58aa6cac9285163654e
+    - https://github.com/openssl/openssl/commit/4533ee8a5686c953ed3b644738ac4bdf20806538
+    - https://github.com/openssl/openssl/commit/64d3102fb5b54311e92517f26ba00169d719e74a
+    - https://github.com/openssl/openssl/commit/f9eaecf5bdd6692da052bc65b0332af2a938ac03
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75804
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-75804
+    PublishedDate: '2026-09-29T16:17:10.887Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
   - VulnerabilityID: CVE-2026-84782
     PkgID: openssl@3.5.8-1.el9_8.x86_64
     PkgName: openssl
@@ -10243,7 +10405,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-84782
     Fingerprint: sha256:59ce4bad8062c439466938c16d94066615dec32a25848634e0c13128ccc3a4c3
-    Title: 'Issue summary: The DTLS retransmission logic does not correctly handle ...'
+    Title: 'openssl: compat-openssl: openssl: Information disclosure via DTLS handshake retransmission'
     Description: |-
       Issue summary: The DTLS retransmission logic does not correctly handle
       a handshake message write that is suspended part-way through.
@@ -10296,14 +10458,677 @@
     VendorSeverity:
       redhat: 3
       ubuntu: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-84782
     - https://github.com/openssl/openssl/commit/906cf0ef1c85ca40ce69163e9086d6d3fe292943
     - https://github.com/openssl/openssl/commit/9f6b34422af7eb5dac61322e33dac1ae989fa628
     - https://github.com/openssl/openssl/commit/a383dafdd754eb5b22bf45e37e1bff9d07277a58
     - https://github.com/openssl/openssl/commit/d951e02ede8f6a6ff8150546db44b34f0518192c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-84782
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://openssl-library.org/news/vulnerabilities/#CVE-2026-84782
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-84782
     PublishedDate: '2026-09-29T16:17:12.5Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-42772
+    PkgID: openssl@3.5.8-1.el9_8.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: b8f9bf0a499769d3
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42772
+    Fingerprint: sha256:b17b66563d6ea3345f3d3e3a2f177740d9ac7c7f412f018082261a234a7eb61a
+    Title: 'openssl: openssl: Denial of Service via inefficient QUIC stream reassembly'
+    Description: |-
+      Issue summary: The QUIC stream reassembly algorithm performance deteriorates
+      progressively as packets are arriving out of order. The worst case has
+      a quadratic complexity proportional to the number of stream frames kept in
+      the buffer for the received stream data.
+
+      Impact summary: A remote QUIC peer that completes the handshake can create
+      a connection-scoped CPU pressure and potentially a Denial of Service using
+      compliant STREAM frames inside the advertised receive window, with low
+      attacker bandwidth.
+
+      CWE: CWE-407: Inefficient Algorithmic Complexity
+
+      Description: OpenSSL manages received QUIC stream fragments using a
+      doubly-linked list. While it optimizes for append operations (at the end of
+      the list), it falls back to a head-to-tail linear search for any fragment
+      that does not immediately follow the current `tail`.
+
+      By manipulating the sequence of offsets, an attacker can force the server
+      to perform O(n^2) operations, consuming excessive CPU time for the
+      QUIC process.
+
+      FIPS impact: no
+      The FIPS module is not affected as the QUIC implementation is outside of
+      the OpenSSL FIPS module boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42772
+    - https://github.com/openssl/openssl/commit/32d0ed8afe1b8c3e7ece725b44663da3d7087a09
+    - https://github.com/openssl/openssl/commit/ca8402e273af4de5b3f04fa61a0f0c02ce3ae20e
+    - https://github.com/openssl/openssl/commit/eb2becc0a4baea7f3050a247834d0e5c2ebe1773
+    - https://github.com/openssl/openssl/commit/f42ae513bbda513b3c121d54834040ee4a0eae1a
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42772
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-42772
+    PublishedDate: '2026-09-29T16:17:07.64Z'
+    LastModifiedDate: '2026-09-30T21:17:10.803Z'
+  - VulnerabilityID: CVE-2026-54872
+    PkgID: openssl@3.5.8-1.el9_8.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: b8f9bf0a499769d3
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54872
+    Fingerprint: sha256:e1487e33896d7d5d904780dc77ee819b5406fe86adb425c7d951895d48911f56
+    Title: 'openssl: OpenSSL: Private key recovery via timing side-channel in generic elliptic curve operations'
+    Description: |-
+      Issue summary: The generic elliptic-curve scalar multiplication used for
+      ECDSA and SM2 signature operations with curves that do not have a dedicated
+      implementation leaks information about the secret nonce through timing.
+
+      Impact summary: An attacker able to measure signing times may learn
+      information about the per-signature secret nonce, which over many signatures
+      can, via a lattice / Hidden Number Problem attack, lead to recovery of the
+      private key.
+
+      CWE: CWE-208: Observable Timing Discrepancy
+
+      Description: The generic elliptic-curve scalar multiplication used for
+      curves that do not have a dedicated constant-time implementation pads the
+      secret scalar with non-constant-time BIGNUM operations, so the time taken
+      depends on the value of the secret scalar derived from the ECDSA and SM2 nonce.
+
+      The leak is very small; observing it requires a large number of
+      measurements. The effect is largest for curves whose group order lies
+      on a machine-word boundary, such as brainpoolP384r1.
+
+      Applications using ECDSA signing over the Brainpool and other generic prime
+      curves, and SM2 signing on platforms that use the generic implementation,
+      are vulnerable to this issue.
+
+      The NIST curves P-256, P-384 and P-521 use dedicated constant-time
+      implementations and are not affected.
+
+      FIPS Impact: no
+      The FIPS modules are not affected: the approved NIST curves used in the FIPS
+      provider have dedicated constant-time implementations and do not use the
+      affected code path.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-208
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-54872
+    - https://github.com/openssl/openssl/commit/1a5bee8dc57430a2be69cd1ffe7fec6a62f4f179
+    - https://github.com/openssl/openssl/commit/3f7e1363dccec6f7732bb9e9fa471bb6e4aa68cb
+    - https://github.com/openssl/openssl/commit/7d83bc7764999dfd91b83b4f0815b45390422afd
+    - https://github.com/openssl/openssl/commit/8166827a78aad164a07aa86dea2b425403ced471
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54872
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-54872
+    PublishedDate: '2026-09-29T16:17:08.623Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-54873
+    PkgID: openssl@3.5.8-1.el9_8.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: b8f9bf0a499769d3
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54873
+    Fingerprint: sha256:9f48899ee152f29cdff7755cb38484b9ecada873e445a041efa900c9be49f222
+    Title: 'openssl: openssl: Denial of Service via excessive QUIC packet buffer retention'
+    Description: |-
+      Issue summary: QUIC process may keep memory for QUIC packet
+      buffer for much longer period than necessary.
+
+      Impact summary: Remote peer can exploit this vulnerability
+      by sending maliciously crafted packets, making the local
+      QUIC stack to keep the memory for packet buffers allocated.
+      The time for which the memory remains allocated is entirely
+      under the control of the potentially malicious remote peer.
+
+      CWE: CWE-770: Allocation of Resources Without Limits or Throttling
+
+      Description: To save copy operation from the packet buffer to the
+      stream reassemble buffer the QUIC stack leaves the stream data
+      on the packet buffer waiting to be copied to a buffer provided
+      by the local receiving application. The QUIC stack releases
+      a reference to the packet buffer only after the data are copied
+      to the application buffer. This design is more efficient for
+      legitimate data transfers but enables an attacker to allocate a lot
+      more memory than actually required by the data kept in the receiving
+      stream buffer.
+
+      To mitigate the vulnerability, the QUIC stack now calculates
+      and monitors memory overhead for every stream. The memory overhead
+      for a single stream frame is calculated as a difference between the
+      size of the whole packet that carries the stream frame and the size
+      of the stream frame itself. The memory overhead for a single stream
+      frame is added to the total (cumulative) memory overhead QUIC stack
+      keeps for each stream. Once the cumulative memory overhead exceeds
+      64kB, the QUIC stack moves the stream frame data from the packet
+      buffer to the stream buffer, starting with the next packet received.
+
+      FIPS impact: no
+      The FIPS module is not affected as the QUIC implementation is outside of
+      the OpenSSL FIPS module boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-54873
+    - https://github.com/openssl/openssl/commit/1f643b8bc735487b500a1f68a7fb3a22d5e38e23
+    - https://github.com/openssl/openssl/commit/279e7ee1392af98785746788168749491c74bd53
+    - https://github.com/openssl/openssl/commit/3ea6213e050e938ecbbf8c4eff32bec2736780eb
+    - https://github.com/openssl/openssl/commit/7127fb10888b49711c63128a09e524c0d2d5d0b2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54873
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-54873
+    PublishedDate: '2026-09-29T16:17:08.763Z'
+    LastModifiedDate: '2026-09-30T21:17:13.18Z'
+  - VulnerabilityID: CVE-2026-54875
+    PkgID: openssl@3.5.8-1.el9_8.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: b8f9bf0a499769d3
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54875
+    Fingerprint: sha256:abcc72f360758d3d23aa2398effd514c25f68e4520b85da87db5e2b5e6a7b499
+    Title: 'openssl: openssl: information disclosure via non-constant-time SM2 scalar multiplication on ARM64 and RISC-V'
+    Description: |-
+      Issue summary: A non-constant-time optimized implementation of scalar
+      point multiplication is used for SM2 private key operations on ARM64 and
+      RISC-V platforms.
+
+      Impact summary: An attacker able to measure the time taken by, or to observe
+      the cache-line access pattern of SM2 signing or decryption on an affected
+      platform can learn information about the secret scalar.
+
+      CWE: CWE-208: Observable Timing Discrepancy
+
+      Description: On ARM64 and RISC-V processors, the SM2 curve uses an optimized
+      scalar multiplication implementation whose conditional branches and table
+      look ups are chosen according to the bits of the secret scalar. The execution
+      time and the cache-access pattern therefore depend on the long-term private
+      key (during SM2 decryption) or the per-signature nonce (during SM2 signature
+      generation), forming a timing and cache side-channel.
+
+      FIPS Impact: no
+      SM2 is not a FIPS algorithm and the optimized SM2 implementation is not part
+      of the FIPS module.
+
+      OpenSSL 4.0, 3.6, 3.5 and 3.4 are vulnerable to this issue on AArch64 and
+      RISC-V.
+
+      OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue.
+
+      OpenSSL 4.0 users should upgrade to OpenSSL 4.0.3.
+      OpenSSL 3.6 users should upgrade to OpenSSL 3.6.5.
+      OpenSSL 3.5 users should upgrade to OpenSSL 3.5.9.
+      OpenSSL 3.4 users should upgrade to OpenSSL 3.4.8.
+
+      This issue was reported on 2 May 2026 by Abhinav Agarwal.
+      It was independently reported on 6 June 2026 by Feng Xue.
+      The fix was developed by Igor Ustinov.
+
+      -- cut (non-publishing metadata for internal use) --
+      Reported by: Abhinav Agarwal, Feng Xue
+      Fixed by: Igor Ustinov
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-208
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-54875
+    - https://github.com/openssl/openssl/commit/3f01bbc28f7e08211fcdc797fd43816504f94257
+    - https://github.com/openssl/openssl/commit/469f3e42629f4a0b5631796e20c66c92c138a3e8
+    - https://github.com/openssl/openssl/commit/9794ed473764839275cb701b4850f3c24d929c28
+    - https://github.com/openssl/openssl/commit/dddad955d5ff3e9507619cf4e0f13e9988e2197c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54875
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-54875
+    PublishedDate: '2026-09-29T16:17:08.92Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-72897
+    PkgID: openssl@3.5.8-1.el9_8.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: b8f9bf0a499769d3
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-72897
+    Fingerprint: sha256:8a2720ee80f41ed6f9c0e9586df911216e53204812a7fd9e9f1df19c421b463b
+    Title: 'openssl: openssl: Denial of Service via out-of-bounds write during TLS context switch'
+    Description: |-
+      Issue summary: A TLS server that calls SSL_set_SSL_CTX() to switch a
+      connection to a different SSL_CTX part way through a handshake may access
+      memory beyond the end of an internal array if the replacement context knows
+      about more provider signature algorithms than the context the connection was
+      created from. Applications which never call SSL_set_SSL_CTX() are not
+      affected.
+
+      Impact summary: A remote peer may be able to cause a small out-of-bounds
+      read, and in some circumstances a fixed-value out-of-bounds write, on the
+      server heap. This may lead to a Denial of Service.
+
+      CWE: CWE-787: Out-of-bounds Write
+
+      Description: A TLS connection records how many certificate slots it has
+      when it is created, taken from the SSL_CTX that created it: the built-in
+      certificate types plus one slot for each provider TLS-SIGALG entry that
+      context was aware of. That count sizes an internal array of per-slot
+      certificate validity flags.
+
+      An application may replace a connection's SSL_CTX part way through the
+      handshake by calling SSL_set_SSL_CTX(), most commonly from a servername
+      callback in order to serve a different virtual host. Doing so did not
+      refresh the recorded count. A provider signature algorithm's slot index is
+      its position in the list of whichever context resolves it, so if the
+      replacement context is aware of more of them than the original, an
+      algorithm offered by the peer can resolve to an index beyond the end of the
+      array. Processing the peer's signature algorithms then reads one four byte
+      word past the end for each such algorithm and, where the word read is zero,
+      writes a fixed value over it. A peer offering many of them can corrupt heap
+      metadata and abort the process.
+
+      Only provider signature algorithms which occupy one of the excess slots,
+      and which the server also has configured, have this effect. Codepoints the
+      replacement context does not recognise are discarded without being resolved
+      to a slot, and provider signature algorithms are usable only from TLS 1.3.
+
+      The two contexts must therefore be aware of different numbers of provider
+      signature algorithms, which requires separate library contexts, a provider
+      loaded between the two being created, or providers which differ in what
+      they advertise - in 4.0, for example, the default provider advertises SM2
+      where the FIPS provider does not. A deployment meeting the condition is
+      also unable to negotiate the affected algorithms with legitimate clients,
+      since the same stale count hides the corresponding certificates, so the
+      misconfiguration is likely to be noticed. For that reason, and because the
+      configuration is not the default, this issue has been assessed as Low
+      severity.
+
+      FIPS impact: no
+      No FIPS modules are affected by this issue as the affected code is outside
+      the OpenSSL FIPS module boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-72897
+    - https://github.com/openssl/openssl/commit/00646e5085a0d12d29e0d2f9b9bc5f7111a50922
+    - https://github.com/openssl/openssl/commit/4135f553c9d3ba4a09fe752f5d30af2a6a092b2e
+    - https://github.com/openssl/openssl/commit/9c54d209486f6b1ad79fe2179c40f13200fa4f61
+    - https://github.com/openssl/openssl/commit/e87ed26b298a74d8ba61a53e9c7bcd1acac6b814
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-72897
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-72897
+    PublishedDate: '2026-09-29T16:17:09.903Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-75805
+    PkgID: openssl@3.5.8-1.el9_8.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: b8f9bf0a499769d3
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75805
+    Fingerprint: sha256:84c7527d601cee0962632553c6bcfaa57f12cbba8e106f017076d51f6d143607
+    Title: 'openssl: openssl: Denial of Service via crafted CMP certificate revocation response'
+    Description: |-
+      Issue summary: A CMP client that requests certificate revocation on the basis
+      of a PKCS#10 CSR may dereference a NULL pointer and terminate abnormally when
+      processing a crafted revocation response. 
+
+      Impact summary: The NULL pointer dereference happens on a read which 
+      leads to a crash and a Denial of Service for the affected client application.
+
+      CWE: CWE-476: NULL-pointer dereference
+
+      Description: A CMP client revoking a certificate has to tell the server which
+      certificate to revoke, and may do so by supplying a PKCS#10 CSR instead of the
+      certificate itself or its issuer name and serial number. This is
+      'openssl cmp -cmd rr -csr <file>' on the command line, or
+      OSSL_CMP_exec_RR_ses() with the certificate supplied via
+      OSSL_CMP_CTX_set1_p10CSR() through the API.
+
+      A CSR does not contain the issuer name and serial number of the certificate,
+      so the client does not send them. A server may optionally name the
+      certificate it revoked in its response, and the client then compares that
+      name against what it sent. Having sent neither an issuer name nor a serial
+      number, it has nothing to compare against, and a server returning a specially
+      crafted name causes the client to read from a NULL pointer and crash.
+
+      The revocation response is checked for valid message protection before
+      the affected code is reached, so an attacker must be a malicious or
+      compromised CMP server, or a man-in-the-middle in possession of the
+      secret used for message protection. Clients that identify the certificate
+      to be revoked by a certificate or by issuer and serial number rather
+      than by a PKCS#10 CSR are not affected.
+
+      FIPS impact: no
+      No FIPS modules are affected by this issue, as the CMP protocol
+      implementation is outside the OpenSSL FIPS module boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-75805
+    - https://github.com/openssl/openssl/commit/7588db7fef14209c3caa3a101d11a02006b19166
+    - https://github.com/openssl/openssl/commit/7ca0ccb5172a577e9b87267d77bfe21e5481a5e7
+    - https://github.com/openssl/openssl/commit/9eb2a8a9b86136cdb39d6d7d50644dd66941cdc3
+    - https://github.com/openssl/openssl/commit/abf02872a4b71767ecc72293424420f5b009190f
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75805
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-75805
+    PublishedDate: '2026-09-29T16:17:11.063Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-75806
+    PkgID: openssl@3.5.8-1.el9_8.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: b8f9bf0a499769d3
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75806
+    Fingerprint: sha256:f3ce47f420561b7868ed40e7c0eedbd88c0587ad828bf9a636e142cd471590a9
+    Title: 'openssl: OpenSSL: Denial of Service via undersized DTLS record'
+    Description: |-
+      Issue summary: An established DTLS 1.2 association using an AEAD cipher suite
+      can be terminated by a single unauthenticated datagram whose encrypted
+      fragment is shorter than the mandatory explicit IV and authentication tag
+      overhead.
+
+      Impact summary: An attacker who can send a datagram that is routed to an
+      existing DTLS 1.2 association can tear that association down without knowing
+      any key material. This is a Denial of Service limited to the targeted
+      association. There is no memory safety or confidentiality impact.
+
+      CWE: CWE-1284: Improper Validation of Specified Quantity in Input
+
+      Description: In TLS 1.2 and DTLS 1.2 every record protected by an AEAD cipher
+      suite carries an explicit IV followed by the ciphertext and an authentication
+      tag. When decrypting such a record the record layer passed the record length to
+      the cipher implementation before checking that the record was long enough to
+      contain the explicit IV and the tag. For a record shorter than that overhead the
+      cipher implementation rejected the impossible length, and the record layer
+      treated this as an internal failure and raised a fatal internal_error alert
+      instead of treating the record as one that failed authentication.
+
+      In TLS 1.2 the same record causes a fatal internal_error alert instead of the
+      expected bad_record_mac alert. Since any undecryptable record already
+      terminates a TLS connection, this is a protocol conformance issue rather than
+      a security issue in TLS.
+
+      The fix validates the record length against the explicit IV and tag length
+      before any AEAD processing, so that TLS reports bad_record_mac and DTLS
+      silently discards the record.
+
+      FIPS impact: no
+      The affected code is outside the FIPS module boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1284
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-75806
+    - https://github.com/openssl/openssl/commit/04728a289a823e68137f88da016cb9ede307217d
+    - https://github.com/openssl/openssl/commit/050b275cd671a6eed1d6457642d41a5a77aab972
+    - https://github.com/openssl/openssl/commit/3a4589d015a9049d47b66f186cf50a8711343a1d
+    - https://github.com/openssl/openssl/commit/5af82fefbaf2b5fec2fc0e1d87f112844902f01d
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75806
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-75806
+    PublishedDate: '2026-09-29T16:17:11.217Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-77696
+    PkgID: openssl@3.5.8-1.el9_8.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: b8f9bf0a499769d3
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-77696
+    Fingerprint: sha256:ecf0aa3dbf0075d172fde0c6f329930452a03fd3206c540b2dfd087f004e6de4
+    Title: 'openssl: OpenSSL: Private key recovery via SM2 timing side-channel'
+    Description: |-
+      Issue summary: SM2 signature generation uses non-constant-time arithmetic
+      on secret values, forming a timing side-channel.
+
+      Impact summary: An attacker able to measure SM2 signing times may learn
+      information about the per-signature secret nonce, which over many signatures
+      can, via a lattice / Hidden Number Problem attack, lead to recovery of the
+      private key.
+
+      CWE: CWE-208: Observable Timing Discrepancy
+
+      Description: SM2 signature generation computes the signature value using
+      variable-time BIGNUM operations on the secret nonce and the private key, so
+      the time taken to produce an SM2 signature depends on these secret values,
+      forming a timing side-channel.
+
+      Applications performing SM2 signature generation are affected on all
+      platforms.
+
+      FIPS Impact: no
+      SM2 is not a FIPS algorithm.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-208
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-77696
+    - https://github.com/openssl/openssl/commit/1c4aed808a7aea32d2d013049c2e0d9fef164fc9
+    - https://github.com/openssl/openssl/commit/20b20628d39b2dcc4677194bd68c7c060fa598cb
+    - https://github.com/openssl/openssl/commit/419f5cb519721dceed393dbc524d79e487c72e64
+    - https://github.com/openssl/openssl/commit/6b90445a56b99a328ac1feba058abf976504f440
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-77696
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-77696
+    PublishedDate: '2026-09-29T16:17:11.493Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-84783
+    PkgID: openssl@3.5.8-1.el9_8.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: b8f9bf0a499769d3
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-84783
+    Fingerprint: sha256:126c1cfc03f720cd54d09d326c67d7363479fdf492dd7366edbbcf49c669b003
+    Title: 'openssl: openssl: Denial of Service via race condition in certificate extension caching'
+    Description: |-
+      Issue summary: The first concurrent use of the same X.509 certificate by
+      several threads may cause its cached extension data to be freed while
+      another thread is still using it.
+
+      Impact summary: A remote, unauthenticated peer could crash a multi-threaded
+      TLS client, or a multi-threaded TLS server that requests client
+      certificates, if the first certificate chains built to the same trusted CA
+      certificate are built by several connections at the same time. This is a
+      use-after-free read, which is likely to crash the process, resulting in a
+      Denial of Service.
+
+      CWE: CWE-416: Use After Free
+
+      Description: OpenSSL caches the decoded values of a certificate's X.509v3
+      extensions inside the X509 object the first time they are needed. In
+      OpenSSL 4.0 this cache is built in two phases: the extension values are
+      computed while holding a read lock on the certificate, and the results are
+      then installed into the certificate under a write lock. Because a read lock
+      does not exclude other readers, several threads can compute the cache for
+      the same certificate at the same time. Each thread that subsequently
+      acquires the write lock installs its own results and frees the values
+      installed by the thread before it, even though that earlier thread has
+      already marked the cache as complete and may have returned pointers into it
+      to its caller. A caller still using those pointers then reads freed memory.
+
+      Any certificate shared between threads is exposed the first time its
+      extensions are decoded. In TLS the certificates at risk are the trusted CA
+      certificates supplied for chain verification, by whatever means, since these
+      are shared by every connection and their extensions are decoded and cached
+      the first time a chain is built to them. Certificates sent by the peer are
+      decoded separately for each connection and are not shared, so they are not
+      affected. In a TLS client verifying server certificates, or a TLS server
+      that requests and verifies client certificates, the use-after-free could
+      only occur if the first chains built to the same trusted CA are built by
+      several connections at the same time.
+
+      FIPS impact: no
+      The FIPS module is not affected as X.509 certificate handling is outside
+      of the OpenSSL FIPS module boundary.
+
+      OpenSSL 4.0 is vulnerable to this issue.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.0, 1.1.1 and 1.0.2 are not affected by this issue.
+
+      OpenSSL 4.0 users should upgrade to OpenSSL 4.0.3.
+
+      This issue was reported on 27 August 2026 by Tim Becker (Xint.io) and
+      independently in a public report on 31 August 2026 by aydinmercan.
+
+      The fix has been developed by Bob Beck.
+
+      -- cut (non-publishing metadata for internal use) --
+      Reported by: Tim Becker (Xint.io), aydinmercan
+      Fixed by: Bob Beck
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-84783
+    - https://github.com/openssl/openssl/commit/de97a1a54f43edefd43b5084ecac54ecadb33081
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-84783
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-84783
+    PublishedDate: '2026-09-29T16:17:12.653Z'
     LastModifiedDate: '2026-09-29T21:27:41.13Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl@3.5.8-1.el9_8.x86_64
@@ -10362,6 +11187,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
     - https://access.redhat.com/errata/RHSA-2025:15699
+    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -10522,7 +11348,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/10/ALSA-2025-15699.html
+    - https://errata.almalinux.org/9/ALSA-2025-16046.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/advisories/GHSA-r9fv-h47r-823f
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
@@ -10967,6 +11793,137 @@
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.617Z'
     LastModifiedDate: '2026-07-24T23:10:00.563Z'
+  - VulnerabilityID: CVE-2026-35189
+    PkgID: openssl@3.5.8-1.el9_8.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: b8f9bf0a499769d3
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-35189
+    Fingerprint: sha256:71dfa752ae824360a9f0d9d4d45b5dc174ea673787fc78f98687c282015ad9cf
+    Title: 'openssl: openssl: Denial of Service via excessive memory allocation in CRL distribution point processing'
+    Description: |-
+      Issue summary: A certificate with many nameRelativeToCRLIssuer CRL
+      distribution points causes disproportionate heap growth when OpenSSL caches
+      X.509 extensions.
+
+      Impact summary: Receiving a crafted certificate from a malicious peer can lead
+      to significant memory pressure and possible Denial of Service in clients or
+      in servers that solicit client certificates.
+
+      CWE: CWE-770: Allocation of Resources Without Limits or Throttling
+
+      Description: A certificate or a set of certificates that fits under the limit for
+      size of certificates accepted from the peer (~100 KiB) can result in allocation
+      of several hundred MiB of resident memory on the receiving side
+      during a normal TLS handshake.  This may be enough to crash the client or
+      server, if multiple concurrent connections lead to similarly large memory
+      allocations.
+
+      The fix postpones processing of the CRL distribution points extensions in
+      certificates to the time when the processed value is required for CRL processing.
+      This avoids keeping large memory allocations for a long time when such
+      certificates are received.
+
+      FIPS impact: no
+      The affected code is outside the FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-35189
+    - https://github.com/openssl/openssl/commit/2b93c73b2c70ddc4c61c5e4bfaaa6bd71379eb84
+    - https://github.com/openssl/openssl/commit/3842516cc15e8b2cf55747011045e77547e71d89
+    - https://github.com/openssl/openssl/commit/8e0efc7549b7ff8246d40e585e3fd604f728473f
+    - https://github.com/openssl/openssl/commit/c72ae182cac17a82e4246c6ecd4e9c4ec3586ec9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-35189
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-35189
+    PublishedDate: '2026-09-29T16:17:07.33Z'
+    LastModifiedDate: '2026-09-30T21:17:10.43Z'
+  - VulnerabilityID: CVE-2026-35191
+    PkgID: openssl@3.5.8-1.el9_8.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: b8f9bf0a499769d3
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-35191
+    Fingerprint: sha256:1d0444b208e68f1a8783facf2102ab338064151b59f72f06e35fd641270a2027
+    Title: 'openssl: openssl: Traffic amplification Denial of Service via QUIC packet over-accounting'
+    Description: |-
+      Issue summary: The OpenSSL QUIC server, when configured to not preform address
+      validation, can be forced to count incoming packets multiple times in its
+      unvalidated credit computation, leading to a violation of the RFC 9000
+      unvalidated connection amplification limit of 3 times the amount of data
+      received.
+
+      Impact summary: A remote attacker able to spoof packets to a server using the
+      OpenSSL QUIC implementation might use the server for an amplification of
+      a DDoS attack.
+
+      CWE: CWE-440: Expected Behavior Violation 
+
+      Description: OpenSSL's QUIC stack, when operating as a server, enforces client
+      address validation (RFC 9000, Section 8), to confirm the peer address is not
+      used for a traffic amplification attack.  If this feature is disabled on the
+      server, the QUIC stack limits the amount of server data that can be sent to 3
+      times the amount of data received from the peer address, until such time as the
+      TLS handshake is completed.
+
+      The OpenSSL QUIC server, when operating in non-validation mode, adds the
+      length of the whole datagram received to the unvalidated credit limit when
+      processing each QUIC packet in the datagram. A remote peer may,
+      after establishing a connection with an initial client hello frame, send a
+      subsequent datagram containing multiple QUIC packets, leading the server to
+      account the entire datagram length for each packet in the datagram, resulting
+      in the server believing that the peer has sent more data than it actually has,
+      thereby violating the 3x amplification limit mandated by the RFC.
+
+      FIPS impact: no
+      As the QUIC stack lives outside the FIPS module boundary, no FIPS modules
+      are affected by this CVE.
+    Severity: LOW
+    CweIDs:
+    - CWE-440
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-35191
+    - https://github.com/openssl/openssl/commit/0fe4442d4f8ea3af8a174046dae176e0d4717239
+    - https://github.com/openssl/openssl/commit/2de4c35fb13fc58f43fd8dc1d261700472ce72e5
+    - https://github.com/openssl/openssl/commit/e44292e58b090014232ef75bd400393851b24d1a
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-35191
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-35191
+    PublishedDate: '2026-09-29T16:17:07.49Z'
+    LastModifiedDate: '2026-09-30T21:17:10.617Z'
   - VulnerabilityID: CVE-2026-42765
     PkgID: openssl@3.5.8-1.el9_8.x86_64
     PkgName: openssl
@@ -11354,6 +12311,80 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-54876
     PublishedDate: '2026-08-05T15:16:53.487Z'
     LastModifiedDate: '2026-08-28T19:46:29.323Z'
+  - VulnerabilityID: CVE-2026-75804
+    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 6f693dfce3d35b14
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75804
+    Fingerprint: sha256:5c56603e7e793dde823180efc969fea2a762f4bba2f908a788bd5c4504519945
+    Title: 'openssl: OpenSSL: Denial of Service via unenforced QUIC connection flow control'
+    Description: |-
+      Issue summary: OpenSSL QUIC stack does not enforce connection
+      level flow control for streams. Remote peers may send more bytes
+      as long as they fit within the stream flow control limits.
+
+      Impact summary: A malicious remote peer may exploit the lack of connection
+      flow control for streams to make the QUIC stack receive ~100MB of memory
+      instead of 768 KiB (default flow control window size).
+
+      CWE: CWE-770: Allocation of Resources Without Limits or Throttling
+
+      Description: The local QUIC stack advertises two flow control limits
+      to its remote peer: stream flow control limit and connection flow
+      control limit. The remote peer must follow both limits when transmitting
+      stream data.
+
+      Whenever the local QUIC stack receives a stream frame, it validates
+      that the size of the received stream frame stays within flow control limits.
+      If either limit is exceeded (stream level or connection level), then
+      the QUIC stack must close the connection with a flow control error.
+
+      The vulnerable OpenSSL QUIC stack enforces the stream-level but not
+      the connection-level limit. To exploit the issue, three conditions must be met:
+        - the remote peer opens several streams
+        - each stream must stay within the stream-level flow control limit
+        - there must be no zero-offset byte sent on any of the streams
+          (to prevent the vulnerable QUIC stack from consuming data).
+      By meeting the conditions above, the remote peer may make the local stack
+      allocate 2 x MAX_STREAMS x (stream flow control limit) bytes
+      of memory. MAX_STREAMS defaults to 100, and the limit applies to both
+      bidirectional and unidirectional streams, making it 200 in total. The default
+      flow control window for a stream is 512kB. The remote peer may
+      force the vulnerable QUIC stack to allocate 100MB of heap per connection.
+
+      FIPS impact: no
+      The FIPS module is not affected as the QUIC implementation is outside of
+      the OpenSSL FIPS module boundary.
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-75804
+    - https://github.com/openssl/openssl/commit/2e8f54666b3fb7b05ff5f58aa6cac9285163654e
+    - https://github.com/openssl/openssl/commit/4533ee8a5686c953ed3b644738ac4bdf20806538
+    - https://github.com/openssl/openssl/commit/64d3102fb5b54311e92517f26ba00169d719e74a
+    - https://github.com/openssl/openssl/commit/f9eaecf5bdd6692da052bc65b0332af2a938ac03
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75804
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-75804
+    PublishedDate: '2026-09-29T16:17:10.887Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
   - VulnerabilityID: CVE-2026-84782
     PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
     PkgName: openssl-libs
@@ -11368,7 +12399,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-84782
     Fingerprint: sha256:3fce6e7b008db4d372994948ffa1c0516f15bf21308c0b41cc8bffbe574416a5
-    Title: 'Issue summary: The DTLS retransmission logic does not correctly handle ...'
+    Title: 'openssl: compat-openssl: openssl: Information disclosure via DTLS handshake retransmission'
     Description: |-
       Issue summary: The DTLS retransmission logic does not correctly handle
       a handshake message write that is suspended part-way through.
@@ -11421,14 +12452,677 @@
     VendorSeverity:
       redhat: 3
       ubuntu: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-84782
     - https://github.com/openssl/openssl/commit/906cf0ef1c85ca40ce69163e9086d6d3fe292943
     - https://github.com/openssl/openssl/commit/9f6b34422af7eb5dac61322e33dac1ae989fa628
     - https://github.com/openssl/openssl/commit/a383dafdd754eb5b22bf45e37e1bff9d07277a58
     - https://github.com/openssl/openssl/commit/d951e02ede8f6a6ff8150546db44b34f0518192c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-84782
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://openssl-library.org/news/vulnerabilities/#CVE-2026-84782
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-84782
     PublishedDate: '2026-09-29T16:17:12.5Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-42772
+    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 6f693dfce3d35b14
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42772
+    Fingerprint: sha256:4fa7d386b53ba6647386ec3cafa14c8a0879cdb04372fef92a571cecaf13bfb5
+    Title: 'openssl: openssl: Denial of Service via inefficient QUIC stream reassembly'
+    Description: |-
+      Issue summary: The QUIC stream reassembly algorithm performance deteriorates
+      progressively as packets are arriving out of order. The worst case has
+      a quadratic complexity proportional to the number of stream frames kept in
+      the buffer for the received stream data.
+
+      Impact summary: A remote QUIC peer that completes the handshake can create
+      a connection-scoped CPU pressure and potentially a Denial of Service using
+      compliant STREAM frames inside the advertised receive window, with low
+      attacker bandwidth.
+
+      CWE: CWE-407: Inefficient Algorithmic Complexity
+
+      Description: OpenSSL manages received QUIC stream fragments using a
+      doubly-linked list. While it optimizes for append operations (at the end of
+      the list), it falls back to a head-to-tail linear search for any fragment
+      that does not immediately follow the current `tail`.
+
+      By manipulating the sequence of offsets, an attacker can force the server
+      to perform O(n^2) operations, consuming excessive CPU time for the
+      QUIC process.
+
+      FIPS impact: no
+      The FIPS module is not affected as the QUIC implementation is outside of
+      the OpenSSL FIPS module boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42772
+    - https://github.com/openssl/openssl/commit/32d0ed8afe1b8c3e7ece725b44663da3d7087a09
+    - https://github.com/openssl/openssl/commit/ca8402e273af4de5b3f04fa61a0f0c02ce3ae20e
+    - https://github.com/openssl/openssl/commit/eb2becc0a4baea7f3050a247834d0e5c2ebe1773
+    - https://github.com/openssl/openssl/commit/f42ae513bbda513b3c121d54834040ee4a0eae1a
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42772
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-42772
+    PublishedDate: '2026-09-29T16:17:07.64Z'
+    LastModifiedDate: '2026-09-30T21:17:10.803Z'
+  - VulnerabilityID: CVE-2026-54872
+    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 6f693dfce3d35b14
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54872
+    Fingerprint: sha256:2bd261ccc13db3462b702630f0a3876ad47b70802a15aac2df0b41f4f7d09fb6
+    Title: 'openssl: OpenSSL: Private key recovery via timing side-channel in generic elliptic curve operations'
+    Description: |-
+      Issue summary: The generic elliptic-curve scalar multiplication used for
+      ECDSA and SM2 signature operations with curves that do not have a dedicated
+      implementation leaks information about the secret nonce through timing.
+
+      Impact summary: An attacker able to measure signing times may learn
+      information about the per-signature secret nonce, which over many signatures
+      can, via a lattice / Hidden Number Problem attack, lead to recovery of the
+      private key.
+
+      CWE: CWE-208: Observable Timing Discrepancy
+
+      Description: The generic elliptic-curve scalar multiplication used for
+      curves that do not have a dedicated constant-time implementation pads the
+      secret scalar with non-constant-time BIGNUM operations, so the time taken
+      depends on the value of the secret scalar derived from the ECDSA and SM2 nonce.
+
+      The leak is very small; observing it requires a large number of
+      measurements. The effect is largest for curves whose group order lies
+      on a machine-word boundary, such as brainpoolP384r1.
+
+      Applications using ECDSA signing over the Brainpool and other generic prime
+      curves, and SM2 signing on platforms that use the generic implementation,
+      are vulnerable to this issue.
+
+      The NIST curves P-256, P-384 and P-521 use dedicated constant-time
+      implementations and are not affected.
+
+      FIPS Impact: no
+      The FIPS modules are not affected: the approved NIST curves used in the FIPS
+      provider have dedicated constant-time implementations and do not use the
+      affected code path.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-208
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-54872
+    - https://github.com/openssl/openssl/commit/1a5bee8dc57430a2be69cd1ffe7fec6a62f4f179
+    - https://github.com/openssl/openssl/commit/3f7e1363dccec6f7732bb9e9fa471bb6e4aa68cb
+    - https://github.com/openssl/openssl/commit/7d83bc7764999dfd91b83b4f0815b45390422afd
+    - https://github.com/openssl/openssl/commit/8166827a78aad164a07aa86dea2b425403ced471
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54872
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-54872
+    PublishedDate: '2026-09-29T16:17:08.623Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-54873
+    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 6f693dfce3d35b14
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54873
+    Fingerprint: sha256:dfa976444b7c7f6576f9eebec6709b8ebf22ea12c3b62f93e1b3704f0097ce65
+    Title: 'openssl: openssl: Denial of Service via excessive QUIC packet buffer retention'
+    Description: |-
+      Issue summary: QUIC process may keep memory for QUIC packet
+      buffer for much longer period than necessary.
+
+      Impact summary: Remote peer can exploit this vulnerability
+      by sending maliciously crafted packets, making the local
+      QUIC stack to keep the memory for packet buffers allocated.
+      The time for which the memory remains allocated is entirely
+      under the control of the potentially malicious remote peer.
+
+      CWE: CWE-770: Allocation of Resources Without Limits or Throttling
+
+      Description: To save copy operation from the packet buffer to the
+      stream reassemble buffer the QUIC stack leaves the stream data
+      on the packet buffer waiting to be copied to a buffer provided
+      by the local receiving application. The QUIC stack releases
+      a reference to the packet buffer only after the data are copied
+      to the application buffer. This design is more efficient for
+      legitimate data transfers but enables an attacker to allocate a lot
+      more memory than actually required by the data kept in the receiving
+      stream buffer.
+
+      To mitigate the vulnerability, the QUIC stack now calculates
+      and monitors memory overhead for every stream. The memory overhead
+      for a single stream frame is calculated as a difference between the
+      size of the whole packet that carries the stream frame and the size
+      of the stream frame itself. The memory overhead for a single stream
+      frame is added to the total (cumulative) memory overhead QUIC stack
+      keeps for each stream. Once the cumulative memory overhead exceeds
+      64kB, the QUIC stack moves the stream frame data from the packet
+      buffer to the stream buffer, starting with the next packet received.
+
+      FIPS impact: no
+      The FIPS module is not affected as the QUIC implementation is outside of
+      the OpenSSL FIPS module boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-54873
+    - https://github.com/openssl/openssl/commit/1f643b8bc735487b500a1f68a7fb3a22d5e38e23
+    - https://github.com/openssl/openssl/commit/279e7ee1392af98785746788168749491c74bd53
+    - https://github.com/openssl/openssl/commit/3ea6213e050e938ecbbf8c4eff32bec2736780eb
+    - https://github.com/openssl/openssl/commit/7127fb10888b49711c63128a09e524c0d2d5d0b2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54873
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-54873
+    PublishedDate: '2026-09-29T16:17:08.763Z'
+    LastModifiedDate: '2026-09-30T21:17:13.18Z'
+  - VulnerabilityID: CVE-2026-54875
+    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 6f693dfce3d35b14
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54875
+    Fingerprint: sha256:51355a6976d706e02be4eb1784df00191e776500fd10a2883d0988cf03687e62
+    Title: 'openssl: openssl: information disclosure via non-constant-time SM2 scalar multiplication on ARM64 and RISC-V'
+    Description: |-
+      Issue summary: A non-constant-time optimized implementation of scalar
+      point multiplication is used for SM2 private key operations on ARM64 and
+      RISC-V platforms.
+
+      Impact summary: An attacker able to measure the time taken by, or to observe
+      the cache-line access pattern of SM2 signing or decryption on an affected
+      platform can learn information about the secret scalar.
+
+      CWE: CWE-208: Observable Timing Discrepancy
+
+      Description: On ARM64 and RISC-V processors, the SM2 curve uses an optimized
+      scalar multiplication implementation whose conditional branches and table
+      look ups are chosen according to the bits of the secret scalar. The execution
+      time and the cache-access pattern therefore depend on the long-term private
+      key (during SM2 decryption) or the per-signature nonce (during SM2 signature
+      generation), forming a timing and cache side-channel.
+
+      FIPS Impact: no
+      SM2 is not a FIPS algorithm and the optimized SM2 implementation is not part
+      of the FIPS module.
+
+      OpenSSL 4.0, 3.6, 3.5 and 3.4 are vulnerable to this issue on AArch64 and
+      RISC-V.
+
+      OpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue.
+
+      OpenSSL 4.0 users should upgrade to OpenSSL 4.0.3.
+      OpenSSL 3.6 users should upgrade to OpenSSL 3.6.5.
+      OpenSSL 3.5 users should upgrade to OpenSSL 3.5.9.
+      OpenSSL 3.4 users should upgrade to OpenSSL 3.4.8.
+
+      This issue was reported on 2 May 2026 by Abhinav Agarwal.
+      It was independently reported on 6 June 2026 by Feng Xue.
+      The fix was developed by Igor Ustinov.
+
+      -- cut (non-publishing metadata for internal use) --
+      Reported by: Abhinav Agarwal, Feng Xue
+      Fixed by: Igor Ustinov
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-208
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-54875
+    - https://github.com/openssl/openssl/commit/3f01bbc28f7e08211fcdc797fd43816504f94257
+    - https://github.com/openssl/openssl/commit/469f3e42629f4a0b5631796e20c66c92c138a3e8
+    - https://github.com/openssl/openssl/commit/9794ed473764839275cb701b4850f3c24d929c28
+    - https://github.com/openssl/openssl/commit/dddad955d5ff3e9507619cf4e0f13e9988e2197c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54875
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-54875
+    PublishedDate: '2026-09-29T16:17:08.92Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-72897
+    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 6f693dfce3d35b14
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-72897
+    Fingerprint: sha256:bb2a0590d738d37ae664f8a26cdb2b81222965642ccd122e3945c839dcfcb030
+    Title: 'openssl: openssl: Denial of Service via out-of-bounds write during TLS context switch'
+    Description: |-
+      Issue summary: A TLS server that calls SSL_set_SSL_CTX() to switch a
+      connection to a different SSL_CTX part way through a handshake may access
+      memory beyond the end of an internal array if the replacement context knows
+      about more provider signature algorithms than the context the connection was
+      created from. Applications which never call SSL_set_SSL_CTX() are not
+      affected.
+
+      Impact summary: A remote peer may be able to cause a small out-of-bounds
+      read, and in some circumstances a fixed-value out-of-bounds write, on the
+      server heap. This may lead to a Denial of Service.
+
+      CWE: CWE-787: Out-of-bounds Write
+
+      Description: A TLS connection records how many certificate slots it has
+      when it is created, taken from the SSL_CTX that created it: the built-in
+      certificate types plus one slot for each provider TLS-SIGALG entry that
+      context was aware of. That count sizes an internal array of per-slot
+      certificate validity flags.
+
+      An application may replace a connection's SSL_CTX part way through the
+      handshake by calling SSL_set_SSL_CTX(), most commonly from a servername
+      callback in order to serve a different virtual host. Doing so did not
+      refresh the recorded count. A provider signature algorithm's slot index is
+      its position in the list of whichever context resolves it, so if the
+      replacement context is aware of more of them than the original, an
+      algorithm offered by the peer can resolve to an index beyond the end of the
+      array. Processing the peer's signature algorithms then reads one four byte
+      word past the end for each such algorithm and, where the word read is zero,
+      writes a fixed value over it. A peer offering many of them can corrupt heap
+      metadata and abort the process.
+
+      Only provider signature algorithms which occupy one of the excess slots,
+      and which the server also has configured, have this effect. Codepoints the
+      replacement context does not recognise are discarded without being resolved
+      to a slot, and provider signature algorithms are usable only from TLS 1.3.
+
+      The two contexts must therefore be aware of different numbers of provider
+      signature algorithms, which requires separate library contexts, a provider
+      loaded between the two being created, or providers which differ in what
+      they advertise - in 4.0, for example, the default provider advertises SM2
+      where the FIPS provider does not. A deployment meeting the condition is
+      also unable to negotiate the affected algorithms with legitimate clients,
+      since the same stale count hides the corresponding certificates, so the
+      misconfiguration is likely to be noticed. For that reason, and because the
+      configuration is not the default, this issue has been assessed as Low
+      severity.
+
+      FIPS impact: no
+      No FIPS modules are affected by this issue as the affected code is outside
+      the OpenSSL FIPS module boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-72897
+    - https://github.com/openssl/openssl/commit/00646e5085a0d12d29e0d2f9b9bc5f7111a50922
+    - https://github.com/openssl/openssl/commit/4135f553c9d3ba4a09fe752f5d30af2a6a092b2e
+    - https://github.com/openssl/openssl/commit/9c54d209486f6b1ad79fe2179c40f13200fa4f61
+    - https://github.com/openssl/openssl/commit/e87ed26b298a74d8ba61a53e9c7bcd1acac6b814
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-72897
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-72897
+    PublishedDate: '2026-09-29T16:17:09.903Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-75805
+    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 6f693dfce3d35b14
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75805
+    Fingerprint: sha256:d6b700c12b6a37affe9ed17ad15e070a67b22d265b6587248cfac4aba61be219
+    Title: 'openssl: openssl: Denial of Service via crafted CMP certificate revocation response'
+    Description: |-
+      Issue summary: A CMP client that requests certificate revocation on the basis
+      of a PKCS#10 CSR may dereference a NULL pointer and terminate abnormally when
+      processing a crafted revocation response. 
+
+      Impact summary: The NULL pointer dereference happens on a read which 
+      leads to a crash and a Denial of Service for the affected client application.
+
+      CWE: CWE-476: NULL-pointer dereference
+
+      Description: A CMP client revoking a certificate has to tell the server which
+      certificate to revoke, and may do so by supplying a PKCS#10 CSR instead of the
+      certificate itself or its issuer name and serial number. This is
+      'openssl cmp -cmd rr -csr <file>' on the command line, or
+      OSSL_CMP_exec_RR_ses() with the certificate supplied via
+      OSSL_CMP_CTX_set1_p10CSR() through the API.
+
+      A CSR does not contain the issuer name and serial number of the certificate,
+      so the client does not send them. A server may optionally name the
+      certificate it revoked in its response, and the client then compares that
+      name against what it sent. Having sent neither an issuer name nor a serial
+      number, it has nothing to compare against, and a server returning a specially
+      crafted name causes the client to read from a NULL pointer and crash.
+
+      The revocation response is checked for valid message protection before
+      the affected code is reached, so an attacker must be a malicious or
+      compromised CMP server, or a man-in-the-middle in possession of the
+      secret used for message protection. Clients that identify the certificate
+      to be revoked by a certificate or by issuer and serial number rather
+      than by a PKCS#10 CSR are not affected.
+
+      FIPS impact: no
+      No FIPS modules are affected by this issue, as the CMP protocol
+      implementation is outside the OpenSSL FIPS module boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-75805
+    - https://github.com/openssl/openssl/commit/7588db7fef14209c3caa3a101d11a02006b19166
+    - https://github.com/openssl/openssl/commit/7ca0ccb5172a577e9b87267d77bfe21e5481a5e7
+    - https://github.com/openssl/openssl/commit/9eb2a8a9b86136cdb39d6d7d50644dd66941cdc3
+    - https://github.com/openssl/openssl/commit/abf02872a4b71767ecc72293424420f5b009190f
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75805
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-75805
+    PublishedDate: '2026-09-29T16:17:11.063Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-75806
+    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 6f693dfce3d35b14
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75806
+    Fingerprint: sha256:07e873a9c0e92146992a57612083df34bbb481ee97e827dd039f8cd77032c044
+    Title: 'openssl: OpenSSL: Denial of Service via undersized DTLS record'
+    Description: |-
+      Issue summary: An established DTLS 1.2 association using an AEAD cipher suite
+      can be terminated by a single unauthenticated datagram whose encrypted
+      fragment is shorter than the mandatory explicit IV and authentication tag
+      overhead.
+
+      Impact summary: An attacker who can send a datagram that is routed to an
+      existing DTLS 1.2 association can tear that association down without knowing
+      any key material. This is a Denial of Service limited to the targeted
+      association. There is no memory safety or confidentiality impact.
+
+      CWE: CWE-1284: Improper Validation of Specified Quantity in Input
+
+      Description: In TLS 1.2 and DTLS 1.2 every record protected by an AEAD cipher
+      suite carries an explicit IV followed by the ciphertext and an authentication
+      tag. When decrypting such a record the record layer passed the record length to
+      the cipher implementation before checking that the record was long enough to
+      contain the explicit IV and the tag. For a record shorter than that overhead the
+      cipher implementation rejected the impossible length, and the record layer
+      treated this as an internal failure and raised a fatal internal_error alert
+      instead of treating the record as one that failed authentication.
+
+      In TLS 1.2 the same record causes a fatal internal_error alert instead of the
+      expected bad_record_mac alert. Since any undecryptable record already
+      terminates a TLS connection, this is a protocol conformance issue rather than
+      a security issue in TLS.
+
+      The fix validates the record length against the explicit IV and tag length
+      before any AEAD processing, so that TLS reports bad_record_mac and DTLS
+      silently discards the record.
+
+      FIPS impact: no
+      The affected code is outside the FIPS module boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1284
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-75806
+    - https://github.com/openssl/openssl/commit/04728a289a823e68137f88da016cb9ede307217d
+    - https://github.com/openssl/openssl/commit/050b275cd671a6eed1d6457642d41a5a77aab972
+    - https://github.com/openssl/openssl/commit/3a4589d015a9049d47b66f186cf50a8711343a1d
+    - https://github.com/openssl/openssl/commit/5af82fefbaf2b5fec2fc0e1d87f112844902f01d
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75806
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-75806
+    PublishedDate: '2026-09-29T16:17:11.217Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-77696
+    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 6f693dfce3d35b14
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-77696
+    Fingerprint: sha256:3155a94d8d995d9968c8e463e94513d27762bb88a52ecbc42ca79fa8cc1a6ff9
+    Title: 'openssl: OpenSSL: Private key recovery via SM2 timing side-channel'
+    Description: |-
+      Issue summary: SM2 signature generation uses non-constant-time arithmetic
+      on secret values, forming a timing side-channel.
+
+      Impact summary: An attacker able to measure SM2 signing times may learn
+      information about the per-signature secret nonce, which over many signatures
+      can, via a lattice / Hidden Number Problem attack, lead to recovery of the
+      private key.
+
+      CWE: CWE-208: Observable Timing Discrepancy
+
+      Description: SM2 signature generation computes the signature value using
+      variable-time BIGNUM operations on the secret nonce and the private key, so
+      the time taken to produce an SM2 signature depends on these secret values,
+      forming a timing side-channel.
+
+      Applications performing SM2 signature generation are affected on all
+      platforms.
+
+      FIPS Impact: no
+      SM2 is not a FIPS algorithm.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-208
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-77696
+    - https://github.com/openssl/openssl/commit/1c4aed808a7aea32d2d013049c2e0d9fef164fc9
+    - https://github.com/openssl/openssl/commit/20b20628d39b2dcc4677194bd68c7c060fa598cb
+    - https://github.com/openssl/openssl/commit/419f5cb519721dceed393dbc524d79e487c72e64
+    - https://github.com/openssl/openssl/commit/6b90445a56b99a328ac1feba058abf976504f440
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-77696
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-77696
+    PublishedDate: '2026-09-29T16:17:11.493Z'
+    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-84783
+    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 6f693dfce3d35b14
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-84783
+    Fingerprint: sha256:c21c7cbbc571c843ab44fd3ed08bf8ad61db582fb7539c4d4c813e906a1c1968
+    Title: 'openssl: openssl: Denial of Service via race condition in certificate extension caching'
+    Description: |-
+      Issue summary: The first concurrent use of the same X.509 certificate by
+      several threads may cause its cached extension data to be freed while
+      another thread is still using it.
+
+      Impact summary: A remote, unauthenticated peer could crash a multi-threaded
+      TLS client, or a multi-threaded TLS server that requests client
+      certificates, if the first certificate chains built to the same trusted CA
+      certificate are built by several connections at the same time. This is a
+      use-after-free read, which is likely to crash the process, resulting in a
+      Denial of Service.
+
+      CWE: CWE-416: Use After Free
+
+      Description: OpenSSL caches the decoded values of a certificate's X.509v3
+      extensions inside the X509 object the first time they are needed. In
+      OpenSSL 4.0 this cache is built in two phases: the extension values are
+      computed while holding a read lock on the certificate, and the results are
+      then installed into the certificate under a write lock. Because a read lock
+      does not exclude other readers, several threads can compute the cache for
+      the same certificate at the same time. Each thread that subsequently
+      acquires the write lock installs its own results and frees the values
+      installed by the thread before it, even though that earlier thread has
+      already marked the cache as complete and may have returned pointers into it
+      to its caller. A caller still using those pointers then reads freed memory.
+
+      Any certificate shared between threads is exposed the first time its
+      extensions are decoded. In TLS the certificates at risk are the trusted CA
+      certificates supplied for chain verification, by whatever means, since these
+      are shared by every connection and their extensions are decoded and cached
+      the first time a chain is built to them. Certificates sent by the peer are
+      decoded separately for each connection and are not shared, so they are not
+      affected. In a TLS client verifying server certificates, or a TLS server
+      that requests and verifies client certificates, the use-after-free could
+      only occur if the first chains built to the same trusted CA are built by
+      several connections at the same time.
+
+      FIPS impact: no
+      The FIPS module is not affected as X.509 certificate handling is outside
+      of the OpenSSL FIPS module boundary.
+
+      OpenSSL 4.0 is vulnerable to this issue.
+
+      OpenSSL 3.6, 3.5, 3.4, 3.0, 1.1.1 and 1.0.2 are not affected by this issue.
+
+      OpenSSL 4.0 users should upgrade to OpenSSL 4.0.3.
+
+      This issue was reported on 27 August 2026 by Tim Becker (Xint.io) and
+      independently in a public report on 31 August 2026 by aydinmercan.
+
+      The fix has been developed by Bob Beck.
+
+      -- cut (non-publishing metadata for internal use) --
+      Reported by: Tim Becker (Xint.io), aydinmercan
+      Fixed by: Bob Beck
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-84783
+    - https://github.com/openssl/openssl/commit/de97a1a54f43edefd43b5084ecac54ecadb33081
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-84783
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-84783
+    PublishedDate: '2026-09-29T16:17:12.653Z'
     LastModifiedDate: '2026-09-29T21:27:41.13Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
@@ -11487,6 +13181,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
     - https://access.redhat.com/errata/RHSA-2025:15699
+    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -11647,7 +13342,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/10/ALSA-2025-15699.html
+    - https://errata.almalinux.org/9/ALSA-2025-16046.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/advisories/GHSA-r9fv-h47r-823f
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
@@ -12092,6 +13787,137 @@
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.617Z'
     LastModifiedDate: '2026-07-24T23:10:00.563Z'
+  - VulnerabilityID: CVE-2026-35189
+    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 6f693dfce3d35b14
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-35189
+    Fingerprint: sha256:00d1fcbb004ea13ac6aa32926b5be577105852b2243aec0ff6ad40ea23df4c79
+    Title: 'openssl: openssl: Denial of Service via excessive memory allocation in CRL distribution point processing'
+    Description: |-
+      Issue summary: A certificate with many nameRelativeToCRLIssuer CRL
+      distribution points causes disproportionate heap growth when OpenSSL caches
+      X.509 extensions.
+
+      Impact summary: Receiving a crafted certificate from a malicious peer can lead
+      to significant memory pressure and possible Denial of Service in clients or
+      in servers that solicit client certificates.
+
+      CWE: CWE-770: Allocation of Resources Without Limits or Throttling
+
+      Description: A certificate or a set of certificates that fits under the limit for
+      size of certificates accepted from the peer (~100 KiB) can result in allocation
+      of several hundred MiB of resident memory on the receiving side
+      during a normal TLS handshake.  This may be enough to crash the client or
+      server, if multiple concurrent connections lead to similarly large memory
+      allocations.
+
+      The fix postpones processing of the CRL distribution points extensions in
+      certificates to the time when the processed value is required for CRL processing.
+      This avoids keeping large memory allocations for a long time when such
+      certificates are received.
+
+      FIPS impact: no
+      The affected code is outside the FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-35189
+    - https://github.com/openssl/openssl/commit/2b93c73b2c70ddc4c61c5e4bfaaa6bd71379eb84
+    - https://github.com/openssl/openssl/commit/3842516cc15e8b2cf55747011045e77547e71d89
+    - https://github.com/openssl/openssl/commit/8e0efc7549b7ff8246d40e585e3fd604f728473f
+    - https://github.com/openssl/openssl/commit/c72ae182cac17a82e4246c6ecd4e9c4ec3586ec9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-35189
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-35189
+    PublishedDate: '2026-09-29T16:17:07.33Z'
+    LastModifiedDate: '2026-09-30T21:17:10.43Z'
+  - VulnerabilityID: CVE-2026-35191
+    PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 6f693dfce3d35b14
+    InstalledVersion: 1:3.5.8-1.el9_8
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-35191
+    Fingerprint: sha256:f64189aed9a6ec6dee6f9e5f85a440cfb643015eca36f0940795141d7fe32dc5
+    Title: 'openssl: openssl: Traffic amplification Denial of Service via QUIC packet over-accounting'
+    Description: |-
+      Issue summary: The OpenSSL QUIC server, when configured to not preform address
+      validation, can be forced to count incoming packets multiple times in its
+      unvalidated credit computation, leading to a violation of the RFC 9000
+      unvalidated connection amplification limit of 3 times the amount of data
+      received.
+
+      Impact summary: A remote attacker able to spoof packets to a server using the
+      OpenSSL QUIC implementation might use the server for an amplification of
+      a DDoS attack.
+
+      CWE: CWE-440: Expected Behavior Violation 
+
+      Description: OpenSSL's QUIC stack, when operating as a server, enforces client
+      address validation (RFC 9000, Section 8), to confirm the peer address is not
+      used for a traffic amplification attack.  If this feature is disabled on the
+      server, the QUIC stack limits the amount of server data that can be sent to 3
+      times the amount of data received from the peer address, until such time as the
+      TLS handshake is completed.
+
+      The OpenSSL QUIC server, when operating in non-validation mode, adds the
+      length of the whole datagram received to the unvalidated credit limit when
+      processing each QUIC packet in the datagram. A remote peer may,
+      after establishing a connection with an initial client hello frame, send a
+      subsequent datagram containing multiple QUIC packets, leading the server to
+      account the entire datagram length for each packet in the datagram, resulting
+      in the server believing that the peer has sent more data than it actually has,
+      thereby violating the 3x amplification limit mandated by the RFC.
+
+      FIPS impact: no
+      As the QUIC stack lives outside the FIPS module boundary, no FIPS modules
+      are affected by this CVE.
+    Severity: LOW
+    CweIDs:
+    - CWE-440
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-35191
+    - https://github.com/openssl/openssl/commit/0fe4442d4f8ea3af8a174046dae176e0d4717239
+    - https://github.com/openssl/openssl/commit/2de4c35fb13fc58f43fd8dc1d261700472ce72e5
+    - https://github.com/openssl/openssl/commit/e44292e58b090014232ef75bd400393851b24d1a
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-35191
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8847-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-35191
+    PublishedDate: '2026-09-29T16:17:07.49Z'
+    LastModifiedDate: '2026-09-30T21:17:10.617Z'
   - VulnerabilityID: CVE-2026-42765
     PkgID: openssl-libs@3.5.8-1.el9_8.x86_64
     PkgName: openssl-libs
@@ -12250,6 +14076,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-12610
     PublishedDate: '2026-06-30T10:16:34.397Z'
     LastModifiedDate: '2026-08-31T19:16:45.55Z'
+  - VulnerabilityID: CVE-2026-103111
+    PkgID: pcre2@10.40-6.el9.x86_64
+    PkgName: pcre2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/pcre2@10.40-6.el9?arch=x86_64&distro=redhat-9.8
+      UID: 1d1b871572f9d872
+    InstalledVersion: 10.40-6.el9
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-103111
+    Fingerprint: sha256:b39ef15ea039fd4bb8d989e46922c0c13fe19bc0615289525254dd687e695b0a
+    Title: 'pcre2: pcre2: Out-of-bounds write via crafted regular expression'
+    Description: PCRE2 before 10.49, when there is an attacker-controlled regular expression and certain JIT API usage, allows an out-of-bounds write with arbitrary data.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L
+        V3Score: 7.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-103111
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-r9hj-j2rw-4q3m
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-103111
+    - https://www.cve.org/CVERecord?id=CVE-2026-103111
+    PublishedDate: '2026-09-30T05:16:45.863Z'
+    LastModifiedDate: '2026-09-30T20:17:29.847Z'
   - VulnerabilityID: CVE-2026-86145
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
@@ -12524,6 +14382,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-89160
     PublishedDate: '2026-09-11T04:18:04.343Z'
     LastModifiedDate: '2026-09-16T19:15:29.443Z'
+  - VulnerabilityID: CVE-2026-103111
+    PkgID: pcre2-syntax@10.40-6.el9.noarch
+    PkgName: pcre2-syntax
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/pcre2-syntax@10.40-6.el9?arch=noarch&distro=redhat-9.8
+      UID: 459af584b3a3a6aa
+    InstalledVersion: 10.40-6.el9
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-103111
+    Fingerprint: sha256:8adf0097ca8f9c5b4661bab99353a6a5e6bd742b762fd9dba0ba3c68ae49c091
+    Title: 'pcre2: pcre2: Out-of-bounds write via crafted regular expression'
+    Description: PCRE2 before 10.49, when there is an attacker-controlled regular expression and certain JIT API usage, allows an out-of-bounds write with arbitrary data.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L
+        V3Score: 7.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-103111
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-r9hj-j2rw-4q3m
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-103111
+    - https://www.cve.org/CVERecord?id=CVE-2026-103111
+    PublishedDate: '2026-09-30T05:16:45.863Z'
+    LastModifiedDate: '2026-09-30T20:17:29.847Z'
   - VulnerabilityID: CVE-2026-86145
     PkgID: pcre2-syntax@10.40-6.el9.noarch
     PkgName: pcre2-syntax
@@ -13036,7 +14926,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -13149,7 +15039,6 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2025-13837
     - https://bugzilla.redhat.com/2395108
@@ -13189,7 +15078,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/568342cfc8f002d9a15f30238f26b9d2e0e79036
     - https://github.com/python/cpython/commit/5a8b19677d818fb41ee55f310233772e15aa1a2b
@@ -13228,7 +15117,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -13243,7 +15132,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2025-15282
     - https://bugzilla.redhat.com/2395108
@@ -13283,7 +15171,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/05356b1cc153108aaf27f3b72ce438af4aa218c0
     - https://github.com/python/cpython/commit/34d76b00dabde81a793bd06dd8ecb057838c4b38
@@ -13323,7 +15211,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -13422,7 +15310,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -13439,7 +15327,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-0672
     - https://bugzilla.redhat.com/2395108
@@ -13479,7 +15366,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/62700107418eb2cca3fc88da036a243ea975f172
     - https://github.com/python/cpython/commit/712452e6f1d4b9f7f8c4c92ebfcaac1705faa440
@@ -13604,6 +15491,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11972
     PublishedDate: '2026-06-23T23:16:49.033Z'
     LastModifiedDate: '2026-08-13T01:16:51.78Z'
+  - VulnerabilityID: CVE-2026-12345
+    PkgID: python-unversioned-command@3.9.25-7.el9_8.3.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.el9_8.3?arch=noarch&distro=redhat-9.8
+      UID: a0671bc328bf1aa0
+    InstalledVersion: 3.9.25-7.el9_8.3
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-12345
+    Fingerprint: sha256:5bea8bbef969f6939ae990ff0b43c8b6a274ab5a8e17859ff8a5a8f76ed6ba70
+    Title: 'python: python: Arbitrary file deletion via race condition during temporary directory cleanup'
+    Description: The cleanup of tempfile.TemporaryDirectory is vulnerable to a race condition. An attacker who can modify the tree during cleanup can replace a directory with a symbolic link, causing files outside of the temporary directory to be deleted or have their permissions and file flags reset, with the privileges of the process performing the cleanup. Note that platforms where shutil.rmtree.avoids_symlink_attacks is false, remain affected, and file flags may still be reset outside of the tree on all platforms.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 6.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/security/cve/CVE-2026-12345
+    - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
+    - https://github.com/python/cpython/commit/5c20517a4fc56683efe63a7751020db9573f538d
+    - https://github.com/python/cpython/commit/e1f3590f155c6d66007e958c98c9d69316551993
+    - https://github.com/python/cpython/issues/157579
+    - https://github.com/python/cpython/pull/157580
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-12345
+    - https://www.cve.org/CVERecord?id=CVE-2026-12345
+    PublishedDate: '2026-09-29T18:17:14.707Z'
+    LastModifiedDate: '2026-09-30T23:16:59.127Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python-unversioned-command@3.9.25-7.el9_8.3.noarch
     PkgName: python-unversioned-command
@@ -13641,7 +15565,6 @@
         V3Score: 4.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/04/11/4
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-1502
     - https://bugzilla.redhat.com/2395108
@@ -13681,7 +15604,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/05ed7ce7ae9e17c23a04085b2539fe6d6d3cef69
     - https://github.com/python/cpython/commit/56b7100b04e44ea27989242b176beb8f016b2c53
@@ -13826,7 +15749,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -13842,7 +15765,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 5.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-3644
     - https://bugzilla.redhat.com/2395108
@@ -13882,7 +15804,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/3974092b037f9a3b000fb15b48ea61ce3b25d330
     - https://github.com/python/cpython/commit/556aa098e738b127c714866f819b4abe2f7593d8
@@ -13925,7 +15847,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 3
       nvd: 3
@@ -13946,7 +15868,6 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/16/4
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-4224
     - https://bugzilla.redhat.com/2395108
@@ -13986,7 +15907,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/24ce88b285f56ee11626cf5e472af3cd8cc7c621
@@ -14148,7 +16069,6 @@
         V3Score: 6
     References:
     - http://www.openwall.com/lists/oss-security/2026/04/15/6
-    - https://access.redhat.com/errata/RHSA-2026:19019
     - https://access.redhat.com/errata/RHSA-2026:19176
     - https://access.redhat.com/security/cve/CVE-2026-5713
     - https://bugzilla.redhat.com/2431367
@@ -14179,7 +16099,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5713
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19019.html
+    - https://errata.almalinux.org/9/ALSA-2026-19176.html
     - https://errata.rockylinux.org/RLSA-2026:19176
     - https://github.com/python/cpython/commit/289fd2c97a7e5aecb8b69f94f5e838ccfeee7e67
     - https://github.com/python/cpython/commit/316f6265b7f9ca4ffed5346b747475ef1943f35d
@@ -14215,7 +16135,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -14235,7 +16155,6 @@
         V3Score: 6.8
     References:
     - https://access.redhat.com/errata/RHSA-2026:28247
-    - https://access.redhat.com/errata/RHSA-2026:28581
     - https://access.redhat.com/security/cve/CVE-2026-6019
     - https://bugzilla.redhat.com/2458049
     - https://bugzilla.redhat.com/2460869
@@ -14244,7 +16163,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6019
-    - https://errata.almalinux.org/10/ALSA-2026-28581.html
+    - https://errata.almalinux.org/9/ALSA-2026-28247.html
     - https://errata.rockylinux.org/RLSA-2026:28247
     - https://github.com/python/cpython/commit/3c59b8b53fc75c7f9578d16fb8201ceb43e8f76c
     - https://github.com/python/cpython/commit/76b3923d688c0efc580658476c5f525ec8735104
@@ -14548,7 +16467,6 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
@@ -14588,7 +16506,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -14628,7 +16546,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -14668,7 +16586,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -14781,7 +16699,6 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2025-13837
     - https://bugzilla.redhat.com/2395108
@@ -14821,7 +16738,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/568342cfc8f002d9a15f30238f26b9d2e0e79036
     - https://github.com/python/cpython/commit/5a8b19677d818fb41ee55f310233772e15aa1a2b
@@ -14860,7 +16777,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -14875,7 +16792,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2025-15282
     - https://bugzilla.redhat.com/2395108
@@ -14915,7 +16831,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/05356b1cc153108aaf27f3b72ce438af4aa218c0
     - https://github.com/python/cpython/commit/34d76b00dabde81a793bd06dd8ecb057838c4b38
@@ -14955,7 +16871,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -15054,7 +16970,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -15071,7 +16987,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-0672
     - https://bugzilla.redhat.com/2395108
@@ -15111,7 +17026,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/62700107418eb2cca3fc88da036a243ea975f172
     - https://github.com/python/cpython/commit/712452e6f1d4b9f7f8c4c92ebfcaac1705faa440
@@ -15236,6 +17151,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11972
     PublishedDate: '2026-06-23T23:16:49.033Z'
     LastModifiedDate: '2026-08-13T01:16:51.78Z'
+  - VulnerabilityID: CVE-2026-12345
+    PkgID: python3@3.9.25-7.el9_8.3.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&distro=redhat-9.8
+      UID: 8a9bef4b65568206
+    InstalledVersion: 3.9.25-7.el9_8.3
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-12345
+    Fingerprint: sha256:b05591e5ce2f4816ec580a0a3021bd496cd372b94a564a4421a3b6b4889d52b3
+    Title: 'python: python: Arbitrary file deletion via race condition during temporary directory cleanup'
+    Description: The cleanup of tempfile.TemporaryDirectory is vulnerable to a race condition. An attacker who can modify the tree during cleanup can replace a directory with a symbolic link, causing files outside of the temporary directory to be deleted or have their permissions and file flags reset, with the privileges of the process performing the cleanup. Note that platforms where shutil.rmtree.avoids_symlink_attacks is false, remain affected, and file flags may still be reset outside of the tree on all platforms.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 6.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/security/cve/CVE-2026-12345
+    - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
+    - https://github.com/python/cpython/commit/5c20517a4fc56683efe63a7751020db9573f538d
+    - https://github.com/python/cpython/commit/e1f3590f155c6d66007e958c98c9d69316551993
+    - https://github.com/python/cpython/issues/157579
+    - https://github.com/python/cpython/pull/157580
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-12345
+    - https://www.cve.org/CVERecord?id=CVE-2026-12345
+    PublishedDate: '2026-09-29T18:17:14.707Z'
+    LastModifiedDate: '2026-09-30T23:16:59.127Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python3@3.9.25-7.el9_8.3.x86_64
     PkgName: python3
@@ -15273,7 +17225,6 @@
         V3Score: 4.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/04/11/4
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-1502
     - https://bugzilla.redhat.com/2395108
@@ -15313,7 +17264,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/05ed7ce7ae9e17c23a04085b2539fe6d6d3cef69
     - https://github.com/python/cpython/commit/56b7100b04e44ea27989242b176beb8f016b2c53
@@ -15458,7 +17409,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -15474,7 +17425,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 5.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-3644
     - https://bugzilla.redhat.com/2395108
@@ -15514,7 +17464,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/3974092b037f9a3b000fb15b48ea61ce3b25d330
     - https://github.com/python/cpython/commit/556aa098e738b127c714866f819b4abe2f7593d8
@@ -15557,7 +17507,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 3
       nvd: 3
@@ -15578,7 +17528,6 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/16/4
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-4224
     - https://bugzilla.redhat.com/2395108
@@ -15618,7 +17567,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/24ce88b285f56ee11626cf5e472af3cd8cc7c621
@@ -15780,7 +17729,6 @@
         V3Score: 6
     References:
     - http://www.openwall.com/lists/oss-security/2026/04/15/6
-    - https://access.redhat.com/errata/RHSA-2026:19019
     - https://access.redhat.com/errata/RHSA-2026:19176
     - https://access.redhat.com/security/cve/CVE-2026-5713
     - https://bugzilla.redhat.com/2431367
@@ -15811,7 +17759,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5713
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19019.html
+    - https://errata.almalinux.org/9/ALSA-2026-19176.html
     - https://errata.rockylinux.org/RLSA-2026:19176
     - https://github.com/python/cpython/commit/289fd2c97a7e5aecb8b69f94f5e838ccfeee7e67
     - https://github.com/python/cpython/commit/316f6265b7f9ca4ffed5346b747475ef1943f35d
@@ -15847,7 +17795,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -15867,7 +17815,6 @@
         V3Score: 6.8
     References:
     - https://access.redhat.com/errata/RHSA-2026:28247
-    - https://access.redhat.com/errata/RHSA-2026:28581
     - https://access.redhat.com/security/cve/CVE-2026-6019
     - https://bugzilla.redhat.com/2458049
     - https://bugzilla.redhat.com/2460869
@@ -15876,7 +17823,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6019
-    - https://errata.almalinux.org/10/ALSA-2026-28581.html
+    - https://errata.almalinux.org/9/ALSA-2026-28247.html
     - https://errata.rockylinux.org/RLSA-2026:28247
     - https://github.com/python/cpython/commit/3c59b8b53fc75c7f9578d16fb8201ceb43e8f76c
     - https://github.com/python/cpython/commit/76b3923d688c0efc580658476c5f525ec8735104
@@ -16180,7 +18127,6 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
@@ -16220,7 +18166,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -16260,7 +18206,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -16300,7 +18246,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -16413,7 +18359,6 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2025-13837
     - https://bugzilla.redhat.com/2395108
@@ -16453,7 +18398,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/568342cfc8f002d9a15f30238f26b9d2e0e79036
     - https://github.com/python/cpython/commit/5a8b19677d818fb41ee55f310233772e15aa1a2b
@@ -16492,7 +18437,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -16507,7 +18452,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2025-15282
     - https://bugzilla.redhat.com/2395108
@@ -16547,7 +18491,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/05356b1cc153108aaf27f3b72ce438af4aa218c0
     - https://github.com/python/cpython/commit/34d76b00dabde81a793bd06dd8ecb057838c4b38
@@ -16587,7 +18531,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -16686,7 +18630,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -16703,7 +18647,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-0672
     - https://bugzilla.redhat.com/2395108
@@ -16743,7 +18686,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/62700107418eb2cca3fc88da036a243ea975f172
     - https://github.com/python/cpython/commit/712452e6f1d4b9f7f8c4c92ebfcaac1705faa440
@@ -16868,6 +18811,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11972
     PublishedDate: '2026-06-23T23:16:49.033Z'
     LastModifiedDate: '2026-08-13T01:16:51.78Z'
+  - VulnerabilityID: CVE-2026-12345
+    PkgID: python3-libs@3.9.25-7.el9_8.3.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x86_64&distro=redhat-9.8
+      UID: a84bcd9047e96304
+    InstalledVersion: 3.9.25-7.el9_8.3
+    Status: affected
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-12345
+    Fingerprint: sha256:c2171f597a1e7c54f5024d0a2640a70df1c5f0647cde2ed86b9b2293ff50ab2d
+    Title: 'python: python: Arbitrary file deletion via race condition during temporary directory cleanup'
+    Description: The cleanup of tempfile.TemporaryDirectory is vulnerable to a race condition. An attacker who can modify the tree during cleanup can replace a directory with a symbolic link, causing files outside of the temporary directory to be deleted or have their permissions and file flags reset, with the privileges of the process performing the cleanup. Note that platforms where shutil.rmtree.avoids_symlink_attacks is false, remain affected, and file flags may still be reset outside of the tree on all platforms.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 6.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/security/cve/CVE-2026-12345
+    - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
+    - https://github.com/python/cpython/commit/5c20517a4fc56683efe63a7751020db9573f538d
+    - https://github.com/python/cpython/commit/e1f3590f155c6d66007e958c98c9d69316551993
+    - https://github.com/python/cpython/issues/157579
+    - https://github.com/python/cpython/pull/157580
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-12345
+    - https://www.cve.org/CVERecord?id=CVE-2026-12345
+    PublishedDate: '2026-09-29T18:17:14.707Z'
+    LastModifiedDate: '2026-09-30T23:16:59.127Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python3-libs@3.9.25-7.el9_8.3.x86_64
     PkgName: python3-libs
@@ -16905,7 +18885,6 @@
         V3Score: 4.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/04/11/4
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-1502
     - https://bugzilla.redhat.com/2395108
@@ -16945,7 +18924,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/05ed7ce7ae9e17c23a04085b2539fe6d6d3cef69
     - https://github.com/python/cpython/commit/56b7100b04e44ea27989242b176beb8f016b2c53
@@ -17090,7 +19069,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -17106,7 +19085,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 5.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-3644
     - https://bugzilla.redhat.com/2395108
@@ -17146,7 +19124,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/3974092b037f9a3b000fb15b48ea61ce3b25d330
     - https://github.com/python/cpython/commit/556aa098e738b127c714866f819b4abe2f7593d8
@@ -17189,7 +19167,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 3
       nvd: 3
@@ -17210,7 +19188,6 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/16/4
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-4224
     - https://bugzilla.redhat.com/2395108
@@ -17250,7 +19227,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/24ce88b285f56ee11626cf5e472af3cd8cc7c621
@@ -17412,7 +19389,6 @@
         V3Score: 6
     References:
     - http://www.openwall.com/lists/oss-security/2026/04/15/6
-    - https://access.redhat.com/errata/RHSA-2026:19019
     - https://access.redhat.com/errata/RHSA-2026:19176
     - https://access.redhat.com/security/cve/CVE-2026-5713
     - https://bugzilla.redhat.com/2431367
@@ -17443,7 +19419,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5713
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19019.html
+    - https://errata.almalinux.org/9/ALSA-2026-19176.html
     - https://errata.rockylinux.org/RLSA-2026:19176
     - https://github.com/python/cpython/commit/289fd2c97a7e5aecb8b69f94f5e838ccfeee7e67
     - https://github.com/python/cpython/commit/316f6265b7f9ca4ffed5346b747475ef1943f35d
@@ -17479,7 +19455,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -17499,7 +19475,6 @@
         V3Score: 6.8
     References:
     - https://access.redhat.com/errata/RHSA-2026:28247
-    - https://access.redhat.com/errata/RHSA-2026:28581
     - https://access.redhat.com/security/cve/CVE-2026-6019
     - https://bugzilla.redhat.com/2458049
     - https://bugzilla.redhat.com/2460869
@@ -17508,7 +19483,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6019
-    - https://errata.almalinux.org/10/ALSA-2026-28581.html
+    - https://errata.almalinux.org/9/ALSA-2026-28247.html
     - https://errata.rockylinux.org/RLSA-2026:28247
     - https://github.com/python/cpython/commit/3c59b8b53fc75c7f9578d16fb8201ceb43e8f76c
     - https://github.com/python/cpython/commit/76b3923d688c0efc580658476c5f525ec8735104
@@ -17812,7 +19787,6 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
@@ -17852,7 +19826,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -17892,7 +19866,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -18269,14 +20243,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:54481
     - https://access.redhat.com/errata/RHSA-2026:54484
     - https://access.redhat.com/security/cve/CVE-2026-45409
     - https://bugzilla.redhat.com/2485616
     - https://bugzilla.redhat.com/show_bug.cgi?id=2485616
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-45409
-    - https://errata.almalinux.org/10/ALSA-2026-54481.html
+    - https://errata.almalinux.org/9/ALSA-2026-54484.html
     - https://errata.rockylinux.org/RLSA-2026:54484
     - https://github.com/kjd/idna
     - https://github.com/kjd/idna/security/advisories/GHSA-65pc-fj4g-8rjx
@@ -19506,6 +21479,97 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-68497
     PublishedDate: '2026-09-11T16:17:39.61Z'
     LastModifiedDate: '2026-09-18T19:34:36.657Z'
+  - VulnerabilityID: CVE-2026-91776
+    VendorIDs:
+    - GHSA-wv8q-qhhj-9h54
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.1
+      UID: eda04677809202ba
+    InstalledVersion: 2.22.1
+    FixedVersion: 2.18.11, 2.21.7, 2.22.3
+    Status: fixed
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91776
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:f1b29838671d2333334582a8fac55e265fc98382a804230e7abc05336726084b
+    Title: TypeDeserializerBase._findDeserializer() in FasterXML jackson-databind ...
+    Description: TypeDeserializerBase._findDeserializer() in FasterXML jackson-databind caches the resolved deserializer under the raw, attacker-supplied type ID. When name-based polymorphism is configured with a fallback, for example @JsonTypeInfo(use = Id.NAME, defaultImpl = ...), every distinct unrecognized type ID resolves to the same fallback deserializer but is retained as its own key in the _deserializers map. That map has no configurable bound and lives for the lifetime of the type deserializer, so an attacker who can repeatedly supply fresh unknown type IDs causes monotonic memory retention across requests. The reporter observed 10,000 retained entries from 10,000 distinct unknown IDs, against a single entry for a control that repeated one unknown ID the same number of times, isolating attacker-controlled key cardinality from request volume. Exploitation requires an application that enables name-based polymorphism with a defaultImpl or equivalent fallback, accepts attacker-influenced type IDs, and reuses a long-lived ObjectMapper across requests. The fix stops caching fallback resolutions for unrecognized IDs and bounds both the number of cached entries and the length of a cacheable type ID.
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/2870d1d6dc1b7e1c07ee11dd5b04ab71cddbb577
+    - https://github.com/FasterXML/jackson-databind/issues/6203
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.18.11
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.21.7
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.22.3
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.1.7
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.3
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-wv8q-qhhj-9h54
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91776
+    PublishedDate: '2026-09-23T03:17:04.62Z'
+    LastModifiedDate: '2026-09-24T20:43:32.537Z'
+  - VulnerabilityID: CVE-2026-91777
+    VendorIDs:
+    - GHSA-cxp5-3px4-pw24
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.1
+      UID: eda04677809202ba
+    InstalledVersion: 2.22.1
+    FixedVersion: 2.21.7, 2.18.11, 2.22.3
+    Status: fixed
+    Layer:
+      Digest: sha256:6548eb11561535c51a54475e0411ec380abb81a25213ac18bf810e005e1460c4
+      DiffID: sha256:7295031ccd7286ed70fb61b8db90f11608ad6ed865d9798f0e2bef98e3feff26
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91777
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:319ac3d9df89494f2c677a35aec9ba9da3e794fa9b110c1c23d9400d4dd73b84
+    Title: Forward-reference completion for @JsonIdentityInfo object IDs in Faste ...
+    Description: Forward-reference completion for @JsonIdentityInfo object IDs in FasterXML jackson-databind performs a linear scan of the pending-reference accumulator for every resolved ID. The affected paths are CollectionDeserializer.CollectionReferringAccumulator.resolveForwardReference() and the equivalent implementation in MapDeserializer. When a document first creates N unresolved object-ID references in an identity-enabled collection or map and then defines those same IDs in reverse order, completion performs on the order of N * (N + 1) / 2 identity comparisons, so a shallow document whose size grows linearly causes quadratic CPU work during deserialization. The reporter instrumented equals() calls on the ID class and measured exactly 2,003,000 comparisons at N = 2,000, against zero comparisons in the pending-reference lookup path for an equally sized control in which every reference was already resolved. The input requires no deep nesting and no syntactically unusual JSON. Exploitation requires an application that deserializes attacker-influenced JSON into an identity-enabled collection or map. The fix replaces the repeated linear lookup with a keyed pending-reference structure.
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/37ad9b81712cbb9fb62c2d2c1813593252a24b67
+    - https://github.com/FasterXML/jackson-databind/issues/6204
+    - https://github.com/FasterXML/jackson-databind/pull/6204
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.18.11
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.21.7
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.22.3
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.1.7
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.3
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-cxp5-3px4-pw24
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91777
+    PublishedDate: '2026-09-23T03:17:04.783Z'
+    LastModifiedDate: '2026-09-24T20:43:32.537Z'
   - VulnerabilityID: CVE-2026-19032
     VendorIDs:
     - GHSA-wjgm-6hv5-3cvf
