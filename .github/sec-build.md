@@ -1,8 +1,30 @@
 ```yaml
-╭ [0] ╭ Target  : nmaguiar/socksd:build (alpine 3.24.2) 
-│     ├ Class   : os-pkgs 
-│     ├ Type    : alpine 
-│     ╰ Packages 
+╭ [0] ╭ Target         : nmaguiar/socksd:build (alpine 3.24.2) 
+│     ├ Class          : os-pkgs 
+│     ├ Type           : alpine 
+│     ├ Packages        
+│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2026-46675 
+│                             ├ PkgID           : libpng@1.6.58-r1 
+│                             ├ PkgName         : libpng 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.58-r1?arch=x86_64&distro=3.2
+│                             │                  │       4.2 
+│                             │                  ╰ UID : 5b702c6b0c8725ba 
+│                             ├ InstalledVersion: 1.6.58-r1 
+│                             ├ FixedVersion    : 1.6.59-r0 
+│                             ├ Status          : fixed 
+│                             ├ Layer            ╭ Digest: sha256:943a527429491c45249c77b0553dcc1034fc07e3f1791
+│                             │                  │         35395a085735cd88b82 
+│                             │                  ╰ DiffID: sha256:bb1a7937bbc82fa4c485fb5865aaa6035347b428c72d5
+│                             │                            3ba8d0f4fff7adecb69 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46675 
+│                             ├ DataSource       ╭ ID  : alpine 
+│                             │                  ├ Name: Alpine Secdb 
+│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                             ├ Fingerprint     : sha256:a0d85c9fb1813cec2266d7a0fc66d5e17355d5852116134dd0b517
+│                             │                   e4db1d7f04 
+│                             ├ Title           : [Use-after-free of zlib input in `png_read_end` after
+│                             │                   incomplete zTXt, iTXt or iCCP decompression] 
+│                             ╰ Severity        : UNKNOWN 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -94,7 +116,148 @@
                         │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-68497 
                         │     ├ PublishedDate   : 2026-09-11T16:17:39.61Z 
                         │     ╰ LastModifiedDate: 2026-09-18T19:34:36.657Z 
-                        ├ [1] ╭ VulnerabilityID : CVE-2026-19032 
+                        ├ [1] ╭ VulnerabilityID : CVE-2026-91776 
+                        │     ├ VendorIDs        ─ [0]: GHSA-wv8q-qhhj-9h54 
+                        │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        │     ├ PkgPath         : openaf/openaf.jar 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
+                        │     │                  │       2.22.1 
+                        │     │                  ╰ UID : eda04677809202ba 
+                        │     ├ InstalledVersion: 2.22.1 
+                        │     ├ FixedVersion    : 2.18.11, 2.21.7, 2.22.3 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:943a527429491c45249c77b0553dcc1034fc07e3f1791
+                        │     │                  │         35395a085735cd88b82 
+                        │     │                  ╰ DiffID: sha256:bb1a7937bbc82fa4c485fb5865aaa6035347b428c72d5
+                        │     │                            3ba8d0f4fff7adecb69 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-91776 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Maven 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                        │     │                          osystem%3Amaven 
+                        │     ├ Fingerprint     : sha256:675e1cbf839174f6dc1a932704e031eb0ac28ef73b2443d212a235
+                        │     │                   0d994eedf8 
+                        │     ├ Title           : TypeDeserializerBase._findDeserializer() in FasterXML
+                        │     │                   jackson-databind ... 
+                        │     ├ Description     : TypeDeserializerBase._findDeserializer() in FasterXML
+                        │     │                   jackson-databind caches the resolved deserializer under the
+                        │     │                   raw, attacker-supplied type ID. When name-based polymorphism
+                        │     │                   is configured with a fallback, for example @JsonTypeInfo(use
+                        │     │                   = Id.NAME, defaultImpl = ...), every distinct unrecognized
+                        │     │                   type ID resolves to the same fallback deserializer but is
+                        │     │                   retained as its own key in the _deserializers map. That map
+                        │     │                   has no configurable bound and lives for the lifetime of the
+                        │     │                   type deserializer, so an attacker who can repeatedly supply
+                        │     │                   fresh unknown type IDs causes monotonic memory retention
+                        │     │                   across requests. The reporter observed 10,000 retained
+                        │     │                   entries from 10,000 distinct unknown IDs, against a single
+                        │     │                   entry for a control that repeated one unknown ID the same
+                        │     │                   number of times, isolating attacker-controlled key
+                        │     │                   cardinality from request volume. Exploitation requires an
+                        │     │                   application that enables name-based polymorphism with a
+                        │     │                   defaultImpl or equivalent fallback, accepts
+                        │     │                   attacker-influenced type IDs, and reuses a long-lived
+                        │     │                   ObjectMapper across requests. The fix stops caching fallback
+                        │     │                   resolutions for unrecognized IDs and bounds both the number
+                        │     │                   of cached entries and the length of a cacheable type ID. 
+                        │     ├ Severity        : HIGH 
+                        │     ├ CweIDs           ─ [0]: CWE-400 
+                        │     ├ VendorSeverity   ─ ghsa: 3 
+                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+                        │     │                         ╰ V3Score : 7.5 
+                        │     ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/28
+                        │     │                  │      70d1d6dc1b7e1c07ee11dd5b04ab71cddbb577 
+                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/issues/6203 
+                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/releases/
+                        │     │                  │      tag/jackson-databind-2.18.11 
+                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/releases/
+                        │     │                  │      tag/jackson-databind-2.21.7 
+                        │     │                  ├ [5]: https://github.com/FasterXML/jackson-databind/releases/
+                        │     │                  │      tag/jackson-databind-2.22.3 
+                        │     │                  ├ [6]: https://github.com/FasterXML/jackson-databind/releases/
+                        │     │                  │      tag/jackson-databind-3.1.7 
+                        │     │                  ├ [7]: https://github.com/FasterXML/jackson-databind/releases/
+                        │     │                  │      tag/jackson-databind-3.2.3 
+                        │     │                  ├ [8]: https://github.com/FasterXML/jackson-databind/security/
+                        │     │                  │      advisories/GHSA-wv8q-qhhj-9h54 
+                        │     │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-91776 
+                        │     ├ PublishedDate   : 2026-09-23T03:17:04.62Z 
+                        │     ╰ LastModifiedDate: 2026-09-24T20:43:32.537Z 
+                        ├ [2] ╭ VulnerabilityID : CVE-2026-91777 
+                        │     ├ VendorIDs        ─ [0]: GHSA-cxp5-3px4-pw24 
+                        │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        │     ├ PkgPath         : openaf/openaf.jar 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
+                        │     │                  │       2.22.1 
+                        │     │                  ╰ UID : eda04677809202ba 
+                        │     ├ InstalledVersion: 2.22.1 
+                        │     ├ FixedVersion    : 2.21.7, 2.18.11, 2.22.3 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:943a527429491c45249c77b0553dcc1034fc07e3f1791
+                        │     │                  │         35395a085735cd88b82 
+                        │     │                  ╰ DiffID: sha256:bb1a7937bbc82fa4c485fb5865aaa6035347b428c72d5
+                        │     │                            3ba8d0f4fff7adecb69 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-91777 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Maven 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                        │     │                          osystem%3Amaven 
+                        │     ├ Fingerprint     : sha256:e482e42a642293647f62507b5db8cc08a1dc27c1ca312b3d3202e7
+                        │     │                   7fe0c29318 
+                        │     ├ Title           : Forward-reference completion for @JsonIdentityInfo object IDs
+                        │     │                    in Faste ... 
+                        │     ├ Description     : Forward-reference completion for @JsonIdentityInfo object IDs
+                        │     │                    in FasterXML jackson-databind performs a linear scan of the
+                        │     │                   pending-reference accumulator for every resolved ID. The
+                        │     │                   affected paths are
+                        │     │                   CollectionDeserializer.CollectionReferringAccumulator.resolve
+                        │     │                   ForwardReference() and the equivalent implementation in
+                        │     │                   MapDeserializer. When a document first creates N unresolved
+                        │     │                   object-ID references in an identity-enabled collection or map
+                        │     │                    and then defines those same IDs in reverse order, completion
+                        │     │                    performs on the order of N * (N + 1) / 2 identity
+                        │     │                   comparisons, so a shallow document whose size grows linearly
+                        │     │                   causes quadratic CPU work during deserialization. The
+                        │     │                   reporter instrumented equals() calls on the ID class and
+                        │     │                   measured exactly 2,003,000 comparisons at N = 2,000, against
+                        │     │                   zero comparisons in the pending-reference lookup path for an
+                        │     │                   equally sized control in which every reference was already
+                        │     │                   resolved. The input requires no deep nesting and no
+                        │     │                   syntactically unusual JSON. Exploitation requires an
+                        │     │                   application that deserializes attacker-influenced JSON into
+                        │     │                   an identity-enabled collection or map. The fix replaces the
+                        │     │                   repeated linear lookup with a keyed pending-reference
+                        │     │                   structure. 
+                        │     ├ Severity        : HIGH 
+                        │     ├ CweIDs           ─ [0]: CWE-400 
+                        │     ├ VendorSeverity   ─ ghsa: 3 
+                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+                        │     │                         ╰ V3Score : 7.5 
+                        │     ├ References       ╭ [0] : https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [1] : https://github.com/FasterXML/jackson-databind/commit/3
+                        │     │                  │       7ad9b81712cbb9fb62c2d2c1813593252a24b67 
+                        │     │                  ├ [2] : https://github.com/FasterXML/jackson-databind/issues/6
+                        │     │                  │       204 
+                        │     │                  ├ [3] : https://github.com/FasterXML/jackson-databind/pull/6204 
+                        │     │                  ├ [4] : https://github.com/FasterXML/jackson-databind/releases
+                        │     │                  │       /tag/jackson-databind-2.18.11 
+                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind/releases
+                        │     │                  │       /tag/jackson-databind-2.21.7 
+                        │     │                  ├ [6] : https://github.com/FasterXML/jackson-databind/releases
+                        │     │                  │       /tag/jackson-databind-2.22.3 
+                        │     │                  ├ [7] : https://github.com/FasterXML/jackson-databind/releases
+                        │     │                  │       /tag/jackson-databind-3.1.7 
+                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/releases
+                        │     │                  │       /tag/jackson-databind-3.2.3 
+                        │     │                  ├ [9] : https://github.com/FasterXML/jackson-databind/security
+                        │     │                  │       /advisories/GHSA-cxp5-3px4-pw24 
+                        │     │                  ╰ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-91777 
+                        │     ├ PublishedDate   : 2026-09-23T03:17:04.783Z 
+                        │     ╰ LastModifiedDate: 2026-09-24T20:43:32.537Z 
+                        ├ [3] ╭ VulnerabilityID : CVE-2026-19032 
                         │     ├ VendorIDs        ─ [0]: GHSA-wjgm-6hv5-3cvf 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                         │     ├ PkgPath         : openaf/openaf.jar 
@@ -179,7 +342,7 @@
                         │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-19032 
                         │     ├ PublishedDate   : 2026-09-01T04:18:00.433Z 
                         │     ╰ LastModifiedDate: 2026-09-08T19:29:32.2Z 
-                        ╰ [2] ╭ VulnerabilityID : CVE-2026-83557 
+                        ╰ [4] ╭ VulnerabilityID : CVE-2026-83557 
                               ├ VendorIDs        ─ [0]: GHSA-gx83-3vf8-gh7j 
                               ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                               ├ PkgPath         : openaf/openaf.jar 
