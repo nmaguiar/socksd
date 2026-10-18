@@ -780,10 +780,10 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 3
       azure: 2
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -794,16 +794,10 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:67165
+    - https://access.redhat.com/errata/RHSA-2026:80514
     - https://access.redhat.com/security/cve/CVE-2026-63072
-    - https://bugzilla.redhat.com/2515348
-    - https://bugzilla.redhat.com/2517559
     - https://bugzilla.redhat.com/2517560
-    - https://bugzilla.redhat.com/2517561
-    - https://bugzilla.redhat.com/2517562
-    - https://bugzilla.redhat.com/2517564
-    - https://bugzilla.redhat.com/2517565
-    - https://bugzilla.redhat.com/2517566
-    - https://bugzilla.redhat.com/2517570
+    - https://bugzilla.redhat.com/2537080
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515348
     - https://bugzilla.redhat.com/show_bug.cgi?id=2517559
     - https://bugzilla.redhat.com/show_bug.cgi?id=2517560
@@ -823,7 +817,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/9/ALSA-2026-67165.html
+    - https://errata.almalinux.org/9/ALSA-2026-80514.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/2a3dac874c8057c1f0186849bf1ede1ae7b6b756
     - https://github.com/openssl/openssl/commit/87784ad619af36b8807c2044b3940006fccc1e42
@@ -831,7 +825,7 @@
     - https://github.com/openssl/openssl/commit/9ec2f6d2ae2bcad907cf7ee38584855bafe4979a
     - https://github.com/openssl/openssl/commit/a0c8ec557d9cac078f032d76cdf684fe743eb382
     - https://linux.oracle.com/cve/CVE-2026-63072.html
-    - https://linux.oracle.com/errata/ELSA-2026-67165-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-80514.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-63072
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
@@ -1584,6 +1578,7 @@
     VendorSeverity:
       amazon: 3
       azure: 2
+      photon: 4
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2055,14 +2050,22 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:f81b896ff7f7c18a8365bf49ad4836d2a7eedfade1c3d728acebb2485e952181
-    Title: '[Use-after-free of zlib input in `png_read_end` after incomplete zTXt, iTXt or iCCP decompression]'
-    Description: '[Use-after-free of zlib input in `png_read_end` after incomplete zTXt, iTXt or iCCP decompression]'
+    Title: 'libpng: libpng: Use-after-free in sequential reader when png_read_end called without reading image rows'
+    Description: A flaw was found in libpng. A remote attacker could exploit this vulnerability to cause a Denial of Service (DoS) by supplying a specially crafted PNG image. Incomplete decompression of certain metadata chunks can leave a dangling pointer in the library's internal decompression state. When an application finishes processing without reading the image rows, libpng attempts to read from this invalid memory location, resulting in an application crash.
     Severity: MEDIUM
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-46675
+    - https://github.com/pnggroup/libpng/commit/aa77ef38c17ab2fc1b41bec09fb973c6a386641d
     - https://github.com/pnggroup/libpng/issues/855
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-qvg3-h654-xq3j
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-46675
     - https://ubuntu.com/security/notices/USN-8899-1
     - https://www.cve.org/CVERecord?id=CVE-2026-46675
   - VulnerabilityID: CVE-2026-14456
@@ -2339,10 +2342,10 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 3
       azure: 2
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -2353,16 +2356,10 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:67165
+    - https://access.redhat.com/errata/RHSA-2026:80514
     - https://access.redhat.com/security/cve/CVE-2026-63072
-    - https://bugzilla.redhat.com/2515348
-    - https://bugzilla.redhat.com/2517559
     - https://bugzilla.redhat.com/2517560
-    - https://bugzilla.redhat.com/2517561
-    - https://bugzilla.redhat.com/2517562
-    - https://bugzilla.redhat.com/2517564
-    - https://bugzilla.redhat.com/2517565
-    - https://bugzilla.redhat.com/2517566
-    - https://bugzilla.redhat.com/2517570
+    - https://bugzilla.redhat.com/2537080
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515348
     - https://bugzilla.redhat.com/show_bug.cgi?id=2517559
     - https://bugzilla.redhat.com/show_bug.cgi?id=2517560
@@ -2382,7 +2379,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/9/ALSA-2026-67165.html
+    - https://errata.almalinux.org/9/ALSA-2026-80514.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/2a3dac874c8057c1f0186849bf1ede1ae7b6b756
     - https://github.com/openssl/openssl/commit/87784ad619af36b8807c2044b3940006fccc1e42
@@ -2390,7 +2387,7 @@
     - https://github.com/openssl/openssl/commit/9ec2f6d2ae2bcad907cf7ee38584855bafe4979a
     - https://github.com/openssl/openssl/commit/a0c8ec557d9cac078f032d76cdf684fe743eb382
     - https://linux.oracle.com/cve/CVE-2026-63072.html
-    - https://linux.oracle.com/errata/ELSA-2026-67165-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-80514.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-63072
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
@@ -3143,6 +3140,7 @@
     VendorSeverity:
       amazon: 3
       azure: 2
+      photon: 4
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -5172,10 +5170,10 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 3
       azure: 2
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -5186,16 +5184,10 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:67165
+    - https://access.redhat.com/errata/RHSA-2026:80514
     - https://access.redhat.com/security/cve/CVE-2026-63072
-    - https://bugzilla.redhat.com/2515348
-    - https://bugzilla.redhat.com/2517559
     - https://bugzilla.redhat.com/2517560
-    - https://bugzilla.redhat.com/2517561
-    - https://bugzilla.redhat.com/2517562
-    - https://bugzilla.redhat.com/2517564
-    - https://bugzilla.redhat.com/2517565
-    - https://bugzilla.redhat.com/2517566
-    - https://bugzilla.redhat.com/2517570
+    - https://bugzilla.redhat.com/2537080
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515348
     - https://bugzilla.redhat.com/show_bug.cgi?id=2517559
     - https://bugzilla.redhat.com/show_bug.cgi?id=2517560
@@ -5215,7 +5207,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/9/ALSA-2026-67165.html
+    - https://errata.almalinux.org/9/ALSA-2026-80514.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/2a3dac874c8057c1f0186849bf1ede1ae7b6b756
     - https://github.com/openssl/openssl/commit/87784ad619af36b8807c2044b3940006fccc1e42
@@ -5223,7 +5215,7 @@
     - https://github.com/openssl/openssl/commit/9ec2f6d2ae2bcad907cf7ee38584855bafe4979a
     - https://github.com/openssl/openssl/commit/a0c8ec557d9cac078f032d76cdf684fe743eb382
     - https://linux.oracle.com/cve/CVE-2026-63072.html
-    - https://linux.oracle.com/errata/ELSA-2026-67165-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-80514.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-63072
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
@@ -5976,6 +5968,7 @@
     VendorSeverity:
       amazon: 3
       azure: 2
+      photon: 4
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -6063,6 +6056,7 @@
     - CWE-400
     - CWE-1333
     VendorSeverity:
+      amazon: 3
       ghsa: 3
       redhat: 2
     CVSS:
@@ -6115,6 +6109,7 @@
     - CWE-400
     - CWE-770
     VendorSeverity:
+      amazon: 3
       ghsa: 3
       redhat: 3
     CVSS:
@@ -6179,15 +6174,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:77648
+    - https://access.redhat.com/errata/RHSA-2026:80504
     - https://access.redhat.com/security/cve/CVE-2026-68497
     - https://advisory.echohq.com/cve/CVE-2026-68497
     - https://bugzilla.redhat.com/2531964
     - https://bugzilla.redhat.com/show_bug.cgi?id=2531964
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-68497
-    - https://errata.almalinux.org/10/ALSA-2026-77648.html
-    - https://errata.rockylinux.org/RLSA-2026:77648
+    - https://errata.almalinux.org/9/ALSA-2026-80504.html
+    - https://errata.rockylinux.org/RLSA-2026:80504
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/a99b7e74c8928f43f6975773a8c862c8316178bd
     - https://github.com/FasterXML/jackson-databind/pull/6127
@@ -6198,7 +6193,7 @@
     - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.2
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-q4xh-88c3-wmh7
     - https://linux.oracle.com/cve/CVE-2026-68497.html
-    - https://linux.oracle.com/errata/ELSA-2026-77648.html
+    - https://linux.oracle.com/errata/ELSA-2026-80504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-68497
     - https://www.cve.org/CVERecord?id=CVE-2026-68497
     PublishedDate: '2026-09-11T16:17:39.61Z'
@@ -6339,6 +6334,7 @@
     - CWE-470
     - CWE-610
     VendorSeverity:
+      amazon: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -6394,6 +6390,7 @@
     - CWE-502
     - CWE-915
     VendorSeverity:
+      amazon: 2
       ghsa: 2
       redhat: 2
     CVSS:
