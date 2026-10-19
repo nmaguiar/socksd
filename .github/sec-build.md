@@ -3,45 +3,609 @@
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
 │     ├ Packages        
-│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2026-85091 
-│                             ├ PkgID           : zlib@1.3.2-r0 
-│                             ├ PkgName         : zlib 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.2-r0?arch=x86_64&distro=3.24.2 
-│                             │                  ╰ UID : e37054a2982d6c16 
-│                             ├ InstalledVersion: 1.3.2-r0 
-│                             ├ FixedVersion    : 1.3.2-r1 
-│                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c2
-│                             │                  │         e4c71060b96d6ab0d14 
-│                             │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce15523
-│                             │                            8197e6debb23d7f7954 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-85091 
-│                             ├ DataSource       ╭ ID  : alpine 
-│                             │                  ├ Name: Alpine Secdb 
-│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:3954e0b50ac321999384a79c02afdbd938f215e797788e914b286d
-│                             │                   bd92f906c0 
-│                             ├ Title           : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
-│                             │                   overflow vul ... 
-│                             ├ Description     : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
-│                             │                   overflow vulnerability in the gz_vacate() function when
-│                             │                   processing non-blocking gzwrite() operations with stale
-│                             │                   external buffer pointers. Attackers can trigger the overflow
-│                             │                   by calling gzprintf() or gzvprintf() after a write stall,
-│                             │                   causing an unchecked memmove() to write beyond the internal
-│                             │                   input buffer boundary. 
-│                             ├ Severity        : MEDIUM 
-│                             ├ CweIDs           ─ [0]: CWE-787 
-│                             ├ VendorSeverity   ─ ubuntu: 2 
-│                             ├ References       ╭ [0]: https://gist.github.com/thesmartshadow/e0b9481792afb7c3
-│                             │                  │      1e86fee1ff084490 
-│                             │                  ├ [1]: https://github.com/madler/zlib 
-│                             │                  ├ [2]: https://github.com/madler/zlib/blob/v1.3.2/gzwrite.c#L393 
-│                             │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-85091 
-│                             │                  ╰ [4]: https://www.vulncheck.com/advisories/zlib-1.3.1.2-throu
-│                             │                         gh-1.3.2-heap-buffer-overflow-via-gz-vacate 
-│                             ├ PublishedDate   : 2026-09-03T13:06:20.573Z 
-│                             ╰ LastModifiedDate: 2026-09-09T20:41:07.123Z 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2026-88806 
+│                       │      ├ PkgID           : libx11@1.8.13-r0 
+│                       │      ├ PkgName         : libx11 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libx11@1.8.13-r0?arch=x86_64&distro=3.
+│                       │      │                  │       24.2 
+│                       │      │                  ╰ UID : f1e6fa6303e0c19a 
+│                       │      ├ InstalledVersion: 1.8.13-r0 
+│                       │      ├ FixedVersion    : 1.8.14-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-88806 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:ab69c061370723d743004f5a86865681c713df8b74d18d7086b75
+│                       │      │                   a92c8acfc1f 
+│                       │      ├ Title           : libX11: libX11: Heap-based buffer overflow via malicious X
+│                       │      │                   server 
+│                       │      ├ Description     : A malicious X server could exploit a buffer overflow in
+│                       │      │                   libX11 before 1.8.14 during handling of XkbGetMap
+│                       │      │                   overflowing the key_sym_map. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ azure : 3 
+│                       │      │                  ├ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-88806 
+│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge
+│                       │      │                  │      _requests/309 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-88806 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-8913-1 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-88806 
+│                       │      ├ PublishedDate   : 2026-09-21T14:17:22.273Z 
+│                       │      ╰ LastModifiedDate: 2026-09-22T19:40:05.87Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-94283 
+│                       │      ├ PkgID           : libx11@1.8.13-r0 
+│                       │      ├ PkgName         : libx11 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libx11@1.8.13-r0?arch=x86_64&distro=3.
+│                       │      │                  │       24.2 
+│                       │      │                  ╰ UID : f1e6fa6303e0c19a 
+│                       │      ├ InstalledVersion: 1.8.13-r0 
+│                       │      ├ FixedVersion    : 1.8.14-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94283 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:a3023f67c4dd7e1fd4bccd6914616e81fe00d6faa63fb519fcf69
+│                       │      │                   509ea160fa3 
+│                       │      ├ Title           : libX11: libX11: Denial of Service via out-of-bounds read in
+│                       │      │                   XIM attribute parser 
+│                       │      ├ Description     : An out-of-bounds read vulnerability in libX11's XIM (X Input
+│                       │      │                    Method) attribute parser in libX11 before 1.8.14 could be
+│                       │      │                   used by malicious X servers to crash attached X clients. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-94283 
+│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge
+│                       │      │                  │      _requests/310 
+│                       │      │                  ├ [2]: https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge
+│                       │      │                  │      _requests/310/diffs?commit_id=42d0303f243002a9856c7606
+│                       │      │                  │      0569a61893c670dd 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-94283 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8913-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-94283 
+│                       │      ├ PublishedDate   : 2026-09-28T09:17:08.133Z 
+│                       │      ╰ LastModifiedDate: 2026-09-30T13:17:26.27Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-94284 
+│                       │      ├ PkgID           : libx11@1.8.13-r0 
+│                       │      ├ PkgName         : libx11 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libx11@1.8.13-r0?arch=x86_64&distro=3.
+│                       │      │                  │       24.2 
+│                       │      │                  ╰ UID : f1e6fa6303e0c19a 
+│                       │      ├ InstalledVersion: 1.8.13-r0 
+│                       │      ├ FixedVersion    : 1.8.14-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94284 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:65c16b1bb9a06671d23ad58a81a325fa131fabf4dcba185d04ef1
+│                       │      │                   7b051ad42bd 
+│                       │      ├ Title           : libX11: libX11: Denial of Service via out-of-bounds read in
+│                       │      │                   XIM trigger-key registration parser 
+│                       │      ├ Description     : An out-of-bounds read vulnerability in libX11's XIM
+│                       │      │                   trigger-key registration parser in libX11 before 1.8.14
+│                       │      │                   could be used by malicious X servers to crash attached X
+│                       │      │                   clients. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-94284 
+│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge
+│                       │      │                  │      _requests/310 
+│                       │      │                  ├ [2]: https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge
+│                       │      │                  │      _requests/310/diffs?commit_id=1b7904002d212eed40949ccf
+│                       │      │                  │      4e8e7156f9fec0e2 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-94284 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8913-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-94284 
+│                       │      ├ PublishedDate   : 2026-09-28T09:17:08.247Z 
+│                       │      ╰ LastModifiedDate: 2026-09-30T13:17:26.41Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-94285 
+│                       │      ├ PkgID           : libx11@1.8.13-r0 
+│                       │      ├ PkgName         : libx11 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libx11@1.8.13-r0?arch=x86_64&distro=3.
+│                       │      │                  │       24.2 
+│                       │      │                  ╰ UID : f1e6fa6303e0c19a 
+│                       │      ├ InstalledVersion: 1.8.13-r0 
+│                       │      ├ FixedVersion    : 1.8.14-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94285 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:18371e1752fbe0c5494ca5ff43e5cb7ce93cb43418573d9ca6759
+│                       │      │                   57983eed2a3 
+│                       │      ├ Title           : libX11: libX11: Denial of Service via out-of-bounds read in
+│                       │      │                   byte-oriented codeset parser 
+│                       │      ├ Description     : An out-of-bounds read in libX11's byte-oriented codeset
+│                       │      │                   parser in libX11 before 1.8.14 could be used by malicious X
+│                       │      │                   servers to crash attached X clients. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-94285 
+│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge
+│                       │      │                  │      _requests/310 
+│                       │      │                  ├ [2]: https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge
+│                       │      │                  │      _requests/310/diffs?commit_id=980868483446f24f9658d26a
+│                       │      │                  │      a5bfa42f3da6dd3a 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-94285 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8913-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-94285 
+│                       │      ├ PublishedDate   : 2026-09-28T09:17:08.353Z 
+│                       │      ╰ LastModifiedDate: 2026-09-30T13:17:26.57Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-93541 
+│                       │      ├ PkgID           : libxi@1.8.3-r0 
+│                       │      ├ PkgName         : libxi 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxi@1.8.3-r0?arch=x86_64&distro=3.24.2 
+│                       │      │                  ╰ UID : 48645fd8596750c6 
+│                       │      ├ InstalledVersion: 1.8.3-r0 
+│                       │      ├ FixedVersion    : 1.8.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-93541 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:b2e15f48cf45bbd438c5eeb79ccbcc41d55275b99bf7fca5b0ad3
+│                       │      │                   4cb559146ea 
+│                       │      ├ Title           : libXi: Out-of-bounds read in libXi's XQueryDeviceState() 
+│                       │      ├ Description     : An out-of-bounds read in libXi's XQueryDeviceState() in
+│                       │      │                   libXi before 1.8.4 could be used by a 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-93541 
+│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/xorg/lib/libxi/-/merge_
+│                       │      │                  │      requests/23/diffs?commit_id=7b6fffd13fd3914e0b39f3a4f1
+│                       │      │                  │      31913da7f066e7 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-93541 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-93541 
+│                       │      ├ PublishedDate   : 2026-09-24T16:17:26.163Z 
+│                       │      ╰ LastModifiedDate: 2026-09-24T21:00:46.893Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-93542 
+│                       │      ├ PkgID           : libxi@1.8.3-r0 
+│                       │      ├ PkgName         : libxi 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxi@1.8.3-r0?arch=x86_64&distro=3.24.2 
+│                       │      │                  ╰ UID : 48645fd8596750c6 
+│                       │      ├ InstalledVersion: 1.8.3-r0 
+│                       │      ├ FixedVersion    : 1.8.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-93542 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:3c0d001bd44103faa4eb9063ce639d58885ccb0571cb6f79d9f9e
+│                       │      │                   67b3ddf1225 
+│                       │      ├ Title           : libXi: libXi: Denial of Service via out-of-bounds read
+│                       │      │                   during XI2 class parsing 
+│                       │      ├ Description     : An out-of-bounds read in libXi's XI2 class parsing via
+│                       │      │                   size_classes() and copy_classes() in libXi before 1.8.4
+│                       │      │                   could be used by malicous servers to crash the X client. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-93542 
+│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/xorg/lib/libxi/-/merge_
+│                       │      │                  │      requests/23/diffs?commit_id=f499944ad595b9bd7e7571c810
+│                       │      │                  │      842244caf150aa 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-93542 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-93542 
+│                       │      ├ PublishedDate   : 2026-09-24T17:17:10.183Z 
+│                       │      ╰ LastModifiedDate: 2026-09-24T21:00:46.893Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-93543 
+│                       │      ├ PkgID           : libxi@1.8.3-r0 
+│                       │      ├ PkgName         : libxi 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxi@1.8.3-r0?arch=x86_64&distro=3.24.2 
+│                       │      │                  ╰ UID : 48645fd8596750c6 
+│                       │      ├ InstalledVersion: 1.8.3-r0 
+│                       │      ├ FixedVersion    : 1.8.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-93543 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:aae0769b5943fc7f6dd474af8d7a850081534308f76f94c3c6a74
+│                       │      │                   88612d07a1a 
+│                       │      ├ Title           : libXi: libXi: Denial of Service via out-of-bounds read in
+│                       │      │                   XI2 class parser 
+│                       │      ├ Description     : An out-of-bounds read in libXi's XI2 class parser in libXi
+│                       │      │                   before 1.8.4 could be used by malicious X servers to crash
+│                       │      │                   an attached X client. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-93543 
+│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/xorg/lib/libxi/-/merge_
+│                       │      │                  │      requests/23/diffs?commit_id=e2089ab748828273f916bbffd4
+│                       │      │                  │      e65b506aa50fdc 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-93543 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-93543 
+│                       │      ├ PublishedDate   : 2026-09-24T17:17:10.307Z 
+│                       │      ╰ LastModifiedDate: 2026-09-24T21:00:46.893Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-93544 
+│                       │      ├ PkgID           : libxi@1.8.3-r0 
+│                       │      ├ PkgName         : libxi 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxi@1.8.3-r0?arch=x86_64&distro=3.24.2 
+│                       │      │                  ╰ UID : 48645fd8596750c6 
+│                       │      ├ InstalledVersion: 1.8.3-r0 
+│                       │      ├ FixedVersion    : 1.8.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-93544 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:ba87439af5c40989f255d029f9b48254038a88b4d75ee8d83d61a
+│                       │      │                   e9c2a577182 
+│                       │      ├ Title           : libXi: libXi: Denial of Service via out-of-bounds read in
+│                       │      │                   XIQueryDevice reply parsing 
+│                       │      ├ Description     : An out-of-bounds read in libXi's XI2 XIQueryDevice reply
+│                       │      │                   parsing in libXi before 1.8.4 can be used by a malicious X
+│                       │      │                   server to crash an attached X client. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-93544 
+│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/xorg/lib/libxi/-/merge_
+│                       │      │                  │      requests/23/diffs?commit_id=a88a341135b79f6ed450f481e4
+│                       │      │                  │      a5d6ba502382af 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-93544 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-93544 
+│                       │      ├ PublishedDate   : 2026-09-24T17:17:10.43Z 
+│                       │      ╰ LastModifiedDate: 2026-09-24T21:00:46.893Z 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-93545 
+│                       │      ├ PkgID           : libxi@1.8.3-r0 
+│                       │      ├ PkgName         : libxi 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxi@1.8.3-r0?arch=x86_64&distro=3.24.2 
+│                       │      │                  ╰ UID : 48645fd8596750c6 
+│                       │      ├ InstalledVersion: 1.8.3-r0 
+│                       │      ├ FixedVersion    : 1.8.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-93545 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:5916df52bc7bdbf5d82bbd98dad5caf6054e80bb16fa9aa05be01
+│                       │      │                   04cd571898b 
+│                       │      ├ Title           : libXi: libXi: Denial of Service via out-of-bounds read in
+│                       │      │                   XListInputDevices() 
+│                       │      ├ Description     : An out-of-bounds read in libXi's XListInputDevices() in
+│                       │      │                   libXi before 1.8.4 could be used by malicious X servers to
+│                       │      │                   crash an attached X client. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-93545 
+│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/xorg/lib/libxi/-/merge_
+│                       │      │                  │      requests/23/diffs?commit_id=234ce17d95c42d75f7f7fdb2bf
+│                       │      │                  │      7a24875451bc0a 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-93545 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-93545 
+│                       │      ├ PublishedDate   : 2026-09-24T17:17:10.55Z 
+│                       │      ╰ LastModifiedDate: 2026-09-24T21:00:46.893Z 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-94281 
+│                       │      ├ PkgID           : libxi@1.8.3-r0 
+│                       │      ├ PkgName         : libxi 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxi@1.8.3-r0?arch=x86_64&distro=3.24.2 
+│                       │      │                  ╰ UID : 48645fd8596750c6 
+│                       │      ├ InstalledVersion: 1.8.3-r0 
+│                       │      ├ FixedVersion    : 1.8.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94281 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:bce93951c7ddd74e4cda37e9e8ef91454a9810665ab59f4f2d344
+│                       │      │                   236966be8d1 
+│                       │      ├ Title           : libXi: libXi: Denial of Service via out-of-bounds read in
+│                       │      │                   XListInputDevices() 
+│                       │      ├ Description     : An out-of-bounds read in libXi's XListInputDevices() class
+│                       │      │                   parsing in libXi before 1.8.4 could be used by malicious X
+│                       │      │                   servers to crash an attached X client. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-94281 
+│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/xorg/lib/libxi/-/merge_
+│                       │      │                  │      requests/23/diffs?commit_id=605f419d013153bf9e026cd100
+│                       │      │                  │      752ffbe930f3c1 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-94281 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-94281 
+│                       │      ├ PublishedDate   : 2026-09-24T17:17:16.86Z 
+│                       │      ╰ LastModifiedDate: 2026-09-24T21:00:46.893Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2026-94282 
+│                       │      ├ PkgID           : libxi@1.8.3-r0 
+│                       │      ├ PkgName         : libxi 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxi@1.8.3-r0?arch=x86_64&distro=3.24.2 
+│                       │      │                  ╰ UID : 48645fd8596750c6 
+│                       │      ├ InstalledVersion: 1.8.3-r0 
+│                       │      ├ FixedVersion    : 1.8.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94282 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:7380e58af277bb4d9f56dfd61077cae4fa93b4229fe0daf06dc83
+│                       │      │                   d5c2821128b 
+│                       │      ├ Title           : libXi: libXi: Denial of Service via out-of-bounds read in
+│                       │      │                   XI2 event processing 
+│                       │      ├ Description     : An out-of-bounds read in libXi's XI2 enter/leave/focus
+│                       │      │                   cookie conversion in libXi before 1.8.4 could be used by
+│                       │      │                   malicious X server to crash an attached X client. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-94282 
+│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/xorg/lib/libxi/-/merge_
+│                       │      │                  │      requests/23/diffs?commit_id=cecf160e9731fe01f3632f875f
+│                       │      │                  │      29ffcb598b052a 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-94282 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-94282 
+│                       │      ├ PublishedDate   : 2026-09-28T09:17:08.003Z 
+│                       │      ╰ LastModifiedDate: 2026-09-30T13:17:26.123Z 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2026-109089 
+│                       │      ├ PkgID           : libxi@1.8.3-r0 
+│                       │      ├ PkgName         : libxi 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxi@1.8.3-r0?arch=x86_64&distro=3.24.2 
+│                       │      │                  ╰ UID : 48645fd8596750c6 
+│                       │      ├ InstalledVersion: 1.8.3-r0 
+│                       │      ├ FixedVersion    : 1.8.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:aff58576a4a57740985f1a6e1ce08f08bd655fbe44ff27387afbc
+│                       │      │                   4908775dd9c 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-109090 
+│                       │      ├ PkgID           : libxi@1.8.3-r0 
+│                       │      ├ PkgName         : libxi 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxi@1.8.3-r0?arch=x86_64&distro=3.24.2 
+│                       │      │                  ╰ UID : 48645fd8596750c6 
+│                       │      ├ InstalledVersion: 1.8.3-r0 
+│                       │      ├ FixedVersion    : 1.8.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:0eacd796b2918a2d9ef29a9c70669afced40fd028334fdab5b330
+│                       │      │                   b47ccc0baab 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-88807 
+│                       │      ├ PkgID           : libxrender@0.9.12-r0 
+│                       │      ├ PkgName         : libxrender 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxrender@0.9.12-r0?arch=x86_64&distr
+│                       │      │                  │       o=3.24.2 
+│                       │      │                  ╰ UID : fb1c851a353fdee5 
+│                       │      ├ InstalledVersion: 0.9.12-r0 
+│                       │      ├ FixedVersion    : 0.9.13-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-88807 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:1f23a86ad9d7996656edff96650079e487321241e9bb97546de31
+│                       │      │                   7093d13055f 
+│                       │      ├ Title           : libXrender: libXrender: Code injection via heap overflow in
+│                       │      │                   RenderQueryPictFormats 
+│                       │      ├ Description     : A heap overflow in libXrender before 0.9.13 in
+│                       │      │                   RenderQueryPictFormats could be used by malicious X servers
+│                       │      │                   to inject code into attached X clients. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 8.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-88807 
+│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/xorg/lib/libxrender/-/m
+│                       │      │                  │      erge_requests/19 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-88807 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-88807 
+│                       │      ├ PublishedDate   : 2026-09-21T14:17:22.41Z 
+│                       │      ╰ LastModifiedDate: 2026-09-22T19:40:05.87Z 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-94286 
+│                       │      ├ PkgID           : libxtst@1.2.5-r0 
+│                       │      ├ PkgName         : libxtst 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxtst@1.2.5-r0?arch=x86_64&distro=3.
+│                       │      │                  │       24.2 
+│                       │      │                  ╰ UID : ac79313a3705263d 
+│                       │      ├ InstalledVersion: 1.2.5-r0 
+│                       │      ├ FixedVersion    : 1.2.6-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94286 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:40361653dd8fcd88baaee8b6348964b6b67774fa7d9ef085285ea
+│                       │      │                   2b365acb855 
+│                       │      ├ Title           : libXtst: libXtst: Denial of Service via out-of-bounds read
+│                       │      │                   in RECORD reply parser 
+│                       │      ├ Description     : An out-of-bounds read in libXtst's RECORD reply parser in
+│                       │      │                   libXtst before 1.2.6 could be used by malicious X servers to
+│                       │      │                    crash attached X clients. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-126 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-94286 
+│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/xorg/lib/libxtst/-/merg
+│                       │      │                  │      e_requests/10 
+│                       │      │                  ├ [2]: https://gitlab.freedesktop.org/xorg/lib/libxtst/-/merg
+│                       │      │                  │      e_requests/10/diffs?commit_id=16023c86070e6af9407330de
+│                       │      │                  │      ea3938fcef75815b 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-94286 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-94286 
+│                       │      ├ PublishedDate   : 2026-09-28T09:17:08.463Z 
+│                       │      ╰ LastModifiedDate: 2026-09-30T13:17:26.71Z 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-109088 
+│                       │      ├ PkgID           : libxtst@1.2.5-r0 
+│                       │      ├ PkgName         : libxtst 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxtst@1.2.5-r0?arch=x86_64&distro=3.
+│                       │      │                  │       24.2 
+│                       │      │                  ╰ UID : ac79313a3705263d 
+│                       │      ├ InstalledVersion: 1.2.5-r0 
+│                       │      ├ FixedVersion    : 1.2.6-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                       │      │                  │         2e4c71060b96d6ab0d14 
+│                       │      │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                       │      │                            38197e6debb23d7f7954 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:8449881203d9e46ea5f65b799da4c8321481fa3c899f7bcc42a7a
+│                       │      │                   eee10c11c58 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ╰ [16] ╭ VulnerabilityID : CVE-2026-85091 
+│                              ├ PkgID           : zlib@1.3.2-r0 
+│                              ├ PkgName         : zlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.2-r0?arch=x86_64&distro=3.24.2 
+│                              │                  ╰ UID : e37054a2982d6c16 
+│                              ├ InstalledVersion: 1.3.2-r0 
+│                              ├ FixedVersion    : 1.3.2-r1 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c
+│                              │                  │         2e4c71060b96d6ab0d14 
+│                              │                  ╰ DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce1552
+│                              │                            38197e6debb23d7f7954 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-85091 
+│                              ├ DataSource       ╭ ID  : alpine 
+│                              │                  ├ Name: Alpine Secdb 
+│                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                              ├ Fingerprint     : sha256:3954e0b50ac321999384a79c02afdbd938f215e797788e914b286
+│                              │                   dbd92f906c0 
+│                              ├ Title           : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
+│                              │                   overflow vul ... 
+│                              ├ Description     : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
+│                              │                   overflow vulnerability in the gz_vacate() function when
+│                              │                   processing non-blocking gzwrite() operations with stale
+│                              │                   external buffer pointers. Attackers can trigger the overflow
+│                              │                    by calling gzprintf() or gzvprintf() after a write stall,
+│                              │                   causing an unchecked memmove() to write beyond the internal
+│                              │                   input buffer boundary. 
+│                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-787 
+│                              ├ VendorSeverity   ─ ubuntu: 2 
+│                              ├ References       ╭ [0]: https://gist.github.com/thesmartshadow/e0b9481792afb7c
+│                              │                  │      31e86fee1ff084490 
+│                              │                  ├ [1]: https://github.com/madler/zlib 
+│                              │                  ├ [2]: https://github.com/madler/zlib/blob/v1.3.2/gzwrite.c#L
+│                              │                  │      393 
+│                              │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-85091 
+│                              │                  ╰ [4]: https://www.vulncheck.com/advisories/zlib-1.3.1.2-thro
+│                              │                         ugh-1.3.2-heap-buffer-overflow-via-gz-vacate 
+│                              ├ PublishedDate   : 2026-09-03T13:06:20.573Z 
+│                              ╰ LastModifiedDate: 2026-09-09T20:41:07.123Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
