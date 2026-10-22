@@ -524,6 +524,7 @@
     - https://gitlab.freedesktop.org/xorg/lib/libxtst/-/merge_requests/10
     - https://gitlab.freedesktop.org/xorg/lib/libxtst/-/merge_requests/10/diffs?commit_id=16023c86070e6af9407330deea3938fcef75815b
     - https://nvd.nist.gov/vuln/detail/CVE-2026-94286
+    - https://ubuntu.com/security/notices/USN-8939-1
     - https://www.cve.org/CVERecord?id=CVE-2026-94286
     PublishedDate: '2026-09-28T09:17:08.463Z'
     LastModifiedDate: '2026-09-30T13:17:26.71Z'
@@ -545,6 +546,102 @@
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:8449881203d9e46ea5f65b799da4c8321481fa3c899f7bcc42a7aeee10c11c58
     Severity: UNKNOWN
+  - VulnerabilityID: CVE-2026-107891
+    PkgID: musl@1.2.6-r2
+    PkgName: musl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/musl@1.2.6-r2?arch=x86_64&distro=3.24.2
+      UID: 1f8cb44befe503d4
+    InstalledVersion: 1.2.6-r2
+    FixedVersion: 1.2.6-r3
+    Status: fixed
+    Layer:
+      Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c2e4c71060b96d6ab0d14
+      DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce155238197e6debb23d7f7954
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:9fd5493a4e943f2913b10daf19d873686f53b3aa8159895b0b5a4361b5e8fa4f
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2026-107891
+    PkgID: musl-utils@1.2.6-r2
+    PkgName: musl-utils
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/musl-utils@1.2.6-r2?arch=x86_64&distro=3.24.2
+      UID: 4497482ec1d943e1
+    InstalledVersion: 1.2.6-r2
+    FixedVersion: 1.2.6-r3
+    Status: fixed
+    Layer:
+      Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c2e4c71060b96d6ab0d14
+      DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce155238197e6debb23d7f7954
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:8d8ad9ae2ac14827e05dd6e7f0a86fe29e5e21c713ea9dc657f1faeddea1b252
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2026-96512
+    PkgID: sudo@1.9.17_p2-r1
+    PkgName: sudo
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/sudo@1.9.17_p2-r1?arch=x86_64&distro=3.24.2
+      UID: 65e70d20e0b4f9aa
+    InstalledVersion: 1.9.17_p2-r1
+    FixedVersion: 1.9.17_p2-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:4defa511531a2692935760fad995d68dcc8af63d386c2e4c71060b96d6ab0d14
+      DiffID: sha256:1289e419e67721bbe2a93e8bb4b2f29afcba3cce155238197e6debb23d7f7954
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-96512
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:f71c253c1028a252d002a7c759aa696e3f60693db8a6cd4dcdb61e5d9e150d42
+    Title: 'sudo: sudo: TZ environment variable allows bypass of NOTBEFORE/NOTAFTER time-based authorization'
+    Description: A flaw was found in sudo. When sudoers rules use NOTBEFORE or NOTAFTER time-based access restrictions with timestamps that omit the trailing 'Z' timezone indicator, the time evaluation relies on the TZ environment variable inherited from the calling user. Because sudo is a setuid-root program, an unprivileged local user can set TZ to an extreme timezone offset to shift the authorization window by up to approximately 25 hours, causing expired rules to be treated as valid. This allows the user to execute commands outside the intended time window. Authentication is not bypassed; only the time-based authorization check is affected.
+    Severity: HIGH
+    CweIDs:
+    - CWE-863
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      azure: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/24/4
+    - https://access.redhat.com/errata/RHSA-2026:71609
+    - https://access.redhat.com/errata/RHSA-2026:75571
+    - https://access.redhat.com/errata/RHSA-2026:75579
+    - https://access.redhat.com/errata/RHSA-2026:75580
+    - https://access.redhat.com/errata/RHSA-2026:82939
+    - https://access.redhat.com/errata/RHSA-2026:86634
+    - https://access.redhat.com/errata/RHSA-2026:86635
+    - https://access.redhat.com/errata/RHSA-2026:87026
+    - https://access.redhat.com/security/cve/CVE-2026-96512
+    - https://bugzilla.redhat.com/2539327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2539327
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-96512
+    - https://errata.almalinux.org/9/ALSA-2026-75571.html
+    - https://errata.rockylinux.org/RLSA-2026:75571
+    - https://github.com/sudo-project/sudo/commit/1820a349687522f51023d1ae5925125f59679a8c
+    - https://linux.oracle.com/cve/CVE-2026-96512.html
+    - https://linux.oracle.com/errata/ELSA-2026-75580.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-96512
+    - https://ubuntu.com/security/notices/USN-8895-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-96512
+    PublishedDate: '2026-09-23T14:17:10.747Z'
+    LastModifiedDate: '2026-10-21T20:17:28.187Z'
   - VulnerabilityID: CVE-2026-85091
     PkgID: zlib@1.3.2-r0
     PkgName: zlib
