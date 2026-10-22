@@ -695,8 +695,12 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      nvd: 2
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.1
@@ -706,7 +710,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-107888
     - https://www.cve.org/CVERecord?id=CVE-2026-107888
     PublishedDate: '2026-10-09T05:16:44.407Z'
-    LastModifiedDate: '2026-10-15T19:17:19.34Z'
+    LastModifiedDate: '2026-10-20T20:55:06.46Z'
   - VulnerabilityID: CVE-2026-27447
     PkgID: cups-libs@2.3.3op2-39.el9_8.x86_64
     PkgName: cups-libs
@@ -978,7 +982,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87875
     - https://www.cve.org/CVERecord?id=CVE-2026-87875
     PublishedDate: '2026-09-09T17:17:53.24Z'
-    LastModifiedDate: '2026-09-12T00:17:06.303Z'
+    LastModifiedDate: '2026-10-21T21:20:12.063Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-39.el9_8.x86_64
     PkgName: cups-libs
@@ -1077,8 +1081,12 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      nvd: 2
       redhat: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.3
@@ -1088,7 +1096,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-107885
     - https://www.cve.org/CVERecord?id=CVE-2026-107885
     PublishedDate: '2026-10-09T04:18:04.94Z'
-    LastModifiedDate: '2026-10-09T21:17:03.713Z'
+    LastModifiedDate: '2026-10-20T20:58:50.457Z'
   - VulnerabilityID: CVE-2026-107886
     PkgID: cups-libs@2.3.3op2-39.el9_8.x86_64
     PkgName: cups-libs
@@ -1109,8 +1117,12 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      nvd: 2
       redhat: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L
         V3Score: 2.3
@@ -1120,7 +1132,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-107886
     - https://www.cve.org/CVERecord?id=CVE-2026-107886
     PublishedDate: '2026-10-09T04:18:05.163Z'
-    LastModifiedDate: '2026-10-09T18:17:06.273Z'
+    LastModifiedDate: '2026-10-20T20:56:33.73Z'
   - VulnerabilityID: CVE-2026-107890
     PkgID: cups-libs@2.3.3op2-39.el9_8.x86_64
     PkgName: cups-libs
@@ -1141,8 +1153,12 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      nvd: 2
       redhat: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.3
@@ -1152,7 +1168,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-107890
     - https://www.cve.org/CVERecord?id=CVE-2026-107890
     PublishedDate: '2026-10-09T05:16:44.73Z'
-    LastModifiedDate: '2026-10-13T17:17:18.53Z'
+    LastModifiedDate: '2026-10-20T20:53:19.57Z'
   - VulnerabilityID: CVE-2026-41079
     PkgID: cups-libs@2.3.3op2-39.el9_8.x86_64
     PkgName: cups-libs
@@ -1232,7 +1248,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87876
     - https://www.cve.org/CVERecord?id=CVE-2026-87876
     PublishedDate: '2026-09-09T17:17:53.377Z'
-    LastModifiedDate: '2026-09-21T12:17:22.543Z'
+    LastModifiedDate: '2026-10-21T21:20:12.2Z'
   - VulnerabilityID: CVE-2025-13034
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -2005,7 +2021,19 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92388
     Fingerprint: sha256:fcd18a1726548bb7f7c95f58b2256cd69946284c3564e9bbb87ccba8331d7998
     Title: 'curl: curl: FTP wildcard write callback mixup'
-    Description: A flaw was found in curl. A remote malicious server can cause a Denial of Service (DoS) or memory corruption in applications that enable File Transfer Protocol (FTP) wildcard matching. When a wildcard listing operation fails, curl does not properly reset its internal callback handlers before the connection handle is reused or duplicated. An application that subsequently reuses or clones this corrupted handle may experience an immediate application crash or unsafe memory access.
+    Description: |-
+      When an FTP wildcard `LIST` operation fails, libcurl omits the restoration
+      path meant for successful listings, leaving the write callback set to the
+      internal listing parser and the write callback data pointing directly to the
+      easy handle. Subsequent reuse of this handle triggers an immediate crash, and
+      cloning it via `curl_easy_duphandle()` copies this corrupted state into the
+      duplicate. If the original handle is subsequently freed, executing a transfer
+      on the cloned handle causes a heap use-after-free read against the dangling
+      handle reference; alternatively, reusing the original or cloned handle while
+      changing only  `CURLOPT_WRITEDATA` (and omitting `CURLOPT_WRITEFUNCTION`)
+      results in type confusion, forcing the internal parser to interpret incoming
+      server response bytes into memory at the application-supplied write data
+      pointer.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
@@ -2017,9 +2045,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92388
     - https://curl.se/docs/CVE-2026-92388.html
+    - https://curl.se/docs/CVE-2026-92388.json
+    - https://hackerone.com/reports/4022070
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92388
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-92388
+    PublishedDate: '2026-10-20T21:17:21.243Z'
+    LastModifiedDate: '2026-10-20T21:17:21.243Z'
   - VulnerabilityID: CVE-2026-9545
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -2998,7 +3032,11 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86409
     Fingerprint: sha256:0da2f1e1e93aba24cecd31638e5ed12966d069bc6f2c61c75e0aea0b5d441f07
     Title: 'curl: curl: stale SigV4 headers sent unintended'
-    Description: A flaw was found in curl. When an application attempts to disable Amazon Web Services Signature Version 4 (AWS SigV4) authentication on a reused connection handle, curl fails to clear the setting as expected. If the application subsequently directs a request to an untrusted or attacker-controlled server using the same handle, curl unintentionally transmits the signed authorization header. This flaw allows a remote attacker to obtain access key identifiers and request signatures, leading to information disclosure.
+    Description: |-
+      Setting `CURLOPT_AWS_SIGV4` to NULL but does not disable SigV4 authentication,
+      contrary to expectations and documentation. A subsequent transfer on the same
+      handle still sends an `Authorization: AWS4-HMAC-SHA256` header to whatever URL
+      isset next, leaking state information.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3010,9 +3048,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-86409
     - https://curl.se/docs/CVE-2026-86409.html
+    - https://curl.se/docs/CVE-2026-86409.json
+    - https://hackerone.com/reports/3973135
     - https://nvd.nist.gov/vuln/detail/CVE-2026-86409
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-86409
+    PublishedDate: '2026-10-20T20:17:25.223Z'
+    LastModifiedDate: '2026-10-20T20:17:25.223Z'
   - VulnerabilityID: CVE-2026-86414
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -3028,7 +3072,11 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86414
     Fingerprint: sha256:2a445fc43b2b6f9f6bfb8fc3b8e9e7f513007cd95f7dc18d55efa59fe3832182
     Title: 'curl: curl: leaking host credentials to HTTP proxy'
-    Description: A flaw was found in curl. A malicious or compromised HTTP proxy server can trick curl into sending authentication credentials intended for the target destination server directly to the proxy itself. When establishing a connection tunnel, if the proxy replies with an HTTP 401 Unauthorized status code instead of a proxy authentication challenge, curl mishandles the response and transmits the origin server's credentials. This issue leads to information disclosure, allowing an untrusted proxy to intercept sensitive passwords and authentication tokens.
+    Description: |-
+      An HTTP proxy can trick libcurl into sending the origin's credentials (Basic
+      password, or a Negotiate/Kerberos ticket) to the proxy itself, by answering
+      the `CONNECT` tunnel request with 401 `WWW-Authenticate:` instead of the
+      expected 407 `Proxy-Authenticate:`.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3040,9 +3088,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-86414
     - https://curl.se/docs/CVE-2026-86414.html
+    - https://curl.se/docs/CVE-2026-86414.json
+    - https://hackerone.com/reports/3993566
     - https://nvd.nist.gov/vuln/detail/CVE-2026-86414
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-86414
+    PublishedDate: '2026-10-20T21:17:19.947Z'
+    LastModifiedDate: '2026-10-20T21:17:19.947Z'
   - VulnerabilityID: CVE-2026-87864
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -3058,7 +3112,12 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-87864
     Fingerprint: sha256:734d432d128081bd93314e7ec38582ce9e9272a99d5fce18e7da0ccd825a0eaf
     Title: 'curl: IMAP APPEND plus CRLF conversion command injection'
-    Description: A flaw was found in curl. When curl is configured to perform carriage return and line feed (CRLF) conversion during an Internet Message Access Protocol (IMAP) append operation, it incorrectly reports the raw input size rather than the expanded byte count. Because the receiving server only reads the advertised length as message data, it interprets the remaining overflow bytes as subsequent commands. An attacker capable of supplying message data with line breaks can exploit this issue to execute unauthorized IMAP commands within an authenticated session.
+    Description: |-
+      Enabling `CURLOPT_CRLF` causes curl to advertise the raw input byte count in
+      the `IMAP APPEND {N}` literal while transmitting line-ending expanded data.
+      The server reads only $N$ bytes for the payload, causing the remaining
+      overflow bytes to be interpreted and executed as pipelined IMAP commands
+      within the authenticated session.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3070,9 +3129,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-87864
     - https://curl.se/docs/CVE-2026-87864.html
+    - https://curl.se/docs/CVE-2026-87864.json
+    - https://hackerone.com/reports/3972403
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87864
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-87864
+    PublishedDate: '2026-10-20T21:17:20.497Z'
+    LastModifiedDate: '2026-10-20T21:17:20.497Z'
   - VulnerabilityID: CVE-2026-92389
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -3088,7 +3153,14 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92389
     Fingerprint: sha256:46b15cadf361987821f9a015c28b2622f85876e3c597bee7aed59829ef62b0d4
     Title: 'curl: curl: TFTP direction confusion'
-    Description: A flaw was found in curl. When handling Trivial File Transfer Protocol (TFTP) transfers, a malicious server can trigger information disclosure by responding to a download request in a way that forces the client into transmit mode. Consequently, the client may unintentionally send leftover sensitive data from prior operations on a reused connection handle to the attacker's server.
+    Description: |-
+      libcurl's TFTP state machine fails to validate state transitions against the
+      requested transfer direction, accepting opening server responses for both
+      reads and writes interchangeably. A malicious TFTP server can respond to a
+      download request in a way that forces the client into transmit mode, prompting
+      libcurl to consume and transmit data from the handle's persistent
+      `CURLOPT_READDATA` pointer - including data remaining from unrelated prior
+      operations, such as an HTTP POST request executed on a reused handle.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3100,9 +3172,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92389
     - https://curl.se/docs/CVE-2026-92389.html
+    - https://curl.se/docs/CVE-2026-92389.json
+    - https://hackerone.com/reports/4022568
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92389
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-2
     - https://www.cve.org/CVERecord?id=CVE-2026-92389
+    PublishedDate: '2026-10-20T21:17:21.457Z'
+    LastModifiedDate: '2026-10-20T21:17:21.457Z'
   - VulnerabilityID: CVE-2026-92390
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -3118,7 +3196,14 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92390
     Fingerprint: sha256:ffd2768903df542850a0a272db09bc656f08d22d06d0dc0cc79608fa6ba4f0c2
     Title: 'curl: curl: -J no-clobber guarantee bypassed with 103 early hints'
-    Description: A flaw was found in curl. When the command-line tool is executed with the remote header name option to prevent overwriting existing files, a malicious server can bypass this protection by returning an intermediate HTTP 103 (Early Hints) response or through specific header ordering. This flaw allows an attacker controlling a remote server to overwrite existing local files on the client system.
+    Description: |-
+      When invoked with `--remote-header-name` (`-J`), curl fails to preserve its
+      documented anti-clobbering protection if an intermediate 103 Early Hints
+      response precedes the final HTTP response, or if an `ETag` header is processed
+      before `Content-Disposition` under `--etag-save`. This flaw allows an HTTP(S)
+      server to overwrite an existing local file specified in the
+      `Content-Disposition` header despite the presence of the `-J` non-overwrite
+      constraint.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3130,9 +3215,14 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92390
     - https://curl.se/docs/CVE-2026-92390.html
+    - https://curl.se/docs/CVE-2026-92390.json
+    - https://hackerone.com/reports/4023192
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92390
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
     - https://www.cve.org/CVERecord?id=CVE-2026-92390
+    PublishedDate: '2026-10-20T21:17:21.703Z'
+    LastModifiedDate: '2026-10-20T21:17:21.703Z'
   - VulnerabilityID: CVE-2026-92391
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -3148,7 +3238,11 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92391
     Fingerprint: sha256:1bad15f48f502b5c7d529d5a0e3bbee793d946320ee796135415b36572567901
     Title: 'curl: curl: curl_mime_free stack overflow by recursion'
-    Description: A flaw was found in curl. An attacker could supply deeply nested Multipurpose Internet Mail Extensions (MIME) structures to an application utilizing the libcurl library. During memory cleanup in the curl_mime_free function, excessive recursive calls exhaust available stack memory, leading to an application crash and a Denial of Service (DoS).
+    Description: |-
+      A deeply nested multipart MIME structure constructed via the public API causes
+      a stack overflow in libcurl during normal cleanup operations. An excessive
+      recursion depth within `curl_mime_free` leads to unbounded stack frame
+      allocation during structure traversal, ultimately crashing the host process.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3160,9 +3254,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92391
     - https://curl.se/docs/CVE-2026-92391.html
+    - https://curl.se/docs/CVE-2026-92391.json
+    - https://hackerone.com/reports/4024222
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92391
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-92391
+    PublishedDate: '2026-10-20T21:17:21.92Z'
+    LastModifiedDate: '2026-10-20T21:17:21.92Z'
   - VulnerabilityID: CVE-2026-94266
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -3178,7 +3278,10 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94266
     Fingerprint: sha256:fc78c3305c0eb295847dd7ae5e868e76204154abd679344c43164e16881fa9cc
     Title: 'curl: curl: password leak in CURLINFO_EFFECTIVE_URL'
-    Description: A flaw was found in curl. This vulnerability can lead to information disclosure by inadvertently revealing authentication credentials. When curl retrieves credentials from a local configuration file (such as a .netrc file), requesting the effective URL metadata can cause the returned destination address to improperly include those secret credentials. A local user may exploit this issue to view sensitive authentication tokens if an application or script queries and logs or displays the resolved URL.
+    Description: |-
+      libcurl could accidentally return a URL for `curl_easy_getinfo()`'s
+      `CURLINFO_EFFECTIVE_URL` option containing credentials, even though neither
+      the URL provided to libcurl nor the redirected URL did.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3190,9 +3293,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-94266
     - https://curl.se/docs/CVE-2026-94266.html
+    - https://curl.se/docs/CVE-2026-94266.json
+    - https://hackerone.com/reports/4041053
     - https://nvd.nist.gov/vuln/detail/CVE-2026-94266
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-94266
+    PublishedDate: '2026-10-20T21:17:22.29Z'
+    LastModifiedDate: '2026-10-20T21:17:22.29Z'
   - VulnerabilityID: CVE-2026-107161
     PkgID: cyrus-sasl-lib@2.1.27-22.el9.x86_64
     PkgName: cyrus-sasl-lib
@@ -3337,6 +3446,42 @@
     - https://www.vulncheck.com/advisories/libexpat-2.7.2-through-2.8.5-integer-overflow-in-expat-realloc
     PublishedDate: '2026-09-29T17:17:06.98Z'
     LastModifiedDate: '2026-09-29T21:32:59.833Z'
+  - VulnerabilityID: CVE-2026-113351
+    PkgID: expat@2.5.0-6.el9_8.5.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.5?arch=x86_64&distro=redhat-9.8
+      UID: b7c7135c4322f709
+    InstalledVersion: 2.5.0-6.el9_8.5
+    Status: affected
+    Layer:
+      Digest: sha256:d2ea4dd6b621b2d4e4d9f3a419e2b9c59689547ab22c41c80eebacd3340b10ec
+      DiffID: sha256:cac67b58fc332ba80b85894616547d9eddddbab4c0976e1ff8e796002d5cb7b3
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-113351
+    Fingerprint: sha256:a8edfc8c14e936f1d7ae3f3b48449959be26c7cb33178ffbac7d22c7368d2410
+    Title: 'expat: expat: Denial of Service via improper memory tracking in XML_ParserReset'
+    Description: libexpat 2.7.2 through 2.9.0 contains a denial of service vulnerability because XML_ParserReset zeroes the direct byte count but never offsets tracked heap allocations. Attackers can submit a large XML document so later documents on the same reset parser fail with XML_ERROR_NO_MEMORY until it is recreated.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-909
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-113351
+    - https://github.com/libexpat/libexpat
+    - https://github.com/libexpat/libexpat/blob/a76b1174c1ea52abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L1560
+    - https://github.com/libexpat/libexpat/blob/a76b1174c1ea52abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L860-L884
+    - https://github.com/libexpat/libexpat/pull/1431
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-113351
+    - https://www.cve.org/CVERecord?id=CVE-2026-113351
+    - https://www.vulncheck.com/advisories/libexpat-2.7.2-through-2.9.0-denial-of-service-via-xml-parserreset
+    PublishedDate: '2026-10-20T11:17:19.363Z'
+    LastModifiedDate: '2026-10-20T20:06:37.15Z'
   - VulnerabilityID: CVE-2026-32776
     PkgID: expat@2.5.0-6.el9_8.5.x86_64
     PkgName: expat
@@ -3863,7 +4008,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-66382
     - https://www.cve.org/CVERecord?id=CVE-2025-66382
     PublishedDate: '2025-11-28T07:15:57.9Z'
-    LastModifiedDate: '2026-06-17T09:56:45.24Z'
+    LastModifiedDate: '2026-10-19T13:10:00.11Z'
   - VulnerabilityID: CVE-2026-24515
     PkgID: expat@2.5.0-6.el9_8.5.x86_64
     PkgName: expat
@@ -4307,7 +4452,7 @@
     - https://ubuntu.com/security/notices/USN-7942-2
     - https://www.cve.org/CVERecord?id=CVE-2025-7039
     PublishedDate: '2025-09-03T02:15:38.12Z'
-    LastModifiedDate: '2026-06-17T10:04:08.797Z'
+    LastModifiedDate: '2026-10-18T21:10:00.12Z'
   - VulnerabilityID: CVE-2026-0988
     PkgID: glib2@2.68.4-19.el9_8.10.x86_64
     PkgName: glib2
@@ -4408,14 +4553,32 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 2
       redhat: 2
+      rocky: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/17/4
+    - https://access.redhat.com/errata/RHSA-2026:84753
     - https://access.redhat.com/security/cve/CVE-2026-8674
+    - https://bugzilla.redhat.com/2523274
+    - https://bugzilla.redhat.com/2524870
+    - https://bugzilla.redhat.com/2525256
+    - https://bugzilla.redhat.com/2536382
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2523274
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2524870
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2525256
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2536382
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18374
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-77117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8674
+    - https://errata.almalinux.org/10/ALSA-2026-84753.html
+    - https://errata.rockylinux.org/RLSA-2026:84753
     - https://joshua.hu/fuzzing-glibc-libresolv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-8674
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31026
@@ -4592,14 +4755,32 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 2
       redhat: 2
+      rocky: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/17/4
+    - https://access.redhat.com/errata/RHSA-2026:84753
     - https://access.redhat.com/security/cve/CVE-2026-8674
+    - https://bugzilla.redhat.com/2523274
+    - https://bugzilla.redhat.com/2524870
+    - https://bugzilla.redhat.com/2525256
+    - https://bugzilla.redhat.com/2536382
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2523274
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2524870
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2525256
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2536382
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18374
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-77117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8674
+    - https://errata.almalinux.org/10/ALSA-2026-84753.html
+    - https://errata.rockylinux.org/RLSA-2026:84753
     - https://joshua.hu/fuzzing-glibc-libresolv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-8674
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31026
@@ -4776,14 +4957,32 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 2
       redhat: 2
+      rocky: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/17/4
+    - https://access.redhat.com/errata/RHSA-2026:84753
     - https://access.redhat.com/security/cve/CVE-2026-8674
+    - https://bugzilla.redhat.com/2523274
+    - https://bugzilla.redhat.com/2524870
+    - https://bugzilla.redhat.com/2525256
+    - https://bugzilla.redhat.com/2536382
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2523274
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2524870
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2525256
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2536382
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18374
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-77117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8674
+    - https://errata.almalinux.org/10/ALSA-2026-84753.html
+    - https://errata.rockylinux.org/RLSA-2026:84753
     - https://joshua.hu/fuzzing-glibc-libresolv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-8674
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31026
@@ -4960,14 +5159,32 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 2
       redhat: 2
+      rocky: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/17/4
+    - https://access.redhat.com/errata/RHSA-2026:84753
     - https://access.redhat.com/security/cve/CVE-2026-8674
+    - https://bugzilla.redhat.com/2523274
+    - https://bugzilla.redhat.com/2524870
+    - https://bugzilla.redhat.com/2525256
+    - https://bugzilla.redhat.com/2536382
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2523274
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2524870
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2525256
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2536382
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18374
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-77117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8674
+    - https://errata.almalinux.org/10/ALSA-2026-84753.html
+    - https://errata.rockylinux.org/RLSA-2026:84753
     - https://joshua.hu/fuzzing-glibc-libresolv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-8674
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31026
@@ -5405,7 +5622,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-88647
     - https://www.cve.org/CVERecord?id=CVE-2026-88647
     PublishedDate: '2026-10-08T17:17:17.783Z'
-    LastModifiedDate: '2026-10-10T03:17:08.62Z'
+    LastModifiedDate: '2026-10-19T16:17:08.333Z'
   - VulnerabilityID: CVE-2026-67693
     PkgID: gnutls@3.8.10-9.el9_8.x86_64
     PkgName: gnutls
@@ -5441,7 +5658,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-67693
     - https://www.cve.org/CVERecord?id=CVE-2026-67693
     PublishedDate: '2026-10-08T19:18:41.28Z'
-    LastModifiedDate: '2026-10-16T18:18:00.667Z'
+    LastModifiedDate: '2026-10-19T15:17:07.243Z'
   - VulnerabilityID: CVE-2026-88648
     PkgID: gnutls@3.8.10-9.el9_8.x86_64
     PkgName: gnutls
@@ -5473,7 +5690,7 @@
     - https://www.rfc-editor.org/rfc/rfc5280#section-4.2.1.10
     - https://www.rfc-editor.org/rfc/rfc5280#section-6.1.4
     PublishedDate: '2026-10-08T19:20:52.703Z'
-    LastModifiedDate: '2026-10-08T21:33:42.423Z'
+    LastModifiedDate: '2026-10-19T16:17:08.487Z'
   - VulnerabilityID: CVE-2025-28164
     PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -5536,7 +5753,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       julia: 2
@@ -5562,7 +5779,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-64505
     - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.133Z'
-    LastModifiedDate: '2026-06-17T09:54:28.83Z'
+    LastModifiedDate: '2026-10-18T20:10:00.11Z'
   - VulnerabilityID: CVE-2025-64506
     PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -5608,7 +5825,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-64506
     - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.3Z'
-    LastModifiedDate: '2026-06-17T09:54:28.937Z'
+    LastModifiedDate: '2026-10-18T20:10:00.11Z'
   - VulnerabilityID: CVE-2026-22693
     PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -6495,7 +6712,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-17591
     - https://www.cve.org/CVERecord?id=CVE-2026-17591
     PublishedDate: '2026-10-16T23:17:01.42Z'
-    LastModifiedDate: '2026-10-17T17:16:29.753Z'
+    LastModifiedDate: '2026-10-19T22:17:10.423Z'
   - VulnerabilityID: CVE-2026-53613
     PkgID: libblkid@2.37.4-25.el9.x86_64
     PkgName: libblkid
@@ -7446,7 +7663,19 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92388
     Fingerprint: sha256:4d0eb0e4049c52f28ed068d0a2ad2dff33d886815b6b91044edf7944804aecbd
     Title: 'curl: curl: FTP wildcard write callback mixup'
-    Description: A flaw was found in curl. A remote malicious server can cause a Denial of Service (DoS) or memory corruption in applications that enable File Transfer Protocol (FTP) wildcard matching. When a wildcard listing operation fails, curl does not properly reset its internal callback handlers before the connection handle is reused or duplicated. An application that subsequently reuses or clones this corrupted handle may experience an immediate application crash or unsafe memory access.
+    Description: |-
+      When an FTP wildcard `LIST` operation fails, libcurl omits the restoration
+      path meant for successful listings, leaving the write callback set to the
+      internal listing parser and the write callback data pointing directly to the
+      easy handle. Subsequent reuse of this handle triggers an immediate crash, and
+      cloning it via `curl_easy_duphandle()` copies this corrupted state into the
+      duplicate. If the original handle is subsequently freed, executing a transfer
+      on the cloned handle causes a heap use-after-free read against the dangling
+      handle reference; alternatively, reusing the original or cloned handle while
+      changing only  `CURLOPT_WRITEDATA` (and omitting `CURLOPT_WRITEFUNCTION`)
+      results in type confusion, forcing the internal parser to interpret incoming
+      server response bytes into memory at the application-supplied write data
+      pointer.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
@@ -7458,9 +7687,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92388
     - https://curl.se/docs/CVE-2026-92388.html
+    - https://curl.se/docs/CVE-2026-92388.json
+    - https://hackerone.com/reports/4022070
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92388
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-92388
+    PublishedDate: '2026-10-20T21:17:21.243Z'
+    LastModifiedDate: '2026-10-20T21:17:21.243Z'
   - VulnerabilityID: CVE-2026-9545
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8439,7 +8674,11 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86409
     Fingerprint: sha256:27a1b4a3caa2cd3965fbfd124d0319aab704b603fa4f41848ae49f15465a3e54
     Title: 'curl: curl: stale SigV4 headers sent unintended'
-    Description: A flaw was found in curl. When an application attempts to disable Amazon Web Services Signature Version 4 (AWS SigV4) authentication on a reused connection handle, curl fails to clear the setting as expected. If the application subsequently directs a request to an untrusted or attacker-controlled server using the same handle, curl unintentionally transmits the signed authorization header. This flaw allows a remote attacker to obtain access key identifiers and request signatures, leading to information disclosure.
+    Description: |-
+      Setting `CURLOPT_AWS_SIGV4` to NULL but does not disable SigV4 authentication,
+      contrary to expectations and documentation. A subsequent transfer on the same
+      handle still sends an `Authorization: AWS4-HMAC-SHA256` header to whatever URL
+      isset next, leaking state information.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8451,9 +8690,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-86409
     - https://curl.se/docs/CVE-2026-86409.html
+    - https://curl.se/docs/CVE-2026-86409.json
+    - https://hackerone.com/reports/3973135
     - https://nvd.nist.gov/vuln/detail/CVE-2026-86409
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-86409
+    PublishedDate: '2026-10-20T20:17:25.223Z'
+    LastModifiedDate: '2026-10-20T20:17:25.223Z'
   - VulnerabilityID: CVE-2026-86414
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8469,7 +8714,11 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86414
     Fingerprint: sha256:e70b5bb225bbff06d89b0f300e52f5a7da8c849ef8259bdfcfccd4e8a0d91501
     Title: 'curl: curl: leaking host credentials to HTTP proxy'
-    Description: A flaw was found in curl. A malicious or compromised HTTP proxy server can trick curl into sending authentication credentials intended for the target destination server directly to the proxy itself. When establishing a connection tunnel, if the proxy replies with an HTTP 401 Unauthorized status code instead of a proxy authentication challenge, curl mishandles the response and transmits the origin server's credentials. This issue leads to information disclosure, allowing an untrusted proxy to intercept sensitive passwords and authentication tokens.
+    Description: |-
+      An HTTP proxy can trick libcurl into sending the origin's credentials (Basic
+      password, or a Negotiate/Kerberos ticket) to the proxy itself, by answering
+      the `CONNECT` tunnel request with 401 `WWW-Authenticate:` instead of the
+      expected 407 `Proxy-Authenticate:`.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8481,9 +8730,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-86414
     - https://curl.se/docs/CVE-2026-86414.html
+    - https://curl.se/docs/CVE-2026-86414.json
+    - https://hackerone.com/reports/3993566
     - https://nvd.nist.gov/vuln/detail/CVE-2026-86414
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-86414
+    PublishedDate: '2026-10-20T21:17:19.947Z'
+    LastModifiedDate: '2026-10-20T21:17:19.947Z'
   - VulnerabilityID: CVE-2026-87864
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8499,7 +8754,12 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-87864
     Fingerprint: sha256:6f160b1b6d98c457a41da73f12a6f30e816a6a5bcd6481b257a98be7b3663786
     Title: 'curl: IMAP APPEND plus CRLF conversion command injection'
-    Description: A flaw was found in curl. When curl is configured to perform carriage return and line feed (CRLF) conversion during an Internet Message Access Protocol (IMAP) append operation, it incorrectly reports the raw input size rather than the expanded byte count. Because the receiving server only reads the advertised length as message data, it interprets the remaining overflow bytes as subsequent commands. An attacker capable of supplying message data with line breaks can exploit this issue to execute unauthorized IMAP commands within an authenticated session.
+    Description: |-
+      Enabling `CURLOPT_CRLF` causes curl to advertise the raw input byte count in
+      the `IMAP APPEND {N}` literal while transmitting line-ending expanded data.
+      The server reads only $N$ bytes for the payload, causing the remaining
+      overflow bytes to be interpreted and executed as pipelined IMAP commands
+      within the authenticated session.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8511,9 +8771,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-87864
     - https://curl.se/docs/CVE-2026-87864.html
+    - https://curl.se/docs/CVE-2026-87864.json
+    - https://hackerone.com/reports/3972403
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87864
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-87864
+    PublishedDate: '2026-10-20T21:17:20.497Z'
+    LastModifiedDate: '2026-10-20T21:17:20.497Z'
   - VulnerabilityID: CVE-2026-92389
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8529,7 +8795,14 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92389
     Fingerprint: sha256:598115104f3e1ab5933ee37dc5ff70a73fdc8b97c321e795b123bba17cf666c4
     Title: 'curl: curl: TFTP direction confusion'
-    Description: A flaw was found in curl. When handling Trivial File Transfer Protocol (TFTP) transfers, a malicious server can trigger information disclosure by responding to a download request in a way that forces the client into transmit mode. Consequently, the client may unintentionally send leftover sensitive data from prior operations on a reused connection handle to the attacker's server.
+    Description: |-
+      libcurl's TFTP state machine fails to validate state transitions against the
+      requested transfer direction, accepting opening server responses for both
+      reads and writes interchangeably. A malicious TFTP server can respond to a
+      download request in a way that forces the client into transmit mode, prompting
+      libcurl to consume and transmit data from the handle's persistent
+      `CURLOPT_READDATA` pointer - including data remaining from unrelated prior
+      operations, such as an HTTP POST request executed on a reused handle.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8541,9 +8814,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92389
     - https://curl.se/docs/CVE-2026-92389.html
+    - https://curl.se/docs/CVE-2026-92389.json
+    - https://hackerone.com/reports/4022568
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92389
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-2
     - https://www.cve.org/CVERecord?id=CVE-2026-92389
+    PublishedDate: '2026-10-20T21:17:21.457Z'
+    LastModifiedDate: '2026-10-20T21:17:21.457Z'
   - VulnerabilityID: CVE-2026-92390
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8559,7 +8838,14 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92390
     Fingerprint: sha256:7c915a3cf77e46ce2a04c7e7491e914f7cc7cd10f8626c4b7c3fd991222e1aef
     Title: 'curl: curl: -J no-clobber guarantee bypassed with 103 early hints'
-    Description: A flaw was found in curl. When the command-line tool is executed with the remote header name option to prevent overwriting existing files, a malicious server can bypass this protection by returning an intermediate HTTP 103 (Early Hints) response or through specific header ordering. This flaw allows an attacker controlling a remote server to overwrite existing local files on the client system.
+    Description: |-
+      When invoked with `--remote-header-name` (`-J`), curl fails to preserve its
+      documented anti-clobbering protection if an intermediate 103 Early Hints
+      response precedes the final HTTP response, or if an `ETag` header is processed
+      before `Content-Disposition` under `--etag-save`. This flaw allows an HTTP(S)
+      server to overwrite an existing local file specified in the
+      `Content-Disposition` header despite the presence of the `-J` non-overwrite
+      constraint.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8571,9 +8857,14 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92390
     - https://curl.se/docs/CVE-2026-92390.html
+    - https://curl.se/docs/CVE-2026-92390.json
+    - https://hackerone.com/reports/4023192
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92390
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
     - https://www.cve.org/CVERecord?id=CVE-2026-92390
+    PublishedDate: '2026-10-20T21:17:21.703Z'
+    LastModifiedDate: '2026-10-20T21:17:21.703Z'
   - VulnerabilityID: CVE-2026-92391
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8589,7 +8880,11 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92391
     Fingerprint: sha256:5fd81c8add3a698817707bfb5d1f4d3ccdbfd8b3c368781aeb708d0966b9c636
     Title: 'curl: curl: curl_mime_free stack overflow by recursion'
-    Description: A flaw was found in curl. An attacker could supply deeply nested Multipurpose Internet Mail Extensions (MIME) structures to an application utilizing the libcurl library. During memory cleanup in the curl_mime_free function, excessive recursive calls exhaust available stack memory, leading to an application crash and a Denial of Service (DoS).
+    Description: |-
+      A deeply nested multipart MIME structure constructed via the public API causes
+      a stack overflow in libcurl during normal cleanup operations. An excessive
+      recursion depth within `curl_mime_free` leads to unbounded stack frame
+      allocation during structure traversal, ultimately crashing the host process.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8601,9 +8896,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92391
     - https://curl.se/docs/CVE-2026-92391.html
+    - https://curl.se/docs/CVE-2026-92391.json
+    - https://hackerone.com/reports/4024222
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92391
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-92391
+    PublishedDate: '2026-10-20T21:17:21.92Z'
+    LastModifiedDate: '2026-10-20T21:17:21.92Z'
   - VulnerabilityID: CVE-2026-94266
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8619,7 +8920,10 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94266
     Fingerprint: sha256:3b462f1b02a58fcecfb875551ba0f39482fe1f622e8f4de2399dfb41e5c27ca0
     Title: 'curl: curl: password leak in CURLINFO_EFFECTIVE_URL'
-    Description: A flaw was found in curl. This vulnerability can lead to information disclosure by inadvertently revealing authentication credentials. When curl retrieves credentials from a local configuration file (such as a .netrc file), requesting the effective URL metadata can cause the returned destination address to improperly include those secret credentials. A local user may exploit this issue to view sensitive authentication tokens if an application or script queries and logs or displays the resolved URL.
+    Description: |-
+      libcurl could accidentally return a URL for `curl_easy_getinfo()`'s
+      `CURLINFO_EFFECTIVE_URL` option containing credentials, even though neither
+      the URL provided to libcurl nor the redirected URL did.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8631,9 +8935,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-94266
     - https://curl.se/docs/CVE-2026-94266.html
+    - https://curl.se/docs/CVE-2026-94266.json
+    - https://hackerone.com/reports/4041053
     - https://nvd.nist.gov/vuln/detail/CVE-2026-94266
     - https://ubuntu.com/security/notices/USN-8927-1
+    - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-94266
+    PublishedDate: '2026-10-20T21:17:22.29Z'
+    LastModifiedDate: '2026-10-20T21:17:22.29Z'
   - VulnerabilityID: CVE-2026-102010
     PkgID: libgcc@11.5.0-14.el9.x86_64
     PkgName: libgcc
@@ -8841,6 +9151,102 @@
     - https://www.openwall.com/lists/oss-security/2026/04/21/1
     PublishedDate: '2026-04-23T05:16:05.897Z'
     LastModifiedDate: '2026-06-17T10:47:18.257Z'
+  - VulnerabilityID: CVE-2026-92822
+    PkgID: libmodulemd@2.13.0-2.el9.x86_64
+    PkgName: libmodulemd
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libmodulemd@2.13.0-2.el9?arch=x86_64&distro=redhat-9.8
+      UID: d5e8637fd896b72a
+    InstalledVersion: 2.13.0-2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:d2ea4dd6b621b2d4e4d9f3a419e2b9c59689547ab22c41c80eebacd3340b10ec
+      DiffID: sha256:cac67b58fc332ba80b85894616547d9eddddbab4c0976e1ff8e796002d5cb7b3
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92822
+    Fingerprint: sha256:08faed2eaa4c18246d358a09ee42dd68dbb277b81009013141a35712e1e49b02
+    Title: 'libmodulemd: libmodulemd: unbounded recursion when parsing nested xmd YAML'
+    Description: A flaw was found in libmodulemd. When parsing module metadata, the xmd field is converted into nested GVariant values through recursive YAML mapping and sequence helpers without a recursion-depth or node-count limit. An attacker who can supply crafted modulemd YAML with deeply nested xmd content can cause stack exhaustion or excessive resource consumption, resulting in a denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-92822
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2479002
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-92822
+    - https://www.cve.org/CVERecord?id=CVE-2026-92822
+    PublishedDate: '2026-10-21T04:18:11.98Z'
+    LastModifiedDate: '2026-10-21T21:20:24.147Z'
+  - VulnerabilityID: CVE-2026-92823
+    PkgID: libmodulemd@2.13.0-2.el9.x86_64
+    PkgName: libmodulemd
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libmodulemd@2.13.0-2.el9?arch=x86_64&distro=redhat-9.8
+      UID: d5e8637fd896b72a
+    InstalledVersion: 2.13.0-2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:d2ea4dd6b621b2d4e4d9f3a419e2b9c59689547ab22c41c80eebacd3340b10ec
+      DiffID: sha256:cac67b58fc332ba80b85894616547d9eddddbab4c0976e1ff8e796002d5cb7b3
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92823
+    Fingerprint: sha256:85140ecd90c831ba6ea9ce44170e8819899aa7f8b20ec03aebade4bbc1ce694b
+    Title: 'libmodulemd: libmodulemd: missing decompressed-size limit when parsing compressed YAML'
+    Description: A flaw was found in libmodulemd. In builds with rpmio support enabled, compressed modulemd YAML is decompressed through a custom read handler that does not enforce a cumulative decompressed-size limit before parsing. An attacker who can supply a highly compressible compressed YAML file can cause excessive CPU and memory consumption, resulting in a denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-409
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-92823
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478703
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-92823
+    - https://www.cve.org/CVERecord?id=CVE-2026-92823
+    PublishedDate: '2026-10-21T04:18:12.127Z'
+    LastModifiedDate: '2026-10-21T16:17:41.29Z'
+  - VulnerabilityID: CVE-2026-92824
+    PkgID: libmodulemd@2.13.0-2.el9.x86_64
+    PkgName: libmodulemd
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libmodulemd@2.13.0-2.el9?arch=x86_64&distro=redhat-9.8
+      UID: d5e8637fd896b72a
+    InstalledVersion: 2.13.0-2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:d2ea4dd6b621b2d4e4d9f3a419e2b9c59689547ab22c41c80eebacd3340b10ec
+      DiffID: sha256:cac67b58fc332ba80b85894616547d9eddddbab4c0976e1ff8e796002d5cb7b3
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92824
+    Fingerprint: sha256:5ecbc02e4ee13fc18a608ccecdfb0316fc09c33c544027c62093900c16f27ea8
+    Title: 'libmodulemd: libmodulemd: out-of-bounds read when emitting rpm-map artifacts'
+    Description: A flaw was found in libmodulemd. In the module stream v2 rpm-map emission path, an inner loop incorrectly uses the count of digest algorithms as its bound instead of the number of checksums in the current digest table. Crafted modulemd v2 metadata with multiple digest types can trigger an out-of-bounds read during YAML serialization, typically causing a crash and resulting in a denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-92824
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478495
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-92824
+    - https://www.cve.org/CVERecord?id=CVE-2026-92824
+    PublishedDate: '2026-10-21T04:18:12.263Z'
+    LastModifiedDate: '2026-10-21T04:18:12.263Z'
   - VulnerabilityID: CVE-2026-53613
     PkgID: libmount@2.37.4-25.el9.x86_64
     PkgName: libmount
@@ -9268,7 +9674,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-82327
     - https://www.cve.org/CVERecord?id=CVE-2026-82327
     PublishedDate: '2026-08-28T16:18:34.067Z'
-    LastModifiedDate: '2026-08-28T20:20:21.063Z'
+    LastModifiedDate: '2026-10-21T21:19:17.353Z'
   - VulnerabilityID: CVE-2026-9149
     PkgID: libsolv@0.7.24-6.el9_8.x86_64
     PkgName: libsolv
@@ -12209,71 +12615,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42765
     PublishedDate: '2026-06-09T17:17:07.843Z'
     LastModifiedDate: '2026-07-23T08:10:00.137Z'
-  - VulnerabilityID: CVE-2026-75803
-    PkgID: openssl@3.5.8-2.el9_8.x86_64
-    PkgName: openssl
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl@3.5.8-2.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
-      UID: 8d8e5404b4b3c913
-    InstalledVersion: 1:3.5.8-2.el9_8
-    Status: affected
-    Layer:
-      Digest: sha256:d2ea4dd6b621b2d4e4d9f3a419e2b9c59689547ab22c41c80eebacd3340b10ec
-      DiffID: sha256:cac67b58fc332ba80b85894616547d9eddddbab4c0976e1ff8e796002d5cb7b3
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75803
-    Fingerprint: sha256:e530335e160d1fc457a2157264e80e5656f60782aa6cf24c726593a0b1e40b71
-    Title: 'openssl: openssl: AEAD forgeries possible with empty ciphertext in EVP_Cipher()'
-    Description: |-
-      Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
-      ciphertext can report success without verifying the supplied authentication
-      tag when the operation is finalized by calling the EVP_Cipher() function.
-
-      Impact summary: Applications calling EVP_Cipher() on an empty ciphertext and
-      expecting the call to check the AEAD tag may accept forged messages.
-
-      CWE: CWE-354 (Improper Validation of Integrity Check Value)
-
-      Description: The EVP_Cipher() API call for AEAD ciphers behaves like a one
-      shot encryption and decryption call. It also verifies the AEAD tag after the
-      decryption operation. However for AES-OCB and ChaCha20-Poly1305 ciphers
-      it skipped the AEAD tag verification when an empty ciphertext was passed to
-      the function. The callers of this function might believe that a successful
-      return indicates a valid AEAD tag for these ciphers, even when that has not
-      truly been validated in this case.
-
-      FIPS impact: no
-      The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE
-      as the affected algorithms are not FIPS approved and thus not implemented
-      in the FIPS module.
-    Severity: LOW
-    CweIDs:
-    - CWE-354
-    VendorSeverity:
-      amazon: 3
-      azure: 2
-      photon: 4
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-75803
-    - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
-    - https://github.com/openssl/openssl/commit/3621257986e27e540bf96a11570929a6e5a9e05b
-    - https://github.com/openssl/openssl/commit/6c7aa6f8f6449b7fe0137ee8be65fcd239bd7d6a
-    - https://github.com/openssl/openssl/commit/bdeb0cd994d915342787f117ee75044f0dc36f34
-    - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-75803
-    - https://openssl-library.org/news/secadv/20260825.txt
-    - https://ubuntu.com/security/notices/USN-8678-1
-    - https://ubuntu.com/security/notices/USN-8678-3
-    - https://ubuntu.com/security/notices/USN-8865-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-75803
-    PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-09-11T21:17:17.823Z'
   - VulnerabilityID: CVE-2026-42772
     PkgID: openssl-libs@3.5.8-2.el9_8.x86_64
     PkgName: openssl-libs
@@ -13872,71 +14213,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42765
     PublishedDate: '2026-06-09T17:17:07.843Z'
     LastModifiedDate: '2026-07-23T08:10:00.137Z'
-  - VulnerabilityID: CVE-2026-75803
-    PkgID: openssl-libs@3.5.8-2.el9_8.x86_64
-    PkgName: openssl-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-2.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
-      UID: bf2dc8826e159f58
-    InstalledVersion: 1:3.5.8-2.el9_8
-    Status: affected
-    Layer:
-      Digest: sha256:d2ea4dd6b621b2d4e4d9f3a419e2b9c59689547ab22c41c80eebacd3340b10ec
-      DiffID: sha256:cac67b58fc332ba80b85894616547d9eddddbab4c0976e1ff8e796002d5cb7b3
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75803
-    Fingerprint: sha256:6958c78266db8bea334bbd1d6ca987fa4e44935f7cc04dda14e1de183770daa5
-    Title: 'openssl: openssl: AEAD forgeries possible with empty ciphertext in EVP_Cipher()'
-    Description: |-
-      Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
-      ciphertext can report success without verifying the supplied authentication
-      tag when the operation is finalized by calling the EVP_Cipher() function.
-
-      Impact summary: Applications calling EVP_Cipher() on an empty ciphertext and
-      expecting the call to check the AEAD tag may accept forged messages.
-
-      CWE: CWE-354 (Improper Validation of Integrity Check Value)
-
-      Description: The EVP_Cipher() API call for AEAD ciphers behaves like a one
-      shot encryption and decryption call. It also verifies the AEAD tag after the
-      decryption operation. However for AES-OCB and ChaCha20-Poly1305 ciphers
-      it skipped the AEAD tag verification when an empty ciphertext was passed to
-      the function. The callers of this function might believe that a successful
-      return indicates a valid AEAD tag for these ciphers, even when that has not
-      truly been validated in this case.
-
-      FIPS impact: no
-      The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE
-      as the affected algorithms are not FIPS approved and thus not implemented
-      in the FIPS module.
-    Severity: LOW
-    CweIDs:
-    - CWE-354
-    VendorSeverity:
-      amazon: 3
-      azure: 2
-      photon: 4
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-75803
-    - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
-    - https://github.com/openssl/openssl/commit/3621257986e27e540bf96a11570929a6e5a9e05b
-    - https://github.com/openssl/openssl/commit/6c7aa6f8f6449b7fe0137ee8be65fcd239bd7d6a
-    - https://github.com/openssl/openssl/commit/bdeb0cd994d915342787f117ee75044f0dc36f34
-    - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-75803
-    - https://openssl-library.org/news/secadv/20260825.txt
-    - https://ubuntu.com/security/notices/USN-8678-1
-    - https://ubuntu.com/security/notices/USN-8678-3
-    - https://ubuntu.com/security/notices/USN-8865-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-75803
-    PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-09-11T21:17:17.823Z'
   - VulnerabilityID: CVE-2026-12610
     PkgID: pam@1.5.1-28.el9_8.1.x86_64
     PkgName: pam
@@ -14351,7 +14627,7 @@
     - https://github.com/python/cpython/issues/156293
     - https://github.com/python/cpython/pull/158504
     - https://linux.oracle.com/cve/CVE-2026-19445.html
-    - https://linux.oracle.com/errata/ELSA-2026-77028.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19445
     - https://www.cve.org/CVERecord?id=CVE-2026-19445
@@ -14438,44 +14714,12 @@
     - https://github.com/python/cpython/issues/156793
     - https://github.com/python/cpython/pull/158503
     - https://linux.oracle.com/cve/CVE-2026-19553.html
-    - https://linux.oracle.com/errata/ELSA-2026-77028.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
     - https://www.cve.org/CVERecord?id=CVE-2026-19553
     PublishedDate: '2026-09-30T17:16:45.88Z'
     LastModifiedDate: '2026-10-16T19:17:06.673Z'
-  - VulnerabilityID: CVE-2026-79824
-    PkgID: python-unversioned-command@3.9.25-7.el9_8.3.noarch
-    PkgName: python-unversioned-command
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.el9_8.3?arch=noarch&distro=redhat-9.8
-      UID: a0671bc328bf1aa0
-    InstalledVersion: 3.9.25-7.el9_8.3
-    Status: affected
-    Layer:
-      Digest: sha256:d2ea4dd6b621b2d4e4d9f3a419e2b9c59689547ab22c41c80eebacd3340b10ec
-      DiffID: sha256:cac67b58fc332ba80b85894616547d9eddddbab4c0976e1ff8e796002d5cb7b3
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-79824
-    Fingerprint: sha256:945316e862087dd0889e7d5fe9ac934262aad32c3ec6df7784a10d15e8385136
-    Title: 'python: python: Arbitrary file overwrite via directory traversal in TAR archives'
-    Description: "A directory traversal vulnerability in\_HPE NonStop Python 3.x could allow\_ attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive."
-    Severity: HIGH
-    CweIDs:
-    - CWE-30
-    VendorSeverity:
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-79824
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-79824
-    - https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbns05148en_us&docLocale=en_US
-    - https://www.cve.org/CVERecord?id=CVE-2026-79824
-    PublishedDate: '2026-10-15T10:17:15.483Z'
-    LastModifiedDate: '2026-10-15T16:23:06.25Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: python-unversioned-command@3.9.25-7.el9_8.3.noarch
     PkgName: python-unversioned-command
@@ -14496,7 +14740,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -14687,7 +14931,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -14781,7 +15025,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -14880,7 +15124,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -15081,7 +15325,9 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 3
       bitnami: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -15092,7 +15338,12 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/security/cve/CVE-2026-12345
+    - https://bugzilla.redhat.com/2543492
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
     - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
     - https://github.com/python/cpython/commit/58ed0259cae509a19138795df302fe60b544dc74
@@ -15100,6 +15351,8 @@
     - https://github.com/python/cpython/commit/e1f3590f155c6d66007e958c98c9d69316551993
     - https://github.com/python/cpython/issues/157579
     - https://github.com/python/cpython/pull/157580
+    - https://linux.oracle.com/cve/CVE-2026-12345.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-12345
     - https://www.cve.org/CVERecord?id=CVE-2026-12345
     PublishedDate: '2026-09-29T18:17:14.707Z'
@@ -15326,7 +15579,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -15424,7 +15677,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 3
       nvd: 3
@@ -15714,7 +15967,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -16125,7 +16378,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -16212,7 +16465,7 @@
     - https://github.com/python/cpython/issues/156293
     - https://github.com/python/cpython/pull/158504
     - https://linux.oracle.com/cve/CVE-2026-19445.html
-    - https://linux.oracle.com/errata/ELSA-2026-77028.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19445
     - https://www.cve.org/CVERecord?id=CVE-2026-19445
@@ -16299,44 +16552,12 @@
     - https://github.com/python/cpython/issues/156793
     - https://github.com/python/cpython/pull/158503
     - https://linux.oracle.com/cve/CVE-2026-19553.html
-    - https://linux.oracle.com/errata/ELSA-2026-77028.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
     - https://www.cve.org/CVERecord?id=CVE-2026-19553
     PublishedDate: '2026-09-30T17:16:45.88Z'
     LastModifiedDate: '2026-10-16T19:17:06.673Z'
-  - VulnerabilityID: CVE-2026-79824
-    PkgID: python3@3.9.25-7.el9_8.3.x86_64
-    PkgName: python3
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&distro=redhat-9.8
-      UID: 3f4efa43782a8ae0
-    InstalledVersion: 3.9.25-7.el9_8.3
-    Status: affected
-    Layer:
-      Digest: sha256:d2ea4dd6b621b2d4e4d9f3a419e2b9c59689547ab22c41c80eebacd3340b10ec
-      DiffID: sha256:cac67b58fc332ba80b85894616547d9eddddbab4c0976e1ff8e796002d5cb7b3
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-79824
-    Fingerprint: sha256:abececd3a073ba6784f5229ef9246e8405ea772f3a684deb66c465b026cb9939
-    Title: 'python: python: Arbitrary file overwrite via directory traversal in TAR archives'
-    Description: "A directory traversal vulnerability in\_HPE NonStop Python 3.x could allow\_ attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive."
-    Severity: HIGH
-    CweIDs:
-    - CWE-30
-    VendorSeverity:
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-79824
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-79824
-    - https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbns05148en_us&docLocale=en_US
-    - https://www.cve.org/CVERecord?id=CVE-2026-79824
-    PublishedDate: '2026-10-15T10:17:15.483Z'
-    LastModifiedDate: '2026-10-15T16:23:06.25Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: python3@3.9.25-7.el9_8.3.x86_64
     PkgName: python3
@@ -16357,7 +16578,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -16548,7 +16769,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -16642,7 +16863,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -16741,7 +16962,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -16942,7 +17163,9 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 3
       bitnami: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -16953,7 +17176,12 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/security/cve/CVE-2026-12345
+    - https://bugzilla.redhat.com/2543492
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
     - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
     - https://github.com/python/cpython/commit/58ed0259cae509a19138795df302fe60b544dc74
@@ -16961,6 +17189,8 @@
     - https://github.com/python/cpython/commit/e1f3590f155c6d66007e958c98c9d69316551993
     - https://github.com/python/cpython/issues/157579
     - https://github.com/python/cpython/pull/157580
+    - https://linux.oracle.com/cve/CVE-2026-12345.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-12345
     - https://www.cve.org/CVERecord?id=CVE-2026-12345
     PublishedDate: '2026-09-29T18:17:14.707Z'
@@ -17187,7 +17417,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -17285,7 +17515,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 3
       nvd: 3
@@ -17575,7 +17805,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -17986,7 +18216,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -18073,7 +18303,7 @@
     - https://github.com/python/cpython/issues/156293
     - https://github.com/python/cpython/pull/158504
     - https://linux.oracle.com/cve/CVE-2026-19445.html
-    - https://linux.oracle.com/errata/ELSA-2026-77028.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19445
     - https://www.cve.org/CVERecord?id=CVE-2026-19445
@@ -18160,44 +18390,12 @@
     - https://github.com/python/cpython/issues/156793
     - https://github.com/python/cpython/pull/158503
     - https://linux.oracle.com/cve/CVE-2026-19553.html
-    - https://linux.oracle.com/errata/ELSA-2026-77028.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
     - https://www.cve.org/CVERecord?id=CVE-2026-19553
     PublishedDate: '2026-09-30T17:16:45.88Z'
     LastModifiedDate: '2026-10-16T19:17:06.673Z'
-  - VulnerabilityID: CVE-2026-79824
-    PkgID: python3-libs@3.9.25-7.el9_8.3.x86_64
-    PkgName: python3-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x86_64&distro=redhat-9.8
-      UID: a66bb08eb38a7952
-    InstalledVersion: 3.9.25-7.el9_8.3
-    Status: affected
-    Layer:
-      Digest: sha256:d2ea4dd6b621b2d4e4d9f3a419e2b9c59689547ab22c41c80eebacd3340b10ec
-      DiffID: sha256:cac67b58fc332ba80b85894616547d9eddddbab4c0976e1ff8e796002d5cb7b3
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-79824
-    Fingerprint: sha256:3d286b9d3244937e18774351eac52f9144fa1a8b5bae885034d7738372ae575d
-    Title: 'python: python: Arbitrary file overwrite via directory traversal in TAR archives'
-    Description: "A directory traversal vulnerability in\_HPE NonStop Python 3.x could allow\_ attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive."
-    Severity: HIGH
-    CweIDs:
-    - CWE-30
-    VendorSeverity:
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-79824
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-79824
-    - https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbns05148en_us&docLocale=en_US
-    - https://www.cve.org/CVERecord?id=CVE-2026-79824
-    PublishedDate: '2026-10-15T10:17:15.483Z'
-    LastModifiedDate: '2026-10-15T16:23:06.25Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: python3-libs@3.9.25-7.el9_8.3.x86_64
     PkgName: python3-libs
@@ -18218,7 +18416,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -18409,7 +18607,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -18503,7 +18701,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -18602,7 +18800,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -18803,7 +19001,9 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 3
       bitnami: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -18814,7 +19014,12 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/security/cve/CVE-2026-12345
+    - https://bugzilla.redhat.com/2543492
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
     - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
     - https://github.com/python/cpython/commit/58ed0259cae509a19138795df302fe60b544dc74
@@ -18822,6 +19027,8 @@
     - https://github.com/python/cpython/commit/e1f3590f155c6d66007e958c98c9d69316551993
     - https://github.com/python/cpython/issues/157579
     - https://github.com/python/cpython/pull/157580
+    - https://linux.oracle.com/cve/CVE-2026-12345.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-12345
     - https://www.cve.org/CVERecord?id=CVE-2026-12345
     PublishedDate: '2026-09-29T18:17:14.707Z'
@@ -19048,7 +19255,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -19146,7 +19353,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 3
       nvd: 3
@@ -19436,7 +19643,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -19847,7 +20054,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -20032,13 +20239,17 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47081
     - https://errata.almalinux.org/9/ALSA-2025-12519.html
     - https://errata.rockylinux.org/RLSA-2025:12519
+    - https://github.com/advisories/GHSA-9hjg-9r4m-mvj7
     - https://github.com/psf/requests
     - https://github.com/psf/requests/commit/96ba401c1296ab1dda74a2365ef36d88f7d144ef
     - https://github.com/psf/requests/pull/6965
+    - https://github.com/psf/requests/releases/tag/v2.32.4
     - https://github.com/psf/requests/security/advisories/GHSA-9hjg-9r4m-mvj7
+    - https://github.com/pypa/advisory-database/tree/main/vulns/requests/PYSEC-2026-1872.yaml
     - https://linux.oracle.com/cve/CVE-2024-47081.html
     - https://linux.oracle.com/errata/ELSA-2025-14999.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-47081
+    - https://pypi.org/project/requests
     - https://requests.readthedocs.io/en/latest/api/#requests.Session.trust_env
     - https://seclists.org/fulldisclosure/2025/Jun/2
     - https://ubuntu.com/security/notices/USN-7568-1
@@ -21586,6 +21797,7 @@
     VendorSeverity:
       amazon: 3
       ghsa: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       ghsa:
@@ -21605,6 +21817,8 @@
     - https://github.com/FasterXML/jackson-core/pull/1650
     - https://github.com/FasterXML/jackson-core/pull/1701
     - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-p6pp-m3f8-5c89
+    - https://linux.oracle.com/cve/CVE-2026-89407.html
+    - https://linux.oracle.com/errata/ELSA-2026-86706.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-89407
     - https://www.cve.org/CVERecord?id=CVE-2026-89407
     PublishedDate: '2026-09-22T15:17:21.053Z'
@@ -21639,6 +21853,7 @@
     VendorSeverity:
       amazon: 3
       ghsa: 3
+      oracle-oval: 2
       redhat: 3
     CVSS:
       ghsa:
@@ -21656,6 +21871,8 @@
     - https://github.com/FasterXML/jackson-core/releases/tag/jackson-core-2.18.11
     - https://github.com/FasterXML/jackson-core/releases/tag/jackson-core-3.2.3
     - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-7hhh-6rmp-j9qf
+    - https://linux.oracle.com/cve/CVE-2026-89425.html
+    - https://linux.oracle.com/errata/ELSA-2026-86706.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-89425
     - https://www.cve.org/CVERecord?id=CVE-2026-89425
     PublishedDate: '2026-09-23T03:17:04.357Z'
@@ -21807,8 +22024,11 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      alma: 3
       ghsa: 3
+      oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       ghsa:
@@ -21818,8 +22038,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:85231
     - https://access.redhat.com/security/cve/CVE-2026-91777
     - https://advisory.echohq.com/cve/CVE-2026-91777
+    - https://bugzilla.redhat.com/2539085
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2539085
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91777
+    - https://errata.almalinux.org/9/ALSA-2026-85231.html
+    - https://errata.rockylinux.org/RLSA-2026:85231
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/37ad9b81712cbb9fb62c2d2c1813593252a24b67
     - https://github.com/FasterXML/jackson-databind/issues/6204
@@ -21830,6 +22057,8 @@
     - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.1.7
     - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.3
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-cxp5-3px4-pw24
+    - https://linux.oracle.com/cve/CVE-2026-91777.html
+    - https://linux.oracle.com/errata/ELSA-2026-85231.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91777
     - https://www.cve.org/CVERecord?id=CVE-2026-91777
     PublishedDate: '2026-09-23T03:17:04.783Z'
