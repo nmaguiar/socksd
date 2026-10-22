@@ -47,48 +47,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-19931
     PublishedDate: '2026-09-06T18:17:20.733Z'
     LastModifiedDate: '2026-09-15T07:16:27.29Z'
-  - VulnerabilityID: CVE-2026-80229
-    PkgID: curl@8.21.0-r0
-    PkgName: curl
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1
-      UID: eec4901c65f38f5a
-    InstalledVersion: 8.21.0-r0
-    FixedVersion: 8.22.0-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80229
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:39b80e2ef9a21cf2d74c290349dc78a9dcbd925d54b8e287c95916f0c99b4845
-    Title: When performing transfers via libcurl\u2019s multi interface, pooled T ...
-    Description: |-
-      When performing transfers via libcurl’s multi interface, pooled TLS
-      connections can outlive their originating easy handles. In OpenSSL 3 provider
-      configurations, libcurl attaches an allocated library context to the easy
-      handle's state and passes it to OpenSSL without acquiring an ownership
-      reference; destroying the easy handle prematurely frees this context while the
-      active connection retains a dangling pointer, leading to a heap-use-after-free
-      upon subsequent I/O or post-handshake operations.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    VendorSeverity:
-      photon: 3
-      ubuntu: 2
-    References:
-    - https://curl.se/docs/CVE-2026-80229.html
-    - https://curl.se/docs/CVE-2026-80229.json
-    - https://github.com/curl/curl/commit/7ea37abc6ac0120ba5f6d9
-    - https://hackerone.com/reports/3969255
-    - https://ubuntu.com/security/notices/USN-8820-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-80229
-    PublishedDate: '2026-09-06T18:17:22.217Z'
-    LastModifiedDate: '2026-09-15T07:16:30.157Z'
   - VulnerabilityID: CVE-2026-82208
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -228,6 +186,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-18924
     PublishedDate: '2026-09-06T18:17:20.553Z'
     LastModifiedDate: '2026-09-15T07:16:27.063Z'
+  - VulnerabilityID: CVE-2026-80229
+    PkgID: curl@8.21.0-r0
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1
+      UID: eec4901c65f38f5a
+    InstalledVersion: 8.21.0-r0
+    FixedVersion: 8.22.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
+      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80229
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:39b80e2ef9a21cf2d74c290349dc78a9dcbd925d54b8e287c95916f0c99b4845
+    Title: 'curl: libcurl: Memory corruption vulnerability via OpenSSL 3 provider use-after-free'
+    Description: |-
+      When performing transfers via libcurl’s multi interface, pooled TLS
+      connections can outlive their originating easy handles. In OpenSSL 3 provider
+      configurations, libcurl attaches an allocated library context to the easy
+      handle's state and passes it to OpenSSL without acquiring an ownership
+      reference; destroying the easy handle prematurely frees this context while the
+      active connection retains a dangling pointer, leading to a heap-use-after-free
+      upon subsequent I/O or post-handshake operations.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      photon: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-80229
+    - https://curl.se/docs/CVE-2026-80229.html
+    - https://curl.se/docs/CVE-2026-80229.json
+    - https://github.com/curl/curl/commit/7ea37abc6ac0120ba5f6d9
+    - https://hackerone.com/reports/3969255
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-80229
+    - https://ubuntu.com/security/notices/USN-8820-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-80229
+    PublishedDate: '2026-09-06T18:17:22.217Z'
+    LastModifiedDate: '2026-09-15T07:16:30.157Z'
   - VulnerabilityID: CVE-2026-80230
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -787,7 +794,7 @@
       alma: 2
       amazon: 3
       azure: 2
-      oracle-oval: 2
+      oracle-oval: 3
       photon: 3
       redhat: 2
       rocky: 3
@@ -829,7 +836,7 @@
     - https://github.com/openssl/openssl/commit/9ec2f6d2ae2bcad907cf7ee38584855bafe4979a
     - https://github.com/openssl/openssl/commit/a0c8ec557d9cac078f032d76cdf684fe743eb382
     - https://linux.oracle.com/cve/CVE-2026-63072.html
-    - https://linux.oracle.com/errata/ELSA-2026-80514.html
+    - https://linux.oracle.com/errata/ELSA-2026-85968.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-63072
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
@@ -1648,48 +1655,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-19931
     PublishedDate: '2026-09-06T18:17:20.733Z'
     LastModifiedDate: '2026-09-15T07:16:27.29Z'
-  - VulnerabilityID: CVE-2026-80229
-    PkgID: libcurl@8.21.0-r0
-    PkgName: libcurl
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3.24.1
-      UID: 41bd97351e4e8b71
-    InstalledVersion: 8.21.0-r0
-    FixedVersion: 8.22.0-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80229
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:e79a5af832dfc1a4b5ce54dae9c84bfd24166bf1e552bbbcc21bce093460716b
-    Title: When performing transfers via libcurl\u2019s multi interface, pooled T ...
-    Description: |-
-      When performing transfers via libcurl’s multi interface, pooled TLS
-      connections can outlive their originating easy handles. In OpenSSL 3 provider
-      configurations, libcurl attaches an allocated library context to the easy
-      handle's state and passes it to OpenSSL without acquiring an ownership
-      reference; destroying the easy handle prematurely frees this context while the
-      active connection retains a dangling pointer, leading to a heap-use-after-free
-      upon subsequent I/O or post-handshake operations.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    VendorSeverity:
-      photon: 3
-      ubuntu: 2
-    References:
-    - https://curl.se/docs/CVE-2026-80229.html
-    - https://curl.se/docs/CVE-2026-80229.json
-    - https://github.com/curl/curl/commit/7ea37abc6ac0120ba5f6d9
-    - https://hackerone.com/reports/3969255
-    - https://ubuntu.com/security/notices/USN-8820-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-80229
-    PublishedDate: '2026-09-06T18:17:22.217Z'
-    LastModifiedDate: '2026-09-15T07:16:30.157Z'
   - VulnerabilityID: CVE-2026-82208
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -1829,6 +1794,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-18924
     PublishedDate: '2026-09-06T18:17:20.553Z'
     LastModifiedDate: '2026-09-15T07:16:27.063Z'
+  - VulnerabilityID: CVE-2026-80229
+    PkgID: libcurl@8.21.0-r0
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3.24.1
+      UID: 41bd97351e4e8b71
+    InstalledVersion: 8.21.0-r0
+    FixedVersion: 8.22.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
+      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80229
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:e79a5af832dfc1a4b5ce54dae9c84bfd24166bf1e552bbbcc21bce093460716b
+    Title: 'curl: libcurl: Memory corruption vulnerability via OpenSSL 3 provider use-after-free'
+    Description: |-
+      When performing transfers via libcurl’s multi interface, pooled TLS
+      connections can outlive their originating easy handles. In OpenSSL 3 provider
+      configurations, libcurl attaches an allocated library context to the easy
+      handle's state and passes it to OpenSSL without acquiring an ownership
+      reference; destroying the easy handle prematurely frees this context while the
+      active connection retains a dangling pointer, leading to a heap-use-after-free
+      upon subsequent I/O or post-handshake operations.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      photon: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-80229
+    - https://curl.se/docs/CVE-2026-80229.html
+    - https://curl.se/docs/CVE-2026-80229.json
+    - https://github.com/curl/curl/commit/7ea37abc6ac0120ba5f6d9
+    - https://hackerone.com/reports/3969255
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-80229
+    - https://ubuntu.com/security/notices/USN-8820-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-80229
+    PublishedDate: '2026-09-06T18:17:22.217Z'
+    LastModifiedDate: '2026-09-15T07:16:30.157Z'
   - VulnerabilityID: CVE-2026-80230
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -2353,7 +2367,7 @@
       alma: 2
       amazon: 3
       azure: 2
-      oracle-oval: 2
+      oracle-oval: 3
       photon: 3
       redhat: 2
       rocky: 3
@@ -2395,7 +2409,7 @@
     - https://github.com/openssl/openssl/commit/9ec2f6d2ae2bcad907cf7ee38584855bafe4979a
     - https://github.com/openssl/openssl/commit/a0c8ec557d9cac078f032d76cdf684fe743eb382
     - https://linux.oracle.com/cve/CVE-2026-63072.html
-    - https://linux.oracle.com/errata/ELSA-2026-80514.html
+    - https://linux.oracle.com/errata/ELSA-2026-85968.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-63072
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
@@ -3691,6 +3705,7 @@
     - https://gitlab.freedesktop.org/xorg/lib/libxtst/-/merge_requests/10
     - https://gitlab.freedesktop.org/xorg/lib/libxtst/-/merge_requests/10/diffs?commit_id=16023c86070e6af9407330deea3938fcef75815b
     - https://nvd.nist.gov/vuln/detail/CVE-2026-94286
+    - https://ubuntu.com/security/notices/USN-8939-1
     - https://www.cve.org/CVERecord?id=CVE-2026-94286
     PublishedDate: '2026-09-28T09:17:08.463Z'
     LastModifiedDate: '2026-09-30T13:17:26.71Z'
@@ -3711,6 +3726,42 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:79cef00dde0c67be1849d1ccb3820cf67b77cc9841bde466ac575e2091084e4d
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2026-107891
+    PkgID: musl@1.2.6-r2
+    PkgName: musl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/musl@1.2.6-r2?arch=x86_64&distro=3.24.1
+      UID: 1f8cb44befe503d4
+    InstalledVersion: 1.2.6-r2
+    FixedVersion: 1.2.6-r3
+    Status: fixed
+    Layer:
+      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
+      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:eab6bace9d8e1f0ee746539a1b376dff214708f6b08942ae598a2e801fcb8fff
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2026-107891
+    PkgID: musl-utils@1.2.6-r2
+    PkgName: musl-utils
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/musl-utils@1.2.6-r2?arch=x86_64&distro=3.24.1
+      UID: 4497482ec1d943e1
+    InstalledVersion: 1.2.6-r2
+    FixedVersion: 1.2.6-r3
+    Status: fixed
+    Layer:
+      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
+      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:d2f93d8e6ac2dc4d99afbbb4b6a5664367242c37d1e7e2e69f156c82ac03a4a1
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-58055
     PkgID: nghttp2-libs@1.69.0-r0
@@ -5723,7 +5774,7 @@
       alma: 2
       amazon: 3
       azure: 2
-      oracle-oval: 2
+      oracle-oval: 3
       photon: 3
       redhat: 2
       rocky: 3
@@ -5765,7 +5816,7 @@
     - https://github.com/openssl/openssl/commit/9ec2f6d2ae2bcad907cf7ee38584855bafe4979a
     - https://github.com/openssl/openssl/commit/a0c8ec557d9cac078f032d76cdf684fe743eb382
     - https://linux.oracle.com/cve/CVE-2026-63072.html
-    - https://linux.oracle.com/errata/ELSA-2026-80514.html
+    - https://linux.oracle.com/errata/ELSA-2026-85968.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-63072
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
@@ -6540,6 +6591,66 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
     LastModifiedDate: '2026-09-11T21:17:17.823Z'
+  - VulnerabilityID: CVE-2026-96512
+    PkgID: sudo@1.9.17_p2-r1
+    PkgName: sudo
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/sudo@1.9.17_p2-r1?arch=x86_64&distro=3.24.1
+      UID: 65e70d20e0b4f9aa
+    InstalledVersion: 1.9.17_p2-r1
+    FixedVersion: 1.9.17_p2-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
+      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-96512
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:5775d5d83406b438de0be22b255c2fe539eeb6e9d2bf7a1284e705a417bd5578
+    Title: 'sudo: sudo: TZ environment variable allows bypass of NOTBEFORE/NOTAFTER time-based authorization'
+    Description: A flaw was found in sudo. When sudoers rules use NOTBEFORE or NOTAFTER time-based access restrictions with timestamps that omit the trailing 'Z' timezone indicator, the time evaluation relies on the TZ environment variable inherited from the calling user. Because sudo is a setuid-root program, an unprivileged local user can set TZ to an extreme timezone offset to shift the authorization window by up to approximately 25 hours, causing expired rules to be treated as valid. This allows the user to execute commands outside the intended time window. Authentication is not bypassed; only the time-based authorization check is affected.
+    Severity: HIGH
+    CweIDs:
+    - CWE-863
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      azure: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/24/4
+    - https://access.redhat.com/errata/RHSA-2026:71609
+    - https://access.redhat.com/errata/RHSA-2026:75571
+    - https://access.redhat.com/errata/RHSA-2026:75579
+    - https://access.redhat.com/errata/RHSA-2026:75580
+    - https://access.redhat.com/errata/RHSA-2026:82939
+    - https://access.redhat.com/errata/RHSA-2026:86634
+    - https://access.redhat.com/errata/RHSA-2026:86635
+    - https://access.redhat.com/errata/RHSA-2026:87026
+    - https://access.redhat.com/security/cve/CVE-2026-96512
+    - https://bugzilla.redhat.com/2539327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2539327
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-96512
+    - https://errata.almalinux.org/9/ALSA-2026-75571.html
+    - https://errata.rockylinux.org/RLSA-2026:75571
+    - https://github.com/sudo-project/sudo/commit/1820a349687522f51023d1ae5925125f59679a8c
+    - https://linux.oracle.com/cve/CVE-2026-96512.html
+    - https://linux.oracle.com/errata/ELSA-2026-75580.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-96512
+    - https://ubuntu.com/security/notices/USN-8895-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-96512
+    PublishedDate: '2026-09-23T14:17:10.747Z'
+    LastModifiedDate: '2026-10-21T20:17:28.187Z'
   - VulnerabilityID: CVE-2026-85091
     PkgID: zlib@1.3.2-r0
     PkgName: zlib
@@ -6608,6 +6719,7 @@
     VendorSeverity:
       amazon: 3
       ghsa: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       ghsa:
@@ -6627,6 +6739,8 @@
     - https://github.com/FasterXML/jackson-core/pull/1650
     - https://github.com/FasterXML/jackson-core/pull/1701
     - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-p6pp-m3f8-5c89
+    - https://linux.oracle.com/cve/CVE-2026-89407.html
+    - https://linux.oracle.com/errata/ELSA-2026-86706.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-89407
     - https://www.cve.org/CVERecord?id=CVE-2026-89407
     PublishedDate: '2026-09-22T15:17:21.053Z'
@@ -6661,6 +6775,7 @@
     VendorSeverity:
       amazon: 3
       ghsa: 3
+      oracle-oval: 2
       redhat: 3
     CVSS:
       ghsa:
@@ -6678,6 +6793,8 @@
     - https://github.com/FasterXML/jackson-core/releases/tag/jackson-core-2.18.11
     - https://github.com/FasterXML/jackson-core/releases/tag/jackson-core-3.2.3
     - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-7hhh-6rmp-j9qf
+    - https://linux.oracle.com/cve/CVE-2026-89425.html
+    - https://linux.oracle.com/errata/ELSA-2026-86706.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-89425
     - https://www.cve.org/CVERecord?id=CVE-2026-89425
     PublishedDate: '2026-09-23T03:17:04.357Z'
@@ -6829,8 +6946,11 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      alma: 3
       ghsa: 3
+      oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       ghsa:
@@ -6840,8 +6960,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:85231
     - https://access.redhat.com/security/cve/CVE-2026-91777
     - https://advisory.echohq.com/cve/CVE-2026-91777
+    - https://bugzilla.redhat.com/2539085
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2539085
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91777
+    - https://errata.almalinux.org/9/ALSA-2026-85231.html
+    - https://errata.rockylinux.org/RLSA-2026:85231
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/37ad9b81712cbb9fb62c2d2c1813593252a24b67
     - https://github.com/FasterXML/jackson-databind/issues/6204
@@ -6852,6 +6979,8 @@
     - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.1.7
     - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.3
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-cxp5-3px4-pw24
+    - https://linux.oracle.com/cve/CVE-2026-91777.html
+    - https://linux.oracle.com/errata/ELSA-2026-85231.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91777
     - https://www.cve.org/CVERecord?id=CVE-2026-91777
     PublishedDate: '2026-09-23T03:17:04.783Z'
