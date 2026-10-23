@@ -654,26 +654,27 @@
 │                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:75579 
 │                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:75580 
 │                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:82939 
-│                       │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:86634 
-│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:86635 
-│                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2026:87026 
-│                       │      │                  ├ [9] : https://access.redhat.com/security/cve/CVE-2026-96512 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2539327 
-│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2539327 
-│                       │      │                  ├ [12]: https://creativecommons.org/licenses/by/4.0/ 
-│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:86633 
+│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:86634 
+│                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2026:86635 
+│                       │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2026:87026 
+│                       │      │                  ├ [10]: https://access.redhat.com/security/cve/CVE-2026-96512 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2539327 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2539327 
+│                       │      │                  ├ [13]: https://creativecommons.org/licenses/by/4.0/ 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-96512 
-│                       │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2026-75571.html 
-│                       │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2026:75571 
-│                       │      │                  ├ [16]: https://github.com/sudo-project/sudo/commit/1820a3496
+│                       │      │                  ├ [15]: https://errata.almalinux.org/8/ALSA-2026-75580.html 
+│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:75571 
+│                       │      │                  ├ [17]: https://github.com/sudo-project/sudo/commit/1820a3496
 │                       │      │                  │       87522f51023d1ae5925125f59679a8c 
-│                       │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2026-96512.html 
-│                       │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2026-75580.html 
-│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2026-96512 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-8895-1 
-│                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2026-96512 
+│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2026-96512.html 
+│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2026-75580.html 
+│                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2026-96512 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-8895-1 
+│                       │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2026-96512 
 │                       │      ├ PublishedDate   : 2026-09-23T14:17:10.747Z 
-│                       │      ╰ LastModifiedDate: 2026-10-21T20:17:28.187Z 
+│                       │      ╰ LastModifiedDate: 2026-10-22T06:17:15.71Z 
 │                       ╰ [19] ╭ VulnerabilityID : CVE-2026-85091 
 │                              ├ PkgID           : zlib@1.3.2-r0 
 │                              ├ PkgName         : zlib 
