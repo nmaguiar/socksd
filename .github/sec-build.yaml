@@ -215,6 +215,8 @@
       handle still sends an `Authorization: AWS4-HMAC-SHA256` header to whatever URL
       isset next, leaking state information.
     Severity: LOW
+    CweIDs:
+    - CWE-201
     VendorSeverity:
       redhat: 1
       ubuntu: 1
@@ -233,7 +235,7 @@
     - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-86409
     PublishedDate: '2026-10-20T20:17:25.223Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:27.08Z'
   - VulnerabilityID: CVE-2026-86410
     PkgID: curl@8.22.0-r0
     PkgName: curl
@@ -258,6 +260,8 @@
       verification options when interacting directly using SFTP or SCP, and not as a
       result of following a redirect.
     Severity: LOW
+    CweIDs:
+    - CWE-297
     VendorSeverity:
       redhat: 1
       ubuntu: 1
@@ -275,7 +279,7 @@
     - https://ubuntu.com/security/notices/USN-8927-2
     - https://www.cve.org/CVERecord?id=CVE-2026-86410
     PublishedDate: '2026-10-20T20:17:25.38Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:27.33Z'
   - VulnerabilityID: CVE-2026-86411
     PkgID: curl@8.22.0-r0
     PkgName: curl
@@ -302,6 +306,8 @@
       new TLS handshake nor a new FTP login, so the server continues to authorize it
       under the first handle's certificate identity.
     Severity: LOW
+    CweIDs:
+    - CWE-488
     VendorSeverity:
       redhat: 1
     CVSS:
@@ -316,7 +322,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-86411
     - https://www.cve.org/CVERecord?id=CVE-2026-86411
     PublishedDate: '2026-10-20T20:17:25.533Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:27.54Z'
   - VulnerabilityID: CVE-2026-86412
     PkgID: curl@8.22.0-r0
     PkgName: curl
@@ -343,6 +349,8 @@
       cleanup procedure replaces the jar with an empty file, deleting cookies for
       unrelated domains.
     Severity: LOW
+    CweIDs:
+    - CWE-754
     VendorSeverity:
       redhat: 1
       ubuntu: 1
@@ -360,7 +368,7 @@
     - https://ubuntu.com/security/notices/USN-8927-2
     - https://www.cve.org/CVERecord?id=CVE-2026-86412
     PublishedDate: '2026-10-20T20:17:25.667Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:27.717Z'
   - VulnerabilityID: CVE-2026-86413
     PkgID: curl@8.22.0-r0
     PkgName: curl
@@ -730,6 +738,8 @@
       matches a different embedded key, incorrectly authorizing the pinned public
       key.
     Severity: LOW
+    CweIDs:
+    - CWE-295
     VendorSeverity:
       redhat: 1
     CVSS:
@@ -744,7 +754,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87866
     - https://www.cve.org/CVERecord?id=CVE-2026-87866
     PublishedDate: '2026-10-20T21:17:20.833Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:27.917Z'
   - VulnerabilityID: CVE-2026-92386
     PkgID: curl@8.22.0-r0
     PkgName: curl
@@ -772,6 +782,8 @@
       encountering the too long line, ignoring all subsequent valid cookies in the
       file.
     Severity: LOW
+    CweIDs:
+    - CWE-1284
     VendorSeverity:
       redhat: 1
       ubuntu: 1
@@ -789,7 +801,7 @@
     - https://ubuntu.com/security/notices/USN-8927-2
     - https://www.cve.org/CVERecord?id=CVE-2026-92386
     PublishedDate: '2026-10-20T21:17:21.017Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:29.113Z'
   - VulnerabilityID: CVE-2026-92387
     PkgID: curl@8.22.0-r0
     PkgName: curl
@@ -815,6 +827,8 @@
       configured transfer timeout mechanism, indefinitely blocking all concurrent
       transfers bound to the same multi-handle.
     Severity: LOW
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       redhat: 1
       ubuntu: 1
@@ -832,7 +846,7 @@
     - https://ubuntu.com/security/notices/USN-8927-2
     - https://www.cve.org/CVERecord?id=CVE-2026-92387
     PublishedDate: '2026-10-20T21:17:21.133Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:29.29Z'
   - VulnerabilityID: CVE-2026-92389
     PkgID: curl@8.22.0-r0
     PkgName: curl
@@ -1269,6 +1283,8 @@
       handle still sends an `Authorization: AWS4-HMAC-SHA256` header to whatever URL
       isset next, leaking state information.
     Severity: LOW
+    CweIDs:
+    - CWE-201
     VendorSeverity:
       redhat: 1
       ubuntu: 1
@@ -1287,7 +1303,7 @@
     - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-86409
     PublishedDate: '2026-10-20T20:17:25.223Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:27.08Z'
   - VulnerabilityID: CVE-2026-86410
     PkgID: libcurl@8.22.0-r0
     PkgName: libcurl
@@ -1312,6 +1328,8 @@
       verification options when interacting directly using SFTP or SCP, and not as a
       result of following a redirect.
     Severity: LOW
+    CweIDs:
+    - CWE-297
     VendorSeverity:
       redhat: 1
       ubuntu: 1
@@ -1329,7 +1347,7 @@
     - https://ubuntu.com/security/notices/USN-8927-2
     - https://www.cve.org/CVERecord?id=CVE-2026-86410
     PublishedDate: '2026-10-20T20:17:25.38Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:27.33Z'
   - VulnerabilityID: CVE-2026-86411
     PkgID: libcurl@8.22.0-r0
     PkgName: libcurl
@@ -1356,6 +1374,8 @@
       new TLS handshake nor a new FTP login, so the server continues to authorize it
       under the first handle's certificate identity.
     Severity: LOW
+    CweIDs:
+    - CWE-488
     VendorSeverity:
       redhat: 1
     CVSS:
@@ -1370,7 +1390,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-86411
     - https://www.cve.org/CVERecord?id=CVE-2026-86411
     PublishedDate: '2026-10-20T20:17:25.533Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:27.54Z'
   - VulnerabilityID: CVE-2026-86412
     PkgID: libcurl@8.22.0-r0
     PkgName: libcurl
@@ -1397,6 +1417,8 @@
       cleanup procedure replaces the jar with an empty file, deleting cookies for
       unrelated domains.
     Severity: LOW
+    CweIDs:
+    - CWE-754
     VendorSeverity:
       redhat: 1
       ubuntu: 1
@@ -1414,7 +1436,7 @@
     - https://ubuntu.com/security/notices/USN-8927-2
     - https://www.cve.org/CVERecord?id=CVE-2026-86412
     PublishedDate: '2026-10-20T20:17:25.667Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:27.717Z'
   - VulnerabilityID: CVE-2026-86413
     PkgID: libcurl@8.22.0-r0
     PkgName: libcurl
@@ -1784,6 +1806,8 @@
       matches a different embedded key, incorrectly authorizing the pinned public
       key.
     Severity: LOW
+    CweIDs:
+    - CWE-295
     VendorSeverity:
       redhat: 1
     CVSS:
@@ -1798,7 +1822,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87866
     - https://www.cve.org/CVERecord?id=CVE-2026-87866
     PublishedDate: '2026-10-20T21:17:20.833Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:27.917Z'
   - VulnerabilityID: CVE-2026-92386
     PkgID: libcurl@8.22.0-r0
     PkgName: libcurl
@@ -1826,6 +1850,8 @@
       encountering the too long line, ignoring all subsequent valid cookies in the
       file.
     Severity: LOW
+    CweIDs:
+    - CWE-1284
     VendorSeverity:
       redhat: 1
       ubuntu: 1
@@ -1843,7 +1869,7 @@
     - https://ubuntu.com/security/notices/USN-8927-2
     - https://www.cve.org/CVERecord?id=CVE-2026-92386
     PublishedDate: '2026-10-20T21:17:21.017Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:29.113Z'
   - VulnerabilityID: CVE-2026-92387
     PkgID: libcurl@8.22.0-r0
     PkgName: libcurl
@@ -1869,6 +1895,8 @@
       configured transfer timeout mechanism, indefinitely blocking all concurrent
       transfers bound to the same multi-handle.
     Severity: LOW
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       redhat: 1
       ubuntu: 1
@@ -1886,7 +1914,7 @@
     - https://ubuntu.com/security/notices/USN-8927-2
     - https://www.cve.org/CVERecord?id=CVE-2026-92387
     PublishedDate: '2026-10-20T21:17:21.133Z'
-    LastModifiedDate: '2026-10-22T17:21:57.293Z'
+    LastModifiedDate: '2026-10-29T19:17:29.29Z'
   - VulnerabilityID: CVE-2026-92389
     PkgID: libcurl@8.22.0-r0
     PkgName: libcurl
