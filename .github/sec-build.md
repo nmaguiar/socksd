@@ -221,6 +221,7 @@
 │                       │      │                   header to whatever URL
 │                       │      │                   isset next, leaking state information. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-201 
 │                       │      ├ VendorSeverity   ╭ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
@@ -236,7 +237,7 @@
 │                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8932-1 
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-86409 
 │                       │      ├ PublishedDate   : 2026-10-20T20:17:25.223Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:27.08Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2026-86410 
 │                       │      ├ PkgID           : curl@8.22.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -262,6 +263,7 @@
 │                       │      │                    SCP, and not as a
 │                       │      │                   result of following a redirect. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-297 
 │                       │      ├ VendorSeverity   ╭ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
@@ -276,7 +278,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8927-2 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-86410 
 │                       │      ├ PublishedDate   : 2026-10-20T20:17:25.38Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:27.33Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2026-86411 
 │                       │      ├ PkgID           : curl@8.22.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -306,6 +308,7 @@
 │                       │      │                   continues to authorize it
 │                       │      │                   under the first handle's certificate identity. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-488 
 │                       │      ├ VendorSeverity   ─ redhat: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -317,7 +320,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-86411 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-86411 
 │                       │      ├ PublishedDate   : 2026-10-20T20:17:25.533Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:27.54Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2026-86412 
 │                       │      ├ PkgID           : curl@8.22.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -347,6 +350,7 @@
 │                       │      │                   deleting cookies for
 │                       │      │                   unrelated domains. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H
@@ -361,7 +365,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8927-2 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-86412 
 │                       │      ├ PublishedDate   : 2026-10-20T20:17:25.667Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:27.717Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2026-86413 
 │                       │      ├ PkgID           : curl@8.22.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -732,6 +736,7 @@
 │                       │      │                   the pinned public
 │                       │      │                   key. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-295 
 │                       │      ├ VendorSeverity   ─ redhat: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
@@ -743,7 +748,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-87866 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-87866 
 │                       │      ├ PublishedDate   : 2026-10-20T21:17:20.833Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:27.917Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2026-92386 
 │                       │      ├ PkgID           : curl@8.22.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -775,6 +780,7 @@
 │                       │      │                   valid cookies in the
 │                       │      │                   file. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-1284 
 │                       │      ├ VendorSeverity   ╭ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -789,7 +795,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8927-2 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-92386 
 │                       │      ├ PublishedDate   : 2026-10-20T21:17:21.017Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:29.113Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2026-92387 
 │                       │      ├ PkgID           : curl@8.22.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -817,6 +823,7 @@
 │                       │      │                    all concurrent
 │                       │      │                   transfers bound to the same multi-handle. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-835 
 │                       │      ├ VendorSeverity   ╭ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
@@ -831,7 +838,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8927-2 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-92387 
 │                       │      ├ PublishedDate   : 2026-10-20T21:17:21.133Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:29.29Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2026-92389 
 │                       │      ├ PkgID           : curl@8.22.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -1285,6 +1292,7 @@
 │                       │      │                   header to whatever URL
 │                       │      │                   isset next, leaking state information. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-201 
 │                       │      ├ VendorSeverity   ╭ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
@@ -1300,7 +1308,7 @@
 │                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8932-1 
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-86409 
 │                       │      ├ PublishedDate   : 2026-10-20T20:17:25.223Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:27.08Z 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2026-86410 
 │                       │      ├ PkgID           : libcurl@8.22.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1327,6 +1335,7 @@
 │                       │      │                    SCP, and not as a
 │                       │      │                   result of following a redirect. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-297 
 │                       │      ├ VendorSeverity   ╭ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
@@ -1341,7 +1350,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8927-2 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-86410 
 │                       │      ├ PublishedDate   : 2026-10-20T20:17:25.38Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:27.33Z 
 │                       ├ [30] ╭ VulnerabilityID : CVE-2026-86411 
 │                       │      ├ PkgID           : libcurl@8.22.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1372,6 +1381,7 @@
 │                       │      │                   continues to authorize it
 │                       │      │                   under the first handle's certificate identity. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-488 
 │                       │      ├ VendorSeverity   ─ redhat: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -1383,7 +1393,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-86411 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-86411 
 │                       │      ├ PublishedDate   : 2026-10-20T20:17:25.533Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:27.54Z 
 │                       ├ [31] ╭ VulnerabilityID : CVE-2026-86412 
 │                       │      ├ PkgID           : libcurl@8.22.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1414,6 +1424,7 @@
 │                       │      │                   deleting cookies for
 │                       │      │                   unrelated domains. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H
@@ -1428,7 +1439,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8927-2 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-86412 
 │                       │      ├ PublishedDate   : 2026-10-20T20:17:25.667Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:27.717Z 
 │                       ├ [32] ╭ VulnerabilityID : CVE-2026-86413 
 │                       │      ├ PkgID           : libcurl@8.22.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1808,6 +1819,7 @@
 │                       │      │                   the pinned public
 │                       │      │                   key. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-295 
 │                       │      ├ VendorSeverity   ─ redhat: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
@@ -1819,7 +1831,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-87866 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-87866 
 │                       │      ├ PublishedDate   : 2026-10-20T21:17:20.833Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:27.917Z 
 │                       ├ [41] ╭ VulnerabilityID : CVE-2026-92386 
 │                       │      ├ PkgID           : libcurl@8.22.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1852,6 +1864,7 @@
 │                       │      │                   valid cookies in the
 │                       │      │                   file. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-1284 
 │                       │      ├ VendorSeverity   ╭ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -1866,7 +1879,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8927-2 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-92386 
 │                       │      ├ PublishedDate   : 2026-10-20T21:17:21.017Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:29.113Z 
 │                       ├ [42] ╭ VulnerabilityID : CVE-2026-92387 
 │                       │      ├ PkgID           : libcurl@8.22.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1895,6 +1908,7 @@
 │                       │      │                    all concurrent
 │                       │      │                   transfers bound to the same multi-handle. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-835 
 │                       │      ├ VendorSeverity   ╭ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
@@ -1909,7 +1923,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8927-2 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-92387 
 │                       │      ├ PublishedDate   : 2026-10-20T21:17:21.133Z 
-│                       │      ╰ LastModifiedDate: 2026-10-22T17:21:57.293Z 
+│                       │      ╰ LastModifiedDate: 2026-10-29T19:17:29.29Z 
 │                       ├ [43] ╭ VulnerabilityID : CVE-2026-92389 
 │                       │      ├ PkgID           : libcurl@8.22.0-r0 
 │                       │      ├ PkgName         : libcurl 
