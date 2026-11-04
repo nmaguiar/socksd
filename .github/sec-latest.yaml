@@ -52,7 +52,9 @@
         V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
         V40Score: 9.2
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V3Score: 9.8
         V40Score: 9.2
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -5694,6 +5696,90 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-94285
     PublishedDate: '2026-09-28T09:17:08.353Z'
     LastModifiedDate: '2026-09-30T13:17:26.57Z'
+  - VulnerabilityID: CVE-2026-109089
+    PkgID: libxi@1.8.3-r0
+    PkgName: libxi
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxi@1.8.3-r0?arch=x86_64&distro=3.24.1
+      UID: 48645fd8596750c6
+    InstalledVersion: 1.8.3-r0
+    FixedVersion: 1.8.4-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
+      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-109089
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:180174a676799fe9ecd67dfd16fd0740ee7e1eef25a3a9a43a61fe6f393c1fff
+    Title: 'libXi: libXi: Arbitrary code execution via DEVICE_RESOLUTION heap-based buffer overflow'
+    Description: A buffer overflow when handling DEVICE_RESOLUTION in libXi before 1.8.4 could overflow a heap, triggered by a malicious X server.
+    Severity: HIGH
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:93439
+    - https://access.redhat.com/security/cve/CVE-2026-109089
+    - https://errata.almalinux.org/9/ALSA-2026-93439.html
+    - https://gitlab.freedesktop.org/xorg/lib/libxi/-/commit/f7836d0a0
+    - https://linux.oracle.com/cve/CVE-2026-109089.html
+    - https://linux.oracle.com/errata/ELSA-2026-93441.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-109089
+    - https://www.cve.org/CVERecord?id=CVE-2026-109089
+    PublishedDate: '2026-10-27T17:16:57.81Z'
+    LastModifiedDate: '2026-10-28T14:15:58.863Z'
+  - VulnerabilityID: CVE-2026-109090
+    PkgID: libxi@1.8.3-r0
+    PkgName: libxi
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxi@1.8.3-r0?arch=x86_64&distro=3.24.1
+      UID: 48645fd8596750c6
+    InstalledVersion: 1.8.3-r0
+    FixedVersion: 1.8.4-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
+      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-109090
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:8d06d97626d193b788f7bb3595b32873f6f7e6ec14ec4e393299fbd3f6285612
+    Title: 'libXi: libXi: Arbitrary code execution via oversized DEVICE_ENABLE reply'
+    Description: "A malicious X server could cause a heap overflow by injecting a large\_DEVICE_ENABLE reply when processed by libXi before 1.8.4."
+    Severity: HIGH
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:93439
+    - https://access.redhat.com/security/cve/CVE-2026-109090
+    - https://errata.almalinux.org/9/ALSA-2026-93439.html
+    - https://gitlab.freedesktop.org/xorg/lib/libxi/-/commit/4eb9f70b6
+    - https://linux.oracle.com/cve/CVE-2026-109090.html
+    - https://linux.oracle.com/errata/ELSA-2026-93441.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-109090
+    - https://www.cve.org/CVERecord?id=CVE-2026-109090
+    PublishedDate: '2026-10-27T17:16:57.93Z'
+    LastModifiedDate: '2026-10-28T14:15:58.863Z'
   - VulnerabilityID: CVE-2026-93541
     PkgID: libxi@1.8.3-r0
     PkgName: libxi
@@ -5965,60 +6051,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-94282
     PublishedDate: '2026-09-28T09:17:08.003Z'
     LastModifiedDate: '2026-09-30T13:17:26.123Z'
-  - VulnerabilityID: CVE-2026-109089
-    PkgID: libxi@1.8.3-r0
-    PkgName: libxi
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libxi@1.8.3-r0?arch=x86_64&distro=3.24.1
-      UID: 48645fd8596750c6
-    InstalledVersion: 1.8.3-r0
-    FixedVersion: 1.8.4-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-109089
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:180174a676799fe9ecd67dfd16fd0740ee7e1eef25a3a9a43a61fe6f393c1fff
-    Title: A buffer overflow when handling DEVICE_RESOLUTION in libXi before 1.8. ...
-    Description: A buffer overflow when handling DEVICE_RESOLUTION in libXi before 1.8.4 could overflow a heap, triggered by a malicious X server.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-122
-    References:
-    - https://gitlab.freedesktop.org/xorg/lib/libxi/-/commit/f7836d0a0
-    PublishedDate: '2026-10-27T17:16:57.81Z'
-    LastModifiedDate: '2026-10-28T14:15:58.863Z'
-  - VulnerabilityID: CVE-2026-109090
-    PkgID: libxi@1.8.3-r0
-    PkgName: libxi
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libxi@1.8.3-r0?arch=x86_64&distro=3.24.1
-      UID: 48645fd8596750c6
-    InstalledVersion: 1.8.3-r0
-    FixedVersion: 1.8.4-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:b9fbadb086afdb2eb0ca079844d6979a3c83af2240084dd97d84aae99a7af3d2
-      DiffID: sha256:1f6b1345224d756ff2a4670b8519c486e161fac0f699b0d2cf5557f45957087c
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-109090
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:8d06d97626d193b788f7bb3595b32873f6f7e6ec14ec4e393299fbd3f6285612
-    Title: A malicious X server could cause a heap overflow by injecting a largeD ...
-    Description: "A malicious X server could cause a heap overflow by injecting a large\_DEVICE_ENABLE reply when processed by libXi before 1.8.4."
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-122
-    References:
-    - https://gitlab.freedesktop.org/xorg/lib/libxi/-/commit/4eb9f70b6
-    PublishedDate: '2026-10-27T17:16:57.93Z'
-    LastModifiedDate: '2026-10-28T14:15:58.863Z'
   - VulnerabilityID: CVE-2026-88807
     PkgID: libxrender@0.9.12-r0
     PkgName: libxrender
@@ -6141,13 +6173,22 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:79cef00dde0c67be1849d1ccb3820cf67b77cc9841bde466ac575e2091084e4d
-    Title: A malicious X server could send malformedRECORD EnableContextreolies t ...
+    Title: 'libXtst: libXtst: Denial of Service via malformed RECORD EnableContext replies'
     Description: "A malicious X server could send malformed\_\_RECORD EnableContext\_reolies that can cause a X client using the\_parse_reply_call_callback function in libXtst before 1.2.6 to enter a endless loop."
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-109088
     - https://gitlab.freedesktop.org/xorg/lib/libxtst/-/merge_requests/11
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-109088
+    - https://www.cve.org/CVERecord?id=CVE-2026-109088
     PublishedDate: '2026-10-27T17:16:57.68Z'
     LastModifiedDate: '2026-10-28T14:15:58.863Z'
   - VulnerabilityID: CVE-2026-107891
@@ -7108,6 +7149,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -7235,6 +7277,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-83374.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-83374
     - https://www.cve.org/CVERecord?id=CVE-2026-83374
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -7266,6 +7310,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -7395,6 +7440,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-88349.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-83378.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-83378
     - https://www.cve.org/CVERecord?id=CVE-2026-83378
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -7426,6 +7473,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -7553,6 +7601,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-83381.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-83381
     - https://www.cve.org/CVERecord?id=CVE-2026-83381
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -7584,6 +7634,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -7711,6 +7762,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-83387.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-83387
     - https://www.cve.org/CVERecord?id=CVE-2026-83387
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -7742,6 +7795,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -7869,6 +7923,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-83400.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-83400
     - https://www.cve.org/CVERecord?id=CVE-2026-83400
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -7900,6 +7956,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -8027,6 +8084,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-87290.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87290
     - https://www.cve.org/CVERecord?id=CVE-2026-87290
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -8058,6 +8117,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -8187,6 +8247,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-88349.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-87291.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87291
     - https://www.cve.org/CVERecord?id=CVE-2026-87291
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -8218,6 +8280,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -8345,6 +8408,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91332.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91332
     - https://www.cve.org/CVERecord?id=CVE-2026-91332
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -8376,6 +8441,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -8503,6 +8569,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91373.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91373
     - https://www.cve.org/CVERecord?id=CVE-2026-91373
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -8534,6 +8602,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -8661,6 +8730,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91374.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91374
     - https://www.cve.org/CVERecord?id=CVE-2026-91374
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -8692,6 +8763,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -8819,6 +8891,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91375.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91375
     - https://www.cve.org/CVERecord?id=CVE-2026-91375
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -8850,6 +8924,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -8977,6 +9052,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91379.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91379
     - https://www.cve.org/CVERecord?id=CVE-2026-91379
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -9045,6 +9122,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -9172,6 +9250,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91418.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91418
     - https://www.cve.org/CVERecord?id=CVE-2026-91418
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -9203,6 +9283,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -9330,6 +9411,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91451.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91451
     - https://www.cve.org/CVERecord?id=CVE-2026-91451
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -9361,6 +9444,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -9488,6 +9572,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91452.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91452
     - https://www.cve.org/CVERecord?id=CVE-2026-91452
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -9519,6 +9605,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -9646,6 +9733,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91453.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91453
     - https://www.cve.org/CVERecord?id=CVE-2026-91453
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -9677,6 +9766,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -9804,6 +9894,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91462.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91462
     - https://www.cve.org/CVERecord?id=CVE-2026-91462
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -9835,6 +9927,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -9962,6 +10055,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91463.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91463
     - https://www.cve.org/CVERecord?id=CVE-2026-91463
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -9993,6 +10088,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -10120,6 +10216,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91464.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91464
     - https://www.cve.org/CVERecord?id=CVE-2026-91464
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -10151,6 +10249,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -10278,6 +10377,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91487.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91487
     - https://www.cve.org/CVERecord?id=CVE-2026-91487
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -10485,6 +10586,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -10612,6 +10714,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-83376.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-83376
     - https://www.cve.org/CVERecord?id=CVE-2026-83376
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -10803,6 +10907,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -10930,6 +11035,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-87292.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87292
     - https://www.cve.org/CVERecord?id=CVE-2026-87292
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -10961,6 +11068,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -11088,6 +11196,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-87367.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87367
     - https://www.cve.org/CVERecord?id=CVE-2026-87367
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -11119,6 +11229,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -11246,6 +11357,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91335.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91335
     - https://www.cve.org/CVERecord?id=CVE-2026-91335
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -11314,6 +11427,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -11441,6 +11555,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91397.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91397
     - https://www.cve.org/CVERecord?id=CVE-2026-91397
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -11472,6 +11588,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -11599,6 +11716,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91400.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91400
     - https://www.cve.org/CVERecord?id=CVE-2026-91400
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -11666,6 +11785,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -11793,6 +11913,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91461.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91461
     - https://www.cve.org/CVERecord?id=CVE-2026-91461
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -12654,6 +12776,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -12781,6 +12904,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-83374.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-83374
     - https://www.cve.org/CVERecord?id=CVE-2026-83374
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -12812,6 +12937,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -12941,6 +13067,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-88349.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-83378.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-83378
     - https://www.cve.org/CVERecord?id=CVE-2026-83378
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -12972,6 +13100,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -13099,6 +13228,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-83381.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-83381
     - https://www.cve.org/CVERecord?id=CVE-2026-83381
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -13130,6 +13261,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -13257,6 +13389,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-83387.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-83387
     - https://www.cve.org/CVERecord?id=CVE-2026-83387
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -13288,6 +13422,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -13415,6 +13550,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-83400.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-83400
     - https://www.cve.org/CVERecord?id=CVE-2026-83400
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -13446,6 +13583,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -13573,6 +13711,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-87290.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87290
     - https://www.cve.org/CVERecord?id=CVE-2026-87290
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -13604,6 +13744,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -13733,6 +13874,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-88349.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-87291.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87291
     - https://www.cve.org/CVERecord?id=CVE-2026-87291
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -13764,6 +13907,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -13891,6 +14035,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91332.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91332
     - https://www.cve.org/CVERecord?id=CVE-2026-91332
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -13922,6 +14068,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -14049,6 +14196,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91373.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91373
     - https://www.cve.org/CVERecord?id=CVE-2026-91373
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -14080,6 +14229,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -14207,6 +14357,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91374.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91374
     - https://www.cve.org/CVERecord?id=CVE-2026-91374
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -14238,6 +14390,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -14365,6 +14518,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91375.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91375
     - https://www.cve.org/CVERecord?id=CVE-2026-91375
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -14396,6 +14551,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -14523,6 +14679,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91379.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91379
     - https://www.cve.org/CVERecord?id=CVE-2026-91379
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -14591,6 +14749,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -14718,6 +14877,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91418.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91418
     - https://www.cve.org/CVERecord?id=CVE-2026-91418
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -14749,6 +14910,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -14876,6 +15038,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91451.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91451
     - https://www.cve.org/CVERecord?id=CVE-2026-91451
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -14907,6 +15071,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -15034,6 +15199,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91452.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91452
     - https://www.cve.org/CVERecord?id=CVE-2026-91452
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -15065,6 +15232,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -15192,6 +15360,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91453.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91453
     - https://www.cve.org/CVERecord?id=CVE-2026-91453
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -15223,6 +15393,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -15350,6 +15521,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91462.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91462
     - https://www.cve.org/CVERecord?id=CVE-2026-91462
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -15381,6 +15554,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -15508,6 +15682,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91463.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91463
     - https://www.cve.org/CVERecord?id=CVE-2026-91463
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -15539,6 +15715,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -15666,6 +15843,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91464.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91464
     - https://www.cve.org/CVERecord?id=CVE-2026-91464
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -15697,6 +15876,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 2
       rocky: 3
     CVSS:
@@ -15824,6 +16004,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91487.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91487
     - https://www.cve.org/CVERecord?id=CVE-2026-91487
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -16031,6 +16213,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -16158,6 +16341,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-83376.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-83376
     - https://www.cve.org/CVERecord?id=CVE-2026-83376
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -16349,6 +16534,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -16476,6 +16662,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-87292.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87292
     - https://www.cve.org/CVERecord?id=CVE-2026-87292
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -16507,6 +16695,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -16634,6 +16823,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-87367.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87367
     - https://www.cve.org/CVERecord?id=CVE-2026-87367
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -16665,6 +16856,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -16792,6 +16984,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91335.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91335
     - https://www.cve.org/CVERecord?id=CVE-2026-91335
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -16860,6 +17054,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -16987,6 +17182,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91397.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91397
     - https://www.cve.org/CVERecord?id=CVE-2026-91397
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -17018,6 +17215,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -17145,6 +17343,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91400.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91400
     - https://www.cve.org/CVERecord?id=CVE-2026-91400
     - https://www.oracle.com/security-alerts/cpuoct2026.html
@@ -17212,6 +17412,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 1
       rocky: 3
     CVSS:
@@ -17339,6 +17540,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487
     - https://errata.almalinux.org/9/ALSA-2026-90500.html
     - https://errata.rockylinux.org/RLSA-2026:88347
+    - https://linux.oracle.com/cve/CVE-2026-91461.html
+    - https://linux.oracle.com/errata/ELSA-2026-90504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91461
     - https://www.cve.org/CVERecord?id=CVE-2026-91461
     - https://www.oracle.com/security-alerts/cpuoct2026.html
