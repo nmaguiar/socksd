@@ -13,14 +13,14 @@
     FixedVersion: 1.4-r0
     Status: fixed
     Layer:
-      Digest: sha256:69f74a916dd9ad996cc19b4d0caa02e52c768f33a0fb70999b41d0e84c3c2afb
-      DiffID: sha256:5c9508e52dd28e1c5436053e84ed1fb2dffff6184ade391ee2cb2cc68fcd75b0
+      Digest: sha256:aec34867d2ff541a67575a3bc046dbb2718894d5334b15ba48f10fc50d600503
+      DiffID: sha256:d1a237b3308d39f9b0f7a60ef6502032658426cd9105783901a481764aa6c0ce
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4738
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:59ee53626f23f52610881cde6f041f58baec451e7351100fd37ecb4725772b4d
+    Fingerprint: sha256:9305fad0a66ea638a216dfd852ef108ddb2ba42291c1f0fad77a232b22a597d0
     Title: Improper Restriction of Operations within the Bounds of a Memory Buffe ...
     Description: |-
       Improper Restriction of Operations within the Bounds of a Memory Buffer vulnerability in OSGeo gdal (frmts/zlib/contrib/infback9 modules). This vulnerability is associated with program files inftree9.C‎.
