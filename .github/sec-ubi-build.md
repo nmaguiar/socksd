@@ -2417,7 +2417,8 @@
 │                       │       │                   pointer. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
-│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ azure : 4 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:H 
@@ -7245,7 +7246,7 @@
 │                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-112317 
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-112317 
 │                       │       ├ PublishedDate   : 2026-11-09T19:16:40.407Z 
-│                       │       ╰ LastModifiedDate: 2026-11-13T13:17:43.77Z 
+│                       │       ╰ LastModifiedDate: 2026-11-14T02:16:46.1Z 
 │                       ├ [128] ╭ VulnerabilityID : CVE-2026-112318 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:99715 
 │                       │       ├ PkgID           : krb5-libs@1.21.1-10.el9_8.1.x86_64 
@@ -7507,7 +7508,7 @@
 │                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-112323 
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-112323 
 │                       │       ├ PublishedDate   : 2026-11-09T19:16:41.36Z 
-│                       │       ╰ LastModifiedDate: 2026-11-13T13:17:48.237Z 
+│                       │       ╰ LastModifiedDate: 2026-11-14T02:16:46.623Z 
 │                       ├ [134] ╭ VulnerabilityID : CVE-2026-118380 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2026:99715 
 │                       │       ├ PkgID           : krb5-libs@1.21.1-10.el9_8.1.x86_64 
@@ -9356,7 +9357,8 @@
 │                       │       │                   pointer. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
-│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ azure : 4 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:H 
@@ -10843,12 +10845,13 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 4.2 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-125709 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2569390 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-125709 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-125709 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:100125 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-125709 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2569390 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-125709 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-125709 
 │                       │       ├ PublishedDate   : 2026-11-10T12:17:18.407Z 
-│                       │       ╰ LastModifiedDate: 2026-11-10T19:21:13.047Z 
+│                       │       ╰ LastModifiedDate: 2026-11-14T07:17:19.9Z 
 │                       ├ [188] ╭ VulnerabilityID : CVE-2021-46195 
 │                       │       ├ PkgID           : libgcc@11.5.0-17.el9_9.x86_64 
 │                       │       ├ PkgName         : libgcc 
@@ -11614,12 +11617,13 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 4.2 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-125709 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2569390 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-125709 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-125709 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:100125 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-125709 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2569390 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-125709 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-125709 
 │                       │       ├ PublishedDate   : 2026-11-10T12:17:18.407Z 
-│                       │       ╰ LastModifiedDate: 2026-11-10T19:21:13.047Z 
+│                       │       ╰ LastModifiedDate: 2026-11-14T07:17:19.9Z 
 │                       ├ [201] ╭ VulnerabilityID : CVE-2021-46195 
 │                       │       ├ PkgID           : libstdc++@11.5.0-17.el9_9.x86_64 
 │                       │       ├ PkgName         : libstdc++ 
@@ -15780,7 +15784,8 @@
 │                       │       │                   be silently truncated. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-158 
-│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │       │                  ╰ redhat     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.3 
@@ -15790,11 +15795,13 @@
 │                       │       │                  │      00b588f9fd2732a5ed4e89623ee3 
 │                       │       │                  ├ [3]: https://github.com/python/cpython/issues/160898 
 │                       │       │                  ├ [4]: https://github.com/python/cpython/pull/160899 
-│                       │       │                  ├ [5]: https://mail.python.org/archives/list/security-announ
+│                       │       │                  ├ [5]: https://linux.oracle.com/cve/CVE-2026-116566.html 
+│                       │       │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-99691.html 
+│                       │       │                  ├ [7]: https://mail.python.org/archives/list/security-announ
 │                       │       │                  │      ce@python.org/thread/HCHE62VYTPYI6WOPJQDWUBR4CINBPSM7
 │                       │       │                  │      / 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-116566 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-116566 
+│                       │       │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2026-116566 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-116566 
 │                       │       ├ PublishedDate   : 2026-10-29T18:17:24.667Z 
 │                       │       ╰ LastModifiedDate: 2026-10-30T18:17:23.903Z 
 │                       ├ [258] ╭ VulnerabilityID : CVE-2026-11972 
@@ -17843,7 +17850,8 @@
 │                       │       │                   be silently truncated. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-158 
-│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │       │                  ╰ redhat     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.3 
@@ -17853,11 +17861,13 @@
 │                       │       │                  │      00b588f9fd2732a5ed4e89623ee3 
 │                       │       │                  ├ [3]: https://github.com/python/cpython/issues/160898 
 │                       │       │                  ├ [4]: https://github.com/python/cpython/pull/160899 
-│                       │       │                  ├ [5]: https://mail.python.org/archives/list/security-announ
+│                       │       │                  ├ [5]: https://linux.oracle.com/cve/CVE-2026-116566.html 
+│                       │       │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-99691.html 
+│                       │       │                  ├ [7]: https://mail.python.org/archives/list/security-announ
 │                       │       │                  │      ce@python.org/thread/HCHE62VYTPYI6WOPJQDWUBR4CINBPSM7
 │                       │       │                  │      / 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-116566 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-116566 
+│                       │       │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2026-116566 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-116566 
 │                       │       ├ PublishedDate   : 2026-10-29T18:17:24.667Z 
 │                       │       ╰ LastModifiedDate: 2026-10-30T18:17:23.903Z 
 │                       ├ [283] ╭ VulnerabilityID : CVE-2026-11972 
@@ -19906,7 +19916,8 @@
 │                       │       │                   be silently truncated. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-158 
-│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │       │                  ╰ redhat     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.3 
@@ -19916,11 +19927,13 @@
 │                       │       │                  │      00b588f9fd2732a5ed4e89623ee3 
 │                       │       │                  ├ [3]: https://github.com/python/cpython/issues/160898 
 │                       │       │                  ├ [4]: https://github.com/python/cpython/pull/160899 
-│                       │       │                  ├ [5]: https://mail.python.org/archives/list/security-announ
+│                       │       │                  ├ [5]: https://linux.oracle.com/cve/CVE-2026-116566.html 
+│                       │       │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-99691.html 
+│                       │       │                  ├ [7]: https://mail.python.org/archives/list/security-announ
 │                       │       │                  │      ce@python.org/thread/HCHE62VYTPYI6WOPJQDWUBR4CINBPSM7
 │                       │       │                  │      / 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-116566 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-116566 
+│                       │       │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2026-116566 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-116566 
 │                       │       ├ PublishedDate   : 2026-10-29T18:17:24.667Z 
 │                       │       ╰ LastModifiedDate: 2026-10-30T18:17:23.903Z 
 │                       ├ [308] ╭ VulnerabilityID : CVE-2026-11972 
@@ -23824,11 +23837,13 @@
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 6.1 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-53655 
-│                       │       │                  ├ [1]: https://github.com/isaacs/node-tar 
-│                       │       │                  ├ [2]: https://github.com/isaacs/node-tar/security/advisorie
+│                       │       │                  ├ [1]: https://advisory.echohq.com/cve/CVE-2026-53655 
+│                       │       │                  ├ [2]: https://github.com/advisories/GHSA-vmf3-w455-68vh 
+│                       │       │                  ├ [3]: https://github.com/isaacs/node-tar 
+│                       │       │                  ├ [4]: https://github.com/isaacs/node-tar/security/advisorie
 │                       │       │                  │      s/GHSA-vmf3-w455-68vh 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-53655 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-53655 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-53655 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-53655 
 │                       │       ├ PublishedDate   : 2026-06-22T16:16:38.593Z 
 │                       │       ╰ LastModifiedDate: 2026-10-25T23:10:00.167Z 
 │                       ├ [370] ╭ VulnerabilityID : CVE-2026-59871 
@@ -23872,14 +23887,16 @@
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-59871 
-│                       │       │                  ├ [1]: https://github.com/isaacs/node-tar 
-│                       │       │                  ├ [2]: https://github.com/isaacs/node-tar/commit/e02a4e9e013
+│                       │       │                  ├ [1]: https://advisory.echohq.com/cve/CVE-2026-59871 
+│                       │       │                  ├ [2]: https://github.com/advisories/GHSA-w8wr-v893-vjvp 
+│                       │       │                  ├ [3]: https://github.com/isaacs/node-tar 
+│                       │       │                  ├ [4]: https://github.com/isaacs/node-tar/commit/e02a4e9e013
 │                       │       │                  │      c4be95302e2eb2047a942b883c27b 
-│                       │       │                  ├ [3]: https://github.com/isaacs/node-tar/releases/tag/v7.5.18 
-│                       │       │                  ├ [4]: https://github.com/isaacs/node-tar/security/advisorie
+│                       │       │                  ├ [5]: https://github.com/isaacs/node-tar/releases/tag/v7.5.18 
+│                       │       │                  ├ [6]: https://github.com/isaacs/node-tar/security/advisorie
 │                       │       │                  │      s/GHSA-w8wr-v893-vjvp 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-59871 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-59871 
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-59871 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-59871 
 │                       │       ├ PublishedDate   : 2026-07-08T16:16:33.723Z 
 │                       │       ╰ LastModifiedDate: 2026-10-25T20:10:00.147Z 
 │                       ├ [371] ╭ VulnerabilityID : CVE-2026-59875 
@@ -23918,14 +23935,16 @@
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-59875 
-│                       │       │                  ├ [1]: https://github.com/isaacs/node-tar 
-│                       │       │                  ├ [2]: https://github.com/isaacs/node-tar/commit/7a635c29f5e
+│                       │       │                  ├ [1]: https://advisory.echohq.com/cve/CVE-2026-59875 
+│                       │       │                  ├ [2]: https://github.com/advisories/GHSA-gvwx-54wh-qm9j 
+│                       │       │                  ├ [3]: https://github.com/isaacs/node-tar 
+│                       │       │                  ├ [4]: https://github.com/isaacs/node-tar/commit/7a635c29f5e
 │                       │       │                  │      dbf083557374d43984273ecfed5b3 
-│                       │       │                  ├ [3]: https://github.com/isaacs/node-tar/releases/tag/v7.5.17 
-│                       │       │                  ├ [4]: https://github.com/isaacs/node-tar/security/advisorie
+│                       │       │                  ├ [5]: https://github.com/isaacs/node-tar/releases/tag/v7.5.17 
+│                       │       │                  ├ [6]: https://github.com/isaacs/node-tar/security/advisorie
 │                       │       │                  │      s/GHSA-gvwx-54wh-qm9j 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-59875 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-59875 
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-59875 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-59875 
 │                       │       ├ PublishedDate   : 2026-07-08T16:16:34.107Z 
 │                       │       ╰ LastModifiedDate: 2026-10-25T17:10:00.197Z 
 │                       ├ [372] ╭ VulnerabilityID : CVE-2023-39804 
@@ -23976,70 +23995,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-39804 
 │                       │       ├ PublishedDate   : 2024-03-27T04:15:08.897Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T06:12:52.757Z 
-│                       ├ [373] ╭ VulnerabilityID : CVE-2026-76844 
-│                       │       ├ PkgID           : zlib@1.2.11-40.el9.x86_64 
-│                       │       ├ PkgName         : zlib 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/zlib@1.2.11-40.el9?arch=x86_64&distro
-│                       │       │                  │       =redhat-9.9 
-│                       │       │                  ╰ UID : 693bf895e46659d8 
-│                       │       ├ InstalledVersion: 1.2.11-40.el9 
-│                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:f0ebb8a9f27362d0329ce7e1ffa17f9abcc5dd18be2
-│                       │       │                  │         b2aad4df84bd1f5cd03fc 
-│                       │       │                  ╰ DiffID: sha256:e531321fe2187d0ab10fc1212371afdc60b6df03097
-│                       │       │                            faa1e39abd9c41e773fa2 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-76844 
-│                       │       ├ Fingerprint     : sha256:2b59b9048f45df00f60cdd85f472a51a4dfd226df5a98f03b2fd
-│                       │       │                   0d7dee8a180e 
-│                       │       ├ Title           : zlib: zlib 1.2.11 through 1.3.2 Heap Buffer Overflow via
-│                       │       │                   Stale gzwrite Pointer After Failed Write 
-│                       │       ├ Description     : webpack-dev-middleware 5.3.4, 6.1.2 through 6.1.3, 7.1.0
-│                       │       │                   before 7.4.6, and 8.0.0 before 8.3.0 contains a path
-│                       │       │                   traversal vulnerability in getFilenameFromUrl that bypasses
-│                       │       │                    the fix for CVE-2024-29180: a publicPath without a
-│                       │       │                   trailing slash is matched by string prefix, and the '..'
-│                       │       │                   guard runs before that prefix is stripped. Unauthenticated
-│                       │       │                   attackers can request a path such as /assets../secret to
-│                       │       │                   read files one directory above the output directory when
-│                       │       │                   the middleware serves from the physical filesystem through
-│                       │       │                   writeToDisk or a custom outputFileSystem. 
-│                       │       ├ Severity        : HIGH 
-│                       │       ├ CweIDs           ─ [0]: CWE-22 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
-│                       │       │                  ├ ghsa  : 3 
-│                       │       │                  ╰ redhat: 3 
-│                       │       ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:
-│                       │       │                  │        │           N/A:N 
-│                       │       │                  │        ╰ V3Score : 7.4 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
-│                       │       │                           │           H/A:H 
-│                       │       │                           ╰ V3Score : 8.1 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-76844 
-│                       │       │                  ├ [1] : https://github.com/advisories/GHSA-wr3j-pwj9-hqq6 
-│                       │       │                  ├ [2] : https://github.com/webpack/webpack-dev-middleware 
-│                       │       │                  ├ [3] : https://github.com/webpack/webpack-dev-middleware/bl
-│                       │       │                  │       ob/v8.1.1/src/middleware.js 
-│                       │       │                  ├ [4] : https://github.com/webpack/webpack-dev-middleware/co
-│                       │       │                  │       mmit/13344e78b26d88fe9b7c8381a3860e248a52359b 
-│                       │       │                  ├ [5] : https://github.com/webpack/webpack-dev-middleware/co
-│                       │       │                  │       mmit/cefccbac330c29052fc6dffe85fd292ea2ac782b 
-│                       │       │                  ├ [6] : https://github.com/webpack/webpack-dev-middleware/pu
-│                       │       │                  │       ll/2404 
-│                       │       │                  ├ [7] : https://github.com/webpack/webpack-dev-middleware/re
-│                       │       │                  │       leases/tag/v7.4.6 
-│                       │       │                  ├ [8] : https://github.com/webpack/webpack-dev-middleware/re
-│                       │       │                  │       leases/tag/v8.3.0 
-│                       │       │                  ├ [9] : https://github.com/webpack/webpack-dev-middleware/se
-│                       │       │                  │       curity/advisories/GHSA-g84c-rxfj-3j2c 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-76844 
-│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-76844 
-│                       │       │                  ╰ [12]: https://www.vulncheck.com/advisories/webpack-dev-mid
-│                       │       │                          dleware-path-traversal-via-offset-slice-on-a-non-sla
-│                       │       │                          sh-terminated-publicpath 
-│                       │       ├ PublishedDate   : 2026-08-24T14:17:02.25Z 
-│                       │       ╰ LastModifiedDate: 2026-11-13T15:17:56.013Z 
-│                       ╰ [374] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ╰ [373] ╭ VulnerabilityID : CVE-2026-27171 
 │                               ├ PkgID           : zlib@1.2.11-40.el9.x86_64 
 │                               ├ PkgName         : zlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/zlib@1.2.11-40.el9?arch=x86_64&distro
