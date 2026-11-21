@@ -659,8 +659,11 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      alma: 4
       amazon: 3
+      oracle-oval: 4
       redhat: 4
+      rocky: 4
       ubuntu: 3
     CVSS:
       redhat:
@@ -669,13 +672,49 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/11/17/31
     - http://www.openwall.com/lists/oss-security/2026/11/19/5
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114938
     - https://access.redhat.com/security/cve/cve-2026-114938
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
     - https://calif.io/java4shell
     - https://cert-portal.siemens.com/productcert/html/ssa-272816.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-810379.html
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
     - https://github.com/Azure/azure-functions-java-worker/issues/909
     - https://github.com/chainguard-dev/cg-skills/pull/17
     - https://github.com/corretto/corretto-27/blob/27.0.1.1.4/CHANGELOG.md
+    - https://linux.oracle.com/cve/CVE-2026-114938.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://news.ycombinator.com/item?id=50538240
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114938
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
@@ -685,11 +724,14 @@
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
     - https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching
     - https://www.cve.org/CVERecord?id=CVE-2026-114938
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:23.777Z'
-    LastModifiedDate: '2026-11-19T11:47:02.927Z'
+    LastModifiedDate: '2026-11-20T16:54:52.413Z'
   - VulnerabilityID: CVE-2026-114939
     PkgID: openjdk21-jre@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre
@@ -711,15 +753,56 @@
     Title: 'OpenJDK: OpenJDK: The acceptor does not properly implement RFC 4120 requirements for handling cross-realm tickets.'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JGSS).  Supported versions that are affected are Oracle Java SE: 8u511b33, 8u511b33-perf, 11.0.33.0.3, 17.0.21.0.3,  21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
     Severity: HIGH
+    CweIDs:
+    - CWE-284
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 3
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114939
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114939.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114939
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9154-1
@@ -727,10 +810,14 @@
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
+    - https://ubuntu.com/security/notices/USN-9181-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114939
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:23.92Z'
-    LastModifiedDate: '2026-11-17T22:18:23.92Z'
+    LastModifiedDate: '2026-11-19T18:18:00.813Z'
   - VulnerabilityID: CVE-2026-114940
     PkgID: openjdk21-jre@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre
@@ -752,15 +839,56 @@
     Title: 'OpenJDK: OpenJDK: Improve TLS client connections'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u511b33, 8u511b33-perf, 11.0.33.0.3, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
     Severity: HIGH
+    CweIDs:
+    - CWE-284
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 3
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114940
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114940.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114940
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9154-1
@@ -768,10 +896,14 @@
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
+    - https://ubuntu.com/security/notices/USN-9181-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114940
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.05Z'
-    LastModifiedDate: '2026-11-17T22:18:24.05Z'
+    LastModifiedDate: '2026-11-19T21:17:42.797Z'
   - VulnerabilityID: CVE-2026-114941
     PkgID: openjdk21-jre@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre
@@ -793,24 +925,67 @@
     Title: 'OpenJDK: OpenJDK: Improve integer compression'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK product of Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle Java SE: 21.0.13.0.3, 25.0.5.0.3 and  27.0.1.0.3; Oracle GraalVM for JDK: 21.0.13.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM for JDK as well as  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK accessible data and  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 7.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H).'
     Severity: HIGH
+    CweIDs:
+    - CWE-400
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 3
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114941
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114941.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114941
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114941
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.177Z'
-    LastModifiedDate: '2026-11-17T22:18:24.177Z'
+    LastModifiedDate: '2026-11-19T18:18:00.97Z'
   - VulnerabilityID: CVE-2026-114942
     PkgID: openjdk21-jre@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre
@@ -832,25 +1007,69 @@
     Title: 'OpenJDK: OpenJDK: Enhance vector masks'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 21.0.13.0.3, 25.0.5.0.3 and  27.0.1.0.3; Oracle GraalVM for JDK: 21.0.13.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM for JDK as well as  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK accessible data and  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 7.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H).'
     Severity: HIGH
+    CweIDs:
+    - CWE-400
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 3
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114942
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114942.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114942
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9155-1
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114942
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.297Z'
-    LastModifiedDate: '2026-11-17T22:18:24.297Z'
+    LastModifiedDate: '2026-11-19T18:18:01.107Z'
   - VulnerabilityID: CVE-2026-114943
     PkgID: openjdk21-jre@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre
@@ -872,15 +1091,56 @@
     Title: 'OpenJDK: OpenJDK: Enhance JFR Events'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 11.0.33.0.3, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition as well as  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.5 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-400
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 2
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114943
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114943.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114943
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9154-1
@@ -888,10 +1148,14 @@
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
+    - https://ubuntu.com/security/notices/USN-9181-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114943
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.41Z'
-    LastModifiedDate: '2026-11-17T22:18:24.41Z'
+    LastModifiedDate: '2026-11-19T18:18:01.25Z'
   - VulnerabilityID: CVE-2026-114944
     PkgID: openjdk21-jre@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre
@@ -916,14 +1180,53 @@
     CweIDs:
     - CWE-284
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 2
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114944
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114944.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114944
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9154-1
@@ -931,6 +1234,10 @@
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
+    - https://ubuntu.com/security/notices/USN-9181-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114944
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.54Z'
@@ -956,25 +1263,69 @@
     Title: 'OpenJDK: OpenJDK: Enhance StringBuilder checks'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 21.0.13.0.3, 25.0.5.0.3 and  27.0.1.0.3; Oracle GraalVM for JDK: 21.0.13.0.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-284
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 2
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114945
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114945.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114945
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9155-1
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114945
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.673Z'
-    LastModifiedDate: '2026-11-17T22:18:24.673Z'
+    LastModifiedDate: '2026-11-19T21:17:42.973Z'
   - VulnerabilityID: CVE-2026-114946
     PkgID: openjdk21-jre@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre
@@ -996,15 +1347,56 @@
     Title: 'OpenJDK: OpenJDK: Enhance loop handling'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle Java SE: 8u511b33, 8u511b33-perf, 11.0.33.0.3, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-284
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 2
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114946
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114946.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114946
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9154-1
@@ -1012,10 +1404,14 @@
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
+    - https://ubuntu.com/security/notices/USN-9181-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114946
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.793Z'
-    LastModifiedDate: '2026-11-17T22:18:24.793Z'
+    LastModifiedDate: '2026-11-19T21:17:43.107Z'
   - VulnerabilityID: CVE-2026-114938
     PkgID: openjdk21-jre-headless@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre-headless
@@ -1040,8 +1436,11 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      alma: 4
       amazon: 3
+      oracle-oval: 4
       redhat: 4
+      rocky: 4
       ubuntu: 3
     CVSS:
       redhat:
@@ -1050,13 +1449,49 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/11/17/31
     - http://www.openwall.com/lists/oss-security/2026/11/19/5
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114938
     - https://access.redhat.com/security/cve/cve-2026-114938
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
     - https://calif.io/java4shell
     - https://cert-portal.siemens.com/productcert/html/ssa-272816.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-810379.html
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
     - https://github.com/Azure/azure-functions-java-worker/issues/909
     - https://github.com/chainguard-dev/cg-skills/pull/17
     - https://github.com/corretto/corretto-27/blob/27.0.1.1.4/CHANGELOG.md
+    - https://linux.oracle.com/cve/CVE-2026-114938.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://news.ycombinator.com/item?id=50538240
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114938
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
@@ -1066,11 +1501,14 @@
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
     - https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching
     - https://www.cve.org/CVERecord?id=CVE-2026-114938
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:23.777Z'
-    LastModifiedDate: '2026-11-19T11:47:02.927Z'
+    LastModifiedDate: '2026-11-20T16:54:52.413Z'
   - VulnerabilityID: CVE-2026-114939
     PkgID: openjdk21-jre-headless@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre-headless
@@ -1092,15 +1530,56 @@
     Title: 'OpenJDK: OpenJDK: The acceptor does not properly implement RFC 4120 requirements for handling cross-realm tickets.'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JGSS).  Supported versions that are affected are Oracle Java SE: 8u511b33, 8u511b33-perf, 11.0.33.0.3, 17.0.21.0.3,  21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
     Severity: HIGH
+    CweIDs:
+    - CWE-284
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 3
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114939
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114939.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114939
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9154-1
@@ -1108,10 +1587,14 @@
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
+    - https://ubuntu.com/security/notices/USN-9181-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114939
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:23.92Z'
-    LastModifiedDate: '2026-11-17T22:18:23.92Z'
+    LastModifiedDate: '2026-11-19T18:18:00.813Z'
   - VulnerabilityID: CVE-2026-114940
     PkgID: openjdk21-jre-headless@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre-headless
@@ -1133,15 +1616,56 @@
     Title: 'OpenJDK: OpenJDK: Improve TLS client connections'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u511b33, 8u511b33-perf, 11.0.33.0.3, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
     Severity: HIGH
+    CweIDs:
+    - CWE-284
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 3
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114940
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114940.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114940
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9154-1
@@ -1149,10 +1673,14 @@
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
+    - https://ubuntu.com/security/notices/USN-9181-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114940
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.05Z'
-    LastModifiedDate: '2026-11-17T22:18:24.05Z'
+    LastModifiedDate: '2026-11-19T21:17:42.797Z'
   - VulnerabilityID: CVE-2026-114941
     PkgID: openjdk21-jre-headless@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre-headless
@@ -1174,24 +1702,67 @@
     Title: 'OpenJDK: OpenJDK: Improve integer compression'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK product of Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle Java SE: 21.0.13.0.3, 25.0.5.0.3 and  27.0.1.0.3; Oracle GraalVM for JDK: 21.0.13.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM for JDK as well as  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK accessible data and  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 7.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H).'
     Severity: HIGH
+    CweIDs:
+    - CWE-400
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 3
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114941
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114941.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114941
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114941
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.177Z'
-    LastModifiedDate: '2026-11-17T22:18:24.177Z'
+    LastModifiedDate: '2026-11-19T18:18:00.97Z'
   - VulnerabilityID: CVE-2026-114942
     PkgID: openjdk21-jre-headless@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre-headless
@@ -1213,25 +1784,69 @@
     Title: 'OpenJDK: OpenJDK: Enhance vector masks'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 21.0.13.0.3, 25.0.5.0.3 and  27.0.1.0.3; Oracle GraalVM for JDK: 21.0.13.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM for JDK as well as  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK accessible data and  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 7.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H).'
     Severity: HIGH
+    CweIDs:
+    - CWE-400
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 3
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114942
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114942.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114942
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9155-1
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114942
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.297Z'
-    LastModifiedDate: '2026-11-17T22:18:24.297Z'
+    LastModifiedDate: '2026-11-19T18:18:01.107Z'
   - VulnerabilityID: CVE-2026-114943
     PkgID: openjdk21-jre-headless@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre-headless
@@ -1253,15 +1868,56 @@
     Title: 'OpenJDK: OpenJDK: Enhance JFR Events'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 11.0.33.0.3, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition as well as  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.5 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-400
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 2
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114943
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114943.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114943
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9154-1
@@ -1269,10 +1925,14 @@
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
+    - https://ubuntu.com/security/notices/USN-9181-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114943
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.41Z'
-    LastModifiedDate: '2026-11-17T22:18:24.41Z'
+    LastModifiedDate: '2026-11-19T18:18:01.25Z'
   - VulnerabilityID: CVE-2026-114944
     PkgID: openjdk21-jre-headless@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre-headless
@@ -1297,14 +1957,53 @@
     CweIDs:
     - CWE-284
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 2
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114944
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114944.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114944
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9154-1
@@ -1312,6 +2011,10 @@
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
+    - https://ubuntu.com/security/notices/USN-9181-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114944
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.54Z'
@@ -1337,25 +2040,69 @@
     Title: 'OpenJDK: OpenJDK: Enhance StringBuilder checks'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 21.0.13.0.3, 25.0.5.0.3 and  27.0.1.0.3; Oracle GraalVM for JDK: 21.0.13.0.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-284
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 2
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114945
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114945.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114945
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9155-1
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114945
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.673Z'
-    LastModifiedDate: '2026-11-17T22:18:24.673Z'
+    LastModifiedDate: '2026-11-19T21:17:42.973Z'
   - VulnerabilityID: CVE-2026-114946
     PkgID: openjdk21-jre-headless@21.0.13.0.3_p1-r0
     PkgName: openjdk21-jre-headless
@@ -1377,15 +2124,56 @@
     Title: 'OpenJDK: OpenJDK: Enhance loop handling'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle Java SE: 8u511b33, 8u511b33-perf, 11.0.33.0.3, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-284
     VendorSeverity:
+      alma: 4
+      amazon: 3
+      oracle-oval: 4
       redhat: 2
+      rocky: 4
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2026:100567
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114946
+    - https://bugzilla.redhat.com/2574227
+    - https://bugzilla.redhat.com/2574322
+    - https://bugzilla.redhat.com/2574323
+    - https://bugzilla.redhat.com/2574324
+    - https://bugzilla.redhat.com/2574325
+    - https://bugzilla.redhat.com/2574326
+    - https://bugzilla.redhat.com/2574327
+    - https://bugzilla.redhat.com/2574329
+    - https://bugzilla.redhat.com/2574330
+    - https://bugzilla.redhat.com/2574333
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114938
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114939
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114940
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114941
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114942
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114943
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
+    - https://errata.rockylinux.org/RLSA-2026:100567
+    - https://linux.oracle.com/cve/CVE-2026-114946.html
+    - https://linux.oracle.com/errata/ELSA-2026-100572.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114946
     - https://openjdk.org/groups/vulnerability/advisories/2026-11-17
     - https://ubuntu.com/security/notices/USN-9154-1
@@ -1393,10 +2181,14 @@
     - https://ubuntu.com/security/notices/USN-9156-1
     - https://ubuntu.com/security/notices/USN-9157-1
     - https://ubuntu.com/security/notices/USN-9158-1
+    - https://ubuntu.com/security/notices/USN-9178-1
+    - https://ubuntu.com/security/notices/USN-9179-1
+    - https://ubuntu.com/security/notices/USN-9180-1
+    - https://ubuntu.com/security/notices/USN-9181-1
     - https://www.cve.org/CVERecord?id=CVE-2026-114946
     - https://www.oracle.com/security-alerts/cspunov2026.html
     PublishedDate: '2026-11-17T22:18:24.793Z'
-    LastModifiedDate: '2026-11-17T22:18:24.793Z'
+    LastModifiedDate: '2026-11-19T21:17:43.107Z'
   - VulnerabilityID: CVE-2026-107496
     PkgID: openssl@3.5.9-r0
     PkgName: openssl
