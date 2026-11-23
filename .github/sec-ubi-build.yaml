@@ -1377,6 +1377,7 @@
     CweIDs:
     - CWE-567
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -1393,9 +1394,32 @@
         V3Score: 4.8
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/07/3
+    - https://access.redhat.com/errata/RHSA-2026:100685
     - https://access.redhat.com/security/cve/CVE-2025-14017
+    - https://bugzilla.redhat.com/2426408
+    - https://bugzilla.redhat.com/2427870
+    - https://bugzilla.redhat.com/2446448
+    - https://bugzilla.redhat.com/2446449
+    - https://bugzilla.redhat.com/2446450
+    - https://bugzilla.redhat.com/2461202
+    - https://bugzilla.redhat.com/2461204
+    - https://bugzilla.redhat.com/2461205
+    - https://bugzilla.redhat.com/2476979
+    - https://bugzilla.redhat.com/2496758
+    - https://bugzilla.redhat.com/2496759
+    - https://bugzilla.redhat.com/2496760
+    - https://bugzilla.redhat.com/2496763
+    - https://bugzilla.redhat.com/2496764
+    - https://bugzilla.redhat.com/2496765
+    - https://bugzilla.redhat.com/2496766
+    - https://bugzilla.redhat.com/2496767
+    - https://bugzilla.redhat.com/2496768
+    - https://bugzilla.redhat.com/2496769
+    - https://bugzilla.redhat.com/2496771
+    - https://bugzilla.redhat.com/2548642
     - https://curl.se/docs/CVE-2025-14017.html
     - https://curl.se/docs/CVE-2025-14017.json
+    - https://errata.almalinux.org/10/ALSA-2026-100685.html
     - https://github.com/advisories/GHSA-jh4h-2cg6-889h
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://ubuntu.com/security/notices/USN-8062-1
@@ -4875,7 +4899,7 @@
       PURL: pkg:rpm/redhat/gnupg2@2.3.3-5.el9_7?arch=x86_64&distro=redhat-9.9
       UID: 240a30318e9ab5ee
     InstalledVersion: 2.3.3-5.el9_7
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:343dba5577f380023fe55b6b3ee04ebc7ec6650d47dd304fdcce5377fb942ba3
       DiffID: sha256:3995552ef64c22d8484d3bd8b958f97c30f298e0c103012ff63517a1c9d2af9e
@@ -5031,7 +5055,7 @@
       PURL: pkg:rpm/redhat/gnutls@3.8.10-9.el9_8?arch=x86_64&distro=redhat-9.9
       UID: 30bdd8451b5a3325
     InstalledVersion: 3.8.10-9.el9_8
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:343dba5577f380023fe55b6b3ee04ebc7ec6650d47dd304fdcce5377fb942ba3
       DiffID: sha256:3995552ef64c22d8484d3bd8b958f97c30f298e0c103012ff63517a1c9d2af9e
@@ -6389,6 +6413,7 @@
     CweIDs:
     - CWE-567
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -6405,9 +6430,32 @@
         V3Score: 4.8
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/07/3
+    - https://access.redhat.com/errata/RHSA-2026:100685
     - https://access.redhat.com/security/cve/CVE-2025-14017
+    - https://bugzilla.redhat.com/2426408
+    - https://bugzilla.redhat.com/2427870
+    - https://bugzilla.redhat.com/2446448
+    - https://bugzilla.redhat.com/2446449
+    - https://bugzilla.redhat.com/2446450
+    - https://bugzilla.redhat.com/2461202
+    - https://bugzilla.redhat.com/2461204
+    - https://bugzilla.redhat.com/2461205
+    - https://bugzilla.redhat.com/2476979
+    - https://bugzilla.redhat.com/2496758
+    - https://bugzilla.redhat.com/2496759
+    - https://bugzilla.redhat.com/2496760
+    - https://bugzilla.redhat.com/2496763
+    - https://bugzilla.redhat.com/2496764
+    - https://bugzilla.redhat.com/2496765
+    - https://bugzilla.redhat.com/2496766
+    - https://bugzilla.redhat.com/2496767
+    - https://bugzilla.redhat.com/2496768
+    - https://bugzilla.redhat.com/2496769
+    - https://bugzilla.redhat.com/2496771
+    - https://bugzilla.redhat.com/2548642
     - https://curl.se/docs/CVE-2025-14017.html
     - https://curl.se/docs/CVE-2025-14017.json
+    - https://errata.almalinux.org/10/ALSA-2026-100685.html
     - https://github.com/advisories/GHSA-jh4h-2cg6-889h
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://ubuntu.com/security/notices/USN-8062-1
@@ -9667,7 +9715,6 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
     - https://access.redhat.com/errata/RHSA-2025:15699
-    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -9828,7 +9875,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/advisories/GHSA-r9fv-h47r-823f
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
@@ -10676,7 +10723,6 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
     - https://access.redhat.com/errata/RHSA-2025:15699
-    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -10837,7 +10883,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/advisories/GHSA-r9fv-h47r-823f
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
@@ -17515,12 +17561,13 @@
     - http://www.openwall.com/lists/oss-security/2025/06/04/1
     - http://www.openwall.com/lists/oss-security/2025/06/04/6
     - https://access.redhat.com/errata/RHSA-2025:12519
+    - https://access.redhat.com/errata/RHSA-2025:13604
     - https://access.redhat.com/security/cve/CVE-2024-47081
     - https://bugzilla.redhat.com/2371272
     - https://bugzilla.redhat.com/show_bug.cgi?id=2371272
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47081
-    - https://errata.almalinux.org/9/ALSA-2025-12519.html
+    - https://errata.almalinux.org/10/ALSA-2025-13604.html
     - https://errata.rockylinux.org/RLSA-2025:12519
     - https://github.com/advisories/GHSA-9hjg-9r4m-mvj7
     - https://github.com/psf/requests
@@ -17821,13 +17868,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:54481
     - https://access.redhat.com/errata/RHSA-2026:54484
     - https://access.redhat.com/security/cve/CVE-2026-45409
     - https://bugzilla.redhat.com/2485616
     - https://bugzilla.redhat.com/show_bug.cgi?id=2485616
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-45409
-    - https://errata.almalinux.org/9/ALSA-2026-54484.html
+    - https://errata.almalinux.org/10/ALSA-2026-54481.html
     - https://errata.rockylinux.org/RLSA-2026:54484
     - https://github.com/kjd/idna
     - https://github.com/kjd/idna/security/advisories/GHSA-65pc-fj4g-8rjx
