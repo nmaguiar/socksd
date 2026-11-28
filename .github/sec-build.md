@@ -12,16 +12,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107496 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a8ce0bdcbd51bbd1928737080ab7951b42b31b3f6978da23528fc
-│                       │      │                   ec17ed0697f 
+│                       │      ├ Fingerprint     : sha256:9a05f1e9739b648e0670e4e84cbf21f7b67f8ab9ac6fc132f94ca
+│                       │      │                   dcf47505068 
 │                       │      ├ Title           : openssl: openssl: Denial of Service via crafted EC
 │                       │      │                   certificate in CMS encryption 
 │                       │      ├ Description     : Issue summary: Encrypting a CMS message to an EC certificate
@@ -106,16 +106,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95691 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2b80cc850ab30400466591c54417cf8337017da57dfcaea30db35
-│                       │      │                   59e7270371e 
+│                       │      ├ Fingerprint     : sha256:0ee2f8b8894b53a6b7d2c2bfbb65a6072fb1677f5cfd833b82fdd
+│                       │      │                   bf6d0c7ee59 
 │                       │      ├ Title           : openssl: openssl: Denial of Service via overlapping QUIC
 │                       │      │                   CRYPTO frame processing 
 │                       │      ├ Description     : Issue summary: A retransmitted QUIC CRYPTO frame can release
@@ -180,16 +180,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95692 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c4b8d41fd5e781112d40cb9a152d692e102f5b5c41cebc6356637
-│                       │      │                   d58f633fc00 
+│                       │      ├ Fingerprint     : sha256:9deea3a363b6cb3d5b1b3d5b1be75004ef0155e8fe09c79aa9617
+│                       │      │                   5b6f24e0888 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service via out-of-bounds read
 │                       │      │                   in AES-GCM-SIV 
 │                       │      ├ Description     : Issue summary: Setting an AES-GCM-SIV IV shorter than the
@@ -274,16 +274,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-88822 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:578ed0296b1dd578988e5eaeb67be420054eed7c1b84cfe69d338
-│                       │      │                   97ae5afd4a6 
+│                       │      ├ Fingerprint     : sha256:daa8adbcadfe9dfd6b70cb327bc87a39b77d6b3f006d6cea0fa3d
+│                       │      │                   2a670d96eb6 
 │                       │      ├ Title           : openssl: openssl: Information disclosure via uninitialized
 │                       │      │                   memory in QUIC peer detection 
 │                       │      ├ Description     : Issue summary: QUIC, when performing automated peer
@@ -353,16 +353,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-88823 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:8763dc3c8466d070a8a5022f0858d576b24283d1a0f5dc03499ab
-│                       │      │                   5f9d64bf5e6 
+│                       │      ├ Fingerprint     : sha256:eb9d7f50a7a757eb4a3df449a09d6a5ef9c76067d78e57f236ed0
+│                       │      │                   ea66a637378 
 │                       │      ├ Title           : openssl: OpenSSL: Message authentication bypass via
 │                       │      │                   zero-length AAD update 
 │                       │      ├ Description     : Issue summary: The AES-GCM-SIV implementation treats a
@@ -432,16 +432,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107496 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:45cd5bfc41f76130d3382507994a0f47192a9457e93a64504830f
-│                       │      │                   15eed2fec76 
+│                       │      ├ Fingerprint     : sha256:250e81bbfc3e4c5fde3a11e3166f1e19ae92990545872001da945
+│                       │      │                   b28a2ded97c 
 │                       │      ├ Title           : openssl: openssl: Denial of Service via crafted EC
 │                       │      │                   certificate in CMS encryption 
 │                       │      ├ Description     : Issue summary: Encrypting a CMS message to an EC certificate
@@ -526,16 +526,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95691 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2581bb009e871d42608f1387d49d42dc8a253aeafb4892ecf19ed
-│                       │      │                   4b131ff8633 
+│                       │      ├ Fingerprint     : sha256:a6253e485a87c8e9ad169df991d478c2682cf9b303bc42984a36c
+│                       │      │                   3a90fccca44 
 │                       │      ├ Title           : openssl: openssl: Denial of Service via overlapping QUIC
 │                       │      │                   CRYPTO frame processing 
 │                       │      ├ Description     : Issue summary: A retransmitted QUIC CRYPTO frame can release
@@ -600,16 +600,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95692 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e9bf9cf73cf485ba6b85b44dbae3af8a9a68a09baf20841d6c5e4
-│                       │      │                   1aae4f91905 
+│                       │      ├ Fingerprint     : sha256:3478496e1f67c2ba33a2dff52ce74f8dc7888398468e34fa57982
+│                       │      │                   76106d844d3 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service via out-of-bounds read
 │                       │      │                   in AES-GCM-SIV 
 │                       │      ├ Description     : Issue summary: Setting an AES-GCM-SIV IV shorter than the
@@ -694,16 +694,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-88822 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c42d6bb3369b15b06d1fc288394595aa8064b8fee0a7748a66242
-│                       │      │                   8a440cf5e9e 
+│                       │      ├ Fingerprint     : sha256:d7e84f1bf40409a880120108e38b4c690e09081e8635b69a8d83c
+│                       │      │                   7cdd051c0f7 
 │                       │      ├ Title           : openssl: openssl: Information disclosure via uninitialized
 │                       │      │                   memory in QUIC peer detection 
 │                       │      ├ Description     : Issue summary: QUIC, when performing automated peer
@@ -773,16 +773,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-88823 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:260a3088432f6324f1826f0c2e1360d4314aea17dd2ec67cf2676
-│                       │      │                   399143cb957 
+│                       │      ├ Fingerprint     : sha256:99df1557e7c8c1ee5c228b46c4ccf4ff6be7a7f1df5333e96c70e
+│                       │      │                   8005c5dc27d 
 │                       │      ├ Title           : openssl: OpenSSL: Message authentication bypass via
 │                       │      │                   zero-length AAD update 
 │                       │      ├ Description     : Issue summary: The AES-GCM-SIV implementation treats a
@@ -852,16 +852,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107496 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c2551a54ffad94e7ee63bb885af901ca69e4c3404914d89c13384
-│                       │      │                   46985a7e21e 
+│                       │      ├ Fingerprint     : sha256:e478a490360a598b6c9c7b6e73639415065b8aa744c0721954e85
+│                       │      │                   91d4c8eab7c 
 │                       │      ├ Title           : openssl: openssl: Denial of Service via crafted EC
 │                       │      │                   certificate in CMS encryption 
 │                       │      ├ Description     : Issue summary: Encrypting a CMS message to an EC certificate
@@ -946,16 +946,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95691 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:40e77c5ceb0d1520030f79286ebbb4ef54af7cf6a17a7bcb7e734
-│                       │      │                   59e03d516b3 
+│                       │      ├ Fingerprint     : sha256:359837dd7a9486a3469490547876e2a1dd3a4bacee2f846186fd1
+│                       │      │                   5f63a8ad1ae 
 │                       │      ├ Title           : openssl: openssl: Denial of Service via overlapping QUIC
 │                       │      │                   CRYPTO frame processing 
 │                       │      ├ Description     : Issue summary: A retransmitted QUIC CRYPTO frame can release
@@ -1020,16 +1020,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95692 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:f9df6469abe5799f91f4164752ca971a701d38a50a2448b5daabc
-│                       │      │                   9a8c7c9960d 
+│                       │      ├ Fingerprint     : sha256:946775533f4fe2095627b100c821e7ac592d3268bf59e32afca9c
+│                       │      │                   2d2e04689b1 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service via out-of-bounds read
 │                       │      │                   in AES-GCM-SIV 
 │                       │      ├ Description     : Issue summary: Setting an AES-GCM-SIV IV shorter than the
@@ -1114,16 +1114,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-88822 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d31213d316d88832488544a4d8d33b5a6aec24e07094a4626054b
-│                       │      │                   129110aa70f 
+│                       │      ├ Fingerprint     : sha256:66c6bc2a4899c4244e1070227e2c270a00e6c797fe84432a65f62
+│                       │      │                   8801b9f2538 
 │                       │      ├ Title           : openssl: openssl: Information disclosure via uninitialized
 │                       │      │                   memory in QUIC peer detection 
 │                       │      ├ Description     : Issue summary: QUIC, when performing automated peer
@@ -1193,16 +1193,16 @@
 │                       │      ├ InstalledVersion: 3.5.9-r0 
 │                       │      ├ FixedVersion    : 3.5.9-r1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                       │      │                  │         8464aa6e058f44329bc0 
-│                       │      │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                       │      │                            36b69a896469f5c09f36 
+│                       │      ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                       │      │                  │         b12a38f23cb1c3680a84 
+│                       │      │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                       │      │                            e4a8cd078d20e9dc33a4 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-88823 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2a2148abaa7ab8e8ce112ec83ebb4fe80829cb8a0d05b47731fa3
-│                       │      │                   115d19843d2 
+│                       │      ├ Fingerprint     : sha256:0deb6c89462bd4f25ec2b25319df69ee09ae5ddad2d8143cae949
+│                       │      │                   29691ffaf5e 
 │                       │      ├ Title           : openssl: OpenSSL: Message authentication bypass via
 │                       │      │                   zero-length AAD update 
 │                       │      ├ Description     : Issue summary: The AES-GCM-SIV implementation treats a
@@ -1271,16 +1271,16 @@
 │                              ├ InstalledVersion: 1.3.2-r1 
 │                              ├ FixedVersion    : 1.4-r0 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:8eaf288e1d578bd03edaab66622706912849ea8050cf
-│                              │                  │         8464aa6e058f44329bc0 
-│                              │                  ╰ DiffID: sha256:2cd0c76a0badbf5ecb5f61c40582217ab4c2cca67851
-│                              │                            36b69a896469f5c09f36 
+│                              ├ Layer            ╭ Digest: sha256:1d38e2efa4c15953c314236bb63f0202ff2cba4d9c2f
+│                              │                  │         b12a38f23cb1c3680a84 
+│                              │                  ╰ DiffID: sha256:b734bf6f3c38b8eb54022b3a27269c98ed62b063fe61
+│                              │                            e4a8cd078d20e9dc33a4 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4738 
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:13b9a7991f4d107e40faa17f1b46356a9ee106a8ce209160129bd
-│                              │                   8b5c71c1e1d 
+│                              ├ Fingerprint     : sha256:1e8f6e82dea80b7ee953ef125f558f318adae0dd56cb619fe8fd2
+│                              │                   fd26c992447 
 │                              ├ Title           : Improper Restriction of Operations within the Bounds of a
 │                              │                   Memory Buffe ... 
 │                              ├ Description     : Improper Restriction of Operations within the Bounds of a
