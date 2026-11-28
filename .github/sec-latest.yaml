@@ -731,11 +731,15 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 3
       oracle-oval: 4
       redhat: 4
       rocky: 4
       ubuntu: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
       redhat:
         V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 9.8
@@ -743,7 +747,7 @@
     - http://www.openwall.com/lists/oss-security/2026/11/17/31
     - http://www.openwall.com/lists/oss-security/2026/11/19/5
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114938
     - https://access.redhat.com/security/cve/cve-2026-114938
     - https://bugzilla.redhat.com/2574227
@@ -778,7 +782,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://github.com/Azure/azure-functions-java-worker/issues/909
     - https://github.com/chainguard-dev/cg-skills/pull/17
@@ -828,17 +832,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 3
       oracle-oval: 4
       redhat: 3
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114939
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -869,7 +877,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114939.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -914,17 +922,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 3
       oracle-oval: 4
       redhat: 3
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114940
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -955,7 +967,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114940.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -1000,17 +1012,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 3
       oracle-oval: 4
       redhat: 3
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 7
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114941
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -1041,7 +1057,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114941.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -1082,17 +1098,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 3
       oracle-oval: 4
       redhat: 3
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 7
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114942
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -1123,7 +1143,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114942.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -1166,17 +1186,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 2
       oracle-oval: 4
       redhat: 2
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
         V3Score: 6.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114943
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -1207,7 +1231,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114943.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -1252,17 +1276,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 2
       oracle-oval: 4
       redhat: 2
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114944
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -1293,7 +1321,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114944.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -1338,17 +1366,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 2
       oracle-oval: 4
       redhat: 2
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114945
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -1379,7 +1411,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114945.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -1422,17 +1454,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 2
       oracle-oval: 4
       redhat: 2
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114946
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -1463,7 +1499,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114946.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -1508,11 +1544,15 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 3
       oracle-oval: 4
       redhat: 4
       rocky: 4
       ubuntu: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
       redhat:
         V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 9.8
@@ -1520,7 +1560,7 @@
     - http://www.openwall.com/lists/oss-security/2026/11/17/31
     - http://www.openwall.com/lists/oss-security/2026/11/19/5
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114938
     - https://access.redhat.com/security/cve/cve-2026-114938
     - https://bugzilla.redhat.com/2574227
@@ -1555,7 +1595,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://github.com/Azure/azure-functions-java-worker/issues/909
     - https://github.com/chainguard-dev/cg-skills/pull/17
@@ -1605,17 +1645,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 3
       oracle-oval: 4
       redhat: 3
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114939
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -1646,7 +1690,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114939.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -1691,17 +1735,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 3
       oracle-oval: 4
       redhat: 3
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114940
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -1732,7 +1780,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114940.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -1777,17 +1825,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 3
       oracle-oval: 4
       redhat: 3
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 7
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114941
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -1818,7 +1870,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114941.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -1859,17 +1911,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 3
       oracle-oval: 4
       redhat: 3
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 7
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114942
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -1900,7 +1956,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114942.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -1943,17 +1999,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 2
       oracle-oval: 4
       redhat: 2
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
         V3Score: 6.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114943
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -1984,7 +2044,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114943.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -2029,17 +2089,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 2
       oracle-oval: 4
       redhat: 2
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114944
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -2070,7 +2134,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114944.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -2115,17 +2179,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 2
       oracle-oval: 4
       redhat: 2
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114945
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -2156,7 +2224,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114945.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
@@ -2199,17 +2267,21 @@
     VendorSeverity:
       alma: 4
       amazon: 3
+      bitnami: 2
       oracle-oval: 4
       redhat: 2
       rocky: 4
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
     - https://access.redhat.com/errata/RHSA-2026:100567
-    - https://access.redhat.com/errata/RHSA-2026:100572
+    - https://access.redhat.com/errata/RHSA-2026:100571
     - https://access.redhat.com/security/cve/CVE-2026-114946
     - https://bugzilla.redhat.com/2574227
     - https://bugzilla.redhat.com/2574322
@@ -2240,7 +2312,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114944
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114945
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-114946
-    - https://errata.almalinux.org/10/ALSA-2026-100572.html
+    - https://errata.almalinux.org/9/ALSA-2026-100571.html
     - https://errata.rockylinux.org/RLSA-2026:100567
     - https://linux.oracle.com/cve/CVE-2026-114946.html
     - https://linux.oracle.com/errata/ELSA-2026-100572.html
